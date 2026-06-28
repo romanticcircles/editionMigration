@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Mahomet</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol13Rem3Mahomet1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Mahomet]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Mahomet, the Imposter;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By the Rev. Mr. Miller. As Performed at
+                     the Theatre Royal, Drury Lane. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Miller, James, 1706-1744</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241104" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#Muhammad"
+                        >Mahomet</ref></title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#Muhammad"
+                                 >Mahomet</ref></title>, the Imposter; A Tragedy, In Five Acts; By
+                              the <ref target="people.html#MillerJames">Rev. Mr. Miller</ref>. As
+                              Performed at the Theatre Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref>. Printed Under the Authority of the Managers From
+                              the Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XIII. <hi
+                           rendition="#italics">
+                           <title>Love for Love</title></hi>. <hi rendition="#italics"
+                              ><title>Mourning Bride</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Muhammad"
+                           >Mahomet</ref></title></hi>. <hi rendition="#italics"><title>Tancred and
+                              Sigismunda</title></hi>. <hi rendition="#italics"><title>Suspicious
+                              Husband</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on April 25<hi rendition="#sup">th</hi>, 1744. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>This tragedy is a translation from the French,<note>This play was inspired by <ref
+                     target="people.html#Voltaire">Voltaire</ref>'s 1741 tragedy <hi
+                     rendition="#italics"><title><ref target="people.html#Muhammad"
+                        >Mahomet</ref></title></hi>.</note> by the <ref
+                  target="people.html#MillerJames">Rev. James Miller</ref>, who possessed the living
+               of Upcerne, in Dorsetshire. He was a very extraordinary man&#8212;a political writer,
+               who refused a large bribe, to abandon his opinions, and favour ministers of
+                     state.<note><ref target="people.html#MillerJames">Miller</ref> was given the
+                  rectorship of Upcerne, a hamlet in the ceremonial county Dorset in Southwest
+                  England, in 1743. The Church provided <ref target="people.html#MillerJames"
+                     >Miller</ref> with this assignment to deter him from his career as a
+                  playwright, as his plays up to this point were controversial in their portrayals
+                  of the Church and the government. This attempt was unsuccessful, however, as <ref
+                     target="people.html#MillerJames">Miller</ref> kept a room in London and
+                  continued writing plays, including the present one.</note></p>
+
+            <p>A second instance of political firmness is connected with this drama. On its first
+               representation, on the Dublin stage, a few sentences in the part of Alcanor, had such
+               accidental allusion to some great men, or man, then in power in that nation, that the
+               audience, enraptured upon the utterance, and willing to show their own implication,
+               encored those lines with such unanimous vehemence, that the performer thought it his
+               duty to repeat them, in compliance with their desire.<note>Alcanor is a senator of
+                  Mecca whose first speeches in the play convey his outrage at the imposition of the
+                     <ref target="people.html#Muhammad">Mahometan</ref> religion upon the city and
+                  its government. Upon its first staging at the Smock Alley Theatre in Dublin,
+                  Ireland in 1754, the audience called for an encore of these speeches, moved by the
+                  similarity of the situations in Mecca and Ireland. <ref
+                     target="people.html#DiggesWest">West Digges</ref>, the actor playing Alcanor,
+                  complied.</note></p>
+
+            <p>The late <ref target="people.html#SheridanThomas">Mr. Sheridan</ref>, father of <ref
+                  target="people.html#SheridanRichard">the author of "<title>The School for
+                     Scandal</title></ref>,"<note><hi rendition="#italics"><title>The School for
+                        Scandal</title></hi> is a comedy of manners play written by <ref
+                     target="people.html#SheridanRichard">Richard Brinsley Sheridan</ref>, first
+                  performed in 1777.</note> was, at that time, manager of the theatre of Dublin, in
+               which adventure, all his property, all his hopes, were embarked; yet, he boldly
+               censured the actor, who had yielded to the command of the audience, and forbade a
+               repetition of <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>any
+               speech in the part of Alcanor, however loudly it might be called for, on the
+               following night.</p>
+
+            <p><ref target="people.html#SheridanThomas">Mr. Sheridan</ref> knew the predicament in
+               which he was placed; he knew the fury of an exasperated audience in Ireland&#8212;he
+               knew their power over all his possessions; yet, firm in his politics, he beheld, on
+               the next evening, his theatre totally demolished, and his own life in danger, without
+               revoking the peremptory order he had issued.<note>Prior to the play's second
+                  performance, <ref target="people.html#SheridanThomas">Thomas Sheridan</ref>, then
+                  the manager of the Smock Alley Theatre, ordered <ref
+                     target="people.html#DiggesWest">Digges</ref> to ignore any calls for encore.
+                     <ref target="people.html#DiggesWest">Digges</ref> obeyed, refusing to repeat
+                  his lines after calls for encore during his first scene. The audience took this as
+                  an affront to the Irish patriot movement and began to riot. It is believed that
+                     <ref target="people.html#SheridanThomas">Sheridan</ref>, though Irish himself,
+                  aligned with the politics of the English courtiers rather than the Irish patriots.
+                  However, <ref target="people.html#SheridanThomas">Sheridan</ref> remained
+                  purposefully ambiguous in his political stance in attempt to avoid alienating both
+                  the Irish patriots who served as audience of the theatre he managed as well as the
+                  English crown who still ruled Ireland.</note></p>
+
+            <p>But upon higher ground is this tragedy worthy of note: it is, in the original, the
+               production of <ref target="people.html#Voltaire">Voltaire</ref>&#8212;has deep
+               interest&#8212;and some of the happiest thoughts of that celebrated writer are here
+               delivered by the renowned, or affecting personages introduced; whilst tumultuous
+               passions, of various tendency, give energy to every sentence.</p>
+
+            <p>The action of this drama commences just a few years after the foundation of the <ref
+                  target="people.html#Muhammad">Mahometan</ref> empire; and, as there are many
+               allusions in the course of the work to the preceding part of the <ref
+                  target="people.html#Muhammad">Imposter</ref>'s life, a short detail from history,
+               of previous events, may enliven the reader's memory, and increase his attention to
+               the scenes which follow.</p>
+
+            <p><ref target="people.html#Muhammad">Mahomet</ref>, the founder of a religion, which
+               soon became, and still continues to be, the prevailing religion of the East, was born
+               in 570, at Mecca, a city of Arabia. His parents were poor, and, having both died in
+               his early age, the guardianship of their orphan devolved on an uncle, who employed
+               him to go with his caravans, from Mecca to Damascus.<note><ref
+                     target="people.html#Muhammad">Muhammad</ref>, indeed born in Mecca, was raised
+                  by his paternal grandfather and uncle following the deaths of his parents. Another
+                  uncle provided <ref target="people.html#Muhammad">Muhammad</ref> with employment
+                  leading caravans from Mecca to Syria in his youth.</note></p>
+
+            <p>In this employment of camel-driver, <ref target="people.html#Muhammad">Mahomet</ref>
+                  con-<pb n="5"/>tinued till he was twenty-eight years of age, when he married a
+               rich widow.<note>At the age of 25, <ref target="people.html#Muhammad">Muhammad</ref>
+                  became employed as a caravan driver by <ref target="people.html#Khadijah"
+                     >Khadijah</ref>, a wealthy, twice-widowed merchant. As tradition goes, <ref
+                     target="people.html#Khadijah">Khadijah</ref> was so impressed with <ref
+                     target="people.html#Muhammad">Muhammad</ref> that she proposed marriage.</note>
+               Whether riches first inspired him with ambition, or ambition had induced him to marry
+               for wealth, has not been determined; but, no sooner did he find himself elevated
+               above his original rank in society, than he formed the mighty plan of subjugating the
+               whole Eastern world to his dominion.</p>
+
+            <p><ref target="people.html#Muhammad">Mahomet</ref>, perhaps, falsely conceived, that
+               imposition was the basis, on which all governments were built; and that, instead of
+               being singular in his conduct, he merely followed the examples of other law-givers,
+               when he became sanctified in appearance, and when he boldly spoke of prodigies, by
+               which he was invested with sovereign power from Heaven, both as a king and
+               prophet.</p>
+
+            <p>Whatever were his notions of past events, he formed an accurate judgment of the
+               future&#8212;he foresaw that an imposter might be obeyed&#8212;adored;&#8212;and that
+               no extravagance of mystery or miracle, was too wonderful, or too ridiculous, for a
+               people's belief.</p>
+
+            <p>Though <ref target="people.html#Muhammad">Mahomet</ref> was too illiterate to write
+               his own sacred laws in his divine book, the Koran, he possessed the knowledge to tell
+               a surprising tale of its being entrusted to his hands by an Angel from
+               heaven;&#8212;which incredible occurrence had more power in gaining him proselytes,
+               than all the moral precepts gathered from the jewish and christian scriptures, with
+               which the learned men whose services he purchased, had adorned this
+                  work.<note>According to Islamic tradition, the Quran was orally and incrementally
+                  revealed to <ref target="people.html#Muhammad">Muhammad</ref> through the angel
+                  Gabriel. Tradition dictates that several of <ref target="people.html#Muhammad"
+                     >Muhammad</ref>'s companions served as scribes to record the revelations.
+                  Following <ref target="people.html#Muhammad">Muhammad</ref>'s death, <ref
+                     target="people.html#AbuBakr">Abu Bakr</ref> ordered <ref
+                     target="people.html#Muhammad">Muhammad</ref>'s companions to compile the
+                  revelations into the Quran. The Quran contains references to more than fifty
+                  events and people in the Bible, as well as alternative accounts of Biblical
+                  narratives.</note></p>
+
+            <p>No sooner was the supposed prophet followed, and <fw type="sig"><hi
+                     rendition="#smcaps">b 3</hi></fw><pb n="6"/>his creed accepted by the poor and
+               ignorant, than, like most innovators, he was accused of profanation, by the rich and
+               the wise.&#8212;To escape the punishment of the enraged senate at Mecca, he took
+               refuge in Medina; there, first established his temporal, as well as his spiritual
+               power, and taught, that his doctrines were to be enforced by the sword.<note>As
+                  tradition dictates, in 619, <ref target="people.html#Muhammad">Muhammad</ref>'s
+                  clan in Mecca withdrew their protection pact, leaving <ref
+                     target="people.html#Muhammad">Muhammad</ref> vulnerable to attack without fear
+                  of retribution. As resistance to his proselytism in Mecca had been growing, <ref
+                     target="people.html#Muhammad">Muhammad</ref> secured protection from two tribes
+                  in the oasis town of Medina, allowing he and his followers to relocate. In the
+                  following years, the Muslims became engaged in a series of battles with both
+                  Meccans and the Jewish tribes in Medina. The attempts to dislodge <ref
+                     target="people.html#Muhammad">Muhammad</ref> were unsuccessful, and the Muslims
+                  ultimately made the pilgrimage back to Mecca in 628. The Meccans, determined to
+                  prevent the immediate entrance of Muslims into the city, signed a treaty with <ref
+                     target="people.html#Muhammad">Muhammad</ref> dictating that current hostilities
+                  would cease and Muslims would be allowed to reenter the city in 629. <ref
+                     target="people.html#Muhammad">Muhammad</ref> and his followers made the
+                  stipulated pilgrimage once again in 629; however, the Muslims were attacked by
+                  Meccan allies, resulting in <ref target="people.html#Muhammad">Muhammad</ref>
+                  rejecting the treaty and retreating to gather his forces. In 630, <ref
+                     target="people.html#Muhammad">Muhammad</ref> marched on Mecca with a
+                  considerable army, and the town surrendered.</note></p>
+
+            <p>Mecca, and all the jewish Arabs, were the first who experienced the cruel progress of
+               the <ref target="people.html#Muhammad">Impostor</ref>'s faith. In vanquishing all
+               Arabia, twice he besieged the city of his birth-place, some years elapsing between
+               the attacks.&#8212;On his second assault upon Mecca it is, that this tragedy opens,
+               with one of its first citizens and senators&#8212;Alcanor.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

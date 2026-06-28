@@ -1,0 +1,29 @@
+
+  { "stem" : "color",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "colorful",
+            "weight" : "1",
+            "pos" : 38804,
+            "context" : "...Sir Thomas Overbury (1724). Savage lived a <mark>colorful<\/mark> life marked, among other events, by a..." },
+          
+          { "form" : "colorful",
+            "weight" : "1",
+            "pos" : 45665,
+            "context" : "...Philip, Duke of Wharton. After a rather <mark>colorful<\/mark> youth, Thomas Wharton rose to political influence in..." } ] },
+      
+      { "docId" : "JewsburyAustenRev1831",
+        "docUri" : "JewsburyAustenRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "color",
+            "weight" : "1",
+            "pos" : 1281,
+            "context" : "...popular Ladies' Monthly Museum featured \"The Mirror of Fashion\" <mark>color<\/mark> plates of the latest clothing styles for women....",
+            "fid" : "note11" } ] } ] }

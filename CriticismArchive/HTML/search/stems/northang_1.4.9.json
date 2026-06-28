@@ -1,0 +1,29 @@
+
+  { "stem" : "northang",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Northanger",
+            "weight" : "1",
+            "pos" : 1796,
+            "context" : "...Mansfield Park (1814), Emma (1816), <mark>Northanger<\/mark> Abbey (1818), and Persuasion (1818)...." },
+          
+          { "form" : "Northanger",
+            "weight" : "1",
+            "pos" : 26386,
+            "context" : "...to peruse with Catherine Morland in Jane Austen's <mark>Northanger<\/mark> Abbey (1818). Men and Manners (1799..." } ] },
+      
+      { "docId" : "JewsburyAustenRev1831",
+        "docUri" : "JewsburyAustenRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Northanger",
+            "weight" : "1",
+            "pos" : 1150,
+            "context" : "3.  See Austen's <mark>Northanger<\/mark> Abbey, Chapter 14 for her ironic use of...",
+            "fid" : "note3" } ] } ] }

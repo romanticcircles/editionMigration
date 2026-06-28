@@ -1,0 +1,35 @@
+
+  { "stem" : "fetch",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fetched",
+            "weight" : "1",
+            "pos" : 36120,
+            "context" : "...he authored several works, including the far-<mark>fetched<\/mark> yet very successful An historical and geographical description of..." } ] },
+      
+      { "docId" : "InchbaldVol8Rem2Inconstant1808",
+        "docUri" : "InchbaldVol8Rem2Inconstant1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fetches",
+            "weight" : "1",
+            "pos" : 595,
+            "context" : "..., Oriana, disguised as a servant boy, <mark>fetches<\/mark> help in time to save young Mirabel, thereby...",
+            "fid" : "note6" } ] },
+      
+      { "docId" : "ShelleyEngInItaly1826",
+        "docUri" : "ShelleyEngInItaly1826.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fetching",
+            "weight" : "1",
+            "pos" : 1931,
+            "context" : "...; in an evening they are seen returning from <mark>fetching<\/mark> water at the spring, bearing their pitchers of...",
+            "fid" : "para22" } ] } ] }

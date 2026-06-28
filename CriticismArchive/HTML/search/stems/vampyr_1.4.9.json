@@ -1,0 +1,29 @@
+
+  { "stem" : "vampyr",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Vampyre",
+            "weight" : "1",
+            "pos" : 35522,
+            "context" : "...creator of modern vampire fiction with his work \"The <mark>Vampyre<\/mark>.\" John Polidori was Lord Byron's personal physician..." },
+          
+          { "form" : "Vampyre",
+            "weight" : "1",
+            "pos" : 35573,
+            "context" : "...father to John William Polidori, author of The <mark>Vampyre<\/mark>, and grandfather to Dante Gabriel and Christina Rossetti..." } ] },
+      
+      { "docId" : "ShelleyIllyrianPoems1829",
+        "docUri" : "ShelleyIllyrianPoems1829.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vampyrism",
+            "weight" : "1",
+            "pos" : 1139,
+            "context" : "...interesting parts of this book is an account of <mark>Vampyrism<\/mark>, and a detail of the death of a...",
+            "fid" : "para104" } ] } ] }

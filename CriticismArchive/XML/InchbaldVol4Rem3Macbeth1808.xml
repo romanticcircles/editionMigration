@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Macbeth</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol4Rem3Macbeth1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Macbeth]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Macbeth;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By William Shakspeare. As Performed at
+                     the Theatres Royal, Covent Garden and Drury Lane. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IV. King Lear. Cymbeline. Macbeth. Julius Cæsar.
+                     Anthony and Cleopatra. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">4</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240830" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#Macbeth">Macbeth</ref></title></hi>].
+                        <note>"Remarks." <hi rendition="#italics"><title><title><ref
+                                    target="people.html#Macbeth">Macbeth</ref></title>; A Tragedy,
+                              In Five Acts; By <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>,
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-5. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. IV. <hi
+                           rendition="#italics"><title><ref target="people.html#LearKingofBritain"
+                                 >King Lear</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#Cunobelinus">Cymbeline</ref></title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#Macbeth"
+                                 >Macbeth</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#CaesarJulius">Julius Cæsar</ref></title></hi>.
+                           <hi rendition="#italics"><title><ref target="people.html#AntoniusMarcus"
+                                 >Antony</ref> and <ref
+                                 target="people.html#CleopatraVIIQueenofEgypt"
+                              >Cleopatra</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged at the Globe Theatre in 1606. Laura DeWitt and Mary A. Waters
+                        edited this essay for <hi rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>In this grand tragic opera is combined that which is terrific, sublime, infernal.
+               Spirits are called from the bottomless pit, to give additional horror to the crimes
+               which are here perpetrated. Yet supernatural agency is produced and conducted by such
+               natural means, that spectators return again to their childish credulity, and tremble,
+               as in the nursery, at a witch and a goblin. </p>
+
+            <p>It is impossible to contemplate the consistent disposition of able actors, of
+               appropriate habiliments, and of picturesque scenery, with which this tragedy is now
+               embellished, at the London theatres, and not boldly demand&#8212;where was <ref
+                  target="people.html#GarrickDavid">Garrick</ref>'s taste, his innovating judgment,
+               his common sense, and common feelings, as a connoisseur in his art, that he could
+               perform this historical tragedy<note>In 1744, <ref target="people.html#GarrickDavid"
+                     >David Garrick</ref> assumed the role of <ref target="people.html#Macbeth"
+                     >Macbeth</ref>, advertising his performance to be "as <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref> wrote it," rather
+                  than the then-standard version adapted by <ref
+                     target="people.html#DavenantWilliam">Sir William Davenant</ref>. However, <ref
+                     target="people.html#GarrickDavid">Garrick</ref>'s claim was misleading, as he
+                  retained many of <ref target="people.html#DavenantWilliam">Davenant</ref>'s
+                  popular changes and added a lengthy monologue for <ref
+                     target="people.html#Macbeth">Macbeth</ref> which he himself
+                  wrote.</note>&#8212;<ref target="people.html#Macbeth">Macbeth</ref>, of ancient
+               Scotland&#8212;with the characters dressed in coats, waistcoats, and hats, so as to
+               place the scene in modern times, or every scene in England.</p>
+
+            <p><ref target="people.html#GarrickDavid">Garrick</ref> had taste, it is said; and so,
+               they say, had his admirers: yet, taste like this, would be now exploded.&#8212;So, it
+               might be insinuated, perhaps, would be the acting of those days, could it have been
+                  pre-<fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>served, along
+               with the old attire, for the inspection of critics of the present era.</p>
+
+            <p>On this impossibility the actor's art triumphs over, yet sinks beneath, every other.
+               He has no rivals to vanquish, but cotemporaries. He has no former artists to excel,
+               but such as cannot come forth to claim the preference, or to crouch to superior
+               skill.</p>
+
+            <p>The story of <ref target="people.html#Macbeth">Macbeth</ref> is founded on Scottish
+               history, and may be traced in the works of many writers. But, in a production called
+                     "<title><ref target="people.html#ShakespeareWilliam">Shakspeare</ref>
+                  Illustrated</title>,"<note><hi rendition="#italics"><title>The Whole Historical
+                        Dramas of <ref target="people.html#ShakespeareWilliam">William
+                           Shakspeare</ref> Illustrated, by an Assemblage of Portraits of the Royal,
+                        Noble, and Other Persons Mentioned, Together with Those of Commentators,
+                        Actors, and Views of Castles, Towns, &amp;c., (Engraved by Harding) with
+                        Short Biographical and Topographical Accounts</title></hi> (1793).</note>
+               every event of that usurper's life is collected from different histories, and given
+               at large.</p>
+
+            <p>So conspicuous are the various excellencies contained in this tragedy, there is no
+               cause whatever to point them out to the reader; for, if he cannot see them at once,
+               it is vain to direct his sight.</p>
+
+            <p>But to those, who are unacquainted with the effect wrought by theatrical action and
+               decoration, it may not be superfluous to say&#8212;The huge rocks, the enormous
+               caverns, and blasted heaths of Scotland, in the scenery;&#8212;the highland warrior's
+               dress, of centuries past, worn by the soldiers and their generals;&#8212;the splendid
+               robes and banquet at the royal court held at Fores;<note>Castle Forres is the home of
+                  Duncan, King of Scotland prior to his murder by Macbeth.</note>&#8212;the awful,
+               yet inspiring music, which accompanies words assimilated to each sound;&#8212;and,
+               above all&#8212;the fear, the terror, the remorse;&#8212;the agonizing throbs and
+               throes, which speak in looks, whispers, sudden starts, and writhings, by <ref
+                  target="people.html#KembleJohn">Kemble</ref> and <ref
+                  target="people.html#SiddonsSarah">Mrs. Siddons</ref>, all tending to one great
+                  precept&#8212;<hi rendition="#italics">Thou shalt not murder</hi>,&#8212;render
+               this play one of the most impressive moral lessons which the stage exhibits.</p>
+            <pb n="5"/>
+
+            <p>It was the tragedy of <title><ref target="people.html#Macbeth">Macbeth</ref></title>,
+               which conferred upon <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>
+               the distinguished honour of receiving a letter, written with his sovereign's own
+               hand, <ref target="people.html#JamesIKingofEngland">James the First</ref>, in
+               testimony of his high admiration of the work!<note>It is believed that <hi
+                     rendition="#italics"><title><ref target="people.html#Macbeth"
+                        >Macbeth</ref></title></hi> was written, in part, as a form of flattery to
+                     <ref target="people.html#JamesIKingofEngland">King James I</ref>, who was a
+                  patron of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s acting
+                  company. <hi rendition="#italics"><title><ref target="people.html#Macbeth"
+                           >Macbeth</ref></title></hi> played to <ref
+                     target="people.html#JamesIKingofEngland">James</ref>' Scottish heritage,
+                  support of witch trials, and particular detestation for regicide following the
+                  Gunpowder Plot of 1605 (an unsuccessful attempt on <ref
+                     target="people.html#JamesIKingofEngland">James</ref>' life). <ref
+                     target="people.html#JamesIKingofEngland">James</ref> also believed himself to
+                  be a descendent of Banquo, a Scottish general in the army of Duncan, King of
+                  Scotland.</note></p>
+
+            <p><ref target="people.html#SteevensGeorge">Steevens</ref> calls this play, "The first
+               of all dramatic enjoyments."<note>From <hi rendition="#italics"><title>The Plays of
+                           <ref target="people.html#ShakespeareWilliam">William Shakspeare</ref>,
+                        With the Corrections and Illustrations of Various Commentators</title></hi>
+                  (1793), vol. 7, p. 322.</note></p>
+
+            <p><ref target="people.html#JohnsonSamuel">Johnson</ref> says, in apology for some
+               occurrences contained in it, "I know not whether it may not be said, in defence of
+               some parts which now seem improbable, that, in <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>'s time, it was necessary
+               to warn credulity against vain and delusive predictions."<note>From <hi
+                     rendition="#italics"><title>The Plays of <ref
+                           target="people.html#ShakespeareWilliam">William Shakespeare</ref>, With
+                        the Corrections and Illustrations of Various Commentators</title></hi>
+                  (1765), vol. 6, p. 484.</note></p>
+            <fw type="sig">
+               <hi rendition="#smcaps">b 3</hi>
+            </fw>
+         </div>
+      </body>
+   </text>
+</TEI>

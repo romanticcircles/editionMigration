@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Distressed Mother</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol7Rem3DistressedMother1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Distressed Mother]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Distressed Mother;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Ambrose Philips. As Performed at the
+                     Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VII. Isabella. Oroonoko. Distressed Mother. Zara.
+                     Gustavus Vasa.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">7</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Philips, Ambrose, 1674-1749</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240915" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Distressed Mother</title></hi>]. <note>"Remarks." <hi
+                           rendition="#italics"><title><title>The Distressed Mother</title>; A
+                              Tragedy, In Five Acts; By <ref target="people.html#PhilipsAmbrose"
+                                 >Ambrose Philips</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref> and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row, pp. 3-5. <hi rendition="#italics"><title level="m">The
+                              British Theatre; or, A Collection of Plays, Which Are Acted At the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>,
+                                 <ref target="people.html#CoventGarden">Covent Garden</ref>, and
+                                 <ref target="people.html#Haymarket">Haymarket</ref>. Printed Under
+                              the Authority of the Managers from the Prompt Books. With Biographical
+                              and Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VII. <hi
+                           rendition="#italics">
+                           <title>Isabella</title></hi>. <hi rendition="#italics"
+                              ><title>Oroonoko</title></hi>. <hi rendition="#italics"
+                              ><title>Distressed Mother</title></hi>. <hi rendition="#italics"
+                              ><title>Zara</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GustavIKingofSweden">Gustavus
+                              Vasa</ref></title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on March 17<hi rendition="#sup">th</hi>, 1712. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>This tragedy is a translation from <ref target="people.html#RacineJean"
+                  >Racine</ref>,<note>French dramatist <ref target="people.html#RacineJean">Jean
+                     Racine</ref>'s 1667 play, <hi rendition="#italics"><title><ref
+                           target="people.html#Andromache">Andromaque</ref></title></hi>, was the
+                  source of <ref target="people.html#PhilipsAmbrose">Ambrose Philips</ref>' <hi
+                     rendition="#italics"><title>The Distressed Mother</title></hi>.</note> a French
+               poet of the highest celebrity, who lived in the reign of <ref
+                  target="people.html#LouisXIVKingofFrance">Lewis the Fourteenth</ref>; and who, in
+               the possession of wealth, and the enjoyment of fame, died of chagrin, occasioned by
+               the king's displeasure at a memorial he addressed to his majesty, written with
+               infinite eloquence, upon the miseries of the people.<note>Apocryphal. <ref
+                     target="people.html#RacineJean">Racine</ref> died of liver cancer in
+                  1699.</note></p>
+            <p><ref target="people.html#PhilipsAmbrose">Ambrose Philips</ref>, the translator of
+               this favourite play, has been more successful than dramatic translators generally
+               are. The French and the English stages differ so essentially, that every drama
+               requires great alteration, before it can please a London audience, although it has
+               previously charmed the audience of Paris.</p>
+            <p>The gloomy mind of a British auditor demands a bolder and more varied species of
+               theatrical amusement, than the lively spirits of his neighbours in France. The former
+               has no attention, no curiosity, till roused by some powerful fable, intricate
+               occurrences, and all the interest which variety creates&#8212;whilst the latter will
+               quietly sit, absorbed in their own glowing fancy, to hear speeches after speeches, of
+               long narration, nor wish to see any thing performed, so they are but told, that
+               something has been done.<lb/><fw type="sig"><hi rendition="#smcaps">b 2</hi></fw></p>
+            <pb n="4"/>
+            <p>"<title>The Distressed Mother</title>" partakes of the common quality of French
+               dramas in this respect&#8212;much more is described to the audience than they see
+               executed: but every recital is here in the highest degree interesting; and the
+               dignity of the persons introduced on the stage seems to forbid all violence of
+               action, which might endanger their respective grandeur.</p>
+            <p>The mere falling on the knee, by <ref target="people.html#Andromache"
+                  >Andromache</ref>, when she exclaims to her victor&#8212; <quote>Behold how low
+                  you have reduc'd a queen!<note>Act III, scene i. (p. 34 in the 1808
+                  ed.).</note></quote> is perhaps more affecting, more admirable, in the character
+               of a mother, haughty, like the <ref target="people.html#Andromache">Queen of the
+                  Trojans</ref>, than any event which could have occurred in the play, than any
+               heroic deed which, either in grief or in rage, she could have performed.</p>
+            <p>The love of Hermione for Pyrrhus,<note>Hermione, the daughter of <ref
+                     target="people.html#Helen">Helen</ref> and Menelaus, king of Sparta, is
+                  betrothed to Pyrrhus, king of Epirus and son of <ref target="people.html#Achilles"
+                     >Achilles</ref>.</note> founded on ambition, is, again, as natural a
+               representation of that love, which but too often governs the heart of woman, as could
+               be given: and <ref target="people.html#Orestes">Orestes</ref>, doting with fondness,
+               the more he finds she, whom he loves, loves another, is equally as true a picture of
+               this well-known passion, as it rules over the heart of man.<note><ref
+                     target="people.html#Orestes">Orestes</ref> is cousin to Hermione and son of
+                     <ref target="people.html#Agamemnon">Agamemnon</ref>, king of Mycenae and
+                  brother of Menelaus. Hermione was promised to both Pyrrhus and <ref
+                     target="people.html#Orestes">Orestes</ref> but ultimately marries Pyrrhus who,
+                  much to Hermione's chagrin, also takes <ref target="people.html#Andromache">
+                     Andomache</ref> as his concubine. Following the death of Pyrrhus, Hermione
+                  marries <ref target="people.html#Orestes">Orestes</ref>.</note></p>
+            <p>Frequently as this tragedy has been acted, and much as it has been approved by an
+               English audience, it will still gain more favour with a reader than a spectator.
+               Imagination can give graces, charms, and majesty, to <ref target="people.html#Hector"
+                  >Hector</ref>'s widow, and all the royal natives of Troy and Greece, which their
+               representatives cannot always so completely bestow; and, as the<pb n="5"/> work is
+               chiefly narrative, reading answers the same purpose as to listen.</p>
+            <p>The attraction of this play, on its first appearance in England, was, by some
+               critics, ascribed to the exertions of the translator’s friends. <ref
+                  target="people.html#SteeleRichard">Steele</ref>, who wished well to <ref
+                  target="people.html#PhilipsAmbrose">Philips</ref>, devoted a whole paper of his
+                  "<title>Spectator</title>" to the praise of the piece, even before it was
+                     acted;<note><hi rendition="#italics"><title>The Spectator</title></hi> issue
+                  number 290 was dedicated to the advertisement of <hi rendition="#italics"
+                        ><title>The Distressed Mother</title></hi> on Friday, February 1,
+                  1712.</note> and continued his encomiums afterwards, to the no small reputation of
+               the English author.</p>
+            <p>This <ref target="people.html#PhilipsAmbrose">Ambrose Philips</ref> was a gentleman
+               well known for having a number of warm friends, and implacable enemies; and it is
+               supposed that the imprudent eulogiums of the one often did him as much injury, as the
+               malicious animadversions of the other.<note>While <ref
+                     target="people.html#PhilipsAmbrose">Philips</ref> held close friendships with
+                     <ref target="people.html#SteeleRichard">Richard Steele</ref> and <ref
+                     target="people.html#AddisonJoseph">Joseph Addison</ref>, he was also known for
+                  his feuding with other poets such as <ref target="people.html#PopeAlexander"
+                     >Alexander Pope</ref> and <ref target="people.html#CareyHenry">Henry
+                     Carey</ref>. After <ref target="people.html#PhilipsAmbrose">Philips</ref> was
+                  praised in <hi rendition="#italics"><title>The Spectator</title></hi>, <ref
+                     target="people.html#PopeAlexander">Pope</ref> retaliated out of jealousy with
+                  an anonymous contribution to the newspaper <hi rendition="#italics"><title>The
+                        Guardian</title></hi>. Additionally, upon <ref
+                     target="people.html#PopeAlexander">Pope</ref>'s request, <ref
+                     target="people.html#GayJohn">John Gay</ref> published a burlesque of <ref
+                     target="people.html#PhilipsAmbrose">Philips</ref>' pastorals in <hi
+                     rendition="#italics"><title>Shepherd's Week</title></hi>, but the parody was
+                  praised for the simplicity it intended to ridicule in <ref
+                     target="people.html#PhilipsAmbrose">Philips</ref>' work.</note> The writers in
+                  "<title>The Spectator</title>" were, however, of too judicious a class to praise
+               him into ridicule without intending it; and, no doubt, they aided the popularity of
+               his play.</p>
+            <p>But with all the reputation <ref target="people.html#PhilipsAmbrose">Mr.
+                  Philips</ref> acquired by "<title>The Distressed Mother</title>," and two other
+               tragedies, of which he was the original author, his name is better known to the world
+               as a pastoral poet, than as a dramatist. He is still more remembered as the pretended
+               rival of <ref target="people.html#PopeAlexander">Pope</ref> in his rural poetry; and
+               as a man whom <ref target="people.html#PopeAlexander">Pope</ref> hated, even beyond
+               his ordinary bounds of pettish spleen.</p>
+            <p>The paper war, which <ref target="people.html#PhilipsAmbrose">Mr. Ambrose
+                  Philips</ref> held, through life, with his literary antagonists, did not, however,
+               shorten his days; for he survived every effort of his enemies to make his existence
+               burthensome, till the age of seventy-eight,&#8212;and died in 1749.<note><ref
+                     target="people.html#PhilipsAmbrose">Philips</ref> died in 1749 at the age of 74
+                  or 75.</note></p>
+            <lb/>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

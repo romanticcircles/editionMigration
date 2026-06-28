@@ -1,0 +1,36 @@
+
+  { "stem" : "joe",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Joe",
+            "weight" : "1",
+            "pos" : 30839,
+            "context" : "...titled Harlequin Horace. [GR] Miller, <mark>Joe<\/mark>, 1684-1738 (Library of Congress Name...",
+            "fid" : "MillerJoe" },
+          
+          { "form" : "Joe",
+            "weight" : "1",
+            "pos" : 30855,
+            "context" : "...a London comic actor whose humor inspired the compilation <mark>Joe<\/mark> Miller's Jests: or, the Wit's Vade-Mecum..." },
+          
+          { "form" : "Joe",
+            "weight" : "1",
+            "pos" : 32556,
+            "context" : "...the pseudonyms Robert Seymour and Elijah Jenkins. See <mark>Joe<\/mark> Miller. [MW]  Muḥammad, Prophet,...",
+            "fid" : "ref1840" } ] },
+      
+      { "docId" : "MoodyRevSouvenirs1808",
+        "docUri" : "MoodyRevSouvenirs1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Joe",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : "...unworthy of our own countryman of laughing memory, <mark>Joe<\/mark> Miller. We are told that these choice morsels...",
+            "fid" : "ref10" } ] } ] }

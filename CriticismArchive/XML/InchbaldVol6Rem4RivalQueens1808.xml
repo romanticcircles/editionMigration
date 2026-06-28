@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Rival Queens</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol6Rem4RivalQueens1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Rival Queens]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Rival Queens; or, the Death of Alexander the
+                     Great;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Nathaniel Lee. As Performed at the
+                     Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VI. Rule A Wife And Have A Wife. Chances. New Way
+                     To Pay Old Debts. Alexander The Great. All For Love.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Lee, Nathaniel, 1653?-1692</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240905" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Rival
+                           Queens</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                              ><title>The Rival Queens; or, the Death of <ref
+                                 target="people.html#AlexandertheGreat">Alexander the Great</ref>; A
+                              Tragedy, In Five Acts; By <ref target="people.html#LeeNathaniel"
+                                 >Nathaniel Lee</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref> and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row, pp. 3-7. <hi rendition="#italics"><title level="m">The
+                              British Theatre; or, A Collection of Plays, Which Are Acted At the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>,
+                                 <ref target="people.html#CoventGarden">Covent Garden</ref>, and
+                                 <ref target="people.html#Haymarket">Haymarket</ref>. Printed Under
+                              the Authority of the Managers from the Prompt Books. With Biographical
+                              and Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VI. <hi
+                           rendition="#italics">
+                           <title>Rule a Wife and Have a Wife</title></hi>. <hi rendition="#italics"
+                              ><title>Chances</title></hi>. <hi rendition="#italics"><title>New Way
+                              to Pay Old Debts</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#AlexandertheGreat">Alexander the
+                              Great</ref></title></hi>. <hi rendition="#italics"><title>All for
+                              Love</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                           <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        March 17<hi rendition="#sup">th</hi>, 1677. Laura DeWitt and Mary A. Waters
+                        edited this essay for <hi rendition="#italics">The Criticism Archive</hi>.
+                     </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p><ref target="people.html#LeeNathaniel">Nathaniel Lee</ref>, the author of this
+               tragedy, was the son of <ref target="people.html#LeeRichard">Dr. Lee</ref>, minister
+               of Hatfield. He received his early education under Busby, at Westminster School, and
+               was afterwards a student at Trinity College, Cambridge.<note><ref
+                     target="people.html#LeeNathaniel">Lee</ref> received his Bachelor of Arts
+                  degree from Trinity College in 1668.</note></p>
+
+            <p>Disappointed in some hopes which he had formed upon the munificence of <ref
+                  target="people.html#CharlesIIKingofEngland">King Charles the Second</ref>, he
+               turned his thoughts towards the stage for his support, and ventured his abilities as
+               a performer.<note>Upon his arrival in London, <ref target="people.html#LeeNathaniel"
+                     >Lee</ref> tried to earn his living as an actor, but acute stage fright
+                  prevented him from furthering this career.</note> Discouraged in this attempt, yet
+               enthralled by the charms of a theatre, he encountered the perils of a dramatist, and
+               was successful.</p>
+
+            <p><ref target="people.html#CibberColley">Cibber</ref> has mentioned, with wonder, the
+               talents which <ref target="people.html#LeeNathaniel">Lee</ref> discovered in reading,
+               as he was wholly destitute of eloquence in public speaking. He was so excellent a
+               reader of his own plays at the rehearsals, <ref target="people.html#CibberColley"
+                  >Cibber</ref> says,&#8212;that the very first actors have thrown down their parts,
+               in despair of giving equal force or pathos in performing them; yet, as an actor, he
+               had neither the one requisite nor the other.<note>This story is recounted in <ref
+                     target="people.html#BellamyDaniel">Daniel Bellamy</ref>'s <hi
+                     rendition="#italics"><title>The Young Ladies Miscellany</title></hi> (1723),
+                  pp. vi, ix.</note> To persons well acquainted with theatrical qualifications,
+               there is nothing wonderful in this intelligence. <fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/>The relater of it himself must have
+               known, from long experience, that many a fine reader cannot act; and that many a fine
+               actor cannot read. This observation, of course, applies to a superlative degree of
+               excellence in either art.</p>
+
+            <p>Amongst all the plays, which this author produced, "<title>The Rival Queens, or <ref
+                     target="people.html#AlexandertheGreat">Alexander the Great</ref></title>," has
+               been, and still remains, the most popular: there is popularity even in its high
+               sounding title; nor do these outside words give an unsuitable specimen of of [<hi
+                  rendition="#italics">sic</hi>] those which are contained within.</p>
+
+            <p>This tragedy is calculated for representation, rather than the amusement of the
+               closet;&#8212;for, though it is graced with some beautiful poetry, it is likewise
+               deformed by an extravagance, both in thought and in language, that at times verges
+               upon the ludicrous. Actors, eminent in their art, know how to temper those failings
+               in a tragic author: they give rapidity to their utterance in the mock sublime, and
+               lengthen their cadence upon every poetic beauty.</p>
+
+            <p><ref target="people.html#LeeNathaniel">Lee</ref> and <ref
+                  target="people.html#DrydenJohn">Dryden</ref> sometimes united their labours in the
+               production of a drama. This play, and "<title>All for Love</title>,"<note><ref
+                     target="people.html#DrydenJohn">John Dryden</ref>'s 1677 play, <hi
+                     rendition="#italics"><title>All for Love</title></hi> follows the story of <ref
+                     target="people.html#AntoniusMarcus">Mark Antony</ref> and <ref
+                     target="people.html#CleopatraVIIQueenofEgypt">Cleopatra</ref>.</note> were
+               written by each separately, and yet there is a near resemblance of the one to the
+               other.&#8212;The characters and events are historical in both; and Clytus<note>Master
+                  of the Horse and <ref target="people.html#AlexandertheGreat">Alexander the
+                     Great</ref>'s trusted and faithful adviser.</note> in this, and <ref
+                  target="people.html#Ventidius">Ventidius</ref> in that, play, form such an equal
+               contrast to the tragic scenes, that it appears the two poets thought alike, though
+               they wrote asunder.</p>
+
+            <p><ref target="people.html#DrydenJohn">Dryden</ref>'s <ref target="people.html#Octavia"
+                  >Octavia</ref> is, however, much less refined than <ref
+                  target="people.html#LeeNathaniel">Lee</ref>'s Statira.<note>Originally a captive,
+                  she became the devoted wife of <ref target="people.html#AlexandertheGreat"
+                     >Alexander the Great</ref> and Queen of Babylon.</note> The first pardons her
+               husband's <pb n="5"/>love to <ref target="people.html#CleopatraVIIQueenofEgypt"
+                  >Cleopatra</ref>, and is willing to accept his reluctant return, with an alienated
+               heart;&#8212;whilst the last makes a solemn vow, never more to behold the man who
+               loves her to distraction, because he has given her one proof of incontinence. There
+               is deep knowledge of the female heart evinced in both these incidents. A woman is
+               glad to be reconciled to the husband, who does not love her, upon any
+               conditions&#8212;whilst the wife, who is beloved, is outrageous if she be not adored.
+               Yet <ref target="people.html#LeeNathaniel">Lee</ref> should have considered, that
+               such delicate expectation of perpetual constancy, as he has given to his pagan queen,
+               Statira, were not, so late as his own time, prevalent, even among christian queens.
+               The consorts of <ref target="people.html#CharlesIIKingofEngland">Charles the
+                  Second</ref> and <ref target="people.html#LouisXIVKingofFrance">Louis the
+                  Fourteenth</ref>, saw as many partakers of their royal spouses' love, as the
+               Sultana of Constantinople,<note>The sultans of the Ottoman Empire often had multiple
+                  wives as part of the imperial harem. This frequently led to jealousy among the
+                  wives, particularly revolving around the Haseki, the title for the Sultan's
+                  favorite.</note>&#8212;and with equal patience.</p>
+
+            <p><ref target="people.html#BarrySpranger">Barry</ref> was the last actor who acquired
+               fame in the part of <ref target="people.html#AlexandertheGreat"
+               >Alexander</ref>&#8212;he had every qualification, both in person and voice, for a
+               hero and a lover. The play never failed of attraction in his youthful days; and its
+               importance on the stage would be renewed by any performer of his peculiar
+               abilities.</p>
+
+            <p>Yet all <ref target="people.html#BarrySpranger">Barry</ref>'s endowments for this
+               character appear to have fallen infinitely beneath those of <ref
+                  target="people.html#HartCharles">Hart</ref>, the original hero.</p>
+
+            <p>This <ref target="people.html#HartCharles">Hart</ref>, it is reported by his
+               biographers, made love, in <ref target="people.html#AlexandertheGreat"
+                  >Alexander</ref>, "with such godlike ardour, that spectators could scarcely once
+               doubt of his immediate descent from <ref target="people.html#Jupiter"
+                  >Jupiter</ref>."<note>Quote unidentified at present. <ref
+                     target="people.html#HartCharles">Hart</ref>'s acting in the part of <ref
+                     target="people.html#AlexandertheGreat">Alexander</ref> has been commended in
+                     <ref target="people.html#DownesJohn">John Downes</ref>' <hi
+                     rendition="#italics"><title>Roscius Anglicanus</title></hi> (1708), <ref
+                     target="people.html#DaviesThomas">Thomas Davies</ref>' <hi rendition="#italics"
+                        ><title>Dramatic Miscellanies</title></hi> (1784, vol. 3), and multiple
+                  diary entries of <ref target="people.html#PepysSamuel">Samuel Pepys</ref>, yet
+                  these works do not contain similar phrasing to the above quote. <ref
+                     target="people.html#MaturinCharles">Charles Maturin</ref>'s <hi
+                     rendition="#italics"><title>Melmoth the Wanderer</title></hi> notes <ref
+                     target="people.html#HartCharles">Hart</ref>'s "godlike ardour in making love"
+                  in the part of <ref target="people.html#AlexandertheGreat">Alexander</ref>.
+                  However, this work was not published until 1820.</note> Nor was this performer's
+               warmth of passion confined to his fictitious charac-<fw type="sig"><hi
+                     rendition="#smcaps">b 3</hi></fw><pb n="6"/>ters; he possessed it as a quality
+               of his own, and was the man who beguiled poor <ref target="people.html#GwynNell">Nell
+                  Gwyn</ref> from selling oranges at the playhouse door, and instructed her to
+               become an actress. But soon she forsook the counterfeit <ref
+                  target="people.html#AlexandertheGreat">King of Macedon</ref>, for the real <ref
+                  target="people.html#CharlesIIKingofEngland">King of England</ref>,&#8212;and
+               became mother of the <ref target="people.html#BeauclerkCharles">Duke of St.
+                  Albans</ref>.</p>
+
+            <p>The dreadful calamity which befel <ref target="people.html#LeeNathaniel">Lee</ref>,
+               soon after the writing of this tragedy, is well known; yet no particular cause has
+               been assigned for the affliction with which he was visited! Having progressively
+               fallen into a state of insanity, he was confined in Bedlam for four years.<note><ref
+                     target="people.html#LeeNathaniel">Lee</ref> was committed to the psychiatric
+                  Bedlam Hospital in 1684.</note> In his lucid intervals, he had industry, and
+               followed his wonted occupation of writing plays; and his description of a madman, in
+               one of those productions, is surely, considering his own situation at the time, the
+               most curious and interesting passage he ever wrote.</p>
+            <p rendition="#center">&#160;</p>
+            <p rendition="#center"><hi rendition="#italics">Description of a Madman, by </hi>
+               <ref target="people.html#LeeNathaniel">L<hi rendition="#smcaps">ee</hi></ref>.</p>
+            <p><quote><lg type="stanza">
+                     <l rendition="#indent2">To my charm'd ears no more of woman tell:</l>
+                     <l>Name not a woman, and I shall be well.</l>
+                     <l>Like a poor lunatic, that makes his moan,</l>
+                     <l>And for a while beguiles his lookers on,</l>
+                     <l>He reasons well&#8212;his eyes their wildness lose,</l>
+                     <l>He vows the keepers his wrong'd sense abuse.</l>
+                     <l>But if you hint the cause that hurt his brain,</l>
+                     <l>Then his teeth gnash, he foams, he shakes his chain,</l>
+                     <l>His eyeballs roll, and he is mad again.<note>From <ref
+                              target="people.html#LeeNathaniel">Lee</ref>'s <hi rendition="#italics"
+                                 ><title>Caesar Borgia</title></hi> (1679), Act V, scene
+                        i.</note></l>
+                  </lg></quote></p>
+
+            <pb n="7"/>
+            <p><ref target="people.html#LeeNathaniel">Lee</ref> was, happily, restored to society
+               from his miserable confinement, though he did not long enjoy his liberty.</p>
+
+            <p>He died suddenly in the streets, at the age of thirty-four.<note><ref
+                     target="people.html#LeeNathaniel">Lee</ref> died in obscurity after a bout of
+                  drinking at the age of 39.</note></p>
+
+            <p>The severe indisposition, to which he was subject, may possibly have had influence in
+               guiding his pen to some of those flights of imagination, called by the sober
+               critic&#8212;phrenzy. But thus the great <ref target="people.html#DrydenJohn"
+                  >Dryden</ref> speaks of those flights, and of those critics who censure them. </p>
+            <p rendition="#center">&#160;</p>
+            <p><quote><lg type="stanza">
+                     <l rendition="#indent2">Despise those drones, who praise, while they
+                        accuse,</l>
+                     <l>The too much vigour of your youthful muse</l>
+                     <l>That humble style, which they their virtue make,</l>
+                     <l>Is in your power&#8212;you need but stoop and take</l>
+                     <l>Your beauteous images must be allow'd</l>
+                     <l>By all, but some vile poets of the crowd:</l>
+                     <l>But how should any sign-post dauber know</l>
+                     <l>The worth of <ref target="people.html#Titian">Titian</ref>, or of <ref
+                           target="people.html#BuonarrotiMichelangelo">Angelo</ref>?<note>From <ref
+                              target="people.html#DrydenJohn">Dryden</ref>'s "<title>To <ref
+                                 target="people.html#LeeNathaniel">Mr. Lee</ref>, on his <hi
+                                 rendition="#italics"><ref target="people.html#AlexandertheGreat"
+                                    >Alexander</ref></hi></title>" (1677).</note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

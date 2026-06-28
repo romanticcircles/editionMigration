@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="m">The British Novelists</title>
+				<author type="writer"><name>Anna Letitia Barbauld</name></author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name xml:id="LM">Laura C. Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>BarbBritNov1810</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s">The Criticism Archive</title>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person" ref="#MW">Mary A. Waters</name>
+				</respStmt>
+				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title type="main" level="m">The British Novelists</title>
+						<title type="sub">with an Essay and Prefaces, Biographical and
+							Critical</title>
+						<editor role="editor"><name>Barbauld, Mrs. (Anna Letitia),
+							1743-1825</name></editor>
+						<imprint>
+							<pubPlace>London</pubPlace>
+							<publisher>F.C. and J. Rivington</publisher>
+							<date when="1810">1810</date>
+							<biblScope unit="vol">1-50</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>All hyphens have been typed on the U.S. keyboard.</p>
+					<p>em-dashes have been recorded originally using the —</p>
+				</hyphenation>
+				<normalization method="silent">
+					<p>Long "s" (ſ) has been silently modernized.</p>
+					<p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Spelling has not been regularized.</p>
+				</normalization>
+				<normalization method="markup">
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been typed on the U.S. keyboard.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+				</normalization>
+			</editorialDecl>
+			<tagsDecl>
+				<rendition xml:id="indent" scheme="css">text-indent: 10px; display:
+					block;</rendition>
+				<rendition xml:id="indent1" scheme="css">text-indent: 20px; display:
+					block;</rendition>
+				<rendition xml:id="indent2" scheme="css">text-indent: 30px; display:
+					block;</rendition>
+				<rendition xml:id="indent3" scheme="css">text-indent: 40px; display:
+					block;</rendition>
+				<rendition xml:id="indent4" scheme="css">text-indent: 50px; display:
+					block;</rendition>
+				<rendition xml:id="indent5" scheme="css">text-indent: 60px; display:
+					block;</rendition>
+				<rendition xml:id="indent6" scheme="css">text-indent: 70px; display:
+					block;</rendition>
+				<rendition xml:id="indent7" scheme="css">text-indent: 80px; display:
+					block;</rendition>
+				<rendition xml:id="indent8" scheme="css">text-indent: 90px; display:
+					block;</rendition>
+				<rendition xml:id="indent9" scheme="css">text-indent: 100px; display:
+					block;</rendition>
+				<rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+					block;</rendition>
+				<rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+					block;</rendition>
+				<rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+					block;</rendition>
+				<rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+					block;</rendition>
+				<rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+					block;</rendition>
+				<rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+					block;</rendition>
+				<rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+					block;</rendition>
+				<rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+					block;</rendition>
+				<rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+					block;</rendition>
+			</tagsDecl>
+			<classDecl>
+				<taxonomy xml:id="ft">
+					<bibl>Full Text or Citation</bibl>
+					<category xml:id="ft1">
+						<catDesc>full text</catDesc>
+					</category>
+					<category xml:id="ft2">
+						<catDesc>citation only</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="ps">
+					<bibl>Primary or Secondary</bibl>
+					<category xml:id="ps1">
+						<catDesc>primary</catDesc>
+					</category>
+					<category xml:id="ps2">
+						<catDesc>secondary</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="g">
+					<bibl>Genre</bibl>
+					<category xml:id="g1">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>poetry</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>story</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>drama</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>novel</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>satire</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>allegory</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>introduction</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>acknowledgments</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>essay</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>review</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>letter</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>literary criticism</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>electronic resource</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>political statement</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>history</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>education</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>religion</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>philosophical statement</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>translation</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>dictionary</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>encyclopedia</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>travel</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>illustration</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>cartoon</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>literary annual</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>miscellany</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>anthology</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>beauties</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>juvenile</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="f">
+					<bibl>Form</bibl>
+					<category xml:id="f1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>book part</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>book</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>periodical part</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>fragment</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>title page</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>printers mark</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="f20">
+						<catDesc>pamphlet</catDesc>
+					</category>
+					<category xml:id="f21">
+						<catDesc>manuscript</catDesc>
+					</category>
+					<category xml:id="f22">
+						<catDesc>collection</catDesc>
+					</category>
+					<category xml:id="f23">
+						<catDesc>nonce collection</catDesc>
+					</category>
+					<category xml:id="f24">
+						<catDesc>sammelband</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="keyword">
+					<category xml:id="lcna">
+						<catDesc>author of main text and of works reviewed, if relevant, using LOC
+							authority name headings.</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcna">
+					<list type="simple">
+						<item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item>
+					</list>
+				</keywords>
+				<catRef target="#ft1" scheme="#ft"/>
+				<catRef target="#f3 #f22" scheme="#f"/>
+				<catRef target="#ps1" scheme="#p"/>
+				<catRef target="#g37" scheme="#g"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#LM" when="20260624">
+				<label>Created by</label>
+				<name>Laura Mandell</name>
+				<list type="simple">
+					<item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+					<item>Published by Romantic Circles</item>
+				</list>
+			</change>
+			<change who="#LM" when="20210701">
+				<label>Created by</label>
+				<name>Laura Mandell</name>
+				<list type="simple">
+					<item>created this page based upon MW files for each item (date
+						estimated)</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage>
+				<docTitle>
+					<titlePart type="main">The British Novelists</titlePart>
+					<titlePart type="sub">with an Essay, and Prefaces Biographical and
+						Critical</titlePart>
+				</docTitle>
+				<docAuthor><name reg="Barbauld, Mrs. (Anna Letitia)" date="1743-1825">by Mrs. <ref
+							target="people.html#BarbauldMrs">Barbauld</ref></name></docAuthor>
+				<docImprint><publisher>F.C. and J. Rivington; W. Otridge and Son; A. Strahan; T.
+						Payne; G. Robinson; W. Lowndes; Wilkie and Robinson; Scatcherd and
+						Letterman; J. Walker; J. Cuthell; Vernor, Hood, and Sharpe; R. Lea; J. Nunn;
+						Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and Orme;
+						Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J. Carpenter; S.
+						Bagster; T. Booth; J. Mobray; J. and J. Richardson; Black, Parry, and
+						Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
+						Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; Sherwood and Co.;
+						J. Miller; W. Creech, Edinburgh; and Wilson and Son,
+						York</publisher><pubPlace>London</pubPlace><date>1810</date></docImprint>
+			</titlePage>
+		</front>
+		<body>
+			<div type="collection">
+				<head><title type="main" level="m"><title>The British Novelists;
+						</title></title><title type="sub"><title>with an Essay, and Prefaces
+							Biographical and Critical</title>, by Mrs. <ref
+							target="people.html#BarbauldMrs">Barbauld</ref>.</title></head>
+				<head>Table of Contents</head>
+				<list type="simple">
+					<item><ref target="BarbBageBritNov1810.html">Mr. Bage</ref></item>
+					<item><ref target="BarbBrookeBritNov1810.html">Mrs. Brooke</ref></item>
+					<item><ref target="BarbBurneyBritNov1810.html">Miss Burney</ref></item>
+					<item><ref target="BarbDefoeBritNov1810.html">De Foe</ref></item>
+					<item><ref target="BarbEdgeworthBritNov1810.html">Miss Edgeworth</ref></item>
+					<item><ref target="BarbFieldingBritNov1810.html">Fielding</ref></item>
+					<item><ref target="BarbGoldsmithBritNov1810.html">Goldsmith</ref></item>
+					<item><ref target="BarbGravesBritNov1810.html">Graves</ref></item>
+					<item><ref target="BarbHawkesworthBritNov1810.html">Hawkesworth</ref></item>
+					<item><ref target="BarbInchbaldBritNov1810.html">Mrs. Inchbald</ref></item>
+					<item><ref target="BarbJohnsonBritNov1810.html">Johnson</ref></item>
+					<item><ref target="BarbLennoxBritNov1810.html">Mrs. Lennox</ref></item>
+					<item><ref target="BarbMackenzieBritNov1810.html">Mackenzie</ref></item>
+					<item><ref target="BarbMooreBritNov1810.html">Dr. Moore</ref></item>
+					<item><ref target="BarbOriginProgBritNov1810.html">On the Origin and Progress of
+							Novel-Writing.</ref></item>
+					<item><ref target="BarbRadcliffeBritNov1810.html">Mrs. Radcliffe</ref></item>
+					<item><ref target="BarbReeveBritNov1810.html">Clara Reeve</ref></item>
+					<item><ref target="BarbRichardBritNov1810.html">Richardson</ref></item>
+					<item><ref target="BarbSmithBritNov1810.html">Mrs. Charlotte Smith</ref></item>
+					<item><ref target="BarbSmolletBritNov1810.html">Smollet</ref></item>
+					<item><ref target="BarbWalpoleBritNov1810.html">Walpole</ref></item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>

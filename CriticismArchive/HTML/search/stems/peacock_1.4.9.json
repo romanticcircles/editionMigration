@@ -1,0 +1,35 @@
+
+  { "stem" : "peacock",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Peacock",
+            "weight" : "1",
+            "pos" : 26256,
+            "context" : "...Poems (1829), and The Vow of the <mark>Peacock<\/mark>, and Other Poems (1835). Landon also..." } ] },
+      
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "peacock",
+            "weight" : "1",
+            "pos" : 2045,
+            "context" : "...Jove himself, and now reigns here,A very, very—<mark>peacock<\/mark>.39  ",
+            "fid" : "line23" } ] },
+      
+      { "docId" : "JewsburyLandonRev1831",
+        "docUri" : "JewsburyLandonRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Peacock",
+            "weight" : "1",
+            "pos" : 2276,
+            "context" : "...Castle (1831), a satire by Thomas Love <mark>Peacock<\/mark> (1785-1866), features the bigoted Tory...",
+            "fid" : "note12" } ] } ] }

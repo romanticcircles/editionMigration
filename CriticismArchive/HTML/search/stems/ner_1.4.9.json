@@ -1,0 +1,25 @@
+
+  { "stem" : "ner",
+    "instances" : 
+    [ 
+      { "docId" : "BarbMooreBritNov1810",
+        "docUri" : "BarbMooreBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ners",
+            "weight" : "1",
+            "pos" : 226,
+            "context" : "...of men and man- [Page iii] <mark>ners<\/mark>, and was too much familiarized with foreign countries...",
+            "fid" : "para14" } ] },
+      
+      { "docId" : "BarbReeveBritNov1810",
+        "docUri" : "BarbReeveBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ners",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "...man- vol. xxii.a[Page ii] <mark>ners<\/mark> and dialogue of the peasants are sufficiently well executed...",
+            "fid" : "para14" } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "catesbi",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Catesby",
+            "weight" : "1",
+            "pos" : 4924,
+            "context" : "...from the French, including Letters from Juliet Lady <mark>Catesby<\/mark> (1760), an epistolary novel by Marie Riccoboni..." },
+          
+          { "form" : "Catesby",
+            "weight" : "1",
+            "pos" : 36987,
+            "context" : "...de Cressy in 1759), Lettres de Milady Juliette <mark>Catesby<\/mark> (1759; translated as Letters from Juliet Lady..." },
+          
+          { "form" : "Catesby",
+            "weight" : "1",
+            "pos" : 36993,
+            "context" : "...(1759; translated as Letters from Juliet Lady <mark>Catesby<\/mark> by Frances Brooke, 1760), Histoire de Miss..." } ] },
+      
+      { "docId" : "BarbBrookeBritNov1810",
+        "docUri" : "BarbBrookeBritNov1810.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Catesby’s",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "...some pieces for the theatre. She translated Lady <mark>Catesby’s<\/mark> Letters3 from the French, and several other...",
+            "fid" : "para13" },
+          
+          { "form" : "Catesby",
+            "weight" : "1",
+            "pos" : 351,
+            "context" : "3.  Letters from Juliet Lady <mark>Catesby<\/mark>, (1759), an epistolary novel by Marie...",
+            "fid" : "note3" } ] } ] }

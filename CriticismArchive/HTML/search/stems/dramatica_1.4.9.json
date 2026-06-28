@@ -1,0 +1,51 @@
+
+  { "stem" : "dramatica",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Dramatica",
+            "weight" : "1",
+            "pos" : 2231,
+            "context" : "...for his anthology of dramatic authors, the Biographia <mark>Dramatica<\/mark> (1782). [LD]  Bandello, Matteo..." },
+          
+          { "form" : "Dramatica",
+            "weight" : "1",
+            "pos" : 24427,
+            "context" : "...his 1812 revision of David Erskine Baker's Biographia <mark>Dramatica<\/mark>. [LD] Jonson, Ben, 1573..." },
+          
+          { "form" : "Dramatica",
+            "weight" : "1",
+            "pos" : 36693,
+            "context" : "...and Shakespearean scholar, best known for his Biographia <mark>Dramatica<\/mark> (1782). [LD]  Reeve, Clara..." } ] },
+      
+      { "docId" : "InchbaldVol2Rem3MerchantofVenice1808",
+        "docUri" : "InchbaldVol2Rem3MerchantofVenice1808.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Dramatica\"",
+            "weight" : "1",
+            "pos" : 26,
+            "context" : "...and incidents of this play. But the \"Biographia <mark>Dramatica\"<\/mark> furnishes the following extract: The story is built...",
+            "fid" : "para13" },
+          
+          { "form" : "Dramatica",
+            "weight" : "1",
+            "pos" : 495,
+            "context" : "2.  From David Erskine Baker's Biographia <mark>Dramatica<\/mark>, or, A Companion to the Playhouse (1782...",
+            "fid" : "note2" } ] },
+      
+      { "docId" : "InchbaldVol11Rem4GeorgeBarnwell1808",
+        "docUri" : "InchbaldVol11Rem4GeorgeBarnwell1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Dramatica",
+            "weight" : "1",
+            "pos" : 642,
+            "context" : "...' 1812 edition of David Erskine Baker's Biographia <mark>Dramatica<\/mark>; or, a Companion to the Playhouse (p. 376...",
+            "fid" : "note9" } ] } ] }

@@ -1,0 +1,44 @@
+
+  { "stem" : "elect",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 5,
+        "contexts" : 
+        [ 
+          { "form" : "election",
+            "weight" : "1",
+            "pos" : 6447,
+            "context" : "...some losses sustained in an expensive and unsuccessful parliamentary <mark>election<\/mark> campaign, he was insolvent, and Mary Margaret..." },
+          
+          { "form" : "elected",
+            "weight" : "1",
+            "pos" : 11014,
+            "context" : "...member of the Medici family, Cosimo I was <mark>elected<\/mark> Duke of Florence with the support of Charles V..." },
+          
+          { "form" : "elected",
+            "weight" : "1",
+            "pos" : 13884,
+            "context" : "...)—  Painter and art critic Sir Charles Eastlake was <mark>elected<\/mark> President of the Royal Academy and knighted in 1850..." },
+          
+          { "form" : "elected",
+            "weight" : "1",
+            "pos" : 41309,
+            "context" : "...of the union, and in 1707 was the <mark>elected<\/mark> member for Dunbartonshire to the first parliament of the..." },
+          
+          { "form" : "elected",
+            "weight" : "1",
+            "pos" : 45894,
+            "context" : "...)—  A political leader and reformer, Wilkes was <mark>elected<\/mark> to parliament in 1757. He began to publish..." } ] },
+      
+      { "docId" : "BarbGravesBritNov1810",
+        "docUri" : "BarbGravesBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "elected",
+            "weight" : "1",
+            "pos" : 143,
+            "context" : "...1736, Mr. Graves having left Pembroke, was <mark>elected<\/mark> a fellow of All Souls; but, instead of...",
+            "fid" : "para16" } ] } ] }

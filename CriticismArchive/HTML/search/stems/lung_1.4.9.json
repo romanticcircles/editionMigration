@@ -1,0 +1,40 @@
+
+  { "stem" : "lung",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "lungs",
+            "weight" : "1",
+            "pos" : 5274,
+            "context" : "...home, and, in 1838 a hemorrhage of her <mark>lungs<\/mark> which forced her to a spa on England's south..." },
+          
+          { "form" : "lungs",
+            "weight" : "1",
+            "pos" : 5467,
+            "context" : "...deteriorate, and in 1861 a rupture in her <mark>lungs<\/mark> proved fatal. She left behind a body of..." } ] },
+      
+      { "docId" : "ShelleyEngInItaly1826",
+        "docUri" : "ShelleyEngInItaly1826.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Lung",
+            "weight" : "1",
+            "pos" : 1622,
+            "context" : "..., scholastic aspect. The north side of the <mark>Lung<\/mark> Arno, looking towards the south, is warm...",
+            "fid" : "para21" } ] },
+      
+      { "docId" : "JewsburyLandonRev1831",
+        "docUri" : "JewsburyLandonRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "lungs",
+            "weight" : "1",
+            "pos" : 1105,
+            "context" : "...Conversation there was none—Mr. Smithson kindly sparing the <mark>lungs<\/mark> of his friends, at the expense of his...",
+            "fid" : "para23" } ] } ] }

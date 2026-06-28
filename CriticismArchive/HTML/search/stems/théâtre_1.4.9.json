@@ -1,0 +1,29 @@
+
+  { "stem" : "théâtre",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Théâtre",
+            "weight" : "1",
+            "pos" : 5530,
+            "context" : "...letters. His analyses of Greek dramas in Le <mark>Théâtre<\/mark> des Grecs (1730) were especially esteemed...." },
+          
+          { "form" : "Théâtre",
+            "weight" : "1",
+            "pos" : 30430,
+            "context" : "...Romantic period. Mérimée's first two publications, Le <mark>Théâtre<\/mark> de Clara Gazul (1825) and La Guzla..." } ] },
+      
+      { "docId" : "BarbLennoxBritNov1810",
+        "docUri" : "BarbLennoxBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Théâtre",
+            "weight" : "1",
+            "pos" : 530,
+            "context" : "...1751, while her translation of Brumoy's Le <mark>Théâtre<\/mark> des Grecs (1730) appeared as The Greek...",
+            "fid" : "note2" } ] } ] }

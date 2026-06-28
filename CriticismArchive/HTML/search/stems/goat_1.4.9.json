@@ -1,0 +1,29 @@
+
+  { "stem" : "goat",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "goat",
+            "weight" : "1",
+            "pos" : 34250,
+            "context" : "...the ears, horns, and legs of a <mark>goat<\/mark>, often accompanied by nymphs. [LD]..." },
+          
+          { "form" : "goat",
+            "weight" : "1",
+            "pos" : 40667,
+            "context" : "...While the satyr followers of Dionysus were half-<mark>goat<\/mark>, Silenus had the characteristics of a horse...." } ] },
+      
+      { "docId" : "ShelleyIllyrianPoems1829",
+        "docUri" : "ShelleyIllyrianPoems1829.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "goat",
+            "weight" : "1",
+            "pos" : 775,
+            "context" : "...He always brings back the horns of the little <mark>goat<\/mark> of the mountains, and he says to Zoe...",
+            "fid" : "para61" } ] } ] }

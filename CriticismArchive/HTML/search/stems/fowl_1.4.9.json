@@ -1,0 +1,29 @@
+
+  { "stem" : "fowl",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Fowls",
+            "weight" : "1",
+            "pos" : 9160,
+            "context" : "...of Fame (c. 1380), and The Parliament of <mark>Fowls<\/mark> (c. 1380). Chaucer also authored a number of..." },
+          
+          { "form" : "Fowls",
+            "weight" : "1",
+            "pos" : 9688,
+            "context" : "...century debate poem influenced by Chaucer's Parliament of <mark>Fowls<\/mark>. He is believed to be the father of..." } ] },
+      
+      { "docId" : "JewsburyLandonRev1831",
+        "docUri" : "JewsburyLandonRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fowls",
+            "weight" : "1",
+            "pos" : 1064,
+            "context" : ".... To this succeeded a couple of most cadaverous <mark>fowls<\/mark>, a huge haunch of mutton, raw and...",
+            "fid" : "para22" } ] } ] }

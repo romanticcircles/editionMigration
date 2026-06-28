@@ -1,0 +1,35 @@
+
+  { "stem" : "juri",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jury",
+            "weight" : "1",
+            "pos" : 15536,
+            "context" : "...the author include A Charge Delivered to the Grand <mark>Jury<\/mark>, at the Sessions of the Peace Held for..." } ] },
+      
+      { "docId" : "InchbaldOnNovWriting1807",
+        "docUri" : "InchbaldOnNovWriting1807.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "juries",
+            "weight" : "1",
+            "pos" : 797,
+            "context" : "In the opinion of these theatrical <mark>juries<\/mark>, Virtue and Vice attach to situations, more...",
+            "fid" : "para37" } ] },
+      
+      { "docId" : "BarbFieldingBritNov1810",
+        "docUri" : "BarbFieldingBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jury",
+            "weight" : "1",
+            "pos" : 1224,
+            "context" : "...in this country. A Charge to the Grand <mark>Jury<\/mark>, a pamphlet On the Increase and Cause of...",
+            "fid" : "para26" } ] } ] }

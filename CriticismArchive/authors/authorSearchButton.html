@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Author Selection</title>
+        <style>
+        /* Container styling to center or position the dropdown */
+        .dropdown-container {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        /* Styling the actual select element */
+        .author-select {
+            width: 100%;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            
+            /* Custom dropdown arrow for modern browsers */
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 14px;
+            padding-right: 40px; 
+        }
+
+        /* Subtle focus effect when clicked */
+        .author-select:focus {
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+        }
+
+        /* Optional: Light styling for the dropdown choices */
+        .author-select option {
+            color: #333;
+            background-color: #fff;
+        }
+
+        /* Keeps the default "Author Name" placeholder text looking muted */
+        .author-select option:disabled {
+            color: #999;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <div class="dropdown-container">
+            <select class="author-select" onchange="if (this.value) window.location.href = this.value;">
+                <option value="" disabled selected>Author Name</option>
+                <option value="works.html/#Baillie">Joanna Baillie</option>
+                <option value="works.html/#Barbauld">Anna Letitia Barbauld</option>
+                <option value="works.html/#Busk">Mary Margaret Busk</option>
+                <option value="works.html/#Inchbald">Elizabeth Inchbald</option>
+                <option value="works.html/#Jewsbury">Maria Jane Jewsbury</option>
+                <option value="works.html/#Landon">Letitia Elizabeth Landon</option>
+                <option value="works.html/#Moody">Elizabeth Moody</option>
+                <option value="works.html/#Shelley">Mary Wollstonecraft Shelley</option>
+                <option value="works.html/#Taylor">Emily Taylor</option>
+                <option value="works.html/#Wollstonecraft">Mary Wollstonecraft</option>
+            </select>
+        </div>
+        
+    </body>
+</html>

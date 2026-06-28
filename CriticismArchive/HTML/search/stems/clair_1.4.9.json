@@ -1,0 +1,29 @@
+
+  { "stem" : "clair",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Claire",
+            "weight" : "1",
+            "pos" : 32171,
+            "context" : "...Irish national drama. Her first novel, St. <mark>Claire<\/mark>, or First Love (1802), was republished..." },
+          
+          { "form" : "Clair",
+            "weight" : "1",
+            "pos" : 32179,
+            "context" : "...was republished the following year under the title St. <mark>Clair<\/mark>, or, the Heiress of Desmond. Its strong..." } ] },
+      
+      { "docId" : "IntrototheCriticismArchive",
+        "docUri" : "IntrototheCriticismArchive.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Clair",
+            "weight" : "1",
+            "pos" : 2062,
+            "context" : "10.  See Basker as well as William St. <mark>Clair<\/mark>, The Reading Nation in the Romantic Period,...",
+            "fid" : "note10" } ] } ] }

@@ -1,0 +1,31 @@
+
+  { "stem" : "file",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "File",
+            "weight" : "1",
+            "pos" : 17972,
+            "context" : "...(1759-1834) (Virtual International Authority <mark>File<\/mark>)— Initially trained as a painter, Grandmaison (...",
+            "fid" : "GrandmaisonFrançois" },
+          
+          { "form" : "File",
+            "weight" : "1",
+            "pos" : 34073,
+            "context" : "...ambassador, 1637-1713 (Virtual International Authority <mark>File<\/mark>)—  William Paget, uncle to author Aaron Hill...",
+            "fid" : "PagetWilliam" } ] },
+      
+      { "docId" : "BuskMMmeDudevantNovs1834",
+        "docUri" : "BuskMMmeDudevantNovs1834.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "file",
+            "weight" : "1",
+            "pos" : 537,
+            "context" : "...and breaks his teeth in striving to gnaw a <mark>file<\/mark>; the soul exhausts its energies in wrestling with...",
+            "fid" : "para20" } ] } ] }

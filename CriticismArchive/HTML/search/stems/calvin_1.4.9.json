@@ -1,0 +1,30 @@
+
+  { "stem" : "calvin",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Calvin",
+            "weight" : "1",
+            "pos" : 6957,
+            "context" : "...or Love's Masterpiece (1665). [MW]  <mark>Calvin<\/mark>, Jean, 1509-1564 (Library of...",
+            "fid" : "CalvinJean" },
+          
+          { "form" : "Calvinism",
+            "weight" : "1",
+            "pos" : 6972,
+            "context" : "...and Protestant reformer responsible for the doctrine known as <mark>Calvinism<\/mark>. After publishing his Institution de la religion in..." } ] },
+      
+      { "docId" : "BarbAkenside1794",
+        "docUri" : "BarbAkenside1794.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Calvinism",
+            "weight" : "1",
+            "pos" : 1107,
+            "context" : "...one was clouded over with the deepest glooms of <mark>Calvinism<\/mark>, to which system however he owed some of...",
+            "fid" : "para19" } ] } ] }

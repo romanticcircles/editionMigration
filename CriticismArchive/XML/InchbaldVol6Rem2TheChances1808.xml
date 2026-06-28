@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Chances</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol6Rem2TheChances1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Chances]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Chances;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Beaumont and Fletcher. As Performed
+                     at the Theatres Royal, Drury Lane and Covent Garden. Printed under the
+                     Authority of the Managers from the Prompt Book. With Remarks by Mrs.
+                     Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VI. Rule A Wife And Have A Wife. Chances. New Way
+                     To Pay Old Debts. Alexander The Great. All For Love.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Beaumont, Francis, 1584-1616</item>
+                  <item>Fletcher, John, 1579-1625</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240905" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Chances</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Chances</title>; A Comedy, In Five Acts; By <ref
+                                 target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                                 target="people.html#FletcherJohn">Fletcher</ref>. As Performed at
+                              the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row, pp. 3-7. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. VI. <hi rendition="#italics">
+                           <title>Rule a Wife and Have a Wife</title></hi>. <hi rendition="#italics"
+                              ><title>Chances</title></hi>. <hi rendition="#italics"><title>New Way
+                              to Pay Old Debts</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#AlexandertheGreat">Alexander the
+                              Great</ref></title></hi>. <hi rendition="#italics"><title>All for
+                              Love</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                        Blackfriars Theatre in 1617. Though <ref target="people.html#InchbaldMrs"
+                           >Inchbald</ref> cites the play as a work authored by both men, most
+                        scholars agree that <hi rendition="#italics"><title>The Chances</title></hi>
+                        was written by <ref target="people.html#FletcherJohn">Fletcher</ref> alone.
+                        Laura DeWitt and Mary A. Waters edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>The reader of this comedy will scarcely conceive the great entertainment which it can
+               bestow in representation. But it requires peculiar powers of comic acting to make it
+               please even on the stage, and therefore it is seldom performed.</p>
+
+            <p>Don John<note>Don John is a Spanish gentleman visiting Bologna with his friend, Don
+                  Frederick.</note> is the character, which, most of any in the piece, must be
+               assisted with the actor's skill, or the whole drama sinks into insipidity.</p>
+
+            <p>The second Constantia<note>The first Constantia is a famous beauty who Don John and
+                  Don Frederick originally sought out, and is revealed to be the mother of the baby
+                  that had been mysteriously deposited in the arms of Don John, who then gave the
+                  baby to Constantia's landlady. The second Constantia is a courtesan who has robbed
+                  one of her clients.</note> ranks as a first comic character, but is too little
+               seen to be of any high importance.</p>
+
+            <p>The Landlady to Don John is most excellently portrayed, but is one of those
+               characters, however admirable, not sufficiently pleasing to be impressive. Old women,
+               however well described by an author, or performed by an actress, have seldom more
+               attractions on the stage than in real life. </p>
+
+            <p>The continual bustle, the contrivances, the hurry of intrigue, and the mistakes, in
+               this comedy, are its best claims to the attention of an audience&#8212;in these
+               occurrences a reader cannot so well partake; and, as humour is more its quality than
+               wit, of that, again, the reader is denied his equal share with an auditor. Wit is
+                  ster-<fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>ling coin,
+               that passes for its genuine value in a book, as well as in a theatre; whilst humour
+               depends upon a hundred accidents to make it current.</p>
+
+            <p><ref target="people.html#GarrickDavid">Garrick</ref> was perfectly humorous in Don
+               John, and made the play a favourite, when he performed the part. So did <ref
+                  target="people.html#HendersonJohn">Henderson</ref>. <ref
+                  target="people.html#EllistonRW">Elliston</ref> can do the same at present.</p>
+
+            <p>"<title>The Chances</title>" was the production of the noted friends, <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                  target="people.html#FletcherJohn">Fletcher</ref>, and was brought forth in the
+               year 1643&#8212;its fable was taken from a novel, by <ref
+                  target="people.html#Cervantes">Cervantes</ref>, called "<title>Lady
+                  Cornelia</title>."<note>Scholars believe the play to have been written in 1617,
+                  two years after the publication of the English translation of <ref
+                     target="people.html#Cervantes">Cervantes</ref>' <hi rendition="#italics"
+                        ><title>La Señora Cornelia</title></hi>.</note>&#8212;Becoming, in about
+               forty years, somewhat old fashioned, the <ref
+                  target="people.html#VilliersGeorge2ndDuke">Duke of Buckingham</ref> undertook its
+               alteration and improvement. Again, outliving the mode, <ref
+                  target="people.html#GarrickDavid">Garrick</ref>, in 1773, new dressed it for the
+               public, and, most efficacious service of all, performed the first character
+                     himself.<note><ref target="people.html#VilliersGeorge2ndDuke">George Villiers,
+                     2nd Duke of Buckingham</ref> adapted the play in 1682; his adaptation was
+                  further adapted by <ref target="people.html#GarrickDavid">David Garrick</ref> in
+                  1773, when <ref target="people.html#GarrickDavid">Garrick</ref> assumed the role
+                  of Don John. Both adaptations did well on stage.</note></p>
+
+            <p>The task which <ref target="people.html#GarrickDavid">Garrick</ref> had in his
+               alteration of this comedy, was, no doubt, to curtail its wit; for never dramatists
+               had greater fame for being witty, than both <ref target="people.html#FletcherJohn"
+                  >Fletcher</ref> and <ref target="people.html#VilliersGeorge2ndDuke"
+                  >Buckingham</ref>, though, chiefly, in all the ancient indecorum of comic genius.
+               That <ref target="people.html#GarrickDavid">Garrick</ref>, to the delicacy of
+               improved taste, was compelled to sacrifice much of their libertine dialogue, may be
+               well suspected, by the remainder which he spared.</p>
+
+            <p>As, in a former preface to "<title>Rule a Wife and have a Wife</title>," some account
+               has been given of the lives and friendship of <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                  target="people.html#FletcherJohn">Fletcher</ref>, the biographical article before
+               this play must be assigned to the noble peer, who, having altered and amended
+                  "<title>The Chances</title>," published it under his own name.<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> references the prologue to <ref
+                     target="people.html#VilliersGeorge2ndDuke">George Villiers</ref>' 1682
+                  adaptation of <hi rendition="#italics"><title>The Chances</title></hi>.</note></p>
+
+            <pb n="5"/>
+            <p><ref target="people.html#VilliersGeorge2ndDuke">George Villiers</ref>, Duke of
+               Buckingham, was born in Wallingford House, in the parish of St. Martin in the Fields,
+               in 1624, just a year previous to the death of that <ref
+                  target="people.html#VilliersGeorge">great statesman</ref>, his father, by the hand
+               of the assassin, <ref target="people.html#FeltonJohn">Felton</ref>.<note>
+                  <ref target="people.html#VilliersGeorge2ndDuke">George Villiers</ref> was born in
+                  1628. Though trusted by <ref target="people.html#CharlesIKingofEngland">King
+                     Charles I</ref>, <ref target="people.html#VilliersGeorge2ndDuke">George
+                     Villiers</ref>'s father, <ref target="people.html#VilliersGeorge">George
+                     Villiers, 1<hi rendition="#sup">st</hi> Duke of Buckingham</ref>, was extremely
+                  unpopular with both Parliament and the public. He was assassinated by an army
+                  officer named John Felton, who became almost a popular hero as a result, when <ref
+                     target="people.html#VilliersGeorge2ndDuke">Villiers</ref> was seven months old.
+                  At that time, because <ref target="people.html#VilliersGeorge">the father</ref>
+                  had been a close adviser and friend to <ref
+                     target="people.html#CharlesIKingofEngland">King Charles I</ref>, <ref
+                     target="people.html#VilliersGeorge2ndDuke">the son</ref> was taken into the
+                     <ref target="people.html#CharlesIKingofEngland">King</ref>'s household to be
+                  raised alongside the future <ref target="people.html#CharlesIIKingofEngland"
+                     >Charles II</ref> and <ref target="people.html#JamesIIKingofEngland">James
+                     II</ref>.</note></p>
+
+            <p>The young <ref target="people.html#VilliersGeorge2ndDuke">Duke</ref> obtained the
+               first part of his education from private tutors: he was afterwards sent to the
+               university of Cambridge; and, on the commencement of civil wars, being presented to
+               his Majesty, <ref target="people.html#CharlesIKingofEngland">Charles the First</ref>,
+               was received most graciously, as the son of his beloved and lamented
+                     minister.<note><ref target="people.html#VilliersGeorge2ndDuke">George
+                     Villiers</ref> received his Master of Arts from Trinity College at Cambridge in
+                  1642.</note></p>
+
+            <p>The court residing at this time in Oxford, the <ref
+                  target="people.html#VilliersGeorge2ndDuke">Duke</ref> completed his studies there,
+               in the college of Christ Church.&#8212;Upon the decline of the royal cause, he
+               attended <ref target="people.html#CharlesIIKingofEngland">Prince Charles</ref> to
+               Scotland, returned and fought with him at the battle of Worcester, and afterwards,
+               making his escape from England, rejoined the heir apparent, in a foreign
+                  land.<note>After the Royalist defeat by the Parliamentarians which concluded the
+                  Second English Civil War, <ref target="people.html#VilliersGeorge">Villiers</ref>
+                  accompanied <ref target="people.html#CharlesIIKingofEngland">Prince Charles</ref>
+                  in exile to Scotland in 1650. <ref target="people.html#VilliersGeorge2ndDuke"
+                     >Villiers</ref> and <ref target="people.html#CharlesIIKingofEngland"
+                     >Charles</ref> returned to England in 1651 for the Battle of Worcester, the
+                  last major battle in the Third English Civil War. The Parliamentarian army once
+                  again defeated the Royalist forces. Following this defeat, <ref
+                     target="people.html#VilliersGeorge2ndDuke">Villiers</ref> escaped to the
+                  Netherlands, while <ref target="people.html#CharlesIIKingofEngland">Charles</ref>
+                  sought refuge in Normandy, France.</note></p>
+
+            <p>Besides the festive accomplishments of <ref
+                  target="people.html#VilliersGeorge2ndDuke">Buckingham</ref>, there were other, and
+               stronger, ties, to bind his royal master firmly to him, when he ascended the
+                  throne.<note>The monarchy was restored in 1660, when Parliament invited <ref
+                     target="people.html#CharlesIIKingofEngland">Charles</ref> to return upon his
+                  promise to show leniency to his former enemies and cooperate more closely with
+                  Parliament.</note> The <ref target="people.html#VilliersGeorge2ndDuke">Duke</ref>
+               had been the companion of <ref target="people.html#CharlesIIKingofEngland">Charles
+                  the Second</ref>, in battle and in exile; was endeared to him by the regard the
+               late <ref target="people.html#CharlesIKingofEngland">King</ref> had for his deceased
+               father; and, though his brilliant wit and inspiring mirth might augment the
+               partiality which his sovereign evinced, yet surely it was his early attachment to the
+               royal cause and person of the <ref target="people.html#CharlesIIKingofEngland"
+                  >Prince</ref> which mitigated the monarch's justice, when the dissolute life, and
+               flagrant crimes, of the of-<fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb
+                  n="6"/>fender, made him a proper object of royal indignation.<note><ref
+                     target="people.html#VilliersGeorge2ndDuke">Villiers</ref>'s brawling and
+                  treasonable intrigues led to his arrest in 1667. In addition to his crimes, <ref
+                     target="people.html#VilliersGeorge2ndDuke">Villiers</ref> had a reputation as a
+                  womanizer and was part of several sex scandals.</note></p>
+
+            <p>This nobleman lived at court the joy and hatred of his common associates&#8212;the
+               delight and disgrace of his royal master&#8212;the envy of all bad, and the contempt
+               of all good men.</p>
+
+            <p>The <ref target="people.html#VilliersGeorge2ndDuke">Duke</ref> possessed an estate of
+               nearly fifty thousand pounds a year; he was Knight of the Garter, Master of the
+               Horse, Lord Lieutenant of Yorkshire; holding besides many other places, from the
+               bounty of his grateful monarch. With all this cause to be satisfied, he was malicious
+               towards his neighbours, and treacherous to the <ref
+                  target="people.html#CharlesIIKingofEngland">King</ref>.</p>
+
+            <p><ref target="people.html#CharlesIIKingofEngland">Charles</ref> forgave his offences,
+               and left his punishment to Heaven&#8212;Heaven inflicted it, by poverty and ignominy.
+               Bereft of his only benefactor, by the sudden decease of his <ref
+                  target="people.html#CharlesIIKingofEngland">Majesty</ref>, his fortune squandered,
+               health impaired, and character detested, the <ref
+                  target="people.html#VilliersGeorge2ndDuke">Duke</ref> sought shelter from a
+               scornful nation, in a dreary house, situated in the Wolds of Yorkshire.<note>After
+                  the accession of <ref target="people.html#JamesIIKingofEngland">James II</ref>,
+                     <ref target="people.html#VilliersGeorge">Villiers</ref> withdrew from public
+                  life, retiring to his estate in Yorkshire in poor health with depleted finances.
+                     <ref target="people.html#VilliersGeorge2ndDuke">Villiers</ref> caught a cold
+                  caught while hunting in the spring of 1687 and died in the house of a tenant of
+                  Kirkbymoorside, a market town in Yorkshire.</note> Some accident having cast him
+               on a bed of sickness, at a little inn, in the same country; of the miserable death of
+               this great nobleman, and celebrated genius, <ref target="people.html#PopeAlexander"
+                  >Pope</ref> has given the following well-known description:&#8212; <quote><lg
+                     type="stanza">
+                     <l>In the worst inn's worst room, with mat half hung,</l>
+                     <l>The floors of plaster, and the walls of dung,</l>
+                     <l>On once a flock-bed, but repair'd with straw,</l>
+                     <l>With tape-ty'd curtains, never meant to draw,</l>
+                     <l>The George and Garter<note>In 1649, <ref
+                              target="people.html#CharlesIIKingofEngland">Charles II</ref> conferred
+                           upon <ref target="people.html#VilliersGeorge2ndDuke">Villiers</ref> the
+                           Order of the Garter, the most senior order of knighthood in the British
+                           honor system.</note> dangling from that bed,</l>
+                     <l>Where tawdry yellow strove with dirty red,</l>
+                     <pb n="7"/>
+                     <l>Great <ref target="people.html#VilliersGeorge2ndDuke">Villiers</ref>
+                        lies&#8212;Alas! how chang'd from him,</l>
+                     <l>That life of pleasure, and that soul of whim!</l>
+                     <l>Gallant and gay, in Cliveden's<note>Cliveden is the country estate <ref
+                              target="people.html#VilliersGeorge2ndDuke">Villiers</ref> constructed
+                           in Buckinghamshire.</note> proud alcove,</l>
+                     <l>The bower of wanton <ref target="people.html#TalbotAnna">Shrewsbury</ref>
+                        and love;</l>
+                     <l>Or just as gay in council, in the ring</l>
+                     <l>Of mimick'd statesmen, and their merry king.</l>
+                     <l>No wit to flatter left of all his store!</l>
+                     <l>No fool to laugh at, which he valued more;</l>
+                     <l>There, victor of his health, his fortune, friends,</l>
+                     <l>And fame, this lord of useless thousands ends.<note>From <ref
+                              target="people.html#PopeAlexander">Alexander Pope</ref>'s <hi
+                              rendition="#italics"><title>Of the Use of Riches: an Epistle to the
+                                 Right Honorable <ref target="people.html#BathurstAllen">Allen Lord
+                                    Bathurst</ref></title></hi> (1732), p. 16.</note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

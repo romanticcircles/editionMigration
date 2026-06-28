@@ -1,0 +1,40 @@
+
+  { "stem" : "competit",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "competition",
+            "weight" : "1",
+            "pos" : 31343,
+            "context" : "...Griffiths took over management. In the face of <mark>competition<\/mark> from rivals like the Edinburgh Review and the Quarterly..." },
+          
+          { "form" : "competition",
+            "weight" : "1",
+            "pos" : 35533,
+            "context" : "...personal physician and participated in the famous ghost story <mark>competition<\/mark> in Geneva which resulted in Mary Shelley's Frankenstein..." } ] },
+      
+      { "docId" : "BarbFieldingBritNov1810",
+        "docUri" : "BarbFieldingBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "competition",
+            "weight" : "1",
+            "pos" : 1945,
+            "context" : "...give him this purity of character from a whimsical <mark>competition<\/mark> with the author of Pamela, against which work...",
+            "fid" : "para33" } ] },
+      
+      { "docId" : "MoodyRevRivalMothers1801",
+        "docUri" : "MoodyRevRivalMothers1801.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "competition",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "...Mothers are two ladies who enter the lists of <mark>competition<\/mark> on the subject of maternal affection. If they...",
+            "fid" : "para14" } ] } ] }

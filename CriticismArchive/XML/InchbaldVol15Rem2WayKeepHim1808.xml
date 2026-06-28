@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Way to Keep Him</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol15Rem2WayKeepHim1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Way to Keep Him]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Way to Keep Him;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Arthur Murphy, Esq. As Performed at
+                     the Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Murphy, Arthur, 1727-1805</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241217" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Way
+                           to Keep Him</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Way to Keep Him</title>; A Comedy, In Five Acts;
+                              By <ref target="people.html#MurphyArthur">Arthur Murphy</ref>, Esq. As
+                              Performed at the Theatres Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XV. <hi
+                           rendition="#italics">
+                           <title><ref target="people.html#BarbarossaAruj"
+                           >Barbarossa</ref></title></hi>. <hi rendition="#italics"><title>Way to
+                              Keep Him</title></hi>. <hi rendition="#italics"><title>All in the
+                              Wrong</title></hi>. <hi rendition="#italics"><title>Grecian
+                              Daughter</title></hi>. <hi rendition="#italics"><title>Know Your Own
+                              Mind</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. <ref target="people.html#MurphyArthur">Murphy</ref>
+                        originally produced a three-act version of this play, which was first staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on January 24<hi rendition="#sup">th</hi>, 1760. The first performance of
+                        the present, five-act version of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on January
+                           10<hi rendition="#sup">th</hi>, 1761. Laura DeWitt and Mary A. Waters
+                        edited this essay for <hi rendition="#italics">The Criticism
+                        Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#ChurchillCharles">Churchill</ref>, in his admirable poem,
+                  "<title>The Rosciad</title>," has said of the author of "<title>The Way to Keep
+                  Him</title>"&#8212; <quote>And prudent dulness mark'd him for a mayor.<note>From
+                     the fifth edition of <ref target="people.html#ChurchillCharles">Charles
+                        Churchill</ref>'s <hi rendition="#italics"><title>The Rosciad</title></hi>
+                     (1761, p. 18).</note></quote> How little <ref target="people.html#MurphyArthur"
+                  >Murphy</ref> was deserving of the imputation of dulness, this comedy can
+               testify.&#8212;It is nevertheless inferior to his "<title>All in the Wrong</title>:"
+               for there, events are more naturally produced, and no one character proceeds to the
+               very confines of extravagance, like Sir Bashful Constant.<note><ref
+                     target="people.html#MurphyArthur">Murphy</ref>'s comedy <hi
+                     rendition="#italics"><title>All in the Wrong</title></hi> was first performed
+                  on June 15<hi rendition="#sup">th</hi>, 1761. In <hi rendition="#italics"
+                        ><title>The Way to Keep Him</title></hi>, much of the plot revolves around
+                  Sir Bashful Constant, a man who dearly loves his wife but believes it unbecoming
+                  to express it, and as such spends much of the play treating her poorly and
+                  bickering with her. The characters of the Constants were new additions to the
+                  five-act version of the play.</note></p>
+
+            <p><ref target="people.html#MurphyArthur">Mr. Murphy</ref> wrote "<title>The Way to Keep
+                  Him</title>" originally in three acts; then wishing to increase the number to
+               five, he introduced this character of Sir Bashful.&#8212;He added to the length of
+               his play, but diminished its probability. Much genius is however to be discerned in
+               the conception of this part, and is, in some scenes, displayed with the happiest
+               effect. In others, the husband's whimsical timidity proceeds so far, that it appears
+               more like want of understanding than want of manly boldness; and when once a
+               deficiency of intellects is discovered instead of a silly bias in them, all interest
+               is gone for the person concerned.</p>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+            <p>It is impossible to attend to characters destitute of sense; and delightful to
+               observe particular follies, usurping the reason of those, who, in all other respects,
+               are wise. Fools who accidentally have sapience, are too despicable to be
+               heeded;&#8212;but the wise man, who is accidentally a fool, is an instructive picture
+               of human nature, and worthy the most profound meditation.</p>
+
+            <p>Most of the remaining characters belong to this valuable class&#8212;Lovemore and his
+               wife are both depicted from nature, and their conduct to each other has an excellent
+               tendency to reform the evils, and avert the ills, of the marriage state.<note>The
+                  Lovemores are also additions to the five-act version of the present play. Mrs.
+                  Lovemore has become dull in her marriage; as such, Mr. Lovemore pursues other
+                  women. As Mr. Lovemore pursues Lady Constant, he feeds Sir Constant bad advice on
+                  how to treat his wife to better his chances. By the end of the play, Mrs.
+                  Lovemore's behavior has become enlivened by the shenanigans of the male
+                  characters' pursuits, thereby enticing her husband once again.</note></p>
+
+            <p>The Widow Bellmour is another well drawn personage.<note>The Widow Bellmour is the
+                  first pursuit of Mr. Lovemore before he turns his attention to Lady
+                  Constant.</note> She talks perfect wisdom, and all she says is perfectly with good
+               intent;&#8212;but it may be apprehended that her precepts have had too much force
+               with some wives of fashion, whose good humour at home, and indifference to their
+               husbands' incontinence, may have betrayed them into a carelessness about their
+               own.</p>
+
+            <p><ref target="people.html#AbingtonFrances">Mrs. Abington</ref> and <ref
+                  target="people.html#FarrenElizabeth">Miss Farren</ref> (the present <ref
+                  target="people.html#FarrenElizabeth">Countess of Derby</ref>) were both, at the
+               two different houses, and at the self same time, much admired in the Widow
+                     Bellmour.<note><ref target="people.html#AbingtonFrances">Frances Abington</ref>
+                  assumed the role of the Widow Bellmour at <ref target="people.html#DruryLane"
+                     >Drury Lane</ref> on November 27<hi rendition="#sup">th</hi>, 1765, which she
+                  performed regularly at the same theatre until 1782. <ref
+                     target="people.html#FarrenElizabeth">Elizabeth Farren</ref> took up the same
+                  role at <ref target="people.html#DruryLane">Drury Lane</ref> on April 24<hi
+                     rendition="#sup">th</hi>, 1781, a role she acted regularly at that theatre
+                  until 1790. The two shared the role at <ref target="people.html#DruryLane">Drury
+                     Lane</ref> for roughly a year before <ref target="people.html#AbingtonFrances"
+                     >Abington</ref> briefly retired the role to assume it again at <ref
+                     target="people.html#CoventGarden">Covent Garden</ref> from 1785 to 1798.</note>
+               <ref target="people.html#AbingtonFrances">Mrs. Abington</ref>'s performance was the
+               best,&#8212;yet not so much superior to <ref target="people.html#FarrenElizabeth"
+                  >Miss Farren</ref>'s, as <ref target="people.html#FarrenElizabeth">Miss
+                  Farren</ref> was superior to <ref target="people.html#AbingtonFrances">Mrs.
+                  Abington</ref> in youth and personal charms.</p>
+
+            <p><ref target="people.html#MurphyArthur">Murphy</ref> has given a fulsome dedication of
+               this play to the latter actress, more disgraceful to him than <ref
+                  target="people.html#ChurchillCharles">Churchill</ref>'s satire,&#8212;and not more
+                     true.<note><ref target="people.html#MurphyArthur">Murphy</ref> dedicated the
+                  1787 edition of this play to <ref target="people.html#AbingtonFrances"
+                     >Abington</ref>, effusively praising her talent in the role of the Widow
+                  Bellmour and granting her credit for the play's success.</note></p>
+            <pb n="5"/>
+            <p>The biographical part of that satirical poem, which applies to the author of this
+               comedy, is mere fact. He was educated at St. Omer's, and though designed for a
+               priest, he once attempted the profession of a player. He appeared on the stage in the
+               part of <ref target="people.html#Othello">Othello</ref>; but a strong voice being
+               wanted to assist his strong judgment, and grace of person to embellish its symmetry,
+               he changed this pursuit to the study of the law, and became a member of the Society
+               of Lincoln's Inn.<note>The preceding biographical information is indeed present in
+                  the fifth edition of <ref target="people.html#ChurchillCharles">Churchill</ref>'s
+                     <hi rendition="#italics"><title>The Rosciad</title></hi> (1761, pp. 17-18).
+                     <ref target="people.html#MurphyArthur">Murphy</ref> attended the Jesuit-run
+                  College of St. Omer's in France, where he studied the classics for six years.
+                  Persuaded by his friend <ref target="people.html#FooteSamuel">Samuel Foot</ref> to
+                  try his hand at acting, <ref target="people.html#MurphyArthur">Murphy</ref> took
+                  up the role of <ref target="people.html#Othello">Othello</ref> at <ref
+                     target="people.html#CoventGarden">Covent Garden</ref> on October 18<hi
+                     rendition="#sup">th</hi>, 1754. Although he was successful in the role, he only
+                  continued his acting career for two seasons, as his interests drew him to the law.
+                  In 1757, he was accepted into The Honourable Society of Lincoln's Inn, one of the
+                  four professional associations for barristers in England and Wales. <ref
+                     target="people.html#MurphyArthur">Murphy</ref> was then admitted to the bar in
+                  1762 and practiced law until 1788, which greatly limited the amount of time he
+                  could invest in his writing.</note> Still, he attached himself to his beloved
+               theatre by the ties of an author; and passed his happiest hours with <ref
+                  target="people.html#GarrickDavid">Garrick</ref>, <ref
+                  target="people.html#FooteSamuel">Foote</ref>, <ref
+                  target="people.html#JohnsonSamuel">Dr. Johnson</ref>, and other men of wit and
+                     imagination.<note><ref target="people.html#MurphyArthur">Murphy</ref> held
+                  close friendships with the above three men, frequently collaborating with <ref
+                     target="people.html#GarrickDavid">Garrick</ref> and <ref
+                     target="people.html#FooteSamuel">Foote</ref> and eventually writing biographies
+                  for <ref target="people.html#GarrickDavid">Garrick</ref> and <ref
+                     target="people.html#JohnsonSamuel">Johnson</ref>.</note></p>
+
+            <p>It had perhaps been happy for <ref target="people.html#MurphyArthur">Murphy</ref>,
+               had the reproach of dulness, which <ref target="people.html#ChurchillCharles"
+                  >Churchill</ref> has cast upon him, been just; for could it have conferred upon
+               him the mayoralty of the city of London, no doubt it would have been a fortunate
+               exchange for that poetic genius which he possessed; and which would not have secured
+               to him in old age a mere existence, but for its claims upon the taste and pity of his
+               Sovereign.</p>
+
+            <p><ref target="people.html#MurphyArthur">Murphy</ref> died in the summer of 1805, a
+               pensioner on the king's private purse:<note><ref target="people.html#MurphyArthur"
+                     >Murphy</ref> died in his London residence on June 18<hi rendition="#sup"
+                     >th</hi>, 1805. Despite the income he received from his writings, <ref
+                     target="people.html#MurphyArthur">Murphy</ref> struggled with his finances due
+                  to various debts, and beginning in 1798, <ref
+                     target="people.html#GeorgeIIIKingofGreatBritain">King George III</ref> had
+                  granted him a pension of £200 per year.</note> as related in the Remarks on his
+               comedy of "<title>All in the Wrong</title>."</p>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

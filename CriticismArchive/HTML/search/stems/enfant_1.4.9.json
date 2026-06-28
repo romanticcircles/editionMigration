@@ -1,0 +1,29 @@
+
+  { "stem" : "enfant",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "enfants",
+            "weight" : "1",
+            "pos" : 3603,
+            "context" : "...and, in translation, British audiences. L'Ami des <mark>enfants<\/mark> (1782-3) is the best known of these..." },
+          
+          { "form" : "enfants",
+            "weight" : "1",
+            "pos" : 31587,
+            "context" : "...ou Journal d'un père de famille naufragé avec ses <mark>enfants<\/mark> from the German text by Johann David Wyss...." } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "enfant",
+            "weight" : "1",
+            "pos" : 14024,
+            "context" : "...my mother; and was so much considered as <mark>enfant<\/mark> de famille in Mr. Richardson's house, that...",
+            "fid" : "para160" } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "celtic",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Celtic",
+            "weight" : "1",
+            "pos" : 28802,
+            "context" : "...publication, Macpherson set out to search for ancient <mark>Celtic<\/mark> poetry, returning with the alleged third century epics..." },
+          
+          { "form" : "Celtic",
+            "weight" : "1",
+            "pos" : 28834,
+            "context" : "...and translated by Macpherson. The authenticity of Macpherson’s <mark>Celtic<\/mark> works was vehemently debated during his lifetime, but..." } ] },
+      
+      { "docId" : "WollonPoetry1798",
+        "docUri" : "WollonPoetry1798.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Celtic",
+            "weight" : "1",
+            "pos" : 1161,
+            "context" : "...the idea is commonplace, appearing in several early <mark>Celtic<\/mark> chronicles and in Milton and Shakespeare, Wollstonecraft may...",
+            "fid" : "note2" } ] },
+      
+      { "docId" : "InchbaldVol2Rem4KingHenryV1808",
+        "docUri" : "InchbaldVol2Rem4KingHenryV1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Celtic",
+            "weight" : "1",
+            "pos" : 642,
+            "context" : "...5.  Gallic refers to the Gauls, originally the <mark>Celtic<\/mark> inhabitants of Gaul, or the area of present...",
+            "fid" : "note5" } ] } ] }

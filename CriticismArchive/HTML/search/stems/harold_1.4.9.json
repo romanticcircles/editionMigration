@@ -1,0 +1,29 @@
+
+  { "stem" : "harold",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Harold",
+            "weight" : "1",
+            "pos" : 5896,
+            "context" : "...; or, The Children of Night (1846); <mark>Harold<\/mark>, the Last of the Saxon Kings (1848..." },
+          
+          { "form" : "Harold's",
+            "weight" : "1",
+            "pos" : 6696,
+            "context" : "...Bards, and Scotch Reviewers (1809), Childe <mark>Harold's<\/mark> Pilgrimage (1812-19), The Giaour (1813),..." } ] },
+      
+      { "docId" : "LandonCritChateaubriand1836",
+        "docUri" : "LandonCritChateaubriand1836.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Harold's",
+            "weight" : "1",
+            "pos" : 2228,
+            "context" : "29.  Byron, Childe <mark>Harold's<\/mark> Pilgrimage (1818), Canto IV, stanza 137....",
+            "fid" : "note29" } ] } ] }

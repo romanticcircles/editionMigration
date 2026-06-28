@@ -1,0 +1,29 @@
+
+  { "stem" : "shakespearian",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Shakespearian",
+            "weight" : "1",
+            "pos" : 28921,
+            "context" : "...Name Authority)— After getting his start as a <mark>Shakespearian<\/mark> actor in the provinces, Macready performed in London..." },
+          
+          { "form" : "Shakespearian",
+            "weight" : "1",
+            "pos" : 42348,
+            "context" : "...for the purpose of proving his superiority to fellow <mark>Shakespearian<\/mark> scholar Edmond Malone. Steevens also exposed the poetic..." } ] },
+      
+      { "docId" : "JewsburyBaillieRev1831",
+        "docUri" : "JewsburyBaillieRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Shakespearian",
+            "weight" : "1",
+            "pos" : 331,
+            "context" : "...in an album! One or two of her <mark>Shakespearian<\/mark> snatches of song have been set to music;...",
+            "fid" : "para15" } ] } ] }

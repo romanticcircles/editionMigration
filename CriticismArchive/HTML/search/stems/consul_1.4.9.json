@@ -1,0 +1,29 @@
+
+  { "stem" : "consul",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "consul",
+            "weight" : "1",
+            "pos" : 29415,
+            "context" : "...Library of Congress Name Authority)—   Roman general and <mark>consul<\/mark>. [MW]  Marivaux, Pierre Carlet de..." },
+          
+          { "form" : "Consul",
+            "weight" : "1",
+            "pos" : 32930,
+            "context" : "...a coup d'etat, assuming the title of First <mark>Consul<\/mark> of the French Republic. In 1804 he was..." } ] },
+      
+      { "docId" : "BarbSmolletBritNov1810",
+        "docUri" : "BarbSmolletBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "consul",
+            "weight" : "1",
+            "pos" : 1667,
+            "context" : "...applied to the ministry to obtain the office of <mark>consul<\/mark> at Leghorn or Nice, by way of sinecure...",
+            "fid" : "para37" } ] } ] }

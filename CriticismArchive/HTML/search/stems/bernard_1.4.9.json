@@ -1,0 +1,35 @@
+
+  { "stem" : "bernard",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bernard",
+            "weight" : "1",
+            "pos" : 16414,
+            "context" : "...Fourth Earl of Gainsborough (1708-1751, <mark>Bernard<\/mark> Burke's Genealogical and Heraldic History of the Peerage,..." },
+          
+          { "form" : "Bernard",
+            "weight" : "1",
+            "pos" : 20479,
+            "context" : "...Arthur Hesilrige, 7th Baronet, d. 1763 (<mark>Bernard<\/mark> Burke, A Genealogical and Heraldic History of the..." } ] },
+      
+      { "docId" : "BarbEnquiry1773",
+        "docUri" : "BarbEnquiry1773.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bernard",
+            "weight" : "1",
+            "pos" : 2254,
+            "context" : "...Homer, translated by Alexander Pope (London: <mark>Bernard<\/mark> Lintot, 1725-1726) IX.342-9,...",
+            "fid" : "note10" },
+          
+          { "form" : "Bernard",
+            "weight" : "1",
+            "pos" : 2268,
+            "context" : "...Homer, translated by Alexander Pope (London: <mark>Bernard<\/mark> Lintot, 1725-1726) XII.306...",
+            "fid" : "note11" } ] } ] }

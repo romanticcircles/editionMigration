@@ -1,0 +1,31 @@
+
+  { "stem" : "barton",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Barton",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : "   Abington, Mrs. (Frances <mark>Barton<\/mark>), 1737-1815 (Library of Congress Name...",
+            "fid" : "AbingtonFrances" },
+          
+          { "form" : "Barton",
+            "weight" : "1",
+            "pos" : 4316,
+            "context" : "...] [VW] [MW] Booth, <mark>Barton<\/mark>, 1681-1733 (Library of Congress Name...",
+            "fid" : "BoothBarton" } ] },
+      
+      { "docId" : "BarbMooreBritNov1810",
+        "docUri" : "BarbMooreBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Barton",
+            "weight" : "1",
+            "pos" : 802,
+            "context" : "...: the best character in it is that of <mark>Barton<\/mark> the epicure, who is indifferent to every thing...",
+            "fid" : "para18" } ] } ] }

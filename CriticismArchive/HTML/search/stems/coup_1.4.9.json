@@ -1,0 +1,45 @@
+
+  { "stem" : "coup",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "coup",
+            "weight" : "1",
+            "pos" : 8124,
+            "context" : "..., she came to power in consequence of a <mark>coup<\/mark> overthrowing her husband, Peter III. She saw..." },
+          
+          { "form" : "coup",
+            "weight" : "1",
+            "pos" : 23114,
+            "context" : "...stability, however, and in a February 1437 <mark>coup<\/mark> attempt he was attacked, cornered, and, after..." },
+          
+          { "form" : "coup",
+            "weight" : "1",
+            "pos" : 32925,
+            "context" : "...French Revolution. In 1799 he brought about a <mark>coup<\/mark> d'etat, assuming the title of First Consul of..." } ] },
+      
+      { "docId" : "BarbMooreBritNov1810",
+        "docUri" : "BarbMooreBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "coup",
+            "weight" : "1",
+            "pos" : 990,
+            "context" : "...of a republic, and, eventually, the 1799 <mark>coup<\/mark> and rise of Napoleon, who remained Emperor at...",
+            "fid" : "note4" } ] },
+      
+      { "docId" : "MoodyRevLetsMissR1804",
+        "docUri" : "MoodyRevLetsMissR1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "coup",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "...have died had he not rescued her by a <mark>coup<\/mark> de bague. Miss Riversdale, having dissolved this...",
+            "fid" : "para13" } ] } ] }

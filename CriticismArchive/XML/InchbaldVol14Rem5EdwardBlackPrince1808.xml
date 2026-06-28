@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Edward the Black Prince</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol14Rem5EdwardBlackPrince1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Edward the Black Prince]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Edward the Black Prince; or, the Battle of
+                     Poictiers;</title>
+                  <title type="sub">An Historical Tragedy, in Five Acts; By William Shirley, Esq. As
+                     Performed at the Theatre Royal, Drury Lane. Printed under the Authority of the
+                     Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shirley, William, active 1739-1780</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241203" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#EdwardPrinceofWales">Edward the Black
+                           Prince</ref></title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#EdwardPrinceofWales"
+                                    >Edward the Black Prince</ref></title>; or, the Battle of
+                              Poictiers, An Historical Tragedy, In Five Acts; By <ref
+                                 target="people.html#ShirleyWilliam">William Shirley</ref>, Esq. As
+                              Performed at the Theatre Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref>. Printed Under the Authority of the Managers From
+                              the Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XIV. <hi
+                           rendition="#italics">
+                           <title>Man of the World</title></hi>. <hi rendition="#italics"
+                              ><title>Foundling</title></hi>. <hi rendition="#italics"
+                              ><title>Gamester</title></hi>. <hi rendition="#italics"><title>Roman
+                              Father</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#EdwardPrinceofWales">Edward the Black
+                                 Prince</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged at the <ref target="people.html#DruryLane">Theatre Royal, Drury
+                           Lane</ref> on January 6<hi rendition="#sup">th</hi>, 1750. Laura DeWitt
+                        and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#ShirleyWilliam">William Shirley</ref>, Esq. the author of
+               this play, is little known but as a man well versed in commercial affairs. He was
+               some time English resident at Lisbon, and was considered of deep penetration and
+               knowledge in respect to the trading concerns of different nations; particularly in
+               those of Great Britain and Portugal.<note><ref target="people.html#ShirleyWilliam"
+                     >Shirley</ref> was a renowned merchant and expert on international commerce. He
+                  lived in Lisbon, the capital of Portugal, for many years, as that was the center
+                  of many of his commercial affairs.</note></p>
+
+            <p>His name, as a poet, has not attained the same reputation as his skill in commerce;
+               for, though he has produced many dramas, <title><ref
+                     target="people.html#EdwardPrinceofWales">Edward the Black Prince</ref></title>
+               is the only one, which has been acted of many years; nor does this tragedy possess
+               much dramatic merit beyond the interest of the story.<note><title><ref
+                        target="people.html#EdwardPrinceofWales">Edward the Black
+                     Prince</ref></title> was <ref target="people.html#ShirleyWilliam"
+                  >Shirley</ref>'s only successful play. Many of his other theatrical works were
+                  banned from being performed due to their politically controversial
+               content.</note></p>
+
+            <p>The hero of Cressy and Poictiers must ever command the fixed attention of an English
+               audience; and the reader of this play may not be displeased at having his memory
+               revived on the subject of this great prince, by a short extract from history previous
+               to its perusal. <quote><ref target="people.html#EdwardPrinceofWales">Edward, Prince
+                     of Wales</ref>, commonly called the <ref
+                     target="people.html#EdwardPrinceofWales">Black Prince</ref>, from the colour of
+                  his armour, was the son of <ref target="people.html#EdwardIIIKingofEngland">Edward
+                     III</ref>. and born in 1330. He accompanied his father to France when he was
+                  but sixteen years old, and distinguished himself there above all the warriors of
+                  his age, particularly at the battle of Cressy, where he took the standard of the
+                     <ref target="people.html#JohnKingofBohemia">King of</ref>
+                  <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/><ref
+                     target="people.html#JohnKingofBohemia">Bohemia</ref>, embroidered with three
+                  ostrich feathers, and having this motto, Ich Dien&#8212;<hi rendition="#italics">I
+                     serve</hi>. This he always wore; and it has continued to be the crest of the
+                     <ref target="people.html#EdwardPrinceofWales">Prince of Wales</ref> ever
+                     since.<note>The source of this quotation is unidentified at present. In 1346,
+                        <ref target="people.html#EdwardPrinceofWales">Prince Edward</ref> commanded
+                     the English forces at the Battle of Crécy in northern France as part of the
+                     Hundred Years' War.</note></quote></p>
+
+            <p>The battle of Poictiers, in which greater feats were achieved than at Cressy, is very
+               faithfully described in the following play, or, at least, all those events in which
+               the <ref target="people.html#EdwardPrinceofWales">Black Prince</ref> was himself
+               concerned in his military capacity.<note>The play takes place during the Battle of
+                  Poitiers, fought by the English and French forces in west-central France in 1356,
+                  also part of the Hundred Years' War. It was during this battle that <ref
+                     target="people.html#EdwardPrinceofWales">Prince Edward</ref> obtained his most
+                  famous victory.</note></p>
+
+            <p>The character of Arnold, his love, and its ignominious effects, are the invention of
+               the author to give variety to his production.<note>In the present play, Arnold is an
+                  English soldier and attendent of <ref target="people.html#EdwardPrinceofWales"
+                     >Prince Edward</ref>. Arnold falls in love with Mariana, the daughter of a
+                  French commander and prisoner in the English camp, and out of love for her defects
+                  to fight for the French for a time. Arnold eventually returns to fight for the
+                  English and is absolved by <ref target="people.html#EdwardPrinceofWales">Prince
+                     Edward</ref> before dying from a combat wound.</note> But the coincidence of
+               names between this British renegade and an American General who betrayed his post,
+               and came over to the English army during the late war in America, confers some tokens
+               of the prophetic upon the writer's pen.<note>Here <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> alludes to the story of <ref
+                     target="people.html#ArnoldBenedict">Benedict Arnold</ref>.</note></p>
+
+            <p>This tragedy made its first appearance at <ref target="people.html#DruryLane">Drury
+                  Lane</ref> in the year 1750; and as its reception was by no means flattering to
+               the author, or advantageous to the manager, it sunk into obscurity, till <ref
+                  target="people.html#KembleJohn">Mr. Kemble</ref> chose <ref
+                  target="people.html#EdwardPrinceofWales">Prince Edward</ref> for the second part
+               in which to appear before a London audience.<note>This play was well-received,
+                  initially running for nine nights in January of 1750. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> mistakenly draws the notion of
+                  the play's poor reception from <ref target="people.html#BakerDavid">David Erskine
+                     Baker</ref>'s <hi rendition="#italics"><title>The Companion to the
+                        Play-House</title></hi> (1764, p. unnumbered)&#8212;of <ref
+                     target="people.html#HoperRachael">Rachael Hoper</ref>'s 1748 play of the same
+                  title, <ref target="people.html#BakerDavid">Baker</ref> writes: "The Author being
+                  a Woman, and entirely unused to Writing, this Play prov'd as bad as [<ref
+                     target="people.html#ShirleyWilliam">Shirley</ref>'s], and being ushered into
+                  the World under such terrible Disadvantages, died in the Birth, and was entirely
+                  lost in its original Obscurity." <ref target="people.html#KembleJohn">John Philip
+                     Kemble</ref> successfully revived the play on October 20<hi rendition="#sup"
+                     >th</hi>, 1783, at which point he assumed the role of <ref
+                     target="people.html#EdwardPrinceofWales">Prince Edward</ref>.</note> This was
+               in the year 1783, and at that time, <ref target="people.html#ArnoldBenedict">General
+                  Arnold</ref>, not long arrived from his hostile country, resided in this
+               metropolis, a pensioner on the English government for betraying his own.</p>
+
+            <p>It was said, that the <ref target="people.html#ArnoldBenedict">General</ref>,
+               unacquainted with the fictitious events in this play, was unfortunately in the
+               theatre on the first night of its revival. Whether this was a truth or not, it is
+               certain, that in the scenes between Arnold and Ribemont,<note>In the present play,
+                  Lord Ribemont is a marshall of the French army and delivers the fatal blow to
+                  Arnold in the final act.</note> in the beginning of the <pb n="5"/>third
+               act&#8212;and in that between Arnold and <ref
+                  target="people.html#EdwardPrinceofWales">Edward</ref> in the fourth, a singular
+               whisper ran through the whole audience, which denoted, that if they did not see the
+               real <ref target="people.html#ArnoldBenedict">Arnold</ref>, at least they thought of
+               him.</p>
+
+            <p>The character of <ref target="people.html#AudleyJames">Audley</ref> has history for
+               its foundation, and seems to be a precise recorder of facts. <quote><ref
+                     target="people.html#AudleyJames">James, Lord Audley,</ref> of Haleigh in
+                  Staffordshire, distinguished himself greatly under <ref
+                     target="people.html#EdwardIIIKingofEngland">Edward III</ref>. in France, and
+                  was one of the first Knights of the Garter. He was present at the famous battle of
+                  Poictiers, where he was so grievously wounded, that his esquires were obliged to
+                  bear him out of the field of battle; after which, the <ref
+                     target="people.html#EdwardPrinceofWales">Black Prince</ref> bestowed on him a
+                  noble pension, with many marks of his regard.</quote></p>
+
+            <p><hi rendition="#flushRight">B<hi rendition="#smcaps">iog</hi>. B<hi
+                     rendition="#smcaps">rit</hi>.<note>Slightly altered quotation from <ref
+                        target="people.html#OldysWilliam">William Oldys</ref>' <hi
+                        rendition="#italics"><title>Biographia Britannica; or, the Lives of the Most
+                           Eminent Persons Who Have Flourished in Great Britain and Ireland, from
+                           the Earliest Ages, Down to the Present Times</title></hi> (1747, vol. I,
+                     pp. 278-279). <ref target="people.html#AudleyJames">Audley</ref> was indeed
+                     gravely wounded during the Battle of Poictiers and carried from the scene to
+                     the royal tent, where <ref target="people.html#EdwardPrinceofWales">Prince
+                        Edward</ref> commended him as his bravest knight and offered him an annuity
+                     of 500 marks.</note></hi></p>
+            <lb/>
+            <p>Ribemont appears to have been a creature of the poet's fancy, which should likewise
+               have been exercised in giving birth to a female of much more importance than Mariana;
+               for without a very interesting woman's part, few plays will be attractive.<fw
+                  type="sig"><hi rendition="#smcaps">b 3</hi></fw></p>
+         </div>
+      </body>
+   </text>
+</TEI>

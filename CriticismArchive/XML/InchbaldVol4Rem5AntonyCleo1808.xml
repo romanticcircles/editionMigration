@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Antony and Cleopatra</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol4Rem5AntonyCleo1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Antony and Cleopatra]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Antony and Cleopatra;</title>
+                  <title type="sub">A Historical Play, in Five Acts; By William Shakspeare. As
+                     Performed at the Theatre Royal, Drury Lane. Printed under the Authority of the
+                     Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IV. King Lear. Cymbeline. Macbeth. Julius Cæsar.
+                     Anthony and Cleopatra. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">4</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240830" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#AntoniusMarcus">Antony</ref> and <ref
+                              target="people.html#CleopatraVIIQueenofEgypt"
+                        >Cleopatra</ref></title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#AntoniusMarcus"
+                                    >Antony</ref> and <ref
+                                    target="people.html#CleopatraVIIQueenofEgypt"
+                                 >Cleopatra</ref></title>; A Historical Play, In Five Acts; By <ref
+                                 target="people.html#ShakespeareWilliam">William Shakspeare</ref>.
+                              As Performed at the Theatre Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref>. Printed Under the Authority of the Managers From
+                              the Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>, London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. IV. <hi
+                           rendition="#italics"><title><ref target="people.html#LearKingofBritain"
+                                 >King Lear</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#Cunobelinus">Cymbeline</ref></title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#Macbeth"
+                                 >Macbeth</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#CaesarJulius">Julius Cæsar</ref></title></hi>.
+                           <hi rendition="#italics"><title><ref target="people.html#AntoniusMarcus"
+                                 >Antony</ref> and <ref
+                                 target="people.html#CleopatraVIIQueenofEgypt"
+                              >Cleopatra</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged in 1606. Laura DeWitt and Mary A. Waters edited this essay for
+                           <hi rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>In this little book are contained historical facts, taken from one of the most
+               important eras in the Roman history. These facts include a well-known love-tale,
+               great state negociations, and two famous battles, the one by sea, the other by
+                     land.<note><ref target="people.html#AntoniusMarcus">Antony</ref> and <ref
+                     target="people.html#CaesarAugustus">Octavius</ref>' power disputes first
+                  culminate in the Battle of Actium, a sea battle off the western coast of Greece.
+                     <ref target="people.html#CaesarAugustus">Octavius</ref> has a significant naval
+                  advantage, and <ref target="people.html#CleopatraVIIQueenofEgypt">Cleopatra</ref>
+                  and <ref target="people.html#AntoniusMarcus">Antony</ref> flee, abandoning his
+                  forces to ruin. <ref target="people.html#AntoniusMarcus">Antony</ref> resolves to
+                  fight <ref target="people.html#CaesarAugustus">Octavius</ref> once more, this time
+                  on land, where he holds the advantage. However, on the eve of the battle, <ref
+                     target="people.html#AntoniusMarcus">Antony</ref>'s soldiers desert his army
+                  en-masse, believing that <ref target="people.html#Hercules">Hercules</ref> has
+                  abandoned <ref target="people.html#AntoniusMarcus">Antony</ref>'s protection,
+                  causing <ref target="people.html#AntoniusMarcus">Antony</ref> to lose against <ref
+                     target="people.html#CaesarAugustus">Octavius</ref>.</note></p>
+
+            <p>Events, thus remarkable, are here related by a poet, faithful in all historical
+               recitals, and blessed with penetration to behold the inmost recesses of the heart of
+               man; from whence he has ever curiously traced those actions which have made, or
+               marred, his hero's fortune; and filled the world with surprise, terror,
+               admiration!</p>
+
+            <p>The reader will, in the following pages, contemplate the Triumvirs of
+                  Rome<note>Following the assassination of <ref target="people.html#CaesarJulius"
+                     >Julius Caesar</ref>, a three-man dictatorship known as the Second Triumvirate
+                  seized power of the Roman Republic. The three triumvirs were <ref
+                     target="people.html#AntoniusMarcus">Mark Antony</ref>, <ref
+                     target="people.html#CaesarAugustus">Octavian</ref> (future <ref
+                     target="people.html#CaesarAugustus">Emperor Augustus</ref>), and <ref
+                     target="people.html#AemiliusMarcus">Marcus Aemilius Lepidus</ref>.</note> as
+               men, as well as emperors&#8212;he will see them with their domestic habits on; one
+               toying with his mistress, another in the enjoyment of his bottle; a third longing,
+               like a child, for a gaudy procession; and all these three rulers of the earth, ruled
+               by some sinister passion.</p>
+
+            <p>The reader will be also introduced to the <ref
+                  target="people.html#CleopatraVIIQueenofEgypt">queen of Egypt</ref>, in her
+               undress, as well as in her royal robes; he will be, as it were, admitted to her
+               toilet, where, in converse with her waiting-woman, she will suffer <fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/>him to arrive at her most secret
+               thoughts and designs: and he will quickly perceive, that the arts of a queen with her
+               lover, are just the same as those practised by any other beauty.&#8212;"If you find
+                  <ref target="people.html#AntoniusMarcus">Antony</ref> sad," cries <ref
+                  target="people.html#CleopatraVIIQueenofEgypt">Cleopatra</ref>, to her female
+               attendant, "say I am dancing; if he is in mirth, report that I am suddenly
+                  sick."<note>Act I, scene iii.</note></p>
+
+            <p>These natural contrivances of artful woman, labouring to make her conquest and her
+               power secure, are even outdone in truth of description, by that fretful impatience,
+               with which she is tortured, in the absence of <ref
+                  target="people.html#AntoniusMarcus">Antony</ref> from Egypt: By the gloom which
+               the poet has spread throughout her whole palace, whilst he is away; and, by the silly
+               sentences, which, during this restless period, she is impelled to utter. <quote><lg
+                     type="stanza">
+                     <l>Where think'st thou he is now? stands he, or sits he?</l>
+                     <l>Or does he walk? or is he on his horse?<note place="foot">Act I, scene
+                           v.</note></l>
+                  </lg></quote></p>
+
+            <p>Silly sentences to all who never were in love, but sensible, and most intelligent, to
+               all who ever were.</p>
+
+            <p>Equal to the foregoing conversation, is that, in which this impassioned queen makes
+               anxious inquiry, concerning the charms of her rival <ref target="people.html#Octavia"
+                  >Octavia</ref>. But those minute touches of nature, by which <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> proves a queen to be a
+               woman, are, perhaps, the very cause, why <ref target="people.html#DrydenJohn"
+                  >Dryden</ref>'s picture of the Egyptian court, is preferred, on the stage, before
+                     this.<note><ref target="people.html#DrydenJohn">John Dryden</ref>'s 1677
+                  imitation of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <hi
+                     rendition="#italics"><title><ref target="people.html#AntoniusMarcus"
+                           >Antony</ref> and <ref target="people.html#CleopatraVIIQueenofEgypt"
+                           >Cleopatra</ref>
+                     </title></hi>, <hi rendition="#italics"><title>All for Love; or, the World Well
+                        Lost</title></hi> became the preferred version of the story until
+                  1813.</note> There are things so diminutive, they cannot be perceived <pb n="5"
+               />in a theatre; whilst in a closet, their very smallness constitutes their value.</p>
+
+            <p><ref target="people.html#DrydenJohn">Dryden</ref>, in his "<title>All for Love, or
+                  the World well lost</title>," has humoured the common notion about kings and
+               queens; and there, they are seen only in parade, as the public are accustomed to
+               behold them. But <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> gives
+               those royal personages more endearments, far, than splendour can bestow, in exposing
+               them as part of the human species; and claiming, from that tender tie, more lenity to
+               their faults&#8212;more reverence for their virtues.</p>
+
+            <p>However this tragedy may be wanting in dramatic merit, so as to obtain that
+               enthusiastic admiration from an audience, which most of the author's other plays have
+                     done&#8212;"<title><ref target="people.html#AntoniusMarcus">Antony</ref> and
+                     <ref target="people.html#CleopatraVIIQueenofEgypt">Cleopatra</ref></title>"
+               will ever be acknowledged a composition of infinite worth. In this short production,
+               which, to read, is but the employment of an hour, are lessons&#8212;multifarious, and
+               enforced by great example&#8212;for, monarchs, statesmen, generals, soldiers,
+               renegadoes; for the prudent and the licentious; the prosperous, and the unfortunate;
+               the victor and the vanquished.</p>
+
+            <p>There is scarcely a person now existing, or a present occurrence in politics, to
+               which some observation in this drama, of ancient history, will not apply.&#8212;To
+               the idle <ref target="people.html#AntoniusMarcus">Antony</ref>, who, expressing
+               amazement, that his enemy has with such rapidity crossed the space between Rome and
+               Egypt, it is answered&#8212;"Celerity is never more admired than by the
+                  negligent."<note>Act III, scene vii, spoken by <ref
+                     target="people.html#CleopatraVIIQueenofEgypt">Cleopatra</ref>.</note></p>
+
+            <p>And when poor <ref target="people.html#AntoniusMarcus">Antony</ref>, nearly sunk
+               beneath his <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>mighty
+               foe, proposes some strange enterprize, as the means of safety; the friend, to whom he
+               communicates his project, delivers these remarkable words, as soon as he is out of
+               hearing. <quote><lg type="stanza">
+                     <l>&#8212;&#8212;&#8212;&#8212;I see men's judgements are</l>
+                     <l>A parcel of their fortunes; and things outward</l>
+                     <l>Do draw the inward quality after them,</l>
+                     <l>To suffer all alike.<note>Act III, scene xiii, spoken by <ref
+                              target="people.html#AhenobarbusGnaeus">Enobarbus</ref>.</note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

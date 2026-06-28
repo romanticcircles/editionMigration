@@ -1,0 +1,29 @@
+
+  { "stem" : "covent-garden",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Covent-Garden",
+            "weight" : "1",
+            "pos" : 15039,
+            "context" : "...Non-dramatic book publications include The Adventures of <mark>Covent-Garden<\/mark> (1699), Love and Business (1702),..." },
+          
+          { "form" : "Covent-Garden",
+            "weight" : "1",
+            "pos" : 15515,
+            "context" : "...include The Champion (1737-1740), The <mark>Covent-Garden<\/mark> Journal (1752), The True Patriot (1745..." } ] },
+      
+      { "docId" : "BarbFieldingBritNov1810",
+        "docUri" : "BarbFieldingBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Covent-Garden",
+            "weight" : "1",
+            "pos" : 1354,
+            "context" : "...this he engaged in a periodical paper, The <mark>Covent-Garden<\/mark> Journal, which was carried on for a twelvemonth...",
+            "fid" : "para28" } ] } ] }

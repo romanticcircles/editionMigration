@@ -1,0 +1,34 @@
+
+  { "stem" : "amien",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Amiens",
+            "weight" : "1",
+            "pos" : 16049,
+            "context" : "...took advantage of the 1802-1803 Peace of <mark>Amiens<\/mark> to travel to Italy. He was returning to..." },
+          
+          { "form" : "Amiens",
+            "weight" : "1",
+            "pos" : 20301,
+            "context" : "...from the Earliest Records, to the Peace of <mark>Amiens<\/mark>: In a Series of Letters to a Young..." },
+          
+          { "form" : "Amiens",
+            "weight" : "1",
+            "pos" : 41092,
+            "context" : "..., from the Earliest Records to the Peace of <mark>Amiens<\/mark>, in a Series of Letters to a Young..." } ] },
+      
+      { "docId" : "ShelleyEngInItaly1826",
+        "docUri" : "ShelleyEngInItaly1826.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Amiens",
+            "weight" : "1",
+            "pos" : 67,
+            "context" : "...the brief and luckless exception of the peace of <mark>Amiens<\/mark>,2 the continent had not been open for...",
+            "fid" : "para13" } ] } ] }

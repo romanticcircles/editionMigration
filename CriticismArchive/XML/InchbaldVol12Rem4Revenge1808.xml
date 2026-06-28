@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Revenge</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol12Rem4Revenge1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Revenge]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Revenge;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Edward Young, LL.D. As Performed at
+                     the Theatres Royal, Covent Garden and Drury Lane. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Young, Edward, 1683-1765</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241010" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Revenge</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Revenge</title>; A Tragedy, In Five Acts; By
+                                 <ref target="people.html#YoungEdward">Edward Young, LL.D</ref>. As
+                              Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-6. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XII. <hi
+                           rendition="#italics">
+                           <title>Orphan</title></hi>. <hi rendition="#italics"><title>Venice
+                              Preserved</title></hi>. <hi rendition="#italics"><title>Conscious
+                              Lovers</title></hi>. <hi rendition="#italics"
+                           ><title>Revenge</title></hi>. <hi rendition="#italics"><title>Beggar's
+                              Opera</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on April 18<hi rendition="#sup">th</hi>, 1721. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>It is certain, that <ref target="people.html#YoungEdward">Dr. Young</ref> was no
+               enthusiastic admirer of <ref target="people.html#ShakespeareWilliam"
+               >Shakspeare</ref>'s "<title><ref target="people.html#Othello"
+               >Othello</ref></title>"&#8212;To suppose he was, is to accuse him of high presumption
+               in hoping to write a still better play. For that he could take the same subject,
+               which an admired author had used with infinite success, and not hope to transcend
+               him, agrees but ill with the ambition of any dramatist; much less with that of the
+               aspiring <ref target="people.html#YoungEdward">Young</ref>.<note>The plot of this
+                  play revolves around the African Prince Zanga's quest for revenge against the
+                  Spanish General Alonzo, his former slave master and the murderer of his father.
+                  The play has been compared to <hi rendition="#italics"><title><ref
+                           target="people.html#Othello">Othello</ref></title></hi> in the respect
+                  that the main character is a Moor (the British term for Muslim inhabitant of
+                  Northern Africa), though in this case Zanga is more similar to the character <ref
+                     target="people.html#Iago">Iago</ref>, as Zanga plots the demise of Alonzo and
+                  his love interest Leonora.</note></p>
+
+            <p>"<title>The Revenge</title>" is so excellent a production, that the reader will
+               forgive the author's attempt, and compassionate his failure. In one of his
+               characters, indeed, he has surpassed the genius of <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>&#8212;but immorally
+               so&#8212;he has adorned malice and its kindred vices, with a sentiment appropriate to
+               the rarest virtue&#8212;scrupulous regard for unblemished honour.</p>
+
+            <p>The high-sounding vengeance of Zanga charms every heart, whilst the malicious
+               purposes of <ref target="people.html#Iago">Iago</ref> fill every bosom with
+               abhorrence.</p>
+
+            <p>Another advantage is given to Zanga in his guilt&#8212;the persons, whom he involves
+               in utter ruin, claim far less sympathy than <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>'s <ref
+                  target="people.html#Othello">Othello</ref> and <ref target="people.html#Desdemona"
+                  >Desdemona</ref>. Alonzo can excite no interest equal to the first, and Leonora
+               sinks even beneath comparison before the last.</p>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+
+            <p><ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> has said, that the inferior
+               characters in the tragedy of "<title><ref target="people.html#Othello"
+                  >Othello</ref></title>" would make a very good play, were the three superior ones
+               wholly omitted: and certainly Cassio, Roderigo, and Amelia are all excellent
+                  parts.<note>Of Cassio, Roderigo, and Emilia, <ref
+                     target="people.html#JohnsonSamuel">Johnson</ref> writes in his <hi
+                     rendition="#italics"><title>The Plays of <ref
+                           target="people.html#ShakespeareWilliam">William
+                     Shakespeare</ref></title></hi>, "Even the inferior characters of this play
+                  would be very conspicuous in any other piece, not only for their justness but
+                  their strength" (1765, vol. VIII, pp. 472-473). Cassio is <ref
+                     target="people.html#Othello">Othello</ref>'s loyal lieutenant; Roderigo is the
+                  wealthy and jealous suitor of <ref target="people.html#Desdemona">Desdemona</ref>;
+                  and Emilia is <ref target="people.html#Iago">Iago</ref>'s wife and <ref
+                     target="people.html#Desdemona">Desdemona</ref>'s maidservant.</note> But,
+               should this method be pursued with the tragedy of "<title>The Revenge</title>," when
+               the best were left out, what could be done with the remaining few?
+                  Isabella,<note>Isabella is Zanga's mistress and confidant.</note> in particular,
+               is a tool of such insignificance in herself, that, till her importance as an
+               instrument is testified, it seems degrading to the proud mind and acute understanding
+               of the imperious Moor, to trust his perilous design to a woman's secrecy who gives no
+               one proof to the audience of possessing selfrestraint peculiar from the rest of her
+               sex, and powerful enough to keep silence.</p>
+
+            <p>Deservedly high as this tragedy must ever rank among English dramas, it is but seldom
+               brought upon the stage, and then the actor who performs Zanga must be its sole
+               support.&#8212;This character is of such magnitude, and so unprotected by those which
+               surround him, that few performers will undertake to represent it: a less number still
+               have succeeded in braving the danger. <ref target="people.html#KembleJohn">Mr.
+                  Kemble</ref> stands foremost among those, and draws some splendid audiences every
+               year, merely to see <hi rendition="#italics">him;</hi> though the intervals between
+               his exits and entrances are sure to be passed in lassitude.<note><ref
+                     target="people.html#KembleJohn">John Philip Kemble</ref> revived <hi
+                     rendition="#italics"><title>The Revenge</title></hi> in 1798, published his own
+                  version of the play in 1811, and published a second, further revised version with
+                  biographical remarks in 1827.</note></p>
+
+            <p><ref target="people.html#YoungEdward">Dr. Young</ref> has the praise of being an
+               original poet, but this work cannot be brought as a proof; for besides its
+               resemblance to the "<title><ref target="people.html#Othello">Othello</ref></title>"
+               of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, it is alleged he
+               had also in his view the Abdelazer of <pb n="5"/><ref target="people.html#BehnAphra"
+                  >Mrs. Behn</ref>, upon which character Zanga is a grand improvement.<note><hi
+                     rendition="#italics"><title>Abdelazer; or, The Moor's Revenge</title></hi> is a
+                  1676 tragedy by <ref target="people.html#BehnAphra">Aphra Behn</ref>. Abdelazer is
+                  an enslaved Moor at the court of the king who killed his father. Abdelazer becomes
+                  the lover of the queen, who helps him exact revenge by poisoning the
+               king.</note></p>
+
+            <p>The originality of <ref target="people.html#YoungEdward">Young</ref> must be found in
+               his "<title>Night Thoughts</title>."<note><ref target="people.html#YoungEdward"
+                     >Young</ref> is best remembered for his <hi rendition="#italics"><title>The
+                        Complaint: or, Night Thoughts</title></hi> (1742–45), a nine-part, didactic
+                  blank-verse poem on death.</note> Those well known poems, that speak
+               contemptuously of a world, which, if his most distinguished biographers can be relied
+               upon, he loved as dearly as the gayest libertine.</p>
+
+            <p>It is a reflection more gloomy than the author's gloomiest composition, that <ref
+                  target="people.html#YoungEdward">Young</ref> was a man the very reverse of him,
+               whom the reader of his "<title>Night Thoughts</title>" would suppose the writer to
+               be.</p>
+
+            <p><ref target="people.html#YoungEdward">Dr. Edward Young</ref> was the son of the Dean
+               of Sarum, and born at Upham, near Winchester, in June 1681.<note><ref
+                     target="people.html#YoungEdward">Young</ref> was born in 1683 at his father's
+                  rectory at Upham, near Winchester, a cathedral city in Hampshire, England.</note>
+               He received his first education in that college; and at Oxford, took the degree of
+               Doctor of Civil Law.<note>First educated at Winchester College, <ref
+                     target="people.html#YoungEdward">Young</ref> went on to study as a gentleman
+                  commoner at New College of Oxford University in 1702. <ref
+                     target="people.html#YoungEdward">Young</ref> later transferred to Corpus
+                  Christi at Oxford, finally to receive a fellowship at All Souls at Oxford, where
+                  he took his Doctor of Laws degree in 1719.</note></p>
+
+            <p>On quitting the university where he had given testimony of his poetic talents, <ref
+                  target="people.html#YoungEdward">Young</ref> was admitted into the family of Lord
+               Exeter, and became the tutor of Lord Burleigh, with whom he was to travel, and
+               receive as his recompense an annuity for life. But the witty and profligate <ref
+                  target="people.html#WhartonPhilip">Duke of Wharton</ref>, who at that time rioted
+               in all the vices and follies of London, allured him by his friendship to yield up
+               this honourable engagement, and be a partner with him in all his excesses.<note><ref
+                     target="people.html#YoungEdward">Young</ref> dedicated this play to <ref
+                     target="people.html#WhartonPhilip">Philip Wharton</ref> after <ref
+                     target="people.html#WhartonPhilip">Wharton</ref> offered him two annuities of
+                  £100 each and a bonus sum of £600. For this promise, <ref
+                     target="people.html#YoungEdward">Young</ref> turned down a lifetime annuity
+                  offered to him by the Marquess of Exeter in exchange for <ref
+                     target="people.html#YoungEdward">Young</ref> becoming his son's tutor. <ref
+                     target="people.html#WhartonPhilip">Wharton</ref> failed to fulfill his promise,
+                  and <ref target="people.html#YoungEdward">Young</ref> took him to court,
+                  ultimately winning the annuities but not the £600.</note></p>
+
+            <p>This eminent poet can easier be forgiven his youthful attachment to the pleasures of
+               the world, than his aged anxiety after its honours. When the <ref
+                  target="people.html#WhartonPhilip">Duke</ref>'s protection ceased with his exile
+               and death,<note><ref target="people.html#WhartonPhilip">Wharton</ref> renounced the
+                  "Old Pretender" <ref target="people.html#JamesPrinceofWales">James</ref> and the
+                  Jacobite cause in 1730, at which point he and his wife moved to Catalonia, Spain,
+                  where he died of alcoholism the following year.</note>
+               <ref target="people.html#YoungEdward">Young</ref> took orders, as the only means of
+               subsistence; and be-<fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+               <pb n="6"/>came grave and political, as the only means of preferment.<note>From the
+                  1720s onward, <ref target="people.html#YoungEdward">Young</ref> became known for
+                  his overt attempts to secure patronage through poetry and dedications prefacing
+                  his works. These attempts were often targeted at the Hanoverian line and its
+                  supporters in nobility and the House of Commons. <ref
+                     target="people.html#YoungEdward">Young</ref> was given minor chaplain positions
+                  but failed to secure a steady source of income until he was granted the rectory of
+                  Welwyn, Hertfordshire, in 1730.</note> He preached excellent sermons on the duty
+               of a christian,<note><ref target="people.html#YoungEdward">Young</ref>'s most notable
+                  sermons include <hi rendition="#italics"><title>A Vindication of Providence: or, a
+                        True Estimate of Human Life, In which the Passions are considered in a new
+                        light</title></hi> (1728), <hi rendition="#italics"><title>An Apology for
+                        Princes: or, The Reverence due to Government</title></hi> (1729), and <hi
+                     rendition="#italics"><title>An Argument, drawn from the Circumstances of
+                        Christ's Death, for the Truth of His Religion</title></hi> (1758).</note>
+               and wrote as excellent pamphlets to traduce his neighbour the <ref
+                  target="people.html#MarlboroughJohnChurchill">Duke of Marlborough</ref>, when that
+               neighbour was out of favour with the court.<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> may here conflate <ref
+                     target="people.html#YoungEdward">Edward Young</ref> with Robert Young, a forger
+                  and perjurer who accused the <ref target="people.html#MarlboroughJohnChurchill"
+                     >Duke of Marlborough</ref> of involvement in Jacobite conspiracy in 1692, at
+                  which point <ref target="people.html#YoungEdward">Edward Young</ref> would have
+                  been roughly nine years old.</note></p>
+
+            <p>He was fervent in public worship, both at church, and in the dedications he sent
+               forth with his various works; wherein, he has praised God: which gives rise to the
+               suspicion, that he expected as valuable favours from the created, as from the
+               Creator.</p>
+
+            <p><ref target="people.html#YoungEdward">Dr. Young</ref> was married in 1732 to Lady
+               Elizabeth Lee, daughter of the <ref target="people.html#LeeEdwardHenry">Earl of
+                  Litchfield</ref>, and the widow of Colonel Lee.<note>In 1731, <ref
+                     target="people.html#YoungEdward">Young</ref> married Lady Elizabeth Lee, a
+                  granddaughter of <ref target="people.html#CharlesIIKingofEngland">King Charles
+                     II</ref> and widow of her cousin, Francis Lee, with whom she had three
+                  children.</note> About the year 1740, Lady Elizabeth died; and very shortly after,
+               both a daughter she had by her first marriage, and that daughter's husband, (a son of
+                  <ref target="people.html#TempleHenry">Lord Palmerston</ref>) departed this
+                  life.<note>Lady Elizabeth's daughter died travelling to France in 1736. Lady
+                  Elizabeth and her son-in-law died in 1740. These losses were the inspiration for
+                     <ref target="people.html#YoungEdward">Young</ref>'s <hi rendition="#italics"
+                        ><title>Night-Thoughts</title></hi>.</note>&#8212;Melancholy events, which
+                  <ref target="people.html#YoungEdward">Young</ref> has lamented in strains of pious
+               sorrow in his favourite work.</p>
+
+            <p>Notwithstanding his afflictions he survived these losses five and twenty years: then
+               expired at the age of eighty-four,<note><ref target="people.html#YoungEdward"
+                     >Young</ref> died on April 5<hi rendition="#sup">th</hi>, 1765, at the age of
+                  81 or 82.</note> enjoying his perfect senses to the last moment&#8212;and to the
+               last moment he refused to see his only child, a son, who for some youthful offence
+               had been banished his house; and yet that repentant child sent earnest supplications
+               for pardon, and admission to his father's presence.<note><ref
+                     target="people.html#YoungEdward">Young</ref> and his son, Frederick, initially
+                  fell out over a disagreement regarding their housekeeper as well as Frederick's
+                  spendthrift tendencies. <ref target="people.html#YoungEdward">Young</ref> refused
+                  to see his son until shortly before his death, but the two ultimately reconciled,
+                  and <ref target="people.html#YoungEdward">Young</ref> left everything to
+                  Frederick.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

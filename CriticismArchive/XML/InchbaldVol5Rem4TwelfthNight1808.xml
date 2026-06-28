@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Twelfth Night</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol5Rem4TwelfthNight1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Twelfth Night]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Twelfth Night; or, What You Will;</title>
+                  <title type="sub">A Comedy, in Five Acts; By William Shakspeare. As Performed at
+                     the Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. V. Coriolanus. Othello. Tempest. Twelfth Night.
+                     Every Man In His Humour.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240905" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Twelfth
+                           Night</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Twelfth Night</title>; or, What You Will; A Comedy,
+                              In Five Acts; By <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref> and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row, pp. 3-5. <hi rendition="#italics"><title level="m">The
+                              British Theatre; or, A Collection of Plays, Which Are Acted At the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>,
+                                 <ref target="people.html#CoventGarden">Covent Garden</ref>, and
+                                 <ref target="people.html#Haymarket">Haymarket</ref>. Printed Under
+                              the Authority of the Managers from the Prompt Books. With Biographical
+                              and Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. V. <hi
+                           rendition="#italics"><title><ref target="people.html#Coriolanus"
+                                 >Coriolanus</ref></title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Othello"
+                           >Othello</ref></title></hi>. <hi rendition="#italics"
+                              ><title>Tempest</title></hi>. <hi rendition="#italics"><title>Twelfth
+                              Night</title></hi>. <hi rendition="#italics"><title>Every Man in His
+                              Humour</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        in 1601. Laura DeWitt and Mary A. Waters edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>The subject of this comedy has no reference whatever to its title of "<title>Twelfth
+                  Night</title>."<note>The twelfth night after Christmas, known as the Eve of
+                  Epiphany, or the last night of the extended Christmas celebration. Costumes
+                  involving role reversal&#8212;men dressing as women, servants dressing as their
+                  masters&#8212;were common on this day as part of the festivities. A Lord of
+                  Misrule was appointed, and this character would demand songs, entertainment, and
+                  mummers' plays (informal performances by amateur acting troupes). <hi
+                     rendition="#italics"><title>Twelfth Night</title></hi> reflects the sanctioned
+                  mischief and revelry of the holiday.</note>&#8212;Ancient manners, and old
+               fashioned improbabilities, form the character of this drama; whilst some exquisite
+               poetry, and some interesting events are its ornaments.</p>
+
+            <p>Those readers, who can receive entertainment from a fictitious, or from a real fool,
+               will find much humorous amusement in the parts of both the Clown, and Sir
+                  Andrew;<note>Feste is a jester and <ref target="people.html#Olivia">Olivia</ref>'s
+                  servant; Sir Andrew Aguecheek is a friend of Sir Toby, <ref
+                     target="people.html#Olivia">Olivia</ref>'s uncle, and a suitor of <ref
+                     target="people.html#Olivia">Olivia</ref>.</note> and they will possibly, also,
+               enjoy the ridicule which arises from an imposition that is practised upon a
+               presumptuous upper servant of a woman of quality.<note>Malvolio, the pompous Puritan
+                  steward of <ref target="people.html#Olivia">Olivia</ref>'s household, receives a
+                  forged love letter from Maria, <ref target="people.html#Olivia">Olivia</ref>'s
+                  personal house-maid. Following the hints in the letter, he behaves so oddly as to
+                  provide an excuse for those in the household whom he has irritated to commit him
+                  to a dark room as a treatment for his supposed madness. </note> But the dramatis
+               personæ of higher interest are those, with whom <ref target="people.html#Viola"
+                  >Viola</ref> is concerned in the serious, more than in the comic occurrences,
+               which befall her; for, with them, she speaks a language that enchants both the ear
+               and the understanding; and produces a happy contrast to the less refined dialogue. </p>
+
+            <p>It is said that <ref target="people.html#CharlesIKingofEngland">King Charles the
+                  First</ref>, whose admiration of <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref> was a crime with the Puritans, gave this play the title of
+                  "<title>Malvolio</title>." Had His Majesty seen <ref
+                  target="people.html#JordanDorothy">Mrs. Jordan</ref> perform in it, he, no doubt,
+               would have called it "<ref target="people.html#Viola">Viola</ref>." The former
+               character is, however, suited to former times.</p>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+
+            <p>For in times past it was a custom with the facetious in high life, and to this day it
+               continues so with the witty vulgar, to derive infinite merriment, from gross deceit,
+               such as is here employed to ensnare Malvolio. If a man was observed to incline to one
+               overruling passion, all his neighbours, in bold defiance of christian charity, and
+               kind compassion, formed a conspiracy to increase his predominant vice; and, without
+               reverence for his unsuspicious nature, or shame for their own treachery, no sooner
+               was their scheme accomplished, than they openly contemned their dupe, for his trust
+               in their words and protestations. </p>
+
+            <p>Independent of the immoral tendency of this conduct, those incidents which arise from
+               such despicable artifice, is beneath the ingenuity of the drama. Yet, as an author
+               has an undoubted right to show the fashions of the age he represents; so, on that
+               account alone, he has here, perhaps laudably, added to his natural fool, and his
+               counterfeit fool&#8212;a made fool.</p>
+
+            <p>It might, nevertheless, be asked by a partizan of Malvolio's, whether this credulous
+               steward was much deceived, in imputing a degraded taste, in the sentiments of love,
+               to his fair <ref target="people.html#Olivia">Lady Olivia</ref>? as she actually did
+               fall in love with a domestic; and one, who, from his extreme youth, was, perhaps, a
+               greater reproach to her discretion, than had she cast a tender regard upon her old
+               and faithful servant.<note>When <ref target="people.html#Olivia">Olivia</ref> marries
+                     <ref target="people.html#Viola">Viola</ref>'s brother, Sebastian, she believes
+                  him to be the page Cesario, the identity with which <ref
+                     target="people.html#Viola">Viola</ref> disguises herself while shipwrecked in
+                  Illyria.</note></p>
+
+            <p>The imprudence of women, in placing their affections, their happiness, on men younger
+               than themselves, cannot be better described, nor the sex more powerfully warned
+               against such propensity, than, by the Duke Orsino,<note>The Duke of Illyria, a kind
+                  and trustworthy bachelor in love with <ref target="people.html#Olivia"
+                     >Olivia</ref>, and future husband of <ref target="people.html#Viola"
+                     >Viola</ref>.</note> in this very play. <pb n="5"/><quote>
+                  <lg type="stanza">
+                     <l>&#8212;&#8212;Let still the woman take</l>
+                     <l>An elder than herself; so wears she to him,</l>
+                     <l>So sways she level in her husband's heart, &amp;c.<note>Act II, scene
+                           iv.</note></l>
+                  </lg></quote></p>
+
+            <p>Although the mirth, which is excited at the expense of Malvolio, is impeded by the
+               ungenerous stratagem, through which he has been deceived; yet it is gratifying to
+               observe the skill, by which he is made, as soon as his vanity is caught, to interpret
+               every event that occurs, every word that is uttered, to the purpose, on which his
+               wishes are bent.&#8212;Other gratifications, of a more exalted kind, will be derived
+               from the more exalted characters. The meeting of the brother and sister will produce
+               a sympathy, that every reader will sensibly feel;&#8212;and the following lines,
+               delivered by Fabian,<note>A servant in <ref target="people.html#Olivia"
+                  >Olivia</ref>'s household.</note> in the original edition, ought to mollify
+               criticism upon some of the most extraordinary incidents contained in this work: for
+               in these lines <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> alludes,
+               perhaps, to other extravagant circumstances in "<title>Twelfth Night</title>" as well
+               as to that, exhibited in the scene where they are spoken; and meant thus indirectly,
+               to plead guilty. <quote><hi rendition="#italics">Fabian</hi>. If this were played
+                  upon a stage now, I could condemn it as an improbable fiction.<note>Act III, scene
+                     iv.</note></quote></p>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

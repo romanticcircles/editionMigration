@@ -1,0 +1,19 @@
+
+  { "params" : 
+    [ 
+      { "searchFile" : "critarchive\/search.html",
+        "versionFile" : "staticSearch\/VERSION.txt",
+        "stemmerFolder" : "en",
+        "recurse" : "false",
+        "phrasalSearch" : "true",
+        "wildcardSearch" : "true",
+        "createContexts" : "true",
+        "maxKwicsToHarvest" : 3,
+        "maxKwicsToShow" : 10,
+        "totalKwicLength" : 15,
+        "kwicTruncateString" : "...",
+        "verbose" : "false",
+        "stopwordsFile" : "staticSearch\/xsl\/english_stopwords.txt",
+        "dictionaryFile" : "staticSearch\/xsl\/english_words.txt",
+        "indentJSON" : "true",
+        "outputFolder" : "search" } ] }

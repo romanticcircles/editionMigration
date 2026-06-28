@@ -1,0 +1,46 @@
+
+  { "stem" : "churchyard",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Churchyard",
+            "weight" : "1",
+            "pos" : 9405,
+            "context" : "...his entire fortune to Henrietta. [LD] <mark>Churchyard<\/mark>, Thomas, 1520?-1604 (Library of...",
+            "fid" : "ChurchyardThomas" },
+          
+          { "form" : "Churchyard's",
+            "weight" : "1",
+            "pos" : 9422,
+            "context" : "...the Earl of Surrey, and mercenary soldier. <mark>Churchyard's<\/mark> most notable work is his contribution to the collection..." },
+          
+          { "form" : "Churchyards",
+            "weight" : "1",
+            "pos" : 41736,
+            "context" : "...1822); Solitary Hours (1846); Chapters on <mark>Churchyards<\/mark> (1842); The Cat's Tail, being the..." } ] },
+      
+      { "docId" : "BarbRadcliffeBritNov1810",
+        "docUri" : "BarbRadcliffeBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "churchyard",
+            "weight" : "1",
+            "pos" : 300,
+            "context" : "...ear of night, If this same were a <mark>churchyard<\/mark> where we stand, And thou possessed with a...",
+            "fid" : "line4" } ] },
+      
+      { "docId" : "BarbSpectatorPrelim1804",
+        "docUri" : "BarbSpectatorPrelim1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Churchyard",
+            "weight" : "1",
+            "pos" : 3354,
+            "context" : "...London: Printed for J. Johnson, St. Paul's <mark>Churchyard<\/mark>, by R. Taylor and Co., Black-horse...",
+            "fid" : "note1" } ] } ] }

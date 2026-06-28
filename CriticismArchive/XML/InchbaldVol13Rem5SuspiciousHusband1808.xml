@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Suspicious Husband</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol13Rem5SuspiciousHusband1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Suspicious Husband]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Suspicious Husband;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Dr. Hoadly. As Performed at the
+                     Theatres Royal, Drury Lane, and Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Hoadly, Dr. (Benjamin), 1706-1757</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241104" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Suspicious Husband</title></hi>].<note>"Remarks." <hi
+                           rendition="#italics"><title><title>The Suspicious Husband</title>; A
+                              Comedy, In Five Acts; By <ref target="people.html#HoadlyDrBenjamin"
+                                 >Dr. Hoadly</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. XIII. <hi rendition="#italics">
+                           <title>Love for Love</title></hi>. <hi rendition="#italics"
+                              ><title>Mourning Bride</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Muhammad"
+                           >Mahomet</ref></title></hi>. <hi rendition="#italics"><title>Tancred and
+                              Sigismunda</title></hi>. <hi rendition="#italics"><title>Suspicious
+                              Husband</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#CoventGarden">Theatre Royal, Covent
+                           Garden</ref> on February 12<hi rendition="#sup">th</hi>, 1747. Laura
+                        DeWitt and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>Whoever reads this play, and more especially, whoever sees it, will be astonished,
+               that it was the only drama the author ever wrote.<note><ref
+                     target="people.html#HoadlyDrBenjamin">Hoadly</ref> wrote another play, <hi
+                     rendition="#italics"><title>The Tatlers</title></hi>, which was only performed
+                  in 1797 and never published. He also co-authored a burlesque with his brother,
+                     <ref target="people.html#HoadlyJohn">John Hoadly</ref>, entitled <hi
+                     rendition="#italics"><title>The Contrast; or, A Tragical Comical Rehearsal of
+                        Two Modern Plays, and the Tragedy of <ref target="people.html#Epaminondas"
+                           >Epaminondas</ref></title></hi>. The work was performed three times in
+                  1731, but it was poorly received, as it derided such prominent playwrights as <ref
+                     target="people.html#ShakespeareWilliam">William Shakespeare</ref> and <ref
+                     target="people.html#JonsonBen">Ben Jonson</ref>. The brothers never published
+                  the play as per the request of their father, <ref
+                     target="people.html#HoadlyBenjamin">Benjamin Hoadly</ref>.</note> It was too
+               good a beginning to give an omen, that it would be also the end of his theatrical
+               career. But the author had other employment; and though his taste allured him to
+               write for the stage, his prudence and wisdom directed him, not to omit more serious,
+               and, perhaps, more essential, occupation.</p>
+
+            <p>The learned prelate, <ref target="people.html#HoadlyBenjamin">Hoadly</ref>, Bishop of
+               Winchester, had two sons, <ref target="people.html#HoadlyDrBenjamin">Benjamin</ref>
+               and <ref target="people.html#HoadlyJohn">John</ref>. The eldest was a Doctor of
+               Physic, and physician to the <ref target="people.html#GeorgeIIKingofGreatBritain"
+                  >king</ref>; the youngest, a Doctor of Divinity, and chaplain to <ref
+                  target="people.html#FrederickPrinceofWales">Frederick, Prince of Wales</ref>. They
+               both became eminent in their professions; yet, though they each pursued with vigour
+               their graver studies, they were both devoted to the fascinating charms of the
+                     drama.<note><ref target="people.html#HoadlyDrBenjamin">Benjamin Hoadly</ref>
+                  was the physician to the households of <ref
+                     target="people.html#GeorgeIIKingofGreatBritain">King George II</ref> and <ref
+                     target="people.html#FrederickPrinceofWales">Prince Frederick</ref>. <ref
+                     target="people.html#HoadlyJohn">John Hoadly</ref> became chaplain to <ref
+                     target="people.html#FrederickPrinceofWales">Frederick</ref>'s household in 1735
+                  and went on to gain several significant preferments.</note></p>
+
+            <p><ref target="people.html#HoadlyDrBenjamin">Benjamin</ref>, the eldest, is the author
+               of "<title>The Suspicious Husband</title>;" though it has been always supposed that
+               he had the assistance of his brother, in its composition.<note>Scholars believe that
+                     <ref target="people.html#HoadlyJohn">John Hoadly</ref> may have contributed to
+                  the composition of <hi rendition="#italics"><title>The Suspicious
+                     Husband</title></hi>.</note></p>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+            <p>The divine, even more than the physician, seems to have been enamoured of theatrical
+               amusements; for he wrote many sacred and other plays, which were found in manuscript,
+               on his decease; he had, besides, an intimate acquaintance with <ref
+                  target="people.html#GarrickDavid">Garrick</ref>, and took delight in having
+               interludes and other stage productions acted at his country house, whenever he
+               invited company.<note><ref target="people.html#HoadlyJohn">John Hoadly</ref> had an
+                  extremely active social life and was known for hosting impromptu productions
+                  involving his guests at his country estate. <ref target="people.html#HoadlyJohn"
+                     >John</ref> held intimate acquaintance with prominent literary and theatrical
+                  figures such as <ref target="people.html#GarrickDavid">David Garrick</ref>, <ref
+                     target="people.html#FieldingHenry">Henry Fielding</ref>, <ref
+                     target="people.html#HogarthWilliam">William Hogarth</ref>, and <ref
+                     target="people.html#DodsleyRobert">Robert Dodsley</ref>. Upon his death he had
+                  left several unpublished plays and poems in a manuscript.</note></p>
+
+            <p>It is said, that the great <ref target="people.html#HogarthWilliam">Hogarth</ref>, on
+               a visit to <ref target="people.html#HoadlyJohn">Dr. John Hoadly</ref>, having
+               undertaken to perform a part in one of those exhibitions, showed such deficiency in a
+               retentive memory, that, with all his applications, he could never learn one single
+               speech by heart, so as to speak it perfectly. To atone for this dulness, he
+               ornamented the playbills of the evening with characteristic figures, so excellent,
+               they are still preserved, though not engraved, amongst other of the works of this
+               celebrated artist.</p>
+
+            <p>The present comedy appeared in 1747, when <ref target="people.html#HoadlyDrBenjamin"
+                  >Benjamin</ref> was forty-two, <ref target="people.html#HoadlyJohn">John</ref>,
+               thirty-eight years of age, and the <ref target="people.html#HoadlyBenjamin"
+                  >bishop</ref>, their father, still living.<note>At the time of this play's first
+                  performance, <ref target="people.html#HoadlyDrBenjamin">Benjamin</ref> was 41,
+                     <ref target="people.html#HoadlyJohn">John</ref> was 35, and their father,
+                  indeed, remained alive.</note> That venerable prelate appears to have laid no
+               restriction upon his two sons' dramatic fervour: probably he had a conception, that
+               theatric zeal might be less dangerous, both to themselves and the world, than
+               polemical ardour. He found his own good books as liable to condemnation from the
+               clergy, as the dramas of his children from the audience of a theatre; and whilst he
+               was souring his temper, and the minds of those <pb n="5"/>churchmen, whom, by his
+               controversial sermons and pamphlets he attacked, his two sons were employed in
+               disposing half the town to brotherly love, by chasing away spleen, in the jocund
+               attractions of this production.<note><ref target="people.html#InchbaldMrs"
+                     >Inchbald</ref> here references <ref target="people.html#HoadlyBenjamin"
+                     >Benjamin Senior</ref>'s involvement in the Bangorian Controversy, which was
+                  incited by his sermon "<title>The Nature of the Kingdom of Christ</title>." In
+                  this sermon, drawing upon "<title>My kingdom is not of this world</title>" from
+                     <ref target="people.html#SaintJohn">John</ref> 18:36, <ref
+                     target="people.html#HoadlyBenjamin">Benjamin Senior</ref> argued that there was
+                  no Biblical justification for church government, as Christ had not vested
+                  authority in any earthly persons.</note></p>
+
+            <p>This comedy was, from its very first performance, received with testimonies of high
+               favour; nor has time reduced its credit with the public. Ranger is the pleasantest
+               man of frolicsome propensity, that was ever introduced upon the stage; because,
+               though he has numerous faults, he has not one flagrant vice; and the rest of the
+               characters are perfectly natural, though somewhat insipid: but their want of spirit
+               is fully recompensed by the abundance which is bestowed upon Ranger; for in the glow
+               of his fire, every character which surrounds him receives an animating
+                  warmth.<note>The plot of this play revolves around the misadventures of two
+                  couples, Frankly and Clarinda and Bellamy and Jacintha, who is the ward of the
+                  Strictlands, Mr. Strictland being the title character. Ranger, a classic rake
+                  character and the part assumed by <ref target="people.html#GarrickDavid"
+                     >Garrick</ref>, is a resident of the Temple and friend of Bellamy whose antics
+                  cause confusion yet ultimately provide resolution.</note></p>
+
+            <p>Strictland is supposed to have a superiority to most of the other parts, by being
+               placed all through the piece, under the influence of a tormenting passion&#8212;but
+               of all the jealous husbands on the stage, from the ancient Kitely and Ford, down to
+               the modern Sir John Restless, Strictland is the most tame and unimportant: nor has
+               he, or his wife, any other claims upon the interest of their auditors, than what
+               arise from their connexion with that support of the play&#8212;the volatile
+                     Ranger.<note><ref target="people.html#JonsonBen">Ben Jonson</ref>'s <hi
+                     rendition="#italics"><title>Every Man in his Humour</title></hi> (1598) follows
+                  Kitely, a cloth merchant who becomes increasingly paranoid that he is being
+                  cuckolded by his wife. In <ref target="people.html#ShakespeareWilliam">William
+                     Shakespeare</ref>'s <hi rendition="#italics"><title>The Merry Wives of
+                        Windsor</title></hi> (1597), Ford is the jealous husband of Mrs. Ford, who
+                  is courted by <ref target="people.html#Falstaff">Sir John Falstaff</ref>. <ref
+                     target="people.html#MurphyArthur">Arthur Murphy</ref>'s <hi
+                     rendition="#italics"><title>All in the Wrong</title></hi> (1761) centers around
+                  the mutual jealousy of Sir John and Lady Restless.</note></p>
+
+            <p>Next to Ranger himself, his hat is the most important individual of the comedy. Here,
+               incident <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>makes
+               characters, or at least makes the audience feel no want of them.</p>
+
+            <p>Those who doubt the justice of certain eulogiums passed on <ref
+                  target="people.html#GarrickDavid">Garrick</ref>, in many parts he acted, still
+               suppose he was very excellent in the part of Ranger; yet the comedy lives, though
+                  <ref target="people.html#GarrickDavid">Garrick</ref> is no more.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

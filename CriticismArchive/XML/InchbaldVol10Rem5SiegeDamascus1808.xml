@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Siege of Damascus</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol10Rem5SiegeDamascus1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Siege of Damascus]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Siege of Damascus;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By John Hughes, Esq. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. X. Comedy of Errors. Romeo and Juiiet. Hamlet.
+                     King John. King Richard III..</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">10</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. X. Tamerlane. Fair Penitent. Jane Shore. Lady Jane
+                     Grey. Siege of Damascus.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">10</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Hughes, John, 1677-1720</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240818" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Siege
+                           of Damascus</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Siege of Damascus</title>; A Tragedy, In Five
+                              Acts; By <ref target="people.html#HughesJohn">John Hughes</ref>, Esq.
+                              As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. X. <hi rendition="#italics">
+                           <title><ref target="people.html#Timur">Tamerlane</ref></title></hi>. <hi
+                           rendition="#italics"><title>Fair Penitent</title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#ShoreJane">Jane
+                                 Shore</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GreyJane">Lady Jane Grey</ref></title></hi>.
+                           <hi rendition="#italics"><title>Siege of Damascus</title></hi>. London:
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808. The first
+                        performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        February 17<hi rendition="#sup">th</hi>, 1720. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#HughesJohn">John Hughes</ref>, the author of this tragedy,
+               is described by his biographers as a man who possessed high talents, and a most
+               amiable character. He was beloved, admired, and trusted, by the great <ref
+                  target="people.html#AddisonJoseph">Addison</ref>; and <ref
+                  target="people.html#SteeleRichard">Steele</ref> has written on him the following
+               panegyric: <quote>He may be the emulation of more persons of different talents than
+                  any one I have ever known. His head, hands, or heart, were always employed in
+                  something worthy imitation. His pencil, his bow, or his pen, each of which he used
+                  in a masterly manner, were always directed to raise and entertain his own mind, or
+                  that of others, to a more cheerful prosecution of what is noble and
+                     virtuous.<note>Slightly altered quotation from <ref
+                        target="people.html#SteeleRichard">Richard Steele</ref>'s <hi
+                        rendition="#italics"><title>The Theatre</title></hi>
+               (1720).</note></quote></p>
+            <p>This respected author was the son of a citizen of London, and born at Marlborough, in
+               Wiltshire, in 1677. From his earliest youth, he gave testimony of an inclination for
+               the three sister arts, painting, music, and poetry; in each of which he made a
+               considerable progress by close application, and the enjoyment of a fine taste.</p>
+            <lb/>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+            <p>This play is dedicated to <ref target="people.html#CowperWilliamEarl">Earl
+                  Cowper</ref>, who, whilst he was Lord Chancellor of England, nominated <ref
+                  target="people.html#HughesJohn">Mr. Hughes</ref>, and without any previous
+               solicitation, to many offices of considerable importance;<note>In 1717, <ref
+                     target="people.html#CowperWilliamEarl">Cowper</ref> made <ref
+                     target="people.html#HughesJohn">Hughes</ref> Secretary for the Commissions of
+                  the Peace, a position that ensured financial security for <ref
+                     target="people.html#HughesJohn">Hughes</ref>.</note> and otherwise bestowed
+               upon him marks of his affection and favour.</p>
+            <p>"<title>The Siege of Damascus</title>" was written in the neighbourhood of <ref
+                  target="people.html#CowperWilliamEarl">Lord Cowper</ref>'s country seat, and
+               received, progressively, as the author wrote, his lordship's attention and
+               approbation.</p>
+            <p>The action of the play commences about two years after the death of the first caliph,
+               the great <ref target="people.html#Muhammad">Mahomet</ref>.&#8212;<ref
+                  target="people.html#AbuBakr">Abubeker</ref>, his successor, was, like himself,
+               supreme, both in spiritual and temporal concerns. Following the steps of <ref
+                  target="people.html#Muhammad">Mahomet</ref>, in propagating his new system of
+               superstition by the sword, he sent a numerous army into Syria, under the command of
+               the Arabian general, <ref target="people.html#KhalidalWalid">Caled</ref>; who, having
+               subdued part of that devoted country, now besieged Damascus, its capital.</p>
+            <p>This event took place about the year 634<note>The Siege of Damascus took place from
+                  August 21<hi rendition="#sup">st</hi> to September 19<hi rendition="#sup">th</hi>,
+                  634, when the Islamic Rashidun Caliphate besieged the major Byzantine stronghold
+                  of Damascus, Syria.</note>&#8212;a most important era in Grecian history.</p>
+            <p>The christian emperor, <ref target="people.html#Heraclius">Heraclius</ref>, found, at
+               this period, his own subjects divided by controversies respecting the articles of
+               faith and the forms of worship, by which christianity should be professed and
+               adorned. He found, at the same time, the followers of <ref
+                  target="people.html#Muhammad">Mahomet</ref> so firmly united in one belief, that
+               Paradise would be the reward of extirpating the christians from the earth; and so
+               enthusiastically bent upon this holy labour, that the Greek and Roman empire was
+               shaken by their extensive conquests.</p>
+            <pb n="5"/>
+            <p>The basis of this tragedy being now described, it would be anticipating, and abating
+               much of the reader's entertainment, to give any further delineation of its
+               structure.</p>
+            <p>The following circumstances may, however, be stated, without forestalling the
+               pleasure of curiosity.&#8212;The play was well received on its first appearance, and
+               is still in high esteem, though seldom performed. The characters are varied, and
+               distinguished by noble sentiments; the events highly interesting, and at times
+               affecting. The scene itself gives a kind of pious dignity to the whole work; for the
+               very sound of Damascus, to a christian ear, has somewhat of sacred
+                  influence.<note>Important for millenia for its commercial, military, and cultural
+                  standing, Damascus holds particular significance to Christianity through its
+                  connection to <ref target="people.html#PaulApostleSaint">St. Paul</ref>, formerly
+                  a persecutor of Christians who was converted to Christianity after experiencing a
+                  vision of Christ on the road to Damascus.</note></p>
+            <p>On presenting this play to the managers of the theatre, <ref
+                  target="people.html#HughesJohn">Mr. Hughes</ref> was prevailed upon, before they
+               would accept the piece, to make an alteration in the character of one of his
+               principal christian warriors in the drama, whom he had originally caused to change
+               his religion, from some powerful temptation which assailed him.<note>This play
+                  follows Phocyas, a noble Syrian soldier, and his love for Eudocia, the daughter of
+                  the governor of Damascus. In <ref target="people.html#HughesJohn">Hughes</ref>'
+                  original version of the play, Phocyas joins the besieging Muslims out of
+                  frustration with his love for Eudocia. However, <ref
+                     target="people.html#HughesJohn">Hughes</ref> was forced to remove this part of
+                  the play, as it was considered unacceptable to London audiences by the managers of
+                  the <ref target="people.html#DruryLane">Drury Lane Theatre</ref>.</note></p>
+            <p>The managers, no doubt, were right in supposing, that an audience would never behold,
+               with a favourable eye, the man who could change his faith from any motive except
+               clear conviction;&#8212;but if, as it is said, they urged for their argument, that no
+               hero was ever an apostate, they surely had forgotten <ref
+                  target="people.html#HenryIVKingofFrance">Henry the Fourth of France</ref>, who had
+               an undoubted right to both these epithets.<note><ref
+                     target="people.html#HenryIVKingofFrance">Henry IV</ref> was baptized Catholic
+                  but raised Protestant by his mother. <ref target="people.html#HenryIVKingofFrance"
+                     >Henry</ref> held the Protestant faith until he faced a four-year military
+                  stalemate with the Catholic League, an organization which refused to accept a
+                  Protestant monarch. At this point, <ref target="people.html#HenryIVKingofFrance"
+                     >Henry</ref> converted to Catholicism.</note></p>
+            <p>"<title>The Siege of Damascus</title>" was brought before the public, at <ref
+                  target="people.html#DruryLane">Drury Lane Theatre</ref>, on the 17th of
+                  Fe-<lb/><fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>bruary,
+               1719&#8212;and, on that first evening of its being represented, the author
+                  died.<note>After spending much of his life in ill health, <ref
+                     target="people.html#HughesJohn">Hughes</ref> died of consumption on the opening
+                  night of this production, just hours after he learned of its success.</note></p>
+            <p><ref target="people.html#HughesJohn">Mr. Hughes</ref>'s constitution is said to have
+               been weakly, and that a decline put a period to his existence at this remarkable
+               juncture;&#8212;but, if his mind was delicate as his body, anxiety for the fate of
+               this production might agitate him, even on the verge of the grave, and hasten his
+               approach to it.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

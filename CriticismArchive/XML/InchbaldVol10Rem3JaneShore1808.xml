@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Jane Shore</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol10Rem3JaneShore1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Jane Shore]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Jane Shore;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Nicholas Rowe, Esq. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. X. Tamerlane. Fair Penitent. Jane Shore. Lady Jane
+                     Grey. Siege of Damascus.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">10</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Rowe, Nicholas, 1674-1718</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240818" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#ShoreJane">Jane
+                        Shore</ref></title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Jane Shore</title>; A Tragedy, In Five Acts; By <ref
+                                 target="people.html#RoweNicholas">Nicholas Rowe</ref>, Esq. As
+                              Performed at the Theatre Royal, <ref target="people.html#CoventGarden"
+                                 >Covent Garden</ref>. Printed Under the Authority of the Managers
+                              From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-5. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. X. <hi
+                           rendition="#italics">
+                           <title><ref target="people.html#Timur">Tamerlane</ref></title></hi>. <hi
+                           rendition="#italics"><title>Fair Penitent</title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#ShoreJane">Jane
+                                 Shore</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GreyJane">Lady Jane Grey</ref></title></hi>.
+                           <hi rendition="#italics"><title>Siege of Damascus</title></hi>. London:
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808. The first
+                        performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        February 2<hi rendition="#sup">nd</hi>, 1714. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>Except in one particular <ref target="people.html#RoweNicholas">Rowe</ref> has been
+               perfectly historical in this play.</p>
+            <p><ref target="people.html#ShoreJane">Jane Shore</ref> was, as he has represented,
+               accused of witchcraft; and proof of her guilt, in that instance, having failed, she
+               was next charged with the crime of adultery; an accusation it was in vain to deny;
+               and by sentence of the ecclesiastical court, she was made to perform penance in St.
+               Paul's church, and then to walk barefooted through some of the adjoining
+                  streets.<note>In addition to conspiracy, <ref
+                     target="people.html#RichardIIIKingofEngland">King Richard III</ref>, then the
+                  Protector of the throne, accused <ref target="people.html#ShoreJane">Shore</ref>
+                  of Witchcraft and Sorcery, alleging that she plotted with <ref
+                     target="people.html#EdwardIVKingofEngland">King Edward IV</ref>'s wife to waste
+                  and wither his body. When <ref target="people.html#RichardIIIKingofEngland"
+                     >Richard</ref> could not prove his accusation of <ref
+                     target="people.html#ShoreJane">Shore</ref>'s sorcery, her charges were reduced
+                  to being a harlot, for which the Bishop of London sentenced her to public penance.
+                  This public penance called for <ref target="people.html#ShoreJane">Shore</ref> to
+                  walk the sharp stone streets of London barefoot in her chemise with a taper in her
+                  hands.</note></p>
+            <p>But <ref target="people.html#ShoreJane">Jane Shore</ref>, perishing for hunger, is
+               the fiction of an old ballad, and no intelligence from history; or, if she did expire
+               for want of food, it was not in consequence of any judgment passed upon her, as she
+               lived to an advanced age before the event took place:<note>It is estimated that <ref
+                     target="people.html#ShoreJane">Shore</ref> was around 82 at the time of her
+                  death.</note> for <ref target="people.html#MoreThomas">Sir Thomas More</ref>
+               assures his readers, that, in the reign of <ref
+                  target="people.html#HenryVIIIKingofEngland">Henry VIII</ref>. forty years after
+               her humiliating punishment was inflicted, he has frequently seen her gathering herbs,
+               in a field near the city, for her nightly repast.&#8212;She was now, he adds,
+               "extremely old and shrivelled; without one trace of her former beauty."<note>A
+                  reference to <ref target="people.html#MoreThomas">Sir Thomas More</ref>'s 1543 <hi
+                     rendition="#italics"><title>The History of <ref
+                           target="people.html#RichardIIIKingofEngland">Richard
+                     III</ref></title></hi>. This is an interpretative rephrasing of the lines
+                  "Whose jugement semet me somwhat like as though men should gesse the bewty of one
+                  longe before departed, by her scalpe taken out of the charnel house; for now is
+                  she old, lene, withered, and dried vp, nothing left but ryuilde skin and hard
+                  bone. And yet being euen such, whoso wel aduise her visage, might gesse and deuise
+                  which partes how filled wold make it a faire face" (p. 54 of the 1883
+                  edition).</note></p>
+            <p><ref target="people.html#RoweNicholas">Rowe</ref> has produced, from the incidents of
+               her singular life this favourite play.&#8212;The wife of a goldsmith of Lombard
+                  Street,<note>Lombard Street has been a hotspot for London's mercantile and banking
+                  industries since medieval times. <ref target="people.html#ShoreJane">Shore</ref>'s
+                  first husband, William Shore, was a goldsmith and banker who was friends of the
+                  Lamberts (<ref target="people.html#ShoreJane">Shore</ref>'s family of origin).
+                     <ref target="people.html#ShoreJane">Shore</ref>'s father arranged the marriage
+                  when she was rather young, but <ref target="people.html#ShoreJane">Shore</ref> was
+                  able to have the marriage annulled on the grounds of her husband's impotency in
+                  1476.</note> has drawn tears from the<lb/><fw type="sig"><hi rendition="#smcaps">b
+                     2</hi></fw><pb n="4"/> rich and the poor, for these hundred years past; and
+               will never cease having power over the hearts of an audience, whilst an actress can
+               be found to represent her, and her sorrows, with apparent truth.</p>
+            <p>Of the other characters of this tragedy, little can be said in praise, except of
+                  Alicia<note>Alicia is the mistress of <ref target="people.html#HastingsWilliam"
+                     >Hastings</ref>, a powerful baron who forcibly takes <ref
+                     target="people.html#ShoreJane">Shore</ref> as a mistress following the death of
+                     <ref target="people.html#EdwardIVKingofEngland">King Edward IV</ref>. Although
+                  the two had previously been best friends, Alicia becomes fiercely jealous of <ref
+                     target="people.html#ShoreJane">Shore</ref> and betrays her to <ref
+                     target="people.html#RichardIIIKingofEngland">Richard</ref> as the cause of <ref
+                     target="people.html#HastingsWilliam">Hastings</ref>' support for the young <ref
+                     target="people.html#EdwardVKingofEngland">Edward V</ref> as successor. In turn,
+                     <ref target="people.html#RichardIIIKingofEngland">Richard</ref> executes <ref
+                     target="people.html#HastingsWilliam">Hastings</ref> and turns <ref
+                     target="people.html#ShoreJane">Shore</ref> out to the streets.</note>&#8212;and
+               it is curious to observe, how widely two learned critics have differed in their
+               opinion respecting the merit of this part.&#8212; <ref
+                  target="people.html#JohnsonSamuel">Dr. Johnson</ref> says, "Alicia is a character
+               of empty noise, with no resemblance to real sorrow, or natural madness."<note>From
+                     <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the English Poets; and a Criticism on
+                        their Works</title></hi> (1781, vol. II, p. 172).</note></p>
+            <p>Whilst <ref target="people.html#WartonJoseph">Dr. Warton</ref> has said, "The
+               interview between <ref target="people.html#ShoreJane">Jane Shore</ref> and Alicia, in
+               the fifth act, is very affecting, where the madness of Alicia is well
+                  painted."<note>From <ref target="people.html#WartonJoseph">Warton</ref>'s <hi
+                     rendition="#italics"><title>An essay on the writings and genius of <ref
+                           target="people.html#PopeAlexander">Pope</ref></title></hi> (1756, p.
+                  267).</note></p>
+            <p>To reconcile these two opposite criticisms, it may be supposed&#8212;that those great
+               critics spoke as spectators, not as readers: and the one had seen a good, and the
+               other a bad actress, perform the part.</p>
+            <p>Alicia can surely be rendered as pathetic as <ref target="people.html#ShoreJane">Jane
+                  Shore</ref>, provided the character is acted with equal skill: for, though <ref
+                  target="people.html#ShoreJane">Jane</ref> has the advantage of her friend, in
+               being the personage whom the auditors have come purposely to see, and of whom they
+               have heard speak from their childhood, yet Alicia's calamities are far more heavy
+               than those of the famished <ref target="people.html#ShoreJane">Shore</ref>.&#8212;The
+               former is tortured by the most poignant remorse that human nature can
+               sustain&#8212;her conscience is loaded with a fellow-creature's death&#8212;nor has
+               she the enjoyment of malice, to diminish her<pb n="5"/> sense of guilt; as she became
+               a murderer through the wild extravagance of love, not hate.</p>
+            <p>The parting scene between her and the condemned <ref
+                  target="people.html#HastingsWilliam">Hastings</ref>, where he forgives her as the
+               cause of his immediate execution, has something more affecting, than the last scene
+               of the drama, where Shore forgives his dying wife. The husband's pardon comes, after
+               time has softened, and penitence mitigated, his wrongs&#8212;the lover forgives a
+               more fatal injury, and its consequences that moment impending.<note>In Act IV, scene
+                  i, Alicia visits the imprisoned <ref target="people.html#HastingsWilliam"
+                     >Hastings</ref> and confesses her treachery. <ref
+                     target="people.html#HastingsWilliam">Hastings</ref> forgives her and begs her
+                  to offer assistance to <ref target="people.html#ShoreJane">Shore</ref>, but by the
+                  time <ref target="people.html#ShoreJane">Shore</ref> comes to Alicia's doorstep,
+                  Alicia has gone mad and refuses to grant <ref target="people.html#ShoreJane"
+                     >Shore</ref> any help. In Act V, scene i, <ref target="people.html#ShoreJane"
+                     >Jane Shore</ref> is reunited with her husband, with whom she has been
+                  separated since the beginning of her affair with <ref
+                     target="people.html#EdwardIVKingofEngland">Edward IV</ref>. Her husband grants
+                  his forgiveness just before he is seized by <ref
+                     target="people.html#RichardIIIKingofEngland">Richard</ref>'s
+               soldiers.</note></p>
+            <lb/>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

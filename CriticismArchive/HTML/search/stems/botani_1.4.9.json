@@ -1,0 +1,29 @@
+
+  { "stem" : "botani",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "botany",
+            "weight" : "1",
+            "pos" : 12178,
+            "context" : "...on topics of natural history, especially geology and <mark>botany<\/mark>, both before and after the two works on..." },
+          
+          { "form" : "botany",
+            "weight" : "1",
+            "pos" : 12253,
+            "context" : "...Nature (1803), he published additional works on <mark>botany<\/mark> as well as commemorative poetry and treatises on scientific..." } ] },
+      
+      { "docId" : "BarbSmithBritNov1810",
+        "docUri" : "BarbSmithBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "botany",
+            "weight" : "1",
+            "pos" : 682,
+            "context" : "..., in a pleasing way, much knowledge of <mark>botany<\/mark> and natural history, of which two studies she...",
+            "fid" : "para23" } ] } ] }

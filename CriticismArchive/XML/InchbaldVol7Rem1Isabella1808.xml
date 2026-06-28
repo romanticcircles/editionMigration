@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Isabella</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol7Rem1Isabella1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Isabella]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Isabella; or, the Fatal Marriage;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Thomas Southern. As Performed at the
+                     Theatre Royal, Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VII. Isabella. Oroonoko. Distressed Mother. Zara.
+                     Gustavus Vasa.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">7</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Southerne, Thomas, 1660-1746</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240915" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"
+                           ><title>Isabella</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Isabella</title>; or, the Fatal Marriage; A Tragedy,
+                              In Five Acts; By <ref target="people.html#SoutherneThomas">Thomas
+                                 Southern</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row, pp. 3-5. <hi rendition="#italics"><title level="m">The
+                              British Theatre; or, A Collection of Plays, Which Are Acted At the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>,
+                                 <ref target="people.html#CoventGarden">Covent Garden</ref>, and
+                                 <ref target="people.html#Haymarket">Haymarket</ref>. Printed Under
+                              the Authority of the Managers from the Prompt Books. With Biographical
+                              and Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VII. <hi
+                           rendition="#italics">
+                           <title>Isabella</title></hi>. <hi rendition="#italics"
+                              ><title>Oroonoko</title></hi>. <hi rendition="#italics"
+                              ><title>Distressed Mother</title></hi>. <hi rendition="#italics"
+                              ><title>Zara</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GustavIKingofSweden">Gustavus
+                              Vasa</ref></title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of <ref
+                           target="people.html#SoutherneThomas">Thomas Southerne</ref>'s <hi
+                           rendition="#italics"><title>The Fatal Marriage; or, The Innocent
+                              Adultery</title></hi> was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> in
+                        February of 1694. However, <ref target="people.html#GarrickDavid">David
+                           Garrick</ref>'s adaptation, <hi rendition="#italics"><title>Isabella; or,
+                              The Fatal Marriage</title></hi>, to which <ref
+                           target="people.html#InchbaldMrs">Inchbald</ref> here refers, was first
+                        staged at the <ref target="people.html#DruryLane">Theatre Royal, Drury
+                           Lane</ref>, probably in 1757. Bernadette D. Woodburn, Laura DeWitt, and
+                        Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p><ref target="people.html#SoutherneThomas">Southern</ref>, the author of this tragedy,
+               was born in Dublin, in the year of the restoration, and received his education in the
+               university there.<note><ref target="people.html#SoutherneThomas">Thomas
+                     Southerne</ref> was born in 1660, the year <ref
+                     target="people.html#CharlesIIKingofEngland">Charles II</ref> was restored to
+                  the throne following the English Civil Wars. <ref
+                     target="people.html#SoutherneThomas">Southerne</ref> attended Trinity College
+                  at Dublin from 1676 to 1678.</note> He then came to England, and entered himself
+               in the Middle Temple, as student of the law: but he neglected this study for the fame
+               of writing plays, and soon after, wholly relinquished it for the adventures of the
+                     army.<note><ref target="people.html#SoutherneThomas">Southerne</ref> briefly
+                  studied law at Middle Temple, London, in 1680 before being drawn away by his
+                  interest in theatre.</note> He was patronized by <ref
+                  target="people.html#JamesIIKingofEngland">James the Second</ref>, when Duke of
+               York, and served under that monarch, as captain, against the <ref
+                  target="people.html#MonmouthJamesScott">Duke of Monmouth</ref>.<note><ref
+                     target="people.html#SoutherneThomas">Southerne</ref> enlisted as an ensign in
+                  1685, gradually rising to the rank of captain before his military career ended in
+                  1688 with the Glorious Revolution. He served during the <ref
+                     target="people.html#MonmouthJamesScott">Monmouth</ref> Rebellion of 1685, an
+                  attempt to depose the Catholic <ref target="people.html#JamesIIKingofEngland"
+                     >James II</ref> by his protestant half-brother, <ref
+                     target="people.html#MonmouthJamesScott">James Scott, 1<hi rendition="#sup"
+                        >st</hi> Duke of Monmouth</ref>.</note></p>
+            <p><ref target="people.html#DrydenJohn">Dryden</ref> being asked, whose genius, as a
+               poet <ref target="people.html#SoutherneThomas">Southern</ref> resembled, compared him
+               to <ref target="people.html#OtwayThomas">Otway</ref>.<note>From <ref
+                     target="people.html#CibberTheophilus">Theophilus Cibber</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the Poets of Great Britain and
+                        Ireland</title></hi> (1753, vol. 5, p. 329).</note> Every reader will own
+               the comparison just, for they have both unbounded force in the description of
+               poignant grief.</p>
+            <p>The present drama, independent of its own worth, will be ever memorable for having
+               introduced to the admiration of a London audience,&#8212;<ref
+                  target="people.html#SiddonsSarah">Mrs. Siddons</ref>.<note>On October 10<hi
+                     rendition="#sup">th</hi>, 1782, <ref target="people.html#SiddonsSarah">Sarah
+                     Siddons</ref> played the titular role in <ref target="people.html#GarrickDavid"
+                     >David Garrick</ref>'s adaptation of <hi rendition="#italics"
+                        ><title>Isabella</title></hi> at <ref target="people.html#DruryLane">Drury
+                     Lane</ref>.</note></p>
+            <p>Who will allege, that mental powers have no charm in the female sex? <ref
+                  target="people.html#SiddonsSarah">Mrs. Siddons</ref> performed on the London
+               stage, in the prime of youth and bloom of beauty, yet was totally neglected: She came
+               a few years after, with judgment for her aid, and was enthusiastically
+                  worshipped.<note>Recruited by <ref target="people.html#GarrickDavid"
+                  >Garrick</ref>, <ref target="people.html#SiddonsSarah">Siddons</ref> played
+                  Portia, the protagonist of <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>'s <hi rendition="#italics"><title>The Merchant of
+                        Venice</title></hi>, at <ref target="people.html#DruryLane">Drury Lane</ref>
+                  in 1775. This performance was not well received, and she was released from her
+                  engagement at <ref target="people.html#DruryLane">Drury Lane</ref>. However, her
+                  return to play the titular role of <hi rendition="#italics"
+                        ><title>Isabella</title></hi> in 1782 was met with phenomenal
+                  success.</note></p>
+            <p>Woe, bitterest woe, must be gracefully imitated in the just performance of Isabella:
+               but of such imitation, and of all those delightful sensations, which arise<fw
+                  type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+               <pb n="4"/>from beholding fictitious sorrow, the audience of the metropolis had been
+               for many years deprived, by the want of skilful tragedians, when she
+               appeared,&#8212;she enchanted all the town by her "well painted passion,"<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> is quoting <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title><ref
+                        target="people.html#Othello">Othello</ref></title> in Act IV, scene i,
+                  spoken by <ref target="people.html#Othello">Othello</ref> in reference to <ref
+                     target="people.html#Desdemona">Desdemona's</ref> distress.</note> and
+               established in the dramatic world, the long lost prerogative of sighs and tears.</p>
+            <p>The characters which surround Isabella, are merely placed there by the author, to
+               give effect to all she says and does. Insignificant as those personages are in
+               themselves, they produce with her so happy a combination, that a most powerful
+               tragedy is the result of their joint services.</p>
+            <p>Beyond the deepest pain, felt by an audience for Isabella’s grief, there is a pang
+               almost insupportable, which proceeds from her gratitude. The author has in no part of
+               the tragedy more effectually wrung the hearts of those, who possess nice sensibility,
+               than where this poor widow is overcome by kindness, to render herself additionally
+               wretched, rather than be ungrateful.</p>
+            <p>"This generosity will ruin me."<note>Found in Act II, scene ii of <ref
+                     target="people.html#GarrickDavid">Garrick</ref>'s 1776 adaptation of
+                     <title>Isabella</title>, (p. 21)</note> &#8212;"I am contented to be miserable,
+               but not this way."<note><ref target="people.html#GarrickDavid">Garrick</ref>'s 1776
+                  adaptation of <hi rendition="#italicS"><title>Isabella</title></hi>, Act IV, scene
+                  ii, p. 36.</note> These are sentences more pathetic to those, who feel acutely the
+               weight of obligations, than any she pronounces.</p>
+            <p>Those very auditors are equally vivid in their sensations towards her faults, as her
+               virtues; and shrink from the unjustifiable manner with which she treats men who come
+               to demand their right; calling them "rav'ning bloodhounds."<note>Act II, scene iii.
+               </note> A character, only half as amiable as the author meant her to appear, could
+               not conduct herself towards her creditors, but with the most profound respect. Indeed
+               was Isabella<pb n="5"/> largely indebted to any one amongst these men, and had not
+               the means of payment,&#8212;moral argument, perhaps, could prove, she was bound as
+               much in honour to marry <hi rendition="#italics">him</hi> for value received, as to
+               marry Villeroy.<note>Villeroy is Isabella's second husband whom she marries after 7
+                  years of courting following her husband's supposed death.</note></p>
+            <p>This play is censured by some critics for its comic scenes;&#8212;the tragic are much
+               superior, they want more of the last, and none of the first. But, more of Isabella,
+               exquisite as she is, might cause satiety. The author in his work has given variety,
+               and that variegated scene which nature gives.</p>
+            <p><ref target="people.html#SoutherneThomas">Southern</ref> wrote no less than ten
+               plays; of which, only this tragedy, and his <title>Oroonoko</title>, are remembered
+               to the author's reputation.</p>
+            <p>He lived to the age of eighty-eight,<note><ref target="people.html#SoutherneThomas"
+                     >Southerne</ref> died in 1746 at the age of 86.</note> and passed his latter
+               days in retired serenity, having acquired, by his industry and strict economy, a
+               considerable fortune.<note>This picture of <ref target="people.html#SoutherneThomas"
+                     >Southerne</ref>'s retirement reflects that of <ref
+                     target="people.html#CibberTheophilus">Theophilus Cibber</ref> in his <hi
+                     rendition="#italics"><title>The Lives of the Poets of Great Britain and
+                        Ireland</title></hi> (1753, vol. 5, pp. 330-331).</note> He was the first
+               who increased the advantage of dramatic authors, by obtaining, in addition to the
+               first, a second and third night for their emolument.<note>Benefit nights to
+                  supplement the income of a playwright, the actors, or some other beneficiary had
+                  become a usual practice by <ref target="people.html#InchbaldMrs">Inchbald</ref>'s
+                  time. They were often negotiated as part of the terms that allowed the play to be
+                  staged.</note> He also raised the price of prologues, having given seven guineas
+               to <ref target="people.html#DrydenJohn">Dryden</ref>, on his demand of that sum, for
+               a prologue, which, till then, had only been rated at five<note><ref
+                     target="people.html#JohnsonSamuel">Johnson</ref> says only three. <ref
+                     target="people.html#CibberTheophilus">Cibber</ref> says seven was given. It has
+                  been thought proper here, to name the most dignified sum [<ref
+                     target="people.html#InchbaldMrs">Inchbald</ref>'s note]. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> refers to <ref
+                     target="people.html#CibberTheophilus">Theophilus Cibber</ref>'s account of the
+                  transaction in his <hi rendition="#italics"><title>The Lives of the Poets of Great
+                        Britain and Ireland</title></hi> (1753, vol. 5, p. 328).</note>. These
+               occurrences gave occasion to the following lines of <ref
+                  target="people.html#PopeAlexander">Pope</ref>: <quote>
+                  <lg type="stanza">
+                     <l>&#8212;&#8212;<ref target="people.html#SoutherneThomas">Southern</ref>, born
+                        to raise</l>
+                     <l>The price of prologues and of plays.<note>Slightly altered from <ref
+                              target="people.html#PopeAlexander">Alexander Pope</ref>'s poem
+                              "<title>To <ref target="people.html#SoutherneThomas">Mr. Thomas
+                                 Southern</ref>, On His Birth-day</title>" (1742). The quote in this
+                           form first appeared in <ref target="people.html#CibberTheophilus"
+                              >Cibber</ref>'s <hi rendition="#italics"><title>The Lives of the Poets
+                                 of Great Britain and Ireland</title></hi> (1753, vol. 5, p.
+                           328).</note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

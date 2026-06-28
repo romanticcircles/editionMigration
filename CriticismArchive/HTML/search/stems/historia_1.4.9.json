@@ -1,0 +1,51 @@
+
+  { "stem" : "historia",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 5633,
+            "context" : "...of Lutheranism. An incident from Buchanan's Rerum Scoticarvm <mark>Historia<\/mark>, published posthumously in 1582, was the inspiration..." },
+          
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 16941,
+            "context" : "...of Prophetiae Merlini (The Prophesies of Merlin) and <mark>Historia<\/mark> regum Britanniae (The History of the Kings of Britain..." },
+          
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 26622,
+            "context" : "...Geoffrey of Monmouth's twelfth-century pseudohistory, <mark>Historia<\/mark> Regum Britanniae (The History of the Kings of Britain..." } ] },
+      
+      { "docId" : "InchbaldVol4Rem1KingLear1808",
+        "docUri" : "InchbaldVol4Rem1KingLear1808.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 567,
+            "context" : "4.  From Geoffrey of Monmouth's <mark>Historia<\/mark> Regum Britanniae (The History of the Kings of Britain...",
+            "fid" : "note4" },
+          
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 593,
+            "context" : "...Geoffrey of Monmouth's twelfth-century pseudohistory, <mark>Historia<\/mark> Regum Britanniae (The History of the Kings of Britain...",
+            "fid" : "note5" } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Historia",
+            "weight" : "1",
+            "pos" : 6738,
+            "context" : "...by Robert Wace based on Geoffrey of Monmouth's <mark>Historia<\/mark> regum Britanniae and featuring the deeds of King Arthur...",
+            "fid" : "note5" } ] } ] }

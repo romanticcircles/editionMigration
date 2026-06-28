@@ -1,0 +1,55 @@
+
+  { "stem" : "herald",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Heraldic",
+            "weight" : "1",
+            "pos" : 16417,
+            "context" : "...(1708-1751, Bernard Burke's Genealogical and <mark>Heraldic<\/mark> History of the Peerage, Baronetage, and Knightage..." },
+          
+          { "form" : "Heraldic",
+            "weight" : "1",
+            "pos" : 20482,
+            "context" : "...d. 1763 (Bernard Burke, A Genealogical and <mark>Heraldic<\/mark> History of the Peerage, Baronetage, and Knightage..." },
+          
+          { "form" : "Herald",
+            "weight" : "1",
+            "pos" : 35034,
+            "context" : "...several periodicals over his career, including the Leicester <mark>Herald<\/mark>, the Museum, the Antiquaries Magazine, and..." } ] },
+      
+      { "docId" : "ShelleyModItRom1838corpus",
+        "docUri" : "ShelleyModItRom1838corpus.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "heralds",
+            "weight" : "1",
+            "pos" : 3413,
+            "context" : "...around, but lower down, stood the trumpeters and <mark>heralds<\/mark>, who attended on the joust." } ] },
+      
+      { "docId" : "ShelleyModItRomI1838",
+        "docUri" : "ShelleyModItRomI1838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "heralds",
+            "weight" : "1",
+            "pos" : 3413,
+            "context" : "...around, but lower down, stood the trumpeters and <mark>heralds<\/mark>, who attended on the joust.",
+            "fid" : "para41" } ] },
+      
+      { "docId" : "InchbaldVol2Rem4KingHenryV1808",
+        "docUri" : "InchbaldVol2Rem4KingHenryV1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "herald",
+            "weight" : "1",
+            "pos" : 291,
+            "context" : "...frivolous anxiety of the surviving nobility, by the <mark>herald<\/mark> Montjoy,6 in this address to Henry:—...",
+            "fid" : "para20" } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "leadership",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "leadership",
+            "weight" : "1",
+            "pos" : 33326,
+            "context" : "...British Prime Minister from 1770 to 1782 whose insufficient <mark>leadership<\/mark> contributed to the loss of the American colonies in..." },
+          
+          { "form" : "leadership",
+            "weight" : "1",
+            "pos" : 38520,
+            "context" : "...Founder of the Ayyubid dynasty that spread under his <mark>leadership<\/mark> to include Egypt, Syria, Yemen, and..." } ] },
+      
+      { "docId" : "BarbSmolletBritNov1810",
+        "docUri" : "BarbSmolletBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "leadership",
+            "weight" : "1",
+            "pos" : 2298,
+            "context" : "...blamed for failing to create an effectively cooperative British <mark>leadership<\/mark> that could respond to the challenges at hand....",
+            "fid" : "note3" } ] } ] }

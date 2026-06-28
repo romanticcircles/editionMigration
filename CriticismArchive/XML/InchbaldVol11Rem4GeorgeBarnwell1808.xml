@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on George Barnwell</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol11Rem4GeorgeBarnwell1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on George Barnwell]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">George Barnwell;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By George Lillo. As Performed at the
+                     Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Lillo, George, 1693-1739</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240911" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>George
+                           Barnwell</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>George Barnwell</title>; A Tragedy, In Five Acts; By
+                                 <ref target="people.html#LilloGeorge">George Lillo</ref>. As
+                              Performed at the Theatres Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XI. <hi
+                           rendition="#italics">
+                           <title>Busy Body</title></hi>. <hi rendition="#italics"
+                              ><title>Wonder</title></hi>. <hi rendition="#italics"><title>Bold
+                              Stroke for a Wife</title></hi>. <hi rendition="#italics"><title>George
+                              Barnwell</title></hi>. <hi rendition="#italics"><title>Fatal
+                              Curiosity</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on June 22<hi rendition="#sup">nd</hi>, 1731. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The author of this tragedy was a tradesman, which might influence his taste for the
+               description of scenes in humble life; beyond which, his acquaintance could not extend
+               but in theory.</p>
+
+            <p>The popular ballad of "<title>George Barnwell</title>,"<note>The popular
+                  sixteenth-century ballad of George Barnwell tells the story of a London apprentice
+                  who falls in love with a prostitute who encourages him to rob his employer,
+                  renounce the love of a virtuous woman and his friends, and murder his uncle for
+                  his fortune.</note> furnished him with an excellent subject to gratify his
+               inclination, and its moral tendency did just honour to the writer's character, which
+               was that of worth and probity.</p>
+
+            <p><ref target="people.html#LilloGeorge">Lillo</ref> was born in 1693, and was by
+               profession, a jeweller. He lived in London, near Moorgate,<note>Moorgate is a
+                  neighborhood in northern London in the area where the Moorgate defensive wall
+                  stood until 1762.</note> in the same neighbourhood where he received his birth:
+               and in the year 1732,<note>The first performance of this play was staged on June
+                     22<hi rendition="#sup">nd</hi>, 1731.</note> having produced this tragedy, he
+               presented it to <ref target="people.html#CibberTheophilus">Mr. Theophilus
+                  Cibber</ref>, then manager of the summer company at the <ref
+                  target="people.html#DruryLane">theatre royal Drury Lane</ref>.</p>
+
+            <p><ref target="people.html#CibberTheophilus">Mr. Cibber</ref> eagerly accepted this new
+               species of pathetic drama;<note>Unlike other plays of its time, this tragedy entirely
+                  centered around members of the middle class, making the play extremely influential
+                  in the budding genre of bourgeois drama.</note> but, on announcing it for
+               performance, its well-known title, "<title>The true Story of George
+               Barnwell</title>," made a very unfavourable impression upon the refined part of the
+               town, and they <fw type="sig">
+                  <hi rendition="#smcaps">b 2</hi>
+               </fw><pb n="4"/>condemned the presumption of the author, in hoping to make them
+               sympathize in the sorrows of any man beneath the rank of an emperor, king, or
+               statesman.</p>
+
+            <p>On the first night of representation, the greatest part of the audience assembled to
+               laugh, and brought with them the old ballad on the subject, as a token of
+               ridicule&#8212;but, as the play proceeded, they became attentive, then interested,
+               and, at length, threw down the ancient ditty, and drew forth their handkerchiefs.</p>
+
+            <p><ref target="people.html#PopeAlexander">Pope</ref> was amongst the distinguished
+               persons who had the curiosity to be present at the first performance of
+                  "<title>George Barnwell</title>," and he commended the work. He observed, that the
+               fable was well conducted, the diction natural; or if, at times, it was elevated
+               something above the simplicity of the characters, it never descended to meanness, or
+               departed from that truth of style calculated to reach the heart.<note>From <ref
+                     target="people.html#CibberTheophilus">Theophilus Cibber</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the Poets of Great-Britain and
+                        Ireland</title></hi> (1753, vol. V, p. 339).</note></p>
+
+            <p>The play was performed twenty nights successively on its first appearance, nor did it
+               lose its attraction in the winter season, being frequently acted to crowded houses;
+               and warmly patronised by merchants and other opulent citizens.<note>This play was
+                  staged for 17 nights during its initial run at <ref target="people.html#DruryLane"
+                     >Drury Lane</ref> between June 22<hi rendition="#sup">nd</hi> and August 20<hi
+                     rendition="#sup">th</hi>, 1731. It remained popular at <ref
+                     target="people.html#DruryLane">Drury Lane</ref> and numerous other theatres
+                  throughout the winter season.</note></p>
+
+            <p>Revived notions of elegance in calamity, have, in later times, reduced this play to a
+               mere holiday performance, to warn apprentices and servantmen against the arts of
+               depraved females; and point out to them the inevitable destruction that must ensue,
+               upon the first breach of trust.</p>
+
+            <p>In spite of so coarse a moral for refined delinquents, "<title>George
+                  Barnwell</title>" is an evening's entertainment, worthy of the most judicious
+               admirer of the drama, <pb n="5"/>when <ref target="people.html#KembleCharles">C.
+                  Kemble</ref> performs the character.<note>He appeared in the character when he was
+                  not older than Barnwell is described to be. [<ref target="people.html#InchbaldMrs"
+                     >Inchbald</ref>'s note.] <ref target="people.html#KembleCharles">Charles
+                     Kemble</ref> assumed the role of George Barnwell in 1796, at which point he
+                  would have been 20 or 21.</note> Till he represented it, the tragedy was fallen
+               into absolute contempt, by the appearance of actors in Barnwell, whose persons and
+               ages gave not the slightest resemblance of the bashful youth described; and
+               consequently could excite no mercy towards his crimes, no pity for his
+               sufferings.</p>
+
+            <p>The difficulty of representing this tragedy, so as to impress every auditor with its
+               value as a dramatic entertainment, exists in procuring an actor who is young enough
+               to look like the merchant's stripling clerk, and yet performer good enough to paint
+               the tumult of various passions which rend his youthful breast.</p>
+
+            <p>In a criticism upon this play, in the "<title>Biographia Drammatica</title>," it is
+               alleged, that <ref target="people.html#JohnsonSamuel">Dr. Samuel Johnson</ref>, has
+               given his sentiments upon the question, whether tragedies, in which the plots are
+               taken from domestic life, should be written in metre or prose? wholly against the
+               latter: declaring&#8212;"that he could hardly consider a prose tragedy as
+                  dramatic."<note>This exact quote is found in <ref
+                     target="people.html#JonesStephen">Stephen Jones</ref>' 1812 edition of <ref
+                     target="people.html#BakerDavid">David Erskine Baker</ref>'s <hi
+                     rendition="#italics"><title>Biographia Dramatica; or, a Companion to the
+                        Playhouse</title></hi> (p. 376-377). However, no version of this quote is
+                  found in previous editions, so it is unclear where <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> would have found the quotation
+                  at the time this essay was written.</note></p>
+
+            <p>But it should be recollected, that this opinion was delivered to the writer of a
+               tragedy in prose, (<ref target="people.html#HowardGorges">Mr. Edmund Howard</ref>,
+               author of "<title>The Female Gamester</title>") who brought his manuscript for the
+                  <ref target="people.html#JohnsonSamuel">doctor</ref>'s judgment on the work; and
+               it was a far more gentle method of pronouncing condemnation on the
+               performance,&#8212;to point out one great and fatal mistake in the author's general
+               plan, than to torture him by exposing a multitude of faults in every species.</p>
+            <fw type="sig">
+               <hi rendition="#smcaps">b 3</hi>
+            </fw>
+            <pb n="6"/>
+
+            <p>The author of "<title>George Barnwell</title>," died in September, 1739, in the 47th
+               year of his age.<note><ref target="people.html#LilloGeorge">Lillo</ref> died on
+                  September 4<hi rendition="#sup">th</hi>, 1739, at the age of 48.</note> On which
+               occasion, <ref target="people.html#FieldingHenry">the author of "<title>Tom
+                     Jones</title></ref>," printed the following character of him in "<title>The
+                  Champion</title>." <quote>He had a perfect knowledge of human nature, though his
+                  contempt of all base means of application, which are the necessary steps to great
+                  acquaintance, restrained his conversation within very narrow bounds. He had the
+                  spirit of an old Roman, joined to a primitive christian. He was content with his
+                  little state of life, in which his excellent temper of mind gave him an happiness
+                  beyond the power of riches; and it was necessary for his friends to have a sharp
+                  insight into his want of their services, as well as good inclination, and
+                  abilities, to serve him. In short, he was one of the best of men, and those who
+                  knew him best, will most regret his loss.<note>From <ref
+                        target="people.html#FieldingHenry">Henry Fielding</ref>'s satirical paper
+                        <hi rendition="#italics"><title>The Champion</title></hi> (1741, vol. I, p.
+                     313).</note></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

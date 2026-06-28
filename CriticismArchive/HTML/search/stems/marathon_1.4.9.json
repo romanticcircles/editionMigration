@@ -1,0 +1,40 @@
+
+  { "stem" : "marathon",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Marathon",
+            "weight" : "1",
+            "pos" : 5199,
+            "context" : "..., and by fourteen had penned The Battle of <mark>Marathon<\/mark> (1820), which her father had privately printed..." },
+          
+          { "form" : "Marathon",
+            "weight" : "1",
+            "pos" : 47061,
+            "context" : "...the humiliation of his father, Darius I, at <mark>Marathon<\/mark>, Xerxes attacked Greece and briefly occupied Athens,..." } ] },
+      
+      { "docId" : "BarbSpectatorPrelim1804",
+        "docUri" : "BarbSpectatorPrelim1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Marathon",
+            "weight" : "1",
+            "pos" : 2367,
+            "context" : "...Vision of Mirzah, the Mountain of Miseries, <mark>Marathon<\/mark> and Yaratilda. These are almost all such as...",
+            "fid" : "para29" } ] },
+      
+      { "docId" : "LandonPoetry1832",
+        "docUri" : "LandonPoetry1832.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Marathon",
+            "weight" : "1",
+            "pos" : 674,
+            "context" : "...; and the names of those who fell at <mark>Marathon<\/mark> are still the watchwords of freedom. Again, in...",
+            "fid" : "para16" } ] } ] }

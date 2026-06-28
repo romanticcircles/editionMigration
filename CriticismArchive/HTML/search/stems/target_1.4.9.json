@@ -1,0 +1,40 @@
+
+  { "stem" : "target",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "target",
+            "weight" : "1",
+            "pos" : 20351,
+            "context" : "...'s death in 1797, Hays became the primary <mark>target<\/mark> of antifeminist attacks in the press during a period..." },
+          
+          { "form" : "targets",
+            "weight" : "1",
+            "pos" : 21393,
+            "context" : "...and essayist, Hill was one of Alexander Pope’s <mark>targets<\/mark> in The Dunciad. As a business man,..." } ] },
+      
+      { "docId" : "InchbaldVol12Rem4Revenge1808",
+        "docUri" : "InchbaldVol12Rem4Revenge1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "targeted",
+            "weight" : "1",
+            "pos" : 836,
+            "context" : "...dedications prefacing his works. These attempts were often <mark>targeted<\/mark> at the Hanoverian line and its supporters in nobility...",
+            "fid" : "note12" } ] },
+      
+      { "docId" : "InchbaldVol9Rem5CarelessHusband1808",
+        "docUri" : "InchbaldVol9Rem5CarelessHusband1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "target",
+            "weight" : "1",
+            "pos" : 632,
+            "context" : "...Cibber was Alexander Pope's main Dunce and primary <mark>target<\/mark> of the 1743 edition of his satirical poem The...",
+            "fid" : "note2" } ] } ] }

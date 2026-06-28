@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Oroonoko</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol7Rem2Oronooko1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Oronooko]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Oronooko;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Thomas Southern. As Performed at the
+                     Theatre Royal, Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VII. Isabella. Oroonoko. Distressed Mother. Zara.
+                     Gustavus Vasa.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">7</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Southerne, Thomas, 1660-1746</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240915" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"
+                           ><title>Oronooko</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Oronooko</title>; A Tragedy, In Five Acts; By <ref
+                                 target="people.html#SoutherneThomas">Thomas Southern</ref>. As
+                              Performed at the Theatre Royal, <ref target="people.html#CoventGarden"
+                                 >Covent Garden</ref>. Printed Under the Authority of the Managers
+                              From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp. 3-5. <hi
+                           rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VII. <hi
+                           rendition="#italics">
+                           <title>Isabella</title></hi>. <hi rendition="#italics"
+                              ><title>Oroonoko</title></hi>. <hi rendition="#italics"
+                              ><title>Distressed Mother</title></hi>. <hi rendition="#italics"
+                              ><title>Zara</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GustavIKingofSweden">Gustavus
+                              Vasa</ref></title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        in November of 1695. Bernadette D. Woodburn, Laura DeWitt, and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The valuable half of this drama, which is the tragic part, is founded neither upon
+               fictitious characters nor events. Such an African prince, as Oroonoko, stolen from
+               his native kingdom of Angola, was actually brought to an English settlement in the
+               West Indies, and sold for a slave.<note>Researchers have debated whether or not <ref
+                     target="people.html#BehnAphra">Aphra Behn</ref>, the author of the 1688 novel
+                     <hi rendition="#italics"><title>Oronooko</title></hi> which served as the basis
+                  of <ref target="people.html#SoutherneThomas">Southerne</ref>'s theatrical
+                  adaptation, may have met a figure similar to the character of Oronooko during a
+                  visit to Surinam, a short-lived English colony in present-day Suriname in South
+                  America. There is some disagreement, however, whether <ref
+                     target="people.html#BehnAphra">Behn</ref> ever visited South
+               America.</note></p>
+            <p>This pitiable occurrence took place in the reign of <ref
+                  target="people.html#CharlesIIKingofEngland">Charles II</ref>. at the time that
+                  <ref target="people.html#BehnAphra">Mrs. Behn</ref>, the well-known dramatic
+               writer, whom <ref target="people.html#PopeAlexander">Pope</ref> has honoured by a
+                  satire,<note>From <ref target="people.html#PopeAlexander">Alexander Pope</ref>'s
+                     <hi rendition="#italics"><title>The First Epistle of the Second Book of <ref
+                           target="people.html#Horace">Horace</ref>, Imitated</title></hi>: "The
+                  stage how loosely does Astræea tread / Who fairly puts all characters to bed"
+                  (1737, p. 17). Astræea was the pastoral pseudonym <ref
+                     target="people.html#BehnAphra">Aphra Behn</ref> gave herself while working for
+                     <ref target="people.html#CharlesIIKingofEngland">King Charles II</ref>. </note>
+               resided at Surinam with her family; her father having been appointed lieutenant
+               general of that settlement, and of thirty neighbouring islands.<note><ref
+                     target="people.html#BehnAphra">Behn</ref>'s early biographers believed <ref
+                     target="people.html#BehnAphra">Behn</ref> to be the unnamed narrator of <hi
+                     rendition="#italics"><title>Oronooko</title></hi>, whose father is the
+                  lieutenant general of the settlement.</note></p>
+            <p>It was at Surinam, that <ref target="people.html#BehnAphra">Mrs. Behn</ref>, not only
+               saw, but became intimately acquainted with the unfortunate, but still proud and
+               dignified, Oroonoko. She was witness to his bravery and skill in arms, upon the
+               occasion of some danger threatening the island: and she beheld his humility and
+               moderation, when all his martial feats were performed, and tranquility restored. She
+               knew his Imoinda,<note>The daughter of an African general who gave his life to
+                  protect Oronooko, Imoinda is Oronooko's love interest.</note> and saw with delight
+               their rapturous affection for each other.</p>
+            <p>On the return of <ref target="people.html#BehnAphra">Mrs. Behn</ref> to England, she
+               published the memoirs of those ill-fated lovers; from<lb/><fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/> which publication, <ref
+                  target="people.html#SoutherneThomas">Southern</ref> has selected materials for
+               this pathetic tragedy.</p>
+            <p>Whether the comic characters are taken from persons in real life, or from the poet's
+               fancy, is not known: nor is it of much consequence from whence they came, as they can
+               do no great degree of honour to their birth-place.</p>
+            <p>The repulsive qualities of some of those characters, joined to the little which has
+               been allotted for the heroine to perform, have been obstacles to the attraction of
+               this drama, and it is seldom acted. Yet, some years past, Mr. Pope,<note>Not to be
+                  confused with the author of the same name, <ref target="people.html#PopeAlexander"
+                     >Alexander Pope</ref>, the Mr. Pope to whom Inchbald here refers is actor and
+                  painter Alexander Pope (1763-1835), who debuted in this play four decades after
+                  the author <ref target="people.html#PopeAlexander">Alexander Pope's</ref> death in
+                  1744.</note> in his very first appearance upon any stage, encountered, and
+               triumphantly overcame, all impediments to the favourable reception of
+                  <title>Oroonoko</title>; and made the play so impressive, by his talents in the
+               representation of that character, that for many nights it drew to the theatre a
+               crowded audience. His acting was remarkably fine in the last scene; whilst his youth,
+               person, deportment, and even features, gave an accurate portraiture of one of
+               Africa's princely sons.</p>
+            <p>But could the ancient <ref target="people.html#Roscius">Roscius</ref> ascend from his
+               grave to personate the hero of this piece, there is a great mercantile town in
+               England, whose opulent inhabitants would not permit the play to appear in their
+               magnificent theatre. The tragedy of "<title>Oroonoko</title>" is never acted in
+               Liverpool, for the very reason why it ought to be acted there oftener than at any
+               other place&#8212;The merchants of the great city acquire their riches by the slave
+                  trade.<note>Liverpool was the foremost English slaving port of the 18<hi
+                     rendition="#sup">th</hi> century.</note></p>
+            <p>If any defect can be attributed to <ref target="people.html#SoutherneThomas"
+                  >Southern</ref> in the<pb n="5"/> tragic fable, either of this play or of
+                  "<title>Isabella,</title>" it is, that in the one, his first male character wants
+               importance, and in the other, his principal female. Still, in both plays, he makes
+               his tale, a tale of woe, though only a single personage becomes the object of deep
+               concern.</p>
+            <p>That the poet <ref target="people.html#GrayThomas">Gray</ref> was an admirer of this
+               tragedy, is seen in a letter of his to <ref target="people.html#WalpoleHorace">Horace
+                  Walpole</ref>, dated, Burnham in Buckinghamshire, 1737; wherein he says, "We have
+               old <ref target="people.html#SoutherneThomas">Mr. Southern</ref>, at a gentleman's
+               house a little way off, who often comes to see us. He is now seventy years old, and
+               has almost wholly lost his memory; but is as agreeable an old man as can be; at
+               least, I persuade myself so, when I look at him, and think of <title>Isabella</title>
+               and <title>Oroonoko</title>."<note>See Mason's <title>Life of <ref
+                        target="people.html#GrayThomas">Gray</ref></title>. [Inchbald's note]. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> slightly alters this quotation
+                  from William Mason's <hi rendition="#italics"><title>Memoirs of the Life and
+                        Writings of <ref target="people.html#GrayThomas">Mr. Gray</ref></title></hi>
+                  (1775, pp. 24-25).</note></p>
+            <p><ref target="people.html#SoutherneThomas">Southern</ref> is an exception from most
+               poets, in having been wealthy; but he procured some of his wealth by a means, which
+               all poets should rather submit to poverty than employ: he printed tickets on his
+               benefit nights as an author, and even urged their sale among his noble and
+               distinguished friends. Thus, vilely reducing himself to dependence, in order to
+               become rich; in lieu of honourably seeking riches, that he might become
+                  independent.<note>This account of <ref target="people.html#SoutherneThomas"
+                     >Southerne</ref>'s finances apperas in <ref
+                     target="people.html#CibberTheophilus">Theophilus Cibber</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the Poets of Great Britain and
+                        Ireland</title></hi> (1753, vol. 5, p. 329).</note></p>
+            <lb/>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+
+  { "stem" : "desmond",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Desmond",
+            "weight" : "1",
+            "pos" : 32181,
+            "context" : "...the title St. Clair, or, the Heiress of <mark>Desmond<\/mark>. Its strong female protagonist and themes of Irish..." },
+          
+          { "form" : "Desmond",
+            "weight" : "1",
+            "pos" : 40996,
+            "context" : "...the Lake (1789), Celestina (1791), <mark>Desmond<\/mark> (1792), The Old Manor House (1793..." } ] },
+      
+      { "docId" : "BarbSmithBritNov1810",
+        "docUri" : "BarbSmithBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Desmond",
+            "weight" : "1",
+            "pos" : 851,
+            "context" : " She also wrote <mark>Desmond<\/mark>, The Wanderings of Warwick, Montalbert, and...",
+            "fid" : "para28" } ] } ] }

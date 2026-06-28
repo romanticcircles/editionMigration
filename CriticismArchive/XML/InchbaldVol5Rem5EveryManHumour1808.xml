@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Every Man in His Humour</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol5Rem5EveryManHumour1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Every Man in His Humour]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Every Man in His Humour;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Ben Jonson. As Performed at the
+                     Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. V. Coriolanus. Othello. Tempest. Twelfth Night.
+                     Every Man In His Humour.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Jonson, Ben, 1573?-1637</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240905" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Every Man
+                           in His Humour</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Every Man in His Humour</title>; A Comedy, In Five
+                              Acts; By <ref target="people.html#JonsonBen">Ben Jonson</ref>. As
+                              Performed at the Theatres Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row, pp. 3-7. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. V. <hi rendition="#italics"><title><ref
+                                 target="people.html#Coriolanus">Coriolanus</ref></title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#Othello"
+                                 >Othello</ref></title></hi>. <hi rendition="#italics"
+                              ><title>Tempest</title></hi>. <hi rendition="#italics"><title>Twelfth
+                              Night</title></hi>. <hi rendition="#italics"><title>Every Man in His
+                              Humour</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the Curtain Theatre in September of 1598. Laura DeWitt and Mary A. Waters
+                        edited this essay for <hi rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#JonsonBen">Ben Jonson</ref>, the author of this play, was
+               born in London, in the year 1574, just a month after the death of his father.</p>
+
+            <p>The father had been a clergyman, and the son received his education at Westminster
+                  School:<note>A prestigious London school associated with the Benedictines that
+                  enjoyed royal patronage during the 16th century, when <ref
+                     target="people.html#JonsonBen">Jonson</ref> would have attended.</note> but the
+               mother having married a second time, and having condescended to bestow her hand upon
+               a bricklayer, poor <ref target="people.html#JonsonBen">Benjamin</ref>, on quitting
+               school, was compelled by his father-in-law to work at that business.<note>Upon his
+                  graduation from Westminster in 1589, <ref target="people.html#JonsonBen"
+                     >Jonson</ref> matriculated at St. John's College at Cambridge to continue his
+                  education. For want of funds, he was made to return to his family a month later to
+                  complete an apprenticeship with his stepfather. </note></p>
+
+            <p>He escaped from this dull and laborious employment, by enlisting for a soldier; and
+               being sent to the Netherlands, distinguished himself by remarkable courage in his
+               military capacity.<note>According to the <hi rendition="#italics"><title>Notes of
+                           <ref target="people.html#JonsonBen">Ben Jonson</ref>'s Conversations with
+                           <ref target="people.html#DrummondWilliam">William Drummond of
+                           Hawthornden</ref></title></hi> (published by the Shakespeare Society in
+                  1842 from <ref target="people.html#DrummondWilliam">Drummond</ref>'s long-lost
+                  notes of his conversations with <ref target="people.html#JonsonBen">Jonson</ref>,
+                     <ref target="people.html#JonsonBen">Jonson</ref> engaged in single combat in
+                  Flanders, Belgium, and emerged victorious, having stripped his opponent of his
+                  weapons in full view of both armies (p. 18). Single combat is an antique style of
+                  duel in which the two combatants fight in the no-man's-land between the armies,
+                  typically with the other soldiers watching and waiting to fight themselves until
+                  the duel is complete.</note></p>
+
+            <p>Literature was, however, the pursuit of his inclination: for, on his return to
+               England, he entered himself at St. John's College, Cambridge; from whence he removed,
+               after some years of strict application, for want of the means to support himself
+               longer as a student.<note>Here <ref target="people.html#InchbaldMrs">Inchbald</ref>'s
+                  chronology is inaccurate. <ref target="people.html#JonsonBen">Jonson</ref> had
+                  attended St. John's College for a period of only a few weeks prior to his
+                  bricklaying apprenticeship and subsequent military service.</note></p>
+
+            <p>He now applied to that profession for a maintenance, which poverty, united to
+               literary taste, directs thousands to pursue&#8212;the stage. The learned <ref
+                  target="people.html#JonsonBen">Ben Jonson</ref> became a strolling player, in an
+               obscure <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>company of
+               comedians, who performed occasionally at the sign of the Curtain in
+                  Shoreditch.<note>By 1597, <ref target="people.html#JonsonBen">Jonson</ref> had a
+                  fixed engagement with the acting troupe The Admiral's Men. In 1598, his play <hi
+                     rendition="#italics"><title>Every Man in his Humour</title></hi> was performed
+                  at The Curtain Theatre in the Shoreditch neighborhood of London.</note> Soon
+               after, he had the good fortune to be a member of the same theatrical community with
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, and received <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>'s advice and assistance
+               in commencing dramatic writer.<note>While there are many legends surrounding the
+                  supposed friendship and/or rivalry between the two men, the extent to which <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref> and <ref
+                     target="people.html#JonsonBen">Jonson</ref> interacted is debated. It is
+                  certain that the two knew each other personally, as <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>'s acting company, the
+                  Lord Chamberlain's Men (renamed the King's Men in 1603), produced many of <ref
+                     target="people.html#JonsonBen">Jonson</ref>'s plays. <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref> is known to have
+                  acted in at least two of <ref target="people.html#JonsonBen">Jonson</ref>'s plays,
+                     <hi rendition="#italics"><title>Every Man in his Humour</title></hi> and <hi
+                     rendition="#italics"><title><ref target="people.html#Sejanus">Sejanus</ref> His
+                        Fall</title></hi>. Although <ref target="people.html#JonsonBen">Jonson</ref>
+                  was known to have been critical of <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>'s style (<ref target="people.html#JonsonBen">Jonson</ref>
+                  recording himself as having replied "Would he had blotted a thousand!" upon being
+                  told by fellow actors that <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref> never crossed out a line he had written), his recorded
+                  criticisms of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref> are
+                  outnumbered by his considerable public tributes. In his posthumously-published <hi
+                     rendition="#italics"><title>Timber, or Discoveries made upon men and matter, as
+                        they have flowed out of his daily readings, or had their reflux to his
+                        peculiar notion of the times</title></hi> (1641), <ref
+                     target="people.html#JonsonBen">Jonson</ref> clarifies that he had intended no
+                  malevolence in his criticism of <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>, writing that "There was ever more in him to be praysed,
+                  than to be pardoned." (p. 98).</note></p>
+
+            <p>Tradition says&#8212;and <ref target="people.html#DaviesThomas">Davies</ref>, in his
+                  <title>Miscellanies</title>, confirms its probability&#8212;that <ref
+                  target="people.html#JonsonBen">Ben Jonson</ref>, having written this comedy of
+                  "<title>Every Man in his Humour</title>," presented it to one of the managers of
+               that theatre, where <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> was
+               engaged as an actor. The manager, after casting his eye carelessly over the work, was
+               on the point of returning it with a peremptory refusal, when <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>, who chanced to be
+               present, requested leave to read the play: he was so well pleased on the perusal,
+               that he recommended it with such force, as induced the manager to change the opinion
+               he had formed in its disfavour, and to bring it on the stage.<note>This theatre
+                  legend is recounted in <ref target="people.html#DaviesThomas">Thomas Davies</ref>'
+                     <hi rendition="#italics"><title>Dramatic Miscellanies</title></hi> (1783), vol.
+                  2, pp. 55-56. It was first recorded by <ref target="people.html#RoweNicholas"
+                     >Nicholas Rowe</ref> in the preface, "<title>Some Account of the Life &amp;c.
+                     of <ref target="people.html#ShakespeareWilliam">Mr. William
+                     Shakespear</ref></title>," of his larger <hi rendition="#italics"><title>The
+                        works of <ref target="people.html#ShakespeareWilliam">Mr. William
+                           Shakespear</ref></title></hi> (1709, vol. 1, p. XII-XIII). This tradition
+                  was handed down by word of mouth in the theatrical community, though it is
+                  unsupported by any other evidence.</note></p>
+
+            <p>Its success was very great. <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref> not only patronized, but performed in this comedy; but here his
+               talents were subordinate, and he was, of course, less useful than as a commentator
+               before its representation. It is supposed he acted the part of Kno'well,<hi
+                  rendition="#sup"><note>It is believed that <ref
+                        target="people.html#ShakespeareWilliam">Shakespeare</ref> played the part of
+                     Old Knowell, the father of Edward Knowell and master of the servant Brainworm.
+                     Old Knowell is an overbearing parent, worrying over Edward's interest in poetry
+                     and trying to sabotage his literary career.</note></hi> by his name being first
+               in the Dramatis Personæ of the original copy. <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> was at that time in his
+               thirty-fourth, and <ref target="people.html#JonsonBen">Jonson</ref> in his
+               twenty-fourth year. </p>
+
+            <p>Notwithstanding the merit of this play, it was wholly neglected as a stage
+               exhibition, from the time of its revival, at the Restoration, till <ref
+                  target="people.html#GarrickDavid">Garrick</ref>, in <pb n="5"/>1749, brought it
+               once more before the public, with some few alterations.<note><ref
+                     target="people.html#GarrickDavid">David Garrick</ref>'s adaptation of the play
+                  focused on the jealousy of Thomas Kitely, a merchant, as he unfairly suspects his
+                  wife of adultery.</note></p>
+
+            <p><ref target="people.html#GarrickDavid">Garrick</ref>'s Kitely, and <ref
+                  target="people.html#WoodwardHenry">Woodward</ref>'s Bobadil,<note>Captain Bobadil,
+                  the boastful soldier who is ultimately revealed to lack bravery.</note> are
+               described by the frequenters of the theatre of that period, as performances of the
+               most exquisite art.</p>
+
+            <p>From <ref target="people.html#GarrickDavid">Garrick</ref>'s death till <ref
+                  target="people.html#CookeGeorge">Cooke</ref> appeared, the play was again
+               neglected; for without peculiar excellence in the representation of Kitely, it has
+               but little attraction. <ref target="people.html#CookeGeorge">Cooke</ref> has the
+               praise of having given it all its former power over the town, and to have fully
+               supplied the vacant post of <ref target="people.html#GarrickDavid"
+                     >Garrick</ref>.<note><ref target="people.html#CookeGeorge">George Cooke</ref>
+                  revived the play at <ref target="people.html#CoventGarden">Covent Garden</ref> in
+                  1800, for a total of ten performances between 1800 and 1801. In 1803, <ref
+                     target="people.html#CookeGeorge">Cooke</ref> alternated the role of Kitely with
+                     <ref target="people.html#KembleJohn">John Philip Kemble</ref>. <ref
+                     target="people.html#CookeGeorge">Cooke</ref>'s final 1808 attempt to revive the
+                  play in Edinburgh failed.</note></p>
+
+            <p>Including tragedies, comedies, operas, masques, et cetera, printed and unprinted,
+                  <ref target="people.html#JonsonBen">Ben Jonson</ref> produced no less than
+               fifty-three dramas; not one of which, excepting the present comedy, holds its place
+               among acting plays.<note><ref target="people.html#JonsonBen">Jonson</ref> is
+                  estimated to have written, or co-written, at least 20 plays, 36 masques (a form of
+                  festive court entertainment), and 11 miscellaneous works. <hi rendition="#italics"
+                        ><title>Every Man in his Humour</title></hi> was the last of <ref
+                     target="people.html#JonsonBen">Jonson</ref>'s plays being performed at the time
+                  this essay was written.</note></p>
+
+            <p>High as this author ranks as a classic, it is a subject of wonder that the wits and
+               men of taste, those idolators of the drama in <ref
+                  target="people.html#CharlesIIKingofEngland">Charles the Second</ref>'s reign,
+               should prefer him before <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>! This mystery is resolved by some persons, on the supposition of
+               the ascendancy of the <ref target="people.html#VilliersGeorge">Duke of
+                  Buckingham</ref>'s sentiments upon questions of this nature, over those of the
+               other courtiers; and his <ref target="people.html#VilliersGeorge">Grace</ref>, from
+               early years, had been an enthusiastic admirer of <ref target="people.html#JonsonBen"
+                  >Jonson</ref>. At the age of thirteen he was personally acquainted with him; at
+               which time <ref target="people.html#JonsonBen">Ben</ref> was in his grand
+                     climacteric.<note><ref target="people.html#VilliersGeorge">George Villiers,
+                     Duke of Buckingham</ref>, <ref target="people.html#JamesIKingofEngland">King
+                     James I</ref>, and <ref target="people.html#CharlesIKingofEngland">King Charles
+                     I</ref> were all appreciators of <ref target="people.html#JonsonBen"
+                     >Jonson</ref>'s masques.</note></p>
+
+            <p>In comparing this author with his cotemporary <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>, as men, the last has a
+               superiority over the former in the benevolence, as well as the capa-<fw type="sig"
+                     ><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>ciousness, of his mind. He was
+               generous and kind to <ref target="people.html#JonsonBen">Jonson</ref>, whilst <ref
+                  target="people.html#JonsonBen">Jonson</ref>, incited, it is supposed, by envy, did
+               not forbear to ridicule the works of his friend and benefactor.<note>See footnote
+                  6.</note> Here, at least, <ref target="people.html#JonsonBen">Jonson</ref> showed
+               the talent of sound judgment, and the virtue of humility; for had he conceived his
+               own productions the best, all discontent at his neighbour's perfection had been
+               annihilated:&#8212;and while <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref> bore without retort his depreciating insinuations, it is
+               possible, he was withheld by the pride of preeminence, more than by the moral force
+               of patience. As players, there seems to have been no contention between these
+               friends, for superiority&#8212;they were both too unskilful in this, their other, art
+               to inspire either with emulation.</p>
+
+            <p>On the accession of <ref target="people.html#JamesIKingofEngland">James the
+                  First</ref> to the throne, <ref target="people.html#JonsonBen">Jonson</ref> was
+               appointed to the management of all the masques and public spectacles; and he
+               continued in this office during that and the succeeding reign.</p>
+
+            <p>In 1615, he was made poet laureate; and had so much interest at court as to procure a
+               rise in the salary from a hundred marks (13s. 4d.)to a hundred pounds a year, with
+               the comfortable addition of a butt of Canary wine.<note>With the first payment of his
+                  pension in 1616, <ref target="people.html#JonsonBen">Jonson</ref> became the first
+                  unofficial poet laureate, a position which was not established as an official
+                  royal office until 1668 with the selection of <ref target="people.html#DrydenJohn"
+                     >John Dryden</ref>. When he first received his pension, <ref
+                     target="people.html#JonsonBen">Jonson</ref> was granted 100 marks (a mark being
+                  worth 13 shillings and 4 pence) a year. In 1630, the amount was increased from 100
+                  marks to 100 pounds (a pound being worth 20 shillings). At this time <ref
+                     target="people.html#JonsonBen">Jonson</ref> also began receiving 42 gallons of
+                  Canary wine per year from <ref target="people.html#CharlesIKingofEngland">the
+                     king</ref>'s store at Whitehall as a supplement to his pension.</note></p>
+
+            <p>Notwithstanding this pension, and the profits arising from his various productions,
+               he had not the economy to live independent. He was often so reduced in his finances,
+               as to be compelled to inhabit lodgings in a wretched alley, where the bounty of his
+               sovereign, as well as that of his fellow subjects, has often followed him to
+               administer relief.<note>After a period of declining productivity in the 1620s and
+                  suffering what was most likely a stroke in 1628, the end of <ref
+                     target="people.html#JonsonBen">Jonson</ref>'s life was characterized by
+                  financial hardship. This is supported by the fact that he was buried upright, a
+                  practice for those who could not afford to occupy more square footage in a
+                  cemetery. It has been said that <ref target="people.html#JonsonBen">Jonson</ref>
+                  appealed to <ref target="people.html#CharlesIKingofEngland">Charles I</ref> for
+                  this meagre plot.</note>
+            </p>
+            <pb n="7"/>
+
+            <p>In this wretched termination of his life, he sunk once more beneath his great rival
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>; for <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> retired, long previous to
+               his death, to the comforts of leisure and independence; nor ever made drafts on the
+               compassion of mankind for the pleasures of existence.<note><ref
+                     target="people.html#RoweNicholas">Nicholas Rowe</ref> first recorded the
+                  tradition of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s
+                  retirement in Stratford in the preface, "<title>Some Account of the Life &amp;c.
+                     of <ref target="people.html#ShakespeareWilliam">Mr. William
+                     Shakespear</ref></title>," of his larger <hi rendition="#italics"><title>The
+                        works of <ref target="people.html#ShakespeareWilliam">Mr. William
+                           Shakespear</ref></title></hi> (1709, vol. 1, p. XXXV).</note></p>
+
+            <p><ref target="people.html#JonsonBen">Ben Jonson</ref> died in 1637, was buried in
+               Westminster Abbey; and his gravestone has merely the following words, to denote the
+               extraordinary gifts, of which he had been possessed. <quote><lg type="stanza">
+                     <l>O Rare Ben Jonson!<note>The inscription on <ref
+                              target="people.html#JonsonBen">Ben Jonson</ref>'s tombstone in
+                           Westminster Abbey. According to <ref target="people.html#AubreyJohn">John
+                              Aubrey</ref>, the inscription was commissioned on impulse by Jack
+                           Young, who happened to be passing by as the grave was being covered (<hi
+                              rendition="#italics">'Brief Lives,' chiefly of Contemporaries, set
+                              down by <ref target="people.html#AubreyJohn">John Aubrey</ref>,
+                              between the years 1669 &amp; 1696<title/></hi>, edited by Andrew
+                           Clark, 1898, p. 13). </note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,37 @@
+
+  { "stem" : "newton",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Newton",
+            "weight" : "1",
+            "pos" : 13689,
+            "context" : ".... Of these her 1759 translation of Sir Isaac <mark>Newton<\/mark>'s Principia Mathematica, was the most important and...",
+            "fid" : "ref802" },
+          
+          { "form" : "Newton's",
+            "weight" : "1",
+            "pos" : 13696,
+            "context" : "...most important and remained the only French translation of <mark>Newton's<\/mark> treatise for many years. [MW]  Dufresnoy...",
+            "fid" : "ref803" },
+          
+          { "form" : "Newton",
+            "weight" : "1",
+            "pos" : 33195,
+            "context" : "...of her class and time. [MW]  <mark>Newton<\/mark>, Isaac, Sir, 1642-1727 (...",
+            "fid" : "NewtonIsaac" } ] },
+      
+      { "docId" : "BarbAkenside1794",
+        "docUri" : "BarbAkenside1794.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Newton",
+            "weight" : "1",
+            "pos" : 3145,
+            "context" : "18.  Isaac <mark>Newton<\/mark> published his lectures explaining the effects of a prism...",
+            "fid" : "ref54" } ] } ] }

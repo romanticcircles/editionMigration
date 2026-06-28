@@ -1,0 +1,35 @@
+
+  { "stem" : "mycena",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Mycenae",
+            "weight" : "1",
+            "pos" : 201,
+            "context" : "...Homer's Iliad, Agamemnon was a king of <mark>Mycenae<\/mark> and brother to Menelaus, whose wife Helen eloped..." },
+          
+          { "form" : "Mycenae",
+            "weight" : "1",
+            "pos" : 10019,
+            "context" : "...] and [MW]  Clytemnestra, Queen of <mark>Mycenae<\/mark> (Library of Congress Name Authority)— According to...",
+            "fid" : "Clytemnestra" },
+          
+          { "form" : "Mycenae",
+            "weight" : "1",
+            "pos" : 10031,
+            "context" : "...Clytemnestra was enraged when her husband and king of <mark>Mycenae<\/mark> Agamemnon sacrificed their daughter Iphigenia to propitiate the gods..." } ] },
+      
+      { "docId" : "InchbaldVol7Rem3DistressedMother1808",
+        "docUri" : "InchbaldVol7Rem3DistressedMother1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Mycenae",
+            "weight" : "1",
+            "pos" : 499,
+            "context" : "...to Hermione and son of Agamemnon, king of <mark>Mycenae<\/mark> and brother of Menelaus. Hermione was promised to...",
+            "fid" : "note6" } ] } ] }

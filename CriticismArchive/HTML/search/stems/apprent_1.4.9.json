@@ -1,0 +1,40 @@
+
+  { "stem" : "apprent",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "apprenticed",
+            "weight" : "1",
+            "pos" : 17728,
+            "context" : "...H.L. Fulton writes, \"[John Moore] was <mark>apprenticed<\/mark> to William Stirling and John Gordon, surgeons in..." },
+          
+          { "form" : "apprenticed",
+            "weight" : "1",
+            "pos" : 24854,
+            "context" : "...Having received little formal education, Keats was initially <mark>apprenticed<\/mark> to a surgeon, and he eventually broke off..." } ] },
+      
+      { "docId" : "InchbaldVol12Rem5BeggarsOpera1808",
+        "docUri" : "InchbaldVol12Rem5BeggarsOpera1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "apprenticed",
+            "weight" : "1",
+            "pos" : 619,
+            "context" : "5.  Gay was <mark>apprenticed<\/mark> to a silk mercer in London from 1702 to...",
+            "fid" : "note5" } ] },
+      
+      { "docId" : "BarbSmolletBritNov1810",
+        "docUri" : "BarbSmolletBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "apprenticed",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "...he was removed to Glasgow, where he was <mark>apprenticed<\/mark> to a surgeon, Mr. John Gordon, and...",
+            "fid" : "para14" } ] } ] }

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Busy Body</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BA">Becca Aeschliman</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol11Rem1BusyBody1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Busy Body]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Busy Body;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Mrs. Centlivre. As Performed at the
+                     Theatres Royal Drury Lane and Covent Garden. Printed under the Authority of the
+                     Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Centlivre, Susanna, 1667?-1723</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240911" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BA" when="20230113" n="2">
+            <label>Changed by</label>
+            <name>Becca Aeschliman</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Busy
+                           Body</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Busy Body</title>; A Comedy, In Five Acts; By
+                                 <ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>. As
+                              Performed at the Theatres Royal <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XI. <hi
+                           rendition="#italics">
+                           <title>Busy Body</title></hi>. <hi rendition="#italics"
+                              ><title>Wonder</title></hi>. <hi rendition="#italics"><title>Bold
+                              Stroke for a Wife</title></hi>. <hi rendition="#italics"><title>George
+                              Barnwell</title></hi>. <hi rendition="#italics"><title>Fatal
+                              Curiosity</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on May 12<hi rendition="#sup">th</hi>, 1709. Becca Aeschliman, Laura DeWitt,
+                        and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>When a man follows the occupation of a woman, or a woman the employment of a man,
+               they are both unpleasing characters, if they are guided in their pursuits by choice.
+               But, if necessity has ruled their destinies, they are surely objects of compassion,
+               and mercy should be granted to their want of skill in their irregular
+               departments.</p>
+
+            <p>The female author of "<title>The Busy Body</title>," was driven to a poet's calling,
+               by the hardships of her fate.</p>
+
+            <p><ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>'s father, was the
+               possessor of a considerable estate at Holbeach, in Lincolnshire,<note>Holbeach is a
+                  market town and civil parish in the South Holland District in Lincolnshire, a
+                  ceremonial county in the East Midlands and Yorkshire and the Humber regions of
+                  England.</note> at the time of the restoration; but, as he was a zealous
+               dissenter, he was, of course, persecuted for the political opinions which adhered to
+               this church: his estate was at length confiscated, and he, with his family, obliged
+               to seek refuge in Ireland.<note><ref target="people.html#CentlivreSusanna"
+                     >Centlivre</ref>'s father, William Freeman, was a dissenter and a
+                  parliamentarian during the English Civil War, resulting in his persecution upon
+                  the Stuart Restoration of 1660. <ref target="people.html#InchbaldMrs"
+                     >Inchbald</ref> draws this account from <ref target="people.html#JacobGiles"
+                     >Giles Jacob</ref>'s <hi rendition="#italics"><title>The Poetical Register: or,
+                        the Lives and Characters of the English Dramatick Poets. With an Account of
+                        their Writings.</title></hi> (1719, vol. I, p. 32).</note></p>
+
+            <p>The authoress of this play was at twelve years of age an orphan:<note>Although there
+                  is scant evidence surrounding <ref target="people.html#CentlivreSusanna"
+                     >Centlivre</ref>'s early life, it is generally believed that her father died
+                  when she was three years old, her mother died shortly after remarrying, and her
+                  stepfather married soon after that, though the timeline is unclear.</note> and at
+               fifteen, being persecuted on account of her poverty and her beauty, as much as her
+               father had been for his religious and republican principles, she pursued his example;
+               and, flying from her enemies, took shelter in England. England had not the virtue to
+               protect her, either from want or from dishonour. A student of Cambridge<note>Thought
+                  to be <ref target="people.html#HammondAnthony">Anthony Hammond</ref>.</note> met
+               her, a forlorn traveller, on her way to London; and this <fw type="sig">
+                  <hi rendition="#smcaps">b 2</hi>
+               </fw><pb n="4"/>young man, being of an engaging mind and person, prevailed on her
+               (destitute as she was) to accompany him to the university in man's attire, as his
+               companion and friend.</p>
+
+            <p>The haste, with which this intimacy was formed, was but the forerunner of as hasty a
+               separation. She, however, remained long enough at the college to learn experience,
+               and to improve her taste for literature.<note>This account was first written by <ref
+                     target="people.html#MottleyJohn">John Mottley</ref>, a biographer who knew <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref> in the later part of her
+                  life, in his <hi rendition="#italics"><title>A Compleat List of all the English
+                        Dramatic Poets</title></hi> (1747). Another version attributes <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref>'s arrival to London to
+                  her joining a company of actors in Stamford, a town 25 miles from her hometown of
+                  Holbeach.</note></p>
+
+            <p>The Biographers of <ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>
+               have not said where she met with her second lover; but it is certain she had the
+               prudence to make him her husband: She had the affliction, likewise, to be a widow,
+               before she was eighteen.</p>
+
+            <p>Her deceased husband was a gentleman, and the nephew of <ref
+                  target="people.html#FoxStephen">Sir Stephen Fox</ref>. Her next husband was also a
+               gentleman;&#8212;for she married, not long after her widowhood, a Mr. Carrol, who was
+               killed in a duel the year following;&#8212;and, once more, she became a
+                     widow.<note><ref target="people.html#MottleyJohn">Mottley</ref> claims that
+                     <ref target="people.html#CentlivreSusanna">Centlivre</ref> was married, or in a
+                  situation similar to marriage, with a Mr. Fox, a nephew of <ref
+                     target="people.html#FoxStephen">Stephen Fox</ref>. Mr. Fox died roughly a year
+                  later. <ref target="people.html#MottleyJohn">Mottley</ref> claims that Mr. Carroll
+                  was killed in a duel a year after his marriage to <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref>.</note></p>
+
+            <p>It was now discreet to think on other support than such as had depended on the lives
+               of two young husbands, who, having offended their family by a contract of marriage,
+               the mere effect of love, had, on their demise, left their relict in the most indigent
+               circumstances. <ref target="people.html#CentlivreSusanna">Mrs. Carrol</ref> became an
+               actress;&#8212;but, notwithstanding her youth, her wit, and her beauty, she was
+               unsuccessful in that profession.</p>
+
+            <p>To avoid the alternative, female profligacy, or domestic drudgery, she now
+               encountered the masculine enterprise of an author. She wrote eighteen plays, of <pb
+                  n="5"/> which, three will preserve her memory:&#8212;these are, "<title>The
+                  Wonder</title>," "<title>Bold Stroke for a wife</title>," and the present
+                  comedy.<note>First performed in 1714, 1718, and 1709, respectively. In total, <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref> wrote 19
+               plays.</note></p>
+
+            <p>In this period of her writing, (and, no doubt, its concomitant, fasting,)&#8212;the
+               reader will not be surprised that <ref target="people.html#CentlivreSusanna">Mrs.
+                  Carrol</ref> should marry a third time.&#8212;She now united herself to a man,
+               whose very title promised her protection from that ancient and modern visitation upon
+               authors, denominated&#8212;hunger. Mr. Centlivre was "yeoman to the mouth," or
+               principal cook to <ref target="people.html#AnneQueenofGreatBritain">queen Anne</ref>.
+                  <ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>'s forecast in
+               these her last nuptials did her judgment more honour than her ambition. She died in
+               1723, of a disorder, neither so lingering, nor so painful, as starving.<note><ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref> died on December 1<hi
+                     rendition="#sup">st</hi>, 1723, of lingering effects of a serious illness she
+                  contracted in 1719.</note></p>
+
+            <p>This comedy of the "<title>Busy Body</title>," which has survived one hundred years,
+               was, by the actors, who performed in it, expected to die on the first night.<note>In
+                  its original cast, <ref target="people.html#WilksRobert">Robert Wilks</ref> played
+                  Sir George Airy, a wealthy gentleman in love with the heiress Miranda. According
+                  to <ref target="people.html#MottleyJohn">Mottley</ref>, <ref
+                     target="people.html#WilksRobert">Wilks</ref> had such a poor opinion of his
+                  character that he believed the audience would not be able to bear sitting through
+                  his lines. <ref target="people.html#WilksRobert">Wilks</ref> admitted his pleasant
+                  surprise when the play was extremely well-received by audiences.</note></p>
+
+            <p>The foresight of actors, in regard to the success of new dramas, has been long out of
+               credit&#8212;unjustly so&#8212;for, although their predictions are not infallible,
+               actors are as frequently prophetic, upon the life and death of a play, as the
+               physician upon that of his patient.</p>
+
+            <p>The part of Marplot is the sole support of this comedy.<note>The plot of <hi
+                     rendition="#italics"><title>The Busy Body</title></hi> centers around two pairs
+                  of lovers, Sir George Airy and Miranda, and Charles Gripe and Isabinda. Marplot is
+                  the ward of Charles' father, Sir Francis Gripe, who forces Marplot to pay interest
+                  on the money lent to him by Sir Francis out of Marplot's own fortune, which is
+                  controlled by Sir Francis.</note>&#8212;A most powerful protector in all, that
+               original character can give. The busy curiosity, the officious good temper, and the
+               sheepish cowardice, of this mean atom of human nature, are so excellently delineated,
+               that he allures the attention and expectation of the auditors, and makes them bear
+               with pa-<fw type="sig">
+                  <hi rendition="#smcaps">b 3</hi>
+               </fw><pb n="6"/>tience, the dull, and common place dramatic persons which surround
+               him.</p>
+
+            <p>Authors of the past time, and those of the present, have had very different notions
+               of the ties which subsist between parents and children. It is shocking to see how
+               tyranny on one part, and deceit on the other, disgrace most of our old play
+                  books.<note>Much of the plot's humor resides in the dysfunctional parent-child
+                  relationships in the play. Isabinda's father, Sir Jealous Traffick, strictly
+                  guards Isabinda's honor, virtually placing her under house arrest. Meanwhile, Sir
+                  Francis refuses to turn over Charles' inheritance from his deceased uncle;
+                  furthermore, he attempts to marry Miranda, also his ward, for her fortune.</note>
+               It is to be hoped, that these portraits of unnatural vice have been daubed with such
+               hideous colours, they have reclaimed all fathers, mothers, sons, and daughters; and
+               left to the writers of these days, to paint from nature&#8212;parental and filial
+               love.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

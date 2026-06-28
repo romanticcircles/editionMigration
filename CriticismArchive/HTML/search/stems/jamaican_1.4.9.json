@@ -1,0 +1,29 @@
+
+  { "stem" : "jamaican",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Jamaican",
+            "weight" : "1",
+            "pos" : 12006,
+            "context" : "...1824 (Library of Congress Name Authority)—  A <mark>Jamaican<\/mark>-born poet and novelist, Dallas's fictional works..." },
+          
+          { "form" : "Jamaican",
+            "weight" : "1",
+            "pos" : 41202,
+            "context" : "...)—  Tobias Smollett's wife. Daughter of a <mark>Jamaican<\/mark> Plantation owner, Anne lived in Kingston, Jamaica..." } ] },
+      
+      { "docId" : "MoodyRevNascita1803",
+        "docUri" : "MoodyRevNascita1803.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jamaican",
+            "weight" : "1",
+            "pos" : 197,
+            "context" : "..., and the pro-slavery heir to several <mark>Jamaican<\/mark> plantations and over 1,000 slaves. Her early death...",
+            "fid" : "note2" } ] } ] }

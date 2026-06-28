@@ -1,0 +1,30 @@
+
+  { "stem" : "1167",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1167",
+            "weight" : "1",
+            "pos" : 1503,
+            "context" : "...his uncle, John, King of England, <mark>1167<\/mark>-1216. [MW]  Ascham, Roger..." },
+          
+          { "form" : "1167",
+            "weight" : "1",
+            "pos" : 23992,
+            "context" : "...[MW]  John, King of England, <mark>1167<\/mark>-1216 (Library of Congress Name Authority)—...",
+            "fid" : "JohnKingofEngland" } ] },
+      
+      { "docId" : "BarbEnquiry1773",
+        "docUri" : "BarbEnquiry1773.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1167",
+            "weight" : "1",
+            "pos" : 2200,
+            "context" : "...over his uncle John, King of England (<mark>1167<\/mark>-1216), who therefore had the young duke...",
+            "fid" : "note6" } ] } ] }

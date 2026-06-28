@@ -1,0 +1,62 @@
+
+  { "stem" : "polici",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "policies",
+            "weight" : "1",
+            "pos" : 11170,
+            "context" : "...months, forced him to reinstitute the previous pricing <mark>policies<\/mark>. In 1817, Covent Garden followed Drury Lane..." },
+          
+          { "form" : "policies",
+            "weight" : "1",
+            "pos" : 29908,
+            "context" : "...father's rule, as she wished for more protestant <mark>policies<\/mark>. [LD]  Mary, Queen of Scots..." },
+          
+          { "form" : "policies",
+            "weight" : "1",
+            "pos" : 44441,
+            "context" : "...and unpopular political figure whose aggressive and capricious foreign <mark>policies<\/mark> contributed to the eruption of the English Civil War..." } ] },
+      
+      { "docId" : "BaillieIntDis1798",
+        "docUri" : "BaillieIntDis1798.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "policy",
+            "weight" : "1",
+            "pos" : 1640,
+            "context" : "...combatants.5 The establishments of [Page 17] <mark>policy<\/mark> make little impression upon us, if we are left...",
+            "fid" : "para28" },
+          
+          { "form" : "policy",
+            "weight" : "1",
+            "pos" : 1695,
+            "context" : "...our understanding, than the minute details of ostensible <mark>policy<\/mark>. A judicious selection of those circumstances which characterize...",
+            "fid" : "para28" } ] },
+      
+      { "docId" : "InchbaldVol3Rem5WintersTale1808",
+        "docUri" : "InchbaldVol3Rem5WintersTale1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "policy",
+            "weight" : "1",
+            "pos" : 336,
+            "context" : "...the throne should admire, it was perfect good <mark>policy<\/mark>, rather than want of skill, to make...",
+            "fid" : "para21" } ] },
+      
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "policy",
+            "weight" : "1",
+            "pos" : 1761,
+            "context" : "...sage old folk— Who hunt the trail of <mark>policy<\/mark> so sure—33  on the very scent...",
+            "fid" : "line16" } ] } ] }

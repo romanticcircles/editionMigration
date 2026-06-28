@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on King Lear</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol4Rem1KingLear1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on King Lear]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">King Lear;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By William Shakspeare. As Performed at
+                     the Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IV. King Lear. Cymbeline. Macbeth. Julius Cæsar.
+                     Anthony and Cleopatra. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">4</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240830" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#LearKingofBritain">King Lear</ref></title></hi>].
+                        <note>"Remarks." <hi rendition="#italics"><title><title><ref
+                                    target="people.html#LearKingofBritain">King Lear</ref></title>;
+                              A Tragedy, In Five Acts; By <ref
+                                 target="people.html#ShakespeareWilliam">William Shakspeare</ref>.
+                              As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref> and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>, London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. IV. <hi rendition="#italics"><title><ref
+                                 target="people.html#LearKingofBritain">King
+                        Lear</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#Cunobelinus">Cymbeline</ref></title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#Macbeth"
+                                 >Macbeth</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#CaesarJulius">Julius Cæsar</ref></title></hi>.
+                           <hi rendition="#italics"><title><ref target="people.html#AntoniusMarcus"
+                                 >Antony</ref> and <ref
+                                 target="people.html#CleopatraVIIQueenofEgypt"
+                              >Cleopatra</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged at the Globe Theatre in late 1605 or early 1606. Laura DeWitt and
+                        Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>The story of this Tragedy has been told in many an ancient ballad, and other
+               ingenious works; but <ref target="people.html#MaloneEdmond">Mr. Malone</ref>
+               supposes, that <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is more
+               indebted for his fable to "<title>The true Chronicle History of <ref
+                     target="people.html#LearKingofBritain">King Lear</ref> and his three Daughters,
+                  Goneril, Regan, and Cordelia,</title>"<note>From <ref
+                     target="people.html#MaloneEdmond">Edmond Malone</ref>'s <hi
+                     rendition="#italics"><title>The Plays and Poems of <ref
+                           target="people.html#ShakespeareWilliam">William
+                     Shakspeare</ref></title></hi>, vol. 8, p. 485. The play to which <ref
+                     target="people.html#MaloneEdmond">Edmond</ref> refers was anonymously published
+                  roughly twelve years prior to the first staging of <hi rendition="#italics"
+                           ><title><ref target="people.html#LearKingofBritain">King
+                        Lear</ref></title></hi> and is believed to be <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>'s primary
+                  inspiration. Goneril, Regan, and Cordelia are <ref
+                     target="people.html#LearKingofBritain">King Lear</ref>'s eldest, second, and
+                  youngest daughters, respectively. While Goneril and Regan are the play's villains,
+                  deceiving their father with false flattery to accrue power, Cordelia refuses to
+                  make false professions of love, and her father banishes her from his
+                  kingdom.</note> than to any other production.</p>
+
+            <p><ref target="people.html#CamdenWilliam">Camden</ref>, in his <title>Remains</title>,
+               gives the following account of an English King, which is also similar to the story of
+                  <ref target="people.html#LearKingofBritain">Leir</ref>, or <ref
+                  target="people.html#LearKingofBritain">Lear</ref>. <quote><ref
+                     target="people.html#IneKingofWessex">Ina</ref>, King of the West Saxons, had
+                  three daughters, of whom, upon a time, he demanded, whether they did love him, and
+                  so would do during their lives, above all others? The two elder sware deeply they
+                  would; the youngest, but the wisest, told her father flatly, that albeit she did
+                  love, honour, and reverence him, and so would whilst she lived, as much as nature
+                  and daughterly duty at the uttermost could expect; yet she did think that one day
+                  it would come to pass, that she should affect another more fervently, meaning her
+                  husband, when she were married.<note>From <ref target="people.html#CamdenWilliam"
+                        >William Camden</ref>'s <hi rendition="#italics"><title>Remaines of a
+                           Greater Worke, Concerning Britaine, the Inhabitants Thereof, Their
+                           Languages, Names, Surnames, Empreses, Wise Speeches, Poësies, and
+                           Epitaphes</title></hi> (1605), p. 182.</note></quote></p>
+
+            <p>This relation, the Commentator imagines, may probably have been applied to <ref
+                  target="people.html#LearKingofBritain">King Lear</ref>; whom <ref
+                  target="people.html#GeoffryofMonmouth">Geoffrey of Monmouth</ref> says, "Nobly
+               governed his country for sixty years, and died about eight hundred years before the
+               birth of Christ."<note>From <ref target="people.html#GeoffryofMonmouth">Geoffrey of
+                     Monmouth</ref>'s <hi rendition="#italics"><title>Historia Regum
+                        Britanniae</title></hi> (<hi rendition="#italics"><title>The History of the
+                        Kings of Britain</title></hi>) (c. 1136), Book II, Chapter XI, p. 45.</note>
+            </p>
+
+            <p>Notwithstanding the number of histories and books of fiction, that have promulgated
+               this piteous tale of a monarch and his children, it remains a doubt <fw type="sig"
+                     ><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>among the most learned on the
+               subject, whether such an event, as here described, ever, in reality,
+                     occurred.<note><hi rendition="#italics"><title><ref
+                           target="people.html#LearKingofBritain">King Lear</ref></title></hi> is
+                  based on the mythological <ref target="people.html#LearKingofBritain">Leir of
+                     Britain</ref>. The story of <ref target="people.html#LearKingofBritain"
+                     >Leir</ref> was first documented in <ref target="people.html#GeoffryofMonmouth"
+                     >Geoffrey of Monmouth</ref>'s twelfth-century pseudohistory, <hi
+                     rendition="#italics"><title>Historia Regum Britanniae</title></hi> (<hi
+                     rendition="#italics"><title>The History of the Kings of Britain</title></hi>),
+                  which claimed <ref target="people.html#LearKingofBritain">Leir</ref> ruled in the
+                  eighth century B.C.E. However, no account of <ref
+                     target="people.html#LearKingofBritain">Leir</ref> is recognized as verifiable
+                  history.</note></p>
+
+            <p>But, if it never did before the time of <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>, certainly something very like it has taken place since. <ref
+                  target="people.html#LearKingofBritain">Lear</ref> is not represented much more
+               affectionate to his daughters by <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>, than <ref target="people.html#JamesIIKingofEngland">James the
+                  Second</ref> is by <ref target="people.html#HumeDavid">Hume</ref>. <ref
+                  target="people.html#JamesIIKingofEngland">James</ref>'s daughters were, besides,
+               under more than ordinary obligations to their king and father, for the tenderness he
+               had evinced towards their mother, in raising her from an humble station to the
+               elevation of his own; and thus preserving these two princesses from the probable
+               disgrace of illegitimate birth.<note><ref target="people.html#JamesIIKingofEngland"
+                     >James II</ref> promised commoner <ref target="people.html#HydeAnne">Anne
+                     Hyde</ref> he would marry her as he attempted to seduce her in 1659. <ref
+                     target="people.html#HydeAnne">Hyde</ref> became pregnant out of wedlock, and
+                  the following year, the couple married in secret.</note></p>
+
+            <p>Even to such persons as hold it was right to drive <ref
+                  target="people.html#JamesIIKingofEngland">King James</ref> from the throne, it
+               must be a subject of lamentation, that his beloved children were the chief
+               instruments of those concerned. When the <ref
+                  target="people.html#JamesIIKingofEngland">King</ref> was informed that his eldest
+               daughter, <ref target="people.html#MaryIIQueenofEngland">Mary</ref>, was landed, and
+               proceeding to the metropolis, in order to dethrone him, he called, as the historian
+               relates, for the <ref target="people.html#AnneQueenofGreatBritain">Princess
+                  Anne</ref>&#8212;and called for her by the tender description of his "dear, his
+               only remaining daughter." On the information given to his Majesty in return, that
+               "she had forsook the palace, to join her sister," the king wept and tore his
+                  hair.<note>Altered quotation from <ref target="people.html#HumeDavid">David
+                     Hume</ref>'s <hi rendition="#italics"><title>The History of Great
+                        Britain</title></hi> (1757), vol. II, p. 423. In 1688, <ref
+                     target="people.html#MaryIIQueenofEngland">Princess Mary</ref>'s husband, <ref
+                     target="people.html#WilliamIIIKingofEngland">William of Orange</ref>, led the
+                  forces which deposed <ref target="people.html#JamesIIKingofEngland">James II</ref>
+                  in the Glorious Revolution. Upon <ref target="people.html#WilliamIIIKingofEngland"
+                     >William</ref>'s arrival, many of <ref
+                     target="people.html#JamesIIKingofEngland">James</ref>' Protestant supporters,
+                  including his daughter, <ref target="people.html#AnneQueenofGreatBritain"
+                     >Anne</ref>, defected to join William. However, <ref
+                     target="people.html#MaryIIQueenofEngland">Mary</ref> did not arrive until two
+                  months after her father's departure.</note></p>
+
+            <p><ref target="people.html#LearKingofBritain">Lear</ref>, exposed on a bleak heath,
+               suffered not more than <ref target="people.html#JamesIIKingofEngland">James</ref>, at
+               one of our sea-ports, trying to escape to France. <ref
+                  target="people.html#LearKingofBritain">King Lear</ref> was only pelted by a storm,
+                  <ref target="people.html#JamesIIKingofEngland">King James</ref> by his merciless
+                  subjects.<note>In Act II, scene iv, <ref target="people.html#LearKingofBritain"
+                     >King Lear</ref> tries to take refuge with Goneril and Regan, who turn him out
+                  in a storm. However, <ref target="people.html#JamesIIKingofEngland">James</ref>
+                  made his escape in the middle of the night, in secret, making it unlikely he would
+                  have faced attacks by his subjects.</note></p>
+
+            <p>Not one of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s plays more
+               violently agitates the passions than this Tragedy; parents and <pb n="5"/>children
+               are alike interested in every character, and instructed by each. There is,
+               nevertheless, too much of ancient cruelty in many of the events. An audience finds
+               horror prevail over compassion, on Gloster's loss of his eyes:<note>Cornwall, the
+                  son-in-law of the king, gouges out the eyes of the Earl of Gloucester, a nobleman
+                  loyal to <ref target="people.html#LearKingofBritain">King Lear</ref>, in Act III,
+                  scene vii.</note> and though <ref target="people.html#JohnsonSamuel">Dr.
+                  Johnson</ref> has vindicated this frightful incident, by saying, "<ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> well knew what would
+               please the audience for which he wrote;"<note>From <hi rendition="#italics"
+                        ><title>The Plays of <ref target="people.html#ShakespeareWilliam">William
+                           Shakespeare</ref>, With the Corrections and Illustrations of Various
+                        Commentators</title></hi> (1765), vol. 6, p. 159.</note> yet this argument
+               is no apology for the correctors of <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>, who have altered the Drama to gratify spectators more refined,
+               and yet have not expunged this savage and improbable act.</p>
+
+            <p>The nice distinction which the author has made between the real and the counterfeit
+               madman in this tragedy, is a part of the work particularly admired by the experienced
+               observers of that fatal disorder; and to sum up the whole worth of the production,
+               the reader may now say of it, with some degree of qualification, what <ref
+                  target="people.html#TateNahum">Tate</ref> said before he had employed much time
+               and taste on the alteration: "It is a heap of jewels, unstrung and unpolished, yet so
+               dazzling in their disorder, that I soon perceived I had seized a treasure."<note>From
+                  the "Dedication" section prefacing <ref target="people.html#TateNahum">Nahum
+                     Tate</ref>'s <hi rendition="#italics"><title>The History of <ref
+                           target="people.html#LearKingofBritain">King Lear</ref></title></hi>
+                  (1681), p. 3.</note>
+            </p>
+
+            <p>It is curious and consolatory for a minor critic to observe, how the great
+               commentators on <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> differ
+               in their opinions.</p>
+
+            <p><ref target="people.html#TateNahum">Tate</ref> alters the Play of <title><ref
+                     target="people.html#LearKingofBritain">King Lear</ref></title>, and instead of
+               suffering the good Cordelia to die of grief, as <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> had done, he rewards her
+               with life, love, and a throne. <ref target="people.html#AddisonJoseph">Addison</ref>,
+               in his <title>Spectator</title>, condemns him for this;<note>Of <ref
+                     target="people.html#TateNahum">Tate</ref>'s alteration, <ref
+                     target="people.html#AddisonJoseph">Joseph Addison</ref> writes, "<hi
+                     rendition="#italics"><title><ref target="people.html#LearKingofBritain">King
+                           Lear</ref></title></hi> is an admirable Tragedy of the same Kind, as <ref
+                     target="people.html#ShakespeareWilliam">Shakespear</ref> wrote it; but as it is
+                  reformed according to the chymerical Notion of Poetical Justice, in my humble
+                  Opinion it has lost half its Beauty." <hi rendition="#italics"><title>The
+                        Spectator</title></hi> no. 40, April 16, 1711.</note>
+               <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> commends him for
+                     it;<note><ref target="people.html#InchbaldMrs">Inchbald</ref> refers to <ref
+                     target="people.html#JohnsonSamuel">Johnson</ref>'s comment in his 1765 work,
+                     <hi rendition="#italics">The Plays of <ref
+                        target="people.html#ShakespeareWilliam">William Shakespeare</ref></hi>, vol.
+                  6, p. 159. <quote>In the present case the publick has decided. Cordelia, from the
+                     time of <ref target="people.html#TateNahum">Tate</ref>, has always retired with
+                     victory and felicity. And, if my sensations could add any thing to the general
+                     suffrage, I might relate, that I was many years ago so shocked by Cordelia's
+                     death, that I know not whether I ever endured to read again the last scenes of
+                     the play till I undertook to revise them as an editor.</quote></note>
+               <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>both showing excellent
+               reasons. Then comes <ref target="people.html#SteevensGeorge">Steevens</ref>, who
+               gives a better reason than all, why they are all wrong.<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> refers to <ref
+                     target="people.html#SteevensGeorge">Steevens</ref>' comment in <hi
+                     rendition="#italics">The Plays of <ref target="people.html#ShakespeareWilliam"
+                        >William Shakespeare</ref>, With the Corrections and Illustrations of
+                     Various Commentators<title/></hi> (1793), vol. 14, p. 290.<quote>This princess,
+                     according to the old historians, retired with victory from the battle she
+                     conducted in her father's cause, and thereby replaced him on the throne: but in
+                     a subsequent one fought against her (after the death of the old king) by the
+                     sons of Goneril and Regan, she was taken, and died miserably in prison. The
+                     poet found this in history, and was therefore willing to precipitate her death,
+                     which he knew had happened but a few years after. The dramatick writers of this
+                     age suffered as small a number of their heroes and heroines to escape as
+                     possible; nor could the filial piety of this lady, any more than the innocence
+                     of <ref target="people.html#Ophelia">Ophelia</ref>, prevail on <ref
+                        target="people.html#ShakespeareWilliam">Shakspeare</ref> to extend her life
+                     beyond her misfortunes.</quote></note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

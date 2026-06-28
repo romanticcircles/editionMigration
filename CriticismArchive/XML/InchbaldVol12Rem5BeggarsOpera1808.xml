@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Beggar's Opera</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol12Rem5BeggarsOpera1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Beggar's Opera]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Beggar's Opera;</title>
+                  <title type="sub">In Three Acts; By John Gay. As Performed at the Theatres Royal,
+                     Drury Lane and Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Gay, John, 1685-1732</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241010" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Beggar's Opera</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Beggar's Opera</title>; In Three Acts; By <ref
+                                 target="people.html#GayJohn">John Gay</ref>. As Performed at the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>
+                              and <ref target="people.html#CoventGarden">Covent Garden</ref>.
+                              Printed Under the Authority of the Managers From the Prompt Book. With
+                              Remarks by <ref target="people.html#InchbaldMrs">Mrs.
+                              Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. XII. <hi rendition="#italics">
+                           <title>Orphan</title></hi>. <hi rendition="#italics"><title>Venice
+                              Preserved</title></hi>. <hi rendition="#italics"><title>Conscious
+                              Lovers</title></hi>. <hi rendition="#italics"
+                           ><title>Revenge</title></hi>. <hi rendition="#italics"><title>Beggar's
+                              Opera</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the Lincoln's Inn Fields Theatre on January 29<hi rendition="#sup"
+                           >th</hi>, 1728. Laura DeWitt and Mary A. Waters edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The celebrated author of this celebrated opera was born to experience variety of
+               fortune; such as plunged him into the bitterest despondency, and such as elevated him
+               to the height of joy.</p>
+
+            <p><ref target="people.html#GayJohn">John Gay</ref> was born near Barnstaple, in
+               Devonshire, 1688, and received his education at the grammar school there.<note><ref
+                     target="people.html#GayJohn">Gay</ref> was born in Barnstaple, a river town and
+                  civil parish in Devon, a ceremonial county in South West England. He was educated
+                  at the town's grammar school. At the time of his education, grammar schools
+                  typically taught commercial subjects and modern languages.</note> He was of an
+               ancient family,<note><ref target="people.html#GayJohn">Gay</ref>'s maternal and
+                  paternal lines were considered among the leading families in Barnstaple,
+                  consisting of clergymen, tradesmen, soldiers, and government officials.</note> and
+               yet was bred a mercer: But having a small independent fortune, and a mind superior to
+               the state in which his relations had placed him, he purchased his freedom from the
+               indentures which bound him to a shopkeeper, in the Strand,<note>The Strand is a major
+                  street in the City of Westminster in Central London. In addition to housing
+                  theatres and merchantry, The Strand became a hotspot for publishing houses in the
+                     18<hi rendition="#sup">th</hi> century.</note> and quitted the counter, where
+               he had attended for several years.<note><ref target="people.html#GayJohn">Gay</ref>
+                  was apprenticed to a silk mercer in London from 1702 to 1706, after which he
+                  returned to live with family in Barnstaple, possibly due to ill health.</note></p>
+
+            <p>His first production, a poem, called "<title>Rural Sports</title>," printed in 1711,
+               and dedicated to <ref target="people.html#PopeAlexander">Pope</ref>, gained him the
+               acquaintance and friendship of that poet, and introduced him to many other
+               distinguished persons.<note>In 1713, <ref target="people.html#GayJohn">Gay</ref>
+                  published <hi rendition="#italics"><title>Rural Sports</title></hi>, a two-part
+                  didactic poem containing descriptions of hunting, fishing, and the countryside, as
+                  well as meditations over retirement. Dedicated to <ref
+                     target="people.html#PopeAlexander">Alexander Pope</ref>, this poem is believed
+                  to be the start of the pair's lasting friendship.</note></p>
+
+            <p>The year following, he was made secretary to the <ref
+                  target="people.html#BuccleuchAnneScott">Duchess of Monmouth</ref>; and, soon
+               after, accompanied <ref target="people.html#ClarendonEdward">Lord Clarendon</ref>, in
+               the same capacity, to Hanover.<note>In 1712, <ref target="people.html#GayJohn"
+                     >Gay</ref> was appointed domestic steward and secretary to the <ref
+                     target="people.html#BuccleuchAnneScott">Duchess of Monmouth</ref>. <ref
+                     target="people.html#SwiftJonathan">Jonathan Swift</ref>, <ref
+                     target="people.html#GayJohn">Gay</ref>'s acquaintance through their shared
+                  association with the <ref target="people.html#ScriblerusClub">Scriblerus
+                     Club</ref>, helped <ref target="people.html#GayJohn">Gay</ref> to secure the
+                  position of secretary to the <ref target="people.html#ClarendonEdward">Earl of
+                     Clarendon</ref> in 1714. <ref target="people.html#ClarendonEdward">Lord
+                     Clarendon</ref> was the newly-appointed ambassador to the Electorate of
+                  Hanover, Germany. <ref target="people.html#GayJohn">Gay</ref> accompanied <ref
+                     target="people.html#ClarendonEdward">Lord Clarendon</ref> to Hanover for three
+                  months, until <ref target="people.html#ClarendonEdward">Lord Clarendon</ref> was
+                  recalled to England following the death of <ref
+                     target="people.html#AnneQueenofGreatBritain">Queen Anne</ref>.</note></p>
+
+            <p><ref target="people.html#GayJohn">Gay</ref> seems to have fixed his inclination upon
+               a <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+               <pb n="4"/>certain possession, which poets, of all other classes of men, appear most
+               to have despised&#8212;money.</p>
+
+            <p>With the various earnings of his pen, both as secretary and author, poor <ref
+                  target="people.html#GayJohn">Gay</ref>, in search of riches, placed all he had
+               accumulated, in the bank of the famous South Sea company&#8212;His warmest wishes
+               were soon accomplished, and his little fortune became treble.&#8212;He was advised to
+               settle out, and purchase an annuity, with his increased store&#8212;he waited to have
+               it still augment,&#8212;and lost every guinea he was worth in the world.<note>The
+                  South Sea Company was a joint-stock company created in 1711 to further Tory
+                  political influence, reduce the national debt, and trade with the South Seas and
+                  other parts of America. In 1720, <ref target="people.html#GayJohn">Gay</ref>
+                  published his collection <hi rendition="#italics"><title>Poems on Several
+                        Occasions</title></hi>, which was made available by subscription only. <ref
+                     target="people.html#GayJohn">Gay</ref> earned over £1000 through subscriptions
+                  and patronage, and, heeding the advice of a friend in the government, and ignoring
+                  the advice of other friends such as <ref target="people.html#PopeAlexander"
+                     >Pope,</ref> invested the entire sum in the South Sea Company. The market
+                  crashed with the South Sea Bubble later that year, and <ref
+                     target="people.html#GayJohn">Gay</ref> lost everything.</note></p>
+
+            <p>The poet had neither wife nor child, to share in this severe misfortune, and yet, it
+               seemed to have struck to his heart.</p>
+
+            <p>He was, for a time, inconsolable,&#8212;almost driven to despair. But the treasure he
+               still possessed in affectionate and enlightened friends, who sought every method to
+               dissipate his care, at length prevailed; and he began, once more, to write for money,
+               and to save it.<note><ref target="people.html#GayJohn">Gay</ref> is said to have
+                  become serious ill following the market crash. However, he continued to receive
+                  assistance from his patrons, as well as kindness from friends such as <ref
+                     target="people.html#PopeAlexander">Pope</ref>, <ref
+                     target="people.html#CongreveWilliam">William Congreve</ref>, and <ref
+                     target="people.html#ArbuthnotJohn">John Arbuthnot</ref>.</note></p>
+
+            <p>He now produced his tragedy of "<title>The Captives</title>"&#8212;had the honour of
+               reading it to the <ref target="people.html#CarolineofAnsbach">Princess of
+               Wales</ref>, afterwards <ref target="people.html#CarolineofAnsbach">Queen
+                  Caroline</ref>;<note><hi rendition="#italics"><title>The Captives</title></hi>,
+                  written and first performed in 1724, was dedicated to <ref
+                     target="people.html#CarolineofAnsbach">Queen Caroline</ref>, then the <ref
+                     target="people.html#CarolineofAnsbach">Princess of Wales</ref>.</note> and the
+               greater honour, of receiving her royal command, to write a book of Fables, which was
+               dedicated, by permission, to the young <ref target="people.html#CumberlandWilliam"
+                  >Duke of Cumberland</ref>, and most graciously accepted.<note>In 1727, <ref
+                     target="people.html#GayJohn">Gay</ref> wrote <hi rendition="#italics"
+                        ><title>Fifty-one Fables in Verse</title></hi> for <ref
+                     target="people.html#CarolineofAnsbach">Queen Caroline</ref>'s third son, <ref
+                     target="people.html#CumberlandWilliam">Prince William</ref>, later to become
+                  the <ref target="people.html#CumberlandWilliam">Duke of Cumberland</ref>. <ref
+                     target="people.html#GayJohn">Gay</ref> did so in hopes of attaining a position
+                  at court with an annuity. Although he was offered the situation of gentleman-usher
+                  for one of <ref target="people.html#CarolineofAnsbach">Caroline</ref>'s daughters,
+                  he turned down the position, finding it to be demeaning.</note></p>
+
+            <p><ref target="people.html#GayJohn">Gay</ref>'s hopes were again elated; he looked
+               forward to advancement, from so powerful and liberal a patronage;&#8212;but in 1727,
+               when this princess ascended the throne,<note><ref
+                     target="people.html#CarolineofAnsbach">Caroline</ref>'s husband <ref
+                     target="people.html#GeorgeIIKingofGreatBritain">George II</ref> became king in
+                  1727.</note> another South Sea bubble broke, and he <pb n="5"/>was offered a place
+               at court, which he conceived it an indignity to suppose he would accept.</p>
+
+            <p>He refused to be gentleman-usher to one of the young princesses, as an office, in
+               which his peculiar talents would be wholly useless; but though he considered, that
+               insult had been here added to disappointment, yet, as this misfortune occurred
+               without any imprudence or fault of his own, he sunk not under its weight, as when he
+               lost his fortune, in the pursuit of increasing it;&#8212;but, irritated by a manly
+               pride, against courts and courtiers, was now inspired to compose this admirable drama
+               of "<title>The Beggar's Opera</title>."</p>
+
+            <p>It came out in the season of 1727-8<note>The first performance of this play was
+                  staged at the Lincoln's Inn Fields Theatre on January 29<hi rendition="#sup"
+                     >th</hi>, 1728.</note>&#8212;and on this occasion the author experienced a joy,
+               equal in its excess, to any of his past and bitterest sorrows.</p>
+
+            <p>Never had dramatic work been so attractive; and as the nature of the entertainment
+               was wholly new to an English audience, the author had eulogiums for his invention,
+               beyond the common share allotted to successful authors.</p>
+
+            <p>"<title>The Beggar's Opera</title>" was acted sixty-three nights,<note><hi
+                     rendition="#italics"><title>The Beggar's Opera</title></hi> initially ran for
+                  62 consecutive performances, making it the longest-running play in England up to
+                  that time.</note> without intermission and charmed every auditor, except those who
+               were the objects of its satire. Anecdotes, almost incredible, are related of its
+               popularity on its first coming forth; and yet, their truth can be easily conceived,
+               when the present force of this excellent work is recollected. At this period, when
+               English operas are no longer a novelty, and some very good ones have appeared, still,
+               no entertainment of the kind, is allowed to hold an exact equality with this
+                  produc-<fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+               <pb n="6"/>tion. At such high estimation, a certain discount is, however, taken from
+               its value. It fails of moral precept.&#8212;Nor is that accusation all; it has the
+               fatal tendency to make vice alluring. The skill of the author is here supremely
+               excellent, though it is grievous he did not show it in a better cause; for, who, but
+                  <ref target="people.html#GayJohn">Gay</ref>, could have made highwaymen, thieves,
+               and cheats of every denomination, endearing to the delicate, the elegant, and even
+               the honourable spectator?<note>The characters in <hi rendition="#italics"><title>The
+                        Beggar's Opera</title></hi> primarily consists of rogues, thieves, and
+                  prostitutes in the criminal world of 1720s London. The plot revolves around the
+                  crime kingpin Mr. Peachum and his quest for vengeance on Macheath, a highwayman
+                  who secretly married Peachum's daughter, Polly.</note></p>
+
+            <p>Still it is to be observed, that the author has rendered the only honest person in
+               the play, by far the most interesting character. Polly Peachum is endowed with such
+               superior charms, from the unoffending qualities she possesses, that, when she was
+               first represented, every actress who performed the part, made her fortune by
+               marriage;&#8212;and <ref target="people.html#FentonLavinia">Miss Fenton</ref>, the
+               original Polly, so fascinated the <ref target="people.html#PowlettCharles">Duke of
+                  Bolton</ref>, that he elevated her to the highest rank of a female subject, by
+               making her his wife.<note>After her last appearance as Polly Peachum in April of
+                  1728, <ref target="people.html#FentonLavinia">Lavinia Fenton</ref> ran away with
+                  the married <ref target="people.html#PowlettCharles">Charles Powlett, 3<hi
+                        rendition="#sup">rd</hi> Duke of Bolton</ref>. The two married in 1751
+                  following the death of <ref target="people.html#PowlettCharles">Powlett</ref>'s
+                  wife.</note></p>
+
+            <p>It is painful to state, that, after this brilliant success, <ref
+                  target="people.html#GayJohn">Gay</ref> wrote again, and his drama failed of a kind
+                     reception.<note><ref target="people.html#GayJohn">Gay</ref> wrote a sequel to
+                     <hi rendition="#italics"><title>The Beggar's Opera</title></hi> entitled <hi
+                     rendition="#italics"><title>Polly</title></hi>, published by subscription in
+                  1729. The play was forbidden from being performed by the <ref
+                     target="people.html#GraftonCharles">Lord Chamberlain</ref>, likely under the
+                  influence of <ref target="people.html#WalpoleRobert">Robert Walpole</ref>.
+                  However, the publicity from this controversy served as great advertisement for <hi
+                     rendition="#italics"><title>Polly</title></hi>, and <ref
+                     target="people.html#GayJohn">Gay</ref> made over a thousand pounds from its
+                  subscription sales. In 1730, <ref target="people.html#GayJohn">Gay</ref> produced
+                  a revised version of his 1713 play <hi rendition="#italics"><title>The Wife of
+                        Bath</title></hi>, and by 1731 he had begun a second volume of his <hi
+                     rendition="#italics"><title>Fables</title></hi> (published posthumously in
+                  1738). <ref target="people.html#GayJohn">Gay</ref> worked on his <hi
+                     rendition="#italics"><title>Achilles</title></hi> and <hi rendition="#italics"
+                        ><title>The Distress'd Wife</title></hi> in 1732, though he did not live to
+                  see either play produced. Overall, <ref target="people.html#GayJohn">Gay</ref>'s
+                  final years were prosperous, though no work lived up to the success of <hi
+                     rendition="#italics"><title>The Beggar's Opera</title></hi>.</note> It seems a
+               paradox, yet it is true, that the author, who has once written well, should write no
+               more; whilst he, who is unsuccessful, had best proceed.&#8212;The first may lose a
+               reputation by perseverance, and the last may regain one.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

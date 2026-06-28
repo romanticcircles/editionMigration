@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on King Henry VIII</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol3Rem3KingHenryVIII1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on King Henry VIII]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">King Henry VIII.</title>
+                  <title type="sub">A Historical Play, in Five Acts; By William Shakspeare. As
+                     Performed at the Theatre Royal, Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. III. As You Like It. Merry Wives of Windsor. King
+                     Henry VIII. Measure for Measure. Winter's Tale.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">3</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+                  <item>Fletcher, John, 1579-1625</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240825" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#HenryVIIIKingofEngland">King Henry
+                           VIII</ref></title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#HenryVIIIKingofEngland"
+                                    >King Henry VIII</ref></title>. A Historical Play, In Five Acts;
+                              By <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>, London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. III. <hi rendition="#italics"><title>As You
+                              Like It</title></hi>. <hi rendition="#italics"><title>Merry Wives of
+                              Windsor</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#HenryVIIIKingofEngland">King Henry
+                              VIII</ref></title></hi>. <hi rendition="#italics"><title>Measure for
+                              Measure</title></hi>. <hi rendition="#italics"><title>Winter's
+                              Tale</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. Scholars believe that this play was co-written with
+                           <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s
+                        collaborator and successor, <ref target="people.html#FletcherJohn">John
+                           Fletcher</ref>. The first performance of this play was staged at the
+                        Globe Theatre on June 29<hi rendition="#sup">th</hi>, 1613. Laura DeWitt and
+                        Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>As, to do good, for the honour and glory of a supreme Being, and in conformity to his
+               commandments, is the highest perfection of mortal man&#8212;so, to commit evil, under
+               the pretence of religious duty, and, in his sacred name, constitutes the most
+               flagrant impiety of which a human creature can, in the full premeditation of guilt,
+               be chargeable. </p>
+
+            <p>The crimes, which, unhappily, form all the incidents of this drama, are, by the
+               hardened perpetrators of them, all ascribed to the holy will and pleasure of Heaven.
+                  <ref target="people.html#HenryVIIIKingofEngland">King Henry</ref> casts from his
+               bed and throne, his loving and obedient wife; because his conscience dreads the anger
+               of his Maker:&#8212;and <ref target="people.html#WolseyThomas">Cardinal Wolsey</ref>
+               devotes himself to pomp, amasses unbounded wealth, and exacts from his neighbours
+               every honour short of adoration; whilst his profession announces&#8212;his imitation
+               of an humble Redeemer.</p>
+
+            <p>The qualities and characters of both the <ref
+                  target="people.html#HenryVIIIKingofEngland">King</ref> and the <ref
+                  target="people.html#WolseyThomas">Cardinal</ref> underwent almost a total change,
+               from their youth to their manhood; or to that period in which they are here
+               delineated. <ref target="people.html#HenryVIIIKingofEngland">Henry</ref>, when young,
+               possessed personal beauty and grace&#8212;his mind was susceptible of all the softer
+               delights, and a peculiar <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb
+                  n="4"/>passion for music seemed to have turned his soul to harmony.&#8212;<ref
+                  target="people.html#WolseyThomas">Wolsey</ref>, even at the age of forty, would
+               laugh, sing, and dance&#8212;when he was younger, he would drink also&#8212;and once,
+               for some tumult which he raised, at a country fair, he suffered the disgrace of being
+               placed in the stocks; though he was, at that very time, rector of a living in the
+               neighbouring village.</p>
+
+            <p>Who, that had beheld the gay, the graceful, the accomplished <ref
+                  target="people.html#HenryVIIIKingofEngland">Henry</ref>, at a ball or concert,
+               enraptured with sweet sounds, could have predicted, that&#8212;he would divorce four
+               virtuous wives, and behead two of them?&#8212;And who, that had seen the riotous <ref
+                  target="people.html#WolseyThomas">Wolsey</ref>, with his legs imprisoned in a
+               market-place, could possibly have descried, in that object of condign
+               punishment,&#8212;a future archbishop, England's prime minister, an illustrious
+               cardinal, and an aspirer at the popedom?</p>
+
+            <p>From the many artful praises of <ref target="people.html#BoleynAnne">Anne
+                  Bullen</ref>, which <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>
+               has introduced in this play, but, above all, from his many prophetic insinuations,
+               and, at length, his bold prophecy, that the infant daughter of <ref
+                  target="people.html#HenryVIIIKingofEngland">Henry</ref> and beauteous <ref
+                  target="people.html#BoleynAnne">Anne</ref>&#8212;shall prove a blessing to this
+               realm&#8212;it is conjectured, that the play of <title><ref
+                     target="people.html#HenryVIIIKingofEngland">Henry the Eighth</ref></title> was
+               written and performed during the reign of that very child, <ref
+                  target="people.html#ElizabethIQueenofEngland">Queen Elizabeth</ref>.<note><hi
+                     rendition="#italics"><title><ref target="people.html#HenryVIIIKingofEngland"
+                           >Henry VIII</ref></title></hi> was written and performed in 1613, ten
+                  years after <ref target="people.html#ElizabethIQueenofEngland">Queen Elizabeth
+                     I</ref>'s death in 1603.</note></p>
+
+            <p>With all his desire to please his royal mistress, <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> has yet never once
+               depreciated the virtues of the good <ref target="people.html#CatherineofAragon">Queen
+                  Katharine</ref>, or drawn a veil over her injuries. He has made her the most
+               prominent, as well as the most amiable, sufferer in his <pb n="5"/>drama&#8212;and,
+               in thus closely adhering to the truth of history, he pays a silent tribute to the
+               liberality of <ref target="people.html#ElizabethIQueenofEngland">Elizabeth</ref>,
+               more worth than all his warmest eulogiums.</p>
+
+            <p><ref target="people.html#CatherineofAragon">Katharine</ref>'s first speech, in that
+               excellent part of the play, her trial, is taken from history, with but trivial
+               variation; and likewise the <ref target="people.html#HenryVIIIKingofEngland"
+                  >King</ref>'s reply to it. Her dying scene, particularly her letter and message to
+               the <ref target="people.html#HenryVIIIKingofEngland">King</ref>, have also the
+               sanction of history for their most pathetic passages. Commentators have, in general,
+               preferred the latter scene to the foregoing one, in its quality of exciting
+               compassion. But, perhaps, a mild and submissive woman, such as <ref
+                  target="people.html#CatherineofAragon">Katharine</ref> is described, can never be
+               considered so much an object of pity, as when bitter provocation has impelled her to
+               assume the deportment of haughtiness, and the language of anger.</p>
+
+            <p>The selfsame words which <ref target="people.html#WolseyThomas">Wolsey</ref> spoke
+               upon his fall are here inserted, and are the lines beginning, "Had I served my
+                  God,"<note>Act III, scene ii.</note> &amp;c.&#8212;This statesman and churchman is
+               by far more respectable in his adversity, than in his prosperity&#8212;and yet, it
+               may be observed, that he merely took the road to heaven, when the path to all
+               terrestrial joys had closed upon his footsteps.</p>
+
+            <p>High as the merit of this play is, its attraction on the stage is aided by a
+               magnificent coronation of the elevated <ref target="people.html#BoleynAnne">Anne
+                  Bullen</ref>. It is melancholy, however, to reflect, upon viewing this fictitious
+               ceremony&#8212;that a few years only elapsed, after the spectacle had been in <hi
+                  rendition="#italics">reality</hi> exhibited, when the same unthinking crowd <fw
+                  type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>who resorted to
+               gaze&#8212;ran, with equal curiosity, to behold the identical object of all this
+               splendour, and their admiration&#8212;perish upon a scaffold.</p>
+
+            <p><ref target="people.html#BoleynAnne">Anne Bullen</ref>, or rather <ref
+                  target="people.html#BoleynAnne">Queen Anne</ref>, was the first crowned head who
+               suffered death by the law of England; and yet her daughter, <ref
+                  target="people.html#ElizabethIQueenofEngland">Elizabeth</ref>,&#8212;less
+               penetrated by her mother's woes, than governed by her father's cruelty,&#8212;caused
+               the second legal execution of a sovereign, in the person of her own cousin, <ref
+                  target="people.html#MaryQueenofScots">Mary, Queen of Scots</ref>.</p>
+
+            <p>Many parts of this drama, where the principal characters are not introduced, are,
+               nevertheless, highly interesting: such, in particular, is the final adieu of the <ref
+                  target="people.html#StaffordEdward">Duke of Buckingham</ref>. The prayers and good
+               wishes of him, and of all the injured persons in this play, for their common tyrant
+                  <ref target="people.html#HenryVIIIKingofEngland">Henry</ref>, are not more
+               remarkable for their charity than for their inefficacy. <ref
+                  target="people.html#HenryVIIIKingofEngland">Henry</ref>'s remaining life was
+               divided between fits of anger, remorse, despondency: and he died, after a reign of
+               thirty-seven years, hated by every Englishman,&#8212;with the rancour of a slave.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

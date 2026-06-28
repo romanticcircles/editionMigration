@@ -1,0 +1,29 @@
+
+  { "stem" : "botanist",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "botanist",
+            "weight" : "1",
+            "pos" : 12206,
+            "context" : "...(Library of Congress Name Authority)—   Physician, <mark>botanist<\/mark>, poet, and grandfather of Charles Darwin...." },
+          
+          { "form" : "botanist",
+            "weight" : "1",
+            "pos" : 21534,
+            "context" : "...as Sir John Hill, he was a notable <mark>botanist<\/mark>, writer, and journalist. Many of his..." } ] },
+      
+      { "docId" : "JewsburyLandonRev1831",
+        "docUri" : "JewsburyLandonRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "botanists",
+            "weight" : "1",
+            "pos" : 279,
+            "context" : "...performance. The wisest of men and best of <mark>botanists<\/mark> was puzzled—but, observing a bee outside one of...",
+            "fid" : "para13" } ] } ] }

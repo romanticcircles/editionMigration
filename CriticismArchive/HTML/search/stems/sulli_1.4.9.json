@@ -1,0 +1,48 @@
+
+  { "stem" : "sulli",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sully",
+            "weight" : "1",
+            "pos" : 27038,
+            "context" : "...including Memoirs of Maximilian de Bethune, Duke of <mark>Sully<\/mark> (1751), Voltaire's The Age of Louis...",
+            "fid" : "ref1563" },
+          
+          { "form" : "Sully",
+            "weight" : "1",
+            "pos" : 42565,
+            "context" : "...from 82 to 80 BCE. [MW]  <mark>Sully<\/mark>, Maximilien de Béthune, duc de, 1559-...",
+            "fid" : "DukeofSully" } ] },
+      
+      { "docId" : "BarbLennoxBritNov1810",
+        "docUri" : "BarbLennoxBritNov1810.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sully",
+            "weight" : "1",
+            "pos" : 28,
+            "context" : "...performed a useful service to English literature by translating <mark>Sully<\/mark>'s Memoirs, as also Brumoy's Greek Theatre...",
+            "fid" : "ref5" },
+          
+          { "form" : "Sully",
+            "weight" : "1",
+            "pos" : 526,
+            "context" : "..., Memoirs of Maximilian de Bethune, Duke of <mark>Sully<\/mark> in 1751, while her translation of Brumoy's...",
+            "fid" : "ref7" } ] },
+      
+      { "docId" : "InchbaldVol3Rem4MeasureforMeasure1808",
+        "docUri" : "InchbaldVol3Rem4MeasureforMeasure1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sullied",
+            "weight" : "1",
+            "pos" : 303,
+            "context" : "...as if Johnson's pure mind had been somewhat <mark>sullied<\/mark> by having merely read them.",
+            "fid" : "para21" } ] } ] }

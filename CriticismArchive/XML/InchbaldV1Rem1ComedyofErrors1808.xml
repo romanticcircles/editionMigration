@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks [on The Comedy of Errors]</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldV1Rem1ComedyofErrors1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Comedy of Errors]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Comedy of Errors</title>
+                  <title type="sub">in Five Acts; By William Shakspeare. As Performed at the Theatre
+                     Royal, Covent Garden. Printed under the Authority of the Managers from the
+                     Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. I. Comedy of Errors. Romeo and Juiiet. Hamlet.
+                     King John. King Richard III.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="7">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240825" n="6">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>changed header</item>
+            </list>
+         </change>
+         <change who="#MW" when="20220220" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised header</item>
+            </list>
+         </change>
+         <change who="#MW" when="20221020" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised header and title page</item>
+            </list>
+         </change>
+         <change who="#MW" when="20220120" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20210701" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Comedy of Errors</title></hi>].<hi rendition="#sup">
+                        <note>&quot;Remarks.&quot; <hi rendition="#italics"><title><title>The Comedy
+                                    of Errors</title>; In Five Acts; By <ref
+                                    target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatre Royal, Covent Garden.
+                                 Printed Under the Authority of the Managers From the Prompt Book.
+                                 With Remarks by <ref target="people.html#InchbaldMrs">Mrs.
+                                    Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees,
+                           and Orme, Paternoster Row. pp. 3-6. <hi rendition="#italics"><title
+                                 level="m">The British Theatre; or, A Collection of Plays, Which Are
+                                 Acted At the Theatres Royal, Drury Lane, Covent Garden, and
+                                 Haymarket. Printed Under the Authority of the Managers from the
+                                 Prompt Books. With Biographical and Critical Remarks, by <ref
+                                    target="people.html#InchbaldMrs">Mrs.
+                              Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. I. <hi
+                              rendition="#italics"><title>Comedy of Errors</title></hi>. <hi
+                              rendition="#italics"><title>Romeo and Juliet</title></hi>. <hi
+                              rendition="#italics"><title>Hamlet</title></hi>. <hi
+                              rendition="#italics"><title>King John</title></hi>. <hi
+                              rendition="#italics"><title>King Richard III</title></hi>. London:
+                           Printed for Longman, Hurst, Rees, and Orme, 1808. <hi
+                              rendition="#italics"><title>The Comedy of Errors</title></hi> was
+                           first staged in London between 1592 and 1594. Laura DeWitt and Mary A.
+                           Waters co-edited this essay for <hi rendition="#italics">The Criticism
+                              Archive</hi>.</note>
+                     </hi>
+                     <lb rendition="#center"/>______</title>
+               </bibl>
+            </head>
+            <p>This play is supposed, by some commentators, to have been among <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>&apos;s earliest
+               productions; whilst others will not allow that he had any farther share in the work,
+               than to embellish it with additional words, lines, speeches, or scenes, to gratify
+               its original author, or the manager of the theatre, who might, perhaps, place it in
+               his hands for the purpose of improvement.</p>
+
+            <p>In confirmation of this last notion, <ref target="people.html#SteevensGeorge"
+                  >Steevens</ref> has declared &quot;<title>The Comedy of Errors</title>&quot; to be
+               the composition of two very unequal writers; adding&#8212;&quot;that the entire play
+               was no work of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>&apos;s,
+               is an opinion which (as Benedick says) fire cannot melt out of me; I will die in it
+               at the stake.&quot;<hi rendition="#sup"><note place="foot"><ref
+                        target="people.html#SteevensGeorge">Steevens</ref>&apos; <hi
+                        rendition="#italics"><title>The Plays of <ref
+                              target="people.html#ShakespeareWilliam">William Shakspeare</ref>: In
+                           Fifteen Volumes. With the Corrections and Illustrations of Various
+                           Commentators</title></hi> (1793), vol. VII, p. 316. This edition is
+                     extended from <ref target="people.html#SteevensGeorge">Steevens</ref>&apos; and
+                        <ref target="people.html#JohnsonSamuel">Johnson</ref>&apos;s initial,
+                     ten-volume publication in 1773. Benedick is a character in <ref
+                        target="people.html#ShakespeareWilliam">Shakespeare</ref>&apos;s <hi
+                        rendition="#italics"><title>Much Ado About Nothing</title></hi>; <ref
+                        target="people.html#SteevensGeorge">Steevens</ref> quotes Act I, scene
+                     i.</note></hi></p>
+
+            <p>As it is thus partly decided that the work is not wholly <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>&apos;s, full liberty may
+               be taken to find fault with it.</p>
+
+            <p>Of all improbable stories, this is the most so. The Ghost in
+                  &quot;<title>Hamlet</title>,&quot; Witches in &quot;<title>Macbeth</title>,&quot;
+               and Monster in &quot;<title>The Tempest</title>,&quot; seem all like events in
+                  <lb/><fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+               <pb n="4"/>the common course of nature, when compared to those which take place in
+               this drama. Its fable verges on impossibility, but the incidents which arise from it
+               could never have occurred.</p>
+
+            <p>Granting that the two Antipholises and the two Dromios<hi rendition="#sup"><note
+                     place="foot">The main characters in <hi rendition="#italics"><title>Comedy of
+                           Errors</title></hi>, around whom the chaos of the story unfolds. Egeon,
+                     the father of the Antipholus twins, purchases the infant Dromio twins as slaves
+                     from their impoverished mother. The pairs of twins are separated in a
+                     shipwreck, Egeon rescuing one son and one slave, and his wife, Emilia, rescuing
+                     the other two. Egeon and Emilia are rescued by different boats, neither aware
+                     that the other survived. Egeon&apos;s boat takes him and the two children he
+                     rescued to Syracuse, while Emilia&apos;s boat is destined for Ephesus. The
+                     separated twins are raised in the respective cities for twenty-five years,
+                     until Antipholus and Dromio of Syracuse come to Ephesus in search of their
+                     long-lost twin brothers.</note></hi> were as like, as twins often are, would
+               their clothes, even the fashion of their habits, have been so exactly alike, that
+               mistakes could have been carried to such extremities? Nay, one brother comes
+               purposely to Ephesus, in search of his twin brother, his own perfect resemblance, and
+               yet, when every accident he encounters tells him directly&#8212;that his brother
+               being resident in that very place is the cause of them all, this is an inference he
+               never once draws, but rather chuses to believe the people of the town are all mad,
+               than that the person whom he hoped to find there, is actually one of its
+               inhabitants.</p>
+
+            <p>But it is not so much for the impossibilities contained in this comedy, as on account
+               of its rhyme, and, as <ref target="people.html#BlackstoneWilliam">Blackstone</ref>
+               has termed them, &quot;long hobbling verses,&quot;<hi rendition="#sup"><note>From
+                        <ref target="people.html#SteevensGeorge">Steevens</ref>&apos; <hi
+                        rendition="#italics"><title>The Plays of <ref
+                              target="people.html#ShakespeareWilliam">William Shakspeare</ref>: In
+                           Fifteen Volumes. With the Corrections and Illustrations of Various
+                           Commentators</title></hi> (1793), vol. VII, p. 208.</note></hi> which
+               makes it suspected of bearing the great poet&apos;s name without due cause.</p>
+
+            <p>Whether <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> wrote the
+               doggerel speeches of the twin attendants, and other inferior passages, must still
+               remain in some doubt; but that he was the author of &#198;geon&apos;s narrative at
+               the beginning of the play, and the entire character of the Abbess &#198;milia, can be
+               little mistrusted; though not even in these parts are there any very powerful marks
+               of his genius.</p>
+
+            <pb n="5"/>
+            <p>This drama was scarcely known on the stage for the last century, till <ref
+                  target="people.html#HullThomas">Mr. Hull</ref>, in 1779, then deputy manager of
+               Covent Garden theatre, curtailed, and made other judicious alterations and
+               arrangements, by which it was rendered attractive for some nights, and afterwards
+               placed upon the list of plays that are generally performed during every season.</p>
+
+            <p>In representing the pair of twin brothers on the stage, their dress is the chief part
+               of their likeness one to the other. Thus, representation gives an additional
+               improbability; yet it is necessary that the audience should not see with the supposed
+               eyes of the persons of the drama, for, unless the audience could distinguish one
+               brother from another, which their companions on the stage pretend not to do, the
+               audience themselves would be dupes to the similarity of appearance, instead of
+               laughing at the dupes engaged in the scene.</p>
+
+            <p>In most of the old comedies, there is seemingly a great deal of humour designed in
+               the beating of servants:&#8212;this is a resource for mirth, of which modern authors
+               are deprived, because the custom is abolished, except in the West Indies; and, even
+               there, not considered of humorous tendency. As far as the usage was ever known to
+               produce comic effect, this play may boast of being comical.</p>
+
+            <p>It is suggested by a critic, that the following lines, being a translation from <ref
+                  target="people.html#Plautus">Plautus</ref>, in 1595, might have given <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> the general plan upon
+               which he founded this drama. <lb/><fw type="sig"><hi rendition="#smcaps">b
+                  3</hi></fw><pb n="6"/>
+               <quote><lg type="stanza">
+                     <l>Two twinne borne sonnes a Sicell merchant had,</l>
+                     <l rendition="#indent1">Menechmus one, and Sosicles the other;</l>
+                     <l>The first his father lost, a little lad;</l>
+                     <l rendition="#indent1">The grandsire named the latter like his brother:</l>
+                     <l>This (growne a man) long travell took to seeke</l>
+                     <l rendition="#indent1">His brother, and to Epidamnum came,</l>
+                     <l>Where th&apos; other dwelt inricht, and him so like,</l>
+                     <l rendition="#indent1">That citizens there take him for the same:</l>
+                     <l>Father, wife, neighbours, each mistaking either,</l>
+                     <l>Much pleasant error, ere they meet togither.<hi rendition="#sup"><note><ref
+                                 target="people.html#WarnerWilliam">William Warner</ref>&apos;s 1595
+                              translation of <ref target="people.html#Plautus">Plautus</ref>&apos;
+                                 <hi rendition="#italics"><title>Menaechmi</title></hi>. This
+                              excerpt serves as the argument preceding the first scene of the
+                              comedy.</note></hi></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

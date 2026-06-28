@@ -1,0 +1,40 @@
+
+  { "stem" : "worker",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "workers",
+            "weight" : "1",
+            "pos" : 11671,
+            "context" : "...Christian patron saint of shoemakers, glovemakers, lace <mark>workers<\/mark>, and leather workers, beheaded on the 25th..." },
+          
+          { "form" : "workers",
+            "weight" : "1",
+            "pos" : 11673,
+            "context" : "...shoemakers, glovemakers, lace workers, and leather <mark>workers<\/mark>, beheaded on the 25th of October by Roman..." } ] },
+      
+      { "docId" : "ShelleyModItRomII1838",
+        "docUri" : "ShelleyModItRomII1838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "workers",
+            "weight" : "1",
+            "pos" : 3437,
+            "context" : "...creating a confusion in the language of the construction <mark>workers<\/mark> which prevented them from understanding each other, and the...",
+            "fid" : "note8" } ] },
+      
+      { "docId" : "ShelleyModItRom1838corpus",
+        "docUri" : "ShelleyModItRom1838corpus.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "workers",
+            "weight" : "1",
+            "pos" : 8157,
+            "context" : "...creating a confusion in the language of the construction <mark>workers<\/mark> which prevented them from understanding each other, and the...",
+            "fid" : "18" } ] } ] }

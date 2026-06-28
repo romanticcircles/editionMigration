@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Mrs. Inchbald</title>
+            <title type="sub">The British Novelists</title>
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance</resp>
+               <name xml:id="RD">Rachel Dejmal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>BarbInchbaldBritNov1810</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Mrs. Inchbald</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The British Novelists</title>
+                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
+                  <editor role="editor">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>F.C. and J. Rivington</publisher>
+                     <date when="1810">1810</date>
+                     <biblScope unit="vol">XXVIII</biblScope>
+                     <biblScope unit="pages">i-iv</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241108">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>corrected minor errors in encoding and editing</item>
+            </list>
+         </change>
+         <change who="#GR" when="20230630">
+            <label>Changed by</label>
+            <name>Gabrielle Ramirez</name>
+            <list type="simple">
+               <item>encoding corrections</item>
+            </list>
+         </change>
+         <change who="#MW" when="20230302">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>changed catRef</item>
+            </list>
+         </change>
+         <change who="#LM" when="20230227">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>new header</item>
+            </list>
+         </change>
+         <change who="#GR" when="20230111">
+            <label>Changed by</label>
+            <name>Gabrielle Ramirez</name>
+            <list type="simple">
+               <item>revised keywords</item>
+            </list>
+         </change>
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
+         <change who="#MW" when="2019-12-16">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>changed file name</item>
+               <item>minor TEI encoding revision</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-08-15">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Encoding Revision</item>
+            </list>
+         </change>
+         <change who="#RD" when="2016-08-15">
+            <label>Changed by</label>
+            <name>Rachel Dejmal</name>
+            <list type="simple">
+               <item>Encoding Revision</item>
+            </list>
+         </change>
+         <change who="#MW" when="2013-06-21">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="2013-06-21">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <ref target="people.html#BarbauldMrs">
+                        <name>Anna Letitia Barbauld</name>
+                     </ref>
+                  </author>
+                  <title type="main" level="a">
+                     <ref target="people.html#InchbaldMrs">MRS. INCHBALD.</ref>
+                     <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref
+                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+                        and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                        Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
+                        Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
+                        Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J.
+                        Carpenter; S. Bagster; T. Booth; J. Murray; J. and J. Richardson; Black,
+                        Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+                        Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
+                        Creech, Edinburgh; and Wilson and Son, York, 1810), 28:i-iv. Mary A. Waters
+                        edited this edition for <hi rendition="#italics">The Criticism Archive</hi>.
+                     </note>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="pnoindent">
+               <hi rendition="#largest">T</hi>O readers of taste it would be superfluous to point
+               out the beauties of <ref target="people.html#InchbaldMrs">Mrs Inchbald</ref>'s
+               novels. <title>The <hi rendition="#italics">Simple Story</hi>
+               </title> has obtained the decided approbation of the best judges. There is an
+               originality both in the characters and the situations which is not often found in
+               similar productions. To call it a <hi rendition="#italics">simple story</hi> is
+               perhaps a misnomer, since the first and second parts are in fact two distinct
+               stories, connected indeed by the character of Dorriforth, which they successively
+               serve to illustrate. </p>
+            <p> Dorriforth is introduced as a Romish priest of a lofty mind, generous, and endued
+               with strong sensibilities, but having in his disposition much of sternness and
+               inflexibility. His being in priest's orders presents an apparently insurmountable
+               obstacle to his marriage; but it is got over, without violating probability, by his
+               becoming heir to a title and estate, and on that account receiving a dispensation
+               from his vows. Though slow to entertain thoughts of love, as soon as he perceives the
+               partiality of his ward, it enters his breast like a torrent when the flood-gates are
+               opened. The perplexities in which he is involved by Miss Milner's gay unthinking
+               conduct bring them to the very brink of separating for ever; and very few scenes in
+               any novel have a finer effect than the intended parting of the lovers, <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xxviii.</hi>
+               </fw>
+               <fw type="sig">a</fw>
+               <pb n="ii"/>and their sudden, immediate, unexpected marriage. </p>
+            <p> It is impossible not to sympathize with the feelings of Miss Milner, when she sees
+               the corded trunks standing in the passage; or again, when after their reconciliation
+               she sees the carriage, which was to take away her lover, drive empty from the door.
+               The character of the ward of Dorriforth is so drawn as to excite an interest such as
+               we seldom feel for more faultless characters. Young, sprightly, full of sensibility,
+               gay and thoughtless, we feel such a tenderness for her as we should for a child who
+               is playing on the brink of a precipice. The break between the first and second parts
+               of the story has a singularly fine effect. We pass over in a moment a large space of
+               years, and find every thing changed: scenes of love and conjugal happiness are
+               vanished; and for the young, gay, thoughtless, youthful beauty, we see a
+               broken-hearted penitent on her death-bed. </p>
+            <p> This sudden shifting of the scene has an effect which no continued narrative could
+               produce; an effect which even the scenes of real life could not produce; for the
+               curtain of futurity is lifted up only by degrees, and we must wait the slow
+               succession of months and years to bring about events which are here presented close
+               together. The death-bed letter of Lady Milner is very solemn, and cannot be perused
+               without tears. </p>
+            <p> Dorriforth in these latter volumes is become, from the contemplation of his
+               injuries, morose, unrelenting, and tyrannical. How far it was possible for a man to
+               resist the strong impulse of nature, and deny himself the sight of his <pb n="iii"
+               />child residing in the same house with him, the reader will determine; but the
+               situation is new and striking. </p>
+            <p> It is a particular beauty in <ref target="people.html#InchbaldMrs">Mrs.
+                  Inchbald</ref>'s compositions, that they are thrown so much into the dramatic
+               form. There is little of mere narrative, and in what there is of it, the style is
+               careless; but all the interesting parts are carried on in dialogue:—we see and hear
+               the persons themselves; we are but little led to think of the author, and it is only
+               when we have done feeling that we being to admire. </p>
+            <p> The only other novel which Mrs. <ref target="people.html#InchbaldMrs">Mrs.
+                  Inchbald</ref> has given to the public is <title>
+                  <hi rendition="#italics">Nature and Art</hi>
+               </title>. It is of a slighter texture than the former, and put together without much
+               attention to probability; the author's object being less to give a regular story,
+               than to suggest reflections on the political and moral state of society. For this
+               purpose two youths are introduced, one of whom is educated in all the ideas and
+               usages of civilized life; the other (the child of Nature) without any knowledge of or
+               regard to them. This is the frame which has been used by <ref
+                  target="people.html#DayThomas">Mr. Day</ref>
+               <note>In <hi rendition="#italics">
+                     <title>The History of Sandford and Merton</title>
+                  </hi> (1783–89), <ref target="people.html#DayThomas">Thomas Day</ref> pairs the
+                  spoiled and aristocratic Thomas Merton with the farmer's son Henry Sanford to
+                  convey his moral lessons.</note> and others for the same purpose, and naturally
+               tends to introduce remarks more lively than solid, and strictures more epigrammatic
+               than logical, on the differences between rich and poor, the regard paid to rank, and
+               such topics, on which it is easy to dilate with an appearance of reason and humanity;
+               while it requires a much profounder philosophy to suggest any alteration in the
+               social system, which would not be rather Utopian than beneficial. </p>
+            <pb n="iv"/>
+            <p> There is a beautiful stroke in this part of the work, where Henry, who, according to
+                  <ref target="people.html#RousseauJeanJacques">Rousseau</ref>'s plan, had not been
+               taught to pray till he was of an age to know what he was doing, kneels down for the
+               first time with great emotion; and on being asked if he was not afraid to speak to
+               God, says, "To be sure I trembled very much when I first knelt, but when I came to
+               the words 'Our Father who art in heaven,' they gave me courage, for I know how kind a
+               father is." </p>
+            <p> But by far the finest passage in this novel is the meeting between Hannah and her
+               seducer, when he is seated as judge upon the bench, and, without recollecting the
+               former object of his affection, pronounces sentence of death upon her. The shriek she
+               gives, and her exclamation, "Oh, not from you!" electrifies the reader, and cannot
+               but stir the coldest feelings. </p>
+            <p> Judgement and observation may sketch characters, and often put together a good
+               story; but strokes of pathos, such as the one just mentioned, or the dying-scene in
+                  <ref target="people.html#OpieAmelia">Mrs. Opie</ref>'s <title>
+                  <hi rendition="#italics">Father and Daughter</hi>
+               </title>, can only be attained by those whom nature has endowed with her choicest
+               gifts. </p>
+            <p> One cannot help wishing the author had been a little more liberal of happiness to
+               poor Henry, who sits down contented with poverty and his half-withered Rebecca. </p>
+            <p> There is another wish the public has often formed, namely, that these two
+               productions were not the <hi rendition="#italics">only</hi> novels of such a writer
+               as <ref target="people.html#InchbaldMrs">Mrs. Inchbald</ref>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

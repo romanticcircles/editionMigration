@@ -1,0 +1,40 @@
+
+  { "stem" : "censorship",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "censorship",
+            "weight" : "1",
+            "pos" : 20030,
+            "context" : "...Stage Licensing Act of 1737, which initiated the <mark>censorship<\/mark> of British drama that continued through most of the..." },
+          
+          { "form" : "censorship",
+            "weight" : "1",
+            "pos" : 45076,
+            "context" : "...granted the Lord Chamberlain's office the responsibility of theatrical <mark>censorship<\/mark>, whether by the modification or outright veto of..." } ] },
+      
+      { "docId" : "InchbaldVol7Rem4Zara1808",
+        "docUri" : "InchbaldVol7Rem4Zara1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "censorship",
+            "weight" : "1",
+            "pos" : 747,
+            "context" : "...Act of 1737 that gave the Lord Chamberlain official <mark>censorship<\/mark> over plays, the Lord Chamberlain exercised authority over...",
+            "fid" : "note6" } ] },
+      
+      { "docId" : "InchbaldVol7Rem5GustavusVasa1808",
+        "docUri" : "InchbaldVol7Rem5GustavusVasa1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "censorship",
+            "weight" : "1",
+            "pos" : 504,
+            "context" : "...the Lord Chamberlain's official duties came to include the <mark>censorship<\/mark> of theatrical performances, whether by modification or outright...",
+            "fid" : "note2" } ] } ] }

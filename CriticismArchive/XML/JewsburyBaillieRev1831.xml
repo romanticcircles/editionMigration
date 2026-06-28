@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Review of The Nature and Dignity of Christ by Joanna Baillie</title>
+            <title type="sub">from <title>
+                  <hi rendition="#italics">The Athenæum </hi>
+               </title>
+            </title>
+            <author type="writer">
+               <name>Maria Jane Jewsbury</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name>Krystal J. Iseminger</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>JewsburyBaillieRev1831</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">The Nature and Dignity of Christ. By Joanna Baillie</title>
+                  <author type="writer">Jewsbury, Maria, 1800-1833</author>
+               </analytic>
+               <monogr>
+                  <title level="j">The Athenæum Journal of Literature, Science, and the Fine
+                     Arts</title>
+                  <imprint>
+                     <date when="1831-05-28">May 28, 1831</date>
+                     <biblScope unit="issue">187</biblScope>
+                     <biblScope unit="page">337</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Baillie, Joanna, 1762-1851</item>
+                  <item>Jewsbury, Maria, 1800-1833</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f4" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241108">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>corrected minor errors in encoding and editing</item>
+            </list>
+         </change>
+         <change who="#GR" when="20230630">
+            <label>Changed by</label>
+            <name>Gabrielle Ramirez</name>
+            <list type="simple">
+               <item>encoding corrections</item>
+            </list>
+         </change>
+         <change who="#MW" when="20230302">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>changed catRef</item>
+            </list>
+         </change>
+         <change who="#LM" when="20230227">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>new header</item>
+            </list>
+         </change>
+         <change who="#GR" when="20230111">
+            <label>Changed by</label>
+            <name>Gabrielle Ramirez</name>
+            <list type="simple">
+               <item>revised keywords</item>
+            </list>
+         </change>
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#MW" when="2019-12-18">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="MW" when="20180715">
+            <name>Mary A. Waters</name>
+            <date>2018-07-15</date>
+            <list type="simple">
+               <item>revise TEI encoding</item>
+               <item>document ID change</item>
+            </list>
+         </change>
+         <change who="KI" when="20170205">
+            <name xml:id="KI"> Krystal J. Iseminger</name>
+            <date>2017-02-05</date>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="MW" when="20101201">
+            <name xml:id="MW">Mary A. Waters</name>
+            <date>2010-12-01</date>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">The Nature and Dignity of Christ.<note>Review of <hi
+                           rendition="#italics">The Nature and Dignity of Christ</hi>. By <ref
+                           target="people.html#BaillieJoanna">Joanna Baillie</ref>. London, 1831.
+                        Longman &amp; Co., <title level="j">
+                           <hi rendition="#italics">The Athenæum Journal of Literature, Science, and
+                              the Fine Arts</hi>
+                        </title> no. 187 (Saturday, 28 May 1831): 337. The article held the lead
+                        position for that weekly number. Monica Correa Fryckstedt attributes the
+                        article to <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                        in "<title>The Hidden Rill: The Life and Career of <ref
+                              target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                        </title>," <hi rendition="#italics">
+                           <title>Bulletin of the John Rylands University Library of
+                              Manchester</title>
+                        </hi> Part II, Vol. 67 1984-1984, pp. 450-473. Part I of the article
+                        appeared in Vol. 66, 1982-1984, pp. 177-203. This essay was edited for <hi
+                           rendition="#italics">The Criticism Archive</hi> by Mary A. Waters</note>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#noindent"/>
+            <p>
+               <ref target="people.html#BaillieJoanna">J<hi rendition="#smcaps">oanna</hi> B<hi
+                     rendition="#smcaps">aillie</hi>
+               </ref> holds that rank amongst our elder modern authors, and her poetry is so
+               connected with that re-awakening of our literature which took place about the
+               commencement of the present century, that whatever she writes, however slight, or
+               however unequal to the works which made her fame, has a peculiar claim to respectful
+               attention. Of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>'s
+               intellectual strength, of her profound knowledge of the workings of passion, rendered
+               more extraordinary by the placidity with which she herself delineates them—of <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref>'s genius and language,
+               which are both so essentially old-English, deep, sound, vigorous, unfeigned, and
+               unadulterate—we are proud to express our admiration. It would afford a subject for a
+               long and not uninteresting article to point out the striking difference in the mind
+               and writings of the literary women of thirty and forty years ago, and the literary
+               women of the present time: those who have not perused their writings in connexion,
+               will hardly believe how great is the difference;—what a commentary the perusal
+               affords on the entire change that has obtained in habits, manners, feelings,
+               education, tastes, and life! Amongst the elders—with <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> at their head, as regards
+               mind—the distinguishing features are nerve, simplicity, vigour, continuity,
+               unambitious earnestness, and good English. We find also elaborate and
+               skilfully-developed plots. Amongst our distinguished women of later date, we find
+               accomplishment, grace, brilliancy, sentiment, scenery poetically sketched, and
+               character acutely handled; talent in all shapes and ways, but not so much that can
+               claim the name of genius. There is nothing of what we have called continuity. Writing
+               little but detached tales or novels, which, however clever are only volumes of
+               episodes, separate scenes, and striking characters, most of them unconnected with the
+               main business of the book—it is as <hi rendition="#italics">sketchers</hi>, whether
+               for vivacity or pathos, nature or art; as <hi rendition="#italics">sketchers</hi>,
+               whether of the country, the town, or the heart, of life or of manners, that our
+               gifted women are now chiefly distinguished. In the female poetry too of the present
+               day, fascinating tenderness, brilliancy of fancy, and beauty of feeling, stand in the
+               place of sustained loftiness of imagination, and compact artist-like diction. Our
+               elder literary women were, in the spirit of their intellect, more essentially
+               masculine; our younger ones are integrally feminine—women of fashionable as well as
+               studious life, women generally, who not only write books but abound in elegant
+               accomplishments.</p>
+            <p>We have not, and are not likely to have at present, another <ref
+                  target="people.html#WollstonecraftMary">Mary Wolstencroft</ref> (we merely speak
+               of her as having exhibited grasp of mind), another <ref
+                  target="people.html#InchbaldMrs">Mrs. Inchbald</ref>, another <ref
+                  target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>—<ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> is their only
+               representative; adding, to the power of mind which they possessed, that dignified
+               play of fancy, that amplitude of calm, bold thought, and that "accomplishment of verse"<note>
+                  <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>, <title>
+                     <hi rendition="#italics">The Excursion</hi>
+                  </title>, Book First, The Wanderer 77-80.</note> which they possessed not. Modern
+               imaginative literature in England owes much to her '<title>Plays on the
+                  Passions</title>;'<note>
+                  <ref target="people.html#BaillieJoanna">Baillie</ref>'s <title>
+                     <hi rendition="#italics">Plays on the Passions</hi>
+                  </title> was published in three volumes as <title>
+                     <hi rendition="#italics">A Series of Plays in which it is Attempted to
+                        Delineate the Stronger passions of the Mind </hi>
+                  </title> (1798-1812). <title>
+                     <hi rendition="#italics">Ethewald </hi>
+                  </title> and <title>
+                     <hi rendition="#italics">Count Basil </hi>
+                  </title> (see below) are two of her plays. </note> perhaps more than to any other
+               publication except '<title>
+                  <ref target="people.html#PercyThomas">Percy</ref>'s Reliques</title>;' at all
+               events, our greatest poets, who were young when her plays appeared, have nearly all
+               borne testimony to the advantage and delight with which they perused them. With all
+               this, the name of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref> is not
+               buzzed and blazoned about as very inferior names are; her works do not attain the
+               honour of calf and gold in libraries where inferior works shine; poetical readers of
+               strong sensibility and uncultivated taste do not dote upon '<title>Basil</title>,' or
+               quote from '<title>Ethwald</title>;' and we never, by any chance, saw a line of hers
+               transcribed in an album! One or two of her Shakespearian snatches of song have been
+               set to music; but, (to quote the words of an able critic,) "The celebrity of <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> has been of a most
+               peculiar nature; her fame has had about it a peculiar purity. It has been the
+               unparticipated treasure of the world of taste and intellect."<note>William Harness,
+                  "Celebrated Female Writers: <ref target="people.html#BaillieJoanna">Joanna
+                     Baillie</ref>," <hi rendition="#italics">Blackwood's Edinburgh Magazine</hi> 16
+                  (August 1824): 165.</note> We know that with this illustrious authoress there is a
+               noble carelessness of praise, partly consequent on her years, her standing in
+               society, and her having simply written at the instigation of her own genius; obeying
+               the voice from the shrine, and not the command of the outer-court worshippers; but
+               still, we feel vexed to see women of later date, and, however gifted, every way
+               inferior to <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>, written
+               about, and likenessed, and lithographed, before <hi rendition="#smcaps">her</hi>—the
+               senior and superior of all.</p>
+            <p>These casual remarks will prove that we appreciate <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref>; we can, therefore, with
+               better grace express our regret that she has just published the little work, the name
+               of which heads this notice. It is controversial, and controversy is best left to
+               learned divines—certainly better left alone by ladies.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

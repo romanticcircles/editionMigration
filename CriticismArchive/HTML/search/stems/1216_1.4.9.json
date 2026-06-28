@@ -1,0 +1,30 @@
+
+  { "stem" : "1216",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1216",
+            "weight" : "1",
+            "pos" : 1504,
+            "context" : "..., John, King of England, 1167-<mark>1216<\/mark>. [MW]  Ascham, Roger, 1515..." },
+          
+          { "form" : "1216",
+            "weight" : "1",
+            "pos" : 23993,
+            "context" : "...]  John, King of England, 1167-<mark>1216<\/mark> (Library of Congress Name Authority)— The youngest...",
+            "fid" : "JohnKingofEngland" } ] },
+      
+      { "docId" : "BarbEnquiry1773",
+        "docUri" : "BarbEnquiry1773.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1216",
+            "weight" : "1",
+            "pos" : 2201,
+            "context" : "...uncle John, King of England (1167-<mark>1216<\/mark>), who therefore had the young duke imprisoned....",
+            "fid" : "note6" } ] } ] }

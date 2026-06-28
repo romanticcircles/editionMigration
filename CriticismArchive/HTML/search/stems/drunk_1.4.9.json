@@ -1,0 +1,31 @@
+
+  { "stem" : "drunk",
+    "instances" : 
+    [ 
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "drunk",
+            "weight" : "1",
+            "pos" : 358,
+            "context" : "...for some more horrid time, \"when he is <mark>drunk<\/mark>, asleep, or in his rage,\"5...",
+            "fid" : "para22" },
+          
+          { "form" : "'drunk",
+            "weight" : "1",
+            "pos" : 1205,
+            "context" : "...mind's eye is so dull and blinded, so <mark>'drunk<\/mark>-asleep,' to use Hamlet's words,...",
+            "fid" : "para52" } ] },
+      
+      { "docId" : "LandonBulwer1831",
+        "docUri" : "LandonBulwer1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "drunk",
+            "weight" : "1",
+            "pos" : 3064,
+            "context" : "...the shame of inebriety, they made their slaves <mark>drunk<\/mark>. It is not enough to denounce a vice...",
+            "fid" : "para25" } ] } ] }

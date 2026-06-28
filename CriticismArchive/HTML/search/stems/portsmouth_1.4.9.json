@@ -1,0 +1,30 @@
+
+  { "stem" : "portsmouth",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Portsmouth",
+            "weight" : "1",
+            "pos" : 25314,
+            "context" : "..., actor, and writer. [LD] <mark>Portsmouth<\/mark> and Aubigny, Louise-Renée de Kéroualle,...",
+            "fid" : "KeroualleLouise" },
+          
+          { "form" : "Portsmouth",
+            "weight" : "1",
+            "pos" : 25328,
+            "context" : "...(Library of Congress Name Authority)— Duchess of <mark>Portsmouth<\/mark> in England and Duchesse d'Aubigny in the peerage of..." } ] },
+      
+      { "docId" : "InchbaldVol12Rem2VenicePreserved1808",
+        "docUri" : "InchbaldVol12Rem2VenicePreserved1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Portsmouth",
+            "weight" : "1",
+            "pos" : 264,
+            "context" : "...Dedication of this very tragedy to the Duchess of <mark>Portsmouth<\/mark> (one of King Charles's mistresses), wherein...",
+            "fid" : "ref37" } ] } ] }

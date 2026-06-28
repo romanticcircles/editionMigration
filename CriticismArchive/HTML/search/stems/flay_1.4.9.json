@@ -1,0 +1,40 @@
+
+  { "stem" : "flay",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "flayed",
+            "weight" : "1",
+            "pos" : 2706,
+            "context" : "...describe two methods; in one, he was <mark>flayed<\/mark> alive. This version is featured in works by..." },
+          
+          { "form" : "flaying",
+            "weight" : "1",
+            "pos" : 36951,
+            "context" : "...The Martyrdom of Saint Bartholomew, depicting the saint's <mark>flaying<\/mark>. [MW] Riccoboni, Marie Jeanne de..." } ] },
+      
+      { "docId" : "BarbSmolletBritNov1810",
+        "docUri" : "BarbSmolletBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "flayed",
+            "weight" : "1",
+            "pos" : 1568,
+            "context" : "...Venus de Medicis,' replied I. He has been <mark>flayed<\/mark> alive and bedeviled, and worse used than St....",
+            "fid" : "para36" } ] },
+      
+      { "docId" : "BarbEnquiry1773",
+        "docUri" : "BarbEnquiry1773.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "flaying",
+            "weight" : "1",
+            "pos" : 583,
+            "context" : "...relish who would not look with pleasure on the <mark>flaying<\/mark> of St. Bartholomew. The following speech of Marguerité...",
+            "fid" : "para18" } ] } ] }

@@ -1,0 +1,35 @@
+
+  { "stem" : "threat",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "threat",
+            "weight" : "1",
+            "pos" : 29934,
+            "context" : "...of James I of England was beheaded as a <mark>threat<\/mark> to the throne of her distant cousin, Elizabeth..." } ] },
+      
+      { "docId" : "BarbFieldingBritNov1810",
+        "docUri" : "BarbFieldingBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "threats",
+            "weight" : "1",
+            "pos" : 3686,
+            "context" : ".... She keeps Booth in unwilling bondage by her <mark>threats<\/mark> of disclosing his infidelity to his wife. The...",
+            "fid" : "para44" } ] },
+      
+      { "docId" : "LandonFemalePortraitIFloraRose",
+        "docUri" : "LandonFemalePortraitIFloraRose.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "threat",
+            "weight" : "1",
+            "pos" : 1561,
+            "context" : "...political sympathies. Although the uprising posed a serious <mark>threat<\/mark> to the English throne, the Scottish forces were...",
+            "fid" : "note13" } ] } ] }

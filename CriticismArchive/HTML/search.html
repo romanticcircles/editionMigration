@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+    prefix="og: http://ogp.me/ns# dcterms: http://purl.org/dc/terms/ dc: http://purl.org/dc/elements/1.1/">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="search/ssSearch.css" id="ssCss" />
+
+
+        <title>Search the Criticism Archive</title>
+
+        <meta name="author" content="Mary A. Waters, Laura Mandell" />
+
+        <meta name="DC.Title" content="Search the Criticism Archive" />
+
+        <meta name="DC.Type" content="Text" />
+
+        <meta name="DC.Format" content="text/html" />
+
+        <meta property="og:title" content="Search the Criticism Archive" />
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content="https://cha.artsci.tamu.edu/CriticismArchive/search.html" />
+
+        <meta property="og:image"
+            content="https://cha.artsci.tamu.edu/CriticismArchive/images/RClogo.png" />
+        
+        <meta property="og:description" content="Literary Criticism written by 19th-c Women" />
+
+        <meta property="og:site_name" content="The Criticism Archive" />
+
+        <meta property="dc.contributor" content="Mary A. Waters" />
+
+        <meta property="dc.contributor" content="Laura Mandell" />
+
+        <meta property="dc.date" content="2026" />
+
+        <meta property="dc.publisher" content="The Poetess Archive and Romantic Circles" />
+
+        <meta property="dc.source"
+            content="https://cha.artsci.tamu.edu/CriticismArchive/search.html" />
+
+        <meta property="dc.type" content="Text" />
+
+        <meta property="dc.format" content="text/html" />
+
+        <link rel="stylesheet" href="../css/splashPara.css" />
+
+        <link rel="icon" type="image/svg" href="../images/favicon.ico" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <style>
+            html {
+                scroll-padding-top: 100px;
+            }
+            
+            body {
+                background-color: #fff;
+                background-image: url("../images/bg.png");
+                font-family: "Cormorant Garamond", serif;
+                margin: 0;
+                color: #333;
+            }
+            
+            nav {
+                position: fixed;
+                top: 0;
+                left: 20%;
+                transform: translateX(-20%);
+                background-color: #FFFFFF;
+                width: 100%;
+                height: auto;
+                min-height: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 1rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+                z-index: 1000;
+            }
+            
+            .logo {
+                height: 32px;
+                margin-right: 10px;
+                float: left;
+            }
+            
+            .masthead {
+                font-family: "Bodoni MT", Didot, serif;
+                font-weight: 550;
+                font-size: 14px;
+                margin: 0.5rem 0 0 0;
+                float: left;
+            }
+            
+            ul.navBar {
+                display: flex;
+                list-style: none;
+                gap: 1.5rem;
+                margin: 0.5rem 13% 0 0;
+                padding: 0;
+            }
+            
+            ul.navBar li {
+                font-family: "Bodoni MT", Didot, serif;
+                font-variant: small-caps;
+                font-size: 110%;
+                font-weight: bold;
+            }
+            
+            nav a {
+                white-space: nowrap;
+                color: #507899;
+                text-decoration: none;
+            }
+            
+            nav a:hover {
+                color: #80a5c2;
+                text-decoration: underline;
+            }
+            
+            nav a:visited {
+                color: #383175;
+                text-decoration: none;
+            }
+            
+            main.search-main {
+                background-color: #FFFFFF;
+                width: 60rem;
+                margin-left: 4%;
+                margin-top: 6rem;
+                padding: 2rem 4rem;
+                box-sizing: border-box;
+            }
+            
+            h2 {
+                margin-left: 2rem;
+                margin-top: 4%;
+                font-family: "Bodoni MT", Didot, serif;
+            }
+            
+            h3 {
+                font-size: 18px;
+            }
+            
+            #staticSearch {
+                padding: 1rem 0;
+            }
+            
+            .ssQueryAndButton {
+                display: flex;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            #ssQuery {
+                padding: 0.6rem;
+                font-size: 1rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                flex-grow: 1;
+                max-width: 30rem;
+            }
+            
+            #ssDoSearch,
+            #ssDoSearch2,
+            #ssClear,
+            #reload {
+                padding: 0.55rem 1.1rem;
+                background-color: #507899;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            
+            #ssDoSearch:hover,
+            #ssDoSearch2:hover,
+            #ssClear:hover {
+                background-color: #80a5c2;
+            }
+            
+            .clearButton {
+                display: inline-block;
+                margin-left: 0.5rem;
+            }
+            
+            .clearButton button {
+                background-color: #d9534f;
+            }
+            
+            .clearButton button:hover {
+                background-color: #c9302c;
+            }
+            
+            .search-help {
+                margin: 1.2rem 0 2rem;
+                font-size: 0.95rem;
+                color: #555;
+                line-height: 1.4;
+            }
+            
+            .ssFeatFilters {
+                display: flex;
+                gap: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .ssFeatFilters fieldset,
+            .ssDateFilters fieldset {
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 1.2rem;
+                flex: 1;
+                background: #fdfdfd;
+            }
+            
+            .ssFeatFilters legend,
+            .ssDateFilters legend {
+                font-weight: bold;
+                color: #383175;
+                padding: 0 0.5rem;
+            }
+            
+            .ssFeatFilters input {
+                width: 92%;
+                padding: 0.45rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            
+            .ssDateFilters {
+                margin-bottom: 1.5rem;
+            }
+            
+            .ssDateFilters span {
+                margin-right: 1.5rem;
+            }
+            
+            .ssDateFilters input {
+                padding: 0.4rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: 130px;
+            }
+            
+            .postFilterSearchBtn {
+                margin-top: 1rem;
+                display: block;
+            }
+            
+            #ssSearching,
+            #ssSplashMessage {
+                padding: 1rem;
+                font-style: italic;
+                color: #777;
+            }
+            
+            #moreSearchInfo {
+                margin-top: 2rem;
+                background-color: #fafafa;
+                padding: 1.5rem;
+                border: 1px solid #eee;
+                border-radius: 8px;
+            }
+            
+            #moreSearchInfo h3 {
+                margin-top: 0;
+                color: #383175;
+            }
+            
+            #moreSearchInfo ul {
+                line-height: 1.7;
+                padding-left: 1.2rem;
+            }
+            
+            #ssPoweredBy {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                margin-top: 2.5rem;
+                font-size: 0.85rem;
+                color: #555;
+            }
+            ul.subContents {
+                list-style-type: none;
+                margin-left: 2rem;
+                padding: 5px 10px;
+                column-count: 2;
+                column-gap: 2rem;
+            }
+            
+            ul.subContents li {
+                break-inside: avoid;
+                margin-bottom: 0.5rem;
+                text-indent: 0;
+            }
+            
+            .noteSpace {
+                height: 20em;
+            }
+            
+            @media (max-width : 768px) {
+                .masthead {
+                    display: none;
+                }
+            
+                nav {
+                    width: 95%;
+                    padding: 0 0.5rem;
+                }
+            
+                ul.navBar {
+                    gap: 0.8rem;
+                }
+            
+                main.search-main {
+                    width: 100%;
+                    margin-left: 0;
+                    padding: 1rem;
+                }
+            
+                .ssFeatFilters {
+                    flex-direction: column;
+                }
+            }
+a, a:visited {
+    color: #1A4B75;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover, a:visited:hover {
+    color: #181433;
+    text-decoration: underline;
+}
+.search {
+                            position: absolute;
+                            top: 5rem;
+                            right: 12%;
+                            height: 80px;
+                            width: 80px;}
+        
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo-section">
+                <a href="https://romantic-circles.org/" target="_blank"><img class="logo" src="../images/RClogo.png" alt="Romantic Circles ogo"/></a>
+
+                <p class="masthead">The Criticism Archive, ed. Mary A. Waters</p>
+            </div>
+            <ul class="navBar">
+
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+
+                <li>
+                    <a href="../about.html">About</a></li>
+
+                <li>
+                    <a href="../works.html">Works</a>
+                </li>
+                <li><a href="../authors/index.html">Authors</a></li>
+                <li><span class="here">Search</span>
+                </li>
+            </ul>
+        </nav>
+        <main style="width: 75%; margin-left: 3%; margin-top: 3%;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 490 490" class="search">
+                <path fill="none" stroke="#000" stroke-width="36" stroke-linecap="round"
+                    d="m280,278a153,153 0 1,0-2,2l170,170m-91-117 110,110-26,26-110-110"/>
+            </svg>
+            <h2 style="margin-top: 4%;">Search the Criticism Archive</h2>
+            <div id="staticSearch">
+                <script src="search/ssSearch.js"></script>
+                <!--
+              Note that if you want to debug a problem with the JavaScript, you can
+              change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
+              unminified code instead.
+            -->
+                <script src="search/ssInitialize.js"></script>
+                <noscript><p>This page requires JavaScript.</p></noscript>
+                <form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes"
+                    data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no"
+                    data-maxkwicstoshow="10" data-resultsperpage="0" onsubmit="return false;"
+                    data-versionstring="_1.4.9" data-ssfolder="search" data-kwictruncatestring="..."
+                    data-resultslimit="2000">
+                    <div style="display: flex; justify-content: space-between;">
+                        <p style="display: block; flex-grow: 5; flex-shrink: 1;"><span
+                                class="ssQueryAndButton"><input type="text" id="ssQuery"
+                                    aria-label="Search" />
+                                <button id="ssDoSearch">Search</button></span>
+                            <span title="moreSearchOptions" style="padding-bottom: 0.5rem;">Or browse by author in <a href="../authors/index.html" style="font-weight: 600; color: #507899;">Authors</a></span><br/>
+                            <span class="clearButton"><button id="ssClear">Clear</button></span>
+                        </p>
+                        <p
+                            style="display: block; font-style: italics; font-size: 95%; border: 1px solid #383175; padding: 3px; flex-grow: 1; flex-shrink: 1; flex-basis: 14rem;"
+                            >You can search The Criticism Archive using parts of words, exact
+                            phrases (in quotation marks), and * (the wildcard symbol). <a
+                                href="#moreSearchInfo">More information</a></p>
+                    </div>
+                    <div class="ssFeatFilters" style="margin-bottom: 0;">
+                        <fieldset class="ssFieldset" title="Title" id="ssFeat1">
+                            <legend>Title</legend><input type="text" title="Title"
+                                placeholder="Start typing..."
+                                class="staticSearch.feat staticSearch_feat" />
+                            <span title="moreSearchOptions"
+                                style="background-color: white; border: none; margin-bottom: 1rem;"
+                                >Or browse titles by author in <a href="../works.html"
+                                    style="font-weight: 600; color: #507899;">Works</a>.</span>
+                        </fieldset>
+                        <fieldset class="ssFieldset" title="People mentioned" id="ssFeat2">
+                            <legend>People mentioned</legend><input type="text"
+                                title="People mentioned" placeholder="Start typing..."
+                                class="staticSearch.feat staticSearch_feat" />
+                            <span title="moreSearchOptions"
+                                style="background-color: white; border: none; margin-bottom: 1rem;"
+                                >Browse an alphabetical list in <a href="people.html"
+                                    style="font-weight: 600; color: #507899;">Biography and
+                                    Identification Glosses</a>.</span>
+                        </fieldset>
+                    </div>
+                    <div class="ssDateFilters" style="margin-top: 1rem;">
+                        <fieldset class="ssFieldset" title="Date of publication" id="ssDate1">
+                            <legend>Date of publication</legend><span><label for="ssDate1_from"
+                                    >From: </label><input type="text" maxlength="10"
+                                    pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"
+                                    title="Date of publication" id="ssDate1_from"
+                                    class="staticSearch.date staticSearch_date" placeholder="1773"
+                                    onchange="this.reportValidity()" /></span><span><label
+                                    for="ssDate1_to">To: </label><input type="text" maxlength="10"
+                                    pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"
+                                    title="Date of publication" id="ssDate1_to"
+                                    class="staticSearch.date staticSearch_date"
+                                    placeholder="1838-12" onchange="this.reportValidity()"
+                             /></span></fieldset>
+                    </div><span class="postFilterSearchBtn"><button id="ssDoSearch2"
+                            >Search</button>&#160;&#160;&#160;&#160;<button id="reload" onclick="window.location.href = window.location.pathname">Clear All</button></span>
+                </form>
+                <div id="ssSearching">Searching...</div>
+                <div id="ssSplashMessage">Loading...</div>
+                <div id="ssResults"></div>
+                <div id="moreSearchInfo">
+                    <h3>More information about searching:</h3>
+                    <ul>
+                        <li>This engine created by <a href="https://endings.uvic.ca/index.html"
+                                target="_blank">the Endings Project</a> performs a stemming of terms
+                            (so searching for ‘wait’ will also retrieve ‘waiting’, ‘waits’, ‘waited’
+                            etc.).</li>
+                        <li>You can use Boolean search operators. Adding + (plus) before a word
+                            means that search results must contain that word, and adding a - (minus)
+                            means that results must not contain that word. Words without plus or
+                            minus are treated as "may contain," contributing to the relevance score
+                            and thus ordering in order of importance the list of retrieved
+                            documents.</li>
+                        <li>You can conduct phrasal searches. Any quoted phrase will be searched
+                            as-is, and when quoted phrases are included in a search, any hit
+                            document must contain at least one of the phrases sought.</li>
+                        <li>You can launch wildcard searches, using the asterisk (*), question mark
+                            (?) and character classes ([ab]). So you can search for lo[uv]e? to find
+                            ‘loved’, ‘loued’, ‘loves’, ‘louer’, etc. </li>
+                    </ul>
+                </div>
+                <div id="ssPoweredBy">
+                    <p>Powered by</p>
+                    <a href="https://github.com/projectEndings/staticSearch"
+                        aria-label="Powered by staticSearch"><svg xmlns="http://www.w3.org/2000/svg"
+                            id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30"
+                            width="39">
+                            <g transform="translate(2.6856597,-0.17661868)" id="layer1">
+                                <g
+                                    style="font-style:normal;font-weight:normal;font-size:38.3821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#505050;fill-opacity:1;stroke:none;stroke-width:0.29986"
+                                    id="text835" transform="scale(0.88235593,1.1333295)"
+                                    aria-label="ʃ">
+                                    <path id="path906"
+                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:179.916px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#505050;fill-opacity:1;stroke-width:0.29986"
+                                        d="m 55.487531,144.77469 q 0,17.13068 -7.906465,26.35489 -7.818615,9.31205 -22.313801,9.31205 H 2.9534645 V 166.73709 H 23.510273 q 7.906465,0 11.859697,-5.53452 3.953233,-5.44668 3.953233,-16.42788 V 37.773868 q 0,-16.164328 7.379367,-23.807244 7.467217,-7.6429163 23.192297,-7.6429163 H 89.309631 V 19.764698 H 70.949062 q -8.697111,0 -12.123246,3.601834 -3.338285,3.513984 -3.338285,12.562494 z"
+                                    />
+                                </g>
+                                <g
+                                    style="font-style:normal;font-weight:normal;font-size:36.8315px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#505050;fill-opacity:1;stroke:none;stroke-width:0.287744"
+                                    id="text839" transform="scale(0.91950664,1.0875397)"
+                                    aria-label="tatic">
+                                    <path id="path909"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="M 114.48895,9.2723565 V 20.710201 h 13.27222 v 9.207825 h -13.27222 v 17.084831 q 0,2.805509 1.11501,3.812615 1.11501,0.971138 4.42407,0.971138 h 6.61813 v 9.207824 h -11.0422 q -7.62523,0 -10.82639,-3.165189 -3.16519,-3.201158 -3.16519,-10.826388 V 29.918026 h -6.402312 v -9.207825 h 6.402312 V 9.2723565 Z"/>
+                                    <path id="path911"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 153.69414,42.866529 q -4.02842,0 -6.0786,1.366787 -2.01421,1.366786 -2.01421,4.028423 0,2.445829 1.61856,3.848583 1.65453,1.366787 4.56794,1.366787 3.63278,0 6.11457,-2.589701 2.4818,-2.625669 2.4818,-6.546188 v -1.474691 z m 19.67453,-4.855688 V 60.994434 H 160.3842 v -5.970698 q -2.5897,3.668742 -5.82683,5.359241 -3.23712,1.654531 -7.877,1.654531 -6.25845,0 -10.17897,-3.632774 -3.88455,-3.668743 -3.88455,-9.49557 0,-7.085708 4.85569,-10.39477 4.89166,-3.309062 15.3224,-3.309062 h 7.58926 v -1.007106 q 0,-3.057286 -2.40986,-4.46004 -2.40986,-1.438723 -7.51733,-1.438723 -4.13632,0 -7.69716,0.827266 -3.56084,0.827265 -6.61813,2.481796 v -9.819282 q 4.13633,-1.007106 8.30863,-1.510659 4.17229,-0.53952 8.34459,-0.53952 10.89832,0 15.71804,4.316167 4.85569,4.2802 4.85569,13.95561 z"/>
+                                    <path id="path913"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="M 199.40955,9.2723565 V 20.710201 h 13.27222 v 9.207825 h -13.27222 v 17.084831 q 0,2.805509 1.11501,3.812615 1.11501,0.971138 4.42407,0.971138 h 6.61813 v 9.207824 h -11.0422 q -7.62523,0 -10.82639,-3.165189 -3.16519,-3.201158 -3.16519,-10.826388 V 29.918026 h -6.40231 v -9.207825 h 6.40231 V 9.2723565 Z"/>
+                                    <path id="path915"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 220.55877,20.710201 h 12.87657 v 40.284233 h -12.87657 z m 0,-15.6820762 h 12.87657 V 15.5308 h -12.87657 z"/>
+                                    <path id="path917"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 278.35946,21.969084 v 10.502675 q -2.62567,-1.798404 -5.28731,-2.661637 -2.62567,-0.863234 -5.46715,-0.863234 -5.39521,0 -8.41652,3.16519 -2.98535,3.129222 -2.98535,8.776208 0,5.646986 2.98535,8.812176 3.02131,3.129222 8.41652,3.129222 3.02132,0 5.71893,-0.899202 2.73357,-0.899202 5.03553,-2.661637 v 10.538643 q -3.02132,1.11501 -6.15054,1.654531 -3.09326,0.575489 -6.22248,0.575489 -10.89832,0 -17.04886,-5.57505 -6.15054,-5.611018 -6.15054,-15.574172 0,-9.963154 6.15054,-15.538204 6.15054,-5.611018 17.04886,-5.611018 3.16519,0 6.22248,0.575489 3.09325,0.539521 6.15054,1.654531 z"
+                                    />
+                                </g>
+                                <g
+                                    style="font-style:normal;font-weight:normal;font-size:36.8315px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#505050;fill-opacity:1;stroke:none;stroke-width:0.287744"
+                                    id="text839-4" transform="scale(0.91950666,1.0875397)"
+                                    aria-label="earch">
+                                    <path id="path920"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 101.49982,103.51761 v 3.66874 H 71.394547 q 0.467585,4.53198 3.273094,6.79797 2.805509,2.26599 7.841038,2.26599 4.064391,0 8.308623,-1.18695 4.2802,-1.22291 8.776208,-3.66874 v 9.92718 q -4.567944,1.72647 -9.135889,2.5897 -4.567944,0.89921 -9.135888,0.89921 -10.934292,0 -17.012895,-5.53909 -6.042635,-5.57505 -6.042635,-15.61014 0,-9.855247 5.934731,-15.502233 5.970699,-5.646986 16.401437,-5.646986 9.49557,0 15.178524,5.718922 5.718925,5.718922 5.718925,15.286427 z M 88.263569,99.237411 q 0,-3.668743 -2.158084,-5.898763 -2.122115,-2.265988 -5.57505,-2.265988 -3.740678,0 -6.078603,2.122116 -2.337924,2.086148 -2.913413,6.042635 z"/>
+                                    <path id="path922"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 129.30313,105.63973 q -4.02842,0 -6.0786,1.36678 -2.01421,1.36679 -2.01421,4.02843 0,2.44582 1.61856,3.84858 1.65453,1.36679 4.56795,1.36679 3.63277,0 6.11457,-2.5897 2.48179,-2.62567 2.48179,-6.54619 v -1.47469 z m 19.67454,-4.85569 v 22.98359 h -12.98448 v -5.9707 q -2.5897,3.66875 -5.82682,5.35924 -3.23713,1.65454 -7.87701,1.65454 -6.25844,0 -10.17896,-3.63278 -3.88455,-3.66874 -3.88455,-9.49557 0,-7.08571 4.85569,-10.39477 4.89165,-3.309061 15.32239,-3.309061 h 7.58926 v -1.007106 q 0,-3.057286 -2.40986,-4.46004 -2.40986,-1.438723 -7.51732,-1.438723 -4.13633,0 -7.69717,0.827266 -3.56084,0.827265 -6.61812,2.481796 V 84.56244 q 4.13633,-1.007105 8.30862,-1.510658 4.1723,-0.539521 8.34459,-0.539521 10.89833,0 15.71805,4.316168 4.85569,4.280199 4.85569,13.955611 z"/>
+                                    <path id="path924"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 190.88046,94.453658 q -1.6905,-0.791297 -3.381,-1.150978 -1.65453,-0.395648 -3.34503,-0.395648 -4.96359,0 -7.66119,3.201157 -2.66164,3.16519 -2.66164,9.099921 v 18.55952 H 160.95503 V 83.483398 h 12.87657 v 6.618124 q 2.4818,-3.956487 5.68295,-5.75489 3.23713,-1.834371 7.73314,-1.834371 0.64742,0 1.40275,0.07194 0.75533,0.03597 2.19405,0.215808 z"/>
+                                    <path id="path926"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 229.83387,84.742281 v 10.502675 q -2.62566,-1.798403 -5.2873,-2.661637 -2.62567,-0.863234 -5.46715,-0.863234 -5.39521,0 -8.41652,3.16519 -2.98535,3.129222 -2.98535,8.776205 0,5.64699 2.98535,8.81218 3.02131,3.12922 8.41652,3.12922 3.02132,0 5.71892,-0.8992 2.73358,-0.8992 5.03553,-2.66164 v 10.53865 q -3.02131,1.11501 -6.15054,1.65453 -3.09325,0.57549 -6.22247,0.57549 -10.89832,0 -17.04886,-5.57505 -6.15054,-5.61102 -6.15054,-15.57418 0,-9.963151 6.15054,-15.538201 6.15054,-5.611018 17.04886,-5.611018 3.16519,0 6.22247,0.575489 3.09326,0.539521 6.15054,1.654531 z"/>
+                                    <path id="path928"
+                                        style="font-weight:bold;font-size:73.6626px;fill:#505050;fill-opacity:1;stroke-width:0.287744"
+                                        d="m 281.44805,99.237411 v 24.530219 h -12.9485 v -3.99245 -14.71094 q 0,-5.287308 -0.25178,-7.265552 -0.2158,-1.978243 -0.79129,-2.913413 -0.75533,-1.258882 -2.05018,-1.942275 -1.29485,-0.719362 -2.94938,-0.719362 -4.02843,0 -6.33038,3.129222 -2.30196,3.093254 -2.30196,8.59637 v 19.8184 H 240.94801 V 67.801322 h 12.87657 v 21.580839 q 2.91341,-3.52487 6.18651,-5.179401 3.27309,-1.690499 7.22958,-1.690499 6.9778,0 10.57461,4.280199 3.63277,4.2802 3.63277,12.444951 z"
+                                    />
+                                </g>
+                                <path transform="matrix(1.1872613,0,0,0.3883161,603.6843,253.81112)"
+                                    d="m -371.16805,-123.26338 -87.91103,-143.55491 168.27771,-4.35573 z"
+                                    id="path1533" style="fill:#a02a2c;stroke-width:3;fill-opacity:1"
+                                />
+                            </g>
+                        </svg></a>
+                </div>
+            </div><hr/>
+            <button onclick="copyLink('https://cha.artsci.tamu.edu/CriticismArchive/HTML/search.html')" class="navy-btn">Copy Link</button>
+            <p class="noindent" style="font-size: 90%; line-height: 90%"><img src="../images/RClogo.png" alt="Romantic Circles logo" height="20" width="20"/>&#160;Laura Mandell, "Search the Criticism Archive." The Criticism Archive, published by <a href="https://romantic-circles.org" target="_blank">Romantic Circles</a>, 2026<br/>
+                <img src="../images/hyperlinkIcon.svg" alt="link icon" height="20" width="20"/>&#160;https://cha.artsci.tamu.edu/CriticismArchive/HTML/search.html</p>            
+        </main>
+        <p style="height: 10rem;">&#160;</p>
+        <script>
+            window.addEventListener('load', function() {
+                document.getElementById('ssClear').addEventListener('click', function() {
+                    Sch.clearResultsDiv();
+                    history.replaceState({}, '', window.location.pathname);
+                });
+            });
+        </script>
+        <script>
+						// Accept the link as a parameter (we will call it 'url')
+						function copyLink(url) {
+						navigator.clipboard.writeText(url)
+						.then(() => {
+						alert("Copied: " + url);
+						})
+						.catch(err => {
+						console.error("Failed to copy: ", err);
+						});
+						}
+					</script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+
+  { "stem" : "tax",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "taxes",
+            "weight" : "1",
+            "pos" : 30225,
+            "context" : "...as a corrupt figure due to his misuse of <mark>taxes<\/mark> and attempts to extend his power. [LD..." } ] },
+      
+      { "docId" : "InchbaldOnNovWriting1807",
+        "docUri" : "InchbaldOnNovWriting1807.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tax",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "...in justice, to be subject to the property <mark>tax<\/mark>; by which regulation, the national treasury,...",
+            "fid" : "para15" } ] },
+      
+      { "docId" : "IntrototheCriticismArchive",
+        "docUri" : "IntrototheCriticismArchive.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "taxing",
+            "weight" : "1",
+            "pos" : 1041,
+            "context" : "...Analytical Review allowed Wollstonecraft to escape the lonely, <mark>taxing<\/mark> positions of governess and companion and establish herself in...",
+            "fid" : "para24" } ] } ] }

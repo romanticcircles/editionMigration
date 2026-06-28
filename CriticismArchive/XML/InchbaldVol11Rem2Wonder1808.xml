@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Wonder</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol11Rem2Wonder1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Wonder]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Wonder: A Woman Keeps a Secret;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Mrs. Centlivre. As Performed at the
+                     Theatre Royal, Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Centlivre, Susanna, 1667?-1723</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240911" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Wonder</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Wonder: A Woman Keeps a Secret</title>; A
+                              Comedy, In Five Acts; By <ref target="people.html#CentlivreSusanna"
+                                 >Mrs. Centlivre</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. XI. <hi rendition="#italics">
+                           <title>Busy Body</title></hi>. <hi rendition="#italics"
+                              ><title>Wonder</title></hi>. <hi rendition="#italics"><title>Bold
+                              Stroke for a Wife</title></hi>. <hi rendition="#italics"><title>George
+                              Barnwell</title></hi>. <hi rendition="#italics"><title>Fatal
+                              Curiosity</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on April 27<hi rendition="#sup">th</hi>, 1714. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p><ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>, who wrote this
+               comedy, and of whose life a short account has been given in the remarks upon her play
+               of "<title>The Busy Body</title>," ranks in the first class of our comic dramatists:
+               for though she does not possess the repartee of <ref
+                  target="people.html#CongreveWilliam">Congreve</ref> or <ref
+                  target="people.html#WycherleyWilliam">Wycherly</ref>, and her dialogue, in
+               general, is not equal even to <ref target="people.html#FarquharGeorge"
+               >Farquhar</ref>'s, yet she discovers such happy invention in her plots, incidents,
+               and characters; such skill in conducting the intrigues of a comedy; such art in
+               exciting the curiosity, the anxiety, or the mirth of her auditors, that she foils
+               both the scholar and the wit when the comparison is limited to theatrical effect.</p>
+
+            <p><ref target="people.html#CongreveWilliam">Congreve</ref> abandoned his occupation as
+               a dramatist in violent anger, because his "<title>Way of the World</title>" appeared,
+               and was totally neglected, at the very time that a comedy by <ref
+                  target="people.html#CentlivreSusanna">Mrs. Centlivre</ref> was brought forth, and
+               attracted, for thirteen nights successively, a crowded theatre.<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> draws the notion of <ref
+                     target="people.html#CongreveWilliam">William Congreve</ref>'s jealousy of <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref> from <ref
+                     target="people.html#BakerDavid">David Erskine Baker</ref>'s <hi
+                     rendition="#italics"><title>The Companion to the Play-House</title></hi> (1764,
+                  volume II, p. unnumbered). <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref>'s <hi rendition="#italics"><title>Way of the World</title></hi>
+                  and <ref target="people.html#CentlivreSusanna">Centlivre</ref>'s <hi
+                     rendition="#italics"><title>The Perjur'd Husband: or, The Adventures of
+                        Venice</title></hi> both premiered in 1700&#8212;both plays were considered
+                  failures, with <hi rendition="#italics"><title>The Perjur'd Husband</title></hi>
+                  running only five nights and <hi rendition="#italics"><title>Way of the
+                        World</title></hi> running for seven. <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref>'s 1709 play <hi
+                     rendition="#italics"><title>The Busy Body</title></hi> ran for thirteen
+                  nights.</note></p>
+
+            <p>Merely as writers, the author of "<title>The Way of the World</title>," and the
+               authoress of "<title>The Wonder</title>," hold distinct places among the literati;
+               but as plays are productions that depend on action, and require<fw type="sig">
+                  <hi rendition="#smcaps">b 2</hi>
+               </fw><pb n="4"/> talents of a nature, in which writing has, perhaps, the smallest
+               share, <ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref> has, from the
+               time she commenced dramatic author to the present day, through all the vicissitudes
+               of taste which have, in that period, intervened, still been more attractive on the
+               stage than the great poet whom her success offended.</p>
+
+            <p>This comedy is by far her best work. In excellence of fable, strength of character,
+               and intricacy of occurrence, it forms one of the most entertaining exhibitions the
+               theatre can boast.</p>
+
+            <p><ref target="people.html#GarrickDavid">Garrick</ref> thought Don Felix<note>The plot
+                  of <hi rendition="#italics"><title>The Wonder</title></hi> revolves around two
+                  pairs of lovers, Don Felix and Violante, and Colonel Britton and Isabella. Don
+                  Felix is the son of a Portuguese nobleman, Don Lopez, and the brother of
+                  Isabella.</note> worthy his most powerful exertions, in describing the passion of
+               jealousy; and this character was upon the list with the favourite parts he
+               performed.</p>
+
+            <p>Though the scene is in Spain,<note>This comedy is set in Lisbon, the capital of
+                  Portugal.</note> and all the manners particularly adapted to that country,
+                  "<title>The Wonder</title>" shows the various passions and sensations of all
+               mankind. The very servants are objects of attention and curiosity; nor is the humour
+               they produce ever so degraded and ludicrous, as to diminish the effect of the more
+               refined comedy of the higher personages.<note>Much of the play's comedy relies on the
+                  main characters' footservants and maids: Gibby, Lissardo, Inis, and
+               Flora.</note></p>
+
+            <p>Most comic writers of the present time accomplish the tedious labour of a five act
+               drama by having recourse, alternately, to sentiment and drollery: here a long play is
+               sustained with excursions to either; and yet, its consistency in adhering to one
+               fixed point of entertainment, never creates satiety, nor shows a languor of invention
+               in the author, which for a moment leaves the expectation of the auditor<pb n="5"/>
+               unemployed, or leaves that expectation in one single instance disappointed.</p>
+
+            <p>Violante, in keeping a secret, is a heroine of the very first quality. To kill a
+               tyrant, or to kill herself, is the common furious deed of a common stage virago: but
+               for a female to hold her tongue, is a cool act of deliberate fortitude; and nothing
+               but the improbability of the occurrence, can lessen its value with the most severe
+                  critic.<note>Isabella is saved by Colonel Britton when she jumps out of a window
+                  trying to escape her imminent arranged marriage. Colonel Britton brings Isabella
+                  to Violante's house, and Violante keeps the secret of Isabella's presence
+                  throughout the play despite it endangering her relationship with Don
+               Felix.</note></p>
+
+            <p><ref target="people.html#CentlivreSusanna">Mrs. Centlivre</ref> has somewhere said,
+               that&#8212;"The muses, like most females, are least liberal to their own
+                  sex."<note>From the dedication "To His Grace <ref
+                     target="people.html#WhartonPhilip">Philip, Duke and Marquis of Wharton</ref>,
+                  &amp;c." preceding the 1718 publication of <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref>'s <hi
+                     rendition="#italics"><title>A Bold Stroke for a Wife</title></hi> (p.
+                  iv).</note> She was ungrateful if she did not acknowledge her obligations to them
+               in the composition of this work; for they presided, with no niggardly influence, over
+               the whole production.</p>
+            <fw type="sig">
+               <hi rendition="#smcaps">b 3</hi>
+            </fw>
+         </div>
+      </body>
+   </text>
+</TEI>

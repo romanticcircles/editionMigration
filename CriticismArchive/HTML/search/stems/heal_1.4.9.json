@@ -1,0 +1,40 @@
+
+  { "stem" : "heal",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "healings",
+            "weight" : "1",
+            "pos" : 3351,
+            "context" : "...— A Roman Catholic saint remembered for his miraculous <mark>healings<\/mark>, Saint Leon Bembo died in 1188. [..." },
+          
+          { "form" : "healing",
+            "weight" : "1",
+            "pos" : 33470,
+            "context" : "...many attributes, he is associated with wisdom, <mark>healing<\/mark>, poetry, frenzy, war, and death..." } ] },
+      
+      { "docId" : "BarbOnNovelWriting1804",
+        "docUri" : "BarbOnNovelWriting1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "healing",
+            "weight" : "1",
+            "pos" : 392,
+            "context" : "..., talismans, and sympathetic powders, and all-<mark>healing<\/mark> charms, were generally credited.",
+            "fid" : "para16" } ] },
+      
+      { "docId" : "BuskMMmeDudevantNovs1834",
+        "docUri" : "BuskMMmeDudevantNovs1834.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "heal",
+            "weight" : "1",
+            "pos" : 1585,
+            "context" : "...he; \"wounded me to a degree that you cannot <mark>heal<\/mark>. You can never restore my confidence in vol...",
+            "fid" : "para57" } ] } ] }

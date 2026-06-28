@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Love for Love</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol13Rem1LoveforLove1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Love for Love]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Love for Love;</title>
+                  <title type="sub">A Comedy, in Five Acts; By William Congreve, Esq. As Performed
+                     at the Theatres Royal, Covent Garden and Drury Lane. Printed under the
+                     Authority of the Managers from the Prompt Book. With Remarks by Mrs.
+                     Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Congreve, William, 1670-1729</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241104" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Love for
+                           Love</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Love for Love</title>; A Comedy, In Five Acts; By
+                                 <ref target="people.html#CongreveWilliam">William Congreve</ref>,
+                              Esq. As Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-6. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XIII. <hi
+                           rendition="#italics">
+                           <title>Love for Love</title></hi>. <hi rendition="#italics"
+                              ><title>Mourning Bride</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Muhammad"
+                           >Mahomet</ref></title></hi>. <hi rendition="#italics"><title>Tancred and
+                              Sigismunda</title></hi>. <hi rendition="#italics"><title>Suspicious
+                              Husband</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the Lincoln's Inn Fields Theatre on April 30<hi rendition="#sup">th</hi>,
+                        1695. Laura DeWitt and Mary A. Waters edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>The celebrated author of this comedy was descended from a family of such antiquity,
+               as to have their line extended beyond the Norman Conquest.<note>The Norman Conquest
+                  was the 11<hi rendition="#sup">th</hi> century invasion of England by Norman,
+                  French, Flemish, and Breton forces led by the <ref
+                     target="people.html#WilliamIKingofEngland">Duke of Normandy</ref>. <ref
+                     target="people.html#CongreveWilliam">Congreve</ref>'s paternal line was an old,
+                  staunchly Royalist family, while his mother's line was connected to the old Lewis
+                  family, consisting of wealthy traders with India and Persia. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> draws the notion of the
+                  antiquity of <ref target="people.html#CongreveWilliam">Congreve</ref>'s lineage
+                  from <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the Most Eminent English Poets; with
+                        Critical Observations on their Works</title></hi> (1781, vol. III, p. 45).
+               </note></p>
+
+            <p>It is a subject of dispute, whether <ref target="people.html#CongreveWilliam"
+                  >Congreve</ref> was born in England or Ireland;<note>Although his early
+                  biographers disputed his place of birth, a baptism entry for <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> in Yorkshire, a historical
+                  county in Northern England, confirms that he was born in England.</note> but it is
+               certain, that he received his education in the last named kingdom. His father, having
+               a commission in the army, on the Irish establishment, placed him when young at the
+               great school of Kilkenny; and afterwards in the university of Dublin, under the
+               direction of <ref target="people.html#AsheStGeorge">Dr. Ash</ref>.<note><ref
+                     target="people.html#CongreveWilliam">Congreve</ref>'s father moved the family
+                  to the seaport town of Youghal in southern Ireland in 1674 to fulfill his duties
+                  as a lieutenant in the military. In 1681, <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> was sent to Kilkenny
+                  College, a boarding secondary school located in South-East Ireland. In 1686, he
+                  entered Trinity College, Dublin, where he was awarded an honorary M.A. in
+                  1696.</note></p>
+
+            <p>Soon after the revolution young <ref target="people.html#CongreveWilliam"
+                  >Congreve</ref> was sent to England, and became a student in the Temple.<note><ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> refers to the Glorious
+                  Revolution of 1688, in which the Catholic <ref
+                     target="people.html#JamesIIKingofEngland">King James II</ref> was deposed by
+                  his daughter, the Protestant <ref target="people.html#MaryIIQueenofEngland">Mary
+                     II</ref>, and her husband, <ref target="people.html#WilliamIIIKingofEngland"
+                     >William of Orange</ref>. <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref> moved to London to study the law at Middle Temple in 1691.
+                  However, <ref target="people.html#CongreveWilliam">Congreve</ref> was less
+                  interested in the law than having an avenue into fashionable London society and
+                  prominent literary circles.</note> But instead of close application to the study
+               of the law, he wrote a novel. This production was entitled "<title>Incognita, or Love
+                  and Duty reconciled</title>;" and some of his biographers speak of it with high
+                     encomium.<note><ref target="people.html#CongreveWilliam">Congreve</ref>
+                  published his first novel, <hi rendition="#italics"><title>Incognita: or, Love and
+                        Duty reconcil'd</title></hi>, under the pseudonym Cleophil in 1692, though
+                  biographers believe he drafted the work when he was 17 years old.</note> But as
+               the work has not received the honours of preservation, the authority for eulogium may
+               be called in question.</p>
+
+            <p>The author's first drama was performed in 1692, when he was no more than twenty-one
+               years of age. The stage was the sphere in which his genius was <fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/>destined to shine, and the most
+               complete success attended his play of "<title>The Old Bachelor</title>."<note><ref
+                     target="people.html#CongreveWilliam">Congreve</ref>'s first play, <hi
+                     rendition="#italics"><title>The Old Bachelor</title></hi>, was first staged at
+                  the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on March
+                     9<hi rendition="#sup">th</hi>, 1693.</note></p>
+
+            <p>The work had been previously shown to <ref target="people.html#DrydenJohn"
+                  >Dryden</ref> and <ref target="people.html#SoutherneThomas">Southern</ref>, who
+               had both given favourable opinions of it, and prophetic of the author's fame. Yet it
+               is said to have been the mere product of some tedious weeks after a severe
+                     illness.<note><ref target="people.html#CongreveWilliam">Congreve</ref> first
+                  shared this work with the established dramatist <ref
+                     target="people.html#SoutherneThomas">Thomas Southerne</ref>, a friend of <ref
+                     target="people.html#CongreveWilliam">Congreve</ref>'s cousins and fellow
+                  graduate of Trinity College, who then passed the work along to <ref
+                     target="people.html#DrydenJohn">John Dryden</ref>. The two helped <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> polish the play, with <ref
+                     target="people.html#DrydenJohn">Dryden</ref> reordering some scenes and <ref
+                     target="people.html#SoutherneThomas">Southerne</ref> using his connections to
+                  secure its first performance at the <ref target="people.html#DruryLane">Theatre
+                     Royal, Drury Lane</ref>. The play was a success and ran for two weeks following
+                  its opening night. It is believed that <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref> wrote the play to amuse himself as he recovered from an
+                  illness.</note></p>
+
+            <p>The next year <ref target="people.html#CongreveWilliam">Congreve</ref>, elated with
+               praise, brought his "<title>Double Dealer</title>" on the stage; but with less
+               success than his former play.<note><hi rendition="#italics"><title>The Double
+                        Dealer</title></hi> was first staged at the <ref
+                     target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> in October of
+                  1693. The play was not met with the same success of <hi rendition="#italics"
+                        ><title>The Old Bachelor</title></hi>, largely due to its controversial
+                  content and experimental form.</note> Praise is the parent of security, which, too
+               frequently, gives birth to negligence. But the audience was here to blame, and not
+               the author, for they preferred the inferior drama.</p>
+
+            <p>In 1695 was produced "<title>Love for Love</title>," at a new theatre, (built in
+               Lincoln's Inn Fields) upon the very first night of its opening.<note><hi
+                     rendition="#italics"><title>Love for Love</title></hi> was the opening
+                  production for the newly refurbished Lincoln's Inn Fields Theatre on April 30<hi
+                     rendition="#sup">th</hi>, 1695.</note></p>
+
+            <p>This comedy was received with such rapturous applause, and so enriched the managers
+               by its attraction, that they made an overture to the author to give him a share in
+               the annual profits of their house, provided he would furnish them with a play
+                     annually.<note><ref target="people.html#CongreveWilliam">Congreve</ref> was
+                  made a manager of the Lincoln's Inn Fields Theatre following its production of <hi
+                     rendition="#italics"><title>Love for Love</title></hi>, and he promised to
+                  provide a new play for the theatre each year. However, he was unable to fulfill
+                  this obligation.</note></p>
+
+            <p>These conditions were agreed to, but never fulfilled on the part of <ref
+                  target="people.html#CongreveWilliam">Congreve</ref>. He valued his reputation
+               above his compact, and risked the forfeiture of the one, rather than the loss of the
+               other. <ref target="people.html#HalifaxCharlesMontagu">Lord Halifax</ref>, the <ref
+                  target="people.html#MaecenasGaius">Mæcenas</ref> of the day, in order to protect
+               the author of "<title>Love for Love</title>" from the danger, and the misery of
+               writing against his inclination for the sake of pecuniary reward, now progressively
+               bestowed on him the place of commissioner for licensing hackney-coaches; a place in
+               the pipe office; a post in the customs; and made him commissioner of wine
+                  licenses.<note>In the summer of 1695, <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref> was made commissioner for licensing of hackney-coaches, a
+                  position which afforded him a hundred pounds a year. In 1697 he became a manager
+                  of the Malt Lottery loan program, a post in Pipe Office of the English Exchequer,
+                  the country's accounting department. From 1700 to 1703, <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> served as the Customer at
+                  Poole, a seaport town in the south of England, sharing the fees with the deputy
+                  who carried out the actual duties of the position. <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> was made commissioner for
+                  wines in 1705, a position he relinquished in 1714 when he joined the customs
+                  service. These sinecure offices required little work and did not provide enough
+                  income for <ref target="people.html#CongreveWilliam">Congreve</ref> to lead a
+                  gentleman's lifestyle. However, his station improved as he became increasingly
+                  involved in Whig politics, and he was awarded the secretaryship of the island of
+                  Jamaica in the latter part of 1714.</note></p>
+            <pb n="5"/>
+            <p>All those posts and places made <ref target="people.html#CongreveWilliam"
+                  >Congreve</ref> opulent; and yet the name of that great poet seems to decline into
+               insignificance, united with the sound of such employments!</p>
+
+            <p>Were the characters in "<title>Love for Love</title>" as natural, and as edifying as
+               they are witty, it would be a perfect composition: but the conversation of many of
+               the persons of this drama is either so immoral, or so tinctured with their
+               occupations or propensities, that no such people now exist, and it is to be supposed,
+               never, at any period, existed.<note>The plot of <hi rendition="#italics"><title>Love
+                        for Love</title></hi> revolves around Valentine, a young man who has fallen
+                  into extreme debt and faces enormous pressure from his creditors. His father, Sir
+                  Sampson Legend, offers to pay his debts in exchange for Valentine signing a bond
+                  to transfer his inheritance rights to his younger brother, Ben. Having no other
+                  recourse, Valentine signs the bond; however, this interferes with his ability to
+                  woo Angelica, a lady of fortune who has yet to accept his suit. Sir Sampson has
+                  been scammed into arranging an engagement between Ben and Miss Prue, the awkward
+                  country daughter of Foresight, an illiterate old fool who claims to be an
+                  astrologer and Angelica's uncle. Realizing the consequences of the bond should
+                  this marriage take place, Valentine pretends to go mad, making him unable to sign
+                  the final conveyance to his brother. Angelica intervenes, seducing Sir Sampson to
+                  propose to her. She pretends to accept so that she may steal Valentine's bond.
+                  Despairing over the news of the engagement, Valentine proclaims that he is ready
+                  to sign the conveyance, at which point Angelica reveals her plot, destroys the
+                  bond, and declares her love for Valentine.</note></p>
+
+            <p>The presiding quality of characters may be too closely adhered to, as well as too
+               much neglected by an author. Men love, in general, to appear that, which they are
+               not&#8212;but as their peculiar tempers or callings are no doubt, at times,
+               discoverable either in their language or manners, such peculiarities, to appear
+               natural in imitation, should only be resorted to occasionally.</p>
+
+            <p>It were indeed to be wished, that wicked men, like the men in this comedy, would hold
+               discourse according to their evil natures; that the innocent and the unwary might
+               know whom to shun&#8212;but to seem virtuous, is the usual design of people devoted
+               to vice.</p>
+
+            <p>From the charge of conspicuous faults or singularities, the author has, however,
+               exempted his two sincere lovers. For though Valentine and Angelica are both somewhat
+               too gay to be good, yet compared with the company they keep, they are most
+               respectable personages.</p>
+
+            <p><ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> has so pointedly censured
+               the impro-<fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>bability of
+               a marriage contracted under a mask<note>See <ref target="people.html#JohnsonSamuel"
+                     >Samuel Johnson</ref>'s <hi rendition="#italics"><title>The Lives of the Most
+                        Eminent English Poets; with Critical Observations on their
+                     Works</title></hi> (1781, vol. III, p. 50).</note> (an incident which occurs in
+               most, if not all, of <ref target="people.html#CongreveWilliam">Congreve</ref>'s
+               plays), that any additional remark on that subject would be superfluous; and, when
+               all the imperfections of "<title>Love for Love</title>" are summed up, there still
+               remains a balance of entertainment so delectable, that it pleases at the present era
+               as it did at the past, and will continue its attractions as long as wit, or a theatre
+               shall charm.</p>
+
+            <p>Idolized as this author was for his dramatic genius, he retired from the pursuit of
+               fame to a country life, instigated by a jealousy of <ref
+                  target="people.html#CentlivreSusanna">Mrs. Centlivre</ref>'s superior influence
+               with the town as a dramatist.<note>From 1704 onward, <ref
+                     target="people.html#CongreveWilliam">Congreve</ref>'s literary output dwindled,
+                  limited to the occasional poem or translation. He opted to live off of royalties
+                  from his earlier plays and the sinecure offices he held. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> draws the notion of <ref
+                     target="people.html#CongreveWilliam">William Congreve</ref>'s jealousy of <ref
+                     target="people.html#CentlivreSusanna">Susanna Centlivre</ref> from <ref
+                     target="people.html#BakerDavid">David Erskine Baker</ref>'s <hi
+                     rendition="#italics"><title>The Companion to the Play-House</title></hi> (1764,
+                  volume II, p. unnumbered). <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref>'s <hi rendition="#italics"><title>Way of the World</title></hi>
+                  and <ref target="people.html#CentlivreSusanna">Centlivre</ref>'s <hi
+                     rendition="#italics"><title>The Perjur'd Husband: or, The Adventures of
+                        Venice</title></hi> both premiered in 1700&#8212;both plays were considered
+                  failures, with <hi rendition="#italics"><title>The Perjur'd Husband</title></hi>
+                  running only five nights and <hi rendition="#italics"><title>Way of the
+                        World</title></hi> running for seven. <ref
+                     target="people.html#CentlivreSusanna">Centlivre</ref>'s 1709 play <hi
+                     rendition="#italics"><title>The Busy Body</title></hi> ran for thirteen
+                  nights.</note>
+            </p>
+
+            <p>The last action of <ref target="people.html#CongreveWilliam">Congreve</ref>'s life
+               was more reproachable than this&#8212;he bequeathed the fortune he had accumulated,
+               to the <ref target="people.html#ChurchillHenrietta">Duchess of Marlborough</ref>,
+               leaving many of his own ancient family in disappointment and poverty.<note>It is
+                  believed that the <ref target="people.html#ChurchillHenrietta">Duchess of
+                     Marlborough</ref>'s fifth child, Mary, was the result of an affair between her
+                  and <ref target="people.html#CongreveWilliam">Congreve</ref>. <ref
+                     target="people.html#CongreveWilliam">Congreve</ref> left his entire fortune to
+                  the <ref target="people.html#ChurchillHenrietta">Duchess</ref> with her husband as
+                  the appointed executor.</note></p>
+
+            <p>This death-bed vanity and injustice was no impediment to his being buried in
+               Westminster Abbey; nor to his lying in state in the Jerusalem Chamber, previous to
+               his interment:<note><ref target="people.html#CongreveWilliam">Congreve</ref> was
+                  buried in the Poet's Corner of the famous Westminster Abbey graveyard in London.
+                  The Jerusalem Chamber is an ornately decorated room that overlooks the main west
+                  door of Westminster Abbey. <ref target="people.html#CongreveWilliam"
+                     >Congreve</ref>'s coffin laid in this room prior to his burial.</note> it
+               might, possibly, assist the grandeur of his funeral obsequies.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

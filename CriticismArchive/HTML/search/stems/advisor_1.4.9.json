@@ -1,0 +1,29 @@
+
+  { "stem" : "advisor",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "advisor",
+            "weight" : "1",
+            "pos" : 22496,
+            "context" : "...in Shakespeare's Othello, Iago is the trusted <mark>advisor<\/mark> of Othello, having fought at his side for..." },
+          
+          { "form" : "advisor",
+            "weight" : "1",
+            "pos" : 28957,
+            "context" : "...Name Authority)— Roman diplomat, friend and political <mark>advisor<\/mark> of the Roman emperor Augustus, and patron of..." } ] },
+      
+      { "docId" : "InchbaldVol15Rem1Barbarossa1808",
+        "docUri" : "InchbaldVol15Rem1Barbarossa1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "advisors",
+            "weight" : "1",
+            "pos" : 729,
+            "context" : "...was consulted by one of Catherine the Great's <mark>advisors<\/mark> regarding the scheme of education she wished to implement...",
+            "fid" : "note10" } ] } ] }

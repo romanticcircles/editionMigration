@@ -1,0 +1,30 @@
+
+  { "stem" : "weber",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Weber",
+            "weight" : "1",
+            "pos" : 44827,
+            "context" : "...German writer who often published under the pseudonym Viet <mark>Weber<\/mark>. Among other works published under that name,..." },
+          
+          { "form" : "Weber",
+            "weight" : "1",
+            "pos" : 45411,
+            "context" : "...the form for subsequent generations. [MW]  <mark>Weber<\/mark>, Viet—   Pseudonym of Leonhard Wächter. See...",
+            "fid" : "WeberViet" } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Weber",
+            "weight" : "1",
+            "pos" : 6890,
+            "context" : "...14.  The Sorcerer probably refers to Teufelsbeschwörung, by Viet <mark>Weber<\/mark>, a pseudonym of Leonhard Wächter. Back",
+            "fid" : "note14" } ] } ] }

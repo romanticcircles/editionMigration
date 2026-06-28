@@ -1,0 +1,40 @@
+
+  { "stem" : "vienna",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Vienna",
+            "weight" : "1",
+            "pos" : 34082,
+            "context" : "...to author Aaron Hill, was English ambassador to <mark>Vienna<\/mark> between 1689 and 1692, at which point he..." },
+          
+          { "form" : "Vienna",
+            "weight" : "1",
+            "pos" : 38990,
+            "context" : "...continuing over the next fourteen years in Berlin and <mark>Vienna<\/mark> spread the Romantic aesthetic throughout Europe. [MW..." } ] },
+      
+      { "docId" : "InchbaldVol3Rem4MeasureforMeasure1808",
+        "docUri" : "InchbaldVol3Rem4MeasureforMeasure1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vienna",
+            "weight" : "1",
+            "pos" : 429,
+            "context" : "3.  Duke Vincentio of <mark>Vienna<\/mark> pretends to leave on a mission, putting his...",
+            "fid" : "note3" } ] },
+      
+      { "docId" : "ShelleyCloudesely1830",
+        "docUri" : "ShelleyCloudesely1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vienna",
+            "weight" : "1",
+            "pos" : 1387,
+            "context" : "...alone in my carriage as I traversed Germany from <mark>Vienna<\/mark> to Ostend, or worse than alone, with...",
+            "fid" : "para24" } ] } ] }

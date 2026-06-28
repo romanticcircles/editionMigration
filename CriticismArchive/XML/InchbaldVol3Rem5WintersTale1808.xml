@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Winter's Tale</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol3Rem5WintersTale1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Winter's Tale]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Winter's Tale;</title>
+                  <title type="sub">A Play, in Five Acts; By William Shakspeare. As Performed at the
+                     Theatre Royal, Drury Lane. Printed under the Authority of the Managers from the
+                     Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. III. As You Like It. Merry Wives of Windsor. King
+                     Henry VIII. Measure for Measure. Winter's Tale.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">3</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240825" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240527" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Winter's Tale</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Winter's Tale</title>; A Play, In Five Acts; By
+                                 <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>,
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-6. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. III. <hi
+                           rendition="#italics"><title>As You Like It</title></hi>. <hi
+                           rendition="#italics"><title>Merry Wives of Windsor</title></hi>. <hi
+                           rendition="#italics"><title><ref
+                                 target="people.html#HenryVIIIKingofEngland">King Henry
+                              VIII</ref></title></hi>. <hi rendition="#italics"><title>Measure for
+                              Measure</title></hi>. <hi rendition="#italics"><title>Winter's
+                              Tale</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                        Globe Theatre on May 15<hi rendition="#sup">th</hi>, 1611. Laura DeWitt and
+                        Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>Although the reader of the following play may have read it frequently, he will dwell
+               upon many of its beauties with a new delight; and, if the work is wholly unknown to
+               him, or its fable, incidents, and poetry, have been but slightly impressed upon his
+               memory, he will sometimes be surprised into a degree of enthusiastic admiration!</p>
+
+            <p>The "<title>Winter's Tale</title>" was very successful at <ref
+                  target="people.html#DruryLane">Drury Lane Theatre</ref> a few years ago; and yet,
+               it seems to class among those dramas that charm more in perusal than in
+               representation. The long absence from the scene of the two most important characters,
+               Leontes and his wife,<note>Leontes, King of Sicily, and his wife, Hermione, Queen of
+                  Sicily.</note> and the introduction of various other persons to fill their places,
+               divert, in some measure, the attention of an audience; and they do not so feelingly
+               unite all they see and all they hear into a single story, as he who, with the book in
+               his hand, and neither his eye nor ear distracted, combines, and enjoys the whole
+               grand variety.</p>
+
+            <p>Besides the improbability of exciting equal interest by the <hi rendition="#italics"
+                  >plot</hi> of this drama, in performance as in the closet; some of the poetry is
+               less calculated for <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"
+               />that energetic delivery which the stage requires, than for the quiet contemplation
+               of one who reads. The conversations of Florizel and Perdita<note>Florizel is the son
+                  and heir of Polixenes, King of Bohemia, while Perdita is the daughter of Leontes
+                  and Hermione, though she is unaware of her royal lineage, as Leontes falsely
+                  believes her to be the result of an affair between Polixenes and Hermione.</note>
+               have more of the tenderness, than the fervour, of love; and consequently their
+               passion has not the force of expression to animate a multitude, though it is properly
+               adapted to steal upon the heart of an individual. </p>
+
+            <p><ref target="people.html#ShakespeareWilliam">Shakspeare</ref> has said in his tragedy
+               of <title><ref target="people.html#Othello">Othello</ref></title>, that a man is
+               "Jealous, because he is jealous."<note><hi rendition="#italics"><title><ref
+                           target="people.html#Othello">Othello</ref></title></hi> Act III, scene
+                  iv.</note> This conceit of the poet seems to be the only reason that can possibly
+               be alleged, for the jealousy of the hero of the present work; for the unfounded
+               suspicion of Leontes in respect to the fidelity of Hermione, is a much greater fault,
+               and one with which imagination can less accord, than with the hasty strides of time,
+               so much censured by critics, between the third and fourth acts of the play. It is
+               easier for fancy to over leap whole ages, than to overlook one powerful demonstration
+               of insanity in that mind which is reputed sane.</p>
+
+            <p>The mad conduct of Leontes is however the occasion of such noble, yet such humble and
+               forbearing demeanour on the part of his wife, that his phrenzy is rendered
+               interesting by the sufferings which it draws upon her: and the extravagance of the
+               first is soon forgotten, through the deep impression made by the last.</p>
+
+            <p>High as this injured queen ranks in virtue and every endearing quality, she has a
+               faithful attendant, who in that lowly capacity, reaches even the summit of her
+               majesty's perfection. Paulina,<note>A Sicilian noblewoman in fierce defense of
+                  Hermione's virtue.</note> in nature, and <pb n="5"/>the best of all nature,
+               tenderness united with spirit, has such power over the scenes in which she is engaged
+               for the protection of the new-born child, that, like the queen, she confers honour
+               and interest upon Leontes, merely by keeping such excellent company.</p>
+
+            <p>In the barbarous transaction of this jealous King of Sicilia, and in the patient
+               dignity of his queen, it has generally been supposed that the author meant to gratify
+               the reigning <ref target="people.html#ElizabethIQueenofEngland">Queen of
+                  England</ref> (<ref target="people.html#ElizabethIQueenofEngland"
+               >Elizabeth</ref>), by an allusion, which her majesty was certain to observe in this
+               conjugal mistrust, to the wronged innocence of her mother, the accused and condemned
+                  <ref target="people.html#BoleynAnne">Anne Boleyn</ref>.</p>
+
+            <p>One commentator on "<title>The Winter's Tale</title>," even traces the language of
+               the Queen of Sicilia upon her trial&#8212;the words used also in the recommendation
+               of her infant daughter to the love of her cruel father&#8212;and other sentences
+               pronounced on the same pitiable subject, to similar expressions made use of by the
+               mother of <ref target="people.html#ElizabethIQueenofEngland">Queen Elizabeth</ref>,
+               in her similar state.</p>
+
+            <p>If <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> really meant, in the
+               characters of Leontes and Hermione, to give a portrait of <ref
+                  target="people.html#HenryVIIIKingofEngland">Henry the Eighth</ref> and his second
+               unfortunate wife&#8212;and to produce such pictures as the queen on the throne should
+               admire, it was perfect good policy, rather than want of skill, to make the king
+               jealous without one apparent motive. But still, even more of a courtier than in this
+               point, did the great <ref target="people.html#ShakespeareWilliam">bard</ref> prove
+               himself, in his forming the person of the king's discarded daughter! Perdita, the
+               representative of <ref target="people.html#ElizabethIQueenofEngland">Elizabeth</ref>,
+               is here given <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>by
+               poetry, more beauty than painting could bestow: and thus the renowned <ref
+                  target="people.html#ElizabethIQueenofEngland">Queen of Great Britain</ref> is
+               assailed on the only feeble part of her understanding&#8212;that vanity, which
+               proclaimed her sex.</p>
+
+            <p>There are two occurrences in this drama, quite as improbable as the unprovoked
+               jealousy of the Sicilian king&#8212;the one, that the gentle, the amiable, the tender
+               Perdita, should be an unconcerned spectator of the doom which menaced her foster, and
+               supposed real, father; and carelessly forsake him in the midst of his calamities. The
+               other disgraceful improbability is&#8212;that the young prince Florizel should
+               introduce himself to the court of Sicilia, by speaking arrant falsehoods.</p>
+
+            <p>There is a scene in this play which is an exception to the rest, in being far more
+               grand in exhibition than the reader will possibly behold in idea. This is the scene
+               of the Statue, when <ref target="people.html#SiddonsSarah">Mrs. Siddons</ref> stands
+               for Hermione.<note>In the final scene of the play, Leontes, Polixenes, Perdita,
+                  Florizel, and Camillo go to Paulina's country house to see the newly finished
+                  statue of Hermione. Leontes is overcome with grief at the sight of the statue, at
+                  which point Paulina instructs Hermione to come down, as the oracle has been
+                  fulfilled. To the awe of her companions, Hermione comes to life (or,
+                  alternatively, had simply been living with Paulina for the last 16
+               years).</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

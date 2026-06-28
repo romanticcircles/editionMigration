@@ -1,0 +1,50 @@
+
+  { "stem" : "surnam",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "surname",
+            "weight" : "1",
+            "pos" : 10815,
+            "context" : "...the 6th and 5th centuries B.C., Coriolanus received his <mark>surname<\/mark> for his valor at the siege of Corioli (in..." },
+          
+          { "form" : "surname",
+            "weight" : "1",
+            "pos" : 40748,
+            "context" : "...Swiss historian and political economist, born under the <mark>surname<\/mark> Simonde. Sismondi is most remembered for his research..." } ] },
+      
+      { "docId" : "ShelleyModItRom1838corpus",
+        "docUri" : "ShelleyModItRom1838corpus.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "surname",
+            "weight" : "1",
+            "pos" : 4286,
+            "context" : "...a certain Giannantonio, but I cannot remember his <mark>surname<\/mark>.\"" } ] },
+      
+      { "docId" : "InchbaldVol4Rem1KingLear1808",
+        "docUri" : "InchbaldVol4Rem1KingLear1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Surnames",
+            "weight" : "1",
+            "pos" : 556,
+            "context" : "...the Inhabitants Thereof, Their Languages, Names, <mark>Surnames<\/mark>, Empreses, Wise Speeches, Poësies, and...",
+            "fid" : "note3" } ] },
+      
+      { "docId" : "ShelleyModItRomI1838",
+        "docUri" : "ShelleyModItRomI1838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "surname",
+            "weight" : "1",
+            "pos" : 4286,
+            "context" : "...a certain Giannantonio, but I cannot remember his <mark>surname<\/mark>.\"",
+            "fid" : "para49" } ] } ] }

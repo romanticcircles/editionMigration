@@ -1,0 +1,46 @@
+
+  { "stem" : "regum",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "regum",
+            "weight" : "1",
+            "pos" : 16942,
+            "context" : "...Prophetiae Merlini (The Prophesies of Merlin) and Historia <mark>regum<\/mark> Britanniae (The History of the Kings of Britain)..." },
+          
+          { "form" : "Regum",
+            "weight" : "1",
+            "pos" : 26623,
+            "context" : "...of Monmouth's twelfth-century pseudohistory, Historia <mark>Regum<\/mark> Britanniae (The History of the Kings of Britain)...." } ] },
+      
+      { "docId" : "InchbaldVol4Rem1KingLear1808",
+        "docUri" : "InchbaldVol4Rem1KingLear1808.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Regum",
+            "weight" : "1",
+            "pos" : 568,
+            "context" : "4.  From Geoffrey of Monmouth's Historia <mark>Regum<\/mark> Britanniae (The History of the Kings of Britain)...",
+            "fid" : "note4" },
+          
+          { "form" : "Regum",
+            "weight" : "1",
+            "pos" : 594,
+            "context" : "...of Monmouth's twelfth-century pseudohistory, Historia <mark>Regum<\/mark> Britanniae (The History of the Kings of Britain),...",
+            "fid" : "note5" } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "regum",
+            "weight" : "1",
+            "pos" : 6739,
+            "context" : "...Robert Wace based on Geoffrey of Monmouth's Historia <mark>regum<\/mark> Britanniae and featuring the deeds of King Arthur and...",
+            "fid" : "note5" } ] } ] }

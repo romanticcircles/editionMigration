@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Constant Couple</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol8Rem1ConstantCouple1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Constant Couple]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Constant Couple; or, a Trip to the
+                     Jubilee;</title>
+                  <title type="sub">A Comedy, in Five Acts; By George Farquhar, Esq. As Performed at
+                     the Theatres Royal, Drury Lane and Covent Garden. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VIII. Constant Couple. Inconstant. Recruiting
+                     Officer. Beaux Strategem. Cato.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">8</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Farquhar, George, 1677?-1707</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241005" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240709" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Constant Couple</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Constant Couple</title>; or, a Trip to the
+                              Jubilee; A Comedy, In Five Acts; By <ref
+                                 target="people.html#FarquharGeorge">George Farquhar</ref>, Esq. As
+                              Performed at the Theatres Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row, pp. 3-7. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. VIII. <hi rendition="#italics">
+                           <title>Constant Couple</title></hi>. <hi rendition="#italics"
+                              ><title>Inconstant</title></hi>. <hi rendition="#italics"
+                              ><title>Recruiting Officer</title></hi>. <hi rendition="#italics"
+                              ><title>Beaux Stratagem</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Cato">Cato</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808.
+                        The first performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        November 28<hi rendition="#sup">th</hi>, 1699. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p><ref target="people.html#FarquharGeorge">George Farquhar</ref>, the author of this
+               comedy, was the son of a clergyman in the north of Ireland. He was born in the year
+               1678, discovered an early taste for literature, and wrote poetic stanzas at ten years
+               of age.<note>The exact date of <ref target="people.html#FarquharGeorge">George
+                     Farquhar</ref>'s birth is unknown, but historians believe him to have been born
+                  in 1677 or 1678. <ref target="people.html#FarquharGeorge">Farquhar</ref> was born
+                  to a middle-income clergyman in Derry, Ireland. <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> is likely drawing the story of
+                     <ref target="people.html#FarquharGeorge">Farquhar</ref>'s early poetry writing
+                  from <hi rendition="#italics"><title>The Works Of the late Ingenious <ref
+                           target="people.html#FarquharGeorge">Mr. George Farquhar</ref>: Containing
+                        all his Poems, Letters, Essays, and Comedies</title></hi> (anonymously
+                  published 1772, vol. 1, p. iii). Much of the biographical information about <ref
+                     target="people.html#FarquharGeorge">Farquhar</ref> that follows appears to be
+                  drawn from that same source. </note></p>
+            <p>In 1694 he was sent to Trinity College, Dublin, and there made such progress in his
+               studies as to acquire considerable reputation.<note><ref
+                     target="people.html#FarquharGeorge">Farquhar</ref> was first educated at Foyle
+                  College and later attended Trinity College as a sizar (an undergraduate who
+                  receives an allowance in exchange for performing menial labor) under the patronage
+                  of the Bishop of Dromore, who may have been a relative of <ref
+                     target="people.html#FarquharGeorge">Farquhar</ref>'s mother. It is possible
+                  that <ref target="people.html#FarquharGeorge">Farquhar</ref> intended on entering
+                  his father's profession as a clergyman.</note> But he was volatile and
+               poor&#8212;the first misfortune led him to expense; the second, to devise means how
+               to support his extravagance.</p>
+            <p>The theatre has peculiar charms for men of letters. Whether as a subject of
+               admiration or animadversion, it is still a source of high amusement; and here <ref
+                  target="people.html#FarquharGeorge">Farquhar</ref> fixed his choice of a
+               profession, in the united expectations of pleasure and of profit&#8212;he appeared on
+               the stage as an actor, and was disappointed of both.</p>
+            <p>The author of this licentious comedy is said to have possessed the advantages of
+               person, manners, and elocution, to qualify him for an actor; but that he could never
+               overcome his natural timidity. Courage is a whimsical virtue. It acts upon one man so
+               as to<lb/>
+               <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/> make him expose his
+               whole body to danger, whilst he dares not venture into the slightest peril one
+               sentiment of his mind. Such is often the soldier's valour.&#8212;Another trembles to
+               expose his person either to a wound or to the eye of criticism, and yet will dare to
+               publish every thought that ever found entrance into his imagination. Such is often
+               the valour of a poet. </p>
+            <p><ref target="people.html#FarquharGeorge">Farquhar</ref>, abashed on exhibiting his
+               person upon the stage, sent boldly thither his most indecorous thoughts, and was
+               rewarded for his audacity.</p>
+            <p>In the year 1700 he brought out this comedy of "<title>The Constant Couple; or, A
+                  Trip to the Jubilee.</title>" It was then the Jubilee year at Rome, and the author
+               took advantage of that occurrence to render the title of his drama popular;<note>In
+                  the Catholic Church, a jubilee year occurs every 25 years and marks a period of
+                  remission from debts and forgiveness of sins. Since 1700 was a jubilee year
+                  (beginning in December 1699), the late-1699 debut of <hi rendition="#italics"
+                        ><title>The Constant Couple</title></hi> made the idea timely and
+                  topical.</note> for which cause alone it must be supposed he made any thing in his
+               play refer to that festival, as no one material point is in any shape connected with
+               it.</p>
+            <p>At the time <ref target="people.html#FarquharGeorge">Farquhar</ref> was a performer,
+               a sincere friendship was formed between him and <ref target="people.html#WilksRobert"
+                  >Wilks</ref>, the celebrated fine gentleman of the stage&#8212;for him, <ref
+                  target="people.html#FarquharGeorge">Farquhar</ref> wrote the character of Sir
+               Harry Wildair;<note>The rakish Sir Harry Wildair is among the trio of suitors vying
+                  for Lady Lurewell's hand. However, Sir Harry falls in love with another woman
+                  after Vizard, another suitor of Lady Lurewell, deceitfully tells Sir Harry that
+                  Lady Lurewell is a prostitute.</note> and <ref target="people.html#WilksRobert"
+                  >Wilks</ref>, by the very admirable manner in which he supported the part, divided
+               with the author those honours which the first appearance of the work obtained
+               him.</p>
+            <p>As a proof that this famed actor's abilities, in the representation of the fine
+               gentlemen of his day, were not over-rated, no actor, since he quitted the stage, has
+               been wholly successful in the performance of this character; and, from <ref
+                  target="people.html#WilksRobert">Wilks</ref> down to the pre-<pb n="5"/>sent time,
+               the part has only been supported, with celebrity, by women.<note>After <ref
+                     target="people.html#WilksRobert">Robert Wilks</ref>' retirement from the role
+                  of Sir Harry Wildair, the role became a breeches role.</note></p>
+            <p>The noted <ref target="people.html#WoffingtonMargaret">Mrs. Woffington</ref> was
+               highly extolled in Sir Harry; and <ref target="people.html#JordanDorothy">Mrs.
+                  Jordan</ref> has been no less admired and attractive.</p>
+            <p>But it must be considered as a disgrace to the memory of the men of fashion, of the
+               period in which Wildair was brought on the stage, that he has ever since been justly
+               personated, by no other than the female sex. In this particular, at least, the
+               present race of fashionable beaux cannot be said to have degenerated; for, happily,
+               they can be represented by men.</p>
+            <p>The love story of Standard and Lurewell,<note>Colonel Standard is the third suitor
+                  vying for Lady Lurewell's hand. At the end of the play, Colonel Standard and Lady
+                  Lurewell are engaged.</note> in this play, is interesting to the reader, though,
+               in action, an audience scarcely think of either of them; or of any one in the drama,
+               with whom the hero is not positively concerned. Yet these two lovers, it would seem,
+               love with all the usual ardour and constancy of gallants and mistresses in plays and
+               novels&#8212;unfortunately, with the same short memories too! Authors, and some who
+               do not generally deal in wonders, often make persons, the most tenderly attached to
+               each other, so easily forget the shape, the air, the every feature of the dear
+               beloved, as to pass, after a few years separation, whole days together, without the
+               least conjecture that each is the very object of the other's search! Whilst all this
+               surprising forgetfulness possesses them, as to the figure, face, and mind of him or
+               her whom they still adore, show either of them but a ring, a bracelet, a mole, a
+               scar, and here remembrance instantly occupies its place, and both are<lb/>
+               <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/> immediately inspired
+               with every sensation which first testified their mutual passion. Still the sober
+               critic must arraign the strength of this love with the shortness of its recollection;
+               and charge the renewal of affection for objects that no longer appear the same, to
+               fickleness rather than to constancy.</p>
+            <p>The biographers of <ref target="people.html#FarquharGeorge">Farquhar</ref>, who
+               differ in some articles concerning him, all agree that he was married, in the year
+               1704, to a lady, who was so violently in love with him, that, despairing to win him
+               by her own attractions, she contrived a vast scheme of imposition, by which she
+               allured him into wedlock, with the full conviction that he had married a woman of
+               immense fortune.<note>In 1703, <ref target="people.html#FarquharGeorge"
+                     >Farquhar</ref> married Margaret Pemell, reportedly a widow with three children
+                  who was ten years older than <ref target="people.html#FarquharGeorge"
+                     >Farquhar</ref>. This account of Pemell's deception is taken from <hi
+                     rendition="#italics"><title>The Works Of the late Ingenious <ref
+                           target="people.html#FarquharGeorge">Mr. George Farquhar</ref>: Containing
+                        all his Poems, Letters, Essays, and Comedies</title></hi> (1772, vol. 1, p.
+                  vi).</note></p>
+            <p>The same biographers all bestow the highest praise upon poor <ref
+                  target="people.html#FarquharGeorge">Farquhar</ref> for having treated this wife
+               with kindness; humanely forgiving the fault which had deprived him of that liberty he
+               was known peculiarly to prize, and reduced him to the utmost poverty, in order to
+               support her and her children.</p>
+            <p>This woman, whose pretended love was of such fatal import to its object, not long
+               enjoyed her selfish happiness&#8212;her husband's health gradually declined, and he
+               died four years after his marriage. It is related that he met death with fortitude
+               and cheerfulness. He could scarcely do otherwise, when life had become a burden to
+               him. He had, however, some objects of affection to leave behind, as appears by the
+               following letter, which he wrote a few days before his decease, and directed to his
+               friend <ref target="people.html#WilksRobert">Wilks</ref>:&#8212; <pb n="7"/>
+               <quote><hi rendition="#smcaps">Dear <ref target="people.html#WilksRobert"
+                     >Bob</ref></hi>, <lb/>I have not any thing to leave you to perpetuate my
+                  memory, except two helpless girls; look upon them sometimes, and think of him that
+                  was, to the last moment of his life, thine,<lb/>
+                  <hi rendition="#flushRight">
+                     <hi rendition="#smcaps"><ref target="people.html#FarquharGeorge">George
+                           Farquhar</ref></hi>.<note><ref target="people.html#InchbaldMrs"
+                           >Inchbald</ref> apparently consults <ref target="people.html#ChetwoodWR"
+                           >W.R. Chetwood</ref>'s <hi rendition="#italics"><title>A General History
+                              of the Stage, From its Origin in Greece down to the present
+                              Time</title></hi> (1749, p. 152).</note></hi>
+               </quote></p>
+            <lb/>
+            <p><ref target="people.html#WilksRobert">Wilks</ref> protected the children&#8212;their
+               mother died in extreme indigence.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,31 @@
+
+  { "stem" : "bleed",
+    "instances" : 
+    [ 
+      { "docId" : "BarbEnquiry1773",
+        "docUri" : "BarbEnquiry1773.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "bleed",
+            "weight" : "1",
+            "pos" : 605,
+            "context" : "...I could burnPiece-meal away, or <mark>bleed<\/mark> to death by drops,Be flay'd alive,...",
+            "fid" : "line4" },
+          
+          { "form" : "bleeding",
+            "weight" : "1",
+            "pos" : 2043,
+            "context" : "...garments torn by the briars, and her feet <mark>bleeding<\/mark> with the roughness of the path. The nymph...",
+            "fid" : "para31" } ] },
+      
+      { "docId" : "BarbCollins1797",
+        "docUri" : "BarbCollins1797.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bleeding",
+            "weight" : "1",
+            "pos" : 591,
+            "context" : "...; Lifts the torn robe, and points the <mark>bleeding<\/mark> wound.7  ",
+            "fid" : "line5" } ] } ] }

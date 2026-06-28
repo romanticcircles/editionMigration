@@ -1,0 +1,30 @@
+
+  { "stem" : "pasta",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Pasta",
+            "weight" : "1",
+            "pos" : 34291,
+            "context" : "...the Spectator and the Guardian. [MW]  <mark>Pasta<\/mark>, Giuditta Maria Costanza, 1797-1865 (...",
+            "fid" : "PastaGiuditta" },
+          
+          { "form" : "Pasta",
+            "weight" : "1",
+            "pos" : 34301,
+            "context" : "...-1865 (Library of Congress Name Authority)—  <mark>Pasta<\/mark> was an Italian operatic soprano whose vocal and physical..." } ] },
+      
+      { "docId" : "ShelleyEngInItaly1826",
+        "docUri" : "ShelleyEngInItaly1826.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pasta",
+            "weight" : "1",
+            "pos" : 3342,
+            "context" : "...and crippled action of the patient than Kean or <mark>Pasta<\/mark>[Page 340] usually effect in their portentous...",
+            "fid" : "ref45" } ] } ] }

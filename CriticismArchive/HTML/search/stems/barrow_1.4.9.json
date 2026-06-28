@@ -1,0 +1,30 @@
+
+  { "stem" : "barrow",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Barrow",
+            "weight" : "1",
+            "pos" : 2602,
+            "context" : "...very popular romance narrative poem. [MW]  <mark>Barrow<\/mark>, Thomas—  Friend of William Collins and John...",
+            "fid" : "BarrowThomas" },
+          
+          { "form" : "Barrow",
+            "weight" : "1",
+            "pos" : 2616,
+            "context" : "...Year 1745 (1802), Home tells of how <mark>Barrow<\/mark>, an Englishman but then a student at Edinburgh..." } ] },
+      
+      { "docId" : "BarbCollins1797",
+        "docUri" : "BarbCollins1797.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Barrow",
+            "weight" : "1",
+            "pos" : 3621,
+            "context" : "...67 mentioned in the second stanza was a Mr. <mark>Barrow<\/mark>, who had been taken prisoner with Mr. Home...",
+            "fid" : "ref87" } ] } ] }

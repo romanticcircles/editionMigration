@@ -1,0 +1,4 @@
+CorpusNotes:
+
+There is one teiCorpus document in this collection: ShelleyModItRom1838corpus.xml in the teiCorpus folder. This corpus XML file is the master file: only edit the documents using it. To split the corpus document into constituent TEI documents, open ShelleyModItRom1838corpus.xml and run the "splitCorpusToXML.xsl." After running it, I have had to manually add in a reference to the schema at the top, under <?xml version...>, 
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>. The resulting documents should appear inside the XML folder. To create a full corpus web page, run the corpus master file using "ToWebWholeCorpus.xslt."

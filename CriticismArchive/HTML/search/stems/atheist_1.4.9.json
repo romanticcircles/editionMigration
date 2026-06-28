@@ -1,0 +1,40 @@
+
+  { "stem" : "atheist",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Atheist",
+            "weight" : "1",
+            "pos" : 34002,
+            "context" : "...1680), Venice Preserved (1682), and The <mark>Atheist<\/mark> (1683). Plagued with pecuniary difficulties for much..." },
+          
+          { "form" : "Atheist's",
+            "weight" : "1",
+            "pos" : 44053,
+            "context" : "...and playwright, best known for his work The <mark>Atheist's<\/mark> Tragedy. The play reflects the conventions of medieval..." } ] },
+      
+      { "docId" : "MoodyRevFrederic1801",
+        "docUri" : "MoodyRevFrederic1801.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "atheistical",
+            "weight" : "1",
+            "pos" : 294,
+            "context" : "...from his protectress, Madame de Sponasi, an <mark>atheistical<\/mark> philosopher, with whom he was taken to live...",
+            "fid" : "para17" } ] },
+      
+      { "docId" : "BarbSpectatorPrelim1804",
+        "docUri" : "BarbSpectatorPrelim1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "atheist",
+            "weight" : "1",
+            "pos" : 2346,
+            "context" : "...in jest half in earnest, of \"blowing an <mark>atheist<\/mark> out of the mouth of a cannon.\" But...",
+            "fid" : "para28" } ] } ] }

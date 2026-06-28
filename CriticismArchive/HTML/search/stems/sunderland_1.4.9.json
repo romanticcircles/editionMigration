@@ -1,0 +1,41 @@
+
+  { "stem" : "sunderland",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sunderland",
+            "weight" : "1",
+            "pos" : 42581,
+            "context" : "...to Henry IV of France. [MW]  <mark>Sunderland<\/mark>, Dorothy Sidney, Countess of, 1617-1684...",
+            "fid" : "SpencerDorothy" },
+          
+          { "form" : "Sunderland",
+            "weight" : "1",
+            "pos" : 42649,
+            "context" : "...Sutton married Judith, née Tichborne, Countess of <mark>Sunderland<\/mark> (Sutton, Judith, ca. 1702-1749..." } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Sunderland",
+            "weight" : "1",
+            "pos" : 14789,
+            "context" : "...Miss Sutton was the daughter of the Countess of <mark>Sunderland<\/mark>, by Robert Sutton, Esq. ",
+            "fid" : "ref604" } ] },
+      
+      { "docId" : "BarbGoldsmithBritNov1810",
+        "docUri" : "BarbGoldsmithBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Sunderland",
+            "weight" : "1",
+            "pos" : 113,
+            "context" : "...companions. He was pursued, and arrested at <mark>Sunderland<\/mark>; but was released through the friendship of two...",
+            "fid" : "para14" } ] } ] }

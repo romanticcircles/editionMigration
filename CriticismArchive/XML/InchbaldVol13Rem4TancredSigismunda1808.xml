@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Tancred and Sigismunda</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol13Rem4TancredSigismunda1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Tancred and Sigismunda]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Tancred and Sigismunda;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By James Thomson. As Performed at the
+                     Theatres Royal, Covent Garden and Drury Lane. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Thomson, James, 1700-1748</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241104" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Tancred
+                           and Sigismunda</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Tancred and Sigismunda</title>; A Tragedy, In Five
+                              Acts; By <ref target="people.html#ThomsonJames">James Thomson</ref>.
+                              As Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-5. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XIII. <hi
+                           rendition="#italics">
+                           <title>Love for Love</title></hi>. <hi rendition="#italics"
+                              ><title>Mourning Bride</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Muhammad"
+                           >Mahomet</ref></title></hi>. <hi rendition="#italics"><title>Tancred and
+                              Sigismunda</title></hi>. <hi rendition="#italics"><title>Suspicious
+                              Husband</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on March 18<hi rendition="#sup">th</hi>, 1745. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>This beautiful poem, in dialogue, called a drama, has but few attractions in
+               representation, although it is the work of the celebrated author of "<title>The
+                  Seasons</title>."<note><ref target="people.html#ThomsonJames">James
+                  Thomson</ref>'s nature and landscape poem <hi rendition="#italics"><title>The
+                        Seasons</title></hi> (1730) was much revered by his contemporaries and
+                  influenced Romantic period poetic depictions of nature.</note></p>
+
+            <p><ref target="people.html#ThomsonJames">Thomson</ref> was born in 1700, in Roxburgh, a
+               shire in Scotland, the son of the minister of the parish of Ednam.<note><ref
+                     target="people.html#ThomsonJames">Thomson</ref> was born in Ednam, a small
+                  village in Roxburghshire, a historic county in the Southern Uplands of Scotland.
+                     <ref target="people.html#ThomsonJames">Thomson</ref>'s father was the
+                  Presbyterian minister of Ednam at the time of <ref
+                     target="people.html#ThomsonJames">Thomson</ref>'s birth.</note> He received his
+               early education at Jedburgh, and was afterwards admitted to the university of
+               Edinburgh. He was designed for the church, but the Muses presided over his
+               inclination, and allured him from sacred study and his native land, to seek
+               reputation, and other reward, in the capital of England.<note><ref
+                     target="people.html#ThomsonJames">Thomson</ref> attended the Jedburgh Grammar
+                  School in 1712, where he was an apparently unremarkable student. In 1715, <ref
+                     target="people.html#ThomsonJames">Thomson</ref> entered the College of
+                  Edinburgh with aspirations to enter the Presbyterian ministry. While in Edinburgh,
+                     <ref target="people.html#ThomsonJames">Thomson</ref> joined the literary
+                  Grotesque Club, where he met his lifelong friend <ref
+                     target="people.html#MalletDavid">David Mallet</ref>. After getting a few of his
+                  poems published in <hi rendition="#italics"><title>The Edinburgh
+                        Miscellany</title></hi>, <ref target="people.html#ThomsonJames"
+                     >Thomson</ref> followed <ref target="people.html#MalletDavid">Mallet</ref> to
+                  London in 1725 in hopes of furthering his career as a poet.</note></p>
+
+            <p>His first pursuit was attained as soon as he published his
+               "<title>Winter</title>,"&#8212;which appeared before the other Seasons&#8212;but more
+               solid renumeration came both slowly and precariously&#8212;for, like most poets, <ref
+                  target="people.html#ThomsonJames">Thomson</ref> was often in necessitous
+                  circumstances.<note>"Winter," what would become the first poem in <ref
+                     target="people.html#ThomsonJames">Thomson</ref>'s <hi rendition="#italics"
+                        ><title>The Seasons</title></hi>, was first published in 1726.</note> Yet he
+               was favoured with the friendship of <ref target="people.html#PopeAlexander"
+                  >Pope</ref>, and protected by the <ref target="people.html#TalbotCharlesBaron"
+                  >Lord Chancellor Talbot</ref>, with whose son he made the <fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/>tour of Europe:&#8212;but, by the
+               death of that son, soon after his return, and the decease of the <ref
+                  target="people.html#TalbotCharlesBaron">Chancellor</ref> immediately succeeding,
+               the poet was reduced from a degree of affluence to poverty; as he merely held a
+               lucrative place under his patron, which fell with him.<note>In 1730, <ref
+                     target="people.html#ThomsonJames">Thomson</ref> became the tutor and travelling
+                  companion of <ref target="people.html#TalbotCharlesBaron">Charles Talbot</ref>'s
+                  eldest son for the duration of his tour of the Continent. The young Talbot died in
+                  1733, at which point the elder <ref target="people.html#TalbotCharlesBaron"
+                     >Talbot</ref>, newly made Lord High Chancellor, provided <ref
+                     target="people.html#ThomsonJames">Thomson</ref> with the sinecure position of
+                  secretary of briefs. <ref target="people.html#ThomsonJames">Thomson</ref> lost the
+                  post in 1737 upon <ref target="people.html#TalbotCharlesBaron">Lord Talbot</ref>'s
+                  death.</note></p>
+
+            <p>The present tragedy was first acted in 1744.&#8212;<ref
+                  target="people.html#GarrickDavid">Garrick</ref> was the original Tancred, and <ref
+                  target="people.html#CibberSusannah">Mrs. Cibber</ref> the renowned
+               Sigismunda.&#8212;The story is taken from "<title>Gil Blas</title>," and, as the
+               author added little more than poetry to the fable, it is devoid of all that incident
+               by which every act should be diversified, to established the just title of a dramatic
+                  work.<note>This play was first acted on March 18<hi rendition="#sup">th</hi>,
+                  1745. <ref target="people.html#GarrickDavid">David Garrick</ref> and <ref
+                     target="people.html#CibberSusannah">Susannah Cibber</ref> debuted the roles of
+                  the eponymous young lovers. <hi rendition="#italics"><title>Gil Blas</title></hi>
+                  (in French, <hi rendition="#italics"><title>Histoire de Gil Blas de
+                        Santillane</title></hi>) is a 1715 picaresque novel by <ref
+                     target="people.html#LeSageAlain">Alain-René Lesage</ref>. It appears that <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> is mistaken, however, as
+                  scholars believe this play to be inspired by "<title>The Tale of Ghismonda and
+                     Guiscardo</title>" from the first novella of Day Four of <ref
+                     target="people.html#Boccaccio">Giovanni Boccaccio</ref>'s <hi
+                     rendition="#italics"><title>The Decameron</title></hi> (c.
+               1348-1353).</note></p>
+
+            <p>The soft flowing love of Tancred and Sigismunda may find admirers by the fireside, on
+               a long winter's evening; but can with difficulty obtain listeners in a brilliant
+               theatre, where a thousand objects divert the attention which is not seized at once by
+               some bold occurrence on the stage, and fastened to the subject of its concern by
+               perpetual variety.</p>
+
+            <p>The interest, which the town has taken of late in seeing a child represent a man, has
+               recalled this tragedy from the library once more to the theatre. But this is no proof
+               against the dulness of the production. The taste, which is irregular, will combine
+               irregularities; and why should not exquisite verses be taken for a play, whilst an
+               exquisite little boy is received as an actor?<note>Child actors, particularly males,
+                  became an integral part of the early nineteenth-century English stage,
+                  reinvigorating public interest in theatre. The production of <hi
+                     rendition="#italics"><title>Tancred and Sigismunda</title></hi> that <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> attended, likely in 1803 or
+                  1804, featured <ref target="people.html#BettyWilliam">Master Betty</ref> as
+                  Tancred, at which point he would have been 12 or 13.</note></p>
+
+            <p><ref target="people.html#SiddonsHarriet">Mrs. H. Siddons</ref> wants nothing to make
+               the part of Sigismunda impressive, but a Tancred of her own height.</p>
+            <pb n="5"/>
+            <p>The author of this work died in the forty-ninth year of his age, of a fever caught by
+               imprudently taking a boat from Hammersmith to Kew, when he was previously heated by a
+               hasty walk from London.<note><ref target="people.html#ThomsonJames">Thomson</ref>
+                  died of a fever on August 27<hi rendition="#sup">th</hi>, 1748, at the age of 47.
+                     <ref target="people.html#InchbaldMrs">Inchbald</ref> draws the notion of <ref
+                     target="people.html#ThomsonJames">Thomson</ref>'s death resulting from a boat
+                  ride from <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s <hi
+                     rendition="#italics"><title>The Lives of the Most Eminent English Poets; with
+                        Critical Observations on their Works</title></hi> (1781, vol. IV, pp.
+                  264-265).</note> He died at his house in Richmond, a pensioner of <ref
+                  target="people.html#FrederickPrinceofWales">Frederick, Prince of Wales</ref>, our
+               present <ref target="people.html#GeorgeIIIKingofGreatBritain">King</ref>'s father;
+               and has a monument to his memory in Westminster Abbey.<note><ref
+                     target="people.html#ThomsonJames">Thomson</ref> died at his home in Richmond
+                  upon Thames, a town in south-west London. <ref target="people.html#ThomsonJames"
+                     >Thomson</ref> has a memorial beside <ref
+                     target="people.html#ShakespeareWilliam">William Shakespeare</ref>'s in the
+                  Poet's Corner of the famous Westminster Abbey graveyard in London. <ref
+                     target="people.html#FrederickPrinceofWales">Prince Frederick</ref> had granted
+                     <ref target="people.html#ThomsonJames">Thomson</ref> a pension of £100 per year
+                  starting in 1740, when <ref target="people.html#ThomsonJames">Thomson</ref>
+                  collaborated with <ref target="people.html#MalletDavid">Mallet</ref> on the masque
+                     <hi rendition="#italics"><title>Alfred</title></hi> to be performed at a gala
+                  for <ref target="people.html#FrederickPrinceofWales">Frederick</ref>'s daughter's
+                  birthday.</note></p>
+
+            <p><ref target="people.html#ThomsonJames">Thomson</ref> appears, from all accounts
+               received of him, to have been a man of mild and modest manners, and of depressed
+               spirits. <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> says, he was fat,
+               and accuses him of indolence&#8212;here is another irregularity&#8212;for <ref
+                  target="people.html#ThomsonJames">Thomson</ref> was born on the other side of the
+                  Tweed.<note>In his <hi rendition="#italics"><title>The Lives of the Most Eminent
+                        English Poets; with Critical Observations on their Works</title></hi>, <ref
+                     target="people.html#JohnsonSamuel">Johnson</ref> writes of <ref
+                     target="people.html#ThomsonJames">Thomson</ref>: "<ref
+                     target="people.html#ThomsonJames">Thomson</ref> was of stature above the middle
+                  size, and <hi rendition="#italics">more fat than bard beseems</hi>, of a dull
+                  countenance, and a gross, unanimated, uninviting appearance" (1781, vol. IV, p.
+                  265). <ref target="people.html#ThomsonJames">Thomson</ref>'s birthplace of Ednam,
+                  Scotland, is a few miles north of the River Tweed, which marks the
+                  Scottish-English border, a region that was known for its poor inhabitants who eked
+                  out meagre livings.</note></p>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

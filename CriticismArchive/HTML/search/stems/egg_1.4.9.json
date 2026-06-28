@@ -1,0 +1,29 @@
+
+  { "stem" : "egg",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "eggs",
+            "weight" : "1",
+            "pos" : 26662,
+            "context" : "...four children, two sets of twins in two <mark>eggs<\/mark>—Helen and Clytemnestra in one egg, Castor..." },
+          
+          { "form" : "egg",
+            "weight" : "1",
+            "pos" : 26666,
+            "context" : "...in two eggs—Helen and Clytemnestra in one <mark>egg<\/mark>, Castor and Pollux in the other. [LD..." } ] },
+      
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "eggs",
+            "weight" : "1",
+            "pos" : 2440,
+            "context" : "...out of every thing, as a weasel sucks <mark>eggs<\/mark>,' as Jacques says.53 These clowns are...",
+            "fid" : "para73" } ] } ] }

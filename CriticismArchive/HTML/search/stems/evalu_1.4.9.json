@@ -1,0 +1,29 @@
+
+  { "stem" : "evalu",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "evaluated",
+            "weight" : "1",
+            "pos" : 29013,
+            "context" : "...a chronology for Shakespeare's works. Malone also <mark>evaluated<\/mark> the authenticity of works supposed to be Shakespeare's,..." },
+          
+          { "form" : "evaluative",
+            "weight" : "1",
+            "pos" : 31356,
+            "context" : "...Edward Griffiths slowly converted to the now more familiar <mark>evaluative<\/mark> format. During his tenure, Ralph Griffiths assembled..." } ] },
+      
+      { "docId" : "IntrototheCriticismArchive",
+        "docUri" : "IntrototheCriticismArchive.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "evaluation",
+            "weight" : "1",
+            "pos" : 1421,
+            "context" : "..., many literary reviews had not yet acknowledged aesthetic <mark>evaluation<\/mark> to be part of their task. During the...",
+            "fid" : "para28" } ] } ] }

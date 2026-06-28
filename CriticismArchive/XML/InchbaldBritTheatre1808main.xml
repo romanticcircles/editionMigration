@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The British Theatre</title>
+                <title type="sub">or, A Collection of Plays, which Are Acted at the Theatres Royal,
+                    Drury Lane, Covent Garden, and Haymarket. Printed under the Authority of the
+                    Managers from the Prompt Books. With Biographical and Critical Remarks by Mrs.
+                    Inchbald. In Twenty-five Volumes</title>
+                <editor>
+                    <name>Elizabeth Inchbald</name>
+                </editor>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="MW">Mary A. Waters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Co-Editor</resp>
+                    <name xml:id="LD">Laura DeWitt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical Editor</resp>
+                    <name xml:id="LM">Laura C. Mandell</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <idno>InchbaldBritTheatre1808main</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">The Criticism Archive</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="#MW">Mary A. Waters</name>
+                </respStmt>
+                <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title type="main" level="a">The British Theatre;</title>
+                        <title type="sub">or, A Collection of Plays, which Are Acted at the Theatres
+                            Royal, Drury Lane, Covent Garden, and Haymarket. Printed under the
+                            Authority of the Managers from the Prompt Books. With Biographical and
+                            Critical Remarks by Mrs. Inchbald. In Twenty-five Volumes.</title>
+                        <editor>Inchbald, Mrs., 1753-1821</editor>
+                        <imprint>
+                            <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                            <pubPlace>London</pubPlace>
+                            <pubPlace>Paternoster Row</pubPlace>
+                            <date when="1808">1808</date>
+                            <biblScope unit="volume">25 Volumes</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>All hyphens have been typed on the U.S. keyboard.</p>
+                    <p>em-dashes have been recorded originally using the —</p>
+                </hyphenation>
+                <normalization method="silent">
+                    <p>Long "s" (ſ) has been silently modernized.</p>
+                    <p>Page numbers appear at the beginning of each page, no matter where originally
+                        placed.</p>
+                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+                    <p>Spelling has not been regularized.</p>
+                </normalization>
+                <normalization method="markup">
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been typed on the U.S. keyboard.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent" scheme="css">text-indent: 10px; display:
+                    block;</rendition>
+                <rendition xml:id="indent1" scheme="css">text-indent: 20px; display:
+                    block;</rendition>
+                <rendition xml:id="indent2" scheme="css">text-indent: 30px; display:
+                    block;</rendition>
+                <rendition xml:id="indent3" scheme="css">text-indent: 40px; display:
+                    block;</rendition>
+                <rendition xml:id="indent4" scheme="css">text-indent: 50px; display:
+                    block;</rendition>
+                <rendition xml:id="indent5" scheme="css">text-indent: 60px; display:
+                    block;</rendition>
+                <rendition xml:id="indent6" scheme="css">text-indent: 70px; display:
+                    block;</rendition>
+                <rendition xml:id="indent7" scheme="css">text-indent: 80px; display:
+                    block;</rendition>
+                <rendition xml:id="indent8" scheme="css">text-indent: 90px; display:
+                    block;</rendition>
+                <rendition xml:id="indent9" scheme="css">text-indent: 100px; display:
+                    block;</rendition>
+                <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+                    block;</rendition>
+                <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+                    block;</rendition>
+                <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+                    block;</rendition>
+                <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+                    block;</rendition>
+                <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+                    block;</rendition>
+                <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+                    block;</rendition>
+                <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+                    block;</rendition>
+                <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+                    block;</rendition>
+                <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+                    block;</rendition>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="ft">
+                    <bibl>Full Text or Citation</bibl>
+                    <category xml:id="ft1">
+                        <catDesc>full text</catDesc>
+                    </category>
+                    <category xml:id="ft2">
+                        <catDesc>citation only</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="ps">
+                    <bibl>Primary or Secondary</bibl>
+                    <category xml:id="ps1">
+                        <catDesc>primary</catDesc>
+                    </category>
+                    <category xml:id="ps2">
+                        <catDesc>secondary</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="g">
+                    <bibl>Genre</bibl>
+                    <category xml:id="g1">
+                        <catDesc>biography</catDesc>
+                    </category>
+                    <category xml:id="g2">
+                        <catDesc>poetry</catDesc>
+                    </category>
+                    <category xml:id="g3">
+                        <catDesc>story</catDesc>
+                    </category>
+                    <category xml:id="g4">
+                        <catDesc>drama</catDesc>
+                    </category>
+                    <category xml:id="g5">
+                        <catDesc>novel</catDesc>
+                    </category>
+                    <category xml:id="g6">
+                        <catDesc>satire</catDesc>
+                    </category>
+                    <category xml:id="g7">
+                        <catDesc>allegory</catDesc>
+                    </category>
+                    <category xml:id="g8">
+                        <catDesc>advertisement</catDesc>
+                    </category>
+                    <category xml:id="g9">
+                        <catDesc>preface</catDesc>
+                    </category>
+                    <category xml:id="g10">
+                        <catDesc>foreword</catDesc>
+                    </category>
+                    <category xml:id="g11">
+                        <catDesc>introduction</catDesc>
+                    </category>
+                    <category xml:id="g12">
+                        <catDesc>acknowledgments</catDesc>
+                    </category>
+                    <category xml:id="g13">
+                        <catDesc>essay</catDesc>
+                    </category>
+                    <category xml:id="g14">
+                        <catDesc>review</catDesc>
+                    </category>
+                    <category xml:id="g15">
+                        <catDesc>letter</catDesc>
+                    </category>
+                    <category xml:id="g16">
+                        <catDesc>literary criticism</catDesc>
+                    </category>
+                    <category xml:id="g17">
+                        <catDesc>electronic resource</catDesc>
+                    </category>
+                    <category xml:id="g18">
+                        <catDesc>bibliography</catDesc>
+                    </category>
+                    <category xml:id="g19">
+                        <catDesc>music</catDesc>
+                    </category>
+                    <category xml:id="g20">
+                        <catDesc>political statement</catDesc>
+                    </category>
+                    <category xml:id="g21">
+                        <catDesc>history</catDesc>
+                    </category>
+                    <category xml:id="g22">
+                        <catDesc>education</catDesc>
+                    </category>
+                    <category xml:id="g23">
+                        <catDesc>sermon</catDesc>
+                    </category>
+                    <category xml:id="g24">
+                        <catDesc>religion</catDesc>
+                    </category>
+                    <category xml:id="g25">
+                        <catDesc>philosophical statement</catDesc>
+                    </category>
+                    <category xml:id="g26">
+                        <catDesc>translation</catDesc>
+                    </category>
+                    <category xml:id="g27">
+                        <catDesc>dictionary</catDesc>
+                    </category>
+                    <category xml:id="g28">
+                        <catDesc>encyclopedia</catDesc>
+                    </category>
+                    <category xml:id="g29">
+                        <catDesc>travel</catDesc>
+                    </category>
+                    <category xml:id="g30">
+                        <catDesc>illustration</catDesc>
+                    </category>
+                    <category xml:id="g31">
+                        <catDesc>map</catDesc>
+                    </category>
+                    <category xml:id="g32">
+                        <catDesc>floorplans</catDesc>
+                    </category>
+                    <category xml:id="g33">
+                        <catDesc>photograph</catDesc>
+                    </category>
+                    <category xml:id="g34">
+                        <catDesc>cartoon</catDesc>
+                    </category>
+                    <category xml:id="g35">
+                        <catDesc>literary annual</catDesc>
+                    </category>
+                    <category xml:id="g36">
+                        <catDesc>miscellany</catDesc>
+                    </category>
+                    <category xml:id="g37">
+                        <catDesc>anthology</catDesc>
+                    </category>
+                    <category xml:id="g38">
+                        <catDesc>beauties</catDesc>
+                    </category>
+                    <category xml:id="g39">
+                        <catDesc>juvenile</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="f">
+                    <bibl>Form</bibl>
+                    <category xml:id="f1">
+                        <catDesc>pageimage</catDesc>
+                    </category>
+                    <category xml:id="f2">
+                        <catDesc>book part</catDesc>
+                    </category>
+                    <category xml:id="f3">
+                        <catDesc>book</catDesc>
+                    </category>
+                    <category xml:id="f4">
+                        <catDesc>periodical part</catDesc>
+                    </category>
+                    <category xml:id="f5">
+                        <catDesc>periodical</catDesc>
+                    </category>
+                    <category xml:id="f6">
+                        <catDesc>fragment</catDesc>
+                    </category>
+                    <category xml:id="f7">
+                        <catDesc>frontispiece</catDesc>
+                    </category>
+                    <category xml:id="f8">
+                        <catDesc>title page</catDesc>
+                    </category>
+                    <category xml:id="f9">
+                        <catDesc>inscription page</catDesc>
+                    </category>
+                    <category xml:id="f10">
+                        <catDesc>dedication</catDesc>
+                    </category>
+                    <category xml:id="f11">
+                        <catDesc>table of contents</catDesc>
+                    </category>
+                    <category xml:id="f12">
+                        <catDesc>table of illustrations</catDesc>
+                    </category>
+                    <category xml:id="f13">
+                        <catDesc>list of subscribers</catDesc>
+                    </category>
+                    <category xml:id="f14">
+                        <catDesc>index</catDesc>
+                    </category>
+                    <category xml:id="f15">
+                        <catDesc>notes</catDesc>
+                    </category>
+                    <category xml:id="f16">
+                        <catDesc>book boards</catDesc>
+                    </category>
+                    <category xml:id="f17">
+                        <catDesc>slipcase</catDesc>
+                    </category>
+                    <category xml:id="f18">
+                        <catDesc>printers mark</catDesc>
+                    </category>
+                    <category xml:id="f19">
+                        <catDesc>engraving</catDesc>
+                    </category>
+                    <category xml:id="f20">
+                        <catDesc>pamphlet</catDesc>
+                    </category>
+                    <category xml:id="f21">
+                        <catDesc>manuscript</catDesc>
+                    </category>
+                    <category xml:id="f22">
+                        <catDesc>collection</catDesc>
+                    </category>
+                    <category xml:id="f23">
+                        <catDesc>nonce collection</catDesc>
+                    </category>
+                    <category xml:id="f24">
+                        <catDesc>sammelband</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="keyword">
+                    <category xml:id="lcna">
+                        <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                            authority name headings.</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#lcna">
+                    <list type="simple">
+                        <item>Inchbald, Mrs., 1753-1821</item>
+                        <item>Shakespeare, William, 1564-1616</item>
+                    </list>
+                </keywords>
+                <catRef target="#ft1" scheme="#ft"/>
+                <catRef target="#f3 #f22" scheme="#f"/>
+                <catRef target="#ps1" scheme="#p"/>
+                <catRef target="#g16 #g37" scheme="#g"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#LM" when="20260624">
+                <label>Changed by</label>
+                <name>Laura Mandell</name>
+                <list type="simple">
+                    <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+                    <item>Published by Romantic Circles</item>
+                </list>
+            </change>
+            <change who="#LM" when="20250126">
+                <label>Changed by</label>
+                <name>Laura Mandell</name>
+                <list type="simple">
+                    <item>Only four titles were put in here by the students, with the weirdest
+                        possible coding you can image. I added all the items in each volume and then
+                        recoded completely -- basically rewrote the whole file</item>
+                </list>
+            </change>
+            <change who="#MW" when="20241108">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>corrected minor errors in encoding and editing</item>
+                </list>
+            </change>
+            <change who="#LM" when="20240902">
+                <label>Changed by</label>
+                <name>Laura Mandell</name>
+                <list type="simple">
+                    <item>changed the format to whole book</item>
+                    <item>putting CritArchive online for review</item>
+                </list>
+            </change>
+            <change who="#MW" when="20240730">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>Created corpus</item>
+                    <item>revised encoding</item>
+                    <item>changed header</item>
+                </list>
+            </change>
+            <change who="#MW" when="20220220">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>Revised header</item>
+                </list>
+            </change>
+            <change who="#MW" when="20221020">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>Revised header and title page</item>
+                </list>
+            </change>
+            <change who="#MW" when="20220120">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>Revised encoding and editing</item>
+                </list>
+            </change>
+            <change who="#LD" when="20210701">
+                <label>Changed by</label>
+                <name>Laura DeWitt</name>
+                <list type="simple">
+                    <item>TEI encoding</item>
+                    <item>Changed editing</item>
+                </list>
+            </change>
+            <change who="#MW" when="20181113">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list type="simple">
+                    <item>Created Edition</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">The British Theatre</titlePart>
+                    <titlePart type="sub">or, A Collection of Plays, which Are Acted at the Theatres
+                        Royal, Drury Lane, Covent Garden, and Haymarket. Printed under the Authority
+                        of the Managers from the Prompt Books. With Biographical and Critical
+                        Remarks </titlePart>
+                </docTitle>
+                <docAuthor><name reg="Inchbald, Mrs." date="1753-1821"><ref
+                            target="people.html#InchbaldMrs">by Mrs.
+                    Inchbald</ref></name>.</docAuthor>
+                <docEdition>In Twenty-five Volumes.</docEdition>
+                <docImprint>
+                    <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                    <pubPlace>Paternoster Row, London</pubPlace>
+                    <date when="1808">1808<note>Imprint for the title page of Volume I, which also
+                            reads, "Vol. I. Comedy of Errors. Romeo and Juiiet. Hamlet. King John.
+                            King Richard III."</note></date>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div type="collection">
+                <head>Table of Contents</head>
+                <list type="toc">
+                    <item>Volume I <list>
+                            <item><ref target="InchbaldV1Rem1ComedyofErrors1808.html">Remarks on
+                                        <title>The Comedy of Errors</title></ref></item>
+                            <item><ref target="InchbaldV1Rem2RomeoJuliet1808.html">Remarks on
+                                        <title>Romeo and Juliet</title></ref></item>
+                            <item><ref target="InchbaldV1Rem3Hamlet1808.html">Remarks on
+                                        <title>Hamlet</title></ref></item>
+                            <item><ref target="InchbaldV1Rem4KingJohn1808.html">Remarks on
+                                        <title>King John</title></ref></item>
+                            <item><ref target="InchbaldV1Rem5KingRichardIII1808.html">Remarks on
+                                        <title>King Richard III</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume II <list>
+                            <item><ref target="InchbaldVol2Rem1KingHenryIVPartI1808.html">Remarks on
+                                        <title>King Henry IV Part I</title></ref></item>
+                            <item><ref target="InchbaldVol2Rem2KingHenryIVPartII1808.html">Remarks
+                                    on <title>King Henry IV Part II</title></ref></item>
+                            <item><ref target="InchbaldVol2Rem3MerchantofVenice1808.html">Remarks on
+                                        <title>The Merchant of Venice</title></ref></item>
+                            <item><ref target="InchbaldVol2Rem4KingHenryV1808.html">Remarks on
+                                        <title>King Henry VI</title></ref></item>
+                            <item><ref target="InchbaldVol2Rem5MuchAdoAboutNothing1808.html">Remarks
+                                    on <title>Much Ado About Nothing</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume III <list>
+                            <item><ref target="InchbaldVol3Rem1AsYouLikeIt1808.html">Remarks on
+                                        <title>As You Like It</title></ref></item>
+                            <item><ref target="InchbaldVol3Rem2MerryWivesofWindsor1808.html">Remarks
+                                    on <title>The Merry Wives of Windsor</title></ref></item>
+                            <item><ref target="InchbaldVol3Rem3KingHenryVIII1808.html">Remarks on
+                                        <title>King Henry VIII</title></ref></item>
+                            <item><ref target="InchbaldVol3Rem4MeasureforMeasure1808.html">Remarks
+                                    on <title>Measure for Measure</title></ref></item>
+                            <item><ref target="InchbaldVol3Rem5WintersTale1808.html">Remarks on
+                                        <title>the Winters Tale</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume IV <list>
+                            <item><ref target="InchbaldVol4Rem1KingLear1808.html">Remarks on
+                                        <title>King Lear</title></ref></item>
+                            <item><ref target="InchbaldVol4Rem2Cymbeline1808.html">Remarks on
+                                        <title>Cymbeline</title></ref></item>
+                            <item><ref target="InchbaldVol4Rem3Macbeth1808.html">Remarks on
+                                        <title>MacBeth</title></ref></item>
+                            <item><ref target="InchbaldVol4Rem4JuliusCaesar1808.html">Remarks on
+                                        <title>Julius Caesar</title></ref></item>
+                            <item><ref target="InchbaldVol4Rem5AntonyCleo1808.html">Remarks on
+                                        <title>Antony and Cleopatra</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume V <list>
+                            <item><ref target="InchbaldVol5Rem1Coriolanus1808.html">Remarks on
+                                        <title>Coriolanus</title></ref></item>
+                            <item><ref target="InchbaldVol5Rem2Othello1808.html">Remarks on
+                                        <title>Othello</title></ref></item>
+                            <item><ref target="InchbaldVol5Rem3Tempest1808.html">Remarks on
+                                        <title>The Tempest</title></ref></item>
+                            <item><ref target="InchbaldVol5Rem4TwelfthNight1808.html">Remarks on
+                                        <title>Twelfth Night</title></ref></item>
+                            <item><ref target="InchbaldVol5Rem5EveryManHumour1808.html">Remarks on
+                                        <title>Every Man in His Humour</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume VI <list>
+                            <item><ref target="InchbaldVol6Rem1RuleaWife1808.html">Remarks on
+                                        <title>Rule a Wife and Have a Wife</title></ref></item>
+                            <item><ref target="InchbaldVol6Rem2TheChances1808.html">Remarks on
+                                        <title>The Chances</title></ref></item>
+                            <item><ref target="InchbaldVol6Rem3ANewWaytoPay1808.html">Remarks on
+                                        <title>A New Way to Pay</title></ref></item>
+                            <item><ref target="InchbaldVol6Rem4RivalQueens1808.html">Remarks on
+                                        <title>The Rival Queens</title></ref></item>
+                            <item><ref target="InchbaldVol6Rem5AllforLove1808.html">Remarks on
+                                        <title>All for Love</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume VII <list>
+                            <item><ref target="InchbaldVol7Rem1Isabella1808.html">Remarks on
+                                        <title>Isabella</title></ref></item>
+                            <item><ref target="InchbaldVol7Rem2Oronooko1808.html">Remarks on
+                                        <title>Oronooko</title></ref></item>
+                            <item><ref target="InchbaldVol7Rem3DistressedMother1808.html">Remarks on
+                                        <title>The Distressed Mother</title></ref></item>
+                            <item><ref target="InchbaldVol7Rem4Zara1808.html">Remarks on
+                                        <title>Zara</title></ref></item>
+                            <item><ref target="InchbaldVol7Rem5GustavusVasa1808.html">Remarks on
+                                        <title>Gustavus Vasa</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume VIII <list>
+                            <item><ref target="InchbaldVol8Rem1ConstantCouple1808.html">Remarks on
+                                        <title>The Constant Couple</title></ref></item>
+                            <item><ref target="InchbaldVol8Rem2Inconstant1808.html">Remarks on
+                                        <title>The Inconstant</title></ref></item>
+                            <item><ref target="InchbaldVol8Rem3RecruitOff1808.html">Remarks on
+                                        <title>The Recruiting Officer</title></ref></item>
+                            <item><ref target="InchbaldVol8Rem4BeauxStrat1808.html">Remarks on
+                                        <title>The Beaux Strategem</title></ref></item>
+                            <item><ref target="InchbaldVol8Rem5Cato1808.html">Remarks on
+                                        <title>Cato</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume IX <list>
+                            <item><ref target="InchbaldVol9Rem1ProvokedWife1808.html">Remarks on
+                                        <title>The Provoked Wife</title></ref></item>
+                            <item><ref target="InchbaldVol9Rem2ProvokedHusband1808.html">Remarks on
+                                        <title>The Provoked Husband</title></ref></item>
+                            <item><ref target="InchbaldVol9Rem3LoveMakesAMan1808.html">Remarks on
+                                        <title>Love Makes a Man</title></ref></item>
+                            <item><ref target="InchbaldVol9Rem4SheWou_d1808.html">Remarks on
+                                        <title>She Wou'd and She Wou'd Not</title></ref></item>
+                            <item><ref target="InchbaldVol9Rem5CarelessHusband1808.html">Remarks on
+                                        <title>The Careless Husband</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume X <list>
+                            <item><ref target="InchbaldVol10Rem1Tamerlane1808.html">Remarks on
+                                        <title>Tamerlane</title></ref></item>
+                            <item><ref target="InchbaldVol10Rem2FairPenitent1808.html">Remarks on
+                                        <title>The Fair Penitent</title></ref></item>
+                            <item><ref target="InchbaldVol10Rem3JaneShore1808.html">Remarks on
+                                        <title>Jane Shore</title></ref></item>
+                            <item><ref target="InchbaldVol10Rem4LadyJaneGrey1808.html">Remarks on
+                                        <title>Lady Jane Grey</title></ref></item>
+                            <item><ref target="InchbaldVol10Rem5SiegeDamascus1808.html">Remarks on
+                                        <title>The Siege of Damascus</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume XI <list>
+                            <item><ref target="InchbaldVol11Rem1BusyBody1808.html">Remarks on
+                                        <title>The Busy Body</title></ref></item>
+                            <item><ref target="InchbaldVol11Rem2Wonder1808.html">Remarks on
+                                        <title>The Wonder</title></ref></item>
+                            <item><ref target="InchbaldVol11Rem3BoldStroke1808.html">Remarks on
+                                        <title>A Bold Stroke for a Wife</title></ref></item>
+                            <item><ref target="InchbaldVol11Rem4GeorgeBarnwell1808.html">Remarks on
+                                        <title>George Barnwell</title></ref></item>
+                            <item><ref target="InchbaldVol11Rem5FatalCuriosity1808.html">Remarks on
+                                        <title>Fatal Curiosity</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume XII <list>
+                            <item><ref target="InchbaldVol12Rem1Orphan1808.html">Remarks on
+                                        <title>The Orphan</title></ref></item>
+                            <item><ref target="InchbaldVol12Rem2VenicePreserved1808.html">Remarks on
+                                        <title>Venice Preserved</title></ref></item>
+                            <item><ref target="InchbaldVol12Rem3ConsciousLovers1808.html">Remarks on
+                                        <title>The Conscious Lovers</title></ref></item>
+                            <item><ref target="InchbaldVol12Rem4Revenge1808.html">Remarks on
+                                        <title>The Revenge</title></ref></item>
+                            <item><ref target="InchbaldVol12Rem5BeggarsOpera1808.html">Remarks on
+                                        <title>The Beggar's Opera</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume XIII <list>
+                            <item><ref target="InchbaldVol13Rem1LoveforLove1808.html">Remarks on
+                                        <title>Love for Love</title></ref></item>
+                            <item><ref target="InchbaldVol13Rem2MourningBride1808.html">Remarks on
+                                        <title>The Mourning Bride</title></ref></item>
+                            <item><ref target="InchbaldVol13Rem3Mahomet1808.html">Remarks on
+                                        <title>Mahomet</title></ref></item>
+                            <item><ref target="InchbaldVol13Rem4TancredSigismunda1808.html">Remarks
+                                    on <title>Tancred and Sigismunda</title></ref></item>
+                            <item><ref target="InchbaldVol13Rem5SuspiciousHusband1808.html">Remarks
+                                    on <title>The Suspicious Husband</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume XIV <list>
+                            <item><ref target="InchbaldVol14Rem1ManofWorld1808.html">Remarks on
+                                        <title>The Man of the World</title></ref></item>
+                            <item><ref target="InchbaldVol14Rem2Foundling1808.html">Remarks on
+                                        <title>The Foundling</title></ref></item>
+                            <item><ref target="InchbaldVol14Rem3Gamester1808.html">Remarks on
+                                        <title>The Gamester</title></ref></item>
+                            <item><ref target="InchbaldVol14Rem4RomanFather1808.html">Remarks on
+                                        <title>The Roman Father</title></ref></item>
+                            <item><ref target="InchbaldVol14Rem5EdwardBlackPrince1808.html">Remarks
+                                    on <title>Edward the Black Prince</title></ref></item>
+                        </list>
+                    </item>
+                    <item>Volume XV <list>
+                            <item><ref target="InchbaldVol15Rem1Barbarossa1808.html">Remarks on
+                                        <title>Barbarossa</title></ref></item>
+                            <item><ref target="InchbaldVol15Rem2WayKeepHim1808.html">Remarks on
+                                        <title>The Way to Keep Him</title></ref></item>
+                            <item><ref target="InchbaldVol15Rem3AllWrong1808.html">Remarks on
+                                        <title>All in the Wrong</title></ref></item>
+                            <item><ref target="InchbaldVol15Rem4GrecianDaughter1808.html">Remarks on
+                                        <title>The Grecian Daughter</title></ref></item>
+                            <item><ref target="InchbaldVol15Rem5KnowYourMind1808.html">Remarks on
+                                        <title>Know Your Own Mind</title></ref></item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

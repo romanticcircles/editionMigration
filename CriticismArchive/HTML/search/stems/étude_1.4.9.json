@@ -1,0 +1,29 @@
+
+  { "stem" : "étude",
+    "instances" : 
+    [ 
+      { "docId" : "MoodyRevRouthEd1791",
+        "docUri" : "MoodyRevRouthEd1791.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "études",
+            "weight" : "2",
+            "pos" : 18,
+            "context" : "...des jeunes gens, depuis la fin de leur <mark>études<\/mark>, jusqu'à l'epoque de leur entrée dans le monde..." },
+          
+          { "form" : "étude",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "...que la leur, de faire disparoitre de cette <mark>étude<\/mark> la secheresse des rudiments; c'est folie de vouloir...",
+            "fid" : "para13" } ] },
+      
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "études",
+            "weight" : "1",
+            "pos" : 38255,
+            "context" : "...des jeunes gens, depuis la fin de leur <mark>études<\/mark>, jusqu'à l'epoque de leur entrée dans le monde..." } ] } ] }

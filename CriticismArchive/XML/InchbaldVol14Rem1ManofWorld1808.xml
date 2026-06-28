@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Man of the World</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol14Rem1ManofWorld1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Man of the World]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Man of the World;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Charles Macklin. As Performed at the
+                     Theatre Royal, Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Macklin, Charles, approximately 1697-1797</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241202" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Man
+                           of the World</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Man of the World</title>; A Comedy, In Five
+                              Acts; By <ref target="people.html#MacklinCharles">Charles
+                                 Macklin</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. XIV. <hi rendition="#italics">
+                           <title>Man of the World</title></hi>. <hi rendition="#italics"
+                              ><title>Foundling</title></hi>. <hi rendition="#italics"
+                              ><title>Gamester</title></hi>. <hi rendition="#italics"><title>Roman
+                              Father</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#EdwardPrinceofWales">Edward the Black
+                                 Prince</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged at the <ref target="people.html#CoventGarden">Theatre Royal,
+                           Covent Garden</ref> on May 10<hi rendition="#sup">th</hi>, 1781. Laura
+                        DeWitt and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>This comedy was written by a man of that peculiar frame of body and mind, which
+               enabled him to contend against the sickness of the one, and the sorrows of the other,
+               for the period of a near hundred years.</p>
+
+            <p><ref target="people.html#MacklinCharles">Macklin</ref> was born in Ireland at the
+               very beginning of the last century, and died in England at the close of it.<note>The
+                  dates of <ref target="people.html#MacklinCharles">Macklin</ref>'s early life are
+                  unclear; however, it is thought that he was born in 1699 in Culdaff, County
+                  Donegal, in northwestern Ireland, where he lived through his early teens. <ref
+                     target="people.html#MacklinCharles">Macklin</ref> died in London in 1797,
+                  purportedly at the age of 97.</note> His occupation throughout his long life was
+               that of an actor; though chance, more than inclination, directed his steps towards
+               the stage.</p>
+
+            <p>His performance of the jew, in "<title>The Merchant of Venice</title>," was so
+               perfect a representation of malignant human nature; so congenial were the countenance
+               and manners he gave to this black character, which <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>'s genius formed, that
+               every other part, in which he appeared, is seemingly forgotten, in the minute
+               remembrance of all he did in <ref target="people.html#Shylock"
+                  >Shylock</ref>.<note>Macklin was best known for his performance of <ref
+                     target="people.html#Shylock">Shylock</ref> in <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <hi
+                     rendition="#italics"><title>The Merchant of Venice</title></hi>, a role he
+                  assumed at <ref target="people.html#DruryLane">Drury Lane</ref> in
+               1741.</note></p>
+
+            <p>That the author of this comedy had a capacious understanding, this production, as
+               well as his skill as an actor, will testify. His "<title>Man of the World</title>"
+               could only be written by one, capable of making the nicest observations on all he saw
+               there. It is an excellent lesson for politicians and courtiers. Sir Pertinax is the
+                  <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>spirit of <ref
+                  target="people.html#StanhopePhilip">Lord Chesterfield</ref>, embodied, and hung up
+               to view as an example to shun, instead of a pattern to imitate; whilst his son speaks
+               sentiments, of no common-place truth, but such as are rarely conceived either in
+               fictitious or real characters, though they are such as every honest heart will expand
+               to acknowledge.<note>The plot of the play centers around Sir Pertinax Macsycophant, a
+                  Scottish politician who will do anything to ingratiate himself to curry political
+                  favor. Sir Pertinax attempts to pressure his son, Charles Egerton, into marrying
+                  to expand his political territory. Charles refuses, desiring to marry for love.
+                  Confounded by the notion of moral rectitude, Sir Pertinax becomes estranged from
+                  his children, who represent the modern philosophies of work, love, and marriage.
+                  In the play's conclusion, the family remains unreconciled, though the young lovers
+                  have hope for their future. <ref target="people.html#InchbaldMrs">Inchbald</ref>
+                  draws a parallel between Sir Pertinax and <ref target="people.html#StanhopePhilip"
+                     >Lord Chesterfield</ref>, a prominent politician of the time who was known for
+                  his pompous levels of decorum. His best known work, <hi rendition="#italics"
+                        ><title>Letters to His Son on the Art of Becoming a Man of the World and a
+                        Gentleman</title></hi> (published posthumously in 1774), was criticized for
+                  promoting good manners as a means of advancement rather than appreciating their
+                  moral value.</note></p>
+
+            <p>This play was written many years before it was performed in London. It first appeared
+               in Dublin, where it was well received; but reasons of a political nature advised a
+               delay in bringing it before a London audience, that events might perhaps arise in the
+               administration of public affairs, so as to favour, rather than injure, its
+                  reception.<note>The first version of this play, <hi rendition="#italics"
+                        ><title>The True-Born Scotsman</title></hi>, was first performed at Crow
+                  Street Theatre in Dublin on July 10<hi rendition="#sup">th</hi>, 1764. Once
+                  revised to its current state, <ref target="people.html#MacklinCharles"
+                     >Macklin</ref> applied for a performance license from the Examiner of Plays in
+                  1770 and 1779. It was denied licensing both times due to being slanderously
+                  offensive.</note></p>
+
+            <p>The elevation of <ref target="people.html#PittWilliamYounger">Mr. Pitt</ref> to the
+               high office of prime minister&#8212;from which occurrence it was confidently
+               expected, that all ancient failings in that hazardous department would cease, and
+               ministerial regeneration ensue&#8212;this seemed the happy era for "<title>The Man of
+                  the World</title>" to be introduced on the stage of the metropolis. To hold up to
+               detestation vices, now no longer to be tolerated, could give offence to none&#8212;at
+               least to none in power to resent the affront.<note>While <ref
+                     target="people.html#PittWilliamYounger">William Pitt</ref> did inspire hope for
+                  a new era of governance, he did not take office until 1783, and this play was
+                  first performed under the office of <ref target="people.html#NorthFrederick"
+                     >Frederick North</ref>.</note></p>
+
+            <p>The temper of the times was accurately estimated, and this drama, after encountering
+               some vain hisses from a dissatisfied minority, was finally established a favourite
+               with the whole town.</p>
+
+            <p>Yet the opposition on the first night of its appearance was so violent in some
+               scenes, whilst the followers of the new minister were such enthusiastic admirers of
+               those very parts which gave displeasure, that plaudits and counter-plaudits
+               lengthened the <pb n="5"/>time of performance nearly to midnight, before the aye and
+               the noes became all of one mind. This wished for agreement was effected by the
+               following line in the epilogue; which, after dwelling on the author's great age, and
+               how much he was esteemed in his younger days, adds&#8212; <quote>Then shield your
+                  fathers' favourite to the last.<note>The source of this quotation is unknown at
+                     present. No edition of this play up to <ref target="people.html#InchbaldMrs"
+                        >Inchbald</ref>'s time contained an epilogue. The source of this anecdote is
+                     also unknown.</note></quote></p>
+
+            <p>On this sacred appeal to the memory of their parents, all parties united, and the
+               venerable author was hailed with shouts of triumph.</p>
+
+            <p><ref target="people.html#MacklinCharles">Macklin</ref> performed Sir Pertinax
+               himself, and so excellently, that it was imagined he could never be surpassed by any
+               other representative of this Scotch politician. <ref target="people.html#CookeGeorge"
+                  >Cooke</ref>, his successor, has proved the falsity of this conjecture. <ref
+                  target="people.html#MacklinCharles">Macklin</ref> performed Sir Pertinax most
+               excellently; but <ref target="people.html#CookeGeorge">Cooke</ref> performs Sir
+               Pertinax with talents as pre-eminent, as <ref target="people.html#MacklinCharles"
+                  >Macklin</ref> displayed above all others in the character of <ref
+                  target="people.html#Shylock">Shylock</ref>.<note><ref
+                     target="people.html#MacklinCharles">Macklin</ref> played the role of Sir
+                  Pertinax from the play's opening in 1781 until his retirement in 1789. <ref
+                     target="people.html#CookeGeorge">George Cooke</ref> assumed the role in 1802,
+                  which became an audience favorite.</note><fw type="sig"><hi rendition="#smcaps">b
+                     3</hi></fw></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+
+  { "stem" : "birthday",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Birthday",
+            "weight" : "1",
+            "pos" : 19261,
+            "context" : "...a few other major works includes Ode for the <mark>Birthday<\/mark> of Queen Anne (1713), Water Music (..." },
+          
+          { "form" : "birthday",
+            "weight" : "1",
+            "pos" : 23855,
+            "context" : "...a few weeks short of her thirty-third <mark>birthday<\/mark>, Jewsbury died of cholera, cutting short a..." } ] },
+      
+      { "docId" : "InchbaldVol13Rem4TancredSigismunda1808",
+        "docUri" : "InchbaldVol13Rem4TancredSigismunda1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "birthday",
+            "weight" : "1",
+            "pos" : 643,
+            "context" : "...be performed at a gala for Frederick's daughter's <mark>birthday<\/mark>. Back",
+            "fid" : "note10" } ] } ] }

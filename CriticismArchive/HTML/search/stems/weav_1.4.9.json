@@ -1,0 +1,40 @@
+
+  { "stem" : "weav",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "weaving",
+            "weight" : "1",
+            "pos" : 1631,
+            "context" : "...warfare and arts and crafts such as spinning and <mark>weaving<\/mark>. She was born of Zeus and Metis after..." },
+          
+          { "form" : "weaving",
+            "weight" : "1",
+            "pos" : 31033,
+            "context" : "...warfare and arts and crafts such as spinning and <mark>weaving<\/mark>. She was born of Jupiter and Juno,..." } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weaving",
+            "weight" : "1",
+            "pos" : 2709,
+            "context" : "...shown, and much is often shown, in <mark>weaving<\/mark> the fictitious circumstances into the texture of the history...",
+            "fid" : "para27" } ] },
+      
+      { "docId" : "BarbGoldsmithBritNov1810",
+        "docUri" : "BarbGoldsmithBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weave",
+            "weight" : "1",
+            "pos" : 1440,
+            "context" : "...him he had made use of his plan to <mark>weave<\/mark> together fragments of Shakespear. It is worthy of...",
+            "fid" : "para32" } ] } ] }

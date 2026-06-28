@@ -1,0 +1,29 @@
+
+  { "stem" : "china",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "China",
+            "weight" : "1",
+            "pos" : 32669,
+            "context" : "...Englishman from Paris (1756), The Orphan of <mark>China<\/mark> (1759), and The Way to Keep Him..." },
+          
+          { "form" : "China",
+            "weight" : "1",
+            "pos" : 34589,
+            "context" : "...a representative of the British East India Company in <mark>China<\/mark>. The novel's heroine, Shuy Ping Sin,..." } ] },
+      
+      { "docId" : "BarbDeFoeBritNov1810",
+        "docUri" : "BarbDeFoeBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "China",
+            "weight" : "1",
+            "pos" : 810,
+            "context" : "...customs which he had heard or read of, in <mark>China<\/mark>, Tartary, Siberia, and other countries....",
+            "fid" : "para16" } ] } ] }

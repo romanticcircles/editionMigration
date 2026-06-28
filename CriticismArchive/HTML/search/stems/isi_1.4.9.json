@@ -1,0 +1,29 @@
+
+  { "stem" : "isi",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Isis",
+            "weight" : "1",
+            "pos" : 45246,
+            "context" : "...1774-1781). His poem The Triumph of <mark>Isis<\/mark>: A Poem. Occasioned by Isis: An..." },
+          
+          { "form" : "Isis",
+            "weight" : "1",
+            "pos" : 45249,
+            "context" : "...Triumph of Isis: A Poem. Occasioned by <mark>Isis<\/mark>: An Elegy appeared in 1750. Warton's sister..." } ] },
+      
+      { "docId" : "BarbAkenside1794",
+        "docUri" : "BarbAkenside1794.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Isis",
+            "weight" : "1",
+            "pos" : 3263,
+            "context" : "31.  Thomas Warton, The Triumph of <mark>Isis<\/mark> 76, altered. Back",
+            "fid" : "note31" } ] } ] }

@@ -1,0 +1,34 @@
+
+  { "stem" : "mémoir",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Mémoires",
+            "weight" : "1",
+            "pos" : 29573,
+            "context" : "...his essays on literary theory (1787). His <mark>Mémoires<\/mark> were published 1792-4. [MW]  Marston,..." },
+          
+          { "form" : "Mémoires",
+            "weight" : "1",
+            "pos" : 31528,
+            "context" : "...was the author of Caroline de Lichtfield, ou <mark>Mémoires<\/mark> d'une Famille Prussienne (1786). She was a..." },
+          
+          { "form" : "Mémoires",
+            "weight" : "1",
+            "pos" : 42090,
+            "context" : "...years in the Bastille. Her memoirs are entitled <mark>Mémoires<\/mark> de Madame de Staal de Launay (1755)...." } ] },
+      
+      { "docId" : "MoodyRevMalheur1804",
+        "docUri" : "MoodyRevMalheur1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mémoire",
+            "weight" : "1",
+            "pos" : 359,
+            "context" : "...;Du plus grand des Romains il pleure la <mark>mémoire<\/mark>;Le cercueil rend jaloux le char de la...",
+            "fid" : "line30" } ] } ] }

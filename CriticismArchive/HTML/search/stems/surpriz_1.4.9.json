@@ -1,0 +1,40 @@
+
+  { "stem" : "surpriz",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Surprizing",
+            "weight" : "1",
+            "pos" : 12413,
+            "context" : "...published his first novel, The Life and Strange <mark>Surprizing<\/mark> Adventures of Robinson Crusoe, in 1719. It..." },
+          
+          { "form" : "Surprizing",
+            "weight" : "1",
+            "pos" : 39443,
+            "context" : "...as Defoe's inspiration for The Life and Strange <mark>Surprizing<\/mark> Adventures of Robinson Crusoe. [RD] Selwyn..." } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "surprize",
+            "weight" : "1",
+            "pos" : 7757,
+            "context" : " The publication of Pamela occasioned the sensation of <mark>surprize<\/mark> and pleasure, which a new author, a...",
+            "fid" : "para97" } ] },
+      
+      { "docId" : "MoodyRevSouvenirs1808",
+        "docUri" : "MoodyRevSouvenirs1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "surprized",
+            "weight" : "1",
+            "pos" : 339,
+            "context" : "...with such visionary ideas, that we are not <mark>surprized<\/mark> at the effect of Fancy, when it produced...",
+            "fid" : "para18" } ] } ] }

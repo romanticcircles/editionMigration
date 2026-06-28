@@ -1,0 +1,45 @@
+
+  { "stem" : "turkey",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Turkey",
+            "weight" : "1",
+            "pos" : 1060,
+            "context" : "...from the town of Tyana, now part of <mark>Turkey<\/mark>. He was author of a life of Pythagoras..." },
+          
+          { "form" : "Turkey",
+            "weight" : "1",
+            "pos" : 21436,
+            "context" : "...from Britain to his uncle's ambassadorial post in <mark>Turkey<\/mark>. After that, he ranged from a libretto for..." },
+          
+          { "form" : "Turkey",
+            "weight" : "1",
+            "pos" : 31260,
+            "context" : "..., particularly the vivid accounts of her travels in <mark>Turkey<\/mark> after her husband's appointment as ambassador to Constantinople...." } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Turkey",
+            "weight" : "1",
+            "pos" : 6721,
+            "context" : "...Crassus in the Battle of Carrhae near modern day <mark>Turkey<\/mark>. Back",
+            "fid" : "note3" } ] },
+      
+      { "docId" : "InchbaldVol7Rem4Zara1808",
+        "docUri" : "InchbaldVol7Rem4Zara1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Turkey",
+            "weight" : "1",
+            "pos" : 124,
+            "context" : "...Not content with the high gratification of having beheld <mark>Turkey<\/mark>, Palestine, Egypt, and other famed countries...",
+            "fid" : "para17" } ] } ] }

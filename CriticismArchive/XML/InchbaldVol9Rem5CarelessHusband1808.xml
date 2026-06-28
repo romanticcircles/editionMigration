@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Careless Husband</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol9Rem5CarelessHusband1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Careless Husband]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Careless Husband</title>
+                  <title type="sub">A Comedy, in Five Acts; By Colley Cibber, Esq. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IX. Provoked Wife. Provoked Husband. Love Makes A
+                     Man. She Wou'd And She Wou'd Not. Careless Husband. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">9</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Cibber, Colley, 1671-1757</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241016" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240725" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Careless Husband</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Careless Husband</title>; A Comedy, In Five
+                              Acts; By <ref target="people.html#CibberColley">Colley Cibber</ref>,
+                              Esq. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-7. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. IX. <hi rendition="#italics">
+                           <title>Provoked Wife</title></hi>. <hi rendition="#italics"
+                              ><title>Provoked Husband</title></hi>. <hi rendition="#italics"
+                              ><title>Love Makes a Man</title></hi>. <hi rendition="#italics"
+                              ><title>She Wou'd and She Wou'd Not</title></hi>. <hi
+                           rendition="#italics"><title>Careless Husband</title></hi>. London:
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808. The first
+                        performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        December 7<hi rendition="#sup">th</hi>, 1704. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>This play will ever be a memorial of the injustice of <ref
+                  target="people.html#PopeAlexander">Pope</ref>.</p>
+            <p>It was <ref target="people.html#CibberColley">Colley Cibber</ref>, the author of this
+               excellent, this moral, comedy, whom <ref target="people.html#PopeAlexander"
+                  >Pope</ref> made the hero of his "<title>Dunciad</title>."<note><ref
+                     target="people.html#CibberColley">Cibber</ref> was <ref
+                     target="people.html#PopeAlexander">Alexander Pope</ref>'s main Dunce and
+                  primary target of the 1743 edition of his satirical poem <hi rendition="#italics"
+                        ><title>The Dunciad</title></hi>.</note></p>
+            <p><ref target="people.html#PopeAlexander">Pope</ref>, it is said, was an unsuccessful
+                     dramatist,<note><ref target="people.html#PopeAlexander">Pope</ref> collaborated
+                  with <ref target="people.html#GayJohn">John Gay</ref> and <ref
+                     target="people.html#ArbuthnotJohn">John Arbuthnot</ref> to write the satirical
+                  farce <hi rendition="#italics"><title>Three Hours After Marriage</title></hi>
+                  (1717). Although the play staged seven sold-out performances, critical reception
+                  was highly unfavorable. As such, <ref target="people.html#GayJohn">Gay</ref> and
+                     <ref target="people.html#PopeAlexander">Pope</ref> prevented further stagings
+                  of the play.</note> and ever after hated both plays and players. This hatred was
+               the genuine product of a disappointed artist, for he hated only the skilful ones. A
+               man of less talent than <ref target="people.html#CibberColley">Cibber</ref>, and less
+               favoured by the town, had been too mean for the great poet's vengeance&#8212;the man,
+               who was already ridiculous, it had been loss of time to ridicule&#8212;<ref
+                  target="people.html#PopeAlexander">Pope</ref> chose the very person, on whom his
+               shafts could make the deepest wound: One, who like <ref
+                  target="people.html#CibberColley">Cibber</ref>, wrote so much, that he sometimes
+               failed of writing well; and yet who, at times, wrote so excellently, that reputation
+               was dear to him. As a proof that it was, he did not even affect to disguise the
+               impression which this wanton attack made upon him; and in a letter to the author of
+                  "<title>The Dunciad</title>," complaining on the subject, he asserts, that his
+               enemy can give no proof, but that the object of his satire had ever been his<lb/><fw
+                  type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/> ardent admirer. Then,
+               alluding to the miserable excuse given by <ref target="people.html#PopeAlexander"
+                  >Pope</ref> for this outrage&#8212;"The dulness of him he assailed"<note>This
+                  quote is unidentified at present. However, <hi rendition="#italics"><title>The
+                        Dunciad</title></hi> celebrates the Goddess of Dulness and the progress of
+                  her agents during the reign of pedantry.</note>&#8212;<ref
+                  target="people.html#CibberColley">Cibber</ref> thus reasonably and feelingly
+               proceeds.</p>
+            <p>
+               <quote>Dulness can be no vice or crime; or is, at worst, but a misfortune, and you
+                  ought no more to censure or revile a man for it, than for his being blind or lame.
+                  But, if you please, I will wave this part of my argument, and, for once, take no
+                  advantage of it, but will suppose dulness to be actually criminal, and then will
+                  leave it to your own conscience to declare, whether you really think I am so
+                  guilty of it as to deserve the name of the dull fellow you make me? Now, if I am
+                  called upon to speak from my own conscience on the question, I do, from my heart,
+                  solemnly declare, that I don't believe you do think so of me. This, I grant, may
+                  be vanity in me to say; but, if what I believe is true, what a slovenly conscience
+                  do you show your face with!<note>From <ref target="people.html#CibberColley"
+                        >Cibber</ref>'s "<title>A Letter from <ref target="people.html#CibberColley"
+                           >Mr. Cibber</ref>, to <ref target="people.html#PopeAlexander">Mr.
+                           Pope</ref>, Inquiring into the Motives that might induce him in his
+                        Satyrical Works, to be so frequently fond of <ref
+                           target="people.html#CibberColley">Mr. Cibber</ref>'s Name</title>" (1742,
+                     pp. 14-15).</note></quote></p>
+            <p>It is for the reader of "<title>The Careless Husband</title>" to decide at once,
+               whether its author was, or was not, a dunce. In a production, where less weight of
+               argument would be given on the side of the author, it might be deemed impertinent to
+               anticipate the reader's pleasure of judging for himself; but the high character of
+               this play, joined to that which it will instantly say in its own defence, banishes
+               all doubt upon the subject. The author must be acquitted by the reader of his
+               accuser's charge&#8212;and the accuser must be condemned.</p>
+            <p>"<title>The Careless Husband</title>" is, as originally written,<pb n="5"/> very
+               long&#8212;it contains more pages than most plays&#8212;but, containing more matter
+               too, it seems short in the perusal.</p>
+            <p>The dialogue is so brilliant, at the same time, so very natural, that its force will
+               admit of no augmentation, even from the delivery of the best actors: nor is this
+               admirable work, according to the present demand for perpetual incident, so well
+               calculated to please on the stage, as in the closet.<note>Closet drama refers to
+                  plays intended to be read rather than performed on a stage.</note></p>
+            <p>The occurrences, which take place in this drama, are of that delicate, as well as
+               probable kind, that their effect is not sufficiently powerful in the
+               representation&#8212;whereas, in reading, they come to the heart with infinitely more
+               force, for want of that extravagance, which public exhibition requires. The smaller
+               avenues to the mind and bosom are often the surest passages to convey sensations of
+               pain or delight; and the connoisseur in all the little touches of refined nature, may
+               here indulge his taste, whilst, as an auditor, he might possibly be deprived of his
+               enjoyment, by the vain endeavour of performers, to display, by imitation, that, which
+               only real life can show, or imagination pourtray.</p>
+            <p>Here are no violent passions, such as are usually depicted on a stage; but merely
+               such as commonly govern mankind.</p>
+            <p>Sir Charles's<note><hi rendition="#italics"><title>The Careless Husband</title></hi>
+                  follows the affairs of Sir Charles Easy with the Lady Graveairs and Mrs. Edging,
+                  his wife's maid.</note> tenderness for his wife is so unforced, and his contempt
+               for his mistresses so undesignedly cool, that an actor must possess the most
+               consummate talents, in the minutiæ of his art, before he can affect an audience by
+               the one, or edify them by the other&#8212;<lb/><fw type="sig"><hi rendition="#smcaps"
+                     >b 3</hi></fw><pb n="6"/>yet, the first is extremely moving, and the last,
+               highly instructive.</p>
+            <p>Nor is there an actress who could utter the common-place reproaches of Lady
+               Graveairs, most pleasantly unconnected with sense, half so well as the reader's fancy
+               can hear them.</p>
+            <p>Characteristic traits, such as these, too diminutive indeed for the tongue to reveal,
+               or the ear to catch, in a theatre, abound throughout this whole comedy; and seem to
+               have been produced by a judgment somewhat too nice, considering they were meant for
+               dramatic action.</p>
+            <p>It is not the fault of <ref target="people.html#CibberColley">Cibber</ref>, if the
+               virtues of Lady Easy appear old to the reader&#8212;the plagiarism of subsequent
+               authors, can alone take from the just appearance of their originalty. </p>
+            <p>Although every character of this drama (now a hundred years old) is a person of
+               fashion&#8212;and fashion changes perpetually,&#8212;still every one, here described,
+               is, at this very time, perfectly fashionable. They talk, they think, they act, they
+               love, and hate, like people of rank to this very day. Change but their dinner hour,
+               from four to seven, and blot out the line, where a lady says, "she is going to
+               church," and every article, in the whole composition, will be perfectly modern.</p>
+            <p><ref target="people.html#CibberColley">Cibber</ref>'s grand foe, even <ref
+                  target="people.html#PopeAlexander">Pope</ref>, was compelled to own the merit of
+               this play; but, then he alleged, it must be written by mere accident. <ref
+                  target="people.html#PopeAlexander">Pope</ref>'s party went farther, and said, that
+                  <ref target="people.html#CibberColley">Cibber</ref> claimed that which was not
+               his, but was assuredly written by another.</p>
+            <pb n="7"/>
+            <p><ref target="people.html#CibberColley">Cibber</ref>'s person was insignificant, and
+               his mind addicted to vanity&#8212;misfortunes which mostly combine. He was,
+               nevertheless, goodnatured and forgiving&#8212;but he was honoured with the patronage
+               and friendship of the great; and this, in his occupation of a player, was an
+               unpardonable failing in the eye of his enemy.</p>
+            <p>That admirable poet should have considered, that, of all artists, the actor is most
+               an object of curiosity and incitement to personal acquaintance. The purchaser of a
+               picture, or a book, makes the genius of the painter, or the author, who have produced
+               these works, as it were, of his household, and he requires no farther
+               intimacy&#8212;But the actor must come himself to his admirer, as the only means of
+               yielding, to his domestic pleasures, even the shadow of his art.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

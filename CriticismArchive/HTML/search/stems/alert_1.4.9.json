@@ -1,0 +1,24 @@
+
+  { "stem" : "alert",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "alerted",
+            "weight" : "1",
+            "pos" : 34146,
+            "context" : "...published from France, where he fled on being <mark>alerted<\/mark> of his impending arrest for sedition. In France..." } ] },
+      
+      { "docId" : "ShelleyEngInItaly1826",
+        "docUri" : "ShelleyEngInItaly1826.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "alert",
+            "weight" : "1",
+            "pos" : 1118,
+            "context" : "...their oppressive rulers; which made them on the <mark>alert<\/mark> to seize every opportunity to rebel against their tyrants...",
+            "fid" : "para19" } ] } ] }

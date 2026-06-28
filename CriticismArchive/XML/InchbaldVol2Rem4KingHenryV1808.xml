@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on King Henry V</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol2Rem4KingHenryV1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on King Henry V]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">King Henry V</title>
+                  <title type="sub">A Historical Play, in Five Acts; By William Shakspeare. As
+                     Performed at the Theatre Royal, Covent Garden. Printed under the Authority of
+                     the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. II. King Henry IV. First Part. King Henry IV.
+                     Second Part. Merchant of Venice. King Henry V. Much Ado About Nothing.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">2</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240731" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="2">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#HenryVKingofEngland">King Henry
+                        V</ref></title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#HenryVKingofEngland"
+                                    >King Henry V</ref></title>; A Historical Play, In Five Acts; By
+                                 <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>, London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. II. <hi rendition="#italics"><title><ref
+                                 target="people.html#HenryIVKingofEngland">King Henry IV</ref>.
+                              First Part</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#HenryIVKingofEngland">King Henry IV</ref>.
+                              Second Part</title></hi>. <hi rendition="#italics"><title>Merchant of
+                              Venice</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#HenryVKingofEngland">King Henry
+                           V</ref></title></hi>. <hi rendition="#italics"><title>Much Ado About
+                              Nothing</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the Globe Theatre in 1599. Laura DeWitt and Mary A. Waters edited this
+                        essay for <hi rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>This play of <title><ref target="people.html#HenryVKingofEngland">Henry the
+                     Fifth</ref></title>, is the moral to the play of <title><ref
+                     target="people.html#HenryIVKingofEngland">Henry the
+               Fourth</ref></title>&#8212;for here, the jocund <ref
+                  target="people.html#HenryVKingofEngland">Prince of Wales</ref>, having become King
+               of England, not only forsakes all his companions in vice; but hangs two or three of
+               them.</p>
+
+            <p>The death of <ref target="people.html#Falstaff">Falstaff</ref> also, told in a
+               humourous, but most natural manner, will be as impressive, on some minds, as any of
+               those scenes where the poet has frequently made state, pomp, or bitterest calamity,
+               attendant on the dying man.&#8212;That pining obscurity in which the supercilious
+                  <ref target="people.html#Falstaff">Sir John</ref> was compelled to live, when his
+               royal comrade became ashamed of him, is a subject well worth the reflection of many a
+               luckless parasite&#8212;and now, this stealing to his bed; stealing to his grave,
+               without one tragic bustle, except that which his conscience makes, so well describes
+               the usual decree of a neglected profligate, that every man, who thinks, will own the
+               resemblance, and take the warning conveyed.</p>
+
+            <p>The disorderly conduct, and ensuing fate of <ref target="people.html#Falstaff">Sir
+                  John Falstaff</ref>, is not a more excellent lesson for the dissipated and
+               dishonourable, than the confidence of the <ref
+                  target="people.html#CharlesVIKingofFrance">French king</ref> and his court, in
+               their prowess, <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>is
+               instructive to ministers of state, and every puny politician. A dramatist, who had
+               feigned occurrences, or who had not closely adhered to facts, as <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> in this play has done,
+               might have been charged with burlesquing the human character in the vainglory which
+               is here given to France, and her consequent humiliation.</p>
+
+            <p>Fiction, from the pen of genius, will often appear more like nature, than nature will
+               appear like herself. The admired speech invented by the author for <ref
+                  target="people.html#HenryVKingofEngland">King Henry</ref>, in a beautiful
+               soliloquy just before battle, seems the exact effect of the place and circumstances
+               with which he was then surrounded, and to be, as his very mind stamped on the
+               dramatic page&#8212;and yet perhaps his majesty, in his meditations, had no such
+               thoughts as are here provided for him;&#8212;but that his opponents had thoughts and
+               expectations equally extravagant with those allotted to them, their every action
+               evinced. </p>
+
+            <p>The incident of the soldier's glove has a degree of interest not only from itself,
+               but that it shows some slight remainder of <ref target="people.html#Falstaff"
+                  >Falstaff</ref>'s merry <ref target="people.html#HenryVKingofEngland">Hal</ref>,
+               in the then great <ref target="people.html#HenryVKingofEngland">King of
+               England</ref>.</p>
+
+            <p>The famed battle of Agincourt, which this play exhibits, was fought on the 25th of
+                  October,<note>The Battle of Agincourt took place in Northern France on October
+                  25th, 1415, during the Hundred Years' War between England and France. This battle
+                  is famous for the numerically inferior English forces defeating the French,
+                  thereby establishing a temporary period of English dominance.</note> the day of
+                  <ref target="people.html#CrispinSaint">St. Crispin</ref>; to which one of the
+               king's sentences alludes. Here fifteen thousand of the English only, it is said,
+               defeated fifty-two thousand of the French.<note>While it is universally accepted that
+                  the English had a numerical disadvantage, historians disagree on the extent to
+                  which the English were outnumbered at Agincourt. Most historians agree that the
+                  French forces totaled between 14,000 and 15,000, with suggested numbers for the
+                  English forces ranging from 5,000 to 9,000.</note> The consequences of this
+               glorious victory were yet most horrible to the humane Britons; for the number of
+               their prisoners amounting to more than their <pb n="5"/>own triumphant army, they
+               were commanded, even when the heat of contest had subsided, to put every Frenchman to
+                  death.<note>Following the English victory at Agincourt, <ref
+                     target="people.html#HenryVKingofEngland">Henry</ref> was afraid his several
+                  thousand French prisoners would recognize their numerical advantage and regroup
+                  against their captors. Thus, <ref target="people.html#HenryVKingofEngland"
+                     >Henry</ref> ordered the execution of all but the highest-ranking French
+                  officials. However, due to his knights' unwillingness to carry out such
+                  unchivalrous orders, the limited number of archers involved, and the difficulty
+                  posed by killing such a large number of prisoners, the final number of executed
+                  French prisoners may have been comparatively small before the French reserves fled
+                  and <ref target="people.html#HenryVKingofEngland">Henry</ref> retracted the
+                  order.</note></p>
+
+            <p>Although the particular number of the forces which were engaged on either side, in
+               this memorable combat, may be differently recorded by different historians; and the
+               motive which induced the conqueror to slay his captives, may also be variously
+               stated; yet it is certain that the French army were more than twice the number of the
+               English, and that the English slew their prisoners.</p>
+
+            <p><ref target="people.html#ShakespeareWilliam">Shakspeare</ref> was determined, in this
+               drama, to expose every vanity of the Gallic<note>Gallic refers to the Gauls,
+                  originally the Celtic inhabitants of Gaul, or the area of present-day France. The
+                  term later became synonymous with "French."</note> foe to British
+               ridicule&#8212;and thus&#8212;instantly after the slaughter of their numerous
+               hosts&#8212;he displays the frivolous anxiety of the surviving nobility, by the
+               herald Montjoy,<note>The royal messenger of the <ref
+                     target="people.html#CharlesVIKingofFrance">King of France</ref> whose respect
+                  and politeness in the delivery of harsh messages earn the favor of <ref
+                     target="people.html#HenryVKingofEngland">Henry V</ref>.</note> in this address
+               to <ref target="people.html#HenryVKingofEngland">Henry</ref>:&#8212; <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent10">&#8212;&#8212;Great king,</l>
+                     <l>I come to thee for charitable license,</l>
+                     <l>That we may wander o'er this bloody field,</l>
+                     <l>To sort our nobles from our common men;</l>
+                     <l>For many of our princes (woe the while!)</l>
+                     <l>Lie drown'd and soak'd in mercenary blood:</l>
+                     <l>So do our vulgar drench their peasant limbs</l>
+                     <l>In blood of princes.<note>Act IV, scene vii.</note></l>
+                  </lg></quote></p>
+
+            <p>There is a judicious remark by a commentator on <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref>&#8212;"that he knows not
+               why the <ref target="people.html#CatherineofValois">Princess Katharine</ref>, in this
+               play, should not be allowed to speak English, as well as all the other
+                     French."<note><ref target="people.html#TheobaldLewis">Lewis Theobald</ref>
+                  quotes <ref target="people.html#GildonCharles">Charles Gildon</ref> in <ref
+                     target="people.html#MaloneEdmond">Edmond Malone</ref>'s <hi
+                     rendition="#italics"><title>The Plays and Poems of <ref
+                           target="people.html#ShakespeareWilliam">William Shakspeare</ref>, with
+                        the Corrections and Illustrations of Various Commentators</title></hi>
+                  (1790), vol. 5, p. 515.</note></p>
+
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+            <pb n="6"/>
+            <p>But had her royal highness been as fluent in speech as the rest of the characters,
+               the poet had possibly failed of materials to have lengthened his last act to the
+               expected number of pages. <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>,
+               in speaking of the evident deficiency of this act, most justly and forcibly
+               says&#8212; <quote>The truth is, that the poet's matter failed him in the fifth act,
+                  and he was glad to fill it up with what he could get; and not even <ref
+                     target="people.html#ShakespeareWilliam">Shakspeare</ref> can write well without
+                  a proper subject. It is a vain endeavour for the most skilful hand to cultivate
+                  barrenness, or to paint upon vacuity.<note><ref target="people.html#JohnsonSamuel"
+                        >Samuel Johnson</ref>'s <hi rendition="#italics"><title>The Plays of <ref
+                              target="people.html#ShakespeareWilliam">William Shakespeare</ref>, in
+                           Eight Volumes, with the Corrections and Illustrations of Various
+                           Commentators</title></hi> (1765), vol. 4, p. 479.</note></quote></p>
+
+            <p>Notwithstanding some brilliant exploits of <ref
+                  target="people.html#HenryVKingofEngland">Henry the Fifth</ref>&#8212;the
+               catastrophe of his life, and the final event of all his actions, may convey, to many
+               a youthful debauchee, as good a moral as his total abandonment of his early
+               associates.</p>
+
+            <p>The hero of Agincourt was in declining health, the effect of former intemperance,
+               even on the spot where he gathered his laurels.<note><ref
+                     target="people.html#HenryVKingofEngland">Henry</ref> contracted an undetermined
+                  serious illness between May and June of 1422. By the end of June, <ref
+                     target="people.html#HenryVKingofEngland">Henry</ref> was recovered enough to
+                  lead his men into battle at Cosne-sur-Loire. The summer of 1422 was unusually hot,
+                  and after likely riding into battle in full armor, <ref
+                     target="people.html#HenryVKingofEngland">Henry</ref> was once more taken ill
+                  with a high fever, possibly from relapse of his previous illness or heatstroke.
+                     <ref target="people.html#HenryVKingofEngland">Henry</ref> died at the age of 35
+                  on August 31, 1422, after ruling for nine years.</note> He lived no more than
+               three years after this renowned victory, and left no more than one child, who was
+               dethroned and murdered.<note><ref target="people.html#HenryVIKingofEngland">Henry
+                     VI</ref> was the only son of <ref target="people.html#HenryVKingofEngland">King
+                     Henry V</ref> and <ref target="people.html#CatherineofValois">Queen Catherine
+                     of Valois</ref>, inheriting the throne at nine months old following his
+                  father's death in 1422. At the end of his ineffective and much-disputed reign,
+                     <ref target="people.html#HenryVIKingofEngland">Henry VI</ref> was deposed by
+                     <ref target="people.html#EdwardIVKingofEngland">Edward IV</ref> of the House of
+                  York. <ref target="people.html#HenryVIKingofEngland">Henry</ref> was imprisoned in
+                  the Tower of London and reported dead on May 21, 1471. It is widely suspected that
+                  his death was ordered by <ref target="people.html#EdwardIVKingofEngland"
+                     >Edward</ref>, which is supported by the blood found in his hair upon the
+                  exhumation of his body in 1910.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

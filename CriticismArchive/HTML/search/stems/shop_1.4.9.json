@@ -1,0 +1,45 @@
+
+  { "stem" : "shop",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "shop",
+            "weight" : "1",
+            "pos" : 12959,
+            "context" : "...opened a London bookselling business in 1735. His <mark>shop<\/mark> became an important gathering place for literary and publishing..." } ] },
+      
+      { "docId" : "ShelleyModItRom1838corpus",
+        "docUri" : "ShelleyModItRom1838corpus.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "shops",
+            "weight" : "1",
+            "pos" : 2555,
+            "context" : "..., the [Page 423]cornices of the <mark>shops<\/mark> and palaces. The unfortunate Antonello, taken from..." } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "shop",
+            "weight" : "1",
+            "pos" : 2622,
+            "context" : "...girls in, it may be, a little back-<mark>shop<\/mark>, or a mantua-maker's parlour, with...",
+            "fid" : "para44" } ] },
+      
+      { "docId" : "ShelleyModItRomI1838",
+        "docUri" : "ShelleyModItRomI1838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "shops",
+            "weight" : "1",
+            "pos" : 2555,
+            "context" : "..., the [Page 423]cornices of the <mark>shops<\/mark> and palaces. The unfortunate Antonello, taken from...",
+            "fid" : "para34" } ] } ] }

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../xml/PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Know Your Own Mind</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol15Rem5KnowYourMind1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Know Your Own Mind]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Know Your Own Mind;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Arthur Murphy, Esq. As Performed at
+                     the Theatre Royal, Drury Lane. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Murphy, Arthur, 1727-1805</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241217" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Know Your
+                           Own Mind</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Know Your Own Mind</title>; A Comedy, In Five Acts;
+                              By <ref target="people.html#MurphyArthur">Arthur Murphy</ref>, Esq. As
+                              Performed at the Theatre Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref>. Printed Under the Authority of the Managers From
+                              the Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XV. <hi
+                           rendition="#italics">
+                           <title><ref target="people.html#BarbarossaAruj"
+                           >Barbarossa</ref></title></hi>. <hi rendition="#italics"><title>Way to
+                              Keep Him</title></hi>. <hi rendition="#italics"><title>All in the
+                              Wrong</title></hi>. <hi rendition="#italics"><title>Grecian
+                              Daughter</title></hi>. <hi rendition="#italics"><title>Know Your Own
+                              Mind</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                           <ref target="people.html#CoventGarden">Theatre Royal, Covent Garden</ref>
+                        on February 22<hi rendition="#sup">nd</hi>, 1777. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#MurphyArthur">Mr. Murphy</ref>, in his prologue to this
+               drama, assured the audience, that it should be his last&#8212;and he kept his
+                  word.<note>The prologue to the first edition of this play announces <ref
+                     target="people.html#MurphyArthur">Murphy</ref>'s retirement from playwriting.
+                  However, <ref target="people.html#MurphyArthur">Murphy</ref> continued to write
+                  plays to entertain himself. Of the several plays he wrote between the present one
+                  and his death, only <hi rendition="#italics"><title>The Rival Sisters</title></hi>
+                  (written 1783, first staged 1793) was performed during his lifetime.</note> He
+               dreaded a decrease in reputation by courting too long the favour of the Muses; in
+               whose service, wearied by incessant labour, he perceived he should soon lose that
+               poetic ardour, the indispensable requisite for all their successful votaries.</p>
+
+            <p>The reception which "<title>Know your own Mind</title>," obtained from the town, the
+               admiration it gained, both for its characters and dialogue, might have tempted a less
+               discreet man than the author, to have ventured once more his credit as a dramatist:
+               but with all the flattering joy he received from this play, its high repute, its
+               great attraction, there quickly arose an event in the theatrical world, which changed
+               all his laudable pride into humility; and every delight of a prosperous author, to a
+               certain degree of repining.</p>
+
+            <p>That well-known star in the dramatic firmament, which outsparkles every other,
+                  "<title>The School for Scandal</title>," made its first appearance at <ref
+                  target="people.html#DruryLane">Drury Lane</ref>; whilst "<title>Know your own
+                  Mind</title>," was in the zenith of its power at <ref
+                  target="people.html#CoventGarden">Covent Garden</ref>.<note><hi
+                     rendition="#italics"><title>Know Your Own Mind</title></hi> was enjoying a
+                  successful first run at <ref target="people.html#CoventGarden">Covent Garden</ref>
+                  when <ref target="people.html#SheridanRichard">Richard Brinsley Sheridan</ref>'s
+                     <hi rendition="#italics"><title>The School for Scandal</title></hi> premiered
+                  at <ref target="people.html#DruryLane">Drury Lane</ref> on May 8<hi
+                     rendition="#sup">th</hi>, 1777. <ref target="people.html#SheridanRichard"
+                     >Sheridan</ref>'s comedy became wildly popular, quickly outshining <ref
+                     target="people.html#MurphyArthur">Murphy</ref>'s.</note></p>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+            <p>The author of the last named comedy, has been heard to say, that he could have borne,
+               without regret, the brilliancy of a rival drama, which had wholly extinguished the
+               blaze of his own; but that he felt a poet's peevish pang on being outshone just as
+               that very identical time, and just upon his own identical subject.</p>
+
+            <p>The reader will observe, before he has proceeded far in the following play, that an
+               inclination to scandal is the prominent trait of the first character of the piece,
+               Dashwould; that the wit of the whole composition depends chiefly upon descanting on
+               the faults of the absent; and that the hypocrisy of Malvil, joined to his love of
+               slander, gives him many of the features, in miniature, of Joseph Surface and Mrs.
+                  Candour.<note>In <hi rendition="#italics"><title>Know Your Own Mind</title></hi>,
+                  Dashwould&#8212;a character based on <ref target="people.html#MurphyArthur"
+                     >Murphy</ref>'s friend <ref target="people.html#FooteSamuel">Samuel
+                  Foote</ref>&#8212;is a wit and grumbler who openly and privately ridicules the
+                  other characters, as well as politicians, lawyers, feminine card players,
+                  capricious men of property, and patrons. Dashwould also ultimately serves as
+                  Malvil's foil. Malvil is the play's scheming, fortune-hunting villain who
+                  conspires with the widowed Mrs. Bromley to manipulate her dependent niece, the
+                  young Miss Neville, into marriage with the accompanying promise of a large dowry.
+                  In exchange, Malvil agrees to help Mrs. Bromley secure the hand of her love
+                  interest, Millamour. In <hi rendition="#italics"><title>The School for
+                        Scandal</title></hi>, Joseph Surface enters a scheme with Lady Sneerwell to
+                  prevent his brother's marriage to Maria so that he may marry her for her fortune
+                  instead. Mrs. Candour is a high-society lady who projects a good-natured spirit
+                  but gossips about other characters relentlessly and
+               maliciously.</note>&#8212;"There was one solitary comfort in all my chagrin on this
+               occasion," <ref target="people.html#MurphyArthur">Mr. Murphy</ref> has been heard to
+               say; "My comedy was brought out first; if it had chanced to have appeared a few
+               months after <ref target="people.html#SheridanRichard">Mr. Sheridan</ref>'s, I should
+               have had the additional mortification of being accused of plagiary."<note>Source
+                  unidentified at present.</note></p>
+
+            <p>But although of these two comedies the corner stones are nearly the same, their
+               superstructures are almost wholly different. Fable, incidents, and even most of their
+               characters, are totally unlike. Still, an unhappy contour makes the present play
+               continually bring to memory the play of "<title>The School for Scandal</title>," to
+               its own disadvantage; whilst "<title>The School for Scandal</title>," which rises in
+               value by the <pb n="5"/>comparison, never once brings to recollection "<title>Know
+                  your own Mind</title>."</p>
+
+            <p>To an unfortunate accident like this, which befell <ref
+                  target="people.html#MurphyArthur">Mr. Murphy</ref>, every author is, of course,
+               liable; but that two unfortunate accidents, of the very same kind, should befall the
+               same unfortunate author, in the space of a few years, is somewhat extraordinary: and
+               yet it is certain, that <ref target="people.html#MurphyArthur">Mr. Murphy</ref>'s
+               comedy of "<title>All in the Wrong</title>," in which <hi rendition="#italics"
+                  >jealousy</hi> is the prevailing passion of every character, was performed under
+               all the disadvantages that could arise from the concurrent representation of <ref
+                  target="people.html#ColmanGeorgeElder">Mr. Colman</ref>'s "<title>Jealous
+                  Wife</title>."<note><ref target="people.html#ColmanGeorgeElder">George
+                     Colman</ref>'s <hi rendition="#italics"><title>The Jealous Wife</title></hi>
+                  premiered on February 12<hi rendition="#sup">th</hi>, 1761, four months before
+                     <ref target="people.html#MurphyArthur">Murphy</ref>'s similar play, <hi
+                     rendition="#italics"><title>All in the Wrong</title></hi>, debuted on June
+                     15<hi rendition="#sup">th</hi>.</note></p>
+
+            <p>With all that merit which the reader will acknowledge in the comedy before him, he
+               will find, in the characters of Mrs. Bromley, and her niece, that the author has
+               there sunk into a sentimental common place, and whining insipidity; degrading to his
+               usual novelty and spirit. It is not only very customary in plays and novels, but very
+               unjust, to delineate a benefactor mostly cruel, and a dependant always patient.
+               Ingratitude is, surely, a crime much more general than that of tyranny. Few minds
+               have strength to support, with fortutude, the weight of obligations&#8212;less virtue
+               is requisite for bestowing with generosity: and when faults arise between the giver
+               and the receiver of benefits, suspicion should ever be awake to him or her who has
+               the most perilous duty to perform. "To love our enemies," seems like a severe
+               ordinance; and yet, to many susceptible but arrogant<fw type="sig"><hi
+                     rendition="#smcaps">b 3</hi></fw>
+               <pb n="6"/> minds, the harder precept is&#8212;to love our friends.&#8212;But,
+               granting that a protector is sure to be a tyrant; there is a character in compact
+               with him, more hateful, more detestable still&#8212;the wretch, who takes his bribe
+               to be a slave.</p>
+
+            <p>Millamour, and Lady Bell, are both admirable persons on the stage; although the
+               reader, who never saw them there, may not conceive them to be so; for these whimsical
+               lovers, and all the occurrences in which they are concerned, are such, as depend upon
+               action more than upon words. The exposure of Millamour's verses, by the three
+               different females at the same time&#8212;his pleasant unsteadiness of resolution upon
+               every new desire that assails him, and his final rapturous submission to the melody
+               of Lady Bell's vocal talents, are all incidents highly to be improved by countenance
+               and gesture&#8212;in which the actor's colouring alone, brings forth the author's
+               true design.<note>Millamour is a young Parliament hopeful who has been reproved by
+                  his father for his capriciousness. Millamour courts the sisters Lady Bell and Lady
+                  Jane, as well as their aunt, Mrs. Bromley, who tempts him with an offer to help
+                  him obtain a seat in Parliament. Lady Bell's love for Millamour is genuine, and
+                  ultimately, the couple becomes engaged.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

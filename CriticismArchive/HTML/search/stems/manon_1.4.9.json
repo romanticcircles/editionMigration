@@ -1,0 +1,29 @@
+
+  { "stem" : "manon",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Manon",
+            "weight" : "1",
+            "pos" : 35925,
+            "context" : "...Prévost authored Histoire du Chevalier des Grieux et de <mark>Manon<\/mark> Lescaut (1767). He also translated Samuel Richardson..." },
+          
+          { "form" : "Manon",
+            "weight" : "1",
+            "pos" : 41125,
+            "context" : "...published two translations, the first in 1785 translates <mark>Manon<\/mark> Lescaut by Abbé Antoine-Francois Prévost. The..." } ] },
+      
+      { "docId" : "BarbSmithBritNov1810",
+        "docUri" : "BarbSmithBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Manon",
+            "weight" : "1",
+            "pos" : 377,
+            "context" : "...Page iv] youngest child. Here also she translated <mark>Manon<\/mark> l'Escaut, a novel of the Abbé Prevôt,...",
+            "fid" : "para16" } ] } ] }

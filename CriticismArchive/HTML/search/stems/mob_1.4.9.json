@@ -1,0 +1,40 @@
+
+  { "stem" : "mob",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "mob",
+            "weight" : "1",
+            "pos" : 27954,
+            "context" : "..., and his palace was stormed by a revolutionary <mark>mob<\/mark> in 1789. [MW]  Louis XVIII,..." },
+          
+          { "form" : "mob",
+            "weight" : "1",
+            "pos" : 36012,
+            "context" : "..., Priestley's home and laboratory were destroyed by the <mark>mob<\/mark>, and in 1794 he emigrated to America...." } ] },
+      
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mob",
+            "weight" : "1",
+            "pos" : 2207,
+            "context" : "...errs on the other side. He raises the <mark>mob<\/mark>—he would, he says, of Hamlet,...",
+            "fid" : "para68" } ] },
+      
+      { "docId" : "BaillieIntDis1798",
+        "docUri" : "BaillieIntDis1798.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mob",
+            "weight" : "1",
+            "pos" : 1702,
+            "context" : "...those circumstances which characterize the spirit of an associated <mark>mob<\/mark>, paltry and ludicrous as some of them may...",
+            "fid" : "para28" } ] } ] }

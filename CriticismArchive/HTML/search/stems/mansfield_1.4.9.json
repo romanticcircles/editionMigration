@@ -1,0 +1,34 @@
+
+  { "stem" : "mansfield",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Mansfield",
+            "weight" : "1",
+            "pos" : 1791,
+            "context" : "...(1811), Pride and Prejudice (1813), <mark>Mansfield<\/mark> Park (1814), Emma (1816), Northanger..." },
+          
+          { "form" : "Mansfield",
+            "weight" : "1",
+            "pos" : 22765,
+            "context" : "...the Bertram family into turmoil in Jane Austen's <mark>Mansfield<\/mark> Park, which was Inchbald's adaptation of Das Kind..." },
+          
+          { "form" : "Mansfield",
+            "weight" : "1",
+            "pos" : 25691,
+            "context" : "...the Bertram family into chaos in Jane Austen's novel <mark>Mansfield<\/mark> Park (1814). [GR] Kyd, Thomas,..." } ] },
+      
+      { "docId" : "JewsburyAustenRev1831",
+        "docUri" : "JewsburyAustenRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Mansfield",
+            "weight" : "1",
+            "pos" : 1166,
+            "context" : "...gentle\" is Austen's description of Fanny Price in <mark>Mansfield<\/mark> Park Chapter 33. Back",
+            "fid" : "note3" } ] } ] }

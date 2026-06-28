@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Literary Women No. I. Felicia Hemans</title>
+                <title type="sub">from <title>The Athenæum</title>
+                </title>
+                <author type="writer">
+                    <name>Maria Jane Jewsbury</name>
+                </author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Mary A. Waters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical Editor</resp>
+                    <name xml:id="LM">Laura C. Mandell</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <idno>JewsburyHemansRev1831</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">The Criticism Archive</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="#MW">Mary A. Waters</name>
+                </respStmt>
+                <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Literary Women No. I. Felicia Hemans</title>
+                        <author type="writer">Jewsbury, Maria, 1800-1833</author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Athenæum Journal of Literature, Science, and the Fine
+                            Arts</title>
+                        <imprint>
+                            <date when="1831-02-12">12 February 1831</date>
+                            <biblScope unit="issue">172</biblScope>
+                            <biblScope unit="page">104-5</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>All hyphens have been typed on the U.S. keyboard.</p>
+                    <p>em-dashes have been recorded originally using the —</p>
+                </hyphenation>
+                <normalization method="silent">
+                    <p>Long "s" (ſ) has been silently modernized.</p>
+                    <p>Page numbers appear at the beginning of each page, no matter where originally
+                        placed.</p>
+                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+                    <p>Spelling has not been regularized.</p>
+                </normalization>
+                <normalization method="markup">
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been typed on the U.S. keyboard.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                </normalization>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition xml:id="indent" scheme="css">text-indent: 10px; display:
+                    block;</rendition>
+                <rendition xml:id="indent1" scheme="css">text-indent: 20px; display:
+                    block;</rendition>
+                <rendition xml:id="indent2" scheme="css">text-indent: 30px; display:
+                    block;</rendition>
+                <rendition xml:id="indent3" scheme="css">text-indent: 40px; display:
+                    block;</rendition>
+                <rendition xml:id="indent4" scheme="css">text-indent: 50px; display:
+                    block;</rendition>
+                <rendition xml:id="indent5" scheme="css">text-indent: 60px; display:
+                    block;</rendition>
+                <rendition xml:id="indent6" scheme="css">text-indent: 70px; display:
+                    block;</rendition>
+                <rendition xml:id="indent7" scheme="css">text-indent: 80px; display:
+                    block;</rendition>
+                <rendition xml:id="indent8" scheme="css">text-indent: 90px; display:
+                    block;</rendition>
+                <rendition xml:id="indent9" scheme="css">text-indent: 100px; display:
+                    block;</rendition>
+                <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+                    block;</rendition>
+                <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+                    block;</rendition>
+                <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+                    block;</rendition>
+                <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+                    block;</rendition>
+                <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+                    block;</rendition>
+                <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+                    block;</rendition>
+                <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+                    block;</rendition>
+                <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+                    block;</rendition>
+                <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+                    block;</rendition>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="ft">
+                    <bibl>Full Text or Citation</bibl>
+                    <category xml:id="ft1">
+                        <catDesc>full text</catDesc>
+                    </category>
+                    <category xml:id="ft2">
+                        <catDesc>citation only</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="ps">
+                    <bibl>Primary or Secondary</bibl>
+                    <category xml:id="ps1">
+                        <catDesc>primary</catDesc>
+                    </category>
+                    <category xml:id="ps2">
+                        <catDesc>secondary</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="g">
+                    <bibl>Genre</bibl>
+                    <category xml:id="g1">
+                        <catDesc>biography</catDesc>
+                    </category>
+                    <category xml:id="g2">
+                        <catDesc>poetry</catDesc>
+                    </category>
+                    <category xml:id="g3">
+                        <catDesc>story</catDesc>
+                    </category>
+                    <category xml:id="g4">
+                        <catDesc>drama</catDesc>
+                    </category>
+                    <category xml:id="g5">
+                        <catDesc>novel</catDesc>
+                    </category>
+                    <category xml:id="g6">
+                        <catDesc>satire</catDesc>
+                    </category>
+                    <category xml:id="g7">
+                        <catDesc>allegory</catDesc>
+                    </category>
+                    <category xml:id="g8">
+                        <catDesc>advertisement</catDesc>
+                    </category>
+                    <category xml:id="g9">
+                        <catDesc>preface</catDesc>
+                    </category>
+                    <category xml:id="g10">
+                        <catDesc>foreword</catDesc>
+                    </category>
+                    <category xml:id="g11">
+                        <catDesc>introduction</catDesc>
+                    </category>
+                    <category xml:id="g12">
+                        <catDesc>acknowledgments</catDesc>
+                    </category>
+                    <category xml:id="g13">
+                        <catDesc>essay</catDesc>
+                    </category>
+                    <category xml:id="g14">
+                        <catDesc>review</catDesc>
+                    </category>
+                    <category xml:id="g15">
+                        <catDesc>letter</catDesc>
+                    </category>
+                    <category xml:id="g16">
+                        <catDesc>literary criticism</catDesc>
+                    </category>
+                    <category xml:id="g17">
+                        <catDesc>electronic resource</catDesc>
+                    </category>
+                    <category xml:id="g18">
+                        <catDesc>bibliography</catDesc>
+                    </category>
+                    <category xml:id="g19">
+                        <catDesc>music</catDesc>
+                    </category>
+                    <category xml:id="g20">
+                        <catDesc>political statement</catDesc>
+                    </category>
+                    <category xml:id="g21">
+                        <catDesc>history</catDesc>
+                    </category>
+                    <category xml:id="g22">
+                        <catDesc>education</catDesc>
+                    </category>
+                    <category xml:id="g23">
+                        <catDesc>sermon</catDesc>
+                    </category>
+                    <category xml:id="g24">
+                        <catDesc>religion</catDesc>
+                    </category>
+                    <category xml:id="g25">
+                        <catDesc>philosophical statement</catDesc>
+                    </category>
+                    <category xml:id="g26">
+                        <catDesc>translation</catDesc>
+                    </category>
+                    <category xml:id="g27">
+                        <catDesc>dictionary</catDesc>
+                    </category>
+                    <category xml:id="g28">
+                        <catDesc>encyclopedia</catDesc>
+                    </category>
+                    <category xml:id="g29">
+                        <catDesc>travel</catDesc>
+                    </category>
+                    <category xml:id="g30">
+                        <catDesc>illustration</catDesc>
+                    </category>
+                    <category xml:id="g31">
+                        <catDesc>map</catDesc>
+                    </category>
+                    <category xml:id="g32">
+                        <catDesc>floorplans</catDesc>
+                    </category>
+                    <category xml:id="g33">
+                        <catDesc>photograph</catDesc>
+                    </category>
+                    <category xml:id="g34">
+                        <catDesc>cartoon</catDesc>
+                    </category>
+                    <category xml:id="g35">
+                        <catDesc>literary annual</catDesc>
+                    </category>
+                    <category xml:id="g36">
+                        <catDesc>miscellany</catDesc>
+                    </category>
+                    <category xml:id="g37">
+                        <catDesc>anthology</catDesc>
+                    </category>
+                    <category xml:id="g38">
+                        <catDesc>beauties</catDesc>
+                    </category>
+                    <category xml:id="g39">
+                        <catDesc>juvenile</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="f">
+                    <bibl>Form</bibl>
+                    <category xml:id="f1">
+                        <catDesc>pageimage</catDesc>
+                    </category>
+                    <category xml:id="f2">
+                        <catDesc>book part</catDesc>
+                    </category>
+                    <category xml:id="f3">
+                        <catDesc>book</catDesc>
+                    </category>
+                    <category xml:id="f4">
+                        <catDesc>periodical part</catDesc>
+                    </category>
+                    <category xml:id="f5">
+                        <catDesc>periodical</catDesc>
+                    </category>
+                    <category xml:id="f6">
+                        <catDesc>fragment</catDesc>
+                    </category>
+                    <category xml:id="f7">
+                        <catDesc>frontispiece</catDesc>
+                    </category>
+                    <category xml:id="f8">
+                        <catDesc>title page</catDesc>
+                    </category>
+                    <category xml:id="f9">
+                        <catDesc>inscription page</catDesc>
+                    </category>
+                    <category xml:id="f10">
+                        <catDesc>dedication</catDesc>
+                    </category>
+                    <category xml:id="f11">
+                        <catDesc>table of contents</catDesc>
+                    </category>
+                    <category xml:id="f12">
+                        <catDesc>table of illustrations</catDesc>
+                    </category>
+                    <category xml:id="f13">
+                        <catDesc>list of subscribers</catDesc>
+                    </category>
+                    <category xml:id="f14">
+                        <catDesc>index</catDesc>
+                    </category>
+                    <category xml:id="f15">
+                        <catDesc>notes</catDesc>
+                    </category>
+                    <category xml:id="f16">
+                        <catDesc>book boards</catDesc>
+                    </category>
+                    <category xml:id="f17">
+                        <catDesc>slipcase</catDesc>
+                    </category>
+                    <category xml:id="f18">
+                        <catDesc>printers mark</catDesc>
+                    </category>
+                    <category xml:id="f19">
+                        <catDesc>engraving</catDesc>
+                    </category>
+                    <category xml:id="f20">
+                        <catDesc>pamphlet</catDesc>
+                    </category>
+                    <category xml:id="f21">
+                        <catDesc>manuscript</catDesc>
+                    </category>
+                    <category xml:id="f22">
+                        <catDesc>collection</catDesc>
+                    </category>
+                    <category xml:id="f23">
+                        <catDesc>nonce collection</catDesc>
+                    </category>
+                    <category xml:id="f24">
+                        <catDesc>sammelband</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="keyword">
+                    <category xml:id="lcna">
+                        <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                            authority name headings.</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#lcna">
+                    <list type="simple">
+                        <item>Austen, Jane, 1775-1817</item>
+                        <item>Jewsbury, Maria, 1800-1833</item>
+                    </list>
+                </keywords>
+                <catRef target="#ft1" scheme="#ft"/>
+                <catRef target="#f4" scheme="#f"/>
+                <catRef target="#ps1" scheme="#p"/>
+                <catRef target="#g13 #g16" scheme="#g"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#LM" when="20260624">
+                <label>Changed by</label>
+                <name>Laura Mandell</name>
+                <list type="simple">
+                    <item>Corrected titles in teiHeader to remove all items listed as NOT to be used
+                        in the Encoding Decisions, Header section, which I also updated to make more
+                        clear.</item>
+                    <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+                    <item>Published by Romantic Circles</item>
+                </list>
+            </change>
+            <change who="MW" when="20241120">
+                <name xml:id="MW">Mary A. Waters</name>
+                <date>2010-12-01</date>
+                <list type="simple">
+                    <item>Created Edition</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xmlns:PA="http://www.poetessarchive.org/#schema">
+        <body>
+            <div type="essay">
+                <head>
+                    <bibl>
+                        <author type="writer">
+                            <name>
+                                <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                            </name>
+                        </author>
+                        <title type="main" level="a">LITERARY WOMEN No. I. <lb/>
+                            <hi rendition="#smcaps"><ref target="people.html#HemansFelicia">felicia
+                                    hemans</ref></hi>.<note>
+                                <hi rendition="#italics"><title level="j"> The Athenæum Journal of
+                                        Literature, Science, and the Fine Arts</title></hi>, No.
+                                172, February 1831, pp 104-105. Monica Correa Fryckstedt attributes
+                                the article to <ref target="people.html#JewsburyMaria">Maria Jane
+                                    Jewsbury</ref> in "<title>The Hidden Rill: The Life and Career
+                                    of <ref target="people.html#JewsburyMaria">Maria Jane
+                                        Jewsbury</ref>
+                                </title>," <hi rendition="#italics">
+                                    <title>Bulletin of the John Rylands University Library of
+                                        Manchester</title>
+                                </hi> Part II, Vol. 67 1984-1984, pp. 450-473. Part I of the article
+                                appeared in Vol. 66, 1982-1984, pp. 177-203. This edition created by
+                                Mary A. Waters.</note>
+                        </title>
+                    </bibl>
+                </head>
+                <p><hi rendition="#smcaps">Were</hi> there to be a feminine literary house of
+                    commons, <ref target="people.html#HemansFelicia">Felicia Hemans</ref> might very
+                    worthily be called to fill the chair as the speaker—a representative of the
+                    whole body, as distinguished from the other estates of the intellectual realm.
+                    If she wrote, or rather published prose, for write it we know she does very
+                            charmingly,<note><ref target="people.html#JewsburyMaria"
+                        >Jewsbury</ref>'s knowledge of <ref target="people.html#HemansFelicia"
+                            >Felicia Hemans</ref>'s unpublished writing stems from the fact that
+                        they were friends. They corresponded, and <ref
+                            target="people.html#JewsburyMaria">Jewsbury</ref> spent some time
+                        visiting <ref target="people.html#HemansFelicia">Hemans</ref> in
+                        Wales.</note> it would be characterised by the same qualities that mark her
+                    poetry, and by some that in poetry cannot well appear:—wit, for instance; but
+                    then it would be poetical wit, dealing chiefly in fanciful allusion and
+                    brilliant remark, but no puns, not even upon ideas. The wit of society is
+                    sparkling repartee, intellectual snap-dragon; poetical wit is essentially
+                    imaginative—spiritual rather than satiric—and female wit differs as much from a
+                    man's, as <ref target="people.html#RichardIKingofEngland">Cœur de Lion</ref>
+                    chopping the iron mace by a single blow of his straight ponderous sword,
+                    differed from <ref target="people.html#Saladin">Sultan Saladin</ref> severing
+                    the down pillow with his thin shining scimitar.<note>
+                        <ref target="people.html#Saladin">Saladin</ref> of Egypt and <ref
+                            target="people.html#RichardIKingofEngland">Richard I, the
+                            Lion-hearted</ref> were adversaries during the twelfth century Crusades.
+                        While Christian forces were known for ruthless brutality, including wanton
+                        slaughter of women and children, the Muslims under <ref
+                            target="people.html#Saladin">Saladin</ref> generally adhered to strict
+                        discipline devoid of gratuitous cruelty. <ref target="people.html#Saladin"
+                            >Saladin</ref>'s rise to power, however, was accomplished in part by
+                        means of the assassination of a political opponent. Jewsbury subscribes to
+                        her era's common prejudices about Muslim barbarity and emasculation.</note>
+                    But to return to <ref target="people.html#HemansFelicia">Mrs. Hemans</ref>. The
+                    remark that genius always gives its best first is by no means worthy of
+                    invariable credit. Inferior minds may, by throwing all their energies into a
+                    first effort, achieve more than they ever do afterwards;— but it is because, in
+                    that first effort, they overleaped and exhausted themselves. Genius of a higher
+                    order generally developes gradually, passing through a regular gradation of bud,
+                    blossom, and fruit. If a first production evidence the sudden maturity of
+                    Siberian summer, it is not improbable but the creative power may be as
+                    short-lived. The best writers have all been improving writers—so have the best
+                    painters. We have at this moment before our eyes a very interesting document in
+                    proof of our assertion—a MS. copy of various poems, the composition, and in the
+                    handwriting of <ref target="people.html#HemansFelicia">Felicia Hemans</ref>,
+                    when <hi rendition="#italics"> thirteen years old</hi>. There is not a greater
+                    disparity between the text-hand of the child, and the formed, delicate, flowing
+                    autograph of the woman, than exists between their compositions. The oak is not
+                    in the acorn; and, except remarkable smoothness of versification, these poems
+                    contain nothing of the promise that has since been so splendidly fulfilled. The
+                    following is one of the prettiest of these juvenile productions:—<quote>
+                        <lg type="title">
+                            <l rendition="#indent5"><hi rendition="#italics"><title>To the
+                                        Muse</title></hi>.</l>
+                        </lg>
+                        <lg type="stanza">
+                            <l> Goddess of the magic lay, </l>
+
+                            <l>Ever let me own thy sway! </l>
+
+                            <l>Thine the sweet enchanting art, </l>
+
+                            <l>To charm and to correct the heart—</l>
+
+                            <l>To bid the tear of pity flow, </l>
+
+                            <l>Sacred to thy tale of woe; </l>
+
+                            <l>Or raise the lovely smile of pleasure</l>
+
+                            <l>With sportive animated measure! </l>
+                        </lg>
+                        <lg type="stanza">
+                            <l>O Goddess of the magic lay, </l>
+
+                            <l>To thee my early vows I pay! </l>
+
+                            <l>Still let me wander in thy train, </l>
+
+                            <l>And pour the wild romantic strain: </l>
+
+                            <l>Be mine to rove, by thee inspired, </l>
+
+                            <l>In peaceful vales and scenes retired; </l>
+
+                            <l>For in thy path, O heavenly maid! </l>
+
+                            <l>The roses bloom that never fade.<note>"<title>To the Muse</title>"
+                                    from <hi rendition="#italics">
+                                        <title>Poems</title></hi> (1808) by <ref
+                                        target="people.html#HemansFelicia">Felicia Dorothea Browne
+                                        (later Hemans)</ref>. Anna Letitia Barbauld authored a short
+                                    review of the volume for the <hi rendition="#italics">
+                                        <title>Monthly Magazine</title></hi> 60 (Nov. 1809): 323.
+                                </note></l>
+                        </lg></quote>
+                </p>
+                <p>That the childhood of our poetess was no common thing—that she had, from its
+                    dawn, gleams and visitings of the imagination that has since won for her such
+                    high fame—that from very early years she walked in the light of her own spirit,
+                    is true; but she has yet manifested more <hi rendition="#italics">
+                        progression</hi> than any one who has written as much, and whose course we
+                    can as faithfully follow. Leaving her childhood wholly out of the question, and
+                    examining those works which have at intervals issued from the press during the
+                    last fifteen years, even they may be divided into two distinct styles—the
+                    classic and the romantic. Within the time specified, <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref> had differed as
+                    materially from herself as from any other writer; and not in minor points
+                    merely, but in very essential ones. Up to the publication of the "<title>Siege
+                        of Valencia</title>," her poetry was correct, classical, and highly
+                    polished—but it wanted warmth; it partook more of the nature of statuary than of
+                    painting. She fettered her mind with facts and authorities, and drew upon her
+                    memory when she should have relied upon her imagination:—she did not possess too
+                    much knowledge, but she made too much use of it. She was diffident of herself,
+                    and to quote her own admission, "loved to repose under the shadow of mighty
+                    names:"—Since then she has acquired the courage which leads to simplicity. Those
+                    were the days when she translated, and when her own poetry had somewhat the air
+                    of translation:—see the "<title>Restoration of the Works of Art to
+                    Italy</title>"—the "<title>Tales and Historic Scenes</title>"—"<title>Modern
+                        Greece</title>"—"<title>The Greek Songs</title>"—"<title>The Last
+                        Constantine</title>"—and "<title>Dartmoor</title>."<note>
+                        <hi rendition="#italics">
+                            <title>The Restoration of the Works of Art to Italy</title></hi> (1816);
+                            <hi rendition="#italics">
+                            <title>Tales and Historic Scenes</title></hi> (1819); <hi
+                            rendition="#italics">
+                            <title>Modern Greece</title></hi> (1817); " <title>The Greek
+                            Songs</title>" in <hi rendition="#italics">
+                            <title>The Siege of Valencia: a Dramatick Poem</title></hi>; <hi
+                            rendition="#italics">
+                            <title>The Last Constantine, with Other Poems</title></hi> (1823); <hi
+                            rendition="#italics">
+                            <title>Dartmoor</title></hi> (1821). </note> But now this is no longer
+                    the case. The sun of feeling has risen upon her song—<hi rendition="#italics"
+                        >noon</hi> has followed morning—the Promethean touch has been given to the
+                    statue—the <ref target="people.html#Memnon">Memnon</ref> yields its music. She
+                    writes from and to the heart, putting her memory to its fitting use—that of
+                    supplying materials for imagination to fashion and build with. It is ridiculous
+                    to compare poets who have no points in common—equally vain to settle their
+                    priority of rank: each has his own character and his own station without
+                    reference to others. There will always be a difference between the poetry of men
+                    and women—so let it be; we have two kinds of excellence instead of one; we have
+                    also the pleasure of contrast: we discover that power is the element of man's
+                    genius—beauty that of woman's;—and occasionally we reciprocate their respective
+                    influence, by discerning the beauty of power, and feeling the power of beauty. </p>
+                <p><ref target="people.html#HemansFelicia">Mrs. Hemans</ref> has written pieces that
+                    combine power and beauty in an equal degree:—"<title><ref
+                            target="people.html#RichardIKingofEngland">Cœur de Lion</ref> at the
+                        Bier of his Father</title>"—"<title>England's Dead</title>"—"<title>The
+                        Pilgrim Fathers</title>"—"<title>The Lady of Provence</title>"—"<title>The
+                        Vaudois Wife</title>"—and numbers of the same stamp, are "lumps of pure
+                                gold:"<note>"<title><ref target="people.html#RichardIKingofEngland"
+                                >Cœur de Lion</ref></title>" and "<title>Pilgrim Fathers</title>"
+                        appeared in the <hi rendition="#italics">
+                            <title>New Monthly Magazine</title></hi> ( ) respectively;
+                            "<title>England's Dead</title>" was featured in <hi rendition="#italics">
+                            <title>The Siege of Valencia</title></hi>; <hi rendition="#italics">
+                            <title>Blackwood's Edinburgh Magazine</title></hi> published "<title>The
+                            Lady of Provence</title>" (27 [Feb 1830]: 372-5) and "<title>The Vaudois
+                            Wife</title>" (28 [Dec. 1828]: 782-3). The phrase "lumps of pure gold"
+                        had previously been applied to <ref target="people.html#HemansFelicia"
+                            >Hemans</ref> in "<title>The Living Poets of England: <ref
+                                target="people.html#HemansFelicia">Mrs. Hemans</ref></title>," <hi
+                            rendition="#italics">
+                            <title>The Literary Magnet</title></hi> n.s. 1 (March 1826): 114.</note>
+                    poems full of heroism, full of strength, and full of spirit; but the most
+                    distinctive feature in the mind and poetry of <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref>, is their bias towards
+                    the supernatural of thought. Most of her later poems breathe of midnight fancies
+                    and lone questionings—of a spirit that muses much and mournfully on the grave,
+                    not as for ever shrouding beloved objects from the living, but as a shrine
+                    whence high unearthly oracles may be won; and all the magnificence of this
+                    universal frame, the stars, the mountains, the deep forest, and the
+                    ever-sounding sea, are made ministrants to this form of imagination. </p>
+                <p> "<title>The Address to a Departed Spirit</title>"—"<title>The Message to the
+                        Dead</title>"—"<title>The Spirit's Return</title>," are express embodyings
+                    of this longing after visible signs of immortality—this turning inward and
+                    looking outward for proof that the dead dream in their long sleep, and dream of
+                    us; whilst incidental breathings of the same nature continually occur through
+                    her volumes.<note>"<title>To a Departed Spirit</title>" and "<title>A Spirit's
+                            Return</title>" from <hi rendition="#italics">
+                            <title>Songs of the Affections with Other Poems</title></hi> (1830);
+                            "<title>The Message to the Dead</title>," <hi rendition="#italics">
+                            <title>Blackwood's Edinburgh Magazine</title></hi> 24 (Sept. 1828):
+                        353.</note>
+                </p>
+                <p>As poetry, the productions thus characterized are exquisite; but we deeply regret
+                    the habit of thought they embody and display. With the dead we have nothing to
+                    do: we shall go to them, but they shall not return to us; and to invest anything
+                    like a wish for such return—anything like belief in its possibility—with the
+                    charms and subtleties of imagination, fancy, or feeling, is neither wise nor
+                    safe. The field of human feeling is large and varied; well has <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref> availed herself of its
+                    resources! "Others," says an American critic, "have had more dramatic power,
+                    more eloquence, more manly strength, but no woman had ever so much true poetry
+                    in her heart."<note>This phrase has been repeatedly quoted, with <hi
+                            rendition="#italics"><title>Blackwood's Edinburgh Magazine</title></hi>
+                        (February 1825, p. 195) pointing to an origin in a criticism and essay
+                        series by John Neal, an American writer and critic who contributed to <hi
+                            rendition="#italics"><title>Blackwood's</title></hi> but who also
+                        authored this series and other articles in <hi rendition="#italics"
+                                ><title>The Portico</title></hi>, a Baltimore journal published
+                        between 1816 and 1818.</note> This is saying much; but only look in
+                    confirmation at the feelings she loves to pourtray—they are the purest, most
+                    profound, or, in other words, the most poetic of our nature:—look again at the
+                    characters she delights to honour—the wise, the virtuous, the heroic, the
+                    self-devoted, the single-hearted; those who have been faithful unto death in a
+                    noble cause; those who have triumphed over suffering and led on to holy deeds;
+                    those who have lived, and those who have died for others. <hi
+                        rendition="#smcaps">Passion</hi> is a poetical watchword of the
+                    day;—unfortunately, it is also something worse—a species of literary Goule that
+                    preys upon good sense, good feeling, and good taste. Nothing now is considered
+                    to be said strongly that is said simply—every line must produce "effect"—every
+                    word must "tell"; in fact, <quote>
+                        <lg type="stanza">
+                            <l> Who peppers the highest is surest to please.<note>
+                                    <ref target="people.html#GoldsmithOliver">Oliver
+                                    Goldsmith</ref>, "<title>Retaliation</title>" (1774) slightly
+                                    altered.</note>
+                            </l>
+                        </lg></quote></p>
+                <p>The human heart is to be treated like Lord Peter's coat, in the Tale of a Tub:
+                    authors need "mind nothing, so they do but tear away."<note>
+                        <ref target="people.html#SwiftJonathan">Jonathan Swift</ref> (1667-1745),
+                            <hi rendition="#italics">
+                            <title>The Tale of a Tub</title></hi> (1704) Section VI. </note>
+                    <hi rendition="#smcaps">Powerful</hi> is another watchword, which palms off
+                    every delineation that is monstrous and absurd. Thus, language is powerful when
+                    epithets succeed each other as fast and heavily as the strokes of a blacksmith's
+                    hammer; ideas are powerful when, like Ossian's ghosts, they reveal themselves in
+                    mists and shadow; and characters and incidents are powerful when they are worthy
+                    of the <title>Newgate Calendar</title>. Those who catered for the nursery in
+                    olden times had very correct notions on these points: Jack the Giant-killer is
+                    truly " powerful"; Blue Beard is fraught with "passion."<note> Scottish poet
+                            <ref target="people.html#MacphersonJames">James MacPherson</ref> claimed
+                        to have "discovered" Ossian, the fictitious third century Caledonian poet,
+                        supposed author of <hi rendition="#italics">
+                            <title>Fingal</title></hi> (1761) and <hi rendition="#italics">
+                            <title>Temora</title></hi> (1763). Scandal over the poems'
+                        inauthenticity did not interfere with their popularity for heroic language
+                        and proto-Romantic themes. Sensational true crime accounts in the <hi
+                            rendition="#italics">
+                            <title>Newgate Calendar</title></hi>, first appearing in 1773, inspired
+                        several nineteenth-century "Newgate novels." Jack the Giant Killer and
+                        Bluebeard figure in two popular folk tales. </note>
+                </p>
+                <p>The admirable taste possessed by <ref target="people.html#HemansFelicia">Mrs.
+                        Hemans</ref> has entirely preserved her from these, the besetting sins of
+                    our imaginative literature; she always writes like one who feels that the heart
+                    is a sacred thing, not rashly to be wounded; whilst she scorns to lower her own
+                    intellectual dignity by an ambitious straining after effect. Her matronly
+                    delicacy of thought, her chastened style of expression, her hallowed ideas of
+                    happiness as connected with home, and home-enjoyments;—to condense all in one
+                    emphatic word, her <hi rendition="#italics"> womanliness</hi> is to her
+                    intellectual qualities as the morning mist to the landscape, or the evening dew
+                    to the flower—that which enhances loveliness without diminishing lustre. To
+                    speak confidentially to our trusted friend the public, <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref> throws herself into her
+                    poetry, and the said self is an English gentlewoman. Now this proves the
+                    exceeding good sense of Imagination, a faculty that Utilitarians<note>
+                        Influential as an ethical philosophy during the nineteenth century,
+                        utilitarianism emphasized consequences of actions and the good of the many
+                        over moral absolutism and individual fulfillment. Popularized as an approach
+                        to literary criticism by such utilitarian journals as <hi
+                            rendition="#italics">
+                            <title>The Westminster Review</title></hi>, the philosophy emphasized
+                        "thought" and social purpose over imagination or affective appeal in
+                        literary works.</note> are so apt to libel: Imagination says, that a poetess
+                    ought to be ladylike, claiming acquaintance with the Graces no less than with
+                    the Muses; and if it were not so, Imagination would conceive he had a right to
+                    be sulky. We appeal to any one who is imaginative. If, after sighing away your
+                    soul over some poetic effusion of female genius, a personal introduction took
+                    place, and you found the fair author a dashing dragoon-kind of woman—one who
+                    could with ease rid her house of a couple of robbers—would you not be startled?
+                    Or, if she called upon you to listen to a discussion on <ref
+                        target="people.html#PetrarcaFrancesco">Petrarch</ref>'s love in a voice that
+                    brayed upon your sense of hearing, would you not feel that nature had made a
+                    mistake? Without a doubt you would. Your understanding might in time be
+                    converted; you might bow at the very feet, and solicit the very hand, the
+                    proportions of which at first inspired terror, but your Imagination, a recreant
+                    to the last, would die maintaining that a poetess ought to be feminine. All that
+                    we know are so; and <ref target="people.html#HemansFelicia">Mrs. Hemans</ref>
+                    especially. Her Italian extraction somewhat accounts for the passion which, even
+                    in childhood, she displayed for sculpture and melody; but her taste for the
+                    beautiful, so fastidious, so universal, so unsleeping—(we are not discussing how
+                    far such a taste contributes to happiness, but in what way it modifies
+                    genius,)—is that, to which may mainly be attributed <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref>'s separation from all
+                    other sisters of the lyre. One or two might be named who excel her in some
+                    things, but not one who equals her in <hi rendition="#italics">this</hi> point.
+                    Beauty of sound, natural spectacle, form and colour, is to her a life and
+                    presence—the spirit that deifies existence—the dial that records time in
+                    sunbeams. </p>
+                <p>All who remember "<title>The Voice of Spring</title>"—"<title>Bring
+                        Flowers</title>"—"<title>The Death-Song of the Nightingale</title>"—the
+                        "<title>Music of Yesterday</title>"—"<title>The Song of Night</title>," and
+                    others of this class, will agree, that "the imperfection of language, the
+                    embarrassment of versification, all that is material and mechanical, disappears,
+                    and the vision floats before us ‘an aery stream.'"<note>"<title>The Voice of
+                            Spring</title>," <hi rendition="#italics">
+                            <title>The Siege of Valencia … with Other Poems</title></hi>;
+                            "<title>Bring Flowers</title>," <hi rendition="#italics">
+                            <title>The Forest Sanctuary and Other Poems</title></hi> (1825);
+                            "<title>The Nightingale's Death Song</title>," <hi rendition="#italics">
+                            <title>New Monthly Magazine</title></hi> (Sept. 1829); "<title>The Music
+                            of Yesterday</title>," <hi rendition="#italics">
+                            <title>Friendship's Offering</title></hi> (1829); "<title>The Song of
+                            Night</title>," <hi rendition="#italics">
+                            <title>Songs of the Affections with Other
+                        Poems</title></hi>(1830).</note> They seem like some of <ref
+                        target="people.html#ShelleyPercy">Shelley</ref>'s—less written than dreamed. </p>
+
+                <p>We must adventure a general remark on the subject of poetry as connected or
+                    unconnected with moral truth. It is not necessary that every poem should be a
+                    homily in verse, or a sermon written for music; but it <hi rendition="#italics"
+                        >is</hi> necessary that the bias of a poet's own mind should be towards the
+                    beneficial. It has been finely said, that the intention of poetry, like that of
+                    christianity, is, "to spiritualize our nature;<note><ref
+                            target="people.html#ChanningWilliamEllery">William Ellery Channing</ref>
+                        (1780-1842), <hi rendition="#italics">
+                            <title>The Knickerbocker: Or New York Monthly Magazine</title></hi> 24
+                        (Sep. 1844): 289.</note> if so, every poet should emulate the birds that
+                    ministered to the prophet in the wilderness, and bring us food from heaven. Such
+                    a poet may pourtray the passions, the joys, the griefs, and the affections of
+                    earth—but he will not rest among them. Like the angel who appeared to the Hebrew
+                    chief, he will touch the offerings with his staff, and there will rise from
+                    them, a pure, a heavenly, an aspiring flame. Great improvement has taken place
+                    in this respect; there is a holier spirit abroad in our poetry of an imaginative
+                    nature; and, in common with some other poets, <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref> has given us many poems
+                    destined, we trust, in better than a human sense, to "shine as the stars for
+                        ever:"—"<title>The Hebrew Mother</title>"—the "<title>Cross in the
+                        Wilderness</title>"—"<title>The Trumpet</title>"—"<title>The Fountain of
+                        Marah</title>"—"<title>The Penitent</title>"—"<title>The Graves of the
+                        Martyrs</title>"—&amp;c.<note>"shine […] forever" (Daniel 12:3); "<title>The
+                            Hebrew Mother</title>," "<title>The Cross in the Wilderness</title>,"
+                            "<title>The Trumpet</title>," "<title>The Fountain of Marah</title>,"
+                            <hi rendition="#italics">
+                            <title>Amulet</title></hi> (1826); "<title>The Penitent</title>,"
+                        probably "<title>The Penitent Anointing Christ's Feet</title>," <hi
+                            rendition="#italics">
+                            <title>Scenes and Hymns of Life, with Other Religious Poems</title></hi>
+                        (1834); "<title>The Graves of Martyrs</title>," <hi rendition="#italics">
+                            <title>New Monthly Magazine</title></hi> (April 1827).</note> We look
+                    for yet more like these, and entreat that we may not look in vain. To our minds
+                        <ref target="people.html#HemansFelicia">Mrs. Hemans</ref> always succeeds
+                    best when her "strain is of a higher" mood; when she sings to us of "melancholy
+                    fear subdued by faith"; and, when, through the tender gloom that habitually
+                    hangs over her poetry (twilight on a rose-bed) we have glimpses of that future
+                    which alone can "make us less forlorn."<note> "melancholy fear subdued by faith"
+                            (<ref target="people.html#WordsworthWilliam">Wordsworth</ref>, <hi
+                            rendition="#italics">
+                            <title>The Recluse</title></hi> Part First, Book First, Home at
+                        Grasmere); "make us less forlorn" (<ref
+                            target="people.html#WordsworthWilliam">Wordsworth</ref>, <hi
+                            rendition="#italics">
+                            <title>Miscellaneous Sonnets</title></hi> Pt 1, xxxiii.</note> For this
+                    reason the "<title>Forest Sanctuary</title>" is our first favourite. But <quote>
+                        <lg type="stanza">
+                            <l>Time is, our tedious prose should here have ending.<note>
+                                    <ref target="people.html#MiltonJohn">John Milton</ref>, <hi
+                                        rendition="#italics">
+                                        <title>On the Morning of Christ's Nativity</title></hi>
+                                    (1629), stanza 27, slightly altered. </note>
+                            </l>
+                        </lg></quote></p>
+                <p>Had <ref target="people.html#HemansFelicia">Felicia Hemans</ref> belonged to
+                    antiquity, it is probable that some of her lyrics might have descended to us,
+                    and been considered now as perfect specimens of song. That word reminds us that
+                    we have not mentioned one branch of composition in which our poetess especially
+                    excels, and to which she appears recently to have given particular attention—we
+                    mean songwriting. Our musical readers are probably familiar with many so sweetly
+                    set to music by her sister. In songs there should be <hi rendition="#italics">
+                        one</hi> thought or <hi rendition="#italics"> one</hi> feeling flowing out
+                    in simple, natural, melodious words. <ref target="people.html#HemansFelicia"
+                        >Mrs. Hemans</ref>'s best, whilst full of melody, are remarkable for their
+                    variety of subject; avoiding sentiment, they contrive to embody knowledge,
+                    description, affection; and we hope she will continue this species of writing.
+                    Good Mr. Printer's black spirit, and worthy Mr. Editor's angelic spirit, be so
+                    good as make room for the following one of six, about to be published (if not
+                    already published) by Power— <quote>
+                        <lg type="title">
+                            <l rendition="#indent8"><hi rendition="#italics"><title>The Lyre and
+                                        Flower</title></hi>. </l>
+                        </lg>
+                        <lg type="stanza">
+                            <l>A lyre its plaintive sweetness poured</l>
+                            <l rendition="#indent2">Forth on the wild wind's track, </l>
+                            <l>The stormy wanderer jarred the chord, </l>
+                            <l rendition="#indent2">But gave no music back. </l>
+                            <l rendition="#indent5">O child of song, </l>
+                            <l rendition="#indent7">Bear hence to heaven thy fire; </l>
+                            <l rendition="#indent5">What hopest thou from the reckless throng? </l>
+                            <l rendition="#indent7">Be not like that lost lyre, </l>
+                            <l rendition="#indent7">Not like that lyre. </l>
+                        </lg>
+                        <lg type="stanza">
+                            <l>A flower its leaves and odour cast</l>
+                            <l rendition="#indent2">On a swift-rolling wave, </l>
+                            <l>Th' unheeding torrent darkly passed, </l>
+                            <l rendition="#indent2">And back no treasure gave. </l>
+                            <l rendition="#indent5">O heart of love! </l>
+                            <l rendition="#indent7">Waste not thy precious dower, </l>
+                            <l rendition="#indent5">Turn to thine only home above; </l>
+                            <l rendition="#indent7">Be not like that lost flower, </l>
+                            <l rendition="#indent7">Not like that flower!<note> Jewsbury reproduces
+                                    "The Lyre and the Flower," one of seven <hi rendition="#italics">
+                                        <title>Words for Melodies</title></hi>, <hi
+                                        rendition="#italics">
+                                        <title>New Monthly Magazine</title></hi> 39 (Dec. 1832):
+                                    412. </note>
+                            </l>
+                        </lg></quote></p>
+                <p>Long may Mr. Power's <hi rendition="#italics"> Strand</hi><note>James Power
+                        (1766-1836) was an Irish-born music publisher whose most substantial
+                        publication, in partnership with his brother William, was <ref
+                            target="people.html#MooreThomas">Thomas Moore</ref>'s <hi
+                            rendition="#italics">Irish Melodies</hi>. His London business was
+                        located at 34 Strand. Thanks to Charles Carter for assistance with this
+                        note.</note> be strewn with such gems! But to conclude at last: <ref
+                        target="people.html#HemansFelicia">Mrs. Hemans</ref> often partakes, it is
+                    true, of the modern faults of diffuseness, over-ornament, and want of force;
+                    but, taken for all in all, and judged by her best productions, she is a
+                    permanent accession to the literature of her country; she has strengthened
+                    intellectual refinement, and beautified the cause of virtue. The superb
+                    creeping-plants of America often fling themselves across the arms of mighty
+                    rivers, uniting the opposite banks by a blooming arch: so should every poet do
+                    to truth and goodness—so has <ref target="people.html#HemansFelicia">Felicia
+                        Hemans</ref> often done, and been, poetically speaking, a Bridge of Flowers.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

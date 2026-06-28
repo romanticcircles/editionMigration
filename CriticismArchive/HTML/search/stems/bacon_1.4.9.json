@@ -1,0 +1,35 @@
+
+  { "stem" : "bacon",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Bacon",
+            "weight" : "1",
+            "pos" : 1876,
+            "context" : "...for the Greek god Dionysus. [KI]  <mark>Bacon<\/mark>, Francis, 1561-1626 (Library of...",
+            "fid" : "BaconFrancis" },
+          
+          { "form" : "Bacon",
+            "weight" : "1",
+            "pos" : 1890,
+            "context" : "...a public figure by accusations of corruption, Lord <mark>Bacon<\/mark> turned to philosophical writing. His major works included..." },
+          
+          { "form" : "Bacon",
+            "weight" : "1",
+            "pos" : 3231,
+            "context" : "...), The Widow Ranter; or, The History of <mark>Bacon<\/mark> in Virginia (1689), and The Younger Brother..." } ] },
+      
+      { "docId" : "LandonCritChateaubriand1836",
+        "docUri" : "LandonCritChateaubriand1836.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bacon",
+            "weight" : "1",
+            "pos" : 662,
+            "context" : "...slaves.\"14 Are such minds as those of <mark>Bacon<\/mark> and of Locke only \"beautiful slaves?\" and can...",
+            "fid" : "ref48" } ] } ] }

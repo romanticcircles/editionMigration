@@ -1,0 +1,40 @@
+
+  { "stem" : "kent",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Kent",
+            "weight" : "1",
+            "pos" : 5961,
+            "context" : "...figure, Hubert de Burgh, 1st Earl of <mark>Kent<\/mark>, served as an ambassador and sheriff under King..." },
+          
+          { "form" : "Kent",
+            "weight" : "1",
+            "pos" : 18417,
+            "context" : "...mother of Lady Jane Grey. [LD] <mark>Kent<\/mark>, Henry Grey, Duke of, 1671?-1740...",
+            "fid" : "GreyHenry" },
+          
+          { "form" : "Kent",
+            "weight" : "1",
+            "pos" : 18451,
+            "context" : "...of his sons, Grey's title of Duke of <mark>Kent<\/mark> became extinct upon his death. [LD]..." },
+          
+          { "form" : "Kent",
+            "weight" : "1",
+            "pos" : 26092,
+            "context" : "...(1675-1758), of Seven Oaks in <mark>Kent<\/mark>. [MW]  L. E. L. (Letitia..." } ] },
+      
+      { "docId" : "LandonBulwer1831",
+        "docUri" : "LandonBulwer1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Kent",
+            "weight" : "1",
+            "pos" : 794,
+            "context" : "...\"the whole commons\" of periodicals, like those \"in <mark>Kent<\/mark>, were up in arms.\"12 One represented...",
+            "fid" : "para14" } ] } ] }

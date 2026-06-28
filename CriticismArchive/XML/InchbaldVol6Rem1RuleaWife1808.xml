@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Rule a Wife and Have a Wife</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol6Rem1RuleaWife1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Rule a Wife and Have a Wife]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Rule a Wife and Have a Wife;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Beaumont and Fletcher. As Performed
+                     at the Theatres Royal, Covent Garden and Drury Lane. Printed under the
+                     Authority of the Managers from the Prompt Book. With Remarks by Mrs.
+                     Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VI. Rule A Wife And Have A Wife. Chances. New Way
+                     To Pay Old Debts. Alexander The Great. All For Love.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Beaumont, Francis, 1584-1616</item>
+                  <item>Fletcher, John, 1579-1625</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240905" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Rule a
+                           Wife and Have a Wife</title></hi>]. <note>"Remarks." <hi
+                           rendition="#italics"><title><title>Rule a Wife and Have a Wife</title>; A
+                              Comedy, In Five Acts; By <ref target="people.html#BeaumontFrancis"
+                                 >Beaumont</ref> and <ref target="people.html#FletcherJohn"
+                                 >Fletcher</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp. 3-5. <hi
+                           rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VI. <hi
+                           rendition="#italics">
+                           <title>Rule a Wife and Have a Wife</title></hi>. <hi rendition="#italics"
+                              ><title>Chances</title></hi>. <hi rendition="#italics"><title>New Way
+                              to Pay Old Debts</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#AlexandertheGreat">Alexander the
+                              Great</ref></title></hi>. <hi rendition="#italics"><title>All for
+                              Love</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                        Blackfriars Theatre on October 19<hi rendition="#sup">th</hi>, 1624. Though
+                           <ref target="people.html#InchbaldMrs">Inchbald</ref> attributes the
+                        authorship of this play to both men, scholars agree that <hi
+                           rendition="#italics"><title>Rule a Wife and Have a Wife</title></hi> was
+                        written by <ref target="people.html#FletcherJohn">Fletcher</ref> alone.
+                        Laura DeWitt and Mary A. Waters edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>The fifty-three plays, which are published as the joint works of <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                  target="people.html#FletcherJohn">Fletcher</ref>, do not give them more reputation
+               as poets, than their steady friendship confers honour upon them as men.<note>The
+                  first <ref target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                     target="people.html#FletcherJohn">Fletcher</ref> folio published in 1647
+                  contained 35 plays, while 53 plays were included in the second folio of 1679.
+                  Other works not included in the folios bring the total number of plays to 55.
+                  While the authorship of the plays remains disputed, scholars generally agree that
+                  12 to 15 of the plays were written as a joint effort by both men.</note></p>
+
+            <p>To the querulous and the vain it must be a subject of astonishment, how two persons
+               could derive fame so directly from the same source, as writing plays together,
+               without contending which had the strongest claim to that general admiration, which
+               their productions excited!&#8212;To female authors, of all others, this long mental
+               union must be matter of amazement! With them, such a conjunction of efforts had been
+               intolerable as soon as praise became the reward; each would then have demanded the
+               largest share, prompted by the conscientious scruples of justice.<note><ref
+                     target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                     target="people.html#FletcherJohn">Fletcher</ref> were notoriously close
+                  friends, perhaps writing plays together as early as 1605. <ref
+                     target="people.html#AubreyJohn">John Aubrey</ref>'s <hi rendition="#italics"
+                        ><title>Brief Lives</title></hi> (c. 1680, edited by Andrew Clark, 1898), a
+                  collection of short biographies largely based on gossip, claimed that the two
+                  lived together, laid together, and shared the same clothes and "wench" (p. 96). If
+                  this were the case, the arrangement would have ended upon <ref
+                     target="people.html#BeaumontFrancis">Beaumont</ref>'s marriage in 1613.
+                  However, this story is not supported by any further evidence.</note></p>
+
+            <p>There is one failing, notwithstanding their stable friendship, which likens these
+               poets to the female sex&#8212;they did not write perfect grammar.&#8212;It was the
+               fashion of the times to be incorrect; and ease is the parent genius.<note><ref
+                     target="people.html#FletcherJohn">Fletcher</ref>'s idiosyncratic style featured
+                  the use of "ye" over "you," "'em" instead of "them," and a sixth stressed syllable
+                  added to the typical pentameter verse line. <ref target="people.html#FletcherJohn"
+                     >Fletcher</ref>'s plays also reflected his love of the humor of common
+                  people.</note>
+               <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, who wrote at the same
+               time, might have been restrained in many <fw type="sig"><hi rendition="#smcaps">b
+                     2</hi></fw><pb n="4"/>of his sublimest flights, by the dread of a modern
+               Review.</p>
+
+            <p>These allied dramatists wanted, however, neither learning, nor the most refined
+               society of the period in which they wrote, to qualify them for the task they
+               fulfilled. They were both educated at Cambridge; and the father of <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> was one of the Judges of the
+               Court of Common Pleas;<note>The Court of the Common Pleas, or the Common Bench, was a
+                  common-law court that covered inter-subject disputes that did not involve the
+                  king.</note> whilst <ref target="people.html#FletcherJohn">Fletcher</ref> was son
+               to the <ref target="people.html#FletcherRichard">Bishop of London</ref>. There was
+               nine years difference in their ages; the birth of the last being in 1576, and of the
+               first, in 1585.<note>Here <ref target="people.html#InchbaldMrs">Inchbald</ref>'s
+                  dates are slightly skewed. <ref target="people.html#FletcherJohn">Fletcher</ref>
+                  and <ref target="people.html#BeaumontFrancis">Beaumont</ref> were born in 1579 and
+                  1584, respectively.</note></p>
+
+            <p>The weight of years was on <ref target="people.html#FletcherJohn">Fletcher</ref>'s
+               side, but tradition has given the weight of judgment to <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref>. It is supposed, that <ref
+                  target="people.html#FletcherJohn">Fletcher</ref> wrote, whilst <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> planned the fable, and
+               corrected the dialogue of his more witty and volatile, though elder
+                  associate.<note>This tradition is recounted in <ref
+                     target="people.html#AubreyJohn">John Aubrey</ref>'s <hi rendition="#italics"
+                        ><title>Brief Lives</title></hi> (ed. Andrew Clark, 1898): "his maine
+                  business was to correct the overflowings of <ref target="people.html#FletcherJohn"
+                     >Mr. Fletcher</ref>'s witt" (p. 96).</note> But all accounts upon this point
+               are merely conjectural, for the authors behaved too much like men to disclose the
+               secret means of their labour; and here a curious inquirer after facts might almost
+               wish they had been women.</p>
+
+            <p>Highly gratifying to the reader of wisdom and learning as the plays of <ref
+                  target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                  target="people.html#FletcherJohn">Fletcher</ref> may be, there is an uncomfortable
+               antiquity of principle and manners in most of them, which must exclude their
+               representation in the present age, and raise wonder in the mind of many a critic,
+               that there was ever a period so tasteless, as to give them preference before the
+               dramas of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>.<note>The
+                  plays of <ref target="people.html#BeaumontFrancis">Beaumont</ref> and <ref
+                     target="people.html#FletcherJohn">Fletcher</ref> were more popular than those
+                  of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref> until the
+                  beginning of the 18<hi rendition="#sup">th</hi> century.</note></p>
+
+            <p>"<title>Rule a Wife and have a Wife</title>," as altered by <ref
+                  target="people.html#GarrickDavid">Garrick</ref>,<note><ref
+                     target="people.html#GarrickDavid">David Garrick</ref>'s 1756 adaptation of <hi
+                     rendition="#italics"><title>Rule a Wife and Have a Wife</title></hi> changed
+                  relatively little of the play. Primarily, <ref target="people.html#GarrickDavid"
+                     >Garrick</ref> shifted the focus of the play from Perez and Estifania, the two
+                  main love interests, to Leon, a young Spanish gentleman and husband of an heiress,
+                  the role which <ref target="people.html#GarrickDavid">Garrick</ref> frequently
+                  assumed.</note> ranks foremost among the selected plays of these <pb n="5"/>united
+               authors, that are now performed: and though it has an unpleasing fable, with female
+               characters perfectly detestable, yet it is constituted with parts so ably written, so
+               forcible in sentiment and humour, that actors of a certain class of excellence must
+               ever give it powerful effect in the exhibition. But to preserve its fame on the
+               stage, no common performers can be entrusted with the charge.</p>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

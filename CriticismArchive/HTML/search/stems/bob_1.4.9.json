@@ -1,0 +1,40 @@
+
+  { "stem" : "bob",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bob",
+            "weight" : "1",
+            "pos" : 36312,
+            "context" : "...Goldsmith's She Stoops to Conquer (1773), <mark>Bob<\/mark> Acres in Richard Brinsley Sheridan's The Rivals (..." },
+          
+          { "form" : "Bob",
+            "weight" : "1",
+            "pos" : 45047,
+            "context" : "...from 1721 to 1742, and the author of <mark>Bob<\/mark>—Lynn against Franck—Lynn, or, A..." } ] },
+      
+      { "docId" : "InchbaldVol10Rem4LadyJaneGrey1808",
+        "docUri" : "InchbaldVol10Rem4LadyJaneGrey1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bobs",
+            "weight" : "1",
+            "pos" : 181,
+            "context" : "..., presently sometimes with pinches, nips, and <mark>bobs<\/mark>, and other ways, which I will not...",
+            "fid" : "quot1" } ] },
+      
+      { "docId" : "InchbaldVol8Rem1ConstantCouple1808",
+        "docUri" : "InchbaldVol8Rem1ConstantCouple1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bob",
+            "weight" : "1",
+            "pos" : 488,
+            "context" : "...to his friend Wilks:— [Page 7]Dear <mark>Bob<\/mark>, I have not any thing to leave you...",
+            "fid" : "ref38" } ] } ] }

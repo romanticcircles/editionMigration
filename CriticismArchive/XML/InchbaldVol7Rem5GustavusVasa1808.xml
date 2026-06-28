@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Gustavus Vasa</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol7Rem5GustavusVasa1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Gustavus Vasa]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Gustavus Vasa; or, the Deliverer of his
+                     Country;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Henry Brooke, Esq. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VII. Isabella. Oroonoko. Distressed Mother. Zara.
+                     Gustavus Vasa.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">7</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Brooke, Henry, 1703?-1783</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240915" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240626" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#GustavIKingofSweden">Gustavus
+                        Vasa</ref></title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#GustavIKingofSweden"
+                                    >Gustavus Vasa</ref></title>; or, the Deliverer of his Country;
+                              A Tragedy, In Five Acts; By <ref target="people.html#BrookeHenry"
+                                 >Henry Brooke</ref>, Esq. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row, pp. 3-6. <hi rendition="#italics"><title level="m">The
+                              British Theatre; or, A Collection of Plays, Which Are Acted At the
+                              Theatres Royal, <ref target="people.html#DruryLane">Drury Lane</ref>,
+                                 <ref target="people.html#CoventGarden">Covent Garden</ref>, and
+                                 <ref target="people.html#Haymarket">Haymarket</ref>. Printed Under
+                              the Authority of the Managers from the Prompt Books. With Biographical
+                              and Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VII. <hi
+                           rendition="#italics">
+                           <title>Isabella</title></hi>. <hi rendition="#italics"
+                              ><title>Oroonoko</title></hi>. <hi rendition="#italics"
+                              ><title>Distressed Mother</title></hi>. <hi rendition="#italics"
+                              ><title>Zara</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#GustavIKingofSweden">Gustavus
+                              Vasa</ref></title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on March 17<hi rendition="#sup">th</hi>, 1739. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The writer of this tragedy, at the end of his labour, received a severe
+               disappointment. "<title><ref target="people.html#GustavIKingofSweden">Gustavus
+                     Vasa</ref></title>" had been accepted by the managers of <ref
+                  target="people.html#DruryLane">Drury Lane</ref>, in 1739, with high expectation of
+               its success, and had even arrived at the last rehearsal, when an order came from the
+               Lord Chamberlain's office, to prohibit its performance.<note>Prior to 1737, the
+                  position of Lord Chamberlain entailed staffing the intimate attendants of the
+                  Sovereign and overseeing entertainment and ceremonies for the court, a role that
+                  permitted somewhat informal but often decided authority over theatrical
+                  productions. However, with the passing of <ref target="people.html#WalpoleRobert"
+                     >Sir Robert Walpole</ref>'s Licensing Act of 1737, the Lord Chamberlain's
+                  official duties came to include the censorship of theatrical performances, whether
+                  by modification or outright veto. <hi rendition="#italics"><title><ref
+                           target="people.html#GustavIKingofSweden">Gustavus Vasa</ref></title></hi>
+                  was the first play banned under the act, as the then-Prime Minister, <ref
+                     target="people.html#WalpoleRobert">Sir Robert Walpole</ref>, believed the
+                  play's villain too closely resembled himself.</note></p>
+            <p>The reader will possibly observe some passages in the work, which will account for
+               this mandate; yet <ref target="people.html#BrookeHenry">the author</ref> felt himself
+               aggrieved, and his friends considered him so deeply wronged, that the play was
+               printed, and the sum of one thousand pounds immediately raised by its sale.<note>The
+                  Licensing Act of 1737 had no power over the written word, and over a thousand
+                  copies of <hi rendition="#italics"><title><ref
+                           target="people.html#GustavIKingofSweden">Gustavus Vasa</ref></title></hi>
+                  were sold following its prohibition.</note></p>
+            <p>Under these circumstances it is not probable, that the influence of authority was a
+               misfortune to the dramatist; on the contrary, his production was rendered popular by
+               having excited opposition from the hand of power; and every reader was highly pleased
+               with it as a literary performance; whereas, had those very persons seen it in action,
+               upon the stage, no doubt but it would have proved a languid, if not a dull
+               exhibition.</p>
+            <pb n="4"/>
+            <p>In evidence of this opinion, not one of the sentiments which were formerly dreaded by
+               government, can apply to the present times; yet the play is seldom acted; and the
+               reason is, because it is deficient both of interest and incident for representation.
+               Its greatest merit, then, it seems, has been, in the giving a kind of seditious
+               description of the blessing of liberty, which warmed the bosoms of all those, who
+               fancied they did not enjoy it. But liberty, like meaner blessings, palls in the
+               possession, and now, though an English audience still think themselves bound to
+               applaud those sentences which boast of freedom, long use has made its charms so
+               familiar, that no ceremonious courtesy to so old an acquaintance, will make a play
+               attractive which has not other requisites.</p>
+            <p>This play should, properly, be called historical, for its foundation is the following
+               page of history:&#8212; <quote><ref target="people.html#GustavIKingofSweden">Gustavus
+                     I. King of Sweden</ref>, known by the name of <ref
+                     target="people.html#GustavIKingofSweden">Gustavus Vasa</ref>, was born in 1490.
+                  He was the son of Eric Vasa, Duke of Gripsholm, and descended from the ancient
+                  kings of Sweden. <ref target="people.html#ChristianIIKingofDenmark">Christiern II.
+                     King of Denmark</ref>, having got <ref target="people.html#GustavIKingofSweden"
+                     >Gustavus</ref> into his hands, in the war in which he reduced Sweden, kept him
+                  several years prisoner at Copenhagen. He at length made his escape, and having
+                  prevailed on the Dalecarlians to throw off the Danish yoke, he put himself at
+                  their head. <hi rendition="#flushRight"><title>MOD. UNIV. HIST.</title><note>Eric
+                        Vasa was killed as a heretic in the Stockholm Bloodbath along with other
+                        Swedish nobles working against the Kalmar Union in Scandinavia. Their deaths
+                        were politically motivated and played an important role in prompting the
+                        Swedish War of Liberation. The inhabitants of the old province of Dalecarlia
+                        in central Sweden were known for their patriotism and bravery. <ref
+                           target="people.html#InchbaldMrs">Inchbald</ref> references the parts of
+                        the 33<hi rendition="#sup">rd</hi> (1761) and 34<hi rendition="#sup">th</hi>
+                        (1762) volumes of <hi rendition="#italics">
+                           <title>The Modern Part of An Universal History</title></hi> that deal
+                        with the country of Sweden and the life of <ref
+                           target="people.html#GustavIKingofSweden">Gustavus</ref> as head of the
+                        Swedish country. This exact quote cannot be found within these volumes, but
+                           <ref target="people.html#InchbaldMrs">Inchbald</ref> may have been
+                        quoting from memory. The 1490 date given for <ref
+                           target="people.html#GustavIKingofSweden">Gustavus</ref>'s date of birth
+                        is taken from <ref target="people.html#GustavIKingofSweden">Vasa</ref>'s
+                        Swedish biographer Erik Jöransson Tegel, but is not universally accepted by
+                        historians. No date is given in <hi rendition="#italics">
+                           <title>The Modern Part of An Universal History</title></hi>.
+                  </note></hi></quote></p>
+            <p>At this crisis the tragedy commences, and continues throughout an event of much
+               interest, in the pe-<pb n="5"/>rusal, though not conducted with dramatic force or
+               skill.</p>
+            <p><ref target="people.html#BrookeHenry">Mr. Brooke</ref>, the author, being a native of
+               Ireland, while he resided at his paternal estate, in the county of Cavan, wrote some
+               dramas for the Dublin stage; but the same spirit of persecution, as he has termed it,
+               pursued him in Hibernia: and an opera, entitled "<title>Jack the Giant
+                  Queller</title>," after being performed one night with success, was forbidden by
+               the Lord Lieutenant, ever to be acted again.<note>County Cavan, named after the town
+                  of Cavan and based in the historic Gaelic territory of East Breffny, is part of
+                  the Northern and Western region of Ireland. The son of a well-off clergyman, <ref
+                     target="people.html#BrookeHenry">Brooke</ref> was born and raised at Rantavan
+                  House in County Cavan. Hibernia was one of the titles by which Ireland was known
+                  to ancient Roman and Greek writers. The dramatis personæ of <ref
+                     target="people.html#BrookeHenry">Brooke</ref>'s 1749 operatic satire <hi
+                     rendition="#italics"><title>Jack the Giant-Queller</title></hi> consisted of
+                  the giants of Wealth, Violence, Wrong, and Power, and "the family of the Goods,"
+                  which included the Princess Justice. The government of Ireland prohibited this
+                  play after its first performance due to its political allusions.</note></p>
+            <p>The love of liberty in <ref target="people.html#BrookeHenry">Mr. Brooke</ref>,
+               naturally increased the more he felt its loss, and, from a mere admirer, he became an
+               enthusiast in the cause.&#8212;During the rebellion in 1745, he took an active part
+               in politics, and wrote the "<title>Farmer's Letters</title>" in imitation of
+                  "<title>The Drapier's</title>" of <ref target="people.html#SwiftJonathan">Dean
+                  Swift</ref>, which gave high offence to the government of Ireland, whilst his
+               friends declared, they only breathed the zeal of a true patriot.<note>The Jacobite
+                  Rising of 1745 was the most nearly successful of <ref
+                     target="people.html#CharlesEdwardPrince">Prince Charles Edward Stuart</ref>'s
+                  attempts to reclaim the British throne for his father, <ref
+                     target="people.html#JamesPrinceofWales">James Francis Edward Stuart</ref>,
+                  after the Stuart throne had been lost by <ref
+                     target="people.html#JamesIIKingofEngland">King James II</ref> during the
+                  Glorious Revolution of 1688. <ref target="people.html#BrookeHenry">Brooke</ref>
+                  published <hi rendition="#italics"><title>Farmer's Letters to the Protestants of
+                        Ireland</title></hi> in 1745. The letters were written from the perspective
+                  of a protestant Irish farmer attempting to galvanize his fellow protestants to
+                  make preparations against the Jacobite uprising. <ref
+                     target="people.html#SwiftJonathan">Jonathan Swift</ref>'s <hi
+                     rendition="#italics"><title>Drapier's Letters</title></hi> were a series of
+                  pamphlets written between 1724 and 1725 to rouse public attention against the
+                  English government's scheme to supply Ireland with inferior, privately-minted
+                  copper coinage.</note> Such are the discordant sentiments of various readers!</p>
+            <p>Such also are the discordant sensations of certain writers with certain readers, that
+               this author, in his public statement of facts, relative to the Lord Chamberlain's
+               forbidding the performance of "<title><ref target="people.html#GustavIKingofSweden"
+                     >Gustavus Vasa</ref></title>," on account of its disloyal tendency, thus
+               asserts&#8212;"I was so far from a view of merit with the disaffected, that I looked
+               on this performance as the highest compliment I could pay to the present
+                  establishment."<note>From "A Prefactory Dedication to the Subscribers" in <ref
+                     target="people.html#BrookeHenry">Brooke</ref>'s <hi rendition="#italics"
+                           ><title><ref target="people.html#GustavIKingofSweden">Gustavus
+                        Vasa</ref>, The Deliverer of his Country</title></hi> (1739, p.
+               V).</note></p>
+            <p>But partial judgment, in the case of literature, can-<lb/><fw type="sig"><hi
+                     rendition="#smcaps">b 3</hi></fw><pb n="6"/>not be better exemplified than in
+               the following lines, extracted from a poem addressed to the author of <title><ref
+                     target="people.html#GustavIKingofSweden">Gustavus Vasa</ref></title>, by <ref
+                  target="people.html#WhiteheadPaul">Paul Whitehead</ref>. <quote>
+                  <lg type="stanza">
+                     <l><ref target="people.html#ShakespeareWilliam">Shakspeare's</ref> no
+                        more&#8212;lost was the poet's name,</l>
+                     <l>Till thou, my friend, my genius, sprung to fame.</l>
+                     <l>Lur'd by his laurels' never-fading bloom,</l>
+                     <l>You boldly snatch'd the trophy from his tomb.<note>"To <ref
+                              target="people.html#BrookeHenry">Mr. Brooke</ref>, on the Refusal of a
+                           Licence to his Play of <title><ref
+                                 target="people.html#GustavIKingofSweden">Gustavus
+                              Vasa</ref></title>." Lines 25-28, found in <hi rendition="#italics"
+                                 ><title>The Poems and Miscellaneous Compositions Of <ref
+                                    target="people.html#WhiteheadPaul">Paul
+                              Whitehead</ref></title></hi> (1777).</note></l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

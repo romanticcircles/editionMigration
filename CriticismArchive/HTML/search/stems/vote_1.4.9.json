@@ -1,0 +1,35 @@
+
+  { "stem" : "vote",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "voting",
+            "weight" : "1",
+            "pos" : 3495,
+            "context" : "...freedom; equal rights for women in property, <mark>voting<\/mark>, and divorce; decriminalizing of homosexual acts;..." } ] },
+      
+      { "docId" : "LandonCritChateaubriand1836",
+        "docUri" : "LandonCritChateaubriand1836.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vote",
+            "weight" : "1",
+            "pos" : 1317,
+            "context" : "...said of the royal power, in the celebrated <mark>vote<\/mark> of the Commons in George the Third's time...",
+            "fid" : "para24" } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "voted",
+            "weight" : "1",
+            "pos" : 9022,
+            "context" : "...concerning the point we have been discussing. Some <mark>voted<\/mark> for killing Clementina, and very few were satisfied...",
+            "fid" : "para114" } ] } ] }

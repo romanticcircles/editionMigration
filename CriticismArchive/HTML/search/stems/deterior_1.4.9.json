@@ -1,0 +1,29 @@
+
+  { "stem" : "deterior",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "deteriorate",
+            "weight" : "1",
+            "pos" : 5464,
+            "context" : "...marriage, Elizabeth Barrett Browning's health again began to <mark>deteriorate<\/mark>, and in 1861 a rupture in her lungs..." },
+          
+          { "form" : "deteriorated",
+            "weight" : "1",
+            "pos" : 24814,
+            "context" : "..., but as his compulsions overtook him, his performances <mark>deteriorated<\/mark>. In 1833 he collapsed on stage while playing..." } ] },
+      
+      { "docId" : "LandonBulwer1831",
+        "docUri" : "LandonBulwer1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "deteriorating",
+            "weight" : "1",
+            "pos" : 2972,
+            "context" : "...but our present literary bush-fighting is as <mark>deteriorating<\/mark> as it is disgraceful. There are some excellent...",
+            "fid" : "para23" } ] } ] }

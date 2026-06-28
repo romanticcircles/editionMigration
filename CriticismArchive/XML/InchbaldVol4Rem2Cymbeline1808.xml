@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Cymbeline</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol4Rem2Cymbeline1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Cymbeline]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Cymbeline;</title>
+                  <title type="sub">A Historical Play, in Five Acts; By William Shakspeare. As
+                     Performed at the Theatres Royal, Drury Lane and Covent Garden. Printed under
+                     the Authority of the Managers from the Prompt Book. With Remarks by Mrs.
+                     Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IV. King Lear. Cymbeline. Macbeth. Julius Cæsar.
+                     Anthony and Cleopatra. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">4</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240830" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><ref
+                           target="people.html#Cunobelinus"><title>Cymbeline</title></ref></hi>].
+                        <note>"Remarks." <hi rendition="#italics"><title><title><ref
+                                    target="people.html#Cunobelinus">Cymbeline</ref></title>; A
+                              Historical Play, In Five Acts; By <ref
+                                 target="people.html#ShakespeareWilliam">William Shakspeare</ref>.
+                              As Performed at the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref> and <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>, London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. IV. <hi rendition="#italics"><title><ref
+                                 target="people.html#LearKingofBritain">King
+                        Lear</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#Cunobelinus">Cymbeline</ref></title></hi>. <hi
+                           rendition="#italics"><title><ref target="people.html#Macbeth"
+                                 >Macbeth</ref></title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#CaesarJulius">Julius Cæsar</ref></title></hi>.
+                           <hi rendition="#italics"><title><ref target="people.html#AntoniusMarcus"
+                                 >Antony</ref> and <ref
+                                 target="people.html#CleopatraVIIQueenofEgypt"
+                              >Cleopatra</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was likely staged at the Blackfriars or Globe Theatre in 1609 or 1610. Laura
+                        DeWitt and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#MaloneEdmond">Mr. Malone</ref> informs the public, that the
+               king from whom this play takes its title, began his reign, according to <ref
+                  target="people.html#HolinshedRaphael">Holinshed</ref>, in the nineteenth year of
+               the reign of <ref target="people.html#CaesarAugustus">Augustus Cæsar</ref>; and the
+               play commences in, or about, the twenty-fourth of <ref
+                  target="people.html#Cunobelinus">Cymbeline</ref>'s reign, which was the
+               forty-second year of <ref target="people.html#CaesarAugustus">Augustus</ref>, and the
+               sixteenth of the Christian era.<note>From <ref target="people.html#MaloneEdmond"
+                     >Edmond Malone</ref>'s <hi rendition="#italics"><title>The Plays and Poems of
+                           <ref target="people.html#ShakespeareWilliam">William
+                        Shakspeare</ref></title></hi>, vol. 8, p. 309.</note>&#8212;<ref
+                  target="people.html#Cunobelinus">Cymbeline</ref> is said to have reigned
+               thirty-five years, leaving at his death two sons, Guiderius, and Arviragus.<note>Both
+                  sons are kings in British legend, though it is doubted that either were real
+                  historical figures. In <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>'s <hi rendition="#italics"><title><ref
+                           target="people.html#Cunobelinus">Cymbeline</ref></title></hi>, Guiderius
+                  is the elder of the two brothers, both of whom were kidnapped by the banished
+                  lord, Belarius, as infants.</note></p>
+
+            <p>Notwithstanding an English king and his children furnish some names in this tragedy,
+               it is supposed, that its fable is taken from an Italian novel, which the dramatist
+               has blended with many incidents, the produce of his own fancy.<note>The work to which
+                     <ref target="people.html#InchbaldMrs">Inchbald</ref> refers is the ninth tale
+                  of the second day in <ref target="people.html#Boccaccio">Giovanni
+                  Boccaccio</ref>'s <hi rendition="#italics"><title>The Decameron</title></hi> (c.
+                  1353).</note></p>
+
+            <p>Variety of events form the peculiar character of this play; attention is kept awake
+               by sudden changes of time, place, and circumstances; but the mind obtains little
+               reward for its watchfulness. Among the many amusing things, both seen and heard, at
+               the representation of "<title><ref target="people.html#Cunobelinus"
+                  >Cymbeline</ref></title>," that part in which the great author is concerned,
+               generally makes so <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"
+               />slight an impression upon an audience, that, when the curtain is dropped, they
+               immediately discourse upon the splendour of Imogen's<note place="foot">The daughter
+                  of <ref target="people.html#Cunobelinus">Cymbeline</ref> by a former queen,
+                  disguised later in the play as the page Fidele.</note> bed-chamber, the becoming
+               dress she wore as a boy, and the dexterity with which Iachimo<note place="foot">A
+                  womanizing Roman lord and an acquaintance of Posthumus, Imogen's husband who was
+                  initially an orphan raised alongside her by <ref target="people.html#Cunobelinus"
+                     >Cymbeline</ref>. Due to his secret marriage with Imogen, Posthumus is banished
+                  to Rome, where Iachimo bets that his seduction can sway Imogen from her fidelity
+                  to Posthumus. Deceived by Iachimo's subsequent report of Imogen's infidelity,
+                  Posthumus orders Pisanio, his servant, to murder Imogen.</note> crept out, and
+               crept into his coffer; without bestowing equal observation upon any of those sorrows
+               or joys, which they have just seen exhibited.</p>
+
+            <p>Still the impossibility, that half the events in this play could ever occur, cannot
+               be the sole cause of its weak effect. <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>'s scenes are frequently such, as could not take place in real
+               life; and yet the sensations which they excite are so forcible, that improbability is
+               overpowered by the author's art, and his auditors are made to feel, though they
+               cannot believe. </p>
+
+            <p>No such magic presides over the play of "<title><ref target="people.html#Cunobelinus"
+                     >Cymbeline</ref></title>," as to transform reason into imagination&#8212;the
+               spectator may be pleased, but cannot be impassioned. The only scene which approaches
+               the pathetic, is that where Imogen is informed by Pisanio, of her husband's command,
+               that she should be murdered;&#8212;and this is a vengeance so unlike the forgiving
+               temper of an English courtier, upon similar occasions, that it appears, as if the air
+               of Italy had, as she suspects, infected the loving Posthumus with that nation's
+               predominant crimes, and no one heart is deeply affected by so extraordinary an
+               occurrence. </p>
+
+            <p>The young mountaineers, the brothers of Imogen, are pleasing figures, among the large
+               group of personages here collected: but still their forest dresses, more than their
+               business in the scene, amuse the spec-<pb n="5"/>tator. Or, if he be moved by any
+               concern about them, it is with hatred, at the inhuman boasting of Guiderius, that he
+               has&#8212;"cut off one Cloten's head, son to the queen, and sent it down the river,
+               to tell his mother,"<note>Act IV, scene ii. Cloten is the son of <ref
+                     target="people.html#Cunobelinus">Cymbeline</ref> with his second wife, the
+                  present Queen.</note> &amp;c. Whoever Cloten was, or whatever ill he might
+               threaten,&#8212;yet, for the author to make this youthful forester lay his foolish
+               enemy dead at his feet, and then be facetious over the horrid act, was sinking him
+               beneath the common bravo, who is ever portrayed grim and gloomy, as the good sign
+               that he is still a man, and has a conscience capable of remorse.</p>
+
+            <p><ref target="people.html#JohnsonSamuel">Johnson</ref> concludes his commentaries on
+               the tragedy of "<title><ref target="people.html#Cunobelinus">Cymbeline</ref></title>"
+               (in which he bestows little praise, except on the soliloquy of Posthumus, when he
+               supposes Imogen has been put to death) with this general criticism. <quote>This play
+                  has many just sentiments, some natural dialogues, and some pleasing scenes; but
+                  they are obtained at the expense of much incongruity. To remark the folly of the
+                  fiction, the absurdity of the conduct, the confusion of the names, and manners of
+                  different times, and the impossibility of the events, in any system of life, were
+                  to waste criticism upon unresisting imbecility, upon faults too evident for
+                  detection, and too gross for aggravation.<note>From <hi rendition="#italics"
+                           ><title>The Plays of <ref target="people.html#ShakespeareWilliam">William
+                              Shakespeare</ref>, With the Corrections and Illustrations of Various
+                           Commentators</title></hi> (1765), vol. 7, p. 403.</note></quote></p>
+
+            <p>How would a modern author writhe under a critique that should accuse his drama, of
+               only one half of these failings!&#8212;Yet "<title><ref
+                     target="people.html#Cunobelinus">Cymbeline</ref></title>" survives this just
+               attack&#8212;and will live admired, and esteemed, to the end of time.</p>
+            <fw type="sig">
+               <hi rendition="#smcaps">b 3</hi>
+            </fw>
+         </div>
+      </body>
+   </text>
+</TEI>

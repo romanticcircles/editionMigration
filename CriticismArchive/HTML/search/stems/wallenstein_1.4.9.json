@@ -1,0 +1,40 @@
+
+  { "stem" : "wallenstein",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wallenstein",
+            "weight" : "1",
+            "pos" : 38876,
+            "context" : ".... His Der Geisterseher was published in 1788. <mark>Wallenstein<\/mark> (1799), the most successful among his many..." },
+          
+          { "form" : "Wallenstein",
+            "weight" : "1",
+            "pos" : 38890,
+            "context" : "...The Piccolomini (1800) and The Death of <mark>Wallenstein<\/mark> (1800). Wilhelm Tell (1804) was..." } ] },
+      
+      { "docId" : "LandonFemalePortraitIIIAliceLee",
+        "docUri" : "LandonFemalePortraitIIIAliceLee.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wallenstein",
+            "weight" : "1",
+            "pos" : 1732,
+            "context" : "...Samuel Taylor Coleridge's translation of The Death of <mark>Wallenstein<\/mark>, by Friedrich Schiller, Act V, Scene III...",
+            "fid" : "note7" } ] },
+      
+      { "docId" : "LandonFemalePortraitIFloraRose",
+        "docUri" : "LandonFemalePortraitIFloraRose.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wallenstein",
+            "weight" : "1",
+            "pos" : 1581,
+            "context" : "14.  From Coleridge's translation of The Death of <mark>Wallenstein<\/mark>, by Friedrich Schiller, Act V, Scene IV....",
+            "fid" : "note14" } ] } ] }

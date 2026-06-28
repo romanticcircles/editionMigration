@@ -1,0 +1,214 @@
+html {
+  scroll-padding-top: 100px; /* doesn't seem to be working -- added top margin to main */
+}
+body {
+    background-color: #fff;
+    background-image: url("../images/bg.png");
+    font-family: "Cormorant+Garmond";
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: .6px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 20%; /* Center the bar over the content */
+    transform: translateX(-20%); /* Offset for perfect centering */
+    background-color: #FFFFFF;
+    width: 100%; /* Fluid width instead of rem */
+    height: auto; /* Let it grow if content wraps */
+    min-height: 5rem;
+    display: flex; /* Flexbox for the whole bar */
+    align-items: center;
+    justify-content: space-between; /* Puts logo/text on left, links on right */
+    padding: 0 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+}
+
+.logo-section {
+    /*  display: flex;
+    align-items: center; */
+}
+
+.logo {
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+}
+
+.masthead {
+    font-family: "Bodoni MT", Didot, serif;
+    font-weight: 550;
+    font-size: 14px;
+    margin: 0.5rem 0 0 0;
+    float: left;
+}
+
+ul.navBar {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem; 
+    margin: 0.5rem 13% 0 0;
+    padding: 0;
+}
+
+ul.navBar li {
+    font-family: "Bodoni MT", Didot, serif;
+    font-variant: small-caps;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+nav a {
+    white-space: nowrap; /* Prevents links from snapping to two lines */
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .masthead {
+        display: none; /* Hide long text on small phones to save space */
+    }
+    
+    nav {
+        width: 95%;
+        padding: 0 0.5rem;
+    }
+
+    ul.navBar {
+        gap: 0.8rem; /* Move links closer on small screens */
+    }
+}       
+            main {
+                background-color: #FFFFFF;
+                width: 75%;
+                margin-left: 3%; 
+                margin-top: 5rem;
+                padding: 2rem 4rem;
+                }
+            h2 {
+                margin-left: 2rem;
+            }
+            h3 {
+                font-size: 18px;
+            }
+a {
+    color: #1A4B75;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    color: #181433;
+    text-decoration: underline;
+}
+a:visited {
+    color: #383175;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:visited:hover {
+    color: #181433;
+    text-decoration: underline;
+}
+            ul.tocList li {
+                font-size: 16px;
+                margin: 0;
+            }
+            ul.author {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+            
+            ul.subContents {
+                list-style-type: none;
+                margin-left: 2rem;
+                padding: 5px 10px;
+                column-count: 2;
+                column-gap: 2rem;
+            }
+            ul.subContents li {
+                break-inside: avoid; 
+                margin-bottom: 0.5rem;
+                text-indent: 0;
+            }
+            .splashTOC {
+                display: block;
+                background-color: rgba(255, 255, 255, 0.65);
+                width: 66%;
+                padding: 10% 17%;
+                margin-right: -7%;
+             }
+            .splashTitle {
+                display: block;
+                text-align: center;
+                width: 40%;
+                float: left;
+                margin-left: 5%;
+                margin-top: 0;
+                }
+            .pic {
+                display: block;
+                float: right;
+                margin-top: -19%;
+                background-image: url("../images/authors-slide3.png");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: 32rem 0;
+                width: 50%;
+                margin-right: -7%;
+                }
+            .splashBlurb  {
+                display: block;
+                width: 42%;
+                margin-left: 8%;
+                float: left;
+                clear: left;
+                font-size: 110%;
+            }
+            .bio {
+                
+            }
+            .italics {
+                font-style: italic;
+            }
+.noteSpace {
+    height: 20em;
+}
+/* Link to copy the page url, at the bottom -- uses javascript */
+.navy-btn {
+  /* Colors & Typography */
+  background-color: #002060; /* Deep navy blue */
+  color: #ffffff;            /* White text */
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  display: block;
+  float: right;
+  margin-right: 5%;
+  margin-top: 1rem;
+  clear: both;
+
+  /* Sizing & Shape */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;        /* Smooth rounded corners */
+  cursor: pointer;
+
+  /* Shadow & Smooth Transitions */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Soft shadow */
+  transition: all 0.1s ease; /* Smooths out the hover/press animations */
+}
+
+/* Hover Effect (Optional: slightly brightens the button when mouse is over it) */
+.navy-btn:hover {
+  background-color: #002b80;
+}
+
+/* The "Jump" / Pressed Effect */
+.navy-btn:active {
+  transform: translateY(2px); /* Pushes the button down 2 pixels */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); /* Shrinks the shadow to match */
+}
+            

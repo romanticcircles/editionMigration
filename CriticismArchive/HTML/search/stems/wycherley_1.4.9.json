@@ -1,0 +1,31 @@
+
+  { "stem" : "wycherley",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wycherley",
+            "weight" : "1",
+            "pos" : 10289,
+            "context" : "..., John Vanbrugh, William Congreve, and William <mark>Wycherley<\/mark>. [LD] Collins, William, 1721...",
+            "fid" : "ref591" },
+          
+          { "form" : "Wycherley",
+            "weight" : "1",
+            "pos" : 46994,
+            "context" : "...along with the French rondeau. [LD] <mark>Wycherley<\/mark>, William, 1640-1716 (Library of...",
+            "fid" : "WycherleyWilliam" } ] },
+      
+      { "docId" : "BarbFieldingBritNov1810",
+        "docUri" : "BarbFieldingBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wycherley",
+            "weight" : "1",
+            "pos" : 564,
+            "context" : "...he seems to have taken his from Congreve and <mark>Wycherley<\/mark>, and to have imitated their loose and vicious...",
+            "fid" : "ref20" } ] } ] }

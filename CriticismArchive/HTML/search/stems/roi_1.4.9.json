@@ -1,0 +1,42 @@
+
+  { "stem" : "roi",
+    "instances" : 
+    [ 
+      { "docId" : "MoodyRevLeParad1789",
+        "docUri" : "MoodyRevLeParad1789.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Roi",
+            "weight" : "1",
+            "pos" : 255,
+            "context" : "...je sis dégringolerToute la famille, sans oublier<mark>Roi<\/mark> Salomon, avec sa sagesse. ",
+            "fid" : "line6" },
+          
+          { "form" : "Roi",
+            "weight" : "1",
+            "pos" : 259,
+            "context" : "And this <mark>Roi<\/mark> Solomon he talks of taking by the nose....",
+            "fid" : "para19" } ] },
+      
+      { "docId" : "MoodyRevLoveEpics1804",
+        "docUri" : "MoodyRevLoveEpics1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Rois",
+            "weight" : "1",
+            "pos" : 806,
+            "context" : "...brilloient de fierté, d'honneur, et d'innocence;<mark>Rois<\/mark> paisibles du monde, en leur regard altier,...",
+            "fid" : "line77" } ] },
+      
+      { "docId" : "MoodyRevMalheur1804",
+        "docUri" : "MoodyRevMalheur1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "rois",
+            "weight" : "1",
+            "pos" : 716,
+            "context" : "...au loin la terre,Et le sujet des <mark>rois<\/mark>, l'esclave des tyrans,De leur sang répandu...",
+            "fid" : "line78" } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "cockney",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "\"Cockney",
+            "weight" : "1",
+            "pos" : 22401,
+            "context" : "...famously defended Romantic poets against Blackwood Magazine's denunciation of <mark>\"Cockney<\/mark> poetry.\" Hunt's most notable works include \"Abou Beh..." },
+          
+          { "form" : "\"Cockney",
+            "weight" : "1",
+            "pos" : 24936,
+            "context" : "...derisively deeming Keats as a member of the vulgar <mark>\"Cockney<\/mark> School.\" Despite the minimal success Keats experienced in..." } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cockney",
+            "weight" : "1",
+            "pos" : 13371,
+            "context" : "...ride, being, as he declares, quite a <mark>cockney<\/mark>, but used a chamber horse, one of...",
+            "fid" : "para152" } ] },
+      
+      { "docId" : "LandonFemalePortraitIFloraRose",
+        "docUri" : "LandonFemalePortraitIFloraRose.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cockney",
+            "weight" : "1",
+            "pos" : 167,
+            "context" : "...marking the Scotch, has been bestowed on the <mark>cockney<\/mark> invaders of the \"land of brown heath and shaggy...",
+            "fid" : "para14" } ] } ] }

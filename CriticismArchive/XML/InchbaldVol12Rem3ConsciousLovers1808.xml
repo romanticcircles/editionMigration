@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Conscious Lovers</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol12Rem3ConsciousLovers1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Conscious Lovers]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Conscious Lovers;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Sir Richard Steele. As Performed at
+                     the Theatres Royal, Covent Garden and Drury Lane. Printed under the Authority
+                     of the Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-7</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Steele, Richard, Sir, 1672-1729</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241010" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Conscious Lovers</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Conscious Lovers</title>; A Comedy, In Five
+                              Acts; By <ref target="people.html#SteeleRichard">Sir Richard
+                                 Steele</ref>. As Performed at the Theatres Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref> and <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>. Printed Under the
+                              Authority of the Managers From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp.
+                        3-7. <hi rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XII. <hi
+                           rendition="#italics">
+                           <title>Orphan</title></hi>. <hi rendition="#italics"><title>Venice
+                              Preserved</title></hi>. <hi rendition="#italics"><title>Conscious
+                              Lovers</title></hi>. <hi rendition="#italics"
+                           ><title>Revenge</title></hi>. <hi rendition="#italics"><title>Beggar's
+                              Opera</title></hi>. London: Printed for Longman, Hurst, Rees, and
+                        Orme, Paternoster Row. 1808. The first performance of this play was staged
+                        at the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                        on November 7<hi rendition="#sup">th</hi>, 1722. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>This play is the work of a man of singular character. He was attached to convival,
+               and even dissipated enjoyments; yet the productions of his pen breathe the purest
+               morality, and the chief practice of his life was benevolence, and every other
+               charitable virtue.</p>
+
+            <p><ref target="people.html#SteeleRichard">Steele</ref> is a well known name to the
+               admirers of the <title>Spectator</title>, the <title>Tatler</title>,<note><hi
+                     rendition="#italics"><title>The Spectator</title></hi>, a collaboration
+                  primarily between <ref target="people.html#SteeleRichard">Richard Steele</ref> and
+                     <ref target="people.html#AddisonJoseph">Joseph Addison</ref>, was a daily
+                  publication which ran from March 1<hi rendition="#sup">st</hi>, 1711, to December
+                     6<hi rendition="#sup">th</hi>, 1712, with a second series running from June
+                     18<hi rendition="#sup">th</hi> to December 20<hi rendition="#sup">th</hi>,
+                  1714. <hi rendition="#italics"><title>The Tatler</title></hi> was a literary and
+                  social journal founded by <ref target="people.html#SteeleRichard">Steele</ref>
+                  which ran from April 12<hi rendition="#sup">th</hi>, 1709, to January 2<hi
+                     rendition="#sup">nd</hi>, 1711.</note> and others of his excellent
+               publications. He was the colleague of the great <ref
+                  target="people.html#AddisonJoseph">Addison</ref>, in dispensing instruction and
+               amusement to the English nation, who reformed their follies, and even their vices, on
+               the perusal of his able lessons.</p>
+
+            <p>The faults, which he saw and regretted in himself, he took infinite pains to
+               eradicate from the inclination of his neighbour. Industriously dissecting his own
+               heart, and beholding each avenue to delinquency, he applied public remedies so
+               efficacious against every minor, as well as capital, error, that his name comes down
+               to posterity as one of the first among British moralists.</p>
+
+            <p><ref target="people.html#SteeleRichard">Steele</ref> was born about the year
+                     1676,<note><ref target="people.html#SteeleRichard">Steele</ref> was born in
+                  1672 in Dublin, Ireland.</note> in Ireland; in which kingdom a branch of his
+               family was possessed of a considerable estate. His father was of English extraction,
+               but resided in Dublin; was a counsellor there, and private secretary to <ref
+                  target="people.html#OrmondeJamesButler">James</ref>, <fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw>
+               <pb n="4"/><ref target="people.html#OrmondeJamesButler">Duke of Ormond</ref>. He sent
+               this, his son <ref target="people.html#SteeleRichard">Richard</ref>, into England for
+               education; where, at the school of the Charter-house, he contracted that intimacy
+               with <ref target="people.html#AddisonJoseph">Addison</ref>, his schoolfellow, which
+               lasted, till death dissolved their friendship.<note><ref
+                     target="people.html#SteeleRichard">Steele</ref>'s father, the wealthy attorney
+                  Richard Steele Senior, died when <ref target="people.html#SteeleRichard"
+                     >Steele</ref> was four, and his mother passed the next year. Following his
+                  parents' deaths, <ref target="people.html#SteeleRichard">Steele</ref> was adopted
+                  by his aunt, Lady Katherine Mildmay, and her husband, Henry Gascoigne, secretary
+                  to <ref target="people.html#OrmondeJamesButler">James Butler, 1<hi
+                        rendition="#sup">st</hi> Duke of Ormonde</ref>. Gascoigne moved the family
+                  to London in the early 1680s, at which point <ref
+                     target="people.html#SteeleRichard">Steele</ref> was enrolled in the
+                  Charterhouse School, an academically rigorous public school, through <ref
+                     target="people.html#OrmondeJamesButler">Ormonde</ref>'s influence. It was there
+                  that <ref target="people.html#SteeleRichard">Steele</ref> met his lifelong friend
+                  and collaborator, <ref target="people.html#AddisonJoseph">Joseph
+                  Addison</ref>.</note></p>
+
+            <p>The taste of <ref target="people.html#SteeleRichard">Richard Steele</ref>, on
+               arriving at manhood, first led him to the army, and he became an ensign in the
+               Guards, and afterwards a captain in the corps of Fusileers.<note><ref
+                     target="people.html#SteeleRichard">Steele</ref> joined the Life Guards, a
+                  ceremonial and fighting outfit of royal bodyguards, in 1692 to support <ref
+                     target="people.html#WilliamIIIKingofEngland">King William III</ref>'s wars
+                  against France. "Fusiliers" are soldiers armed with light muskets&#8212;in 1695,
+                     <ref target="people.html#SteeleRichard">Steele</ref> joined the Coldstreamers,
+                  the second foot guards, and earned the rank of Captain.</note> A taste for polite
+               literature succeeded his military propensity; and he appeared before the public, as a
+               dramatist, in the comedy of "<title>The Funeral; or, Grief a la
+                     Mode</title>."<note><hi rendition="#italics"><title>The Funeral: or, Grief
+                        a-la-Mode</title></hi>, <ref target="people.html#SteeleRichard"
+                  >Steele</ref>'s first play, was first performed in 1701. The comedy was a
+                  commercial success and did much to advance <ref target="people.html#SteeleRichard"
+                     >Steele</ref>'s career as a playwright.</note></p>
+
+            <p>In the choice of his pursuits, both as a soldier and an author, he offended his
+               nearest relations, and thereby lost all hopes of succeeding to that property, of
+               which it was in their power to have rendered him possessed;<note><ref
+                     target="people.html#SteeleRichard">Steele</ref> left Oxford University before
+                  obtaining his degree to become a soldier. He did so without his uncle's
+                  permission, and this disapproval cost him the family estate in West
+                  Ireland.</note> but, in return for this serious and substantial good which he
+               inconsiderately relinquished, he found himself the joy, the idol, of his gay
+               companions; and valued such encomiums as his wit and humour excited, beyond every
+               allurement which true affection or sage advice could offer.</p>
+
+            <p>His first success as a dramatic writer was soon embittered by a failure in his play
+               of "<title>The Lying Lover</title>."<note><ref target="people.html#SteeleRichard"
+                     >Steele</ref>'s 1703 comedy <hi rendition="#italics"><title>The Lying
+                        Lover</title></hi> appeared successful upon its first run of six nights,
+                  including two benefit performances. However, the play was not revived during his
+                  lifetime.</note> But, possessing spirits untamed by disappointment, he pursued his
+               literary employment with renovated ardour, and in his future compositions was
+               generally fortunate.</p>
+
+            <p>The "<title>Conscious Lovers</title>" redeemed the credit he had previously
+               forfeited; and in giving the town a novelty, by combining moral instruction with
+                  enter-<pb n="5"/>tainment, he established a reputation with the good, and
+               augmented his sway among the depraved.</p>
+
+            <p>This play was performed at <ref target="people.html#DruryLane">Drury Lane</ref> in
+                  1721.<note>The first performance of this play was staged at the <ref
+                     target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on November 7<hi
+                     rendition="#sup">th</hi>, 1722.</note> The merit of the graver scenes, from
+               which the most powerful effect was produced at the time it first appeared, has since
+               been much obscured by imitations which have surpassed the original;<note><hi
+                     rendition="#italics"><title>The Conscious Lovers</title></hi> popularized the
+                  genre of the sentimental comedy, which has produced famous works such as <ref
+                     target="people.html#GoldsmithOliver">Oliver Goldsmith</ref>'s <hi
+                     rendition="#italics"><title>She Stoops to Conquer</title></hi> (1773) and <ref
+                     target="people.html#SheridanRichard">Richard Brinsley Sheridan</ref>'s <hi
+                     rendition="#italics"><title>The Rivals</title></hi> (1775).</note> but to <ref
+                  target="people.html#SteeleRichard">Steele</ref> are due the honours of
+               originality, and of teaching an audience to think and to feel, as well as to laugh
+               and applaud, at the representation of a comedy.</p>
+
+            <p>The scenes, wherein Bevil and Indiana<note>The central plot of this play revolves
+                  around Bevil Jr. and his father, Sir John Bevil. Sir John forces Bevil Jr. to
+                  marry Lucinda, daughter of the wealthy Mr. Sealand. However, Bevil Jr. is in love
+                  with Indiana, a poor orphan. Through the play's subplot it is revealed that
+                  Indiana is the long-lost daughter of Mr. Sealand by his first wife.</note> are
+               concerned either together or separately, have ever been considered as elegantly
+               written, highly refined, and deeply interesting. There is, notwithstanding, a degree
+               of languor which pervades some of those scenes in the representation; nor has the
+               remaining part of the comedy force sufficient to buoy up those characters, which,
+               upon the stage, sink into insipidity, through the lifeless weight of mere
+               refinement.</p>
+
+            <p>But though neither the extravagant raptures of love, nor the brilliancy of wit, are
+               here to be found; sprightly dialogue, nervous sentiment, with affecting incident, are
+               excellent substitutes: and if, in the character of Cimberton,<note>Cimberton is a
+                  wealthy young coxcomb whom Mrs. Sealand, Lucinda's mother and Mr. Sealand's second
+                  wife, wishes Lucinda to marry.</note> the author has at times degraded his muse,
+               to comply with the degraded taste of the auditors of that period: the readers of
+               this, will pardon such a fault in one, who seldom offended against good manners: and
+               they will surely set a peculiar value on the whole drama, as the work of <ref
+                  target="people.html#SteeleRichard">Sir Richard Steele</ref>.</p>
+
+            <p>This celebrated author added to his other profes-<fw type="sig">3</fw>
+               <pb n="6"/>sions, that of a politician; and his pen was of infinite use to the party
+               whose opinions he adopted.<note>Through his popular Whig writings, <ref
+                     target="people.html#SteeleRichard">Steele</ref> gained numerous minor political
+                  positions, including Gentleman-Waiter to <ref
+                     target="people.html#GeorgePrinceofGreatBritain">Prince George</ref> (1706–8),
+                  Gazetteer (1707–10), Commander of Stamps (1710–13), Surveyor of the Royal Stables
+                  at Hampton Court (1714–c.1717), Member of Parliament for Stockbridge (in
+                  Hampshire, 1713-14), Member of Parliament for Boroughbridge (in Yorkshire,
+                  1715-22), Commander for Forfeited Estates (1716–25), and most notably, Governor of
+                  the <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref>
+                  (1715–20).</note> He was indefatigable in producing pamphlets, essays, and other
+               political writings, in support of his friends, and to the annoyance of their
+               adversaries.</p>
+
+            <p>As <ref target="people.html#SteeleRichard">Steele</ref> took all the liberty with the
+               press which the press would give, and sometimes a little more&#8212;so, as he ranged
+               himself with the strong or with the weak, on the ministerial or on the opposition
+               side of the question, was he alternately punished or rewarded.<note><ref
+                     target="people.html#SteeleRichard">Steele</ref> was known for his extremely
+                  outspoken Whig writings and admonishment of the Tory party. The party question was
+                  among the most polarizing of <ref target="people.html#SteeleRichard"
+                  >Steele</ref>'s time, and he consistently published Whig writings as the party's
+                  power waxed and waned.</note></p>
+
+            <p>About the middle of <ref target="people.html#AnneQueenofGreatBritain">Queen
+                  Anne</ref>'s reign, this author was both a placeman and pensioner<note><ref
+                     target="people.html#SteeleRichard">Steele</ref> began collecting income from
+                  his first wife's estate after her passing in 1706.</note>&#8212;towards the end of
+               it, he found the resignation of all such profit necessary; and having procured a seat
+               in parliament, was expelled from that house for writing seditious libels.<note>During
+                  his term as Member of Parliament for Stockbridge, <ref
+                     target="people.html#SteeleRichard">Steele</ref> published a pamphlet supporting
+                  the Hanoverian succession to the throne, as opposed to <ref
+                     target="people.html#AnneQueenofGreatBritain">Queen Anne</ref>'s Stuart
+                  relations. <ref target="people.html#SteeleRichard">Steele</ref> was hence expelled
+                  from Parliament on the grounds of "seditious writings."</note></p>
+
+            <p>On the accession of <ref target="people.html#GeorgeIKingofGreatBritain">George the
+                  First</ref>, he was taken into favour, on account of his former disloyalty; was
+               appointed surveyor to the royal stables at Hampton Court; was put into the commission
+               of the peace for the county of Middlesex; obtained a patent from his <ref
+                  target="people.html#GeorgeIKingofGreatBritain">majesty</ref>, which made him
+               manager and governor of the royal company of comedians, during his life, and received
+               the honour of knighthood.<note>Thanks to his previous pamphlet supporting the
+                  Hanoverian succession, <ref target="people.html#SteeleRichard">Steele</ref> earned
+                  the favor of the newly-crowned <ref target="people.html#GeorgeIKingofGreatBritain"
+                     >King George I</ref>, resulting in a knighthood and several political
+                  offices.</note></p>
+
+            <p><ref target="people.html#SteeleRichard">Sir Richard</ref> was now once again chosen a
+               representative in parliament, and obtained a more lucrative appointment than ever, as
+               one of the commissioners for inquiring into the estates, forfeited by the late
+               rebellion in Scotland.<note>The Jacobite Uprising of 1715 was the attempt of <ref
+                     target="people.html#JamesPrinceofWales">James Edward Stuart</ref> to reclaim
+                  the throne for the Stuart line after the ascension of the Hanoverian <ref
+                     target="people.html#GeorgeIKingofGreatBritain">King George</ref>. As much of
+                  the uprising took place in Scotland, many Scottish estates of Jacobites were
+                  seized upon the Hanoverian victory.</note> But neither this, the income which
+               arose from his various other sinecure places, <pb n="7"/>nor a fortune and estate
+               which marriage had brought him, were sufficient to supply that idle luxury in which
+               he lived, and the bounty he bestowed upon the necessitous. He was so inconsiderate,
+               that his very best deeds lost that virtue which they would have derived from
+               premeditation.</p>
+
+            <p>Although, from his careless character, the gifts which <ref
+                  target="people.html#SteeleRichard">Steele</ref> bestowed upon the poor may be
+               ascribed to his want of thought; still the advice, the admonitions, which he
+               generously gave to the world, can admit of no such conclusion&#8212;for he certainly
+               did not write without thinking.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

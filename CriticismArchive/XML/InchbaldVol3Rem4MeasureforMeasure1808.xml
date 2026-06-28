@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Measure for Measure</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol3Rem4MeasureforMeasure1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Measure for Measure]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Measure for Measure;</title>
+                  <title type="sub">A Comedy, in Five Acts; By William Shakspeare. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. III. As You Like It. Merry Wives of Windsor. King
+                     Henry VIII. Measure for Measure. Winter's Tale.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">3</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Shakespeare, William, 1564-1616</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240825" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240625" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>Measure
+                           for Measure</title></hi>]. <note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>Measure for Measure</title>; A Comedy, In Five Acts;
+                              By <ref target="people.html#ShakespeareWilliam">William
+                                 Shakspeare</ref>. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>, London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. III. <hi rendition="#italics"><title>As You
+                              Like It</title></hi>. <hi rendition="#italics"><title>Merry Wives of
+                              Windsor</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#HenryVIIIKingofEngland">King Henry
+                              VIII</ref></title></hi>. <hi rendition="#italics"><title>Measure for
+                              Measure</title></hi>. <hi rendition="#italics"><title>Winter's
+                              Tale</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                        Globe Theatre in 1604. Laura DeWitt and Mary A. Waters edited this essay for
+                           <hi rendition="#italics">The Criticism Archive</hi>. </note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#ShakespeareWilliam">Shakspeare</ref> displays such genius in
+               the characters, poetry, and incident of his dramas, that it is to be regretted, he
+               ever found materials for a plot, excepting those of history, from any other source
+               than his own invention. Had the plots of old tales been exhausted in his time, as in
+               the present, the world might have had <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref>'s foundation as well as superstructure, and the whole edifice
+               had been additionally magnificent.</p>
+
+            <p>"<title>Measure for Measure</title>," like his other plays, is taken from an old
+                  story&#8212;<ref target="people.html#GiraldiGiambattista">Cinthio</ref>'s novels,
+               or a play of <ref target="people.html#WhetstoneGeorge">Whetstone</ref>'s, has
+               furnished the subject.<note><ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref> drew from two source texts when writing <hi
+                     rendition="#italics"><title>Measure for Measure</title></hi>: <ref
+                     target="people.html#GiraldiGiambattista">Cinthio</ref>'s "<title>The Story of
+                     Epitia</title>" within his collection <hi rendition="#italics"><title>Gli
+                        Hecatommithi</title></hi> (1565) and <ref
+                     target="people.html#WhetstoneGeorge">George Whetstone</ref>'s closet drama <hi
+                     rendition="#italics"><title>Promos and Cassandra</title></hi> (1578), also
+                  sourced from <ref target="people.html#GiraldiGiambattista">Cinthio</ref>.</note>
+               The illustrious <ref target="people.html#ShakespeareWilliam">Bard</ref> had certainly
+               taste to despise many of those books from whence he borrowed his fable, and yet would
+               not apply to his own prolifick mind. This adoption of other men's plans, led him to
+               adopt their incoherencies. He found he improved what they had done, and content with
+               improvement, stopped short of perfection.</p>
+
+            <p>Had <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> been the inventor
+               of the fable of the present play, he would assuredly have avoided<fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw><pb n="4"/> the incredible occurrences here
+               inserted. Allowing that the Duke's<note>Duke Vincentio of Vienna pretends to leave on
+                  a mission, putting his deputy Angelo, the play's main protagonist, in charge of
+                  delivering justice so that he may return in disguise to see how Angelo behaves.
+                  Angelo abuses his power in the Duke's absence.</note> disguise, as a friar, could
+               possibly conceal him from the knowledge of his intimate friends, and that Angelo
+               should be so blind a lover, as not to distinguish, in closest conference, her he
+               loved, from her he hated, (for these are stage inconsistencies, permitted for stage
+               accommodation,) there still remains a most disgraceful improbability, in representing
+               the deputy Angelo, a monster, instead of a man. The few lines he speaks in a
+               soliloquy, offer a plea too weak for his enormity, in giving orders for the death of
+                  Claudio,<note>The brother of Isabella and father of Juliet's child, sentenced to
+                  death by Angelo for fornicating out of wedlock.</note> after the supposed ransom
+               paid by his sister. This plea is besides reduced in part from all show of reason, by
+               a sentence which precedes it in the very same speech.&#8212;In that sentence, Angelo
+               says&#8212;"He rests satisfied Isabella will not reveal her dishonour"<note>Act II,
+                  scene ii.</note>&#8212;yet he has ordered the brother's execution, lest she should
+               disclose this dishonour to him, and that he should proclaim it to all the world by
+               taking his revenge.</p>
+
+            <p>But as this declaration of the deputy's is not made till after the brother is
+               supposed to be dead, an auditor,&#8212;unacquainted with the story, and expecting but
+               natural events,&#8212;when the order comes for the execution of Claudio, makes this
+               conclusion&#8212;Angelo has detected the imposition (not unlikely) Isabella meant for
+               him, and now persues vengeance.</p>
+
+            <p>Here had been an argument for his cruelty, and it would have been of blacker die,
+               with a plausible motive. In fine, were Angelo less wicked, he would <pb n="5"/>be
+               hated more;&#8212;but wickedness without views, is but a pitiable insanity.<note>To
+                  vindicate this incident, the well known story of Kirk may be told&#8212;but that
+                  proves no more than a possible, not a probable event. [<ref
+                     target="people.html#InchbaldMrs">Inchbald</ref>'s note.] <ref
+                     target="people.html#InchbaldMrs">Inchbald</ref> alludes to Colonel Percy Kirke,
+                  an officer in the service of <ref target="people.html#JamesIIKingofEngland">James
+                     II</ref> and notorious tyrant during <ref
+                     target="people.html#MonmouthJamesScott">Monmouth</ref>'s Rebellion. <ref
+                     target="people.html#HumeDavid">David Hume</ref> recounts Kirke's story in his
+                     <hi rendition="#italics"><title>The History of England, from the Invasion of
+                           <ref target="people.html#CaesarJulius">Julius Cæsar</ref> to the
+                        Revolution in 1688</title></hi> (1770), vol. VIII, chapter LXXI. According
+                  to <ref target="people.html#HumeDavid">Hume</ref>, Kirke sexually extorted a young
+                  woman during one of his campaigns, leading her to believe that he would spare the
+                  life of her brother in exchange for her compliance. The next morning, Kirke led
+                  the woman to the window of the room in which they had passed the night to reveal
+                  her brother's corpse, hanging on a gibbet which Kirke had specially ordered to be
+                  constructed outside of his window.</note></p>
+
+            <p><ref target="people.html#SiddonsSarah">Mrs. Siddons</ref>'s exquisite acting, and
+               beautiful appearance in Isabella, are proverbial&#8212;still, as a character of
+               declamation, rather than of passion, she gives more exalted proof of her art in many
+               other plays. </p>
+
+            <p><ref target="people.html#YatesMary">Mrs. Yates</ref> was admired in the
+               part&#8212;both her person and voice were favourable for the representation&#8212;but
+                  <ref target="people.html#SiddonsSarah">Mrs. Siddons</ref> had not at that time
+               appeared.</p>
+
+            <p><ref target="people.html#HendersonJohn">Henderson</ref> played the Duke
+                  well&#8212;<ref target="people.html#KembleJohn">Kemble</ref> performs it still
+               better, as he has that dignity of person and manner, in which <ref
+                  target="people.html#HendersonJohn">Henderson</ref> was deficient.</p>
+
+            <p>But, with all the science of acting, "<title>Measure for Measure</title>" is a heavy
+               performance. The grave scenes, except where some brilliant poetry is interspersed are
+               tedious and dull.&#8212;That <ref target="people.html#JohnsonSamuel">Dr.
+                  Johnson</ref>, in his criticism on this play, should write in praise of the comick
+                  characters,<note>An allusion to <ref target="people.html#JohnsonSamuel"
+                     >Johnson</ref>'s closing remarks for the play in his and <ref
+                     target="people.html#SteevensGeorge">Steevens</ref>&apos; <hi
+                     rendition="#italics"><title>The Plays of <ref
+                           target="people.html#ShakespeareWilliam">William Shakspeare</ref>, With
+                        the Corrections and Illustrations of Various Commentators</title></hi>
+                  (1773), vol. 2, p. 144. Johnson writes, "Of this play the light or comick part is
+                  very natural and pleasing."</note> seems surprising! To a delicate critic of the
+               present day, and one thoroughly acquainted with his moral character, it must surely
+               appear, as if <ref target="people.html#JohnsonSamuel">Johnson</ref>'s pure mind had
+               been somewhat sullied by having merely read them.</p>
+            <fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
+         </div>
+      </body>
+   </text>
+</TEI>

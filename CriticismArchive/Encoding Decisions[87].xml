@@ -1,0 +1,964 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Encoding Decisions</title>
+                <author>English</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2022-09-30T05:40:00</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles and the Poetess Archive</publisher>
+                <idno>encodingDecisions</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="unknown">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><name>Mandell, Laura C</name><date>2026-06-24</date></change>
+            </listChange>
+            <listChange>
+                <change><name>Mandell, Laura C</name><date>2022-09-30T05:40:00</date></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Encoding Decisions</p>
+            <p>Schema- Poetess Archive has its own. PA.rnc</p>
+            <p><hi rend="bold underline">Comment out</hi>- <hi rend="color(#006400)">&lt;!--
+                    --&gt;</hi></p>
+            <p><hi rend="bold underline">Small caps</hi>: <hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;hi</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#smcaps"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Sir,</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/hi&gt;</hi><hi
+                    rend="background-color(#ffffff)">. Note that true small caps are typed as
+                    lower-case. Upper case will look the same as an uncoded or regular cap.
+                </hi></p>
+            <p><hi rend="bold underline">Italics</hi>: <hi rend="color(#000096)">&lt;hi</hi><hi
+                    rend="color(#f5844c)"> rendition=“#</hi><hi rend="color(#993300)"
+                    >italics”</hi><hi rend="color(#000096)">&gt; </hi>even when a title because not
+                all titles are italicized and even when they are, not always the complete title is
+                    rendered.<hi rend="color(#000096)"> </hi> No &lt;emph&gt; tags in TEI. </p>
+            <p><hi rend="color(#000000)bold underline">Font size change</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#000096)">&lt;hi</hi><hi
+                    rend="color(#f5844c)"> rendition</hi><hi rend="color(#ff8040)">=</hi><hi
+                    rend="color(#993300)">"#largest"</hi><hi rend="color(#000096)">&gt;</hi><hi
+                    rend="color(#000000)"> S</hi><hi rend="color(#000096)">&lt;/hi&gt;</hi></p>
+            <p><hi rend="bold underline">Paragraphs</hi>- <hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;p&gt; </hi>A new paragraph
+                will always begin on a new line, and therefore it is not necessary to encode a line
+                break except when extra space is needed such as doublespace between paragraphs. </p>
+            <p><hi rend="bold underline">Indent</hi>: Paragraphs automatically indent at the XSLT
+                level. For other instances where indenting is necessary (e.g., in some poetry
+                quotes), code as one word—e.g., Indent1; Indent2. Each number for one ‘em.’</p>
+            <p><hi rend="bold underline">Non-indenting paragraph</hi><hi rend="color(#000096)"
+                    > </hi><hi rend="color(#000096)">&lt;p</hi><hi rend="color(#f5844c)">
+                    rendition</hi><hi rend="color(#ff8040)">=</hi><hi rend="color(#993300)"
+                    >"#noindent"</hi><hi rend="color(#000096)">&gt;</hi><hi rend="color(#000096)"
+                > </hi>Paragraphs will normally indent one em at the XSLT level </p>
+            <p><hi rend="color(#000000)bold underline">Non-breaking space</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#969600)">&amp;#160;</hi>
+            </p>
+            <p><hi rend="color(#000000)bold underline">Insert a break line</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#000000)bold">not in a title
+                    section</hi><hi rend="color(#000000)">- </hi><hi rend="color(#000096)"
+                    >&lt;p</hi><hi rend="color(#f5844c)"> rendition</hi><hi rend="color(#ff8040)"
+                    >=</hi><hi rend="color(#993300)">"#center"</hi><hi rend="color(#000096)"
+                    >&gt;&lt;/p&gt; </hi>This same code can be used to center unusual lines such as
+                a short divider, or a short line of asterisks: </p>
+            <p><hi rend="color(#000096)">&lt;p</hi><hi rend="color(#f5844c)"> rendition</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"#center"</hi><hi
+                    rend="color(#000096)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">A TALE.</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi></p>
+            <p><hi rend="color(#000096)">&lt;p</hi><hi rend="color(#f5844c)"> rendition</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"#center"</hi><hi
+                    rend="color(#000096)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">____________</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi></p>
+            <p><hi rend="color(#000000)bold underline">Insert a break line</hi><hi
+                    rend="color(#000000)bold"> in titles</hi><hi rend="color(#000000)"> (in the
+                    “head” part of the essay div)- no </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000)"> in here at all. Use</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;lb/&gt;</hi><hi
+                    rend="color(#000000)"> and </hi><hi rend="color(#000096)">&lt;lb</hi><hi
+                    rend="color(#f5844c)"> rendition</hi><hi rend="color(#ff8040)">=</hi><hi
+                    rend="color(#993300)">"#center"</hi><hi rend="color(#000096)">/&gt;</hi></p>
+            <p><hi rend="color(#000000)bold underline">Superscript</hi><hi rend="color(#000000)">
+                    (as in footnote numbers) </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;hi</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#sup"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi></p>
+            <p><hi rend="bold underline">Footnotes</hi>: <hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;note</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> place</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"foot"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="background-color(#ffffff)">All note content. </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/note&gt;</hi><hi
+                    rend="color(#000096)"> </hi>XSLT will number automatically<hi
+                    rend="color(#000096)">. </hi></p>
+            <p><hi rend="bold underline">Page Break</hi>: <hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;pb</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> n</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"12"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">/&gt;</hi></p>
+            <p> Locate at the beginning of the page. Number of new page always specified within
+                    code.<hi rend="color(#000096)"> Note: if a paragraph ends at the end of the
+                    page, put the page break after the paragraph closing tag.</hi></p>
+            <p>For titles where page break occurs within title: &lt;hi
+                rendition=“#italics”&gt;&lt;title&gt;titlebegins&lt;pb
+                n=“59”/&gt;remainderoftitle&lt;/title&gt;&lt;/hi&gt;</p>
+            <p>For hyperlinked names where page break occurs within name: &lt;ref
+                target=“people.html#SmithJoe”&gt;Joe &lt;pb n=“cxxxii” /&gt;Smith&lt;/ref&gt;</p>
+            <p><hi rend="background-color(#ffff00)bold underline">Signature marks</hi><hi
+                    rend="background-color(#ffff00)">:</hi><hi
+                    rend="color(#000096) background-color(#ffff00)"> &lt;lb/&gt;&lt;fw</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)">"sig"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;&lt;hi</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)">"#smcaps"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">q o</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/hi&gt;&lt;/fw&gt;</hi></p>
+            <p><hi rend="background-color(#ffff00)bold underline">Forme work</hi><hi
+                    rend="background-color(#ffff00)">: </hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;lb/&gt;&lt;fw</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)">"vol"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;&lt;hi</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)">"#smcaps"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">vol. ii.</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/hi&gt;&lt;/fw&gt;</hi></p>
+            <p><hi rend="color(#000096)">If &lt;fw&gt; immediately follows &lt;fw&gt;, only put
+                    &lt;lb/&gt; before the first one.</hi></p>
+            <p><hi rend="background-color(#ffffff)">Catch words and running headers silently
+                    eliminated now. </hi></p>
+            <p><hi rend="color(#000000)bold underline">Flush right</hi><hi rend="color(#000000)">-
+                    </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;hi</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#flushRight"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">M.</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/hi&gt;</hi></p>
+            <p><hi rend="bold underline">Titles in main doc (not in file description or head)</hi>: </p>
+            <p>For titles that include italics <hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;hi</hi><hi rend="color(#f5844c) background-color(#ffffff)">
+                    rendition</hi><hi rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#italics"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;&lt;title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">The British Theatre</hi><hi
+                    rend="color(#000096) background-color(#ffffff)"
+                >&lt;/title&gt;&lt;/hi&gt;</hi></p>
+            <p>For cases like titles that should appear in quotes: <hi
+                    rend="color(#969600) background-color(#ffffff)">&amp;quot;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)"> &lt;title&gt;</hi>Title Here<hi
+                    rend="color(#000096) background-color(#ffffff)"> &lt;title&gt;</hi><hi
+                    rend="color(#969600) background-color(#ffffff)"> &amp;quot;</hi>. </p>
+            <p><hi rend="bold underline">Entities</hi> (note that they always begin with an
+                ampersand and end with a semi-colon): </p>
+            <p><hi rend="bold underline">Dashes</hi> (2 em. E.g., v—v):<hi
+                    rend="color(#969600) background-color(#ffffff)">&amp;#8212;</hi>
+            </p>
+            <p><hi rend="bold underline">Apostrophes</hi> (use also for single quotes): <hi
+                    rend="color(#969600)">&amp;apos; </hi></p>
+            <p><hi rend="background-color(#ffff00)bold underline">Quotes</hi><hi
+                    rend="background-color(#ffff00)"> </hi></p>
+            <p><hi rend="background-color(#ffff00)bold">Quotation marks</hi><hi
+                    rend="background-color(#ffff00)"> for double quotes: </hi><hi
+                    rend="color(#969600) background-color(#ffff00)">&amp;quot;</hi><hi
+                    rend="background-color(#ffff00)"> Single quotes use apostrophe:</hi></p>
+            <p><hi rend="background-color(#ffff00)bold">Block quote</hi><hi
+                    rend="background-color(#ffff00)">- </hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;quote&gt;</hi></p>
+            <p><hi rend="background-color(#ffff00)bold">Block quotes beginning within a
+                    paragraph</hi><hi rend="background-color(#ffff00)"> only the quote then extends
+                    over multiple paragraphs must have a new paragraph after the quote begins. Close
+                    the previous paragraph, open the quote, then begin a new paragraph even though
+                    the original does not have a new paragraph. Comment out to indicate that the
+                    original paragraph continues:</hi></p>
+            <p><hi rend="color(#000096) background-color(#ffff00)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)"> The following in a letter to
+                    </hi><hi rend="color(#000096) background-color(#ffff00)">&lt;ref</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> target</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)"
+                    >"people.html#StinstraJohannes"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">Mr. Stinstra</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/ref&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">.</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/p&gt;</hi><hi
+                    rend="color(#006400) background-color(#ffff00)">&lt;!-- Original does not close
+                    paragraph --&gt;</hi><hi rend="color(#000000) background-color(#ffff00)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffff00)">&lt;quote&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffff00)">&lt;p</hi><hi
+                    rend="color(#f5844c) background-color(#ffff00)"> rendition</hi><hi
+                    rend="color(#ff8040) background-color(#ffff00)">=</hi><hi
+                    rend="color(#993300) background-color(#ffff00)">"#noindent"</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">My father was</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffff00)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffff00)">another simple paragraph</hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/p&gt;</hi></p>
+            <p><hi rend="color(#000096) background-color(#ffff00)"> </hi><hi
+                    rend="color(#000096) background-color(#ffff00)">&lt;/quote&gt;</hi></p>
+            <p><hi rend="bold underline">ampersand</hi>- <hi rend="color(#969600)"
+                >&amp;amp;</hi></p>
+            <p>Several other common entity tags appear at the end of this document.</p>
+            <p><hi rend="background-color(#ffff00)bold">Epigraph</hi><hi
+                    rend="background-color(#ffff00)">: &lt;epigraph&gt; then use rendition="#poem"
+                    or "#prose", then close epigraph &lt;/epigraph&gt;</hi></p>
+            <p><hi rend="background-color(#ffff00)"> If author or text cited at end, close the
+                    epigraph, then:</hi></p>
+            <p><hi rend="background-color(#ffff00)"> &lt;p&gt;&lt;bibl type="epigCite"&gt;title
+                    author etc.&lt;/bibl&gt;&lt;/p&gt;</hi></p>
+            <p rend="bold underline">People List issues</p>
+            <p><hi rend="color(#000000)bold underline">To create a term for in the people
+                    list</hi><hi rend="color(#000000)">:&lt;item&gt;</hi><hi rend="color(#000096)">
+                    &lt;term</hi><hi rend="color(#f5844c)"> xml:id</hi><hi rend="color(#ff8040)"
+                    >=</hi><hi rend="color(#993300)">"AkensideMark"</hi><hi rend="color(#000096)"
+                    >&gt;</hi><hi rend="color(#000000)">Akenside, Mark, 1721-1770 (Library of
+                    Congress Name Authority)</hi><hi rend="color(#969600)">&amp;#8212;</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#000096)">&lt;/term&gt;</hi><hi
+                    rend="color(#000000)">&lt;gloss&gt;&lt;/gloss&gt;&lt;/item&gt;</hi></p>
+            <p><hi rend="bold underline">To link a reference from a doc to a term in the people
+                    list</hi>:<hi rend="color(#000096)"> &lt;ref</hi><hi rend="color(#f5844c)">
+                    target</hi><hi rend="color(#ff8040)">=</hi><hi rend="color(#993300)"
+                    >"people.html#BrookeFrances"</hi><hi rend="color(#000096)">&gt;</hi><hi
+                    rend="color(#000000)">Brooke</hi><hi rend="color(#000096)">&lt;/ref&gt;</hi><hi
+                    rend="color(#000000)">.</hi><hi rend="color(#969600)">&amp;quot;</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#000096)"> </hi>
+                TheLastnameFirstname part must exactly replicate the xml:id as it appears in the
+                people list, so not all will have both first and last name. </p>
+            <p><hi rend="bold underline">To create a link within the people list</hi> from one
+                person’s people list gloss to another people entry <hi rend="color(#000096)"
+                    >&lt;ref</hi><hi rend="color(#f5844c)"> target</hi><hi rend="color(#ff8040)"
+                    >=</hi><hi rend="color(#993300)">"#FieldingHenry"</hi><hi rend="color(#000096)"
+                    >&gt;</hi><hi rend="color(#000000)">Henry Fielding</hi><hi rend="color(#000096)"
+                    >&lt;/ref&gt; </hi> (no “people.html.”)</p>
+            <p><hi rend="bold underline">Quoting Poetry:</hi></p>
+            <p><hi rend="color(#000096)">&lt;quote&gt;</hi> tag only used for block quotes</p>
+            <p>Note here that the first line includes both an offset (not beginning at the left
+                margin) and a long dash. </p>
+            <p>Also note that block quotes (within quote tag) automatically indent one em at XSLT
+                level. Includes prose block quotes. </p>
+            <p><hi rend="color(#000096)"> &lt;quote&gt;</hi></p>
+            <p><hi rend="color(#000096)"> &lt;lg</hi><hi rend="color(#f5844c)"> type</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"stanza"</hi><hi
+                    rend="color(#000096)">&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l</hi><hi rend="color(#f5844c)">
+                    rendition</hi><hi rend="color(#ff8040)">=</hi><hi rend="color(#993300)"
+                    >"#indent4"</hi><hi rend="color(#000096)">&gt;</hi><hi rend="color(#969600)"
+                    >&amp;#8212; &amp;#8212;&amp;#8212;&amp;#8212;</hi><hi rend="color(#000000)">If
+                    the midnight bell</hi><hi rend="color(#000096)">&lt;/l&gt;</hi><hi
+                    rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">Did with his
+                    iron tongue and brazen mouth </hi><hi rend="color(#000096)">&lt;/l&gt;</hi><hi
+                    rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">Sound one
+                    unto the drowsy ear of night, </hi><hi rend="color(#000096)">&lt;/l&gt;</hi><hi
+                    rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">If this same
+                    were a churchyard where we stand, </hi><hi rend="color(#000096)"
+                    >&lt;/l&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">And thou
+                    possessed with a thousand wrongs, </hi><hi rend="color(#000096)"
+                    >&lt;/l&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#969600)"
+                    >&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;</hi><hi rend="color(#000000)">if
+                    thou couldst see me without eyes, </hi><hi rend="color(#000096)"
+                    >&lt;/l&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">Hear me
+                    without thine ears, and make reply </hi><hi rend="color(#000096)"
+                    >&lt;/l&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;l&gt;</hi><hi rend="color(#000000)">Without a
+                    tongue, </hi><hi rend="color(#969600)">&amp;amp;</hi><hi rend="color(#000000)"
+                    >c.</hi><hi rend="color(#000096)">&lt;/l&gt;</hi><hi rend="color(#000000)"><lb/>
+                </hi><hi rend="color(#000096)">&lt;/lg&gt;</hi></p>
+            <p><hi rend="color(#000096)"> &lt;/quote&gt;</hi></p>
+            <p>Sample that encompasses several complexities (begins with unquoted, then incorporates
+                quoted): </p>
+            <p>. . . . of Poetry, though most answering <hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;milestone </hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)">unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"signature"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> n</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"a"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">/&gt;</hi><hi
+                    rend="color(#0b21a0)"> &lt;pb </hi><hi rend="color(#f99667)">n</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)">“vi”</hi><hi
+                    rend="color(#0b21a0)">/&gt;</hi>to <hi rend="color(#0b21a0)">&lt;ref</hi><hi
+                    rend="color(#f99667)"> target</hi><hi rend="color(#ff935d)">=</hi><hi
+                    rend="color(#ab4417)">“people.html#ShakespeareWilliam”</hi><hi
+                    rend="color(#0b21a0)">&gt; &lt;hi </hi><hi rend="color(#f99667)"
+                    >rendition=“#</hi><hi rend="color(#ab4417)">smcaps”</hi><hi
+                    rend="color(#0b21a0)">&gt;</hi>Shakespear<hi rend="color(#0b21a0)"
+                    >&lt;/hi&gt;&lt;/ref&gt;</hi><hi rend="color(#a6a434)">&amp;apos;</hi>s
+                definition, as it gives <hi rend="color(#000096)">&lt;hi</hi><hi
+                    rend="color(#f5844c)"> rendition=“#</hi><hi rend="color(#993300)"
+                    >italics”</hi><hi rend="color(#000096)">&gt;</hi>to airy nothing a local
+                habitation and a name<hi rend="color(#0b21a0)">&lt;/hi&gt;</hi>, <hi
+                    rend="color(#0b21a0)">&lt;hi</hi><hi rend="color(#f99667)"> rendition=“#</hi><hi
+                    rend="color(#ab4417)">sup”</hi><hi rend="color(#0b21a0)">&gt;</hi><hi
+                    rend="color(#000096)"> &lt;note</hi><hi rend="color(#f5844c)"> place</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"foot"</hi><hi
+                    rend="color(#000096)">&gt; </hi><hi rend="color(#0b21a0)">&lt;ref</hi><hi
+                    rend="color(#000000)"> </hi><hi rend="color(#f99667)">target</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)"
+                    >“people.html#ShakespeareWilliam”</hi><hi rend="color(#0b21a0)">&gt;
+                    </hi>Shakespear<hi rend="color(#0b21a0)">&lt;/ref&gt;</hi>, <hi
+                    rend="color(#0b21a0)">&lt;title&gt;</hi><hi rend="color(#000096)">&lt;hi</hi><hi
+                    rend="color(#f5844c)"> rendition=“#</hi><hi rend="color(#993300)"
+                    >italics”</hi><hi rend="color(#000096)">&gt;</hi>A Midsummer Night<hi
+                    rend="color(#a6a434)">&amp;apos;</hi>s Dream<hi rend="color(#0b21a0)"
+                    >&lt;/hi&gt;&lt;/title&gt; </hi>V.i.16-17.<hi rend="color(#0b21a0)"
+                    >&lt;/note&gt;&lt;/hi&gt;</hi> ever be popular.</p>
+            <p>Sample quoting several lines:</p>
+            <p>In a slight, but neatly executed sketch, he traces the state of the Drama through the
+                writers of other countries; and with a partiality, in which the <hi
+                    rend="color(#0b21a0)">&lt;pb</hi><hi rend="color(#f99667)"> n</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)">“ix”</hi><hi
+                    rend="color(#0b21a0)">/&gt;</hi>other nations of Europe seem almost to
+                acquiesce, gives the palm to the Englishman<hi rend="color(#a6a434)"
+                >&amp;apos;</hi>s idol, <hi rend="color(#0b21a0)">&lt;ref</hi><hi
+                    rend="color(#f99667)"> </hi><hi rend="color(#f99667)">target</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)"
+                    >“people.html#ShakespeareWilliam”</hi><hi rend="color(#0b21a0)"
+                    >&gt;&lt;hi</hi><hi rend="color(#000000)"> </hi><hi rend="color(#f99667)"
+                    >rendition=“#</hi><hi rend="color(#ab4417)">smcaps”</hi><hi
+                    rend="color(#0b21a0)">&gt;</hi>Shakespear <hi rend="color(#0b21a0)"
+                    >&lt;/hi&gt;&lt;/ref&gt;</hi>, after whom,</p>
+            <p rend="color(#0b21a0)">&lt;quote&gt;</p>
+            <p><hi rend="color(#0b21a0)">&lt;lg</hi><hi rend="color(#f99667)"> type</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)">“stanza”</hi><hi
+                    rend="color(#0b21a0)">&gt;</hi></p>
+            <p><hi rend="color(#0b21a0)">&lt;l&gt;</hi> No second growth the western isle could
+                    bear,<hi rend="color(#0b21a0)">&lt;/l&gt;</hi></p>
+            <p><hi rend="color(#0b21a0)">&lt;l&gt;</hi> At once exhausted with too rich a year. <hi
+                    rend="color(#0b21a0)">&lt;hi</hi><hi rend="color(#f99667)"> rendition=“#</hi><hi
+                    rend="color(#ab4417)">sup”</hi><hi rend="color(#0b21a0)">&gt;</hi><hi
+                    rend="color(#000096)"> &lt;note</hi><hi rend="color(#f5844c)"> place</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"foot"</hi><hi
+                    rend="color(#000096)">&gt;</hi><hi rend="color(#0b21a0)">&lt;title&gt;</hi><hi
+                    rend="color(#000096)">&lt;hi</hi><hi rend="color(#f5844c)"> rendition=“#</hi><hi
+                    rend="color(#993300)">italics”</hi><hi rend="color(#000096)">&gt;</hi>Epistle
+                […] to <hi rend="color(#0b21a0)">&lt;ref</hi><hi rend="color(#f99667)">
+                    target</hi><hi rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)"
+                    >“people.html#HanmerThomas”</hi><hi rend="color(#0b21a0)">&gt;</hi>Hanmer<hi
+                    rend="color(#0b21a0)">&lt;/ref&gt;&lt;/hi&gt;&lt;/title&gt;</hi> 53-4.<hi
+                    rend="color(#0b21a0)">&lt;/note&gt;&lt;/hi&gt;</hi></p>
+            <p rend="color(#0b21a0)">&lt;/l&gt;</p>
+            <p rend="color(#0b21a0)">&lt;/lg&gt;</p>
+            <p rend="color(#0b21a0)">&lt;/quote&gt;</p>
+            <p>It is probable that our Poet, who was then a student . . .</p>
+            <p>Poetry Quotes within a note:</p>
+            <p><hi rend="color(#000096)">&lt;note</hi><hi rend="color(#f5844c)"> place</hi><hi
+                    rend="color(#ff8040)">=</hi><hi rend="color(#993300)">"foot"</hi><hi
+                    rend="color(#000096)">&gt;</hi></p>
+            <p rend="color(#0b21a0)">&lt;quote&gt;</p>
+            <p><hi rend="color(#0b21a0)">&lt;lg</hi><hi rend="color(#f99667)"> type</hi><hi
+                    rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)">“stanza”</hi><hi
+                    rend="color(#0b21a0)">&gt;</hi></p>
+            <p><hi rend="color(#0b21a0)">&lt;l&gt;</hi> No second growth the western isle could
+                    bear,<hi rend="color(#0b21a0)">&lt;/l&gt;</hi></p>
+            <p><hi rend="color(#0b21a0)">&lt;l&gt;</hi> At once exhausted with too rich a year. <hi
+                    rend="color(#000096)">&lt;hi</hi><hi rend="color(#f5844c)"> rendition=“#</hi><hi
+                    rend="color(#993300)">italics”</hi><hi rend="color(#000096)">&gt;</hi>Epistle
+                […] to <hi rend="color(#0b21a0)">&lt;ref</hi><hi rend="color(#f99667)">
+                    target</hi><hi rend="color(#ff935d)">=</hi><hi rend="color(#ab4417)"
+                    >“people.html#HanmerThomas”</hi><hi rend="color(#0b21a0)">&gt;</hi>Hanmer<hi
+                    rend="color(#0b21a0)">&lt;/ref&gt;&lt;/hi&gt;&lt;/title&gt;</hi> 53.</p>
+            <p rend="color(#0b21a0)">&lt;/l&gt;</p>
+            <p rend="color(#0b21a0)">&lt;/lg&gt;</p>
+            <p rend="color(#0b21a0)">&lt;/quote&gt;</p>
+            <p> It is probable that our Poet, who was then a student . (continue your note)</p>
+            <p rend="color(#0b21a0)">&lt;/note&gt;</p>
+            <p>Names: Titles and honorifics like “Mrs.,” “Sir,” “Dr.,” or “Lord” are included in the
+                name coding. Places, when substituting for or supplementing names, are included in
+                the coding (e.g., Pierce, bishop of Rochester- all included). </p>
+            <p><hi rend="bold underline">Header</hi>
+            </p>
+            <p><hi rend="color(#000000)">No ref targets in header at all, no title tags inside the main title tag. No hard coding of
+                    appearance (italics, quotation marks) in header. No final periods for any title. Ref targets and appearance
+                    first begin in &lt;text&gt; section. </hi></p>
+            <p><hi rend="color(#8b26c9) background-color(#ffffff)">&lt;?xml version="1.0"
+                    encoding="UTF-8"?&gt;</hi><hi rend="color(#8b26c9) background-color(#ffffff)"
+                    >&lt;?xml-model href="PA.rnc"
+                    type="application/relax-ng-compact-syntax"?&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;TEI</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> xmlns</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)"
+                    >"http://www.tei-c.org/ns/1.0"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;teiHeader&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;fileDesc&gt; </hi><hi
+                    rend="color(#000000)bold underline">File Description</hi><hi
+                    rend="color(#000000)">- includes title statement </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;titleStmt&gt;</hi><hi
+                    rend="color(#000000)">, publication statement </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;publicationStmt&gt;</hi><hi
+                    rend="color(#000000)">, source description </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;sourceDesc&gt;.</hi></p>
+            <p><hi rend="color(#000000)bold underline">Title Statement</hi><hi rend="color(#000000)"
+                    >- the content of the web link will be generated from here. It will also create
+                    the title bar of the web page. Also includes the responsibility statement.
+                </hi></p>
+            <p><hi rend="color(#000000)">Titles should have type (main, subordinate) and level (a,
+                    m) In the title statement main is labeled analytical (a) and comprises the essay
+                    or item title, subordinate is m and names the book or periodical the item
+                    appeared in. </hi></p>
+            <p><hi rend="color(#000000)">No quotation marks for analytical titles nor italics for
+                    monograph level titles. </hi></p>
+            <p><hi rend="color(#000000)bold underline">Author Names</hi><hi rend="color(#000000)">
+                    in the title statement should follow our modern format to render as we want the
+                    link to read. </hi></p>
+            <p><hi rend="color(#000000)bold underline">Responsibility Statement</hi><hi
+                    rend="color(#000000)">- Include in File Description within Title Statement. See
+                    TEI P5 guidelines pp. 25-6. Create the xml ID at that point, and use later with
+                    all revision descriptions. </hi></p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;titleStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"main"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"a"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Mr. Bage</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"subordinate"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"m"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">The British Novelists</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;author</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"writer"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Anna Letitia Barbauld</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/author&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Editor</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> xml:id</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"MW"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Mary A. Waters</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">
+                    <lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Coeditor</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> xml:id</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"RD"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Rachel Dejmal</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Coeditor</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/resp&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> xml:id</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"MC"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Michael Cole</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/respStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/titleStmt&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi></p>
+            <p><hi rend="color(#000000)bold underline">Source Description</hi><hi
+                    rend="color(#000000)">- describes the source for metadata purposes (e.g., for
+                    NINES). It is not ever visible and should contain no hard coding for appearance
+                    purposes. </hi></p>
+            <p><hi rend="color(#000000)">Titles should have type (main, subordinate) and level (a,
+                    m). Here the essay or item is separate from its container, so both can have main
+                    and subordinate if appropriate. Analytical (a) still refers to essay,
+                    article,</hi><hi rend="color(#000000)">chapter; Monograph </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;monogr&gt;</hi><hi
+                    rend="color(#000000)"> refers to container, level specifies the type of
+                    container (m, j, etc.)</hi></p>
+            <p><hi rend="color(#000000)bold underline">Author Names</hi><hi rend="color(#000000)">
+                    in the source description should follow Library of Congress Name Authorities
+                    format for NINES metadata purposes. </hi></p>
+            <p><hi rend="color(#000000)underline">Essay in book:</hi></p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;sourceDesc&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;biblStruct&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;analytic&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"main"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"a"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Mr. Bage</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;author</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"writer"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"> Barbauld, Mrs. (Anna Letitia),
+                    1743-1825 </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/name&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/author&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/analytic&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;monogr&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"main"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"m"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">The British Novelists</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"subordinate"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">with an Essay and Prefaces,<lb/>
+                    Biographical and Critical</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;editor&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Barbauld, Mrs. (Anna Letitia),
+                    1743-1825</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/name&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/editor&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;imprint&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;pubPlace&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">London</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/pubPlace&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;publisher&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">F.C. and J. Rivington</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/publisher&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;date</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> when</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"1810"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">1810</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/date&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"vol"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">XLVIII</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"page"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">i-iii</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/imprint&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/monogr&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/biblStruct&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)"
+                >&lt;/sourceDesc&gt;</hi></p>
+            <p><hi rend="color(#000000) background-color(#ffffff)underline">Essay in
+                periodical</hi></p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;sourceDesc&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;biblStruct&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;analytic&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;title</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"main"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"a"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">On Novel Writing</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/title&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;author</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"writer"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Barbauld, Mrs. (Anna Letitia),
+                    1743-1825</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/author&gt;</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/analytic&gt;</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;monogr&gt;</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;title</hi><hi rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"main"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> level</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"j"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">The Literary Magazine and
+                    American Register</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/title&gt;</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;imprint&gt;</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;date</hi><hi rend="color(#f5844c) background-color(#ffffff)"> when</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"1804-12"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">December 1804</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/date&gt; </hi><hi
+                    rend="background-color(#ffffff)">(follow year, month, day [if provided]
+                    format)</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;biblScope</hi><hi rend="color(#f5844c) background-color(#ffffff)">
+                    unit</hi><hi rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"volume"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">2</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"number"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">15</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"page"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">693-98</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/imprint&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/monogr&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblStruct&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/sourceDesc&gt;</hi></p>
+            <p><hi rend="background-color(#ffffff)">Additional possible </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">= </hi><hi
+                    rend="background-color(#ffffff)"> tags:</hi></p>
+            <p><hi rend="color(#000000) background-color(#ffffff)"> </hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"series"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">second</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;biblScope</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> unit</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"issue"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Foreign Appendix</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/biblScope&gt;</hi><hi
+                    rend="background-color(#ffffff)"> </hi></p>
+            <p><hi rend="color(#000000) background-color(#ffffff)">Spell out names of unit (e.g.,
+                    volume and number)</hi></p>
+            <p><hi rend="color(#000000) background-color(#ffffff)bold underline">Encoding
+                    Description</hi><hi rend="color(#000000) background-color(#ffffff)">- standard.
+                    Just copy and paste</hi></p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;editorialDecl&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;quotation&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">All quotation marks and
+                    apostrophes have been changed: " for “," for “, ' for<lb/> ‘, and ' for
+                    ’.</hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Quotation marks that indicate
+                    block quotes have been silently eliminated.</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/quotation&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;hyphenation</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> eol</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"none"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Any dashes occurring in line
+                    breaks have been removed.</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Because of web browser
+                    variability, all hyphens have been typed on the U.S.<lb/> keyboard</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Em-dashes have been rendered as
+                    </hi><hi rend="color(#969600) background-color(#ffffff)">&amp;#8212;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/hyphenation&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"
+                    ><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;normalization</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> method</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"markup"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Spelling has not been
+                    regularized.</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/p&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Writing in other hands appearing
+                    on these manuscripts has been indicated as<lb/> such, the content recorded in
+                    brackets.</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/p&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Compositors' catchwords and
+                    running titles have been silently eliminated.</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Long "s" (</hi><hi
+                    rend="color(#969600) background-color(#ffffff)">&amp;#383;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">) has been silently
+                    modernized.</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/p&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/normalization&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"
+                    ><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;normalization&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"
+                    ><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#969600) background-color(#ffffff)">&amp;amp;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"> has been used for the ampersand
+                    sign.</hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">£ has been used for £, the pound
+                    sign</hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;p&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">All other characters, those with
+                    accents, non-breaking spaces, etc., have<lb/> been encoded in HTML entity
+                    decimals.</hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/p&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/normalization&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"
+                    > </hi><hi rend="color(#000096) background-color(#ffffff)"
+                    >&lt;/editorialDecl&gt;</hi><hi rend="color(#000000) background-color(#ffffff)"
+                    ><lb/>Follow editorial description with standard class declaration</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;classDecl&gt; supplying
+                    taxonomy. </hi></p>
+            <p><hi rend="background-color(#ffffff)bold underline">Profile Description</hi><hi
+                    rend="background-color(#ffffff)">- describes the item being coded. So if, for
+                    example, coding a book review, it should be encoded as a book review, not a
+                    book. For keywords, can use whatever seems logical. Cat ref must conform to the
+                    taxonomies. </hi></p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;profileDesc&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;textClass&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;keywords</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> scheme</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#lcsh"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;list</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> type</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"simple"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;item&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Criticism</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/item&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;item&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Essay</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/item&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;item&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">French Literature</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/item&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/list&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/keywords&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;catRef</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> target</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#g9 #g12"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> scheme</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#g"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">/&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;catRef</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> target</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#f13"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> scheme</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#f"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">/&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/textClass&gt;</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/profileDesc&gt;</hi></p>
+            <p><hi rend="bold underline">Revision Description:</hi> add an item each time a change
+                is made, organizing in reverse chronological. Use xml ID from responsibility
+                statement to identify who. </p>
+            <p><hi rend="color(#000096) background-color(#ffffff)">&lt;revisionDesc&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;change</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> who</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"#MW"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> when</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"2016-08-08"</hi><hi
+                    rend="color(#f5844c) background-color(#ffffff)"> n</hi><hi
+                    rend="color(#ff8040) background-color(#ffffff)">=</hi><hi
+                    rend="color(#993300) background-color(#ffffff)">"4"</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;label&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Changed by</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/label&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Mary A. Waters</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/name&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;list&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;item&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)">Encoding Revision</hi><hi
+                    rend="color(#000096) background-color(#ffffff)">&lt;/item&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/list&gt;</hi><hi
+                    rend="color(#000000) background-color(#ffffff)"><lb/>
+                </hi><hi rend="color(#000096) background-color(#ffffff)">&lt;/change&gt;</hi></p>
+            <p><hi rend="bold underline">Common Entities</hi>(note that they always begin with an
+                ampersand and end with a semi-colon)<hi rend="bold underline">:</hi></p>
+            <p><hi rend="bold underline">Dashes</hi> (2 em. E.g., v—v): &amp;#8212; </p>
+            <p><hi rend="bold underline">Apostrophes</hi> (use also for single quotes): <hi
+                    rend="color(#969600)">&amp;apos; </hi></p>
+            <p><hi rend="bold underline">Quotes</hi> (for double quotes. Single quotes use
+                    apostrophe):<hi rend="color(#969600)">&amp;quot;</hi></p>
+            <p><hi rend="bold underline">ampersand</hi>- <hi rend="color(#969600)"
+                >&amp;amp;</hi></p>
+            <p>é<hi rend="color(#969600)"> &amp;#233;</hi></p>
+            <p>è<hi rend="color(#969600)">&amp;#232;</hi></p>
+            <p>É<hi rend="color(#969600)">&amp;#201;</hi></p>
+            <p>È<hi rend="color(#969600)">&amp;#200;</hi></p>
+            <p><hi rend="color(#000000)">ê </hi><hi rend="color(#969600)">&amp;#234;</hi></p>
+            <p><hi rend="color(#000000)">ë</hi><hi rend="color(#969600)">&amp;#235;</hi></p>
+            <p>ô<hi rend="color(#969600)">&amp;#244;</hi></p>
+            <p><hi rend="color(#000000)">ö </hi><hi rend="color(#969600)">&amp;#246;</hi></p>
+            <p>ç<hi rend="color(#969600)">&amp;#231;</hi></p>
+            <p>—(em dash) <hi rend="color(#969600)">&amp;#8212;</hi></p>
+            <p>Æ<code>&amp;#198;</code></p>
+            <p>æ<code>&amp;#230;</code></p>
+            <p><hi rend="color(#000000)">œ</hi><hi rend="color(#969600)">&amp;#339;</hi></p>
+            <p><hi rend="color(#000000)">ï</hi><hi rend="color(#969600)">&amp;#239;</hi>
+            </p>
+            <p><hi rend="color(#000000)">à</hi><hi rend="color(#969600)">&amp;#224;</hi></p>
+            <p><hi rend="color(#000000)">â</hi><hi rend="color(#969600)">&amp;#226;</hi></p>
+            <p><hi rend="color(#000000)">ä </hi><hi rend="color(#969600)">&amp;#228;</hi></p>
+            <p><hi rend="color(#000000)">Ü</hi><hi rend="color(#969600)">&amp;#220;</hi></p>
+            <p><hi rend="color(#000000)">ü</hi><hi rend="color(#969600)">&amp;#252;</hi></p>
+            <p><hi rend="color(#000000)">ù </hi><hi rend="color(#969600)">&amp;#249;</hi></p>
+        </body>
+    </text>
+</TEI>

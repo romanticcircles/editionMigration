@@ -1,0 +1,36 @@
+
+  { "stem" : "bembo",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Bembo",
+            "weight" : "1",
+            "pos" : 3343,
+            "context" : "...Sir Charles Grandison (1754). [MW]  <mark>Bembo<\/mark>, Saint Leon— A Roman Catholic saint remembered...",
+            "fid" : "SaintLeonBembo" },
+          
+          { "form" : "Bembo",
+            "weight" : "1",
+            "pos" : 3354,
+            "context" : "...saint remembered for his miraculous healings, Saint Leon <mark>Bembo<\/mark> died in 1188. [LD] Bembo Pietro..." },
+          
+          { "form" : "Bembo",
+            "weight" : "1",
+            "pos" : 3357,
+            "context" : "...Leon Bembo died in 1188. [LD] <mark>Bembo<\/mark> Pietro, 1470-1547 (Library of Congress...",
+            "fid" : "BemboPietro" } ] },
+      
+      { "docId" : "MoodyRevSceltaLett1800",
+        "docUri" : "MoodyRevSceltaLett1800.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bembo",
+            "weight" : "1",
+            "pos" : 98,
+            "context" : "...elegant language with facility and correctness. Algarotti—<mark>Bembo<\/mark>—Bentivoglio—Boccalini—Castiglione—Caro—...",
+            "fid" : "ref7" } ] } ] }

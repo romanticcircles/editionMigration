@@ -1,0 +1,45 @@
+
+  { "stem" : "vita",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Vita",
+            "weight" : "1",
+            "pos" : 588,
+            "context" : "...? (Library of Congress Name Authority)—   Authored <mark>Vita<\/mark> del Picaro Guzman d'Alfarache (1599-1604)...." },
+          
+          { "form" : "Vita",
+            "weight" : "1",
+            "pos" : 16949,
+            "context" : "...Kings of Britain) as well as the manuscript <mark>Vita<\/mark> Merlini, Geoffrey of Monmouth is an important source..." },
+          
+          { "form" : "Vita",
+            "weight" : "1",
+            "pos" : 27140,
+            "context" : "...de Guzman d'Alfarache (1732), an adaptation of <mark>Vita<\/mark> del Picaro Guzman d‘Alfarache (1599-1604),..." } ] },
+      
+      { "docId" : "BarbOriginProgBritNov1810",
+        "docUri" : "BarbOriginProgBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vita",
+            "weight" : "1",
+            "pos" : 4972,
+            "context" : "...in tanto ei beve, E da l'inganno suo <mark>vita<\/mark> riceve:27   with such-like reasons equally...",
+            "fid" : "line7" } ] },
+      
+      { "docId" : "ShelleyRevLovesPoets1829",
+        "docUri" : "ShelleyRevLovesPoets1829.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "\"Vita",
+            "weight" : "1",
+            "pos" : 616,
+            "context" : "...which sweet womanhood reigned and ruled. Dante's <mark>\"Vita<\/mark> Nuova\" is a beautiful and fanciful history of his...",
+            "fid" : "para23" } ] } ] }

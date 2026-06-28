@@ -1,0 +1,36 @@
+
+  { "stem" : "bradshaw",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "\"Bradshaw",
+            "weight" : "1",
+            "pos" : 4567,
+            "context" : "...Richardson, Anna Letitia Barbauld occasionally spells the name <mark>\"Bradshaw<\/mark>.\" [MW]  Bradshaw, Lady—  Appears..." },
+          
+          { "form" : "Bradshaw",
+            "weight" : "1",
+            "pos" : 4568,
+            "context" : "...occasionally spells the name \"Bradshaw.\" [MW]  <mark>Bradshaw<\/mark>, Lady—  Appears as an alternate spelling of...",
+            "fid" : "BradshawLady" } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bradshaw",
+            "weight" : "1",
+            "pos" : 3146,
+            "context" : "...] he thus speaks in a letter to Lady <mark>Bradshaw<\/mark>, who had been pleading against a melancholy termination...",
+            "fid" : "ref112" },
+          
+          { "form" : "Bradshaw",
+            "weight" : "1",
+            "pos" : 6190,
+            "context" : "...marriage state. This was the conclusion which Lady <mark>Bradshaw<\/mark> so vehemently and passionately urged the author to adopt...",
+            "fid" : "ref222" } ] } ] }

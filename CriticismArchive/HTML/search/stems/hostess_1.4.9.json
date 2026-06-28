@@ -1,0 +1,40 @@
+
+  { "stem" : "hostess",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "hostess",
+            "weight" : "1",
+            "pos" : 30784,
+            "context" : "...of letters, heiress, traveler, and salon <mark>hostess<\/mark>. Although she donated the proceeds to charity,..." },
+          
+          { "form" : "hostess",
+            "weight" : "1",
+            "pos" : 31178,
+            "context" : "...(Library of Congress Name Authority)—   Wealthy literary <mark>hostess<\/mark>, critic, patron of the literary arts,..." } ] },
+      
+      { "docId" : "ShelleyByronShelleyHamlet1830",
+        "docUri" : "ShelleyByronShelleyHamlet1830.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hostess",
+            "weight" : "1",
+            "pos" : 724,
+            "context" : "...but no art, and much preferred satisfying his <mark>hostess<\/mark> of the Mermaid with a good night's profit,...",
+            "fid" : "para30" } ] },
+      
+      { "docId" : "JewsburyLandonRev1831",
+        "docUri" : "JewsburyLandonRev1831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hostess",
+            "weight" : "1",
+            "pos" : 978,
+            "context" : "...to Emily, Mr. Perkins simpered up to the <mark>hostess<\/mark>, and they entered a dismal-looking parlour...",
+            "fid" : "para20" } ] } ] }

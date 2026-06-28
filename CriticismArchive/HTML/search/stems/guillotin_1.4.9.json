@@ -1,0 +1,56 @@
+
+  { "stem" : "guillotin",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "guillotined",
+            "weight" : "1",
+            "pos" : 27918,
+            "context" : "...King of France beginning 1774, Louis XVI was <mark>guillotined<\/mark> by the French Revolutionary National Convention in 1793...." },
+          
+          { "form" : "guillotined",
+            "weight" : "1",
+            "pos" : 34154,
+            "context" : ".... In France, Paine was arrested and nearly <mark>guillotined<\/mark> for his opposition to the execution of Louis XVI..." },
+          
+          { "form" : "guillotining",
+            "weight" : "1",
+            "pos" : 37489,
+            "context" : "...responsible for the bloody Reign of Terror and the <mark>guillotining<\/mark> of tens of thousands. Robespierre himself lost his..." },
+          
+          { "form" : "guillotine",
+            "weight" : "1",
+            "pos" : 37495,
+            "context" : "...thousands. Robespierre himself lost his life to the <mark>guillotine<\/mark> in July 1794. [MW] Robinson,..." } ] },
+      
+      { "docId" : "BarbMooreBritNov1810",
+        "docUri" : "BarbMooreBritNov1810.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "guillotined",
+            "weight" : "1",
+            "pos" : 963,
+            "context" : "4.  Shortly after Louis XVI was <mark>guillotined<\/mark> in January 1793, England declared war with France...",
+            "fid" : "note4" },
+          
+          { "form" : "guillotining",
+            "weight" : "1",
+            "pos" : 981,
+            "context" : "...rigorous repression of political dissent in England, the <mark>guillotining<\/mark> of Robespierre and the collapse of the National Convention...",
+            "fid" : "note4" } ] },
+      
+      { "docId" : "MoodyRevDivorce1805",
+        "docUri" : "MoodyRevDivorce1805.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "guillotine",
+            "weight" : "1",
+            "pos" : 324,
+            "context" : "..., the revolutionist most probably preserved himself from the <mark>guillotine<\/mark> by his amorous apostacy. Love was therefore the...",
+            "fid" : "para15" } ] } ] }

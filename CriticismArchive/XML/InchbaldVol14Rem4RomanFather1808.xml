@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Roman Father</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol14Rem4RomanFather1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Roman Father]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Roman Father;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By William Whitehead, Esq. As Performed
+                     at the Theatre Royal, Covent Garden. Printed under the Authority of the
+                     Managers from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Whitehead, William, 1715-1785</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241203" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The Roman
+                           Father</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Roman Father</title>; A Tragedy, In Five Acts;
+                              By <ref target="people.html#WhiteheadWilliam">William Whitehead</ref>,
+                              Esq. As Performed at the Theatre Royal, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>. Printed
+                              Under the Authority of the Managers From the Prompt Book. With Remarks
+                              by <ref target="people.html#InchbaldMrs">Mrs.
+                           Inchbald</ref></title></hi>. London: Printed for Longman, Hurst, Rees,
+                        and Orme, Paternoster Row, pp. 3-5. <hi rendition="#italics"><title
+                              level="m">The British Theatre; or, A Collection of Plays, Which Are
+                              Acted At the Theatres Royal, <ref target="people.html#DruryLane">Drury
+                                 Lane</ref>, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>, and <ref target="people.html#Haymarket"
+                                 >Haymarket</ref>. Printed Under the Authority of the Managers from
+                              the Prompt Books. With Biographical and Critical Remarks, by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald.</ref></title></hi>
+                        In Twenty-Five Volumes. Vol. XIV. <hi rendition="#italics">
+                           <title>Man of the World</title></hi>. <hi rendition="#italics"
+                              ><title>Foundling</title></hi>. <hi rendition="#italics"
+                              ><title>Gamester</title></hi>. <hi rendition="#italics"><title>Roman
+                              Father</title></hi>. <hi rendition="#italics"><title><ref
+                                 target="people.html#EdwardPrinceofWales">Edward the Black
+                                 Prince</ref></title></hi>. London: Printed for Longman, Hurst,
+                        Rees, and Orme, Paternoster Row. 1808. The first performance of this play
+                        was staged at the <ref target="people.html#DruryLane">Theatre Royal, Drury
+                           Lane</ref> on February 24<hi rendition="#sup">th</hi>, 1750. Laura DeWitt
+                        and Mary A. Waters edited this essay for <hi rendition="#italics">The
+                           Criticism Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p><ref target="people.html#WhiteheadWilliam">William Whitehead</ref>, the author of
+               this tragedy, was the son of a tradesman at Cambridge.<note><ref
+                     target="people.html#WhiteheadWilliam">Whitehead</ref> was born and raised in
+                  the city of Cambridge in southeast England. His father was a baker of modest means
+                  who financially ruined the family due to his extravagant spending and died in
+                  1730, when <ref target="people.html#WhiteheadWilliam">Whitehead</ref> was around
+                  the age of 15.</note> He was admitted a scholar of Clare Hall, in that university,
+               and afterwards obtained a fellowship.<note>In 1735, <ref
+                     target="people.html#WhiteheadWilliam">Whitehead</ref> entered Clare College at
+                  Cambridge through a scholarship which supported the orphaned sons of Cambridge
+                  bakers. He earned a BA in 1739, then to be named fellow in 1742.</note></p>
+
+            <p>During the years 1754, 1755, and 1756, he accompanied the young Lords <ref
+                  target="people.html#HarcourtGeorge">Nuneham</ref> and <ref
+                  target="people.html#VilliersGeorgeBussey">Villers</ref>, sons of the Earls of <ref
+                  target="people.html#HarcourtSimon">Harcourt</ref> and <ref
+                  target="people.html#VilliersWilliam">Jersey</ref>, in their travels.<note>By 1745
+                     <ref target="people.html#WhiteheadWilliam">Whitehead</ref> had the financial
+                  means to write to please rather than relying on it as his primary income. That
+                  same year, he became tutor to <ref target="people.html#VilliersGeorgeBussey"
+                     >George Bussey Villiers</ref>, son of the <ref
+                     target="people.html#VilliersWilliam">third Earl of Jersey</ref>. This tutoring
+                  position required <ref target="people.html#WhiteheadWilliam">Whitehead</ref> to
+                  accompany <ref target="people.html#VilliersGeorgeBussey">Villers</ref> and his
+                  companion, <ref target="people.html#HarcourtGeorge">George Simon Harcourt</ref>,
+                  son of the <ref target="people.html#HarcourtSimon">Earl of Harcourt</ref>, on a
+                  grand tour of Europe from 1754 to 1756.</note> Through the patronage of these
+               noblemen, he was, on his return, appointed Register and Secretary of the Order of the
+                  Bath.<note>During his years abroad, <ref target="people.html#BedfordAnneRussell"
+                     >Lady Jersey</ref> used her influence to secure multiple salaried positions for
+                     <ref target="people.html#WhiteheadWilliam">Whitehead</ref> upon his return,
+                  including secretary and registrar to the Order of the Bath as well as his 1757
+                  appointment to the poet laureateship following the death of <ref
+                     target="people.html#CibberColley">Colley Cibber</ref>.</note></p>
+
+            <p>On the death of <ref target="people.html#CibberColley">Colley Cibber</ref>, <ref
+                  target="people.html#WhiteheadWilliam">Mr. Whitehead</ref> became Poet
+               Laureate.&#8212;Besides his Odes, he was author of other poetical pieces, and several
+                  dramas.<note>As poet laureate, <ref target="people.html#WhiteheadWilliam"
+                     >Whitehead</ref> composed odes to the king twice annually until his death. His
+                  other successful plays included <hi rendition="#italics"><title>Creusa, Queen of
+                        Athens</title></hi> (1754), <hi rendition="#italics"><title>The School for
+                        Lovers</title></hi> (1762), and <hi rendition="#italics"><title>The Trip to
+                        Scotland</title></hi> (1770). <ref target="people.html#WhiteheadWilliam"
+                     >Whitehead</ref>'s poetry, plays, and other writings were collected in two
+                  volumes in 1774.</note> He died at the age of seventy, in the year 1785.<note><ref
+                     target="people.html#WhiteheadWilliam">Whitehead</ref> died in his home in
+                  London on April 14<hi rendition="#sup">th</hi>, 1785, indeed at the age of
+                  70.</note></p>
+
+            <p>"<title>The Roman Father</title>" is founded on a well known event in the early part
+               of Roman History&#8212;a combat between the Horatii and the Curiatii.<note><hi
+                     rendition="#italics"><title>The Roman Father</title></hi> centers around the
+                  ancient Roman legend of the battle of the Horatii and the Curiatii, a clash
+                  between two sets of warrior triplets from Rome and Alba Longa (a neighboring
+                  city), respectively.</note></p>
+
+            <p>The great <ref target="people.html#CorneillePierre">Corneille</ref> had produced a
+               tragedy on this subject some years before the present tragedy was written:<note><ref
+                     target="people.html#CorneillePierre">Pierre Corneille</ref>'s play over the
+                  same subject matter, <hi rendition="#italics"><title>Horace</title></hi>, was
+                  published in 1640 and served as the inspiration for the present
+               play.</note>&#8212;the English author falls infinitely beneath the French, as a poet
+               and dramatist; though, in the character of a Roman historian, he has been perhaps
+               more simple and faithful in the relation of facts.</p>
+
+            <p>But that <ref target="people.html#WhiteheadWilliam">Whitehead</ref> should omit to
+               introduce the lover on his scene is very surprising! In the "<title>Horace</title>"
+               of <ref target="people.html#CorneillePierre">Corneille</ref>, Curiatius is an
+               important character; and, though his early death in the play precludes him from <fw
+                  type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"/>so large a share in the
+               action, as that given to his rival in arms; still, as far as courage, joined with
+               sensibility and tenderness, is superior to that rugged bravery, which never feels
+               beyond its own selfish glory,&#8212;so is Curiatius, the lover in the French tragedy,
+               superior, both as a man and a hero, to Publius Horatius, the brother.<note>In <ref
+                     target="people.html#CorneillePierre">Corneille</ref>'s <hi rendition="#italics"
+                        ><title>Horace</title></hi>, Curiace is one of the Alban warrior triplets
+                  and fiancé of Camille, sister of the Roman warrior Horace. Curiace is revealed to
+                  have been vanquished by Horace along with his brothers in Act III, scene iv. In
+                  the present play, Publius Horatius is one of the three brother warriors from Rome
+                  and son of a prominent Senator. Publius' sister, Horatia, is engaged to Curiatius,
+                  the counterpart of <ref target="people.html#CorneillePierre">Corneille</ref>'s
+                  Curiace.</note></p>
+
+            <p>Although "<title>The Roman Father</title>" is not an exact translation from
+                  "<title>Horace</title>," yet, as some of the most important scenes of the first,
+               are evidently copied from the last named play, it may be amusing to the reader to
+               know what <ref target="people.html#CorneillePierre">Corneille</ref>, in his
+               examination of his own tragedy, has said of those parts of it which <ref
+                  target="people.html#WhiteheadWilliam">Whitehead</ref> has particularly adopted in
+               the following pages.</p>
+
+            <p>The French poet commences his examination by acquainting his reader, that the drama
+               of "<title>Horace</title>" would have been considered as the best among all his
+               works, if the two last acts had equalled the three preceding.<note><ref
+                     target="people.html#CorneillePierre">Corneille</ref>'s commennts on his own
+                  work can be found in <ref target="people.html#Voltaire">Voltaire</ref>'s <hi
+                     rendition="#italics"><title>Oeuvres De <ref
+                           target="people.html#CorneillePierre">P. Corneille</ref>: Psyché. Examens
+                        Des Pièces De <ref target="people.html#CorneillePierre"
+                        >Corneille</ref></title></hi> (<hi rendition="#italics"><title>Works of <ref
+                           target="people.html#CorneillePierre">P. Corneille</ref>: Psyche.
+                        Examinations of <ref target="people.html#CorneillePierre">Corneille</ref>'s
+                        Plays</title></hi>, 1660). </note> The reader of the English play will
+               assuredly find a deficiency of interest towards the end of the production; and
+               therefore the English author is, in this failure, implicated with his original.</p>
+
+            <p><ref target="people.html#CorneillePierre">Corneille</ref> laments, that, with all his
+               care to describe the virtues of the brother, Horatius, as ferocious, he yet had not
+               the art to give sufficient preparation to the audience, for the fatal effects of this
+               young man's patriotism in the last act.<note>In the final act of <hi
+                     rendition="#italics"><title>Horace</title></hi>, the titular character murders
+                  his sister, Camille, who blames him for the death of her beloved.</note> Such may
+               be also found <ref target="people.html#WhiteheadWilliam">Whitehead</ref>'s
+               failing.</p>
+
+            <p><ref target="people.html#CorneillePierre">Corneille</ref> considers it as a blemish
+               in his play, that this event in the last act should form a double ac-<pb n="5"/>tion,
+               by forcing young Horatius into a second peril, after having nobly escaped the first.
+               He calls it, besides, a meaner peril&#8212;a private quarrel, after a combat for the
+               public weal&#8212;the fighting with a woman, after having conquered a band of
+               heroes.</p>
+
+            <p>This incident it was in vain for the English writer to reject, unless he had
+               possessed the invention to have given five acts to his play without it; and thus to
+               have postponed the battle of Publius with the Curiatii, as <ref
+                  target="people.html#CorneillePierre">Corneille</ref> says it ought to have been
+               delayed, till the catastrophe. But as that incident, which is now introduced at the
+               conclusion of the piece, is purely historical, and proceeds exactly from the previous
+               grand event, it surely should be included in the tragedy, though it is to be
+               regretted that the greater occurrence precedes the less.<note>The account of Publius
+                  being the sole vanquisher of the three Curiatii warriors and subsequently
+                  murdering his sister is drawn from <ref target="people.html#Livy">Livy</ref>'s
+                  history. This sequence occurs in the final act of the present play, as opposed to
+                  the third act in <ref target="people.html#CorneillePierre">Corneille</ref>'s <hi
+                     rendition="#italics"><title>Horace</title></hi>.</note></p>
+
+            <p>The author of "<title>Horace</title>" shows little gallantry to the ladies, in this
+               his examination of the work, notwithstanding he was a Frenchman. He says, that the
+               actress, who performed Horatia, brought on him the unjust reproach of shedding blood
+               in the sight of an audience; for that it was set down in her part to run from her
+               brother, with the usual cowardice of her sex, the moment he drew his sword; by which
+               means her supposed wound would have been received behind the scenes.</p>
+
+            <p>In another place, he congratulates himself for having made a female the bearer of the
+               false intelligence given in respect to the defeat of Publius;<note>In Act III, scene
+                  i of <hi rendition="#italics"><title>Horace</title></hi>, Julia, a Roman lady and
+                  friend of Camille, brings the news that two of the Roman brothers had died and the
+                  last, Publius, had fled from the battle scene. She was misinformed; Publius only
+                  pretended to flee the battle scene to ambush the Curiatii brothers.</note>
+               saying,&#8212;it was proper, on that occasion, to make use of the common impatience,
+               and common misapprehension of a woman.<fw type="sig"><hi rendition="#smcaps">b
+                  3</hi></fw></p>
+         </div>
+      </body>
+   </text>
+</TEI>

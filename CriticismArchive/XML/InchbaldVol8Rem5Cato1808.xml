@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Cato</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol8Rem5Cato1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Cato]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Cato</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Joseph Addison, Esq. As Performed at
+                     the Theatre Royal, Covent Garden. Printed under the Authority of the Managers
+                     from the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-8</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. VIII. Constant Couple. Inconstant. Recruiting
+                     Officer. Beaux Strategem. Cato.</title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">8</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Addison, Joseph, 1672-1719</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241015" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240709" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#Cato">Cato</ref></title></hi>]. <note>"Remarks."
+                           <hi rendition="#italics"><title><title><ref target="people.html#Cato"
+                                    >Cato</ref></title>; A Tragedy, In Five Acts; By <ref
+                                 target="people.html#AddisonJoseph">Joseph Addison</ref>, Esq. As
+                              Performed at the Theatre Royal, <ref target="people.html#CoventGarden"
+                                 >Covent Garden</ref>. Printed Under the Authority of the Managers
+                              From the Prompt Book. With Remarks by <ref
+                                 target="people.html#InchbaldMrs">Mrs. Inchbald</ref></title></hi>.
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row, pp. 3-8. <hi
+                           rendition="#italics"><title level="m">The British Theatre; or, A
+                              Collection of Plays, Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. VIII. <hi
+                           rendition="#italics">
+                           <title>Constant Couple</title></hi>. <hi rendition="#italics"
+                              ><title>Inconstant</title></hi>. <hi rendition="#italics"
+                              ><title>Recruiting Officer</title></hi>. <hi rendition="#italics"
+                              ><title>Beaux Stratagem</title></hi>. <hi rendition="#italics"
+                                 ><title><ref target="people.html#Cato">Cato</ref></title></hi>.
+                        London: Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808.
+                        The first performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on April
+                           14<hi rendition="#sup">th</hi>, 1713. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The author of this tragedy, to whose vigorous mind the English are indebted for their
+               choicest moral works, came into the world with a frame so weak, that he was
+               christened immediately on his birth, in consequence of the symptoms he gave of a
+               speedy dissolution.<note>The Addisons' first child died in infancy, so when <ref
+                     target="people.html#AddisonJoseph">Addison</ref> wailed incessantly upon his
+                  birth, his parents immediately had him baptized for fear he would not
+                  survive.</note> The hand, which reared him, did a more than ordinary service to
+               the age in which he lived, and to succeeding generations. <ref
+                  target="people.html#AddisonJoseph">Addison</ref>'s pious writings, untainted by
+               the rigour of superstition, have softened the harsh spirit of ancient religion,
+               whilst they have confirmed all its principles.</p>
+            <p>He was the son of the <ref target="people.html#AddisonLancelot">Reverend Launcelot
+                  Addison</ref>, Rector of Milston, in the county of Wilts, at which place he was
+               born, on the 6th of May, 1672.<note><ref target="people.html#AddisonJoseph"
+                     >Addison</ref> was born in the hamlet and civil parish of Milston in Wiltshire
+                  on May 1<hi rendition="#sup">st</hi>, 1672.</note></p>
+            <p>After passing through some inferior schools, he was placed at the Charter House;
+               where he contracted that intimacy with <ref target="people.html#SteeleRichard"
+                  >Steele</ref>, which grew to a friendship honourable to them both, from its
+               duration, and the instructions which their joint labour bestowed on
+                     mankind.<note><ref target="people.html#AddisonJoseph">Addison</ref> began
+                  attending the Charterhouse School in London at the age of 14, where he met his
+                  lifelong friend <ref target="people.html#SteeleRichard">Richard Steele</ref>, with
+                  whom he would later found their influential periodical, <hi rendition="#italics"
+                        ><title>The Spectator</title></hi>.</note></p>
+            <lb/>
+            <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw>
+            <pb n="4"/>
+            <p>At the age of fifteen, young <ref target="people.html#AddisonJoseph">Addison</ref>
+               was entered at Queen's College, Oxford, where he applied himself so closely to study,
+               that, in a few years, his Latin poetry gained him high reputation in both
+               Universities; and at the age of twenty-two, he became known to the nation at large,
+               by his English compositions.<note><ref target="people.html#AddisonJoseph"
+                     >Addison</ref>'s Latin verse won him a position as a fellow at Magdalen
+                  College, where he graduated with his M.A. degree in 1693. His first major work,
+                     <hi rendition="#italics"><title>An Account of the Greatest English
+                        Poets</title></hi>, was published in 1694 when <ref
+                     target="people.html#AddisonJoseph">Addison</ref> was 22 years old.</note></p>
+            <p>He was now pressed by his father to take holy orders; which, notwithstanding his
+               sedate turn of mind, and his habits of piety, he positively refused. <ref
+                  target="people.html#TickellThomas">Mr. Tickell</ref> has alleged, that it was <ref
+                  target="people.html#AddisonJoseph">Addison</ref>'s extreme modesty, a
+               constitutional timidity, which made him resolve against being in the church&#8212;but
+               he became a statesman;<note>From <ref target="people.html#TickellThomas">Thomas
+                     Tickell</ref>'s <hi rendition="#italics"><title>The Works of the Right
+                        Honourable <ref target="people.html#AddisonJoseph">Joseph Addison</ref>,
+                        Esq</title></hi> (1721, p. vii). <ref target="people.html#AddisonJoseph"
+                     >Addison</ref> became valuable to the Whig party through his writing and came
+                  to hold the political offices of Member of Parliament for Lostwithiel and
+                  Secretary of State for the Southern Department.</note> and, surely, that is a
+               character which requires as much courage as a clergyman's, when the church is not
+               under persecution.</p>
+            <p>The first dramatic work from the pen of <ref target="people.html#AddisonJoseph"
+                  >Addison</ref>, was an opera, called, "<title>Rosamond</title>," which having but
+               indifferent success, he next assisted <ref target="people.html#SteeleRichard"
+                  >Steele</ref> in his play of "<title>The Tender Husband</title>;" for which the
+               author surprised him by a dedication, openly to avow the obligation.<note><ref
+                     target="people.html#AddisonJoseph">Addison</ref> wrote the libretto for <ref
+                     target="people.html#ClaytonThomas">Thomas Clayton</ref>'s opera <hi
+                     rendition="#italics"><title>Rosamond</title></hi>. The opera's premier at <ref
+                     target="people.html#DruryLane">Drury Lane</ref> on March 4<hi rendition="#sup"
+                     >th</hi>, 1707, was a spectacular failure. <ref
+                     target="people.html#AddisonJoseph">Addison</ref> wrote the Prologue for <ref
+                     target="people.html#SteeleRichard">Richard Steele</ref>'s <hi
+                     rendition="#italics"><title>The Tender Husband, or, The Accomplish'd
+                        Fools</title></hi> (1705). In return, <ref
+                     target="people.html#SteeleRichard">Steele</ref> wrote "The Dedication"
+                  prefacing the play in honor of <ref target="people.html#AddisonJoseph"
+                     >Addison</ref>.</note></p>
+            <p>These two friends now united their efforts in that well known periodical work,
+                  "<title>The Spectator</title>;" by which they reformed the manners, as well as the
+               morals, of their readers, and established their own literary fame.<note><ref
+                     target="people.html#AddisonJoseph">Addison</ref> and <ref
+                     target="people.html#SteeleRichard">Steele</ref> are best remembered for their
+                  collaboration on their periodical <hi rendition="#italics"><title>The
+                        Spectator</title></hi>, which ran from March 1<hi rendition="#sup">st</hi>,
+                  1711 to December 6<hi rendition="#sup">th</hi>, 1712, with a second series from
+                  June 18<hi rendition="#sup">th</hi> to December 20<hi rendition="#sup">th</hi>,
+                  1714. According to Issue Number 10, the periodical aimed to "enliven morality with
+                  wit, and to temper wit with morality" (March 12<hi rendition="#sup">th</hi>,
+                  1711).</note> But, as the talents of <ref target="people.html#AddisonJoseph"
+                  >Addison</ref> were superior to those of <ref target="people.html#SteeleRichard"
+                  >Steele</ref>, so are the papers in this work, which were written by him, esteemed
+               above the rest;&#8212;and, as a mark of distinction, he had the laudable, or his
+               friend <ref target="people.html#SteeleRichard">Steele</ref> the honest, pride, to
+               affix a letter<pb n="5"/> at the end of every such paper, by which it should be known
+               for his. The Muse Clio furnished the four letters which have been thus used in
+                  "<title>The Spectator</title>," as <ref target="people.html#AddisonJoseph"
+                  >Addison</ref>'s honourable stamp of authorship.<note>In Greek Mythology, Clio (or
+                  Klio) is the Muse of History. <ref target="people.html#AddisonJoseph"
+                     >Addison</ref> marked the essays he wrote with the letters C, L, I, or O in
+                  reference to the muse of history.</note></p>
+            <p>In the periodical work of "<title>The Guardian</title>"<note><hi rendition="#italics"
+                        ><title>The Guardian</title></hi> was founded by <ref
+                     target="people.html#SteeleRichard">Richard Steele</ref> and ran from March
+                     12<hi rendition="#sup">th</hi> to October 1<hi rendition="#sup">st</hi>, 1713.
+                     <ref target="people.html#AddisonJoseph">Joseph Addison</ref>, <ref
+                     target="people.html#TickellThomas">Thomas Tickell</ref>, <ref
+                     target="people.html#PopeAlexander">Alexander Pope</ref>, and <ref
+                     target="people.html#PhilipsAmbrose">Ambrose Philips</ref> were regular
+                  contributors.</note> he had likewise some share&#8212;and, in 1713, he produced,
+               what <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> has called, "the
+               noblest work of <ref target="people.html#AddisonJoseph">Addison</ref>'s
+                  genius"<note>From <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s
+                     <hi rendition="#italics"><title>The Lives of the Most Eminent English Poets;
+                        with Critical Observations on their Works</title></hi> (1781, vol. 2, pp.
+                  411-412).</note>&#8212;"<title><ref target="people.html#Cato"
+               >Cato</ref></title>."</p>
+            <p>Notwithstanding the merit of this play, it is certain, that it was indebted to the
+               political circumstances of the times, for that enthusiastic applause with which it
+               was received by the town.</p>
+            <p>The joy or sorrow, which an author is certain to experience upon every new
+               production, is far more powerful in the heart of a dramatist, than in that of any
+               other writer. The sound of clamorous plaudits raises his spirits to a kind of
+               ecstacy; whilst hisses and groans, from a dissatisfied audience, strike on the ear
+               like a personal insult, avowing loud and public contempt for that, in which he has
+               been labouring to show his skill.</p>
+            <p><ref target="people.html#AddisonJoseph">Addison</ref>, with his timid nature, felt
+               all the excruciating tortures of an ambitious, yet a fearful, dramatist.&#8212;He
+               could not stay at home on the first night of "<title><ref target="people.html#Cato"
+                     >Cato</ref></title>:" for to be told, at once, that his tragedy was driven from
+               the stage with derision, had been to his tremulous nerves, like the dart of death.
+               Not less peril might have befallen him as an auditor&#8212;he therefore was neither
+               present on the first performance,<lb/>
+               <fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="6"/> nor absent from the
+               theatre:&#8212;but, placing himself on a bench in the greenroom, his body motionless,
+               his soul in tumult, he kept by his side a friend, whom he despatched every minute
+               towards the stage, to bring him news of what was passing there. He thus secured, he
+               conceived, progressive information of his fate, without the risk of hearing it from
+               an enraged multitude. But, such was the vehemence of applause, that shouts of
+               admiration forced their way through the walls of the greenroom, before his messenger
+               could return with the gladsome tidings.&#8212;Yet, not till the last sentence was
+               spoken, and the curtain fairly dropped upon <ref target="people.html#Cato">Cato</ref>
+               and his weeping friends, did the author venture to move from the inanimate position
+               in which he was fixed.&#8212;This acute dread of failure, now heightened the joy of
+               success; and never was success more complete.<note>This tradition is recounted in
+                     <ref target="people.html#PopeAlexander">Alexander Pope</ref>'s letter to <ref
+                     target="people.html#CaryllJohn">John Caryll</ref> on April 30<hi
+                     rendition="#sup">th</hi>, 1713.</note></p>
+            <p>"<title><ref target="people.html#Cato">Cato</ref></title>," says <ref
+                  target="people.html#PopeAlexander">Pope</ref>, in a letter to one of his friends,
+               written at the time, "was not so much the wonder of Rome in his days, as he is of
+               Britain in ours."<note>This quote is found in <ref target="people.html#PopeAlexander"
+                     >Alexander Pope</ref>'s letter to <ref target="people.html#CaryllJohn">John
+                     Caryll</ref> on April 30<hi rendition="#sup">th</hi>, 1713.</note></p>
+            <p>The most fortunate of all occurrences took place, from the skill with which <ref
+                  target="people.html#AddisonJoseph">Addison</ref> drew this illustrious
+               Roman&#8212;he gave him so much virtue, that both Whigs and Tories<note>The two main
+                  opposing political parties in Britain during the 18<hi rendition="#sup">th</hi>
+                  century and beyond.</note> declared him of their party; and instead of any one, on
+               either side, opposing his sentences in the cause of freedom, all strove&#8212;which
+               should the most honour them.</p>
+            <p>Both auditors and readers, since that noted period, much as they may praise this
+               tragedy, complain, that it wants the very first requisite of a dramatic<pb n="7"/>
+               work&#8212;power to affect the passions. This criticism shows, to the full extent,
+               how men were impassioned, at that time, by their political sentiments. They brought
+               their passions with them to the playhouse fired on the subject of the play; and all
+               the poet had to do, was to extend the flame.</p>
+            <p>It is a charge against this drama, that the love scenes are all insipid; but it
+               should be considered, that neither <ref target="people.html#Cato">Cato</ref>, nor his
+               family, with strict propriety, could love any thing but their country.&#8212;As this
+               is a love, which women feel in a much less degree than men, and, as bondage, not
+               liberty, is woman's wish, "<title><ref target="people.html#Cato">Cato</ref></title>,"
+               with all his patriotism, must ever be a dull entertainment to the female sex; and men
+               of course receive but little pleasure from elegant amusements, of which women do not
+               partake.</p>
+            <p>The language and sentiments, contained here, are worthy of the great <ref
+                  target="people.html#AddisonJoseph">Addison</ref> and the great <ref
+                  target="people.html#Cato">Cato</ref>; and if, as it is objected, the characters
+               are too elevated to be natural, yet, they accord with that idea of nature, which
+               imagination conceives of such remarkable personages.</p>
+            <p>The author of "<title><ref target="people.html#Cato">Cato</ref></title>" had planned
+               other tragedies and celebrated works, which the subsequent part of his days did not
+               give him leisure to execute; for, on the death of <ref
+                  target="people.html#AnneQueenofGreatBritain">Queen Anne</ref>, the Lords Justices
+               made him their Secretary:&#8212;he was soon after appointed principal Secretary of
+                  State:<note>In August of 1714, <ref target="people.html#AddisonJoseph"
+                     >Addison</ref> was named secretary to the Lord Justices (otherwise known as the
+                  Regents, who governed until the arrival of the new monarch, <ref
+                     target="people.html#GeorgeIKingofGreatBritain">King George I</ref>). On April
+                     6<hi rendition="#sup">th</hi>, 1717, <ref target="people.html#AddisonJoseph"
+                     >Addison</ref> was named Secretary of State for the Southern Department.</note>
+               these, and other public employments, prevented his completing farther literary
+               designs.&#8212;Or, it may be thought, that the loss of<pb n="8"/> his domestic
+               tranquillity, at this time, by his marriage with the Countess Dowager of Warwick,
+               might possibly impede every future attempt for the favour of the muses, to whom this,
+               his wife, had not the slightest affinity.<note>Lady Warwick, widow of Edward Rich,
+                  sixth Earl of Warwick, was born Charlotte Myddelton and had one son, Edward Rich,
+                  who is referenced here. Lady Warwick had a reputation as being arrogant and
+                  domineering.</note> It is supposed, she embittered, by arrogance and discontent,
+               the remainder of this good man's life, which terminated on the 17th of June, 1719, in
+               the 47th year of his age. He died at Holland House, near Kensington, and left an only
+               child, a daughter, by the Countess.<note>Holland House was a Jacobean country house
+                  located in an estate in Kensington, an area of west-central London. <ref
+                     target="people.html#AddisonJoseph">Addison</ref>'s only child, Charlotte, was
+                  born on January 30<hi rendition="#sup">th</hi>, 1719.</note></p>
+            <p>Lady Warwick had also a son by her former husband, a very fine, spirited, and
+               accomplished youth, for whose welfare the dying <ref
+                  target="people.html#AddisonJoseph">Addison</ref> showed peculiar concern: for, in
+               the extremity of his disorder, having dismissed his physicians, and with them all
+               hopes of recovery, he desired, that the young Lord Warwick might be called to his bed
+               side. He came&#8212;but life was now fast departing from his revered father-in-law,
+               and he uttered not a word. After an afflicting pause, the young man said, "Dear sir,
+               you sent for me; I believe, and I hope, that you have some commands; I shall hold
+               them most sacred." Grasping his hand, <ref target="people.html#AddisonJoseph"
+                  >Addison</ref> softly replied, "I sent for you, that you might see, in what peace
+               a christian can die." He spoke with difficulty, and instantly expired.<note><ref
+                     target="people.html#AddisonJoseph">Addison</ref>'s stepson, Edward, had a
+                  reputation as a rake and was known to quarrel with <ref
+                     target="people.html#AddisonJoseph">Addison</ref>. This account of their final
+                  conversation is taken from <ref target="people.html#YoungEdward">Edward
+                     Young</ref>'s <hi rendition="#italics"><title>Conjectures on Original
+                        Composition: In a Letter to the Author of <ref
+                           target="people.html#SirCharlesGrandison">Sir Charles
+                        Grandison</ref></title></hi> (1759, pp. 103-104).</note></p>
+            <p>It is to this circumstance, <ref target="people.html#TickellThomas"> Mr.
+                  Tickell</ref> refers in his lines on <ref target="people.html#AddisonJoseph"
+                  >Addison</ref>'s death, where he has this passage: <quote><lg type="stanza">
+                     <l>He taught us how to live; and oh! too high</l>
+                     <l>A price for knowledge, taught us how to die. <note><ref
+                              target="people.html#TickellThomas">Tickell</ref>'s poem "To the Right
+                           Honourable Earl of Warwick" in his <hi rendition="#italics"><title>The
+                                 Works of the Right Honourable <ref
+                                    target="people.html#AddisonJoseph">Joseph Addison</ref>,
+                                 Esq</title></hi> (1721, p. xx, lines 81-82).</note>
+                     </l>
+                  </lg></quote></p>
+         </div>
+      </body>
+   </text>
+</TEI>

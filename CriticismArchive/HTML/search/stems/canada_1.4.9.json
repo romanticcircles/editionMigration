@@ -1,0 +1,29 @@
+
+  { "stem" : "canada",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Canada",
+            "weight" : "1",
+            "pos" : 4836,
+            "context" : "...to join her husband, who was serving in <mark>Canada<\/mark> as part of the British army. The History..." },
+          
+          { "form" : "Canada",
+            "weight" : "1",
+            "pos" : 23359,
+            "context" : "...(1837); Winter Studies and Summer Rambles in <mark>Canada<\/mark> (1838); Sketches of Italy (1841);..." } ] },
+      
+      { "docId" : "BarbBrookeBritNov1810",
+        "docUri" : "BarbBrookeBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Canada",
+            "weight" : "1",
+            "pos" : 83,
+            "context" : "...of beautiful description of the manners and scenery of <mark>Canada<\/mark>, which country the author had visited. Mrs...",
+            "fid" : "para13" } ] } ] }

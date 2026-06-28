@@ -1,0 +1,40 @@
+
+  { "stem" : "derbi",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Derby",
+            "weight" : "1",
+            "pos" : 15078,
+            "context" : "...to Edward Smith-Stanley, 12th Earl of <mark>Derby<\/mark>, Farren held the title of Countess of Derby..." },
+          
+          { "form" : "Derby",
+            "weight" : "1",
+            "pos" : 15083,
+            "context" : "...Derby, Farren held the title of Countess of <mark>Derby<\/mark> from 1797 until her death. She was often..." } ] },
+      
+      { "docId" : "InchbaldVol15Rem2WayKeepHim1808",
+        "docUri" : "InchbaldVol15Rem2WayKeepHim1808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Derby",
+            "weight" : "1",
+            "pos" : 183,
+            "context" : ".... Abington and Miss Farren (the present Countess of <mark>Derby<\/mark>) were both, at the two different houses,...",
+            "fid" : "ref21" } ] },
+      
+      { "docId" : "BarbBageBritNov1810",
+        "docUri" : "BarbBageBritNov1810.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Derby",
+            "weight" : "1",
+            "pos" : 23,
+            "context" : "...public, was born in the year 1728 at <mark>Derby<\/mark>, where his father worked a paper-mill...",
+            "fid" : "para13" } ] } ] }

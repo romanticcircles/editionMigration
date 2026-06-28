@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on The Provoked Husband</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="BD">Bernadette D. Woodburn</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol9Rem2ProvokedHusband1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on The Provoked Husband]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The Provoked Husband; or, a Journey to
+                     London;</title>
+                  <title type="sub">A Comedy, in Five Acts; By Sir J. Vanbrugh, and C. Cibber, Esq.
+                     As Performed at the Theatres Royal, Drury Lane and Covent Garden. Printed under
+                     the Authority of the Managers from the Prompt Book. With Remarks by Mrs.
+                     Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title>or, A Collection of Plays, which Are Acted at the Theatres Royal, Drury
+                     Lane, Covent Garden, and Haymarket. Printed under the Authority of the Managers
+                     from the Prompt Books. With Biographical and Critical Remarks by Mrs. Inchbald.
+                     In Twenty-five Volumes. Vol. IX. Provoked Wife. Provoked Husband. Love Makes A
+                     Man. She Wou'd And She Wou'd Not. Careless Husband. </title>
+                  <editor>Inchbald, Mrs., 1753-1821 </editor>
+                  <imprint>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <date when="1808">1808</date>
+                     <biblScope unit="vol">9</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Vanbrugh, John, 1664-1726</item>
+                  <item>Cibber, Colley, 1671-1757</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241115" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revised encoding</item>
+               <item>corrected minor errors in editing and encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20241016" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20240725" n="3">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#BD" when="20230503" n="2">
+            <label>Changed by</label>
+            <name>Bernadette D. Woodburn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title>The
+                           Provoked Husband</title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                 ><title><title>The Provoked Husband</title>; or, a Journey to
+                              London; A Comedy, In Five Acts; By <ref
+                                 target="people.html#VanbrughJohn">Sir J. Vanbrugh</ref>, and <ref
+                                 target="people.html#CibberColley">C. Cibber</ref>, Esq. As
+                              Performed at the Theatres Royal, <ref target="people.html#DruryLane"
+                                 >Drury Lane</ref> and <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald</ref>.</title></hi> In Twenty-Five Volumes. Vol. IX. <hi
+                           rendition="#italics">
+                           <title>Provoked Wife</title></hi>. <hi rendition="#italics"
+                              ><title>Provoked Husband</title></hi>. <hi rendition="#italics"
+                              ><title>Love Makes a Man</title></hi>. <hi rendition="#italics"
+                              ><title>She Wou'd and She Wou'd Not</title></hi>. <hi
+                           rendition="#italics"><title>Careless Husband</title></hi>. London:
+                        Printed for Longman, Hurst, Rees, and Orme, Paternoster Row. 1808. The first
+                        performance of this play was staged at the <ref
+                           target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on January
+                           10<hi rendition="#sup">th</hi> of 1728. Bernadette D. Woodburn, Laura
+                        DeWitt, and Mary A. Waters edited this essay for <hi rendition="#italics"
+                           >The Criticism Archive</hi>. </note></title>
+                  <lb rendition="#center"/>______ </bibl>
+            </head>
+            <p>The artist, who raised the famed structure at Blenheim, laid the foundation of this
+               play. He died in the midst of his labour, and the dramatic edifice was erected by
+                     another.<note><ref target="people.html#VanbrughJohn">Vanbrugh</ref>, as well as
+                  being an author, was an architect and designed the Blenheim Palace for <ref
+                     target="people.html#MarlboroughJohnChurchill">John Churchill</ref>.
+                  Then-entitled <hi rendition="#italics"><title>A Journey to London</title></hi>,
+                     <hi rendition="#italics"><title>The Provoked Husband</title></hi> remained
+                  unfinished upon <ref target="people.html#VanbrughJohn">Vanbrugh</ref>'s death in
+                  1726. He left the manuscript to his friend <ref target="people.html#CibberColley"
+                     >Colley Cibber</ref> to finish.</note></p>
+            <p><ref target="people.html#VanbrughJohn">Sir John Vanbrugh</ref>, celebrated as an
+               architect, and no less so as a dramatist, was descended from an ancient family in
+                     Cheshire,<note><ref target="people.html#VanbrughJohn">Vanbrugh</ref> grew up in
+                  Chester, the county town of the region Cheshire in Northwest England. <ref
+                     target="people.html#VanbrughJohn">Vanbrugh</ref>'s father, Giles Vanbrugh, was
+                  a wealthy sugar refiner and the son of a Flemish immigrant.</note> and born about
+               the middle of the reign of <ref target="people.html#CharlesIIKingofEngland">King
+                  Charles the Second</ref>. He was a man of wit, yet a man of business; and without
+               suffering any one of the many talents which he possessed to destroy the other, he
+               made the most of every gift which Providence had bestowed on him, and left an example
+               to poets&#8212;that affluence and the muses may dwell in the same habitation,
+               provided the door is not shut against prudence and industry.</p>
+            <p><ref target="people.html#VanbrughJohn">Sir John</ref>, with all his wisdom and
+               discretion, had still, in the decline of his life, some past deeds of which he
+               repented; and that his contrition was sincere, his amendment appears to have given
+               ample proof&#8212;his regret was, that he had ever written a licentious play; and he
+               began to write this moral drama, "<title>The Provoked Husband</title>," in atonement
+               for his former le-<lb/><fw type="sig"><hi rendition="#smcaps">b 2</hi></fw><pb n="4"
+                  />vity.<note>In the Prologue to <hi rendition="#italics"><title>The Provok'd
+                        Husband; or, A Journey to London</title></hi> (1728), <ref
+                     target="people.html#CibberColley">Cibber</ref> writes:<quote><lg type="stanza">
+                        <l>This Play took Birth from Principles of Truth,</l>
+                        <l>To make Amends for Errors past, of Youth,</l>
+                        <l>A Bard, that's now no more, in Riper days,</l>
+                        <l>Conscious review'd the License of his Plays:</l>
+                        <l>And though Applause his wanton Muse had fir'd,</l>
+                        <l>Himself condemn'd what sensual Minds admir'd.</l>
+                        <l>At length, he own'd, that Plays should let you see</l>
+                        <l>Not only, What you Are, but Ought to Be:</l>
+                        <l>Though Vice was natural, 'twas never meant,</l>
+                        <l>The Stage should shew it, but for Punishment!</l>
+                        <l>Warm with that Thought, his Muse once more took flame,</l>
+                        <l>Resolv'd to bring licentious Life to Shame.</l>
+                     </lg></quote></note> Heaven, it is hoped, accepted his good intention, though
+               it forbade the completion of his pious desire.</p>
+            <p><ref target="people.html#CibberColley">Colley Cibber</ref>, the author, actor, and
+               manager, who finished this work, which the deceased <ref
+                  target="people.html#VanbrughJohn">Vanbrugh</ref> had commenced, has given an
+               account of the above laudable design, which was communicated to him by the author,
+               some little time previous to his death; when <ref target="people.html#CibberColley"
+                  >Cibber</ref> waited upon him to inquire after the progress he had made in
+               composing his new comedy, which, as the manager of the theatre, he was impatient to
+               have in his possession.</p>
+            <p><ref target="people.html#CibberColley">Cibber</ref> relates, that <ref
+                  target="people.html#VanbrughJohn">Sir John</ref> had even carried his
+               conscientious scruples so far, that he did not mean his gay, dissipated, woman of
+               fashion should be pardoned at the end of the play; but that she should be repudiated
+               by her husband, and all her honourable friends, as a proper warning to the unthinking
+               wives of that inconsiderate period.<note>In <ref target="people.html#VanbrughJohn"
+                     >Vanbrugh</ref>'s original manuscript, Lady Townly, a socialite with a lax
+                  lifestyle, is ultimately turned out by her husband for her indiscretions. However,
+                     <ref target="people.html#CibberColley">Cibber</ref> felt that this ending was
+                  too harsh for a comedy and opted for the married couple to come to a resolution.
+                     <ref target="people.html#CibberColley">Cibber</ref> describes this alteration
+                  in the "To the Reader" section prefacing <hi rendition="#italics"><title>The
+                        Provok'd Husband; or, A Journey to London</title></hi> (1728).</note></p>
+            <p>Whether <ref target="people.html#VanbrughJohn">Vanbrugh</ref> had perceived any
+               symptoms of approaching dissolution when he planned this catastrophe, is not
+               said&#8212;but <ref target="people.html#CibberColley">Colley Cibber</ref>, in perfect
+               health and spirits when the departed author's manuscript was laid before him, felt
+               more compassion for female frailty, and less zeal for the conversion of the female
+               world, than to give such a severe example as the original author had intended, to the
+               splendid rows of his side boxes.</p>
+            <p><ref target="people.html#CibberColley">Cibber</ref>, to his honour, preserved <ref
+                  target="people.html#VanbrughJohn">Vanbrugh</ref>'s moral, yet complied with his
+               own feelings and taste.&#8212;By this artful lenity, the cause of morality was,
+                     perhaps,<lb/><fw><hi rendition="#indent8">4</hi></fw><pb n="5"/> more benefited
+               than it would have been by more rigid means. Lady Townly, by <ref
+                  target="people.html#VanbrughJohn">Vanbrugh</ref>'s plot, must have been made too
+               unamiable for compassion: the interest in her final punishment would then have been
+               lost, and her case rendered so desperate, that none but the reprobate would have
+               found a resemblance of themselves in her [<hi rendition="#italics">sic</hi>]
+               character&#8212;a description of women, too hardened for the reformation of a
+               dramatist.</p>
+            <p><ref target="people.html#CibberColley">Colley Cibber</ref>, in his variety of
+               occupations, held a post the most difficult to guard against enemies. He was the
+               manager of a London theatre.<note><ref target="people.html#CibberColley">Cibber</ref>
+                  served as an actor-manager at the <ref target="people.html#DruryLane">Theatre
+                     Royal, Drury Lane</ref> from 1710 to 1732.</note> In this station, he had to
+               repulse numberless unskilful adventurers, both as authors, and actors, to tell them
+               in plain terms, that they were such&#8212;and they, of course, resented this want of
+               supposed discernment in their favour.</p>
+            <p>When "<title>The Provoked Husband</title>" first appeared, <ref
+                  target="people.html#CibberColley">Cibber</ref>'s enemies, it is said, knowing that
+               part of the work was his, and part the renowned <ref
+                  target="people.html#VanbrughJohn">Vanbrugh</ref>'s, they resolved to spare the
+               dead man, but to have no mercy on the living one. In this design they were happily
+               disappointed; for, mistaking the Wronghead family<note>The Wrongheads are an
+                  archetypal country-bumpkin clan who journey to London for the first time in the
+                  play's subplot. The family acts inappropriately at every turn, putting themselves
+                  in constant peril.</note> as the production of <ref
+                  target="people.html#CibberColley">Cibber</ref>'s pen, and the house of Lord Townly
+               as proceeding from <ref target="people.html#VanbrughJohn">Sir John</ref>'s, they
+               applauded the very scenes they came to condemn, and condemned those which they came
+               to applaud.</p>
+            <p><ref target="people.html#CibberColley">Cibber</ref> took the honest revenge of
+               pointing out to them their error, by publishing the manuscript of <ref
+                  target="people.html#VanbrughJohn">Sir John</ref> exactly as he left it; where all
+               the merit of the elegant part of the drama was seen to be wanting; and that it was
+                  <ref target="people.html#CibberColley">Cibber</ref>, and not <ref
+                  target="people.html#VanbrughJohn">Vanbrugh</ref>, to whom they<lb/><fw type="sig"
+                     ><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/> had been indebted for the
+               chief part of the dialogue between Lord and Lady Townly; more especially for that
+               admirable scene at the conclusion of the comedy.<note><ref
+                     target="people.html#CibberColley">Cibber</ref> included <ref
+                     target="people.html#VanbrughJohn">Vanbrugh</ref>'s original manuscript in his
+                  1728 publication of the play. <ref target="people.html#CibberColley">Cibber</ref>
+                  justified the publication of <ref target="people.html#VanbrughJohn"
+                  >Vanbrugh</ref>'s pages in the "To the Reader" section prefacing <hi
+                     rendition="#italics"><title>The Provok'd Husband; or, A Journey to
+                        London</title></hi> (1728): "I had no other way of taking those many Faults
+                  to my self, which may be justly found in my presuming to finish it." The scene to
+                  which <ref target="people.html#InchbaldMrs">Inchbald</ref> refers is Act V, scene
+                  ii, in which Lord and Lady Townly are reconciled and she realizes that "married
+                  happiness is never found from home."</note></p>
+            <p>Although refined characters are sometimes so dull on the stage, and those of low
+               humour so pleasant, that elegance gives place to nature unadorned&#8212;in this
+               comedy it is otherwise; for here, that which is elegant is interesting, and all which
+               is vulgar is tedious and insipid, with the exception of Sir Francis,<note>Sir Francis
+                  Wronghead is the father and leader of the Wronghead clan.</note> who is a
+               character drawn with truth and judgment, though somewhat removed in worldly
+               comprehension from the country gentleman of the present day; and as such, not
+               perfectly understood by the majority of an audience.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

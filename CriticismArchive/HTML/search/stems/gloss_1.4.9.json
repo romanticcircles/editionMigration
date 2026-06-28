@@ -1,0 +1,35 @@
+
+  { "stem" : "gloss",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Glosses",
+            "weight" : "2",
+            "pos" : 6,
+            "context" : "Biography and Identification <mark>Glosses<\/mark>" } ] },
+      
+      { "docId" : "LandonCritChateaubriand1836",
+        "docUri" : "LandonCritChateaubriand1836.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "gloss",
+            "weight" : "1",
+            "pos" : 39,
+            "context" : "...ourselves have committed a fault, but how we <mark>gloss<\/mark> it over—how we take temperament and temptation into account...",
+            "fid" : "para13" } ] },
+      
+      { "docId" : "BarbLifeRichardson1804",
+        "docUri" : "BarbLifeRichardson1804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "glosses",
+            "weight" : "1",
+            "pos" : 15790,
+            "context" : "...real motives of his actions, through all the <mark>glosses<\/mark> he puts on. We compare the tar-water...",
+            "fid" : "para191" } ] } ] }

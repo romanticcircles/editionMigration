@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Remarks on Barbarossa</title>
+            <title type="sub" level="m">The British Theatre</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial and encoding assistance</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name xml:id="LM">Laura C. Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldVol15Rem1Barbarossa1808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Remarks [on Barbarossa]</title>
+                  <author type="writer">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">Barbarossa;</title>
+                  <title type="sub">A Tragedy, in Five Acts; By Dr. Brown. As Performed at the
+                     Theatre Royal, Covent Garden. Printed under the Authority of the Managers from
+                     the Prompt Book. With Remarks by Mrs. Inchbald.</title>
+                  <editor role="editor">
+                     <name>Inchbald, Mrs., 1753-1821</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <pubPlace>Paternoster Row</pubPlace>
+                     <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                     <date>n.d.</date>
+                     <biblScope unit="pages">3-6</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonce collection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Inchbald, Mrs., 1753-1821</item>
+                  <item>Brown, John, 1715-1766</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f2" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20260624">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Corrected titles in teiHeader to remove all items listed as NOT to be used in
+                  the Encoding Decisions, Header section, which I also updated to make more
+                  clear.</item>
+               <item>Added myself (with xml:id) as technical editor to the titleStmt</item>
+               <item>Published by Romantic Circles</item>
+            </list>
+         </change>
+         <change who="#MW" when="20240405" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Changed header</item>
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20241217" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <name>
+                        <ref target="people.html#InchbaldMrs">Elizabeth Inchbald</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">REMARKS [on <hi rendition="#italics"><title><ref
+                              target="people.html#BarbarossaAruj"
+                        >Barbarossa</ref></title></hi>].<note>"Remarks." <hi rendition="#italics"
+                                    ><title><title><ref target="people.html#BarbarossaAruj"
+                                    >Barbarossa</ref></title>; A Tragedy, In Five Acts; By <ref
+                                 target="people.html#BrownJohn">Dr. Brown</ref>. As Performed at the
+                              Theatre Royal, <ref target="people.html#CoventGarden">Covent
+                                 Garden</ref>. Printed Under the Authority of the Managers From the
+                              Prompt Book. With Remarks by <ref target="people.html#InchbaldMrs"
+                                 >Mrs. Inchbald</ref></title></hi>. London: Printed for Longman,
+                        Hurst, Rees, and Orme, Paternoster Row, pp. 3-6. <hi rendition="#italics"
+                              ><title level="m">The British Theatre; or, A Collection of Plays,
+                              Which Are Acted At the Theatres Royal, <ref
+                                 target="people.html#DruryLane">Drury Lane</ref>, <ref
+                                 target="people.html#CoventGarden">Covent Garden</ref>, and <ref
+                                 target="people.html#Haymarket">Haymarket</ref>. Printed Under the
+                              Authority of the Managers from the Prompt Books. With Biographical and
+                              Critical Remarks, by <ref target="people.html#InchbaldMrs">Mrs.
+                                 Inchbald.</ref></title></hi> In Twenty-Five Volumes. Vol. XV. <hi
+                           rendition="#italics">
+                           <title><ref target="people.html#BarbarossaAruj"
+                           >Barbarossa</ref></title></hi>. <hi rendition="#italics"><title>Way to
+                              Keep Him</title></hi>. <hi rendition="#italics"><title>All in the
+                              Wrong</title></hi>. <hi rendition="#italics"><title>Grecian
+                              Daughter</title></hi>. <hi rendition="#italics"><title>Know Your Own
+                              Mind</title></hi>. London: Printed for Longman, Hurst, Rees, and Orme,
+                        Paternoster Row. 1808. The first performance of this play was staged at the
+                           <ref target="people.html#DruryLane">Theatre Royal, Drury Lane</ref> on
+                        December 23<hi rendition="#sup">rd</hi>, 1755. Laura DeWitt and Mary A.
+                        Waters edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note>
+                     <lb rendition="#center"/>______ </title>
+               </bibl>
+            </head>
+            <p>It is a painful task to record the calamities which befall the human race. The wants,
+               the difficulties, the vicissitudes of pain and sorrow, in an author's life are
+               proverbial: but the unhappy author of this Tragedy, in the fate to which he was
+               destined, renders the ills of all other poets comparatively small&#8212;he became a
+                     suicide.<note><ref target="people.html#BrownJohn">Brown</ref> cut his own
+                  throat on September 23<hi rendition="#sup">rd</hi>, 1766. Although the reason for
+                     <ref target="people.html#BrownJohn">Brown</ref>'s suicide has been debated, it
+                  is generally acknowledged that he suffered regular fits of melancholy through much
+                  of his life.</note></p>
+
+            <p><ref target="people.html#BrownJohn">Dr. John Brown</ref> was born at Rothbury, in the
+               county of Northumberland, in 1715. His father was a native of Scotland, and Curate of
+               Rothbury; and afterwards collated to a vicarage in Cumberland.<note><ref
+                     target="people.html#BrownJohn">Brown</ref> was born in the market town and
+                  civil parish of Rothbury in northeast England in 1715. <ref
+                     target="people.html#BrownJohn">Brown</ref>'s father, Reverend John Brown, was a
+                  Scottish Anglican parson. Reverend John Brown was offered the position of vicar
+                  and moved his family to the market town Wigton in the county Cumberland in
+                  northwest England shortly after <ref target="people.html#BrownJohn">Brown</ref>'s
+                  birth.</note> Here his son received his earliest education, and was then sent to
+               St. John's College, Cambridge.<note><ref target="people.html#BrownJohn">Brown</ref>
+                  received his early education at the Wigton Grammar School before being admitted to
+                  St. John's College at Cambridge in 1732. <ref target="people.html#BrownJohn"
+                     >Brown</ref> received his B.A. in 1735, his M.A. in 1739, and his Doctor of
+                  Divinity degree in 1755.</note></p>
+
+            <p><ref target="people.html#BrownJohn">Mr. Brown</ref> gained high reputation in the
+               University, and made choice of divinity for his profession. His first preferment was
+               to a minor canonry and lectureship at Carlisle, where he remained in obscurity till
+               the rebellion in the year 1745, when he united the valour of the soldier to the piety
+               of the ecclesiastic, and entering the army a volunteer, acted with distinguished
+               bravery at the siege of Carlisle Castle. He was now presented to the living of
+               Moreland, in Westmoreland.<note>In 1737, <ref target="people.html#BrownJohn"
+                     >Brown</ref> was appointed minor canon and lecturer at the Cathedral Church of
+                  Carlisle, a cathedral city in northwest England. In the 1745 Jacobite Rebellion,
+                  rebels laid siege to Carlisle, and <ref target="people.html#BrownJohn">Brown</ref>
+                  volunteered himself as a soldier in Carlisle's defense. <ref
+                     target="people.html#BrownJohn">Brown</ref> was one of two clergymen who
+                  volunteered to ascend the cathedral each day to track the movements of the rebel
+                  forces. <ref target="people.html#InchbaldMrs">Inchbald</ref> appears mistaken
+                  about his next appointment&#8212;he seems never to have held a position in
+                  Westmoreland, but following the Jacobite Rebellion, he was appointed as chaplain
+                  to the new bishop of Carlisle in 1747.</note></p>
+
+            <p>On the death of <ref target="people.html#PopeAlexander">Pope</ref>, <ref
+                  target="people.html#BrownJohn">Mr. Brown</ref> first appeared as an author, by
+               publishing his Essay on Satire, ad-<fw type="sig"><hi rendition="#smcaps">b
+                  2</hi></fw><pb n="4"/>dressed to <ref target="people.html#WarburtonWilliam">Dr.
+                  Warburton</ref>, by whose interest <ref target="people.html#YorkePhilip">Lord
+                  Hardwicke</ref> bestowed on him the living of Great Horkesley, in Essex.<note>In
+                  1745, <ref target="people.html#BrownJohn">Brown</ref> published <hi
+                     rendition="#italics"><title>An Essay on Satire Occasion'd by the Death of <ref
+                           target="people.html#PopeAlexander">Mr Pope</ref></title></hi>, which
+                  gained him the friendship of <ref target="people.html#WarburtonWilliam">William
+                     Warburton</ref>, who <ref target="people.html#BrownJohn">Brown</ref> flatters
+                  in the essay. Through <ref target="people.html#WarburtonWilliam">Warburton</ref>,
+                     <ref target="people.html#BrownJohn">Brown</ref> gained the acquaintance of <ref
+                     target="people.html#YorkePhilip">Philip Yorke</ref>, the Earl of Hardwicke, who
+                  presented <ref target="people.html#BrownJohn">Brown</ref> with the living of Great
+                  Horkesley in east England.</note> He now took his degree of Doctor.</p>
+
+            <p>In 1755 this Tragedy was produced, and with success. The year following a second
+               tragedy, called "<title>Athelstan</title>," appeared, by the same author; but with a
+               less kind reception.<note><hi rendition="#italics"><title><ref
+                           target="people.html#BarbarossaAruj">Barbarossa</ref></title></hi> was
+                  extremely successful, initially running for fifteen performances. <ref
+                     target="people.html#BrownJohn">Brown</ref>'s next play, <hi
+                     rendition="#italics"><title>Athelstan</title></hi>, was first staged in 1756
+                  and was only performed nine times that whole year.</note></p>
+
+            <p><ref target="people.html#BrownJohn">Dr. Brown</ref> now published his most celebrated
+               work, "<title>An Estimate of the Manners and Principles of the Times</title>:" and
+               the next year was presented to a vicarage in Newcastle-upon-Tyne.<note><ref
+                     target="people.html#BrownJohn">Brown</ref> published his most famous work, <hi
+                     rendition="#italics"><title>An Estimate of the Manners and Principles of the
+                        Times</title></hi>, in two volumes between 1757 and 1758. This bitter satire
+                  critiqued the "effeminacy" of the British nation and aesthetic. In 1760, <ref
+                     target="people.html#BrownJohn">Brown</ref> was made vicar of St. Nicholas
+                  Church in Newcastle upon Tyne in northeast England.</note> He was also appointed
+               one of the Chaplains in Ordinary to the King.<note>Toward the end of his life, <ref
+                     target="people.html#BrownJohn">Brown</ref> served as a Chaplain in
+                  Ordinary&#8212;a member of the royal family's clergy who served the monarch on a
+                  monthly rotation&#8212; to <ref target="people.html#GeorgeIIIKingofGreatBritain"
+                     >King George III</ref>.</note> Here his clerical preferments rested; which is
+               supposed to have wounded his ambitious mind.</p>
+
+            <p>Some coolness having taken place between <ref target="people.html#BrownJohn">Dr.
+                  Brown</ref> and the two great patrons upon whom all his hopes of advancement in
+               the church depended, (<ref target="people.html#YorkePhilip">Hardwicke</ref> and <ref
+                  target="people.html#WarburtonWilliam">Warburton</ref>,) the <ref
+                  target="people.html#BrownJohn">Doctor</ref> accepted an invitation from the <ref
+                  target="people.html#CatherineIIEmpressofRussia">Empress of Russia</ref>, to
+               superintend a grand design she had formed of extending civilization throughout her
+               vast empire. He prepared for his journey&#8212;but, perchance, some lingering
+               affection to his native land&#8212;some irresistible horror at the prospect before
+               him, might depress or agitate his spirits to that insanity, which instigated him to
+               prefer an ignominious death, to a life of misery.<note>In 1765, <ref
+                     target="people.html#BrownJohn">Brown</ref> was consulted by one of <ref
+                     target="people.html#CatherineIIEmpressofRussia">Catherine the Great</ref>'s
+                  advisors regarding the scheme of education she wished to implement throughout her
+                  lands. The following year, <ref target="people.html#BrownJohn">Brown</ref> was
+                  invited to St. Petersburg and offered £1,000 to cover his expenses, which he
+                  accepted. In August of 1766, <ref target="people.html#BrownJohn">Brown</ref> had a
+                  change of heart and returned the money, refusing the appointment. By this point he
+                  had fallen out with <ref target="people.html#WarburtonWilliam">Warburton</ref> and
+                     <ref target="people.html#YorkePhilip">Yorke</ref> and became increasingly
+                  depressed and unstable. It was a month later that <ref
+                     target="people.html#BrownJohn">Brown</ref> killed himself.</note></p>
+
+            <p>It is well for the literary reputation of this Author, that he produced other works
+               besides dramas. The Tragedy of <ref target="people.html#BarbarossaAruj"
+                  >Barbarossa</ref> does not confer much honour upon a man of his extensive learning
+               and imputed <pb n="5"/>abilities. He has evidently borrowed from various dramatic
+               productions his fable, and also the best of his characters, at least their corporeal
+               parts; for the spirit of those personages is left behind.<note>In his <hi
+                     rendition="#italics"><title>The Companion to the Play-House</title></hi>
+                  (1764), <ref target="people.html#BakerDavid">David Erskine Baker</ref> claims that
+                  the design of the play was borrowed from <ref target="people.html#Voltaire"
+                     >Voltaire</ref>'s <hi rendition="#italics"><title>Merope</title></hi> (1743),
+                  while some of the character archetypes were borrowed from <ref
+                     target="people.html#CongreveWilliam">William Congreve</ref>'s <hi
+                     rendition="#italics"><title>The Mourning Bride</title></hi> (1697).</note></p>
+
+            <p><ref target="people.html#GarrickDavid">Garrick</ref>, in Achmet, and <ref
+                  target="people.html#MossopHenry">Mossop</ref>, in the tyrant, are supposed to have
+               contributed to the success of this play, by their skill In acting, as much as the
+               Author did himself, by his art of writing.<note>In the original cast, <ref
+                     target="people.html#GarrickDavid">David Garrick</ref> assumed the role of
+                  Achmet, the disguised benevolent young Selim who comes to Algiers following <ref
+                     target="people.html#BarbarossaAruj">Barbarossa</ref>'s murder of his father,
+                  the sultan Selim. <ref target="people.html#MossopHenry">Henry Mossop</ref> was the
+                  first actor to assume the role of <ref target="people.html#BarbarossaAruj"
+                     >Barbarossa</ref>.</note> It appears, that <ref
+                  target="people.html#GarrickDavid">Garrick</ref> had more anxiety than usual upon
+               such occasions, that "<title><ref target="people.html#BarbarossaAruj"
+                     >Barbarossa</ref></title>" should be a favourite with the town; for he wrote
+               both the Prologue and Epilogue, and even delivered the first himself. His civility
+               was not, however, repaid by the Author's gratitude; for, having made an allusion in
+               his Epilogue to the old jest, an author's poverty and hunger, <ref
+                  target="people.html#BrownJohn">Dr. Brown</ref> thought such misfortunes degrading
+               to a clergyman; and chose to be considered in the quality of a modern, rather than a
+               primitive minister of the gospel.<note>It is thought that <ref
+                     target="people.html#GarrickDavid">Garrick</ref> accepted the play for
+                  production at <ref target="people.html#DruryLane">Drury Lane</ref> in hopes that
+                  it would serve as a much-needed revenue bolster. As such, he was highly motivated
+                  for the play to be a commercial success, hence his contributions of the prologue
+                  and epilogue. Two lines from the epilogue read: "save the Fellow's Play&#8212; /
+                  Let the poor Devil eat,&#8212;allow him that," referring to the author.</note></p>
+
+            <p>This is the drama, in which <ref target="people.html#BettyWilliam">Master Betty</ref>
+               made his first appearance on a London stage.<note><ref
+                     target="people.html#BettyWilliam">William Betty</ref> assumed the role of
+                  Achmet at <ref target="people.html#CoventGarden">Covent Garden</ref> on December
+                     1<hi rendition="#sup">st</hi>, 1804, at the age of thirteen; this was his debut
+                  on a London stage. Chaos broke out and people were trampled as the theatre was
+                  flooded with eager fans of the child sensation. It is likely the theatre would
+                  have been overrun had constables not been present.</note> Curiosity to see him,
+               was equalled by admiration on beholding him. His beauty and grace were like that of a
+               seraph.</p>
+
+            <p>Of his genuine talents as an actor, no greater number of persons can perhaps judge,
+               than can estimate the true value of a painting&#8212;and they are few indeed.</p>
+
+            <p>To argue the question upon matter of fact, rather than on the disputed claims of
+               correct taste, which every party conceive they possess&#8212;these are the facts: A
+               great majority of the audience thought young <ref target="people.html#BettyWilliam"
+                  >Betty</ref> a complete tragedian&#8212;yet he failed in that power over <fw
+                  type="sig"><hi rendition="#smcaps">b 3</hi></fw><pb n="6"/>their hearts, which
+               ought to have ended the argument in demonstration.</p>
+
+            <p>Bursts of laughter were excited from the audience in divers parts of this Tragedy on
+               his first appearance, which could not have occurred from any adventitious burlesque
+               or ludicrous event whatever, had the minds of the auditors been once inwrapt, and not
+               left vacant, for the quick reception of every trait of ridicule.<note>It is unclear
+                  where <ref target="people.html#InchbaldMrs">Inchbald</ref> drew the notion of the
+                  audience laughing at <ref target="people.html#BettyWilliam">Betty</ref>'s
+                  performance, as scholarship generally agrees that his performance as Achmet was
+                  incredibly well-received.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,24 @@
+
+  { "stem" : "vampir",
+    "instances" : 
+    [ 
+      { "docId" : "people",
+        "docUri" : "people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vampire",
+            "weight" : "1",
+            "pos" : 35519,
+            "context" : "...Some consider John Polidori as the creator of modern <mark>vampire<\/mark> fiction with his work \"The Vampyre.\" John Polidori..." } ] },
+      
+      { "docId" : "ShelleyIllyrianPoems1829",
+        "docUri" : "ShelleyIllyrianPoems1829.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vampire",
+            "weight" : "1",
+            "pos" : 1144,
+            "context" : "...death of a girl, the victim of a <mark>vampire<\/mark>. But the above specimens are sufficient to recommend...",
+            "fid" : "para104" } ] } ] }
