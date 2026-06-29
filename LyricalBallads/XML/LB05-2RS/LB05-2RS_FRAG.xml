@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: A Fragment</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_FRAG</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="FRAG">
+                  <title>[FRAG]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">169 to 172</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="169"/>
+         <milestone n="169" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>A FRAGMENT.</emph>
+            <add/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Between two sister moorland rills</l>
+            <l n="2">There is a spot that seems to lie</l>
+            <l n="3">Sacred to flowrets of the hills,</l>
+            <l n="4">And sacred to the sky.</l>
+            <l n="5">And in this smooth and open dell</l>
+            <l n="6">There is a tempest-stricken tree;</l>
+            <l n="7">A corner-stone by lightning cut,</l>
+            <l n="8">The last stone of a cottage hut;</l>
+            <l n="9">And in this dell you see</l>
+            <l n="10">A thing no storm can e’er destroy,</l>
+            <l n="11">The shadow of a Danish Boy.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="12">In clouds above, the Lark is heard,</l>
+            <l n="13">He sings his blithest and his best;</l>
+            <pb n="170"/>
+            <milestone n="170" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="14">But in this lonesome nook the Bird</l>
+            <l n="15">Did never build his nest.</l>
+            <l n="16">No Beast, no Bird hath here his home;</l>
+            <l n="17">The Bees borne on the breezy air</l>
+            <l n="18">Pass high above those fragrant bells</l>
+            <l n="19">To other flowers, to other dells,</l>
+            <l n="20">Nor ever linger there.</l>
+            <l n="21">The Danish Boy walks here alone:</l>
+            <l n="22">The lovely dell is all his own.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="23">A spirit of noon day is he,</l>
+            <l n="24">He seems a Form of flesh and blood;</l>
+            <l n="25">Nor piping Shepherd shall he be,</l>
+            <l n="26">Nor Herd-boy of the wood.</l>
+            <l n="27">A regal vest of fur he wears,</l>
+            <l n="28">In colour like a raven’s wing;</l>
+            <l n="29">It fears not rain, nor wind, nor dew;</l>
+            <l n="30">But in the storm ’tis fresh and blue</l>
+            <l n="31">As budding pines in Spring;</l>
+            <pb n="171"/>
+            <milestone n="171" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="32">His helmet has a vernal grace,</l>
+            <l n="33">Fresh as the bloom upon his face.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="34">A harp is from his shoulder slung:</l>
+            <l n="35">He rests the harp upon his knee;</l>
+            <l n="36">And there in a forgotten tongue</l>
+            <l n="37">He warbles melody.</l>
+            <l n="38">Of flocks upon the neighbouring hills</l>
+            <l n="39">He is the darling and the joy;</l>
+            <l n="40">And often, when no cause appears,</l>
+            <l n="41">The mountain ponies prick their ears,</l>
+            <l n="42">They hear the Danish Boy,</l>
+            <l n="43">While in the dell he sits alone</l>
+            <l n="44">Beside the tree and corner-stone.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="45">There sits he: in his face you spy</l>
+            <l n="46">No trace of a ferocious air,</l>
+            <l n="47">Nor ever was a cloudless sky</l>
+            <l n="48">So steady or so fair.</l>
+            <pb n="172"/>
+            <milestone n="172" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="49">The lovely Danish Boy is blest</l>
+            <l n="50">And happy in his flowery cove:</l>
+            <l n="51">From bloody deeds his thoughts are far;</l>
+            <l n="52">And yet he warbles songs of war;</l>
+            <l n="53">They seem like songs of love,</l>
+            <l n="54">For calm and gentle is his mien;</l>
+            <l n="55">Like a dead Boy he is serene.</l>
+         </lg>
+         <trailer>* * * * * * * * * * * *</trailer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Endnotes on The Brothers]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_NOTESbro</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="NOTESbro">
+                  <title>[Endnotes on The Brothers]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">0</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="note1b">
+            <head>
+               <lb/>N<hi>otes</hi> to the P<hi>oem</hi> of the
+                                        B<hi>rothers</hi>
+            </head>
+            <p>
+               <hi rend="bold">N<hi>ote</hi> I</hi>. Page 25, line 15. “ There were two Springs
+                                   that <lb/>bubbled side by side.” The impressive
+                                        circum<orig>s</orig>tance here descri-<lb/>bed actually took
+                                   place some years ago in this country, upon an <lb/>eminence
+                                   called Kidstow Pike, one of the highest of the moun-<lb/>tains
+                                   that surround Hawes-water. The summit of the Pike <lb/>was
+                                   stricken by lightning, and every trace of one of the
+                                   foun-<lb/>tains disappeared, while the other continued to flow as
+                                   before.</p>
+         </div>
+         <div xml:id="note2b">
+            <p>
+               <hi rend="bold">N<hi rend="small">ote </hi>2</hi>. Page 27, line 11. “ The
+                                   thought of death sits easy <lb/>on the man,” &amp;c. There
+                                   is not any thing more worthy of re-<lb/>mark in the manners of
+                                   the inhabitants of these mountains, <lb/>than the tranquillity, I
+                                   might say indifference, with which they <lb/>think and talk upon
+                                   the subject of Death. Some of the coun-<lb/>try church yards, as
+                                   here described, do not contain a single <lb/>tombstone, and most
+                                   of them have a very small number.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

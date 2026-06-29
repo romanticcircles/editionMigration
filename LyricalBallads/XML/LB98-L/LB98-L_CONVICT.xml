@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: The Convict</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-L_CONVICT</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="CONVICT">
+                  <title>[CONVICT]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-L">
+                  <ptr target="../XML/LB98-L.xml"/>
+                  <imprint>
+                     <publisher>J. &amp; A. Arch</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">197 to 200</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone unit="page" n="197"/>
+         <lb/>
+         <lb/>
+         <head>THE CONVICT.<lb/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">The glory of evening was spread through the west; </l>
+            <l n="2" rend="indent">—On the slope of a mountain I stood, </l>
+            <l n="3">While the joy that precedes the calm season of rest</l>
+            <l n="4" rend="indent">Rang loud through the meadow and wood. </l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">“And must we then part from a dwelling so fair?”</l>
+            <l n="6" rend="indent">In the pain of my spirit I said, </l>
+            <l n="7">And with a deep sadness I turned, to repair </l>
+            <l n="8" rend="indent">To the cell where the convict is laid. </l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">The thick-ribbed walls that o’ershadow the gate</l>
+            <l n="10" rend="indent">Resound; and the dungeons unfold:</l>
+            <l n="11">I pause; and at length, through the glimmering grate,</l>
+            <l n="12" rend="indent">That outcast of pity behold. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="198"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">His black matted head on his shoulder is bent,</l>
+            <l n="14" rend="indent">And deep is the sigh of his breath, </l>
+            <l n="15">And with stedfast dejection his eyes are intent</l>
+            <l n="16" rend="indent">On the fetters that link him to death. </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">’Tis sorrow enough on that visage to gaze,</l>
+            <l n="18" rend="indent">That body dismiss’d from his care; </l>
+            <l n="19">Yet my fancy has pierced to his heart, and pourtrays</l>
+            <l n="20" rend="indent">More terrible images there. </l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">His bones are consumed, and his life-blood is dried,</l>
+            <l n="22" rend="indent">With wishes the past to undo; </l>
+            <l n="23">And his crime, through the pains that o’erwhelm him, descried,</l>
+            <l n="24" rend="indent">Still blackens and grows on his view. </l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">When from the dark synod, or blood-reeking field,</l>
+            <l n="26" rend="indent">To his chamber the monarch is led, </l>
+            <l n="27">All soothers of sense their soft virtue shall yield,</l>
+            <l n="28" rend="indent">And quietness pillow his head. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="199"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">But if grief, self-consumed, in oblivion would doze,</l>
+            <l n="30" rend="indent">And conscience her tortures appease, </l>
+            <l n="31">’Mid tumult and uproar this man must repose; </l>
+            <l n="32" rend="indent">In the comfortless vault of disease. </l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">When his fetters at night have so press’d on his limbs,</l>
+            <l n="34" rend="indent">That the weight can no longer be borne, </l>
+            <l n="35">If, while a half-slumber his memory bedims,</l>
+            <l n="36" rend="indent">The wretch on his pallet should turn, </l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">While the jail-mastiff howls at the dull clanking chain,</l>
+            <l n="38" rend="indent">From the roots of his hair there shall start </l>
+            <l n="39">A thousand sharp punctures of cold-sweating pain,</l>
+            <l n="40" rend="indent">And terror shall leap at his heart. </l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="41">But now he half-raises his deep-sunken eye,</l>
+            <l n="42" rend="indent">And the motion unsettles a tear; </l>
+            <l n="43">The silence of sorrow it seems to supply, </l>
+            <l n="44" rend="indent">And asks of me why I am here. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="200"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="45">“Poor victim! no idle intruder has stood </l>
+            <l n="46" rend="indent">“With o’erweening complacence our state to
+              compare,</l>
+            <l n="47">“But one, whose first wish is the wish to be good,</l>
+            <l n="48" rend="indent">“Is come as a brother thy sorrows to share.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">“At thy name though compassion her nature resign,</l>
+            <l n="50" rend="indent">“Though in virtue’s proud mouth thy report be a
+              stain,</l>
+            <l n="51">“My care, if the arm of the mighty were mine,</l>
+            <l n="52" rend="indent">“Would plant thee where yet thou might’st blossom
+              again.”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

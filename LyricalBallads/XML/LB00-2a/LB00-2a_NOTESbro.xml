@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [Endnotes on The Brothers]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2a_NOTESbro</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="NOTESbro">
+                  <title>[NOTESbro]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2a">
+                  <ptr target="../XML/LB00-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">226</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="226"/>
+         <milestone n="226" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>NOTES <hi rend="small">TO THE </hi>POEM <hi rend="small">OF </hi> THE
+                        BROTHERS.</head>
+         <div xml:id="note1b">
+            <head>
+               <hi rend="small">NOTE I. </hi>
+            </head>
+            <p rend="note">Page 26—line 20 “There were two springs that
+                            bubbled side by side.” The impressive circumstance here described,
+                            actually took place some years ago in this country, upon an eminence
+                            called Kidstow Pike, one of the highest of the mountains that surround
+                            Hawes-water. The summit of the pike was stricken by lightning; and every
+                            trace of one of the fountains disappeared, while the other continued to
+                            flow as before.</p>
+         </div>
+         <div xml:id="note2b">
+            <head>
+               <hi rend="small">NOTE II. </hi>
+            </head>
+            <p rend="note">Page 29—line 5 “The thought of death sits easy on
+                            the man,” &amp;c. There is not any thing more worthy of remark in
+                            the manners of the inhabitants of these mountains, than the
+                            tranquillity, I might say indifference, with which they think and talk
+                            upon the subject of death. Some of the country church-yards, as here
+                            described, do not contain a single tombstone, and most of them have a
+                            very small number.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [The Female Vagrant title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-1_VAGRANTf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB02-1">
+                  <ptr target="../XML/LB02-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">64 to 66</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="64"/>
+         <pb n="65"/>
+         <titlePage>
+            <lb/>
+            <lb/>
+            <docTitle>
+               <titlePart>
+                  <lb/>
+                  <lb/>
+                  <hi rend="small">the</hi>
+                  <lb/>
+                  <lb/>FEMALE
+                                        VAGRANT.</titlePart>
+            </docTitle>
+         </titlePage>
+         <pb n="66"/>
+         <pb n="66"/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

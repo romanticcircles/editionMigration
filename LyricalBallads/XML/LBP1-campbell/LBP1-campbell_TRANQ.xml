@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Old Man Traveling; Animal Tranquillity and Decay</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_TRANQ</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="TRANQ">
+                  <title>[TRANQ]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">145</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="145" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>OLD MAN TRAVELLING;</emph>
+            <lb/>
+            <lb/>
+            <hi>animal tranquillity and decay</hi>
+            <lb/>
+            <lb/>
+            <emph>A
+                                   SKETCH.<lb/>
+               <lb/>
+            </emph>
+         </head>
+         <l n="1" part="Y"> THE little hedge-row birds, </l>
+         <l n="2">That peck along the road, regard him not. </l>
+         <l n="3">He travels on, and in his face, his step, </l>
+         <l n="4">His gait, is one expression; every limb, </l>
+         <l n="5">His look and bending figure, all bespeak </l>
+         <l n="6">A man who does not move with pain, but moves </l>
+         <l n="7">With thought.—He is insensibly subdued </l>
+         <l n="8">To settled quiet; he is one by whom </l>
+         <l n="9">All effort seems forgotten, one to whom </l>
+         <l n="10">Long patience has such mild composure given, </l>
+         <l n="11">That patience now doth seem a thing, of which </l>
+         <l n="12">He hath no need. He is by nature led </l>
+         <l n="13">To peace so perfect, that the young behold </l>
+         <l n="14">With envy, what the old man hardly feels. </l>
+         <l n="15">—I asked him whither he was bound, and what </l>
+         <l n="16">The object of his journey; he replied, </l>
+         <l n="17">“ Sir! I am going many miles to take </l>
+         <l n="18">“ A last leave of my son, a mariner, </l>
+         <l n="19">“ Who from a sea-fight has been brought to Falmouth, </l>
+         <l n="20">“ And there is dying in an hospital.”</l>
+      </body>
+   </text>
+</TEI>

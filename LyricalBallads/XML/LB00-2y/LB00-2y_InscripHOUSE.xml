@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Inscription / Lines Written in Pencil on Stone</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_InscripHOUSE</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="InscripHOUSE">
+                  <title>Inscription / Lines Written in Pencil on Stone</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">84 to 85</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="84" unit="page"/>
+         <head>
+            <add hand="dw" resp="ww">Lines written with a pencil upon a<lb/>Stone
+                                   in the wall of the House (an Out-<lb/>-house on the Island at
+                                   Grasmere.</add>
+            <lb/>
+            <lb/>
+            <del>
+               <emph>INSCRIPTION <lb/>
+                  <lb/>For the House (an Outhouse) on the
+                                        Island at Grasmere.</emph>
+            </del>
+         </head>
+         <lg type="poem">
+            <l n="1">Rude is this Edifice, and Thou hast seen</l>
+            <l n="2">Buildings, albeit rude, that have maintain’d</l>
+            <l n="3">Proportions more harmonious, and approach’d</l>
+            <l n="4">To somewhat of a closer fellowship</l>
+            <l n="5">With the ideal grace. Yet as it is</l>
+            <l n="6">Do take it in good part; for he, the poor</l>
+            <l n="7">Vitruvius of our village, had no help</l>
+            <l n="8">
+               <add place="lmargin" resp="ww">/C</add> From the great
+                                   <del>c</del>ity; never on the leaves</l>
+            <l n="9">Of red Morocco folio saw display’d</l>
+            <l n="10">The skeletons and pre-existing ghosts</l>
+            <l n="11">Of Beauties yet unborn, the rustic Box,</l>
+            <l n="12">Snug Cot, with Coach-house, Shed and Hermitage.</l>
+            <l n="13">
+               <add place="lmargin" resp="ww">/P</add> It is a homely
+                                   <del>p</del>ile, yet to these walls</l>
+            <pb/>
+            <milestone n="85" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="14">The heifer comes in the snow-storm, and here</l>
+            <l n="15">The new-dropp’d lamb finds shelter from the wind.</l>
+            <l n="16">And hither does one Poet sometimes row</l>
+            <l n="17">
+               <add place="lmargin" resp="ww">/P</add> His
+                              <del>p</del>innace, a small vagrant <del>b</del>arge, up-piled <add place="rmargin" resp="ww">B/</add>
+            </l>
+            <l n="18">With plenteous store of heath and wither’d fern,</l>
+            <l n="19">
+               <add place="lmargin" resp="ww">(</add>
+               <add place="belowline" resp="ww">^</add> A lading which he with his sickle cuts</l>
+            <l n="21">Among the mountains, <add resp="ww">)</add>
+               <add place="belowline" resp="ww">^</add> and beneath this roof</l>
+            <l n="22">He makes his summer couch, and here at noon</l>
+            <l n="23">Spreads out his limbs, while, yet <del>unborn</del>
+               <add place="belowline" resp="ww">^</add>
+               <add hand="dw" place="aboveline" resp="ww">unshorn</add>, the <del>s</del>heep
+                                   <add place="rmargin" resp="ww">S/</add>
+            </l>
+            <l n="24">Panting beneath the burthen of their wool</l>
+            <l n="25">Lie round him, even as if they were a part</l>
+            <l n="26">
+               <add place="lmargin" resp="ww">/H</add> Of his own
+                                   <del>h</del>ousehold: nor, while from his bed</l>
+            <l n="27">He through that door-place looks toward the lake</l>
+            <l n="28">And to the stirring breezes, does he want</l>
+            <l n="29">Creations lovely as the work of sleep,</l>
+            <l n="30">Fair sights, and visions of romantic joy.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

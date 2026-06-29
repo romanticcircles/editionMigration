@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: The Foster-mother's Tale</title>
+            <author>
+               <name>Samuel Taylor Coleridge</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-L_FOSTERstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="FOSTERstc">
+                  <title>[FOSTERstc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/24599809">Samuel Taylor Coleridge</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-L">
+                  <ptr target="../XML/LB98-L.xml"/>
+                  <imprint>
+                     <publisher>J. &amp; A. Arch</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"> to 58</biblScope>
+                  <biblScope unit="pages">6</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <head>
+            <lb/>
+            <lb/>
+            <lb/>
+            <hi>the</hi>
+            <lb/>
+            <lb/>
+            <emph>FOSTER-MOTHER’S
+              TALE,</emph>
+            <lb/>
+            <lb/>
+            <hi>A DRAMATIC FRAGMENT.</hi>
+         </head>
+         <lb/>
+         <sp>
+            <speaker>FOSTER-MOTHER.</speaker>
+            <lg n="1" type="verseparagraph">
+               <l n="1">I never saw the man whom you describe. </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>MARIA.</speaker>
+            <lg n="2" type="verseparagraph">
+               <l n="2">’Tis strange! he spake of you familiarly </l>
+               <l n="3">As mine and Albert’s common Foster-mother.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>FOSTER-MOTHER.</speaker>
+            <lg n="3" type="verseparagraph">
+               <l n="4">Now blessings on the man, whoe’er he be,</l>
+               <l n="5">That joined your names with mine! O my sweet lady,</l>
+               <l n="6">As often as I think of those dear times </l>
+               <l n="7">When you two little ones would stand at eve</l>
+               <l n="8">On each side of my chair, and make me learn </l>
+               <l n="9">All you had learnt in the day ; and how to talk </l>
+               <pb/>
+               <milestone unit="page" n="54"/>
+               <lb/>
+               <lb/>
+               <l n="10">In gentle phrase, then bid me sing to you—</l>
+               <l n="11">’Tis more like heaven to come than what <emph>has</emph> been. </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>MARIA.</speaker>
+            <lg n="4" type="verseparagraph">
+               <l n="12">O my dear Mother! this strange man has left me</l>
+               <l n="13">Troubled with wilder fancies, than the moon </l>
+               <l n="14">Breeds in the love-sick maid who gazes at it, </l>
+               <l n="15">Till lost in inward vision, with wet eye </l>
+               <l n="16">She gazes idly!—But that entrance, Mother! </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>FOSTER-MOTHER.</speaker>
+            <lg n="5" type="verseparagraph">
+               <l n="17">Can no one hear? It is a perilous tale!</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>MARIA.</speaker>
+            <lg n="6" type="verseparagraph">
+               <l n="18" part="I">No one. </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>FOSTER-MOTHER</speaker>
+            <lg n="7" type="verseparagraph">
+               <l part="F">My husband’s father told it me, </l>
+               <l n="19">Poor old Leoni!—Angels rest his soul!</l>
+               <l n="20">He was a woodman, and could fell and saw </l>
+               <l n="21">With lusty arm. You know that huge round beam </l>
+               <l n="22">Which props the hanging wall of the old chapel? </l>
+               <l n="23">Beneath that tree, while yet it was a tree </l>
+               <pb/>
+               <milestone unit="page" n="55"/>
+               <lb/>
+               <lb/>
+               <l n="24">He found a baby wrapt in mosses, lined </l>
+               <l n="25">With thistle-beards, and such small locks of wool </l>
+               <l n="26">As hang on brambles. Well, he brought him home,</l>
+               <l n="27">And reared him at the then Lord Velez’ cost. </l>
+               <l n="28">And so the babe grew up a pretty boy, </l>
+               <l n="29">A pretty boy, but most unteachable—</l>
+               <l n="30">And never learnt a prayer, nor told a bead, </l>
+               <l n="31">But knew the names of birds, and mocked their notes,</l>
+               <l n="32">And whistled, as he were a bird himself: </l>
+               <l n="33">And all the autumn ’twas his only play </l>
+               <l n="34">To get the seeds of wild flowers, and to plant them</l>
+               <l n="35">With earth and water, on the stumps of trees. </l>
+               <l n="36">A Friar, who gathered simples in the wood, </l>
+               <l n="37">A grey-haired man—he loved this little boy, </l>
+               <l n="38">The boy loved him—and, when the Friar taught him,</l>
+               <l n="39">He soon could write with the pen : and from that time,</l>
+               <l n="40">Lived chiefly at the Convent or the Castle. </l>
+               <l n="41">So he became a very learned youth. </l>
+               <l n="42">But Oh! poor wretch!—he read, and read, and read,</l>
+               <l n="43">’Till his brain turned—and ere his twentieth year,</l>
+               <pb/>
+               <milestone unit="page" n="56"/>
+               <lb/>
+               <lb/>
+               <l n="44">He had unlawful thoughts of many things: </l>
+               <l n="45">And though he prayed, he never loved to pray </l>
+               <l n="46">With holy men, nor in a holy place—</l>
+               <l n="47">But yet his speech, it was so soft and sweet, </l>
+               <l n="48">The late Lord Velez ne’er was wearied with him. </l>
+               <l n="49">And once, as by the north side of the Chapel </l>
+               <l n="50">They stood together, chained in deep discourse, </l>
+               <l n="51">The earth heaved under them with such a groan, </l>
+               <l n="52">That the wall tottered, and had well-nigh fallen </l>
+               <l n="53">Right on their heads. My Lord was sorely frightened;</l>
+               <l n="54">A fever seized him, and he made confession </l>
+               <l n="55">Of all the heretical and lawless talk </l>
+               <l n="56">Which brought this judgment: so the youth was seized</l>
+               <l n="57">And cast into that hole. My husband’s father </l>
+               <l n="58">Sobbed like a child—it almost broke his heart: </l>
+               <l n="59">And once as he was working in the cellar, </l>
+               <l n="60">He heard a voice distinctly; ’twas the youth’s, </l>
+               <l n="61">Who sung a doleful song about green fields, </l>
+               <l n="62">How sweet it were on lake or wild savannah, </l>
+               <l n="63">To hunt for food, and be a naked man, </l>
+               <pb/>
+               <milestone unit="page" n="57"/>
+               <lb/>
+               <lb/>
+               <l n="64">And wander up and down at liberty. </l>
+               <l n="65">He always doted on the youth, and now </l>
+               <l n="66">His love grew desperate; and defying death, </l>
+               <l n="67">He made that cunning entrance I described: </l>
+               <l n="68" part="I">And the young man escaped. </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>MARIA.</speaker>
+            <lg n="8" type="verseparagraph">
+               <l part="F"> ’Tis a sweet tale: </l>
+               <l n="69">Such as would lull a listening child to sleep,</l>
+               <l n="70">His rosy face besoiled with unwiped tears.— </l>
+               <l n="71" part="I">And what became of him? </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>FOSTER-MOTHER.</speaker>
+            <lg n="9" type="verseparagraph">
+               <l part="F"> He went on ship-board</l>
+               <l n="72">With those bold voyagers, who made discovery </l>
+               <l n="73">Of golden lands. Leoni’s younger brother </l>
+               <l n="74">Went likewise, and when he returned to Spain, </l>
+               <l n="75">He told Leoni, that the poor mad youth, </l>
+               <l n="76">Soon after they arrived in that new world, </l>
+               <l n="77">In spite of his dissuasion, seized a boat, </l>
+               <l n="78">And all alone, set sail by silent moonlight </l>
+               <pb/>
+               <milestone n="58" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="79">Up a great river, great as any sea, </l>
+               <l n="80">And ne’er was heard of more: but ’tis supposed, </l>
+               <l n="81">He lived and died among the savage men.</l>
+            </lg>
+         </sp>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [The Idiot Boy title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_IDIOTf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB00-1">
+                  <ptr target="../XML/LB00-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">104</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="104"/>
+         <titlePage>
+            <lb/>
+            <lb/>
+            <docTitle>
+               <lb/>
+               <lb/>
+               <titlePart>
+                  <lb/>
+                  <hi>THE</hi>
+                  <lb/>
+                  <lb/>IDIOT BOY.<lb/>
+               </titlePart>
+            </docTitle>
+         </titlePage>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

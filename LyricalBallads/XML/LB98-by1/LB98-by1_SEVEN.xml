@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: We are Seven</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-by1_SEVEN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="SEVEN">
+                  <title>[SEVEN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-by1">
+                  <ptr target="../XML/LB98-by1.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">110 to 114</biblScope>
+                  <biblScope unit="pages">5</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="110"/>
+         <lb/>
+         <div type="poem" rhyme="abab">
+            <head>
+               <lb/>
+               <lb/>WE ARE SEVEN.</head>
+            <lb/>
+            <lg n="1" type="stanza">
+               <l n="1">A simple child, dear brother Jim, </l>
+               <l n="2">That lightly draws its breath, </l>
+               <l n="3">And feels its life in every limb, </l>
+               <l n="4">What should it know of death?</l>
+            </lg>
+            <lg n="2" type="stanza">
+               <l n="5">I met a little cottage girl,</l>
+               <l n="6">She was eight years old, she said; </l>
+               <l n="7">Her hair was thick with many a curl </l>
+               <l n="8">That cluster’d round her head. </l>
+            </lg>
+            <lg n="3" type="stanza">
+               <l n="9">She had a rustic, woodland air, </l>
+               <l n="10">And she was wildly clad;</l>
+               <l n="11">Her eyes were fair, and very fair, </l>
+               <l n="12">—Her beauty made me glad. </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="111"/>
+            <lb/>
+            <lb/>
+            <lg n="4" type="stanza">
+               <l n="13">“Sisters and brothers, little maid, </l>
+               <l n="14">“How many may you be?”</l>
+               <l n="15">“How many? seven in all,” she said, </l>
+               <l n="16">And wondering looked at me. </l>
+            </lg>
+            <lg n="5" type="stanza">
+               <l n="17">“And where are they, I pray you tell?” </l>
+               <l n="18">She answered, “Seven are we, </l>
+               <l n="19">“And two of us at Conway dwell, </l>
+               <l n="20">“And two are gone to sea.</l>
+            </lg>
+            <lg n="6" type="stanza">
+               <l n="21">“Two of us in the church-yard lie, </l>
+               <l n="22">“My sister and my brother, </l>
+               <l n="23" enjamb="y">“And in the church-yard cottage, I </l>
+               <l n="24">“Dwell near them with my mother.” </l>
+            </lg>
+            <lg n="7" type="stanza">
+               <l n="25">“You say that two at Conway dwell, </l>
+               <l n="26">“And two are gone to sea, </l>
+               <l n="27" enjamb="y">“Yet you are seven; I pray you tell </l>
+               <l n="28">“Sweet Maid, how this may be?” </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="112"/>
+            <lb/>
+            <lb/>
+            <lg n="8" type="stanza">
+               <l n="29">Then did the little Maid reply, </l>
+               <l n="30">“Seven boys and girls are we; </l>
+               <l n="31">“Two of us in the church-yard lie,</l>
+               <l n="32">“Beneath the church-yard tree.” </l>
+            </lg>
+            <lg n="9" type="stanza">
+               <l n="33">“You run about, my little maid, </l>
+               <l n="34">“Your limbs they are alive; </l>
+               <l n="35">“If two are in the church-yard laid, </l>
+               <l n="36">“Then ye are only five.” </l>
+            </lg>
+            <lg n="10" type="stanza">
+               <l n="37" rhyme="interior">“Their graves are green, they may be seen,”</l>
+               <l n="38">The little Maid replied, </l>
+               <l n="39" rhyme="interior">“Twelve steps or more from my mother’s door, </l>
+               <l n="40">“And they are side by side. </l>
+            </lg>
+            <lg n="11" type="stanza">
+               <l n="41">“My stockings there I often knit, </l>
+               <l n="42">“My ’kerchief there I hem; </l>
+               <l n="43">“And there upon the ground I sit— </l>
+               <l n="44">“I sit and sing to them. </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="113"/>
+            <lb/>
+            <lb/>
+            <lg n="12" type="stanza">
+               <l n="45">“And often after sunset, Sir, </l>
+               <l n="46">“When it is light and fair, </l>
+               <l n="47">“I take my little porringer, </l>
+               <l n="48">“And eat my supper there. </l>
+            </lg>
+            <lg n="13" type="stanza">
+               <l n="49">“The first that died was little Jane; </l>
+               <l n="50">“In bed she moaning lay, </l>
+               <l n="51">“Till God released her of her pain, </l>
+               <l n="52">“And then she went away. </l>
+            </lg>
+            <lg n="14" type="stanza">
+               <l n="53">“So in the church-yard she was laid, </l>
+               <l n="54">“And all the summer dry, </l>
+               <l n="55">“Together round her grave we played, </l>
+               <l n="56">“My brother John and I. </l>
+            </lg>
+            <lg n="15" type="stanza">
+               <l n="57">“And when the ground was white with snow,</l>
+               <l n="58">“And I could run and slide, </l>
+               <l n="59">“My brother John was forced to go, </l>
+               <l n="60">“And he lies by her side.” </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="114"/>
+            <lb/>
+            <lb/>
+            <lg n="16" type="stanza">
+               <l n="61">“How many are you then,” said I, </l>
+               <l n="62">“If they two are in Heaven?” </l>
+               <l n="63">The little Maiden did reply, </l>
+               <l n="64">“O Master! we are seven.” </l>
+            </lg>
+            <lg n="17" type="stanza" rhyme="xabba">
+               <l n="65">“But they are dead; those two are dead!</l>
+               <l n="66">“Their spirits are in heaven!” </l>
+               <l n="67" enjamb="y">’Twas throwing words away; for still </l>
+               <l n="68">The little Maid would have her will, </l>
+               <l n="69">And said, “Nay, we are seven!”</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Last of the Flock</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_FLOCK</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="FLOCK">
+                  <title>The Last of the Flock</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-1">
+                  <ptr target="../XML/LB00-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">15 to 20</biblScope>
+                  <biblScope unit="pages">6</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="15" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <head>
+            <hi rend="small">the </hi>
+            <lb/>
+            <lb/>
+            <emph>LAST OF THE
+                        FLOCK.</emph>
+            <lb/>
+            <lb/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">In distant countries I have been, </l>
+            <l n="2">And yet I have not often seen </l>
+            <l n="3">A healthy man, a man full grown, </l>
+            <l n="4">Weep in the public roads alone. </l>
+            <l n="5">But such a one, on English ground, </l>
+            <l n="6">And in the broad high-way, I met ; </l>
+            <l n="7">Along the broad high-way he came, </l>
+            <l n="8">His cheeks with tears were wet. </l>
+            <l n="9">Sturdy he seemed, though he was sad ; </l>
+            <l n="10">And in his arms a lamb he had. </l>
+         </lg>
+         <pb/>
+         <milestone n="16" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="11">He saw me, and he turned aside, </l>
+            <l n="12">As if he wished himself to hide : </l>
+            <l n="13">Then with his coat he made essay </l>
+            <l n="14">To wipe those briny tears away. </l>
+            <l n="15">I follow’d him, and said, “  My friend </l>
+            <l n="16">“ What ails you ? wherefore weep you so ? ”</l>
+            <l n="17">—“ Shame on me, Sir ! this lusty lamb, </l>
+            <l n="18">He makes my tears to flow. </l>
+            <l n="19">To-day I fetched him from the rock ; </l>
+            <l n="20">He is the last of all my flock.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">When I was young, a single man, </l>
+            <l n="22">And after youthful follies ran, </l>
+            <l n="23">Though little given to care and thought, </l>
+            <l n="24">Yet, so it was, a ewe I bought ; </l>
+            <l n="25">And other sheep from her I raised, </l>
+            <l n="26">As healthy sheep as you might see, </l>
+            <l n="27">And then I married, and was rich </l>
+            <l n="28">As I could wish to be ; </l>
+            <l n="29">Of sheep I numbered a full score, </l>
+            <l n="30">And every year increas’d my store. </l>
+         </lg>
+         <pb/>
+         <milestone n="17" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="31">Year after year my stock it grew, </l>
+            <l n="32">And from this one, this single ewe, </l>
+            <l n="33">Full fifty comely sheep I raised, </l>
+            <l n="34">As sweet a flock as ever grazed !</l>
+            <l n="35">Upon the mountain did they feed ; </l>
+            <l n="36">They throve, and we at home did thrive. </l>
+            <l n="37">—This lusty lamb of all my store </l>
+            <l n="38">Is all that is alive ; </l>
+            <l n="39">And now I care not if we die, </l>
+            <l n="40">And perish all of poverty.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="41">Six children, Sir ! had I to feed, </l>
+            <l n="42">Hard labour in a time of need ! </l>
+            <l n="43">My pride was tamed, and in our grief, </l>
+            <l n="44">I of the parish ask’d relief. </l>
+            <l n="45">They said I was a wealthy man ; </l>
+            <l n="46">My sheep upon the mountain fed, </l>
+            <l n="47">And it was fit that thence I took </l>
+            <l n="48">Whereof to buy us bread : ”</l>
+            <l n="49">“ Do this ; how can we give to you, ”</l>
+            <l n="50">They cried, “ what to the poor is due ? ”</l>
+         </lg>
+         <pb/>
+         <milestone n="18" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="51">I sold a sheep as they had said, </l>
+            <l n="52">And bought my little children bread, </l>
+            <l n="53">And they were healthy with their food ; </l>
+            <l n="54">For me it never did me good. </l>
+            <l n="55">A woeful time it was for me, </l>
+            <l n="56">To see the end of all my gains, </l>
+            <l n="57">The pretty flock which I had reared </l>
+            <l n="58">With all my care and pains, </l>
+            <l n="59">To see it melt like snow away ! </l>
+            <l n="60">For me it was woeful day. </l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="61">Another still ! and still another ! </l>
+            <l n="62">A little lamb, and then its mother ! </l>
+            <l n="63">It was a vein that never stopp’d, </l>
+            <l n="64">Like blood-drops from my heart they dropp’d.</l>
+            <l n="65">Till thirty were not left alive </l>
+            <l n="66">They dwindled, dwindled, one by one, </l>
+            <l n="67">And I may say that many a time </l>
+            <l n="68">I wished they all were gone : </l>
+            <l n="69">They dwindled one by one away ; </l>
+            <l n="70">For me it was a woeful day. </l>
+         </lg>
+         <pb/>
+         <milestone n="19" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="71">To wicked deeds I was inclined, </l>
+            <l n="72">And wicked fancies cross’d my mind, </l>
+            <l n="73">And every man I chanc’d to see, </l>
+            <l n="74">I thought he knew some ill of me. </l>
+            <l n="75">No peace, no comfort could I find, </l>
+            <l n="76">No ease, within doors or without, </l>
+            <l n="77">And crazily, and wearily, </l>
+            <l n="78">I went my work about. </l>
+            <l n="79">Oft-times I thought to run away ; </l>
+            <l n="80">For me it was a woeful day. </l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="81">Sir ! ’twas a precious flock to me,</l>
+            <l n="82">As dear as my own children be ; </l>
+            <l n="83">For daily with my growing store </l>
+            <l n="84">I loved my children more and more. </l>
+            <l n="85">Alas ! it was an evil time ; </l>
+            <l n="86">God cursed me in my sore distress, </l>
+            <l n="87">I prayed, yet every day I thought </l>
+            <l n="88">I loved my children less ; </l>
+            <l n="89">And every week, and every day, </l>
+            <l n="90">My flock, it seemed to melt away. </l>
+         </lg>
+         <pb/>
+         <milestone n="20" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="10">
+            <l n="91">They dwindled, Sir, sad sight to see !</l>
+            <l n="92">From ten to five, from five to three, </l>
+            <l n="93">A lamb, a weather, and a ewe ; </l>
+            <l n="94">And then at last, from three to two ; </l>
+            <l n="95">And of my fifty, yesterday </l>
+            <l n="96">I had but only one, </l>
+            <l n="97">And here it lies upon my arm, </l>
+            <l n="98">Alas ! and I have none ; </l>
+            <l n="99">To-day I fetched it from the rock ; </l>
+            <l n="100">It is the last of all my flock. ”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

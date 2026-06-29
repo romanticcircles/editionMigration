@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: The Dungeon</title>
+            <author>
+               <name>Samuel Taylor Coleridge</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-Bbl_DUNGEONstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="DUNGEONstc">
+                  <title>[DUNGEONstc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/24599809">Samuel Taylor Coleridge</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-Bbl">
+                  <ptr target="../XML/LB98-Bbl.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">139 to 140</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="139"/>
+         <milestone n="139" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>THE DUNGEON.<lb/>
+            <lb/>
+         </head>
+         <lg n="1" part="I" type="verseparagraph">
+            <l n="1">And this place our forefathers made for man!</l>
+            <l n="2">This is the process of our love and wisdom,</l>
+            <l n="3">To each poor brother who offends against us—</l>
+            <l n="4">Most innocent, perhaps—and what if guilty?</l>
+            <l n="5">Is this the only cure? Merciful God! </l>
+            <l n="6">Each pore and natural outlet shrivell’d up</l>
+            <l n="7">By ignorance and parching poverty, </l>
+            <l n="8">His energies roll back upon his heart, </l>
+            <l n="9">And stagnate and corrupt; till changed to poison,</l>
+            <l n="10">They break out on him, like a loathsome plague-spot;</l>
+            <l n="11">Then we call in our pamper’d mountebanks—</l>
+            <l n="12">And this is their best cure! uncomforted </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="140"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="F" type="verseparagraph">
+            <l n="13">And friendless solitude, groaning and tears,</l>
+            <l n="14">And savage faces, at the clanking hour</l>
+            <l n="15">Seen through the steams and vapour of his dungeon,</l>
+            <l n="16">By the lamp’s dismal twilight! So he lies </l>
+            <l n="17">Circled with evil, till his very soul </l>
+            <l n="18">Unmoulds its essence, hopelessly deformed</l>
+            <l n="19">By sights of ever more deformity! </l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l n="20">With other ministrations thou, O nature! </l>
+            <l n="21">Healest thy wandering and distempered child:</l>
+            <l n="22">Thou pourest on him thy soft influences, </l>
+            <l n="23">Thy sunny hues, fair forms, and breathing sweets,</l>
+            <l n="24">Thy melodies of woods, and winds, and waters,</l>
+            <l n="25">Till he relent, and can no more endure </l>
+            <l n="26">To be a jarring and a dissonant thing, </l>
+            <l n="27">Amid this general dance and minstrelsy; </l>
+            <l n="28">But, bursting into tears, wins back his way,</l>
+            <l n="29">His angry spirit healed and harmonized </l>
+            <l n="30">By the benignant touch of love and beauty.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

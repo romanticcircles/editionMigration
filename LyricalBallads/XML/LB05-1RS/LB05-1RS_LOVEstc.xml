@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Love</title>
+            <author>
+               <name>Samuel Taylor Coleridge</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-1RS_LOVEstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LOVEstc">
+                  <title>[LOVEstc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/24599809">Samuel Taylor Coleridge</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-1RS">
+                  <ptr target="../XML/LB05-1RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">130 to 136</biblScope>
+                  <biblScope unit="pages">7</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="130"/>
+         <milestone n="130" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>LOVE. </emph>
+         </head>
+         <lg type="stanza" n="1">
+            <l n="1">All Thoughts, all Passions, all Delights, </l>
+            <l n="2">Whatever stirs this mortal Frame,</l>
+            <l n="3">All are but ministers of Love,</l>
+            <l n="4" rend="indent"> And feed his sacred flame.</l>
+         </lg>
+         <lg type="Stanza" n="2">
+            <l n="5">Oft in my waking dreams do I</l>
+            <l n="6">Live o’er again that happy hour,</l>
+            <l n="7">When midway on the Mount I lay</l>
+            <l n="8" rend="indent"> Beside the Ruined Tower.</l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="9">The Moonshine stealing o’er the scene</l>
+            <l n="10">Had blended with the Lights of Eve ;</l>
+            <l n="11">And she was there, my Hope, my Joy,</l>
+            <l n="12" rend="indent"> My own dear Genevieve !</l>
+         </lg>
+         <pb n="131"/>
+         <milestone n="131" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="4">
+            <l n="13">She leaned against the Armed Man,</l>
+            <l n="14">The Statue of the Armed Knight :</l>
+            <l n="15">She stood and listened to my Harp</l>
+            <l n="16" rend="indent"> Amid the ling’ring Light.</l>
+         </lg>
+         <lg type="stanza" n="5">
+            <l n="17">Few Sorrows hath she of her own,</l>
+            <l n="18">My Hope, my Joy, my Genevieve !</l>
+            <l n="19">She loves me best, whene’er I sing</l>
+            <l n="20" rend="indent"> The Songs, that make her grieve.</l>
+         </lg>
+         <lg type="stanza" n="6">
+            <l n="21">I played a soft and doleful Air,</l>
+            <l n="22">I sang an old and moving Story— </l>
+            <l n="23">An old rude Song that fitted well</l>
+            <l n="24" rend="indent"> The Ruin wild and hoary.</l>
+         </lg>
+         <lg type="stanza" n="7">
+            <l n="25">She listened with a flitting Blush,</l>
+            <l n="26">With downcast Eyes and modest Grace ;</l>
+            <l n="27">For well she knew, I could not choose</l>
+            <l n="28" rend="indent"> But gaze upon her Face.</l>
+         </lg>
+         <pb n="132"/>
+         <milestone n="132" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="8">
+            <l n="29">I told her of the Knight, that wore</l>
+            <l n="30">Upon his Shield a burning Brand ;</l>
+            <l n="31">And that for ten long Years he wooed</l>
+            <l n="32" rend="indent"> The Lady of the Land.</l>
+         </lg>
+         <lg type="stanza" n="9">
+            <l n="33">I told her, how he pin’d : and, ah! </l>
+            <l n="34">The low, the deep, the pleading tone,</l>
+            <l n="35">With which I sang another’s Love,</l>
+            <l n="36" rend="indent"> Interpreted my own.</l>
+         </lg>
+         <lg type="stanza" n="10">
+            <l n="37">She listened with a flitting Blush,</l>
+            <l n="38">With downcast Eyes and modest Grace ;</l>
+            <l n="39">And she forgave me, that I gazed</l>
+            <l n="40" rend="indent"> Too fondly on her Face !</l>
+         </lg>
+         <lg type="stanza" n="11">
+            <l n="41">But when I told the cruel scorn</l>
+            <l n="42">Which crazed this bold and lovely Knight,</l>
+            <l n="43">And that he crossed the mountain woods</l>
+            <l n="44" rend="indent"> Nor rested day nor night;</l>
+         </lg>
+         <pb n="133"/>
+         <milestone n="133" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="12">
+            <l n="45">That sometimes from the savage Den,</l>
+            <l n="46">And sometimes from the darksome Shade,</l>
+            <l n="47">And sometimes starting up at once</l>
+            <l n="48" rend="indent"> In green and sunny Glade,</l>
+         </lg>
+         <lg type="stanza" n="13">
+            <l n="49">There came, and looked him in the face,</l>
+            <l n="50">An Angel beautiful and bright;</l>
+            <l n="51">And that he knew, it was a Fiend,</l>
+            <l n="52" rend="indent"> This miserable Knight !</l>
+         </lg>
+         <lg type="stanza" n="14">
+            <l n="53">And how, unknowing what he did,</l>
+            <l n="54">He leapt amid a murd’rous Band,</l>
+            <l n="55">And saved from Outrage worse than Death</l>
+            <l n="56" rend="indent"> The Lady of the Land ;</l>
+         </lg>
+         <lg type="Stanza" n="15">
+            <l n="57">And how she wept and clasped his knees,</l>
+            <l n="58">And how she tended him in vain—</l>
+            <l n="59">And ever strove to expiate</l>
+            <l n="60" rend="indent"> The Scorn, that crazed his Brain :</l>
+         </lg>
+         <pb n="134"/>
+         <milestone n="134" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="16">
+            <l n="61">And that she nursed him in a Cave ;</l>
+            <l n="62">And how his Madness went away</l>
+            <l n="63">When on the yellow forest leaves</l>
+            <l n="64" rend="indent"> A dying Man he lay ;</l>
+         </lg>
+         <lg type="stanza" n="17">
+            <l n="65">His dying words—But when I reached</l>
+            <l n="66">That tenderest strain of all the Ditty,</l>
+            <l n="67">My falt’ring Voice and pausing Harp</l>
+            <l n="68" rend="indent"> Disturbed her Soul with Pity !</l>
+         </lg>
+         <lg type="stanza" n="18">
+            <l n="69">All Impulses of Soul and Sense</l>
+            <l n="70">Had thrilled my guileless Genevieve,</l>
+            <l n="71">The Music, and the doleful Tale,</l>
+            <l n="72" rend="indent">The rich and balmy Eve ;</l>
+         </lg>
+         <lg type="stanza" n="19">
+            <l n="73">And Hopes, and Fears that kindle Hope,</l>
+            <l n="74">An undistinguishable Throng !</l>
+            <l n="75">And gentle Wishes long subdued,</l>
+            <l n="76" rend="indent"> Subdued and cherished long !</l>
+         </lg>
+         <pb n="135"/>
+         <milestone n="135" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="20">
+            <l n="77">She wept with pity and delight,</l>
+            <l n="78">She blushed with love and maiden shame;</l>
+            <l n="79">And, like the murmur of a dream,</l>
+            <l n="80" rend="indent"> I heard her breathe my name.</l>
+         </lg>
+         <lg type="stanza" n="21">
+            <l n="81">Her bosom heaved—she stepped aside;</l>
+            <l n="82">As conscious of my Look, she stepped—</l>
+            <l n="83">Then suddenly with timorous eye</l>
+            <l n="84" rend="indent"> She fled to me and wept.</l>
+         </lg>
+         <lg type="stanza" n="22">
+            <l n="85">She half inclosed me with her arms,</l>
+            <l n="86">She pressed me with a meek embrace;</l>
+            <l n="87">And bending back her head looked up,</l>
+            <l n="88" rend="indent"> And gazed upon my face.</l>
+         </lg>
+         <lg type="stanza" n="23">
+            <l n="89">’Twas partly Love, and partly Fear,</l>
+            <l n="90">And partly ’twas a bashful Art</l>
+            <l n="91">That I might rather feel than see</l>
+            <l n="92" rend="indent"> The Swelling of her Heart.</l>
+         </lg>
+         <pb n="136"/>
+         <milestone n="136" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="24">
+            <l n="93">I calmed her fears; and she was calm,</l>
+            <l n="94">And told her love with virgin Pride.</l>
+            <l n="95">And so I won my Genevieve,</l>
+            <l n="96" rend="indent"> My bright and beauteous Bride !</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

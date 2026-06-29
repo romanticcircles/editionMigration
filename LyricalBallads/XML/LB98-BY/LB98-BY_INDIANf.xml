@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: [Indian Woman's Complaint title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BY_INDIANf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB98-BY">
+                  <ptr target="../XML/LB98-BY.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">191 to 192</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb/>
+         <milestone n="191" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <head>THE COMPLAINT<lb/>
+            <lb/>
+            <hi>of a forsaken</hi>
+            <lb/>
+            <lb/> I N D I A N W O M A N.<lb/>
+         </head>
+         <argument xml:id="ARGU2">
+            <p>[<emph>When a Northern Indian, from sickness, is unable<lb/>to continue his journey
+                with his companions; he is<lb/>left behind, covered over with Deer-skins, and is
+                <lb/>supplied with water, food, and fuel if the situation <lb/>of the place will
+                afford it. He is informed of the <lb/>track which his companions intend to pursue,
+                and <lb/>if he is unable to follow, or overtake them, he <lb/>perishes alone in the
+                Desart; unless he should have <lb/>the good fortune to fall in with some other
+                Tribes<lb/>of Indians. It is unnecessary to add that the <lb/>females are equally,
+                or still more, exposed to the <lb/>same fate. See that very interesting work,</emph>
+               <pb/>
+               <milestone unit="page" n="192"/>
+               <lb/>
+               <lb/>Hearne’s Journey
+                <emph>from</emph> Hudson’s Bay <emph>to the</emph>
+               <lb/>Northern Ocean.
+                <emph>When the Northern Lights, <lb/>as the same writer informs us, vary their
+                position <lb/>in the air, they make a rustling and a crackling <lb/>noise. This
+                circumstance is alluded to in the <lb/>first stanza of the following poem.</emph>] </p>
+         </argument>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

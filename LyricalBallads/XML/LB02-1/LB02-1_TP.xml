@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802, a machine-readable edition</title>
+            <author>Samuel Taylor Coleridge and William Wordsworth </author>
+            <editor>Bruce Graver and Ronald Tetreault </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>vol. 1, Third Edition, <date>1802</date>
+            </edition>
+            <respStmt>
+               <name>Bruce Graver and Ronald Tetreault</name>
+               <resp>,editors and compositors.</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-1_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edited from the copy of <emph>Lyrical Ballads</emph>, 1802, vol. 1, (Sara
+                         Hutchinson’s copy) in the Wordsworth Library,
+                              Grasmere,<date>July,1997</date>and corrected against copies at
+                         Dartmouth College, Princeton University, and Simon Fraser University</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI-conformant SGML by Bruce Graver and Ronald Tetreault; encoding
+                    upgraded to TEI P5 xml by Laura Mandell, 7/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <div type="inscription" xml:id="inscription">
+            <p rend="signature">
+               <lb/>
+               <lb/>
+               <lb/>Given by W. W. to S. H.<lb/>At Gallow Hill,
+                         the Evening<lb/>before our marriage Octr 3d<lb/>1802<lb/>M. W.</p>
+            <pb/>
+            <p rend="signature">Sara Hutchinson<lb/>Octbr 3d 18<lb/>1802</p>
+         </div>
+         <titlePage>
+            <docTitle>
+               <titlePart>LYRICAL BALLADS, <lb/>
+                  <lb/>
+                  <hi rend="small">with</hi>
+                  <lb/>
+                  <lb/>P
+                              A S T O R A L<lb/>
+                  <lb/>
+                  <hi rend="small">and
+                                   other</hi>
+                  <lb/>
+                  <lb/>Poems,<lb/>
+                  <lb/>
+                  <hi rend="small">in two
+                                   volumes.</hi>
+               </titlePart>
+            </docTitle>
+            <docAuthor>By W. WORDSWORTH. </docAuthor>
+            <epigraph>
+               <p>Quam nihil ad genium, Papiniane, tuum!</p>
+            </epigraph>
+            <docEdition>VOL. I.<lb/>
+               <lb/>
+               <hi rend="small">THIRD
+                         EDITION</hi>.<lb/>
+               <lb/>
+            </docEdition>
+            <docImprint>
+               <emph>LONDON:</emph>
+               <lb/>
+               <hi rend="small">printed for t. n. longman
+                              and o. rees, paternoster-row,<lb/>by biggs and cottle, crane-court,
+                              fleet-street.</hi>
+               <lb/>
+               <docDate>1802.</docDate>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

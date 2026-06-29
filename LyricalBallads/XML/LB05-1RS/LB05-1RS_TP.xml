@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads 1805, vol 1</title>
+            <author>Samuel Taylor Coleridge and William Wordsworth </author>
+            <editor>Bruce Graver and Ronald Tetreault </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Fourth Edition, <date>1805</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-1RS_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edited from the copy of <emph>Lyrical Ballads</emph>, 1805, London imprint,
+                         in the British Library, containing MS. corrections by R. Southey.
+                              <date>June, 1997</date>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI-conformant SGML by Bruce Graver and Ronald Tetreault, with
+                    significant help from CETH, the STG, and others; encoding upgraded to TEI P5 xml
+                    by Laura Mandell, 7/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <div type="inscription" xml:id="inscription">
+            <p rend="signature">William Wordsworth <lb/>and <lb/>S. T. Coleridge
+                                   <lb/>to R. Southey</p>
+         </div>
+         <pb/>
+         <lb/>
+         <titlePage>
+            <docTitle>
+               <titlePart>LYRICAL BALLADS, <lb/>
+                  <lb/>
+                  <hi rend="small">with</hi>
+                  <lb/>
+                  <lb/>P A S T O R A L <lb/>
+                  <lb/>
+                  <hi rend="small">and other
+                                             </hi>
+                  <lb/>
+                  <lb/>Poems.<lb/>
+                  <lb/>
+                  <hi rend="small">in two
+                                             volumes. </hi>
+                  <lb/>
+               </titlePart>
+            </docTitle>
+            <docAuthor>BY W. WORDSWORTH. </docAuthor>
+            <epigraph>
+               <p>Quam nihil ad genium, Papiniane, tuum! </p>
+            </epigraph>
+            <docEdition>VOL. I.<lb/>
+               <lb/>
+               <hi rend="small">FOURTH EDITION.
+                                   </hi>
+            </docEdition>
+            <docImprint>
+               <lb/>
+               <hi rend="small">LONDON : </hi>
+               <lb/>
+               <hi rend="small">printed for longman, hurst, rees, and orme,
+                                        <lb/>
+               </hi>
+               <emph>By R. Taylor and Co. </emph>38,
+                                        <emph>Shoe-Lane.</emph>
+               <lb/>
+               <date>1805.</date>
+            </docImprint>
+         </titlePage>
+         <pb/>
+         <pb/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: The Tables Turned</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-STC_TABLES</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="TABLES">
+                  <title>[TABLES]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-STC">
+                  <ptr target="../XML/LB98-STC.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">186 to 188</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone unit="page" n="186"/>
+         <lb/>
+         <lb/>
+         <head>THE TABLES TURNED;<lb/>
+            <lb/>
+            <hi>an evening scene, on the same subject.<lb/>
+            </hi>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Up! up! my friend, and clear your looks, </l>
+            <l n="2">Why all this toil and trouble? </l>
+            <l n="3">Up! up! my friend, and quit your books, </l>
+            <l n="4">Or surely you’ll grow double. </l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">The sun above the mountain’s head, </l>
+            <l n="6">A freshening lustre mellow, </l>
+            <l n="7">Through all the long green fields has spread,</l>
+            <l n="8">His first sweet evening yellow. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="187"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="9">Books! ’tis a dull and endless strife, </l>
+            <l n="10">Come, hear the woodland linnet, </l>
+            <l n="11">How sweet his music; on my life </l>
+            <l n="12">There’s more of wisdom in it. </l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">And hark! how blithe the throstle sings! </l>
+            <l n="14">And he is no mean preacher; </l>
+            <l n="15">Come forth into the light of things, </l>
+            <l n="16">Let Nature be your teacher. </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">She has a world of ready wealth, </l>
+            <l n="18">Our minds and hearts to bless— </l>
+            <l n="19">Spontaneous wisdom breathed by health, </l>
+            <l n="20">Truth breathed by chearfulness. </l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">One impulse from a vernal wood </l>
+            <l n="22">May teach you more of man; </l>
+            <l n="23">Of moral evil and of good, </l>
+            <l n="24">Than all the sages can. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="188"/>
+         <lb/>
+         <lb/>
+         <lg n="7" type="stanza">
+            <l n="25">Sweet is the lore which nature brings; </l>
+            <l n="26">Our meddling intellect </l>
+            <l n="27">Mishapes the beauteous forms of things;</l>
+            <l n="28">—We murder to dissect. </l>
+         </lg>
+         <lg n="8" type="stanza">
+            <l n="29">Enough of science and of art; </l>
+            <l n="30">Close up these barren leaves; </l>
+            <l n="31">Come forth, and bring with you a heart </l>
+            <l n="32">That watches and receives.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

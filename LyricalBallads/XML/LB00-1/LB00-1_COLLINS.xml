@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Remembrance of Collins</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_COLLINS</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="COLLINS">
+                  <title>Remembrance of Collins</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-1">
+                  <ptr target="../XML/LB00-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">103 to 104</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="103" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>LINES <lb/>
+               <lb/>Written near Richmond upon the Thames.</emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Glide gently, thus for ever glide,</l>
+            <l n="2">O Thames ! that other bards may see, </l>
+            <l n="3">As lovely visions by thy side </l>
+            <l n="4">As now, fair river ! come to me. </l>
+            <l n="5">Oh glide, fair stream ! for ever so ; </l>
+            <l n="6">Thy quiet soul on all bestowing, </l>
+            <l n="7">’Till all our minds for ever flow,</l>
+            <l n="8">As thy deep waters now are flowing. </l>
+         </lg>
+         <lg n="2" part="I" type="stanza">
+            <l n="9">Vain thought ! yet be as now thou art,</l>
+            <l n="10">That in thy waters may be seen</l>
+            <l n="11">The image of a poet’s heart,</l>
+            <l n="12">How bright, how solemn, how serene ! </l>
+         </lg>
+         <pb/>
+         <milestone n="104" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="F" type="stanza">
+            <l n="13">Such as did once the poet bless,</l>
+            <l n="14">Who, pouring here a * <emph>later</emph> ditty,</l>
+            <l n="15">Could find no refuge from distress, </l>
+            <l n="16">But in the milder grief of pity. </l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="17">Remembrance ! as we float along, </l>
+            <l n="18">For him suspend the dashing oar,</l>
+            <l n="19">And pray that never child of Song</l>
+            <l n="20">May know his freezing sorrows more.</l>
+            <l n="21">How calm ! how still ! the only sound,</l>
+            <l n="22">The dripping of the oar suspended !</l>
+            <l n="23">—The evening darkness gathers round</l>
+            <l n="24">By virtue’s holiest powers attended.</l>
+         </lg>
+         <note n="*" type="annotation" resp="auth" place="foot">* Collins’s Ode on
+                        the death of Thomson, the last written, <lb/>I believe, of the poems which
+                        were published during his <lb/>life-time. This Ode is also alluded to in the
+                        next stanza.</note>
+      </body>
+   </text>
+</TEI>

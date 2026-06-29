@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Rime of the Ancient Mariner title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_RIMEfstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb/>
+         <titlePage>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <docTitle>
+               <titlePart>THE ANCYENT MARINER,<lb/>
+                  <lb/>
+                  <hi>a poet’s
+                                             reverie.</hi>
+               </titlePart>
+            </docTitle>
+         </titlePage>
+         <argument xml:id="ARGUrm">
+            <head>
+               <lb/>
+               <lb/>ARGUMENT.</head>
+            <p> How a Ship having first sailed to the Equator, <lb/>was driven by
+                                   Storms to the cold Country towards the <lb/>South Pole : How the
+                                   Ancient Mariner, cruelly and in con-<lb/>tempt of the Laws of
+                                   Hospitality, killed a Sea-bird ; and how he was followed by many
+                                   and strange Judgments ; and <lb/>in what Manner he came back to
+                                   his own Country.</p>
+         </argument>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

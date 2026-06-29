@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Poems on the Naming of Places</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2_NAMING</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="NAMING">
+                  <title>[NAMING]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2">
+                  <ptr target="../XML/LB00-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">179</biblScope>
+                  <biblScope unit="pages">17</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lyrical Ballads, 1800: [Poems on the Naming of Places title page]</title>
+               <editor>
+                  <name xml:id="BG">Bruce Graver</name>
+               </editor>
+               <editor>
+                  <name xml:id="RT">Ronald Tetreault</name>
+               </editor>
+               <respStmt>
+                  <resp>Technical Editor; Producer</resp>
+                  <name xml:id="LM">Laura Mandell</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Romantic Circles</publisher>
+               <idno type="local">LB00-2_NAMINGf</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <biblStruct>
+                  <monogr xml:id="LB00-2">
+                     <ptr target="../XML/LB00-2.xml"/>
+                     <imprint>
+                        <publisher>T. N. Longman and O. Rees</publisher>
+                        <pubPlace/>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="page">175 to 178</biblScope>
+                     <biblScope unit="pages">4</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb n="175"/>
+            <titlePage>
+               <docTitle>
+                  <titlePart>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>P O E M S
+                                             <lb/>
+                     <lb/>
+                     <hi rend="small">on the
+                                                  <lb/>
+                        <lb/>
+                        <emph>NAMING OF
+                                        PLACES.</emph>
+                     </hi>
+                  </titlePart>
+               </docTitle>
+            </titlePage>
+            <pb n="176"/>
+            <pb n="177"/>
+            <argument xml:id="ARGUnp">
+               <head>
+                  <lb/>
+                  <lb/>ADVERTISEMENT. </head>
+               <p>By Persons resident in the country and attached to rural
+                                   <lb/>objects, many places will be found unnamed or of
+                                   <lb/>unknown names, where little Incidents will have
+                                   <lb/>occurred, or feelings been experienced, which will have
+                                   <lb/>given to such places a private and peculiar interest.
+                                   <lb/>From a wish to give some sort of record to such
+                                   Inci-<lb/>dents or renew the gratification of such Feelings,
+                                   Names <lb/>have been given to Places by the Author and some of
+                                   <lb/>his Friends, and the following Poems written in
+                                   con-<lb/>sequence. </p>
+            </argument>
+            <pb n="178"/>
+         </front>
+         <body>
+            <p> </p>
+         </body>
+      </text>
+      <body>
+         <milestone n="179" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>POEMS on the NAMING of PLACES. </emph>
+         </head>
+         <div type="poem" xml:id="NAMINGi">
+            <head>I. </head>
+            <lg type="poem">
+               <l n="1">It was an April Morning : fresh and clear</l>
+               <l n="2">The Rivulet, delighting in its strength,</l>
+               <l n="3">Ran with a young man’s speed, and yet the
+                                        voice</l>
+               <l n="4">Of waters which the winter had supplied</l>
+               <l n="5">Was soften’d down into a vernal tone.</l>
+               <l n="6">The spirit of enjoyment and desire,</l>
+               <l n="7">And hopes and wishes, from all living things</l>
+               <l n="8">Went circling, like a multitude of sounds.</l>
+               <l n="9">The budding groves appear’d as if in haste</l>
+               <l n="10">To spur the steps of June ; as if their shades</l>
+               <l n="11">Of <emph>various</emph> green were hindrances that
+                                        stood</l>
+               <pb/>
+               <milestone n="180" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="12">Between them and their object : yet, meanwhile,</l>
+               <l n="13">There was such deep contentment in the air</l>
+               <l n="14">That every naked ash, and tardy tree</l>
+               <l n="15">Yet leafless, seem’d as though the
+                                        countenance</l>
+               <l n="16">With which it look’d on this delightful day</l>
+               <l n="17">Were native to the summer.—Up the brook</l>
+               <l n="18">I roam’d in the confusion of my heart,</l>
+               <l n="19">Alive to all things and forgetting all.</l>
+               <l n="20">At length I to a sudden turning came</l>
+               <l n="21">In this continuous glen, where down a rock</l>
+               <l n="22">The stream, so ardent in its course before,</l>
+               <l n="23">Sent forth such sallies of glad sound, that all</l>
+               <l n="24">Which I till then had heard, appear’d the
+                                        voice</l>
+               <l n="25">Of common pleasure : beast and bird, the lamb,</l>
+               <l n="26">The Shepherd’s dog, the linnet and the thrush</l>
+               <l n="27">Vied with this waterfall, and made a song</l>
+               <l n="28">Which, while I listen’d, seem’d like the
+                                        wild growth</l>
+               <l n="29">Or like some natural produce of the air</l>
+               <l n="30">That could not cease to be. Green leaves were here,</l>
+               <pb/>
+               <milestone n="181" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="31">But ’twas the foliage of the rocks, the
+                                        birch,</l>
+               <l n="32">The yew, the holly, and the bright green thorn,</l>
+               <l n="33">With hanging islands of resplendent furze :</l>
+               <l n="34">And on a summit, distant a short space,</l>
+               <l n="35">By any who should look beyond the dell,</l>
+               <l n="36">A single mountain Cottage might be seen.</l>
+               <l n="37">I gaz’d and gaz’d, and to myself I
+                                        said,</l>
+               <l n="38">“Our thoughts at least are ours ; and this wild
+                                        nook,</l>
+               <l n="39">My E<hi rend="small">mma</hi>, I will dedicate to
+                                        thee.”</l>
+               <l n="40">——Soon did the spot become my other
+                                        home,</l>
+               <l n="41">My dwelling, and my out-of-doors abode.</l>
+               <l n="42">And, of the Shepherds who have seen me there,</l>
+               <l n="43">To whom I sometimes in our idle talk</l>
+               <l n="44">Have told this fancy, two or three, perhaps,</l>
+               <l n="45">Years after we are gone and in our graves,</l>
+               <l n="46">When they have cause to speak of this wild place,</l>
+               <l n="47">May call it by the name of E<hi>mma’s
+                                        dell</hi>.</l>
+            </lg>
+         </div>
+         <pb/>
+         <milestone n="182" unit="page"/>
+         <lb/>
+         <lb/>
+         <div type="poem" xml:id="NAMINGii">
+            <head>II. <lb/>
+               <lb/>
+               <emph>To JOANNA. <lb/>
+                  <lb/>
+               </emph>
+            </head>
+            <lg n="1" type="verseparagraph">
+               <l n="1">Amid the smoke of cities did you pass</l>
+               <l n="2">Your time of early youth, and there you
+                                        learn’d,</l>
+               <l n="3">From years of quiet industry, to love</l>
+               <l n="4">The living Beings by your own fire-side,</l>
+               <l n="5">With such a strong devotion, that your heart</l>
+               <l n="6">Is slow towards the sympathies of them</l>
+               <l n="7">Who look upon the hills with tenderness,</l>
+               <l n="8">And make dear friendships with the streams and
+                                        groves.</l>
+               <l n="9">Yet we who are transgressors in this kind,</l>
+               <l n="10">Dwelling retired in our simplicity</l>
+               <l n="11">Among the woods and fields, we love you well,</l>
+               <l n="12">Joanna ! and I guess, since you have been</l>
+               <pb/>
+               <milestone n="183" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="13">So distant from us now for two long years,</l>
+               <l n="14">That you will gladly listen to discourse</l>
+               <l n="15">However trivial, if you thence are taught</l>
+               <l n="16">That they, with whom you once were happy, talk</l>
+               <l n="17">Familiarly of you and of old times.</l>
+            </lg>
+            <lg n="2" type="verseparagraph">
+               <l n="18">While I was seated, now some ten days past,</l>
+               <l n="19">Beneath those lofty firs, that overtop</l>
+               <l n="20">Their ancient neighbour, the old Steeple tower,</l>
+               <l n="21">The Vicar from his gloomy house hard by</l>
+               <l n="22">Came forth to greet me, and when he had
+                                        ask’d,</l>
+               <l n="23">“How fares Joanna, that wild-hearted Maid !</l>
+               <l n="24">And when will she return to us ?” he
+                                        paus’d,</l>
+               <l n="25">And after short exchange of village news,</l>
+               <l n="26">He with grave looks demanded, for what cause,</l>
+               <l n="27">Reviving obsolete Idolatry,</l>
+               <l n="28">I like a Runic Priest, in characters</l>
+               <l n="29">Of formidable size, had chisel’d out</l>
+               <l n="30">Some uncouth name upon the native rock,</l>
+               <pb/>
+               <milestone n="184" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="31">Above the Rotha, by the forest side.</l>
+               <l n="32">—Now, by those dear immunities of heart</l>
+               <l n="33">Engender’d between malice and true love,</l>
+               <l n="33" met="34">I was not loth to be so catechiz’d,</l>
+               <l n="35">And this was my reply.—“ As it befel,</l>
+               <l n="36">One summer morning we had walk’d abroad</l>
+               <l n="37">At break of day, Joanna and myself.</l>
+               <l n="38">—’Twas that delightful season, when the
+                                        broom,</l>
+               <l n="39">Full flower’d, and visible on every steep,</l>
+               <l n="40">Along the copses runs in veins of gold.</l>
+               <l n="41">Our pathway led us on to Rotha’s banks,</l>
+               <l n="42">And when we came in front of that tall rock</l>
+               <l n="43">Which looks towards the East, I there stopp’d
+                                        short,</l>
+               <l n="44">And trac’d the lofty barrier with my eye</l>
+               <l n="45">From base to summit ; such delight I found</l>
+               <l n="46">To note in shrub and tree, in stone and flower,</l>
+               <l n="47">That intermixture of delicious hues,</l>
+               <l n="48">Along so vast a surface, all at once,</l>
+               <l n="49">In one impression, by connecting force</l>
+               <pb/>
+               <milestone n="185" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="50">Of their own beauty, imag’d in the heart.</l>
+               <l n="51">—When I had gaz’d perhaps two
+                                        minutes’ space,</l>
+               <l n="52">Joanna, looking in my eyes, beheld</l>
+               <l n="53">That ravishment of mine, and laugh’d aloud.</l>
+               <l n="54">The rock, like something starting from a sleep,</l>
+               <l n="55">Took up the Lady’s voice, and laugh’d again
+                                        :</l>
+               <l n="56">That ancient Woman seated on Helm-crag</l>
+               <l n="57">Was ready with her cavern ; Hammar-Scar,</l>
+               <l n="58">And the tall Steep of Silver-How sent forth</l>
+               <l n="59">A noise of laughter ; southern Loughrigg heard,</l>
+               <l n="60">And Fairfied answer’d with a mountain tone :</l>
+               <l n="61">Helvellyn far into the clear blue sky</l>
+               <l n="62">Carried the Lady’s voice,—old Skiddaw
+                                        blew</l>
+               <l n="63">His speaking trumpet ;—back out of the clouds</l>
+               <l n="64">Of Glaramara southward came the voice ;</l>
+               <l n="65">And Kirkstone toss’d it from his misty head.</l>
+               <l n="66">Now whether, (said I to our cordial Friend</l>
+               <l n="67">Who in the hey-day of astonishment</l>
+               <l n="68">Smil’d in my face) this were in simple truth</l>
+               <pb/>
+               <milestone n="186" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="69">A work accomplish’d by the brotherhood</l>
+               <l n="70">Of ancient mountains, or my ear was touch’d</l>
+               <l n="71">With dreams and visionary impulses,</l>
+               <l n="72">Is not for me to tell ; but sure I am</l>
+               <l n="73">That there was a loud uproar in the hills.</l>
+               <l n="74">And, while we both were listening, to my side</l>
+               <l n="75">The fair Joanna drew, is if she wish’d</l>
+               <l n="76">To shelter from some object of her fear.</l>
+               <l n="77">—And hence, long afterwards, when eighteen
+                                        moons</l>
+               <l n="78">Were wasted, as I chanc’d to walk alone</l>
+               <l n="79">Beneath this rock, at sun-rise, on a calm</l>
+               <l n="80">And silent morning, I sate down, and there,</l>
+               <l n="81">In memory of affections old and true,</l>
+               <l n="82">I chissel’d out in those rude characters</l>
+               <l n="83">Joanna’s name upon the living stone.</l>
+               <l n="84">And I, and all who dwell by my fire-side</l>
+               <l n="85">Have call’d the lovely rock, Joanna’s
+                                        Rock.”</l>
+            </lg>
+            <lb/>
+            <note place="foot">
+               <hi rend="small"> NOTE.</hi>
+               <lb/>
+               <lb/>In Cumberland
+                                   and Westmoreland are several Inscriptions <lb/>upon the native
+                                   rock which from the wasting of Time and<pb/>
+               <milestone n="187" unit="page"/>
+               <lb/>
+               <lb/>the rudeness of the Workmanship had
+                                   been mistaken for <lb/>Runic. They are without doubt Roman.
+                                   <lb/>
+               <lb/>The Rotha, mentioned in this poem, is the River which
+                                   <lb/>flowing through the Lakes of Grasmere and Rydole falls
+                                   <lb/>into Wyndermere. On Helm-Crag, that impressive single
+                                   <lb/>Mountain at the head of the Vale of Grasmere, is a Rock
+                                   <lb/>which from mo<orig rend="long s">s</orig>t points of view
+                                   bears a striking resem-<lb/>blance to an Old Woman cowering.
+                                   Close by this rock is <lb/>one of those Fissures or Caverns,
+                                   which in the language <lb/>of the Country are called Dungeons.
+                                   The other Mountains <lb/>either immediately surround the Vale of
+                                   Grasmere, or <lb/>belong to the same Cluster.</note>
+         </div>
+         <pb/>
+         <milestone n="188" unit="page"/>
+         <lb/>
+         <lb/>
+         <div type="poem" xml:id="NAMINGiii">
+            <head>III. </head>
+            <lg type="poem">
+               <l n="1">There is an Eminence,—of these our hills</l>
+               <l n="2">The last that parleys with the setting sun.</l>
+               <l n="3">We can behold it from our Orchard-seat,</l>
+               <l n="4">And, when at evening we pursue our walk</l>
+               <l n="5">Along the public way, this Cliff, so high</l>
+               <l n="6">Above us, and so distant in its height,</l>
+               <l n="7">Is visible, and often seems to send</l>
+               <l n="8">Its own deep quiet to restore our hearts.</l>
+               <l n="9">The meteors make of it a favorite haunt :</l>
+               <l n="10">The star of Jove, so beautiful and large</l>
+               <l n="11">In the mid heav’ns, is never half so fair</l>
+               <l n="12">As when he shines above it. ’Tis in truth</l>
+               <l n="13">The loneliest place we have among the clouds.</l>
+               <pb/>
+               <milestone n="189" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="14">And She who dwells with me, whom I have lov’d</l>
+               <l n="15">With such communion, that no place on earth</l>
+               <l n="16">Can ever be a solitude to me,</l>
+               <l n="17">Hath said, this lonesome Peak shall bear my Name.</l>
+            </lg>
+         </div>
+         <pb/>
+         <milestone n="190" unit="page"/>
+         <lb/>
+         <lb/>
+         <div type="poem" xml:id="NAMINGiv">
+            <head>IV. </head>
+            <lg type="poem">
+               <l n="1">A narrow girdle of rough stones and crags,</l>
+               <l n="2">A rude and natural causeway, interpos’d</l>
+               <l n="3">Between the water and a winding slope</l>
+               <l n="4">Of copse and thicket, leaves the eastern shore</l>
+               <l n="5">Of Grasmere safe in its own privacy.</l>
+               <l n="6">And there, myself and two beloved Friends,</l>
+               <l n="7">One calm September morning, ere the mist</l>
+               <l n="8">Had altogether yielded to the sun,</l>
+               <l n="9">Saunter’d on this retir’d and difficult
+                                        way.</l>
+               <l n="10">——Ill suits road with one in haste, but
+                                        we</l>
+               <l n="11">Play’d with our time ; and, as we stroll’d
+                                        along,</l>
+               <l n="12">It was our occupation to observe</l>
+               <l n="13">Such objects as the waves had toss’d ashore,</l>
+               <pb/>
+               <milestone n="191" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="14">Feather, or leaf, or weed, or wither’d bough,</l>
+               <l n="15">Each on the other heap’d along the line</l>
+               <l n="16">Of the dry wreck. And in our vacant mood,</l>
+               <l n="17">Not seldom did we stop to watch some tuft</l>
+               <l n="18">Of dandelion seed or thistle’s beard,</l>
+               <l n="19">Which, seeming lifeless half, and half
+                                        impell’d</l>
+               <l n="20">By some internal feeling, skimm’d along</l>
+               <l n="21">Close to the surface of the lake that lay</l>
+               <l n="22">Asleep in a dead calm, ran closely on</l>
+               <l n="23">Along the dead calm lake, now here, now there,</l>
+               <l n="24">In all its sportive wanderings all the while</l>
+               <l n="25">Making report of an invisible breeze</l>
+               <l n="26">That was its wings, its chariot, and its horse,</l>
+               <l n="27">Its very playmate, and its moving soul.</l>
+               <l n="28">——And often, trifling with a privilege</l>
+               <l n="29">Alike indulg’d to all, we paus’d, one
+                                        now,</l>
+               <l n="30">And now the other, to point out, perchance</l>
+               <l n="31">To pluck, some flower or water-weed, too fair</l>
+               <l n="32">Either to be divided from the place</l>
+               <pb/>
+               <milestone n="192" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="33">On which it grew, or to be left alone</l>
+               <l n="34">To its own beauty. Many such there are,</l>
+               <l n="35">Fair ferns and flowers, and chiefly that tall plant</l>
+               <l n="36">So stately, of the Queen Osmunda nam’d,</l>
+               <l n="37">Plant lovelier in its own retir’d abode</l>
+               <l n="38">On Grasmere’s beach, than Naid by the side</l>
+               <l n="39">Of Grecian brook, or Lady of the Mere</l>
+               <l n="40">Sole-sitting by the shores of old Romance.</l>
+               <l n="41">——So fared we that sweet morning : from the
+                                        fields</l>
+               <l n="42">Meanwhile, a noise was heard, the busy mirth</l>
+               <l n="43">Of Reapers, Men and Women, Boys and Girls.</l>
+               <l n="44">Delighted much to listen to those sounds,</l>
+               <l n="45">And in the fashion which I have describ’d,</l>
+               <l n="46">Feeding unthinking fancies, we advanc’d</l>
+               <l n="47">Along the indented shore ; when suddenly,</l>
+               <l n="48">Through a thin veil of glittering haze, we saw</l>
+               <l n="49">Before us on a point of jutting land</l>
+               <l n="50">The tall and upright figure of a Man</l>
+               <l n="51">Attir’d in peasant’s garb, who stood
+                                        alone</l>
+               <pb/>
+               <milestone n="193" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="52">Angling beside the margin of the lake.</l>
+               <l n="53">That way we turn’d our steps ; nor was it
+                                        long,</l>
+               <l n="54">Ere making ready comments on the sight</l>
+               <l n="55">Which then we saw, with one and the same voice</l>
+               <l n="56">We all cried out, that he must be indeed</l>
+               <l n="57">An idle man, who thus could lose a day</l>
+               <l n="58">Of the mid harvest, when the labourer’s hire</l>
+               <l n="59">Is ample, and some little might be stor’d</l>
+               <l n="60">Wherewith to chear him in the winter time. </l>
+               <l n="61">Thus talking of that Peasant we approach’d</l>
+               <l n="62">Close to the spot where with his rod and line</l>
+               <l n="63">He stood alone ; whereat he turn’d his head</l>
+               <l n="64">To greet us — and we saw a man worn down</l>
+               <l n="65">By sickness, gaunt and lean, with sunken cheeks</l>
+               <l n="66">And wasted limbs, his legs so long and lean</l>
+               <l n="67">That for my single self I look’d at them,</l>
+               <l n="68">Forgetful of the body they sustain’d.—</l>
+               <l n="69">Too weak to labour in the harvest field,</l>
+               <l n="70">The man was using his best skill to gain</l>
+               <pb/>
+               <milestone n="194" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="71">A pittance from the dead unfeeling lake</l>
+               <l n="72">That knew not of his wants. I will not say</l>
+               <l n="73">What thoughts immediately were ours, nor how</l>
+               <l n="74">The happy idleness of that sweet morn,</l>
+               <l n="75">With all its lovely images, was chang’d</l>
+               <l n="76">To serious musing and to self-reproach.</l>
+               <l n="77">Nor did we fail to see within ourselves</l>
+               <l n="78">What need there is to be reserv’d in speech,</l>
+               <l n="79">And temper all our thoughts with charity.</l>
+               <l n="80">—Therefore, unwilling to forget that day,</l>
+               <l n="81">My Friend, Myself, and She who then receiv’d</l>
+               <l n="82">The same admonishment, have call’d the place</l>
+               <l n="83">By a memorial name, uncouth indeed</l>
+               <l n="84">As e’er by Mariner was given to Bay</l>
+               <l n="85">Or Foreland on a new-discover’d coast,</l>
+               <l n="86">And P<hi rend="small">oint</hi> R<hi rend="small">ash-judgment</hi> is the Name it bears.</l>
+            </lg>
+         </div>
+         <pb/>
+         <milestone n="195" unit="page"/>
+         <lb/>
+         <lb/>
+         <div type="poem" xml:id="NAMINGv">
+            <head>V. <lb/>
+               <lb/>
+               <emph>To M. H.</emph>
+            </head>
+            <lg type="poem">
+               <l n="1">Our walk was far among the ancient trees :</l>
+               <l n="2">There was no road, nor any wood-man’s path,</l>
+               <l n="3">But the thick umbrage, checking the wild growth</l>
+               <l n="4">Of weed and sapling, on the soft green turf</l>
+               <l n="5">Beneath the branches of itself had made</l>
+               <l n="6">A track which brought us to a slip of lawn,</l>
+               <l n="7">And a small bed of water in the woods.</l>
+               <l n="8">All round this pool both flocks and herds might
+                                        drink</l>
+               <l n="9">On its firm margin, even as from a well</l>
+               <l n="10">Or some stone-bason which the Herdsman’s hand</l>
+               <l n="11">Had shap’d for their refreshment, nor did sun</l>
+               <pb/>
+               <milestone n="196" unit="page"/>
+               <lb/>
+               <lb/>
+               <l n="12">Or wind from any quarter ever come</l>
+               <l n="13">But as a blessing to this calm recess,</l>
+               <l n="14">This glade of water and this one green field.</l>
+               <l n="15">The spot was made by Nature for herself :</l>
+               <l n="16">The travellers know it not, and ’twill remain</l>
+               <l n="17">Unknown to them ; but it is beautiful,</l>
+               <l n="18">And if a man should plant his cottage near,</l>
+               <l n="19">Should sleep beneath the shelter of its trees,</l>
+               <l n="20">And blend its waters with his daily meal,</l>
+               <l n="21">He would so love it that in his death-hour</l>
+               <l n="22">Its image would survive among his thoughts,</l>
+               <l n="23">And, therefore, my sweet M<hi rend="small">ary</hi>,
+                                        this still nook</l>
+               <l n="24">With all its beeches we have named from You.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

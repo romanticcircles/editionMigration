@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, an electronic edition</title>
+            <editor>edited by Ronald Tetreault and Bruce Graver</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edited from the Philadelphia, 1802, imprint of Lyrical
+                         Ballads</edition>
+            <respStmt>
+               <resp/>
+               <name> by RT and BG</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>based on the copy of Lyrical Ballads, 1802, in the Houghton Library, Harvard,
+                         once owned by J. Dykes Campbell.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI-conformant SGML by the editors; encoding upgraded to TEI P5 xml by
+                    Laura Mandell, 7/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <div type="inscription" xml:id="inscription">
+            <p rend="signature">W H Vale<lb/>HMS Cambrian<lb/>Halifax May 7, 1803</p>
+         </div>
+         <titlePage>
+            <docTitle>
+               <titlePart>LYRICAL BALLADS,<lb/>
+                  <lb/>
+                  <hi>with</hi>
+                  <lb/>
+                  <lb/>
+                  <emph>OTHER
+                                   POEMS:</emph>
+                  <lb/>
+                  <lb/>
+                  <hi>in two volumes.</hi>
+               </titlePart>
+            </docTitle>
+            <docAuthor>BY W. WORDSWORTH.</docAuthor>
+            <epigraph>
+               <q>Quam nihil ad genium, Papiniane, tuum!</q>
+            </epigraph>
+            <titlePart>
+               <hi>vol. ii.</hi>
+            </titlePart>
+            <docEdition>
+               <lb/>
+               <hi>from the london second
+                              edition.</hi>
+               <lb/>
+               <lb/>Philadelphia:<lb/>
+               <lb/>
+               <hi>printed and sold by
+                              james humphreys.</hi>
+               <lb/>At the N.W. Corner of Walnut and Dock-street.
+                         ...........<lb/>1802. </docEdition>
+         </titlePage>
+         <pb/>
+         <titlePage>
+            <docTitle>
+               <titlePart>LYRICAL BALLADS,<lb/>
+                  <lb/>
+                  <hi>with</hi>
+                  <lb/>
+                  <lb/>
+                  <emph>OTHER
+                                   POEMS:</emph>
+                  <lb/>
+                  <lb/>
+                  <hi>in two volumes.</hi>
+               </titlePart>
+            </docTitle>
+            <docAuthor>BY W. WORDSWORTH.</docAuthor>
+            <epigraph>
+               <q>Quam nihil ad genium, Papiniane, tuum!</q>
+            </epigraph>
+            <titlePart>
+               <hi>vol. ii</hi>
+            </titlePart>
+            <docEdition>
+               <hi>from the london second
+                              edition.</hi>
+               <lb/>
+               <lb/>Philadelphia:<lb/>
+               <lb/>
+               <hi>printed by james
+                              humphreys<lb/>FOR JOSEPH GROFF,</hi>
+               <lb/>At No. 75, South
+                              Second-street<lb/>...........<lb/>
+               <date>1802.</date>
+            </docEdition>
+         </titlePage>
+         <pb/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

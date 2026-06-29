@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Poems on the Naming of Places title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_NAMINGf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">137</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb/>
+         <milestone n="137" unit="page"/>
+         <argument xml:id="ARGUnp">
+            <head>
+               <lb/>
+               <emph>ADVERTISEMENT.</emph>
+            </head>
+            <p> BY Persons resident in the country and attached to <lb/>rural
+                                   objects, many places will be found un-named or of un-<lb/>known
+                                   names, where little Incidents will have occurred, or
+                                   <lb/>Feelings been experienced, which will have given to such
+                                   pla-<lb/>ces a private and peculiar interest. From a wish to give
+                                   <lb/>some sort of Record to such Incidents or renew the
+                                   gratifi-<lb/>cation of such Feelings, names have been given to
+                                   places by <lb/>the Author and some of his friends, and the
+                                   following Poems <lb/>written in consequence.</p>
+         </argument>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

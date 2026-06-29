@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Lyrical Ballads:Editor Introduction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/LBdigEdpara.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;display=swap"
+            rel="stylesheet">
+        <style>
+            .wrapper {
+                position: relative;
+                width: 92%;
+                margin-left: 5rem;
+            }
+            .essay {
+                display: block;
+                width: 75%;
+            }
+            div.bibliog {
+                position: relative;
+                margin-left: 1.5rem;
+            }
+            p.hang {
+                text-indent: -1.5rem;
+            }</style>
+    </head>
+    <body>
+        <img src="header/lakeDistBanner.png" alt="banner" class="banner" />
+        <a href="index.html">
+            <img src="header/LBvols.png" alt="site logo" class="logo" />
+        </a>
+        <nav>
+            <ul id="navBar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <a href="editions.html">Editions</a>
+                </li>
+                <li>
+                    <a href="compare.html">Compare</a>
+                </li>
+                <li>
+                    <a href="pageImages/index.html">Page Images</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="wrapper" id="top">
+            <h3>Resurrecting <em>Lyrical Ballads</em></h3>
+            <h4>by Laura Mandell</h4>
+            <div class="essay">
+                <p>The digital <em>Lyrical Ballads</em>, co-edited by Bruce Graver and Ron
+                    Tetreault, was first published by Romantic Circles in 2000. It was hosted separately, not on the main server
+                    space for Romantic Circles maintained by the Maryland Institute of Technology
+                    (MITH), and, for unknown reasons, the digital <em>Lyrical Ballads</em> (2000) disappeared even
+                    before the transition of Romantic Circles from the University of Maryland to the
+                    University of Colorado in 2018. One can see the original Romantic Circles publication
+                    via the Wayback Machine<a
+                        href="https://webarchive.loc.gov/all/20100407200921/http://www.rc.umd.edu/editions/LB/"
+                        target="_blank"><img src="images/linkOut.png" alt="link out" height="16"
+                            width="14" /></a>, now maintained by the Library of Congress. Actual
+                    access, however, takes persistence and patience. </p>
+                <p>It uncannily apt that the <em>Lyrical Ballads</em>, produced at a critical
+                    transition in the history of print &#8212; between coterie and mass printing,
+                    between dynastic and corporate publishing houses &#8212; should also have first
+                    appeared as a digital edition very early in the history of web publishing, only
+                    to suffer from massive medial transformations: an unprecedented evolutionary
+                    acceleration that could render a digital architecture "new" and then unusable
+                    within five or ten years (Schweikert; Weaver).</p>
+                <p>During the summer of 2024, the Director of Romantic Circles, Thora Brylowe,
+                    emailed Bruce Graver and me about republishing <em>Lyrical Ballads</em>. While
+                    Bruce had the files that he had originally created when transcribing copies from
+                    various libraries, the original server had disappeared without prior notice, and
+                    so he had saved none of the code for his digital edition. You can see all that
+                    remained of the original digital publication by Romantic Circles (Figure 1).
+                    Could we revive the digital edition?</p>
+                <figure style="float: right; display: inline; padding: 10px;">
+                    <img height="375" width="200" src="images/WhatBruceHad.png" alt="filesSaved" />
+                    <figcaption style="width: 13rem;">Figure 1: All that remained from the digital
+                        edition of 1998</figcaption>
+                </figure>
+                <p>Reader, it was possible.</p>
+                <p>Here we present the second Romantic Circles edition of <em>Lyrical Ballads</em>,
+                    revived and expanded: the second release presents all 25 copies of <em>Lyrical
+                        Ballads</em> that Bruce Graver transcribed, illustrating various states of
+                    the first four editions (1798-1805), including an unauthorized edition printed
+                    in Philadelphia. This kind of resurrection and augmentation were made possible
+                    for one reason: Bruce had recorded information about the copies he saw using the
+                    recommendations of the Text Encoding Initiative Consortium.<a
+                        href="https://tei-c.org/" target="_blank"><img src="images/linkOut.png"
+                            alt="link out" height="16" width="14" /></a>. He could of course have
+                    added editorial information in other formats, but TEI made that information
+                    systemmatic and thus easily transformable via programming. Organized in 1986,
+                    the TEI's mandate was to provide guidance for creators of digital resources so
+                    that their scholarship could be expressed in code that would not obsolesce. Its
+                    promise has proven true.</p>
+                <p>Most certainly, simple typed text, whether inside code or not, would survive
+                    multiple phases of web development, although ripping the text from an antiquated
+                    CD-ROM, the original format proposed by Cambridge University Press, might have
+                    been costly. And a plain HTML version would certainly have survived
+                    technological innovation: the Penn Frankenstein<a
+                        href="https://knarf.english.upenn.edu/" target="_blank"><img
+                            src="images/linkOut.png" alt="link out" height="16" width="14" /></a>
+                    provides an excellent example. But text and web formats do not easily afford
+                    recording elements of interest for scholarly editors and researchers: the
+                    editors would have had to devise a system or write prose comments about various
+                    features, and then explain their methods to a programmer who would have to
+                    implement an idiosyncratic method for displaying them that might not be legible
+                    to programmers of the future. While the base code Bruce used, SGML, is no longer
+                    recommended for use by the TEI guidelines for creating digital editions, the TEI
+                    tags preserving his meticulous editorial work remained fundamentally stable. TEI
+                    tags in SGML made possible recording whether the insertion of a correction
+                    appears below the line or in the margin, whether it was written <a
+                        href="HTML/LB00-2y.html">in Dorothy or William Wordsworth's hand</a>. And it
+                    is a short skip and a jump from SGML to the XML now used for TEI tagging.<span
+                        id="backLMnote1"><a href="#LMnote1">*</a></span></p>
+                <p id="endings">The field of Digital Editing has learned much about preservation
+                    primarily through the school of hard knocks. The Endings Project at the
+                    University of Victoria <a href="https://endings.uvic.ca/index.html"
+                        target="_blank"><img src="images/linkOut.png" alt="link out" height="16"
+                            width="14" /></a> discovered through research that even extremely
+                    well-funded digital resources typically did not last longer than five years. An
+                    original infusion of funding allowed for hiring a programmer who could design a
+                    beautiful site, with all the bells and whistles; but funding runs out, and even
+                    one PHP upgrade on the hosting server can break everything.</p>
+                <p>When the University of Colorado first started hosting Romantic Circles, the
+                    Drupal version from Maryland was almost unusable: as project manager Jessica
+                    Tebo puts it, "it was hanging by a thread."<span id="backLMnote2"><a
+                            href="#LMnote2" style="font-weight: bold;">&#x2020;</a></span> It took
+                    four years to move everything into a new Drupal version simply because Drupal
+                    modules created by the open source community are not upgraded for every new
+                    version of Drupal, and often they are not upgraded at all. The commercial server
+                    host currently used by Romantic Circles is planning a PHP upgrade for October
+                    2026 that will break the current Drupal instance hosting Romantic Circles, even
+                    before all the resources from the previous version have been ingested into this
+                    new version. It is for this reason that we are recreating Romantic Circles
+                    resources according to Endings-Project principles. Truly, the history of
+                    Romantic Circles makes it a poster child for why these best practices are
+                    necessary. The first Romantic Circles digital resource to fall victim to the
+                    relentless drive for technological innovation, <em>Lyrical Ballads</em>, is also
+                    the first Romantic Circles edition to be published according to best practices
+                    for preservation.</p>
+                <p>This digital edition also adheres to Stanford University Library's concept called
+                    LOCKSS&#8212;Lots of Copies Keeps Stuff Safe. Especially as a researcher
+                    interested in eighteenth-century women writers, knowing that all the remaining
+                    copies from small print runs can be destroyed by a Blitz and that there were
+                    writers whose work we will never know, I see proliferating copies as key to
+                    survival. So <a href="about.html#downloads">we offer here</a> with a Creative
+                    Commons Zero license, available to any and all, the TEI encoded documents (now
+                    upgraded to XML), as well as the transforms, javascript, and css used to present
+                    TEI in usable and sustainable HTML. The technical goal of this edition is to
+                    ensure that the enrichments that the editor spent years meticulously recording,
+                    now visible here, can persist in the future research world, safe and sound.</p>
+                <div class="notes">
+                    <h4>Notes</h4>
+                    <p id="LMnote1">* I used a python script to close tags and change entities, and
+                        then I made manual edits, all documented <a href="origSMGL.zip">here</a>. <a
+                            href="#backLMnote1"><em>Back</em></a></p>
+                    <p id="LMnote2">&#x2020; Jessica Tebo is currently a Ph.D. student in English at
+                        the University of Colorado who started working for Romantic Circles without
+                        any knowledge of Drupal: her efforts on behalf of Romantic Circles are
+                        nothing short of heroic. <a href="#backLMnote2"><em>Back</em></a></p>
+                </div>
+                <div class="bibliog" id="worksCited2">
+                    <h4 style="margin-left: -1.5rem;">Works Cited</h4>
+                    <p class="hang">Schweikert, Annie. "An Optical Media Preservation Strategy for
+                        New York University’s Fales Library & Special Collections." 2018.
+                            https://archive.nyu.edu/handle/2451/43877.<a
+                            href="https://archive.nyu.edu/handle/2451/43877" target="_blank"><img
+                                src="images/linkOut.png" alt="link out" height="16" width="14"
+                             /></a> Accessed 5/4/2026.</p>
+                    <p class="hang">Weaver, Andrew; Blewer, Ashley. "The Forgotten Disc: Synthesis
+                        and Recommendations for Viable VCD Preservation." <em>code{4}Lib</em> 57
+                        (8/29/2023). https://journal.code4lib.org/articles/17406.<a
+                            href="https://journal.code4lib.org/articles/17406" target="_blank"><img
+                                src="images/linkOut.png" alt="link out" height="16" width="14"
+                             /></a> Accessed 5/4/2026.</p>
+                </div>
+                <p style="text-align: center;">
+                    <a href="#editorIntro">Back to top</a>
+                </p>
+                <p style="height: 5%;">&#160;</p>
+            </div>
+        </div>
+    </body>
+</html>

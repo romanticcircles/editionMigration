@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Errata List</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_ERRATA</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ERRATA">
+                  <title>[ERRATA]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">228</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="228"/>
+         <lb/>
+         <lb/>
+         <head>
+            <hi rend="bold">ERRATA. </hi>
+         </head>
+         <list type="errata">
+            <item>Preface, p. xi. line 11, for Lucretia—read
+                                   Lucretius.</item>
+            <item>Page 145, line 1, vol. ii. place a comma after the words <lb/>
+                                   “disconsolate creature,” and omit the comma after
+                                   “perhaps”</item>
+            <item>Page 147, line 5, vol. ii. for “both grey red and
+                                   green,” <lb/> substitute grey, scarlet, and green.</item>
+         </list>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+      </body>
+   </text>
+</TEI>

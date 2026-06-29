@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: [Rime of the Ancient Mariner title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-1RS_RIMEfstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB05-1RS">
+                  <ptr target="../XML/LB05-1RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">143 to 144</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="143"/>
+         <titlePage>
+            <lb/>
+            <lb/>
+            <docTitle>
+               <lb/>
+               <titlePart>
+                  <lb/>
+                  <lb/>
+                  <hi rend="small">THE </hi>
+                  <lb/>
+                  <lb/>ANCIENT
+                                             MARINER.<lb/>
+                  <lb/>
+                  <hi rend="small">A POET’S
+                                             REVERIE.</hi>
+               </titlePart>
+            </docTitle>
+         </titlePage>
+         <pb n="144"/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

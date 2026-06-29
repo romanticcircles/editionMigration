@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Wanderer</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2a_WANDER</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="WANDER">
+                  <title>[WANDER]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2a">
+                  <ptr target="../XML/LB00-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">98 to 99</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="98"/>
+         <milestone n="98" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>S O N G </emph>
+            <lb/>
+            <lb/>
+            <hi rend="small">for
+                            the</hi>
+            <lb/>
+            <lb/>
+            <emph>WANDERING JEW. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Though the torrents from their fountains</l>
+            <l n="2">Roar down many a craggy steep,</l>
+            <l n="3">Yet they find among the mountains</l>
+            <l n="4">Resting-places calm and deep.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">Though almost with eagle pinion</l>
+            <l n="6">O’er the rocks the Chamois roam,</l>
+            <l n="7">Yet he has some small dominion</l>
+            <l n="8">Which no doubt he calls his home.</l>
+         </lg>
+         <lg n="3">
+            <l n="9">If on windy days the Raven</l>
+            <l n="10">Gambol like a dancing skiff,</l>
+            <l n="11">Not the less he loves his haven</l>
+            <l n="12">On the bosom of the cliff.</l>
+         </lg>
+         <pb n="99"/>
+         <milestone n="99" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">Though the Sea-horse in the ocean</l>
+            <l n="14">Own no dear domestic cave;</l>
+            <l n="15">Yet he slumbers without motion</l>
+            <l n="16">On the calm and silent wave.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Day and night my toils redouble!</l>
+            <l n="18">Never nearer to the goal,</l>
+            <l n="19">Night and day, I feel the trouble,</l>
+            <l n="20">Of the Wanderer in my soul.</l>
+         </lg>
+         <pb n="100"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <emph>Lyrical Ballads</emph>, 1800 Volume I</title>
+            <author>By Samuel Taylor Coleridge and William Wordsworth</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>A Machine-readable Edition</edition>
+            <respStmt>
+               <name>Bruce Graver and Ronald Tetreault</name>
+               <resp>,editors</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edited from the copy of <emph>Lyrical Ballads</emph>, 1800, in Simon Fraser
+                    University Library, Spring, 1997</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>First encoded in TEI-conformant SGML by Bruce Graver and Ronald Tetreault; encoding
+                upgraded to TEI P5 xml by Laura Mandell, 7/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <pb facs="0005.jpg"/>
+         <lb/>
+         <titlePage>
+            <docTitle>
+               <titlePart>LYRICAL BALLADS, <lb/>
+                  <lb/>
+                  <hi rend="small">with
+                            </hi>
+                  <lb/>
+                  <lb/>
+                  <emph>OTHER POEMS.<lb/>
+                  </emph>
+                  <lb/>
+                  <hi rend="small">in
+                            two volumes. </hi>
+               </titlePart>
+            </docTitle>
+            <docAuthor>By W. WORDSWORTH. </docAuthor>
+            <lb/>
+            <epigraph>
+               <q>Quam nihil ad genium, Papiniane, tuum !</q>
+            </epigraph>
+            <docEdition>VOL. I. <lb/>
+               <lb/>
+               <hi rend="small">SECOND EDITION.<lb/>
+               </hi>
+            </docEdition>
+            <lb/>
+            <docImprint>
+               <emph>LONDON: </emph>
+               <lb/>
+               <hi rend="small">printed for t. n. longman and
+                        o. rees, paternoster-row, <lb/>by biggs and co. bristol.</hi>
+               <lb/>
+               <docDate>1800.</docDate>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

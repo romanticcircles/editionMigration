@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Anecdote for Fathers</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_ANEC</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ANEC">
+                  <title>Anecdote for Fathers</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-1">
+                  <ptr target="../XML/LB00-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">59 to 63</biblScope>
+                  <biblScope unit="pages">5</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="59" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>ANECDOTE for FATHERS, <lb/>
+               <lb/>Shewing how the practice of Lying
+                            may be taught.</emph>
+         </head>
+         <lg type="stanza" n="1">
+            <l n="1">I have a boy of five years old,</l>
+            <l n="2">His face is fair and fresh to see ;</l>
+            <l n="3">His limbs are cast in beauty’s mould, </l>
+            <l n="4">And dearly he loves me.</l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="5">One morn we stroll’d on our dry walk, </l>
+            <l n="6">Our quiet house all full in view,</l>
+            <l n="7">And held such intermitted talk</l>
+            <l n="8">As we are wont to do.</l>
+         </lg>
+         <pb/>
+         <milestone n="60" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="9">My thoughts on former pleasures ran ; </l>
+            <l n="10">I thought of Kilve’s delightful shore,</l>
+            <l n="11">My pleasant home, when Spring began, </l>
+            <l n="12">A long, long year before. </l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">A day it was when I could bear</l>
+            <l n="14">To think, and think, and think again ;</l>
+            <l n="15">With so much happiness to spare,</l>
+            <l n="16">I could not feel a pain.</l>
+         </lg>
+         <lg type="stanza" n="5">
+            <l n="17">My boy was by my side, so slim</l>
+            <l n="18">And graceful in his rustic dress !</l>
+            <l n="19">And oftentimes I talked to him</l>
+            <l n="20">In very idleness.</l>
+         </lg>
+         <lg type="stanza" n="6">
+            <l n="21">The young lambs ran a pretty race ;</l>
+            <l n="22">The morning sun shone bright and warm ;</l>
+            <l n="23">“ Kilve, ” said I, “ was a pleasant place,</l>
+            <l n="24">“ And so is Liswyn farm.</l>
+         </lg>
+         <pb/>
+         <milestone n="61" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="7">
+            <l n="25">“ My little boy, which like you more, ”</l>
+            <l n="26">I said and took him by the arm—</l>
+            <l n="27">“ Our home by Kilve’s delightful shore,</l>
+            <l n="28">“ Or here at Liswyn farm ? ”</l>
+         </lg>
+         <lg type="stanza" n="8">
+            <l n="29">“ And tell me, had you rather be, ”</l>
+            <l n="30">I said and held him by the arm,</l>
+            <l n="31">“ At Kilve’s smooth shore by the green sea,</l>
+            <l n="32">“ Or here at Liswyn farm ?</l>
+         </lg>
+         <lg type="stanza" n="9">
+            <l n="33">In careless mood he looked at me, </l>
+            <l n="34">While still I held him by the arm,</l>
+            <l n="35">And said, “ At Kilve I’d rather be </l>
+            <l n="36">“ Than here at Liswyn farm. ”</l>
+         </lg>
+         <lg type="stanza" n="10">
+            <l n="37">“ Now, little Edward, say why so ;</l>
+            <l n="38">My little Edward, tell me why ; ”</l>
+            <l n="39">“ I cannot tell, I do not know. ”</l>
+            <l n="40">“ Why this is strange, ” said I.</l>
+         </lg>
+         <pb/>
+         <milestone n="62" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="11">
+            <l n="41">“ For, here are woods and green hills warm :</l>
+            <l n="42">“ There surely must some reason be</l>
+            <l n="43">“ Why you would change sweet Liswyn farm</l>
+            <l n="44">“ For Kilve by the green sea. ”</l>
+         </lg>
+         <lg type="stanza" n="12">
+            <l n="45">At this, my boy hung down his head,</l>
+            <l n="46">He blush’d with shame, nor made reply ;</l>
+            <l n="47">And five times to the child I said,</l>
+            <l n="48">“ Why, Edward, tell me, why ? ”</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">His head he raised—there was in sight,</l>
+            <l n="50">It caught his eye, he saw it plain—</l>
+            <l n="51">Upon the house-top, glittering bright,</l>
+            <l n="52">A broad and gilded vane.</l>
+         </lg>
+         <lg type="stanza" n="14">
+            <l n="53">Then did the boy his tongue unlock,</l>
+            <l n="54">And thus to me he made reply ; </l>
+            <l n="55">“ At Kilve there was no weather-cock,</l>
+            <l n="56">“ And that’s the reason why. ”</l>
+         </lg>
+         <pb/>
+         <milestone n="63" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg type="stanza" n="15">
+            <l n="57">Oh dearest, dearest boy ! my heart</l>
+            <l n="58">For better lore would seldom yearn</l>
+            <l n="59">Could I but teach the hundredth part</l>
+            <l n="60">Of what from thee I learn.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

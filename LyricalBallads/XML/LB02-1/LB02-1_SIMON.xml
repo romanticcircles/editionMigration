@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Simon Lee</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-1_SIMON</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="SIMON">
+                  <title>Simon Lee</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-1">
+                  <ptr target="../XML/LB02-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">83 to 89</biblScope>
+                  <biblScope unit="pages">7</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="83"/>
+         <milestone n="83" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>SIMON LEE,</emph>
+            <lb/>
+            <lb/>
+            <hi rend="small">
+               <emph>THE OLD
+                                        HUNTSMAN, <lb/>
+               </emph>
+            </hi>
+            <lb/>
+            <emph>With an incident in
+                                   which he was concerned.<lb/>
+               <lb/>
+            </emph>
+         </head>
+         <lb/>
+         <lg n="1" type="stanza">
+            <l n="1">In the sweet shire of Cardigan, </l>
+            <l n="2">Not far from pleasant Ivor-hall, </l>
+            <l n="3">An Old Man dwells, a little man, </l>
+            <l n="4">I’ve heard he once was tall. </l>
+            <l n="5">Of years he has upon his back, </l>
+            <l n="6">No doubt, a burthen weighty; </l>
+            <l n="7">He says he is three score and ten, </l>
+            <l n="8">But others say he’s eighty.</l>
+         </lg>
+         <pb/>
+         <milestone n="84" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="9">A long blue livery-coat has he, </l>
+            <l n="10">That’s fair behind, and fair before; </l>
+            <l n="11">Yet, meet him where you will, you see </l>
+            <l n="12">At once that he is poor. </l>
+            <l n="13">Full five and twenty years he lived </l>
+            <l n="14">A running Huntsman merry; </l>
+            <l n="15">And, though he has but one eye left, </l>
+            <l n="16">His cheek is like a cherry. </l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="17">No man like him the horn could sound, </l>
+            <l n="18">And no man was so full of glee; </l>
+            <l n="19">To say the least, four counties round </l>
+            <l n="20">Had heard of Simon Lee;</l>
+            <l n="21">His Master’s dead, and no one now </l>
+            <l n="22">Dwells in the hall of Ivor; </l>
+            <l n="23">Men, Dogs, and Horses, all are dead; </l>
+            <l n="24">He is the sole survivor. </l>
+         </lg>
+         <pb/>
+         <milestone n="85" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="25">And he is lean and he is sick, </l>
+            <l n="26">His dwindled body’s half awry;</l>
+            <l n="27">His ancles they are swoln and thick; </l>
+            <l n="28">His legs are thin and dry. </l>
+            <l n="29">When he was young he little knew </l>
+            <l n="30">Of husbandry or tillage;</l>
+            <l n="31">And now he’s forced to work, though weak,</l>
+            <l n="32">—The weakest in the village. </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="33">He all the country could outrun, </l>
+            <l n="34">Could leave both man and horse behind; </l>
+            <l n="35">And often, ere the race was done, </l>
+            <l n="36">He reeled and was stone-blind. </l>
+            <l n="37">And still there’s something in the world </l>
+            <l n="38">At which his heart rejoices; </l>
+            <l n="39">For when the chiming hounds are out, </l>
+            <l n="40">He dearly loves their voices! </l>
+         </lg>
+         <pb/>
+         <milestone n="86" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="41">His hunting feats have him bereft </l>
+            <l n="42">Of his right eye, as you may see: </l>
+            <l n="43">And then, what limbs those feats have left</l>
+            <l n="44">To poor old Simon Lee! </l>
+            <l n="45">He has no son, he has no child, </l>
+            <l n="46">His Wife, an aged woman, </l>
+            <l n="47">Lives with him, near the waterfall, </l>
+            <l n="48">Upon the village Common. </l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="49">Old Ruth works out of doors with him, </l>
+            <l n="50">And does what Simon cannot do; </l>
+            <l n="51">For she, not over stout of limb, </l>
+            <l n="52">Is stouter of the two. </l>
+            <l n="53">And, though you with your utmost skill </l>
+            <l n="54">From labour could not wean them, </l>
+            <l n="55">Alas! ’tis very little, all </l>
+            <l n="56">Which they can do between them. </l>
+         </lg>
+         <pb/>
+         <milestone n="87" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="57">Beside their moss-grown hut of clay, </l>
+            <l n="58">Not twenty paces from the door, </l>
+            <l n="59">A scrap of land they have, but they </l>
+            <l n="60">Are poorest of the poor. </l>
+            <l n="61">This scrap of land he from the heath </l>
+            <l n="62">Enclosed when he was stronger; </l>
+            <l n="63">But what avails the land to them, </l>
+            <l n="64">Which they can till no longer? </l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="65">Few months of life has he in store, </l>
+            <l n="66">As he to you will tell, </l>
+            <l n="67">For still, the more he works, the more </l>
+            <l n="68">His poor old ancles swell. </l>
+            <l n="69">My gentle Reader, I perceive </l>
+            <l n="70">How patiently you’ve waited,</l>
+            <l n="71">And I’m afraid that you expect </l>
+            <l n="72">Some tale will be related. </l>
+         </lg>
+         <pb/>
+         <milestone n="88" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="9" type="stanza">
+            <l n="73">O Reader! had you in your mind </l>
+            <l n="74">Such stores as silent thought can bring, </l>
+            <l n="75">O gentle Reader! you would find </l>
+            <l n="76">A tale in every thing. </l>
+            <l n="77">What more I have to say is short, </l>
+            <l n="78">I hope you’ll kindly take it:</l>
+            <l n="79">It is no tale; but should you think, </l>
+            <l n="80">Perhaps a tale you’ll make it. </l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="81">One summer-day I chanced to see </l>
+            <l n="82">This Old Man doing all he could </l>
+            <l n="83">About the root of an old tree, </l>
+            <l n="84">A stump of rotten wood. </l>
+            <l n="85">The mattock totter’d in his hand;</l>
+            <l n="86">So vain was his endeavour </l>
+            <l n="87">That at the root of the old tree </l>
+            <l n="88">He might have worked for ever. </l>
+         </lg>
+         <pb/>
+         <milestone n="89" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="9" type="stanza">
+            <l n="89">“You’re overtasked, good Simon Lee,</l>
+            <l n="90">Give me your tool” to him I said; </l>
+            <l n="91">And at the word right gladly he </l>
+            <l n="92">Received my proffer’d aid. </l>
+            <l n="93">I struck, and with a single blow </l>
+            <l n="94">The tangled root I sever’d, </l>
+            <l n="95">At which the poor Old Man so long </l>
+            <l n="96">And vainly had endeavoured. </l>
+         </lg>
+         <lg n="12" type="stanza">
+            <l n="97">The tears into his eyes were brought, </l>
+            <l n="98">And thanks and praises seemed to run </l>
+            <l n="99">So fast out of his heart, I thought </l>
+            <l n="100">They never would have done. </l>
+            <l n="101">—I’ve heard of hearts unkind, kind deeds </l>
+            <l n="102">With coldness still returning. </l>
+            <l n="103">Alas! the gratitude of men </l>
+            <l n="104">Has oftner left me mourning.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

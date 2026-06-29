@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Lyrical Ballads: About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/LBdigEdpara.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <img src="header/lakeDistBanner.png" alt="banner" class="banner" />
+        <a href="index.html">
+            <img src="header/LBvols.png" alt="site logo" class="logo" />
+        </a>
+        <nav>
+            <ul id="navBar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <a href="editions.html">Editions</a>
+                </li>
+                <li>
+                    <a href="compare.html">Compare</a>
+                </li>
+                <li>
+                    <a href="pageImages/index.html">Page Images</a>
+                </li>
+                <li>
+                    <a class="active" href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="wrapper" style="margin-left: 5rem; width: 70rem;">
+            <h4>Information</h4>
+            <p>The second digital edition of <em>Lyrical Ballads</em> (2026) has been created by <a href="#graver">Bruce Graver</a> and <a href="#mandell">Laura Mandell</a>, in consultation with <a href="#shah">Pratham Tushar Shah</a>.</p>
+            <div style="margin-left: 7rem; width: 40rem; float: left;">
+                <p><img src="images/right-pointer.png" alt="decorative" height="20" width="25"
+                        style="display: inline; padding-right: 5px;" /><a href="../LyricalBallads.mp4">Video Introduction</a> to the site.</p>
+                <p><img src="images/right-pointer.png" alt="decorative" height="20" width="25"
+                        style="display: inline; padding-right: 5px;" />This digital edition has been
+                    peer reviewed by <a href="https://romantic-circles.org/" target="_blank"
+                        >Romantic Circles</a>. It is among the first Romantic Circles projects to be
+                    set up as a static website, in keeping with best practices for preservation.<span id="back1"><a href="#note1"><strong>[1]</strong></a></span></p>
+                <p><img src="images/right-pointer.png" alt="decorative" height="20" width="25"
+                        style="display: inline; padding-right: 5px;" />If you find errors of any
+                    kind, textual or technical, please email the Technical Editor for this edition,
+                        <a
+                        href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#110;&#100;&#101;&#108;&#108;&#64;&#116;&#97;&#109;&#117;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;"
+                        >Laura Mandell</a>. <em>For the full team, see <a href="#people">People</a>
+                        below.</em></p>
+                <p><img src="images/right-pointer.png" alt="decorative" height="20" width="25"
+                        style="display: inline; padding-right: 5px;" />As explained in greater
+                    detail in the <a href="techEdIntro.html">Technical Editor's Introduction</a>, the digital
+                        <em>Lyrical Ballads</em> project was first released in 2000 by Romantic
+                    Circles and has been revived in 2026.</p>
+            </div>
+            <p
+                style="float: right; display: block; width: 12rem; border: 2px solid #3f6345; padding: .5rem 0 .5rem 1rem; margin-right: 2%; margin-top: 1%;"
+                >The image of the <em>Lyrical Ballads</em> volumes &#8212; <a href="index.html"><img src="header/LBvols.png" alt="site logo" height="20" width="20" style="margin-bottom: -0.2rem;"/></a> &#8212; provides a link back to the main page throughout the site: click on it anytime you need to return home.</p>
+            <h4 style="clear: both;">Open Access License</h4>
+            <p style="clear:both;">This digital edition can be reused and shared because it has a Creative Commons Zero
+                    license.<a href="https://creativecommons.org/publicdomain/zero/1.0/"><img
+                        src="images/linkOut.png" alt="link out" height="20" width="20" /></a></p>
+            <h4 style="clear: both;">Coding Process</h4>
+            <p>Originally coded in the SGML version of TEI.2, the 25 files of each copy were
+                transformed using a Python Script to render tags compatible with TEI/XML, Protocol
+                5.<span id="back2"><a href="#note2"><strong>[2]</strong></a></span> After validating against a TEI All Schema as TEI/XML (P5 Version 4.11.0), XSL
+                transforms were used to create the editions.html page, to create web pages for each
+                copy, to splurge out the XML files of each copy into separate item
+                files ("items" are listed <a href="compare.html">here</a>), to create single-item web pages, and to create comparison pages for each
+                item. Python and transforms are only used to prepare the files for uploading and
+                archving. That is, the XSLTs do NOT run on the fly: everything is run beforehand and
+                the resulting html files with their css and js are uploaded to static server space
+                that is publicly available.</p>
+            <h4 id="downloads">The Code</h4>
+            <hr />
+            <hr />
+            <table style="border: 0; width: 80%; margin: auto;">
+                <tr>
+                    <td style="padding-right: 20px;">
+                        <strong>TEI/XML <a href="XMLdownload.zip">
+                                <em>download</em></a></strong>
+                    </td>
+                    <td style="padding-right: 20px;">
+                        <strong>CSS <a href="css.zip"><em>download</em></a></strong>
+                    </td>
+                    <td>
+                        <strong>JavaScript <a href="js.zip"><em>download</em></a></strong>
+                    </td>
+                    <td style="padding-right: 20px;">
+                        <strong>XSLT <a href="XSLTdownload.zip"><em>download</em></a></strong>
+                    </td>
+                </tr>
+            </table>
+            <hr />
+            <hr />
+            <h4>A note on the naming of files:</h4>
+            <p>In all except a few special cases,
+                the file names for the 25 volumes of <em>Lyrical Ballads</em> presented here are made up of "LB" &#8212; for <em>Lyrical
+                    Ballads</em> &#8212;, then the last two digits of the year published
+                    (17<strong>98</strong>, 18<strong>00</strong>, 18<strong>02</strong>,
+                    18<strong>05</strong>), whether it has a <strong>B</strong>ristol imprint or a
+                    <strong>L</strong>ondon, and then initials for a particular library. For
+                example, LB98-Bbl, is a copy of a state of the 1798 edition of <em>Lyrical
+                    Ballads</em> published by Joseph Cottle in Bristol (B), currently held by the
+                British Library (bl). The irregularity of the file names have been preserved for the
+                sake of preserving the publication history of this digital edition.</p>
+            <h4 id="people">People</h4>
+            <p id="graver"><strong>Bruce Graver</strong>: Bruce Graver is Emeritus Professor of English,
+                Providence College. He edited Wordsworth’s T<em>ranslations of Chaucer and
+                    Virgil</em> for the Cornell Wordsworth (1998), co-authored with Dorian Gieseler
+                Greenbaum <em><a
+                        href="https://www.bloomsbury.com/us/peggy-webling-and-the-story-behind-frankenstein-9781350371651/"
+                        >Peggy Webling and the Story Behind Frankenstein</a></em> (Bloomsbury,
+                2024), and wrote <em><a
+                        href="https://www.liverpooluniversitypress.co.uk/doi/book/10.3828/9781835537916"
+                        >The Stereoscopic Picturesque</a></em> (Liverpool UP, 2025). He is currently
+                preparing, with Patrick Vincent, editions of Mary and Dorothy Wordsworth’s 1820
+                Continental Travel Journals for Liverpool UP, as well as a short biography of
+                William Wordsworth for Reaktion Books’ Critical Lives series. <a
+                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#66;&#69;&#71;&#64;&#112;&#114;&#111;&#118;&#105;&#100;&#101;&#110;&#99;&#101;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;"
+                    >Contact</a></p>
+            <p id="mandell"><strong>Laura Mandell</strong>: <a href="https://diged.org/mandellc" target="_blank"
+                    >Laura Mandell</a> is Professor of English and Presidential Impact Fellow at
+                Texas A&amp;M University where she founded, and for 12 years directed, the Center of
+                Digital Humanities Research. She is the author of <em>Breaking the Book: Print
+                    Humanities in the Digital Age </em>(2015), <em>Misogynous Economies</em> (in 18thC Literature, 1999), and numerous
+                articles and chapters. Dr. Mandell is Technical Director for <a
+                    href="https://romantic-circles.org/" target="_blank">Romantic Circles</a> and
+                the Texas A&amp;M Digital <a href="https://cha.artsci.tamu.edu/" target="_blank"
+                    >Cultural Heritage Project</a>, including this edition of Lyrical Ballads and the <a
+                        href="https://cha.artsci.tamu.edu/CriticismArchive/index.html" target="_blank"
+                        >Criticism Archive</a>. She
+                spearheaded the <a href="http://emop.tamu.edu" target="_blank">Early Modern OCR
+                    Project</a> or “eMOP,” a project concerned with improving OCR for early modern
+                and 18th-c. texts via high performance and cluster computing, funded by the Andrew
+                W. Mellon Foundation. Dr. Mandell’s digital projects also include the Digital <a
+                    href="https://maryleapor.org/" target="_blank">Mary Leapor’s Poetry</a>, and <a
+                    href="https://diged.org/DigitalEditions/" target="_blank">Digital Editions,
+                    Start to Finish</a>, an open access textbook for creating digital editions. <a
+                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#110;&#100;&#101;&#108;&#108;&#64;&#116;&#97;&#109;&#117;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;"
+                    >Contact</a></p>
+            <p><strong>Ronald Tetreault</strong>: Dr. Tetreault, Professor of English and European
+                Studies, Dalhouisie University, was co-editor of the original digital edition of
+                    <em>Lyrical Ballads</em>.</p>
+            <p id="shah"><strong>Pratham Tushar Shah</strong>: Pratham Shah is a master’s student at UCB in
+                Data Science who likes building websites, working with data, and making digital
+                things a little more thoughtful and a little easier to use. When he’s not debugging
+                or organizing content, he’s probably overthinking design details in the best
+                possible way. <a
+                    href="mailto:&#112;&#114;&#97;&#116;&#104;&#97;&#109;&#115;&#104;&#97;&#104;&#49;&#48;&#48;&#54;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+                    >Contact</a></p>
+            <div class="notes">
+                <hr />
+                <h4><strong>Notes</strong>:</h4>
+                <p id="note1">1. Please see the recommendations offered by the Endings Project,<a
+                        href="https://endings.uvic.ca/index.html" target="_blank"><img
+                            src="images/linkOut.png" alt="link out" height="20" width="20" /></a> principles that structure <a href="../index.html" target="_blank">the Cultural Heritage Archive</a> now hosting Romantic Circles. 
+                    <a href="#back1">Back</a></p>
+                <p id="note2">2. The original SGML and python scripts are available <a href="origSMGL.zip">here</a>. <a href="#back2">Back</a></p>
+                <p style="display: block; height: 40rem;">&#160;</p>
+            </div>
+        </div>
+    </body>
+</html>

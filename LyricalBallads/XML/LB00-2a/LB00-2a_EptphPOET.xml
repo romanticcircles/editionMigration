@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: A Poet's Epitaph</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2a_EptphPOET</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="EptphPOET">
+                  <title>[EptphPOET]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2a">
+                  <ptr target="../XML/LB00-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">165 to 168</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="165"/>
+         <milestone n="165" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>A POET’s EPITAPH. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Art thou a Statesman, in the van</l>
+            <l n="2">Of public business train’d and bred,</l>
+            <l n="3">—First learn to love one living man;</l>
+            <l n="4">
+               <emph>Then</emph> may’st thou think upon the dead.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">A Lawyer art thou?—draw not nigh;</l>
+            <l n="6">Go, carry to some other place</l>
+            <l n="7">The hardness of thy coward eye,</l>
+            <l n="8">The falshood of thy sallow face.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">Art thou a man of purple cheer?</l>
+            <l n="10">A rosy man, right plump to see?</l>
+            <l n="11">Approach; yet Doctor, not too near:</l>
+            <l n="12">This grave no cushion is for thee.</l>
+         </lg>
+         <pb n="166"/>
+         <milestone n="166" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">Art thou a man of gallant pride,</l>
+            <l n="14">A Soldier, and no man of chaff?</l>
+            <l n="15">Welcome!—but lay thy sword aside,</l>
+            <l n="16">And lean upon a Peasant’s staff.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Physician art thou? One, all eyes,</l>
+            <l n="18">Philosopher! a fingering slave,</l>
+            <l n="19">One that would peep and botanize</l>
+            <l n="20">Upon his mother’s grave?</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">Wrapp’d closely in thy sensual fleece</l>
+            <l n="22">O turn aside, and take, I pray,</l>
+            <l n="23">That he below may rest in peace,</l>
+            <l n="24">Thy pin-point of a soul away!</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">—A Moralist perchance appears;</l>
+            <l n="26">Led, Heaven knows how! to this poor sod:</l>
+            <l met="27">And He has neither eyes nor ears;</l>
+            <l n="28">Himself his world, and his own God;</l>
+         </lg>
+         <pb n="167"/>
+         <milestone n="167" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">One to whose smooth-rubb’d soul can cling</l>
+            <l n="30">Nor form nor feeling great nor small,</l>
+            <l n="31">A reasoning, self-sufficing thing,</l>
+            <l n="32">An intellectual All in All!</l>
+         </lg>
+         <lg n="9">
+            <l n="33">Shut close the door! press down the latch:</l>
+            <l n="34">Sleep in thy intellectual crust,</l>
+            <l n="35">Nor lose ten tickings of thy watch,</l>
+            <l n="36">Near this unprofitable dust.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">But who is He with modest looks,</l>
+            <l n="38">And clad in homely russet brown?</l>
+            <l n="39">He murmurs near the running brooks</l>
+            <l n="40">A music sweeter than their own.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="41">He is retired as noontide dew,</l>
+            <l n="42">Or fountain in a noonday grove;</l>
+            <l n="43">And you must love him, ere to you</l>
+            <l n="44">He will seem worthy of your love.</l>
+         </lg>
+         <pb n="168"/>
+         <milestone n="168" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="45">The outward shews of sky and earth,</l>
+            <l n="46">Of hill and valley he has view’d;</l>
+            <l n="47">And impulses of deeper birth</l>
+            <l n="48">Have come to him in solitude.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">In common things that round us lie</l>
+            <l n="50">Some random truths he can impart</l>
+            <l n="51">The harvest of a quiet eye</l>
+            <l n="52">That broods and sleeps on his own heart.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">But he is weak, both man and boy,</l>
+            <l n="54">Hath been an idler in the land;</l>
+            <l n="55">Contented if he might enjoy</l>
+            <l n="56">The things which others understand.</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <l n="57">—Come hither in thy hour of strength,</l>
+            <l n="58">Come, weak as is a breaking wave!</l>
+            <l n="59">Here stretch thy body at full length;</l>
+            <l n="60">Or build thy house upon this grave.—</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

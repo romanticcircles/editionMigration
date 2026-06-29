@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [Rime of the Ancient Mariner title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1_RIMEfstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB00-1">
+                  <ptr target="../XML/LB00-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">151 to 153</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="151"/>
+         <titlePage>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <docTitle>
+               <titlePart>
+                  <lb/>
+                  <lb/>
+                  <hi rend="small">THE </hi>
+                  <lb/>
+                  <lb/>ANCIENT
+                                MARINER, <lb/>
+                  <lb/>
+                  <hi rend="small">A POET’S
+                                    REVERIE.</hi>
+               </titlePart>
+            </docTitle>
+            <lb/>
+         </titlePage>
+         <pb n="152"/>
+         <pb n="153"/>
+         <argument xml:id="ARGUrm">
+            <head>
+               <lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+               <emph>ARGUMENT. </emph>
+            </head>
+            <p>How a Ship, having first sailed to the Equator, was <lb/>driven by
+                            Storms, to the cold Country towards the <lb/>South Pole ; how the
+                            Ancient Mariner cruelly, and in<lb/>contempt of the laws of hospitality,
+                            killed a Sea-bird ; <lb/>and how he was followed by many and strange
+                            Judge-<lb/>ments ; and in what manner he came back to his
+                            own<lb/>Country. </p>
+         </argument>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Remembrance of Collins</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_COLLINS</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="COLLINS">
+                  <title>[COLLINS]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">139 to 140</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="139" unit="page"/>
+         <signed>Wm Vale ’mate<lb/> HMS Mermaid</signed>
+         <lb/>
+         <lb/>
+         <head>LINES<lb/>
+            <lb/>
+            <hi>written near richmond, upon the <lb/>thames,</hi>
+            <lb/>
+            <lb/>
+            <emph>AT EVENING.<lb/>
+               <lb/>
+            </emph>
+         </head>
+         <l n="1">HOW rich the wave, in front, imprest </l>
+         <l n="2">With evening-twilight’s summer hues, </l>
+         <l n="3">While facing thus the crimson west, </l>
+         <l n="4">The boat her silent path pursues ! </l>
+         <l n="5">And see how dark the backward stream! </l>
+         <l n="6">A little moment past, so smiling! </l>
+         <l n="7">And still, perhaps, with faithless gleam, </l>
+         <l n="8">Some other loiterer beguiling. </l>
+         <l n="9">Such views the youthful Bard allure, </l>
+         <l n="10">But heedless of the following gloom, </l>
+         <l n="11">He deems their colours shall endure </l>
+         <l n="12">’Till peace go with him to the tomb. </l>
+         <l n="13">—And let him nurse his fond deceit, </l>
+         <l n="14">And what if he must die in sorrow ! </l>
+         <l n="15">Who would not cherish dreams so sweet, </l>
+         <l n="16">Though grief and pain may come to-morrow? </l>
+         <pb/>
+         <milestone n="140" unit="page"/>
+         <lb/>
+         <lb/>
+         <l n="17">Glide gently, thus for ever glide, </l>
+         <l n="18">O Thames! that other Bards may see, </l>
+         <l n="19">As lovely visions by thy side </l>
+         <l n="20">As now, fair river ! come to me. </l>
+         <l n="21">Oh glide, fair stream ! for ever so; </l>
+         <l n="22">Thy quiet soul on all bestowing, </l>
+         <l n="23">’Till all our minds for ever flow,</l>
+         <l n="24">As thy deep waters now are flowing. </l>
+         <l n="25">Vain thought! yet be as now thou art, </l>
+         <l n="26">That in thy waters may be seen </l>
+         <l n="27">The image of a Poet’s heart, </l>
+         <l n="28">How bright, how solemn, how serene! </l>
+         <l n="29">Such heart did once the Poet bless,</l>
+         <l n="30">Who, pouring here a *<emph>later</emph> ditty,</l>
+         <l n="31">Could find no refuge from distress, </l>
+         <l n="32">But in the milder grief of pity. </l>
+         <l n="33">Remembrance ! as we glide along, </l>
+         <l n="34">For him suspend the dashing oar, </l>
+         <l n="35">And pray that never child of Song </l>
+         <l n="36">May know his freezing sorrows more. </l>
+         <l n="37">How calm! how still! the only sound,</l>
+         <l n="38">The dripping of the oar suspended! </l>
+         <l n="39">—The evening darkness gathers round </l>
+         <l n="40">By virtue’s holiest powers attended.</l>
+         <note n="*" type="annotation" resp="auth" place="foot"> * Collins’s
+                              Ode on the death of Thomson, the last <lb/>written, I believe, of the
+                              poems which were publish- <lb/>ed during his life time. This Ode is
+                              also alluded to <lb/>in the next stanza.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: To a Sexton</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2_SEXTON</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="SEXTON">
+                  <title>[SEXTON]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2">
+                  <ptr target="../XML/LB05-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">93 to 95</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="93" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>To a SEXTON. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Let thy wheel-barrow alone.</l>
+            <l n="2">Wherefore, Sexton, piling still</l>
+            <l n="3">In thy Bone-house bone on bone?</l>
+            <l n="4">’Tis already like a hill</l>
+            <l n="5">In a field of battle made,</l>
+            <l n="6">Where three thousand skulls are laid.</l>
+            <l n="7">—These died in peace each with the other,</l>
+            <l n="8">Father, Sister, Friend, and Brother.</l>
+         </lg>
+         <lg n="2" type="stanza" part="I">
+            <l n="9">Mark the spot to which I point!</l>
+            <l n="10">From this platform eight feet square</l>
+            <l n="11">Take not even a finger-joint:</l>
+            <l n="12">Andrew’s whole fire-side is there.</l>
+         </lg>
+         <pb n="94"/>
+         <milestone n="94" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="F" type="stanza">
+            <l n="13">Here, alone, before thine eyes,</l>
+            <l n="14">Simon’s sickly Daughter lies,</l>
+            <l n="15">From weakness, now, and pain defended,</l>
+            <l n="16">Whom he twenty winters tended.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="17">Look but at the gardener’s pride—</l>
+            <l n="18">How he glories, when he sees</l>
+            <l n="19">Roses, Lilies, side by side,</l>
+            <l n="20">Violets in families!</l>
+            <l n="21">By the heart of Man, his tears,</l>
+            <l n="22">By his hopes and by his fears,</l>
+            <l n="23">Thou, old Grey-beard! art the Warden</l>
+            <l n="24">Of a far superior garden.</l>
+         </lg>
+         <lg n="4" part="I" type="stanza">
+            <l n="25">Thus then, each to other dear,</l>
+            <l n="26">Let them all in quiet lie,</l>
+            <l n="27">Andrew there and Susan here,</l>
+            <l n="28">Neighbours in mortality.</l>
+         </lg>
+         <pb n="95"/>
+         <milestone n="95" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" part="F" type="stanza">
+            <l n="29">And, should I live through sun and rain</l>
+            <l n="30">Seven widowed years without my Jane,</l>
+            <l n="31">O Sexton, do not then remove her,</l>
+            <l n="32">Let one grave hold the Lov’d and Lover!</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

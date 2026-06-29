@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: The Fountain</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_FOUNTAIN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="FOUNTAIN">
+                  <title>The Fountain</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">99 to 102</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="99" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>THE FOUNTAIN,</emph>
+            <lb/>
+            <lb/>A Conversation.</head>
+         <lb/>
+         <lg n="1" type="stanza">
+            <l n="1">WE talk’d with open heart, and tongue</l>
+            <l n="2">Affectionate and true,</l>
+            <l n="3">A pair of Friends, though I was young,</l>
+            <l n="4">And Matthew seventy-two!</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">We lay beneath a spreading oak,</l>
+            <l n="6">Beside a mossy seat,</l>
+            <l n="7">And from the turf a fountain broke,</l>
+            <l n="8">And gurgled at our feet.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">Now, Matthew, let us try to match</l>
+            <l n="10">This water’s pleasant tune</l>
+            <l n="11">With some old Border-song, or Catch</l>
+            <l n="12">That suits a summer’s noon.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">Or of the Church-clock and the Chimes</l>
+            <l n="14">Sing, here beneath the shade,</l>
+            <l n="15">That half-mad thing of witty rhymes</l>
+            <l n="16">Which you last April made!</l>
+         </lg>
+         <pb/>
+         <milestone n="100" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="5" type="stanza">
+            <l n="17">On silence Matthew lay, and eyed</l>
+            <l n="18">The spring beneath the tree;</l>
+            <l n="19">And thus the dear old Man replied,</l>
+            <l n="20">The grey-hair’d Man of glee.—</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">“ Down to the vale this water steers,</l>
+            <l n="22">How merrily it goes!</l>
+            <l n="23">’Twill murmur on a thousand years,</l>
+            <l n="24">And flow as now it flows.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">“ And here, on this delightful day,</l>
+            <l n="26">I cannot chuse but think</l>
+            <l n="27">How oft, a vigorous Man, I lay</l>
+            <l n="28">Beside this Fountain’s brink.</l>
+         </lg>
+         <lg n="8" type="stanza">
+            <l n="29">“ My eyes are dim with childish tears,</l>
+            <l n="30">My heart is idly stirr’d,</l>
+            <l n="31">For the same sound is in my ears,</l>
+            <l n="32">Which in those days I heard.</l>
+         </lg>
+         <lg n="9">
+            <l n="33">“ Thus fares it still in our decay:</l>
+            <l n="34">And yet the wiser mind</l>
+            <l n="35">Mourns less for what age takes away</l>
+            <l n="36">Than what it leaves behind.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">“ The black-bird in the summer trees,</l>
+            <l n="38">The lark upon the hill,</l>
+            <l n="39">Let loose their carols when they please,</l>
+            <l n="40">Are quiet when they will.</l>
+         </lg>
+         <pb/>
+         <milestone n="101" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" type="stanza">
+            <l n="41">“ With Nature never do <emph>they</emph> wage</l>
+            <l n="42">A foolish strife; they see</l>
+            <l n="43">A happy youth, and their old age</l>
+            <l n="44">Is beautiful and free:</l>
+         </lg>
+         <lg n="12" type="stanza">
+            <l n="45">“ But we are press’d by heavy laws,</l>
+            <l n="46">And often, glad no more,</l>
+            <l n="47">We wear a face of joy, because</l>
+            <l n="48">We have been glad of yore.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">“ If there is one who need bemoan</l>
+            <l n="50">His kindred laid in earth,</l>
+            <l n="51">The household hearts that were his own,</l>
+            <l n="52">It is the Man of Mirth.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">“ My days, my friend, are almost gone,</l>
+            <l n="54">My life has been approv’d,</l>
+            <l n="55">And many love me, but by none</l>
+            <l n="56">Am I enough belov’d!”</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <l n="57">Now both himself and me he wrongs,</l>
+            <l n="58">The man who thus complains!</l>
+            <l n="59">I live and sing my idle songs</l>
+            <l n="60">Upon these happy plains.</l>
+         </lg>
+         <lg n="16" type="stanza">
+            <l n="61">And, Matthew, for thy Children dead</l>
+            <l n="62">I’ll be a son to thee!</l>
+            <l n="63">At this he grasp’d his hands, and said,</l>
+            <l n="64">“ Alas! that cannot be.”</l>
+         </lg>
+         <pb/>
+         <milestone n="102" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="17" type="stanza">
+            <l n="65">We rose up from the fountain-side,</l>
+            <l n="66">And down the smooth descent</l>
+            <l n="67">Of the green sheep-track did we glide,</l>
+            <l n="68">And through the wood we went.</l>
+         </lg>
+         <lg n="18" type="stanza">
+            <l n="69">And, ere we came to Leonard’s Rock,</l>
+            <l n="70">He sang those witty rhymes</l>
+            <l n="71">About the crazy old Church-clock,</l>
+            <l n="72">And the bewilder’d Chimes.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

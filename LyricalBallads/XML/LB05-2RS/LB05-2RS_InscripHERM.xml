@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Inscription for the Spot where the Hermitage stood</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_InscripHERM</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="InscripHERM">
+                  <title>[InscripHERM]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">89 to 90</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone unit="page" n="89"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>INSCRIPTION <lb/>
+               <lb/>For the Spot where the HERMITAGE stood on St.
+              Herbert’s <lb/>Island,Derwent-Water. <lb/>
+               <lb/>
+            </emph>
+         </head>
+         <l n="1">
+            <del hand="RS" resp="RS" type="crossout">If Thou in the dear love of some one
+              Friend</del>
+         </l>
+         <l n="2">
+            <del hand="RS" resp="RS" type="crossout">Hast been so happy, that thou
+              know’st what thoughts</del>
+         </l>
+         <l n="3">
+            <del hand="RS" resp="RS" type="crossout">Will, sometimes, in the happiness of
+              love</del>
+         </l>
+         <l n="4">
+            <del hand="RS" resp="RS" type="crossout">Make the heart sick, then wilt thou
+              reverence</del>
+         </l>
+         <l n="5">This <del hand="RS" resp="RS" type="crossout">quiet</del>
+            <add hand="RS" place="aboveline" resp="RS">is the </add>spot.<del hand="RS" resp="RS" type="crossout">——</del>
+            <add hand="RS" place="aboveline" resp="RS">to which </add>St. Herbert <del hand="RS" resp="RS" type="crossout">hither</del> came,</l>
+         <l>
+            <add hand="RS" resp="RS">In his old age, this resting place he chose,</add>
+         </l>
+         <l n="6">And here, for many seasons, from the world</l>
+         <l n="7">Removed, and the affections of the world,</l>
+         <l n="8">He dwelt in solitude.—But he had left</l>
+         <l n="9">A Fellow-labourer, whom the good Man loved</l>
+         <l n="10">As his own soul. And, when within his cave</l>
+         <l n="11">Alone he knelt before the crucifix</l>
+         <l n="12">While o’er the Lake the cataract of Lodore</l>
+         <pb/>
+         <milestone n="90" unit="page"/>
+         <lb/>
+         <lb/>
+         <l n="13">Pealed to his orisons, and when he paced</l>
+         <l n="14">Along the beach of this small isle and thought</l>
+         <l n="15">Of his Companion, he would pray that both <add hand="RS" place="inline" resp="RS">,</add>
+         </l>
+         <l>
+            <add hand="RS" resp="RS">Now that their earthly duties were fulfilled,</add>
+         </l>
+         <l n="16">Might die in the same moment. Nor in vain</l>
+         <l n="17">So prayed he:—as our Chronicles report,</l>
+         <l n="18">Though here the Hermit numbered his last days,</l>
+         <l n="19">Far from St. Cuthbert his beloved Friend,</l>
+         <l n="20">Those holy Men both died in the same hour.</l>
+      </body>
+   </text>
+</TEI>

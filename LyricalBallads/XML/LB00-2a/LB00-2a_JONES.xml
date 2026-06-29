@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Andrew Jones</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2a_JONES</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="JONES">
+                  <title>[JONES]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2a">
+                  <ptr target="../XML/LB00-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">89 to 91</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="89" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>ANDREW JONES. </emph>
+            <lb/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">I hate that Andrew Jones: he’ll breed</l>
+            <l n="2">His children up to waste and pillage.</l>
+            <l n="3">I wish the press-gang or the drum</l>
+            <l n="4">With its tantara sound would come,</l>
+            <l n="5">And sweep him from the village!</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="6">I said not this, because he loves</l>
+            <l n="7">Through the long day to swear and tipple;</l>
+            <l n="8">But for the poor dear sake of one</l>
+            <l n="9">To whom a foul deed he had done,</l>
+            <l n="10">A friendless Man, a travelling Cripple!</l>
+         </lg>
+         <pb n="90"/>
+         <milestone n="90" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="11">For this poor crawling helpless wretch</l>
+            <l n="12">Some Horseman who was passing by,</l>
+            <l n="13">A penny on the ground had thrown;</l>
+            <l n="14">But the poor Cripple was alone</l>
+            <l n="15">And could not stoop—no help was nigh.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="16">Inch-thick the dust lay on the ground</l>
+            <l n="17">For it had long been droughty weather:</l>
+            <l n="18">So with his staff the Cripple wrought</l>
+            <l n="19">Among the dust till he had brought</l>
+            <l n="20">The halfpennies together.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="21">It chanc’d that Andrew pass’d that way</l>
+            <l n="22">Just at that time; and there he found</l>
+            <l n="23">The Cripple in the mid-day heat</l>
+            <l n="24">Standing alone, and at his feet</l>
+            <l n="25">He saw the penny on the ground.</l>
+         </lg>
+         <pb n="91"/>
+         <milestone n="91" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="26">He stopp’d and took the penny up:</l>
+            <l n="27">And when the Cripple nearer drew,</l>
+            <l n="28">Quoth Andrew, “Under half-a-crown,</l>
+            <l n="29">What a man finds is all his own,</l>
+            <l n="30">And so, my Friend, good day to you.”</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="31">And <emph>hence</emph> I said, that Andrew’s boys</l>
+            <l n="32">Will all be train’d to waste and pillage;</l>
+            <l n="33">And wish’d the press-gang, or the drum</l>
+            <l n="34">With its tantara sound, would come</l>
+            <l n="35">And sweep him from the village!</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

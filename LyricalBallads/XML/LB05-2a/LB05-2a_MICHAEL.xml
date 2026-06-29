@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Michael</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2a_MICHAEL</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="MICHAEL">
+                  <title>[MICHAEL]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2a">
+                  <ptr target="../XML/LB05-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">209</biblScope>
+                  <biblScope unit="pages">29</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lyrical Ballads, 1805: [Michael title page]</title>
+               <editor>
+                  <name xml:id="BG">Bruce Graver</name>
+               </editor>
+               <editor>
+                  <name xml:id="RT">Ronald Tetreault</name>
+               </editor>
+               <respStmt>
+                  <resp>Technical Editor; Producer</resp>
+                  <name xml:id="LM">Laura Mandell</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Romantic Circles</publisher>
+               <idno type="local">LB05-2a_MICHAELf</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <biblStruct>
+                  <monogr xml:id="LB05-2a">
+                     <ptr target="../XML/LB05-2a.xml"/>
+                     <imprint>
+                        <publisher>T. N. Longman and O. Rees</publisher>
+                        <pubPlace/>
+                        <date>1805</date>
+                     </imprint>
+                     <biblScope unit="page"/>
+                     <biblScope unit="pages">0</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <titlePage>
+               <lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+               <docTitle>
+                  <titlePart>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <title>MICHAEL, <lb/>
+                        <lb/>
+                        <hi rend="small">a <lb/>
+                           <lb/>
+                           <emph>PASTORAL
+                                                  POEM.</emph>
+                        </hi>
+                     </title>
+                  </titlePart>
+               </docTitle>
+            </titlePage>
+         </front>
+         <body>
+            <p> </p>
+         </body>
+      </text>
+      <body>
+         <pb n="208"/>
+         <pb/>
+         <milestone n="209" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>MICHAEL, <lb/>
+               <lb/>
+               <hi rend="small">A PASTORAL POEM.
+                                   </hi>
+            </emph>
+            <ref type="endnote" target="LB05-2a_NOTESmich.html">[nM]</ref>
+         </head>
+         <lg n="1" type="verseparagraph" part="I">
+            <l n="1">If from the public way you turn your steps</l>
+            <l n="2">Up the tumultuous brook of Green-head Gill,</l>
+            <l n="3">You will suppose that with an upright path</l>
+            <l n="4">Your feet must struggle; in such bold ascent</l>
+            <l n="5">The pastoral Mountains front you, face to face.</l>
+            <l n="6">But, courage ! for beside that boisterous Brook</l>
+            <l n="7">The mountains have all opened out themselves,</l>
+            <l n="8">And made a hidden valley of their own.</l>
+            <l n="9">No habitation there is seen ; but such</l>
+            <l n="10">As journey thither find themselves alone</l>
+            <l n="11">With a few sheep, with rocks and stones, and kites</l>
+            <l n="12">That overhead are sailing in the sky.</l>
+         </lg>
+         <pb/>
+         <milestone n="210" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="M" type="verseparagraph">
+            <l n="13">It is in truth an utter solitude; </l>
+            <l n="14">Nor should I have made mention of this Dell</l>
+            <l n="15">But for one object which you might pass by,</l>
+            <l n="16">Might see and notice not. Beside the brook</l>
+            <l n="17">There is a straggling heap of unhewn stones !</l>
+            <l n="18">And to that place a story appertains,</l>
+            <l n="19">Which, though it be ungarnished with events,</l>
+            <l n="20">Is not unfit, I deem, for the fire-side,</l>
+            <l n="21">Or for the summer shade. It was the first,</l>
+            <l n="22">The earliest of those tales that spake to me</l>
+            <l n="23">Of Shepherds, dwellers in the valleys, men</l>
+            <l n="24">Whom I already loved, not verily</l>
+            <l n="25">For their own sakes, but for the fields and hills</l>
+            <l n="26">Where was their occupation and abode.</l>
+            <l n="27">And hence this Tale, while I was yet a Boy</l>
+            <l n="28">Careless of books, yet having felt the power</l>
+            <l n="29">Of Nature, by the gentle agency</l>
+            <l n="30">Of natural objects led me on to feel</l>
+            <l n="31">For passions that were not my own, and think</l>
+         </lg>
+         <pb/>
+         <milestone n="211" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="F" type="verseparagraph">
+            <l n="32">(At random and imperfectly indeed)</l>
+            <l n="33">On man, the heart of man, and human life.</l>
+            <l n="34">Therefore, although it be a history</l>
+            <l n="35">Homely and rude, I will relate the same</l>
+            <l n="36">For the delight of a few natural hearts,</l>
+            <l n="37">And, with yet fonder feeling, for the sake</l>
+            <l n="38">Of youthful Poets, who among these Hills</l>
+            <l n="39">Will be my second self when I am gone.</l>
+         </lg>
+         <lb/>
+         <lb/>
+         <lg n="2" part="I" type="verseparagraph">
+            <l n="40">U<hi rend="small">pon</hi> the Forest-side in Grasmere
+                                   Vale</l>
+            <l n="41">There dwelt a Shepherd, Michael was his name,</l>
+            <l n="42">An old man, stout of heart, and strong of limb.</l>
+            <l n="43">His bodily frame had been from youth to age</l>
+            <l n="44">Of an unusual strength : his mind was keen,</l>
+            <l n="45">Intense and frugal, apt for all affairs,</l>
+            <l n="46">And in his Shepherd’s calling he was prompt</l>
+            <l n="47">And watchful more than ordinary men.</l>
+         </lg>
+         <pb/>
+         <milestone n="212" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="F" type="verseparagraph">
+            <l n="48">Hence he had learned the meaning of all winds,</l>
+            <l n="49">Of blasts of every tone ; and, oftentimes,</l>
+            <l n="50">When others heeded not, He heard the South</l>
+            <l n="51">Make subterraneous music, like the noise</l>
+            <l n="52">Of Bagpipers on distant Highland hills ;</l>
+            <l n="53">The Shepherd, at such warning, of his flock</l>
+            <l n="54">Bethought him, and he to himself would say,</l>
+            <l n="55">“ The winds are now devising work for me!”</l>
+            <l n="56">And, truly, at all times the storm, that drives</l>
+            <l n="57">The Traveller to a shelter, summoned him</l>
+            <l n="58">Up to the mountains : he had been alone</l>
+            <l n="59">Amid the heart of many thousand mists,</l>
+            <l n="60">That came to him and left him on the heights.</l>
+            <l n="61">So lived he till his eightieth year was past.</l>
+         </lg>
+         <lg n="3" part="I" type="verseparagraph">
+            <l n="62">And grossly that man errs, who should suppose</l>
+            <l n="63">That the green Valleys, and the Streams and Rocks</l>
+            <l n="64">Were things indifferent to the Shepherd’s thoughts. </l>
+            <l n="65">Fields, where with cheerful spirits he had breathed</l>
+         </lg>
+         <pb/>
+         <milestone n="213" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg part="F" type="verseparagraph" n="3">
+            <l n="66">The common air ; the hills, which he so oft</l>
+            <l n="67">Had climbed with vigorous steps ; which had impressed</l>
+            <l n="68">So many incidents upon his mind </l>
+            <l n="69">Of hardship, skill or courage, joy or fear ;</l>
+            <l n="70">Which like a book preserved the memory</l>
+            <l n="71">Of the dumb animals, whom he had saved,</l>
+            <l n="72">Had fed or sheltered, linking to such acts,</l>
+            <l n="73">So grateful in themselves, the certainty</l>
+            <l n="74">Of honourable gain ; these fields, these hills,</l>
+            <l n="75">Which were his living Being, even more</l>
+            <l n="76">Than his own blood—what could they less? had laid</l>
+            <l n="77">Strong hold on his affections, were to him</l>
+            <l n="78">A pleasurable feeling of blind love,</l>
+            <l n="79">The pleasure which there is in life itself.</l>
+         </lg>
+         <lg n="4" part="I" type="verseparagraph">
+            <l n="80">He had not passed his days in singleness.</l>
+            <l n="81">He had a Wife, a comely Matron, old—</l>
+         </lg>
+         <pb/>
+         <milestone n="214" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg part="M" n="4">
+            <l n="82">Though younger than himself full twenty years.</l>
+            <l n="83">She was a woman of a stirring life,</l>
+            <l n="84">Whose heart was in her house : two wheels she had</l>
+            <l n="85">Of antique form, this large for spinning wool,</l>
+            <l n="86">That small for flax ; and if one wheel had rest,</l>
+            <l n="87">It was because the other was at work.</l>
+            <l n="88">The Pair had but one Inmate in their house,</l>
+            <l n="89">An only Child, who had been born to them </l>
+            <l n="90">When Michael telling o’er his years began</l>
+            <l n="91">To deem that he was old,— in Shepherd’s
+                                   phrase,</l>
+            <l n="92">With one foot in the grave. This only Son,</l>
+            <l n="93">With two brave Sheep-dogs tried in many a storm, </l>
+            <l n="94">The one of an inestimable worth,</l>
+            <l n="95">Made all their Household. I may truly say,</l>
+            <l n="96">That they were as a proverb in the vale</l>
+            <l n="97">For endless industry. When day was gone,</l>
+            <l n="98">And from their occupations out of doors</l>
+            <l n="99">The Son and Father were come home, even then</l>
+            <l n="100">Their labour did not cease ; unless when all </l>
+         </lg>
+         <pb/>
+         <milestone n="215" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg part="F">
+            <l n="101">Turned to their cleanly supper-board, and there,</l>
+            <l n="102">Each with a mess of pottage and skimmed milk,</l>
+            <l n="103">Sat round their basket piled with oaten cakes,</l>
+            <l n="104">And their plain home-made cheese. Yet when their meal</l>
+            <l n="105">Was ended, L<hi rend="small">uke</hi> (for so the Son was
+                                   named)</l>
+            <l n="106">And his old Father both betook themselves</l>
+            <l n="107">To such convenient work as might employ</l>
+            <l n="108">Their hands by the fire-side ; perhaps to card</l>
+            <l n="109">Wool for the Housewife’s spindle, or repair</l>
+            <l n="110">Some injury done to sickle, flail, or scythe,</l>
+            <l n="111">Or other implement of house or field.</l>
+         </lg>
+         <lg n="5" part="I" type="verseparagraph">
+            <l n="112">Down from the cieling by the chimney’s edge,</l>
+            <l n="113">Which in our antient uncouth country style</l>
+            <l n="114">Did with a huge projection overbrow</l>
+            <l n="115">Large space beneath, as duly as the light</l>
+            <l n="116">Of day grew dim the Housewife hung a Lamp ;</l>
+            <l n="117">An aged utensil, which had performed</l>
+         </lg>
+         <pb/>
+         <milestone n="216" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg part="M">
+            <l n="118">Service beyond all others of its kind.</l>
+            <l n="119">Early at evening did it burn and late,</l>
+            <l n="120">Surviving Comrade of uncounted Hours,</l>
+            <l n="121">Which going by from year to year had found</l>
+            <l n="122">And left the couple neither gay perhaps</l>
+            <l n="123">Nor cheerful, yet with objects and with hopes,</l>
+            <l n="124">Living a life of eager industry.</l>
+            <l n="125">And now, when L<hi rend="small">uke</hi> was in his
+                                   eighteenth year,</l>
+            <l n="126">There by the light of this old Lamp they sat,</l>
+            <l n="127">Father and Son, while late into the night</l>
+            <l n="128">The Housewife plied her own peculiar work,</l>
+            <l n="129">Making the cottage through the silent hours</l>
+            <l n="130">Murmur as with the sound of summer flies.</l>
+            <l n="131">This Light was famous in its neighbourhood,</l>
+            <l n="132">And was a public Symbol of the life</l>
+            <l n="133">The thrifty Pair had lived. For, as it chanced,</l>
+            <l n="134">Their Cottage on a plot of rising ground</l>
+            <l n="135">Stood single, with large prospect, North and South,</l>
+            <l n="136">High into Easedale, up to Dunmal-Raise,</l>
+         </lg>
+         <pb/>
+         <milestone n="217" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg part="F" type="verseparagraph">
+            <l n="137">And Westward to the village near the Lake;</l>
+            <l n="138">And from this constant light, so regular</l>
+            <l n="139">And so far seen, the House itself, by all</l>
+            <l n="140">Who dwelt within the limits of the vale,</l>
+            <l n="141">Both old and young, was named The E<hi rend="small">vening</hi> S<hi rend="small">tar</hi>.</l>
+         </lg>
+         <lg n="6" part="I" type="verseparagraph">
+            <l n="142">Thus living on through such a length of years,</l>
+            <l n="143">The Shepherd, if he loved himself, must needs</l>
+            <l n="144">Have loved his Help-mate; but to Michael’s heart</l>
+            <l n="145">This son of his old age was yet more dear—</l>
+            <l n="146">Effect which might perhaps have been produced</l>
+            <l n="147">By that instinctive tenderness, the same</l>
+            <l n="148">Blind Spirit, which is in the blood of all—</l>
+            <l n="149">Or that a child, more than all other gifts,</l>
+            <l n="150">Brings hope with it, and forward-looking thoughts,</l>
+            <l n="151">And stirrings of inquietude, when they</l>
+            <l n="152">By tendency of nature needs must fail.</l>
+            <l n="153">From such, and other causes, to the thoughts</l>
+         </lg>
+         <pb/>
+         <milestone n="218" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" part="F" type="verseparagraph">
+            <l n="154">Of the old Man his only Son was now</l>
+            <l n="155">The dearest object that he knew on earth.</l>
+            <l n="156">Exceeding was the love he bare to him,</l>
+            <l n="157">His Heart and his Heart’s joy ! For oftentimes</l>
+            <l n="158">Old Michael, while he was a babe in arms,</l>
+            <l n="159">Had done him female service, not alone</l>
+            <l n="160">For dalliance and delight, as is the use</l>
+            <l n="161">Of Fathers, but with patient mind enforced</l>
+            <l n="162">To acts of tenderness; and he had rocked</l>
+            <l n="163">His cradle with a woman’s gentle hand.</l>
+         </lg>
+         <lg n="7" part="I" type="verseparagraph">
+            <l n="164">And, in a later time, ere yet the Boy</l>
+            <l n="165">Had put on Boy’s attire, did Michael love,</l>
+            <l n="166">Albeit of a stern unbending mind,</l>
+            <l n="167">To have the young one in his sight, when he</l>
+            <l n="168">Had work by his own door, or when he sat</l>
+            <l n="169">With sheep before him on his Shepherd’s stool,</l>
+            <l n="170">Beneath that large old Oak, which near their door</l>
+            <l n="171">Stood, and, from its enormous breadth of shade</l>
+         </lg>
+         <pb/>
+         <milestone n="219" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="7" part="F" type="verseparagraph">
+            <l n="172">Chosen for the Shearer’s covert from the sun,</l>
+            <l n="173">Thence in our rustic dialect was called</l>
+            <l n="174">The C<hi rend="small">lipping</hi> T<hi rend="small">ree</hi>*, a name which yet it bears.</l>
+            <l n="175">There, while they two were sitting in the shade,</l>
+            <l n="176">With others round them, earnest all and blithe,</l>
+            <l n="177">Would Michael exercise his heart with looks</l>
+            <l n="178">Of fond correction and reproof bestowed</l>
+            <l n="179">Upon the Child, if he disturbed the sheep</l>
+            <l n="180">By catching at their legs, or with his shouts</l>
+            <l n="181">Scared them, while they lay still beneath the shears.</l>
+         </lg>
+         <lg n="8" part="I" type="verseparagraph">
+            <l n="182">And when by Heaven’s good grace the Boy grew up</l>
+            <l n="183">A healthy Lad, and carried in his cheek</l>
+            <l n="184">Two steady roses that were five years old,</l>
+            <l n="185">Then Michael from a winter coppice cut</l>
+         </lg>
+         <note>* Clipping is the word used in the North of England for
+                              <lb/>shearing.</note>
+         <pb/>
+         <milestone n="220" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" part="F" type="verseparagraph">
+            <l n="186">With his own hand a sapling, which he hooped</l>
+            <l n="187">With iron, making it throughout in all</l>
+            <l n="188">Due requisites a perfect Shepherd’s Staff,</l>
+            <l n="189">And gave it to the Boy ; wherewith equipt</l>
+            <l n="190">He as a Watchman oftentimes was placed</l>
+            <l n="191">At gate or gap, to stem or turn the flock;</l>
+            <l n="192">And to his office prematurely called</l>
+            <l n="193">There stood the Urchin, as you will divine,</l>
+            <l n="194">Something between a hindrance and a help ;</l>
+            <l n="195">And for this cause not always, I believe,</l>
+            <l n="196">Receiving from his Father hire of praise.</l>
+            <l n="197">Though nought was left undone which staff or voice,</l>
+            <l n="198">Or looks, or threatening gestures could perform.</l>
+         </lg>
+         <lg n="9" part="I" type="verseparagraph">
+            <l n="199"> But soon as Luke, full ten years old, could stand</l>
+            <l n="200">Against the mountain blasts, and to the heights,</l>
+            <l n="201">Not fearing toil, nor length of weary ways,</l>
+            <l n="202">He with his Father daily went, and they</l>
+            <l n="203">Were as companions, why should I relate</l>
+            <l n="204">That objects which the Shepherd loved before</l>
+         </lg>
+         <pb/>
+         <milestone n="221" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="9" part="F" type="stanza">
+            <l n="205">Were dearer now ? that from the Boy there came</l>
+            <l n="206">Feelings and emanations, things which were</l>
+            <l n="207">Light to the sun and music to the wind ;</l>
+            <l n="208">And that the Old Man’s heart seemed born again.</l>
+         </lg>
+         <lg n="10" type="verseparagraph">
+            <l n="209"> Thus in his Father’s sight the Boy grew up :</l>
+            <l n="210">And now when he had reached his eighteenth year,</l>
+            <l n="211">He was his comfort and his daily hope. </l>
+         </lg>
+         <lb/>
+         <lg n="11" part="I" type="verseparagraph">
+            <l n="212">W<hi rend="small">hile</hi> in the fashion which I have
+                                   described</l>
+            <l n="213">This simple Household thus were living on</l>
+            <l n="214">From day to day, to Michael’s ear there came</l>
+            <l n="215">Distressful tidings. Long before the time</l>
+            <l n="216">Of which I speak, the Shepherd had been bound</l>
+            <l n="217">In surety for his Brother’s Son, a man</l>
+            <l n="218">Of an industrious life, and ample means,—</l>
+            <l n="219">But unforeseen misfortunes suddenly</l>
+            <l n="220">Had pressed upon him,—and old Michael now</l>
+         </lg>
+         <pb/>
+         <milestone n="222" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" part="M" type="verseparagraph">
+            <l n="221">Was summoned to discharge the forfeiture,</l>
+            <l n="222">A grievous penalty, but little less</l>
+            <l n="223">Than half his substance. This unlooked-for claim,</l>
+            <l n="224">At the first hearing, for a moment took</l>
+            <l n="225">More hope out of his life than he supposed</l>
+            <l n="226">That any old man ever could have lost.</l>
+            <l n="227">As soon as he had gathered so much strength</l>
+            <l n="228">That he could look his trouble in the face,</l>
+            <l n="229">It seemed that his sole refuge was to sell</l>
+            <l n="230">A portion of his patrimonial fields.</l>
+            <l n="231">Such was his first resolve; he thought again,</l>
+            <l n="232">And his heart failed him. “ Isabel,” said
+                                   he,</l>
+            <l n="233">Two evenings after he had heard the news,</l>
+            <l n="234">“ I have been toiling more than seventy years,</l>
+            <l n="235">And in the open sun-shine of God’s love</l>
+            <l n="236">Have we all lived ; yet if these fields of ours</l>
+            <l n="237">Should pass into a Stranger’s hand, I think</l>
+            <l n="238">That I could not lie quiet in my grave.</l>
+            <l n="239">Our lot is a hard lot ; the Sun itself</l>
+         </lg>
+         <pb/>
+         <milestone n="223" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" part="M" type="verseparagraph">
+            <l n="240">Has scarcely been more diligent than I,</l>
+            <l n="241">And I have lived to be a fool at last</l>
+            <l n="242">To my own family. An evil Man</l>
+            <l n="243">That was, and made an evil choice, if he</l>
+            <l n="244">Were false to us ; and if he were not false,</l>
+            <l n="245">There are ten thousand to whom loss like this</l>
+            <l n="246">Had been no sorrow. I forgive him—but</l>
+            <l n="247">’Twere better to be dumb than to talk thus.</l>
+            <l n="248">When I began, my purpose was to speak</l>
+            <l n="249">Of remedies and of a cheerful hope.</l>
+            <l n="250">Our Luke shall leave us, Isabel; the land</l>
+            <l n="251">Shall not go from us, and it shall be free ;</l>
+            <l n="252">He shall possess it, free as is the wind</l>
+            <l n="253">That passes over it. We have, thou knowest,</l>
+            <l n="253">Another Kinsman—he will be our friend</l>
+            <l n="255">In this distress. He is a prosperous man,</l>
+            <l n="256">Thriving in trade—and Luke to him shall go,</l>
+            <l n="257">And with his Kinsman’s help and his own thrift</l>
+            <l n="258">He quickly will repair this loss, and then</l>
+         </lg>
+         <pb/>
+         <milestone n="224" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" part="M" type="verseparagraph">
+            <l n="259">May come again to us. If here he stay,</l>
+            <l n="260">What can be done ? Where every one is poor</l>
+            <l n="261">What can be gained ?” At this the old man paused,</l>
+            <l n="262">And Isabel sat silent, for her mind</l>
+            <l n="263">Was busy, looking back into past times.</l>
+            <l n="264">There’s Richard Bateman, thought she to herself,</l>
+            <l n="265">He was a Parish-boy—at the Church-door</l>
+            <l n="266">They made a gathering for him, shillings, pence,</l>
+            <l n="267">And halfpennies, wherewith the neighbours bought</l>
+            <l n="268">A Basket, which they filled with Pedlar’s wares;</l>
+            <l n="269">And with this Basket on his arm the Lad</l>
+            <l n="270">Went up to London, found a Master there,</l>
+            <l n="271">Who out of many chose the trusty Boy</l>
+            <l n="272">To go and overlook his merchandise</l>
+            <l n="273">Beyond the seas ; where he grew wondrous rich,</l>
+            <l n="274">And left estates and moneys to the poor,</l>
+            <l n="275">And at his birth-place built a Chapel floored</l>
+            <l n="276">With Marble, which he sent from foreign lands.</l>
+            <l n="277">These thoughts, and many others of like sort,</l>
+         </lg>
+         <pb/>
+         <milestone n="225" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" part="M" type="verseparagraph">
+            <l n="278">Passed quickly through the mind of Isabel,</l>
+            <l n="279">And her face brightened. The Old Man was glad,</l>
+            <l n="280">And thus resumed:—“ Well, Isabel! this scheme </l>
+            <l n="281">These two days has been meat and drink to me.</l>
+            <l n="282">Far more than we have lost is left us yet.</l>
+            <l n="283">—We have enough—I wish indeed that I</l>
+            <l n="284">Were younger,—but this hope is a good hope.</l>
+            <l n="285">—Make ready Luke’s best garments, of the
+                                   best</l>
+            <l n="286">Buy for him more, and let us send him forth</l>
+            <l n="287">Tomorrow, or the next day, or tonight :</l>
+            <l n="288">—If he could go, the Boy should go
+                                   tonight.”</l>
+            <l n="289">Here Michael ceased, and to the fields went forth</l>
+            <l n="290">With a light heart. The Housewife for five days</l>
+            <l n="291">Was restless morn and night, and all day long</l>
+            <l n="292">Wrought on with her best fingers to prepare</l>
+            <l n="293">Things needful for the journey of her Son.</l>
+            <l n="294">But Isabel was glad when Sunday came</l>
+            <l n="295">To stop her in her work; for, when she lay </l>
+            <l n="296">By Michael’s side, she for the last two nights</l>
+         </lg>
+         <pb/>
+         <milestone n="226" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" part="F" type="verseparagraph">
+            <l n="297">Heard him, how he was troubled in his sleep :</l>
+            <l n="298">And when they rose at morning she could see</l>
+            <l n="299">That all his hopes were gone. That day at noon</l>
+            <l n="300">She said to Luke, while they two by themselves</l>
+            <l n="301">Were sitting at the door, “ Thou must not go:</l>
+            <l n="302">We have no other child but thee to lose,</l>
+            <l n="303">None to remember—do not go away,</l>
+            <l n="304">For if thou leave thy Father he will die.”</l>
+            <l n="305">The Lad made answer with a jocund voice ;</l>
+            <l n="306">And Isabel, when she had told her fears,</l>
+            <l n="307">Recovered heart. That evening her best fare</l>
+            <l n="308">Did she bring forth, and all together sat</l>
+            <l n="309">Like happy people round a Christmas fire.</l>
+         </lg>
+         <lg n="12" part="I" type="verseparagraph">
+            <l n="310">Next morning Isabel resumed her work ;</l>
+            <l n="311">And all the ensuing week the house appeared</l>
+            <l n="312">As cheerful as a grove in Spring : at length</l>
+            <l n="313">The expected letter from their Kinsman came,</l>
+            <l n="314">With kind assurances that he would do</l>
+         </lg>
+         <pb/>
+         <milestone n="227" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="verseparagraph" part="F">
+            <l n="315">His utmost for the welfare of the Boy ;</l>
+            <l n="316">To which requests were added that forthwith</l>
+            <l n="317">He might be sent to him. Ten times or more</l>
+            <l n="318">The letter was read over; Isabel</l>
+            <l n="319">Went forth to show it to the neighbours round;</l>
+            <l n="320">Nor was there at that time on English Land</l>
+            <l n="321">A prouder heart than Luke’s. When Isabel</l>
+            <l n="322">Had to her house returned, the Old Man said,</l>
+            <l n="323">“He shall depart tomorrow.” To this word</l>
+            <l n="324">The Housewife answered, talking much of things</l>
+            <l n="325">Which, if at such short notice he should go,</l>
+            <l n="326">Would surely be forgotten. But at length</l>
+            <l n="327">She gave consent, and Michael was at ease.</l>
+         </lg>
+         <lg n="13" type="verseparagraph" part="I">
+            <l n="328">Near the tumultuous brook of Green-head Gill,</l>
+            <l n="329">In that deep Valley, Michael had designed</l>
+            <l n="330">To build a sheep-fold ; and, before he heard</l>
+            <l n="331">The tidings of his melancholy loss,</l>
+            <l n="332">For this same purpose he had gathered up</l>
+         </lg>
+         <pb/>
+         <milestone n="228" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="13" type="verseparagraph" part="M">
+            <l n="333">A heap of stones, which close to the brook side</l>
+            <l n="334">Lay thrown together, ready for the work.</l>
+            <l n="335">With Luke that evening thitherward he walked ;</l>
+            <l n="336">And soon as they had reached the place he stopped,</l>
+            <l n="337">And thus the Old Man spake to him:—“ My
+                                   Son,</l>
+            <l n="338">Tomorrow thou wilt leave me : with full heart</l>
+            <l n="339">I look upon thee, for thou art the same</l>
+            <l n="340">That wert a promise to me ere thy birth,</l>
+            <l n="341">And all thy life hast been my daily joy.</l>
+            <l n="342">I will relate to thee some little part</l>
+            <l n="343">Of our two histories; ’t will do thee good</l>
+            <l n="344">When thou art from me, even if I should speak</l>
+            <l n="345">Of things thou canst not know of.——After
+                                   thou</l>
+            <l n="346">First cam’st into the world, as it befalls</l>
+            <l n="347">To new-born infants, thou didst sleep away</l>
+            <l n="348">Two days, and blessings from thy Father’s tongue</l>
+            <l n="349">Then fell upon thee. Day by day passed on,</l>
+            <l n="350">And still I loved thee with increasing love.</l>
+            <l n="351">Never to living ear came sweeter sounds</l>
+         </lg>
+         <pb/>
+         <milestone n="229" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="13" part="M">
+            <l n="352">Than when I heard thee by our own fire-side</l>
+            <l n="353">First uttering, without words, a natural tune;</l>
+            <l n="354">When thou, a feeding babe, didst in thy joy</l>
+            <l n="355">Sing at thy Mother’s breast. Month followed
+                                   month,</l>
+            <l n="356">And in the open fields my life was passed</l>
+            <l n="357">And in the mountains, else I think that thou</l>
+            <l n="358">Hadst been brought up upon thy Father’s knees.</l>
+            <l n="359">But we were playmates, Luke : among these hills,</l>
+            <l n="360">As well thou know’st, in us the old and young</l>
+            <l n="361">Have played together, nor with me didst thou</l>
+            <l n="362">Lack any pleasure which a boy can know.”</l>
+            <l n="363">Luke had a manly heart; but at these words</l>
+            <l n="364">He sobbed aloud. The Old Man grasped his hand,</l>
+            <l n="365">And said, “ Nay, do not take it so—I see</l>
+            <l n="366">That these are things of which I need not speak.</l>
+            <l n="367">—Even to the utmost I have been to thee</l>
+            <l n="368">A kind and a good Father : and herein</l>
+            <l n="369">I but repay a gift which I myself</l>
+         </lg>
+         <pb/>
+         <milestone n="230" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="13" type="verseparagraph" part="M">
+            <l n="370">Received at others’ hands ; for, though now old</l>
+            <l n="371">Beyond the common life of man, I still</l>
+            <l n="372">Remember them who loved me in my youth.</l>
+            <l n="373">Both of them sleep together : here they lived,</l>
+            <l n="374">As all their Forefathers had done ; and when</l>
+            <l n="375">At length their time was come, they were not loth</l>
+            <l n="376">To give their bodies to the family mould.</l>
+            <l n="377">I wished that thou shouldst live the life they lived.</l>
+            <l n="378">But ’tis a long time to look back, my Son,</l>
+            <l n="379">And see so little gain from sixty years.</l>
+            <l n="380">These fields were burthened when they came to me ;</l>
+            <l n="381">Till I was forty years of age, not more</l>
+            <l n="382">Than half of my inheritance was mine.</l>
+            <l n="383">I toiled and toiled ; God blessed me in my work,</l>
+            <l n="384">And till these three weeks past the land was free.</l>
+            <l n="385">—It looks as if it never could endure</l>
+            <l n="386">Another Master. Heaven forgive me, Luke,</l>
+            <l n="387">If I judge ill for thee, but it seems good</l>
+         </lg>
+         <pb/>
+         <milestone n="231" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="13" part="M" type="verseparagraph">
+            <l n="388">That thou should’st go.” At this the Old Man
+                                   paus’d;</l>
+            <l n="389">Then, pointing to the Stones near which they stood,</l>
+            <l n="390">Thus, after a short silence, he resumed :</l>
+            <l n="391">“ This was a work for us; and now, my Son,</l>
+            <l n="392">It is a work for me. But, lay one Stone—</l>
+            <l n="393">Here, lay it for me, Luke, with thine own hands.</l>
+            <l n="394">Nay, Boy, be of good hope :—we both may live</l>
+            <l n="395">To see a better day. At eighty-four</l>
+            <l n="396">I still am strong and stout;—do thou thy part,</l>
+            <l n="397">I will do mine.—I will begin again</l>
+            <l n="398">With many tasks that were resigned to thee;</l>
+            <l n="399">Up to the heights, and in among the storms,</l>
+            <l n="400">Will I without thee go again, and do</l>
+            <l n="401">All works which I was wont to do alone,</l>
+            <l n="402">Before I knew thy face.—Heaven bless thee, Boy!</l>
+            <l n="403">Thy heart these two weeks has been beating fast</l>
+            <l n="404">With many hopes—It should be
+                                   so—Yes—yes—</l>
+            <l n="405">I knew that thou couldst never have a wish</l>
+            <l n="406">To leave me, Luke : thou hast been bound to me</l>
+            <l n="407">Only by links of love : when thou art gone,</l>
+         </lg>
+         <pb/>
+         <milestone n="232" unit="verseparagraph"/>
+         <lb/>
+         <lb/>
+         <lg n="13" part="F" type="verseparagraph">
+            <l n="208">What will be left to us!—But, I forget</l>
+            <l n="409">My purposes. Lay now the corner-stone,</l>
+            <l n="410">As I requested; and hereafter, Luke,</l>
+            <l n="411">When thou art gone away, should evil men</l>
+            <l n="412">Be thy companions, think of me, my Son,</l>
+            <l n="413">And of this moment; hither turn thy thoughts,</l>
+            <l n="414">And God will strengthen thee : amid all fear</l>
+            <l n="415">And all temptation, Luke, I pray that thou</l>
+            <l n="416">Mayst bear in mind the life thy Fathers lived,</l>
+            <l n="417">Who, being innocent, did for that cause</l>
+            <l n="418">Bestir them in good deeds. Now, fare thee well—</l>
+            <l n="419">When thou return’st, thou in this place wilt see</l>
+            <l n="420">A work which is not here; a covenant</l>
+            <l n="421">’Twill be between us——But whatever
+                                   fate</l>
+            <l n="422">Befall thee, I shall love thee to the last,</l>
+            <l n="423">And bear thy memory with me to the grave.”</l>
+         </lg>
+         <lg n="14" part="I" type="verseparagraph">
+            <l n="424">The Shepherd ended here; and Luke stooped down,</l>
+            <l n="425">And, as his Father had requested, laid</l>
+            <l n="426">The first stone of the Sheep-fold. At the sight</l>
+         </lg>
+         <pb/>
+         <milestone n="233" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="14" part="F" type="verseparagraph">
+            <l n="427">The Old Man’s grief broke from him, to his heart</l>
+            <l n="428">He pressed his Son, he kissed him and wept ;</l>
+            <l n="429">And to the House together they returned.</l>
+         </lg>
+         <lg n="14" type="verseparagraph">
+            <l n="430">Next morning, as had been resolved, the Boy</l>
+            <l n="431">Began his journey, and when he had reached</l>
+            <l n="432">The public Way, he put on a bold face ;</l>
+            <l n="433">And all the Neighbours as he passed their doors</l>
+            <l n="434">Came forth with wishes and with farewell prayers,</l>
+            <l n="435">That followed him till he was out of sight.</l>
+         </lg>
+         <lg n="15" part="I" type="verseparagraph">
+            <l n="436">A good report did from their Kinsman come,</l>
+            <l n="437">Of Luke and his well-doing: and the Boy</l>
+            <l n="438">Wrote loving letters, full of wondrous news,</l>
+            <l n="439">Which, as the Housewife phrased it, were throughout</l>
+            <l n="440">The prettiest letters that were ever seen.</l>
+            <l n="441">Both parents read them with rejoicing hearts.</l>
+            <l n="442">So, many months passed on : and once again</l>
+         </lg>
+         <pb/>
+         <milestone n="234" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="15" type="verseparagraph" part="F">
+            <l n="443">The Shepherd went about his daily work</l>
+            <l n="444">With confident and cheerful thoughts ; and now</l>
+            <l n="445">Sometimes when he could find a leisure hour</l>
+            <l n="446">He to that valley took his way, and there</l>
+            <l n="447">Wrought at the Sheep-fold. Meantime Luke began</l>
+            <l n="448">To slacken in his duty ; and at length</l>
+            <l n="449">He in the dissolute city gave himself</l>
+            <l n="450">To evil courses : ignominy and shame</l>
+            <l n="451">Fell on him, so that he was driven at last</l>
+            <l n="452">To seek a hiding-place beyond the seas.</l>
+         </lg>
+         <lg n="16" part="I" type="verseparagraph">
+            <l n="453">There is a comfort in the strength of love ;</l>
+            <l n="454">’Twill make a thing endurable, which else</l>
+            <l n="455">Would break the heart:—Old Michael found it so.</l>
+            <l n="456">I have conversed with more than one who well</l>
+            <l n="457">Remember the Old Man, and what he was</l>
+            <l n="458">Years after he had heard this heavy news.</l>
+            <l n="459">His bodily frame had been from youth to age</l>
+            <l n="460">Of an unusual strength. Among the rocks</l>
+         </lg>
+         <pb/>
+         <milestone n="235" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="16" part="F" type="verseparagraph">
+            <l n="461">He went, and still looked up upon the sun,</l>
+            <l n="462">And listened to the wind ; and as before</l>
+            <l n="463">Performed all kinds of labour for his Sheep,</l>
+            <l n="464">And for the land his small inheritance.</l>
+            <l n="465">And to that hollow Dell from time to time</l>
+            <l n="466">Did he repair, to build the Fold of which</l>
+            <l n="467">His flock had need. ’Tis not forgotten yet</l>
+            <l n="468">The pity which was then in every heart</l>
+            <l n="469">For the Old Man—and ’tis believed by all</l>
+            <l n="470">That many and many a day he thither went,</l>
+            <l n="471">And never lifted up a single stone.</l>
+         </lg>
+         <lg n="17" part="F" type="verseparagraph">
+            <l n="472">There, by the Sheep-fold, sometimes was he seen</l>
+            <l n="473">Sitting alone, with that his faithful Dog,</l>
+            <l n="474">Then old, beside him, lying at his feet.</l>
+            <l n="475">The length of full seven years from time to time</l>
+            <l n="476">He at the building of this Sheep-fold wrought,</l>
+            <l n="477">And left the work unfinished when he died.</l>
+            <l n="478">Three years, or little more, did Isabel</l>
+         </lg>
+         <pb/>
+         <milestone n="236" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="17" type="verseparagraph" part="F">
+            <l n="479">Survive her Husband: at her death the estate</l>
+            <l n="480">Was sold, and went into a Stranger’s hand.</l>
+            <l n="481">The Cottage which was named The E<hi rend="small">vening</hi> S<hi rend="small">tar</hi>
+            </l>
+            <l n="482">Is gone—the ploughshare has been through the
+                                   ground</l>
+            <l n="483">On which it stood; great changes have been wrought</l>
+            <l n="484">In all the neighbourhood :— yet the Oak is left</l>
+            <l n="485">That grew beside their Door ; and the remains</l>
+            <l n="486">Of the unfinished Sheep-fold may be seen</l>
+            <l n="487">Beside the boisterous brook of Green-head Gill.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

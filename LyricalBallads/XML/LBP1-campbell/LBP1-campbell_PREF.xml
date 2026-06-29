@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Preface</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_PREF</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="PREF">
+                  <title>[PREF]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">vi to xxii</biblScope>
+                  <biblScope unit="pages">18</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <lb/>
+         <head>PREFACE.</head>
+         <p n="1">THE First Volume of these Poems has already been submitted <lb/>to
+                              general perusal. It was published as an experiment which, I
+                              <lb/>hoped, might be of some use to ascertain, how far, by fitting to
+                              <lb/>Metrical arrangement a selection of the real language of men in
+                              <lb/>a state of vivid sensation, that sort of pleasure and that
+                              quantity <lb/>of pleasure may be imparted, which a Poet may rationally
+                              endea-<lb/>vour to impart.</p>
+         <p n="2">I had formed no very inaccurate estimate of the probable effect
+                              <lb/>of those Poems : I flattered myself, that they who should be
+                              plea-<lb/>sed with them would read them with more than common
+                              plea-<lb/>sure ; and on the other hand I was well aware, that by those
+                              who <lb/>should dislike them they would be read with more than common
+                              <lb/>dislike. The result has differed from my expectation in this
+                              on-<lb/>ly, that I have pleased a greater number than I ventured to
+                              hope <lb/>I should please.</p>
+         <p n="3">For the sake of variety, and from a consciousness of my own
+                              <lb/>weakness, I was induced to request the assistance of a friend,
+                              who <lb/>furnished me with the Poems of the A<hi>ncient</hi>
+                                   M<hi>ariner</hi>, the <lb/>F<hi>oster</hi>
+                                   M<hi>other’s</hi> T<hi>ale</hi>, the N<hi>ightingale</hi>,
+                              the D<hi>un- <lb/>geon</hi>, and the Poem entitled L<hi>ove</hi>. I
+                              should not however, have <lb/>requested this assistance, had I not
+                              believed, that the Poems of my <lb/>friend would, in a great measure,
+                              have the same tendency as my <lb/>own, and that though there would be
+                              found a difference, there <lb/>would be found no discordance in the
+                              colours of our style ; as <lb/>our opinions on the subject of Poetry
+                              do almost entirely coin-<lb/>cide. </p>
+         <pb/>
+         <milestone n="vi" unit="page"/>
+         <lb/>
+         <p n="4">Several of my friends are anxious for the success of these
+                              Po-<lb/>ems from a belief, that if the views with which they were
+                              com-<lb/>posed were indeed realized, a Class of Poetry would be
+                              produced, <lb/>well adapted to interest mankind permanently, and not
+                              unim-<lb/>portant in the multiplicity and in the quality of its moral
+                              rela-<lb/>tions ; and on this account, they have advised me to prefix
+                              a sys-<lb/>tematic defence of the theory, upon which the Poems were
+                              written. <lb/>But I was unwilling to undertake the task, because I
+                              knew that <lb/>on this occasion, the Reader would look coldly upon my
+                              arguments, <lb/>since I might be suspected of having been principally
+                              influenced <lb/>by the selfish, and foolish hope, of
+                                   <emph>reasoning</emph> him into an appro-<lb/>tion of these
+                              particular Poems ; and I was still more unwilling <lb/>to undertake
+                              the task, because, adequately to display my opini-<lb/>ons, and fully
+                              to enforce my arguments, would require a space <lb/>wholly
+                              disproportionate to the nature of a Preface. For to treat <lb/>the
+                              subject with the clearness and coherence, of which I believe it
+                              <lb/>susceptible, it would be necessary, to give a full account of the
+                              <lb/>present state of the public taste in this country, and to
+                              deter-<lb/>mine how far this taste is healthy or depraved ; which
+                              again <lb/>could not be determined, without pointing out in what
+                              manner <lb/>language and the human mind act and re-act on each other,
+                              and <lb/>without retracing the revolutions, not of literature alone,
+                              but <lb/>likewise of society itself. I have therefore altogether
+                              declined to <lb/>enter regularly upon this defence ; yet I am
+                              sensible, that there <lb/>would be some impropriety in abruptly
+                              obtruding upon the Pub-<lb/>lic, without a few words of introduction,
+                              Poems so materially <lb/>different from those, upon which general
+                              approbation is at pre-<lb/>sent bestowed.</p>
+         <p n="5">It is supposed, that by the act of writing in Verse, an Author
+                              <lb/>makes a formal engagement that he will gratify certain known
+                              <lb/>habits of association ; that he not only thus apprizes the Reader
+                              <lb/>that certain classes of ideas and expressions will be found in
+                              his <lb/>book, but that others will be carefully excluded. This
+                              exponent <lb/>or symbol held forth by Metrical language, must in
+                              different ras <lb/>of literature have excited very different
+                              expectations: for exam-<lb/>ple, in the age of Catullus Terence and
+                              Lucretius, and that of <lb/>Statius or Claudian, and in our own
+                              country in the age of <lb/>Shakespear, and Beaumont and Fletcher, and
+                              that of Donne and <lb/>
+            <pb/>
+            <milestone n="vii" unit="page"/>
+            <lb/>Cowley, or Dryden, or Pope. I will not take upon me to
+                              deter-<lb/>mine the exact import of the promise which, by the act of
+                              <lb/>writing in Verse, an Author in the present day makes to his
+                              <lb/>Reader; but I am certain it will appear to many persons, that I
+                              <lb/>have not fulfilled the terms of an engagement thus voluntarily
+                              <lb/>contracted. I hope therefore the Reader will not censure me, if I
+                              <lb/>attempt to state what I have proposed to myself to perform, and
+                              <lb/>also (as far as the limits of a Preface will permit) to explain
+                              some <lb/>of the chief reasons which have determined me in the choice
+                              of <lb/>my purpose ; that at least he may be spared any unpleasant
+                              feel-<lb/>ing of disappointment, and that I myself may be protected
+                              from <lb/>the most dishonorable accusation which can be brought
+                              against <lb/>an Author, namely, that of an indolence which prevents
+                              him <lb/>from endeavouring to ascertain what is his duty, or when his
+                              <lb/>duty is a<orig>s</orig>certained, prevents him from performing
+                              it.</p>
+         <p n="6">The principal object then which I proposed to myself in these
+                              <lb/>Poems was, to make the incidents of common life interesting,
+                              <lb/>by tracing in them, truly, though not ostentatiously, the primary
+                              <lb/>laws of our Nature ; chiefly as far as regards the manner in
+                              <lb/>which we associate ideas in a state of excitement. Low and
+                              rus-<lb/>tic life was generally chosen, because in that situation, the
+                              essen-<lb/>tial passions of the heart find a better soil in which they
+                              can at-<lb/>tain their maturity, are less under restraint, and speak a
+                              plainer <lb/>and more emphatic language ; because in that situation,
+                              our ele-<lb/>mentary feelings exist in a state of greater simplicity,
+                              and conse-<lb/>quently, may be more accurately contemplated, and more
+                              forcibly <lb/>communicated ; because, the manners of rural life
+                              germinate <lb/>from those elementary feelings ; and from the necessary
+                              character <lb/>of rural occupations are more easily comprehended ; and
+                              are more <lb/>durable; and lastly, because, in that situation, the
+                              passions of <lb/>men are incorporated with the beautiful and permanent
+                              forms <lb/>of nature. The language too of these men is adopted
+                              (puri-<lb/>fied indeed from what appears to be its real defects, from
+                              all <lb/>lasting and rational causes of dislike or disgust) because
+                              such <lb/>men hourly communicate with the best objects from which
+                              <lb/>the best part of language is originally derived ; and because,
+                              <lb/>from their rank in society, and the sameness and narrow
+                              cir-<lb/>cle of their intercourse, being less under the action of
+                              social <lb/>
+            <pb/>
+            <milestone n="viii" unit="page"/>
+            <lb/>vanity, they
+                              convey their feelings and notions in simple and un-<lb/>elaborated
+                              expressions. Accordingly, such a language arising out <lb/>of repeated
+                              experience and regular feelings is a more permanent, <lb/>and a far
+                              more philosophical language, than that which is <lb/>frequently
+                              substituted for it by Poets, who think that they are <lb/>conferring
+                              honour upon themselves and their art in proportion as <lb/>they
+                              separate themselves from the sympathies of men, and in-<lb/>dulge in
+                              arbitrary and capricious habits of expression, in order <lb/>to
+                              furnish food for fickle tastes and fickle appetites of their own
+                              <lb/>creation.*</p>
+         <p n="7">I cannot be insensible of the present outcry against the trivi-
+                              <lb/>ality and meanness both of thought and language, which some
+                              <lb/>of my contemporaries have occasionally introduced into their
+                              Me-<lb/>trical compositions ; and I acknowledge, that this defect
+                              where <lb/>it exists, is more dishonorable to the Writer’s own
+                              character, <lb/>than false refinement or arbitrary innovation, though
+                              I should <lb/>contend at the same time that it is far less pernicious
+                              in the sum <lb/>of its consequences. From such Verses, the Poems in
+                              these Vo-<lb/>lumes will be found distinguished at least by one mark
+                              of diffe-<lb/>rence, that each of them has a worthy
+                                   <emph>purpose</emph>. Not that I mean <lb/>to say that I always
+                              began to write with a distinct purpose for-<lb/>mally conceived ; but
+                              I believe, that my habits of meditation <lb/>have so formed my
+                              feelings, as that my descriptions of such ob-<lb/>jects as strongly
+                              excite those feelings, will be found to carry <lb/>along with them a
+                                   <emph>purpose</emph>. If in this opinion I am mistaken,
+                                   <lb/>
+            <sic>I can</sic>
+            <add resp="Graver" place="Amherst"/> have
+                              little right to the name of a Poet. For all good Po-<lb/>etry is the
+                              spontaneous overflow of powerful feelings ; but though <lb/>this be
+                              true, Poems to which any value can be attached, were <lb/>never
+                              produced on any variety of subjects but by a man, who, <lb/>being
+                              possessed of more than usual organic sensibility, had also
+                              <lb/>thought long and deeply. For our continued influxes of feelings
+                              <lb/>are modified and directed by our thoughts, which are indeed the
+                              <lb/>representatives of all our past feelings; and as by contemplating
+                              <lb/>the relation of these general representatives to each other, we <lb/>
+            <note place="bottom">* <emph>It is worth while here to observe, that
+                                        the affecting parts <lb/> of Chaucer are almost always
+                                        expressed in language pure and univer-<lb/> sally
+                                        intelligible even to this day.</emph>
+            </note>
+            <pb/>
+            <milestone n="ix" unit="page"/>
+            <lb/>discover what is really important to
+                              men, so by the repetition <lb/>and continuance of this act, feelings
+                              connected with important <lb/>subjects will be nourished, till at
+                              length, if we be originally pos-<lb/>sessed of much organic
+                              sensibility, such habits of mind will be <lb/>produced, that by
+                              obeying blindly and mechanically the impul-<lb/>ses of those habits,
+                              we shall describe objects, and utter senti-<lb/>ments of such a
+                              nature, and in such connection with each <lb/>other, that the
+                              understanding of the being to whom we address <lb/>ourselves, if he be
+                              in a healthful state of association, must ne-<lb/>cessarily be in some
+                              degree enlightened, his taste exalted, and <lb/>his affections
+                              ameliorated.</p>
+         <p n="8">I have said that each of these Poems has a purpose. I have
+                              <lb/>also informed my Reader what this purpose will be found
+                              <lb/>principally to be ; namely, to illustrate the manner in which our
+                              <lb/>feelings and ideas are associated in a state of excitement. But
+                              <lb/>speaking in less general language, it is to follow the fluxes and
+                              <lb/>refluxes of the mind when agitated by the great and simple
+                              af-<lb/>fections of our nature. This object I have endeavoured in
+                              these <lb/>short essays to attain by various means; by tracing the
+                              Mater-<lb/>nal passion through many of its more subtle windings, as in
+                              the <lb/>Poems of the I<hi>diot</hi> B<hi>oy</hi> and the M<hi>ad</hi>
+                                   M<hi>other</hi>; by accom-<lb/>panying the last struggles of a
+                              human being at the approach of <lb/>death, cleaving in solitude to
+                              life and society, as in the Poem of <lb/>the F<hi>orsaken</hi>
+                                   I<hi>ndian </hi>; by shewing as in the Stanzas entitled
+                                   <lb/>W<hi>e are seven</hi>, the perplexity and obscurity which in
+                              child-<lb/>hood attends our notion of death, or rather our utter
+                              inability to <lb/>admit that notion; or by displaying the strength of
+                              fraternal, or <lb/>to speak more philosophically, of moral attachment,
+                              when early <lb/>associated with the great and beautiful objects of
+                              Nature, as in <lb/>The B<hi>rothers</hi> ; or, as in the Incident of
+                                   S<hi>imon</hi> L<hi>ee</hi>, by <lb/>placing my Reader in the way
+                              of receiving from ordinary moral <lb/>sensations, another and more
+                              salutary impression than we are ac-<lb/>customed to receive from them.
+                              It has also been part of my <lb/>general purpose to attempt to sketch
+                              characters under the influ-<lb/>ence of less impassioned feelings, as
+                              in the O<hi>ld</hi> M<hi>an</hi> T<hi>ravel-<lb/>ling</hi>, the
+                                   T<hi>wo</hi> T<hi>hieves</hi>, &amp;c. characters of which the
+                              ele-<lb/>ments are simple, belonging rather to Nature than to
+                                   manners,<lb/>
+            <pb/>
+            <milestone n="x" unit="page"/>
+            <lb/>such as
+                              exist now, and will probably always exist, and which <lb/>from their
+                              constitution may be distinctly and profitably contem-<lb/>plated. I
+                              will not abuse the indulgence of my Reader by dwelling <lb/>longer
+                              upon this subject ; but it is proper that I should mention <lb/>one
+                              other circumstance which distinguishes these Poems from <lb/>the
+                              popular Poetry of the day ; it is this, that the feeling therein
+                              <lb/>developed gives importance to the action and situation, and not
+                              <lb/>the action and situation to the feeling. My meaning will be
+                              ren-<lb/>dered perfectly intelligible by referring my Reader to the
+                              Poems <lb/>entitled P<hi>oor</hi> S<hi>usan</hi> and the
+                                   C<hi>hildless</hi> F<hi>ather</hi>, particu-<lb/>larly to the
+                              last Stanza of the latter Poem.</p>
+         <p n="9">I will not suffer a sense of false modesty to prevent me from
+                              <lb/>asserting, that I point my Readers attention to this mark of
+                              <lb/>distinction far less for the sake of these particular Poems, than
+                              <lb/>from the general importance of the subject. The subject is
+                              in-<lb/>deed important ! For the human mind is capable of excitement
+                              <lb/>without the application of gross and violent stimulants; and he
+                              <lb/>must have a very faint perception of its beauty and dignity, who
+                              <lb/>does not know this, and who does not further know, that one
+                              <lb/>being is elevated above another in proportion as he possesses
+                              <lb/>this capability. It has therefore appeared to me, that to
+                              en-<lb/>deavour to produce or enlarge this capability is one of the
+                              best <lb/>services, in which, at any period, a Writer can be engaged ;
+                              but <lb/>this service, excellent at all times, is especially so at the
+                              present <lb/>day : For a multitude of causes, unknown to former times,
+                              are <lb/>now acting with a combined force to blunt the discriminating
+                              <lb/>powers of the mind, and by unfitting it for all voluntary
+                              exertion, <lb/>to reduce it to a state of almost savage torpor. The
+                              most effec-<lb/>tive of these causes are the great National Events
+                              which are dai-<lb/>ly taking place, and the encreasing accumulation of
+                              men in ci-<lb/>ties, where the uniformity of the occupations produces
+                              a cra-<lb/>ving for extraordinary incident, which the rapid
+                              communication <lb/>of intelligence hourly gratifies. To this tendency
+                              of life and <lb/>manners the literature and theatrical exhibitions of
+                              the country <lb/>have conformed themselves! The invaluable works of
+                              our el-<lb/>der writers, I had almost said the works of Shakespear and
+                              <lb/>Milton, are driven into neglect by frantic Novels, sickly and
+                              <lb/>stupid German Tragedies, and deluges of idle and extravagant
+                                   <lb/>
+            <pb/>
+            <milestone n="xi" unit="page"/>
+            <lb/>Stories in
+                              verse.—When I think upon this degrading thirst after
+                              <lb/>outrageous stimulation, I am almost ashamed to have spoken
+                              <lb/>of the feeble effort with which I have endeavoured to
+                              counter-<lb/>act it ; and reflecting upon the magnitude of the general
+                              evil, <lb/>I should be oppressed with no dishonorable melancholy, had
+                              I <lb/>not a deep impression of certain inherent and indestructible
+                              qua-<lb/>lities of the human mind, and likewise of certain powers in
+                              the <lb/>great and permanent objects that act upon it, which are
+                              equally <lb/>inherent and indestructible ; and did I not further add
+                              to this <lb/>impression a belief, that the time is approaching, when
+                              the evil <lb/>will be systematically opposed by men of greater powers,
+                              and <lb/>with far more distinguished success. </p>
+         <p n="10">Having dwelt thus long on the subjects and aim of these
+                              Po-<lb/>ems, I shall request the Reader's permission to apprise him of
+                              a <lb/>few circumstances relating to their <emph>style</emph>, in
+                              order, among <lb/>other reasons, that I may not be censured for not
+                              having per-<lb/>formed what I never attempted. Except in a very few
+                              instances <lb/>the Reader will find no personifications of abstract
+                              ideas in these <lb/>Volumes, not that I mean to censure such
+                              personifications ; they <lb/>may be well fitted for certain sorts of
+                              composition, but in these <lb/>Poems, I propose to myself to imitate,
+                              and, as far as possible to <lb/>adopt, the very language of men ; and
+                              I do not find that such <lb/>personifications make any regular or
+                              natural part of that lan-<lb/>guage. I wish to keep my Reader in the
+                              company of flesh and <lb/>blood, persuaded, that by so doing, I shall
+                              interest him. Not <lb/>but that I believe, that others who pursue a
+                              different track, may <lb/>interest him likewise : I do not interfere
+                              with their claim ; I on-<lb/>ly wish to prefer a different claim of my
+                              own. There will also be <lb/>found in these Volumes little of what is
+                              usually called poetic dic-<lb/>tion ; I have taken as much pains to
+                              avoid it as others ordina-<lb/>rily take to produce it; this I have
+                              done for the reason already <lb/>alleged, to bring my language near to
+                              the language of men, and <lb/>further, because the pleasure, which I
+                              have proposed to myself to <lb/>impart, is of a kind very different
+                              from that which is supposed <lb/>by many persons to be the proper
+                              object of Poetry. I do not <lb/>know how, without being culpably
+                              particular, I can give my <lb/>Reader a more exact notion of the style
+                              in which I wished these <lb/>Poems to be written, than by informing
+                              him, that I have at all <lb/>
+            <pb/>
+            <milestone n="xii" unit="page"/>
+            <lb/>times endeavoured to look steadily at my subject, consequently,
+                              I <lb/>hope it will be found, that there is in these Poems little
+                              falsehood <lb/>of description, and that my ideas are expressed in
+                              language fitted <lb/>to their respective importance. Something I must
+                              have gained <lb/>by this practice, as it is friendly to one property
+                              of all good Po-<lb/>etry, namely, good sense ; but it has necessarily
+                              cut me off from <lb/>a large portion of phrases and figures of speech,
+                              which, from fa-<lb/>ther to son have long been regarded as the common
+                              inheritance <lb/>of Poets. I have also thought it expedient to
+                              restrict myself <lb/>still further, having abstained from the use of
+                              many expressi-<lb/>ons, in themselves proper and beautiful, but which
+                              have been <lb/>foolishly repeated by bad Poets, till such feelings of
+                              disgust are <lb/>connected with them as it is scarcely possible by any
+                              art of asso-<lb/>ciation to overpower. </p>
+         <p n="11">If in a Poem there should be found a series of lines, or even a
+                              <lb/>single line, in which the language, though naturally arranged,
+                              <lb/>and according to the strict laws of Metre, does not differ
+                              <lb/>from that of Prose, there is a numerous class of critics who,
+                              <lb/>when they stumble upon these Prosaisms, as they call them,
+                              ima-<lb/>gine that they have made a notable discovery, and exult over
+                              the <lb/>Poet as over a man ignorant of his own profession. Now these
+                              <lb/>men would establish a canon of criticism which the Reader will
+                              <lb/>conclude he must utterly reject if he wishes to be pleased with
+                              <lb/>these Volumes. And it would be a most easy task to prove to
+                              <lb/>him, that not only the language of a large portion of every good
+                              <lb/>Poem, even of the most elevated character, must necessarily,
+                              <lb/>except with reference to the Metre, in no respect differ from
+                              that <lb/>of good Prose, but likewise, that some of the most
+                              interesting <lb/>parts of the best Poems will be found to be strictly
+                              the language <lb/>of Prose, when Prose is well written. The truth of
+                              this assertion <lb/>might be demonstrated by innumerable passages from
+                              almost all <lb/>the Poetical writings even of Milton himself. I have
+                              not space <lb/>for much quotation ; but, to illustrate the subject in
+                              a general <lb/>manner, I will here adduce a short composition of Gray,
+                              who <lb/>was at the head of those, who by their reasonings have
+                              attempted <lb/>to widen the space of separation betwixt Prose and
+                              Metrical com-<lb/>position, and was more than any other man curiously
+                              elaborate <lb/>in the structure of his own poetic diction.</p>
+         <pb/>
+         <milestone n="xiii" unit="page"/>
+         <lb/>
+         <q>
+            <l n="1">In vain to me the smiling mornings shine,</l>
+            <l n="2">And
+                                   reddening Phœbus lifts his golden fire :</l>
+            <l n="3">The
+                                   birds in vain their amorous descant join,</l>
+            <l n="4">Or cheerful
+                                   fields resume their green attire ;</l>
+            <l n="5">These ears alas !
+                                   for other notes repine ; </l>
+            <l n="6">
+               <emph>A different object do
+                                        these eyes require</emph>;</l>
+            <l n="7">
+               <emph>My lonely
+                                        anguish melts no heart but mine</emph>;</l>
+            <l n="8">
+               <emph>And in my breast the imperfect joys
+                                   expire</emph>;</l>
+            <l n="9">Yet morning smiles the busy race to
+                                   cheer,</l>
+            <l n="10">And new-born pleasure brings to happier
+                                   men;</l>
+            <l n="11">The fields to all their wonted tribute bear
+                                   ;</l>
+            <l n="12">To warm their little loves the birds
+                                   complain.</l>
+            <l n="13">
+               <emph>I fruitless mourn to him that cannot
+                                        hear</emph>
+            </l>
+            <l n="14">
+               <emph>And weep the more because I
+                                        weep in vain.</emph>
+            </l>
+         </q>
+         <p n="12">It will easily by perceived, that the only part of this Sonnet
+                              <lb/>which is of any value, is the lines printed in Italics : It is
+                              equal-<lb/>ly obvious, that except in the rhyme, and in the use of the
+                              sin-<lb/>gle word “fruitless” for fruitlessly, which is so
+                              far a defect, the <lb/>language of these lines does in no respect
+                              differ from that of <lb/>Prose.</p>
+         <p n="13">Is there then, it will be asked, no essential difference between
+                              <lb/>the language of Prose and Metrical composition ? I answer that
+                              <lb/>there neither is nor can be any essential difference. We are fond
+                              <lb/>of tracing the resemblance between Poetry and Painting, and,
+                              <lb/>accordingly, we call them sisters ; but where shall we finds
+                              bonds <lb/>of connection sufficiently strict to typify the affinity
+                              betwixt <lb/>Metrical and Prose composition ? They both speak by and
+                              to <lb/>the same organs ; the bodies in which both of them are clothed
+                              <lb/>may be said to be of the same substance, their affections are
+                              <lb/>kindred and almost identical, not necessarily differing even in
+                              <lb/>degree ; Poetry * sheds no tears “such as Angels
+                              weep,” but <lb/>
+            <note> * <emph>I here use the word
+                                        “Poetry” (though against my own judg-<lb/>ment)
+                                        as opposed to the word Prose, and synonymous with Metrical
+                                        <lb/>composition. But much confusion has been introduced
+                                        into Criticism by</emph>
+            </note>
+            <pb/>
+            <milestone n="xiv" unit="page"/>
+            <lb/>natural and human
+                              tears ; she can boast of no celestial Ichor <lb/>that distinguishes
+                              her vital juices from those of Prose ; the same <lb/>human blood
+                              circulates through the veins of them both. </p>
+         <p n="14">If it be affirmed that Rhyme and Metrical arrangement, of
+                              <lb/>themselves constitute a distinction, which overturns what I have
+                              <lb/>been saying on the strict affinity of Metrical language with
+                              <lb/>that of Prose, and paves the way for other distinctions which the
+                              <lb/>mind voluntarily admits, I answer, that the distinction of Rhyme
+                              <lb/>and Metre is regular and uniform, and not, like that which is
+                              <lb/>produced by what is usually called Poetic diction, arbitrary, and
+                              <lb/>subject to infinite caprices, upon which no calculation whatever
+                              <lb/>can be made. In the one case, the Reader is utterly at the mercy
+                              <lb/>of the Poet respecting what imagery or diction he may choose to
+                              <lb/>connect with the passion, whereas in the other, the Metre obeys
+                              <lb/>certain laws, to which the Poet and Reader both willingly
+                              sub-<lb/>mit, because they are certain, and because, no interference
+                              is made <lb/>by them with the passion, but such as the concurring
+                              testimony <lb/>of ages has shewn to heighten and improve the pleasure
+                              which <lb/>co-exists with it. </p>
+         <p n="14">It will now be proper to answer an obvious question, namely,
+                              <lb/>why, professing these opinions, have I written in Verse? To this
+                              <lb/>in the first place I reply, because, however I may have
+                              restricted <lb/>myself, there is still left open to me, what
+                              confessedly constitutes <lb/>the most valuable object of all writing,
+                              whether in Prose or Verse, <lb/>the great and universal Passions of
+                              men, the most general and <lb/>interesting of their occupations, and
+                              the entire world of Nature, <lb/>from which I am at liberty to supply
+                              myself with endless combi-<lb/>nations of forms and imagery. Now,
+                              granting for a moment, <lb/>that whatever is interesting in these
+                              objects may be as vividly de-<lb/>scribed in Prose, why am I to be
+                              condemned if to such descrip-<lb/>tion I have endeavoured to superadd
+                              the charm which, by the <lb/>consent of all nations, is acknowledged
+                              to exist in Metrical lan-<lb/>guage ? To this it will be answered that
+                              a very small part of the <lb/>
+            <note>
+               <emph>this contradistinction of
+                                        Poetry and Prose, instead of the more philo-<lb/>sophical
+                                        one of Poetry and Science. The only strict antithesis to
+                                        Prose <lb/>is Metre.</emph>
+            </note>
+            <pb/>
+            <milestone n="xv" unit="page"/>
+            <lb/>pleasure given by Poetry depends upon the
+                              Metre, and that it is <lb/>injudicious to write in Metre, unless it be
+                              accompanied with the <lb/>other artificial distinctions of style with
+                              which Metre is usually <lb/>accompanied ; and that by such deviation
+                              more will be lost from <lb/>the shock which will be thereby given to
+                              the Reader's associa-<lb/>tions, than will be counterbalanced by any
+                              pleasure, which he can <lb/>derive from the general Power of Numbers.
+                              In answer to <lb/>those who thus contend for the necessity of
+                              accompanying <lb/>Metre with certain appropriate colours of style, in
+                              order to the <lb/>accomplishment of its appropriate end, and who,
+                              also, in my <lb/>opinion, greatly under-rate the Power of Metre in
+                              itself, it <lb/>might, perhaps, be almost sufficient to observe, that
+                              Poems <lb/>are extant, written upon more humble subjects, and in a
+                              <lb/>more naked and simple style, than what I have aimed at,
+                              <lb/>which Poems have continued to give pleasure from generation to
+                              <lb/>generation. Now if nakedness and simplicity be a defect, the
+                              <lb/>fact here mentioned affords a strong presumption, that Poems
+                              <lb/>somewhat less naked and simple, are capable of affording pleasure
+                              <lb/>at the present day ; and all that I am now attempting is—to
+                              jus-<lb/>tify myself for having written under the impression of this
+                              be-<lb/>lief.</p>
+         <p n="15">But I might point out various causes why, when the stile is
+                              <lb/>manly, and the subject of some importance, words, Metrically
+                              ar-<lb/>ranged, will long continue to impart such a pleasure to
+                              mankind, <lb/>as he, who is sensible of the extent of that pleasure,
+                              will be desi-<lb/>rous to impart. The end of Poetry is to produce
+                              excitement in <lb/>co-existence with an overbalance of pleasure. Now,
+                              by the sup-<lb/>position, excitement is an unusual and irregular state
+                              of the <lb/>mind ; ideas and feelings do not in that state succeed
+                              each other <lb/>in accustomed order. But, if the words by which this
+                              excite-<lb/>ment is produced are in themselves powerful, or the images
+                              and <lb/>feelings have an undue proportion of pain connected with
+                              them, <lb/>there is some danger, that the excitement may be carried
+                              beyond <lb/>its proper bounds. Now the co-presence of something
+                              regular, <lb/>something to which the mind has been accustomed when in
+                              an <lb/>unexcited, or a less excited state, cannot but have great
+                              efficacy, <lb/>in tempering and restraining the passion, by an
+                              intertexture of <lb/>ordinary feeling. This may be illustrated by
+                              appealing to the <lb/>
+            <pb/>
+            <milestone n="xvi" unit="page"/>
+            <lb/>Reader's own experience, of the reluctance with which he comes
+                              <lb/>to the re-perusal of the distressful parts of Clarissa Harlowe,
+                              or <lb/>the Gamester. While Shakespear’s writings, in the most
+                              pa-<lb/>thetic scenes, never act upon us as pathetic beyond the bounds
+                              <lb/>of pleasure—an effect, which is in a great degree to be
+                              ascribed to <lb/>small, but continual, and regular impulses of
+                              pleasurable sur-<lb/>prise from the Metrical arrangement—On the
+                              other hand (what <lb/>it must be allowed will much more frequently
+                              happen) if the <lb/>Poet’s words should be incommensurate with
+                              the passion, and <lb/>inadequate to raise the Reader to a height of
+                              desirable excite-<lb/>ment, then (unless the Poet’s choice of
+                              his Metre has been gross-<lb/>ly injudicious) in the feelings of
+                              pleasure which the Reader has <lb/>been accustomed to connect with
+                              Metre in general, and in the <lb/>feeling, whether chearful or
+                              melancholy, which he has been ac-<lb/>customed to connect with that
+                              particular movement of Metre, <lb/>there will be found something,
+                              which will greatly contribute to <lb/>impart passion to the words, and
+                              to effect the complex end <lb/>which the Poet proposes to himself.</p>
+         <p>If I had undertaken a systematic defence of the theory upon <lb/>which
+                              these poems are written, it would have been my duty to <lb/>develope
+                              the various causes upon which the pleasure received <lb/>from Metrical
+                              language depends. Among the chief of these <lb/>causes is to be
+                              reckoned a principle, which must be well known <lb/>to those who have
+                              made any of the Arts the object of accurate <lb/>reflection ; I mean
+                              the pleasure which the mind derives from the <lb/>perception of
+                              similitude in dissimilitude. This principle is the <lb/>great spring
+                              of the activity of our minds and their chief feeder. <lb/>From this
+                              principle the direction of the sexual appetite, and all <lb/>the
+                              passions connected with it, take their origin. It is the life <lb/>of
+                              our ordinary conversation ; and upon the accuracy with which
+                              <lb/>similitude in dissimilitude, and dissimilitude in similitude are
+                              <lb/>perceived, depend our taste and our moral feelings. It would not
+                              <lb/>have been a useless employment to have applied this principle to
+                              <lb/>the consideration of Metre, and to have shewn, that Metre is
+                              <lb/>hence enabled to afford much pleasure, and to have pointed out
+                              <lb/>in what manner that pleasure is produced. But my limits will
+                              <lb/>not permit me to enter upon this subject, and I must content
+                              <lb/>myself with a general Summary.</p>
+         <pb/>
+         <milestone n="xvii" unit="page"/>
+         <p n="17">I have said that Poetry is the spontaneous overflow of powerful
+                              <lb/>feelings. It takes its origin from emotion recollected in
+                              tranquil-<lb/>lity ; the emotion is contemplated till by a species of
+                              reaction <lb/>the tranquillity gradually disappears, and an emotion,
+                              similar to <lb/>that which was before the subject of contemplation, is
+                              gradual-<lb/>ly produced, and does itself actually exist in the mind.
+                              In this <lb/>mood successful composition generally begins, and in a
+                              mood si-<lb/>milar to this it is carried on ; but the emotion, of
+                              whatever kind, <lb/>and in whatever degree, from various causes is
+                              qualified by va-<lb/>rious pleasures, so that in describing any
+                              passions whatsoever, <lb/>which are voluntarily described, the mind
+                              will upon the whole be <lb/>in a state of enjoyment. Now if Nature be
+                              thus cautious in pre-<lb/>serving in a state of enjoyment a being thus
+                              employed, the Poet <lb/>ought to profit by the lesson thus held forth
+                              to him, and ought <lb/>especially to take care, that whatever passions
+                              he communicates <lb/>to his Reader, those passions, if his
+                              Reader’s mind be sound and <lb/>vigorous, should always be
+                              accompanied with an overbalance of <lb/>pleasure. Now the music of
+                              harmonious Metrical language, the <lb/>sense of difficulty overcome,
+                              and the blind association of plea-<lb/>sure which has been previously
+                              received from works of Rhyme <lb/>or Metre of the same or similar
+                              construction, all these impercep-<lb/>tibly make up a complex feeling
+                              of delight, which is of the most <lb/>important use in tempering the
+                              painful feeling which will al-<lb/>ways be found intermingled with
+                              powerful descriptions of the <lb/>deeper passions. This effect is
+                              always produced in pathetic and <lb/>impassioned Poetry ; while in
+                              lighter compositions the ease and <lb/>gracefulness with which the
+                              Poet manages his numbers are them-<lb/>selves confessedly a principal
+                              source of the gratification of the <lb/>Reader. I might perhaps
+                              include all which it is <emph>necessary</emph> to say <lb/>upon this
+                              subject by affirming what few persons will deny, that <lb/>of two
+                              descriptions either of passions, manners or characters, <lb/>each of
+                              them equally well executed, the one in Prose and the <lb/>other in
+                              Verse, the Verse will be read a hundred times where the <lb/>Prose is
+                              read once. We see that Pope by the power of Verse <lb/>alone, has
+                              contrived to render the plainest common sense inte-<lb/>resting, and
+                              even frequently to invest it with the appearance of <lb/>passion. In
+                              consequence of these convictions I related in Metre
+                                   <lb/>
+            <pb/>
+            <milestone n="xviii" unit="page"/>
+            <lb/>the Tale of
+                                   <hi>goody blake and harry gill</hi>, which is one <lb/>of the
+                              rudest of this collection. I wished to draw attention to the
+                              <lb/>truth that the power of the human imagination is sufficient to
+                              <lb/>produce such changes even in our physical nature as might
+                              al-<lb/>most appear miraculous. The truth is an important one ; the
+                              <lb/>fact (for it is a <emph>fact</emph>) is a valuable
+                                   illu<orig>s</orig>tration of it. And I <lb/>have the satisfaction
+                              of knowing that it has been communicated to <lb/>many hundreds of
+                              people who would never have heard of it, <lb/>had it not been narrated
+                              as a Ballad, and in a more impressive <lb/>Metre than is usual in
+                              Ballads. </p>
+         <p n="18">Having thus adverted to a few of the reasons why I have
+                              <lb/>written in Verse, and why I have chosen subjects from common
+                              <lb/>life, and endeavoured to bring my language near to the real
+                              lan-<lb/>guage of men, if I have been too minute in pleading my own
+                              <lb/>cause, I have at the same time been treating a subject of
+                              gene-<lb/>ral interest : and it is for this reason that I request the
+                              Reader’s <lb/>permission to add a few words with reference
+                              solely to these <lb/>particular Poems, and to some defects which will
+                              probably be <lb/>found in them. I am sensible that my associations
+                              must have <lb/>sometimes been particular instead of general, and that,
+                              conse-<lb/>quently, giving to things a false importance, sometimes
+                              from <lb/>diseased impulses I may have written upon unworthy subjects;
+                              <lb/>but I am less apprehensive on this account, than that my
+                              lan-<lb/>guage may frequently have suffered from those arbitrary
+                              connec-<lb/>tions of feelings and ideas with particular words, from
+                              which no <lb/>man can altogether protect himself. Hence I have no
+                              doubt, <lb/>that in some instances, feelings even of the ludicrous may
+                              be <lb/>given to my Readers by expressions which appeared to me
+                              ten-<lb/>der and pathetic. Such faulty expressions, were I convinced
+                              <lb/>they were faulty at present, and that they mu<orig>s</orig>t
+                              necessarily con-<lb/>tinue to be so, I would willingly take all
+                              reasonable pains to <lb/>correct. But it is dangerous to make these
+                              alterations on the <lb/>simple authority of a few individuals, or even
+                              of certain classes <lb/>of men ; for where the understanding of an
+                              Author is not con-<lb/>vinced, or his feelings altered, this cannot be
+                              done without <lb/>great injury to himself; for his own feelings are
+                              his stay and <lb/>support, and if he sets them aside in one instance
+                              he may be <lb/>induced to repeat this act till his mind loses all
+                              confidence in it-<lb/>
+            <pb/>
+            <milestone n="xix" unit="page"/>
+            <lb/>self
+                              and becomes utterly debilitated. To this it may be added, <lb/>that
+                              the Reader ought never to forget that he is himself exposed <lb/>to
+                              the same errors as the Poet, and perhaps in a much greater <lb/>degree
+                              ; for there can be no presumption in saying that it is not
+                              <lb/>probable he will be so well acquainted with the various stages of
+                              <lb/>meaning through which words have passed, or with the
+                              fickle-<lb/>ness or <orig>s</orig>tability of the relations of
+                              particular ideas to each other <lb/>and above all, since he is so much
+                              less interested in the subject, <lb/>he may decide lightly and
+                              carelessly. </p>
+         <p n="19">Long as I have detained my Reader, I hope he will permit <lb/>me
+                              to caution him against a mode of false criticism which has <lb/>been
+                              applied to Poetry in which the language closely resembles <lb/>that of
+                              life and nature. Such verses have been triumphed over <lb/>in Parodies
+                              of which Dr. Johnson’s Stanza is a fair specimen.
+                                        <lb/>
+            <lb/>
+            <q>
+               <l>“ I put my hat upon my head</l>
+               <l>And
+                                        walk’d into the Strand,</l>
+               <l>And there I met another
+                                        man</l>
+               <l>Whose hat was in his hand.”</l>
+            </q>
+         </p>
+         <p>Immediately under these lines I will place one of the most
+                                   <lb/>ju<orig>s</orig>tly admired stanzas of the
+                                   “<emph>Babes</emph> in the Wood.”<lb/>
+            <q>
+               <l>“
+                                        These pretty Babes with hand in hand</l>
+               <l>Went wandering up
+                                        and down ;</l>
+               <l>But never more they saw the
+                                        man</l>
+               <l>Approaching from the Town.”</l>
+            </q>
+         </p>
+         <p n="21">In both of these stanzas the words and the order of the words,
+                              <lb/>in no respect differ from the most unimpassioned conversation.
+                              <lb/>There are words in both, for example, “the Strand,”
+                              and the <lb/>Town,” connected with none but the most familiar
+                              ideas; yet <lb/>the one stanza we admit as admirable, and the other as
+                              a fair <lb/>example of the superlatively contemptible. Whence arises
+                              this <lb/>difference ? Not from the Metre, not from the language, not
+                              <lb/>from the order of the words ; but the <emph>matter
+                              </emph>expressed in Dr. <lb/>
+            <pb/>
+            <milestone n="xx" unit="page"/>
+            <lb/>Johnson’s stanza is contemptible. The proper method of
+                              treat-<lb/>ing trivial and simple verses, to which Dr. Johnson's
+                              stanza <lb/>would be a fair parallelism, is not to say, this is a bad
+                              kind <lb/>of Poetry, or this is not Poetry, but, this wants sense; it
+                              is nei-<lb/>ther intere<orig>s</orig>ting in itself, nor can
+                                   <emph>lead</emph> to any thing interesting ; <lb/>the images
+                              neither originate in that sane state of feeling which <lb/>arises out
+                              of thought, nor can excite thought or feeling in the <lb/>Reader. This
+                              is the only sensible manner of dealing with such <lb/>verses : Why
+                              trouble yourself about the species till you have <lb/>previously
+                              decided upon the genus ? Why take pains to prove <lb/>that an Ape is
+                              not a Newton when it is self evident that he is <lb/>not a man.</p>
+         <p n="22">I have one reque<orig>s</orig>t to make of my Reader, which is,
+                              that in <lb/>judging these Poems he would decide by his own feelings
+                              genu-<lb/>inely, and not by reflection upon what will probably be the
+                              judg-<lb/>ment of others. How common is it to hear a person say,
+                              “I <lb/>myself do not object to this style of composition, or
+                              this or that <lb/>expression, but to such and such classes of people
+                              it will appear <lb/>mean or ludicrous.” This mode of criticism,
+                              so destructive of <lb/>all sound unadulterated judgement, is almost
+                              universal : I have <lb/>therefore to request that the Reader would
+                              abide independently <lb/>by his own feelings, and that if he finds
+                              himself affected he <lb/>would not suffer such conjectures to
+                              interfere with his plea-<lb/>sure.</p>
+         <p n="23">If an Author by any single composition has impressed us <lb/>with
+                              respect for his talents, it is useful to consider this as
+                              af-<lb/>fording a presumption, that, on other occasions where we have
+                              <lb/>been displeased, he nevertheless may not have written ill or
+                              ab-<lb/>surdly ; and, further, to give him so much credit for this one
+                              <lb/>composition, as may induce us to review what has displeased us
+                              <lb/>with more care than we should otherwise have bestowed upon it.
+                              <lb/>This is not only an act of justice, but in our decisions, upon
+                              Po-<lb/>etry especially, may conduce in a high degree to the
+                              improvement <lb/>of our own taste; for an <emph>accurate</emph> taste
+                              in Poetry and in all the other <lb/>arts as Sir Joshua Reynolds has
+                              observed, is an <emph>acquired</emph> talent, <lb/>which can only be
+                              produced by thought and a long continued <lb/>intercourse with the
+                              best models of composition. This is men-<lb/>tioned not with so
+                              ridiculous a purpose as to prevent the most <lb/>
+            <pb/>
+            <milestone n="xxi" unit="page"/>
+            <lb/>inexperienced Reader from judging for
+                              himself (I have already <lb/>said that I wish him to judge for
+                              himself) but merely to temper <lb/>the rashness of decision, and to
+                              suggest that if Poetry be a sub-<lb/>ject on which much time has not
+                              been bestowed, the judgment <lb/>may be erroneous, and that in many
+                              cases it necessarily will be so.</p>
+         <p n="24">I know that nothing would have so effectually contributed to
+                              <lb/>further the end which I have in view, as to have shewn of what
+                              <lb/>kind the pleasure is, and how the pleasure is produced which is
+                              <lb/>confessedly produced by Metrical composition essentially
+                              diffe-<lb/>rent from what I have here endeavoured to recommend ; for
+                              the <lb/>Reader will say that he has been pleased by such composition,
+                              <lb/>and what can I do more for him? The power of any art is
+                              limit-<lb/>ed and he will suspect, that if I propose to furnish him
+                              with <lb/>new friends it is only upon condition of his abandoning his
+                              old <lb/>friends. Besides as I have said, the Reader is himself
+                              conscious <lb/>of the pleasure which he has received from such
+                              composition, <lb/>composition to which he has peculiarly attached the
+                              endearing <lb/>name of Poetry; and all men feel an habitual gratitude,
+                              and <lb/>something of an honorable bigotry for the objects which have
+                              <lb/>long continued to please them : we not only wish to be pleased,
+                              <lb/>but to be pleased in that particular way in which we have been
+                              <lb/>accustomed to be pleased. There is a host of arguments in these
+                              <lb/>feelings; and I should be the less able to combat them
+                              success-<lb/>fully, as I am willing to allow, that, in order entirely
+                              to en-<lb/>joy the Poetry which I am recommending, it would be
+                              necessary <lb/>to give up much of what is ordinarily enjoyed. But
+                              would my <lb/>limits have permitted me to point out how this pleasure
+                              is <lb/>produced, I might have removed many obstacles, and assisted
+                              <lb/>my Reader in perceiving that the powers of language are not so
+                              <lb/>limited as he may suppose ; and that it is possible that Poetry
+                              may <lb/>give other enjoyments, of a purer, more lasting and more
+                                   exqui-<lb/>
+            <orig>s</orig>ite nature. But this part of my subject
+                              I have been obliged al-<lb/>together to omit ; as it has been less my
+                              present aim to prove <lb/>that the interest excited by some other
+                              kinds of Poetry is less vi-<lb/>vid, and less worthy of the nobler
+                              powers of the mind, than to <lb/>offer reasons for presuming, that, if
+                              the object which I have pro-<lb/>posed to myself were adequately
+                              attained, a species of Poetry <lb/>would be produced, which is genuine
+                              Poetry; in its nature <lb/>
+            <pb/>
+            <milestone n="xxii" unit="page"/>
+            <lb/>well adapted to interest mankind permanently, and likewise
+                              im-<lb/>portant in the multiplicity and quality of its moral
+                              relations.</p>
+         <p n="25">From what has been said, and from a perusal of the Poems,
+                              <lb/>the Reader will be able clearly to perceive the object which I
+                              have <lb/>proposed to myself ; he will determine how far I have
+                              attained <lb/>this object; and, what is a much more important
+                              question, whe-<lb/>ther it be worth attaining ; and upon the decision
+                              of these two <lb/>questions will rest my claim to the approbation of
+                              the Public.</p>
+      </body>
+   </text>
+</TEI>

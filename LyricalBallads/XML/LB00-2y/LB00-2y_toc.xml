@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[Table of Contents]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">0</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="toc">
+            <head rend="bold">[CONTENTS of proofsheets, added by Editors:</head>
+            <p>HART-LEAP WELL. <ref type="single" target="LB00-2y_HART">1</ref>
+               <lb/>
+                              The BROTHERS. <ref type="single" target="LB00-2y_BROTHERS">19</ref>
+               <lb/>
+                              ELLEN (no title, stanza 1 missing) <ref type="single" target="LB00-2y_ELLEN">47</ref>
+               <lb/>
+                              Strange fits of passion <ref type="single" target="LB00-2y_LucSTRANGE">50</ref>
+               <lb/>
+                              SONG. She dwelt among <ref type="single" target="LB00-2y_LucDWELT">52</ref>
+               <lb/>
+                              The Waterfall and the Eglantine (no title; "Dost thou presume...") <ref type="single" target="LB00-2y.xml_WFALL">55</ref>
+               <lb/>
+                              The OAK and the BROOM <ref type="single" target="LB00-2y_OAK">58</ref>
+               <lb/>
+                              LUCY GRAY. <ref type="single" target="LB00-2y_GRAY">64</ref>
+               <lb/>
+                              The IDLE SHEPHERD-BOYS <ref type="single" target="LB00-2y_IDLE"/>
+               <lb/>
+                              Tis said, that some have died for love: <ref type="single" target="LB00-2y_TisSAID">76</ref>
+               <lb/>
+                              POOR SUSAN. <ref type="single" target="LB00-2y_SUSAN">80</ref>
+               <lb/>
+                              INSCRIPTION <lb/>
+               <lb/>For the Spot where the HERMITAGE stood <ref type="single" target="LB00-2y_InscripHERM">82</ref>
+               <lb/>
+                              Lines written with a pencil <ref type="single" target="LB00-2y_InscripHOUSE">84</ref>
+               <lb/>
+                              ANDREW JONES. <ref type="single" target="LB00-2y_JONES">89</ref>
+               <lb/>
+                              The TWO THIEVES <ref type="single" target="LB00-2y_THIEVES">92</ref>
+               <lb/>
+                              A whirl-blast <ref type="single" target="LB00-2y_WHIRL">96</ref>
+               <lb/>
+                              SONG for the WANDERING JEW. <ref type="single" target="LB00-2y_WANDER">98</ref>
+               <lb/>
+                              RUTH <ref type="single" target="LB00-2y_RUTH">103</ref>
+               <lb/>
+                              When through this little wreck of fame / If Nature <ref type="single" target="LB00-2y__IfNATURE">121</ref>
+               <lb/>
+                              Two APRIL MORNINGS <ref type="single" target="LB00-2y_APRIL">123</ref>
+               <lb/>
+                              The FOUNTAIN <ref type="single" target="LB00-2y_">127</ref>
+               <lb/>
+                              NUTTING <ref type="single" target="LB00-2y_NUTTING">133</ref>
+               <lb/>
+                              Three years she grew <ref type="single" target="LB00-2y_Luc3YEARS">136</ref>
+               <lb/>
+                              The PET-LAMB <ref type="single" target="LB00-2y_PET-LAMB">139</ref>
+               <lb/>
+                              Written in GERMANY <ref type="single" target="LB00-2y_GERMANY">144</ref>
+               <lb/>
+                              The CHILDLESS FATHER. <ref type="single" target="LB00-2y_CHILDLESS">147</ref>
+               <lb/>
+                              The OLD CUMBERLAND BEGGAR <ref type="single" target="LB00-2y_BEGGAR">151</ref>
+               <lb/>
+                              RURAL ARCHITECTURE. <ref type="single" target="LB00-2y_RURAL">163</ref>
+               <lb/>
+                              A POET’s EPITAPH. <ref type="single" target="LB00-2y_EptphPOET">165</ref>
+               <lb/>
+                              A FRAGMENT. <ref type="single" target="LB00-2y_FRAG">171</ref>
+               <lb/>
+                              POEMS on the NAMING of PLACES. <ref type="single" target="LB00-2y_NAMING">179</ref>
+               <lb/>
+                              MICHAEL <ref type="single" target="LB00-2y_MICHAEL">199</ref>
+               <lb/>
+               <hi rend="bold">]</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, an electronic edition</title>
+            <author>Samuel Taylor Coleridge and William Wordsworth </author>
+            <editor>Bruce Graver and Ronald Tetreault </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Second edition, 1800</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edited from the copy of <emph>Lyrical Ballads</emph>, 1800, vol. 2,containing
+                         corrections for the 1802 edition, in the Beinecke Library, Yale University,
+                         Summer, 1997</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI-conformant SGML by Bruce Graver and Ronald Tetreault, with
+                    significant help from CETH, the STG, and others; encoding
+                    upgraded to TEI P5 xml by Laura Mandell, 7/3/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <div type="inscription" xml:id="inscription">
+            <p rend="signature">This book is made <lb/>up of proof <lb/>sheets of the original
+                                   edition; <lb/>and the M.SS <lb/>corrections are <lb/>by the hand of
+                                   <lb/>the Authors <lb/>Sister Dorothy <lb/>Wordsworth &amp; by the authour
+                                   himself<lb/>in Some <lb/>cases <lb/>This book <lb/>belonged to
+                                   <lb/>the Author's <lb/>nephew, John <lb/>Wordsworth, Son <lb/>of
+                                   Richard <lb/>Wordsworth. <lb/>Chr W-- </p>
+            <pb n="1"/>
+            <p rend="signature" xml:id="ggw">John Wordsworth (only son of Richard <lb/>Elder brother of
+                                   W. W. the Poet and <lb/>of J. W. Captn of the ‘Earl of
+                                   Abergavenny’ <lb/>and of Chr. W. master of Trin. Coll. Cam.,
+                                   <lb/>and of Dorothy W.) was Staff-Assistant <lb/>surgeon to H. M.
+                                   Forces in the Ionian <lb/>Island, and died at Ambleside <lb/>Aug.18,
+                                   1846, aged 31, unmarried. </p>
+         </div>
+         <pb/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

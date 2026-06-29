@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: The Complaint of a Forsaken Indian Woman</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_INDIAN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="INDIAN">
+                  <title>[INDIAN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">67</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lyrical Ballads, 1802: [Indian Woman's Complaint title page]</title>
+               <editor>
+                  <name xml:id="BG">Bruce Graver</name>
+               </editor>
+               <editor>
+                  <name xml:id="RT">Ronald Tetreault</name>
+               </editor>
+               <respStmt>
+                  <resp>Technical Editor; Producer</resp>
+                  <name xml:id="LM">Laura Mandell</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Romantic Circles</publisher>
+               <idno type="local">LB02-2_INDIANf</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <biblStruct>
+                  <monogr xml:id="LB02-2">
+                     <ptr target="../XML/LB02-2.xml"/>
+                     <imprint>
+                        <publisher>T. N. Longman and O. Rees</publisher>
+                        <pubPlace/>
+                        <date>1802</date>
+                     </imprint>
+                     <biblScope unit="page">65 to 66</biblScope>
+                     <biblScope unit="pages">2</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb/>
+            <milestone n="65" unit="page"/>
+            <lb/>
+            <lb/>
+            <head>
+               <hi rend="small">THE
+                                   </hi>
+               <lb/>
+               <lb/>
+               <emph>COMPLAINT</emph>
+               <lb/>
+               <lb/>
+               <hi rend="small">of a forsaken</hi>
+               <lb/>
+               <lb/>
+               <emph>INDIAN WOMAN.
+                              </emph>
+               <lb/>
+            </head>
+            <argument xml:id="ARGUin">
+               <p>[<emph>When a Northern Indian, from sickness, is unable <lb/>to
+                                        continue his journey with his companions ; he is <lb/>left
+                                        behind, covered over with Deer-skins ; and is <lb/>supplied
+                                        with water, food, and fuel, if the situation <lb/>of the
+                                        place will afford it. He is informed of the <lb/>track which
+                                        his companions intend to pursue, and <lb/>if he is unable to
+                                        follow, or overtake them, he <lb/>perishes alone in the
+                                        Desart; unless he should have <lb/>the good fortune to fall
+                                        in with some other Tribes <lb/>of Indians. The females are
+                                        equally, or still more, <lb/>exposed to the same fate. See
+                                        that very interesting</emph>
+                  <pb/>
+                  <milestone n="66" unit="page"/>
+                  <lb/>
+                  <lb/>
+                  <emph>work</emph>, Hearne’s
+                                   Journey <emph>from </emph>Hudson’s Bay <emph>to
+                                   the</emph>
+                  <lb/>Northern Ocean. <emph> In the high Northern
+                                        Lati-<lb/>tudes, as the same writer informs us, when the
+                                        <lb/>Northern Lights vary their position in the air,
+                                        <lb/>they make a rustling and a crackling noise. This
+                                        <lb/>circumstance is alluded to in the first stanza of
+                                        <lb/>the following poem.</emph>] </p>
+            </argument>
+         </front>
+         <body>
+            <p> </p>
+         </body>
+      </text>
+      <body>
+         <pb/>
+         <milestone n="67" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>THE COMPLAINT, </emph>
+            <lb/>
+            <lb/>&amp;<emph>c.</emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Before I see another day,</l>
+            <l n="2">Oh let my body die away!</l>
+            <l n="3">In sleep I heard the northern gleams; </l>
+            <l n="4">The stars they were among my dreams; </l>
+            <l n="5">In sleep did I behold the skies, </l>
+            <l n="6">I saw the crackling flashes drive; </l>
+            <l n="7">And yet they are upon my eyes,</l>
+            <l n="8">And yet I am alive.</l>
+            <l n="9">Before I see another day,</l>
+            <l n="10">Oh let my body die away!</l>
+         </lg>
+         <pb/>
+         <milestone n="68" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="11">My fire is dead: it knew no pain; </l>
+            <l n="12">Yet it is dead, and I remain. </l>
+            <l n="13">All stiff with ice the ashes lie; </l>
+            <l n="14">And they are dead, and I will die. </l>
+            <l n="15">When I was well, I wished to live, </l>
+            <l n="16">For clothes, for warmth, for food, and fire; </l>
+            <l n="17">But they to me no joy can give, </l>
+            <l n="18">No pleasure now, and no desire. </l>
+            <l n="19">Then here contented will I lie! </l>
+            <l n="20">Alone I cannot fear to die. </l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">Alas! you might have dragged me on </l>
+            <l n="22">Another day, a single one! </l>
+            <l n="23">Too soon despair o’er me prevail’d; </l>
+            <l n="24">Too soon my heartless spirit fail’d; </l>
+            <l n="25">When you were gone my limbs were stronger;</l>
+            <l n="26">And Oh how grievously I rue, </l>
+            <l n="27">That, afterwards, a little longer,</l>
+            <l n="28">My Friends, I did not follow you!</l>
+            <l n="29">For strong and without pain I lay,</l>
+            <l n="30">My Friends, when you were gone away. </l>
+         </lg>
+         <pb/>
+         <milestone n="69" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="31">My Child! they gave thee to another, </l>
+            <l n="32">A woman who was not thy mother.</l>
+            <l n="33">When from my arms my Babe they took, </l>
+            <l n="34">On me how strangely did he look! </l>
+            <l n="35">Through his whole body something ran, </l>
+            <l n="36">A most strange something did I see; </l>
+            <l n="37">—As if he strove to be a man, </l>
+            <l n="38">That he might pull the sledge for me. </l>
+            <l n="39">And then he stretched his arms, how wild! </l>
+            <l n="40">Oh mercy! like a little child.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="41">My little joy! my little pride!</l>
+            <l n="42">In two days more I must have died. </l>
+            <l n="43">Then do not weep and grieve for me; </l>
+            <l n="44">I feel I must have died with thee. </l>
+            <l n="45">Oh wind, that o’er my head art flying</l>
+            <l n="46">The way my Friends their course did bend,</l>
+            <l n="47">I should not feel the pain of dying, </l>
+            <l n="48">Could I with thee a message send! </l>
+            <l n="49">Too soon, my Friends, you went away; </l>
+            <l n="50">For I had many things to say. </l>
+         </lg>
+         <pb/>
+         <milestone n="70" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="51">I’ll follow you across the snow; </l>
+            <l n="52">You travel heavily and slow: </l>
+            <l n="53">In spite of all my weary pain, </l>
+            <l n="54">I’ll look upon your tents again. </l>
+            <l n="55">—My fire is dead, and snowy white </l>
+            <l n="56">The water which beside it stood; </l>
+            <l n="57">The wolf has come to me to-night, </l>
+            <l n="58">And he has stolen away my food. </l>
+            <l n="59">For ever left alone am I, </l>
+            <l n="60">Then wherefore should I fear to die?</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="61">My journey will be shortly run,</l>
+            <l n="62">I shall not see another sun;</l>
+            <l n="63">I cannot lift my limbs to know</l>
+            <l n="64">If they have any life or no.</l>
+            <l n="65">My poor forsaken child! if I</l>
+            <l n="66">For once could have thee close to me,</l>
+            <l n="67">With happy heart I then should die,</l>
+            <l n="68">And my last thoughts would happy be.</l>
+            <l n="69">I feel my body die away,</l>
+            <l n="70">I shall not see another day.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

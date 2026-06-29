@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: [The Female Vagrant title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-L_VAGRANTf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB98-L">
+                  <ptr target="../XML/LB98-L.xml"/>
+                  <imprint>
+                     <publisher>J. &amp; A. Arch</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">68</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="68"/>
+         <epigraph>
+            <q>
+               <l>Time flies—it is his melancholy task</l>
+               <l>To bring and bear away illusive
+                hopes</l>
+               <l>And reproduce the troubles hi destroy’s.</l>
+               <l>But while his
+                blindness thus is occupied</l>
+               <l>Discerning Mortal do Thou serve the will</l>
+               <l>Of
+                Time’s eternal Master and that peace,</l>
+               <l>Which the World wants, shall be
+                for Thee confirmed</l>
+            </q>
+         </epigraph>
+         <p rend="signature">Excursion—<lb/>
+            <name>Wm Wordsworth</name>
+            <lb/>
+            <date>July-5th
+              1834</date>
+         </p>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

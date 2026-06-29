@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Lyrical Ballads: PREF</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="cfisonMainCH.css" />
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0 2em 1em 5em;
+    width: 80rem;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 16rem);
+    padding: 1rem 0;
+}
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.dropdown-container label {
+    font-weight: bold;
+    color: #3f6345;
+    font-size: 0.9rem;
+}
+.dropdown-container select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #3f6345;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.dropdown-container select:hover { background-color: #f0f0f0; }
+.dropdown-container select:focus { outline: none; border-color: #06330e; }
+.edition-description {
+    min-height: 4rem;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    color: #555;
+    font-style: italic;
+    line-height: 1.4;
+}
+iframe {
+    margin-top: -1rem;
+    width: 100%;
+    height: 50rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.banner { width: 100%; height: 5rem; }
+nav { width: 100%; clear: both; }
+ul#navBar {
+    list-style-type: none;
+    margin-top: -1rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f6345;
+    z-index: 3;
+}
+ul#navBar li { float: left; }
+ul#navBar li a {
+    font-family: "Cormorant+Garmond";
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul#navBar li a:hover { background-color: #06330e; }
+.active { background-color: #06330e; }
+ul.edMenu > li { display: inline; }
+ul.edMenu > li > strong { color: green; font-weight: bold; font-size: 125%; }
+img.logo {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 10.2rem;
+    float: right;
+    margin-left: -4rem;
+}
+a { text-decoration: none; }
+a:hover { color: #3f6345; }
+a:visited { color: #4f809c; }
+.altNav { position: fixed; top: 0; right: 1rem; }
+.volumes { list-style-type: none; padding: 0; margin: 0; }
+.volumes li { margin: 0.25rem 0; }
+.volumes a {
+    color: #3f6345;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    display: block;
+    border-radius: 3px;
+}
+.volumes a:hover { background-color: #f0f0f0; color: #06330e; }
+h3 { text-align: center; margin: 1rem 0; font-size: 1.5rem; }
+h4.frame-toggle {
+    text-align: center;
+    margin: 0.25rem 0 0.75rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #888;
+}
+h4.frame-toggle a {
+    color: #888;
+    cursor: pointer;
+    text-decoration: none;
+}
+h4.frame-toggle a:hover { color: #3f6345; }
+h4.frame-toggle a.active-toggle {
+    color: #3f6345;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table.frames { width: 100%; border: none; }
+td { width: 33%; }
+/* When middle column is hidden, outer columns expand to 50% */
+table.frames.two-frames td.middle-col { display: none; }
+table.frames.two-frames td { width: 50%; }
+.major { margin-top: -1rem; text-align: center; }
+.share-container { text-align: center; margin-bottom: 1rem; }
+.copy-btn {
+    background-color: #3f6345;
+    color: white;
+    border: 2px solid #3f6345;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+.copy-btn:hover { background-color: #06330e; border-color: #06330e; }
+.copy-btn:focus { outline: none; box-shadow: 0 0 0 2px rgba(63, 99, 69, 0.5); }
+.copy-feedback {
+    display: none;
+    color: #06330e;
+    margin-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+/*
+ * NOTE FOR FRAMED DOCUMENTS (f1 / f2):
+ * Add this rule to the CSS of any edition document that has
+ * "no corresponding text" placeholder divs:*/
+ 
+ [id^="chunk"][data-placeholder] {
+       display: none;
+       border-left: 3px solid #b0c4b1;
+       background: #f6faf6;
+       padding: 0.4rem 0.75rem;
+       margin: 0.5rem 0;
+       color: #666;
+       font-style: italic;
+       font-size: 0.9rem;
+       border-radius: 3px;
+    }
+       </style>
+    </head>
+    <body>
+        <div class="altNav">
+            <h5><em><a href="#top">Top</a></em><br/><em><a href="../compare.html">Back</a></em></h5>
+        </div>
+        <div class="main-container" id="top">
+            <h3 class="page-title">Compare 1800 with 1802 Preface</h3>
+            <h4 class="frame-toggle">
+                <a href="#" id="toggle2" onclick="setFrames(2); return false;">2 frames</a>
+                &#160;|&#160;
+                <a href="#" id="toggle3" onclick="setFrames(3); return false;" class="active-toggle">3 frames</a>
+                &#160;&#160;&#160;&#9474;&#160;&#160;&#160;
+                <a href="#" id="toggleSync" onclick="toggleSync(); return false;" class="active-toggle">sync scroll: on</a>
+                &#160;&#160;&#160;&#9474;&#160;&#160;&#160;
+                <a href="#" id="resetScroll" onclick="resetAllFrames(); return false;" style="color: #3f6345; font-weight: bold;">[Reset]</a>
+            </h4>
+            <table class="frames" id="framesTable">
+                <tr>
+                    <td>
+                        <div class="dropdown-container">
+                            <select id="dropdown1">
+                                <option value="" data-description="">Select an edition...</option>
+                                <option value="LB00-1_PREFcf.html" data-description="1800: Lyrical Ballads, London imprint (Longman, with Bristol printer), 
+                                    volume 1, second edition (Simon Fraser University Library)">
+                                    1800: vol. 1, 2nd ed.</option>
+                            </select>
+                            <div class="edition-description" id="description1">Select an edition to view its description</div>
+                        </div>
+                    </td>
+                    <td class="middle-col">
+                        <div class="dropdown-container">
+                            <select id="dropdown3">
+                                <option value="" data-description="">Select Comparison</option>
+                                <option value="1802PrefRev.html" data-description="Changes made to the 1800 preface for the the third edition, 1802">1800vs1802</option>
+                            </select>
+                            <div class="edition-description" id="description3">Select a track-changes document</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown-container">
+                            <select id="dropdown2">
+                                <option value="" data-description="">Select an edition...</option>
+                                <option value="LB02-1_PREFcf.html" data-description="1802: Sarah Hutchinson's copy, volume 1 of the third edition, 
+                                    London imprint, with an inscription by Mary Wordsworth (Wordsworth Trust)">
+                                    1802: vol. 1, 3rd ed.</option>
+                            </select>
+                            <div class="edition-description" id="description2">Select an edition to view its description</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe name="first" id="f1" src="placeHolder.html"></iframe></td>
+                    <td class="middle-col"><iframe name="third" id="f3" src="placeHolder.html"></iframe></td>
+                    <td><iframe name="second" id="f2" src="placeHolder.html"></iframe></td>
+                </tr>
+            </table>
+            <h5><em><em><a href="#top">Top</a></em> / <a href="../compare.html">Back</a></em> / <a href="../index.html"><em>Home</em></a></h5>
+        </div>
+        <script>
+            // ── Universal Synchronized scrolling ──────────────────────────────────────
+let syncEnabled = true;
+let isSyncing = false; // The "Lock" to prevent circular loops
+let syncTimer = null;
+
+const frameIds = ['f1', 'f2', 'f3'];
+
+function toggleSync() {
+    syncEnabled = !syncEnabled;
+    const btn = document.getElementById('toggleSync');
+    btn.textContent = `sync scroll: ${syncEnabled ? 'on' : 'off'}`;
+    btn.classList.toggle('active-toggle', syncEnabled);
+}
+
+/**
+ * Finds the chunk currently at the top of a specific document
+ */
+function getActiveChunkId(doc) {
+    const chunks = Array.from(doc.querySelectorAll('[id^="chunk"]'));
+    if (!chunks.length) return null;
+
+    const threshold = 60; // Pixels from top
+    let activeId = chunks[0].id;
+
+    for (const el of chunks) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= threshold) {
+            activeId = el.id;
+        } else {
+            break;
+        }
+    }
+    return activeId;
+}
+
+/**
+ * The core sync function triggered by any frame
+ */
+function handleFrameScroll(sourceFrameId) {
+    if (!syncEnabled || isSyncing) return;
+
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => {
+        isSyncing = true; // Lock!
+
+        const sourceFrame = document.getElementById(sourceFrameId);
+        const sDoc = sourceFrame.contentDocument || sourceFrame.contentWindow.document;
+        const targetChunkId = getActiveChunkId(sDoc);
+
+        if (targetChunkId) {
+            frameIds.forEach(id => {
+                if (id === sourceFrameId) return; // Don't scroll the source
+
+                const targetFrame = document.getElementById(id);
+                try {
+                    const tDoc = targetFrame.contentDocument || targetFrame.contentWindow.document;
+                    const targetEl = tDoc.getElementById(targetChunkId);
+                    
+                    if (targetEl) {
+                        // Handle placeholders if they exist
+                        if (targetEl.dataset.placeholder) {
+                            targetEl.style.display = 'block';
+                        }
+                        targetEl.scrollIntoView({ behavior: 'auto', block: 'start' });
+                    }
+                } catch (e) {
+                    console.warn(`Cannot sync frame ${id}:`, e);
+                }
+            });
+        }
+
+        // Release lock after a brief delay to allow the programmatic scrolls to finish
+        setTimeout(() => { isSyncing = false; }, 50);
+    }, 50); 
+}
+
+/**
+ * Attaches listeners to an iframe once it's loaded
+ */
+function initFrameSync(id) {
+    const iframe = document.getElementById(id);
+    iframe.addEventListener('load', () => {
+        try {
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            doc.addEventListener('scroll', () => handleFrameScroll(id), { passive: true });
+        } catch (e) {
+            console.error("CORS Error: Ensure you are running on a server (localhost/http).");
+        }
+    });
+}
+
+// ── Menu and Initialization ──────────────────────────────────────────────
+
+function setupApp() {
+    const $ = (id) => document.getElementById(id);
+
+    // Initialize sync for all 3
+    frameIds.forEach(initFrameSync);
+
+    function wire(dropId, descId, frameId) {
+        const dd = $(dropId);
+        const desc = $(descId);
+        const fr = $(frameId);
+
+        dd.addEventListener('change', () => {
+            const opt = dd.options[dd.selectedIndex];
+            if (opt && opt.value) {
+                fr.src = opt.value;
+                desc.textContent = opt.getAttribute('data-description') || '';
+            }
+        });
+    }
+
+    wire('dropdown1', 'description1', 'f1');
+    wire('dropdown3', 'description3', 'f3');
+    wire('dropdown2', 'description2', 'f2');
+
+    // Handle URL Params
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('left'))   { $('dropdown1').value = params.get('left');   $('dropdown1').dispatchEvent(new Event('change')); }
+    if (params.get('middle')) { $('dropdown3').value = params.get('middle'); $('dropdown3').dispatchEvent(new Event('change')); }
+    if (params.get('right'))  { $('dropdown2').value = params.get('right');  $('dropdown2').dispatchEvent(new Event('change')); }
+}
+
+document.addEventListener('DOMContentLoaded', setupApp);
+
+function setFrames(n) {
+    const table = document.getElementById('framesTable');
+    table.classList.toggle('two-frames', n === 2);
+    document.getElementById('toggle2').classList.toggle('active-toggle', n === 2);
+    document.getElementById('toggle3').classList.toggle('active-toggle', n === 3);
+}</script>
+    </body>

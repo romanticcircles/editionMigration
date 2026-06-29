@@ -1,0 +1,132 @@
+Create an xml copy of the sgml by changing the root elements from TEI.2 to TEI and saving the documents as ".xml".
+
+Next, find and replace 
+<publicationStmt>
+                    <p>Not for publication or distribution, yet.</p>
+               </publicationStmt>
+
+With
+<publicationStmt>
+<publisher>Romantic Circles</publisher>
+                <idno type="local">[File name without extension]</idno>
+</publicationStmt>
+
+Run the python script which creates a copy in the XML folder and corrects:
+python3 xml_transformer.py input_file.xml -o output_file.xml
+
+The python script does the following:
+
+Find replace mdash with &#8212;
+
+Find replace &oelig; oe ligature with &#339;
+
+&ldquo; = &#8220;
+&rdquo; = &#8221;
+&lsquo;= &#8216;
+&rsquo;= &#8217;
+
+AFTER RUNNING PYTHON SCRIPT (should have been added into python script):
+
+Change part="y" to capital “Y” – true for F, I, etc.
+Change iso to utf
+
+Change <lb> to <lb/>
+Change & to &amp;
+
+Change type=”verse paragraph” to type=”verseparagraph” 
+
+Change &dagger; to &#8224;
+&sol; to &#47;
+
+MANUAL ADJUSTMENTS
+
+Manually fix notes, depending on how they work in the original, but you need to change at the end of the document, in the notes section, <note><p> tags to <p rend=”note”>; manually remove end note tags or terrible things will happen to other notes during the xslt transform.
+
+Make errata lists with type errata – if it is a p, it’s rend errList.
+
+Create p type header for when no div and inside a body.
+If needed, caret insertion point: &#8257;
+
+<hi> by itself seems to mean “smcps” but so does <hi rend=”small”): the xslt rends each hi without an attribute as “smcaps,” and the css currently makes all “small” and “smcps” into small-caps.
+
+Systemmatizing: each poem is <text> because it can have <front> and <body> (sometimes necessary): 
+
+The fundamental structure:
+
+<text>
+<front>
+</front>
+    <group>
+        <text>
+            <body>
+            </body>
+        </text>
+    </group>
+</text>
+
+Or sometimes:
+
+<text>
+<front>
+</front>
+    <group>
+        <text>
+            <front>[tp for a single poem]
+            </front>
+            <body>
+            </body>
+        </text>
+    </group>
+</text>
+
+Systematizing: blank pbs can go between text and body, but if only one pb, then inside <body>; there are also blank pbs between text and text
+
+Milestone unit needs to be changed to “page” if it is “pagenumber”
+
+Put <div type poem> inside body tags that contain rhyme schemes because invalid): take the rhyme att out of body and put it into the div. There was a metrical definition:
+--LBs98-Bbl (We are Seven, Expostulation and Reply [Anecdote there but no rhyme scheme])
+--BEDDOES (Anecdote, We are Seven, Expostulation and Reply)
+--bnypl (We are Seven, Expostulation and Reply [no Anecdote])
+--bp (We are Seven, Expostulation and Reply [Anecdote there but no rhyme scheme])
+--BY (We are Seven, Expostulation and Reply [Anecdote there but no rhyme scheme])
+--by1 (We are Seven, Expostulation and Reply [Anecdote there but no rhyme scheme])
+--L (Anecdote, We are Seven, Expostulation and Reply)
+--pinney (Anecdote, We are Seven, Expostulation and Reply)
+--STC (We are Seven, Expostulation and Reply [Anecdote there but no rhyme scheme])
+-- LBP1-campbell: rhyme for LINES Written at a small distance from my house and sent by my little boy to the person to whom they are addressed and Anecdote, We are Seven, Expostulation and Reply
+
+Added to the Code:
+
+IDs for <front> and <body> items: ex. IDIOTf and IDIOT, RIMEfstc
+
+In the xml:ids, “f” is frontmatter such as an internal title; stc is written by Coleridge, tb by Beddoes
+
+<orig>s</orig> = Long s = &#383;
+
+caret insertion point: &#8257;
+
+Lg type poem means that the poem doesn’t have stanzas, so the line group (lg) contains the whole poem.
+
+Any truly END endnotes need to have in the poem title <ref type=”endnote” target=”#[xml:id]”>[what you want displayed as a superscript]</ref> instead of an actual note tag containing the note: we are not going to actually CREATE the note at the end (no “mode=’end’”) because they are already transcribed at the end of the witnesses. So what goes inside the note tag isn’t the note itself, it reflects where the notes appear in the witness.
+
+Make sure that footnotes placed at the bottom of the page are NOT inside the stanza.
+
+The xslt looks in <note> for place – head, foot, and then endnote is default. And at the end, I have <p rend / class = “note.”
+
+Stanza headers cannot be <head>, they have to be <label>.
+
+
+Cancels [LB001a:]
+
+<pb xml:id="endOrig"/> -- put that anchor where the Cancel would continue if it were in the right place
+
+the Preface continues <ref target="#endOrig">here</ref>
+
+The uncancelled (old) version needs to have the id –orig
+The new, the cancel, has to have the id –Change
+
+The div in which the changed part appears has the id –Cancel
+
+<body xml:id="guideTOC">
+The toc that serves when there isn’t one.
+

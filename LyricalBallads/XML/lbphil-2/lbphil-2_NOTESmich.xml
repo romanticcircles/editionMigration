@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Endnotes on Michael</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_NOTESmich</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="NOTESmich">
+                  <title>[Endnotes on Michael</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">0</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>N<hi>otes</hi> to the P<hi>oem</hi> of M<hi>ichael</hi>.</head>
+         <div xml:id="note1m">
+            <p>
+               <hi rend="bold">N<hi rend="small">ote</hi> 1</hi>. Page 159, line 12.
+                                   “There’s Richard Bateman,” <lb/>&amp;c. The
+                                   Story alluded to here is well known in the country. <lb/>The
+                                   Chapel is called Ings Chapel ; and is on the right hand <lb/>side
+                                   of the road leading from Kendal to Ambleside.<lb/>
+            </p>
+         </div>
+         <div xml:id="note2m">
+            <p>
+               <hi rend="bold">N<hi rend="small">ote </hi>2</hi>. Page 162, line 1. “
+                                   ———had design’d to <lb/>build a
+                                   Sheep-fold.” &amp;c. It may be proper to inform some
+                                   rea-<lb/>ders, that a sheep-fold in these mountains is an
+                                   unroofed build-<lb/>ing of stone walls with different divisions.
+                                   It is generally pla-<lb/>ced by the side of a brook for the
+                                   convenience of washing the <lb/>sheep ; but it is also useful as
+                                   a shelter for them, and as a place <lb/>to drive them into, to
+                                   enable the shepherds conveniently to sin-<lb/>gle out one or more
+                                   for any particular purpose.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

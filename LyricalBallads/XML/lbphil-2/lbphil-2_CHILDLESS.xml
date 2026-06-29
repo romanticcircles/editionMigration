@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: The Childless Father</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_CHILDLESS</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="CHILDLESS">
+                  <title>The Childless Father</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">117 to 118</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="117" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <hi>the</hi>
+            <lb/>
+            <lb/>
+            <emph>CHILDLESS FATHER.</emph>
+         </head>
+         <lb/>
+         <lg n="1" type="stanza">
+            <l n="1">UP, Timothy, up with your staff and away!</l>
+            <l n="2">Not a soul in the village this morning will stay;</l>
+            <l n="3">The Hare has just started from Hamilton’s grounds,</l>
+            <l n="4">And Skiddaw is glad with the cry of the hounds.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">—Of coats and of jackets both grey, scarlet and green,
+                                        <add hand="jdc"/>
+            </l>
+            <l n="6">On the slopes of the pastures all colours were seen;</l>
+            <l n="7">With their comely blue aprons and caps white as snow,</l>
+            <l n="8">The girls on the hills made a holiday show.</l>
+         </lg>
+         <pb/>
+         <milestone n="118" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="9">The bason of Box-wood,* just six months before,</l>
+            <l n="10">Had stood on the table at Timothy’s door,</l>
+            <l n="11">A Coffin thro’ Timothy’s threshold had
+                                   pass’d,</l>
+            <l n="12">One Child did it bear, and that child was his last.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">Now fast up the dell came the noise and the fray,</l>
+            <l n="14">The horse and the horn, and the Hark! Hark away!</l>
+            <l n="15">Old Timothy took up his staff, and he shut</l>
+            <l n="16">With a leizurely motion the door of his hut.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Perhaps to himself at that moment he said,</l>
+            <l n="18">“ The key I must take, for my Ellen is
+                                   dead.”</l>
+            <l n="19">But of this in my ears not a word did he speak,</l>
+            <l n="20">And he went to the Chase with a tear on his cheek.</l>
+         </lg>
+         <note> * In several parts of the North of England, when <lb/>a funeral
+                              takes place, a bason full of Sprigs of Box-<lb/>wood is placed at the
+                              door of the house from which <lb/>the Coffin is taken up, and each
+                              person who attends <lb/>the funeral ordinarily takes a Sprig of this
+                              Box-wood, <lb/>and throws it into the grave of the deceased.</note>
+      </body>
+   </text>
+</TEI>

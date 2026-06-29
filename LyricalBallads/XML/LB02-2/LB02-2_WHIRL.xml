@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: 'A whirl-blast from behind the Hill . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_WHIRL</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="WHIRL">
+                  <title>[WHIRL]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">203 to 204</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="203"/>
+         <milestone n="203" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1" type="verseparagraph">
+            <l n="1">A whirl-blast from behind the hill</l>
+            <l n="2">Rush’d o’er the wood with startling sound:</l>
+            <l n="3">Then all at once the air was still,</l>
+            <l n="4">And showers of hail-stones patter’d round.</l>
+            <l n="5">Where leafless Oaks tower’d high above,</l>
+            <l n="6">I sate within an undergrove</l>
+            <l n="7">Of tallest hollies, tall and green;</l>
+            <l n="8">A fairer bower was never seen.</l>
+            <l n="9">From year to year the spacious floor</l>
+            <l n="10">With wither’d leaves is cover’d o’er,</l>
+            <l n="11">You could not lay a hair between:</l>
+            <l n="12">And all the year the bower is green.</l>
+            <l n="13">But see! where’er the hailstones drop</l>
+            <l n="14">The wither’d leaves all skip and hop,</l>
+            <l n="15">There’s not a breeze—no breath of air—</l>
+            <l n="16">Yet here, and there, and every where</l>
+            <pb n="204"/>
+            <milestone n="204" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="17">Along the floor, beneath the shade</l>
+            <l n="18">By those embowering hollies made,</l>
+            <l n="19">The leaves in myriads jump and spring,</l>
+            <l n="20">As if with pipes and music rare</l>
+            <l n="21">Some Robin Good-fellow were there,</l>
+            <l n="22">And all those leaves, that jump and spring,</l>
+            <l n="23">Were each a joyous, living thing.</l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l n="24">Oh! grant me Heaven a heart at ease,</l>
+            <l n="25">That I may never cease to find,</l>
+            <l n="26">Even in appearances like these</l>
+            <l n="27">Enough to nourish and to stir my mind!</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

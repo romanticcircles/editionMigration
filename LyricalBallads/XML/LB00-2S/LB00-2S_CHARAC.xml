@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: A Character</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_CHARAC</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="CHARAC">
+                  <title>[CHARAC]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">169 to 170</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="169"/>
+         <milestone n="169" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>A CHARACTER, <lb/>
+               <lb/>In the antithetical Manner.
+                              </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">I marvel how Nature could ever find space</l>
+            <l n="2">For the weight and the levity seen in his face:</l>
+            <l n="3">There’s thought and no thought, and there’s
+                                   paleness and bloom,</l>
+            <l n="4">And bustle and sluggishness, pleasure and gloom.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">There’s weakness, and strength both redundant and
+                                   vain;</l>
+            <l n="6">Such strength, as if ever affliction and pain</l>
+            <l n="7">Could pierce through a temper that’s soft to
+                                   disease,</l>
+            <l n="8">Would be rational peace—a philosopher’s ease.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">There’s indifference, alike when he fails and
+                                   succeeds,</l>
+            <l n="10">And attention full ten times as much as there needs,</l>
+            <l n="11">Pride where there’s no envy, there’s so much of
+                                   joy;</l>
+            <l n="12">And mildness, and spirit both forward and coy.</l>
+         </lg>
+         <pb n="170"/>
+         <milestone n="170" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">There’s freedom, and sometimes a diffident stare</l>
+            <l n="14">Of shame scarcely seeming to know that she’s
+                                   there.</l>
+            <l n="15">There’s virtue, the title it surely may claim,</l>
+            <l n="16">Yet wants, heaven knows what, to be worthy the name.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">What a picture! ’tis drawn without nature or art,</l>
+            <l n="18">—Yet the Man would at once run away with your
+                                   heart,</l>
+            <l n="19">And I for five centuries right gladly would be</l>
+            <l n="20">Such an odd, such a kind happy creature as he.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

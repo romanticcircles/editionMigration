@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Old Cumberland Beggar</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_BEGGAR</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="BEGGAR">
+                  <title>The Old Cumberland Beggar</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">151 to 162</biblScope>
+                  <biblScope unit="pages">12</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="151"/>
+         <milestone n="151" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The OLD CUMBERLAND BEGGAR, <lb/>
+               <lb/>
+               <hi rend="small">A
+                                        DESCRIPTION. </hi>
+            </emph>
+            <note place="head">
+               <add place="lmargin" resp="ww">/O/M</add> The class of Beggars to
+                                        which the <del resp="ww">o</del>ld <del resp="ww">m</del>an
+                                        here described <lb/>belongs, will probably soon be extinct.
+                                        It consisted of <lb/>poor, and, mostly, old and infirm
+                                        persons, who confined <lb/>themselves to a stated round in
+                                        their neighbourhood, and <lb/>had certain fixed days, on
+                                        which, at different houses, <lb/>they regularly received
+                                             <del>charity</del>
+               <add hand="dw" place="aboveline" resp="ww">alms</add>;
+                                        sometimes in money, but <lb/>mostly in provisions.</note>
+         </head>
+         <lg n="1" part="I" type="verseparagraph">
+            <l n="1">I saw an aged Beggar in my walk,</l>
+            <l n="2">And he was seated by the highway side</l>
+            <l n="3">On a low structure of rude masonry</l>
+            <l n="4">Built at the foot of a huge hill, that they</l>
+            <l n="5">Who lead their horses down the steep rough road</l>
+            <l n="6">May thence remount at ease. The aged <del>m</del>an <add place="rmargin" resp="ww">M/</add>
+            </l>
+            <l n="7">Had placed his staff across the broad smooth stone</l>
+         </lg>
+         <pb/>
+         <milestone n="152" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="F" type="verseparagraph">
+            <l n="8">That overlays the pile, and from a bag</l>
+            <l n="9">All white with flour the dole of village dames,</l>
+            <l n="10">He drew his scraps and fragments, one by one,</l>
+            <l n="11">And scann’d them with a fix’d and serious
+                                   look</l>
+            <l n="12">Of idle computation. In the sun,</l>
+            <l n="13">Upon the second step of that small pile,</l>
+            <l n="14">Surrounded by those wild unpeopled hills,</l>
+            <l n="15">He sate, and eat his food in solitude<del>;</del>
+               <add place="rmargin" resp="ww">:/</add>
+            </l>
+            <l n="16">And ever, scatter’d from his palsied hand,</l>
+            <l n="17">
+               <add place="lmargin" resp="ww">/,</add> That<add place="belowline" resp="ww">^</add>still attempting to
+                                   prevent the waste,</l>
+            <l n="18">Was baffled still, the crumbs in little showers</l>
+            <l n="19">Fell on the ground, and the small mountain birds,</l>
+            <l n="20">Not venturing yet to peck their destin’d meal,</l>
+            <l n="21">Approach’d within the length of half his staff.</l>
+         </lg>
+         <lg n="2" part="I" type="verseparagraph">
+            <l n="22">
+               <add place="lmargin" resp="ww">/;</add> Him from my
+                                   childhood have I known<del>,</del> and then</l>
+            <l n="23">He was so old, he seems not older now;</l>
+            <l n="24">He travels on, a solitary <del>m</del>an, <add place="rmargin" resp="ww">M/</add>
+            </l>
+         </lg>
+         <pb/>
+         <milestone n="153" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="M" type="verseparagraph">
+            <l n="25">So helpless in appearance, that for him</l>
+            <l n="26">
+               <add place="lmargin" resp="ww">/H</add> The sauntering
+                                        <del>h</del>orseman-traveller does not throw</l>
+            <l n="27">With careless hand his alms upon the ground,</l>
+            <l n="28">But stops, that he may safely lodge the coin</l>
+            <l n="29">Within the old Man’s hat; nor quits him so,</l>
+            <l n="30">But still when he has given his horse the rein</l>
+            <l n="31">Towards the aged Beggar turns a look,</l>
+            <l n="32">Sidelong and half-reverted. She who tends</l>
+            <l n="33">
+               <add place="lmargin" resp="ww">/T</add> The
+                                   <del>t</del>oll-gate, when in summer at her door</l>
+            <l n="34">She turns her wheel, if on the road she sees</l>
+            <l n="35">The aged Beggar coming, quits her work,</l>
+            <l n="36">And lifts the latch for him that he may pass.</l>
+            <l n="37">The Post-boy when his rattling wheels o’ertake</l>
+            <l n="38">The aged Beggar, in the woody lane, </l>
+            <l n="39">Shouts to him from behind, and, if perchance</l>
+            <l n="40">The old Man does not change his course, the Boy</l>
+            <l n="41">Turns with less noisy wheels to the road-side,</l>
+            <l n="42">And passes gently by, without a curse</l>
+         </lg>
+         <pb/>
+         <milestone n="154" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="M" type="verseparagraph">
+            <l n="43">Upon his lips, or anger at his heart.</l>
+            <l n="44">He travels on, a solitary Man,</l>
+            <l n="45">His age has no companion. On the ground</l>
+            <l n="46">His eyes are turn’d, and, as he moves along,</l>
+            <l n="47">
+               <emph>They</emph> move along the ground; and<add place="belowline" resp="ww">^</add>evermore, <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="48">Instead of common and habitual sight</l>
+            <l n="49">Of fields with rural works, of hill and dale,</l>
+            <l n="50">And the blue sky, one little span of earth</l>
+            <l n="51">Is all his prospect. Thus, from day to day,</l>
+            <l n="52">Bowbent, his eyes for ever on the ground,</l>
+            <l n="53">
+               <add place="lmargin" resp="ww">/;</add> He plies his
+                                   weary journey<del>,</del> seeing still,</l>
+            <l n="54">And never knowing that he sees, some straw,</l>
+            <l n="55">Some scatter’d leaf, or marks which, in one track,</l>
+            <l n="56">The nails of cart or chariot wheel have left</l>
+            <l n="57">Impress’d on the white road, in the same line,</l>
+            <l n="58">At distance still the same. Poor Traveller!</l>
+            <l n="59">
+               <add place="lmargin" resp="ww">/;</add> His staff trails
+                                   with him<del>,</del> scarcely do his feet</l>
+            <l n="60">Disturb the summer dust<del>,</del> he is so still <add place="rmargin" resp="ww">;</add>
+            </l>
+         </lg>
+         <pb/>
+         <milestone n="155" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="F" type="verseparagraph">
+            <l n="61">
+               <add place="lmargin" resp="ww">/,</add> In look and
+                                        motion<add place="belowline" resp="ww">^</add>that the
+                                   cottage curs,</l>
+            <l n="62">Ere he have pass’d the door, will turn away<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="63">Weary of barking at him. Boys and <del>g</del>irls, <add place="rmargin" resp="ww">G/</add>
+            </l>
+            <l n="64">
+               <add place="lmargin" resp="ww">M/Y</add> The vacant and
+                                   the busy, <del>m</del>aids and <del>y</del>ouths,</l>
+            <l n="65">And<del>u</del>rchins newly breech’d<add place="belowline" resp="ww">^</add>all pass him by: <add place="rmargin" resp="ww">U/, /</add>
+            </l>
+            <l n="66">
+               <add place="lmargin" resp="ww">/W</add> Him even the
+                                   slow-pac’d <del>w</del>aggon leaves behind.</l>
+         </lg>
+         <lg n="3" part="I" type="verseparagraph">
+            <l n="67">
+               <add place="lmargin" resp="ww">/M</add> But deem not
+                                   this <del>m</del>an useless.——Statesmen! ye</l>
+            <l n="68">Who are so restless in your wisdom, ye</l>
+            <l n="69">Who have a broom still ready in your hands</l>
+            <l n="70">To rid the world of nuisances; ye proud,</l>
+            <l n="71">Heart-swoln, while in your pride ye contemplate</l>
+            <l n="72">Your talents, power, and wisdom, deem him not</l>
+            <l n="73">A burthen of the earth. ’Tis Nature’s law</l>
+            <l n="74">That none, the meanest of created things,</l>
+            <l n="75">Or forms created the most vile and brute,</l>
+            <l n="76">The dullest or most noxious, should exist</l>
+            <l n="77">Divorced from good<del>,</del> a spirit and pulse of good,
+                                        <add place="rmargin" resp="ww">—/</add>
+            </l>
+         </lg>
+         <pb/>
+         <milestone n="156" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" part="M" type="verseparagraph">
+            <l n="78">A life and soul to every mode of being</l>
+            <l n="79">Inseparably link’d. While thus he creeps</l>
+            <l n="80">From door to door, the Villagers in him</l>
+            <l n="81">Behold a record which together binds</l>
+            <l n="82">Past deeds and offices of charity</l>
+            <l n="83">Else unremember’d, and so keeps alive</l>
+            <l n="84">The kindly mood in hearts which lapse of years,</l>
+            <l n="85">And that half-wisdom half-experience gives</l>
+            <l n="86">Make slow to feel, and by sure steps resign</l>
+            <l n="87">To selfishness and cold oblivious cares.</l>
+            <l n="88">Among the farms and solitary huts<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="89">Hamlets, and thinly-scattered villages,</l>
+            <l n="90">Where’er the aged Beggar takes his rounds,</l>
+            <l n="91">The mild necessity of use compels</l>
+            <l n="92">To acts of love; and habit does the work</l>
+            <l n="93">Of reason, yet prepares that after joy</l>
+            <l n="94">Which reason cherishes. And thus the soul,</l>
+            <l n="95">By that sweet taste of pleasure unpursu’d<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+         </lg>
+         <pb/>
+         <milestone n="157" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" part="M" type="verseparagraph">
+            <l n="96">Doth find itself insensibly dispos’d</l>
+            <l n="97">To virtue and true goodness. Some there are,</l>
+            <l n="98">By their good works exalted, lofty minds</l>
+            <l n="99">And meditative, authors of delight</l>
+            <l n="100">And happiness, which to the end of time</l>
+            <l n="101">Will live, and spread, and kindle; minds like these,</l>
+            <l n="102">In childhood, from this solitary <del>b</del>eing, <add place="rmargin" resp="ww">/B</add>
+            </l>
+            <l n="103">
+               <add place="lmargin" resp="ww">/W</add> This helpless
+                                        <del>w</del>anderer, have perchance receiv’d,</l>
+            <l n="104">(A thing more precious far than all that books</l>
+            <l n="105">Or the <orig>s</orig>olicitudes of love can do!)</l>
+            <l n="106">That first mild touch of sympathy and thought,</l>
+            <l n="107">In which they found their kindred with a world</l>
+            <l n="108">Where want and sorrow were. The easy <del>m</del>an <add place="rmargin" resp="ww">M/</add>
+            </l>
+            <l n="109">Who sits at his own door, and like the pear</l>
+            <l n="110">Which overhangs his head from the green wall,</l>
+            <l n="111">Feeds in the sunshine; the robust and young,</l>
+            <l n="112">The prosperous and unthinking, they who live</l>
+            <l n="113">Shelter’d, and flouri<orig rend="long s">s</orig>h in
+                                   a little grove</l>
+         </lg>
+         <pb n="107"/>
+         <milestone n="158" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="verseparagraph" part="F">
+            <l n="114">Of their own kindred, all behold in him</l>
+            <l n="115">A silent monitor, which on their minds</l>
+            <l n="116">Must needs impress a transitory thought</l>
+            <l n="117">Of self-congratulation, to the heart</l>
+            <l n="118">Of each recalling his peculiar boons,</l>
+            <l n="119">His charters and exemptions; and<add place="belowline" resp="ww">^</add>perchance, <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="120">Though he to no one give the fortitude</l>
+            <l n="121">And circumspection needful to preserve</l>
+            <l n="122">His present blessings, and to husband up</l>
+            <l n="123">The respite of the season, he, at least,</l>
+            <l n="124">And ’tis no vulgar service, makes them felt.</l>
+         </lg>
+         <lg n="4" part="I" type="verseparagraph">
+            <l n="125">Yet further.——Many, I believe, there are</l>
+            <l n="126">Who live a life of virtuous decency,</l>
+            <l n="127">Men who can hear the Decalogue and feel</l>
+            <l n="128">
+               <add place="lmargin" resp="ww">/; </add>No
+                                        self-reproach<del>,</del> who of the moral law</l>
+            <l n="129">Establish’d in the land where they abide</l>
+            <l n="130">
+               <add place="lmargin" resp="ww">/;</add> Are strict
+                                        observers<del>,</del> and not negligent,</l>
+         </lg>
+         <pb/>
+         <milestone n="159" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" part="M" type="verseparagraph">
+            <l n="131">Meanwhile, in any tenderness of heart</l>
+            <l n="132">Or act of love to those with whom they dwell,</l>
+            <l n="133">Their kindred, and the children of their blood.</l>
+            <l n="134">Praise be to such, and to their slumbers peace!</l>
+            <l n="135">—But of the poor man ask, the abject poor,</l>
+            <l n="136">Go and demand of him, if there be here,</l>
+            <l n="137">In this cold abstinence from evil deeds,</l>
+            <l n="138">And these inevitable charities,</l>
+            <l n="139">Wherewith to satisfy the human soul.</l>
+            <l n="140">No—man is dear to man: the poorest poor</l>
+            <l n="141">Long for some moments in a weary life</l>
+            <l n="142">When they can know and feel that they have been</l>
+            <l n="143">Themselves the fathers and the dealers out</l>
+            <l n="144">Of some small blessings, have been kind to such</l>
+            <l n="145">As needed kindness, for this single cause,</l>
+            <l n="146">That we have all of us one human heart.</l>
+            <l n="147">—Such pleasure is to one kind Being known</l>
+            <l n="148">My Neighbour, when with punctual care, each week</l>
+         </lg>
+         <pb/>
+         <milestone n="160" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" part="F" type="verseparagraph">
+            <l n="149">Duly as Friday comes, though press’d herself</l>
+            <l n="150">By her own wants, she from her chest of meal</l>
+            <l n="151">Takes one unsparing handful for the scrip</l>
+            <l n="152">Of this old Mendicant, and, from her door</l>
+            <l n="153">Returning with exhilarated heart,</l>
+            <l n="154">Sits by her fire and builds her hope in heav’n.</l>
+         </lg>
+         <lg n="5" part="I" type="verseparagraph">
+            <l n="155">Then let him pass, a blessing on his head!</l>
+            <l n="156">And while, in that vast solitude to which</l>
+            <l n="157">The tide of things has led him, he appears</l>
+            <l n="158">To breathe and live but for himself alone,</l>
+            <l n="159">Unblam’d, uninjur’d, let him bear about</l>
+            <l n="160">The good which the benignant law of heaven</l>
+            <l n="161">
+               <add place="lmargin" resp="ww">/;</add> Has hung around
+                                        him<del>,</del> and, while life is his,</l>
+            <l n="162">Still let him prompt the unletter’d Villagers</l>
+            <l n="163">To tender offices and pensive thoughts.</l>
+            <l n="164">Then let him pass, a blessing on his head!</l>
+            <l n="165">And, long as he can wander, let him breathe</l>
+         </lg>
+         <pb/>
+         <milestone n="161" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="5" part="M" type="verseparagraph">
+            <l n="166">The freshness of the vallies<del>,</del> let his blood <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="167">Struggle with frosty air and winter snows<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="168">And let the charter’d wind that sweeps the heath</l>
+            <l n="169">Beat his grey locks against his wither’d face.</l>
+            <l n="170">Reverence the hope whose vital anxiousness</l>
+            <l n="171">Gives the last human interest to his heart.</l>
+            <l n="172">
+               <add place="lmargin" resp="ww">H<hi>ouse</hi>
+               </add>
+               <add place="belowline" resp="ww">small capitals</add> May
+                                   never <del>House</del>, misnamed of
+                                        <del>industry</del>
+               <del>,</del>
+               <add place="rmargin" resp="ww"> !/ I<hi>ndustry </hi>
+               </add>
+               <add place="belowline" resp="ww">small capitals</add>
+            </l>
+            <l n="173">Make him a captive; for that pent-up din,</l>
+            <l n="174">Those life-consuming sounds that clog the air,</l>
+            <l n="175">Be his the natural silence of old age.</l>
+            <l n="176">Let him be free of mountain solitudes<del>,</del>
+               <add place="rmargin" resp="ww"> ;/</add>
+            </l>
+            <l n="177">And have around him, whether heard or not,</l>
+            <l n="178">The pleasant melody of woodland birds.</l>
+            <l n="179">Few are his pleasures; if his eyes, which now</l>
+            <l n="180">Have been so long familiar with the earth,</l>
+            <l n="181">No more behold the horizontal sun</l>
+            <l n="182">Rising or setting, let the light at least</l>
+            <l n="183">Find a free entrance to their languid orbs.</l>
+         </lg>
+         <pb/>
+         <milestone n="162" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="5" part="F" type="verseparagraph">
+            <l n="184">And let him, <emph>where</emph> and <emph>when</emph> he
+                                   will, sit down</l>
+            <l n="185">Beneath the trees, or by the grassy bank</l>
+            <l n="186">Of high-way side, and with the little birds</l>
+            <l n="187">Share his chance-gather’d meal<del>,</del> and,
+                                   finally, <add place="rmargin" resp="ww">:/</add>
+            </l>
+            <l n="188">As in the eye of Nature he has liv’d,</l>
+            <l n="189">So in the eye of Nature let him die.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

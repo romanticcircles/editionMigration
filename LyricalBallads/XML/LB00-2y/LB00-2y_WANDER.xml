@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Wanderer</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_WANDER</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="WANDER">
+                  <title>The Wanderer</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">98</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="98"/>
+         <milestone n="98" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>S O N G </emph>
+            <lb/>
+            <lb/>
+            <hi rend="small">for
+                                   the</hi>
+            <lb/>
+            <lb/>
+            <emph>WANDERING JEW. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Though the torrents from their fountains</l>
+            <l n="2">Roar down many a craggy steep,</l>
+            <l n="3">Yet they find among the mountains</l>
+            <l n="4">Resting-places calm and deep.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">Though almost with eagle pinion</l>
+            <l n="6">O’er the rocks the Chamois roam,</l>
+            <l n="7">Yet he has some small dominion</l>
+            <l n="8">
+               <add place="lmargin" resp="ww">/, /,</add> Which<add place="belowline" resp="ww">^</add>no doubt<add place="belowline" resp="ww">^</add>he calls his home.</l>
+         </lg>
+         <lg n="3">
+            <l n="9">If on windy days the Raven</l>
+            <l n="10">Gambol like a dancing skiff,</l>
+            <l n="11">Not the less he loves his haven</l>
+            <l n="12">On the bosom of the cliff.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

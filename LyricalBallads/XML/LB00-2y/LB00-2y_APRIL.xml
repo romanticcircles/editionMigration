@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Two April Mornings</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_APRIL</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="APRIL">
+                  <title>The Two April Mornings</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">123 to 126</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="123"/>
+         <milestone n="123" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <hi rend="small">the</hi>
+            <lb/>
+            <lb/>
+            <emph>Two APRIL MORNINGS.
+                              </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">We walk’d along, while bright and red</l>
+            <l n="2">Uprose the morning sun<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="3">And Matthew stopp’d, he look’d, and said,</l>
+            <l n="4">“The will of God be done!”</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">A village Schoolmaster was he,</l>
+            <l n="6">With hair of glittering grey;</l>
+            <l n="7">As blithe a man as you could see</l>
+            <l n="8">On a spring holiday.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="9">And on that morning, through the grass,</l>
+            <l n="10">And by the steaming rills,</l>
+            <l n="11">We travell’d merrily<add place="belowline" resp="ww">^</add>to pass <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="12">A day among the hills.</l>
+         </lg>
+         <pb n="124"/>
+         <milestone n="124" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">“Our work,” said I, “was well begun;</l>
+            <l n="14">“Then, from thy breast what thought,</l>
+            <l n="15">“ Beneath so beautiful a sun,</l>
+            <l n="16">“ So sad a sigh has brought?<add place="belowline" resp="ww">^</add>
+               <add resp="ww">”</add>
+            </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">A second time did Matthew stop<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="18">
+               <add place="lmargin" resp="ww">/,</add>And<add place="belowline" resp="ww">^</add>fixing still his eye</l>
+            <l n="19">Upon the eastern mountain-top<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="20">To me he made reply.</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">
+               <add place="lmargin" resp="ww">“</add> Yon cloud with
+                                   that long purple cleft</l>
+            <l n="22">
+               <add place="lmargin" resp="ww">“</add> Brings fresh
+                                   into my mind</l>
+            <l n="23">
+               <add place="lmargin" resp="ww">“</add> A day like this
+                                   which I have left</l>
+            <l n="24">
+               <add place="lmargin" resp="ww">“</add> Full thirty
+                                   years behind.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">
+               <del>And on that slope of springing corn</del>
+            </l>
+            <l n="26">
+               <del>The self-same crimson hue</del>
+            </l>
+            <l n="27">
+               <del>Fell from the sky that April morn,</del>
+            </l>
+            <l n="28">
+               <del>The same which now I view!</del>
+            </l>
+         </lg>
+         <lg n="7" type="stanza" rend="ms.">
+            <l n="25">
+               <add hand="dw" resp="ww">“And just above yon slope of
+                                        corn</add>
+            </l>
+            <l n="26">
+               <add hand="dw" resp="ww">“Such colours, and no
+                                        other,</add>
+            </l>
+            <l n="27">
+               <add hand="dw" resp="ww">“Were in the sky, that April
+                                        Morn</add>
+            </l>
+            <l n="28">
+               <add hand="dw" resp="ww">“Of this the very
+                                        brother.</add>
+            </l>
+         </lg>
+         <pb n="125"/>
+         <milestone n="125" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">
+               <add place="lmargin" resp="ww">“</add> With rod and
+                                   line my silent sport</l>
+            <l n="30">
+               <add place="lmargin" resp="ww">“</add> I plied by
+                                   Derwent’s wave<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="31">
+               <add place="lmargin" resp="ww">“</add> And, coming to
+                                   the church, stopp’d short</l>
+            <l n="32">
+               <add place="lmargin" resp="ww">“</add> Beside my
+                                   Daughter’s grave.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">
+               <add place="lmargin" resp="ww">“</add> Nine summers
+                                   had she scarcely seen<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="34">
+               <add place="lmargin" resp="ww">“</add> The pride of
+                                   all the vale;</l>
+            <l n="35">
+               <add place="lmargin" resp="ww">“ </add>And then she
+                                   sang!—she would have been</l>
+            <l n="36">
+               <add place="lmargin" resp="ww">“ </add>A very
+                                   nightingale.</l>
+         </lg>
+         <lg n="10">
+            <l n="37">
+               <add place="lmargin" resp="ww">“</add> Six feet in
+                                   earth my Emma lay<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="38">
+               <add place="lmargin" resp="ww">“</add> And yet I
+                                   lov’d her more,</l>
+            <l n="39">
+               <add place="lmargin" resp="ww">“</add> For so it
+                                   seem’d, than till that day</l>
+            <l n="40">
+               <add place="lmargin" resp="ww">“</add> I e’er
+                                   had lov’d before.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="41">
+               <add place="lmargin" resp="ww">“</add> And, turning
+                                   from her grave, I met</l>
+            <l n="42">
+               <add place="lmargin" resp="ww">“</add> Beside the
+                                   church-yard Yew</l>
+            <l n="43">
+               <add place="lmargin" resp="ww">“</add> A blooming
+                                   Girl, whose hair was wet</l>
+            <l n="44">
+               <add place="lmargin" resp="ww">“</add> With points of
+                                   morning dew.</l>
+         </lg>
+         <pb n="126"/>
+         <milestone n="126" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="45">
+               <add place="lmargin" resp="ww">“</add> A basket on her
+                                   head she bare<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="46">
+               <add place="lmargin" resp="ww">“</add> Her brow was
+                                   smooth and white<del>,</del>
+               <del>;</del>
+               <add place="rmargin" resp="ww">:/</add>
+            </l>
+            <l n="47">
+               <add place="lmargin" resp="ww">“</add> To see a Child
+                                   so very fair,</l>
+            <l n="48">
+               <add place="lmargin" resp="ww">“</add> It was a pure
+                                   delight!</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">
+               <add place="lmargin" resp="ww">“</add> No fountain
+                                   from its rocky cave</l>
+            <l n="50">
+               <add place="lmargin" resp="ww">“</add> E’er
+                                   tripp’d with foot so free<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="51">
+               <add place="lmargin" resp="ww">“</add> She
+                                   seem’d as happy as a wave</l>
+            <l n="52">
+               <add place="lmargin" resp="ww">“</add> That dances on
+                                   the sea.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">
+               <add place="lmargin" resp="ww">“</add> There came from
+                                   me a sigh of pain</l>
+            <l n="54">
+               <add place="lmargin" resp="ww">“</add> Which I could
+                                   ill confine;</l>
+            <l n="55">
+               <add place="lmargin" resp="ww">“</add> I look’d
+                                   at her and look’d again<del>;</del>
+               <add place="rmargin" resp="ww">:/</add>
+            </l>
+            <l n="56">
+               <add place="lmargin" resp="ww">“</add> —And did
+                                   not wish her mine.<add place="belowline" resp="ww">^</add>”</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <l n="57">Matthew is in his grave, yet now</l>
+            <l n="58">Methinks I see him stand,</l>
+            <l n="59">As at that moment, with his bough</l>
+            <l n="60">Of wilding in his hand.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

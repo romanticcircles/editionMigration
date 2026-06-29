@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Lines Left Upon a Seat in a Yew Tree</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1b_LLyew</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LLyew">
+                  <title>Lines Left Upon a Seat in a Yew Tree</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-1b">
+                  <ptr target="../XML/LB00-1b.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">21 to 24</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="21" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>LINES </emph>
+            <lb/>
+            <lb/>
+            <emph>Left upon a seat in a YEW-TREE, which
+                            stands near the <lb/>Lake of ESTHWAITE, on a desolate part of the shore,
+                            <lb/>yet commanding a beautiful prospect.<lb/>
+               <lb/>
+            </emph>
+         </head>
+         <lg n="1" type="verseparagraph">
+            <l n="1">—Nay, Traveller! rest. This lonely yew-tree stands</l>
+            <l n="2">Far from all human dwelling: what if here</l>
+            <l n="3">No sparkling rivulet spread the verdant herb;</l>
+            <l n="4">What if these barren boughs the bee not loves;</l>
+            <l n="5">Yet, if the wind breathe soft, the curling waves,</l>
+            <l n="6">That break against the shore, shall lull thy mind</l>
+            <l n="7">By one soft impulse saved from vacancy.</l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l n="8" part="Y">————————Who he was </l>
+            <l n="9">That piled these stones, and with the mossy sod</l>
+            <l n="10">First covered o’er and taught this aged tree</l>
+            <l n="11">With its dark arms to form a circling bower,</l>
+            <pb/>
+            <milestone n="22" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="12">I well remember.—He was one who owned</l>
+            <l n="13">No common soul. In youth by science nursed </l>
+            <l n="14">And led by nature into a wild scene</l>
+            <l n="15">Of lofty hopes, he to the world went forth,</l>
+            <l n="16">A favored being, knowing no desire </l>
+            <l n="17">Which genius did not hallow, ’gainst the taint</l>
+            <l n="18">Of dissolute tongues, and jealousy, and hate</l>
+            <l n="19">And scorn, against all enemies prepared, </l>
+            <l n="20">All but neglect. The world, for so it thought,</l>
+            <l n="21">Owed him no service : he was like a plant</l>
+            <l n="22">Fair to the sun, the darling of the winds,</l>
+            <l n="23">But hung with fruit which no one, that passed by,</l>
+            <l n="24">Regarded, and, his spirit damped at once,</l>
+            <l n="25">With indignation did he turn away </l>
+            <l n="26">And with the food of pride sustained his soul </l>
+            <l n="27">In solitude.—Stranger! these gloomy boughs </l>
+            <l n="28">Had charms for him; and here he loved to sit, </l>
+            <l n="29">His only visitants a straggling sheep, </l>
+            <l n="30">The stone-chat, or the glancing sand-piper; </l>
+            <l n="31">And on these barren rocks, with juniper, </l>
+            <l n="32">And heath, and thistle, thinly sprinkled o’er, </l>
+            <pb/>
+            <milestone n="23" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="33">Fixing his downcast eye, he many an hour </l>
+            <l n="34">A morbid pleasure nourished, tracing here</l>
+            <l n="35">An emblem of his own unfruitful life: </l>
+            <l n="36">And lifting up his head, he then would gaze </l>
+            <l n="37">On the more distant scene; how lovely ’tis</l>
+            <l n="38">Thou seest, and he would gaze till it became </l>
+            <l n="39">Far lovelier, and his heart could not sustain </l>
+            <l n="40">The beauty still more beauteous. Nor, that time</l>
+            <l n="41">When Nature had subdued him to herself</l>
+            <l n="42">Would he forget those beings, to whose minds,</l>
+            <l n="43">Warm from the labours of benevolence, </l>
+            <l n="44">The world, and man himself, appeared a scene </l>
+            <l n="45">Of kindred loveliness: then he would sigh </l>
+            <l n="46">With mournful joy, to think that others felt </l>
+            <l n="47">What he must never feel: and so, lost man! </l>
+            <l n="48">On visionary views would fancy feed, </l>
+            <l n="49">Till his eye streamed with tears. In this deep vale</l>
+            <l n="50">He died, this seat his only monument. </l>
+         </lg>
+         <lg n="3" type="verseparagraph">
+            <l n="51">If thou be one whose heart the holy forms</l>
+            <l n="52">Of young imagination have kept pure,</l>
+            <pb/>
+            <milestone n="24" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="46">Stranger! henceforth be warned; and know, that pride,</l>
+            <l n="53">Howe’er disguised in its own majesty, </l>
+            <l n="54">Is littleness; that he, who feels contempt </l>
+            <l n="55">For any living thing, hath faculties </l>
+            <l n="56">Which he has never used; that thought with him</l>
+            <l n="57">Is in its infancy. The man, whose eye </l>
+            <l n="58">Is ever on himself, doth look on one, </l>
+            <l n="59">The least of nature’s works, one who might move </l>
+            <l n="60">The wise man to that scorn which wisdom holds </l>
+            <l n="61">Unlawful, ever. O, be wiser thou! </l>
+            <l n="62">Instructed that true knowledge leads to love, </l>
+            <l n="63">True dignity abides with him alone </l>
+            <l n="64">Who, in the silent hour of inward thought, </l>
+            <l n="65">Can still suspect, and still revere himself, </l>
+            <l n="66" part="Y">In lowliness of heart.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

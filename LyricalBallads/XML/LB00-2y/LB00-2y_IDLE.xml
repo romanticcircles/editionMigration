@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Idle Shepherd-Boys</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_IDLE</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="IDLE">
+                  <title>The Idle Shepherd-Boys</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">69 to 75</biblScope>
+                  <biblScope unit="pages">7</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="69" unit="page"/>
+         <div type="annotation" resp="ww">
+            <p>To the Printer. Here print the Poem<lb/>which follows this.<lb/>Tis
+                                   said that some have died for Love &amp;c</p>
+         </div>
+         <lb/>
+         <div>
+            <head>
+               <emph>The IDLE SHEPHERD-BOYS, </emph>
+               <lb/>
+               <lb/>
+               <hi rend="small">or</hi>
+               <lb/>
+               <lb/>
+               <emph>DUNGEON-GILL
+                                        FORCE</emph>,*<lb/>
+               <lb/>
+               <hi rend="small">
+                  <emph>A
+                                             PASTORAL.</emph>
+               </hi>
+               <lb/>
+            </head>
+            <lg n="1" type="stanza">
+               <head>I.</head>
+               <l n="1">The valley rings with mirth and joy<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="2">Among the hills the Echoes play</l>
+               <l n="3">A never, never ending song</l>
+               <l n="4">To welcome in the May.</l>
+               <l n="5">The Magpie chatters with delight;</l>
+            </lg>
+            <note place="foot">*Gill in the dialect of Cumberland and Westmoreland is <lb/>a
+                                   short and for the most part<add place="belowline" resp="ww ">^</add>a steep narrow valley, with <add place="rmargin" resp="ww">, /</add>
+               <lb/>a stream running through it. <add resp="ww">/</add>Force is the word univer- <add place="rmargin" resp="ww">/Force</add>
+               <lb/>sally
+                                   employed in these dialects for Waterfall. <add place="rmargin" resp="ww">/in Italics</add>
+            </note>
+            <pb n="70"/>
+            <milestone n="70" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg>
+               <l n="6">The mountain Raven’s youngling Brood</l>
+               <l n="7">Have left the Mother and the Nest<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="8">And they go rambling east and west</l>
+               <l n="9">In search of their own food<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="10">Or thro’ the glittering Vapors dart</l>
+               <l n="11">In very wantonness of <del>H</del>eart. <add place="rmargin" resp="ww">h/</add>
+               </l>
+            </lg>
+            <lg n="2" type="stanza">
+               <head>II.</head>
+               <l n="12">Beneath a rock, upon the grass,</l>
+               <l n="13">Two Boys are sitting in the sun;</l>
+               <l n="14">It seems they have no work to do<add place="belowline" resp="ww">^</add>
+                  <add place="rmargin" resp="ww">, /</add>
+               </l>
+               <l n="15">Or that their work is done.</l>
+               <l n="16">On pipes of sycamore they play</l>
+               <l n="17">The fragments of a Christmas Hymn<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="18">
+                  <add place="lmargin" resp="ww">/,</add> Or with
+                                        that plant<add place="belowline" resp="ww">^</add>which in
+                                        our dale</l>
+               <l n="19">We call Stag-horn, or Fox’s Tail<add place="belowline" resp="ww">^</add>
+                  <add place="rmargin" resp="ww">, /</add>
+               </l>
+               <l n="20">Their rusty Hats they trim:</l>
+               <l n="21">
+                  <add place="lmargin" resp="ww">/,</add> And
+                                             thus<add place="belowline" resp="ww">^</add>as happy as
+                                        the Day,</l>
+               <l n="22">Those Shepherds wear the time away.</l>
+            </lg>
+            <pb n="71"/>
+            <milestone n="71" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="3" type="stanza">
+               <head>III.</head>
+               <l n="23">Along the river’s stony marge</l>
+               <l n="24">
+                  <add place="lmargin" resp="ww">/S</add> The
+                                             <del>s</del>and-lark chaunts a joyous song;</l>
+               <l n="25">
+                  <add place="lmargin" resp="ww">/T</add> The
+                                             <del>t</del>hrush is busy in the <del>W</del>ood, <add place="rmargin" resp="ww">w/</add>
+               </l>
+               <l n="26">And carols loud and strong.</l>
+               <l n="27">A thousand lambs are on the rocks,</l>
+               <l n="28">All newly born! both earth and sky</l>
+               <l n="29">
+                  <add place="lmargin" resp="ww">/;</add> Keep
+                                             jubilee<del>,</del> and more than all,</l>
+               <l n="30">Those Boys with their green Coronal<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="31">They never hear the cry,</l>
+               <l n="32">That plaintive cry! which up the hill</l>
+               <l n="33">Comes from the depth of Dungeon-Gill.</l>
+            </lg>
+            <lg n="4" type="stanza">
+               <head>IV.</head>
+               <l n="34">Said Walter, leaping from the ground,</l>
+               <l n="35">“Down to the stump of yon old yew</l>
+               <l n="36" rend="interlinear">
+                  <add hand="dw" place="aboveline" resp="ww">We’ll for this Whistle run a
+                                             race.”</add>
+               </l>
+               <l n="36">
+                  <add place="belowline" resp="ww">^</add>
+                  <del>“I’ll run with you a
+                                             race.”—No more—</del>
+               </l>
+               <l n="37">
+                  <add place="lmargin" resp="ww">—</add>
+                  <add place="belowline" resp="ww">^</add>Away the Shepherds
+                                        flew.</l>
+               <l n="38">
+                  <add place="lmargin" resp="ww">/—</add> They
+                                             leapt<del>,</del> they ran<del>,</del> and when they
+                                        came <add place="rmargin" resp="ww">—/</add>
+               </l>
+            </lg>
+            <pb n="72"/>
+            <milestone n="72" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="4" part="F" type="stanza">
+               <l n="39">Right opposite to Dungeon-Gill,</l>
+               <l n="40">
+                  <add place="lmargin" resp="ww">/d</add>
+                                             Seeing<del>,</del> that he should lose the prize,</l>
+               <l n="41">“Stop!” to his comrade Walter
+                                        cries—</l>
+               <l n="42">James stopp’d with no good will:</l>
+               <l n="43">Said Walter then, “Your task is here,</l>
+               <l n="44">
+                  <add place="lmargin" resp="ww">“</add> ’Twill
+                                        keep you working half a year.</l>
+            </lg>
+            <lg n="5" type="stanza">
+               <head>V.</head>
+               <l n="45" rend="ms.">
+                  <add hand="dw" resp="ww">“Now cross
+                                             where I shall cross—come on</add>
+               </l>
+               <l n="46" rend="ms.">
+                  <add hand="dw" resp="ww"> “And follow
+                                             me where I hall lead—”</add>
+               </l>
+               <l n="45">
+                  <del>Till you have cross’d where I shall
+                                             cross,</del>
+               </l>
+               <l n="46">
+                  <del>Say that you’ll neither sleep nor
+                                             eat.”</del>
+               </l>
+               <l n="47">James proudly took him at his word,</l>
+               <l n="48">But did not like the <del>feat.</del>
+                  <add hand="dw" place="rmargin" resp="ww">deed.</add>
+               </l>
+               <l n="49">It was a spot, which you may see</l>
+               <l n="50">If ever you to Langdale go:</l>
+               <l n="51">Into a chasm a mighty Block</l>
+               <l n="52">
+                  <add place="lmargin" resp="ww">/B</add> Hath
+                                        fallen, and made a <del>b</del>ridge of rock<del>;</del>
+                  <add place="rmargin" resp="ww">:/</add>
+               </l>
+               <l n="53">The gulph is deep below<del>,</del>
+                  <add place="rmargin" resp="ww">;/</add>
+               </l>
+               <l n="54">And in a bason black and small</l>
+               <l n="55">Receives a lofty Waterfall.</l>
+            </lg>
+            <pb n="73"/>
+            <milestone n="73" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="6" type="stanza">
+               <head>VI.</head>
+               <l n="56">With staff in hand across the cleft</l>
+               <l n="57">The Challenger began his march;</l>
+               <l n="58">And now, all eyes and feet, hath gain’d</l>
+               <l n="59">The middle of the arch.</l>
+               <l n="60">When list! he hears a piteous moan—</l>
+               <l n="61">
+                  <add place="lmargin" resp="ww">/—</add>
+                                             Again!<add place="belowline" resp="ww">^</add>his heart
+                                        within him dies—</l>
+               <l n="62">His pulse is stopp’d, his breath is lost,</l>
+               <l n="63">He totters, pale as any ghost,</l>
+               <l n="64">And, looking down, he spies</l>
+               <l n="65">A Lamb, that in the pool is pent</l>
+               <l n="66">Within that black and frightful <del>r</del>ent. <add place="rmargin" resp="ww">R/</add>
+               </l>
+            </lg>
+            <lg n="7" type="stanza">
+               <head>VII.</head>
+               <l n="67">The Lamb had slipp’d into the stream,</l>
+               <l n="68">And safe without a bruise or wound</l>
+               <l n="69">The Cataract had borne him down</l>
+               <l n="70">Into the gulph profound.</l>
+               <l n="71">
+                  <add place="rmargin" resp="ww">/D</add> His
+                                             <del>d</del>am had seen him when he fell,</l>
+            </lg>
+            <pb n="74"/>
+            <milestone n="74" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="7" part="F" type="stanza">
+               <l n="72">She saw him down the torrent borne;</l>
+               <l n="73">/, And^while with all a mother’s love</l>
+               <l n="74">She from the lofty rocks above</l>
+               <l n="75">Sent forth a cry forlorn,</l>
+               <l n="76">The Lamb, still swimming round and round^ , /</l>
+               <l n="77">Made answer to that plaintive sound.</l>
+            </lg>
+            <lg n="8" type="stanza">
+               <head>VIII.</head>
+               <l n="78">When he had learnt, what thing it was,</l>
+               <l n="79">That sent this rueful cry; I ween,</l>
+               <l n="80">The Boy recover’d heart, and told</l>
+               <l n="81">The sight which he had seen.</l>
+               <l n="82">Both gladly now deferr’d their task;</l>
+               <l n="83">Nor was there wanting other aid—</l>
+               <l n="84">A Poet, one who loves the brooks</l>
+               <l n="85">Far better than the sages’ books,</l>
+               <l n="86">By chance had thither stray’d;</l>
+               <l n="87">And there the helpless Lamb he found</l>
+               <l n="88">By those huge rocks encompass’d round.</l>
+            </lg>
+            <pb n="75"/>
+            <milestone n="75" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="9" type="stanza">
+               <head>IX.</head>
+               <l n="89">He drew it gently from the pool,</l>
+               <l n="90">And brought it forth into the light:</l>
+               <l n="91">The Shepherds met him with his <del>c</del>harge^ C
+                                        , /</l>
+               <l n="92">An unexpected sight!</l>
+               <l n="93">Into their arms the Lamb they took,</l>
+               <l n="94">Said they, “He’s neither maim’d nor
+                                        scarr’d”—</l>
+               <l n="95">Then up the steep ascent they hied</l>
+               <l n="96">And placed him at his Mother’s side;</l>
+               <l n="97">And gently did the Bard</l>
+               <l n="98">Those idle Shepherd-boys upbraid,</l>
+               <l n="99">And bade them better mind their trade.</l>
+            </lg>
+            <p> print the preceding<lb/> i.e. Dungeon Gill Force</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Rural Architecture</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_RURAL</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="RURAL">
+                  <title>[RURAL]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">163 to 164</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="163" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>RURAL ARCHITECTURE.</emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">There’s George Fisher, Charles Fleming, and Reginald
+                                   Shore,</l>
+            <l n="2">Three rosy-cheek’d School-boys, the highest not
+                                   more</l>
+            <l n="3">Than the height of a Counsellor’s bag;</l>
+            <l n="4">To the top of G<hi rend="small">reat</hi> H<hi rend="small">ow</hi> did it please them to climb;</l>
+            <l n="5">And there they built up without mortar or lime</l>
+            <l n="6">A Man on the peak of the crag.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="7">They built him of stones gather’d up as they lay;</l>
+            <l n="8">They built him and christen’d him all in one day,</l>
+            <l n="9">An Urchin both vigorous and hale;</l>
+            <l n="10">And so without scruple they call’d him Ralph
+                                   Jones.</l>
+            <l n="11">Now Ralph is renown’d for the length of his bones;</l>
+            <l n="12">The Magog of Legberthwaite dale.</l>
+         </lg>
+         <pb/>
+         <milestone n="164" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="13">Just half a week, after the wind sallied forth,</l>
+            <l n="14">And, in anger or merriment, out of the North</l>
+            <l n="15">Coming on with a terrible pother,</l>
+            <l n="16">From the peak of the crag blew the Giant away.</l>
+            <l n="17">And what did these School-boys?—The very next day</l>
+            <l n="18">They went and they built up another.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="19">—Some little I’ve seen of blind boisterous
+                                   works</l>
+            <l n="20">In Paris and London, ’mong Christians or Turks,</l>
+            <l n="21">Spirits busy to do and undo:</l>
+            <l n="22">At remembrance whereof my blood sometimes will flag.</l>
+            <l n="23">—Then, light-hearted Boys, to the top of the Crag!</l>
+            <l n="24">And I’ll build up a Giant with you.</l>
+         </lg>
+         <note>G<hi>reat</hi> H<hi>ow</hi> is a single and conspicuous hill, which
+                              rises towards <lb/>the foot of Thirl-mere, on the western side of the
+                              beautiful dale <lb/>of Legberthwaite, along the high road between
+                              Keswick and <lb/>Ambleside.</note>
+      </body>
+   </text>
+</TEI>

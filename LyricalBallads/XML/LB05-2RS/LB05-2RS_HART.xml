@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Hart-leap Well</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_HART</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="HART">
+                  <title>[HART]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">1 to 13</biblScope>
+                  <biblScope unit="pages">13</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1"/>
+         <head>
+            <lb/>
+            <lb/>
+            <emph>HART-LEAP WELL. <lb/>
+            </emph>
+            <lb/>
+            <note place="head">
+               <emph>Hart-leap
+                Well is a small spring of water, about five miles <lb/>from Richmond in Yorkshire,
+                and near the side of the road <lb/>which leads from Richmond to Askrigg. Its name is
+                derived <lb/>from a remarkable Chase, the memory of which is preserved <lb/>by the
+                monuments spoken of in the second Part of the follow-<lb/>ing Poem, which monuments
+                do now exist as I have there <lb/>described them.<lb/>
+                  <lb/>
+               </emph>
+            </note>
+         </head>
+         <div type="part" n="1">
+            <lg n="1" type="stanza">
+               <l n="1">The Knight had ridden down from Wensley moor</l>
+               <l n="2">With the slow motion of a summer’s cloud;</l>
+               <l n="3">He turned aside towards a Vassal’s door,</l>
+               <l n="4">And, “Bring another Horse!” he cried aloud.</l>
+            </lg>
+            <lg n="2" type="stanza">
+               <l n="5">“Another Horse!”—That shout the Vassal heard,</l>
+               <l n="6">And saddled his best steed, a comely gray ;</l>
+               <l n="7">Sir Walter mounted him; he was the third</l>
+               <l n="8">Which he had mounted on that glorious day.</l>
+            </lg>
+            <pb/>
+            <milestone n="2" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="3" type="stanza">
+               <l n="9">Joy sparkled in the prancing Courser’s eyes;</l>
+               <l n="10">The Horse and Horseman are a happy pair;</l>
+               <l n="11">But, though Sir Walter like a falcon flies,</l>
+               <l n="12">There is a doleful silence in the air.</l>
+            </lg>
+            <lg n="4" type="stanza">
+               <l n="13">A rout this morning left Sir Walter’s Hall,</l>
+               <l n="14">That as they galloped made the echoes roar;</l>
+               <l n="15">But Horse and Man are vanished, one and all;</l>
+               <l n="16">Such race, I think, was never seen before.</l>
+            </lg>
+            <lg n="5" type="stanza">
+               <l n="17">Sir Walter, restless as a veering wind,</l>
+               <l n="18">Calls to the few tired Dogs that yet remain:</l>
+               <l n="19">Brach, Swift, and Music, noblest of their kind,</l>
+               <l n="20">Follow, and up the weary mountain strain.</l>
+            </lg>
+            <lg n="6" type="stanza">
+               <l n="21">The Knight hallooed, he chid and cheered them on</l>
+               <l n="22">With suppliant gestures and upbraidings stern ;</l>
+               <l n="23">But breath and eye-sight fail ; and, one by one,</l>
+               <l n="24">The Dogs are stretched among the mountain fern.</l>
+            </lg>
+            <pb/>
+            <milestone n="3" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="7" type="stanza">
+               <l n="25">Where is the throng, the tumult of the race?</l>
+               <l n="26">The bugles that so joyfully were blown ?</l>
+               <l n="27">—This Chase it looks not like an earthly Chase;</l>
+               <l n="28">Sir Walter and the Hart are left alone.</l>
+            </lg>
+            <lg n="8" type="stanza">
+               <l n="29">The poor Hart toils along the mountain side ;</l>
+               <l n="30">I will not stop to tell how far he fled,</l>
+               <l n="31">Nor will I mention by what death he died;</l>
+               <l n="32">But now the Knight beholds him lying dead.</l>
+            </lg>
+            <lg n="9" type="stanza">
+               <l n="33">Dismounting then, he leaned against a thorn;</l>
+               <l n="34">He had no follower, Dog, nor Man, nor Boy :</l>
+               <l n="35">He neither smacked his whip, nor blew his horn,</l>
+               <l n="36">But gazed upon the spoil with silent joy.</l>
+            </lg>
+            <lg n="10" type="stanza">
+               <l n="37">Close to the thorn on which Sir Walter leaned,</l>
+               <l n="38">Stood his dumb partner in this glorious act ;</l>
+               <l n="39">Weak as a lamb the hour that it is yeaned,</l>
+               <l n="40">And foaming like a mountain cataract.</l>
+            </lg>
+            <pb/>
+            <milestone n="4" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="11" type="stanza">
+               <l n="41">Upon his side the Hart was lying stretched :</l>
+               <l n="42">His nose half-touched a spring beneath a hill,</l>
+               <l n="43">And with the last deep groan his breath had fetched</l>
+               <l n="44">The waters of the spring were trembling still.</l>
+            </lg>
+            <lg n="12" type="stanza">
+               <l n="45">And now, too happy for repose or rest,</l>
+               <l n="46">(Was never man in such a joyful case!)</l>
+               <l n="47">Sir Walter walked all round, north, south, and west,</l>
+               <l n="48">And gazed and gazed upon that darling place.</l>
+            </lg>
+            <lg n="13" type="stanza">
+               <l n="49">And climbing up the hill—(it was at least</l>
+               <l n="50">Nine roods of sheer ascent) Sir Walter found</l>
+               <l n="51">Three several hoof-marks which the hunted Beast</l>
+               <l n="52">Had left imprinted on the verdant ground.</l>
+            </lg>
+            <lg n="14" type="stanza">
+               <l n="53">Sir Walter wiped his face and cried, “Till now</l>
+               <l n="54">Such sight was never seen by living eyes :</l>
+               <l n="55">Three leaps have borne him from this lofty brow,</l>
+               <l n="56">Down to the very fountain where he lies.</l>
+            </lg>
+            <pb/>
+            <milestone n="5" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="15" type="stanza">
+               <l n="57">I’ll build a Pleasure-house upon this spot,</l>
+               <l n="58">And a small Arbour, made for rural joy ;</l>
+               <l n="59">’Twill be the Traveller’s shed, the Pilgrim’s cot,</l>
+               <l n="60">A place of love for Damsels that are coy.</l>
+            </lg>
+            <lg n="16" type="stanza">
+               <l n="61">A cunning Artist will I have to frame</l>
+               <l n="62">A bason for that Fountain in the dell ;</l>
+               <l n="63">And they who do make mention of the same</l>
+               <l n="64">From this day forth, shall call it H<hi rend="small  caps">ART-LEAP</hi>
+                  W<hi rend="small">ELL</hi>.</l>
+            </lg>
+            <lg n="17" type="stanza">
+               <l n="65">And, gallant brute ! to make thy praises known,</l>
+               <l n="66">Another monument shall here be raised;</l>
+               <l n="67">Three several Pillars, each a rough hewn Stone,</l>
+               <l n="68">And planted where thy hoofs the turf have grazed.</l>
+            </lg>
+            <lg n="18" type="stanza">
+               <l n="69">And in the summer-time when days are long,</l>
+               <l n="70">I will come hither with my Paramour ;</l>
+               <l n="71">And with the Dancers, and the Minstrel’s song,</l>
+               <l n="72">We will make merry in that pleasant Bower.</l>
+            </lg>
+            <pb/>
+            <milestone n="6" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="19" type="stanza">
+               <l n="73">Till the foundations of the mountains fail</l>
+               <l n="74">My Mansion with its Arbour shall endure;—</l>
+               <l n="75">The joy of them who till the fields of Swale,</l>
+               <l n="76">And them who dwell among the woods of Ure!”</l>
+            </lg>
+            <lg n="20" type="stanza">
+               <l n="77">Then home he went, and left the Hart, stone-dead,</l>
+               <l n="78">With breathless nostrils stretched above the spring.</l>
+               <l n="79">And soon the Knight performed what he had said,</l>
+               <l n="80">The fame whereof through many a land did ring.</l>
+            </lg>
+            <lg n="21" type="stanza">
+               <l n="81">Ere thrice the moon into her port had steered,</l>
+               <l n="82">A Cup of Stone received the living Well;</l>
+               <l n="83">Three Pillars of rude stone Sir Walter reared,</l>
+               <l n="84">And built a House of Pleasure in the dell.</l>
+            </lg>
+            <lg n="22" type="stanza">
+               <l n="85">And near the fountain, flowers of stature tall</l>
+               <l n="86">With trailing plants and trees were intertwined,</l>
+               <l n="87">Which soon composed a little sylvan Hall,</l>
+               <l n="88">A leafy shelter from the sun and wind.</l>
+            </lg>
+            <pb/>
+            <milestone n="7" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="23" type="stanza">
+               <l n="89">And thither, when the summer days were long,</l>
+               <l n="90">Sir Walter journeyed with his Paramour;</l>
+               <l n="91">And with the Dancers and the Minstrel’s song</l>
+               <l n="92">Made merriment within that pleasant Bower.</l>
+            </lg>
+            <lg n="24" type="stanza">
+               <l n="93">The Knight, Sir Walter, died in course of time,</l>
+               <l n="94">And his bones lie in his paternal vale.—</l>
+               <l n="95">But there is matter for a second rhyme,</l>
+               <l n="96">And I to this would add another tale.</l>
+            </lg>
+         </div>
+         <pb/>
+         <milestone n="8" unit="page"/>
+         <lb/>
+         <lb/>
+         <div type="part" n="2">
+            <head>
+               <emph>PART SECOND.<lb/>
+               </emph>
+               <lb/>
+            </head>
+            <lg n="25" type="stanza">
+               <l n="97">The moving accident is not my trade:</l>
+               <l n="98">To freeze the blood I have no ready arts :</l>
+               <l n="99">’Tis my delight, alone in summer shade,</l>
+               <l n="100">To pipe a simple song to thinking hearts.</l>
+            </lg>
+            <lg n="26" type="stanza">
+               <l n="101">As I from Hawes to Richmond did repair,</l>
+               <l n="102">It chanced that I saw standing in a dell</l>
+               <l n="103">Three Aspens at three corners of a square,</l>
+               <l n="104">And one, not four yards distant, near a Well.</l>
+            </lg>
+            <lg n="26" type="stanza">
+               <l n="105">What this imported I could ill divine:</l>
+               <l n="106">And, pulling now the rein my horse to stop,</l>
+               <l n="107">I saw three Pillars standing in a line,</l>
+               <l n="108">The last Stone Pillar on a dark hill-top.</l>
+            </lg>
+            <pb/>
+            <milestone n="9" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="27" type="stanza">
+               <l n="109">The trees were gray, with neither arms nor head ;</l>
+               <l n="110">Half-wasted the square Mound of tawny green ;</l>
+               <l n="111">So that you just might say, as then I said,</l>
+               <l n="112">“Here in old time the hand of man has been.”</l>
+            </lg>
+            <lg n="28" type="stanza">
+               <l n="113">I looked upon the hills both far and near,</l>
+               <l n="114">More doleful place did never eye survey;</l>
+               <l n="115">It seemed as if the spring-time came not here,</l>
+               <l n="116">And Nature here were willing to decay.</l>
+            </lg>
+            <lg n="29" type="stanza">
+               <l n="117">I stood in various thoughts and fancies lost,</l>
+               <l n="118">When one, who was in Shepherd’s garb attired,</l>
+               <l n="119">Came up the Hollow. Him did I accost,</l>
+               <l n="120">And what this place might be I then inquired.</l>
+            </lg>
+            <lg n="30" type="stanza">
+               <l n="121">The Shepherd stopped, and that same story told</l>
+               <l n="122">Which in my former rhyme I have rehearsed.</l>
+               <l n="123">“A jolly place,” said he, “in times of old!</l>
+               <l n="124">But something ails it now; the spot is curst.</l>
+            </lg>
+            <pb/>
+            <milestone n="10" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="31" type="stanza">
+               <l n="125">You see these lifeless Stumps of aspen wood—</l>
+               <l n="126">Some say that they are beeches, others elms—</l>
+               <l n="127">These were the Bower; and here a Mansion stood,</l>
+               <l n="128">The finest palace of a hundred realms!</l>
+            </lg>
+            <lg n="32" type="stanza">
+               <l n="129">The Arbour does its own condition tell;</l>
+               <l n="130">You see the Stones, the Fountain, and the Stream,</l>
+               <l n="131">But as to the great Lodge! you might as well</l>
+               <l n="132">Hunt half a day for a forgotten dream.</l>
+            </lg>
+            <lg n="33" type="stanza">
+               <l n="133">There’s neither dog nor heifer, horse nor sheep,</l>
+               <l n="134">Will wet his lips within that Cup of Stone;</l>
+               <l n="135">And oftentimes, when all are fast asleep,</l>
+               <l n="136">This water doth send forth a dolorous groan.</l>
+            </lg>
+            <lg n="34" type="stanza">
+               <l n="137">Some say that here a murder has been done,</l>
+               <l n="138">And blood cries out for blood: but, for my part,</l>
+               <l n="139">I’ve guessed, when I’ve been sitting in the sun,</l>
+               <l n="140">That it was all for that unhappy Hart.</l>
+            </lg>
+            <pb/>
+            <milestone n="11" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="35" type="stanza">
+               <l n="141">What thoughts must through the creature’s brain have passed!</l>
+               <l n="142">From the stone upon the summit of the steep</l>
+               <l n="143">Are but three bounds—and look, Sir, at this last—</l>
+               <l n="144">—O Master! it has been a cruel leap.</l>
+            </lg>
+            <lg n="36" type="stanza">
+               <l n="145">For thirteen hours he ran a desperate race;</l>
+               <l n="146">And in my simple mind we cannot tell</l>
+               <l n="147">What cause the Hart might have to love this place,</l>
+               <l n="148">And come and make his death-bed near the Well.</l>
+            </lg>
+            <lg n="37" type="stanza">
+               <l n="149">Here on the grass perhaps asleep he sank,</l>
+               <l n="150">Lulled by this fountain in the summer-tide;</l>
+               <l n="151">This water was perhaps the first he drank</l>
+               <l n="152">When he had wandered from his mother’s side.</l>
+            </lg>
+            <lg n="38" type="stanza">
+               <l n="153">In April here beneath the scented thorn</l>
+               <l n="154">He heard the birds their morning carols sing;</l>
+               <l n="155">And he, perhaps, for aught we know, was born</l>
+               <l n="156">Not half a furlong from that self-same spring.</l>
+            </lg>
+            <pb/>
+            <milestone n="12" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="39" type="stanza">
+               <l n="157">But now here’s neither grass nor pleasant shade;</l>
+               <l n="158">The sun on drearier Hollow never shone:</l>
+               <l n="159">So will it be, as I have often said,</l>
+               <l n="160">Till Trees, and Stones, and Fountain all are gone.”</l>
+            </lg>
+            <lg n="40" type="stanza">
+               <l n="161">“Gray-headed Shepherd, thou hast spoken well ;</l>
+               <l n="162">Small difference lies between thy creed and mine:</l>
+               <l n="163">This Beast not unobserved by Nature fell;</l>
+               <l n="164">His death was mourned by sympathy divine.</l>
+            </lg>
+            <lg n="41" type="stanza">
+               <l n="165">The Being, that is in the clouds and air,</l>
+               <l n="166">That is in the green leaves among the groves,</l>
+               <l n="167">Maintains a deep and reverential care</l>
+               <l n="168">For <del hand="RS" type="crossout" resp="RS">them the quiet</del>
+                  <add hand="RS" place="aboveline" resp="RS">unoffending</add> creatures whom he
+                loves.</l>
+            </lg>
+            <lg n="42" type="stanza">
+               <l n="169">The Pleasure-house is dust:—behind, before,</l>
+               <l n="170">This is no common waste, no common gloom;</l>
+               <l n="171">But Nature, in due course of time, once more</l>
+               <l n="172">Shall here put on her beauty and her bloom.</l>
+            </lg>
+            <pb/>
+            <milestone n="13" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="43" type="stanza">
+               <l n="173">She leaves these objects to a slow decay,</l>
+               <l n="174">That what we are, and have been, may be known;</l>
+               <l n="175">But, at the coming of the milder day,</l>
+               <l n="176">These monuments shall all be overgrown.</l>
+            </lg>
+            <lg n="44" type="stanza">
+               <l n="177">One lesson, Shepherd, let us two divide,</l>
+               <l n="178">Taught both by what she shows, and what conceals,</l>
+               <l n="179">Never to blend our pleasure or our pride</l>
+               <l n="180">With sorrow of the meanest thing that feels.”</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

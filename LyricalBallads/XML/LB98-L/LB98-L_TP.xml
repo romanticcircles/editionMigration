@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <emph>Lyrical Ballads </emph>
+            </title>
+            <author>Samuel Taylor Coleridge and William Wordsworth </author>
+            <editor>Bruce Graver and Ronald Tetreault </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>London imprint of<date> 1798 </date>
+            </edition>
+            <respStmt>
+               <name>Bruce Graver and Ronald Tetreault</name>
+               <resp>,editors and compositors. </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-L_TP</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edited from the copy of <emph>Lyrical Ballads</emph>, 1798, London imprint, in the
+          Wordsworth Library, Grasmere <date>June, 1997</date>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI-conformant SGML by Bruce Graver and Ronald Tetreault, with significant help
+        from CETH, the STG, and others; encoding upgraded to TEI P5 xml by Laura Mandell,
+        7/2025.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="TP">
+         <pb/>
+         <lb/>
+         <lb/>
+         <div type="inscription" xml:id="inscription">
+            <p rend="signature">This Volume was published <lb/>in conjunction with Mr Coleridge,<lb/>at
+          Bristol, by our common<lb/>Friend Mr Cottle, and immediately<lb/>
+               <del>af</del> before its
+          publication Mr<lb/>Coleridge my Sister and I<lb/>went into Germany.<lb/>
+               <lb/>The above
+          memorandum <lb/>is written to gratify my dear<lb/>Nephew John Wordsworth.<lb/>Rydal
+            Mount<lb/>
+               <date>March 6th 1844.</date>
+               <name>Wm Wordsworth</name>
+            </p>
+            <lb/>
+            <lb/>
+            <p rend="signature">Given to my cousin<lb/>Wm Wordsworth<lb/>with affectionate
+            remembrance<lb/>Ambleside<lb/>
+               <date>Feby 17th 1846.</date>
+               <name>J. Wordsworth</name>
+            </p>
+         </div>
+         <pb/>
+         <pb/>
+         <titlePage>
+            <lb/>
+            <docTitle>
+               <lb/>
+               <titlePart>LYRICAL BALLADS,<lb/>
+                  <lb/>
+                  <hi>
+                     <lb/>with</hi>
+                  <lb/>
+                  <lb/>
+                  <emph>
+                     <lb/>A FEW OTHER
+              POEMS.</emph>
+               </titlePart>
+               <lb/>
+            </docTitle>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <docImprint>
+               <lb/>LONDON:<lb/>
+               <lb/>
+               <hi>printed for j. <emph>&amp;</emph> a. arch,
+              gracechurch-street.<lb/>
+                  <lb/>
+                  <date>1798.</date>
+               </hi>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

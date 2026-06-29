@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Lyrical Ballads: Page Images</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/LBdigEdpara.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet">
+
+    <!-- TEI transcript styling (yours) -->
+    <link rel="stylesheet" href="./css/LBstyle.css" />
+
+    <!-- Reader UI styling -->
+    <link rel="stylesheet" href="./css/reader.css" />
+
+    <!-- Fonts (optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&amp;family=Taviraj:wght@400;700&amp;display=swap"
+        rel="stylesheet" />
+
+    <!-- OpenSeadragon from CDN (smooth zoom) -->
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@3.1.0/build/openseadragon/openseadragon.min.js"
+        defer></script>
+
+    <!-- Reader logic -->
+    <script src="./js/reader.js" defer></script>
+</head>
+    <body>
+    <!-- Top bar -->
+    <header class="topbar" role="banner">
+        <div class="topbar-left">
+            <select id="editionSelect" class="edition-select">
+                <option value="" disabled selected>Select an edition...</option>
+                <option value="LB98-L">Lyrical Ballads, 1798, London</option>
+                <option value="LB00-1">Lyrical Ballads, 1800, vol. 1</option>
+            </select>
+        </div>
+        <div class="topbar-center desktop-only" aria-label="Page navigation">
+            <button id="prevBtn" class="icon-btn" type="button" aria-label="Previous page">
+                ◀
+            </button>
+
+            <form id="romanForm" class="pill">
+                <span class="pill-label">Frontmatter</span>
+                <input id="romanInput" inputmode="text" autocomplete="off" spellcheck="false" title="Enter a page number and press Enter to jump."/>
+                <span id="romanDisplay" class="pill-display">—</span>
+            </form>
+
+            <form id="arabicForm" class="pill">
+                <span class="pill-label">Main Text</span>
+                <input id="arabicInput" inputmode="numeric" autocomplete="off" title="Enter a page number and press Enter to jump."/>
+                <span id="arabicDisplay" class="pill-display">—</span>
+            </form>
+
+            <button id="nextBtn" class="icon-btn" type="button" aria-label="Next page">
+                ▶
+            </button>
+        </div>
+
+        <div class="topbar-right">
+            <button id="toggleMobileMode" class="mobile-only icon-btn" type="button">
+                Image
+            </button>
+        </div>
+        <div class="banner-icons">
+            <img src="license.svg" id="provenanceBtn" 
+                alt="digital image provenance information" 
+                class="banner-icon-img">
+            
+            <a href="../index.html">
+                <img src="../header/LBvols.png" alt="site logo" 
+                    class="banner-icon-img">
+            </a>
+        </div>
+    </header>
+
+    <!-- Main layout -->
+    <main class="shell" role="main">
+        <section id="transcriptPane" class="pane transcript" aria-label="Transcript">
+            <!-- transcript HTML injected here -->
+            <div id="transcriptInner" class="transcript-inner"></div>
+        </section>
+
+        <div id="divider" class="divider desktop-only" aria-hidden="true"></div>
+
+        <section id="imagePane" class="pane image" aria-label="Facsimile image">
+            <div id="osd" class="osd"></div>
+
+            <button id="prevOverlay" class="overlay-btn left desktop-only" type="button" aria-label="Previous page">
+                ◀
+            </button>
+            <button id="nextOverlay" class="overlay-btn right desktop-only" type="button" aria-label="Next page">
+                ▶
+            </button>
+        </section>
+    </main>
+
+    <div id="provenanceModal" class="modal-overlay"></div>
+
+    <noscript>This reader requires JavaScript enabled.</noscript>
+</body>
+
+</html>

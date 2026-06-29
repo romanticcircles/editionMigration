@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Poor Susan</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2_SUSAN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="SUSAN">
+                  <title>[SUSAN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2">
+                  <ptr target="../XML/LB00-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">80 to 81</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="80" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>POOR SUSAN.</emph>
+            <lb/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">At the corner of Wood-Street, when day-light appears,</l>
+            <l n="2">There’s a Thrush that sings loud, it has sung for three
+                                   years:</l>
+            <l n="3">Poor Susan has pass’d by the spot and has heard</l>
+            <l n="4">In the silence of morning the song of the bird.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">’Tis a note of enchantment ; what ails her ? She
+                                   sees</l>
+            <l n="6">A mountain ascending, a vision of trees ;</l>
+            <l n="7">Bright volumes of vapour through Lothbury glide,</l>
+            <l n="8">And a river flows on through the vale of Cheapside.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">Green pastures she views in the midst of the dale,</l>
+            <l n="10">Down which she so often has tripp’d with her pail,</l>
+            <l n="11">And a single small cottage, a nest like a dove’s,</l>
+            <l n="12">The only one dwelling on earth that she loves.</l>
+         </lg>
+         <pb/>
+         <milestone n="81" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">She looks, and her heart is in Heaven, but they fade,</l>
+            <l n="14">The mist and the river, the hill and the shade ;</l>
+            <l n="15">The stream will not flow, and the hill will not rise,</l>
+            <l n="16">And the colours have all pass’d away from her
+                                   eyes.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Poor Outcast ! return—to receive thee once more</l>
+            <l n="18">The house of thy Father will open its door,</l>
+            <l n="19">And thou once again, in thy plain russet gown,</l>
+            <l n="20">May’st hear the thrush sing from a tree of its
+                                   own.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

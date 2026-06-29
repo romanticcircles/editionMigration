@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: 'She dwelt among th'untrodden ways . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_LucDWELT</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LucDWELT">
+                  <title>[LucDWELT]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">52</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="52" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1">
+            <l n="1">She dwelt among th’ untrodden ways</l>
+            <l n="2" rend="indent"> Beside the springs of Dove,</l>
+            <l n="3">A Maid whom there were none to praise,</l>
+            <l n="4" rend="indent"> A very few to love.</l>
+         </lg>
+         <lg n="2">
+            <l n="5">A Violet by a mossy stone</l>
+            <l n="6" rend="indent"> Half-hidden from the Eye!</l>
+            <l n="7">—Fair as a star, when only one</l>
+            <l n="8" rend="indent"> Is shining in the sky.</l>
+         </lg>
+         <lg>
+            <l n="9">She liv’d unknown, and few could know </l>
+            <l n="10" rend="indent"> When Lucy ceas’d to be;</l>
+            <l n="11">But she is in her Grave, and Oh!</l>
+            <l n="12" rend="indent"> The difference to me.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

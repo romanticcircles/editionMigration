@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Lines Written with a Slate-Pencil</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_LLslate</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LLslate">
+                  <title>[LLslate]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">117 to 119</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="117" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>L I N E S <lb/>
+               <lb/>Written with a Slate-pencil upon a Stone,
+                                   the largest of a <lb/>heap lying near a deserted Quarry, upon one
+                                   of the Islands <lb/>at Rydale.</emph>
+         </head>
+         <l n="1">Stranger! this hillock of mishapen stones</l>
+         <l n="2">Is not a ruin of the ancient time,</l>
+         <l n="3">Nor, as perchance thou rashly deem’st, the Cairn</l>
+         <l n="4">Of some old British Chief: ’tis nothing more</l>
+         <l n="5">Than the rude embryo of a little dome</l>
+         <l n="6">Or pleasure-house, which was to have been built</l>
+         <l n="7">Among the birch-trees of this rocky isle.</l>
+         <l n="8">But, as it chanc’d, Sir William having learn’d</l>
+         <l n="9">That from the shore a full-grown man might wade,</l>
+         <l n="10">And make himself a freeman of this spot</l>
+         <pb n="118"/>
+         <milestone n="118" unit="page"/>
+         <lb/>
+         <lb/>
+         <l n="11">At any hour he chose, the Knight forthwith</l>
+         <l n="12">Desisted, and the quarry and the mound</l>
+         <l n="13">Are monuments of his unfinish’d task.——</l>
+         <l n="14">The block on which these lines are trac’d, perhaps,</l>
+         <l n="15">Was once selected as the corner-stone</l>
+         <l n="16">Of the intended pile, which would have been</l>
+         <l n="17">Some quaint odd play-thing of elaborate skill,</l>
+         <l n="18">So that, I guess, the linnet and the thrush,</l>
+         <l n="19">And other little builders who dwell here,</l>
+         <l n="20">Had wonder’d at the work. But blame him not,</l>
+         <l n="21">For old Sir William was a gentle Knight</l>
+         <l n="22">Bred in this vale to which he appertain’d</l>
+         <l n="23">With all his ancestry. Then peace to him</l>
+         <l n="24">And for the outrage which he had devis’d</l>
+         <l n="25">Entire forgiveness.——But if thou art one</l>
+         <l n="26">On fire with thy impatience to become</l>
+         <l n="27">An Inmate of these mountains, if disturb’d</l>
+         <l n="28">By beautiful conceptions, thou hast hewn</l>
+         <l n="29">Out of the quiet rock the elements</l>
+         <pb n="119"/>
+         <milestone n="119" unit="page"/>
+         <lb/>
+         <lb/>
+         <l n="30">Of thy trim mansion destin’d soon to blaze</l>
+         <l n="31">In snow-white splendour, think again, and taught</l>
+         <l n="32">By old Sir William and his quarry, leave</l>
+         <l n="33">Thy fragments to the bramble and the rose,</l>
+         <l n="34">There let the vernal slow-worm sun himself,</l>
+         <l n="35">And let the red-breast hop from stone to stone.</l>
+      </body>
+   </text>
+</TEI>

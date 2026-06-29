@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Lines Written While Sailing</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2a_LLsailing</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LLsailing">
+                  <title>[LLsailing]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2a">
+                  <ptr target="../XML/LB05-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">195 to 196</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="195"/>
+         <milestone n="195" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>L I N E S <lb/>
+               <lb/>Written when sailing in a Boat <lb/>
+               <lb/>At
+                                   EVENING. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">How rich the wave, in front, imprest </l>
+            <l n="2">With evening twilight’s summer hues, </l>
+            <l n="3">While, facing thus the crimson west, </l>
+            <l n="4">The Boat her silent course pursues! </l>
+            <l n="5">And see how dark the backward stream! </l>
+            <l n="6">A little moment past, so smiling! </l>
+            <l n="7">And still, perhaps, with faithless gleam, </l>
+            <l n="8">Some other Loiterer beguiling. </l>
+         </lg>
+         <pb/>
+         <milestone n="196" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="9">Such views the youthful Bard allure;</l>
+            <l n="10">But, heedless of the following gloom, </l>
+            <l n="11">He deems their colours shall endure </l>
+            <l n="12">Till peace go with him to the tomb.</l>
+            <l n="13">—And let him nurse his fond deceit, </l>
+            <l n="14">And what if he must die in sorrow! </l>
+            <l n="15">Who would not cherish dreams so sweet, </l>
+            <l n="16">Though grief and pain may come tomorrow? </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

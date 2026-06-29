@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Lucy Gray</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_GRAY</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="GRAY">
+                  <title>[GRAY]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">71 to 75</biblScope>
+                  <biblScope unit="pages">5</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="71" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>LUCY GRAY. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Oft I had heard of Lucy Gray:</l>
+            <l n="2">And, when I cross’d the Wild,</l>
+            <l n="3">I chanc’d to see at break of day</l>
+            <l n="4">The solitary Child.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">No Mate, no comrade Lucy knew;</l>
+            <l n="6">She dwelt on a wide Moor,</l>
+            <l n="7">—The sweetest thing that ever grew</l>
+            <l n="8">Beside a human door!</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">You yet may spy the Fawn at play,</l>
+            <l n="10">The Hare upon the Green;</l>
+            <l n="11">But the sweet face of Lucy Gray</l>
+            <l n="12">Will never more be seen.</l>
+         </lg>
+         <pb/>
+         <milestone n="72" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">“To-night will be a stormy night—</l>
+            <l n="14">“You to the Town must go;</l>
+            <l n="15">“And take a lantern, Child, to light</l>
+            <l n="16">“Your Mother thro’ the snow.”</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">“That, Father! will I gladly do;</l>
+            <l n="18">“’Tis scarcely afternoon—</l>
+            <l n="19">“The Minster-clock has just struck two,</l>
+            <l n="20">“And yonder is the Moon.”</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">At this the Father rais’d his hook</l>
+            <l n="22">And snap’d a faggot-band;</l>
+            <l n="23">He plied his work, and Lucy took</l>
+            <l n="24">The lantern in her hand.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">Not blither is the mountain roe:</l>
+            <l n="26">With many a wanton stroke</l>
+            <l n="27">Her feet disperse the powd’ry snow,</l>
+            <l n="28">That rises up like smoke.</l>
+         </lg>
+         <pb/>
+         <milestone n="73" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8">
+            <l n="29">The storm came on before its time:</l>
+            <l n="30">She wander’d up and down;</l>
+            <l n="31">And many a hill did Lucy climb,</l>
+            <l n="32">But never reach’d the Town.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">The wretched Parents all that night</l>
+            <l n="34">Went shouting far and wide;</l>
+            <l n="35">But there was neither sound nor sight</l>
+            <l n="36">To serve them for a guide.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">At day-break on a hill they stood</l>
+            <l n="38">That overlook’d the Moor;</l>
+            <l n="39">And thence they saw the Bridge of wood,</l>
+            <l n="40">A furlong from their door.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="41">And now they homeward turn’d, and cry’d</l>
+            <l n="42">“In Heaven we all shall meet!”</l>
+            <l n="43">—When in the snow the Mother spied</l>
+            <l n="44">The print of Lucy’s feet.</l>
+         </lg>
+         <pb/>
+         <milestone n="74" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="45">Then downward from the steep hill’s edge</l>
+            <l n="46">They track’d the footmarks small;</l>
+            <l n="47">And through the broken hawthorn-edge,</l>
+            <l n="48">And by the long stone-wall;</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">And then an open field they cross’d:</l>
+            <l n="50">The marks were still the same;</l>
+            <l n="51">They track’d them on, nor ever lost;</l>
+            <l n="52">And to the Bridge they came.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">They follow’d from the snowy bank,</l>
+            <l n="54">The footmarks, one by one,</l>
+            <l n="55">Into the middle of the plank;</l>
+            <l n="56">And further there was none.</l>
+         </lg>
+         <lg n="15">
+            <l n="57">—Yet some maintain that to this day</l>
+            <l n="58">She is a living Child;</l>
+            <l n="59">That you may see sweet Lucy Gray</l>
+            <l n="60">Upon the lonesome Wild.</l>
+         </lg>
+         <pb/>
+         <milestone n="75" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="16" type="stanza">
+            <l n="61">O’er rough and smooth she trips along,</l>
+            <l n="62">And never looks behind;</l>
+            <l n="63">And sings a solitary song</l>
+            <l n="64">That whistles in the wind.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

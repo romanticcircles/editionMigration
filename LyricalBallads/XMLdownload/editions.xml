@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition Information and Descriptions</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Romantic Circles</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The 1798 descriptions were revised and so come from an email from Bruce, Tuesday,
+               August 26, 2025, at 6:41 pm, with no text written by in it, responding to a query on
+               a different topic; email title, "Table of Contents Oddity." The others come from an
+               email from Bruce, responding to "Decision Needed," dated July 7, 2025, 3:45pm.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list type="gloss">
+            <label xml:id="LB98-Bbl"><hi rend="bold">1798:</hi> Southey’s copy, Bristol (BL)</label>
+            <item>1798: Robert Southey’s copy of Lyrical Ballads, Bristol imprint. Described sometimes as
+               an 'archival' copy, it contains both S. T. Coleridge’s 'Lewti,' from the first state
+               of the printing (see Reed, A3) and the 'Advertisement' and S. T. Coleridge’s 'The
+               Nightingale' from the second state. British Library.</item>
+            <label xml:id="LB98-BEDDOES"><hi rend="bold">1798:</hi> Beddoes's copy, Bristol, with "Domiciliary
+               Verses" (BL)</label>
+            <item>1798: Thomas Beddoes's copy of Lyrical Ballads, Bristol imprint, second state. British
+               Library (Ashley 2250). As Reed notes, A3, a leaf has been added after p. 62,
+               containing 'Domiciliary Verses,' an apparent parody probably written by Beddoes
+               himself.</item>
+            <label xml:id="lb98-bnypl"><hi rend="bold">1798:</hi> Fricker's copy, Bristol, with "Lewti" (NYPL)</label>
+            <item>1798: Martha Fricker’s copy of Lyrical Ballads, Bristol imprint, first state. With
+               corrections in S. T. Coleridge’s hand. Berg Collection, New York Public
+               Library.</item>
+            <label xml:id="lb98-bp"><hi rend="bold">1798:</hi> Bristol, with "Lewti" (Princeton)</label>
+            <item>1798: Lyrical Ballads, Bristol imprint, first state, containing S. T. Coleridge’s
+               'Lewti.' Robert H. Taylor collection, Firestone Library, Princeton University.</item>
+            <label xml:id="LB98-BY"><hi rend="bold">1798:</hi> Bristol, with "The Nightingale" and
+               "Lewti" (Yale)</label>
+            <item>1798: Lyrical Ballads, Bristol imprint, second state, containing both 'Lewti' and 'The
+               Nightingale.' Beinecke Library, Yale University.</item>
+            <label xml:id="LB98-by1"><hi rend="bold">1798:</hi> Bristol, with "Lewti" (Yale)</label>
+            <item>1798: Lyrical Ballads, Bristol imprint, first state. Tinker collection, Beinecke
+               Library, Yale University.</item>
+            <label xml:id="LB98-L"><hi rend="bold">1798:</hi> London, inscription by Wordsworth (Wordsworth Trust)</label>
+            <item>1798: Lyrical Ballads, London imprint, third state. Presentation copy from William Wordsworth to his nephew, John Wordsworth, 1844 inscription (Wordsworth Trust)</item>
+            <label xml:id="LB98-pinney"><hi rend="bold">1798:</hi> Pinney's copy, Bristol, with "The Nightingale" (Harvard)</label>
+            <item>1798: J. F. Pinney’s copy of Lyrical Ballads, Bristol imprint, second state. Houghton Library, Harvard University.</item>
+            <label xml:id="LB98-STC"><hi rend="bold">1798:</hi> Coleridge's copy, Bristol, with "The Nightingale" (Cambridge)</label>
+            <item>1798: S. T. Coleridge's copy, 1798, Bristol impriint, second state. (Wren Library, Trinity College, Cambridge University)</item>
+            <label xml:id="LB00-1"><hi rend="bold">1800:</hi> vol. 1, 2nd ed., London (SFU).</label>
+            <item>1800: Lyrical Ballads, London imprint (Longman, with Bristol printer), volume 1, second edition (Simon Fraser University Library)</item>
+            <label xml:id="LB00-1a"><hi rend="bold">1800:</hi> vol. 1, 2nd ed., London, with uncancelled leaf a3 (Wordsworth Trust)</label>
+            <item>1800: volume 1 of the second edition with uncancelled leaf a3 (Wordsworth Trust): this edition accidentally 
+               includes both the original and revised preface, changed when "Christabel" couldn't be included, strangely ordered.</item>
+            <label xml:id="LB00-1b"><hi rend="bold">1800:</hi> vol. 1, 2nd ed., London, with uncancelled leaf a3 (BL)</label>
+            <item>1800: volume 1 of the second edition, London imprint, with uncancelled leaf a3 (British Library): includes only one page
+               of the cancelland and the cancel, each.</item>
+            <label xml:id="LB00-2"><hi rend="bold">1800:</hi> vol. 2, 2nd ed., London (SFU)</label>
+            <item>1800: volume 2 of the second edition, London imprint (Simon 
+               Fraser University Library); rushed printing.</item>
+            <label xml:id="LB00-2a"><hi rend="bold">1800</hi> vol. 2, 2nd ed., London (UC Boulder), with "Michael" cancel</label>
+            <item>1800: volume 2 of the second edition with 'Michael' cancel and new errata sheet (University of Colorado-Boulder Library): corrections to errors from the rushed printing.</item>
+            <label xml:id="LB00-2S"><hi rend="bold">1800:</hi> vol. 2, 2nd ed., London with "Michael" paste-in  (Swarthmore)</label>
+            <item>1800: volume 2 of the second edition, London imprint (Swarthmore College Library), with 'Michael' paste-in.</item>
+            <label xml:id="LB00-2y"><hi rend="bold">1800:</hi> vol. 2, 2nd ed., author's revisions for printing 3rd ed., 1802 (Yale)</label>
+            <item>1800: proof-sheets from the volume 2 of the second edition with authorial corrections to be made in the third edition of 1802 (Beinecke Library, Yale University)</item>
+            <label xml:id="LB02-1"><hi rend="bold">1802:</hi> S. H.'s copy, vol. 1, 3rd ed., London, with inscription (Wordsworth Trust)</label>
+            <item>1802: Sarah Hutchinson's copy, volume 1 of the third edition, London imprint, with an inscription by Mary Wordsworth (Wordsworth Trust); 'The Complaint of a forsaken Indian Woman' moved to vol. 2.</item>
+            <label xml:id="LB02-2"><hi rend="bold">1802:</hi> S. H.'s copy, vol. 2, 3rd ed., London, with Appendix (Wordsworth Trust)</label>
+            <item>1802: Sarah Hutchinson's copy, volume 2 of the third edition, London imprint (Wordsworth Trust); contains 
+               the Appendix.</item>
+            <label xml:id="LBP1-campbell"><hi rend="bold">1802:</hi> Campbell's copy, vol. 1, pirated 3rd ed., Philadelphia (Harvard)</label>
+            <item>1802: J. Dykes Campbell's copy, volume 1 of the third edition (pirated), Philadelphia imprint, (Houghton Library, Harvard University); 
+               contains both the Advertisement and Preface and a disordered table of contents. Notes for vol. 1 moved to the end of vol. 2.</item>
+            <label xml:id="lbphil-2"><hi rend="bold">1802:</hi> Campbell's copy, vol. 2, pirated 3rd ed., Philadelphia (Harvard)</label>
+            <item>1802: J. Dykes Campbell's copy, volume 2 of the third edition (pirated), Philadelphia imprint (Houghton Library, Harvard University); contains the 
+               notes for both volume 1 and 2.</item>
+            <label xml:id="LB05-1"><hi rend="bold">1805:</hi> vol. 1, 4th ed., London (SFU)</label>
+            <item>1805: volume 1 of the fourth edition, London imprint (Simon Fraser University Library).</item>
+            <label xml:id="LB05-1RS"><hi rend="bold">1805:</hi> Southey's corrections, vol. 1, 4th ed., London (BL)</label>
+            <item>1805: volume 1 of the fourth edition, London imprint (British Library), with corrections by Robert 
+               Southey.</item>
+            <label xml:id="LB05-2"><hi rend="bold">1805:</hi> vol. 2, 4th ed., London (SFU)</label>
+            <item>1805: volume 2 of the fourth edition, London imprint (Simon Fraser University Library).</item>
+            <label xml:id="LB05-2a"><hi rend="bold">1805:</hi> vol. 2, 4th ed., London (various)</label>
+            <item>1805: volume 2 of the fourth edition, London imprint (based on several library copies, including Princeton, Harvard, and Simon Fraser Universities).</item>
+            <label xml:id="LB05-2RS"><hi rend="bold">1805:</hi> Southey's corrections, vol. 2, 4th ed., London (BL)</label>
+            <item>1805: volume 2 of the fourth edition, London imprint (British Library), with corrections by Robert Southey.</item>
+         </list>
+      </body>
+   </text>
+</TEI>

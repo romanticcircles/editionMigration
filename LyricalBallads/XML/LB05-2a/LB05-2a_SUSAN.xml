@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Poor Susan</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2a_SUSAN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="SUSAN">
+                  <title>[SUSAN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2a">
+                  <ptr target="../XML/LB05-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">87 to 88</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="87" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>POOR SUSAN. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">At the corner of Wood-street, when day-light appears,</l>
+            <l n="2">There’s a Thrush that sings loud, it has sung for three
+                                   years:</l>
+            <l n="3">Poor Susan has passed by the spot, and has heard</l>
+            <l n="4">In the silence of morning the song of the Bird.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">’Tis a note of enchantment; what ails her? She sees</l>
+            <l n="6">A mountain ascending, a vision of trees;</l>
+            <l n="7">Bright volumes of vapour through Lothbury glide,</l>
+            <l n="8">And a river flows on through the vale of Cheapside.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">Green pastures she views in the midst of the dale,</l>
+            <l n="10">Down which she so often has tripped with her pail;</l>
+            <l n="11">And a single small cottage, a nest like a dove’s,</l>
+            <l n="12">The one only Dwelling on earth that she loves.</l>
+         </lg>
+         <pb/>
+         <milestone n="88" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">She looks, and her Heart is in heaven: but they fade,</l>
+            <l n="14">The mist and the river, the hill and the shade;</l>
+            <l n="15">The stream will not flow, and the hill will not rise,</l>
+            <l n="16">And the colours have all passed away from her eyes.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

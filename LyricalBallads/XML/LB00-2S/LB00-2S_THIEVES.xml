@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Two Thieves</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_THIEVES</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="THIEVES">
+                  <title>[THIEVES]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">92 to 95</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="92"/>
+         <milestone n="92" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The TWO THIEVES,<lb/>
+               <lb/>Or the last Stage of
+                              AVARICE.</emph>
+            <lb/>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Oh now that the genius of Bewick were mine</l>
+            <l n="2">And the skill which he learn’d on the Banks of the
+                                   Tyne;</l>
+            <l n="3">When the Muses might deal with me just as they chose</l>
+            <l n="4">For I’d take my last leave both of verse and of
+                                   prose.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">What feats would I work with my magical hand!</l>
+            <l n="6">Book-learning and books should be banish’d the land</l>
+            <l n="7">And for hunger and thirst and such troublesome calls</l>
+            <l n="8">Every ale-house should then have a feast on its walls.</l>
+         </lg>
+         <pb rend="93"/>
+         <milestone n="93" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="9">The Traveller would hang his wet clothes on a chair</l>
+            <l n="10">Let them smoke, let them burn, not a straw would he
+                                   care,</l>
+            <l n="11">For the Prodigal Son, Joseph’s Dream and his
+                                   Sheaves,</l>
+            <l n="12">Oh what would they be to my tale of two Thieves!</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">Little Dan is unbreech’d, he is three birth-days
+                                   old,</l>
+            <l n="14">His Grandsire that age more than thirty times told,</l>
+            <l n="15">There’s ninety good seasons of fair and foul
+                                   weather</l>
+            <l n="16">Between them, and both go a stealing together.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">With chips is the Carpenter strewing his floor?</l>
+            <l n="18">Is a cart-load of peats at an old Woman’s door?</l>
+            <l n="19">Old Daniel his hand to the treasure will slide,</l>
+            <l n="20">And his Grandson’s as busy at work by his side.</l>
+         </lg>
+         <lg n="6">
+            <l n="21">Old Daniel begins, he stops short and his eye</l>
+            <l n="22">Through the lost look of dotage is cunning and sly.</l>
+            <l n="23">’Tis a look which at this time is hardly his own,</l>
+            <l n="24">But tells a plain tale of the days that are flown.</l>
+         </lg>
+         <pb n="94"/>
+         <milestone n="94" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="7" type="stanza">
+            <l n="25">Dan once had a heart which was mov’d by the wires</l>
+            <l n="26">Of manifold pleasures and many desires:</l>
+            <l n="27">And what if he cherish’d his purse? ’Twas no
+                                   more</l>
+            <l n="28">Than treading a path trod by thousands before.</l>
+         </lg>
+         <lg n="8" type="stanza">
+            <l n="29">’Twas a path trod by thousands, but Daniel is one</l>
+            <l n="30">Who went something farther than others have gone;</l>
+            <l n="31">And now with old Daniel you see how it fares</l>
+            <l n="32">You see to what end he has brought his grey hairs.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">The pair sally forth hand in hand; ere the sun</l>
+            <l n="34">Has peer’d o’er the beeches their work is
+                                   begun:</l>
+            <l n="35">And yet into whatever sin they may fall,</l>
+            <l n="36">This Child but half knows it and that not at all.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">They hunt through the street with deliberate tread,</l>
+            <l n="37">And each in his turn is both leader and led;</l>
+            <l n="39">And wherever they carry their plots and their wiles,</l>
+            <l n="40">Every face in the village is dimpled with smiles.</l>
+         </lg>
+         <pb n="95"/>
+         <milestone n="95" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" type="stanza">
+            <l n="41">Neither check’d by the rich nor the needy they
+                                   roam,</l>
+            <l n="42">For grey-headed Dan has a daughter at home;</l>
+            <l n="43">Who will gladly repair all the damage that’s done,</l>
+            <l n="44">And three, were it ask’d, would be render’d for
+                                   one.</l>
+         </lg>
+         <lg n="12">
+            <l n="45">Old Man! whom so oft I with pity have ey’d,</l>
+            <l n="46">I love thee and love the sweet boy at thy side:</l>
+            <l n="47">Long yet may’st thou live, for a teacher we see</l>
+            <l n="48">That lifts up the veil of our nature in thee.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

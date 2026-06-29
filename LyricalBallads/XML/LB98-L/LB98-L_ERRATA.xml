@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Errata List</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-L_ERRATA</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ERRATA">
+                  <title>[ERRATA]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-L">
+                  <ptr target="../XML/LB98-L.xml"/>
+                  <imprint>
+                     <publisher>J. &amp; A. Arch</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">211</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="211"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <head>ERRATA.</head>
+         <lb/>
+         <list type="errata">
+            <item>Page</item>
+            <item>10 for “fog smoke-white,” read “fog-smoke white.”</item>
+            <item>18 “those,” read “these.”</item>
+            <item>50 Omit the comma after “loveth well.”</item>
+            <item>140 after “clanking hour,” place a comma.</item>
+            <item>202 omit the sixth line from the bottom,<lb/> “And the low copses coming
+              from the trees.”</item>
+         </list>
+      </body>
+   </text>
+</TEI>

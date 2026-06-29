@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Lyrical Ballads: PREF Comparison</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="cfisonMainCH.css" />
+        <style>
+             body { 
+                margin: 0;
+                padding: 0;
+                margin: 0;
+                width: 80rem;
+            }
+            .main-container {
+                display: flex;
+                flex-direction: column;
+                min-height: calc(100vh - 16rem);
+                padding: 1rem 0;
+            }
+            .dropdown-container {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .dropdown-container label {
+                font-weight: bold;
+                color: #3f6345;
+                font-size: 0.9rem;
+            }
+            .edition-label {
+                padding: 0.5rem;
+                font-size: 1rem;
+                font-weight: bold;
+                color: #3f6345;
+                background-color: #f9f9f9;
+                border: 1px solid #3f6345;
+                border-radius: 4px;
+                min-height: 1.2rem;
+            }
+            .dropdown-container select {
+                padding: 0.5rem;
+                font-size: 1rem;
+                border: 2px solid #3f6345;
+                border-radius: 4px;
+                background-color: white;
+                cursor: pointer;
+            }
+            .edition-description {
+                min-height: 4rem;
+                padding: 0.5rem;
+                font-size: 0.85rem;
+                color: #555;
+                font-style: italic;
+                line-height: 1.4;
+            }
+            iframe {
+                margin-top: -1rem;
+                width: 100%;
+                height: 50rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            h3 { text-align: center; margin: 1rem 0; font-size: 1.5rem; }
+            h4.frame-toggle {
+                text-align: center;
+                margin: 0.25rem 0 0.75rem 0;
+                font-size: 1rem;
+                font-weight: normal;
+                color: #888;
+            }
+            h4.frame-toggle a {
+                color: #888;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            h4.frame-toggle a.active-toggle {
+                color: #3f6345;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            table.frames { width: 100%; border: none; }
+            td { width: 33%; vertical-align: top; }
+            table.frames.two-frames td.middle-col { display: none; }
+            table.frames.two-frames td { width: 50%; }
+            
+            div.altNav {
+                position: fixed;
+                top: 0;
+                right: 2%;
+
+            /* Placeholder styling for frames */
+            [id^="chunk"][data-placeholder] {
+               display: none;
+               border-left: 3px solid #b0c4b1;
+               background: #f6faf6;
+               padding: 0.4rem 0.75rem;
+               margin: 0.5rem 0;
+               color: #666;
+               font-style: italic;
+               font-size: 0.9rem;
+               border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="altNav">
+            <h5><em><a href="#top">Top</a></em><br/><em><a href="../compare/PREF.html">Back</a></em></h5>
+        </div>
+        <div class="main-container" id="top">
+            <h3 class="page-title">Lyrical Ballads: Preface Comparison Tool</h3>
+            <h4 class="frame-toggle">
+                <a href="#" id="toggle2" onclick="setFrames(2); return false;">2 frames</a>
+                &#160;|&#160;
+                <a href="#" id="toggle3" onclick="setFrames(3); return false;" class="active-toggle">3 frames</a>
+                &#160;&#160;&#160;&#9474;&#160;&#160;&#160;
+                <a href="#" id="toggleSync" onclick="toggleSync(); return false;" class="active-toggle">sync scroll: on</a>
+                &#160;&#160;&#160;&#9474;&#160;&#160;&#160;
+                <a href="#" id="resetBtn" onclick="resetAll(); return false;" style="color: #3f6345; font-weight: bold;">[ Reset ]</a>
+            </h4>
+            
+            <table class="frames" id="framesTable">
+                <tr>
+                    <td>
+                        <div class="dropdown-container">
+                            <label>Left Edition:</label>
+                            <div class="edition-label" id="label1">---</div>
+                            <div class="edition-description" id="description1">Loaded automatically via Comparison Selection.</div>
+                        </div>
+                    </td>
+                    <td class="middle-col">
+                        <div class="dropdown-container">
+                            <label>Revisions:</label>
+                            <select id="dropdown3">
+                                <option value="" data-left="" data-right="" data-description="">Select Comparison</option>
+                                <option value="1802PrefRev.html" 
+                                    data-left="LB00-1_PREFcf.html" 
+                                    data-right="LB02-1_PREFcf.html" 
+                                    data-left-label="1800: vol. 1, 2nd ed."
+                                    data-right-label="1802: vol. 1, 3rd ed."
+                                    data-description="Changes made to the 1800 preface for the third edition, 1802.">
+                                    1800 vs 1802
+                                </option>
+                            </select>
+                            <div class="edition-description" id="description3">Select a comparison to populate all frames.</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown-container">
+                            <label>Right Edition:</label>
+                            <div class="edition-label" id="label2">---</div>
+                            <div class="edition-description" id="description2">Loaded automatically via Comparison Selection.</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe name="first" id="f1" src="placeHolder.html"></iframe></td>
+                    <td class="middle-col"><iframe name="third" id="f3" src="placeHolder.html"></iframe></td>
+                    <td><iframe name="second" id="f2" src="placeHolder.html"></iframe></td>
+                </tr>
+            </table>
+        </div>
+        
+        <script>
+            let syncEnabled = true;
+            let isSyncing = false;
+            let syncTimer = null;
+            const frameIds = ['f1', 'f2', 'f3'];
+
+            function toggleSync() {
+                syncEnabled = !syncEnabled;
+                const btn = document.getElementById('toggleSync');
+                btn.textContent = `sync scroll: ${syncEnabled ? 'on' : 'off'}`;
+                btn.classList.toggle('active-toggle', syncEnabled);
+            }
+
+            function getActiveChunkId(doc) {
+                const chunks = Array.from(doc.querySelectorAll('[id^="chunk"]'));
+                if (!chunks.length) return null;
+                const threshold = 60;
+                let activeId = chunks[0].id;
+                for (const el of chunks) {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.top <= threshold) activeId = el.id;
+                    else break;
+                }
+                return activeId;
+            }
+
+            function handleFrameScroll(sourceFrameId) {
+                if (!syncEnabled || isSyncing) return;
+                clearTimeout(syncTimer);
+                syncTimer = setTimeout(() => {
+                    isSyncing = true;
+                    const sDoc = document.getElementById(sourceFrameId).contentDocument;
+                    const targetChunkId = getActiveChunkId(sDoc);
+
+                    if (targetChunkId) {
+                        frameIds.forEach(id => {
+                            if (id === sourceFrameId) return;
+                            try {
+                                const tDoc = document.getElementById(id).contentDocument;
+                                const targetEl = tDoc.getElementById(targetChunkId);
+                                if (targetEl) {
+                                    if (targetEl.dataset.placeholder) targetEl.style.display = 'block';
+                                    targetEl.scrollIntoView({ behavior: 'auto', block: 'start' });
+                                }
+                            } catch (e) {}
+                        });
+                    }
+                    setTimeout(() => { isSyncing = false; }, 50);
+                }, 50);
+            }
+
+            function initFrameSync(id) {
+                const iframe = document.getElementById(id);
+                iframe.addEventListener('load', () => {
+                    try {
+                        const doc = iframe.contentDocument;
+                        doc.addEventListener('scroll', () => handleFrameScroll(id), { passive: true });
+                    } catch (e) { console.error("CORS Error: Ensure local server use."); }
+                });
+            }
+
+            function resetAll() {
+                isSyncing = true;
+                document.getElementById('dropdown3').value = "";
+                document.getElementById('label1').textContent = "---";
+                document.getElementById('label2').textContent = "---";
+                document.getElementById('description3').textContent = "Select a comparison to populate all frames.";
+                document.getElementById('description1').textContent = "Loaded automatically via Master Selection.";
+                document.getElementById('description2').textContent = "Loaded automatically via Master Selection.";
+                
+                frameIds.forEach(id => {
+                    const frame = document.getElementById(id);
+                    frame.src = "placeHolder.html";
+                });
+
+                setTimeout(() => { isSyncing = false; }, 100);
+            }
+
+            function setupApp() {
+                frameIds.forEach(initFrameSync);
+                const masterDD = document.getElementById('dropdown3');
+
+                masterDD.addEventListener('change', () => {
+                    const opt = masterDD.options[masterDD.selectedIndex];
+                    if (opt && opt.value) {
+                        document.getElementById('f3').src = opt.value;
+                        document.getElementById('f1').src = opt.getAttribute('data-left');
+                        document.getElementById('f2').src = opt.getAttribute('data-right');
+                        
+                        document.getElementById('label1').textContent = opt.getAttribute('data-left-label');
+                        document.getElementById('label2').textContent = opt.getAttribute('data-right-label');
+                        document.getElementById('description3').textContent = opt.getAttribute('data-description');
+                        document.getElementById('description1').textContent = opt.getAttribute('data-left-label');
+                        document.getElementById('description2').textContent = opt.getAttribute('data-right-label');
+                    }
+                });
+            }
+
+            function setFrames(n) {
+                const table = document.getElementById('framesTable');
+                table.classList.toggle('two-frames', n === 2);
+                document.getElementById('toggle2').classList.toggle('active-toggle', n === 2);
+                document.getElementById('toggle3').classList.toggle('active-toggle', n === 3);
+            }
+
+            document.addEventListener('DOMContentLoaded', setupApp);
+        </script>
+    </body>
+</html>

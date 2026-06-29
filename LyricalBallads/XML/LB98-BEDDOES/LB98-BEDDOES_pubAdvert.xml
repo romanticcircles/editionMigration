@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Publisher's Advertisement</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BEDDOES_pubAdvert</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="pubAdvert">
+                  <title>[pubAdvert]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-BEDDOES">
+                  <ptr target="../XML/LB98-BEDDOES.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <emph>PUBLISHED</emph>
+            <lb/>For Joseph Cottle,
+						<emph>Bristol,</emph>
+            <lb/>Mr. T. L<hi>ongman</hi>, and Me<orig>ss</orig>rs.
+							L<hi>ee</hi> and H<hi>urst,</hi>
+            <lb/>
+            <emph>Paternoster-Row,
+							London.</emph>
+         </head>
+         <p>1. P<hi>oems</hi>, by R<hi>obert </hi>S<hi>outhey</hi>, Second
+						Edition—5s. Boards.</p>
+         <p>2. J<hi>oan of</hi>A<hi>rc</hi>, by R<hi>obert</hi> S<hi>outhey</hi>, Second
+						Edition, <lb/> corrected, with copious notes—2 vols. 12s.</p>
+         <p>3. P<hi>oems</hi>, by S. T. C<hi>oleridge</hi>, to which are added,
+							P<hi>oems</hi>, <lb/> by C<hi>harles</hi> L<hi>amb</hi> and
+							C<hi>harles</hi> L<hi>loyd</hi>, Second Edition. <lb/> 6s. Boards.</p>
+         <p>4. In the Press, a Second Edition, corrected, with views in<lb/> aqua tinta,
+						of L<hi>etters</hi> written during a short Residence in Spain and Portugal,
+						by R<hi>obert</hi> S<hi>outhey</hi>.</p>
+         <p>5. A S<hi>eries of </hi>P<hi>oems</hi>, containing the Plaints, Consolations,
+						<lb/> and Delights of A<hi>chmed</hi> A<hi>rdebeili</hi>, a Persian Exile.
+						<lb/> With N<hi>otes</hi>, Historical and Explanatory, by C<hi>harles</hi>
+							F<hi>ox</hi>, <lb/> Octavo, 8s. Boards</p>
+         <p>6. P<hi>oems</hi>, by J<hi>oseph</hi> C<hi>ottle</hi>, Second Edition, 4s.
+						Boards.</p>
+         <p>7. I<hi>celandic</hi> P<hi>oetry</hi>, or the E<hi>dda of</hi>
+							S<hi>æmund</hi>, translated into <lb/> English Verse, by A. S.
+							C<hi>ottle</hi>, of Magdalen College, <lb/> Cambridge, Octavo, 6s.
+						Boards.</p>
+         <p>8. E<hi>dmund</hi> O<hi>liver</hi>, by C<hi>harles</hi> L<hi>loyd</hi>, 2
+						vols. 12mo. 8s. <lb/> Boards.</p>
+         <p>9. In the Press, a Second Volume of P<hi>oems</hi>, by R<hi>obert </hi>
+            <lb/>
+							S<hi>outhey</hi>, including the Vision of the Maid of Orleans, <lb/>
+						formerly printed as the Ninth Book of J<hi>oan of </hi>A<hi>nc</hi>.</p>
+         <lb/>
+         <pb/>
+         <p>10. M<hi>alvern</hi> H<hi>ills</hi>, a P<hi>oem</hi> by J<hi>oseph</hi>
+							C<hi>ottle</hi>. Quarto.<lb/> 2s. 6d.</p>
+         <p>11. S<hi>ermons</hi>, by the late Rev. D<hi>avid </hi>J<hi>ardine</hi>, of
+							B<hi>ath</hi>
+            <lb/> published from the Original Manuscripts, by the Rev.<lb/>
+							J<hi>ohn</hi> P<hi>rior</hi> E<hi>stlin</hi>. 2 vols. Octavo. 14s.</p>
+         <p>12. E<hi>vidences of </hi>R<hi>evealed </hi>R<hi>eligion</hi>, and
+						particularly <lb/> C<hi>hristianity</hi>, with reference to a pamphlet
+						called the <lb/> A<hi>ge of </hi>R<hi>eason</hi>—In a
+							D<hi>iscourse</hi> delivered by the Rev. <lb/> J<hi>ohn</hi>
+							P<hi>rior</hi> E<hi>stlin</hi>. 1s. 6d.</p>
+         <p>13. T<hi>he</hi> N<hi>ature</hi> and the C<hi>auses of</hi> A<hi>theism</hi>,
+						pointed out in a <lb/> D<hi>iscourse</hi> delivered by the Rev.
+							J<hi>ohn</hi> P<hi>rior</hi> E<hi>stlin</hi>. <lb/> To which are added,
+						Remarks on a Work, entitled <emph>Origine <lb/> de tous les cultes, ou
+							Religion universelle- Par Dupuis, <lb/> Citoyen François</emph>.
+						2s.6d.</p>
+         <p>14. L<hi>ecture</hi>, introductory of a course of popular instruction on
+						<lb/> the Constitution and Management of the Human Body. By <lb/>
+							T<hi>homas</hi> B<hi>eddoes</hi>, M. D. Octavo. 1s.6d.</p>
+      </body>
+   </text>
+</TEI>

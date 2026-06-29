@@ -1,0 +1,331 @@
+/* Reader UI CSS (does NOT modify your TEI LBstyle.css) */
+/* Things added from Gemini Pro and Claude Code */
+
+:root {
+    --bg: #faf7f0;
+    --ink: #4a4947;
+    --accent: #06330e;/*  #b17457; */
+    --border: #d8d2c2;
+    --shadow: rgba(0, 0, 0, 0.08);
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* overrides LBstyle.css body padding: 1rem !important */
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Spectral", serif;
+    overflow: hidden;
+    /* important: panes scroll, not page */
+}
+
+/* Topbar */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    background: var(--accent);
+    color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 10px var(--shadow);
+    z-index: 1000;
+}
+
+.title {
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.topbar-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Buttons + pills */
+.icon-btn {
+    border: 1px solid rgba(250, 247, 240, 0.45);
+    background: rgba(250, 247, 240, 0.12);
+    color: var(--bg);
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon-btn:hover {
+    background: rgba(250, 247, 240, 0.18);
+}
+
+.pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--ink);
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 5px var(--shadow);
+}
+
+.pill-label {
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+.pill input {
+    width: 64px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    background: transparent;
+    color: var(--ink);
+}
+
+.pill-display {
+    font-size: 14px;
+    min-width: 36px;
+    text-align: center;
+}
+
+.edition-select {
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--ink);
+    /*  border: 1px solid var(--border); */
+    box-shadow: 0 1px 5px var(--shadow);
+}
+
+/* Layout shell */
+.shell {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Panes */
+.pane {
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg);
+}
+
+.transcript {
+    width: 60%;
+    border-right: 1px solid var(--border);
+}
+
+.transcript-inner {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 18px 22px;
+}
+
+/* IMPORTANT: Your TEI CSS sets max-width 30rem on some elements.
+   Keep a readable line length but allow wider on large screens. */
+.transcript-inner>* {
+    font-family: "Baskervville", serif;
+    margin-left: 2rem;
+}
+
+/* Give OSD UI breathing room so controls never clash with top bar */
+.image {
+    flex: 1;
+    position: relative;
+    border-left: 1px solid var(--border);
+    background: var(--bg);
+    overflow: hidden;
+
+    /* keep controls away from the very top edge */
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+/* Make the viewer fill the pane (minus that top padding) */
+.osd {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Divider */
+.divider {
+    width: 6px;
+    background: var(--border);
+    cursor: col-resize;
+}
+
+.divider:hover {
+    background: #4a4947;
+}
+
+.overlay-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background: var(--accent);/*  rgba(177, 116, 87, 0.78); */
+    color: var(--bg);
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px var(--shadow);
+
+    display: flex;
+    /* ✅ add */
+    align-items: center;
+    /* ✅ add */
+    justify-content: center;
+    /* ✅ add */
+    line-height: 1;
+    /* ✅ add */
+    padding: 0;
+    /* ✅ add */
+}
+
+.overlay-btn.left {
+    left: 12px;
+}
+
+.overlay-btn.right {
+    right: 12px;
+}
+
+.overlay-btn:hover {
+    background: rgba(177, 116, 87, 0.9);
+}
+
+/* Responsive */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: inline-flex;
+    }
+
+    .shell {
+        flex-direction: column;
+    }
+
+    .transcript {
+        width: 100%;
+        border-right: 0;
+    }
+
+    .image {
+        width: 100%;
+        border-left: 0;
+    }
+}
+/* from Gemini Pro */
+/* Container for both icons */
+/* Ensure the icons sit on top of the banner background */
+.banner-icons {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    z-index: 10; /* Keeps icons above banner background */
+}
+/* The Opacity Trick & Sizing */
+.banner-icon-img {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    opacity: 0.85; /* Slightly dimmed to blend in */
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.banner-icon-img:hover {
+    opacity: 1; /* Brightens on hover */
+    transform: scale(1.05); /* Subtle grow effect */
+}
+
+/* Mobile Adjustments */
+@media (max-width: 800px) {
+    .banner-icons {
+        right: 0.75rem;
+        gap: 0.75rem;
+    }
+    .banner-icon-img {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay[style*="block"] {
+    display: flex !important;
+}
+
+.modal-content {
+    position: relative;
+    z-index: 10001;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 1.75rem 2rem;
+    border-radius: 10px;
+    max-width: 480px;
+    width: 90%;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.close-btn {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    line-height: 1;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-1_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[Table of Contents]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-1">
+                  <ptr target="../XML/LB02-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <head>
+            <lb/>
+            <lb/>
+            <emph>CONTENTS. </emph>
+         </head>
+         <p>Page<lb/>Expostulation and Reply - - - - - <ref type="single" target="LB02-1_EXPOST">1</ref>
+            <lb/>The Tables turned ; an Evening Scene, on the <lb/>
+                              same subject - - - - - - <ref type="single" target="LB02-1_TABLES">4</ref>
+            <lb/>Animal Tranquillity and Decay, a Sketch - <ref type="single" target="LB02-1_TRANQ">7</ref>
+            <lb/>Goody Blake and Harry Gill - -
+                              - - <ref type="single" target="LB02-1_GOODY">9</ref>
+            <lb/>The Last of the Flock - -
+                              - - - <ref type="single" target="LB02-1_FLOCK">18</ref>
+            <lb/>Lines left upon a Seat
+                              in a Yew tree which stands <lb/> near the Lake of Esthwaite - - - <ref type="single" target="LB02-1_LLyew">24</ref>
+            <lb/>The Foster-Mother’s
+                              Tale - - - - <ref type="single" target="LB02-1_FOSTERstc">28</ref>
+            <lb/>The Thorn -
+                              - - - - - <ref type="single" target="LB02-1_THORNf">35</ref>
+            <lb/>We are Seven - - -
+                              - - - <ref type="single" target="LB02-1_SEVEN">51</ref>
+            <lb/>Anecdote for Fathers -
+                              - - - - <ref type="single" target="LB02-1_ANEC">56</ref>
+            <lb/>Lines written at a
+                              small distance from my House, <lb/> and sent by my little Boy to the
+                              Person to <lb/> whom they are addressed - - - - <ref type="single" target="LB02-1_LLdistance">61</ref>
+            <lb/>The Female Vagrant - - -
+                              - - <ref type="single" target="LB02-1_VAGRANTF">67</ref>
+            <lb/>Lines written in early
+                              Spring - - - - <ref type="single" target="LB02-1_LLspring">81</ref>
+            <lb/>Simon Lee,
+                              the old Huntsman - - - <ref type="single" target="LB02-1_SIMON">83</ref>
+            <lb/>The
+                              Nightingale, written in April, 1798 - - <ref type="single" target="LB02-1_NTNGLstc">90</ref>
+            <lb/>The Idiot Boy - - - - - - <ref type="single" target="LB02-1_IDIOTf">99</ref>
+            <lb/>Love - - - - - - - - <ref type="single" target="LB02-1_LOVEstc">130</ref>
+            <lb/>The Mad Mother - - - - - -
+                                   <ref type="single" target="LB02-1_MMOTHER">137</ref>
+            <lb/>The Ancient Mariner -
+                              - - - - <ref type="single" target="LB02-1_RIMEfstc">145</ref>
+            <lb/>Lines written a
+                              few miles above Tintern Abbey -<ref type="single" target="LB02-1_LLtintern">191</ref>
+         </p>
+      </body>
+   </text>
+</TEI>

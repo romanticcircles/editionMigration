@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Waterfall and the Eglantine</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_WFALL</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="WFALL">
+                  <title>The Waterfall and the Eglantine</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">55 to 57</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="55" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="11">“Dost thou presume my course to block?</l>
+            <l n="12">
+               <add>“</add> Off, off! or, puny Thing!</l>
+            <l n="13">
+               <add>“</add> I’ll hurl thee headlong with the
+                                   rock</l>
+            <l n="14">
+               <add>“</add> To which thy fibres cling.”</l>
+            <l n="15">The Flood was tyrannous and strong;</l>
+            <l n="16">The patient Briar suffer’d long,</l>
+            <l n="17">Nor did he utter groan or sigh,</l>
+            <l n="18">Hoping the danger would be pass’d:</l>
+            <l n="19">But seeing no relief, at last</l>
+            <l n="20">He ventur’d to reply.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">“Ah!” said the Briar, “Blame me not!</l>
+            <l n="22">
+               <add>“</add> Why should we dwell in strife?</l>
+            <l n="23">
+               <add>“</add> We who in this, our natal spot,</l>
+            <l n="24">
+               <add>“</add> Once liv’d a happy life!</l>
+            <l n="25">
+               <add>“</add> You stirr’d me on my rocky
+                                   bed—</l>
+            <l n="26">
+               <add>“</add> What pleasure thro’ my veins you
+                                   spread!</l>
+            <l n="27">
+               <add>“</add> The Summer long from day to day</l>
+            <l n="28">
+               <add>“</add> My leaves you freshen’d and
+                                   bedew’d;</l>
+            <l n="29">
+               <add>“</add> Nor was it common gratitude</l>
+            <l n="30">
+               <add>“</add> That did your cares repay.</l>
+         </lg>
+         <pb/>
+         <milestone n="56" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="31">
+               <add>“</add> When Spring came on with bud and
+                                   bell,</l>
+            <l n="32">
+               <add>“</add> Among these rocks did I</l>
+            <l n="33">
+               <add>“</add> Before you hang my wreath to tell</l>
+            <l n="34">
+               <add>“</add> That gentle days were nigh!</l>
+            <l n="35">
+               <add>“</add> And in the sultry summer hours</l>
+            <l n="36">
+               <add>“</add> I shelter’d you with leaves and
+                                   flowers;</l>
+            <l n="37">
+               <add>“</add> And in my leaves<add place="belowline" rend="ink" resp="ww">^</add>now shed and gone<add place="belowline" rend="ink" resp="ww">^</add>
+               <add place="rmargin" rend="ink" resp="ww">, /, /</add>
+            </l>
+            <l n="38">
+               <add place="lmargin" rend="ink" resp="ww">/;/L</add>
+               <add>“</add>The <del>l</del>innet
+                                        lodg’d<add place="belowline" rend="ink" resp="ww">^</add>and for us two</l>
+            <l n="39">
+               <add place="rmargin" rend="ink" resp="ww">/,</add>
+               <add>“</add> Chaunted his pretty
+                                        songs<add place="belowline" rend="ink" resp="ww">^</add>when
+                                   you <add place="rmargin" rend="ink" resp="ww">Y/</add>
+            </l>
+            <l n="40">
+               <add place="rmargin" rend="ink" resp="ww">“</add> Had
+                                   little voice or none.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="41">
+               <add>“</add> But now proud thoughts are in your
+                                   breast—</l>
+            <l n="42">
+               <add>“</add> What grief is mine you see.</l>
+            <l n="43">
+               <add>“</add> Ah! would you think, ev’n yet how
+                                   blest</l>
+            <l n="44">
+               <add>“</add> Together we might be!</l>
+            <l n="45">
+               <add>“</add> Though of both leaf and flower
+                                   bereft,</l>
+            <l n="46">
+               <add>“</add> Some ornaments to me are left—</l>
+            <l n="47">
+               <add>“</add> Rich store of scarlet hips is mine,</l>
+            <l n="48">
+               <add>“</add> With which I in my humble way</l>
+            <l n="49">
+               <add>“</add> Would deck you many a Winter’s
+                                   day,</l>
+            <l n="50">
+               <add>“</add> A happy Eglantine!”</l>
+         </lg>
+         <pb/>
+         <milestone n="57" unit="page"/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="51">What more he said, I cannot tell.</l>
+            <l n="52">The stream came thundering down the dell<add place="belowline" rend="ink" resp="ww">^</add>
+               <add place="rmargin" rend="ink" resp="ww">, /</add>
+            </l>
+            <l n="63">And gallop’d loud and fast;</l>
+            <l n="64">I listen’d, nor aught else could hear,</l>
+            <l n="65">
+               <add place="belowline" rend="ink" resp="ww">^</add>
+               <add place="rmargin" rend="ink" resp="ww">—</add> The Briar
+                                        quak’d<add place="belowline" rend="ink" resp="ww">^</add>and much I fear,</l>
+            <l n="66">Those accents were his last.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

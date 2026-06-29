@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: [Rime of the Ancient Mariner title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BEDDOES_RIMEfstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB98-BEDDOES">
+                  <ptr target="../XML/LB98-BEDDOES.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>THE RIME<lb/>
+                  <lb/>
+                  <hi>of
+								the</hi>
+                  <lb/>
+                  <lb/>ANCYENT MARINERE,<lb/>
+                  <lb/>
+                  <hi>in<lb/>
+                     <lb/>SEVEN
+									PARTS.</hi>
+               </titlePart>
+            </docTitle>
+         </titlePage>
+         <pb/>
+         <pb/>
+         <argument xml:id="ARGUrm">
+            <head>
+               <emph>ARGUMENT.</emph>
+            </head>
+            <lb/>
+            <p>How a Ship having passed the Line was driven by<lb/>Storms to the cold
+							Country towards the South Pole;<lb/>and how from thence she made her
+							course to the<lb/>tropical Latitude of the Great Pacific Ocean;
+							and<lb/>of the strange things that befell; and in what<lb/>manner the
+							Ancyent Marinere came back to his<lb/>own Country.</p>
+         </argument>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

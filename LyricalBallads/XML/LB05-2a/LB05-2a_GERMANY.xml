@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Written in Germany</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2a_GERMANY</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="GERMANY">
+                  <title>[GERMANY]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2a">
+                  <ptr target="../XML/LB05-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">144 to 146</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="144"/>
+         <milestone n="144" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>Written in GERMANY, <lb/>
+               <lb/>On one of the coldest days of the
+                                   Century.<lb/>
+            </emph>
+            <note>
+               <emph>I must apprise the Reader that the stoves in North
+                                        Germany generally have the impression of a galloping Horse
+                                        upon them, this being part of the Brunswick Arms.
+                                   </emph>
+            </note>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">A fig for your languages, German and Norse!</l>
+            <l n="2">Let me have the song of the Kettle;</l>
+            <l n="3">And the tongs and the poker, instead of that Horse</l>
+            <l n="4">That gallops away with such fury and force</l>
+            <l n="5">On this dreary dull plate of black metal.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="6">Our earth is no doubt made of excellent stuff;</l>
+            <l n="7">But her pulses beat slower and slower:</l>
+            <l n="8">The weather in Forty was cutting and rough,</l>
+            <l n="9">And then, as Heaven knows, the Glass stood low enough;</l>
+            <l n="10">And <emph>now</emph> it is four degrees lower.</l>
+         </lg>
+         <pb n="145"/>
+         <milestone n="145" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="11">Here’s a Fly, a disconsolate creature, perhaps</l>
+            <l n="12">A child of the field, or the grove;</l>
+            <l n="13">And, sorrow for him! this dull treacherous heat</l>
+            <l n="14">Has seduced the poor fool from his winter retreat,</l>
+            <l n="15">And he creeps to the edge of my stove.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="16">Alas! how he fumbles about the domains</l>
+            <l n="17">Which this comfortless oven environ!</l>
+            <l n="18">He cannot find out in what track he must crawl,</l>
+            <l n="19">Now back to the tiles, and now back to the wall,</l>
+            <l n="20">And now on the brink of the iron.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="21">Stock-still there he stands like a traveller bemazed;</l>
+            <l n="22">The best of his skill he has tried;</l>
+            <l n="23">His feelers methinks I can see him put forth</l>
+            <l n="24">To the East and the West, and the South and the North;</l>
+            <l n="25">But he finds neither Guide-post nor Guide.</l>
+         </lg>
+         <pb n="146"/>
+         <milestone n="146" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="26">See! his spindles sink under him, foot, leg and thigh;</l>
+            <l n="27">His eyesight and hearing are lost;</l>
+            <l n="28">Between life and death his blood freezes and thaws;</l>
+            <l n="29">And his two pretty pinions of blue dusky gauze</l>
+            <l n="30">Are glued to his sides by the frost.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="31">No Brother, no Friend has he near him—while I</l>
+            <l n="32">Can draw warmth from the cheek of my Love;</l>
+            <l n="33">As blest and as glad in this desolate gloom,</l>
+            <l n="34">As if green summer grass were the floor of my room,</l>
+            <l n="35">And woodbines were hanging above.</l>
+         </lg>
+         <lg n="8" type="stanza">
+            <l n="36">Yet, God is my witness, thou small helpless Thing!</l>
+            <l n="37">Thy life I would gladly sustain</l>
+            <l n="38">Till summer comes up from the South, and with crowds</l>
+            <l n="39">Of thy brethren a march thou shouldst sound through the
+                                   clouds,</l>
+            <l n="40">And back to the forests again.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

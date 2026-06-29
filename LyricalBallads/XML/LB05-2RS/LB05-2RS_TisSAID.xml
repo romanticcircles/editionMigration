@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: 'Tis said that some have died for love . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_TisSAID</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="TisSAID">
+                  <title>[TisSAID]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">76 to 79</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="76" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1" type="stanza">
+            <l n="1">’Tis said, that some have died for love:</l>
+            <l n="2">And here and there a church-yard grave is found</l>
+            <l n="3">In the cold North’s unhallowed ground,</l>
+            <l n="4">Because the wretched Man himself had slain,</l>
+            <l n="5">His love was such a grievous pain.</l>
+            <l n="6">And there is one whom I five years have known;</l>
+            <l n="7">He dwells alone</l>
+            <l n="8">Upon Helvellyn’s side:</l>
+            <l n="9">He loved——the pretty Barbara died,</l>
+            <l n="10">And thus he makes his moan:</l>
+            <l n="11">Three years had Barbara in her grave been laid</l>
+            <l n="12">When thus his moan he made:</l>
+         </lg>
+         <pb/>
+         <milestone n="77" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="13">“Oh move, thou Cottage, from behind that oak!</l>
+            <l n="14">Or let the aged tree uprooted lie,</l>
+            <l n="15">That in some other way yon smoke</l>
+            <l n="16">May mount into the sky!</l>
+            <l n="17">The clouds pass on; they from the heavens depart:</l>
+            <l n="18">I look—the sky is empty space;</l>
+            <l n="19">I know not what I trace;</l>
+            <l n="20">But, when I cease to look, my hand is on my heart.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">“O! what a weight is in these shades! Ye leaves,</l>
+            <l n="22">When will that dying murmur be supprest?</l>
+            <l n="23">Your sound my heart of peace bereaves,</l>
+            <l n="24">It robs my heart of rest.</l>
+            <l n="25">Thou Thrush, that singest loud and loud and free,</l>
+            <l n="26">Into yon row of willows flit,</l>
+            <l n="27">Upon that alder sit;</l>
+            <l n="28">Or sing another song, or choose another tree.</l>
+         </lg>
+         <pb/>
+         <milestone n="78" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="29">“Roll back, sweet Rill! Back to thy mountain bounds,</l>
+            <l n="30">And there for ever be thy waters chained!</l>
+            <l n="31">For thou dost haunt the air with sounds</l>
+            <l n="32">That cannot be sustained;</l>
+            <l n="33">If still beneath that pine-tree’s ragged bough</l>
+            <l n="34">Headlong yon waterfall must come,</l>
+            <l n="35">Oh let it then be dumb!—</l>
+            <l n="36">Be any thing, sweet Rill, but that which thou art now.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="37">“Thou Eglantine, whose arch so proudly towers,</l>
+            <l n="38">(Even like the rainbow spanning half the vale)</l>
+            <l n="39">Thou one fair shrub, oh! shed thy flowers,</l>
+            <l n="40">And stir not in the gale.</l>
+            <l n="41">For thus to see thee nodding in the air,</l>
+            <l n="42">To see thy arch thus stretch and bend,</l>
+            <l n="43">Thus rise and thus descend,</l>
+            <l n="44">Disturbs me, till the sight is more than I can bear.”</l>
+         </lg>
+         <pb/>
+         <milestone n="79" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="45">The Man who makes this feverish complaint</l>
+            <l n="46">Is one of giant stature, who could dance</l>
+            <l n="47">Equipped from head to foot in iron mail.</l>
+            <l n="48">Ah gentle Love! if ever thought was thine</l>
+            <l n="49">To store up kindred hours for me, thy face</l>
+            <l n="50">Turn from me, gentle Love! nor let me walk</l>
+            <l n="51">Within the sound of Emma’s voice, or know</l>
+            <l n="52">Such happiness as I have known today.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

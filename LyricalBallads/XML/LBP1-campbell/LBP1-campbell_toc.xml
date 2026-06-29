@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[toc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">0</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="toc">
+            <head>
+               <emph>
+                  <lb/>CONTENTS.</emph>
+               <lb/>
+               <lb/>V<hi>ol</hi>. I.</head>
+            <p>Expostulation and Reply -  -  -  -  -             Page 	<ref type="single" target="LBP1-campbell_EXPOST">141</ref>
+               <lb/>
+                                   The Tables turned; an Evening Scene on the same <lb/>
+                                   Subject -  -  -  -  -  -  -  -  - 		<ref type="single" target="LBP1-campbell_TABLES">143</ref>
+               <lb/>
+                                   Animal Tranquillity and Decay, a Sketch  -  -  	<ref type="single" target="LBP1-campbell_TRANQ">145</ref>
+               <lb/>
+                                   The Complaint of a forsaken Indian Woman  -  	<ref type="single" target="LBP1-campbell_INDIANf">146</ref>
+               <lb/>
+                                   The Last of the Flock  -  -  -  -  -  	<ref type="single" target="LBP1-campbell_FLOCK">107</ref>
+               <lb/>
+                                   Lines left upon a Seat in a Yew-tree which stands<lb/>
+                                   near the Lake of Esthwaite  -  -  -  -  	<ref type="single" target="LBP1-campbell_LLyew">51</ref>
+               <lb/>
+                                   The Foster-mother’s Tale   -  -  -  -   		<ref type="single" target="LBP1-campbell_FOSTERstc">45</ref>
+               <lb/>
+                                   Goody Blake and Harry Gill  -  -  -  -  		<ref type="single" target="LBP1-campbell_GOODY">75</ref>
+               <lb/>
+                                   The Thorn  -  -  -  -  -  -  -  			<ref type="single" target="LBP1-campbell_THORN">95</ref>
+               <lb/>
+                                   We are Seven -  -  -  -  -  -  -  			<ref type="single" target="LBP1-campbell_SEVEN">90</ref>
+               <lb/>
+                                   Anecdote for Fathers  .  .  .  .  .  			<ref type="single" target="LBP1-campbell_ANEC">87</ref>
+               <lb/>
+                                   Lines written at a small Distance from my House,<lb/>
+                                   and sent by my little Boy to the Person to whom<lb/>
+                                   they are addressed  .  .  .  . .  		<ref type="single" target="LBP1-campbell_LLdistance">80</ref>
+               <lb/>
+                                   The Female Vagrant  .  .  .  .  .  .  			<ref type="single" target="LBP1-campbell_VAGRANT">61</ref>
+               <lb/>
+                                   The Dungeon  .  .  .  .  .  .  .  			<ref type="single" target="LBP1-campbell_DUNGEONstc">112</ref>
+               <lb/>
+                                   Simon Lee, the Old Huntsman  .  .  .  .  		<ref type="single" target="LBP1-campbell_SIMON">82</ref>
+               <lb/>
+                                   Lines written in early Spring  .  .  .  .  		<ref type="single" target="LBP1-campbell_LLspring">93</ref>
+               <lb/>
+                                   The Nightingale, written in April 1798.  .  .  	<ref type="single" target="LBP1-campbell_NTNGLstc">55</ref>
+               <lb/>
+                                   Lines written near Richmond, upon the Thames   	<ref type="single" target="LBP1-campbell_COLLINS">139</ref>
+               <lb/>
+                                   The Idiot Boy  . . . . . . . . . . 			<ref type="single" target="LBP1-campbell_IDIOT">119</ref>
+               <lb/>
+                                   Love  .  .  .  .  .  .  .  . . 				<ref type="single" target="LBP1-campbell_LOVEstc">1</ref>
+               <lb/>
+                                   The Mad Mother  .  .  .  .  .  .  			<ref type="single" target="LBP1-campbell_MMOTHER">114</ref>
+               <lb/>
+                                   The Ancient Mariner  .  .  .  .  .  			<ref type="single" target="LBP1-campbell_RIMEfstc">13</ref>
+               <lb/>
+                                   On Revisiting the Wye  .  .  . . 			<ref type="single" target="LBP1-campbell_LLtintern">153</ref>
+               <lb/>
+                                   The Convict . . . . .  				<ref type="single" target="LBP1-campbell_CONVICT">150</ref>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Lewti; or the Circassian Love Chant</title>
+            <author>
+               <name>Samuel Taylor Coleridge</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-Bbl_LEWTIstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LEWTIstc">
+                  <title>[LEWTIstc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/24599809">Samuel Taylor Coleridge</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-Bbl">
+                  <ptr target="../XML/LB98-Bbl.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"> to 67</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <lb/>L E W T I ;<lb/>
+            <hi>
+               <lb/>or,</hi>
+            <lb/>
+            <lb/>
+            <emph>
+               <hi>THE
+                                        CIRCASSIAN LOVE CHANT.</hi>
+            </emph>
+            <lb/>
+            <lb/>
+         </head>
+         <lg type="cont">
+            <l n="1">At midnight, by the stream I rov’d </l>
+            <l n="2">To forget the form I lov’d. </l>
+            <l n="3">Image of L<hi rend="small caps">ewti</hi>! from my mind </l>
+            <l n="4">Depart; for L<hi rend="small caps">ewti</hi> is not kind. </l>
+            <l n="5">The moon was high, the moonlight gleam, </l>
+            <l n="6" rend="indent"> And the shadow of a star </l>
+            <l n="7">Heav’d upon Tamaha’s stream; </l>
+            <l n="8" rend="indent"> But the rock shone brighter far. </l>
+            <l n="9">The rock half-sheltered from my view, </l>
+            <l n="10">By pendant boughs of tressy yew.— </l>
+            <l n="11">So shines my L<hi rend="small caps">ewti’s</hi>
+                                   forehead fair, </l>
+            <l n="12">Gleaning thro’ her sable hair.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="64"/>
+         <lb/>
+         <lb/>
+         <lg type="cont">
+            <l n="13">Image of L<hi rend="small caps">ewti</hi>! from my mind </l>
+            <l n="14">Depart; for L<hi rend="small caps">ewti</hi> is not kind. </l>
+            <l n="15">I saw a cloud of palest hue, </l>
+            <l n="16" rend="indent"> Onward to the moon it pass’d. </l>
+            <l n="17">Still brighter and more bright it grew, </l>
+            <l n="18">With floating colours not a few, </l>
+            <l n="19" rend="indent"> Till it reach’d the moon at last. </l>
+            <l n="20">Then the cloud was wholly bright, </l>
+            <l n="21">With a rich and amber light; </l>
+            <l n="22">And so with many a hope I seek, </l>
+            <l n="23" rend="indent"> And with such joy I find my L<hi rend="small caps">ewti</hi>;</l>
+            <l n="24">And even so my pale wan cheek </l>
+            <l n="25" rend="indent"> Drinks in as deep a flush of beauty! </l>
+            <l n="26">Nay, treach’rous image! leave my mind, </l>
+            <l n="27">If L<hi rend="small caps">ewti</hi> never will be kind. </l>
+            <l n="28">The little cloud—it floats away, </l>
+            <l n="29" rend="indent"> Away it goes—away so soon! </l>
+            <l n="30">Alas! it has no pow’r to stay: </l>
+            <l n="31">Its hues are dim, its hues are grey—</l>
+            <l n="32" rend="indent"> Away it passes from the moon. </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="65"/>
+         <lb/>
+         <lb/>
+         <lg type="cont">
+            <l n="33">How mournfully it seems to fly, </l>
+            <l n="34" rend="indent"> Ever fading more and more, </l>
+            <l n="35">To joyless regions of the sky— </l>
+            <l n="36" rend="indent"> And now ’tis whiter than before, </l>
+            <l n="37">As white as my poor cheek will be, </l>
+            <l n="38" rend="indent"> When, L<hi rend="small caps">ewti</hi>! on my
+                                   couch I lie, </l>
+            <l n="39">A dying man, for love of thee. </l>
+            <l n="40">Nay, treach’rous image! leave my mind—</l>
+            <l n="41">And yet thou didst not look unkind! </l>
+            <l n="42" rend="indent"> I saw a vapour in the sky, </l>
+            <l n="43" rend="indent"> Thin and white and very high. </l>
+            <l n="44">I ne’er beheld so thin a cloud— </l>
+            <l n="45" rend="indent"> Perhaps the breezes that can fly </l>
+            <l n="46" rend="indent"> Now below, and now above, </l>
+            <l n="47">Have snatch’d aloft the lawny shroud </l>
+            <l n="48" rend="indent"> Of lady fair, that died for love: </l>
+            <l n="49" rend="indent"> For Maids, as well as Youths, have
+                                   perish’d</l>
+            <l n="50" rend="indent"> From fruitless love, too fondly
+                                   cherish’d! </l>
+            <l n="51" rend="indent"> Nay, treach’rous image! leave my
+                                   mind— </l>
+            <l n="52" rend="indent"> For L<hi rend="small caps">ewti</hi> never
+                                   will be kind.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="66"/>
+         <lb/>
+         <lb/>
+         <lg type="cont">
+            <l n="53">Hush! my heedless feet from under </l>
+            <l n="54" rend="indent"> Slip the crumbling banks for ever; </l>
+            <l n="55">Like echoes to a distant thunder, </l>
+            <l n="56" rend="indent"> They plunge into the gentle river: </l>
+            <l n="57">The river-swans have heard my tread, </l>
+            <l n="58">And startle from their reedy bed. </l>
+            <l n="59">O beauteous birds! methinks ye measure</l>
+            <l n="60" rend="indent"> Your movements to some heav’nly tune! </l>
+            <l n="61">O beauteous birds! ’tis such a pleasure</l>
+            <l n="62" rend="indent"> To see you move beneath the moon; </l>
+            <l n="63">I would, it were your true delight </l>
+            <l n="64">To sleep by day and wake all night. </l>
+            <l n="65">I know the place where L<hi rend="small caps">ewti</hi>
+                                   lies, </l>
+            <l n="66">When silent night has clos’d her eyes— </l>
+            <l n="67">It is a breezy jasmin bow’r, </l>
+            <l n="68" rend="indent"> The Nightingale sings o’er her head; </l>
+            <l n="69">Had I the enviable pow’r </l>
+            <l n="70" rend="indent"> To creep unseen with noiseless tread, </l>
+            <l n="71">Then should I view her bosom white, </l>
+            <l n="72">Heaving lovely to the sight, </l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="67"/>
+         <lb/>
+         <lb/>
+         <lg type="cont">
+            <l n="73">As those two swans together heave </l>
+            <l n="74">On the gently swelling wave. </l>
+            <l n="75">O that she saw me in a dream, </l>
+            <l n="76" rend="indent"> And dreamt that I had died for care! </l>
+            <l n="77">All pale and wasted I would seem, </l>
+            <l n="78" rend="indent"> Yet fair withal, as spirits are. </l>
+            <l n="79">I’d die indeed, if I might see </l>
+            <l n="80">Her bosom heave, and heave for me! </l>
+            <l n="81">Soothe, gentle image! soothe my mind! </l>
+            <l n="82">To-morrow L<hi rend="small caps">ewti</hi> may be kind.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

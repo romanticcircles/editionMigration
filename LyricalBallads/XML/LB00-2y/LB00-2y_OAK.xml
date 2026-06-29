@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Oak and the Broom</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_OAK</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="OAK">
+                  <title>The Oak and the Broom</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">58 to 63</biblScope>
+                  <biblScope unit="pages">6</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="58" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The OAK and the BROOM,<lb/>
+               <lb/>
+               <hi rend="small">A
+                                        PASTORAL.</hi>
+            </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">His simple truths did Andrew glean</l>
+            <l n="2">Beside the babbling rills;</l>
+            <l n="3">A careful student he had been</l>
+            <l n="4">Among the woods and hills.</l>
+            <l n="5">
+               <add place="lmargin" resp="ww">/,</add>One winter’s
+                                        night<add place="belowline" resp="ww">^</add>when through
+                                   the Trees</l>
+            <l n="6">The wind was thundering, on his knees</l>
+            <l n="7">His youngest born did Andrew hold:</l>
+            <l n="8">And while the rest, a ruddy quire<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="9">Were seated round their blazing fire,</l>
+            <l n="10">This Tale the Shepherd told.</l>
+         </lg>
+         <pb/>
+         <milestone n="59" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg>
+            <l n="11">I saw a crag, a lofty stone</l>
+            <l n="12">As ever tempest beat!</l>
+            <l n="13">Out of its head an Oak had grown,</l>
+            <l n="14">A Broom out of its feet.</l>
+            <l n="15">The time was March, a chearful noon—</l>
+            <l n="16">The thaw-wind with the breath of June</l>
+            <l n="17">Breath’d gently from the warm South-west;</l>
+            <l n="18">
+               <add place="lmargin" resp="ww">/,</add> When<add place="belowline" resp="ww">^</add>in a voice sedate with
+                                        age<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">, /</add>
+            </l>
+            <l n="19">This Oak, half giant and half sage,</l>
+            <l n="20">His neighbour thus address’d.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">
+               <add place="lmargin" resp="ww">“</add>Eight weary
+                                   weeks, thro’ rock and clay,</l>
+            <l n="22">
+               <add place="lmargin" resp="ww">“</add> Along this
+                                   mountain’s edge</l>
+            <l n="23">
+               <add place="lmargin" resp="ww">“</add> The Frost hath
+                                   wrought both night and day,</l>
+            <l n="24">
+               <add place="lmargin" resp="ww">“</add> Wedge driving
+                                   after wedge.</l>
+            <l n="25">
+               <add place="lmargin" resp="ww">/!</add>
+               <add place="lmargin" resp="ww">“</add> Look up<del>,</del>
+                                   and think, above your head</l>
+            <l n="26">
+               <add place="lmargin" resp="ww">“</add> What trouble
+                                   surely will be bred;</l>
+            <l n="27">
+               <add place="lmargin" resp="ww">“</add> Last night I
+                                   heard a crash—’tis true,</l>
+            <l n="28">
+               <add place="lmargin" resp="ww">“</add> The splinters
+                                   took another road—</l>
+            <l n="29">
+               <add place="lmargin" resp="ww">“</add> I see them
+                                   yonder—what a load</l>
+            <l n="30">
+               <add place="lmargin" resp="ww">“</add> For such a
+                                   Thing as you!</l>
+         </lg>
+         <pb/>
+         <milestone n="60" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="31">
+               <add place="lmargin" resp="ww">“</add> You are
+                                   preparing as before</l>
+            <l n="32">
+               <add place="lmargin" resp="ww">“</add> To deck your
+                                   slender shape;</l>
+            <l n="33">
+               <add place="lmargin" resp="ww">“</add> And yet, just
+                                   three years back—no more—</l>
+            <l n="34">
+               <add place="lmargin" resp="ww">“</add> You had a
+                                   strange escape.</l>
+            <l n="35">
+               <add place="lmargin" resp="ww">“</add>Down from yon
+                                   Cliff a fragment broke,</l>
+            <l n="36">
+               <add place="lmargin" resp="ww">“</add> It came, you
+                                   know, with fire and smoke</l>
+            <l n="37 ">
+               <add place="lmargin" resp="ww">“</add> And<add place="belowline" resp="ww">^</add>
+               <add hand="dw" place="aboveline" resp="ww">hitherward it bent its
+                                        way.</add>
+               <del>hither did it bend its way.</del>
+            </l>
+            <l n="38">
+               <add place="lmargin" resp="ww">“</add> This
+                                   pond’rous <del>b</del>lock was caught by me, <add place="rmargin" resp="ww">B/</add>
+            </l>
+            <l n="39">
+               <add place="lmargin" resp="ww">“</add> And o’er
+                                   your head, as you may see,</l>
+            <l n="40">
+               <add place="lmargin" resp="ww">“</add> ’Tis
+                                   hanging to this day<del>.</del>
+               <add place="rmargin" resp="ww">!/</add>
+            </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="41">
+               <add place="lmargin" resp="ww">“</add> The Thing had
+                                   better been asleep,</l>
+            <l n="42">
+               <add place="lmargin" resp="ww">“</add> Whatever thing
+                                   it were,</l>
+            <l n="43">
+               <add place="lmargin" resp="ww">“</add> Or Breeze, or
+                                   Bird, or <del>fleece of Sheep,</del>
+               <add hand="dw" place="aboveline" resp="ww">Dog, or
+                                   Sheep,</add>
+            </l>
+            <l n="44">
+               <add place="lmargin" resp="ww">“</add> That first did
+                                   plant you there.</l>
+            <l n="45">
+               <add place="lmargin" resp="ww">“</add> For you and
+                                   your green twigs decoy</l>
+            <l n="56">
+               <add place="lmargin" resp="ww">“</add> The little
+                                   witless Shepherd-boy</l>
+            <l n="57">
+               <add place="lmargin" resp="ww">“</add> To come and
+                                   slumber in your bower;</l>
+            <l n="58">
+               <add place="lmargin" resp="ww">/,</add>
+               <add place="lmargin" resp="ww">“</add> And<add place="belowline" resp="ww">^</add>trust me, on some sultry
+                                   noon,</l>
+            <l n="59">
+               <add place="lmargin" resp="ww">“</add> Both you and
+                                   he, Heaven knows how soon!</l>
+            <l n="60">
+               <add place="lmargin" resp="ww">“</add> Will perish in
+                                   one hour.</l>
+         </lg>
+         <pb/>
+         <milestone n="61" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="51">
+               <add place="lmargin" resp="ww">“</add>From me this
+                                   friendly warning take”—</l>
+            <l n="52">—The Broom began to doze,</l>
+            <l n="53">And thus to keep herself awake</l>
+            <l n="54">Did gently interpose.</l>
+            <l n="55">
+               <add place="lmargin" resp="ww">“</add> “ My
+                                   thanks for your discourse are due;</l>
+            <l n="56">
+               <add place="lmargin" resp="ww">“</add> That it is
+                                   true, and more than true,</l>
+            <l n="56">
+               <add place="lmargin" resp="ww">“</add> I know and I
+                                   have known it long;</l>
+            <l n="58">
+               <add place="lmargin" resp="ww">“</add> Frail is the
+                                   bond, by which we hold</l>
+            <l n="59">
+               <add place="lmargin" resp="ww">“</add> Our being, be
+                                   we young or old,</l>
+            <l n="60">
+               <add place="lmargin" resp="ww">“</add> Wise, foolish,
+                                   weak or strong.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="61">
+               <add place="lmargin" resp="ww">“</add> Disasters, do
+                                   the best we can,</l>
+            <l n="62">
+               <add place="lmargin" resp="ww">“</add> Will reach both
+                                   great and small;</l>
+            <l n="63">
+               <add place="lmargin" resp="ww">“</add> And he is oft
+                                   the wisest man,</l>
+            <l n="64">
+               <add place="lmargin" resp="ww">“</add> Who is not wise
+                                   at all.</l>
+            <l n="65">
+               <add place="lmargin" resp="ww">“</add> For me, why
+                                   should I wish to roam?</l>
+            <l n="66">
+               <add place="lmargin" resp="ww">“</add> This spot is my
+                                   paternal home,</l>
+            <l n="67">
+               <add place="lmargin" resp="ww">“</add> It is my
+                                   pleasant Heritage;</l>
+            <l n="68">
+               <add place="lmargin" resp="ww">“</add> My Father many
+                                   a happy year</l>
+            <l n="69">
+               <add place="lmargin" resp="ww">“</add> Here spread his
+                                   careless blossoms, here</l>
+            <l n="70">
+               <add place="lmargin" resp="ww">“</add> Attain’d
+                                   a good old age.</l>
+         </lg>
+         <pb/>
+         <milestone n="62" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="71">
+               <add place="lmargin" resp="ww">“</add> Even such as
+                                   his may be my lot.</l>
+            <l n="72">
+               <add place="lmargin" resp="ww">“</add> What cause have
+                                   I to haunt</l>
+            <l n="73">
+               <add place="lmargin" resp="ww">“</add> My heart with
+                                   terrors? Am I not</l>
+            <l n="74">
+               <add place="lmargin" resp="ww">“</add> In truth a
+                                   favor’d plant!</l>
+            <l n="75">
+               <add place="lmargin" resp="ww">“</add> The Spring for
+                                   me a garland weaves</l>
+            <l n="76">
+               <add place="lmargin" resp="ww">“</add> Of yellow
+                                   flowers and verdant leaves<del>,</del>
+               <add place="rmargin" resp="ww"> ;/</add>
+            </l>
+            <l n="77">
+               <add place="lmargin" resp="ww">“</add> And, when the
+                                   Frost is in the sky,</l>
+            <l n="78">
+               <add place="lmargin" resp="ww">“</add> My branches are
+                                   so fresh and gay</l>
+            <l n="79">
+               <add place="lmargin" resp="ww">“</add> That You might
+                                        look<add place="belowline" resp="ww">^</add>
+               <del>on</del> me
+                                   and say<add place="belowline" resp="ww">^</add>
+               <add place="rmargin" resp="ww">at/, /</add>
+            </l>
+            <l n="80">
+               <add place="lmargin" resp="ww">/P</add>
+               <add place="lmargin" resp="ww">“</add> This
+                                   <del>p</del>lant can never die.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="81">
+               <add place="lmargin" resp="ww">/B</add>
+               <add place="lmargin" resp="ww">“</add> The
+                                   <del>b</del>utterfly, all green and gold,</l>
+            <l n="82">
+               <add place="lmargin" resp="ww">“</add> To me hath
+                                   often flown,</l>
+            <l n="83">
+               <add place="lmargin" resp="ww">“</add> Here in my
+                                   Blossoms to behold</l>
+            <l n="84">
+               <add place="lmargin" resp="ww">“</add> Wings lovely as
+                                   his own.</l>
+            <l n="85">
+               <add place="lmargin" resp="ww">“</add> When grass is
+                                   chill with rain or dew,</l>
+            <l n="86">
+               <add place="lmargin" resp="ww">“</add> Beneath my
+                                   shade the mother <del>e</del>we <add place="rmargin" resp="ww">E/</add>
+            </l>
+            <l n="87">
+               <add place="lmargin" resp="ww">/L</add>
+               <add place="lmargin" resp="ww">“</add> Lies with her infant
+                                        <del>l</del>amb; I see</l>
+            <l n="79">
+               <add place="lmargin" resp="ww">“</add> The love, they
+                                   to each other make,</l>
+            <l n="89">
+               <add place="lmargin" resp="ww">“</add> And the sweet
+                                   joy, which they partake,</l>
+            <l n="90">
+               <add place="lmargin" resp="ww">“</add> It is a joy to
+                                   me.”</l>
+         </lg>
+         <pb/>
+         <milestone n="63" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="10" type="stanza">
+            <l n="91">Her voice was blithe, her heart was light;</l>
+            <l n="92">The Broom might have pursued</l>
+            <l n="93">Her speech, until the stars of night</l>
+            <l n="94">Their journey had renew’d.</l>
+            <l n="95">But in the branches of the Oak</l>
+            <l n="96">Two Ravens now began to croak</l>
+            <l n="97">Their nuptial song, a gladsome air;</l>
+            <l n="98">And to her own green bower the breeze</l>
+            <l n="99">That instant brought two stripling Bees</l>
+            <l n="100">To feed and murmur there.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="101">One night the Wind came from the North</l>
+            <l n="102">And blew a furious blast<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="103">At break of day I ventur’d forth</l>
+            <l n="104">And near the Cliff I pass’d.</l>
+            <l n="105">The storm had fall’n upon the Oak</l>
+            <l n="106">And struck him with a mighty stroke,</l>
+            <l n="107">And whirl’d and whirl’d him far away;</l>
+            <l n="108">And in one hospitable Cleft</l>
+            <l n="109">The little careless Broom was left</l>
+            <l n="110">To live for many a day.</l>
+         </lg>
+         <p>
+            <add hand="dw" place="pagebottom" resp="ww">Before the above Poem Insert
+                                   the <lb/>“Forsaken Indian” from the
+                                   first<lb/>volume</add>
+         </p>
+      </body>
+   </text>
+</TEI>

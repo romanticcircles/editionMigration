@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Advertisement [essay]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_ADVERT</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ADVERT">
+                  <title>[ADVERT]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">0</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>ADVERTISEMENT.</head>
+         <p>AT the same time that the Editor begs leave to offer the <lb/>following
+                              as the cause of the little delay that has taken <lb/>place in the
+                              Publication of these Poems, he begs also re-<lb/>spectfully to present
+                              his Thanks to those who have been pleased <lb/>to favour them with
+                              their encouragement by Subscription.<lb/>
+         </p>
+         <p>So rapid appears to have been the sale of these Poems in <lb/>London
+                              after the Publication of the S<hi>econd</hi> V<hi>olume</hi> the
+                              <lb/>last summer, that another Edition has been already since
+                              <lb/>published. This, containing the following lengthy
+                                   P<hi>reface</hi>, <lb/>the beautiful O<hi>de to</hi>
+                                   L<hi>ove</hi>, and some additional explana-<lb/>tory
+                                   N<hi>otes</hi>, more than the former Edition, did not reach
+                              <lb/>this Country till after the present one had been put to Press,
+                              <lb/>and the First Volume nearly finished. Some little delay, has
+                              <lb/>arisen from this circumstance, but, at the same time, it has
+                              <lb/>enabled the Editor to give the Work compleat, which
+                              other-<lb/>wise would not have been the case ; and though attended
+                              with <lb/>considerable more expence than he calculated upon when he
+                              <lb/>put it to press, it will be delivered to the Subscribers at the
+                              <lb/>Price mentioned in his Proposals. The only difference that
+                              <lb/>now exists between this and the last London Edition is, that
+                              <lb/>the Poem entitled the C<hi>onvict</hi> is retained in this
+                              Edition, <lb/>but omitted in that, and that the Arrangement of the
+                              Poems <lb/>in the <emph>First Volume</emph> somewhat differs. The
+                              Reader, however, <lb/>by turning to them as they follow in the
+                              preceding Table of <lb/>Contents, will have them as they are arranged
+                              in the last <lb/>London Edition. </p>
+         <lb/>
+         <signed>
+            <emph> JAMES HUMPHREYS.</emph>
+            <lb/>P<hi>hiladelphia</hi>,
+                                   <lb/>
+            <emph>January</emph>, 1802 </signed>
+      </body>
+   </text>
+</TEI>

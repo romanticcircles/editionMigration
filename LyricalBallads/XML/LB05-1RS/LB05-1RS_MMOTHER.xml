@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: The Mad Mother</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-1RS_MMOTHER</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="MMOTHER">
+                  <title>[MMOTHER]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-1RS">
+                  <ptr target="../XML/LB05-1RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">137 to 142</biblScope>
+                  <biblScope unit="pages">6</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="137"/>
+         <milestone n="137" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The MAD MOTHER.</emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">Her eyes are wild, her head is bare, </l>
+            <l n="2">The sun has burnt her coal-black hair, </l>
+            <l n="3">Her eye-brows have a rusty stain, </l>
+            <l n="4">And she came far from over the main. </l>
+            <l n="5">She has a baby on her arm, </l>
+            <l n="6">Or else she were alone; </l>
+            <l n="7">And underneath the hay-stack warm, </l>
+            <l n="8">And on the green-wood stone, </l>
+            <l n="9">She talked and sung the woods among ; </l>
+            <l n="10">And it was in the English tongue. </l>
+         </lg>
+         <pb/>
+         <milestone n="138" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="11">“ Sweet Babe! they say that I am mad,</l>
+            <l n="12">But nay, my heart is far too glad ; </l>
+            <l n="13">And I am happy when I sing </l>
+            <l n="14">Full many a sad and doleful thing : </l>
+            <l n="15">Then, lovely Bab<del hand="RS" resp="RS" type="overwrite">e,</del>
+               <add hand="RS" place="overwrite" resp="RS">y;</add>
+                                   do not fear! </l>
+            <l n="16">I pray thee have no fear of me, </l>
+            <l n="17">But, safe as in a cradle, here,</l>
+            <l n="18">My lovely Baby! thou shalt be, </l>
+            <l n="19">To thee I know too much I owe ; </l>
+            <l n="20">I cannot work thee any woe. </l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="21">A fire was once within my brain ; </l>
+            <l n="22">And in my head a dull, dull pain ; </l>
+            <l n="23">And fiendish faces one, two, three, </l>
+            <l n="24">Hung at my breasts, and pulled at me. </l>
+            <l n="25">But then there came a sight of joy ; </l>
+            <l n="26">It came at once to do me good ; </l>
+            <l n="27">I waked, and saw my little Boy, </l>
+            <l n="28">My little Boy of flesh and blood; </l>
+            <l n="29">Oh joy for me that sight to see! </l>
+            <l n="30">For he was here, and only he.</l>
+         </lg>
+         <pb/>
+         <milestone n="139" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="31">Suck, little Babe, oh suck again ! </l>
+            <l n="32">It cools my blood ; it cools my brain ; </l>
+            <l n="33">Thy lips I feel them, Baby ! they </l>
+            <l n="34">Draw from my heart the pain away. </l>
+            <l n="35">Oh! press me with thy little hand ; </l>
+            <l n="36">It loosens something at my chest ; </l>
+            <l n="37">About that tight and deadly band </l>
+            <l n="38">I feel thy little fingers prest. </l>
+            <l n="39">The breeze I see is in the tree; </l>
+            <l n="40">It comes to cool my Babe and me.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="41">Oh! love me, love me, little Boy ! </l>
+            <l n="42">Thou art thy Mother’s only joy ; </l>
+            <l n="43">And do not dread the waves below, </l>
+            <l n="44">When o’er the sea-rock’s edge we go ; </l>
+            <l n="45">The high crag cannot work me harm, </l>
+            <l n="46">Nor leaping torrents when they howl ; </l>
+            <l n="47">The Babe I carry on my arm, </l>
+            <l n="48">He saves for me my precious soul :</l>
+            <l n="49">Then happy lie, for blest am I ;</l>
+            <l n="50">Without me my sweet Babe would die.</l>
+         </lg>
+         <pb/>
+         <milestone n="140" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="51">Then do not fear, my Boy ! for thee </l>
+            <l n="52">Bold as a lion I will be ; </l>
+            <l n="53">And I will always be thy guide, </l>
+            <l n="54">Through hollow snows and rivers wide.</l>
+            <l n="55">I’ll build an Indian bower ; I know </l>
+            <l n="56">The leaves that make the softest bed : </l>
+            <l n="57">And, if from me thou wilt not go, </l>
+            <l n="58">But still be true till I am dead, </l>
+            <l n="59">My pretty thing! then thou shalt sing </l>
+            <l n="60">As merry as the birds in spring. </l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="61">Thy Father cares not for my breast,</l>
+            <l n="62">’Tis thine, sweet Baby, there to rest : </l>
+            <l n="63">’Tis all thine own! and, if its hue </l>
+            <l n="64">Be changed, that was so fair to view, </l>
+            <l n="65">’Tis fair enough for thee, my dove ! </l>
+            <l n="66">My beauty, little Child, is flown; </l>
+            <l n="67">But thou wilt live with me in love, </l>
+            <l n="68">And what if my poor cheek be brown ? </l>
+            <l n="69">’Tis well for me, thou canst not see </l>
+            <l n="70">How pale and wan it else would be.</l>
+         </lg>
+         <pb/>
+         <milestone n="141" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="71">Dread not their taunts, my little life! </l>
+            <l n="72">I am thy Father’s wedded Wife; </l>
+            <l n="73">And underneath the spreading tree </l>
+            <l n="74">We two will live in honesty.</l>
+            <l n="75">If his sweet Boy he could forsake, </l>
+            <l n="76">With me he never would have stayed : </l>
+            <l n="77">From him no harm my Babe can take,</l>
+            <l n="78">But he, poor Man! is wretched made, </l>
+            <l n="79">And every day we two will pray </l>
+            <l n="80">For him that’s gone and far away. </l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="81">I’ll teach my Boy the sweetest things; </l>
+            <l n="82">I’ll teach him how the owlet sings. </l>
+            <l n="83">My little Babe ! thy lips are still, </l>
+            <l n="84">And thou hast almost sucked thy fill.</l>
+            <l n="85">—Where art thou gone, my own dear Child?</l>
+            <l n="86">What wicked looks are those I see? </l>
+            <l n="87">Alas! alas! that look so wild, </l>
+            <l n="88">It never, never came from me : </l>
+            <l n="89">If thou art mad, my pretty lad, </l>
+            <l n="90">Then I must be for ever sad.</l>
+         </lg>
+         <pb/>
+         <milestone n="142" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="10" type="stanza">
+            <l n="91">Oh ! smile on me, my little lamb ! </l>
+            <l n="92">For I thy own dear Mother am. </l>
+            <l n="93">My love for thee has well been tried : </l>
+            <l n="94">I’ve sought thy Father far and wide. </l>
+            <l n="95">I know the poisons of the shade, </l>
+            <l n="96">I know the earth-nuts fit for food ; </l>
+            <l n="97">Then, pretty dear, be not afraid ; </l>
+            <l n="98">We’ll find thy Father in the wood. </l>
+            <l n="99">Now laugh and be gay, to the woods away !</l>
+            <l n="100">And there, my babe, we’ll live for aye.”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Publisher's Advertisement</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lb98-bp_pubAdvert</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="pubAdvert">
+                  <title>[pubAdvert]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lb98-bp">
+                  <ptr target="../XML/lb98-bp.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">212 to </biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="212"/>
+         <head>
+            <emph>PUBLISHED</emph>
+            <lb/>For Joseph Cottle, <emph>Bristol,</emph>
+            <lb/>Mr. T.
+       L<hi>ongman</hi>, and Me<orig>ss</orig>rs. L<hi>ee</hi> and
+       H<hi>urst,</hi>
+            <lb/>
+            <emph>Paternoster-Row, London.</emph>
+         </head>
+         <p>1. P<hi>oems</hi>, by R<hi>obert</hi> S<hi>outhey</hi>, Second Edition—5s.
+       Boards.<lb/>2.<hi>Joan of Arc</hi>, by <hi>Robert Southey</hi>, Second Edition, <lb/>
+      corrected, with copious notes—2 vols. 12s.<lb/>3.<hi>Poems</hi>, by S. T. Coleridge, to
+      which are added, <hi>Poems</hi>, <lb/> by <hi>Charles Lamb</hi> and <hi>Charles Lloyd</hi>,
+      Second Edition. <lb/> 6s. Boards.<lb/>4. In the Press, a Second Edition, corrected, with views
+      in <lb/> aqua tinta, of <hi>Letters</hi> written during a short Residence in <lb/> Spain and
+      Portugal, by <hi>Robert Southey.</hi>
+            <lb/>5. <hi>A Series of Poems</hi>, containing the
+      Plaints, Consolations, <lb/> and Delights of <hi>Achmed Ardebeili</hi>, a Persian Exile. <lb/>
+      With N<hi>otes</hi>, Historical and Explanatory, by <hi>Charles Fox</hi>, <lb/> Octavo, 8s.
+      Boards<lb/>6. <hi>Poems</hi>, by <hi>Joseph Cottle</hi>, Second Edition, 4s. Boards.<lb/>7.
+       <hi>Icelandic Poetry,</hi> or the <hi>Edda of Sæmund</hi>, translated into <lb/> English
+      Verse, by A. S. <hi>Cottle,</hi> of Magdalen College, <lb/> Cambridge, Octavo, 6s.
+      Boards.<lb/>8. <hi>Edmund Oliver</hi>, by <hi>Charles Lloyd</hi>, 2 vols. 12mo. 8s. <lb/>
+      Boards.<lb/>9. In the Press, a Second Volume of <hi>Poems</hi>, by <hi>Robert <lb/>
+       Southey</hi>, including the Vision of the Maid of Orleans, <lb/> formerly printed as the
+      Ninth Book of <hi>Joan of Anc.</hi>
+         </p>
+         <pb/>
+         <p>10. <hi>Malvern Hills</hi>, a <hi>Poem</hi> by <hi>Joseph Cottle</hi>. Quarto.<lb/> 2s.
+       6d.<lb/>11.<hi>Sermons</hi>, by the late Rev. <hi>David Jardine</hi>, of <hi>Bath.</hi>
+            <lb/> published from the Original Manuscripts, by the Rev.<lb/>
+            <hi> John Prior Estlin</hi>. 2
+      vols. Octavo. 14s.<lb/>12. <hi>Evidences of Revealed Religion</hi>, and particularly <hi>
+               <lb/>
+       Christianity</hi>, with reference to a pamphlet called the <hi>
+               <lb/> Age of
+      Reason</hi>—In a <hi>Discourse </hi>delivered by the Rev. <hi>
+               <lb/> John Prior Estlin.
+      </hi> 1s. 6d.<lb/>13. T<hi>he</hi> N<hi>ature</hi> and the C<hi>auses</hi> of
+      A<hi>theism</hi>, pointed out in a <hi>
+               <lb/> Discourse </hi>delivered by the Rev. <hi>John
+       Prior Estlin.</hi>
+            <lb/> To which are added, Remarks on a Work, entitled <emph>Origine <lb/> de tous les cultes,
+       ou Religion universelle Par Dupuis, <lb/> Citoyen François</emph>. 2s. 6d.<lb/>14.
+       L<hi>ecture</hi>, introductory of a course of popular instruction on<lb/> the Constitution
+      and Management of the Human Body. By<lb/> T<hi>homas</hi> B<hi>eddoes</hi>, M. D. Octavo. 1s.
+      6d.</p>
+      </body>
+   </text>
+</TEI>

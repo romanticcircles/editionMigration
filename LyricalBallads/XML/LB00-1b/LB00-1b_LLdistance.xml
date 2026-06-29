@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Lines Written a Small Distance from my House</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-1b_LLdistance</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LLdistance">
+                  <title>Lines Written a Small Distance from my House</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-1b">
+                  <ptr target="../XML/LB00-1b.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">64 to 66</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="64" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>LINES <lb/>
+               <lb/>
+               <hi>Written at a small distance from my House, and
+                                sent by <lb/>my little boy to the person to whom they are
+                                addressed.</hi>
+               <lb/>
+               <lb/>
+            </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">It is the first mild day of March:</l>
+            <l n="2">Each minute sweeter than before,</l>
+            <l n="3">The red-breast sings from the tall larch</l>
+            <l n="4">That stands beside our door.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">There is a blessing in the air,</l>
+            <l n="6">Which seems a sense of joy to yield </l>
+            <l n="7">To the bare trees, and mountains bare,</l>
+            <l n="8">And grass in the green field.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">My Sister! (’tis a wish of mine)</l>
+            <l n="10">Now that our morning meal is done,</l>
+            <l n="11">Make haste, your morning task resign;</l>
+            <l n="12">Come forth and feel the sun.</l>
+         </lg>
+         <pb/>
+         <milestone n="65" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">Edward will come with you, and pray,</l>
+            <l n="14">Put on with speed your woodland dress, </l>
+            <l n="15">And bring no book, for this one day</l>
+            <l n="16">We’ll give to idleness.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">No joyless forms shall regulate</l>
+            <l n="18">Our living Calendar:</l>
+            <l n="19">We from to-day, my friend, will date</l>
+            <l n="20">The opening of the year.</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">Love, now an universal birth,</l>
+            <l n="22">From heart to heart is stealing,</l>
+            <l n="23">From earth to man, from man to earth,</l>
+            <l n="24">—It is the hour of feeling.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">One moment now may give us more </l>
+            <l n="26">Than fifty years of reason;</l>
+            <l n="27">Our minds shall drink at every pore</l>
+            <l n="28">The spirit of the season.</l>
+         </lg>
+         <pb/>
+         <milestone n="66" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">Some silent laws our hearts may make,</l>
+            <l n="30">Which they shall long obey;</l>
+            <l n="31">We for the year to come may take</l>
+            <l n="32">Our temper from to-day.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">And from the blessed power that rolls</l>
+            <l n="34">About, below, above;</l>
+            <l n="35">We’ll frame the measure of our souls,</l>
+            <l n="36">They shall be tuned to love.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">Then come, my sister! come, I pray, </l>
+            <l n="38">With speed put on your woodland dress,</l>
+            <l n="39">And bring no book; for this one day</l>
+            <l n="40">We’ll give to idleness.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

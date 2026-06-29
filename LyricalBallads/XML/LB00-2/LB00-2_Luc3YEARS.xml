@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: 'Three years she grew . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2_Luc3YEARS</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="Luc3YEARS">
+                  <title>[Luc3YEARS]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2">
+                  <ptr target="../XML/LB00-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">136 to 138</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="136"/>
+         <milestone n="136" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1" type="stanza">
+            <l n="1">Three years she grew in sun and shower,</l>
+            <l n="2">Then Nature said, “ A lovelier flower</l>
+            <l n="3">On earth was never sown ;</l>
+            <l n="4">This Child I to myself will take,</l>
+            <l n="5">She shall be mine, and I will make</l>
+            <l n="6">A Lady of my own.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="7">Myself will to my darling be</l>
+            <l n="8">Both law and impulse, and with me</l>
+            <l n="9">The Girl in rock and plain,</l>
+            <l n="10">In earth and heaven, in glade and bower,</l>
+            <l n="11">Shall feel an overseeing power</l>
+            <l n="12">To kindle or restrain.</l>
+         </lg>
+         <pb n="137"/>
+         <milestone n="137" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="13">She shall be sportive as the fawn</l>
+            <l n="14">That wild with glee across the lawn</l>
+            <l n="15">Or up the mountain springs,</l>
+            <l n="16">And hers shall be the breathing balm,</l>
+            <l n="17">And hers the silence and the calm</l>
+            <l n="18">Of mute insensate things.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="19">The floating clouds their state shall lend</l>
+            <l n="20">To her, for her the willow bend,</l>
+            <l n="21">Nor shall she fail to see</l>
+            <l n="22">Even in the motions of the storm</l>
+            <l n="23">A beauty that shall mould her form</l>
+            <l n="24">By silent sympathy.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="25">The stars of midnight shall be dear</l>
+            <l n="26">To her, and she shall lean her ear</l>
+            <l n="27">In many a secret place</l>
+            <l n="28">Where rivulets dance their wayward round,</l>
+            <l n="29">And beauty born of murmuring sound</l>
+            <l n="30">Shall pass into her face.</l>
+         </lg>
+         <pb n="138"/>
+         <milestone unit="page" n="138"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="31">And vital feelings of delight</l>
+            <l n="32">Shall rear her form to stately height,</l>
+            <l n="33">Her virgin bosom swell,</l>
+            <l n="34">Such thoughts to Lucy I will give</l>
+            <l n="35">While she and I together live</l>
+            <l n="36">Here in this happy dell.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="37">Thus Nature spake—The work was done—</l>
+            <l n="38">How soon my Lucy’s race was run !</l>
+            <l n="39">She died and left to me</l>
+            <l n="40">This heath, this calm and quiet scene,</l>
+            <l n="41">The memory of what has been,</l>
+            <l n="42">And never more will be.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: Ellen Irwin</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_ELLEN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ELLEN">
+                  <title>[ELLEN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">46 to 49</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="46" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>ELLEN IRWIN, <lb/>
+               <lb/>
+               <hi rend="small">Or The BRAES of
+            KIRTLE</hi>
+            </emph>*.</head>
+         <lg n="1" type="stanza">
+            <l n="1">Fair Ellen Irwin, when she sate</l>
+            <l n="2">Upon the Braes of Kirtle,</l>
+            <l n="3">Was lovely as a Grecian Maid</l>
+            <l n="4">Adorned with wreaths of myrtle.</l>
+            <l n="5">Young Adam Bruce beside her lay;</l>
+            <l n="6">And there did they beguile the day</l>
+            <l n="7">With love and gentle speeches,</l>
+            <l n="8">Beneath the budding beeches.</l>
+         </lg>
+         <note>* The Kirtle is a River in the Southern part of Scotland, on <lb/>the banks of which
+            the events here related took place.</note>
+         <pb/>
+         <milestone n="47" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="9">From many Knights and many Squires</l>
+            <l n="10">The Bruce had been selected;</l>
+            <l n="11">And Gordon, fairest of them all,</l>
+            <l n="12">By Ellen was rejected.</l>
+            <l n="13">Sad tidings to that noble Youth!</l>
+            <l n="14">For it may be proclaimed with truth,</l>
+            <l n="15">If Bruce hath loved sincerely,</l>
+            <l n="16">The Gordon loves as dearly.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="17">But what is Gordon’s beauteous face?</l>
+            <l n="18">And what are Gordon’s crosses</l>
+            <l n="19">To them who sit by Kirtle’s Braes</l>
+            <l n="20">Upon the verdant mosses?</l>
+            <l n="21">Alas that ever he was born!</l>
+            <l n="22">The Gordon, couched behind a thorn,</l>
+            <l n="23">Sees them and their caressing,</l>
+            <l n="24">Beholds them blest and blessing.</l>
+         </lg>
+         <pb/>
+         <milestone n="48" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="25">Proud Gordon cannot bear the thoughts</l>
+            <l n="26">That through his brain are travelling,</l>
+            <l n="27">And, starting up, to Bruce’s heart</l>
+            <l n="28">He lanched a deadly javelin!</l>
+            <l n="29">Fair Ellen saw it when it came,</l>
+            <l n="30">And, stepping forth to meet the same,</l>
+            <l n="31">Did with her body cover</l>
+            <l n="32">The Youth her chosen lover.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="33">And, falling into Bruce’s arms,</l>
+            <l n="34">Thus died the beauteous Ellen,</l>
+            <l n="35">Thus from the heart of her true-love</l>
+            <l n="36">The mortal spear repelling.</l>
+            <l n="37">And Bruce, as soon as he had slain</l>
+            <l n="38">The Gordon, sailed away to Spain;</l>
+            <l n="39">And fought with rage incessant</l>
+            <l n="40">Against the Moorish Crescent.</l>
+         </lg>
+         <pb n="49"/>
+         <milestone n="49" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6">
+            <l n="41">But many days, and many months,</l>
+            <l n="42">And many years ensuing,</l>
+            <l n="43">This wretched Knight did vainly seek</l>
+            <l n="44">The death that he was wooing:</l>
+            <l n="45">And coming back across the wave,</l>
+            <l n="46">Without a groan on Ellen’s grave</l>
+            <l n="47">His body he extended,</l>
+            <l n="48">And there his sorrow ended.</l>
+         </lg>
+         <lg n="7">
+            <l n="49">Now ye, who willingly have heard</l>
+            <l n="50">The tale I have been telling,</l>
+            <l n="51">May in Kirkonnel church-yard view</l>
+            <l n="52">The grave of lovely Ellen:</l>
+            <l n="53">By Ellen’s side the Bruce is laid;</l>
+            <l n="54">And, for the stone upon his head,</l>
+            <l n="55">May no rude hand deface it,</l>
+            <l n="56">And its forlorn H<hi rend="small">IC JACET</hi>!</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

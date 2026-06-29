@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Inscription / Lines Written in Pencil on Stone</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_InscripHOUSE</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="InscripHOUSE">
+                  <title>Inscription / Lines Written in Pencil on Stone</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">69 to 70</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="69" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>INSCRIPTION<lb/>
+               <lb/>For the House (an Outhouse) on the Island
+                                   <lb/>at Grasmere.<lb/>
+               <lb/>
+            </emph>
+         </head>
+         <lg type="poem">
+            <l n="1">RUDE is this Edifice, and Thou hast seen</l>
+            <l n="2">Buildings, albeit rude, that have maintain’d</l>
+            <l n="3">Proportions more harmonious, and approach’d</l>
+            <l n="4">To somewhat of a closer fellowship</l>
+            <l n="5">With the ideal grace. Yet as it is</l>
+            <l n="6">Do take it in good part; for he, the poor</l>
+            <l n="7">Vitruvious of our village, had no help</l>
+            <l n="8">From the great city; never on the leaves</l>
+            <l n="9">Of red Morocco folio saw display’d</l>
+            <l n="10">The skeletons and pre-existing ghosts</l>
+            <l n="11">Of Beauties yet unborn, the rustic Box,</l>
+            <l n="12">Snug Cot, with Coach-house, Shed, and Hermitage.</l>
+            <l n="13">It is a homely pile, yet to these walls</l>
+            <l n="14">The heifer comes in the snow-storm, and here</l>
+            <l n="15">The new-dropp’d lamb finds shelter from the wind.</l>
+            <pb/>
+            <milestone n="70" unit="page"/>
+            <lb/>
+            <lb/>
+            <l n="16">And hither does one Poet sometimes row</l>
+            <l n="17">His pinnace, a small vagrant barge, up-piled</l>
+            <l n="18">With plenteous store of heath and wither’d fern,</l>
+            <l n="19">A lading which he with his sickle cuts</l>
+            <l n="20">Among the mountains, and beneath this roof</l>
+            <l n="21">He makes his summer couch, and here at noon</l>
+            <l n="22">Spreads out his limbs, while, yet unborn, the sheep,</l>
+            <l n="23">Panting beneath the burthen of their wool,</l>
+            <l n="24">Lie round him, even as if they were a part</l>
+            <l n="25">Of his own household: nor, while from his bed</l>
+            <l n="26">He through that door-place looks towards the lake</l>
+            <l n="27">And to the stirring breezes, does he want</l>
+            <l n="28">Creations lovely as the work of sleep,</l>
+            <l n="29">Fair sights, and visions of romantic joy.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

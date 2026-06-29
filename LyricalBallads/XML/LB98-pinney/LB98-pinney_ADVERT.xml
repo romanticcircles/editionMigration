@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Advertisement [essay]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-pinney_ADVERT</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ADVERT">
+                  <title>[ADVERT]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-pinney">
+                  <ptr target="../XML/LB98-pinney.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"> to v.</biblScope>
+                  <biblScope unit="pages">5</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <div type="preface">
+            <lb/>
+            <lb/>
+            <lb/>
+            <head>
+               <emph>ADVERTISEMENT.</emph>
+            </head>
+            <lb/>
+            <lb/>
+            <p>It is the honourable characteri<orig rend="long s">s</orig>tic of Poetry that<lb/>its
+              materials are to be found in every subject<lb/>which can intere<orig rend="long s">s</orig>t the human mind. The evi-<lb/>dence of this fact is to be sought, not in
+              the<lb/>writings of Critics, but in those of Poets them-<lb/>selves.</p>
+            <lb/>
+            <p>The majority of the following poems are to be <lb/>considered as experiments. They
+              were written<lb/>chiefly with a view to ascertain how far the lan-<lb/>guage of
+              conversation in the middle and lower <lb/>cla<orig>ss</orig>es of society is adapted
+              to the purposes of <lb/>poetic pleasure. Readers accu<orig rend="long s">s</orig>tomed
+              to the <pb/>
+               <milestone n="ii." unit="page"/>
+               <lb/>
+               <lb/>gaudiness and inane phraseology
+              of many modern <lb/>writers, if they persist in reading this book to its
+              <lb/>conclusion, will perhaps frequently have to<lb/>
+               <orig rend="long s">s</orig>truggle with feelings of <orig rend="long s">s</orig>trangeness and
+              auk-<lb/>wardness: they will look round for poetry, and <lb/>will be induced to
+              enquire by what species of <lb/>courtesy these attempts can be permitted to
+              <lb/>assume that title. It is desirable that such <lb/>readers, for their own sakes,
+              should not suffer <lb/>the solitary word Poetry, a word of very disputed<lb/>meaning,
+              to stand in the way of their gratifica-<lb/>tion; but that, while they are perusing
+              this<lb/>book, they should a<orig rend="long s">s</orig>k themselves if it contains a
+              <lb/>natural delineation of human pa<orig rend="long s">ss</orig>ions, human
+              <lb/>characters, and human incidents; and if the <lb/>answer be favorable to the
+              author’s wishes, that <lb/>they should consent to be pleased in spite of that
+                <lb/>mo<orig rend="long s">s</orig>t dreadful enemy to our pleasures, our
+              own<lb/>pre-established codes of decision.</p>
+            <pb/>
+            <milestone n="iii." unit="page"/>
+            <lb/>
+            <lb/>
+            <p>Readers of superior judgment may disapprove of<lb/>the style in which many of these
+              pieces are execu-<lb/>ted it must be expected that many lines and phra-<lb/>ses will
+              not exactly suit their taste. It will perhaps <lb/>appear to them, that wishing to
+              avoid the pre-<lb/>valent fault of the day, the author has sometimes <lb/>descended
+              too low, and that many of his expres-<lb/>sions are too familiar, and not of
+              sufficient dig-<lb/>nity. It is apprehended, that the more con-<lb/>versant the reader
+              is with our elder writers, and <lb/>with those in modern times who have been the
+                <lb/>mo<orig rend="long s">s</orig>t successful in painting manners and
+              passions,<lb/>the fewer complaints of this kind will he have<lb/>to make.</p>
+            <p>An accurate taste in poetry, and in all the other<lb/>arts, Sir Joshua Reynolds has
+              observed, is an<lb/>acquired talent, which can only be produced by <lb/>severe
+              thought, and a long continued intercourse <lb/>with the best models of composition.
+              This is<pb/>
+               <milestone n="iv." unit="page"/>
+               <lb/>
+               <lb/>mentioned not with so ridiculous
+              a purpose <lb/>as to prevent the most inexperienced reader <lb/>from judging for
+              himself; but merely to temper <lb/>the rashness of decision, and to suggest that if
+              <lb/>poetry be a subject on which much time has not <lb/>been bestowed, the judgment
+              may be erroneous, <lb/>and that in many cases it necessarily will be so.</p>
+            <p>The tale of Goody Blake and Harry Gill is <lb/>founded on a well-authenticated fact
+              which hap-<lb/>pened in Warwick<orig rend="long s">s</orig>hire. Of the other poems
+              in<lb/>the collection, it may be proper to say that they <lb/>are either absolute
+              inventions of the author, or <lb/>facts which took place within his personal
+              obser-<lb/>vation or that of his friends. The poem of the <lb/>Thorn, as the reader
+              will soon discover, is not <lb/>supposed to be spoken in the author’s own
+              per-<lb/>son : the character of the loquacious narrator will <lb/>sufficiently shew
+              itself in the course of the <orig rend="long s">s</orig>tory. <lb/>The Rime of the
+              Ancyent Marinere was profes-<pb/>
+               <milestone n="v." unit="page"/>
+               <lb/>
+               <lb/>sedly
+              written in imitation of the <emph>style</emph>, as well as<lb/>of the spirit of the
+              elder poets; but with a few <lb/>exceptions, the Author believes that the
+              lan-<lb/>guage adopted in it has been equally intelligible <lb/>for these three last
+              centuries. The lines entitled <lb/>Expostulation and Reply, and those which
+              <lb/>follow, arose out of conversation with a friend <lb/>who was somewhat
+              unreasonably attached to <lb/>modern books of moral philosophy.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lb98-bnypl_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[toc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lb98-bnypl">
+                  <ptr target="../XML/lb98-bnypl.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <head>
+            <emph>
+               <lb/>CONTENTS.</emph>
+         </head>
+         <p> Page<lb/>The Rime of the Ancyent Marinere - - - - <ref type="single" target="lb98-bnypl_RIMEfstc">1</ref>
+            <lb/>The
+                              Foster-Mother’s Tale - - - - - - - <ref type="single" target="lb98-bnypl_FOSTER">53</ref>
+            <lb/>Lines left upon a Seat
+                              in a Yew-tree which stands <lb/> near the Lake of Esthwaite - - - - -
+                              <ref type="single" target="lb98-bnypl_LLyew">59</ref>
+            <lb/>Lewti; or the Circassian Love Chant - - - <ref type="single" target="lb98-bnypl_LEWTI">63</ref>
+            <lb/>The Female
+                              Vagrant - - - - - - - - <ref type="single" target="lb98-bnypl_VAGRANT">69</ref>
+            <lb/>Goody Blake and Harry Gill - - - - - -
+                              <ref type="single" target="lb98-bnypl_GOODY">85</ref>
+            <lb/>Lines written at a small distance from my House, <lb/>and sent
+                              by my little Boy to the person to <lb/>whom they are addressed - - - -
+                              <ref type="single" target="lb98-bnypl_LLdistance">95</ref>
+            <lb/>Simon Lee, the old Huntsman - - - - - <ref type="single" target="lb98-bnypl_SIMON">98</ref>
+            <lb/>Anecdote for
+                              Fathers - - - - - - - - <ref type="single" target="lb98-bnypl_ANEC">105</ref>
+            <lb/>We are seven - - - - - - - - - - -
+                              <ref type="single" target="lb98-bnypl_SEVEN">110</ref>
+            <lb/>Lines written in early spring - - - - - - <ref type="single" target="lb98-bnypl_LLspring">115</ref>
+            <lb/>The Thorn -
+                              - - - - - - - - - - <ref type="single" target="lb98-bnypl_THORN">117</ref>
+            <lb/>The last of the Flock - - - - - - - -
+                              <ref type="single" target="lb98-bnypl_FLOCK">133</ref>
+            <lb/>The Dungeon - - - - - - - - - - - <ref type="single" target="lb98-bnypl_DUNGEONstc">139</ref>
+            <lb/>The Mad Mother - - -
+                              - - - - - - <ref type="single" target="lb98-bnypl_MMOTHER">141</ref>
+            <lb/>The Idiot Boy - - - - - - - - - - <ref type="single" target="lb98-bnypl_IDIOTf">149</ref>
+            <lb/>Lines
+                              written near Richmond, upon the Thames, <lb/>at Evening - - - - - - -
+                              - - - <ref type="single" target="lb98-bnypl_COLLINS">180</ref>
+            <lb/>Expostulation and Reply - - - - - - - <ref type="single" target="lb98-bnypl_EXPOST">183</ref>
+            <lb/>The Tables
+                              turned; an Evening Scene, on the <lb/>same subject - - - - - - - - - -
+                              <ref type="single" target="lb98-bnypl_TABLES">186</ref>
+            <lb/>Old Man travelling - - - - - - - - - <ref type="single" target="lb98-bnypl_TRANQ">189</ref>
+            <lb/>The Complaint of
+                              a forsaken Indian Woman - <ref type="single" target="lb98-bnypl_INDIANf">193</ref>
+            <lb/>The Convict - - - - - - - - - - -
+                              <ref type="single" target="lb98-bnypl_CONVICT">197</ref>
+            <lb/>Lines written a few miles above Tintern Abbey <ref type="single" target="lb98-bnypl_LLtintern">201</ref>
+         </p>
+         <pb/>
+      </body>
+   </text>
+</TEI>

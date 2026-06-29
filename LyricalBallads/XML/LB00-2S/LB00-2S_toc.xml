@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[toc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <head>
+            <lb/>
+            <lb/>
+            <emph>CONTENTS.</emph>
+         </head>
+         <p>Hart-leap Well - - - - - - <ref type="single" target="LB00-2S_HART">1</ref>
+            <lb/>There was a Boy, &amp;c - - - - - <ref type="single" target="LB00-2S_BOY">14</ref>
+            <lb/>The Brothers, a Pastoral
+                                   Poem - - - <ref type="single" target="LB00-2S_BROTHERSf">19</ref>
+            <lb/>Ellen
+                                   Irwin, or the Braes of Kirtle - - - <ref type="single" target="LB00-2S_ELLEN">46</ref>
+            <lb/>Strange fits of passion I have known, &amp;c.
+                                   - - <ref type="single" target="LB00-2S_LucSTRANGE">50</ref>
+            <lb/>Song - - - - -
+                                   - - - <ref type="single" target="LB00-2S_LucDWELT">52</ref>
+            <lb/>A slumber did
+                                   my spirit seal, &amp;c. - - - <ref type="single" target="LB00-2S_LucSLUMBER">53</ref>
+            <lb/>The Waterfall and the Eglantine - - - <ref type="single" target="LB00-2S_WFALL">54</ref>
+            <lb/>The Oak and the Broom,
+                                   a Pastoral - - - <ref type="single" target="LB00-2S_OAK">58</ref>
+            <lb/>Lucy
+                                   Gray - - - - - - - <ref type="single" target="LB00-2S_GRAY">64</ref>
+            <lb/>The
+                                   Idle Shepherd-Boys, or Dungeon-Gill Force, <lb/> a Pastoral - - -
+                                   - - - <ref type="single" target="LB00-2S_IDLE">69</ref>
+            <lb/>’Tis said
+                                   that some have died for love, &amp;c. - <ref type="single" target="LB00-2S_TisSAID">76</ref>
+            <lb/>Poor Susan - - - - -
+                                   - - <ref type="single" target="LB00-2S_SUSAN">80</ref>
+            <lb/>Inscription for the
+                                   Spot where the Hermitage stood <lb/> on St. Herbert’s
+                                   Island, Derwent-Water - <ref type="single" target="LB00-2S_InscripHERM">82</ref>
+            <lb/>Inscription for the House (an Out-house) on
+                                   the <lb/> Island at Grasmere - - - - - <ref type="single" target="LB00-2S_InscripHOUSE">84</ref>
+            <lb/>To a Sexton - - - - - - - <ref type="single" target="LB00-2S_InscripHOUSE">86</ref>
+            <lb/>Andrew Jones - -
+                                   - - - - - <ref type="single" target="LB00-2S_JONES">89</ref>
+            <lb/>The two
+                                   Theives, or the last stage of Avarice - <ref type="single" target="LB00-2S_THIEVES">92</ref>
+            <lb/>A whirl-blast from
+                                   behind the Hill, &amp;c. - - <ref type="single" target="LB00-2S_WHIRL">96</ref>
+         </p>
+         <pb/>
+         <p>Song for the wandering Jew - - - - <ref type="single" target="LB00-2S_WAND">98</ref>
+            <lb/>Ruth - - - - - - - - <ref type="single" target="LB00-2S_RUTHF">103</ref>
+            <lb/>Lines written with a
+                                   Slate-Pencil upon a Stone, &amp;c. <ref type="single" target="LB00-2S_LLslate">117</ref>
+            <lb/>Lines written on a Tablet in a School - -
+                                        <ref type="single" target="LB00-2S_IfNATURE">120</ref>
+            <lb/>The two April
+                                   Mornings - - - - <ref type="single" target="LB00-2S_APRIL">123</ref>
+            <lb/>The
+                                   Fountain, a conversation - - - <ref type="single" target="LB00-2S_FOUNTAIN">127</ref>
+            <lb/>Nutting - - - - - - <ref type="single" target="LB00-2S_NUTTING">132</ref>
+            <lb/>Three years she grew
+                                   in sun and shower, &amp;c. <ref type="single" target="LB00-2S_Luc3YEARS">136</ref>
+            <lb/>The Pet-Lamb, a Pastoral - - - - <ref type="single" target="LB00-2S_PET-LAMB">139</ref>
+            <lb/>Written in Germany
+                                   on one of the coldest days <lb/> of the century - - - - <ref type="single" target="LB00-2S_GERMANY">144</ref>
+            <lb/>The Childless Father
+                                   - - - - <ref type="single" target="LB00-2S_CHILDLESS">147</ref>
+            <lb/>The Old
+                                   Cumberland Beggar, a Description - <ref type="single" target="LB00-2S_BEGGARf">151</ref>
+            <lb/>Rural Architecture - - - - <ref type="single" target="LB00-2S_RURAL">163</ref>
+            <lb/>A Poet’s Epitaph
+                                   - - - - <ref type="single" target="LB00-2S_EptphPOET">165</ref>
+            <lb/>A
+                                   Character - - - - - <ref type="single" target="LB00-2S_CHARAC">169</ref>
+            <lb/>A
+                                   Fragment - - - - - <ref type="single" target="LB00-2S_FRAG">171</ref>
+            <lb/>Poems on the Naming of Places, - 177 to <ref type="single" target="LB00-2S_NAMINGf">196</ref>
+            <lb/>Michael, a Pastoral
+                                   - - - - <ref type="single" target="LB00-2S_MICHAELf">199</ref>
+            <lb/>Notes to
+                                   the Poem of The Brothers - - <ref type="single" target="LB00-2S_NOTESbro">226</ref>
+            <lb/>Notes to the Poem of Michael - - <ref type="single" target="LB00-2S_NOTESmich">227</ref>
+         </p>
+      </body>
+   </text>
+</TEI>

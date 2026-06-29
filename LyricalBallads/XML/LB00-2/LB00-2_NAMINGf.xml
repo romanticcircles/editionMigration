@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: [Poems on the Naming of Places title page]</title>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2_NAMINGf</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr xml:id="LB00-2">
+                  <ptr target="../XML/LB00-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">175 to 178</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="175"/>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>P O E M S
+                                             <lb/>
+                  <lb/>
+                  <hi rend="small">on the
+                                                  <lb/>
+                     <lb/>
+                     <emph>NAMING OF
+                                        PLACES.</emph>
+                  </hi>
+               </titlePart>
+            </docTitle>
+         </titlePage>
+         <pb n="176"/>
+         <pb n="177"/>
+         <argument xml:id="ARGUnp">
+            <head>
+               <lb/>
+               <lb/>ADVERTISEMENT. </head>
+            <p>By Persons resident in the country and attached to rural
+                                   <lb/>objects, many places will be found unnamed or of
+                                   <lb/>unknown names, where little Incidents will have
+                                   <lb/>occurred, or feelings been experienced, which will have
+                                   <lb/>given to such places a private and peculiar interest.
+                                   <lb/>From a wish to give some sort of record to such
+                                   Inci-<lb/>dents or renew the gratification of such Feelings,
+                                   Names <lb/>have been given to Places by the Author and some of
+                                   <lb/>his Friends, and the following Poems written in
+                                   con-<lb/>sequence. </p>
+         </argument>
+         <pb n="178"/>
+      </front>
+      <body>
+         <p> </p>
+      </body>
+   </text>
+</TEI>

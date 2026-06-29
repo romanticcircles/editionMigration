@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: The Fountain</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_FOUNTAIN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="FOUNTAIN">
+                  <title>The Fountain</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">127 to 130</biblScope>
+                  <biblScope unit="pages">4</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="127"/>
+         <milestone n="127" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The FOUNTAIN, <lb/>
+               <lb/>A Conversation. </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">We talk’d with open heart, and tongue</l>
+            <l n="2">Affectionate and true<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="3">A pair of Friends, though I was young,</l>
+            <l n="4">And Matthew seventy-two.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">We lay beneath a spreading oak,</l>
+            <l n="6">Beside a mossy seat<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="7">And from the turf a fountain broke,</l>
+            <l n="8">And gurgled at our feet.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">“ Now, Matthew<del>,</del> let us try to match <add place="rmargin" resp="ww">!/</add>
+            </l>
+            <l n="10">
+               <add place="lmargin" resp="ww">“</add> This
+                                   water’s pleasant tune</l>
+            <l n="11">
+               <add place="lmargin" resp="ww">“</add> With some old
+                                   Border-song, or <del>c</del>atch <add place="rmargin" resp="ww">C/</add>
+            </l>
+            <l n="12">That suits a summer’s noon.</l>
+         </lg>
+         <pb n="128"/>
+         <milestone n="128" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">
+               <add place="lmargin" resp="ww">“</add> Or of the
+                                   Church-clock and the chimes</l>
+            <l n="14">
+               <add place="lmargin" resp="ww">“</add> Sing here
+                                   beneath the shade,</l>
+            <l n="15">
+               <add place="lmargin" resp="ww">“</add> That half-mad
+                                   thing of witty rhymes</l>
+            <l n="16">
+               <add place="lmargin" resp="ww">“</add> Which you last
+                                   April made! <add resp="ww">”</add>
+            </l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">
+               <del>On</del>
+               <add place="belowline" resp="ww">^</add>
+               <add place="aboveline" resp="ww">In</add> silence Matthew lay, and eyed</l>
+            <l n="18">The spring beneath the tree;</l>
+            <l n="19">And thus the dear old Man replied,</l>
+            <l n="20">The grey-hair’d Man of glee.</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">
+               <add place="lmargin" resp="ww">“</add> Down to the
+                                   vale this water steers,</l>
+            <l n="22">
+               <add place="lmargin" resp="ww">“</add> How merrily it
+                                   goes!</l>
+            <l n="23">
+               <add place="lmargin" resp="ww">“</add> ’Twill
+                                   murmur on a thousand years,</l>
+            <l n="24">
+               <add place="lmargin" resp="ww">“</add> And flow as now
+                                   it flows.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">
+               <add place="lmargin" resp="ww">“</add> And here, on
+                                   this delightful day,</l>
+            <l n="26">
+               <add place="lmargin" resp="ww">“</add> I cannot chuse
+                                   but think</l>
+            <l n="27">
+               <add place="lmargin" resp="ww">“</add> How oft, a
+                                   vigorous Man, I lay</l>
+            <l n="28">
+               <add place="lmargin" resp="ww">“</add> Beside this
+                                   Fountain’s brink.</l>
+         </lg>
+         <pb n="129"/>
+         <milestone n="129" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">
+               <add place="lmargin" resp="ww">“</add> My eyes are dim
+                                   with childish tears,</l>
+            <l n="30">
+               <add place="lmargin" resp="ww">“</add> My heart is
+                                   idly stirr’d,</l>
+            <l n="31">
+               <add place="lmargin" resp="ww">“</add> For the same
+                                   sound is in my ears,</l>
+            <l n="32">
+               <add place="lmargin" resp="ww">“</add> Which in those
+                                   days I heard.</l>
+         </lg>
+         <lg n="9">
+            <l n="33">
+               <add place="lmargin" resp="ww">“</add> Thus fares it
+                                   still in our decay:</l>
+            <l n="34">
+               <add place="lmargin" resp="ww">“</add> And yet the
+                                   wiser mind</l>
+            <l n="35">
+               <add place="lmargin" resp="ww">“</add> Mourns less for
+                                   what age takes away</l>
+            <l n="36">
+               <add place="lmargin" resp="ww">“</add> Than what it
+                                   leaves behind.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">
+               <add place="lmargin" resp="ww">/B</add>
+               <add place="lmargin" resp="ww">“</add> The
+                                   <del>b</del>lackbird in the summer trees,</l>
+            <l n="38">
+               <add place="lmargin" resp="ww">/L “</add> The lark
+                                   upon the hill,</l>
+            <l n="39">
+               <add place="lmargin" resp="ww">“</add> Let loose their
+                                   carols when they please,</l>
+            <l n="40">
+               <add place="lmargin" resp="ww">“</add> Are quiet when
+                                   they will.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="41">
+               <add place="lmargin" resp="ww">“</add> With Nature
+                                   never do <emph>they</emph> wage</l>
+            <l n="42">
+               <add place="lmargin" resp="ww">“</add> A foolish
+                                   strife; they see</l>
+            <l n="43">
+               <add place="lmargin" resp="ww">“</add> A happy youth,
+                                   and their old age</l>
+            <l n="44">
+               <add place="lmargin" resp="ww">“</add> Is beautiful
+                                   and free:</l>
+         </lg>
+         <pb n="130"/>
+         <milestone n="130" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="45">
+               <add place="lmargin" resp="ww">“</add> But we are
+                                   press’d by heavy laws<del>,</del>
+               <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="46">
+               <add place="lmargin" resp="ww">“</add> And often, glad
+                                   no more,</l>
+            <l n="47">
+               <add place="lmargin" resp="ww">“</add> We wear a face
+                                   of joy, because</l>
+            <l n="48">
+               <add place="lmargin" resp="ww">“</add> We have been
+                                   glad of yore.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">
+               <add place="lmargin" resp="ww">“</add> If there is one
+                                   who need bemoan</l>
+            <l n="50">
+               <add place="lmargin" resp="ww">“</add> His kindred
+                                   laid in earth,</l>
+            <l n="51">
+               <add place="lmargin" resp="ww">“</add> The houshold
+                                   hearts that were his own,</l>
+            <l n="52">
+               <add place="lmargin" resp="ww">“</add> It is the man
+                                   of mirth.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">
+               <add place="lmargin" resp="ww">“</add> My days, my
+                                   Friend, are almost gone,</l>
+            <l n="54">
+               <add place="lmargin" resp="ww">“</add> My life has
+                                   been approv’d,</l>
+            <l n="55">
+               <add place="lmargin" resp="ww">“</add> And many love
+                                        me<del>,</del> but by none <add place="rmargin" resp="ww">;/</add>
+            </l>
+            <l n="56">
+               <add place="lmargin" resp="ww">“</add> Am I enough
+                                   belov’d.”</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <l n="57">
+               <add place="lmargin" resp="ww">“</add> Now both
+                                   himself and me he wrongs,</l>
+            <l n="58">
+               <add place="lmargin" resp="ww">“</add> The man who
+                                   thus complains!</l>
+            <l n="59">
+               <add place="lmargin" resp="ww">“</add> I live and sing
+                                   my idle songs</l>
+            <l n="60">
+               <add place="lmargin" resp="ww">“</add> Upon these
+                                   happy plains,</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

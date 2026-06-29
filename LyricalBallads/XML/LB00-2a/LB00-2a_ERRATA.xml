@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: Errata List</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2a_ERRATA</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="ERRATA">
+                  <title>[ERRATA]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2a">
+                  <ptr target="../XML/LB00-2a.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">228</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="228"/>
+         <head>
+            <emph>ERRATA AND CORRECTIONS.</emph>
+         </head>
+         <!-- the paragraphs marked by lb elements have to be hanging-->
+         <list type="errata">
+            <item>Preface, p. xi. line 11, For, “Lucretia”—read,
+                                “<sic>Lucretiuss</sic>.”</item>
+            <item>Page 2, Vol. II. For, “Follow, and weary up the mountain
+                            strain,” <lb/>Read, “Follow, and up the weary mountain
+                            strain.”</item>
+            <item>——— 2, For, “horse and horsemen,” read,
+                            “horse and horseman.”</item>
+            <item>——— 9, For, “<emph>curb</emph> the
+                            blood,” read, “<emph>freeze</emph> the blood.”</item>
+            <item>——— 11, For, “To this place from the
+                            stone,” &amp;c. read, “From the <lb/> stone on the summit of
+                            the steep.”</item>
+            <item>——— 20, For, “<emph>snowy</emph> ridge,”
+                            read, “<emph>snow-white</emph> ridge.”</item>
+            <item>——— 27, For, “The old
+                            <emph>house-cloth</emph>, &amp;c. read, "The old
+                                <emph>house-clock</emph> is <lb/>deck’d with a new
+                            face.”</item>
+            <item>——— 28, After, “To say that you are heedless
+                            of the past,” insert the fol-<lb/>lowing line—“An
+                            Orphan could not find his mother’s grave.”</item>
+            <item>——— 29, At the beginning of the speech of the
+                            Priest, before the words,<lb/>“With what I’ve
+                            witness’d and with what I’ve heard,” Insert <lb/>the
+                            words, “For eight-score winters past.”</item>
+            <item>——— 34, For, “flowers that <emph>grew</emph>
+                            there,” read, “flowers that <emph>grow</emph>
+                            there.”</item>
+            <item>——— 38, in the line, “He would himself no
+                            doubt be <emph>as</emph> happy then,” <lb/>omit the word
+                                “<emph>as</emph>.”</item>
+            <item>——— 41, For, “James <emph>pointing</emph> to
+                            its summit,” read, “James <emph>pointed</emph> to <lb/>its
+                            summit.”</item>
+            <item>——— — For, “<emph>Inform’d</emph>
+                            them, &amp;c. read, “And <emph>told them</emph>,”
+                            &amp;c.</item>
+            <item>——— 49, The words, “Hic jacet,” to be
+                            printed thus, “HIC JACET.”</item>
+            <item>——— 84, For, yet <emph>unborn</emph>, the
+                            sheep,” read, “yet <emph>unshorn</emph>, the
+                            sheep”<lb/>——— 91, For, “He
+                                <emph>stopp’d</emph> and took,” read, “He
+                                <emph>stooped</emph> and took.”<lb/>——— 92,
+                            For, “<emph>When</emph> the Muses,” read,
+                                “<emph>Then</emph> the Muses.”<lb/>———
+                            93, For, “<emph>There’s</emph> ninety good seasons,”
+                            read, <emph>There are</emph> ninety <lb/>good seasons.”</item>
+            <item>——— 128, For, “<emph>On</emph> silence Matthew
+                            lay,” read, “<emph>In</emph> silence Matthew
+                            lay.”</item>
+            <item>——— 132, After ————
+                            “It seems a day,” insert the following line,<lb/>“I
+                            speak of one from many singled out.”<lb/>“One of
+                            those,” &amp;c.</item>
+            <item>——— 133, For “motley
+                                <emph>accoutrements</emph>, read, “motley
+                                <emph>accoutrement</emph>.”</item>
+            <item>——— 137, For, “A beauty that shall mould her
+                            form,”<lb/>Read, “Grace that shall mould the maiden’s
+                            form.”</item>
+            <item>——— 140, For, “And now with empty Can,”
+                            read, “Now with her empty <lb/>Can.”</item>
+            <item>——— — For, “That little maid
+                                <emph>would</emph> sing,” read, “That little maid
+                                <emph>
+                  <lb/>might</emph> sing.”</item>
+            <item>——— 145, Place a comma after “disconsolate
+                            creature,” and omit the <lb/>comma after
+                            “perhaps.”</item>
+            <item>——— 147, For, “both grey, red, and
+                            green,” substitute, “grey, scarlet,
+                            and<lb/>green.”</item>
+            <item>——— 186, For, “<emph>is</emph> if she
+                            wished,” read “<emph>as</emph> if she wished.”</item>
+         </list>
+      </body>
+   </text>
+</TEI>

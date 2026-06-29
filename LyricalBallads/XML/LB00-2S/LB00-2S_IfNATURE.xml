@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: 'If Nature . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2S_IfNATURE</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="IfNATURE">
+                  <title>[IfNATURE]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2S">
+                  <ptr target="../XML/LB00-2S.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">120 to 122</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="120"/>
+         <milestone n="120" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>
+               <note place="head">In the School of ——— is a
+                                        tablet on which are inscribed, <lb/>in gilt letters, the
+                                        names of the <orig rend="long s">s</orig>everal persons who
+                                        have <lb/>been Schoolmasters there since the foundation of
+                                        the School, <lb/>with the times at which they entered upon
+                                        and quitted <lb/>their office. Opposite one of those names
+                                        the Author wrote the <lb/>following
+                              lines.</note>
+            </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">If Nature, for a favorite Child</l>
+            <l n="2">In thee hath temper’d so her clay,</l>
+            <l n="3">That every hour thy heart runs wild</l>
+            <l n="4">Yet never once doth go astray,</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">Read o’er these lines ; and then review</l>
+            <l n="6">This tablet, that thus humbly rears</l>
+            <l n="7">In such diversity of hue</l>
+            <l n="8">Its history of two hundred years.</l>
+         </lg>
+         <pb n="121"/>
+         <milestone n="121" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" type="stanza">
+            <l n="9">—When through this little wreck of fame,</l>
+            <l n="10">Cypher and syllable, thine eye</l>
+            <l n="11">Has travell’d down to Matthew’s name,</l>
+            <l n="12">Pause with no common sympathy.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <l n="13">And if a sleeping tear should wake</l>
+            <l n="14">Then be it neither check’d nor stay’d:</l>
+            <l n="15">For Matthew a request I make</l>
+            <l n="16">Which for himself he had not made.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Poor Matthew, all his frolics o’er,</l>
+            <l n="18">Is silent as a standing pool,</l>
+            <l n="19">Far from the chimney’s merry roar,</l>
+            <l n="20">And murmur of the village school.</l>
+         </lg>
+         <lg n="6">
+            <l n="21">The sighs which Matthew heav’d were sighs</l>
+            <l n="22">Of one tir’d out with fun and madness;</l>
+            <l n="23">The tears which came to Matthew’s eyes</l>
+            <l n="24">Were tears of light, the oil of gladness.</l>
+         </lg>
+         <pb n="122"/>
+         <milestone n="122" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="7" type="stanza">
+            <l n="25">Yet sometimes when the secret cup</l>
+            <l n="26">Of still and serious thought went round</l>
+            <l n="27">It seem’d as if he drank it up,</l>
+            <l n="28">He felt with spirit so profound.</l>
+         </lg>
+         <lg n="8" type="stanza">
+            <l n="29">—Thou soul of God’s best earthly mould,</l>
+            <l n="30">Thou happy soul, and can it be</l>
+            <l n="31">That these two words of glittering gold</l>
+            <l n="32">Are all that must remain of thee?</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

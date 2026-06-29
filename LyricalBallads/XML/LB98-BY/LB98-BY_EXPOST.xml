@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Expostulation and Reply</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BY_EXPOST</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="EXPOST">
+                  <title>[EXPOST]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-BY">
+                  <ptr target="../XML/LB98-BY.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">183 to 185</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone unit="page" n="183"/>
+         <lb/>
+         <lb/>
+         <div type="poem" rhyme="abab">
+            <head>EXPOSTULATION<lb/>
+               <lb/>
+               <hi>and</hi>
+               <lb/>
+               <lb/>R E P L Y.<lb/>
+            </head>
+            <lg n="1" type="stanza">
+               <l n="1">"Why William, on that old grey stone, </l>
+               <l n="2">"Thus for the length of half a day, </l>
+               <l n="3">"Why William, sit you thus alone, </l>
+               <l n="4">"And dream your time away? </l>
+            </lg>
+            <lg n="2" type="stanza">
+               <l n="5" enjamb="y">"Where are your books? that light bequeath’d </l>
+               <l n="6">"To beings else forlorn and blind!</l>
+               <l n="7" enjamb="y">"Up! Up! and drink the spirit breath’d</l>
+               <l n="8">"From dead men to their kind. </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="184"/>
+            <lb/>
+            <lb/>
+            <lg n="3" type="stanza">
+               <l n="9">"You look round on your mother earth, </l>
+               <l n="10">"As if she for no purpose bore you; </l>
+               <l n="11">"As if you were her first-born birth, </l>
+               <l n="12">"And none had lived before you!” </l>
+            </lg>
+            <lg n="4" type="stanza">
+               <l n="13">One morning thus, by Esthwaite lake, </l>
+               <l n="14">When life was sweet I knew not why, </l>
+               <l n="15">To me my good friend Matthew spake, </l>
+               <l n="16">And thus I made reply.</l>
+            </lg>
+            <lg n="5" type="stanza">
+               <l n="17">"The eye it cannot chuse but see, </l>
+               <l n="18">"We cannot bid the ear be still; </l>
+               <l n="19">"Our bodies feel, where’er they be, </l>
+               <l n="20">"Against, or with our will. </l>
+            </lg>
+            <lg n="6" type="stanza">
+               <l n="21">"Nor less I deem that there are powers, </l>
+               <l n="22">"Which of themselves our minds impress, </l>
+               <l n="23">"That we can feed this mind of ours, </l>
+               <l n="24">"In a wise passiveness. </l>
+            </lg>
+            <pb/>
+            <milestone unit="page" n="185"/>
+            <lb/>
+            <lb/>
+            <lg n="7" type="stanza">
+               <l n="25" enjamb="y">"Think you, mid all this mighty sum </l>
+               <l n="26">"Of things for ever speaking, </l>
+               <l n="27">"That nothing of itself will come, </l>
+               <l n="28">"But we must still be seeking? </l>
+            </lg>
+            <lg n="8" type="stanza">
+               <l n="29">"—Then ask not wherefore, here, alone, </l>
+               <l n="30">"Conversing as I may, </l>
+               <l n="31">"I sit upon this old grey stone, </l>
+               <l n="32">"And dream my time away.”</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

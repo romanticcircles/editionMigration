@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1800: 'Strange fits of passion I have known . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB00-2y_LucSTRANGE</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LucSTRANGE">
+                  <title>'Strange fits of passion I have known . . .'</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB00-2y">
+                  <ptr target="../XML/LB00-2y.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1800</date>
+                  </imprint>
+                  <biblScope unit="page">50 to 51</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="50" unit="page"/>
+         <lb/>
+         <lb/>
+         <head rend="ms.">
+            <add hand="dw" rend="ink" resp="ww">
+               <del>a
+                                   Reverie</del>
+            </add>
+         </head>
+         <lg n="1">
+            <l n="1">Strange fits of passion I have known<del>,</del>
+               <add place="rmargin" rend="ink" resp="ww">:/</add>
+            </l>
+            <l n="2">And I will dare to tell,</l>
+            <l n="3">
+               <add place="lmargin" rend="ink" resp="ww">/L</add> But in
+                                   the <del>l</del>over’s ear alone,</l>
+            <l n="4">What once to me befel.</l>
+         </lg>
+         <lg n="2">
+            <l n="5">When she I lov’d, was strong and gay</l>
+            <l n="6">And like a rose in June,</l>
+            <l n="7">I to her cottage bent my way,</l>
+            <l n="8">Beneath the evening <del>m</del>oon. <add place="rmargin" rend="ink" resp="ww">M/</add>
+            </l>
+         </lg>
+         <lg n="3">
+            <l n="9">
+               <add place="lmargin" rend="ink" resp="ww">/M</add> Upon
+                                   the <del>m</del>oon I fix’d my eye,</l>
+            <l n="10">All over the wide lea<del>;</del>
+               <add place="rmargin" rend="ink" resp="ww">:/</add>
+            </l>
+            <l n="11">
+               <add place="lmargin" rend="ink" resp="ww">/H/—</add> My <del>h</del>orse trudg’d
+                                   on^ and we drew nigh</l>
+            <l n="12">Those paths so dear to me.</l>
+         </lg>
+         <pb/>
+         <milestone n="51" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4">
+            <l n="13">And now we reach’d the orchard plot<del>,</del>
+               <add place="rmargin" rend="ink" resp="ww">;/</add>
+            </l>
+            <l n="14">And, as we climb’d the hill,</l>
+            <l n="15">Towards the roof of Lucy’s cot</l>
+            <l n="16">
+               <add place="lmargin" rend="ink" resp="ww">/M</add> The
+                                        <del>m</del>oon descended still.</l>
+         </lg>
+         <lg n="5">
+            <l n="17">In one of those sweet dreams I slept,</l>
+            <l n="18">Kind Nature’s gentlest boon!</l>
+            <l n="19">And, all the while, my eyes I kept</l>
+            <l n="20">On the descending <del>m</del>oon. <add place="rmargin" rend="ink" resp="ww">M/</add>
+            </l>
+         </lg>
+         <lg n="6">
+            <l n="21">
+               <add place="lmargin" rend="ink" resp="ww">/H</add> My
+                                        <del>h</del>orse mov’d on; hoof after hoof</l>
+            <l n="22">
+               <add place="rmargin" rend="ink" resp="ww">/,</add>He
+                                        rais’d<add place="belowline" rend="ink" resp="ww">^</add>and never stopp’d:</l>
+            <l n="23">When down behind the cottage roof</l>
+            <l n="24">
+               <add place="lmargin" rend="ink" resp="ww">/P</add> At
+                                   once the <del>p</del>lanet dropp’d.</l>
+         </lg>
+         <lg n="7">
+            <l n="25">What fond and wayward thoughts will slide</l>
+            <l n="26">Into a Lover’s head—</l>
+            <l n="27">“O mercy!” to myself I cried,</l>
+            <l n="28">“If Lucy should be dead!”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

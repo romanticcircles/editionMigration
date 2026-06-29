@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: Domiciliary Verses</title>
+            <author>
+               <name>Thomas Beddoes</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BEDDOES_DOMICtb</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="DOMICtb">
+                  <title>[DOMICtb]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/64080402">Thomas Beddoes</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-BEDDOES">
+                  <ptr target="../XML/LB98-BEDDOES.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>[extra leaf inserted]<lb/>DOMICILIARY
+								VERSES.<lb/>
+            <lb/>
+            <emph>
+               <hi>DECEMBER</hi>
+            </emph>
+            <hi>1795.<lb/>
+               <lb/>
+               <lb/>
+               <lb/>
+            </hi>
+         </head>
+         <lg n="5" type="verseparagraph">
+            <l n="1">Invitingly yon single-storied cot</l>
+            <l n="2">Peeps o’er the frosted heath. The broad, brown door,</l>
+            <l n="2">Scaled of its white-wash, is so low that he</l>
+            <l n="3">Who steps in upright, steps in jeopardy</l>
+            <l n="4">To smite his forehead. Two projecting walls</l>
+            <l n="5">Fence in the roomy fire-place. Close by each</l>
+            <l n="6">Is set an oaken bench, on whose hard sides,</l>
+            <l n="7">His sore impatience, many a lubber loon,</l>
+            <l n="8">Keen for his meal, has notched. Here, when silently</l>
+            <l n="9">Coating the green and lozenged panes, thick snow</l>
+            <l n="10">Bedims the scanty daylight, nestles the snug</l>
+            <l n="11">Family, delighted up the chimney’s shaft,</l>
+            <pb/>
+            <milestone unit="page" n="63*"/>
+            <lb/>
+            <lb/>
+            <l n="12">Illumining the chasm, to trace the spark’s</l>
+            <l n="13">Ascent ; or touch with timid finger-tip</l>
+            <l n="14">The faggot’s hissing ooze, and snift the fumes.</l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l n="15">I knew an Irishman ; to England he</l>
+            <l n="16">Came every spring a hay-making ; and much</l>
+            <l n="17">Would praise his cabin. By a bog it stood,</l>
+            <l n="18">And he had store of peats. Without a chimney</l>
+            <l n="19">Stood the little cabin. Full of warmth and smoke,</l>
+            <l n="20">It cherished its owner. The smoke he loved,</l>
+            <l n="21">Loved for the warmth’s sake, though it bleared his eyes.</l>
+         </lg>
+         <lg n="3" type="verseparagraph">
+            <l n="22">Now when the North-East pinches, I bethink me</l>
+            <l n="23">Of this poor Irishman ; and think “ how sweet</l>
+            <l n="24">“It were to house with him, and pat his cur,</l>
+            <l n="25">“And peel potatoes mid his cabin’s smoke.”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

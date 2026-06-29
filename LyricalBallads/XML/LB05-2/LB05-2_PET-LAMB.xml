@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: The Pet-Lamb</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2_PET-LAMB</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="PET-LAMB">
+                  <title>[PET-LAMB]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2">
+                  <ptr target="../XML/LB05-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">139 to 143</biblScope>
+                  <biblScope unit="pages">5</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="139"/>
+         <milestone n="139" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The PET-LAMB, <lb/>
+               <lb/>
+               <hi rend="small">A PASTORAL.
+                                        <lb/>
+                  <lb/>
+               </hi>
+            </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">The dew was falling fast, the stars began to blink;</l>
+            <l n="2">I heard a voice; it said, “Drink, pretty Creature,
+                                   drink!”</l>
+            <l n="3">And, looking o’er the hedge, before me I espied</l>
+            <l n="4">A snow-white mountain Lamb with a Maiden at its side.</l>
+         </lg>
+         <lg n="2" type="stanza">
+            <l n="5">No other sheep were near, the Lamb was all alone,</l>
+            <l n="6">And by a slender cord was tethered to a stone;</l>
+            <l n="7">With one knee on the grass did the little Maiden kneel</l>
+            <l n="8">While to that Mountain Lamb she gave its evening meal.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="9">The Lamb while from her hand he thus his supper took</l>
+            <l n="10">Seemed to feast with head and ears; and his tail with
+                                   pleasure shook.</l>
+            <l n="11">“Drink, pretty Creature, drink,” she said in
+                                   such a tone</l>
+            <l n="12">That I almost received her heart into my own.</l>
+         </lg>
+         <pb n="140"/>
+         <milestone n="140" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="13">’Twas little Barbara Lewthwaite, a Child of beauty
+                                   rare!</l>
+            <l n="14">I watched them with delight, they were a lovely pair.</l>
+            <l n="15">Now with her empty Can the Maiden turned away;</l>
+            <l n="16">But ere ten yards were gone her footsteps did she stay.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="17">Towards the Lamb she looked; and from that shady place</l>
+            <l n="18">I unobserved could see the workings of her face:</l>
+            <l n="19">If Nature to her tongue could measured numbers bring,</l>
+            <l n="20">Thus, thought I, to her Lamb that little Maid might
+                                   sing.</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <l n="21">“What ails thee, Young One? What? Why pull so at thy
+                                   cord?</l>
+            <l n="22">Is it not well with thee? Well both for bed and board?</l>
+            <l n="23">Thy plot of grass is soft, and green as grass can be;</l>
+            <l n="24">Rest, little Young One, rest; what is’t that aileth
+                                   thee?</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="25">“What is it thou wouldst seek? What is wanting to thy
+                                   heart?</l>
+            <l n="26">Thy limbs are they not strong? And beautiful thou art:</l>
+            <l n="27">This grass is tender grass; these flowers they have no
+                                   peers;</l>
+            <l n="28">And that green corn all day is rustling in thy ears!</l>
+         </lg>
+         <pb n="141"/>
+         <milestone n="141" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="29">“If the Sun be shining hot, do but stretch thy woollen
+                                   chain,</l>
+            <l n="30">This beech is standing by, its covert thou canst gain;</l>
+            <l n="31">For rain and mountain storms! the like thou need’st
+                                   not fear—</l>
+            <l n="32">The rain and storm are things which scarcely can come
+                                   here.</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="33">“Rest, little Young One, rest; thou hast forgot the
+                                   day</l>
+            <l n="34">When my Father found thee first in places far away;</l>
+            <l n="35">Many flocks were on the hills, but thou wert owned by
+                                   none;</l>
+            <l n="36">And thy mother from thy side for evermore was gone.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <l n="37">“He took thee in his arms, and in pity brought thee
+                                   home:</l>
+            <l n="38">A blessed day for thee! then whither wouldst thou roam?</l>
+            <l n="39">A faithful Nurse thou hast, the Dam that did thee yean</l>
+            <l n="40">Upon the mountain tops no kinder could have been.</l>
+         </lg>
+         <pb n="142"/>
+         <milestone n="142" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="11" type="stanza">
+            <l n="41">“Thou know’st that twice a day I have brought
+                                   thee in this Can</l>
+            <l n="42">Fresh water from the brook as clear as ever ran:</l>
+            <l n="43">And twice in the day when the ground is wet with dew</l>
+            <l n="44">I bring thee draughts of milk, warm milk it is and new.</l>
+         </lg>
+         <lg n="12" type="stanza">
+            <l n="45">“Thy limbs will shortly be twice as stout as they are
+                                   now,</l>
+            <l n="46">Then I’ll yoke thee to my cart like a pony in the
+                                   plough;</l>
+            <l n="47">My Playmate thou shalt be; and when the wind is cold</l>
+            <l n="48">Our hearth shall be thy bed, our house shall be thy
+                                   fold.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="49">“It will not, will not rest!—poor Creature, can
+                                   it be</l>
+            <l n="50">That ’tis thy mother’s heart which is working so
+                                   in thee?</l>
+            <l n="51">Things that I know not of belike to thee are dear,</l>
+            <l n="52">And dreams of things which thou canst neither see nor
+                                   hear.</l>
+         </lg>
+         <lg n="14" type="stanza">
+            <l n="53">“Alas, the mountain tops that look so green and
+                                   fair!</l>
+            <l n="54">I’ve heard of fearful winds and darkness that come
+                                   there;</l>
+            <l n="55">The little Brooks that seem all pastime and all play,</l>
+            <l n="56">When they are angry, roar like Lions for their prey.</l>
+         </lg>
+         <pb n="143"/>
+         <milestone n="143" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="15">
+            <l n="57">“Here thou need’st not dread the raven in the
+                                   sky;</l>
+            <l n="58">Night and day thou art safe,—our cottage is hard
+                                   by.</l>
+            <l n="59">Why bleat so after me? Why pull so at thy chain?</l>
+            <l n="60">Sleep—and at break of day I will come to thee
+                                   again!”</l>
+         </lg>
+         <lg n="16" type="stanza">
+            <l n="61">—As homeward through the lane I went with lazy
+                                   feet,</l>
+            <l n="62">This song to myself did I oftentimes repeat;</l>
+            <l n="63">And it seemed, as I retraced the ballad line by line,</l>
+            <l n="64">That but half of it was hers, and one half of it was
+                                   mine.</l>
+         </lg>
+         <lg n="17" type="stanza">
+            <l n="65">Again, and once again did I repeat the song;</l>
+            <l n="66">“Nay” said I, “more than half to the
+                                   Damsel must belong,</l>
+            <l n="67">For she looked with such a look, and she spake with such a
+                                   tone,</l>
+            <l n="68">That I almost received her heart into my own.”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: 'A slumber did my spirt seal . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB02-2_LucSLUMBER</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="LucSLUMBER">
+                  <title>[LucSLUMBER]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB02-2">
+                  <ptr target="../XML/LB02-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">53</biblScope>
+                  <biblScope unit="pages">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="53" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1">
+            <l n="1">A slumber did my spirit seal;</l>
+            <l n="2" rend="indent"> I had no human fears:</l>
+            <l n="3">She seem’d a thing that could not feel</l>
+            <l n="4" rend="indent"> The touch of earthly years.</l>
+         </lg>
+         <lg n="2">
+            <l n="5">No motion has she now, no force;</l>
+            <l n="6" rend="indent"> She neither hears nor sees,</l>
+            <l n="7">Roll’d round in earth’s diurnal course</l>
+            <l n="8" rend="indent"> With rocks and stones and trees!</l>
+         </lg>
+         <pb/>
+      </body>
+   </text>
+</TEI>

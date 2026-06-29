@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: The Female Vagrant</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-1_VAGRANT</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="VAGRANT">
+                  <title>[VAGRANT]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-1">
+                  <ptr target="../XML/LB05-1.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">67</biblScope>
+                  <biblScope unit="pages">14</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lyrical Ballads, 1805: [The Female Vagrant title page]</title>
+               <editor>
+                  <name xml:id="BG">Bruce Graver</name>
+               </editor>
+               <editor>
+                  <name xml:id="RT">Ronald Tetreault</name>
+               </editor>
+               <respStmt>
+                  <resp>Technical Editor; Producer</resp>
+                  <name xml:id="LM">Laura Mandell</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Romantic Circles</publisher>
+               <idno type="local">LB05-1_VAGRANTf</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <biblStruct>
+                  <monogr xml:id="LB05-1">
+                     <ptr target="../XML/LB05-1.xml"/>
+                     <imprint>
+                        <publisher>T. N. Longman and O. Rees</publisher>
+                        <pubPlace/>
+                        <date>1805</date>
+                     </imprint>
+                     <biblScope unit="page">64 to 66</biblScope>
+                     <biblScope unit="pages">2</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb n="64"/>
+            <titlePage>
+               <docTitle>
+                  <lb/>
+                  <titlePart>
+                     <lb/>
+                     <lb/>
+                     <hi rend="small">
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>the
+                                        </hi>
+                     <lb/>
+                     <lb/>FEMALE VAGRANT. </titlePart>
+               </docTitle>
+            </titlePage>
+            <pb n="66"/>
+         </front>
+         <body>
+            <p> </p>
+         </body>
+      </text>
+      <body>
+         <pb/>
+         <milestone n="67" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <lb/>
+            <lb/>
+            <hi rend="small">the <lb/>
+            </hi>
+            <lb/>
+            <emph>FEMALE VAGRANT.
+                              </emph>
+         </head>
+         <lg n="1" type="stanza">
+            <l n="1">My Father was a good and pious man, </l>
+            <l n="2">An honest man by honest parents bred ; </l>
+            <l n="3">And I believe, that, soon as I began </l>
+            <l n="4">To lisp, he made me kneel beside my bed, </l>
+            <l n="5">And in his hearing there my prayers I said : </l>
+            <l n="6">And afterwards, by my good Father taught,</l>
+            <l n="7">I read, and loved the books in which I read ;</l>
+            <l n="8">For books in every neighbouring house I sought,</l>
+            <l n="9">And nothing to my mind a sweeter pleasure brought.</l>
+         </lg>
+         <pb/>
+         <milestone n="68" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <l n="10">The suns of twenty summers danced along,—</l>
+            <l n="11">Ah! little marked how fast they rolled away :</l>
+            <l n="12">Then rose a stately Hall our woods among,</l>
+            <l n="13">And cottage after cottage owned its sway. </l>
+            <l n="14">No joy to see a neighbouring House, or stray</l>
+            <l n="15">Through pastures not his own, the master took;</l>
+            <l n="16">My Father dared his greedy wish gainsay ; </l>
+            <l n="17">He loved his old hereditary nook, </l>
+            <l n="18">And ill could I the thought of such sad parting brook.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <l n="19">But, when he had refused the proffered gold,</l>
+            <l n="20">To cruel injuries he became a prey, </l>
+            <l n="21">Sore traversed in whate’er he bought and sold :</l>
+            <l n="22">His troubles grew upon him day by day, </l>
+            <l n="23">And all his substance fell into decay. </l>
+            <l n="24">They dealt most hardly with him, and he tried</l>
+            <l n="25">To move their hearts—but it was vain—for
+                                   they</l>
+            <l n="26">Seized all he had ; and, weeping side by side,</l>
+            <l n="27">We sought a home where we uninjured might abide.</l>
+         </lg>
+         <pb/>
+         <milestone n="69" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" type="stanza">
+            <l n="28">It was in truth a lamentable hour,</l>
+            <l n="29">When, from the last hill-top, my Sire surveyed,</l>
+            <l n="30">Peering above the trees, the steeple tower</l>
+            <l n="31">That on his marriage-day sweet music made.</l>
+            <l n="32">Till then he hoped his bones might there be laid,</l>
+            <l n="33">Close by my Mother, in their native bowers ;</l>
+            <l n="34">Bidding me trust in God, he stood and prayed,—</l>
+            <l n="35">I could not pray :—through tears that fell in
+                                   showers</l>
+            <l n="36">I saw our own dear home, that was no longer ours.</l>
+         </lg>
+         <lg n="5" type="stanza">
+            <l n="37">There was a Youth, whom I had loved so long,</l>
+            <l n="38">That when I loved him not I cannot say.</l>
+            <l n="39">’Mid the green mountains many and many a song</l>
+            <l n="40">We two had sung, like gladsome birds in May.</l>
+            <l n="41">When we began to tire of childish play </l>
+            <l n="42">We seemed still more and more to prize each other ;</l>
+            <l n="43">We talked of marriage and our marriage day;</l>
+            <l n="44">And I in truth did love him like a brother ;</l>
+            <l n="45">For never could I hope to meet with such another.</l>
+         </lg>
+         <pb/>
+         <milestone n="70" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="6" type="stanza">
+            <l n="46">Two years were pass’d, since to a distant Town</l>
+            <l n="47">He had repair’d to ply the artist’s trade.</l>
+            <l n="48">What tears of bitter grief till then unknown!</l>
+            <l n="49">What tender vows our last sad kiss delayed!</l>
+            <l n="50">To him we turned:—we had no other aid.</l>
+            <l n="51">Like one revived, upon his neck I wept :</l>
+            <l n="52">And her whom he had loved in joy, he said</l>
+            <l n="53">He well could love in grief: his faith he kept ;</l>
+            <l n="54">And in a quiet home once more my Father slept.</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <l n="55">We lived in peace and comfort ; and were blest</l>
+            <l n="56">With daily bread, by constant toil supplied.</l>
+            <l n="57">Three lovely Infants lay upon my breast ;</l>
+            <l n="58">And often, viewing their sweet smiles, I sighed,</l>
+            <l n="59">And knew not why. My happy Father died</l>
+            <l n="60">When sad distress reduced the Children’s meal :</l>
+            <l n="61">Thrice happy ! that from him the grave did hide</l>
+            <l n="62">The empty loom, cold hearth, and silent wheel,</l>
+            <l n="63">And tears that flowed for ills which patience could not
+                                   heal.</l>
+         </lg>
+         <pb/>
+         <milestone n="71" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <l n="64">’Twas a hard change, an evil time was come;</l>
+            <l n="65">We had no hope, and no relief could gain.</l>
+            <l n="66">But soon, day after day, the noisy drum </l>
+            <l n="67">Beat round, to sweep the streets of want and pain.</l>
+            <l n="68">My husband’s arms now only served to strain</l>
+            <l n="69">Me and his children hungering in his view : </l>
+            <l n="70">In such dismay my prayers and tears were vain :</l>
+            <l n="71">To join those miserable men he flew :</l>
+            <l n="72">And now to the sea-coast, with numbers more, we drew. </l>
+         </lg>
+         <lg n="9" type="stanza">
+            <l n="73">There, long were we neglected, and we bore</l>
+            <l n="74">Much sorrow ere the fleet its anchor weigh’d;</l>
+            <l n="75">Green fields before us and our native shore,</l>
+            <l n="76">We breath’d a pestilential air that made </l>
+            <l n="77">Ravage for which no knell was heard. We pray’d</l>
+            <l n="78">For our departure ; wish’d and wish’d—nor
+                                   knew</l>
+            <l n="79">’Mid that long sickness, and those hopes
+                                   delay’d,</l>
+            <l n="80">That happier days we never more must view :</l>
+            <l n="81">The parting signal streamed, at last the land withdrew.</l>
+         </lg>
+         <pb/>
+         <milestone n="72" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="10" type="stanza">
+            <l n="82">But the calm summer season now was past.</l>
+            <l n="83">On as we drove, the equinoctial Deep </l>
+            <l n="84">Ran mountains-high before the howling blast ;</l>
+            <l n="85">And many perished in the whirlwind’s sweep.</l>
+            <l n="86">We gazed with terror on their gloomy sleep,</l>
+            <l n="87">Untaught that soon such anguish must ensue,</l>
+            <l n="88">Our hopes such harvest of affliction reap,</l>
+            <l n="89">That we the mercy of the waves should rue.</l>
+            <l n="90">We reach’d the Western World, a poor, devoted
+                                   crew.</l>
+         </lg>
+         <lg n="11" type="stanza">
+            <l n="91">The pains and plagues that on our heads came down,</l>
+            <l n="92">Disease and famine, agony and fear,</l>
+            <l n="93">In wood or wilderness, in camp or town, </l>
+            <l n="94">It would thy brain unsettle, even to hear. </l>
+            <l n="95">All perished—all, in one remorseless year, </l>
+            <l n="96">Husband and Children ! one by one, by sword</l>
+            <l n="97">And ravenous plague, all perished : every tear</l>
+            <l n="98">Dried up, despairing, desolate, on board </l>
+            <l n="99">A British ship I waked, as from a trance restored.</l>
+         </lg>
+         <pb/>
+         <milestone n="73" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="12" type="stanza">
+            <l n="100">Peaceful as some immeasurable plain </l>
+            <l n="101">By the first beams of dawning light impress’d,</l>
+            <l n="102">In the calm sunshine slept the glittering main.</l>
+            <l n="103">The very ocean has its hour of rest. </l>
+            <l n="104">I too was calm, though heavily distress’d!</l>
+            <l n="105">Oh me, how quiet sky and ocean were!</l>
+            <l n="106">My heart was healed within me, I was bless’d,</l>
+            <l n="107">And looked, and looked along the silent air,</l>
+            <l n="108">Until it seemed to bring a joy to my despair.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <l n="109">Ah! how unlike those late terrific sleeps! </l>
+            <l n="110">And groans, that rage of racking famine spoke!</l>
+            <l n="111">The unburied dead that lay in festering heaps!</l>
+            <l n="112">The breathing pestilence that rose like smoke!</l>
+            <l n="113">The shriek that from the distant battle broke!</l>
+            <l n="114">The mine’s dire earthquake, and the pallid host</l>
+            <l n="115">Driven by the bomb’s incessant thunder-stroke</l>
+            <l n="116">To loathsome vaults, where heart-sick anguish
+                                   toss’d,</l>
+            <l n="117">Hope died, and fear itself in agony was lost!</l>
+         </lg>
+         <pb/>
+         <milestone n="74" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="14" type="stanza">
+            <l n="118">At midnight once the storming Army came,</l>
+            <l n="119">Yet do I see the miserable sight,</l>
+            <l n="120">The Bayonet, the Soldier, and the Flame</l>
+            <l n="121">That followed us and faced us in our flight ;</l>
+            <l n="122">When Rape and Murder by the ghastly light</l>
+            <l n="123">Seized their joint prey, the Mother and the Child!</l>
+            <l n="124">But I must leave these thoughts.--From night to night,</l>
+            <l n="125">From day to day, the air breathed soft and mild:</l>
+            <l n="126">And on the gliding vessel Heaven and Ocean smiled.</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <l n="127">Some mighty gulph of separation past, </l>
+            <l n="128">I seemed transported to another world :—</l>
+            <l n="129">A thought resigned with pain, when from the mast</l>
+            <l n="130">The impatient mariner the sail unfurl’d, </l>
+            <l n="131">And, whistling, called the wind that hardly curled</l>
+            <l n="132">The silent sea. From the sweet thoughts of home</l>
+            <l n="133">And from all hope I was forever hurled. </l>
+            <l n="134">For me—farthest from earthly port to roam</l>
+            <l n="135">Was best, could I but shun the spot where man might
+                                   come.</l>
+         </lg>
+         <pb/>
+         <milestone n="75" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="16" type="stanza">
+            <l n="136">And oft I thought (my fancy was so strong)</l>
+            <l n="137">That I at last a resting-place had found ;</l>
+            <l n="138">“ Here will I dwell,” said I, “ my whole
+                                   life-long,</l>
+            <l n="139">Roaming the illimitable waters round :</l>
+            <l n="140">Here will I live:— of every friend
+                                   disown’d,</l>
+            <l n="141">Here will I roam about the ocean-flood.”—</l>
+            <l n="142">To break my dream the vessel reached its bound:</l>
+            <l n="143">And homeless near a thousand homes I stood,</l>
+            <l n="144">And near a thousand tables pin’d , and wanted
+                                   food.</l>
+         </lg>
+         <lg n="17" type="stanza">
+            <l n="145">By grief enfeebled was I turned adrift, </l>
+            <l n="146">Helpless as sailor cast on desert rock ; </l>
+            <l n="147">Nor morsel to my mouth that day did lift, </l>
+            <l n="148">Nor dared my hand at any door to knock. </l>
+            <l n="149">I lay where, with his drowsy Mates, the Cock</l>
+            <l n="150">From the cross timber of an out-house hung ;</l>
+            <l n="151">Dismally tolled, that night, the city clock ! </l>
+            <l n="152">At morn my sick heart hunger scarcely stung,</l>
+            <l n="153">Nor to the beggar’s language could I frame my
+                                   tongue.</l>
+         </lg>
+         <pb/>
+         <milestone n="76" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="18" type="stanza">
+            <l n="154">So pass’d another day, and so the third ; </l>
+            <l n="155">Then did I try in vain the crowd’s resort. </l>
+            <l n="156">—In deep despair by frightful wishes
+                                   stirr’d,</l>
+            <l n="157">Near the sea-side I reached a ruined Fort :</l>
+            <l n="158">There, pains which nature could no more support,</l>
+            <l n="159">With blindness link’d, did on my vitals fall,</l>
+            <l n="160">And I had many interruptions short </l>
+            <l n="161">Of hideous sense ; I sank, nor step could crawl,</l>
+            <l n="162">And thence was carried to a neighbouring Hospital.</l>
+         </lg>
+         <lg n="19" type="stanza">
+            <l n="163">Recovery came with food : but still, my brain</l>
+            <l n="164">Was weak, nor of the past had memory. </l>
+            <l n="165">I heard my neighbours, in their beds, complain</l>
+            <l n="166">Of many things which never troubled me ; </l>
+            <l n="167">Of feet still bustling round with busy glee;</l>
+            <l n="168">Of looks where common kindness had no part;</l>
+            <l n="169">Of service done with careless cruelty, </l>
+            <l n="170">Fretting the fever round the languid heart;</l>
+            <l n="171">And groans, which, as they said, would make a dead man
+                                   start.</l>
+         </lg>
+         <pb/>
+         <milestone n="77" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="20" type="stanza">
+            <l n="172">These things just served to stir the torpid sense,</l>
+            <l n="173">Nor pain nor pity in my bosom raised.</l>
+            <l n="174">My memory and my strength returned ; and thence</l>
+            <l n="175">Dismissed, again on open day I gazed, </l>
+            <l n="176">At houses, men, and common light, amazed.</l>
+            <l n="177">The lanes I sought, and, as the sun retired, </l>
+            <l n="178">Came where beneath the trees a faggot blazed ;</l>
+            <l n="179">The Travellers saw me weep, my fate inquired,</l>
+            <l n="180">And gave me food,—and rest, more welcome, more
+                                   desired.</l>
+         </lg>
+         <lg n="21" type="stanza">
+            <l n="181">My heart is touched to think that men like these,</l>
+            <l n="182">Wild houseless Wanderers, were my first relief:</l>
+            <l n="183">How kindly did they paint their vagrant ease,</l>
+            <l n="184">And their long holiday that feared not grief!</l>
+            <l n="185">For all belonged to all, and each was chief.</l>
+            <l n="186">No plough their sinews strained ; on grating road</l>
+            <l n="187">No wain they drove; and yet the yellow sheaf</l>
+            <l n="188">In every vale for their delight was stow’d;</l>
+            <l n="189">In every field, with milk their dairy overflow’d.</l>
+         </lg>
+         <pb/>
+         <milestone n="78" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="22" type="stanza">
+            <l n="190">They with their pannier’d Asses semblance made</l>
+            <l n="191">Of Potters wandering on from door to door :</l>
+            <l n="192">But life of happier sort to me pourtray’d,</l>
+            <l n="193">And other joys my fancy to allure ; </l>
+            <l n="194">The bag-pipe dinning on the midnight moor</l>
+            <l n="195">In barn uplighted, and Companions boon</l>
+            <l n="196">Well met from far with revelry secure, </l>
+            <l n="197">Among the forest glades, when jocund June</l>
+            <l n="198">Rolled fast along the sky his warm and genial moon.</l>
+         </lg>
+         <lg n="23" type="stanza">
+            <l n="199">But ill they suited me; those journeys dark </l>
+            <l n="200">O’er moor and mountain, midnight theft to hatch!</l>
+            <l n="201">To charm the surly House-dog’s faithful bark,</l>
+            <l n="202">Or hang on tip-toe at the lifted latch ; </l>
+            <l n="203">The gloomy lantern, and the dim blue match,</l>
+            <l n="204">The black disguise, the warning whistle shrill,</l>
+            <l n="205">And ear still busy on its nightly watch, </l>
+            <l n="206">Were not for me, brought up in nothing ill :</l>
+            <l n="207">Besides, on griefs so fresh my thoughts were brooding
+                                   still.</l>
+         </lg>
+         <pb/>
+         <milestone n="79" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="24" type="stanza">
+            <l n="208">What could I do, unaided and unblest ? </l>
+            <l n="209">My Father! gone was every friend of thine :</l>
+            <l n="210">And kindred of dead husband are at best </l>
+            <l n="211">Small help ; and, after marriage such as mine,</l>
+            <l n="212">With little kindness would to me incline. </l>
+            <l n="213">Ill was I then for toil or service fit: </l>
+            <l n="214">With tears whose course no effort could confine,</l>
+            <l n="215">By the road-side forgetful would I sit </l>
+            <l n="216">Whole hours, my idle arms in moping sorrow knit.</l>
+         </lg>
+         <lg n="25" type="stanza">
+            <l n="217">I led a wandering life among the fields; </l>
+            <l n="218">Contentedly, yet sometimes self-accused, </l>
+            <l n="219">I lived upon what casual bounty yields, </l>
+            <l n="220">Now coldly given, now utterly refused. </l>
+            <l n="221">The ground I for my bed have often used: </l>
+            <l n="222">But, what afflicts my peace with keenest ruth</l>
+            <l n="223">Is, that I have my inner self abused, </l>
+            <l n="224">Forgone the home delight of constant truth,</l>
+            <l n="225">And clear and open soul, so prized in fearless youth.</l>
+         </lg>
+         <pb/>
+         <milestone n="80" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="26" type="stanza">
+            <l n="226">Three years thus wandering, often have I view’d,</l>
+            <l n="227">In tears, the sun towards that country tend</l>
+            <l n="228">Where my poor heart lost all its fortitude:</l>
+            <l n="229">And now across this moor my steps I bend—</l>
+            <l n="230">Oh ! tell me whither——for no earthly friend</l>
+            <l n="231">Have I.”——She ceased, and weeping turned
+                                   away,</l>
+            <l n="232">As if because her tale was at an end </l>
+            <l n="233">She wept;—because she had no more to say</l>
+            <l n="234">Of that perpetual weight which on her spirit lay.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

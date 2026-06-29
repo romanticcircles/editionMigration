@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: Inscription for the Spot where the Hermitage stood</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lbphil-2_InscripHERM</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="InscripHERM">
+                  <title>Inscription for the Spot where the Hermitage stood</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lbphil-2">
+                  <ptr target="../XML/lbphil-2.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">82</biblScope>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="82" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>INSCRIPTION<lb/>For the Spot where the
+                                   </emph>H<hi>ermitage</hi>
+            <emph>stood on <lb/>St. Herbert’s Island, Derwent
+                              Water.</emph>
+            <lb/>
+            <lb/>
+         </head>
+         <lg type="poem">
+            <l n="1">IF thou in the dear love of some one friend</l>
+            <l n="2">Hast been so happy, that thou know’st what thoughts</l>
+            <l n="3">Will, sometimes, in the happiness of love</l>
+            <l n="4">Make the heart sink, then wilt thou reverence</l>
+            <l n="5">This quiet spot.—St. Herbert hither came,</l>
+            <l n="6">And here, for many seasons, from the world</l>
+            <l n="7">Remov’d, and the affections of the world,</l>
+            <l n="8">He dwelt in solitude. He living here,</l>
+            <l n="9">This island’s sole inhabitant! had left</l>
+            <l n="10">A Fellow-labourer, whom the good Man lov’d</l>
+            <l n="11">As his own soul; and when within his cave</l>
+            <l n="12">Alone he knelt before the Crucifix,</l>
+            <l n="13">While o’er the lake the cataract of Lodore</l>
+            <l n="14">Peal’d to his orisons, and when he pac’d</l>
+            <l n="15">Along the beach of this small isle and thought</l>
+            <l n="16">Of his Companion, he had pray’d that both</l>
+            <l n="17">Might die in the same moment. Nor in vain</l>
+            <l n="18">So pray’d he:—as our Chronicles report,</l>
+            <l n="19">Though here the Hermit number’d his last days,</l>
+            <l n="20">Far from St. Cuthbert his beloved friend,</l>
+            <l n="20">Those holy men both died in the same hour.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

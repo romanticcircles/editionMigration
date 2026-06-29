@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: The Thorn</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">lb98-bnypl_THORN</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="THORN">
+                  <title>[THORN]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="lb98-bnypl">
+                  <ptr target="../XML/lb98-bnypl.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page">117 to 132</biblScope>
+                  <biblScope unit="pages">16</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="117"/>
+         <head>
+            <lb/>
+            <hi>the</hi>
+            <lb/>
+            <lb/>T H O R N.</head>
+         <lb/>
+         <lg n="1" type="stanza">
+            <head>I.</head>
+            <l n="1">There is a thorn; it looks so old,</l>
+            <l n="2">In truth you’d find it hard to say,</l>
+            <l n="3">How it could ever have been young,</l>
+            <l n="4">It looks so old and grey.</l>
+            <l n="5">Not higher than a two-years’ child,</l>
+            <l n="6">It stands erect this aged thorn;</l>
+            <l n="7">No leaves it has, no thorny points;</l>
+            <l n="8">It is a mass of knotted joints,</l>
+            <l n="9">A wretched thing forlorn.</l>
+            <l n="10">It stands erect, and like a stone</l>
+            <l n="11">With lichens it is overgrown.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="118"/>
+         <lb/>
+         <lb/>
+         <lg n="2" type="stanza">
+            <head>II.</head>
+            <l n="12">Like rock or stone, it is o’ergrown</l>
+            <l n="13">With lichens to the very top,</l>
+            <l n="14">And hung with heavy tufts of moss,</l>
+            <l n="15">A melancholy crop:</l>
+            <l n="16">Up from the earth these mosses creep,</l>
+            <l n="17">And this poor thorn they clasp it round</l>
+            <l n="18">So close, you’d say that they were bent</l>
+            <l n="19">With plain and manifest intent,</l>
+            <l n="20">To drag it to the ground;</l>
+            <l n="21">And all had joined in one endeavour</l>
+            <l n="22">To bury this poor thorn for ever.</l>
+         </lg>
+         <lg n="3" type="stanza">
+            <head>III.</head>
+            <l n="23">High on a mountain’s highest ridge,</l>
+            <l n="24">Where oft the stormy winter gale</l>
+            <l n="25">Cuts like a scythe, while through the clouds</l>
+            <l n="26">It sweeps from vale to vale;</l>
+            <l n="27">Not five yards from the mountain-path,</l>
+            <pb/>
+            <milestone unit="page" n="119"/>
+            <lb/>
+            <lb/>
+            <l n="28">This thorn you on your left espy;</l>
+            <l n="29">And to the left, three yards beyond,</l>
+            <l n="30">You see a little muddy pond</l>
+            <l n="31">Of water, never dry;</l>
+            <l n="32">I’ve measured it from side to side:</l>
+            <l n="33">’Tis three feet long, and two feet wide.</l>
+         </lg>
+         <lg n="4" type="stanza">
+            <head>IV.</head>
+            <l n="34">And close beside this aged thorn,</l>
+            <l n="35">There is a fresh and lovely sight,</l>
+            <l n="36">A beauteous heap, a hill of moss,</l>
+            <l n="37">Just half a foot in height.</l>
+            <l n="38">All lovely colours there you see,</l>
+            <l n="39">All colours that were ever seen,</l>
+            <l n="40">And mossy network too is there,</l>
+            <l n="41">As if by hand of lady fair</l>
+            <l n="42">The work had woven been,</l>
+            <l n="43">And cups, the darlings of the eye,</l>
+            <l n="44">So deep is their vermilion dye.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="120"/>
+         <lb/>
+         <lb/>
+         <lg n="5" type="stanza">
+            <head>V.</head>
+            <l n="45">Ah me! what lovely tints are there!</l>
+            <l n="46">Of olive-green and scarlet bright,</l>
+            <l n="47">In spikes, in branches, and in stars,</l>
+            <l n="48">Green, red, and pearly white.</l>
+            <l n="49">This heap of earth o’ergrown with moss,</l>
+            <l n="50">Which close beside the thorn you see,</l>
+            <l n="51">So fresh in all its beauteous dyes,</l>
+            <l n="52">Is like an infant’s grave in size</l>
+            <l n="53">As like as like can be:</l>
+            <l n="54">But never, never any where,</l>
+            <l n="55">An infant’s grave was half so fair.</l>
+         </lg>
+         <lg n="6" type="stanza">
+            <head>VI.</head>
+            <l n="56">Now would you see this aged thorn,</l>
+            <l n="57">This pond and beauteous hill of moss,</l>
+            <l n="58">You must take care and choose your time</l>
+            <l n="59">The mountain when to cross.</l>
+            <l n="60">For oft there sits, between the heap</l>
+            <pb/>
+            <milestone unit="page" n="121"/>
+            <lb/>
+            <lb/>
+            <l n="61">That’s like an infant’s grave in size,</l>
+            <l n="62">And that same pond of which I spoke,</l>
+            <l n="63">A woman in a scarlet cloak,</l>
+            <l n="64">And to herself she cries,</l>
+            <l n="65">“Oh misery! oh misery!</l>
+            <l n="66">“Oh woe is me! oh misery!”</l>
+         </lg>
+         <lg n="7" type="stanza">
+            <head>VII.</head>
+            <l n="67">At all times of the day and night</l>
+            <l n="68">This wretched woman thither goes,</l>
+            <l n="69">And she is known to every star,</l>
+            <l n="70">And every wind that blows;</l>
+            <l n="71">And there beside the thorn she sits</l>
+            <l n="72">When the blue day-light’s in the skies,</l>
+            <l n="73">And when the whirlwind’s on the hill,</l>
+            <l n="74">Or frosty air is keen and still,</l>
+            <l n="75">And to herself she cries,</l>
+            <l n="76">“Oh misery! oh misery!</l>
+            <l n="77">“Oh woe is me! oh misery!”</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="122"/>
+         <lb/>
+         <lb/>
+         <lg n="8" type="stanza">
+            <head>VIII.</head>
+            <l n="78">“Now wherefore thus, by day and night,</l>
+            <l n="79">“In rain, in tempest, and in snow,</l>
+            <l n="80">“Thus to the dreary mountain-top</l>
+            <l n="81">“Does this poor woman go?</l>
+            <l n="82">“And why sits she beside the thorn</l>
+            <l n="83">“When the blue day-light’s in the sky,</l>
+            <l n="84">“Or when the whirlwind’s on the hill,</l>
+            <l n="85">“Or frosty air is keen and still,</l>
+            <l n="86">“And wherefore does she cry?—</l>
+            <l n="87">“Oh wherefore? wherefore? tell me why</l>
+            <l n="88">“Does she repeat that doleful cry?”</l>
+         </lg>
+         <lg n="9" type="stanza">
+            <head>IX.</head>
+            <l n="89">I cannot tell; I wish I could;</l>
+            <l n="90">For the true reason no one knows,</l>
+            <l n="91">But if you’d gladly view the spot,</l>
+            <l n="92">The spot to which she goes;</l>
+            <l n="93">The heap that’s like an infant’s grave,</l>
+            <pb/>
+            <milestone unit="page" n="123"/>
+            <lb/>
+            <lb/>
+            <l n="94">The pond—and thorn, so old and grey,</l>
+            <l n="95">Pass by her door—tis seldom shut—</l>
+            <l n="96">And if you see her in her hut,</l>
+            <l n="97">Then to the spot away!—</l>
+            <l n="98">I never heard of such as dare</l>
+            <l n="99">Approach the spot when she is there.</l>
+         </lg>
+         <lg n="10" type="stanza">
+            <head>X.</head>
+            <l n="100">“But wherefore to the mountain-top</l>
+            <l n="101">“Can this unhappy woman go,</l>
+            <l n="102">“Whatever star is in the skies,</l>
+            <l n="103">“Whatever wind may blow?”</l>
+            <l n="104">Nay rack your brain—’tis all in vain,</l>
+            <l n="105">I’ll tell you every thing I know;</l>
+            <l n="106">But to the thorn, and to the pond</l>
+            <l n="107">Which is a little step beyond,</l>
+            <l n="108">I wish that you would go:</l>
+            <l n="109">Perhaps when you are at the place</l>
+            <l n="110">You something of her tale may trace.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="124"/>
+         <lb/>
+         <lb/>
+         <lg n="11">
+            <head>XI.</head>
+            <l n="111">I’ll give you the best help I can:</l>
+            <l n="112">Before you up the mountain go,</l>
+            <l n="113">Up to the dreary mountain-top,</l>
+            <l n="114">I’ll tell you all I know.</l>
+            <l n="115">’Tis now some two and twenty years,</l>
+            <l n="116">Since she (her name is Martha Ray)</l>
+            <l n="117">Gave with a maiden’s true good will</l>
+            <l n="118">Her company to Stephen Hill;</l>
+            <l n="119">And she was blithe and gay,</l>
+            <l n="120">And she was happy, happy still</l>
+            <l n="121">Whene’er she thought of Stephen Hill.</l>
+         </lg>
+         <lg n="12" type="stanza">
+            <head>XII.</head>
+            <l n="122">And they had fix’d the wedding-day,</l>
+            <l n="123">The morning that must wed them both;</l>
+            <l n="124">But Stephen to another maid</l>
+            <l n="125">Had sworn another oath;</l>
+            <l n="126">And with this other maid to church</l>
+            <pb/>
+            <milestone unit="page" n="125"/>
+            <lb/>
+            <lb/>
+            <l n="127">Unthinking Stephen went—</l>
+            <l n="128">Poor Martha! on that woful day</l>
+            <l n="129">A cruel, cruel fire, they say,</l>
+            <l n="130">Into her bones was sent:</l>
+            <l n="131">It dried her body like a cinder,</l>
+            <l n="132">And almost turn’d her brain to tinder.</l>
+         </lg>
+         <lg n="13" type="stanza">
+            <head>XIII.</head>
+            <l n="133">They say, full six months after this,</l>
+            <l n="134">While yet the summer-leaves were green,</l>
+            <l n="135">She to the mountain-top would go,</l>
+            <l n="136">And there was often seen.</l>
+            <l n="137">’Tis said, a child was in her womb,</l>
+            <l n="138">As now to any eye was plain;</l>
+            <l n="139">She was with child, and she was mad,</l>
+            <l n="140">Yet often she was sober sad</l>
+            <l n="141">From her exceeding pain.</l>
+            <l n="142">Oh me! ten thousand times I’d rather</l>
+            <l n="143">That he had died, that cruel father!</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="126"/>
+         <lb/>
+         <lb/>
+         <lg n="14" type="stanza">
+            <head>XIV.</head>
+            <l n="144">Sad case for such a brain to hold</l>
+            <l n="145">Communion with a stirring child!</l>
+            <l n="146">Sad case, as you may think, for one</l>
+            <l n="147">Who had a brain so wild!</l>
+            <l n="148">Last Christmas when we talked of this,</l>
+            <l n="149">Old Farmer Simpson did maintain,</l>
+            <l n="150">That in her womb the infant wrought</l>
+            <l n="151">About its mother’s heart, and brought</l>
+            <l n="152">Her senses back again:</l>
+            <l n="153">And when at last her time drew near,</l>
+            <l n="154">Her looks were calm, her senses clear.</l>
+         </lg>
+         <lg n="15" type="stanza">
+            <head>XV.</head>
+            <l n="155">No more I know, I wish I did,</l>
+            <l n="156">And I would tell it all to you;</l>
+            <l n="157">For what became of this poor child</l>
+            <l n="158">There’s none that ever knew:</l>
+            <l n="159">And if a child was born or no,</l>
+            <pb/>
+            <milestone unit="page" n="127"/>
+            <lb/>
+            <lb/>
+            <l n="160">There’s no one that could ever tell;</l>
+            <l n="161">And if ’twas born alive or dead,</l>
+            <l n="162">There’s no one knows, as I have said,</l>
+            <l n="163">But some remember well,</l>
+            <l n="164">That Martha Ray about this time</l>
+            <l n="165">Would up the mountain often climb.</l>
+         </lg>
+         <lg n="16" type="stanza">
+            <head>XVI.</head>
+            <l n="166">And all that winter, when at night</l>
+            <l n="167">The wind blew from the mountain-peak,</l>
+            <l n="168">’Twas worth your while, though in the dark,</l>
+            <l n="169">The church-yard path to seek:</l>
+            <l n="170">For many a time and oft were heard</l>
+            <l n="171">Cries coming from the mountain-head,</l>
+            <l n="172">Some plainly living voices were,</l>
+            <l n="173">And others, I’ve heard many swear,</l>
+            <l n="174">Were voices of the dead:</l>
+            <l n="175">I cannot think, whate’er they say,</l>
+            <l n="176">They had to do with Martha Ray.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="128"/>
+         <lb/>
+         <lb/>
+         <lg n="17">
+            <head>XVII.</head>
+            <l n="177">But that she goes to this old thorn,</l>
+            <l n="178">The thorn which I’ve described to you,</l>
+            <l n="179">And there sits in a scarlet cloak,</l>
+            <l n="180">I will be sworn is true.</l>
+            <l n="181">For one day with my telescope,</l>
+            <l n="182">To view the ocean wide and bright,</l>
+            <l n="183">When to this country first I came,</l>
+            <l n="184">Ere I had heard of Martha’s name,</l>
+            <l n="185">I climbed the mountain’s height:</l>
+            <l n="186">A storm came on, and I could see</l>
+            <l n="187">No object higher than my knee.</l>
+         </lg>
+         <lg n="18" type="stanza">
+            <head>XVIII.</head>
+            <l n="188">’Twas mist and rain, and storm and rain,</l>
+            <l n="189">No screen, no fence could I discover,</l>
+            <l n="190">And then the wind! in faith, it was</l>
+            <l n="191">A wind full ten times over.</l>
+            <l n="192">I looked around, I thought I saw</l>
+            <pb/>
+            <milestone unit="page" n="129"/>
+            <lb/>
+            <lb/>
+            <l n="193">A jutting crag, and off I ran,</l>
+            <l n="194">Head-foremost, through the driving rain,</l>
+            <l n="195">The shelter of the crag to gain,</l>
+            <l n="196">And, as I am a man,</l>
+            <l n="197">Instead of jutting crag, I found</l>
+            <l n="198">A woman seated on the ground.</l>
+         </lg>
+         <lg n="19" type="stanza">
+            <head>XIX.</head>
+            <l n="199">I did not speak—I saw her face,</l>
+            <l n="200">Her face it was enough for me;</l>
+            <l n="201">I turned about and heard her cry,</l>
+            <l n="202">“O misery! O misery!”</l>
+            <l n="203">And there she sits, until the moon</l>
+            <l n="204">Through half the clear blue sky will go,</l>
+            <l n="205">And when the little breezes make</l>
+            <l n="206">The waters of the pond to shake,</l>
+            <l n="207">As all the country know,</l>
+            <l n="208">She <orig rend="longs">s</orig>hudders and you hear her
+                                   cry,</l>
+            <l n="209">“Oh misery! oh misery!</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="130"/>
+         <lb/>
+         <lb/>
+         <lg n="20" type="stanza">
+            <head>XX.</head>
+            <l n="210">“But what’s the thorn? and what’s the
+                                   pond?</l>
+            <l n="211">“And what’s the hill of moss to her?</l>
+            <l n="212">“And what’s the creeping breeze that comes</l>
+            <l n="213">“The little pond to stir?”</l>
+            <l n="214">I cannot tell; but some will say</l>
+            <l n="215">She hanged her baby on the tree,</l>
+            <l n="216">Some say she drowned it in the pond,</l>
+            <l n="217">Which is a little step beyond,</l>
+            <l n="218">But all and each agree,</l>
+            <l n="219">The little babe was buried there,</l>
+            <l n="220">Beneath that hill of moss so fair.</l>
+         </lg>
+         <lg n="21" type="stanza">
+            <head>XXI.</head>
+            <l n="221">I’ve heard the scarlet moss is red</l>
+            <l n="222">With drops of that poor infant’s blood;</l>
+            <l n="223">But kill a new-born infant thus!</l>
+            <l n="224">I do not think she could.</l>
+            <l n="225">Some say, if to the pond you go,</l>
+            <pb/>
+            <milestone unit="page" n="131"/>
+            <lb/>
+            <lb/>
+            <l n="226">And fix on it a steady view,</l>
+            <l n="227">The shadow of a babe you trace,</l>
+            <l n="228">A baby and a baby’s face,</l>
+            <l n="229">And that it looks at you;</l>
+            <l n="230">Whene’er you look on it, ’tis plain</l>
+            <l n="231">The baby looks at you again.</l>
+         </lg>
+         <lg n="22" type="stanza">
+            <head>XXII.</head>
+            <l n="232">And some had sworn an oath that she</l>
+            <l n="233">Should be to public justice brought;</l>
+            <l n="234">And for the little infant’s bones</l>
+            <l n="235">With spades they would have sought.</l>
+            <l n="236">But then the beauteous hill of moss</l>
+            <l n="237">Before their eyes began to stir;</l>
+            <l n="238">And for full fifty yards around,</l>
+            <l n="239">The grass it shook upon the ground;</l>
+            <l n="240">But all do still aver</l>
+            <l n="241">The little babe is buried there,</l>
+            <l n="242">Beneath that hill of moss so fair.</l>
+         </lg>
+         <pb/>
+         <milestone unit="page" n="132"/>
+         <lb/>
+         <lb/>
+         <lg n="23" type="stanza">
+            <head>XXIII.</head>
+            <l n="243">I cannot tell how this may be,</l>
+            <l n="244">But plain it is, the thorn is bound</l>
+            <l n="245">With heavy tufts of moss, that strive</l>
+            <l n="246">To drag it to the ground.</l>
+            <l n="247">And this I know, full many a time,</l>
+            <l n="248">When she was on the mountain high,</l>
+            <l n="249">By day, and in the silent night,</l>
+            <l n="250">When all the stars shone clear and bright,</l>
+            <l n="251">That I have heard her cry,</l>
+            <l n="252">“Oh misery! oh misery!</l>
+            <l n="253">“Oh woe is me! oh misery!”</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

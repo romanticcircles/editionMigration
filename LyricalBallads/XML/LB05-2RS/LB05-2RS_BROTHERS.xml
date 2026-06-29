@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: The Brothers</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_BROTHERS</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="BROTHERS">
+                  <title>[BROTHERS]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">19</biblScope>
+                  <biblScope unit="pages">27</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Lyrical Ballads, 1805: [The Brothers title page]</title>
+               <editor>
+                  <name xml:id="BG">Bruce Graver</name>
+               </editor>
+               <editor>
+                  <name xml:id="RT">Ronald Tetreault</name>
+               </editor>
+               <respStmt>
+                  <resp>Technical Editor; Producer</resp>
+                  <name xml:id="LM">Laura Mandell</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Romantic Circles</publisher>
+               <idno type="local">LB05-2RS_BROTHERSf</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <biblStruct>
+                  <monogr xml:id="LB05-2RS">
+                     <ptr target="../XML/LB05-2RS.xml"/>
+                     <imprint>
+                        <publisher>T. N. Longman and O. Rees</publisher>
+                        <pubPlace/>
+                        <date>1805</date>
+                     </imprint>
+                     <biblScope unit="page"/>
+                     <biblScope unit="pages">2</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="20250731" who="#LM">
+                  Splurged out main xml into separate xml files for poems and paratexts.
+               </change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb/>
+            <titlePage>
+               <docTitle>
+                  <lb/>
+                  <lb/>
+                  <titlePart>
+                     <hi rend="small">
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>THE </hi>
+                     <lb/>
+                     <lb/>B R O T H E R
+                  S:<lb/>
+                     <lb/>
+                     <hi rend="small">A PASTORAL POEM. </hi>
+                  </titlePart>
+               </docTitle>
+            </titlePage>
+            <pb/>
+         </front>
+         <body>
+            <p> </p>
+         </body>
+      </text>
+      <body>
+         <pb/>
+         <milestone n="19" unit="page"/>
+         <lb/>
+         <lb/>
+         <head>
+            <emph>The BROTHERS</emph>*.<ref type="endnote" target="LB05-2RS_NOTESbro.html">[nB]</ref>
+         </head>
+         <lb/>
+         <lg n="1" part="I" type="verseparagraph">
+            <l n="1">“ These Tourists, Heaven preserve us ! needs must live</l>
+            <l n="2">A profitable life: some glance along,</l>
+            <l n="3">Rapid and gay, as if the earth were air,</l>
+            <l n="4">And they were butterflies to wheel about</l>
+            <l n="5">Long as their summer lasted : some, as wise,</l>
+            <l n="6">Upon the forehead of a jutting crag</l>
+            <l n="7">Sit perched, with book and pencil on their knee,</l>
+            <l n="8">And look and scribble, scribble on and look,</l>
+            <l n="9">Until a man might travel twelve stout miles,</l>
+            <l n="10">Or reap an acre of his neighbour’s corn.</l>
+         </lg>
+         <note n="*" resp="author" place="foot">* This Poem was intended to be the concluding poem
+            of a <lb/>series of pastorals, the scene of which was laid among the <lb/>mountains of
+            Cumberland and Westmoreland. I mention <lb/>this to apologize for the abruptness with
+            which the poem <lb/>begins.</note>
+         <pb/>
+         <milestone n="20" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="M" type="verseparagraph">
+            <l n="11">But, for that moping Son of Idleness,</l>
+            <l n="12">Why can he tarry <emph>yonder ?</emph>—In our church-yard</l>
+            <l n="13">Is neither epitaph nor monument,</l>
+            <l n="14">Tomb-stone nor name—only the turf we tread,</l>
+            <l n="15">And a few natural graves.” To Jane, his wife,</l>
+            <l n="16">Thus spake the homely Priest of Ennerdale.</l>
+            <l n="17">It was a July evening; and he sate</l>
+            <l n="18">Upon the long stone-seat beneath the eaves</l>
+            <l n="19">Of his old cottage, as it chanced, that day,</l>
+            <l n="20">Employed in winter’s work. Upon the stone</l>
+            <l n="21">His Wife sate near him, teasing matted wool,</l>
+            <l n="22">While, from the twin cards toothed with glittering wire,</l>
+            <l n="23">He fed the spindle of his youngest Child,</l>
+            <l n="24">Who turned her large round wheel in the open air</l>
+            <l n="25">With back and forward steps. Towards the field</l>
+            <l n="26">In which the Parish Chapel stood alone,</l>
+            <l n="27">Girt round with a bare ring of mossy wall,</l>
+            <l n="28">While half an hour went by, the Priest had sent</l>
+            <l n="29">Many a long look of wonder, and at last,</l>
+            <l n="30">Risen from his seat, beside the snow-white ridge</l>
+         </lg>
+         <pb/>
+         <milestone n="21" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="F" type="verseparagraph">
+            <l n="31">Of carded wool which the old man had piled</l>
+            <l n="32">He laid his implements with gentle care,</l>
+            <l n="33">Each in the other locked; and, down the path</l>
+            <l n="34">Which from his cottage to the church-yard led,</l>
+            <l n="35">He took his way, impatient to accost</l>
+            <l n="36">The Stranger, whom he saw still lingering there.</l>
+         </lg>
+         <lg n="2" part="I" type="verseparagraph">
+            <l n="37">’Twas one well known to him in former days,</l>
+            <l n="38">A Shepherd-lad: who ere his thirteenth year</l>
+            <l n="39">Had changed his calling, with the mariners</l>
+            <l n="40">A fellow-mariner, and so had fared</l>
+            <l n="41">Through twenty seasons; but he had been reared</l>
+            <l n="42">Among the mountains, and he in his heart</l>
+            <l n="43">Was half a Shepherd on the stormy seas.</l>
+            <l n="44">Oft in the piping shrouds had Leonard heard</l>
+            <l n="45">The tones of waterfalls, and inland sounds</l>
+            <l n="46">Of caves and trees :—and, when the regular wind</l>
+            <l n="47">Between the tropics filled the steady sail,</l>
+            <l n="48">And blew with the same breath through days and weeks,</l>
+         </lg>
+         <pb/>
+         <milestone n="22" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="2" part="F" type="verseparagraph">
+            <l n="49">Lengthening invisibly its weary line</l>
+            <l n="50">Along the cloudless Main, he, in those hours</l>
+            <l n="51">Of tiresome indolence, would often hang</l>
+            <l n="52">Over the vessel’s side, and gaze and gaze,</l>
+            <l n="53">And, while the broad green wave and sparkling foam</l>
+            <l n="54">Flashed round him images and hues, that wrought</l>
+            <l n="55">In union with the employment of his heart,</l>
+            <l n="56">He, thus by feverish passion overcome,</l>
+            <l n="57">Even with the organs of his bodily eye,</l>
+            <l n="58">Below him, in the bosom of the deep,</l>
+            <l n="59">Saw mountains, saw the forms of sheep that grazed</l>
+            <l n="60">On verdant hills, with dwellings among trees,</l>
+            <l n="61">And shepherds clad in the same country gray</l>
+            <l n="62" part="I">Which he himself had worn*.</l>
+         </lg>
+         <lg n="3" part="I" type="verseparagraph">
+            <l part="F" rend="right"> And now at length</l>
+            <l n="63">From perils manifold, with some small wealth</l>
+         </lg>
+         <note n="*" place="foot" resp="author">* This description of the Calenture is sketched
+            from an im-<lb/>perfect recollection of an admirable one in prose, by Mr. <lb/>Gilbert,
+            author of The Hurricane.</note>
+         <pb/>
+         <milestone n="23" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" part="M" type="verseparagraph">
+            <l n="64">Acquired by traffic in the Indian Isles,</l>
+            <l n="65">To his paternal home he is returned,</l>
+            <l n="66">With a determined purpose to resume</l>
+            <l n="67">The life which he lived there ; both for the sake</l>
+            <l n="68">Of many darling pleasures, and the love</l>
+            <l n="69">Which to an only brother he has borne</l>
+            <l n="70">In all his hardships, since that happy time</l>
+            <l n="71">When, whether it blew foul or fair, they two</l>
+            <l n="72">Were brother Shepherds on their native hills.</l>
+            <l n="73">—They were the last of all their race : and now</l>
+            <l n="74">When Leonard had approached his home, his heart</l>
+            <l n="75">Failed in him; and, not venturing to inquire</l>
+            <l n="76">Tidings of one whom he so dearly loved,</l>
+            <l n="77">Towards the church-yard he had turned aside,</l>
+            <l n="78">That, as he knew in what particular spot</l>
+            <l n="79">His family were laid, he thence might learn</l>
+            <l n="80">If still his Brother lived, or to the file</l>
+            <l n="81">Another grave was added.—He had found</l>
+            <l n="82">Another grave, near which a full half-hour</l>
+            <l n="83">He had remained ; but, as he gazed, there grew</l>
+            <l n="84">Such a confusion in his memory,</l>
+         </lg>
+         <pb/>
+         <milestone n="24" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="3" part="F" type="verseparagraph">
+            <l n="85">That he began to doubt, and he had hopes</l>
+            <l n="86">That he had seen this heap of turf before,</l>
+            <l n="87">That it was not another grave, but one</l>
+            <l n="88">He had forgotten. He had lost his path,</l>
+            <l n="89">As up the vale he came that afternoon,</l>
+            <l n="90">Through fields which once had been well known to him.</l>
+            <l n="91">And oh! what joy the recollection now</l>
+            <l n="92">Sent to his heart! He lifted up his eyes,</l>
+            <l n="93">And looking round he thought that he perceived</l>
+            <l n="94">Strange alteration wrought on every side</l>
+            <l n="95">Among the woods and fields, and that the rocks,</l>
+            <l n="96">And the eternal hills, themselves were changed.</l>
+         </lg>
+         <lg n="4" type="verseparagraph" part="I">
+            <l n="97">By this the Priest, who down the field had come</l>
+            <l n="98">Unseen by Leonard, at the church-yard gate</l>
+            <l n="99">Stopped short, and thence, at leisure, limb by limb</l>
+            <l n="100">He scanned him with a gay complacency.</l>
+            <l n="101">Aye, thought the Vicar, smiling to himself,</l>
+            <l n="102">’Tis one of those who needs must leave the path</l>
+            <l n="103">Of the world’s business to go wild alone:</l>
+         </lg>
+         <pb/>
+         <milestone n="25" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="4" part="F" type="verseparagraph">
+            <l n="104">His arms have a perpetual holiday;</l>
+            <l n="105">The happy Man will creep about the fields</l>
+            <l n="106">Following his fancies by the hour, to bring</l>
+            <l n="107">Tears down his cheeks, or solitary smiles</l>
+            <l n="108">Into his face, until the setting sun</l>
+            <l n="109">Write Fool upon his forehead. Planted thus</l>
+            <l n="110">Beneath a shed that overarched the gate</l>
+            <l n="111">Of this rude church-yard, till the stars appeared</l>
+            <l n="112">The good man might have communed with himself, </l>
+            <l n="113">But that the stranger, who had left the grave,</l>
+            <l n="114">Approached; he recognized the Priest at once,</l>
+            <l n="115">And, after greetings interchanged, and given</l>
+            <l n="116">By Leonard to the Vicar as to one</l>
+            <l n="117">Unknown to him, this dialogue ensued.</l>
+         </lg>
+         <sp>
+            <speaker>L<hi>EONARD</hi>.</speaker>
+            <lg n="5" type="verseparagraph" part="I">
+               <l n="118">You live, Sir, in these dales, a quiet life:</l>
+               <l n="119">Your years make up one peaceful family;</l>
+               <l n="120">And who would grieve and fret, if, welcome come</l>
+               <l n="121">And welcome gone, they are so like each other,</l>
+               <l n="122">They cannot be remembered? Scarce a funeral</l>
+            </lg>
+            <pb/>
+            <milestone n="26" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="5" part="F" type="verseparagraph">
+               <l n="123">Comes to this church-yard once in eighteen months;</l>
+               <l n="124">And yet, some changes must take place among you:</l>
+               <l n="125">And you, who dwell here, even among these rocks</l>
+               <l n="126">Can trace the finger of mortality,</l>
+               <l n="127">And see, that with our threescore years and ten</l>
+               <l n="128">We are not all that perish.——I remember,</l>
+               <l n="129">For many years ago I passed this road,</l>
+               <l n="130">There was a foot-way all along the fields</l>
+               <l n="131">By the brook-side—’tis gone—and that dark cleft!</l>
+               <l n="132">To me it does not seem to wear the face</l>
+               <l n="133" part="I">Which then it had.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>RIEST.</hi>
+            </speaker>
+            <lg n="6" type="verseparagraph">
+               <l part="F" rend="right"> Why, Sir, for aught I know,</l>
+               <l n="134" part="I">That chasm is much the same—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>EONARD.</hi>
+            </speaker>
+            <lg n="7" type="verseparagraph">
+               <l part="F" rend="right"> But, surely, yonder—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>RIEST.</hi>
+            </speaker>
+            <lg n="8" type="verseparagraph" part="I">
+               <l n="135">Aye, there, indeed, your memory is a friend</l>
+               <l n="136">That does not play you false—On that tall pike</l>
+               <l n="137">(It is the loneliest place of all these hills)</l>
+            </lg>
+            <pb/>
+            <milestone n="27" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="8" part="M" type="verseparagraph">
+               <l n="138">There were two Springs which bubbled side by side,</l>
+               <l n="139">As if they had been made that they might be</l>
+               <l n="140">Companions for each other: ten years back,</l>
+               <l n="141">Close to those brother fountains, the huge crag</l>
+               <l n="142">Was rent with lightning—one is dead and gone,</l>
+               <l n="143">The other, left behind, is flowing still.——</l>
+               <l n="144">For accidents and changes such as these,</l>
+               <l n="145">Why, we have store of them! a water-spout</l>
+               <l n="146">Will bring down half a mountain; what a feast</l>
+               <l n="147">For folks that wander up and down like you</l>
+               <l n="148">To see an acre’s breadth of that wide cliff</l>
+               <l n="149">One roaring cataract! —a sharp May storm</l>
+               <l n="150">Will come with loads of January snow,</l>
+               <l n="151">And in one night send twenty score of sheep</l>
+               <l n="152">To feed the ravens; or a Shepherd dies</l>
+               <l n="153">By some untoward death among the rocks:</l>
+               <l n="154">The ice breaks up and sweeps away a bridge—</l>
+               <l n="155">A wood is felled:—and then for our own homes!</l>
+               <l n="156">A Child is born or christened, a Field ploughed,</l>
+               <l n="157">A Daughter sent to service, a Web spun,</l>
+            </lg>
+            <pb/>
+            <milestone n="28" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="8" part="F" type="verseparagraph">
+               <l n="158">The old House-clock is decked with a new face;</l>
+               <l n="159">And hence, so far from wanting facts or dates</l>
+               <l n="160">To chronicle the time, we all have here</l>
+               <l n="161">A pair of diaries, one serving, Sir,</l>
+               <l n="162">For the whole dale, and one for each fire-side—</l>
+               <l n="163">Yours was a stranger’s judgment: for Historians,</l>
+               <l n="164" part="I">Commend me to these valleys.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>EONARD.</hi>
+            </speaker>
+            <lg n="9" type="verseparagraph">
+               <l part="F" rend="right"> Yet your Church-yard</l>
+               <l n="165">Seems, if such freedom may be used with you,</l>
+               <l n="166">To say that you are heedless of the past.</l>
+               <l n="167">An orphan could not find his mother’s grave:</l>
+               <l n="168">Here’s neither head- nor foot-stone, plate of brass,</l>
+               <l n="169">Cross-bones or skull, type of our earthly state</l>
+               <l n="170">Or emblem of our hopes: the dead man’s home</l>
+               <l n="171">Is but a fellow to that pasture-field.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>RIEST.</hi>
+            </speaker>
+            <lg n="10" part="I" type="verseparagraph">
+               <l n="172">Why, there, Sir, is a thought that’s new to me.</l>
+               <l n="173">The Stone-cutters, ’tis true, might beg their bread</l>
+               <l n="174">If every English Church-yard were like ours:</l>
+            </lg>
+            <pb/>
+            <milestone n="29" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="10" part="F" type="verseparagraph">
+               <l n="175">Yet your conclusion wanders from the truth.</l>
+               <l n="176">We have no need of names and epitaphs;</l>
+               <l n="177"> We talk about the dead by our fire-sides,</l>
+               <l n="178">And then, for our immortal part! <emph>we</emph> want</l>
+               <l n="179">No symbols, Sir, to tell us that plain tale:</l>
+               <l n="180">The thought of death sits easy on the man</l>
+               <l n="181">Who has been born and dies among the mountains.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>EONARD.</hi>
+            </speaker>
+            <lg n="11" type="verseparagraph">
+               <l n="182">Your Dalesmen, then, do in each other’s thoughts</l>
+               <l n="183">Possess a kind of second life: no doubt</l>
+               <l n="184">You, Sir, could help me to the history</l>
+               <l n="185" part="I">Of half these Graves?</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>RIEST.</hi>
+            </speaker>
+            <lg n="12" part="I" type="verseparagraph">
+               <l part="F" rend="right"> For eight-score winters past,</l>
+               <l n="186">With what I’ve witnessed, and with what I’ve heard,</l>
+               <l n="187">Perhaps I might; and, on a winter’s evening,</l>
+               <l n="188">If you were seated at my chimney’s nook,</l>
+               <l n="189">By turning o’er these hillocks one by one</l>
+               <l n="190">We two could travel, Sir, through a strange round,</l>
+            </lg>
+            <pb/>
+            <milestone n="30" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="12" part="F" type="verseparagraph">
+               <l n="191">Yet all in the broad high-way of the world.</l>
+               <l n="192">Now there’s a grave—your foot is half upon it,</l>
+               <l n="193">It looks just like the rest ; and yet that Man</l>
+               <l n="194" part="I">Died broken-hearted.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard</hi>.</speaker>
+            <lg n="13" type="verseparagraph">
+               <l part="F" rend="right"> ’Tis a common case.</l>
+               <l n="195">We’ll take another: who is he that lies</l>
+               <l n="196">Beneath yon ridge, the last of those three graves?</l>
+               <l n="197">It touches on that piece of native rock</l>
+               <l n="198" part="I">Left in the church-yard wall.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="14" part="I" type="verseparagraph">
+               <l part="F" rend="right"> That’s Walter Ewbank.</l>
+               <l n="199">He had as white a head and fresh a cheek</l>
+               <l n="200">As ever were produced by youth and age</l>
+               <l n="201">Engendering in the blood of hale fourscore.</l>
+               <l n="202">For five long generations had the heart</l>
+               <l n="203">Of Walter’s forefathers o’erflowed the bounds</l>
+               <l n="204">Of their inheritance, that single cottage,—</l>
+               <l n="205">You see it yonder!—and those few green fields.</l>
+               <l n="206">They toiled and wrought, and still, from Sire to Son,</l>
+            </lg>
+            <pb/>
+            <milestone n="31" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="14" part="F" type="verseparagraph">
+               <l n="207">Each struggled, and each yielded as before</l>
+               <l n="208">A little—yet a little—and old Walter,</l>
+               <l n="209">They left to him the family heart, and land</l>
+               <l n="210">With other burthens than the crop it bore.</l>
+               <l n="211">Year after year the old man still kept up</l>
+               <l n="212">A cheerful mind, and buffeted with bond,</l>
+               <l n="213">Interest and mortgages; at last he sank,</l>
+               <l n="214">And went into his grave before his time.</l>
+               <l n="215">Poor Walter! whether it was care that spurred him</l>
+               <l n="216">God only knows, but to the very last</l>
+               <l n="217">He had the lightest foot in Ennerdale:</l>
+               <l n="218">His pace was never that of an old man:</l>
+               <l n="219">I almost see him tripping down the path</l>
+               <l n="220">With his two Grandsons after him—but You,</l>
+               <l n="221">Unless our Landlord be your host to-night,</l>
+               <l n="222">Have far to travel, and in these rough paths</l>
+               <l n="223">Even in the longest day of midsummer—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="15" type="verseparagraph">
+               <l part="I" n="224">But these two Orphans!</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="16" type="verseparagraph" part="I">
+               <l part="F" n="224" rend="right"> Orphans! such they were—</l>
+            </lg>
+            <pb/>
+            <milestone n="32" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="16" part="F" type="verseparagraph">
+               <l n="225">Yet not while Walter lived—for, though their parents</l>
+               <l n="226">Lay buried side by side as now they lie,</l>
+               <l n="227">The old Man was a father to the boys,</l>
+               <l n="228">Two fathers in one father: and if tears,</l>
+               <l n="229">Shed when he talked of them where they were not,</l>
+               <l n="230">And hauntings from the infirmity of love,</l>
+               <l n="231">Are aught of what makes up a mother’s heart,</l>
+               <l n="232">This old Man in the day of his old age</l>
+               <l n="233">Was half a mother to them.—If you weep, Sir,</l>
+               <l n="234">To hear a Stranger talking about Strangers,</l>
+               <l n="235">Heaven bless you when you are among your kindred!</l>
+               <l n="236">Aye. You may turn that way—it is a grave</l>
+               <l n="237" part="I">Which will bear looking at.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="17" type="verseparagraph">
+               <l part="F" n="237" rend="right"> These Boys—I hope</l>
+               <l part="I" n="238">They loved this good old Man ?—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="18" part="I" type="verseparagraph">
+               <l part="F" rend="right"> They did—and truly:</l>
+               <l n="239">But that was what we almost overlooked,</l>
+            </lg>
+            <pb/>
+            <milestone n="33" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="18" part="M" type="verseparagraph">
+               <l n="240">They were such darlings of each other. For</l>
+               <l n="241">Though from their cradles they had lived with Walter,</l>
+               <l n="242">The only Kinsman near them in the house,</l>
+               <l n="243">Yet he being old, they had much love to spare,</l>
+               <l n="244">And it all went into each other’s hearts.</l>
+               <l n="245">Leonard, the elder by just eighteen months,</l>
+               <l n="246">Was two years taller: ’twas a joy to see,</l>
+               <l n="247">To hear, to meet them! from their house the School</l>
+               <l n="248">Was distant three short miles—and in the time</l>
+               <l n="249">Of storm and thaw, when every water-course</l>
+               <l n="250">And unbridged stream, such as you may have noticed</l>
+               <l n="251">Crossing our roads at every hundred steps,</l>
+               <l n="252">Was swoln into a noisy rivulet,</l>
+               <l n="253">Would Leonard then, when elder boys perhaps</l>
+               <l n="254">Remained at home, go staggering through the fords</l>
+               <l n="255">Bearing his Brother on his back. I’ve seen him,</l>
+               <l n="256">On windy days, in one of those stray brooks,</l>
+               <l n="257">Aye, more than once I’ve seen him mid-leg deep,</l>
+            </lg>
+            <pb/>
+            <milestone n="34" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="18" part="F" type="verseparagraph">
+               <l n="258">Their two books lying both on a dry stone</l>
+               <l n="259">Upon the hither side: and once I said,</l>
+               <l n="260">As I remember, looking round these rocks</l>
+               <l n="261">And hills on which we all of us were born,</l>
+               <l n="262">That God who made the great book of the world</l>
+               <l n="263" part="I">Would bless such piety—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="19" type="verseparagraph">
+               <l part="F" rend="right"> It may be then—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="20" type="verseparagraph" part="I">
+               <l n="264">Never did worthier lads break English bread!</l>
+               <l n="265">The finest Sunday that the Autumn saw,</l>
+               <l n="266">With all its mealy clusters of ripe nuts,</l>
+               <l n="267">Could never keep these boys away from church,</l>
+               <l n="268">Or tempt them to an hour of sabbath breach.</l>
+               <l n="269">Leonard and James! I warrant, every corner</l>
+               <l n="270">Among these rocks, and every hollow place</l>
+               <l n="271">Where foot could come, to one or both of them</l>
+               <l n="272">Was known as well as to the flowers that grow there.</l>
+               <l n="273">Like Roe-bucks they went bounding o’er the hills:</l>
+            </lg>
+            <pb/>
+            <milestone n="35" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="20" part="F" type="verseparagraph">
+               <l n="274">They played like two young Ravens on the crags:</l>
+               <l n="275">Then they could write, aye and speak too, as well</l>
+               <l n="276">As many of their betters—and for Leonard!</l>
+               <l n="277">The very night before he went away,</l>
+               <l n="278">In my own house I put into his hand</l>
+               <l n="279">A Bible, and I’d wager twenty pounds,</l>
+               <l n="280">That, if he is alive, he has it yet.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="21" type="verseparagraph">
+               <l n="281">It seems, these Brothers have not lived to be</l>
+               <l n="282" part="I">A comfort to each other.—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="22" type="verseparagraph">
+               <l part="F" rend="right"> That they might</l>
+               <l n="283">Live to that end, is what both old and young</l>
+               <l n="284">In this our valley all of us have wished,</l>
+               <l n="285">And what, for my part, I have often prayed:</l>
+               <l n="286" part="I">But Leonard—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="23" type="verseparagraph">
+               <l part="F" rend="indent"> Then James still is left among you?</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="18" type="verseparagraph">
+               <l n="287">’Tis of the elder Brother I am speaking:</l>
+            </lg>
+            <pb/>
+            <milestone n="36" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg part="M" type="verseparagraph" n="18">
+               <l n="288">They had an Uncle, he was at that time</l>
+               <l n="289">A thriving man, and trafficked on the seas:</l>
+               <l n="290">And, but for this same Uncle, to this hour</l>
+               <l n="291">Leonard had never handled rope or shroud.</l>
+               <l n="292">For the Boy loved the life which we lead here;</l>
+               <l n="293">And, though a very Stripling, twelve years old,</l>
+               <l n="294">His soul was knit to this his native soil.</l>
+               <l n="295">But, as I said, old Walter was too weak</l>
+               <l n="296">To strive with such a torrent; when he died,</l>
+               <l n="297">The Estate and House were sold, and all their Sheep,</l>
+               <l n="278">A pretty flock, and which, for aught I know,</l>
+               <l n="299">Had clothed the Ewbanks for a thousand years.</l>
+               <l n="300">Well—all was gone, and they were destitute.</l>
+               <l n="301">And Leonard, chiefly for his Brother’s sake,</l>
+               <l n="302">Resolved to try his fortune on the seas.</l>
+               <l n="303">’Tis now twelve years since we had tidings from him.</l>
+               <l n="304">If there was one among us who had heard</l>
+               <l n="305">That Leonard Ewbank was come home again,</l>
+            </lg>
+            <pb/>
+            <milestone n="37" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="18" part="M" type="verseparagraph">
+               <l n="306">From the Great Gavel*, down by Leeza’s Banks, </l>
+               <l n="307">And down the Enna, far as Egremont,</l>
+               <l n="308">The day would be a very festival,</l>
+               <l n="309">And those two bells of ours, which there you see</l>
+               <l n="310">Hanging in the open air—but, O good Sir!</l>
+               <l n="311">This is sad talk—they’ll never sound for him</l>
+               <l n="312">Living or dead.—When last we heard of him</l>
+               <l n="313">He was in slavery among the Moors</l>
+               <l n="314">Upon the Barbary Coast.—’Twas not a little</l>
+               <l n="315">That would bring down his spirit, and, no doubt,</l>
+               <l n="316">Before it ended in his death, the Lad</l>
+               <l n="317">Was sadly crossed--Poor Leonard! when we parted,</l>
+            </lg>
+            <note n="*" place="foot" resp="auth">
+               <p>* The great Gavel, so called, I imagine, from
+                its resem-<lb/>blance to the Gable end of a house, is one of the highest <lb/>of the
+                Cumberland mountains. It stands at the head of the <lb/>several vales of Ennerdale,
+                Wastdale, and Borrowdale.</p>
+               <p>The Leeza is a river which flows into the Lake of
+                Enner-<lb/>dale: on issuing from the Lake, it changes its name, and <lb/>is called
+                the End, Eyne, or Enna. It falls into the sea a <lb/>little below
+              Egremont.</p>
+            </note>
+            <pb/>
+            <milestone n="38" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="18" part="F" type="verseparagraph">
+               <l n="318">He took me by the hand and said to me,</l>
+               <l n="319">If ever the day came when he was rich,</l>
+               <l n="320">He would return, and on his Father’s Land</l>
+               <l n="321" part="I">He would grow old among us.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="19" type="verseparagraph">
+               <l part="F" rend="right"> If that day</l>
+               <l n="322">Should come, ’twould needs be a glad day for him;</l>
+               <l n="323">He would himself, no doubt, be as happy then</l>
+               <l n="324" part="I">As any that should meet him—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="20" type="verseparagraph">
+               <l part="F" rend="right"> Happy! Sir—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="21" type="verseparagraph">
+               <l n="325">You said his kindred all were in their graves,</l>
+               <l n="326" part="I">And that he had one Brother—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="22" part="I" type="verseparagraph">
+               <l part="F" rend="right"> That is but</l>
+               <l n="327">A fellow-tale of sorrow. From his youth</l>
+               <l n="328">James, though not sickly, yet was delicate;</l>
+               <l n="329">And Leonard being always by his side</l>
+            </lg>
+            <pb/>
+            <milestone n="39" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="22" part="F" type="verseparagraph">
+               <l n="330">Had done so many offices about him,</l>
+               <l n="331">That, though he was not of a timid nature,</l>
+               <l n="332">Yet still the spirit of a Mountain Boy</l>
+               <l n="333">In him was somewhat checked; and, when his Brother</l>
+               <l n="334">Was gone to sea and he was left alone,</l>
+               <l n="335">The little colour that he had was soon</l>
+               <l n="336">Stolen from his cheek, he drooped, and pined and pined—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="23" type="verseparagraph">
+               <l n="337">But these are all the graves of full-grown men!</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="24" part="I" type="verseparagraph">
+               <l n="338">Aye, Sir, that passed away : we took him to us.</l>
+               <l n="339">He was the Child of all the dale—he lived</l>
+               <l n="340">Three months with one, and six months with another;</l>
+               <l n="341">And wanted neither food, nor clothes, nor love:</l>
+               <l n="342">And many, many happy days were his.</l>
+               <l n="343">But, whether blithe or sad, ’tis my belief</l>
+               <l n="344">His absent Brother still was at his heart.</l>
+            </lg>
+            <pb/>
+            <milestone n="40" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="24" part="F" type="verseparagraph">
+               <l n="345">And, when he lived beneath our roof, we found</l>
+               <l n="346">(A practice till this time unknown to him)</l>
+               <l n="347">That often, rising from his bed at night,</l>
+               <l n="348">He in his sleep would walk about, and sleeping</l>
+               <l n="349">He sought his Brother Leonard.—You are moved!</l>
+               <l n="350">Forgive me, Sir: before I spoke to you,</l>
+               <l n="351" part="I">I judged you most unkindly.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="25" type="verseparagraph">
+               <l part="F" rend="right"> But this Youth,</l>
+               <l n="352" part="I">How did he die at last? </l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest.</hi>
+            </speaker>
+            <lg n="26" part="I" type="verseparagraph">
+               <l part="F" rend="right"> One sweet May morning,</l>
+               <l n="353">It will be twelve years since, when Spring returns,</l>
+               <l n="354">He had gone forth among the new-dropped lambs,</l>
+               <l n="355">With two or three Companions whom it chanced</l>
+               <l n="356">Some further business summoned to a house</l>
+               <l n="357">Which stands at the Dale-head. James, tired perhaps,</l>
+               <l n="358">Or from some other cause, remained behind.</l>
+               <l n="359">You see yon Precipice—it almost looks</l>
+            </lg>
+            <pb/>
+            <milestone n="41" unit="page"/>
+            <lb/>
+            <lb/>
+            <lg n="26" part="F" type="verseparagraph">
+               <l n="360">Like some vast building made of many crags;</l>
+               <l n="361">And in the midst is one particular rock</l>
+               <l n="362">That rises like a column from the vale,</l>
+               <l n="363">Whence by our Shepherds it is called the Pillar.</l>
+               <l n="364">James pointed to its summit, over which</l>
+               <l n="365">They all had purposed to return together,</l>
+               <l n="366">And told them that he there would wait for them:</l>
+               <l n="367">They parted, and his Comrades passed that way</l>
+               <l n="368">Some two hours after, but they did not find him</l>
+               <l n="369">Upon the Pillar—at the appointed place.</l>
+               <l n="370">Of this they took no heed: but one of them, </l>
+               <l n="371">Going by chance, at night, into the house</l>
+               <l n="372">Which at that time was James’s home, there learned</l>
+               <l n="373">That nobody had seen him all that day:</l>
+               <l n="374">The morning came, and still, he was unheard of:</l>
+               <l n="375">The neighbours were alarmed, and to the Brook</l>
+               <l n="376">Some went, and some towards the Lake: ere noon</l>
+               <l n="377">They found him at the foot of that same Rock—</l>
+               <l n="378">Dead, and with mangled limbs. The third day after</l>
+               <l n="379">I buried him, poor Lad, and there he lies.</l>
+            </lg>
+         </sp>
+         <pb/>
+         <milestone n="42" unit="page"/>
+         <lb/>
+         <lb/>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="27" type="verseparagraph">
+               <l n="380">And that then <emph>is</emph> his grave?—Before his death</l>
+               <l n="381">You say that he saw many happy years?</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest</hi>.</speaker>
+            <lg n="28" type="verseparagraph">
+               <l n="382" part="I">Aye, that he did—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="29" type="verseparagraph">
+               <l part="F" rend="indent"> And all went well with him—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest</hi>.</speaker>
+            <lg n="30" type="verseparagraph">
+               <l n="383">If he had one, the Lad had twenty homes.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="31" type="verseparagraph">
+               <l n="384">And you believe, then, that his mind was easy—</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>P<hi>riest</hi>.</speaker>
+            <lg n="32" type="verseparagraph">
+               <l n="385">Yes, long before he died, he found that time</l>
+               <l n="386">Is a true friend to sorrow; and unless</l>
+               <l n="387">His thoughts were turned on Leonard’s luckless fortune,</l>
+               <l n="388">He talked about him with a cheerful love.</l>
+            </lg>
+         </sp>
+         <sp>
+            <speaker>L<hi>eonard.</hi>
+            </speaker>
+            <lg n="33" type="verseparagraph">
+               <l n="389">He could not come to an unhallowed end!</l>
+            </lg>
+         </sp>
+         <pb/>
+         <milestone n="43" unit="page"/>
+         <lb/>
+         <lb/>
+         <sp>
+            <speaker>P<hi>riest</hi>.</speaker>
+            <lg n="34" type="verseparagraph">
+               <l n="390">Nay, God forbid! You recollect I mentioned</l>
+               <l n="391">A habit which disquietude and grief</l>
+               <l n="392">Had brought upon him ; and we all conjectured</l>
+               <l n="393">That, as the day was warm, he had lain down</l>
+               <l n="394">Upon the grass, and, waiting for his comrades,</l>
+               <l n="395">He there had fallen asleep; that in his sleep</l>
+               <l n="396">He to the margin of the precipice</l>
+               <l n="397">Had walked, and from the summit had fallen head-long.</l>
+               <l n="398">And so no doubt he perished: at the time,</l>
+               <l n="399">We guess, that in his hands he must have had</l>
+               <l n="400">His Shepherd’s staff; for midway in the cliff</l>
+               <l n="401">It had been caught ; and there for many years</l>
+               <l n="402" part="I">It hung—and mouldered there.</l>
+            </lg>
+         </sp>
+         <lg n="35" part="I" type="verseparagraph">
+            <l part="F" rend="right"> The Priest here ended— </l>
+            <l n="403">The Stranger would have thanked him, but he felt</l>
+            <l n="404">Tears rushing in. Both left the spot in silence;</l>
+            <l n="405">And Leonard, when they reached the church-yard gate,</l>
+         </lg>
+         <pb/>
+         <milestone n="44" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="35" part="F" type="verseparagraph">
+            <l n="406">As the Priest lifted up the latch, turned round,</l>
+            <l n="407">And, looking at the grave, he said, “My Brother.”</l>
+            <l n="408">The Vicar did not hear the words: and now,</l>
+            <l n="409">Pointing towards the Cottage, he entreated</l>
+            <l n="410">That Leonard would partake his homely fare:</l>
+            <l n="411">The other thanked him with a fervent voice,</l>
+            <l n="412">But added, that, the evening being calm,</l>
+            <l n="413">He would pursue his journey. So they parted.</l>
+         </lg>
+         <lg n="36" part="I" type="verseparagraph">
+            <l n="414">It was not long ere Leonard reached a grove</l>
+            <l n="415">That overhung the road: he there stopped short,</l>
+            <l n="416">And, sitting down beneath the trees, reviewed</l>
+            <l n="417">All that the Priest had said: his early years</l>
+            <l n="418">Were with him in his heart: his cherished hopes,</l>
+            <l n="419">And thoughts which had been his an hour before,</l>
+            <l n="420">All pressed on him with such a weight, that now,</l>
+            <l n="421">This vale, where he had been so happy, seemed</l>
+            <l n="422">A place in which he could not bear to live:</l>
+            <l n="423">So he relinquished all his purposes.</l>
+            <l n="424">He travelled on to Egremont: and thence,</l>
+         </lg>
+         <pb/>
+         <milestone n="45" unit="page"/>
+         <lb/>
+         <lb/>
+         <lg n="36" part="F" type="verseparagraph">
+            <l n="425">That night, he wrote a letter to the Priest</l>
+            <l n="426">Reminding him of what had passed between them;</l>
+            <l n="427">And adding, with a hope to be forgiven,</l>
+            <l n="428">That it was from the weakness of his heart</l>
+            <l n="429">He had not dared to tell him who he was.</l>
+         </lg>
+         <lg n="37" type="verseparagraph">
+            <l n="430">This done, he went on shipboard, and is now</l>
+            <l n="431">A Seaman, a gray-headed Mariner.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

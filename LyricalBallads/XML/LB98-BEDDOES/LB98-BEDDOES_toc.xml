@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1798: [Table of Contents]</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB98-BEDDOES_toc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="toc">
+                  <title>[toc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB98-BEDDOES">
+                  <ptr target="../XML/LB98-BEDDOES.xml"/>
+                  <imprint>
+                     <publisher>[Cottle printing, London publisher not yet found]; title page reads
+                                       T. N. Longman</publisher>
+                     <pubPlace/>
+                     <date>1798</date>
+                  </imprint>
+                  <biblScope unit="page"/>
+                  <biblScope unit="pages">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <div type="toc">
+            <head>
+               <emph>CONTENTS.</emph>
+            </head>
+            <p> Page<lb/>The Rime of the Ancyent Marinere . . . . <ref type="single" target="LB98-BEDDOES_RIMEfstc">1</ref>
+               <lb/>The
+							Foster-Mother’s Tale . . . . . . . <ref type="single" target="LB98-BEDDOES_FOSTERstc">53</ref>
+               <lb/>Lines left upon a Seat
+							in a Yew-tree which stands<lb/> near the Lake of Esthwaite . . . . .
+								<ref type="single" target="LB98-BEDDOES_LLyew">59</ref>
+               <lb/>[Extra leaf: <ref type="single" target="LB98-BEDDOES_DOMICtb">Domiciliary Verses</ref>]<lb/>The Nightingale, a
+							Conversational Poem . . <ref type="single" target="LB98-BEDDOES_NTNGLstc">63</ref>
+               <lb/>The Female Vagrant . . . . . . . . <ref type="single" target="LB98-BEDDOES_VAGRANT">69</ref>
+               <lb/>Goody Blake and Harry
+							Gill . . . . . . <ref type="single" target="LB98-BEDDOES_GOODY">85</ref>
+               <lb/>Lines
+							written at a small distance from my House,<lb/> and sent by my little
+							Boy to the Person to <lb/> whom they are addressed . . . . . <ref type="single" target="LB98-BEDDOES_LLdistance">95</ref>
+               <lb/>Simon Lee, the old
+							Huntsman . . . . . <ref type="single" target="LB98-BEDDOES_SIMON">98</ref>
+               <lb/>Anecdote for Fathers . . . . . . . . <ref type="single" target="LB98-BEDDOES_ANEC">105</ref>
+               <lb/>We are seven . . . . . . .
+							. . . . <ref type="single" target="LB98-BEDDOES_SEVEN">110</ref>
+               <lb/>Lines written in
+							early spring . . . . . . <ref type="single" target="LB98-BEDDOES_LLspring">115</ref>
+               <lb/>The Thorn . . . . . . . . . . . <ref type="single" target="LB98-BEDDOES_THORN">117</ref>
+               <lb/>The last of the Flock . .
+							. . . . . . <ref type="single" target="LB98-BEDDOES_FLOCK">133</ref>
+               <lb/>The Dungeon
+							. . . . . . . . . . . <ref type="single" target="LB98-BEDDOES_DUNGEONstc">139</ref>
+               <lb/>The Mad Mother . . . . . . . . . <ref type="single" target="LB98-BEDDOES_MMOTHER">141</ref>
+               <lb/>The Idiot Boy . . . . .
+							. . . . . <ref type="single" target="LB98-BEDDOES_IDIOTf">149</ref>
+               <lb/>Lines written
+							near Richmond, upon the Thames, <lb/> at Evening . . . . . . . . . .
+								<ref type="single" target="LB98-BEDDOES_COLLINS">180</ref>
+               <lb/>Expostulation and
+							Reply . . . . . . . <ref type="single" target="LB98-BEDDOES_EXPOST">183</ref>
+               <lb/>The
+							Tables turned; an Evening Scene, on the <lb/> same subject . . . . . . .
+							. . <ref type="single" target="LB98-BEDDOES_TABLES">186</ref>
+               <lb/>Old Man travelling
+							. . <!-- = xml:id="TRANQ"--> . . . . . . . <ref type="single" target="LB98-BEDDOES_TRANQ">189</ref>
+               <lb/>The Complaint of a
+							forsaken Indian Woman . <ref type="single" target="LB98-BEDDOES_">193</ref>
+               <lb/>The
+							Convict . . . . . . . . . . . <ref type="single" target="LB98-BEDDOES_INDIANf">197</ref>
+               <lb/>Lines written a few miles above Tintern Abbey <ref type="single" target="LB98-BEDDOES_LLtintern">201</ref>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

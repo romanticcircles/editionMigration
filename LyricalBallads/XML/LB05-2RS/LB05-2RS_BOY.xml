@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1805: 'There was a boy . . .'</title>
+            <author>
+               <name>William Wordsworth</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LB05-2RS_BOY</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="BOY">
+                  <title>[BOY]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/35723133">William Wordsworth</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LB05-2RS">
+                  <ptr target="../XML/LB05-2RS.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace/>
+                     <date>1805</date>
+                  </imprint>
+                  <biblScope unit="page">14 to 15</biblScope>
+                  <biblScope unit="pages">3</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="14"/>
+         <milestone n="14" unit="page"/>
+         <lb/>
+         <lb/>
+         <lb/>
+         <lg n="1" part="I" type="verseparagraph">
+            <l n="1">There was a Boy, ye knew him well, ye Cliffs</l>
+            <l n="2">And Islands of Winander! many a time,</l>
+            <l n="3">At evening, when the stars had just begun</l>
+            <l n="4">To move along the edges of the hills,</l>
+            <l n="5">Rising or setting, would he stand alone,</l>
+            <l n="6">Beneath the trees, or by the glimmering lake;</l>
+            <l n="7">And there, with fingers interwoven, both hands</l>
+            <l n="8">Pressed closely palm to palm and to his mouth</l>
+            <l n="9">Uplifted, he, as through an instrument,</l>
+            <l n="10">Blew mimic hootings to the silent owls</l>
+            <l n="11">That they might answer him. And they would shout</l>
+            <l n="12">Across the watery vale, and shout again</l>
+            <l n="13">Responsive to his call, with quivering peals,</l>
+            <l n="14">And long halloos, and screams, and echoes loud</l>
+            <l n="15">Redoubled and redoubled; concourse wild</l>
+            <l n="16">Of mirth and jocund din! And, when it chanced</l>
+         </lg>
+         <pb/>
+         <milestone n="15" unit="page"/>
+         <lg n="1" part="F" type="verseparagraph">
+            <l n="17">That pauses of deep silence mocked his skill,</l>
+            <l n="18">Then, sometimes, in that silence, while he hung</l>
+            <l n="19">Listening, a gentle shock of mild surprise</l>
+            <l n="20">Has carried far into his heart the voice</l>
+            <l n="21">Of mountain-torrents ; or the visible scene</l>
+            <l n="22">Would enter unawares into his mind</l>
+            <l n="23">With all its solemn imagery, its rocks,</l>
+            <l n="24">Its woods, and that uncertain heaven, received</l>
+            <l n="25">Into the bosom of the steady lake.</l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l n="26">This Boy was taken from his Mates, and died</l>
+            <l n="27">In childhood, ere he was <add hand="RS" place="aboveline" resp="RS">^full
+              </add>ten years old.</l>
+            <l n="28">Fair are the woods, and beauteous is the spot,</l>
+            <l n="29">The Vale where he was born : the Church-yard hangs</l>
+            <l n="30">Upon a slope above the Village School,</l>
+            <l n="31">And there, along that bank, when I have passed </l>
+            <l n="32">At evening, I believe, that oftentimes</l>
+            <l n="33">A full half-hour together I have stood</l>
+            <l n="34">Mute—looking at the grave in which he lies.</l>
+         </lg>
+         <pb n="16"/>
+      </body>
+   </text>
+</TEI>

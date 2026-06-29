@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lyrical Ballads, 1802: The Nightingale</title>
+            <author>
+               <name>Samuel Taylor Coleridge</name>
+            </author>
+            <editor>
+               <name xml:id="BG">Bruce Graver</name>
+            </editor>
+            <editor>
+               <name xml:id="RT">Ronald Tetreault</name>
+            </editor>
+            <respStmt>
+               <resp>Technical Editor; Producer</resp>
+               <name xml:id="LM">Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles</publisher>
+            <idno type="local">LBP1-campbell_NTNGLstc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="NTNGLstc">
+                  <title>[NTNGLstc]</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/24599809">Samuel Taylor Coleridge</persName>
+                  </author>
+               </analytic>
+               <monogr xml:id="LBP1-campbell">
+                  <ptr target="../XML/LBP1-campbell.xml"/>
+                  <imprint>
+                     <publisher>T. N. Longman and O. Rees</publisher>
+                     <pubPlace>Philadelphia</pubPlace>
+                     <date>1802</date>
+                  </imprint>
+                  <biblScope unit="page">55 to 60</biblScope>
+                  <biblScope unit="pages">6</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="20250731" who="#LM">
+               Splurged out main xml into separate xml files for poems and paratexts.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <milestone n="55" unit="page"/>
+         <head>
+            <lb/>THE NIGHTINGALE;<lb/>
+            <lb/>
+            <hi>a conversational poem, written in april,</hi>
+            <lb/>
+            <lb/>1798.<lb/>
+            <lb/>
+         </head>
+         <lb/>
+         <lg n="1" type="verseparagraph">
+            <l n="1">NO cloud, no relique of the sunken day </l>
+            <l n="2">Distinguishes the West, no long thin slip </l>
+            <l n="3">Of sullen Light, no obscure trembling hues. </l>
+            <l n="4">Come, we will rest on this old mossy Bridge! </l>
+            <l n="5">You see the glimmer of the stream beneath, </l>
+            <l n="6">But hear no murmuring ; it flows silently </l>
+            <l n="7">O’er its soft bed of verdure. All is still, </l>
+            <l n="8">A balmy night! and tho’ the stars be dim, </l>
+            <l n="9">Yet let us think upon the vernal showers </l>
+            <l n="10">That gladden the green earth, and we shall find </l>
+            <l n="11">A pleasure in the dimness of the stars. </l>
+            <l n="12">And hark! the Nightingale begins its song, </l>
+            <l n="13">“Most musical, most melancholy”* Bird! </l>
+            <note place="foot" resp="STC"> * <emph>" Most musical, most
+                                        melancholy.</emph>” This passage <lb/>in Milton
+                                   possesses an excellence far superior to that <lb/>of mere
+                                   description : It is spoken in the character of <lb/>the
+                                   melancholy Man, and has therefore has a dramatic <lb/>
+            </note>
+            <pb/>
+            <milestone n="56" unit="page"/>
+            <lb/>
+            <l n="14">A melancholy Bird? O idle thought! </l>
+            <l n="15">In Nature there is nothing melancholy.</l>
+            <l n="16">—But some night-wandering Man, whose heart was
+                                   pierc’d </l>
+            <l n="17">With the remembrance of a grievous wrong, </l>
+            <l n="18">Or slow distemper, or neglected love, </l>
+            <l n="19">(And so, poor Wretch ! fill’d all things with himself </l>
+            <l n="20">And made all gentle sounds tell back the tale </l>
+            <l n="21">Of his own sorrows) he, and such as he, </l>
+            <l n="22">First nam’d these notes a melancholy strain ; </l>
+            <l n="23">And many a poet echoes the conceit ;</l>
+            <l n="24">Poet, who hath been building up the rhyme </l>
+            <l n="25">When he had better far have stretch’d his limbs </l>
+            <l n="26">Beside a brook in mossy forest-dell,</l>
+            <l n="27">By sun or moonlight, to the influxes </l>
+            <l n="28">Of shapes and sounds and shifting elements </l>
+            <l n="29">Surrendering his whole spirit, of his song </l>
+            <l n="30">And of his fame forgetful! so his fame </l>
+            <l n="31">Should share in Nature’s immortality, </l>
+            <l n="32">A venerable thing! and so his song </l>
+            <l n="33">Should make all Nature lovelier, and itself </l>
+            <note>propriety. The Author makes this remark, to res-<lb/>cue himself
+                                   from the charge of having alluded with <lb/>levity to a line in
+                                   Milton : A charge than which <lb/>none could be more painful to
+                                   him, except perhaps <lb/>that of having ridiculed his
+                                   Bible.</note>
+            <pb/>
+            <milestone n="57" unit="page"/>
+            <lb/>
+            <l n="34">Be lov’d, like Nature!—But ’twill not be
+                                   so; </l>
+            <l n="35">And youths and maidens most poetical </l>
+            <l n="36">Who lose the deep’ning twilights of the spring </l>
+            <l n="37">In ball-rooms and hot theatres, they still </l>
+            <l n="38">Full of meek sympathy must heave their sighs </l>
+            <l n="39">O’er Philomela’s pity-pleasing strains. </l>
+            <l n="40">My Friend, and my Friend’s Sister ! we have learnt </l>
+            <l n="41">A different lore; we may not thus profane </l>
+            <l n="42">Nature’s sweet voices always full of love </l>
+            <l n="43">And joyance! ’Tis the merry Nightingale </l>
+            <l n="44">That crowds, and hurries, and precipitates </l>
+            <l n="45">With fast thick warble his delicious notes, </l>
+            <l n="46">As he were fearful, that an April night </l>
+            <l n="47">Would be too short for him to utter forth </l>
+            <l n="48">His love-chant, and disburthen his full soul </l>
+            <l n="49">Of all its music! And I know a grove </l>
+            <l n="50">Of large extent, hard by a castle huge, </l>
+            <l n="51">Which the great lord inhabits not ; and so </l>
+            <l n="52">This grove is wild with tangling underwood, </l>
+            <l n="53">And the trim walks are broken up, and grass, </l>
+            <l n="54">Thin grass and king-cups grow within the paths. </l>
+            <l n="55">But never elsewhere in one place I knew </l>
+            <l n="56">So many Nightingales; and far and near </l>
+            <l n="57">In wood and thicket over the wide grove </l>
+            <l n="58">They answer and provoke each others songs— </l>
+            <l n="59">With skirmish and capricious passagings, </l>
+            <l n="60">And murmurs musical and swift jug, jug, </l>
+            <pb/>
+            <milestone n="58" unit="page"/>
+            <lb/>
+            <l n="61">And one low piping sound more sweet than all—</l>
+            <l n="62">Stirring the air with such an harmony, </l>
+            <l n="63">That should you close your eyes, you might almost </l>
+            <l n="64">Forget it was not day! On moonlight bushes, </l>
+            <l n="65">Whose dewy leafits are but half disclos’d</l>
+            <l n="66">You may perchance behold them on the twigs, </l>
+            <l n="67">Their bright, bright eyes, their eyes both bright and full, </l>
+            <l n="68">Glist’ning, while many a glow-worm in the shade </l>
+            <l n="69" part="I">Lights up her love-torch. </l>
+         </lg>
+         <lg n="2" type="verseparagraph">
+            <l part="F"> A most gentle maid </l>
+            <l n="70">Who dwelleth in her hospitable home </l>
+            <l n="71">Hard by the Castle, and at latest eve </l>
+            <l n="72">(Even like a Lady vow’d and dedicate </l>
+            <l n="73">To something more than Nature in the grove) </l>
+            <l n="74">Glides thro’ the pathways ; she knows all their notes, </l>
+            <l n="75">That gentle Maid! and oft, a moment’s space, </l>
+            <l n="76">What time the moon was lost behind a cloud, </l>
+            <l n="77">Hath heard a pause of silence; till the Moon </l>
+            <l n="78">Emerging, hath awaken’d earth and sky </l>
+            <l n="79">With one sensation, and those wakeful Birds </l>
+            <l n="80">Have all burst forth in choral minstrelsy, </l>
+            <l n="81">As if one quick and sudden Gale had swept </l>
+            <l n="82">An hundred airy harps! And she hath watch’d </l>
+            <pb/>
+            <milestone n="59" unit="page"/>
+            <lb/>
+            <l n="83">Many a Nightingale perch giddily </l>
+            <l n="84">On blosmy twig still swinging from the breeze, </l>
+            <l n="85">And to that motion tune his wanton song, </l>
+            <l n="86">Like tipsy Joy that reels with tossing head. </l>
+         </lg>
+         <lg n="3" type="verseparagraph">
+            <l n="87">Farewell, O Warbler ! till to-morrow eve, </l>
+            <l n="88">And you, my friends! farewell, a short farewell! </l>
+            <l n="89">We have been loitering long and pleasantly, </l>
+            <l n="90">And now for our dear homes.—That strain again! </l>
+            <l n="91">Full fain would it delay me!—My dear Babe, </l>
+            <l n="92">Who, capable of no articulate sound, </l>
+            <l n="93">Mars all things with his imitative lisp, </l>
+            <l n="94">How he would place his hand beside his ear, </l>
+            <l n="95">His little hand, the small forefinger up, </l>
+            <l n="96">And bid us listen! And I deem it wise </l>
+            <l n="97">To make him Nature’s playmate. He knows well </l>
+            <l n="98">The evening star; and once when he awoke </l>
+            <l n="99">In most distressful mood (some inward pain </l>
+            <l n="100">Had made up that strange thing, an infant’s dream) </l>
+            <l n="101">I hurried with him to our orchard plot, </l>
+            <l n="102">And he beholds the moon, and hush’d at once </l>
+            <l n="103">Suspends his sobs, and laughs most silently, </l>
+            <l n="104">While his fair eyes that swam with undropt tears </l>
+            <pb/>
+            <milestone n="60" unit="page"/>
+            <lb/>
+            <l n="105">Did glitter in the yellow moon-beam ! Well!—</l>
+            <l n="106">It is a father’s tale: But if that Heaven </l>
+            <l n="107">Should give me life, his childhood shall grow up </l>
+            <l n="108">Familiar with these songs, that with the night </l>
+            <l n="109">He may associate joy! Once more farewell</l>
+            <l n="110">Sweet Nightingale! once more, my friends! farewell.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>
