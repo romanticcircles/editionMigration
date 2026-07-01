@@ -1,0 +1,270 @@
+body {
+	background-color: #d8e7ed;
+}
+.tei_body {
+    width: 60rem;
+    background: white;
+    padding: 2rem;
+}
+p, tr, td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+}
+.l {
+	text-indent: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent1 {
+	text-indent: 40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent2 {
+	text-indent: 80px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent3 {
+	text-indent: 120px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent4 {
+	text-indent: 160px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent5 {
+	text-indent: 200px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent6 {
+	text-indent: 240px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent7 {
+	text-indent: 280px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent8 {
+	text-indent: 320px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent9 {
+	text-indent: 360px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent10 {
+	text-indent: 400px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent11 {
+	text-indent: 440px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.center {
+    text-align: center;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #9933CC;
+}
+.menu {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.menu2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.menu3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+}
+.pnoindent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+}
+.pnoindent2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-left: 5em;
+}
+.pnoindent3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-left: 10em;
+}
+.pnoindent4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-left: 15em;
+}
+.list {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+}
+.indent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-indent: 30px;
+	margin-left: 1px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.hang {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-indent: -30px;
+	margin-left: 30px;
+	line-height: 36px;
+}
+/* The following codes the numbered notes beginning with 1 in each document. */
+.letnote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-indent: 0px;
+	line-height: 32px;
+	font-size: 16px;
+}
+/* The following codes the provenance note, the note beginning with an asterisk made in headnote. */
+.letnote2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-indent: 0px;
+	line-height: 32px;
+	font-size: 16px;
+;
+}
+/* The following codes the indented quotations */
+p.quote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 26px;
+	font-size: 14px;
+}
+blockquote.quote {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.tip {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	border:solid 1px #666666;
+	width:300px;
+	padding:10px;
+	position:absolute;
+	z-index:100;
+	visibility:hidden;
+	color:#000000;
+	top:20px;
+	left:90px;
+	background-color:#ccffff;
+	/*  layer-background-color:#ccffff; */
+}
+#let1t2 {
+	width:160px;
+}
+.tablabout {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.3px;
+}
+/*
+  blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16pt;
+  color: #000000;
+  line-height: 30pt
+  }
+ */
+.pagehead {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: 40px;
+	text-indent:40px;
+	letter-spacing: 0.5px;
+	color: #3333CC;
+	text-align: center;
+	font-weight: bold;
+}
+.letnote_noindent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 28px;
+	font-size: 14px;
+	text-indent: 0px;
+}
+.mouseover {
+	color: #0000CC
+}
+.titlem {
+	font-style: italic;
+}
+.titleu {
+	font-style: italic;
+}
+ul, ol {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-bottom: 1em;
+}
+h3 {
+	width: 740px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NavBar</title>
+        <style>
+            /* Navigation, courtesy of ChatGPT, with adjustments */
+
+nav {
+    background-color:#5070a1ad;
+    width: 65em;
+    height: 6.5em;
+    font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-right: -5em;
+}
+ul.nav {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+li.nav {
+    list-style-type: none; 
+    padding: 1em;
+    display: inline-block;
+    position: relative;
+}
+.nav a {
+    font-weight: bold;
+    text-decoration: underline;
+	color: white;
+}
+.nav a:hover {
+    color: #000;
+}
+.drop {
+    text-decoration: underline;
+    color: white;
+}
+.drop:hover {
+    text-decoration: none;
+	color: #000;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 6rem;
+}
+ul.dropdown li {
+  display: list-item;;
+  font-size: .6em;
+}
+
+ul.dropdown li a {
+  padding: 6px;
+  width: 300px;
+}
+
+ul.dropdown li a:hover {
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+li.nav:hover > ul {
+  display: block;
+}
+/* end nav */
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">
+                <img src="images/PAlogo.svg" alt="logo" height="100" width="100"
+                    style="float: left;" />
+            </a>
+            <ul class="nav">
+                <li class="nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav" style="text-align: center;line-height: 1em;">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="nav">
+                    <span class="drop">Mary Leapor</span>
+                    <ul class="dropdown"><li><a href="bio.html">Biography</a></li>
+                        <li><a href="bibliog.html">Bibliography</a></li></ul>
+                </li>
+                <li class="nav">
+                    <span class="drop">Poems</span>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="volume.html">By Volume</a>
+                        </li>
+                        <li>
+                            <a href="HTML/title.html">By Title</a>
+                        </li>
+                        <li>
+                            <a href="HTML/firstLine.html">By First Line</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="HTML/search.html">Search</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+body {
+                width: 65rem;
+                font-family: "Baskervville", serif;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                background-color: #e8f2fa; /*  #d8e7ed; */
+            }
+            main {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 58rem;
+                height: 48rem;
+            }
+            div.splashWhole {
+                background-image: url("../images/constableKeswick.png");
+            }
+            div.splashPart {
+                background-image: url("../images/letterPart.png");
+            }
+            nav.top {
+                display: block;
+                margin: 0 0 0 2rem;
+                width: 51em;
+                border: 1px solid #f2faff;
+                height: 3rem;
+                padding: 2px 2px 2px 2rem;
+                background: #FFFFFF;
+            }
+            ul.navTop > li {
+                float: left;
+                padding-right: 6rem;
+                list-style-type: none;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .titlePage {
+                display: block;
+                text-align: center;
+                background-color: #e8f2fa; /*  #f2faff; */
+                height: 14rem;
+                width: 51.5rem;
+                padding: 1rem;
+                margin: 2rem;
+            }
+            .titlePage h1 {
+                width: 52rem;
+                text-align: left;
+                margin-left: -7rem;
+            }
+            .titlePage h2 {
+                width: 50rem;
+                text-align: center;
+                margin-left: -7rem;
+            }
+            .titlePage h3 {
+                width: 50rem;
+                text-align: center;
+                margin-left: -7rem;
+            }
+            .titlePage h4 {
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+            .edParts {
+                width: 75%;
+                margin-left: 7rem;
+                clear: both;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 4px;
+            }
+            p.part {
+                padding: 1rem;
+                background: #FFFFFF;
+                margin-bottom: 0;
+            }
+            nav.bottom {
+                position: relative;
+                margin-left: 2rem;
+                margin-top: 2rem;
+                width: 53rem;
+                height: 3rem;
+                display: block;
+                border: 1px solid #f2faff;
+                background: #FFFFFF;
+            }
+            ul.navBottom > li {
+                float: left;
+                margin-left: .8rem;
+                padding-right: 1.5rem;
+                list-style-type: none;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .space {
+                width: 2rem;
+                display: inline;
+                }
+            a {
+               color: #1A4B75;
+               text-decoration: none;
+               font-weight: 600;
+           }
+            a:hover {
+                color: #181433;
+                text-decoration: underline;
+            }
+            a:visited {
+                color: #383175;
+                font-weight: 600;
+                text-decoration: none;
+            }
+            a:visited:hover {
+                color: #181433;
+                text-decoration: underline;
+            }
