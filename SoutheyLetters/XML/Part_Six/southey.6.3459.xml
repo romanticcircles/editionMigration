@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3459. Robert Southey to Charles Watkin Williams Wynn,
+						28 March 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3459</idno></publicationStmt><sourceDesc><p>National Library
+						of Wales, MS 4813D. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3459" type="letter"><head>3459. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>,
+						<date when="1820-02-28">28 March 1820</date><note type="headnote" place="foot" resp="editors">MS: National Library
+						of Wales, MS 4813D. ALS; 3p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1820-02-28">28 March. 1820</date></dateline><salute rend="indent0"> My dear
+					Wynn</salute></opener><p rend="indent1"> I have deferred writing from day to day, in expectation of seeing your re–election announced; but
+					the first tidings of it, is by your frank this day received.<note n="1" place="foot" resp="editors">Wynn was (as
+						usual) returned unopposed for Montgomeryshire on 17 March 1820 in the general election.</note> – If your
+					brother-in–laws disease was what I supposed mine to be, death would necessarily have been instantaneous.<note n="2" place="foot" resp="editors">Thomas Cunliffe (d. 1820), the youngest brother of Wynn’s wife, had died suddenly on
+						22 March 1820, while a student at Christ Church, Oxford. In 1799–1800 Southey had feared he was suffering from
+						heart disease.</note> Adhæsions, I believe, always produce a lingering disease, &amp; kill the sufferer
+					piecemeal.</p><p rend="indent1"> My departure has been delayed by various causes, among which a certain degree of indolence, &amp;
+					a certain propensity to be doing <hi rend="ital">something else</hi> (as Peter says)<note n="3" place="foot" resp="editors">John Gibson Lockhart, <title>Peter’s Letters to his Kinsfolk</title>, 3 vols (Edinburgh, 1819), I,
+						p. 35, no. 2223 in the sale catalogue of Southey’s library.</note> have had their share. It is necessary to
+					reprint the first vol. of my Brazil<note n="4" place="foot" resp="editors">The second edition of the first volume
+						only of the <title>History of Brazil</title> (1810–1819) was published in 1822.</note> to make up 170 sets, which
+					would otherwise be lost. I have been correcting it, from materials which have come either to hand or to light,
+					since its publication; &amp; am still at this work. Cogent reasons render it necessary that I should prepare some
+					thing for the QR.<note n="5" place="foot" resp="editors">Southey’s review of <title>The Works of the Reverend
+							William Huntington, S. S. Minister of the Gospel, at Providence Chapel, Gray’s Inn Lane, Completed to the Close
+							of the Year 1806</title> (1811) in <title>Quarterly Review</title>, 24 (January 1821), 462–510.</note> before I
+					depart. And I have wasted much time upon this unlucky Carmen Funebre,<note n="6" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821), on the death of George III (1738–1820; King of Great Britain
+						1760–1820; <title>DNB</title>). This had occurred on 29 January 1820. The poem was written in hexameters.</note>
+					which remains unfinished, tho in a fair way of being soon compleated. But whether I shall publish it is rather a
+					matter of doubt; upon which I care little or nothing myself, &amp; am therefore in a good state for following
+					advice. The objections <del>t</del> are that it will be a day after the fair, – &amp; possibly, (which is
+						<del>xxxxx</del> of more weight) that the subject is too solemn to be treated of in a strain of fiction, however
+					solemn the strain. When I suspect that such an objection is likely to be made, that very suspicion seems to prove
+					that there would be grounds for it. With regard to the <del>measure</del> &lt;metre&gt;, I have certainly, in my own
+					judgement, succeeded; &amp; produced a measure of great variety &amp; power, &amp; beauty.</p><p rend="indent1"> My present purpose is to begin my journey on Monday 17 April, &amp; if I effect this I shall have
+					a chance of seeing you if it be only for a day; but even one whole day at Llangedwin would be worth all the
+					fragments which there is a chance of getting in the broken &amp; bustling society of London. Let us see – the 18<hi rend="sup">th</hi> to Liverpool, 19<hi rend="sup">th</hi> to Chester &amp; as much farther as the opportunity of
+					stages may permit. On the 20<hi rend="sup">th</hi> I could reach you, &amp; this I should like particularly to do,
+					for the sake of seeing the children,<note n="7" place="foot" resp="editors">The Wynns had a growing family of five
+						daughters: Charlotte (1807–1869), Mary (1808–1869), Harriet (1812–1878), Emma (1814–1824) and Sidney (1818–1867);
+						and one son, Watkin (1816–1832). Their final child was Charles (1822–1896).</note> – in case you should not take
+					them to town.</p><p rend="indent1"> On the other leaf I transcribe for you Shadwells<note n="8" place="foot" resp="editors">Sir
+						Lancelot Shadwell (1779–1850; <title>DNB</title>), eminent barrister in the Court of Chancery, specialising in
+						real estate law. He had been one of Southey’s counsel in his action to try and stop the publication of <title>Wat
+							Tyler</title> (1817). He had delivered a legal opinion on John Cannon Southey’s (d. 1768) fantastically complex
+						will, which gave Southey some hope of inheriting property at Fitzhead after the death of his third cousin, and
+						John Cannon Southey’s heir, John Southey Somerville, 15th Lord Somerville (1765–1819; <title>DNB</title>).</note>
+					opinion, which is as unfavourable as possible. Twice have I been deprived by the caprice of testators of what the
+					course of law would have given me;<note n="9" place="foot" resp="editors">Southey inherited nothing on the deaths
+						of his childless uncles, John Southey (d, 1806) and Thomas Southey (d. 1811).</note> &amp; now a legal decision
+						<del>takes away</del> interferes &amp; takes away what it was the intention of a testator to have given. However I
+					had not sufficient expectation to feel any disappointment</p><p rend="indent1"> Wesley<note n="10" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise
+							and Progress of Methodism</title> (1820).</note> will be published the week after next. There remain only two
+					sheets of notes &amp; the title to print.</p><closer><salute rend="indent2"> God bless you</salute><signed rend="indent3"> RS.</signed></closer><postscript><p rend="indent1">Your Opinion is requested, Whether as Heir at Law to Cannon Southey, or under his Will, M<hi rend="sup">r</hi> Robert Southey can claim now any interest in the premises therein mentioned, John Southey
+						Somerville having died without issue, &amp; without having suffered a Recovery.<note n="11" place="foot" resp="editors">A method of conveying real estate from one party to another. The person wishing to dispose of
+							their land allowed an action to be brought against them by the person to whom they wished to transfer the estate
+							– an action in whose success they colluded, using long-established legal procedures. The person conveying the
+							land was then said to have ‘suffered a recovery’. Presumably, Lord Somerville had not engaged in this process to
+							pass on his estates to his heirs, primarily his half-brother, Mark Somerville, 16th Lord Somerville (1784–1842),
+							who was unconnected to the Southeys. Despite its bizarre rituals, ‘common recovery’ served an important purpose
+							in allowing the holders of entailed estates to dispose of land they were not legally allowed to sell.</note></p><p rend="center"> —————</p><p rend="indent1"> “The Pedigree is not stated, but I collect from the case that M<hi rend="sup">r</hi> R. S. is
+						not the heir of John Southey Somerville. </p><p rend="indent1"> On the death of the testator, according to the certificate of the Judges of the Kings
+							Bench,<note n="12" place="foot" resp="editors">Charles Durnford (1759–1807) and Edward Hyde East (1764–1847;
+								<title>DNB</title>), <title>Reports of Cases Argued and Determined in the Court of King’s Bench, from Michaelmas
+								Term, 26th George III to Trinity Term, 40th George III</title>, 8 vols (London, 1817), VI, pp. 213–216,
+							reporting the case of John Southey Somerville <hi rend="ital">v.</hi> Mary Lethbridge and seven others, 27 January
+							1795. </note> the Equitable freehold &amp; inheritance of the freehold Estates descended in progression on Mary
+							Lethbridge,<note n="13" place="foot" resp="editors">Mary Southey (1704–1789), the younger sister of John Cannon
+							Southey, married Christopher Lethbridge (1685–1746), and was the grandmother of John Southey Somerville, 15th
+							Lord Somerville.</note> &amp; from her to John S. Somerville. His heir therefore is now entitled, &amp; not the
+						Heirs of the Testator.</p><p rend="indent1"> The same Rule is applicable to the Copyhold Estates, supposing they were descendible like
+						freehold. As Heir to the Testator, M<hi rend="sup">r</hi> R. S. cannot have any interest in the Leaseholds, tho as
+						one of the Testators next of kin he may have some interest in them. But in order to determine that the pedigree
+						must be stated. </p></postscript></div></body></text></TEI>

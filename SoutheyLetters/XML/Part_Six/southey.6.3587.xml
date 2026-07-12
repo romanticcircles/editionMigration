@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3587. Robert Southey to Grosvenor Charles Bedford, 21 December 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3587</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. d. 47. ALS; 4p. .  Previously  published: John Wood Warter (ed.), Selections
+                     from the Letters of Robert Southey, 4 vols (London, 1856), III, pp. 221–223 [in part].</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3587" type="letter"><head>3587. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>, <date when="1820-12-21">21 December 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ G. C. Bedford Esq<hi rend="sup">re</hi>/ 9. Stafford Row/ Buckingham Gate/ London<lb/> Stamped: KESWICK/ 298<lb/> Postmark: E/ 23 DE 23/ 1820<lb/>
+                  Endorsements: 21 Dec<hi rend="sup">r</hi> 1820/ with the last part of the/ “Vision of Judgment”; 21 Dec<hi rend="sup">r</hi>
+                  1820<lb/> MS: Bodleian Library, MS Eng. Lett. d. 47. ALS; 4p.<lb/> Previously published: John Wood Warter (ed.), <title>Selections
+                     from the Letters of Robert Southey</title>, 4 vols (London, 1856), III, pp. 221–223 [in part].</note></head><opener><salute rend="indent0"> My dear Grosvenor</salute></opener><p rend="indent1"> The third &amp; last portion of the Vision<note n="1" place="foot" resp="editors">Southey’s <title>A Vision of
+                     Judgement</title> (1821).</note> goes by this post, but the frank will be too heavy to take any thing else under its cover, so I
+               direct this to <ref type="m" target="places.html#StaffordRow">Stafford Row</ref> first for the purpose of acknowledging the half notes,
+               &amp; secondly to have a little talk with you at the distance of three hundred miles.</p><p rend="indent1"> Poor Hyde!<note n="2" place="foot" resp="editors">Hyde (d. 1820) was Southey’s London tailor.</note> I am truly sorry
+               to hear of his death, my introduction to him by you in 1801, &amp; the scene which followed when he denied the existence of the coat on
+               my back, being one of those things not to be forgotten, – but now no longer to be remembered with the same kind of hilarity. By all
+               means pay my bill to the widow; &amp; if the business is continued on her account, she shall have my custom, – a kind of debt this
+               which one owes to an honest man.</p><p rend="indent1"> Next, when you are near your tea-dealer (N.B. do not go out of your way to do it, but, at your leisure, there being no
+               hurry) order for me 24 pounds of souchong at 6/6<hi rend="sup">d</hi>. 3 D<hi rend="sup">o</hi> at 8/. 3 D<hi rend="sup">o</hi> at 10/
+               &amp; 6 pounds of green at 10/. If this be paid for when it is bought, I suppose you are entitled to the usual discount of five per
+               cent, which is worth asking for.</p><p rend="indent1">Now concerning the Vision. You may growl as much as you like. But before you begin to put on your critical cap, observe with respect to
+               the metre, that I write upon the postulate of using in the four first feet of the verse, any foot of two or three syllables: the
+               English hexameter in this respect bearing the same loose resemblance to the Latin, that the English heroic verse of ten syllables does
+               to the ancient Iambic verse, after which it is sometimes called. This of course is to be explained in the preface.<note n="3" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821), ‘Preface’, pp. ix–xxvii.</note> – I have tried the verse
+               upon ears enough to judge of its effect. Those persons who were most inclined to disapprove, were shaken in their decided prejudice
+               against it. <ref type="m" target="people.html#WynnCharlesWW">Wynn</ref> instead of exclaiming against the possibility of the design,
+               objected to the quantity of one or two syllables. – <ref type="m" target="people.html#BowlesWilliamLisle">Bowles</ref> protested
+               against the attempt, &amp; acknowledged its success when he heard the first thirty lines. <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> &amp; Barry <del>xxxx</del> Cornwall<note n="4" place="foot" resp="editors">Wordsworth’s view of the applicability of hexameters to English was certainly not uncritical; see Southey to William Taylor, 20
+                  February 1800, <title>The Collected Letters of Robert Southey. Part Two</title>, Letter 491. Bryan Procter (1787–1874;
+                     <title>DNB</title>) wrote under the pseudonym, ‘Barry Cornwall’. Southey possessed presentation copies of his <title>Dramatic
+                     Scenes</title> (1819) and <title>A Sicilian Story</title> (1820), no. 617 in the sale catalogue of his library.</note> admit it
+               to be a legitimate English metre, no ways unsuited to the language. – You can answer for its effect upon your own ears. No person has
+               thought it forced, or uncouth or ludicrous. Recollect I do not propose it as a better metre than blank verse; any more than I should
+               offer <del>xxx</del> venison as a better thing than turtle, – but as something else, there being room for both. Let it be abused, – I
+               care not. I have wished for &lt;more than&gt; twenty years to make the experiment, &amp; the experiment reconciled me to a subject which I
+               should otherwise not willingly have taken up.</p><p rend="indent1"> You &amp; <ref type="m" target="people.html#LongmanThomas">Longman</ref> may determine whether to print it in common
+               quarto or in foolscap quarto.<note n="5" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821) was published as a
+                  quarto volume. The ‘Preface’ occupied 18 pages, the poem itself ran to 46 pages, and the ‘Notes’ and ‘Specimens’ a further 31 pages.
+                  The poem was printed with a running title and about 20 lines per page, as <title>Roderick, the Last of the Goths</title> (1814) had
+                  been, and was dedicated to George IV.</note> The poem you see will make 38 pages – notes &amp; preface may extend it to nine sheets,
+               which if a good thick paper be used may make a substantive appearance in boards. If the common quarto be preferred, it must be printed
+               in the same type as Roderic, – with a running title, &amp; twenty lines in a page.</p><p rend="indent1"> To whom shall I dedicate it? Not to <ref type="m" target="people.html#ElmsleyPeter">Elmsley</ref> I think, for the
+               reason which you gave, &amp; which I anticipated. The <ref type="m" target="people.html#ElmsleyPeter">great Peter</ref> I hope will pay
+               me a visit next summer; &amp; one of these days I will prefix his name to something to which he will have no dislike.<note n="6" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824) was dedicated to Elmsley.</note> – When you have
+               perused the whole, you will judge whether there be any thing in the matter which would make a dedication to <ref type="m" target="people.html#GeorgePrinceRegent">the King</ref> improper. If there be not, I should like to do it, – because my blood is up,
+               – &amp; <del>x</del> it would gratify me at this time to wear the Kings colours. Perpend this, if it is to be done, I suppose it would
+               be decorous to ask permission, &amp; that I can do thro Lord W<hi rend="sup">m</hi> Gordon,<note n="7" place="foot" resp="editors">Lord
+                  William Gordon (1744–1823), son of Cosmo George Gordon, 3rd Duke of Gordon (1720–1752). He owned the Waterend estate on the west
+                  side of Derwentwater and was married to Frances Ingram-Shepherd (1761–1841), sister of Isabella Anne Ingram-Shepherd (1760–1834),
+                  second wife of the Marquess of Hertford, the Lord Chamberlain.</note> or <ref type="m" target="people.html#KnightonSirWilliam">Sir
+                     W<hi rend="sup">m</hi> Knighton</ref>. Should there be any unfitness, as perhaps there is, I may very likely address it to <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref>.</p><closer><salute rend="indent2"> God bless you</salute><signed rend="indent3"> RS.</signed></closer><postscript><p rend="indent0"><date when="1820-12-21">21 Dec. 1820.</date></p></postscript></div></body></text></TEI>

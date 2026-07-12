@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3619. Robert Southey to John
+                  Murray, 28 January 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3619</idno></publicationStmt><sourceDesc><p>National Library of
+                  Scotland, MS 42552. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3619" type="letter"><head>3619. Robert Southey to <ref type="a" target="people.html#MurrayJohn">John
+                  Murray</ref>,<date when="1821-01-28"> 28 January 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ John Murray Esq<hi rend="sup">re</hi>/ Albemarle Street/ London.<lb/> Stamped: KESWICK/ 298<lb/>
+                  Postmark: E/ 31 JA 31/ 1821<lb/> Seal: [trace] red wax<lb/> Watermark: HAGAR &amp;
+                  Co/ 1820<lb/> Endorsement: R Southey Esq/ Janry 1821 <lb/> MS: National Library of
+                  Scotland, MS 42552. ALS; 3p.<lb/> Unpublished.</note></head><opener><salute rend="indent0"> My dear Sir</salute></opener><p rend="indent1"> There has been a mistake about Dobrizhoffer<note n="1" place="foot" resp="editors">Murray had agreed to publish Sara Coleridge’s <title>An Account
+                     of the Abipones, an Equestrian People of Paraguay</title> (1822). It was a
+                  translation of Martin Dobrizhoffer (1717–1791), <title>Historia de Abiponibus
+                     Equestri, Bellicosaque Paraquariae Natione</title> (1784), no. 843 in the sale
+                  catalogue of Southey’s library. The translation did eventually run to three
+                  volumes.</note> which vexes me greatly. You have plainly taken the copy in your
+               hands for <hi rend="ital">half</hi> the work, instead of a <hi rend="ital">third</hi>, the original consisting of <hi rend="ital">three</hi> volumes. There is
+               but one remedy, – which is to cut the translation down by omitting all that can best
+               be omitted. Send the MS. back to me, &amp; I will see to this. The book will no
+               longer have the same value as the original, but it will be lightened, &amp; thereby
+               better suited to the great majority of readers. The pruning knife must be used
+               without mercy, so as to cut out, if possible a full third.</p><p rend="indent1"> I did not know that <ref type="m" target="people.html#FrereJohnHookham">M<hi rend="sup">r</hi> Frere</ref>
+               had left England.<note n="2" place="foot" resp="editors">Frere’s public career
+                  had been ended when, as plenipotentiary in Spain, he had to share the blame for
+                  the disastrous outcome of the British army’s campaign in the Peninsular War in
+                  1808–1809. In 1816 he married Elizabeth Jemima, Dowager Countess of Erroll
+                  (1771–1831), and in 1820 retired to Malta in an attempt to recover her
+                  health.</note> There is no person from whom those proofs<note n="3" place="foot" resp="editors">Proofs of the first volume of Southey’s <title>History of the
+                     Peninsular War</title> (1823–1832).</note> which I wished him to see could
+               derive any of that advantage expected from him. Particular parts, which I will point
+               out when we come to them, may be sent to particular persons who were either present
+               at the actions described, or possess official knowledge of the transactions.
+               Something no doubt will be gained by this on the score of accuracy; but what I wanted
+               from <ref type="m" target="people.html#FrereJohnHookham">Frere</ref> no other person
+               can supply, – his individual knowledge of the leading men in Spain &amp; of the views
+               which they entertained. If my letter<note n="4" place="foot" resp="editors">Probably Southey to John Hookham Frere, 30 December 1820, Letter 3597.</note>
+               has been forwarded to him, I shall probably have a reply to it in time to be useful.
+               He had promised for the last three or four years to send me papers, – this was put
+               off from day to day, as a business that might be deferred, – writing a letter of
+               recollections is a different thing, &amp; more likely to be done.</p><p rend="indent1"><hi rend="ital">True</hi> liberality, such as that in the reviewal of
+               Wesley, must always command respect.<note n="5" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise and Progress of
+                     Methodism</title> (1820) had been given an extensive and generally positive
+                  notice in the <title>Quarterly Review</title>, 24 (October 1820), [1]–55. The
+                  reviewer, <ref type="m" target="people.html#HeberReginald">Reginald Heber</ref>,
+                  observed that ‘few persons could have been found, we think, better qualified for
+                  the undertaking than Mr. Southey has shewn himself to be’ (9). </note> If it were
+               to be evidenced upon all subjects by the Q. R. for three or four numbers, as
+               undeniably as in this instance, I verily believe that the influence of that Journal
+               would be doubled. An opinion prevails, which I have taken some pains to combat, that
+               whatever is praised in the E. R.<note n="6" place="foot" resp="editors">i.e. the
+                     <title>Edinburgh Review</title>, the leading Whig quarterly journal
+                  1802–1929.</note> is for that reason depreciated in the Q. R. This I could combat,
+               because it is not true. But certainly there are some works which have been treated
+               with a severity altogether unjustifiable, &amp; exceedingly injurious to the
+               review.</p><p rend="indent1"> The B of the Church<note n="7" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note> is in good
+               progress, &amp; you will have the first part when another chapter is finished. AB
+               Sancrofts Life will be of use to me, &amp; so will the life of John Owen which has
+               been lately published, – Cromwells Dean of Ch. Church.<note n="8" place="foot" resp="editors">Books on two seventeenth-century divines: George D’Oyly,
+                     <title>The Life of William Sancroft, Archbishop of Canterbury: Compiled
+                     Principally from Original and Scarce Documents</title> (1820), a biography of
+                  William Sancroft (1617–1693; <title>DNB</title>), Archbishop of Canterbury
+                  1678–1691; and William Orme (1787–1830; <title>DNB</title>), <title>Memoirs of the
+                     Life, Writings and Religious Connexions of Dr. John Owen</title> (1820), no.
+                  2062 in the sale catalogue of Southey’s library. John Owen (1616–1683;
+                     <title>DNB</title>) had been appointed Dean of Christ Church, Oxford,
+                  1651–1660, by Oliver Cromwell (1599–1658; Lord Protector 1653–1658;
+                     <title>DNB</title>), in his role as Chancellor of the University of Oxford
+                  1650–1657.</note> The Book will make what is now called a <hi rend="ital">sensation</hi></p><closer><salute rend="indent2"> Yrs very truly</salute><signed rend="indent3"> R Southey</signed></closer><postscript><p rend="indent0"><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-01-28"> 28 Jan<hi rend="sup">y</hi>. 1821.</date></p></postscript></div></body></text></TEI>

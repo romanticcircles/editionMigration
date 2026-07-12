@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3384. Robert Southey to Charles Watkin Williams Wynn,
+						7 November 1819</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3384</idno></publicationStmt><sourceDesc><p>National
+						Library of Wales, MS 4813D. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3384" type="letter"><head>3384. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>,
+						<date when="1819-11-07">7 November 1819</date><note type="headnote" place="foot" resp="editors">MS: National
+						Library of Wales, MS 4813D. ALS; 3p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1819-11-07">7 Nov. 1819</date></dateline><salute rend="indent0"> My dear
+					Wynn</salute></opener><p rend="indent1"> Your letter gives me some insight into a business of which I know very little.<note n="1" place="foot" resp="editors">John Cannon Southey’s (d. 1768) fantastically complex will gave Southey some hope of
+						inheriting property at Fitzhead in Somerset, following the death of Southey’s third cousin, and John Cannon
+						Southey’s heir, John Southey Somerville, 15th Lord Somerville (1765–1819; <title>DNB</title>).</note> That I am
+					issue male of C (<ref type="m" target="people.html#SoutheyJohn">John Southey</ref> was B) is as certain as that I
+					am <ref type="m" target="people.html#SoutheyRobertSnr">my Father’s</ref> son. &amp; I believe that I am also Canon
+					Southeys right heir.<note n="2" place="foot" resp="editors">Southey was correct and he was John Cannon Southey’s
+						heir at law, i.e. the person who has a right to inherit the real property of someone who dies intestate; but this
+						fact did not help his claim on the Fitzhead estate. In this letter, ‘C’ is Southey’s father, Robert Southey, and
+						‘B’ is his uncle, John Southey.</note> – unless the property happens to be in that part of Taunton Dean which
+					would give it to <ref type="m" target="people.html#SoutheyEdward">my poor brother Edward</ref> by the Borough
+					English tenure that prevails there.<note n="3" place="foot" resp="editors">‘Borough English’ was the tradition in
+						certain parts of England that the youngest male child inherited their parents’ property. Southey was correct in
+						asserting that it prevailed in Taunton Deane.</note> The letter which I inclose for your sign manual is upon this
+					business, – <ref type="m" target="people.html#SoutheyMary">my Aunt</ref> being the only historian of our family,
+					&amp; the last of her generation. She is very much pleased with a discovery that <del>x</del> her grandmother was
+					related to Locke, &amp; of the same name.<note n="4" place="foot" resp="editors">Mary Southey’s grandmother (and
+						Southey’s great-grandmother) was Anne Locke (b. 1675), who married Robert Southey (1670–1726). She was believed by
+						Southey’s Aunt Mary to be a relative of the philosopher, John Locke (1632–1704; <title>DNB</title>), though the
+						precise relationship was impossible to disentangle.</note></p><p rend="indent1"> The Will in question was repeatedly litigated, &amp; I know that <ref type="m" target="people.html#SoutheyThomasUncle">Thomas Southey</ref> recovered by <del>xxx</del> law in right of <ref type="m" target="people.html#SoutheyJohn">John</ref> an equivalent for the plate &amp; furniture at Fitzhead,
+					which was devised to <del>xx</del> B &amp; C &amp; D (the three brothers) in case A succeeded to the Somerville
+					title before he had issue male.<note n="5" place="foot" resp="editors">A judgment in the Court of Chancery, on 28
+						March 1807, in the case of Southey <title>v</title>. Lord Somerville, one of many legal actions arising from the
+						will of John Cannon Southey, had decided that the money raised from the sale of the furniture and plate from the
+						Fitzhead estate should be invested and that Thomas Southey should receive the interest from that money. It was not
+						clear what would happen after his death. Southey is here using letters to refer to the people named in John Cannon
+						Southey’s will: ‘A’ is Lord Somerville; and ‘B’, ‘C’ and ‘D’ are the three brothers Thomas, John and Robert
+						Southey (respectively), Southey’s uncles and father.</note> Lord Somerville however sold the property, &amp; <ref type="m" target="people.html#SoutheyJohn">John S.</ref> (a lawyer, &amp; a man of no ordinary talents for
+					business) said at the time he could not convey a good title with it.</p><p rend="indent1"> I apprehend the question will be whether the remainder of a term of 99 years be worth contending
+					for. It is however worth inquiring into. – And indeed it now occurs to me as not impossible that, not the Fitzhead
+					lands alone, but the whole property may have been willed to C. Southeys right heirs in failure of Lord S’s issue. A
+					little enquiry will make all plain, &amp; it cannot be in better hands than <ref type="m" target="people.html#TurnerSharon">Turners</ref>. This chance would be worth contending for, – the whole property
+					is worth about 1000£ a year -</p><closer><salute rend="indent1"> God bless you</salute><signed rend="indent2"> RS.</signed></closer><postscript><p rend="indent1"> I shall not set out till about the end of January, – that is when Wesley<note n="6" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise and Progress of Methodism</title> (1820).</note>
+						is off my hands &amp; certain articles for the QR. – upon the New Churches, – &amp; <ref type="m" target="people.html#CoxeWilliam">Coxes</ref> life of Marlborough.<note n="7" place="foot" resp="editors">Southey’s review of Benjamin Haydon, <title>New Churches, Considered with Respect to the Opportunities they
+								Offer for the Encouragement of Painting</title> (1818) appeared in <title>Quarterly Review</title>, 23 (July
+							1820), 549–591; his review of William Coxe, <title>Memoirs of John Duke of Marlborough, with his Original
+								Correspondence; Collected from the Family Records at Blenheim, and Other Authentic Sources. Illustrated with
+								Portraits, Maps, and Military Plans</title> (1818–1819) appeared in<title> Quarterly Review</title>, 23 (May
+							1820), 1–73.</note> – The difference which a good succession would make to me in my way of life, would be that I
+						should never more write a single line with a view to profit. – The difference which an event of this kind
+						occasioned to a woman in this county is worth mentioning.<note n="8" place="foot" resp="editors">Southey noted
+							this story in <title>Common-Place Book</title>, ed. John Wood Warter, 4 series (London, 1849–1850), IV, p. 535,
+							but without revealing the name of the lady, only that he had heard of the matter from a ‘Miss Grisdale’ –
+							probably Caroline Grisdale (1782–1843), youngest daughter of Browne Grisdale (1750–1814), clergyman and
+							Chancellor of the Diocese of Carlisle 1804–1814.</note> She succeeded to 70,000£: – upon which she took to lump
+						sugar instead of moist in her tea, &amp; drank the tea out of a china tea-cup: – in every thing else retaining the
+						same habits as in her former poverty. But the income tax made her perfectly unhappy whenever it became due.</p></postscript></div></body></text></TEI>

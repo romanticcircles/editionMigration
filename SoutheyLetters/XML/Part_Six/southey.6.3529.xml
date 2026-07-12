@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3529. Robert Southey to Herbert Hill, 29 August 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3529</idno></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery, WC 199. ALS; 4p.
+						.  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3529" type="letter"><head>3529. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle">Herbert Hill</ref>, <date when="1820-08-29">29 August 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ The Rev<hi rend="sup">d</hi>. Herbert Hill/ Streatham/ Surry.<lb/> Stamped: KESWICK/ xxx<lb/> Postmark: [partial] 10
+						o’Clock/ SP. 1/ 1820; E/ 1 SE 1/ 1820 <lb/> MS: Keswick Museum and Art Gallery, WC 199. ALS; 4p.<lb/>
+						Unpublished.</note></head><p rend="indent1"> I have a very fine copy of Ant. Nebrissensis,<note n="1" place="foot" resp="editors">Antonio de
+						Lebrija (1441–1522), <title>Rerum a Ferdinando et Elisabeth Hispaniarum Regibus Gestarum Decades II</title>
+						(1545), no. 1925 in the sale catalogue of Southey’s library. Southey had bought the book from Jean-Baptise Ver
+						Beyst (1770–1849), a celebrated Brussels bookseller.</note> which as it contains the other works you mention, is
+					probably the same edition as yours – Granada 1545 – a specimen of singularly fine printing. It is one of my
+					Brussels purchases &amp; I thought it cheap at thirty francs.</p><p rend="indent1"><ref type="m" target="people.html#PopleWilliam">Pople</ref> gets on with the reprint of the first
+						vol,<note n="2" place="foot" resp="editors">The second edition of the first volume only of the <title>History of
+							Brazil</title> (1810–1819), published in 1822.</note> – &amp; I with the additions &amp; corrections to it, the
+					former being considerable both in number &amp; value. – Yesterday I sent up the first chapter of the Peninsular
+						War,<note n="3" place="foot" resp="editors"><title>History of the Peninsular War</title>, 3 vols (London,
+						1823–1832), I, pp. 3–62.</note> – which goes to Bulmers press because William Nicol<note n="4" place="foot" resp="editors">William Nicol (d. c. 1855), printer and bookseller. <title>The History of the Peninsular
+							War</title> (1823–1832) was printed by Thomas Davison (1766–1831), the usual collaborator of its publisher John
+						Murray, not by Nicol. William Bulmer (1757–1830; <title>DNB</title>) was a well-known printer of high-quality
+						publications. On his retirement in 1819, William Nicol took over his business.</note> has entered into partnership
+					with him, &amp; this gives me facilities for conveying some of the proof sheets occasionally to <ref type="m" target="people.html#HerriesJohnCharles">Herries</ref> &amp; one or two other persons, who have ex-officio
+					knowledge concerning <del>pxx</del> certain parts of the history, &amp; may set me right if I am under any
+					misapprehension.</p><p rend="indent1"><ref type="m" target="people.html#SoutheyMary">My Aunt Mary</ref> arrived a fortnight ago, in good
+					health &amp; good equable spirits, &amp; looking remarkably well for her years. She is very much pleased with the
+					country, &amp; has set you an example which ought to be followed for a journey of three hundred miles in this
+					country is nothing, when you are about it. C’est le premier pas qui coute.<note n="5" place="foot" resp="editors">‘It is the first step which costs’.</note></p><p rend="indent1"> Poor M<hi rend="sup">r</hi> Davies!<note n="6" place="foot" resp="editors">Reynold Davies
+						(1752–1820), Curate of Streatham and a neighbour of Herbert Hill, had died on 29 July 1820.</note> – If M<hi rend="sup">r</hi> Jones the first<note n="7" place="foot" resp="editors">Probably a reference to one of two famous
+						brothers who served in the Peninsular War: Sir John Thomas Jones, 1st Baronet (1783–1843; <title>DNB</title>) and
+						General Sir Henry David Jones (1791–1866).</note> should happen to be at <ref type="m" target="places.html#Streatham">Streatham</ref>, it would be of use to me if you could learn from him some
+					particulars concerning the state in which he found Zaragoza,<note n="8" place="foot" resp="editors">Zaragoza
+						endured two sieges from French forces in 1808–1809, leading to over 50,000 deaths. The city’s two cathedrals and
+						the Basilica of Saint Engracia survived.</note> – that is – what proportion of the city was destroyed in the two
+					sieges, &amp; more especially whether the Cathedral, &amp; the famous church of S Engracia were demolished.</p><p rend="indent1"> It is very strange that I have never been able to ascertain the real mischief which was done at
+					Alcobaça &amp; Batalha.<note n="9" place="foot" resp="editors">The medieval Alcobaca and Batalha Monasteries in
+						Portugal. </note> I have heard the most contradictory accounts, &amp; it is quite impossible to know how to chuse
+					between them.</p><p rend="indent1"> I am going to print that account of Lope de Aguirre<note n="10" place="foot" resp="editors">Southey’s <title>The Expedition of Orsua; and the Crimes of Aguirre</title> (1821), originally intended to be
+						part of the <title>History of Brazil</title> (1810–1819) and first published in <title>Edinburgh Annual Register,
+							for 1810</title>, 3.2 (1812), i–l.</note> in a little volume <hi rend="ital">per se</hi>, if I can get a history
+					of Venezuela by Oviedo y Baños,<note n="11" place="foot" resp="editors">José de Oviedo y Baños (1671–1738),
+							<title>Historia de la Conquista y Población de la Provincia de Venezuela</title> (1723), no. 3605 in the sale
+						catalogue of Southey’s library.</note> which contains some curious documents concerning it. Do you think your
+					friend Murdoch<note n="12" place="foot" resp="editors">Possibly John Murdoch (1747–1824; <title>DNB</title>),
+						teacher, translator and authority on French literature and language.</note> has the book? I looked for it without
+					success at <ref type="m" target="places.html#HollandHouse">Holland House</ref>, &amp; at <ref type="m" target="people.html#GoodenJames">Gooden’s</ref>, which were both likely places. – The story is a very remarkable
+					one, &amp; unlike any other event in history. I should like therefore to make the account as compleat as possible,
+					&amp; having added Piedrahita Hist. de Nuevo Reyno de Granada<note n="13" place="foot" resp="editors">Lucas
+						Fernández de Piedrahita (1624–1688), <title>Historia General de las Conquistas del Nuevo Reyno de Granada</title>
+						(1688), no. 3615 in the sale catalogue of Southey’s library.</note> to my collection since it was written, Oviedo
+					y Banos is the only authority wanting; – but – I apprehend it is the most important of all.</p><p rend="indent1"> The younger <ref type="m" target="people.html#WestallWilliam">Westall</ref> is making for me half
+					a dozen views in this immediate neighbourhood to ornament a volume of Dialogues,<note n="14" place="foot" resp="editors"><title>Sir Thomas More: or, Colloquies on the Progress and Prospects of Society</title> (1829). Six
+						engravings from Westall’s views appeared in the book.</note> which being upon grave subjects concerning the past
+					stages, <del>x</del> present state &amp; prospects of society, I mean to relieve with descriptive passages, – &amp;
+					after the manner of Boethius<note n="15" place="foot" resp="editors">Southey’s model was Anicius Manlius Severinus
+						Boethius (c. 480–525), <title>De Consolatione Philosophiae</title>, a dialogue between the author and the
+						character of Lady Philosophy, consisting of both prose and verse.</note> with occasional pieces in verse. The
+					dialogue is a difficult form of composition, but it has its advantages. I have nearly finished the second, &amp; am
+					thus far well pleased with my progress.</p><p rend="indent1"> We have seen fewer strangers than usual, – which may perhaps be owing to the pending business in
+						Parliament.<note n="16" place="foot" resp="editors">The Second Reading debate had begun on 17 August 1820 of a
+						Bill of Pains and Penalties to deprive Caroline of Brunswick (1768–1821; <title>DNB</title>), George IV’s
+						estranged wife, of the title of Queen and to dissolve their marriage. The Queen’s case was supported by the
+						majority of radicals and many Whigs, and while the Bill just passed the House of Lords on 10 November, the
+						government declined to introduce it into the House of Commons.</note> That business I am inclined to think will do
+					as much good as there was at one time reason to apprehend that it might occasion immediate evil. The glaring guilt
+					&amp; infamy <del>xxx</del> may make a great number of deluded persons perceive the evil intentions as well as the
+					bad faith of those who have so impudently deceived them. And if Government take advantage of the opportunity
+						<del>xxx</del> at the turn of tide, the most mischievous of the newspapers have had rope given them, &amp; have
+					noosed themselves to its hands. I hope also it may lead to the organization of a strong civil force, now we have
+					found that the constables staff is a weapon which may be trusted more safely than the bayonet.<note n="17" place="foot" resp="editors">A battalion of the 3rd Regiment of Guards in King’s Mews had mutinied on 15 June 1820,
+						complaining of poor conditions; and Queen Caroline was reported to be very popular in Guards Regiments.</note></p><p rend="indent1"> Love to <ref type="m" target="people.html#HillCatherine">my Aunt</ref>, – <ref type="m" target="people.html#HillRobertSouthey">my namesake</ref>, – the <ref type="m" target="people.html#HillGeorgiana">Dutchess Georgiana</ref>, &amp; good little <ref type="m" target="people.html#HillAlfred">Alfred</ref>. The
+					elders I suppose are returned to school.</p><closer><salute rend="indent1">God bless you</salute><signed rend="indent2">RS.</signed></closer><postscript><p rend="indent0"><date when="1820-08-29"> Tuesday 29 Aug.</date></p></postscript></div></body></text></TEI>

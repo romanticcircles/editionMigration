@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3753. Robert Southey to [Edward
+                  Moor], 4 December 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3753</idno></publicationStmt><sourceDesc><p>Cornell University Library. ALS; 2p. (c).
+                  .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3753" type="letter"><head>3753. Robert Southey to [<ref type="a" target="people.html#MoorEdwardMajor">Edward
+                  Moor</ref>], <date when="1821-12-04">4 December 1821</date><note type="headnote" place="foot" resp="editors">Endorsement: 1821/ Keswick 4 Decr;
+                  Major Moor<lb/> MS: Cornell University Library. ALS; 2p. (c).<lb/>
+                  Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-12-04"> 4 Dec. 1821.</date></dateline><salute rend="indent0"> Dear Sir</salute></opener><p rend="indent1"> Immediately on the receipt of your letter I carefully packed up your
+               volume of extracts,<note n="1" place="foot" resp="editors">Moor had lent Southey
+                  materials on the Peninsular War of 1808–1813.</note> &amp; it will go for London
+               by tomorrows coach. When it can be spared I shall be most glad to be favoured with it
+               again. It will be of the greatest use to me when I reach the time where it
+               begins.</p><p rend="indent1"> Should <ref type="m" target="people.html#MurrayJohn">my
+                  publishers</ref> determine upon sending my History abroad, volume by
+               volume without waiting till the whole is compleated,<note n="2" place="foot" resp="editors">Southey’s <title>History of the Peninsular War</title>
+                  (1823–1832).</note> I shall in that case have the pleasure of sending copies of
+               the first volume to you, &amp; to Sir Augustus Frazer<note n="3" place="foot" resp="editors">Sir Augustus Simon Frazer (1776–1835; <title>DNB</title>), a
+                  career soldier, had seen service in the Peninsular campaign of 1812–1813 as a
+                  highly effective senior commander of horse artillery. He was Moor’s
+                  brother-in-law, and it was Frazer’s papers that Moor had lent to Southey.</note>
+               early in the ensuing spring. About sixty sheets are printed. This volume contains so
+               much which is preliminary to the war, &amp; so much which is not military, that it
+               will only come down to the end of Sir John Moores campaign.<note n="4" place="foot" resp="editors">The British commander, Sir John Moore (1761–1809; DNB). After a
+                  highly controversial campaign, he was killed in battle at Corunna on 16 January
+                  1809. Southey’s account concluded with the embarkation of the British forces after
+                  Moore’s death; see the <title>History of the Peninsular War</title>, 3 vols
+                  (London, 1823–1832), I, p. 806.</note> No other two years, upon the same scale of
+               narration, will occupy so much room as this one.</p><p rend="indent1"> It would indeed have given me great pleasure to have seen you at <ref type="m" target="places.html#Keswick">Keswick</ref>, &amp; to have shown you a
+               country which even after Switzerland may certainly be seen with pleasure. On my
+               return from that country<note n="5" place="foot" resp="editors">i.e. after
+                  Southey’s return from his continental tour in May–August 1817.</note> I felt the
+               poverty of our vales more than the inferiority of our mountains. But there is a charm
+               of proportion here; – there is a sense of safety which in all the finest parts of
+               Switzerland is wanting; we have no icey winds, – &amp; no goitres – which make ones
+               heart ache in the Valais &amp; the Maurienne.</p><p rend="indent1"> Pray remember me &amp; my family in the kindest manner to the
+                  Clarksons.<note n="6" place="foot" resp="editors"><ref type="m" target="people.html#ClarksonCatherine">Catherine</ref> and Thomas Clarkson,
+                  neighbours of Moor’s in Suffolk.</note> I should much like to see his royal
+               guests, – who are certainly beholden to him for their elevation, – whatever may have
+               been the cause of their fall.<note n="7" place="foot" resp="editors">The exiled
+                  Queen of Haiti, Marie-Louise Christophe (1778–1851), and her daughters,
+                  Françoise-Améthyste (1798–1831) and Anne-Athénaïre (1800–1839), were staying with
+                  the Clarksons at Playford Hall. Her husband, the ex-slave and revolutionary leader
+                  Henri Christophe (1767–1820; King of Haiti, 1811–1820), had committed suicide the
+                  previous year, faced with the collapse of his regime. Clarkson had carried out an
+                  extensive correspondence with Christophe and acted as his adviser on European
+                  affairs. He was instrumental in bringing Christophe’s family to Britain after the
+                  King’s death and helped arrange their financial affairs. They moved to Italy in
+                  1824; neither daughter married.</note> If I were T. Clarkson<note n="8" place="foot" resp="editors">Thomas Clarkson (1796–1837), son of Catherine and
+                  Thomas Clarkson.</note> I think I should fall in love with one of the Princesses.
+               Remember me also to <ref type="m" target="people.html#BartonBernard">Bernard
+                  Barton</ref>, of whom the Quakers ought to be proud.</p><p rend="indent1"> I hope you may be induced to set out for the Lakes another year,
+               &amp; with better fortune.</p><closer><salute rend="indent1"> Believe me</salute><salute rend="indent2"> Dear Sir</salute><salute rend="indent3"> Your obliged &amp; obedient servant</salute><signed rend="indent4"> Robert Southey.</signed></closer></div></body></text></TEI>

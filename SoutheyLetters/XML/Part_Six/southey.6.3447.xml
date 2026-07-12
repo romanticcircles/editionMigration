@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3447. Robert Southey to Henry Herbert Southey,
+						28 February 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3447</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Don. d. 4. ALS; 3p.
+						.  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3447" type="letter"><head>3447. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>,
+						<date when="1820-02-28">28 February 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ D<hi rend="sup">r</hi> Southey/ Queen Anne Street/ Cavendish Square/ London <lb/> Stamped: KESWICK/ 298<lb/> Postmark:
+						E/ 2 MR 2/ 1820<lb/> Endorsement: 28 Feby 1820<lb/> MS: Bodleian Library, MS Don. d. 4. ALS; 3p.<lb/>
+						Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1820-02-28">28 Feb<hi rend="sup">y</hi>. 1820</date></dateline><salute rend="indent0"> My
+						dear Harry</salute></opener><p rend="indent1"> I have letters both from <ref type="m" target="people.html#SoutheyMary">my Aunt</ref> &amp; the
+					Vicar of Wellington.<note n="1" place="foot" resp="editors">Robert Jarratt (1766–1843), Vicar of Wellington
+						1791–1843. Southey was dealing with the consequences of John Cannon Southey’s (d. 1768) fantastically complex
+						will, which gave Southey some hope of inheriting property at Fitzhead after the death of his third cousin, and
+						John Cannon Southey’s heir, John Southey Somerville, 15th Lord Somerville (1765–1819; <title>DNB</title>). Aunt
+						Mary had intended to search the parish registers at Wellington, Somerset, to prove that Southey was John Cannon
+						Southey’s heir at law, i.e. the person entitled to inherit his real property if he died intestate.</note> The
+					register of that parish goes back only to the year 1683, – &amp; therefore <del>continues</del> extends no further
+					than to the birth our grandfather Thomas,<note n="2" place="foot" resp="editors">Thomas Southey (1696–1777), a
+						farmer at Holford Farm, Lydeard St Lawrence in Somerset. He was the eldest of eight children, his younger siblings
+						being Mary (b. 1698), John (b. 1700), Ann (b. 1701), Robert (b. 1703), Mary (b. 1704), Hannah (b. 1706) and
+						William (b. 1708).</note> who appears to have been the eldest of eight children. Beyond his birth written evidence
+					is not to be procured: – &amp; if we were to lose <ref type="m" target="people.html#SoutheyMary">my Aunt</ref>,
+					there might be some difficulty in finding personal evidence to supply it. Will you call on <ref type="m" target="people.html#TurnerSharon">Turner</ref>, &amp; ask him what is to be done. And as I have (from <ref type="m" target="people.html#SoutheyMary">my Aunts</ref> positive testimony no doubt as to the fact of my being
+					heir at law (John &amp; Robert<note n="3" place="foot" resp="editors">John Southey (1666–1728) was John Cannon
+						Southey’s father and a lawyer; Robert Southey (1670–1726) was John Southey’s younger brother, the father of Thomas
+						Southey (1696–1777) and Robert Southey’s great-grandfather.</note> (our <del>Gd.</del> G. Grandfather) being the
+					only two brothers who married) – he had better take an opinion upon the case without farther delay. I would write
+					to himself, but for two reasons, – first that I do not like to send him a mere letter of business, – &amp; secondly
+					that being doubtful whether Parliament is dissolved or not, I cannot frank up the letter in the usual way.<note n="4" place="foot" resp="editors">The House of Commons was dissolved on 29 February 1820 and a general election
+						was called. This event suspended the power of Rickman, who was an official of the Commons, to frank mail until the
+						new parliament met.</note></p><p rend="indent1"> I write in haste, unwilling to lose time, because I am in hopes that I shall bury Wesley this
+						night.<note n="5" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise and Progress of
+							Methodism</title> (1820).</note> This new Guy Faux business, &amp; the murder of the Duc de Berry, coming so
+					close upon each other, will do much towards strengthening the Governments of Europe.<note n="6" place="foot" resp="editors">The Cato Street Conspiracy to assassinate the Cabinet was broken up on 23 February 1820; Southey
+						compares it to the plot in 1605 by Catholic conspirators to blow up parliament, in which Guy Fawkes (1570–1606;
+							<title>DNB</title>) was a leading figure. Charles Ferdinand d’Artoise, Duc de Berri (1778–1820), a nephew of
+						Louis XVIII (1755–1824; King of France 1814–1824), had been mortally wounded at the Paris Opera on 13 February
+						1820 by Louis Pierre Louvel (1783–1820), a Bonapartist.</note> I have long expected some murderous act or attempt
+					in this country</p><closer><salute rend="indent2"> God bless you</salute><signed rend="indent3"> RS.</signed></closer><postscript><p rend="indent1">Wellington has swarmed with Southeys who must have branched off at an earlier time. The Vicar
+						tells me of Peter &amp; Margaret, – George &amp; Faith, Thomas &amp; Mellinah, (I never saw this name before – ) –
+						John &amp; Elizabeth, John &amp; Hester, Hugh &amp; Sarah, Edward &amp; Grace.<note n="7" place="foot" resp="editors">All of these Southeys were distant relations of Southey from the late seventeenth century and
+							early eighteenth century whose names appeared in the parish register as married couples and who had baptised
+							children at St John’s Church, Wellington: Peter Southey (1634–1717), a serge maker, married Margaret Burd (d.
+							1702) in 1680; George Southey (d. 1736) married Faith Marsh (d. 1730) in 1687; Thomas Southey was married to
+							Melliah Southey (dates unknown); John Southey (1685–1770) married Elizabeth Payne (dates unknown) in 1708; John
+							Southey was married to Hester Southey (dates unknown); Hugh Southey, a farmer, (d. 1725) married Sarah Fursland
+							(dates unknown) in 1694; Edward Southey (d. 1705), a labourer, was married to Grace Southey (dates
+							unknown).</note></p><p rend="indent1"> Among so many one might apprehend a prior claim, if <ref type="m" target="people.html#SoutheyMary">my Aunt</ref> were not positive in her account, &amp; if her means of knowing
+						had not been good.</p></postscript></div></body></text></TEI>

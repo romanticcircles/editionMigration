@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Introduction to Part Three</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author>Tim Fulford</author><author>Carol Bolton</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.partThreeIntro</idno></publicationStmt><sourceDesc><p>These letters were edited by Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2013-08-15. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div head
+                        must contain document information, not html styling information)</item><item>If incorrect current document publication information in sourceDesc/biblstruct,
+                        I corrected this prior to moving that information elsewhere (it shouldn't be
+                        "source").</item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+                    Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+                    Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">Introduction to Part Three</title>, <title level="m">The Collected Letters of Robert Southey</title>, by <author>Tim
+                            Fulford</author> and <author>Carol Bolton</author></bibl></head><p>Part Three is the first-ever collected edition of the surviving letters written
+                    by Southey between 1804 and 1809. The letters published here begin with Southey
+                    writing to his brother with a draft of his epic poem <title>Madoc</title>; they
+                    end on New Year’s Eve 1809, with him discussing Coleridge’s <title>The
+                        Friend</title> and his own new writing in the <title>Quarterly
+                        Review</title> and <title>The Curse of Kehama</title> (published in 1810).
+                    Part Three follows the editorial conventions described in ‘About this Edition’
+                    and publishes newly transcribed, fully annotated texts, bringing together in one
+                    place correspondence scattered between archives in North and South America and
+                    the United Kingdom. It comprises 850 letters, many of which are published for
+                    the first time or published in full for the first time.</p><p rend="indent1">The letters in Part Three were sent to over 50 very diverse
+                    individuals including friends from childhood and school (Charles Danvers,
+                    Grosvenor Charles Bedford and Charles Watkin Williams Wynn), from university
+                    (Nicholas Lightfoot), from radical youth (Samuel Taylor Coleridge) and from
+                    professional life (Joseph Cottle and Daniel Stuart). The years 1804–1809 saw the
+                    consolidation of important relationships and correspondences, notably with the
+                    statistician John Rickman, the translator William Taylor, and the writer Mary
+                    Barker. New correspondences of lasting significance were begun: with Neville
+                    White, brother of Henry Kirke White, leading to Southey’s editing of Henry’s
+                        <title>Remains</title>; with Matilda Betham, who would paint Southey’s and
+                    his family’s portraits in London and Keswick; with Anna Seward, who would
+                    support his poetry in the press and to whom he would make an hilarious visit;
+                    with Walter Savage Landor, whose enthusiasm for his poetry inspired him to
+                    return to writing verse in <title>The Curse of Kehama</title> and
+                        <title>Roderick Last of the Goths</title> (1814); with Walter Scott, whose
+                    good offices led Southey to a new career writing for the <title>Quarterly
+                        Review</title> and the <title>Edinburgh Annual Register</title>, and to the
+                    Laureateship. </p><p rend="indent1">Writing for the journals produced much official correspondence:
+                    Part Three shows the beginnings of Southey’s relationships with his editor
+                    William Gifford, and his publishers John Murray and James Ballantyne. It also
+                    reveals him as an advisor of other writers: his reputation, if not his
+                    remuneration, was beginning to burgeon and he found himself sought out for
+                    advice by budding poets. Letters to Ebenezer Elliott show Southey’s pragmatic
+                    support of a young writer in whom he recognised talent. </p><p rend="indent1">The six years covered by Part Three were a time of gradual
+                    settlement into a way of life and a home. In the beginning of 1804 Southey was
+                    newly resident at Greta Hall, Keswick, which Coleridge had just left. By the end
+                    of 1809 he was an established family man there, with three children and many
+                    friendships – including the anti-slavery campaigner Thomas Clarkson, his old
+                    acolyte Charles Lloyd (in Ambleside), the landowner Humphrey Senhouse and
+                    Wordsworth, whose poetry he came to value very highly, even while bemused by his
+                    personal vanity. But it was not until 1807 that he had ceased hankering to move
+                    south – perhaps to Bristol or Bath, or to Portugal – and accepted that the Lake
+                    District would remain his home. By then he had established a pattern of intense
+                    literary work during the winter months, and fellwalking and boating in the
+                    summer. Visits to friends in London and Bristol punctuated the ‘bookmaking’
+                    routine biennially. Constantly short of money in these years, and having to
+                    provide for Coleridge’s family and for Robert Lovell’s widow, child and mother,
+                    Southey drove his pen with unending determination. Each day was divided: verse
+                    writing came before breakfast because it paid too little to be done during the
+                    day, which was devoted to more lucrative work – writing reviews, translating
+                    medieval chronicles and romances, compiling anthologies, editing literary
+                    remains and labouring on his large-scale histories of Portugal and Brazil. After
+                    a break for dinner, letters were written in the evening, and were vital links to
+                    the world of literary gossip and publishing opportunities in London and
+                    Edinburgh. Southey used them to propose new literary schemes and to forge
+                    alliances; he also depended on them to maintain friendships that sustained him
+                    financially: both John May and Wynn loaned and gave him much needed money. With
+                    sales of his poems meagre, and rates for reviewing in London journals low, it
+                    was only when the opportunities to write for the <title>Quarterly Review</title>
+                    and <title>Edinburgh Annual Register</title> arose that financial security
+                    seemed possible. </p><p rend="indent1">Southey’s output in these years was phenomenal: two epic poems,
+                    two translations of medieval books, an anthology, two travel narratives, an
+                    edition of another writer’s works, the first volume of a major history, new
+                    revised editions of his poems, and over a hundred reviews and articles. He sent
+                    these works in manuscript through the post, availing himself of Wynn’s and
+                    Rickman’s parliamentary privileges to frank mail gratis. With these friends, he
+                    discussed his changing political views: by 1809 the once Jacobinical, pro-French
+                    Revolution radical was arguing that no peace with France was possible until
+                    Napoleon was overthrown. His pro-war politics were defined by his sympathy for
+                    the people of Portugal and Spain, where he had twice lived, in their struggle to
+                    liberate themselves from French imperial rule. It led him to despise the Whigs
+                    who argued for peace and to refuse to write for their main journal – the
+                        <title>Edinburgh Review</title>. Yet at the same time the ministry’s
+                    toadying to the corrupt princes and pusillanimity over sending soldiers to fight
+                    in Europe left him disgusted at the Tories: in 1808 he was alienated from all
+                    parties and declared that either a reform must happen, or revolution would
+                    occur. Given this revulsion at political infighting and corruption, it is
+                    bewildering to see him accepting a pension from the government in 1807, and in
+                    1809 requesting Tory power-brokers, whose influence he had formerly resented, to
+                    gain him a sinecure. Poverty was a motive, as was a desire for recognition that
+                    remained unfulfilled when his books were badly reviewed, but Southey believed,
+                    inexplicably, that his independence would not be compromised. Gradually however,
+                    it was compromised: although in late 1808 he wrote to several friends declaring
+                    that he would stop writing for the <title>Quarterly</title> if it toed the
+                    government line, he remained a contributor even when the editor cut his
+                    trenchant criticisms of church and state from his contributions. Reporting
+                    plaintively to friends the hand-writing of excised passages back into the
+                    margins of his own copies of the journal was his limited response to these
+                    editorial interventions. </p><p rend="indent1">Journalism changed Southey in the years 1804–1809; it did not,
+                    however, define him. Encouraged by Landor, he returned to epic poetry; inspired
+                    by his uncle, he took on himself the mantle of historian of Portugal and Brazil,
+                    perceiving his poems and histories as great works on which posterity would judge
+                    him. Journalism compromised his independence, but it supported him and his
+                    families, allowing him to pursue the higher callings of poet and historian. If
+                    this was a sometimes uneasy and divided conception of himself as a writer, it
+                    motivated him to pursue these callings with great thoroughness. The
+                        <title>History of Brazil</title> emerged from meticulous research in
+                    Spanish, Portuguese and Latin sources, carried on assiduously from 1806 onwards
+                    – and bringing books galore to Greta Hall by mail coach, ship and wagon. The
+                    correspondence of these years reveals Southey as a bibliophile in the making,
+                    assembling a fine collection of rare books and manuscripts on Iberia and its
+                    colonies; books he read thoroughly but also loved as objects. </p><p rend="indent1">By 1809, established in his study with its commanding view of
+                    Borrowdale, Derwentwater and the Newlands valley, surrounded by his library,
+                    harnessed to his multiple literary endeavours, supported by the families for
+                    whom he provided, he was a man at the centre of a world of his own making. If it
+                    seemed marginal to outsiders – a remote country retreat – to him it was a place
+                    of strength from which, by dint of his correspondence, his immense industry
+                    could influence both the present and the future. The coming years, in which his
+                    reputation reached its peak, would prove him at least partially right. They
+                    would see him develop influential networks of communication, as his reputation
+                    as a poet and journalist made him a public figure. Aspiring young authors
+                    (Elliott and Kirke White) depended on his advice and support, and experienced
+                    literary figures (Scott, Richard Duppa and Taylor) respected his archival
+                    knowledge, his expertise on Hispanic literature, and his ambitious works of
+                    historiography. At the hub of his literary operations in Keswick, and through an
+                    ever-growing network of correspondence, Southey was never cut off from the wider
+                    world around him. Yet the peace and stability of his home enabled his productive
+                    engagement in many literary forms and subjects of interest. The letters he wrote
+                    during the early years of the nineteenth-century see him forging relationships
+                    with politicians, social reformers, writers and publishers. His opinions on
+                    colonial ventures, the social problems created by industrialisation, events in
+                    the war with France, were just some of the topics that he tested his ideas on
+                    privately in his correspondence, and expanded on publicly, in books and review
+                    articles. </p><p rend="indent1">Southey’s networking abilities have had consequences for the
+                    modern period in more ways than through his own publication of poems, histories
+                    and biographies. Tracing the transfer of information from private letters to the
+                    public sphere reveals unexpected consequences. For instance, Southey was
+                    persistent in seeking information on the West Indian plantocracy from his sailor
+                    brother, which frequently appeared in his review articles. The material Thomas
+                    gleaned from his Caribbean voyages became the subject of a book by him that was
+                    eventually seen through the press by Southey in 1827. Another enthusiasm that is
+                    mentioned frequently in the correspondence during these years is medieval
+                    romance. The publication of <title>Amadis of Gaul</title> (1803) corrected the
+                    historical records in asserting that the source for this work was Portuguese,
+                    and he disseminated this belief in his letters to fellow authors and the pages
+                    of the <title>Monthly Magazine</title>. It was his reputation in this field that
+                    led to the discovery through one of his correspondents of a previously
+                    unlocated, fifteenth-century metrical manuscript. Purchased through his
+                    connections with Scott, this is now housed in the archives of the National
+                    Library of Scotland. </p><p rend="indent1">Reading the letters, the only medium of communication available to
+                    Southey and his contemporaries, reinforces our understanding of the processes by
+                    which knowledge circulated in the Romantic period. It also reveals the
+                    increasing influence of middle-class morality as he became more settled in his
+                    profession, and reflects the values of like-minded members of his circle.
+                    Commenting on topical issues, Southey’s letters report his strong feelings on
+                    Catholic reform, and the mutual disgust of many at the corrupt practices of
+                    notable figures such as Lord Melville and the Duke of York. They also remind us
+                    of how events that had national consequences were viewed outside the centres of
+                    power in Westminster. The speed at which such information is communicated and
+                    commented on in Southey’s correspondence, belies assumptions that those in the
+                    provinces were isolated from the metropolis, or that geographical remoteness
+                    inculcated political apathy. </p><p rend="indent1">Correspondence may have been Southey’s lifeline and network of
+                    influence, but it was fragile. Letters got lost, or never arrived – even in his
+                    own time. He discovered that messages his brother Tom threw overboard in bottles
+                    were as likely to reach him as his letters to Tom, sent by post, were to arrive
+                    at his ship. And although inland post was reliable, many correspondents of this
+                    period did not keep Southey’s letters. Although over 800 survive, references
+                    within surviving letters to ones now lost remind us of the fragile, selective
+                    nature of what has come down to us. It is clear from this edition, that some
+                    important correspondences now exist only in part, or not at all, notably with
+                    Coleridge, George Dyer, Stuart, Cottle and Charles Lamb. Nevertheless, we are
+                    able to present here previously unpublished letters containing assessments of
+                    such luminaries as Wordsworth, Coleridge, Scott and Davy. Southey’s
+                    understanding of the writing of his peers and his centrality to Romantic
+                    literary culture are both on display as never before.</p></div></body></text></TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3637. Robert Southey to Henry Herbert Southey, 21 February 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3637</idno></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery, KESMG 1996.5.112. ALS; 4p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3637" type="letter"><head>3637. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>, <date when="1821-02-21">21 February 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ D<hi rend="sup">r</hi> Southey/ 15. Q. Anne
+                  Street/ Cavendish Square/ London<lb/> Stamped: KESWICK/ 298<lb/> Postmark: E/ 24 FE 24/ 1821<lb/> Seal: red wax; arm raising aloft
+                  cross of Lorraine<lb/> MS: Keswick Museum and Art Gallery, KESMG 1996.5.112. ALS; 4p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1821-02-21">21 Feb<hi rend="sup">y</hi>. 1821</date></dateline><salute rend="indent0"> My dear
+               Harry</salute></opener><p rend="indent1"> Your opinion about the three Dedications<note n="1" place="foot" resp="editors">The ‘Dedication’ to George IV of
+                     <title>A Vision of Judgement</title> (1821). Southey to Grosvenor Charles Bedford, 3 February 1821, Letter 3625, contained two
+                  versions, of which the least controversial was used, omitting such advice as: ‘adequate remedy should be applied to that intolerable
+                  licentiousness of the press … either by the vigorous application of existing laws or by the enactment of such new ones as the
+                  suspension of the abuse may render necessary’. The third version, mentioned here to Henry Herbert Southey, was Bedford’s own
+                  composition.</note> agrees very well with my own, – &amp; the first should without hesitation have been sent to the press if the
+               work had not been one which was published <hi rend="ital">ex officio</hi>. But I felt that tho RS. may be perfectly qualified to offer
+               advice to <ref type="m" target="people.html#GeorgePrinceRegent">his Majesty</ref>, &amp; is as ready to do it as Alderman Wood<note n="2" place="foot" resp="editors">Sir Matthew Wood, 1st Baronet (1768–1843; <title>DNB</title>), MP for the City of London 1817–1843
+                  and Lord Mayor of London 1815–1817. He was a well-known Whig and supporter of George IV’s estranged wife, Queen Caroline (1768–1821;
+                     <title>DNB</title>).</note> himself, or any other member of the Common Council, – it does not fall quite so clearly within the
+               limits of the P.L’s duties. Upon this point I desired <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> to ask
+                  <ref type="m" target="people.html#HerriesJohnCharles">Herries’s</ref> opinion, – he being so much an official man as to know in what
+               manner such <del>xxx</del> a thing was likely to be taken, – &amp; as you know, a man of good sense. If he felt an impropriety when I
+               suspected one, his opinion would decide me upon a question which I cared very little about. Upon his decision I took out all that was
+               useful, &amp; left the complementary part, <del>&amp; a xx which was</del> &lt;much&gt; the worse for the separation. <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> will by this time have seen that his performance was not very graciously
+                  received.<note n="3" place="foot" resp="editors">Southey to Grosvenor Charles Bedford, 16 February 1821, Letter 3635.</note> When he
+               sits down to composition he has a fine talent for bad writing. So the second is to stand. – You wonder why I <del>xxx</del> let other
+                  <del>xxx</del> people act for me. I like to let them please themselves by taking into their serious consideration matters which to
+               me are of no consideration whatever. Upon matters of consequence, or to which any real interest is attached, you will find me always
+               ready to act for myself, with promptitude &amp; decision</p><p rend="indent1"> Now with respect to these drawings.<note n="4" place="foot" resp="editors">Drawings of the Southey family that Nash had
+                  made at Keswick in 1820.</note> The two miniatures had better be glazed &amp; framed, not for hanging up, but put in red cases. The
+               portraits of <ref type="m" target="people.html#SoutheyMary">my Aunt Mary</ref>, <ref type="m" target="people.html#SoutheyTom">Tom</ref>, <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cuthbert</ref> &amp; one of <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> framed, if the <del>print</del> frames spoken of in <ref type="m" target="people.html#NashWilliam">Mr W Nash’s</ref> letter, were intended for these (only four could be meant for me) they will be
+               plain flat gold frames, <del>x</del> to match what I already have, which were charged ten shillings each. The others are for a
+               portfolio. Has <ref type="m" target="people.html#MayJohn">John May</ref> had his portrait of <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref>? If not let him take his choice. But I think if he had not <del>x</del> he
+                  <del>should</del> &lt;would&gt; have let me know.</p><p rend="indent1"> I am glad <ref type="m" target="people.html#KnightonSirWilliam">Sir W<hi rend="sup">m</hi> K.</ref> is pleased.<note n="5" place="foot" resp="editors">Knighton had agreed to present <title>A Vision of Judgement</title> (1821) to George IV.</note>
+               There are men in the world (&amp; they are perhaps the majority) who would be more likely to serve you for a trifling gratification of
+               this kind, than for the greatest obligation which could be conferred upon them. The reason is plain enough: in the one case they are
+               put into <del>xxx</del> good humour, – in the other they feel indebted.</p><p rend="indent1"><ref type="m" target="people.html#SoutheyEdithMay">Edith-May</ref> has had upon one of her eyelids for many months what
+               in any one whose skin was more active &amp; healthy, would have <del>xx</del> come to a wisp &amp; so been got rid of. It gathered a
+               fortnight ago, &amp; <ref type="m" target="people.html#EdmondsonDr">Edmondson</ref> lanced it when the gathering instead of breaking,
+               began to go back. But it has left a red tumour, tho it was poulticed in hopes of making it discharge. Can anything be done to discuss
+               it? – Her pimples are no better, &amp; I am very apprehensive that they never will be.</p><p rend="indent1"> I shall write to thank <ref type="m" target="people.html#NashWilliam">M<hi rend="sup">r</hi> W Nash</ref>. The address
+               which he recommends for frames is M<hi rend="sup">r</hi> W Hawens<note n="6" place="foot" resp="editors">The studio of William Haines
+                  (1778–1848; <title>DNB</title>), painter and engraver.</note> (if I read it rightly) No. 3 Boyle Street, Saville Row, – &amp; the
+               place where the frames were bespoken – M<hi rend="sup">r</hi> Smiths Great Marlborough Street.<note n="7" place="foot" resp="editors">John Smith (1781–1855), Picture Framer to George IV 1812–1830, and later a picture dealer. His premises were at 49 Great
+                  Marlborough Street.</note> – The drawing of my back was meant for a portrait of the author, to be the frontispiece of D<hi rend="sup">r</hi> D Dove.<note n="8" place="foot" resp="editors">The ‘Dr Dove project’ was finally published as Southey’s anonymous
+                  novel, <title>The Doctor</title> (1834–1847). Nash’s picture of Southey from behind, the ‘reariture’, was used as the frontispiece
+                  to the one-volume edition of <title>The Doctor</title> (London, 1848), [unpaginated], titled ‘Portrait of the Author’.</note> Poor
+                  <ref type="m" target="people.html#NashEdward">Nash</ref> took a great interest in all my schemes, – &amp; I am continually reminded
+               of his loss.</p><p rend="indent1"> What is become of <ref type="m" target="people.html#TylerElizabeth">Miss Tyler</ref>? – Love to <ref type="m" target="people.html#SoutheyLouisa">Louisa</ref> &amp; <ref type="m" target="people.html#GonneMrs">M<hi rend="sup">rs</hi>
+               G.</ref></p><closer><salute rend="indent2">God bless you</salute><signed rend="indent3"> RS.</signed></closer><postscript><p rend="indent1"> Three proofs of the P. War<note n="9" place="foot" resp="editors">Southey’s <title>History of the Peninsular
+                        War</title> (1823–1832).</note> are on the table.</p></postscript></div></body></text></TEI>

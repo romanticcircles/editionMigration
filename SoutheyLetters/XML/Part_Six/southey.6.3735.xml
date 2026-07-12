@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3735. Robert Southey to Henry Herbert Southey, 15 October 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3735</idno></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery, KESMG 1996.5.118. ALS; 4p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3735" type="letter"><head>3735. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>, <date when="1821-10-15">15 October 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ D<hi rend="sup">r</hi> Southey/ 15. Queen Anne
+                  Street/ Cavendish Square/ London.<lb/> Stamped: KESWICK/ 298<lb/> Postmark: E/ 18 OC 18/ 1821 <lb/> Seal: red wax; arm raising aloft
+                  cross of Lorraine<lb/> MS: Keswick Museum and Art Gallery, KESMG 1996.5.118. ALS; 4p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-10-15">15 Oct. 1821.</date></dateline></opener><p rend="indent1"> D<hi rend="sup">r</hi> Neale speaking of Constantinople says ‘Consumptions are not infrequent; &amp; generally they are
+               as fatal as elsewhere; altho the Turks have a popular remedy, which in some instances I have observed to be beneficial, namely a few
+               grains of pitch, made into pills, &amp; administered several times a day. A similar mode of cure has I understand, been long employed
+               by the Scottish peasantry. The decoction of the sprouts of the young pine has been strongly recommended by the late D<hi rend="sup">r</hi> Porterfield<note n="1" place="foot" resp="editors">William Porterfield (c. 1696–1771), Scottish physician.</note> of Eden,
+               who is said to have been very succesful in the exhibition of this simple medicine. Oriental nations have at all times put great faith
+               in the juices of terebinthate &amp; balsamic shrubs. The balsam of Mecca or Gilead<note n="2" place="foot" resp="editors">A resin
+                  extracted from the tree <title>Commiphora gileadensis</title> and used as a perfume and a drug.</note> is still considered by the
+               Turks as a sort of panacea in stomachic &amp; chronic visceral affections: the difficulty of obtaining it pure &amp; unadulterated –
+               &amp; its high price – are perhaps the real reasons why, like other vaunted remedies, it still maintains so high a reputation.’</p><p rend="right"> Neales Travels. p. 248.<note n="3" place="foot" resp="editors">Adam Neale (d. 1832; <title>DNB</title>), <title>Travels
+                     through Some Parts of Germany, Poland, Moldavia, and Turkey</title> (London, 1818), p. 248, no. 2098 in the sale catalogue of
+                  Southey’s library.</note></p><p rend="indent1"> Pitch pills<note n="4" place="foot" resp="editors">Pills made from the resin from trees.</note> must have the same
+               virtues as Tar Water<note n="5" place="foot" resp="editors">A medieval medicine of pine tar and water, revived in the nineteenth
+                  century as a tonic.</note> – whatever that may be; – &amp; it may be worth your while to look at Berkeleys marvellous essay upon
+               that subject.<note n="6" place="foot" resp="editors">George Berkeley (1685–1753; <title>DNB</title>), Anglo-Irish philosopher and
+                  author of <title>Siris, a Chain of Philosophical Reflections and Inquiries, Concerning the Virtues of Tar-Water</title>
+                  (1744).</note> – I remember (in connection with this subject) that some person advertised a secret &amp; sure remedy either for
+               consumption or scrofula (I am not certain which) &amp; wanted a subscription as the price of making it public. After awhile another
+               paragraph appeared saying so many pressing letters had been addressed to him, that tho a sum of money would have been most highly
+               useful to him, he could not <del>with</del> conscienciously delay the publication of a remedy for want of which so many of his fellow
+               creatures were suffering: – &amp; he stated it to be pitch pills – I think of considerable size. – The advertisements I am pretty sure
+               are in one of my Scrap volumes, &amp; I will hunt them out, if you wish for more accuracy than my recollection <del>xxx</del> can
+                  furnish.<note n="7" place="foot" resp="editors">These advertisements are untraced.</note></p><p rend="indent1"> Thank D<hi rend="sup">r</hi> Asburner<note n="8" place="foot" resp="editors">John Archibald Ashburner (1793–1878),
+                  Physician to the London Smallpox Hospital 1818–1824, later a prominent midwife and advocate of mesmerism. He had lent Southey a book
+                  on Quakerism for his unrealised biography of the movement’s founder, George Fox (1624–1691; <title>DNB</title>).</note> for the use
+               of his book. I am about to send some books to <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref>, &amp; will take that
+               opportunity of returning it, – as also of sending a packet for <ref type="m" target="people.html#RobinsonHenryCrabb">Henry
+                  Robinson</ref>, which you will be good enough to convey to his chambers.</p><p rend="indent1"> My working season is now going on. The last of our Laking acquaintance took their departures to day. Tomorrow I go to
+               dine in <ref type="m" target="people.html#SoutheyTom">Toms</ref> dirty &amp; uncomfortable house; – this is <hi rend="ital">por meus
+                  peccados</hi>.<note n="9" place="foot" resp="editors">‘for my sins’.</note> Wednesday a poor Dane <ref type="m" target="people.html#FeldborgAndreas">Andersen Feldberg</ref> by name comes to dine with me, &amp; then in all likelihood I shall
+               settle without farther interruption to the quiet regularity of winter work. – I marvel that Miss Wilbraham<note n="10" place="foot" resp="editors">Tom Southey’s lodger, Mary Laetitia Wilbraham (b. 1799), daughter of Randle Wilbraham (1773–1861) of Rode Hall in
+                  Cheshire. She later married Joseph-Harrison Tryer (b. 1797) of Whitley House, Northumberland.</note> has stayed where she is so
+               long, paying a sum which ought to command a &lt;much&gt; better manner of living in all respects; – &amp; yet they grumble at having her,
+               &amp; would, I am surely gladly be rid of her, – tho even with her, they cannot live within their income, &amp; there is another child
+                  coming!<note n="11" place="foot" resp="editors">Tom Southey had seven children: Margaret Hill Southey (b. 1811); Mary Hill Southey
+                  (b. 1812); Robert Castle Southey (1813–1828); Herbert Castle Southey (1815–1864); Eleanor Thomasina Southey (1816–1835); Sarah
+                  Louise Southey (1818–1850); and Nelson Castle Southey (1820–1834). They were followed by Sophia Jane Southey (1822–1859), who was
+                  born on 30 March 1822, and Thomas Castle Southey (1824–1896).</note> Poor thing, without liking her, I pity her very much, &amp;
+               wish I could like her better. She has many good feelings, – tho both <ref type="m" target="people.html#SoutheyTom">Tom</ref> &amp; <ref type="m" target="people.html#SoutheySarah">his wife</ref> have an absolute dislike to her, &amp; take so little pains to conceal it,
+               that it would long ago have been discovered by any one but herself.</p><p rend="indent1"> I was at <ref type="m" target="places.html#Lowtherestate">Lowther</ref> lately with <ref type="m" target="people.html#SenhouseHumphrey">Senhouse</ref> &amp; <ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref>.
+               The house is as pleasant as a house of that kind can be, &amp; the visit will be useful inasmuch as Lord Fred. Bentinck will get me
+               papers, or at least answers to any questions which I may wish to ask, from his brother Lord W<hi rend="sup">m</hi> &amp; from Lord
+                  Hill.<note n="12" place="foot" resp="editors">Lord William Frederick Cavendish Bentinck (1781–1828), MP for Weobley 1816–1824, MP
+                  for Queenborough 1824–1826; on 16 September 1820 he married Lady Mary Lowther (d. 1863), daughter of the 1st Earl of Lonsdale. His
+                  brother who could help Southey with his <title>History of the Peninsular War</title> (1823–1832) was Lord William Henry
+                  Cavendish-Bentinck (1774–1839; <title>DNB</title>), who served in Spain before commanding British troops in Sicily 1811–1815.
+                  Rowland Hill, 1st Viscount Hill (1772–1840; <title>DNB</title>), was one of the most brilliant British commanders in the Peninsular
+                  War 1808–1813.</note> The printer<note n="13" place="foot" resp="editors">Thomas Davison (1766–1831).</note> does not hurry me with
+               this history. He has however got to 392 pages; &amp; I see the end of the volume. The reprint of Brazil is nearly finished<note n="14" place="foot" resp="editors">The second edition of the first volume only of the <title>History of Brazil</title> (1822).</note></p><p rend="indent1"> For the first time <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> has printed a paper of mine without
+                  mutilation.<note n="15" place="foot" resp="editors">Southey’s ‘Life of Cromwell’, <title>Quarterly Review</title>, 25 (July 1821),
+                  279–347, published 17 October 1821.</note> He has only made one alteration, – it is a very stupid one, p. 293, where I said that
+               Hampden might have left a name <hi rend="ital">scarcely inferior to Washington</hi>,<note n="16" place="foot" resp="editors">‘Life of
+                  Cromwell’, <title>Quarterly Review</title>, 25 (July 1821), 293, where Southey had intended to compare the Parliamentarian, John
+                  Hampden (c. 1595–1643; <title>DNB</title>), to George Washington (1732–1799; President of the United States 1789–1797).</note> he
+               has expunged those words &amp; said a <hi rend="ital">memorable</hi> name; thereby making nonsense, for God knows his name is <hi rend="ital">memorable</hi>, – there is no question about that. – I wrote that life with great pleasure, &amp; with little trouble,
+               after the materials were collected. But I have large collections concerning those times, &amp; much to say upon them, which will appear
+               partly in the B of the Church,<note n="17" place="foot" resp="editors">Southey’s <title>The Book of the Church</title> (1824).</note>
+               &amp; in the life of G. Fox.<note n="18" place="foot" resp="editors">Southey did not write his planned life of George Fox (1624–1691;
+                     <title>DNB</title>), founder of the Society of Friends.</note></p><p rend="indent1"> I heard a good thing concerning John Bull. Some persons called to horse whip the Editor.<note n="19" place="foot" resp="editors"><title>John Bull</title> (1820–1892), a conservative Sunday newspaper that strongly supported George IV and
+                  vituperatively attacked radicals. Its founding editor was Theodore Hook (1788–1841; <title>DNB</title>), practical joker and
+                  miscellaneous writer.</note> Visits of this kind were expected, – &amp; accordingly there was an Editor from – the Five’s Court<note n="20" place="foot" resp="editors">The London Fives Court, St Martin’s Street, was the premier centre of British boxing.</note> to
+               receive them, an ugly customer whose appearance at once settled the matter peaceably.</p><p rend="indent1"> How are you all going on? – <ref type="m" target="people.html#SenhouseHumphrey">Senhouse</ref> &amp; I talk of a run to
+               Holland next year.<note n="21" place="foot" resp="editors">This trip was delayed until 1825 and Senhouse was unable to accompany
+                  Southey.</note> In that case you will see me in the spring. We think that May &amp; June might be well spent in visiting the land of
+               the Hogen Mogen, &amp; returning up the Rhine to Worms &amp; Spire &amp; so by Nancy &amp; Rheims. I have seen nothing of your
+                  Ventriloquist.<note n="22" place="foot" resp="editors">Nicolas Marie Alexandre Vattemare (1796–1864), famous French ventriloquist
+                  under the stage name ‘M. Alexandre’, and promoter of international exchanges between museums and libraries.</note></p><p rend="indent1"> Love to <ref type="m" target="people.html#SoutheyLouisa">Louisa</ref>, the children &amp; <ref type="m" target="people.html#GonneMrs">M<hi rend="sup">rs</hi> Gonne</ref>. We are all tolerably well.</p><closer><salute rend="indent4"> God bless you</salute><signed rend="indent5"> RS.</signed></closer><postscript><p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> has a letter to show you concerning <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridges</ref> language, – which I have denominated the
+                     lingo-grande.<note n="23" place="foot" resp="editors">Southey to Stumparumper [Grosvenor Charles Bedford], 14 September 1821,
+                     Letter 3730.</note></p></postscript></div></body></text></TEI>

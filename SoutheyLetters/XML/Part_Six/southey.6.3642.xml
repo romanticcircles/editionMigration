@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3642. Robert Southey to Henry Herbert Southey, 27 February 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3642</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Don. d.
+                  4. ALS; 4p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3642" type="letter"><head>3642. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>,<date when="1821-02-27"> 27 February 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ D<hi rend="sup">r</hi>
+                  Southey/ 15. Queen Anne Street/ Cavendish Square/ London <lb/> Stamped: KESWICK/
+                  298<lb/> Postmark: [partial] E/ MR 2/ 1821<lb/> MS: Bodleian Library, MS Don. d.
+                  4. ALS; 4p.<lb/> Unpublished.</note></head><opener><salute rend="indent0"> My dear Harry</salute></opener><p rend="indent1"> To my very great surprize <ref type="m" target="people.html#SoutheyTom">Tom</ref> said to me this morning that he
+               should like to go to Algoa Bay<note n="1" place="foot" resp="editors">Now Port
+                  Elizabeth, in South Africa. A party of about 4,500 British settlers had arrived in
+                  April 1820, with government sponsorship.</note> if any thing could be got for him,
+               I told him I did not know that any thing was to be had except a grant of land, in
+               which, probably, interest might be of some use as far as regarded situation; – &amp;
+               perhaps in the first instance employment to take charge of some settlers, if more
+               were sent out, which would enable him to look out for himself, – this being what he
+               proposed, to go &amp; make preparations, while <ref type="m" target="people.html#SoutheySarah">Sarah</ref> could live upon her own
+               means, &amp; upon Miss Wilbrahams payments.<note n="2" place="foot" resp="editors">Tom Southey’s lodger, Mary Laetitia Wilbraham (b. 1799), daughter of Randle
+                  Wilbraham (1773–1861) of Rode Hall in Cheshire. She later married Joseph-Harrison
+                  Tryer (b. 1797) of Whitley House, Northumberland.</note> We talked about it,
+               somewhat vaguely, but on my part so as to encourage him in the only sensible plan he
+               can adopt, &amp; the only way which is open to him for securing an independence for
+               himself &amp; his children; &amp; he desired me to make inquiry whether there was any
+               appointment which could be obtained for him there, or what he might expect. – I will
+               set <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> to feel the way, thro <ref type="m" target="people.html#HerriesJohnCharles">Herries</ref>, &amp; when we know what is
+               to be done, then try what I can do with <ref type="m" target="people.html#CrokerJohnWilson">Croker</ref>. If you can learn any thing, of
+               course you will. It is very well that he ventures to look at his situation fairly,
+               &amp; that this thought should have occurred to his own mind, as it has long since
+               done to yours &amp; mine.</p><p rend="indent1"> Can you find <del>xx</del> out the history of a <ref type="m" target="people.html#AttersollAnn">M<hi rend="sup">rs</hi> Attersoll</ref>, – a
+               woman of fashion &amp; fortune, who has lately been <hi rend="ital">un</hi>married,
+               or rather <hi rend="ital">dis</hi>married,<note n="3" place="foot" resp="editors">Ann Attersoll had assumed the surname of John Attersoll (c. 1784–1822),
+                  merchant and banker and MP for Wootton Bassett 1812–1813. Though they were not
+                  married, she probably passed as his wife. She presumably stopped using his name
+                  because their relationship had ended.</note> I know not by what process, nor for
+               what good cause, &amp; resuming the name of her father<note n="4" place="foot" resp="editors">Thomas Holmes, later Hunter (1751–1827), of Beoley Hall,
+                  Worcestershire. He was an East India merchant, who changed his name to Hunter on
+                  inheriting the Gobions estate in Hertfordshire in 1803.</note><del>is xxx</del> now calls herself (writing from France) <ref type="m" target="people.html#AttersollAnn">Madame S. Anne Holmes</ref>. Her
+               father lives in Manchester St. Manchester Square. – She is certainly an odd
+               personage, as well as a clever one, &amp; seems in some things to resemble the poor
+                  <ref type="m" target="people.html#BarkerMary">Senhora</ref>. I should
+               tell you that she is <ref type="m" target="people.html#AttersollAnn">the
+               Lady</ref> to whom one of the French translations of Roderic<note n="5" place="foot" resp="editors">Pierre Hippolyte Amillet de Sagrie
+                  (1785–1830), <title>Roderic, Dernier Roi des Goths</title> (1821), no. 2700 in the
+                  sale catalogue of Southey’s library.</note> is dedicated, – &amp; she favours me
+               not only with her high approbation, – but also with letters nicely written upon the
+               finest French paper, &amp; sealed with yellow wax in the most delicate manner.</p><p rend="indent1"> In making out a presentation list I totally forgot to order one for
+                  <del>Kn</del> <ref type="m" target="people.html#KnightonSirWilliam">Sir W<hi rend="sup">m</hi>
+                  K.</ref> – which of course ought to have been done. By this post I
+               supply the omission, – it shall be sent to you with the bag &amp; sword copy<note n="6" place="foot" resp="editors">A copy of <title>A Vision of
+                     Judgement</title> (1821), in the same fashion as no. 2626 in the sale catalogue
+                  of Southey’s library, described as ‘superbly bound in blue morocco, leather
+                  joints, richly tooled and lined with silk’. Sir William Knighton presented this to
+                  George IV.</note> – &amp; you will say what civil things with it you please.</p><p rend="indent1"> What news of <ref type="m" target="people.html#TylerElizabeth">Miss
+                  Tyler</ref>?</p><p rend="indent1"> Love to <ref type="m" target="people.html#SoutheyLouisa">Louisa</ref> &amp; the children &amp; <ref type="m" target="people.html#GonneMrs">M<hi rend="sup">rs</hi> Gonne</ref> – </p><closer><salute rend="indent2">God bless you</salute><salute rend="indent3"> Yrs affectionately</salute><signed rend="indent4">RS.</signed></closer><postscript><p rend="indent0"><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-02-27">27 Feb<hi rend="sup">y</hi>. 1821.</date></p></postscript></div></body></text></TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3569. Robert Southey to Mary Anne Watts Hughes, 28 November 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3569</idno></publicationStmt><sourceDesc><p>British Library, Add MS 75299. ALS; 3p.
+						.  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3569" type="letter"><head>3569. Robert Southey to <ref type="a" target="people.html#HughesMaryAnne">Mary Anne Watts Hughes</ref>, <date when="1820-11-28">28 November 1820</date><note type="headnote" place="foot" resp="editors">Endorsements:
+						Autographs; to my mother/ M<hi rend="sup">rs</hi> Hughes<lb/> MS: British Library, Add MS 75299. ALS; 3p.<lb/>
+						Unpublished.<lb/></note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>. </placeName></address><date when="1820-11-28">28 Nov. 1820</date></dateline><salute rend="indent0"> My dear
+					Madam</salute></opener><p rend="indent1"> I have received your little packet just long enough to peruse its contents.<note n="1" place="foot" resp="editors">Mary Ann Hughes had sent Southey some of the anti-radical satires that her son, John
+						Hughes (1790–1857; <title>DNB</title>), had been publishing: for example, <title>The Radical Harmonist</title>
+						(1820), <title>Solomon Logwood</title> (1820) and <title>The Asses Skin Memorandum Book, Lost in St Paul’s</title>
+						(1820).</note> You will I hope have accounted for a silence which otherwise would stand in need of apology, by the
+					time lost in waiting for a parcel at the booksellers, the pace of a slow waggon, &amp; the delay of carriers where
+					the conveyance is to be changed once or twice upon the road.</p><p rend="indent1"> The evening which I past at your house in the Cloisters more than eighteen years ago, is still
+					fresh in my remembrance.<note n="2" place="foot" resp="editors">Mary Ann Hughes was the wife of Thomas Hughes;
+						eighteen years previously, in 1802, he had held a prebendary post at Westminster Abbey (1793–1807), which entitled
+						him to occupy a house in a court just off the Abbey's cloisters. So this may be the location of the
+						‘Cloisters’ where the Hugheses had met Southey.</note> It was the first time I met <ref type="m" target="people.html#LawrenceThomas">Sir Thomas Lawrence</ref>. I recollect your son also, but of course with as
+					little recollection of his features as he can have himself.<note n="3" place="foot" resp="editors">John Hughes
+						would have been in his early teens at most when Southey had met him.</note> We shall I trust one day be better
+					acquainted. Sooner or later every one finds the way to the Lakes, – &amp; he must not do so without finding his way
+					to me.</p><p rend="indent1"> Some of his Radical Songs<note n="4" place="foot" resp="editors">John Hughes, writing under the
+						pseudonym ‘Old Tom of Oxford’, had written a series of anti-radical satires which had been published in the
+						newspapers: for example, ‘Brandenburgh House Festivities; or the Leinster Triumph’ in the <title>Courier</title>,
+						24 November 1820.</note> had amused me very much in the newspapers, when I knew not from whose hand they came.
+					They are very good in their kind, – proof enough indeed is given of ability for things higher in degree &amp;
+					better in kind. But this kind is wanted at this time, – &amp; there is some merit <del>xxxxx</del> in venturing to
+					incur the obloquy, not to say danger, to which such service exposes a man in such times. For a more flagitious
+					banditti than are now leagued against the institutions of this country never disgraced human nature. I have long
+					seen to what the course of events is tending, &amp; long since pointed out what would be the inevitable effects if
+					an unchained press were suffered to act upon a manufacturing population. Our Messalina however is doing
+					unintentional good by hastening a crisis, which would be the more dangerous the longer it is delayed.<note n="5" place="foot" resp="editors">Caroline of Brunswick (1768–1821; <title>DNB</title>), the estranged wife of George
+						IV, had returned to England on 5 June 1820. Her arrival and the series of events that followed, as attempts were
+						made to deprive her of the title of Queen and to dissolve her marriage to the King, made her a figurehead for
+						radicals, and also triggered public protests in her support. Matters had come to a head in early November. The
+						government had reluctantly introduced a Bill of Pains and Penalties into the House of Lords to deprive Caroline of
+						the title of Queen and to dissolve her marriage to the King. On the Third Reading of the Bill on 10 November 1820,
+						the government majority was only nine votes and it seemed very unlikely the Bill could pass the House of Commons.
+						Lord Liverpool, the Prime Minister, therefore had announced the Bill would be withdrawn. Southey, who was
+						ferociously opposed to Caroline, here compares her to Messalina (c. AD 17/20–48), the infamously dissolute wife of
+						Claudius (10 BC–AD 54; Emperor of Rome AD 41–54). </note> And the Whigs in taking up her cause have acted in a
+					manner altogether worthy of themselves. –</p><p rend="indent1"><ref type="m" target="people.html#FrickerEdith">M<hi rend="sup">rs</hi> Southey</ref> desires me
+					to present her remembrances. Express mine also to <ref type="m" target="people.html#HughesThomas">D<hi rend="sup">r</hi> Hughes</ref>, &amp; my best wishes to your son that he may go on &amp; prosper in literature, &amp; in
+					all his other undertakings.</p><closer><salute rend="indent1">Believe me my dear Madam</salute><salute rend="indent2"> Your obliged &amp;
+						obedient</salute><signed rend="indent3"> Robert Southey.</signed></closer></div></body></text></TEI>

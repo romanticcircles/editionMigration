@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3576. Robert Southey to Richard Heber, 6 December 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3576</idno></publicationStmt><sourceDesc><p>Bodleian
+						Library, MS Eng. Lett. d. 215. ALS; 4p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3576" type="letter"><head>3576. Robert Southey to <ref type="a" target="people.html#HeberRichard">Richard Heber</ref>,<date when="1820-12-06"> 6 December 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ Richard
+						Heber Esq<hi rend="sup">re</hi>/ Pimlico Lodge/ Westminster<lb/> Stamped: KESWICK/ 298<lb/> Postmark: [partial]
+						DE/ 1820<lb/> Endorsement: Southey<lb/> Seal: red wax; arm raising aloft cross of Lorraine<lb/> MS: Bodleian
+						Library, MS Eng. Lett. d. 215. ALS; 4p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1820-12-06"> 6 Dec. 1820</date></dateline><salute rend="indent0"> My dear
+					Sir</salute></opener><p rend="indent1"> Thank you for your letter, &amp; the books which accompanied it. –– I must reply to it point by
+					point.</p><p rend="indent1"> My German, tho it be even less than my Dutch (which is little enough) will yet suffice to make
+					out the plain straight forward style of an old narrative. So I shall be very glad to receive the account of the
+					Siege of S Salvador,<note n="1" place="foot" resp="editors">Johannes Gregorius Aldenburgk (1602–1628), <title>West
+							Indianische Reise</title> (1627), an account of the capture of Salvador da Bahia by the Dutch in 1624 and its
+						recapture by a Portuguese-Spanish force in 1625.</note> – it will be just in time. The latter part of this
+						volume<note n="2" place="foot" resp="editors">Southey was working on a second edition of the first volume of the
+							<title>History of Brazil</title> (1810–1819). It was published in 1822. </note> will be much improved from Dutch
+					authorities, viz – Aitzema,<note n="3" place="foot" resp="editors">Lieuwe van Aitzema (1600–1669), <title>Sakem van
+							Staet en Oorlogh in ende Omtrent de Vereenigde Nederlanden</title> (1655–1671) with the continuation by Lambert
+						van den Bos (1610–1698) of 1685–1699 and Aitzema’s <title>Verhael van de Nederlandsche Vrede-Handeling</title>
+						(1671), no. 214 in the sale catalogue of Southey’s library.</note> &amp; Johannes de Laet’s Hist: of the West
+					Indian Company,<note n="4" place="foot" resp="editors">Joannes de Laet (1581–1649), <title>Historie ofte Iaerlijk
+							Verhael van de Verrichtinghen der Geoctroyeerde West-Indische Compagnie</title> (1644), no. 1671 in the sale
+						catalogue of Southey’s library. Southey had bought the book from Jean-Baptise Ver Beyst (1770–1849), a celebrated
+						Brussels bookseller, in 1817.</note> – a book of which I had been led to suspect the existence, but never could
+					ascertain it, till I laid my hands upon a copy, in happy hour, at Brussels.</p><p rend="indent1"> I was always doubtful whether I had <del>xxxxx</del> hit upon the right manner of restoring the
+					name of <hi rend="ital">Stadius</hi> to its vernacular form. And if your Dutch copy follows the original (as may
+					reasonably be presumed) the name is Hans Stade<hi rend="ital">n</hi>. The version which I used is De Bry’s with
+					which I will collate it.<note n="5" place="foot" resp="editors">Hans Staden (1525–1579), German soldier and
+						mariner, who described his captivity in Brazil in <title>Warhaftige Historia und Beschreibung eyner Landtschafft
+							der Wilden, Nacketen, Grimmigen Menschfresser Leuthen in der Newenwelt America Gelegen</title> (1557). Southey
+						read Hans Staden’s story in Theodore de Bry’s (1528–1598) <title>Peregrinationes</title> (1590–1592), no. 717 in
+						the sale catalogue of Southey’s library, and described him as ‘Hans Stade’ in <title>History of Brazil</title>, 3
+						vols (London, 1810–1819), I, pp. 175–211. Heber’s Dutch version was <title>Hans Staden van Homborgs Beschryvinge
+							van America</title> (1641).</note> In the case of Lery<note n="6" place="foot" resp="editors">By the time of his
+						death, Southey’s library contained two editions (1578 and 1585) of Jean de Léry (1536–1613), <title>Histoire d’un
+							Voyage faict en la Terre du Bresil</title>, nos 1709–1710 in the sale catalogue of his library. Léry had been
+						part of the failed French colony in Brazil and was later a Protestant Minister in France. Southey had originally
+						encountered this book in Theodore de Bry’s <title>Peregrinationes</title> (1590–1592).</note> I detected an
+					abominable fraud of omission by comparing the authors original with De Bry.<note n="7" place="foot" resp="editors">See Southey to Thomas Southey, 10 January 1809, <title>The Collected Letters of Robert Southey. Part
+							Three</title>, Letter 1563. De Bry had omitted some salient facts about why the French colony in Brazil 1555–1567
+						had failed, especially the conflict between Protestants and Catholics.</note> In Hans Staden this is not likely to
+					be the case, as <del>there</del> the same motive for mutilating his narrative did not exist.</p><p rend="indent1"> My copy of Schmidel is in Barcia.<note n="8" place="foot" resp="editors">Ulrich Schmidl
+						(1510–1579), a German mercenary in the service of Spanish conquistadors, who travelled up the river Plate from
+						Buenos Aires into the interior of Peru and Bolivia. He published an account of his travels as <title>Wahre
+							Geschichte einer Merkwurdigen Reise, Gemacht durch Schmidel von Straubingen, in America oder der Neuen Welt, von
+							1534 bis 1554</title> (1557). Southey, whose Spanish was far superior to his German, obtained his version from
+						Andrés Gonzáles Barcia (1673–1743), <title>Historiadores Primitivos de las Indias Occidentales</title> (1749), no.
+						3312 in the sale catalogue of Southey’s library. </note> Your small 4to of which you speak, I have had, &amp;
+					returned it in the late parcel.<note n="9" place="foot" resp="editors">Heber had lent Southey the following quarto
+						edition of a Latin version of Schmidl’s narrative, <title>Vera Historia Admirandae cujusdam Navigationis, quam
+							Huldericus Schmidel, ab anno 1534, usque ad annum 1554, in Americam vel Novum Mundum, iuxta Brasiliam et Rio
+							della Plata, Confecit</title> (1599); see <title>Bibliotheca Heberiana. Catalogue of the Library of the Late
+							Richard Heber, Esq. Part the Ninth</title> (London, 1836), no. 633.</note> – The original of Cabeça de Vaca<note n="10" place="foot" resp="editors">Álvar Núñez Cabeza de Vaca (c. 1488/1490–c. 1557/1559), explorer of South
+						America. Heber possessed his <title>Commentarios de lo Acaescido en las dos Jornados que hizo a las Indias</title>
+						(1555), <title>Bibliotheca Heberiana. Catalogue of the Library of the Late Richard Heber, Esq. Part the
+							Sixth</title> (London, 1835), no. 2565.</note> I <del>still</del> wish to see, – because, if it be possible, I
+					will take advantage of reprinting the first volume, to affix the Catalogue Raisonné, &amp; make it compleat as far
+					as I can.<note n="11" place="foot" resp="editors">Southey had intended to publish a bibliography of his sources in
+						the concluding volume of the <title>History of Brazil</title> (1810–1819). In the end there had not been enough
+						space to do so. He therefore hoped to use the opportunity provided by a revised second edition of the first volume
+						of his <title>History</title> (1822) to insert the bibliography. However, this idea did not reach
+					fruition.</note></p><p rend="indent1"> I shall be very glad of the Litterae Annuæ, – the want of which I regretted grievously, in
+					composing the second volume especially.<note n="12" place="foot" resp="editors">Fernão Guerreiro (c. 1550–1617),
+							<title>Relaçam Annal das Cousas que Fezeram os Padres da Companhia de Jesus nas Partes da India Oriental</title>
+						(1607–1611), nos 3483–3484 in the sale catalogue of Southey’s library. Heber had lent Southey some of the missing
+						volumes from this series, material that had not been available to him when working on the second volume of the
+							<title>History of Brazil</title> (1810–1819).</note> In correcting the first I have consoled myself by
+					ascertaining from those volumes in my possession that Jarric has drawn largely from that source, &amp; very
+					faithfully. Jarrics original in three volumes I procured at Brussels.<note n="13" place="foot" resp="editors">Pierre du Jarric (1566–1617), <title>Histoire des Choses plus Memorables Advenues tant ez Indes Orientales, que
+							autre Pais de la Decouverte des Portugais</title> (1608–1614), no. 1396 in the sale catalogue of Southey’s
+						library. Southey had bought the book from Jean-Baptise Ver Beyst. Jarric’s work drew on Fernão Guerreiro’s
+							<title>Relaçam</title> (1607–1611), and was translated into Latin in 1615.</note> – Thank you for that volume of
+					the Litt: Ann: in which you have written <del>xx</del> my name. This collection is so important to me that I would
+					gladly have purchased it, if Ogle &amp; Duncan<note n="14" place="foot" resp="editors">Robert Ogle (d. 1823) and
+						James Duncan (d. 1845), London booksellers, whose specialisms included theological books and manuscripts. </note>
+					would have sold their collection of Jesuit-books in separate lots. They seemd to <del>be</del> me to be foolish in
+					not doing so, for as a collection it was miserably incompleat, &amp; had indeed no pretensions to be offerd as any
+					thing like a perfect one.</p><p rend="indent1"> I have Camus’s book.<note n="15" place="foot" resp="editors">Armand-Gaston Camus (1740–1804),
+							<title>Mémoire sur la Grandes et Petits Voyages, et sur la Collections des Voyages de Melchisedech
+							Thevenot</title> (1802); no. 443 in the sale catalogue of Southey’s library. </note></p><p rend="indent1"> Lerius I never had from you, but used De Brys version,<note n="16" place="foot" resp="editors">Jean de Léry<title/>(1536–1613), <title>Histoire d’un Voyage faict en la Terre du Bresil</title>, which Southey
+					had originally encountered in Theodore de Bry’s (1528–1598) <title>Peregrinationes</title> (1590–1592), no. 717 in the sale catalogue of Southey’s library.</note>
+					– after which I had his own Latin given me by that strange man Henry White of Lichfield, &amp; two French editions
+					were also sent me by different friends, – one from Norwich, the other from Paris.<note n="17" place="foot" resp="editors">Henry White (1761–1836), Sacristan of Lichfield Cathedral, Vicar of Dilhorne, and of Chebsey, and
+						Perpetual Curate of Pipe Ridware. He had assembled a ‘valuable and curious’ library, which was noted for its
+						collection of emblem books. White was a member of the circle around Anna Seward, and probably met Southey during
+						the latter’s visit to Seward in 1808. He was probably the ‘strange fellow’ Southey mentioned as loaning him
+						another book and then requesting its return; see Southey to Herbert Hill, [started before and continued on] 16
+						February [1810], <title>The Collected Letters of Robert Southey. Part Four</title>, Letter 1747. The friend in
+						Norwich who gave Southey the French edition of Jean de Léry, <title>Histoire d’un Voyage faict en la Terre du
+							Bresil</title>, was William Taylor; see Southey to William Taylor, 15 [January] 1809, <title>The Collected
+							Letters of Robert Southey. Part Three</title>, Letter 1566. The friend in Paris is unidentified.</note></p><p rend="indent1"> I procured a Latin version of Benzoni from the Redcross Street Library some years ago.<note n="18" place="foot" resp="editors">Girolamo Benzoni (b. 1519), <title>Historia del Mondo Nuovo</title> (1565). A
+						number of Latin editions appeared from 1578 onwards and Southey had obtained one of them from Dr Williams’s
+						Library, London.</note> Abbeville I read &amp; extracted from at the Museum: very possibly I might have made more
+					use of him, if I had had possession of the book.<note n="19" place="foot" resp="editors">Claude d’Abbeville (d.
+						1632), <title>Histoire de la Mission des Peres Capuchines en l’Isle de Maragnan et Terres Circonvoisins</title>
+						(1614), which Southey had read in the British Museum, and used in the first volume of his <title>History of
+							Brazil</title> (1810–1819); see Southey to John Rickman, [October 1810], <title>The Collected Letters of Robert
+							Southey. Part Four</title>, Letter 1821.</note></p><p rend="indent1"> Before my Vulpine labours can go to the press I shall have much to do in hunting out such tracts
+					as you point out from Rawlinsons Catalogue.<note n="20" place="foot" resp="editors">Southey was collecting
+						materials for his proposed life of George Fox (1624–1691; <title>DNB</title>), founder of the Society of Friends.
+						Heber had pointed out some useful material in the <title>Catalogue of the Library of Thomas Rawlinson</title>
+						(1721–1733), which described the collection of Thomas Rawlinson (1681–1725; <title>DNB</title>).</note> Concerning
+					G Fox’s Will, which is printed in Morgans Phœnix I very much suspect its authenticity.<note n="21" place="foot" resp="editors">A document purporting to be the ‘Will’ of George Fox appeared in Joseph Morgan (fl. 1730s),
+							<title>Phœnix Britannicus: Being a Miscellaneous Collection of Scarce and Curious Tracts, Historical, Political,
+							Biographical, Satirical, Critical, Characteristical, &amp;c. Prose and Verse</title> (London, 1732), pp. 190–191.
+						The aim of publishing it had been to question ‘Quaker Veracity’ and ‘to convince the World, that he who made this
+						Will, and could not write one Line of True English, is not the Author of any one Page in all those Books which the
+						Quakers have impudently published under his Name’ (p. 190). Southey’s copy was no. 1889 in the sale catalogue of
+						his library.</note> This however is a point [MS obscured] can be ascertained, &amp; which is worth ascertaining
+					[MS obscured] for if it be genuine, he was far more ign[MS obscured] than S<hi rend="sup">t</hi> Francis,<note n="22" place="foot" resp="editors">St Francis of Assisi (1181/2–1226), founder of the Franciscan order.</note>
+					&amp; must have been more compleatly a tool in the hands of his law-makers. But this I do not believe: for Penn
+					&amp; Barclay are not men who can be suspected of fraud.<note n="23" place="foot" resp="editors">William Penn
+						(1644–1718; <title>DNB</title>), Quaker leader and founder of Pennsylvania; and Robert Barclay of Ury (1648–1690;
+							<title>DNB</title>), early Quaker theologian. </note></p><p rend="indent1"> Can you lend me Abraham Fraunce for the preface to my hexameters?<note n="24" place="foot" resp="editors">The ‘Preface’ to Southey’s <title>A Vision of Judgement</title> (London, 1821), p. xxiv, referenced
+						Abraham Fraunce (fl. 1587–1633), a protégé of Sir Philip Sidney (1554–1586; <title>DNB</title>) who wrote verses
+						exclusively in hexameters. His efforts therefore could be cited as historical precedents for Southey’s efforts, in
+							<title>Vision</title>, to naturalise the hexameter.</note> I thought to have finished them this day, but new
+					matter has sprung up before me. The Preface should contain an account of former attempts in our own &amp; other
+					languages. Pasquier will help me in the French,<note n="25" place="foot" resp="editors"><title>A Vision of
+							Judgement</title> (London, 1821), pp. 74–76, noted the efforts of Etienne Pasquier (1529–1615), in <title>Les
+							Recherches de la France</title>, rev. edn (1633), to write hexameters in French. The volume was no. 2171 in the
+						sale catalogue of Southey’s library.</note> &amp; Tiraboschi no doubt in the Italian,<note n="26" place="foot" resp="editors">Girolamo Tiraboschi (1731–1794), <title>Storia della Letteratura Italiana</title> (1777–1786); no.
+						2859 in the sale catalogue of Southey’s library. Southey was wrong, as he explained in <title>A Vision of
+							Judgement</title> (London, 1821), p. 79: ‘I found no specimens [of the hexameter] in Italian’.</note> – both
+					these I have. I learn from a grammar that the Bohemians have a translation of the Iliad in this measure, – caught
+					sans doubt from the Germans.<note n="27" place="foot" resp="editors">Johann Heinrich Voss (1751–1826) had
+						translated the <title>Iliad</title> into German hexameters in 1793. The Bohemian translation, which Southey had
+						learned about from a ‘Bohemian grammar’ (<title>A Vision of Judgement</title> (London, 1821), p. 79), was possibly
+						that by Jan Nejedlý (1776–1834), poet and professor of Czech language and literature at Charles University,
+						Prague. In 1802 he had translated the first book of the <title>Iliad</title> into Czech and in 1804 published a
+							<title>Praktische Böhmische Grammatik</title>.</note> Has it ever been tried by the Poles? the Russians? Danes
+					Swedes &amp; Dutch?<note n="28" place="foot" resp="editors">Southey did not find examples from any of these
+						languages to quote from in <title>A Vision of Judgement</title> (1821).</note> these are questions which William
+					Herbert would be more likely than any other person to answer, if I could propose them to him.<note n="29" place="foot" resp="editors">William Herbert (1772–1851; <title>DNB</title>), librarian and antiquary.</note></p><closer><salute rend="indent1">Believe me my dear Sir</salute><salute rend="indent2"> Yrs thankfully &amp;
+						truly</salute><signed rend="indent3"> Robert Southey.</signed></closer></div></body></text></TEI>

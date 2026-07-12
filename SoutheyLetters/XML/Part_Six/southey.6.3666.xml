@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3666. Robert Southey to Herbert Hill, 8 April 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3666</idno></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery, WC 205. ALS; 4p.
+						.  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3666" type="letter"><head>3666. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle">Herbert Hill</ref>, <date when="1821-04-08">8 April 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ The Reverend
+						Herbert Hill/ Streatham/ Surry.<lb/> Stamped: KESWICK/298<lb/> Postmark: 10 o’Clock/ AP. 11/ 1821 F N<hi rend="sup">n</hi>; E/ 11 AP 11/ 1821<lb/> MS: Keswick Museum and Art Gallery, WC 205. ALS; 4p.<lb/>
+						Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-04-08"> 8 April. 1821</date></dateline></opener><p rend="indent1"> I am anxious to hear of you &amp; your household, – of yourself because I am sure you must have
+					been very much shaken by your dismal confinement at Bristol, &amp; of <ref type="m" target="people.html#HillAlfred">Alfred</ref>, <ref type="m" target="people.html#HillGeorgiana">Georgiana</ref> &amp; <ref type="m" target="people.html#HillRobertSouthey">my namesake</ref>, because they will hardly have escaped from the measles.
+						<ref type="m" target="people.html#HillEdwardJnr">Edward</ref>, I heard from <ref type="m" target="people.html#SoutheyHenryHerbert">Harry</ref>, about a week ago, was doing well. It is a favourable time of
+					year for the disorder (if the season with you be as mild as it is with us) – &amp; <del>xx</del> a good thing to
+					have passed thro so serious a disease, – from which there is no escaping. – I am looking every day for news of <ref type="m" target="people.html#SoutheyHenryHerbert">Harry’s</ref> family, – &amp; not without a certain degree of
+					anxiety, to which I am too prone.</p><p rend="indent1"> You have probably seen <ref type="m" target="people.html#SoutheyHenryHerbert">his
+						Doctorship</ref> since his friend <ref type="m" target="people.html#KnightonSirWilliam">Sir W<hi rend="sup">m</hi>
+						Knighton</ref><note n="1" place="foot" resp="editors">Knighton was an old friend of Henry Herbert Southey; they
+						had studied medicine together at the University of Edinburgh. Knighton had presented <title>A Vision of
+							Judgement</title> (1821) to George IV. For the king’s reaction, see Southey to William Knighton, 30 March 1821,
+						Letter 3661.</note> deputed him to convey to me a very civil message from <ref type="m" target="people.html#GeorgePrinceRegent">the King</ref>. – What a preposterous price the <ref type="m" target="people.html#LongmanThomas">Longmen</ref> have put upon the poem!<note n="2" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821) was priced at 15 shillings.</note> – just as much again as I should
+					have thought right. The only objections to the metre which have reached me, are a private one upon some theory
+					connected with musical terms &amp; notation, which I do not understand,<note n="3" place="foot" resp="editors">From
+						Samuel Tillbrook. He published his criticisms as <title>Historical and Critical Remarks upon the Modern
+							Hexameters, and Upon the Vision of Judgement</title> (1822) and Southey responded in his <title>Poetical
+							Works</title>, 10 vols (London, 1837–1838), X, pp. [vii]–xxi.</note> &amp; a magazine one as to the difficulty of
+					finding breath to read it; which is the objection of a blockhead, <del>mistaking</del> &lt;reasoning upon&gt;
+					length of <hi rend="ital">line</hi>, <del>for</del> &lt;as if it were&gt; length of <hi rend="ital">sentence</hi>.<note n="4" place="foot" resp="editors"><title>London Magazine</title>, 3 (April 1821), 428–430:
+						‘The Vision opens with the following lines, which any “reader of poetry” will find little difficulty in managing –
+						the only requisite being <title>breath</title>’ (429).</note></p><p rend="indent1"> I am printing in a little volume <hi rend="ital">per se</hi> that story of Lope de Aguirre.<note n="5" place="foot" resp="editors">Southey’s <title>The Expedition of Orsua; and the Crimes of Aguirre</title>
+						(1821), originally intended to be part of the <title>History of Brazil</title> (1810–1819) and first published in
+							<title>Edinburgh Annual Register, for 1810</title>, 3.2 (1812), i–l.</note></p><p rend="indent1"> Peter Martyr of Angheria whose Epistles<note n="6" place="foot" resp="editors">Peter Martyr
+						d’Anghiera (1457–1526), <title>Opus Epistolarum</title> (1670), no. 1902 in the sale catalogue of Southey’s
+						library.</note> I am now reading, mentions the paper money concerning which you sent me a passage from his friend
+					&amp; contemporary Ant: Nebrissensis.<note n="7" place="foot" resp="editors">Antonio de Lebrija (1441–1522),
+							<title>Rerum a Ferdinando et Elisabeth Hispaniarum Regibus Gestarum Decades II</title> (1545), no. 1925 in the
+						sale catalogue of Southey’s library. Both Lebrija and d’Angheira mentioned the issue of paper money during the
+						siege of Alhama de Granada in 1483–1485, possibly the first use of paper money in Europe.</note> I found in his
+						68<hi rend="sup">th</hi> epistle yesterday a passage which have been unknown to the various writers who have
+					discussed the question of the American Origin of Siphilis, – for it sets that point compleatly at rest. The letter
+					is dated from Jaen in Nones Aprilis 1488 to the Greek Professor at Salamanca, <del>Arius L</del> whom he calls
+					Arius Lusitanus,<note n="8" place="foot" resp="editors">Arias Barbosa (c. 1465/70–1540), Portuguese scholar and
+						Professor of Greek at the University of Salamanca 1495–1530.</note> &amp; it begins thus. In peculiarem te nostræ
+					tempestatis morbum, qui appellatione Hispanâ <hi rend="ital">Bubarum</hi> dicitur, ab Italis <hi rend="ital">morbus
+						Gallicus</hi>, medicorum <hi rend="ital">Elephantiam</hi> alii, alii aliter appellant, incidisse præcipitem,
+					libero ad me scribis pede. Lugubri autem elog&lt;i&gt;o calamitatem, ærumnasque gemis tuas, articulorum
+					impedimentum, internodiorum hebetudinem, juncturarum omnium dolores intensos esse proclamas, ulcerum et oris
+					fœditatem superadditam miserandâ promis eloquentiâ, conquereris, lamentaris, deploras.<note n="9" place="foot" resp="editors">Peter Martyr d’Anghiera, <hi rend="ital">Opus Epistolarum</hi> (Amsterdam, 1670), p. 34. The
+						passage translates as: ‘You write to me, of your own free will [literally ‘with a free foot’], that you have
+						fallen headlong into the disease peculiar to our time, which is called by the Spanish appellation ‘bubas’, by the
+						Italians ‘the French disease’, and which some of the doctors call ‘Elephantia’, and others call by another name.
+						But in a lugubrious statement you bewail the calamity and your tribulations; you cry out that your knuckles’
+						impediment, your joints’ dullness and the pains of all your commissures are intense; with an eloquence that
+						excites pity you tell of the ulcer and the additional foulness of your mouth; you complain, lament and deplore
+						it.’</note> – Here then is direct proof that the disease was considered as the peculiar scourge of the age, before
+					Columbus sailed upon his first voyage.<note n="10" place="foot" resp="editors">Christopher Columbus (1450/1–1506),
+						Italian explorer who was commissioned by the Spanish Crown to sail west across the Atlantic in 1492 and who
+						discovered America rather than Asia. One theory of the origin of syphilis was that it was brought back from
+						America by Columbus. Southey had previously collected information on the disease for his brother, whose university dissertation agreed with the theory that syphilis had an American origin; see Robert Southey to Henry Herbert Southey, 24 March 1806, <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 1711.</note></p><p rend="indent1"> I cannot believe that the Catholic Bill will pass the H of Lords.<note n="11" place="foot" resp="editors">The Roman Catholic Disability Removal Bill was indeed defeated in the House of Lords on 17 April
+						1821.</note> If it should, petitions ought to be addressed to <ref type="m" target="people.html#GeorgePrinceRegent">the King</ref>, <del>to xxxxxxx xxx xxxxxxx</del> by the two Universities,
+					&amp; by every Dean &amp; Chapter. If it passes Church property will not be worth ten years [MS obscured]. The
+					danger is from the Dissenters, – they will enter the breach, – the Agriculturists will join with them in a cry
+					against Tythes, &amp; the first unprincipled Minister will gladly appoint a Committee who may authorize him to do
+					as Pitt (the worst of all Ministers) did with the Land Tax.<note n="12" place="foot" resp="editors">William Pitt
+						(1759–1806; <title>DNB</title>), Prime Minister 1783–1801, 1804–1806, created the Land Tax Redemption Office in
+						1798, allowing landowners to make their property exempt from future land tax payments if they paid a lump sum,
+						equal to 15 years’ tax. He also favoured the removal of all civil disabilities from Roman Catholics and resigned
+						in 1801 when George III (1738–1820; King of Great Britain 1760–1820; <title>DNB</title>) would not agree to the
+						measure.</note> This Catholic question is a legacy which he left us.</p><p rend="indent1"> We are all well. Love to <ref type="m" target="people.html#HillCatherine">my Aunt</ref> &amp; the
+					children. I hope <ref type="m" target="people.html#HillEdwardJnr">Edward</ref> is quite recovered – Let me hear
+					from you – or from him</p><closer><salute rend="indent1">God bless you</salute><signed rend="indent2"> RS.</signed></closer></div></body></text></TEI>

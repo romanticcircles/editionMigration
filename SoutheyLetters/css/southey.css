@@ -1,270 +1,159 @@
+
+* {box-sizing: border-box;}
+            
 body {
-	background-color: #d8e7ed;
+    width: 100%;
+    max-width: 65rem;
+    background-image: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    font-family: "Baskervville", serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
 }
-.tei_body {
-    width: 60rem;
-    background: white;
-    padding: 2rem;
+
+/* Navigation, courtesy of ChatGPT, with additions and adjustments */
+.navTitle {
+    display: block; 
+    margin-top: 0; 
+    margin-left: 2rem; 
+    text-align: center; 
+    background-color: #faf0d2; 
+    padding: 6px 20px; 
+    float: left;
 }
-p, tr, td {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
+.homePlink {
+    margin-left: 96%;
+    width: 150px;
+    display: block;
 }
-.l {
-	text-indent: 0px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+img.homeButton {
+    height: 50px;
+    width: 55px;
 }
-.indent1 {
-	text-indent: 40px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+nav {
+    width: 100%;
+	font-size: 1em;
+	line-height: 1.2em;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    position: relative;
 }
-.indent2 {
-	text-indent: 80px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+ul.nav {
+    margin-top: 3%;
+    display: block;
+    background-color: #faf0d2;
+    margin-left: -0.5rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+    padding-left: 4px;
+    width: 103%;
+    text-align: right;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
 }
-.indent3 {
-	text-indent: 120px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+li.nav {
+    list-style-type: none; 
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
 }
-.indent4 {
-	text-indent: 160px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent5 {
-	text-indent: 200px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent6 {
-	text-indent: 240px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent7 {
-	text-indent: 280px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent8 {
-	text-indent: 320px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent9 {
-	text-indent: 360px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent10 {
-	text-indent: 400px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.indent11 {
-	text-indent: 440px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
-}
-.center {
-    text-align: center;
-}
+li.nav:hover {background-color: #f0e3bb;}
 a {
-	text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+	color: #00347d;
 }
 a:hover {
-	color: #9933CC;
+    color: #356FC0;
 }
-.menu {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 12px;
-	font-weight: bold;
+a:visited {
+    color: #36619e;
+    }
+a:visited:hover {
+    color: #356FC0;
 }
-.menu2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 11px;
-	font-weight: bold;
+.drop {
+    text-decoration: none;
+    color: #00347d;
 }
-.menu3 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 10px;
+.drop:hover {
+    text-decoration: none;
+	color: #356FC0;
 }
-.pnoindent {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+    background-color: #faf0d2;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 10rem;
+    list-style-type: none;
 }
-.pnoindent2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
-	margin-left: 5em;
+ul.dropdown li {
+  display: list-item;
+  font-size: 90%;
 }
-.pnoindent3 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
-	margin-left: 10em;
+
+ul.dropdown li a {
+  padding: 6px;
+  width: 300px;
 }
-.pnoindent4 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
-	margin-left: 15em;
+
+ul.dropdown li a:hover {
+  background-color: white;
 }
-.list {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
+
+/* Show the dropdown menu on hover */
+li.nav:hover > ul {
+  display: block;
 }
-.indent {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	text-indent: 30px;
-	margin-left: 1px;
-	line-height: 30px;
-	font-size: 16px;
+/* end nav */
+main {
+    margin-left: 5%;
+    background-color: #faf0d2;
+    padding: 20px;
 }
-.hang {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	text-indent: -30px;
-	margin-left: 30px;
-	line-height: 36px;
+div.letList, div.appMain {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
 }
-/* The following codes the numbered notes beginning with 1 in each document. */
-.letnote {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	text-indent: 0px;
-	line-height: 32px;
-	font-size: 16px;
+
+
+
+ul {
+    list-style-type: none;
 }
-/* The following codes the provenance note, the note beginning with an asterisk made in headnote. */
-.letnote2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	text-indent: 0px;
-	line-height: 32px;
-	font-size: 16px;
-;
+
+
+
+/* for xslt, make div=paratext / table xml:id "chrono" and remove attributes, then
+ * first cell containing width="130" gets colDate and second cell width="610" gets rend colEvent. 
+ * There is an empty row-cell-cell-closeRow between each entry*/
+
+#chrono {
+    width: 740px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* The following codes the indented quotations */
-p.quote {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	line-height: 26px;
-	font-size: 14px;
+
+td.colDate {
+    width: 130px;
 }
-blockquote.quote {
-	margin-left: 5em;
-	margin-right: 5em;
+
+td.colEvent {
+    width: 610px;
 }
-.tip {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 14px;
-	border:solid 1px #666666;
-	width:300px;
-	padding:10px;
-	position:absolute;
-	z-index:100;
-	visibility:hidden;
-	color:#000000;
-	top:20px;
-	left:90px;
-	background-color:#ccffff;
-	/*  layer-background-color:#ccffff; */
-}
-#let1t2 {
-	width:160px;
-}
-.tablabout {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 25px;
-	letter-spacing: 0.3px;
-}
-/*
-  blockquote {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16pt;
-  color: #000000;
-  line-height: 30pt
-  }
- */
-.pagehead {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 24px;
-	line-height: 40px;
-	text-indent:40px;
-	letter-spacing: 0.5px;
-	color: #3333CC;
-	text-align: center;
-	font-weight: bold;
-}
-.letnote_noindent {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	line-height: 28px;
-	font-size: 14px;
-	text-indent: 0px;
-}
-.mouseover {
-	color: #0000CC
-}
-.titlem {
-	font-style: italic;
-}
-.titleu {
-	font-style: italic;
-}
-ul, ol {
-	list-style-type: none;
-}
-li {
-	list-style-type: none;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 30px;
-	text-indent: 0px;
-	letter-spacing: 0.3px;
-	margin-bottom: 1em;
-}
-h3 {
-	width: 740px;
+
+
+.title {
+    font-style: italic;
 }

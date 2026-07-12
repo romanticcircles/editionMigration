@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3425. Robert Southey to Henry
+                  Phillpotts, 22 January 1820 </title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3425</idno></publicationStmt><sourceDesc><p>Exeter Cathedral Library, ED 11/58/2. ALS;
+                  3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3425" type="letter"><head>3425. Robert Southey to <ref type="a" target="people.html#PhillpottsHenry">Henry
+                  Phillpotts</ref>, <date when="1820-01-22">22 January 1820 </date><note type="headnote" place="foot" resp="editors">Address: To/ The Reverend H.
+                  Phillpotts,/ College,/ Durham<lb/> Stamped: KESWICK/ 298<lb/> Seal: red wax,
+                  design illegible<lb/> Endorsement: M<hi rend="sup">r</hi> Southey/ 22 Jan<hi rend="sup">y</hi>. 1820<lb/> MS: Exeter Cathedral Library, ED 11/58/2. ALS;
+                  3p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1820-01-22">22 Jan<hi rend="sup">y</hi>. 1820 </date></dateline><salute rend="indent0"> My dear Sir</salute></opener><p rend="indent1"> I thank you for your Remarks upon the Edinburgh Review,<note n="1" place="foot" resp="editors">Henry Phillpotts, <title>Remarks on an Article in
+                     the Edinburgh Review, No. 64, entitled “Necessity of Parliamentary
+                     Enquiry”</title> (1820). This was a reply to the review in <title>Edinburgh
+                     Review</title>, 44 (October 1819), 441–453, of Phillpotts’s pamphlet, <title>A
+                     Letter to the Freeholders of the County of Durham on the Proceedings of the
+                     County Meeting holden on Thursday, 21st October 1819 – and Particularly on the
+                     Speech of J. G. Lambton, Esq., M. P.</title> (1819).</note> – if every person
+               who has been misrepresented &amp; calumniated in that dishonest journal had
+               vindicated himself as temperately &amp; as ably as you have done, its credit would
+               have gone down in the world much sooner than it did. Your pamphletts cannot fail of
+               producing some good. Persons of the opposite party who are not so far gone in faction
+               as to be irrecoverable, will like the manner &amp; the temper so well that they will
+               attend the more willingly to the reasoning which is so candidly but cogently set
+               forth, &amp; the dignified severity with which you conclude will be felt where it
+               ought to be. <ref type="m" target="people.html#BroughamHenryPeter">Brougham</ref>, I well know, winces like a
+               galled jade<note n="2" place="foot" resp="editors"><title>Hamlet</title>, Act 3,
+                  scene 2, lines 242–243.</note> when he is touched.</p><p rend="indent1"> The measures of government,<note n="3" place="foot" resp="editors">Parliament had passed the Cabinet’s ‘Six Acts’ in November–December 1819 to
+                  suppress radical agitation.</note> &amp; the manifestation of feeling which they
+               have called forth from the sound part of the community, have produced a sudden calm
+               over the country. The disease is not cured, but time is gained for administering
+               alteratives. The three things needful are – to check the seditious press (which I
+               fear is not sufficiently done) – to provide wholesome instruction for the rising
+               generation, &amp; to have a constant outlet open for restless spirits &amp;
+               superfluous hands. The attention of Government is directed to all these objects,
+               &amp; there exists a very general desire (quickened no doubt by a sense of danger) to
+               alleviate misery &amp; prevent crimes. If in the course of the next generation we are
+               not made the most miserable of all nations by a radical Revolution, there is I think
+               a fair prospect of our attaining to a greater degree of national happiness than has
+               ever been enjoyed by any people in any age of the world. <hi rend="ital">Utrum
+                  horum</hi>?<note n="4" place="foot" resp="editors">‘Which of these?’.</note>
+               We must hope &amp; pray for the best, – &amp; we who can, must labour for it
+               also.</p><closer><salute rend="indent1"> Believe me my dear Sir</salute><salute rend="indent2"> Yours with much esteem</salute><signed rend="indent3"> Robert Southey.</signed></closer></div></body></text></TEI>

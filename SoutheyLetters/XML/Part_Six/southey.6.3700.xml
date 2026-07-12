@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3700. Robert Southey to Grosvenor Charles Bedford, 6 July 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3700</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. c. 26. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3700" type="letter"><head>3700. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>, <date when="1821-07-06">6 July 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ G. C. Bedford Esq<hi rend="sup">re</hi>/ Exchequer/ Westminster<lb/> Stamped: KESWICK/ 298<lb/> Postmark: [partial] E/ 9 JY/ 1821<lb/> Endorsements: 6. July
+                  1821/ £50 –<lb/> MS: Bodleian Library, MS Eng. Lett. c. 26. ALS; 3p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-07-06">6 July. 1821</date></dateline><salute rend="indent0"> My dear Grosvenor</salute></opener><p rend="indent1"> The Massachusetts Historical Society have elected me a member.<note n="1" place="foot" resp="editors">The Massachusetts
+                  Historical Society (founded 1791) is the oldest historical society in the United States. It is based in Boston, and collects and
+                  preserves documents on American history.</note> This is the oldest &amp; most respectable literary Institution in America, &amp; one
+               which has done good service by the Historical Collections which it has published.<note n="2" place="foot" resp="editors"><title>Collections of the Massachusetts Historical Society, from the Commencement in 1792 to 1823</title> (1806–1823), no. 1819
+                  in the sale catalogue of Southey’s library.</note> the book is very scarce in England, so much so that D<hi rend="sup">r</hi>
+                  Young<note n="3" place="foot" resp="editors">Thomas Young (1773–1829; <title>DNB</title>), doctor, scientist, polymath and
+                  occasional writer for the <title>Quarterly Review</title>.</note> some years ago sent <del>down</del> to consult my copy, not being
+               able to hear of any other person who possessed it. I am in good odour at Boston, where Oliver Newman<note n="4" place="foot" resp="editors">Southey’s unfinished epic set in New England. A fragment was published posthumously in <title>Oliver Newman: a
+                     New-England Tale (Unfinished): with Other Poetical Remains by the Late Robert Southey</title> (London, 1845), pp. 1–90.</note> is
+               looked for with more expectation than it is in Old England, &amp; will perhaps be read with more interest, as relating to known places
+               &amp; familiar events.</p><p rend="indent1"> Having thus informed you that I have obtained a new tail to my name, let me likewise communicate to you that I have not
+               obtained anything new for my tail, – the expected pantaloons &amp;c not having arrived.</p><p rend="indent1"> You may send me, si placet,<note n="5" place="foot" resp="editors">‘if you please’.</note> 50£, – for two reasons, –
+               first because I <del>wanted</del> want it, owing to the postponement of my paper upon Cromwell,<note n="6" place="foot" resp="editors">Southey’s ‘Life of Cromwell’, <title>Quarterly Review</title>, 25 (July 1821), 279–347.</note> – &amp; secondly because it will
+               occasion you to put pen to paper with your thoughts in this direction, – which it is long since you have done. I wish you could run
+               away &amp; keep the Coronation here.<note n="7" place="foot" resp="editors">The coronation of George IV on 19 July 1821.</note> By that
+               time my annual cold may perhaps have left me, it must now be nine or ten weeks old. This last week I have taken much more exercise than
+               usual – I was round the Vale of S<hi rend="sup">t</hi> Johns on Monday, Tuesday at Buttermere, yesterday at Watenlath &amp; Borrodale;
+               &amp; if tomorrow be fair, I shall sit down on the summit of <ref type="m" target="places.html#Skiddaw">Skiddaw</ref>. M<hi rend="sup">rs</hi> Keenan &amp; her daughter are with us<note n="8" place="foot" resp="editors">Frances Keenan (d. 1838), wife of the Irish
+                  portrait painter John Keenan (d. 1819). Southey first met her in Exeter in 1799. Frances Keenan was also an artist, as was her
+                  daughter, Frances Louisa Keenan (1801–1884), wife of Benjamin Waterhouse Hawkins (1807–1894; <title>DNB</title>).</note> – I do not
+               know whether you saw her in London in 1802<note n="9" place="foot" resp="editors">John Keenan had painted Southey’s portrait in London
+                  in 1802.</note> – she is the sister of General M<hi rend="sup">c</hi> Kinnon who was killed at Ciudad Rodrigo.<note n="10" place="foot" resp="editors">Major-General Henry MacKinnon (1773–1812) commanded the 45th, 74th and 88th Regiments, and was killed
+                  storming the city of Ciudad Rodrigo on the night of 19–20 January 1812. He was the subject of Southey’s ‘To the Memory of Major
+                  General MacKinnon’, <title>Poetical Works</title>, 10 vols (London, 1837–1838), III, pp. 152–154.</note> They leave us on
+               Monday.</p><p rend="indent1"> Last week <ref type="m" target="people.html#FrickerEdith">my lawful Governess’s</ref> copy of the Vision<note n="11" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821), no. 2626 in the sale catalogue of Southey’s library,
+                  described as ‘superbly bound in blue morocco, leather joints, richly tooled and lined with silk’.</note> arrived: very magnificent
+               it is; white <hi rend="ital">silk</hi> however would have looked better than white <hi rend="ital">sattin</hi> in the inside, &amp; <hi rend="ital">silk</hi> I think you intended it to be. <ref type="m" target="people.html#GeorgePrinceRegent">The King</ref> must think
+               he has a very magnificent Laureate. You have not rubbed up my memory about the Coronation<note n="12" place="foot" resp="editors">Southey wrote a few notes for a oronation Ode, dated ‘Feby 9. 1821’ in his notebook, now at the Huntington Library, San Marino, HM
+                  2733, f. 126r. However, he did not get beyond this and did not write a poem for the coronation on 19 July 1821.</note> by sending me
+               a book concerning its ceremonials, – &amp; notwithstanding Lord Grosvenors<note n="13" place="foot" resp="editors">Robert Grosvenor,
+                  2nd Earl Grosvenor (1767–1845), a major landowner in Cheshire and London. He was created 1st Marquess of Westminster in 1831.
+                  William Gifford had been Grosvenor’s tutor. The latter’s interest in the coronation possibly stemmed from his family tie to it. As
+                  Lords of the Manor of Great Wymondley, Hertfordshire, the Grosvenors had performed the privilege, of serving the monarch with a
+                  drink from a silver cup at the coronation banquets of 1727 and 1761. They had sold the Lordship in 1767 and therefore did not
+                  perform the same role at the coronation banquet of 1821.</note> hint, I do not know that there is any occasion for my volunteering
+               with unwilling Minerva.<note n="14" place="foot" resp="editors">Minerva was the Roman goddess of poetic inspiration.</note></p><p rend="indent1"> We are all tolerably well – I hear <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cupn</ref> in riotous
+               spirits on the stairs. God bless you. Remember me to <ref type="m" target="people.html#BedfordHenry">Henry</ref> &amp; <ref type="m" target="people.html#Bedfordfamily">Miss Page</ref>, – &amp; come if you can, the sooner the better, &amp; the longer you can
+               stay.</p><closer><signed rend="indent2"> RS.</signed></closer></div></body></text></TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3454. Robert Southey to John Rickman, 21 March [1820] </title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3454</idno></publicationStmt><sourceDesc><p>Huntington Library, RS 392. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3454" type="letter"><head>3454. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John Rickman</ref>, <date when="1820-03-21">21 March [1820] </date><note type="headnote" place="foot" resp="editors">Endorsement: Fr RS/ 21
+						March 1820<lb/> MS: Huntington Library, RS 392. ALS; 3p.<lb/> Unpublished.<lb/> Dating note: Year from
+						endorsement.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1820-03-21">21. March.</date></dateline><salute rend="indent0"> My dear R.</salute></opener><p rend="indent1"> It is not likely that I shall be in town before the meeting of Parl<hi rend="sup">t</hi>.<note n="1" place="foot" resp="editors">The House of Commons had been dissolved on 29 February 1820, leading to a
+						general election. The new House of Commons met for the first time on 21 April 1820.</note> My work usually grows
+					under my hands, – so that I deceive myself as much in my estimates, as a builder would deceive me in his, if I were
+					contracting to have a house built. Interruptions occur even at this season, – &amp; sometimes idleness besets me in
+					the shape of a book, – &amp; some times I yield to a different kind of temptation, which is that of working upon
+					something for which I am in the humour, &amp; letting that on which I ought to be engaged lay over till the
+					morrow.</p><p rend="indent1"> We have had death in the house. <del>Poor</del> Good old <ref type="m" target="people.html#WilsonMrs">M<hi rend="sup">rs</hi> Wilson</ref> is gone, in her 78<hi rend="sup">th</hi> year,
+					struck down by a fit which left her deaf, blind &amp; senseless to all appearance – in which state she continued
+					till the eighth day, with no other sustenance than that of having <del>her la</del> a spoonful of tea from time to
+					time. Of her little money she has left these children five pounds each, which I shall take care to embody for each
+					of them in some tangible memorial of their good old friend</p><p rend="indent1"> Another cause which has delayed my movements is that I must not leave home till I have corrected
+					the last proofs of Wesley,<note n="2" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise
+							and Progress of Methodism</title> (1820).</note> – for the convenience of referring to my documents. The
+						printer<note n="3" place="foot" resp="editors">Andrew Strahan (1749–1831; <title>DNB</title>) was MP for various
+						constituencies 1796–1820 and ran a highly successful printing business.</note> has been very tardy, or his work
+					would have done ere this. I will desire <ref type="m" target="people.html#LongmanThomas">Longman</ref> to send with
+					your copy, one for <ref type="m" target="people.html#TelfordThomas">M<hi rend="sup">r</hi> Telford</ref>, – he will
+					be reminded by it of his old friend Benjamin Abbott,<note n="4" place="foot" resp="editors">Benjamin Abbott
+						(1732–1796), Methodist evangelist in America, dealt with in <title>The Life of Wesley; and the Rise and Progress
+							of Methodism</title>, 2 vols (London, 1820), II, pp. 457–461.</note> &amp; will see proof enough of his suspicion
+					that I have been addicted to reading odd books.</p><p rend="indent1"> I shall take advantage of your restored faculty to send up a portion of the corrected vol. of
+					Brazil to the press, in a day or two.<note n="5" place="foot" resp="editors">The second edition of the first volume
+						only of the <title>History of Brazil</title> (1810–1819) was published in 1822. The dissolution of parliament had
+						suspended Rickman’s ability to frank mail.</note></p><p rend="indent1"> Curwen has ousted Lord Morpeth<note n="6" place="foot" resp="editors">John Christian Curwen
+						(1756–1828; <title>DNB</title>), MP for Carlisle 1786–1790, 1791–1812, 1816–1820, contested and won Cumberland for
+						the Whigs on 17 March 1820, holding the seat until his death. He defeated George Howard, Viscount Morpeth
+						(1773–1848; <title>DNB</title>), later 6th Earl of Carlisle, MP for Morpeth 1795–1806, MP for Cumberland
+						1806–1820. Southey comforted himself by suggesting that Morpeth’s defeat would bestir his father, Frederick
+						Howard, 5th Earl of Carlisle (1748–1825; <title>DNB</title>), into becoming an active pro-government
+						supporter.</note> in a way which is very likely to throw that interest into the opposition scale; &amp; thus to
+					injure his own party for the sake of a personal triumph. I know not how the election at Appleby<note n="7" place="foot" resp="editors">Polling in the Westmorland constituency began on 15 March and continued for seven
+						days, before Brougham conceded defeat to the Lowther interest.</note> goes on – both parties are very sanguine,
+					&amp; yet both ought to <hi rend="ital">know</hi> what the issue must be, <del>without</del> as they have only to
+					the number of their former voters, that of the new freeholders whom they have created for the purpose. <ref type="m" target="people.html#BroughamHenryPeter">Brougham</ref> who denies that he abused me upon the hustings at
+					the last election, has been complimenting me there now, for the purpose I suppose of making me credit, or seem to
+					credit a denial which I know to be false.<note n="8" place="foot" resp="editors">Brougham was reported to have
+						criticised Southey from the Westmorland hustings on 30 June 1818 during the general election of that year.</note>
+					He is a thorough-paced liar, &amp; neither cares what he says, nor what he unsays.</p><p rend="indent1"> Curwen being returned for the county, young Graham will come in for Carlisle, as the hero of
+					those very radicals who endeavoured at this election to murder his father.<note n="9" place="foot" resp="editors">One of the two sitting MPs for Carlisle was Sir James Graham, 1st Baronet, of Kirkstall (1753–1825), MP for
+						Carlisle 1812–1825, and a supporter of the Lowther interest. He was re-elected in 1820 with Curwen, who then chose
+						to sit for Cumberland, where he was also elected, prompting a by-election in Carlisle. Southey suggests that the
+						Whigs intended to put up as a candidate Sir James’s son, Sandford Graham, 2nd Baronet (1788–1852), Whig MP for
+						Ludgershall 1812–1815, 1818–1826, 1830–1832. The election at Carlisle in 1820 was marred by considerable violence
+						and, after the conclusion of the poll on 11 March, Sir James Graham of Kirkstall and his supporters were attacked
+						with brickbats and stones as they made their way from the Town Hall to the Bush tavern. However, Southey may have
+						been under the impression that Sir James Graham, 2nd Baronet, of Netherby (1792–1861; <title>DNB</title>), Whig MP
+						for Hull 1818–1820, who had been suggested as a Whig candidate for Carlisle in the general election of 1820, was
+						the son of Sir James Graham of Kirkstall and that he would be the candidate. In fact the anti-government
+						standard-bearer in the by-election was William James (1791–1861), MP for Carlisle 1820–1826, 1831–1834, MP for
+						East Cumberland 1836–1847. </note> You must not give Curwen too much credit for his speech to those Radicals; it
+					was made with a view <del>of</del> &lt;to&gt; the <hi rend="ital">County</hi>, – &amp; there was a supplementary speech
+					to make all smooth again, that they might not pelt him when he was chaired.<note n="10" place="foot" resp="editors"><title>The Times</title>, 21 March 1820, carried an account of Curwen’s speech from the hustings at the opening
+						of the poll for Carlisle on 10 March. Curwen had denounced the radicals and their principles, and much of the
+						crowd was hostile towards him. However, all was not as it seemed, and Curwen was actually in a secret alliance
+						with the radical candidate, William James, to try and defeat the other sitting MP, Sir James Graham, of
+						Kirkstall.</note></p><p rend="indent1"><ref type="m" target="people.html#FrickerEdith">M<hi rend="sup">rs</hi> S.</ref> hopes that
+					certain potted charr have arrived safely in S<hi rend="sup">t</hi> Stephens Court: – they were judged to be better
+					in two small pots than in one large one.</p><closer><salute rend="indent2"> God bless you</salute><signed rend="indent3"> RS.</signed></closer></div></body></text></TEI>

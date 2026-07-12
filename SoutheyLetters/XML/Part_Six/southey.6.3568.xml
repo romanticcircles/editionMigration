@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3568. Robert Southey to Grosvenor Charles Bedford, 27 November 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3568</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. d. 47.
+                  ALS; 4p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3568" type="letter"><head>3568. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>, <date when="1820-11-27">27 November 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ Grosvenor Charles Bedford/
+                  Exchequer<lb/> Endorsement: 27 Nov<hi rend="sup">r</hi>. 1820/ with draft for £400<lb/> MS: Bodleian Library, MS Eng. Lett. d. 47.
+                  ALS; 4p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1820-11-27">27 Nov. 1820</date></dateline><salute rend="indent0"> My dear G.</salute></opener><p rend="indent1"> You see that I have taken your advice, &amp; enclosed the draft.<note n="1" place="foot" resp="editors">A draft for
+                  money Southey was owed as payment for writing an ‘account’ of David Pike Watts (1754–1816), a fabulously rich wine merchant and
+                  philanthropist, who had been an important supporter of Andrew Bell’s educational schemes and had owned the Storrs Hall estate on
+                  Windermere. He was also the uncle of the painter John Constable (1776–1837; <title>DNB</title>). The work had been commissioned by
+                  Watts’s daughter and heiress, Mary Watts-Russell (1792–1840), who had married, in 1811, another heir to a business fortune, Jesse
+                  Watts-Russell (1786–1875), MP for Gatton 1820–1826. They lived at Ilam Hall in Staffordshire and had eight children.</note> Put it
+               into M<hi rend="sup">r</hi> Dickies<note n="2" place="foot" resp="editors">Andrew Dickie (d. 1834), confidential clerk in Coutts’s Bank
+                  and a partner from 1827.</note> hands, &amp; when you receive the proceeds, pay yourself the 50£. send me 100 (in tens &amp;
+               twenties) – <ref type="m" target="people.html#MayJohn">John May</ref> another; &amp; stock the rest.<note n="3" place="foot" resp="editors">i.e. invest the remainder in government stocks.</note></p><p rend="indent1"> I wish I was near you, &amp; still more that you were near me, which would be better for both parties. Come as soon as
+               possible after the first of May, &amp; we will put <ref type="m" target="people.html#SoutheyEdithMay">Ediths</ref> chess board out of
+               the way, if you do not like the sight of the chequers.<note n="4" place="foot" resp="editors">A pun on the game of checkers and
+                  Bedford’s workplace, the Exchequer.</note></p><p rend="indent1"> I have bad news to tell you concerning poor Othello.<note n="5" place="foot" resp="editors">A young cat the Southeys
+                  had taken in; see Southey to Grosvenor Charles Bedford, 12 November 1820, Letter 3552.</note> A very few days after I had written to
+               you concerning him &amp; his promising qualities, he was taken ill, – &amp; on the second day disappeared, having no doubt retired into
+               some secret place to die. From <ref type="m" target="people.html#FrickerEdith">Mistress</ref> to Maid &amp; from Pappa to <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cha-Cupn</ref> there was not one in the family who was not heartily sorry for this.</p><p rend="indent1"> Ere long you will receive my Carmen Triumphale, &amp; the three Congratulatory Odes (under the better title of Carmina
+                  Aulica,)<note n="6" place="foot" resp="editors">A combined second edition of <title>Carmen Triumphale</title> (1814) and
+                     <title>Congratulatory Odes. Odes to His Royal Highness the Prince Regent, His Imperial Majesty the Emperor of Russia, and His
+                     Majesty the King of Prussia</title> (1814), published as <title>Carmen Triumphale, for the Commencement of the Year 1814: Carmen
+                     Aulica. Written in 1814, on the Arrival of the Allied Sovereigns in England</title> (1821).</note> – reprinted in a little
+               volume, which will bind up with the Carmen Nuptiale.<note n="7" place="foot" resp="editors">Southey’s <title>The Lay of the
+                     Laureate</title> (1816).</note> I add as a postscript to the <hi rend="ital">Notes</hi>, a nice passage concerning them extracted
+               from my unpublished letter to <ref type="m" target="people.html#BroughamHenryPeter">Brougham</ref>.<note n="8" place="foot" resp="editors"><title>Carmen Triumphale</title> (London, 1821), pp. 45–53. This ‘Postscript’ had originally been written in 1818 as
+                  a response to Brougham’s reported attack on Southey from the hustings on 30 June 1818, during the General Election contest in
+                  Westmorland.</note> – Thalaba is about to be reprinted – a fourth edition only.<note n="9" place="foot" resp="editors">The fourth
+                  edition of <title>Thalaba the Destroyer</title> (1821).</note> I have made many corrections to the great improvement of the
+               versification &amp; language, – but I will print none of them my determination being to reserve all the emendations of this &amp; my
+               other long poems for the purpose of securing an additional term of copyright to my family after my decease</p><p rend="indent1"> The Vision of Judgement<note n="10" place="foot" resp="editors">Southey’s <title>A Vision of Judgement</title>
+                  (1821).</note> is in a fair way of being finished in the course of the present week. I resumed it partly in the hope of concluding
+               it with something which would do for <ref type="m" target="people.html#ShieldWilliam">Shields</ref>. This is not likely to be
+               accomplished, but it has put me in the vein, which will do as well, – &amp; I believe I have <del>formed</del> &lt;struck out&gt; the first
+               spark of an ode suited to the times<note n="11" place="foot" resp="editors">Southey’s duty as Poet Laureate to produce a New Year’s Ode
+                  for 1821; his ode was later published as ‘The Warning Voice. Ode II’ in <title>The Englishman’s Library: Comprising a Series of
+                     Historical, Biographical and National Information</title> (London, 1824), pp. 384–389. It was William Shield’s duty to set part
+                  of the poem to music in case a performance of it was called for at court (though this practice had been suspended since
+                  1810).</note> – The Vision will be printed without delay, &amp; in foolscap quarto, to suit the length of the lines. I <del>x</del>
+               mean to prefix a short explanation of the measure for the unlearned, &amp; of the principle of adaptation upon which it is constructed
+               for the learned. And perhaps to <hi rend="ital">post</hi> fix an account of the attempts formerly made to naturalize the Latin measures
+               in this country, with specimens, &amp; also of the experiments in other countries<note n="12" place="foot" resp="editors"><title>A
+                     Vision of Judgement</title> (1821) was not printed in foolscap quarto, but in quarto; it did contain a lengthy ‘Preface’ (pp.
+                  ix–xxvii), with ‘Notes’ (pp. 47–65) and ‘Specimens’ (pp. 67–79) on the lines Southey indicates here. </note> This will be curious in
+               itself, &amp; useful as stuffing. I have used Wilkes &amp; Junius as roughly as they deserve.<note n="13" place="foot" resp="editors">John Wilkes (1725–1797; <title>DNB</title>), radical journalist and politician, condemned in <title>A Vision of Judgement</title>
+                  (1821), Canto 5, lines 35–57; and the unknown author of the anti-government ‘Junius’ Letters, published in the <title>Public
+                     Advertiser</title>, 21 January 1769–21 January 1772, criticised in <title>A Vision of Judgement</title> (1821), Canto 5, lines
+                  58–69.</note> These lines descriptive of Washington<note n="14" place="foot" resp="editors">George Washington (1732–1799), first
+                  President of the United States 1789–1797.</note> please me, -</p><lg type="stanza"><l rend="indent6">severe but serene was his aspect,</l><l rend="indent3">Calm but stern; like one whom no compassion could weaken,</l><l rend="indent3">Neither could doubt deter, nor violent impulses alter, – </l><l rend="indent3">Lord of his own resolves, of his own heart absolute master</l><l rend="indent3">Aweful spirit, his place was with ancient sages &amp; heroes,</l><l rend="indent3">Fabius, Aristides, &amp; Solon &amp; Epaminondas.<note n="15" place="foot" resp="editors"><title>A Vision of
+                        Judgement</title> (1821), Canto 6, lines 17–22. Washington is flatteringly compared to: Quintus Fabius Maximus Verrucosus
+                     Cunctator (c. 280–203 BC), defender of Rome against Carthage; Aristides (530–468 BC), Athenian statesman; Solon (c. 638–558 BC),
+                     lawgiver of Athens; and Epaminondas (418–362 BC), Theban general.</note></l></lg><p rend="indent0"> If you would like to look at the MS. on its way to the press, I will send it to you, &amp; you need have no other
+               trouble than that of transmitting it by the twopenny post to <ref type="m" target="people.html#LongmanThomas">the Patres
+               Nostri</ref>.</p><p rend="indent1"> I suppose Woodfords father is the person to whom the mob at Taunton have behaved like beasts as they are.<note n="16" place="foot" resp="editors">The <title>Courier</title>, 23 November 1820, had carried an account of how a mob at Taunton had
+                  attacked the house of an unnamed prominent citizen because he refused to put candles in his window to celebrate the abandonment of
+                  the Bill of Pains and Penalties against Queen Caroline (1768–1821; <title>DNB</title>). Southey here reveals the citizen’s identity
+                  as Thomas Woodforde (c. 1740–1828), Senior Physician at the Taunton and Somerset Hospital. Woodforde had two sons, Thomas (c.
+                  1775–1842), who also worked as a doctor in Taunton, and James (b. 1781). The son mentioned by Southey is probably Thomas.</note>
+               This state of things must bring on a crisis, &amp; the sooner the better. Of all the factions by which any country was ever disgraced,
+               our present Whigs are surely the most thoroughly base &amp; profligate</p><p rend="indent1"> Are your ears the better for their rough usage? Let me know that you have received this – take care of yourself, –
+               &amp; remember me to <ref type="m" target="people.html#Bedfordfamily">Miss Page</ref> &amp; <ref type="m" target="people.html#BedfordHenry">Henry</ref>.</p><closer><salute rend="indent2">God bless you</salute><signed rend="indent3"> RS.</signed></closer><postscript><p rend="indent1">You may as well burn <ref type="m" target="people.html#BellAndrew">D<hi>r</hi> Bells</ref> letters, which will save the trouble of returning
+                     them.<note n="17" place="foot" resp="editors">Letters of advice about what to do following an embarrassing series of errors when Bedford initially tried to obtain
+                     payment for Southey’s work on the ‘account’ of David Pike Watts (1754–1816) from a London bank; see Southey to Andrew Bell, 14
+                     November 1820, Letter 3555. </note> I expect to see him daily.</p></postscript></div></body></text></TEI>

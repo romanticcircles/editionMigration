@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3550. Robert Southey to Messrs Longman and Co., 8 November 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3550</idno></publicationStmt><sourceDesc><p>MS untraced; text is taken from John Wood Warter (ed.), Selections from the Letters of Robert
+                     Southey, 4 vols (London, 1856) .  Previously  published: John Wood Warter (ed.), Selections from the Letters of
+                     Robert Southey, 4 vols (London, 1856), III, pp. 213–214.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3550" type="letter"><head>3550. Robert Southey to <ref type="a" target="people.html#LongmanThomas">Messrs Longman and Co.</ref>,<date when="1820-11-08"> 8 November 1820</date><note type="headnote" place="foot" resp="editors">MS: MS untraced; text is taken from John Wood Warter (ed.), <title>Selections from the Letters of Robert
+                     Southey</title>, 4 vols (London, 1856)<lb/> Previously published: John Wood Warter (ed.), <title>Selections from the Letters of
+                     Robert Southey</title>, 4 vols (London, 1856), III, pp. 213–214.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>,</placeName></address><date when="1820-11-08">Nov. 8. 1820.</date></dateline><salute rend="indent0"> Dear Sir,</salute></opener><p rend="indent1"> I have had a visit from Mrs. Fry upon the subject of George Fox, for my intention has made a stir among the
+                  Quakers.<note n="1" place="foot" resp="editors">The Quaker philanthropist and prison reformer Elizabeth Fry (1780–1845;
+                     <title>DNB</title>) had visited Southey. She had been prompted to do so by news that he planned to write a life of George Fox
+                  (1624–1691; <title>DNB</title>), founder of the Society of Friends. When Fry failed to change Southey’s mind, she offered him access
+                  to sources for his book; see Southey to Grosvenor Charles Bedford, 27 October 1820, Letter 3544.</note> The first wish (I think) was
+               to dissuade me from the undertaking; but that being in vain, every offer of assistance is made. I thought it proper to show Mrs. Fry
+               the introduction which I had written, that she might see in what light I viewed the subject, and that I should neither dissemble the
+               errors of the Society and its founder, nor detract from their just merits. And having made it clearly understood that I shall write
+               with perfect freedom, as well as perfect sincerity, I shall avail myself without scruple of all the advantages and facilities which are
+               offered me.</p><p rend="indent1"> I have already got a number of useful books, among others the <hi rend="ital">second</hi> edition of G. Fox’s Journal,
+               by which I perceive that the <hi rend="ital">language</hi> has<note n="2" place="foot" resp="editors">Warter’s text has ‘bas’; we have
+                  corrected it to ‘has’.</note> been altered in the third, but I know that there are more important alterations from <hi rend="ital">the first</hi>.<note n="3" place="foot" resp="editors">Thomas Ellwood (1639–1714; <title>DNB</title>) edited <title>A Journal or
+                     Historical Account of the Life, Travel, Sufferings, and Christian Experiences of that Ancient, Eminent and Faithful Servant of
+                     Jesus Christ, George Fox</title> (1694). The second edition was published in 1709 and the third edition in 1765.</note> I am now
+               master enough of the subject to judge of the extent of the work as well as its distribution, and have no doubt of its making two
+               volumes, though they may be somewhat smaller than “Wesley.”<note n="4" place="foot" resp="editors">The comparison is with Southey’s
+                     <title>The Life of Wesley; and the Rise and Progress of Methodism</title> (1820) in two volumes. The study of Fox was not
+                  written.</note> Look out for me for Gough’s “History of the Quakers,”<note n="5" place="foot" resp="editors">John Gough (1720–1791;
+                     <title>DNB</title>), <title>A History of the People Called Quakers from their First Rise to the Present Time</title>
+                  (1789–1790).</note> (which I cannot proceed without), the Lives of “Thomas Elwood,” “Richard Davis,” and “Richard Claridge,”<note n="6" place="foot" resp="editors">Three autobiographies by early Quakers: Thomas Ellwood (1639–1713; <title>DNB</title>), <title>The
+                     History of the Life of Thomas Ellwood</title> (1714); Richard Davies (c. 1635–1708; <title>DNB</title>), <title>An Account of the
+                     Convincement, Exercises, Services and Travels of that Ancient Servant of the Lord Richard Davies</title> (1710); and Richard
+                  Claridge (1649–1723; <title>DNB</title>), <title>The Life and Posthumous Works of Richard Claridge; being Memoirs and Manuscripts
+                     relating to His Experiences and Progress in Religion</title> (1726).</note> Rutty’s “History of Friends in Ireland,”<note n="7" place="foot" resp="editors">John Rutty (1697–1775; <title>DNB</title>), <title>History of the Rise and Progress of the People called
+                     Quakers in Ireland</title> (1751), no. 3126 in the sale catalogue of Southey’s library.</note> Margaret Fox’s “Journal,”<note n="8" place="foot" resp="editors">George Fox’s wife Margaret (1614–1702; <title>DNB</title>), née Askew, who played an important
+                  role in early Quakerism. She did not write a journal, but her ‘The Testimony of Margaret Fox concerning her Late Husband’ was
+                  included in Thomas Ellwood (1639–1714; <title>DNB</title>), <title>A Journal or Historical Account of the Life, Travel, Sufferings,
+                     and Christian Experiences of that Ancient, Eminent and Faithful Servant of Jesus Christ, George Fox</title> (London, 1694), pp.
+                  i–ix.</note> the “Book of Extracts,” and J. W. Chiting’s “Catalogue of Friends’ Books.”<note n="9" place="foot" resp="editors"><title>Extracts from the Minutes and Advices of the Yearly Meeting of Friends in London from its First Institution</title>
+                  (1802), no. 2354 in the sale catalogue of Southey’s library; and John Whiting (1656–1722; <title>DNB</title>), <title>Catalogue of
+                     Friends’ Books; Written by Many of the People, Called Quakers</title> (1708), no. 555 in the sale catalogue of Southey’s
+                  library.</note></p><p rend="indent1"> The first chapter must be a retrospective view of the history of religious opinions and parties in England. Prepared as
+               I am for the subject, it will yet cost me a good deal of reading. You must let me have Neal’s “History of the Puritans,” the original
+               work, (not the abridgement in two volumes which was published a few years ago);<note n="10" place="foot" resp="editors">Daniel Neal
+                  (1678–1743; <title>DNB</title>), <title>History of the Puritans</title>, first published in four volumes 1732–1738, the version
+                  Southey wanted (no. 2023 in the sale catalogue of his library). A two-volume abridgement had been published in 1811 by Longman and
+                  his partners.</note> and a lately published volume about Non-conformity in Wales, containing a Life of Vavasor Powell.<note n="11" place="foot" resp="editors">Richard Williams (1749–1818), <title>The Welsh Nonconformists’ Memorial; or, Cambro-British
+                     Biography</title> (1820), which contained a life of the Independent minister, Vavasor Powell (1617–1670; <title>DNB</title>).
+                  Southey’s copy was no. 2441 in the sale catalogue of his library.</note></p><p rend="indent1"> That is a curious volume which you sent me of “Tracts against the Quakers.”<note n="12" place="foot" resp="editors">Longman had sent a miscellaneous volume of twelve tracts against early Quakers; no. 2353 in the sale catalogue of Southey’s
+                  library. It included: <title>A Faithful Discovery of Treacherous Design of Mystical Antichrist Displaying Christ’s Banners</title>
+                  (1653), <title>A Northern Blast, or the Spiritual Quaker Converted</title> (1655), <title>The Perfect Pharise Under Monkish
+                     Holiness</title> (1654), <title>An Exact History of the Life of James Naylor</title> (1657), and <title>A Merry Device, called
+                     the Troublesome Travel of Time, and the Dangerous Delivery of Her Daughter Truth</title> (1660–1664).</note></p><p rend="indent1"> I see that the last edition of “Lardner”<note n="13" place="foot" resp="editors">Probably an edition of the
+                     <title>Works</title> of Nathaniel Lardner (1684–1768; <title>DNB</title>), the Presbyterian minister and patristic scholar; a
+                  five-volume set from 1815 is no. 1613 in the sale catalogue of Southey’s library.</note> is to be had for 6<hi rend="ital">l</hi>.
+                  6<hi rend="ital">s</hi>.; please to send it me by waggon.</p><closer><salute rend="indent2">Yours very truly,</salute><signed rend="indent3"> R. SOUTHEY.</signed></closer></div></body></text></TEI>

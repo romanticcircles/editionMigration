@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3712. Robert Southey to William Westall, 12 August 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3712</idno></publicationStmt><sourceDesc><p>Massachusetts Historical Society.
+						ALS; 4p. (c). .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3712" type="letter"><head>3712. Robert Southey to <ref type="a" target="people.html#WestallWilliam">William Westall</ref>, <date when="1821-08-12">12 August 1821</date><note type="headnote" place="foot" resp="editors">Address: To/ William
+						Westall Esq<hi rend="sup">re</hi>/ 19. Mornington Place/ Hampstead Road<lb/> MS: Massachusetts Historical Society.
+						ALS; 4p. (c).<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Netherhall">Netherhall</ref>. Maryport.</placeName></address><date when="1821-08-12"> 12 Aug. 1821</date></dateline><salute rend="indent0">My dear
+					Westall</salute></opener><p rend="indent1"> Your letter followed me to this place, whereby one day was lost on the road, &amp; a second in
+					consequence of the hour at which the post arrives here.</p><p rend="indent1"> Of the many things which I have to say, let me begin by thanking you for your new number; which
+					is a very good one, &amp; for the two marvellous proofs; marvellous they may rightly be called, because the effect
+					in both is so perfectly produced.<note n="1" place="foot" resp="editors">It is not clear which prints Westall had
+						sent to Southey, but they might have been proof impressions from his <title>Views of the Lake and of the Vale of
+							Keswick</title> (1820) and his new publication, <title>Four Views of Windermere</title> (1821), advertised in
+							<title>Lancaster Gazette</title>, 16 June 1821.</note> I should heartily wish that the Journal in which your
+					prints are called catchpenny<note n="2" place="foot" resp="editors">William Parry’s (1790–1855; <title>DNB</title>) <title>Journal for the Voyage of Discovery of a North-West Passage from the Atlantic to the Pacific; Performed in the Years 1819–20</title> (1821) contained 20 plates derived from sketches by Westall.  A notice of the book had described these plates as ‘paltry, catch-penny things’, <title>The London Literary Gazette, and A Journal of Belles Lettres, Arts, Sciences, etc. </title> (19 May 1821), 314.</note> were prosecuted, if it was
+					not for the vexation &amp; expence which you would incur in the course of a prosecution: for law proceedings
+					occasion almost as much evil to a plaintiff as to a defendant. There is however a sort of malice which defeats
+					itself, &amp; this stupid criticism is of that kind. I am very glad you find your account in having learnt to
+					engrave, but indeed the first samples made your success sure. I do not doubt your succeeding with the coral
+						reef,<note n="3" place="foot" resp="editors">This reference is unclear. Westall had contributed plates to <title>A
+							Voyage to Terra Australis</title> (1814), including ‘View of the Reef-Wreck Bank Taken at Low Water’.</note> nor
+					indeed in any thing, where what you aim at representing is within the reach of the art.</p><p rend="indent1"> And now concerning the plates. Much as I should be gratified by seeing some illustrations of
+					Roderick, from your hand &amp; your brothers, yet when you tell me that the whole speculation rests upon yourself,
+					I cannot but intreat you to weigh the risk well, before you venture so large a sum upon it.<note n="4" place="foot" resp="editors">The proposal was for Richard and William Westall to produce illustrations for Southey’s
+							<title>Roderick, the Last of the Goths</title> (1814); these could then be inspected and purchased by readers and
+						bound into their copies of the poem. The result was a set of engravings based on drawings by Richard Westall
+						(1765–1836; <title>DNB</title>) and entitled <title>Illustrations of Roderick, the Last of the Goths. A Poem, by
+							Robert Southey, Esq. from the Drawings of R. Westall R.A.</title> (1824). </note> The fact that <ref type="m" target="people.html#LongmanThomas">Longman</ref> would not venture upon such a speculation is some presumption
+					against the probability of its success. Morever the poem no longer comes under the useful description of “<hi rend="ital">something new</hi>”. About 6000 copies have been sold:<note n="5" place="foot" resp="editors">This
+						figure was based on all of the first four editions of <title>Roderick, the Last of the Goths</title> printed
+						between 1814 and 1816 having sold out, but did not take any account of sales of the fifth edition of 1818.</note>
+					&amp; of the possessors of those copies, many who would have bought the prints with the book, or while the
+					impression of the book was fresh, will not buy them now when the volumes are bound, &amp; laid to repose upon the
+					shelf. You see I am arguing like the Devils Advocate in a cause of Canonization, against my own desires.<note n="6" place="foot" resp="editors">In the canonisation process in the Catholic Church, the Promoter of the Faith is a
+						canon lawyer, whose role is to argue against the canonisation of the candidate.</note> But indeed you must not
+						re<del>x</del>ly upon the reputation of the poem; the question is whether there are persons enough who collect
+					your brothers works, to cover the expence of such an undertaking; for the main dependence must be upon such
+					purchasers. If you continue in your purpose, I will propose any thing which you desire to <ref type="m" target="people.html#LongmanThomas">Longman</ref>, &amp; do what I can to promote the sale among my own friends,
+					but this is not much. The French translation which has been sent me is in octavo. I do not know the size of the
+					other. -<note n="7" place="foot" resp="editors">Pierre Hippolyte Amillet de Sagrie (1785–1830), <title>Roderic,
+							Dernier Roi des Goths</title> (1821), no. 2700 in the sale catalogue of Southey’s library; and Antoine André
+						Brugière, Baron de Sorsum, <title>Roderick, le Dernier des Goths</title> (1820), no. 2697 in the sale catalogue of
+						Southey’s library. Both were in octavo. Southey had been sent the version by Sagrie. </note> The same post which
+					brought your letter last night, brought one from <ref type="m" target="people.html#SoutheyHenryHerbert">my
+						brother</ref> telling me that Alexander the Ventriloquist<note n="8" place="foot" resp="editors">Alexandre
+						Vattemare (1796–1864), celebrated French ventriloquist who used the stage name ‘Monsieur Alexandre’. Trained as a
+						surgeon, he was refused a diploma after making cadavers appear to speak. Between 1815 and 1835, he visited 550
+						cities with an act that involved him staging plays in which he voiced all the characters. In later life he
+						developed the first system by which museums and libraries could loan items from their collections to each
+						other.</note> has been looking for me in London, with an introduction from <ref type="m" target="people.html#BilderdijkWillem">a member</ref> of the Dutch Institute whose wife has translated Roderick
+					into Dutch.<note n="9" place="foot" resp="editors">Bilderdijk was a former President (1809–1811) of the Royal
+						Netherlands Institute of Science, Letters and Arts (founded 1808), to which Southey had been elected an Associate
+						of the Second Class in 1817. His wife was Katherina Bilderdijk, née Schweickhardt (1776–1830), whose translation
+							<title>Rodrigo de Goth, Koning van Spanje</title> was published in 1823–1824, no. 2701 in the sale catalogue of
+						Southey’s library.</note></p><p rend="indent1"> As soon as we return home which will be either on Saturday or Monday next, I will see if there be
+					any armour of Rodericks age which <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> can trace: I think
+					can find some among German monuments &amp; great seals. &lt;But that which was used in England at the same time,
+					would be equally proper. I believe there was little or no difference.&gt; I like the notion of landscape subjects,
+					treated by your hand. With regard to other subjects, your brother is much better able to determine upon what
+					situations are best suited to his art, than I can be: the error which I should be likely to commit is that of
+					mistaking dramatic passion for scenic effect.</p><p rend="indent1"> Thank you for the pains you have taken about M<hi rend="sup">rs</hi> Keenan.<note n="10" place="foot" resp="editors">Frances Keenan (d. 1838), wife of John Keenan. Southey had first met her in Exeter in
+						1799. She and her daughter had recently stayed with the Southeys at Keswick. Westall had made enquiries about
+						whether she was entitled to any payments from the Artists’ Benevolent Fund (founded in 1810); see Southey to
+						William Westall, 7 July 1821, Letter 3701.</note> Her husband certainly was not a man to be respected, when he was
+						known.<note n="11" place="foot" resp="editors">The Irish portrait painter John Keenan (d. 1819), who had painted
+						Southey in 1802.</note></p><p rend="indent1"> I am here with <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref>, <ref type="m" target="people.html#FrickerEdith">her mother</ref> &amp; <ref type="m" target="people.html#SoutheyCharlesCuthbert">Cuthbert</ref> at the house of my friend &amp; fellow traveller<note n="12" place="foot" resp="editors">Senhouse
+						had accompanied Southey on his May–August 1817 continental tour.</note><ref type="m" target="people.html#SenhouseHumphrey">Senhouse</ref>, for the double purpose of visiting [MS missing] him, &amp;
+					giving Edith &amp; Cuthbert the advantage [MS missing] of sea bathing.</p><p rend="indent1"> I want to send a proof set of your Lake Views<note n="13" place="foot" resp="editors">Either Westall’s
+							<title>Views of the Lake and of the Vale of Keswick</title> (1820), for which Southey had written an
+					introduction, or Westall’s <title>Four Views of Windermere</title> (1821). Subscribers could send for a proof and then sign up for some or all of the forthcoming set.  By this means, artists and engravers reduced some of the risk entailed in the high upfront costs of printing high-quality engravings.</note> to America. Will you have the goodness to send the four numbers (&amp; the subsequent ones
+					as they appear) to this direction, <ref type="m" target="people.html#TicknorGeorge">George Ticknor Esq<hi rend="sup">re</hi></ref> – to the care of Samuel Williams Esq<hi rend="sup">re</hi>. 13. Finsbury Square: – they
+					will then regularly find their way to Boston.<note n="14" place="foot" resp="editors">Samuel Williams (d. 1841),
+						born in Salem, Massachusetts, and educated at Harvard, had come to England in 1796 and established himself as a
+						banker. He provided advice and support for American merchants and tourists, allowing the latter to collect mail at
+						his London residence. After his firm, Williams &amp; Welles, was forced into bankruptcy, Williams returned to
+						America in 1828. He died a poor man in Boston in 1841. </note> And I will desire <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> to turn his horses head some Exchequer holy day in your
+					direction &amp; pay for them, or to send the payment.</p><p rend="indent1"> The two Ediths<note n="15" place="foot" resp="editors"><ref type="m" target="people.html#FrickerEdith">Edith</ref> and <ref type="m" target="people.html#SoutheyEdithMay">Edith May
+							Southey</ref>.</note> desire their kindest remembrances</p><closer><salute rend="indent2">God bless you</salute><salute rend="indent3"> Yrs affectionately</salute><signed rend="indent4">Robert Southey.</signed></closer><postscript><p rend="indent1">The Americans have made me a member of the Massachusetts Historical Society,<note n="16" place="foot" resp="editors">The Massachusetts Historical Society (founded 1791) is the oldest historical society
+							in the United States. It is based in Boston, and collects and preserves documents on American history. Southey
+							had been elected a member.</note> – the greatest literary honour that America has to bestow. </p></postscript></div></body></text></TEI>

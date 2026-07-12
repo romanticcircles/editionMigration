@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3581. Robert Southey to Grosvenor Charles Bedford, 11 December 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3581</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. d. 47. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3581" type="letter"><head>3581. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>,<date when="1820-12-11"> 11 December 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ G. C. Bedford Esq<hi rend="sup">re</hi>/ Exchequer/ Westminster<lb/> Stamped: KESWICK/ 298<lb/> Postmark: [illegible]<lb/> Endorsement: 11 Dec<hi rend="sup">r</hi>. 1820<lb/> MS: Bodleian Library, MS Eng. Lett. d. 47. ALS; 3p.<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref></placeName></address><date when="1820-12-11">11 Dec. 1820.</date></dateline><salute rend="indent0"> My dear Grosvenor</salute></opener><p rend="indent1"> The half bills are arrived. – <ref type="m" target="people.html#MurrayJohn">The Megistos</ref> cannot be influenced by
+               the cause which you suggest in his unaccountable procrastination with my ms.<note n="1" place="foot" resp="editors">The first chapter
+                  of Southey’s <title>History of the Peninsular War</title> (London, 1823–1832), I, pp. 3–62.</note> Because he has no advance to
+               make. There are no set of men who exact such advantages for themselves in all their dealings with others as the booksellers of his
+               order, they take long credit with the printers – eighteen months, – &amp; only allow six to the country publishers, so that their
+               profits come in before their disbursements are made. What the cause is Heaven knows, but it is not impossible that he has
+                  <del>xxx</del> mislaid the ms. &amp; is ashamed to tell me so; &amp; if this is the case well he may be, for of one half of it I
+               have no copy. This did not occur to me till this minute, – but I think it very likely.</p><p rend="indent1"><ref type="m" target="people.html#BellAndrew">D<hi rend="sup">r</hi> Bell</ref> is here. &amp; his presence has stopt
+               the completion of the Vision.<note n="2" place="foot" resp="editors"><title>A Vision of Judgement</title> (1821); it was dedicated to
+                  George IV, not Peter Elmsley.</note> What you say about <ref type="m" target="people.html#ElmsleyPeter">Elmsley</ref> had occurred
+               to me also as a possible objection, tho I dismissed it as not knowing how far his mind might, at this time be warped by his Edinburgh
+               connections, &amp; as thinking that he would be more likely to take the same line with <ref type="m" target="people.html#WynnCharlesWW">Wynn</ref>. I wrote to <ref type="m" target="people.html#ElmsleyPeter">Peter</ref> about a fortnight ago; – the business of the
+               letter was simply to ask him what books of mine he had not received, owing to his travels, &amp; where they should be sent.<note n="3" place="foot" resp="editors">See Southey to Peter Elmsley, 17 November 1820, Letter 3560.</note> But I filled the sheet, &amp; rather
+               wonder that he has not found time or inclination to answer it.</p><p rend="indent1"> This day I have a letter from a Methodist Preacher cui nomen <ref type="m" target="people.html#EverettJames">James
+                  Everett</ref>. Upon learning that the sketch of Wesleys life in the Correspondent<note n="4" place="foot" resp="editors">In 1817 a
+                  new journal was launched, edited by John Stoddart (1773–1856; <title>DNB</title>): <title>The Correspondent; Consisting of Letters,
+                     Moral, Political, and Literary, between Eminent Writers in France and England; and designed by presenting to each Nation a
+                     Faithful Picture of the Other, to Enlighten both to their True Interests, promote a Mutual Good Understanding between them, and
+                     render Peace the Source of a Common Prosperity</title>. Southey had contributed a sketch of the life of John Wesley (1703–1791;
+                     <title>DNB</title>) in the first two numbers (1817), 26–48, 157–176.</note> was mine he wrote some remarks upon it as long as the
+               Sketch itself, <del>&amp; sent</del> for the Methodist Magazine &amp; sent them to me in MS.<note n="5" place="foot" resp="editors">Everett’s letter to Southey, dated 15 January 1818, was printed in the <title>Methodist Magazine</title>, n.s. 15 (April–June
+                  1818), 260–280, 340–353, 419–434.</note> Tho controverting some of my opinions they were written in so courteous a manner that I
+               replied to him in a way which you may easily conceive, &amp; told him of my intention to write Wesleys life upon a proper scale, &amp;
+               promised to send him a copy.<note n="6" place="foot" resp="editors">Southey’s <title>The Life of Wesley; and the Rise and Progress of
+                     Methodism</title> (1820).</note> That copy <del>xxxx</del> owing to his changes of place in itinerating, he has only just
+               received. You would be much pleased with his letter. He says that immediately upon receiving my letter he wrote to recall his remarks
+               from the Magazine, but the Editor<note n="7" place="foot" resp="editors">Joseph Benson (1749–1821; <title>DNB</title>), editor of the
+                     <title>Methodist Magazine</title> 1803–1821.</note> declined &amp; printed them against his consent. That he has been requested
+               by the Connection to reply to the Life, &amp; refused the office, – &amp; that tho the principle points of difference between us still
+               exist, he has frequently to act the part of a sturdy advocate in my behalf.</p><closer><salute rend="indent1">God bless you</salute><signed rend="indent2"> RS.</signed></closer></div></body></text></TEI>

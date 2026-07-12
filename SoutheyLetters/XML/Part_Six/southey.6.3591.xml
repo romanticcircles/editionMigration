@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3591. Robert Southey to Grosvenor Charles Bedford, 26 December 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3591</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. d. 47. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3591" type="letter"><head>3591. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>, <date when="1820-12-26">26 December 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ G. C. Bedford Esq<hi rend="sup">re</hi>/ 9. Stafford Row<lb/> Endorsements: 26 Dec<hi rend="sup">r</hi> 1820; 26 Dec<hi rend="sup">r</hi> 1820 <lb/>
+                  MS: Bodleian Library, MS Eng. Lett. d. 47. ALS; 3p.<lb/> Unpublished.</note></head><opener><salute rend="indent0">My dear G.</salute></opener><p rend="indent1"> The mystery concerning the Peninsular War is explained at last.<note n="1" place="foot" resp="editors">Southey’s
+                     <title>History of the Peninsular War</title> (1823–1832). Southey had wished it to be printed by William Nicol (d. c. 1855),
+                  but Murray insisted on using his regular collaborator, Thomas Davison (1766–1831).</note> Yesterday I received four sheets of it,
+               with a note from <ref type="m" target="people.html#MurrayJohn">Murray</ref>. He says “I hope you will not think me very inconsistent if
+               I entreat you not to press me about the printer. Both <ref type="m" target="people.html#LongmanThomas">Longman</ref> &amp; myself have
+               formed connections in this line who are occasionally most importantly serviceable to us in our business, &amp; therefore feel
+               exceedingly hurt when a work so important as yours in every respect is taken from them. – Have the goodness to say that I had long ago
+               promised the work to another printer, &amp; had forgotten it, – it has been so long in preparation.”</p><p rend="indent1"> He says more to the same purport which need not be transcribed. The matter is now plain, – he has been ashamed to
+                  <del>xxy</del> say that he did not mean to keep his promise, knowing in how uncomfortable a situation it would place me, – &amp; so
+               delayed it till it could be delayed no longer. – I can do no more, &amp; am very sorry that the matter ends thus, &amp; that your
+               wishes &amp; mine should thus be thwarted. Tell W<hi rend="sup">m</hi> Nicol this. – Who is printing it I do not yet know, – the proofs
+               came under an Admiralty frank, &amp; for want of any other direction I must send them back thro the same channel.</p><p rend="indent1"> If it had not been for the vexation which thus accompanied it, the arrival of these first proofs would have been the
+               most chearing event of this Christmas. When I am <hi rend="ital">in</hi> so far in printers ink, the stimulus to go on is never
+               wanting; – &amp; the prospect of three volumes in which I am now fairly embarked <del>has also the</del> &lt;has upon me&gt; an encouraging
+               &amp; exhilarating effect.</p><p rend="indent1"> The same post which brought the historical proofs, brought also the last &amp; larger portion of the paper concerning
+               the S.S.<note n="2" place="foot" resp="editors">Southey’s review of <title>The Works of the Reverend William Huntington, S. S. Minister
+                     of the Gospel, at Providence Chapel, Gray’s Inn Lane, Completed to the Close of the Year 1806</title> (1811) appeared in
+                     <title>Quarterly Review</title>, 24 (January 1821), 462–510.</note> I have written to <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> requesting him to send me a set of the proofs, telling him that I know he will put
+               this production into his <hi rend="ital">boot</hi>,<note n="3" place="foot" resp="editors">In other words, Southey objected to Gifford
+                  editing the article; he was an ex-shoemaker, hence the pun.</note> &amp; that I wish to have a copy of it in its entire state. It is
+               a paper which will interest the <ref type="m" target="people.html#BedfordHenry">Master of the Rolls</ref>, &amp; which pleases me much
+               better than some others have done that have taken far better with the public than this is likely to do.</p><p rend="indent1"> My next proof will probably be of the Vision,<note n="4" place="foot" resp="editors"><title>A Vision of
+                     Judgement</title> (1821).</note> which I shall like much to see in types. – I have the preface to write, – &amp; I have called to
+               mind in time that I have omitted to mention one of the greatest men of the last reign – Hogarth.<note n="5" place="foot" resp="editors">William Hogarth (1697–1764; <title>DNB</title>), English painter. He was added to the list of ‘The Worthies of the Georgian Age’ in
+                     <title>A Vision of Judgement</title> (1821), Canto 10, lines 11–12.</note> Offence I doubt not will be given to some persons by
+               the omission of Pitt;<note n="6" place="foot" resp="editors">William Pitt (1759–1806; <title>DNB</title>), Prime Minister 1783–1801,
+                  1804–1806, and creator of the Act of Union (1800) between Great Britain and Ireland.</note> – I acknowledge his English spirit, I
+               like the Union, I admire his courage, &amp; for that quality wish he were alive again, – but I never can think him a statesman, &amp;
+               therefore cannot place his name among those which will stand high in the estimation of after ages.</p><p rend="indent1"> God bless you. The mountains will probably be perrywigged when I rise tomorrow, for it is just now as cold as
+               de-Kiggle, as windy as de-Wiggle, &amp; as cloudy as de-Cliggle. – I have had a letter from the Czar.<note n="7" place="foot" resp="editors">Alexander I (1777–1825; Tsar of Russia 1801–1825).</note> And I have sent you the reprint of the Carmen &amp;c –
+               where you will find a postscript to the Notes, tolerably well-seasoned.<note n="8" place="foot" resp="editors">A combined second
+                  edition of <title>Carmen Triumphale</title> (1814) and <title>Congratulatory Odes. Odes to His Royal Highness the Prince Regent, His
+                     Imperial Majesty the Emperor of Russia, and His Majesty the King of Prussia</title> (1814), published as <title>Carmen
+                     Triumphale, for the Commencement of the Year 1814: Carmen Aulica. Written in 1814, on the Arrival of the Allied Sovereigns in
+                     England</title> (1821). In <title>Carmen Triumphale</title> (London, 1821), pp. 45–53, there was a ‘Postscript’, which had
+                  originally been written in 1818 as a response to Brougham’s reported attack on Southey from the hustings on 30 June 1818, during the
+                  General Election contest in Westmorland.</note> This is intended to form a volume with the Carmen Nuptiale,<note n="9" place="foot" resp="editors">Southey’s <title>Lay of the Laureate</title> (1816).</note> – but in binding it must be placed first.</p><closer><signed rend="indent2">RS.</signed><dateline><date when="1820-12-26"> Dec 26. 1820.</date></dateline></closer></div></body></text></TEI>

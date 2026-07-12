@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3431. Robert Southey to Henry Crabb Robinson,
+						2 February 1820</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3431</idno></publicationStmt><sourceDesc><p>Dr Williams’s Library, London, Crabb
+						Robinson MSS .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3431" type="letter"><head>3431. Robert Southey to <ref type="a" target="people.html#RobinsonHenryCrabb">Henry Crabb Robinson</ref>,
+						<date when="1820-02-02">2 February 1820</date><note type="headnote" place="foot" resp="editors">Address: To/ H.C.
+						Robinson Esqr/ 3. Kings Bench Walk/ Temple<lb/> Postmark: 2 oClock/ 5 FE/ 1820 Ann<lb/> Stamped: [partial]
+						Unpaid<lb/> Endorsement: 2d Feby 1820/ Southey/ Hamond. ALS; 3p.<lb/> MS: Dr Williams’s Library, London, Crabb
+						Robinson MSS<lb/> Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1820-02-02">2 Feby. 1820</date></dateline><salute rend="indent0"> My dear
+					Sir</salute></opener><p rend="indent1"> I have a letter from poor <ref type="m" target="people.html#HamondElton">Elton Hamond</ref> begun
+					on the 15<hi rend="sup">th</hi> of May last, &amp; finished on the day before he effected his long meditated
+						purpose.<note n="1" place="foot" resp="editors">Hamond committed suicide on 1 January 1820. The letter Southey
+						mentions had been started by Hamond on 15 May 1819 and contained two postscripts dated 28 and 31 December 1819.
+						The MS is in Dr Williams’s Library. </note> He refers me to you, in case I should think proper to consult his
+					younger sister<note n="2" place="foot" resp="editors">Harriott Hamond (b. 1788), who had shared a house with her
+						brother.</note> before I read her letters. I hope you anticipate what I shall do upon this subject, – which will
+					be to open the box &amp; seal up those letters in your presence, &amp; deposit them in your hands to be returned to
+					her. Some parts of his letter seem clearly to indicate an insane as well as a wounded mind.</p><p rend="indent1"> He says “in all pecuniary matters confer with Mr J. Kirkman Miller,”<note n="3" place="foot" resp="editors">Joseph Kirkman Miller (1785–1855), Vicar of Walkeringham 1819–1855; he was Hamond’s cousin.</note>
+					whose address he gives me. There is no occasion to confer with any person upon that topic. If there be any thing
+					worthy of publication, the bookseller will gladly undertake the charge, &amp; I shall have only to ascertain to
+					which of his relatives the eventual profits may with most propriety be assigned.</p><p rend="indent1"> As I have not received any communication from the family, I begin to apprehend that none will be
+					made. May I therefore request that you will direct the papers to be sent to <ref type="m" target="people.html#SoutheyHenryHerbert">my brothers</ref> in <ref type="m" target="places.html#QueenAnneSt">Queen
+						Anne Street – N<hi rend="sup">o</hi>. 15</ref>. I ask you to take this trouble, as supposing that you may be known
+					at M<hi rend="sup">r</hi>. Maskells,<note n="4" place="foot" resp="editors">Unidentified; presumably the person who
+						had custody of Elton Hamond’s papers.</note> &amp; therefore, that no objection will be made to delivering
+					them.</p><p rend="indent1"> This evening I have received a letter from M<hi rend="sup">r</hi>. A. Cowan,<note n="5" place="foot" resp="editors">Unidentified. Letters sent to him by Hamond in 1817–1819 are now in Dr Williams’s
+						Library. </note> offering me some letters of <ref type="m" target="people.html#HamondElton">Elton Hamond’s</ref>,
+					according to his desire. Perhaps this is the person who published an odd book called Anthropaideia, about eighteen
+					years ago,<note n="6" place="foot" resp="editors">Andrew Cowan (dates unknown), <title>Anthropaideia: or, a
+							Tractate on General Education</title> (1803). Cowan was an American physician, who studied at Columbia College,
+						New York, and the University of Edinburgh. He should not be confused with the Andrew Cowan lost in South Africa in
+						1808; see note 8, below.</note> &amp; who was intimate with Bristed.<note n="7" place="foot" resp="editors">John
+						Bristed (1778–1855), born in England and educated at Winchester School, he later emigrated to America, became a
+						minister in the Episcopalian church and prolific author. He married Magdalen (1788–1832), the eldest daughter of
+						John Jacob Astor (1763–1848), in c. 1820. Bristed and Andrew Cowan were fellow students at the University of
+						Edinburgh. They made an eventful journey together in 1801, Bristed passing as an American, to avoid any
+						anti-English sentiment, and clad in a cat-skin cap and green spectacles. His disguise did not have the desired
+						effect, and during their visit to Dundee they were detained as spies and had to obtain testimonies from fellow
+						students in order to secure their release; see John Bristed, <title>Ανθρωπλανομενος; or A Pedestrian Tour Through
+							Part of the Highlands of Scotland, in 1801</title>, 2 vols (London, 1803). In addition, Bristed used the
+						‘Preface’ to <title>A Pedestrian Tour</title> to provide a detailed account of the virtues and faults (many
+						typographical) of Cowan’s <title>Anthropaideia</title> (I, pp. xv–lxxv). </note> But I am not sure of this,
+					because I remember that a D<hi rend="sup">r</hi> Cowan perished in an attempt to travel from the Cape to the
+					Portugueze settlements in Sofala,<note n="8" place="foot" resp="editors">Andrew Cowan (1778–1808?),
+						Assistant-Surgeon to the 83rd Regiment. In 1808 he led an ambitious expedition to cross the African subcontinent
+						from the Cape in the south-west to Sofala in Mozambique in the north-east, and thus explore areas unknown to
+						European settlers. This left Cape Town on 29 September 1808. It reached the Klaarwater mission station, but did
+						not make its next intended calling point, and on 24 August 1809 Cowan was declared dead. Later travellers claimed
+						to find evidence of the murder of Cowan and his men, but when and by whom was a matter of increasing dispute.
+						Southey’s recollection of Cowan was possibly gleaned from John Barrow’s (1764–1848; <title>DNB</title>) review of
+						John Campbell (1766–1840; <title>DNB</title>), <title>Travels in South Africa, Undertaken at the Request of the
+							Missionary Society</title> (1815), <title>Quarterly Review</title>, 13 (July 1815), 309–340 (esp.
+						326–327).</note> &amp; Bristed’s friend was a likely man to have engaged in such an enterprize.</p><closer><salute rend="indent1"> farewell my dear Sir &amp; believe me</salute><salute rend="indent2"> Yrs most
+						truly</salute><signed rend="indent3"> Robert Southey.</signed></closer></div></body></text></TEI>

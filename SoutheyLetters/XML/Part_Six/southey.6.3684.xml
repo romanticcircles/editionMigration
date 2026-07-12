@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3684. Robert Southey to Henry Herbert
+						Southey, 9 May 1821</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3684</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Don. d. 4. ALS; 3p.
+					.  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3684" type="letter"><head>3684. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert
+						Southey</ref>,<date when="1821-05-09"> 9 May 1821</date><note type="headnote" place="foot" resp="editors">Address:
+						To/ D<hi rend="sup">r</hi> Southey/ 15. Queen Anne Street/ Cavendish Square/ London <lb/> Stamped: KESWICK/
+						298<lb/> Postmark: E/ 12 MY 12/ 1820<lb/> MS: Bodleian Library, MS Don. d. 4. ALS; 3p.<lb/>
+					Unpublished.</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1821-05-09"> 9 May. 1821</date></dateline><salute rend="indent0"> My dear
+					Harry</salute></opener><p rend="indent1"> The Parl. Hist. goes beyond my expectations &amp; beyond what I ought to give for it.<note n="1" place="foot" resp="editors">William Cobbett, <title>Parliamentary History of England: From the Norman Conquest, in
+							1066 to the Year 1803</title> (1806), no. 2183 in the sale catalogue of Southey’s library. Southey had asked his
+						brother to purchase a cheap copy in London.</note> As far as five &amp; twenty pounds I should not have scrupled
+					at, but when it approaches forty, even I begin to consider whether I cannot do without the book better than I can
+					afford to purchase it. Some time or other a set will offer itself at half price.</p><p rend="indent1"> If M<hi rend="sup">r</hi> Boys does not return the miniature,<note n="2" place="foot" resp="editors">Thomas Boys (fl. 1819–1850s) was a printer and publisher who wished to include an engraved portrait
+						of Southey in John Clinton Robertson (1788–1852) and Thomas Byerly (d. 1826), <title>The Percy Anecdotes</title>,
+						21 vols (London, 1821–1823), XVII. This was derived from Nash’s miniature of Southey, painted in 1820 and now in
+						the National Portrait Gallery, London.</note> trouble him with a note for it. He has just published a volume of
+						<ref type="m" target="people.html#TownshendChauncyHare">Ch. Townsends</ref> poems, of which the author has sent me
+					a copy very beautifully bound in vellum with blue silk linings.<note n="3" place="foot" resp="editors">Chauncy Hare
+						Townshend, <title>Poems</title> (1821), no. 2823 in the sale catalogue of Southey’s library, ‘elegantly bound in
+						calf, with silk linings’.</note> Some of the pieces have great beauty of feeling &amp; expression, but there are a
+					class of poets who never write better than when they are in their bloom, &amp; I think he is one of them. Their
+						Helicon<note n="4" place="foot" resp="editors">Helicon is a mountain in Greece, where there are two springs sacred
+						to the Muses. The Hippocrene spring was supposed to be the source of poetic inspiration.</note> is a sort of soda
+					water which effervesces &amp; sparkles. But the right drink of the Muses is your old Hock.<note n="5" place="foot" resp="editors">German white wine, from the Rhineland. Southey had sampled it extensively on the return leg of his
+						continental tour of May–August 1817.</note></p><p rend="indent1"> Send me some lancets which may come viâ <ref type="m" target="people.html#RickmanJohn">Rickman</ref> in a frank, &amp; <ref type="m" target="people.html#SoutheyEdithMay">Edith</ref> will try them. –
+						<ref type="m" target="people.html#SoutheyCharlesCuthbert">Cuthbert</ref> too has some cutaneous disease, – it
+					comes in rough patches which widen &amp; spread, slightly discolouring the place. But he is well &amp;
+					thriving.</p><p rend="indent1"><ref type="m" target="people.html#GeorgePrinceRegent">His Majesty</ref> was very gracious:<note n="6" place="foot" resp="editors">George IV had commended Southey’s <title>A Vision of Judgement</title> (1821) to
+						Henry Herbert Southey.</note> – &amp; what is better still, after having let <ref type="m" target="people.html#ShieldWilliam">Shield</ref> know that a performance would be looked for on the birth day he
+					has been so gracious as not to order, whereby my Ode &amp; <ref type="m" target="people.html#ShieldWilliam">Shields</ref> music will do for the next S<hi rend="sup">t</hi> Georges day, &amp; so on, till they shall in evil
+					hour be called for, which I hope may never be.<note n="7" place="foot" resp="editors">Southey’s ‘Ode for St
+						George’s Day’, unpublished until <title>Poetical Works</title>, 10 vols (London, 1837–1838), III, pp. 258–262, and
+						written for George IV’s official birthday on 23 April 1821 (but not performed).</note></p><p rend="indent1"> I have not yet seen <ref type="m" target="people.html#Byron">Byron</ref> versus <ref type="m" target="people.html#BowlesWilliamLisle">Bowles</ref>, or Bowles versus Byron,<note n="8" place="foot" resp="editors">Lord Byron, <title>A Letter to John Murray, Esq. on the Rev. W. L. Bowles’s Strictures on the Life
+							and Writings of Pope</title> (1821); William Lisle Bowles, <title>Two Letters to the Right Honourable Lord Byron:
+							in Answer to His Lordship’s Letter</title> (1821).</note> – but I am very <del>x</del> glad to hear what you say
+					of the latter, the more so because I was a little afraid how so sensitive &amp; hasty a man might manage a
+						<del>xxxx</del> most clear case. What has possessed <ref type="m" target="people.html#Byron">Lord Byron</ref> upon
+					this subject I cannot guess: for he <hi rend="ital">must</hi> know that the difference between such writers as Pope
+					&amp; Milton, Pope &amp; Shakespere, – Pope &amp; Spenser, is a difference in <hi rend="ital">kind</hi>, not in
+						degree.<note n="9" place="foot" resp="editors">The poets Alexander Pope (1688–1744; <title>DNB</title>), John
+						Milton (1608–1674; <title>DNB</title>) and Edmund Spenser (c. 1552–1599; <title>DNB</title>).</note></p><p rend="indent1"> Let me know if a copy of the Parl: Hist: <del>xxx</del> falls in your way at a reasonable price,
+					– (that is to say, cast your eye at the windows where books have their prices affixed, when you pass them) &amp;
+					tell me what you disburse for me in hat, cap, picture frames &amp;c – &amp; you shall be reimbursed by <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref>, – upon whom you may call for payment when you
+					please.</p><p rend="indent1"> Love to <ref type="m" target="people.html#SoutheyLouisa">Louisa</ref>. I wish we were near enough
+					for her to bring all the children here for change of air, or to send any of them – <ref type="m" target="people.html#SoutheyTom">Tom</ref> never speaks of Algoa Bay now.<note n="10" place="foot" resp="editors">Now Port Elizabeth, in South Africa. A party of about 4,500 British settlers had arrived in April 1820, with
+						government sponsorship. Tom Southey had expressed an interest in finding a post, or taking some land, in the
+						settlement; see Robert Southey to Henry Herbert Southey, 27 February 1821, Letter 3642.</note></p><closer><salute rend="indent2">God bless you</salute><signed rend="indent4"> RS.</signed></closer></div></body></text></TEI>

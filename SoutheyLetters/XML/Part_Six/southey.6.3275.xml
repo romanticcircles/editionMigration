@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3275. Robert Southey to Henry Herbert Southey, 24 March 1819 </title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
+								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
+									License, as described under "Conditions of Use" at
+									http://romantic-circles.org/about/submission-guidelines and
+									here:</p><p>As of July 2027, all material published on Romantic Circles is
+									licensed uder Creative Commons Zero (CC 0), unless otherwise
+									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
+									and images published before December 2023 in order to mount them
+									on their own servers.</p></availability><idno type="edition">southey.6.3275</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Don. d.
+                  4. ALS; 3p. .  Not previously published.</p><p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
+								editor wishes to thank the Beinecke Rare Books and Manuscript
+								Library, Yale University; Berg Collection of English and American
+								Literature, The New York Public Library, Astor, Lenox and Tilden
+								Foundations; the Bodleian Library Oxford University; the British
+								Library; Boston Public Library; the Syndics of Cambridge University
+								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
+								College, Connecticut; the Historical Society of Pennsylvania; the
+								Hornby Library, Liverpool Libraries and Information Services; the
+								Houghton Library, Harvard University; the John Rylands Library,
+								Manchester; the Kenneth Spencer Research Library, University of
+								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+								Historical Society; McGill University Library; the National Library
+								of Scotland; the Newberry Library, Chicago; the New York Public
+								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
+								York; the Public Record Offices of Bedford, Suffolk (Bury St
+								Edmunds) and Northumberland, the Master and Fellows of Trinity
+								College, Cambridge; the Society of Antiquaries of Newcastle upon
+								Tyne; the Trustees of the William Salt Library, Stafford, the
+								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
+								work possible, as did support from the English Department of
+								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
+									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
+									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
+									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
+									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
+									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
+									edition XML dated 2017-01-20. For the old header, see
+									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3275" type="letter"><head>3275. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>, <date when="1819-03-24">24 March 1819 </date><note type="headnote" place="foot" resp="editors">Address: To/ D<hi rend="sup">r</hi> Southey/ Queen Anne
+                  Street/ Cavendish Square/ London <lb/> Stamped: KESWICK/ 298<lb/> Postmark: E/ 27 MR 27/ 1819<lb/> MS: Bodleian Library, MS Don. d.
+                  4. ALS; 3p.<lb/> Unpublished.</note></head><opener><salute>Here is a story for you from the Acta Sanctorum (10 Jan<hi rend="sup">y</hi>.) Vol 1. p. 649.<note n="1" place="foot" resp="editors"><title>Acta Sanctorum</title>, 53 vols (Antwerp and Brussels, 1643–1794), January I (1643), p. 649, no. 207 in the sale
+                     catalogue of Southey’s library. </note> It is curious as showing the strange method of keeping an issue open in Portugal at that
+                  time, – or rather of promoting a discharge. The time must have been in the first part of the 16<hi rend="sup">th</hi> century – for
+                  the fact was sworn to, among other miracles when, between the years 1550 &amp; 1555 depositions were taken preparatory to the
+                  canonization of S Gonsalo De Amarante.<note n="2" place="foot" resp="editors">St Goncalo de Amarante (1187–1259), Portuguese hermit
+                     and Dominican friar. He was canonised in 1560.</note></salute></opener><p rend="center"> ——— </p><p rend="indent0"><date when="1819-03-24">24 March. 1819 </date></p><p rend="indent0"> My dear Harry </p><p rend="indent1"> Finding this extract in my desk, I fill up the sheet to tell you that we are going on tolerably well. <ref type="m" target="people.html#FrickerEdith">Edith</ref> is much better &amp; can walk about without difficulty, – but the leg swells at night,
+               &amp; there is still great debility in both limbs. <ref type="m" target="people.html#SoutheyCharlesCuthbert">Og</ref> was kept in order
+               for about a week after I wrote to you, by the application of a roll of blotting paper, dipt in honey &amp; soap, once in 24 hours: how
+               much better was this than physicking him would have been! He is now natural in his non-naturals, &amp; thrives prodigiously. </p><p rend="indent1"> I have begun the fourth book of Oliver Newman,<note n="3" place="foot" resp="editors">Southey’s unfinished epic, set in
+                  New England. The completed sections were published after Southey’s death in <title>Oliver Newman: A New-England Tale (Unfinished):
+                     With Other Poetical Remains</title> (London, 1845), pp. 1–90.</note> &amp; am getting very much in earnest with it. – It was
+               tried on <ref type="m" target="people.html#TicknorGeorge">a New Englander</ref> last week, with great success. – For the first time in
+               my life I have taken up a subject which has a local <del>interest</del> &amp; national interest for a people who can read the poem, –
+                  <del>xx</del> that advantage will not be worth one penny to me, in clean lucre<note n="4" place="foot" resp="editors">If the poem
+                  sold well in America, Southey would not receive any royalties, as there were no international copyright agreements at this
+                  time.</note> – (why should I call it filthy?) – but it will ensure me an inheritance of popularity among the best of the Americans.
+               I like what is done, well, – &amp; what I have in prospect. the interest will be worthy, – the action diversified, – the circumstances
+               picturesque, – the situations dramatic, &amp; the characters distinctly conceived. <hi rend="ital">More meo</hi>,<note n="5" place="foot" resp="editors">‘Moreover’.</note> while my mind has been led into this train of invention by one poem, I have
+                  <del>x</del> made no small progress in planning another of which Portugal will be the scene &amp; the title Aljubarrota.<note n="6" place="foot" resp="editors">The Battle of Aljubarrota (14 August 1385), which secured Portuguese independence from Castile. See
+                  Southey’s note of 23 March 1819, developing an idea he first jotted down on 11 June 1808, <title>Common-Place Book</title>, ed. John
+                  Wood Warter, 4 series (London, 1849–1850), IV, p. 273.</note></p><p rend="indent1"> Here is a fact for <ref type="m" target="people.html#GoochDrRobert">Gooch</ref>. No doubt he knows the fact of the <hi rend="ital">man</hi> in the Caraccas who suckled a child at his breast.<note n="7" place="foot" resp="editors">Alexander von
+                  Humboldt (1769–1859), <title>Personal Narrative of Travels to the Equinoctial Regions of the New Continent During the Years
+                     1799–1804</title>, 6 vols (London, 1814–1826), I, pp. 220–221, relating the story of Francisco Lozano of Arenas. The book was no.
+                  1463 in the sale catalogue of Southey’s library.</note> I have found an instance of a withered old woman doing the same in France, –
+               &amp; <ref type="m" target="people.html#EdmondsonDr">Edmondson</ref> knew a case here at <ref type="m" target="places.html#Keswick">Keswick</ref>, – in which a girl did so, it being perfectly certain that the girl was not, &amp; never had been a mother
+                  <del>xxxxx</del> herself. But what I have to tell <ref type="m" target="people.html#GoochDrRobert">Gooch</ref> as singularly
+               important upon this subject is, – that Guaycurus who keep up their number by making war for the purpose of carrying away children, are
+               so well acquainted with the fact in physiology that the action of the infants mouth will occasion a secretion of milk, that they rely
+               upon it; &amp; it is common among them for women of more than fifty years &lt;of age&gt; who have ceased from child bearing or never borne a
+               child, to suckle these captives, when they are so young as to require the breast. – The chapter &amp; verse for this you will see in my
+               third volume.<note n="8" place="foot" resp="editors">Southey’s <title>History of Brazil</title>, 3 vols (London, 1810–1819), III, p.
+                  668.</note></p><closer><salute rend="indent1">God bless you. Love to <ref type="m" target="people.html#SoutheyLouisa">Louisa</ref> &amp; <ref type="m" target="people.html#GonneMrs">her mother</ref></salute><signed rend="indent2"> RS.</signed></closer><postscript><p rend="indent0">Quædam nobilis matrona, Domina Isabella de Sousa dicta, edito masculino fætu ex primâ partus conceptione, tam gravem
+                  in alterâ mamillâ contraxit infirmitatem, humore superfluo ibidem coagulato, ut medicis omnia exquisita sanitatis remedia
+                  tentantibus, omnino cassus fuerat illorum sollicitus labor. Anni jam unius integri spatium decucurrerat in illo medicando ulcere.
+                  Atque resolvendæ sanici gratiâ fistula quædam plumbea, a medicis et chirurgis fuerat excogitata, longitudinis digitalis, quâ in
+                  putridæ carnis hiatum immissâ, interius sanguinis putor foras ut efflueret conabantur. Post aliquot verò dies ulcere interius
+                  serpente, fistula taliter se intrinsecus recondidit, ut medici varia remedia adhibentes non solum non extrahere, sed nec etiam ut
+                  appareret efficere poterant ullo modo. Itaque plumbeum illud organum spatio quinque mensium intra pectus ejus latuit. Demum mortali
+                  jam periculo occurrere tantum cupientes chirurgi, communi consensu incisionem faciendam esse in mulieris pectore decreverunt. Post
+                  illam finalem ab illis jam latam sententiam, gratiâ visitandi infirmam, vir illustris Joannes de Sousa, socer illius, supervenit, et
+                  cognita medicorum deliberatione, ægrotantis nurus compatiens, illam verbis fide plenis admonere incepit, ut Beato Gondisalvo
+                  Amarantho volo emisso, tamquam cœlesti et probatissimo medico curandam se commendaret. Paruit confestim dictis soceri sui afflicta
+                  matrona, ejusque consilio acquiescens, votum vovit D. Gondesalvo, totâ<del>m</del> illam comitante familiâ. Et lacrymis deinde
+                  obortis, humiles preces pro mortis periculo evadendo, atque sanitate pristinâ recuperandâ effundere coepit. Quid plura? Eademmet
+                  die, cum medici et chirurgi vespertine tempore venientes, emplastrum pectore femineo appositum purificandi humoris causâ
+                  extraxissent, fistulam a tanto tempore reconditam, fasciis et linamentis medicinalibus sponte suâ adhærentem invenerunt. Denique ne
+                  dubium aliquod suboriretur D Gondisalve meritis hoc factum esse, intra spatium octo tantum dierum perfectissime se sanatam
+                     vidit.<note n="9" place="foot" resp="editors">The passage translates as: ‘A certain noble matron, called Donna Isabella de Sousa,
+                     having produced a male baby from her first pregnancy, contracted such a serious indisposition in one breast, superfluous humour
+                     having coagulated in that place, that, although all the doctors had tried every obscure remedy to restore her health, their
+                     solicitous labour had been completely fruitless. A period of one whole year had now gone by while that sore was being treated.
+                     And, in order to restore her health, a lead pipe had been devised by the doctors and surgeons, of a finger’s length; after
+                     inserting this into an opening in the putrid flesh, they were trying to make the putridity of the blood inside flow out. However,
+                     after a few days, since the sore was creeping further inside, the pipe buried itself so far in that the doctors, employing
+                     various remedies, were unable not only to extract it, but even, as it seemed, to achieve anything by any means. So that lead
+                     instrument lay hidden within her breast for a period of five months. At length, the surgeons, who now desired only to relieve the
+                     mortal danger, by common agreement decreed that an incision must be made in the woman’s breast. After that final judgement had
+                     already been passed by them, the illustrious man Joannes de Souza, her father-in-law, arrived in order to visit the sick woman,
+                     and on learning of the doctors’ deliberation, suffering along with his sick daughter-in-law, he began to advise her, with words
+                     full of faith, that she should voluntarily entrust herself to Blessed Gondisalvus Amaranthus, as though to a celestial and most
+                     esteemed doctor, to be looked after. At once the afflicted matron obeyed the words of her father-in-law, and acquiescing with his
+                     advice, made a vow to D. Gondesalvus, accompanied by her whole family. And then, when tears had sprung up, she began to pour out
+                     humble prayers that she might escape the danger of death and recover her former health. Why say more? On that selfsame day, when
+                     the doctors and surgeons had come at Vespers time and taken off the plaster that had been placed on the woman’s breast to cleanse
+                     the humour, they found that the pipe, which had been concealed for such a long time, was clinging of its own accord to the
+                     bandages and medical linens. Finally, lest there should arise any doubt that D Gondisalvus did this by his merits, within the
+                     space of just eight days she saw herself most completely healed.’</note></p></postscript></div></body></text></TEI>
