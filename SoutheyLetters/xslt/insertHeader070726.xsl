@@ -53,10 +53,10 @@
 				</xsl:variable>
 				<xsl:choose>
 					<xsl:when test="contains($letNbr, 'letterlist')">
-						<item code="{$letNbr}.xml"/>
+						<item code="southey.{$letNbr}.xml"/>
 					</xsl:when>
 					<xsl:when test="contains($letNbr, 'Intro')">
-						<item code="{$letNbr}.xml"/>
+						<item code="southey.{$letNbr}.xml"/>
 					</xsl:when>
 					<xsl:otherwise>
 						<item code="southey.{$partNo}.{$letNbr}.xml"></item>
