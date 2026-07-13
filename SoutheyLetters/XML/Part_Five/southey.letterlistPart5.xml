@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main" level="a">List of Letters</title>
+				<title type="main" level="a">List of Letters: Part Five</title>
 				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
 					Five</title>
 				<author role="primary" from="1774" to="1843"><persName
@@ -25,7 +25,7 @@
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition><date>2026-07-20</date></edition>
+				<edition n="5">Part Five <date>2026-07-20</date></edition>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
@@ -147,6 +147,15 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-13" who="#LM">
+				<label>Changed by</label>
+				<name>Laura Mandell</name>
+				<list>
+					<item>Corrected numbering of letters</item>
+					<item>Added edition information to header</item>
+					<item>Changed level a title in titleStmt</item>
+				</list>
+			</change>
 			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Created new header for new edition edition XML from old edition XML dated
 						2016-06-15. For the old header, see
@@ -260,7 +269,7 @@
 							2730.</ref><date>1 March 1816</date>: John Rickman</item>
 					<item n="2731"><ref type="m" target="letterEEd.26.2731.html">Letter
 							2731.</ref><date>2 March 1816</date>: Grosvenor Charles Bedford</item>
-					<item n="2731"><ref type="m" target="letterEEd.26.2732.html">Letter
+					<item n="2732"><ref type="m" target="letterEEd.26.2732.html">Letter
 							2732.</ref><date>6 March 1816</date>: Hew Dalrymple</item>
 					<item n="2733"><ref type="m" target="letterEEd.26.2733.html">Letter
 							2733.</ref><date>8 March 1816</date>: Messrs Longman &amp; Co</item>

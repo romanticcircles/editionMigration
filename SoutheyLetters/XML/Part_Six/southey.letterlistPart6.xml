@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main" level="a">List of Letters</title>
+				<title type="main" level="a">List of Letters: Part Six</title>
 				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
 					Six</title>
 				<author><name>Lynda Pratt</name></author>
@@ -23,7 +23,7 @@
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition><date>2026-07-20</date></edition>
+				<edition n="6">Part Six <date>2026-07-20</date></edition>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
@@ -170,6 +170,15 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-13" who="#LM">
+				<label>Changed by</label>
+				<name>Laura Mandell</name>
+				<list>
+					<item>Corrected numbering of letters</item>
+					<item>Added edition information to header</item>
+					<item>Changed level a title in titleStmt</item>
+				</list>
+			</change>
 			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Created new header for new edition edition XML from old edition XML dated
 						2013-05-27. For the old header, see
@@ -550,7 +559,7 @@
 							3400.</ref><date>10 December 1819</date>: Grosvenor Charles Bedford </item>
 					<item n="3401"><ref type="m" target="letterEEd.26.3401.html">Letter
 							3401.</ref><date>11 December 1819</date>: Charles Watkin Williams Wynn </item>
-					<item n="3401"><ref type="m" target="letterEEd.26.3402.html">Letter
+					<item n="3402"><ref type="m" target="letterEEd.26.3402.html">Letter
 							3402.</ref><date>15 December 1819</date>: [John Wilson Croker] </item>
 					<item n="3403"><ref type="m" target="letterEEd.26.3403.html">Letter
 							3403.</ref><date>15 December 1819</date>: Mr Edwards </item>

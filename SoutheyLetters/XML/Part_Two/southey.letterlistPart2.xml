@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main" level="a">List of Letters</title>
+				<title type="main" level="a">List of Letters: Part Two</title>
 				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
 					Two</title>
 				<author role="primary" from="1774" to="1843"><persName
@@ -25,7 +25,7 @@
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition><date>2026-07-20</date></edition>
+				<edition n="2">Part Two <date>2026-07-20</date></edition>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
@@ -144,6 +144,15 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-13" who="#LM">
+				<label>Changed by</label>
+				<name>Laura Mandell</name>
+				<list>
+					<item>Corrected numbering of letters</item>
+					<item>Added edition information to header</item>
+					<item>Changed level a title in titleStmt</item>
+				</list>
+			</change>
 			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Created new header for new edition edition XML from old edition XML dated
 						2011-08-15. For the old header, see
@@ -175,7 +184,7 @@
 		<body>
 			<div type="paratext">
 				<head>List of Letters</head>
-				<p><hi rend="bold">1798:</hi></p>
+				<p><hi rend="bold">1798</hi></p>
 				<list type="simple">
 					<item n="281"><ref type="m" target="letterEEd.26.281.html">Letter
 							281.</ref><date when="1798-01"> [January 1798]</date>: Editor of the
@@ -421,7 +430,7 @@
 						Taylor</item>
 				</list>
 				<lb/>
-				<p><hi rend="bold">1799:</hi></p>
+				<p><hi rend="bold">1799</hi></p>
 				<list>
 					<item n="365"><ref type="m" target="letterEEd.26.365.html">Letter
 							365.</ref><date when="1799-01-02">2 January 1799</date>: John May</item>
@@ -737,7 +746,7 @@
 						Charles Watkin Williams Wynn</item>
 				</list>
 				<lb/>
-				<p><hi rend="bold">1800:</hi></p>
+				<p><hi rend="bold">1800</hi></p>
 				<list>
 					<item n="472"><ref type="m" target="letterEEd.26.472.html">Letter
 							472.</ref><date when="1800-01-01">[started before and continued on] 1
@@ -1016,7 +1025,7 @@
 						Watkin Williams Wynn</item>
 				</list>
 				<lb/>
-				<p><hi rend="bold">1801:</hi></p>
+				<p><hi rend="bold">1801</hi></p>
 				<list>
 					<item n="564"><ref type="m" target="letterEEd.26.564.html">Letter
 							564.</ref><date when="1801-01-20">20[–24] January [1801]</date>: Charles
@@ -1265,7 +1274,7 @@
 						1802</date>: Henry Herbert Southey</item>
 				</list>
 				<lb/>
-				<p><hi rend="bold">1802:</hi></p>
+				<p><hi rend="bold">1802</hi></p>
 				<list>
 					<item n="646"><ref type="m" target="letterEEd.26.646.html">Letter
 							646.</ref><date when="1802-01-06">6 January 1802</date>: Charles
@@ -1574,7 +1583,7 @@
 							1802–summer 1803]</date>: Susanna Estlin</item>
 				</list>
 				<lb/>
-				<p><hi rend="bold">1803:</hi></p>
+				<p><hi rend="bold">1803</hi></p>
 				<list>
 					<item n="747"><ref type="m" target="letterEEd.26.747.html">Letter
 							747.</ref><date when="1803-01-01">2 January 1803</date>: Grosvenor

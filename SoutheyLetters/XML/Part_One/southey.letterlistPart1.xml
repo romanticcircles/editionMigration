@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" level="a">List of Letters</title>
+        <title type="main" level="a">List of Letters: Part One</title>
         <title type="sub" level="m">The Collected Letters of Robert Southey, Part One</title>
         <author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"
               ><forename>Robert</forename><surname>Southey</surname></persName></author>
@@ -23,7 +23,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition><date>2026-07-20</date></edition>
+          <edition n="1">Part One <date>2026-07-20</date></edition>
       </editionStmt>
       <publicationStmt>
         <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and Texas
@@ -138,6 +138,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+        <change when="2026-07-13" who="#LM">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list>
+                <item>Corrected numbering of letters</item>
+                <item>Added edition information to header</item>
+                <item>Changed level a title in titleStmt</item>
+            </list>
+        </change>
       <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
           <item>Created new header for new edition edition XML from old edition XML dated
             2009-03-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
@@ -176,7 +185,7 @@
       <div type="paratext">
         <head>List of Letters</head>
         <lb/>
-        <p><hi rend="bold">1791:</hi></p>
+        <p><hi rend="bold">1791</hi></p>
         <list type="simple">
           <item n="1"><ref type="m" target="letterEEd.26.1.html">Letter 1.</ref><date when="1791-06"
               >[c. June 1791?]</date>: Thomas Phillipps Lamb</item>
@@ -185,7 +194,7 @@
             Collins</item>
         </list>
         <lb/>
-        <p><hi rend="bold">1792:</hi></p>
+        <p><hi rend="bold">1792</hi></p>
         <list type="simple">
           <item n="3"><ref type="m" target="letterEEd.26.3.html">Letter 3.</ref><date
               when="1792-04-03">[c. 3 April 1792]</date>: Grosvenor Charles Bedford </item>
@@ -260,7 +269,7 @@
               when="1792-12-30">30 December 1792</date>: Grosvenor Charles Bedford</item>
         </list>
         <lb/>
-        <p><hi rend="bold">1793:</hi></p>
+        <p><hi rend="bold">1793</hi></p>
         <list type="simple">
           <item n="38"><ref type="m" target="letterEEd.26.38.html">Letter 38.</ref><date
               when="1793-01-08">8 January 1793</date>: Grosvenor Charles Bedford</item>
@@ -375,7 +384,7 @@
             Walpole Bedford</item>
         </list>
         <lb/>
-        <p><hi rend="bold">1794:</hi></p>
+        <p><hi rend="bold">1794</hi></p>
         <list type="simple">
           <item n="79"><ref type="m" target="letterEEd.26.79.html">Letter 79.</ref><date
               when="1794-01">[c. early 1794]</date>: Grosvenor Charles Bedford </item>
@@ -472,7 +481,7 @@
               when="1794-12-31">31 December 1794</date>: Thomas Southey</item>
         </list>
         <lb/>
-        <p><hi rend="bold">1795:</hi></p>
+        <p><hi rend="bold">1795</hi></p>
         <list type="simple">
           <item n="119"><ref type="m" target="letterEEd.26.119.html">Letter 119.</ref><date
               when="1795-01-05">5 January 1795</date>: Grosvenor Charles Bedford </item>
@@ -484,7 +493,7 @@
           <item n="122"><ref type="m" target="letterEEd.26.122.html">Letter 122.</ref> [c.<date
               when="1795-01"> January 1795</date>?]: [members of the Fricker family: possibly Edith
             or Sarah Fricker]</item>
-          <item rend="123"><ref type="m" target="letterEEd.26.123.html">Letter 123.</ref><date
+          <item n="123"><ref type="m" target="letterEEd.26.123.html">Letter 123.</ref><date
               when="1795-01-12">[c. 12 January 1795]</date>: Edith Fricker</item>
           <item n="124"><ref type="m" target="letterEEd.26.124.html">Letter 124.</ref><date
               when="1795-02-08">8</date>[–<date when="1795-02-09">9] February 1795</date>: Grosvenor
@@ -541,7 +550,7 @@
             [1796]</date>: Grosvenor Charles Bedford </item>
         </list>
         <lb/>
-        <p><hi rend="bold">1796:</hi></p>
+        <p><hi rend="bold">1796</hi></p>
         <list type="simple">
           <item n="146"><ref type="m" target="letterEEd.26.146.html">Letter 146.</ref><date
               when="1796-01-29">29 January [1796]</date>: Charles Watkin Williams Wynn</item>
@@ -662,7 +671,7 @@
               when="1796-12-19">19 December 1796</date>: Grosvenor Charles Bedford </item>
         </list>
         <lb/>
-        <p><hi rend="bold">1797:</hi></p>
+        <p><hi rend="bold">1797</hi></p>
         <list>
           <item n="193"><ref type="m" target="letterEEd.26.193.html">Letter 193.</ref><date
               when="1797-01-01"> 1</date>–<date when="1797-01-07">7 January 1797</date>: Grosvenor

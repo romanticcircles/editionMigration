@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main" level="a">List of Letters</title>
+				<title type="main" level="a">List of Letters: Part Three</title>
 				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
 					Three</title>
 				<author role="primary" from="1774" to="1843"><persName
@@ -25,7 +25,7 @@
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition><date>2026-07-20</date></edition>
+				<edition n="3">Part Three <date>2026-07-20</date></edition>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
@@ -144,6 +144,15 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-13" who="#LM">
+				<label>Changed by</label>
+				<name>Laura Mandell</name>
+				<list>
+					<item>Corrected numbering of letters</item>
+					<item>Added edition information to header</item>
+					<item>Changed level a title in titleStmt</item>
+				</list>
+			</change>
 			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Created new header for new edition edition XML from old edition XML dated
 						2013-08-15. For the old header, see
@@ -875,7 +884,7 @@
 							1171.</ref><date>24 March 1806</date>: Henry Herbert Southey</item>
 					<item n="1172"><ref type="m" target="letterEEd.26.1172.html">Letter
 							1172.</ref><date>5 April 1806</date>: Edith Southey</item>
-					<item n="1163"><ref type="m" target="letterEEd.26.1173.html">Letter
+					<item n="1173"><ref type="m" target="letterEEd.26.1173.html">Letter
 							1173.</ref><date>11 April [1806]</date>: John Rickman</item>
 					<item n="1174"><ref type="m" target="letterEEd.26.1174.html">Letter
 							1174.</ref><date>12 April 1806</date>: Edith Southey</item>
