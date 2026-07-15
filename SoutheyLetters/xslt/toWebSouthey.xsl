@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-	exclude-result-prefixes="xs tei" version="2.0">
-	<xsl:output method="html" omit-xml-declaration="yes" indent="yes" encoding="UTF-8"/>
-	<xsl:strip-space elements="*"/>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="3.0">
 
 	<!--  =======================================================
 		revision history
@@ -13,40 +11,20 @@
 	03-created for CritArchive 
 	04-changes 09/20/2021
 	05-new, combining LL, LM, and SN, as of 8/24/22
-	06-revised for P4H Fall 2022, as of 11/18/22-->
-	
-	
-	<!-- =======================================================
-		sections in this xslt:
-		
-		1.  running documents
-		2.  document structure
-		3.  front templates
-		4.  structural elements all documents
-		5.  style
-		6.  figures, images, illustrations
-		7.  bibliographic and quotations
-		8.  page numbers and forme work
-		9.  drama
-		10. letters
-		11. notes and back matter
-	
+	06-revised for P4H Fall 2022, as of 11/18/22
+	07-revised for Southey 07/2026
 	-->
-	
 
 	<!-- =======================================================
 		running documents -->
-
-	<xsl:output method="html" omit-xml-declaration="yes" indent="yes" encoding="UTF-8"/>
+	
+	<xsl:output method="xhtml" omit-xml-declaration="yes" indent="yes" encoding="UTF-8"/>
 	<xsl:strip-space elements="*"/>
 
-	<xsl:param name="nbrPoetryLines">no</xsl:param>
-	<xsl:param name="manualPageNumber">no</xsl:param>
-	<xsl:param name="centerPageHeader">no</xsl:param>
-	<xsl:param name="baseURLpeople">people.html</xsl:param>
-	<xsl:param name="baseURLpgFacs">../images/</xsl:param>
-	<xsl:param name="baseURLimages">../images/</xsl:param>
-	<xsl:param name="css">..</xsl:param>
+	<xsl:param name="css">../../css/southey.css</xsl:param>
+	<xsl:param name="baseURLpeople">../paratext/people.html</xsl:param>
+	<xsl:variable name="docID" select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
+	<xsl:variable name="letDate" select="substring-before(tei:TEI/tei:text/tei:body/tei:div[@type='letter']/tei:head/tei:date/@when, '-')"/>
 	
 	<xsl:template match="/">
 		<xsl:apply-templates/>
@@ -63,9 +41,9 @@
 		document structure -->
 
 	<xsl:template match="tei:TEI">
-		<xsl:variable name="docID" select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'local']"/> <!-- add this to the rules -->
 		<xsl:result-document href="../HTML/{$docID}.html">
-			<html lang="en">
+			<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+			<html xml:lang="en" lang="en" id="idno" prefix="og: http://ogp.me/ns# dcterms: http://purl.org/dc/terms/ dc: http://purl.org/dc/elements/1.1/">
 				<xsl:comment>This HTML 5 page is generated from a TEI Master; do not edit.</xsl:comment>
 				<xsl:apply-templates/>
 			</html>
@@ -73,11 +51,64 @@
 	</xsl:template>
 
 	<xsl:template match="tei:teiHeader">
+		<xsl:variable name="headTitle">
+			<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:title[@level='a'], ' ', tei:fileDesc/tei:titleStmt/tei:title[@level='m']"/>
+		</xsl:variable>
+		<xsl:variable name="getPath">
+			<xsl:value-of select="tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
+		</xsl:variable>
+		<xsl:variable name="ptPath">
+			<xsl:choose>
+				<xsl:when test="$getPath = '1'">Part_One</xsl:when>
+				<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+				<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+				<xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+				<xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+				<xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+				<xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
 		<head>
-			<title>
-				<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:title[1]"/>
-			</title>
-			<link rel="stylesheet" type="text/css" href="$css"/>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<title><xsl:value-of select="$headTitle"/></title>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<meta name="author" content="Robert Southey" />
+			<meta name="DC.Title" content="{$headTitle}" />
+			<meta name="DC.Type" content="Text" />
+			<meta name="DC.Format" content="text/html" />
+			<meta property="og:title" content="{$headTitle}" />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="https://cha.artsci.tamu.edu/SoutheyLetters/{$ptPath}/{$docID}.html" /> <!--add path -->
+			<meta property="og:image"
+				content="https://cha.artsci.tamu.edu/SoutheyLetters/images/RClogo.png" />
+			<meta property="og:description" content="Letters written by Robert Southey (1774-1843)" />
+			<meta property="og:site_name" content="The Collected Letters of Roberty Southey" />
+			<meta property="rc:id" content="{$docID}" />
+			<meta property="dc.contributor" content="Lynda Pratt" />
+			<meta property="dc.contributor" content="Laura Mandell" />
+			<meta property="dc:date" content="{$letDate}" />
+			<meta property="dcterms.available" content="2026-07-20" />
+			<meta property="dc.publisher" content="Romantic Circles" />
+			<meta property="dc.source" content="https://cha.artsci.tamu.edu/SoutheyLetters" />
+			<meta property="dc.type" content="Text" />
+			<meta property="dc.format" content="text/html" />
+			<!-- put in static search metas -->
+			<link rel="stylesheet" type="text/css" href="{$css}"/>
+			<link rel="icon" type="image/svg" href="../../images/favicon.ico"/>
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;family=Pinyon+Script&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+				rel="stylesheet"/>
+			<xsl:if test="tei:encodingDesc/tei:tagsDecl">
+				<style>
+					<xsl:for-each select="tei:rendition">
+						<xsl:value-of select="concat('.', @xml:id, ' {')"/>
+						<xsl:value-of select="."/>
+						<xsl:text>}</xsl:text>
+					</xsl:for-each>
+				</style>
+			</xsl:if>
 		</head>
 	</xsl:template>
 
@@ -245,6 +276,7 @@
 		<span class="stanza">
 			<xsl:apply-templates/>
 		</span>
+		<span class="stanzaSpace">&#160;</span>
 	</xsl:template>
 	
 	<xsl:template match="tei:l">
@@ -260,20 +292,7 @@
 		</xsl:variable>
 		<span>
 			<xsl:attribute name="class" select="$class"/>
-			<xsl:choose>
-				<xsl:when
-					test="$nbrPoetryLines = 'yes' and not(parent::tei:quote/parent::tei:cit/parent::tei:epigraph)">
-					<span class="ltext">
-						<xsl:apply-templates/>
-					</span>
-					<span class="lno">
-						<xsl:number from="tei:div" level="any"/>
-					</span>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:apply-templates/>
-				</xsl:otherwise>
-			</xsl:choose>
+			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 	
@@ -290,35 +309,21 @@
 	
 	<xsl:template match="tei:row">
 		<tr>
-			<xsl:if test="parent::tei:table[@rend]">
-				<xsl:attribute name="class" select="parent::tei:table/@rend"/>
-			</xsl:if>
 			<xsl:apply-templates/>
 		</tr>
 	</xsl:template>
 	
 	<xsl:template match="tei:cell">
 		<td>
-			<xsl:if test="parent::tei:row/parent::tei:table[@rend]">
-				<xsl:attribute name="class" select="parent::tei:row/parent::tei:table/@rend"/>
+			<xsl:if test="@rendition">
+				<xsl:attribute name="class" select="substring-before(@rendition, '#')"/>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</td>
 	</xsl:template>
 	
 	<xsl:template match="tei:lb">
-		<xsl:choose>
-			<xsl:when test="@rend='hr'">
-				<hr>
-					<xsl:attribute name="class">
-						<xsl:value-of select="parent::*/local-name()"/>
-					</xsl:attribute>
-				</hr>
-			</xsl:when>
-			<xsl:otherwise>
 				<br/>
-			</xsl:otherwise>
-		</xsl:choose>
 	</xsl:template>
 	
 	<xsl:template match="tei:list">
@@ -407,11 +412,11 @@
 	<xsl:template match="tei:graphic">
 		<a target="_blank">
 			<xsl:attribute name="href">
-				<xsl:value-of select="concat($baseURLimages, @url)"/>
+				<xsl:value-of select="@url"/>
 			</xsl:attribute>
 			<img>
 				<xsl:attribute name="src">
-					<xsl:value-of select="concat($baseURLimages, @url)"/>
+					<xsl:value-of select="@url"/>
 				</xsl:attribute>
 				<xsl:attribute name="alt">
 					<xsl:value-of select="parent::tei:figure/tei:head"/>
@@ -508,7 +513,7 @@
 	</xsl:template>
 
 	<xsl:template match="tei:epigraph">
-		<div class="blockquote">
+		<div class="epigraph">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -635,410 +640,6 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
-	
-	
-	<!-- =======================================================
-		page numbers and forme work -->
-
-	<xsl:template match="tei:pb">
-		<xsl:variable name="class">
-			<xsl:choose>
-				<xsl:when test="parent::tei:div">
-					<xsl:text>pageNumber</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:l/parent::tei:lg">
-					<xsl:text>pageInsideStanza</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:quote/parent::tei:div">
-					<xsl:text>pageInside</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:quote/parent::tei:p">
-					<xsl:text>pageInside</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-					<xsl:text>pageInside</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:p/parent::tei:quote">
-					<xsl:text>pageInside</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:note/parent::tei:quote">
-					<xsl:text>pageInside</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:lg/parent::tei:quote">
-					<xsl:text>pageInsideStanza</xsl:text>
-				</xsl:when>
-				<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-					<xsl:text>pageInsideLine</xsl:text>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:text>pageNumber</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
-		<xsl:choose>
-			<xsl:when test="$manualPageNumber = 'yes'">
-				<span class="pageTop"/>
-			</xsl:when>
-			<xsl:otherwise>
-				<span>
-					<xsl:attribute name="class" select="$class"/>
-					<xsl:text>[Page </xsl:text>
-					<xsl:value-of select="@n"/>
-					<xsl:text>]</xsl:text>
-				</span>
-			</xsl:otherwise>
-		</xsl:choose>
-		<xsl:if test="@facs">
-			<a target="_blank">
-				<xsl:attribute name="href">
-					<xsl:value-of select="concat($baseURLpgFacs, @facs)"/>
-				</xsl:attribute>
-			<img class="pgImg">
-				<xsl:attribute name="alt">
-					<xsl:value-of select="concat('image of page number ', @n)"/>
-				</xsl:attribute>
-				<xsl:attribute name="src">
-					<xsl:value-of select="concat($baseURLpgFacs, @facs)"/>
-				</xsl:attribute>
-			</img>
-			</a>
-		</xsl:if>
-	</xsl:template>
-
-	<xsl:template match="tei:fw">
-		<xsl:variable name="class">
-			<xsl:choose>
-				<xsl:when test="@type = 'pageHeader'">
-					<xsl:call-template name="fwPageTopHdr"/>
-				</xsl:when>
-				<xsl:when test="@type = 'pageNumber'">
-					<xsl:call-template name="fwPageTopNbr"/>
-				</xsl:when>
-				<xsl:when test="@type = 'catch'">
-					<xsl:value-of select="@type"/>
-				</xsl:when>
-				<xsl:when test="@type = 'vol' or @type = 'part'">
-					<xsl:choose>
-						<xsl:when test="following-sibling::tei:fw[1][@type = 'pageHeader' or @type = 'pageNumber']">
-							<xsl:choose>
-								<xsl:when test="parent::tei:quote">
-									<xsl:text>volInPageHeaderWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-									<!-- I think this is unnecessary, given the next one -->
-									<xsl:text>volInPageHeaderWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote">
-									<xsl:text>volInPageHeaderWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:lg/parent::tei:quote">
-									<xsl:text>volInPageHeaderWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-									<xsl:text>volInPageHeaderWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:text>volInPageHeader</xsl:text>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:when>
-						<xsl:when test="following-sibling::tei:fw[1][@type = 'sig']">
-							<xsl:choose>
-								<xsl:when test="parent::tei:quote">
-									<xsl:text>volWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-									<!-- I think this is unnecessary, given the next one -->
-									<xsl:text>volWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote">
-									<xsl:text>volWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:lg/parent::tei:quote">
-									<xsl:text>volWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-									<xsl:text>volWithSigInside</xsl:text>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:text>volWithSig</xsl:text>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:when>
-						<xsl:when test="parent::tei:quote">
-							<xsl:text>volInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-							<!-- I think this is unnecessary, given the next one -->
-							<xsl:text>volInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:p/parent::tei:quote">
-							<xsl:text>volInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:lg/parent::tei:quote">
-							<xsl:text>volInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-							<xsl:text>volInside</xsl:text>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:text>vol</xsl:text>
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:when>
-				<xsl:when test="@type = 'sig'">
-					<xsl:choose>
-						<xsl:when test="preceding-sibling::tei:fw[1][@type = 'vol']">
-							<xsl:choose>
-								<xsl:when test="parent::tei:quote">
-									<xsl:text>sigWithVolInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-									<!-- I think this is unnecessary, given the next one -->
-									<xsl:text>sigWithVolInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:p/parent::tei:quote">
-									<xsl:text>sigWithVolInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:lg/parent::tei:quote">
-									<xsl:text>sigWithVolInside</xsl:text>
-								</xsl:when>
-								<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-									<xsl:text>sigWithVolInside</xsl:text>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:text>sigWithVol</xsl:text>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:when>
-						<xsl:when test="parent::tei:quote">
-							<xsl:text>sigInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:p/parent::tei:quote/parent::tei:div">
-							<!-- I think this is unnecessary, given the next one -->
-							<xsl:text>sigInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:p/parent::tei:quote">
-							<xsl:text>sigInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:lg/parent::tei:quote">
-							<xsl:text>sigInside</xsl:text>
-						</xsl:when>
-						<xsl:when test="parent::tei:l/parent::tei:lg/parent::tei:quote">
-							<xsl:text>sigInside</xsl:text>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:text>sig</xsl:text>
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:when>
-			</xsl:choose>
-		</xsl:variable>
-		<span>
-			<xsl:attribute name="class" select="$class"/>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template name="fwPageTopHdr">
-		<xsl:choose>
-			<xsl:when test="$centerPageHeader">
-				<xsl:text>pageTopCenter</xsl:text>
-			</xsl:when>
-			<xsl:when test="following-sibling::*[1] = parent::*/tei:fw[@type = 'pageNumber']">
-				<xsl:text>pageTopLeft</xsl:text>
-			</xsl:when>
-			<xsl:when test="preceding-sibling::*[1] = parent::*/tei:fw[@type = 'pageNumber']">
-				<xsl:text>pageTopRight</xsl:text>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:text>pageHeader</xsl:text>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-
-	<xsl:template name="fwPageTopNbr">
-		<xsl:choose>
-			<xsl:when test="following-sibling::*[1] = parent::*/tei:fw[@type = 'pageHeader']">
-				<xsl:text>pageTopLeft</xsl:text>
-			</xsl:when>
-			<xsl:when test="preceding-sibling::*[1] = parent::*/tei:fw[@type = 'pageHeader']">
-				<xsl:text>pageTopRight</xsl:text>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:text>manPageNbr</xsl:text>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-
-	
-	<!-- ======================================================+
-            templates used for drama -->
-	
-	
-	<xsl:template match="tei:set">
-		<div class="set">
-			<xsl:apply-templates/>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="tei:prologue | tei:epilogue">
-		<div class="{local-name()}">
-			<xsl:apply-templates/>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="tei:castList">
-		<div class="castList">
-			<xsl:if test="tei:head">
-				<h5 class="castListHead">
-					<xsl:value-of select="tei:head"/>
-				</h5>
-			</xsl:if>
-			<xsl:choose>
-				<xsl:when test="//tei:castGroup/tei:castGroup">
-					<xsl:apply-templates select="tei:castGroup | tei:castItem"/>
-				</xsl:when>
-				<xsl:otherwise>
-					<table class="simpleCastList">
-						<xsl:apply-templates select="tei:castItem" mode="simple"/>
-					</table>
-				</xsl:otherwise>
-			</xsl:choose>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="tei:castGroup">
-		<xsl:choose>
-			<xsl:when test="parent::tei:castList">
-				<ul>
-					<li>
-						<xsl:apply-templates/>
-					</li>
-				</ul>
-			</xsl:when>
-			<xsl:when test="child::tei:roleDesc">
-				<table class="castGroupings">
-					<tr>
-						<td class="castItem">
-							<xsl:apply-templates select="tei:castItem"/>
-						</td>
-						<xsl:choose>
-							<xsl:when test="@rend='braced'">
-								<td class="curlyBracket">}</td>
-							</xsl:when>
-							<xsl:otherwise>
-								<td class="space">&#160;</td>
-							</xsl:otherwise>
-						</xsl:choose>
-						<td class="roleDesc">
-							<xsl:apply-templates select="tei:roleDesc"/>
-						</td>
-					</tr>
-				</table>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:apply-templates/>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-	
-	<xsl:template match="tei:castItem">
-		<xsl:choose>
-			<xsl:when test="parent::tei:castGroup and following-sibling::tei:roleDesc and child::tei:roleDesc">
-				<table class="castItems">
-					<tr>
-						<td class="role">
-							<xsl:apply-templates select="tei:role"/>
-							<xsl:text>&#160;</xsl:text>
-							<xsl:apply-templates select="tei:roleDesc"/>
-						</td>
-					</tr>
-				</table>
-			</xsl:when>
-			<xsl:when test="tei:role">
-				<table class="castItems">
-					<tr>
-						<td class="role">
-							<xsl:apply-templates select="tei:role"/>
-						</td>
-						<td class="space">&#160;</td>
-						<xsl:choose>
-							<xsl:when test="tei:roleDesc">
-								<td class="itemRoleDesc">
-									<xsl:apply-templates select="tei:roleDesc"/>
-								</td>
-							</xsl:when>
-							<xsl:otherwise>
-								<td class="space">&#160;</td>
-							</xsl:otherwise>
-						</xsl:choose>
-					</tr>
-				</table>
-			</xsl:when>
-			<xsl:otherwise>
-				<p class="castItem">
-					<xsl:apply-templates/>
-				</p>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-	
-	<xsl:template match="tei:castItem" mode="simple">
-		<tr>
-			<td class="role">
-				<xsl:apply-templates select="tei:role"/>
-			</td>
-			<td class="roleDesc">
-				<xsl:apply-templates select="tei:roleDesc"/>
-			</td>
-		</tr>
-	</xsl:template>
-	
-	<xsl:template match="tei:castGroup/tei:head">
-		<span class="groupHead">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-	
-	<xsl:template match="tei:stage">
-		<span>
-			<xsl:attribute name="class">
-				<xsl:text>stage </xsl:text>
-				<xsl:value-of select="@type"/>
-			</xsl:attribute>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-	
-	<xsl:template match="tei:sp">
-		<p class="sp">
-			<xsl:apply-templates/>
-		</p>
-	</xsl:template>
-	
-	<xsl:template match="tei:speaker">
-		<span class="speaker">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-	
-	<xsl:template match="tei:sp/tei:p | tei:sp/tei:lg | tei:sp/tei:l">
-		<span class="speech">
-			<xsl:choose>
-				<xsl:when test="@rend">
-					<span>
-						<xsl:attribute name="class" select="@rend"/>
-						<xsl:apply-templates/>
-					</span>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:apply-templates/>
-				</xsl:otherwise>
-			</xsl:choose>
-		</span>
-	</xsl:template>
-	
 
 	<!-- =======================================================
 	   letters -->

@@ -3,6 +3,10 @@
 	xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
 	<xsl:output method="xml" encoding="utf-8" indent="no"/>
 	<xsl:strip-space elements="*"/>
+	
+	<!-- don't reuse this, at least as is: I corrected TEI encoding of all the
+		tables by hand, and then corrected the <edition> in <editionStmt> using
+		find replace -->
 
 	<xsl:variable name="part" select="list/@xml:id"/>
 

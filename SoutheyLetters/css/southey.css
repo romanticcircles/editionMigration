@@ -131,10 +131,8 @@ ul {
     list-style-type: none;
 }
 
-
-
 /* for xslt, make div=paratext / table xml:id "chrono" and remove attributes, then
- * first cell containing width="130" gets colDate and second cell width="610" gets rend colEvent. 
+ * first cell containing width="130" gets rend colDate and second cell width="610" gets rend colEvent. 
  * There is an empty row-cell-cell-closeRow between each entry*/
 
 #chrono {
@@ -151,6 +149,10 @@ td.colDate {
 
 td.colEvent {
     width: 610px;
+}
+
+tr.rowSpace {
+    
 }
 
 

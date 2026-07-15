@@ -1,88 +1,309 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">1014. Robert Southey to Charles Watkin Williams Wynn, 8 January 1805</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
-									License, as described under "Conditions of Use" at
-									http://romantic-circles.org/about/submission-guidelines and
-									here:</p><p>As of July 2027, all material published on Romantic Circles is
-									licensed uder Creative Commons Zero (CC 0), unless otherwise
-									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
-									and images published before December 2023 in order to mount them
-									on their own servers.</p></availability><idno type="edition">southey.3.1014</idno></publicationStmt><sourceDesc><p>National Library of Wales, MS 4812D. ALS; 4p..  Previously  published: Frances Williams
-                  Wynn, Diaries of a Lady of Quality from 1797–1844, ed. A. Hayward (1864), pp. 10–13; Kenneth Curry (ed.), New
-                     Letters of Robert Southey, 2 vols (London and New York, 1965), I, pp. 373–375.</p><p>These letters were edited by Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
-								editor wishes to thank the Beinecke Rare Books and Manuscript
-								Library, Yale University; Berg Collection of English and American
-								Literature, The New York Public Library, Astor, Lenox and Tilden
-								Foundations; the Bodleian Library Oxford University; the British
-								Library; Boston Public Library; the Syndics of Cambridge University
-								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
-								College, Connecticut; the Historical Society of Pennsylvania; the
-								Hornby Library, Liverpool Libraries and Information Services; the
-								Houghton Library, Harvard University; the John Rylands Library,
-								Manchester; the Kenneth Spencer Research Library, University of
-								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
-								Historical Society; McGill University Library; the National Library
-								of Scotland; the Newberry Library, Chicago; the New York Public
-								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
-								York; the Public Record Offices of Bedford, Suffolk (Bury St
-								Edmunds) and Northumberland, the Master and Fellows of Trinity
-								College, Cambridge; the Society of Antiquaries of Newcastle upon
-								Tyne; the Trustees of the William Salt Library, Stafford, the
-								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated 2013-08-15. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="1014" type="letter"><head>1014. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1805-01-08">8 January 1805</date><note type="headnote" place="foot" resp="editors">Address: C W Williams Wynn Esq<hi rend="sup">r</hi>/ Wynnstay/ Wrexham<lb/>Stamped:
-                  KESWICK/ 298<lb/>Postmark: [partial] 2QR<lb/>MS: National Library of Wales, MS 4812D. ALS; 4p.<lb/>Previously published: Frances Williams
-                  Wynn, <title>Diaries of a Lady of Quality from 1797–1844</title>, ed. A. Hayward (1864), pp. 10–13; Kenneth Curry (ed.), <title>New
-                     Letters of Robert Southey</title>, 2 vols (London and New York, 1965), I, pp. 373–375.</note></head><p rend="indent1"> Jane Power<note n="1" place="foot" resp="editors"> Southey first told this story to <ref type="m" target="people.html#MayJohn">John May</ref>; see Southey to John May, 4 July [1802], <title>The Collected Letters of Robert
-                     Southey. Part Two</title>, Letter 689. While this anti-Catholic anecdote refers to many real people and places, the story cannot
-                  be verified.</note> was placed in the Irish Nunnery at Belem near Lisbon<note n="2" place="foot" resp="editors"> The Dominican
-                  convent of Our Lady of Bom Sucesso, Belem in Portugal (founded in 1639).</note> when <del>xxxx</del> but a child. she grew up there
-               &amp; took the vows. Shortly after there came over a &lt;young&gt; Irish woman by name Louisa Bourke,<note n="3" place="foot" resp="editors"> Untraced.</note> who went thro her year of probation resolutely &amp; professed. She had left her own country &amp;
-               thus abandoned the world in a fit of jealousy. Her lover at length traced her, followed her &amp; spoke with her at the grate. They
-               corresponded upon the means of getting her out by way of dispensation – the scheme was discovered – &amp; it was said Louise died
-                  <del>xxx</del> soon after. Jane Power was ill at this time. After her recovery being in a remote part of the Convent which was not
-                  <del>xx</del> in use, she heard Louisa’s voice as within the wall, thought it was her spirit &amp; asked if she should order any
-               services for her soul. Louisa directed her how to find an entrance to her place of confinement, which was on a higher story, matted
-               round &amp; so entirely remote from all hearing that she had even her instrument there. She had that day got down by finding some means
-               of slipping back a lock or bolt &amp; by the same means Jane was enabled to visit her which she did regularly every night for some
-               months. Once she staid later than usual, because her friend appeared more depressed than she had ever seen her; in consequence of this
-               delay her lamp being exhausted went out in the cloisters, she was afraid that she might mistake her cell &amp; thus be discovered,
-               &amp; therefore sat herself down to wait for day break. When the dawn came she thought she would first go back &amp; tell Louisa how
-               she had past the night. She knocked &amp; received no answer. She pusht the door &amp; found something against it. – <del>xx</del> on
-               opening it saw Louisa lying on the ground with her throat cut from ear to ear. Jane Power immediately fainted – &amp; in that state was
-               found by the Nuns who came with food for their prisoner. They made her take a solemn vow never to reveal what she had seen.</p><p rend="indent1"> She continued several years longer in the nunnery – her sister’s husband had a <del>xxx</del> civil appointment in our
-               army there: – (his name is Heatley or Headley) &amp; latterly the frequent visits of her sister &amp; her English friends made her life
-               more chearful than that of a nun usually can be. When the troops were removing she complained bitterly to her sister &amp; Heatley
-               determined to carry her off. he conveyed boy’s cloaths to her, &amp; gave her his watch to know the hour, &amp; that all might be well
-               made the male part of the establishment drunk. <del>xxx</del> Jane in her disguise came to the door the key creaked – she had
-               resolution to go back to the dormitory &amp; dip it in the lamp. The hour was too soon – for never having &lt;had&gt; a watch before
-               she had not wound it up, &amp; she flung the watch over the wall for a signal instead of a stone. However she effected her escape.</p><p rend="indent1"> Still there remained a difficulty. The Captain of the Packet who had promised to carry her repented &amp; refused after
-               she was out of the convent. She was got on board by the management of Colonel Trents wife<note n="4" place="foot" resp="editors">
-                  Possibly the wife of Colonel Trent (dates unknown) who commanded a force of Portuguese infantry in the Peninsular War.</note> who
-               went in the same packet &amp; the Captain of a Frigate who was acquainted with the story convoyed the vessel out, declaring that if
-                  Todd<note n="5" place="foot" resp="editors"> Captain Fortescue Todd (dates unknown), succeeding his father Lovell Todd (dates
-                  unknown), had command of the Falmouth-Lisbon packet boat in the 1790s.</note> would not take her, he would run all risques &amp;
-               carry her to England himself rather than she should be carried back. There came on rough weather &amp; poor Jane whispered that perhaps
-               it was sent because of her. However she reached Falmouth safely. – &amp; the last I heard was that her friend was endeavouring to
-               procure a dispensation for her from the Pope.</p><p rend="indent1"> I give you the story as Mrs Trent gave it to me. Mrs T. is a very extraordinary woman. Her husband was among the
-               persons stopt in France. She went over, obtained his liberty, &amp; smuggled home the son of Hopner the painter.<note n="6" place="foot" resp="editors"> It has not been possible to identify which of the sons of John Hoppner (1758–1810; <title>DNB</title>)
-                  is referred to here, whether Catherine Hampden Hoppner (1784–1828), a magistrate in the service of the East India Company, Richard
-                  Belgrave Hoppner (1786–1872; <title>DNB</title>), the British Consul general at Venice, Wilson (sometimes known as William)
-                  Lascelles Hoppner (1788–?), an artist and lunatic, or Henry Parkyns Hoppner (1795–1833), a naval officer and Arctic explorer.</note></p><p rend="indent1"> When Jane Power saw the mail coach she cried out that the King was coming. &amp; the first thing she asked for when she
-               was housed after her escape was a looking glass – for since she was five years old she had never seen her own face.</p><p rend="center">––––––––</p><p rend="indent1"> Here is a prompt reply to your letter. I am engaged out this evening &amp; can add no more at present. Were I with you
-               you should have the story of Doctor Daniel Dove of Doncaster, &amp; his horse Nobbs – a tale which like the mysteries of the Druids
-               must never be committed to writing.<note n="7" place="foot" resp="editors"> Southey did eventually commit this tale to writing in his
-                  novel <title>The Doctor</title> (1834–1847). On the tale and its origin, and <ref type="m" target="people.html#ColeridgeSamuelTaylor">Coleridge’s</ref> role in disseminating it, see David Chandler, ‘“As Long-Winded as
-                  Possible”: Southey, Coleridge, and <title>The Doctor &amp;c</title>.’, <title>Review of English Studies</title>, 60 (2009),
-                  605–619.</note></p><p rend="indent1"> Pococke<note n="8" place="foot" resp="editors"> Nicholas Pocock (1740–1821; <title>DNB</title>): marine painter,
-                  formerly a merchant seaman. Pocock exhibited regularly at the Royal Academy from 1782–1815 and was a founder member of the Old
-                  Watercolour Society in 1804. Southey felt that Pocock spoilt the image of Madoc’s ship that he had been commissioned to make for the
-                  1805 edition of the poem, by drawing an anachronistic vessel.</note> would give the ship as you see it suo periculo<note n="9" place="foot" resp="editors"> Meaning ‘at his own risk’.</note> – being supplied with one from Williams’ tapestry.<note n="10" place="foot" resp="editors"> The Bayeux tapestry, commissioned by Bishop Odo (d. 1097), the half-brother of William I, the Conqueror
-                  (1027/8–1087; reigned 1066–1087; <title>DNB</title>), completed c. 1077.</note> I am certain sure he is wrong.</p><p rend="indent1"> My next shall be a sample of Ballad-seed.<note n="11" place="foot" resp="editors"> See Southey to Charles Watkin
-                  Williams Wynn, 10 January [1805], Letter 1016.</note></p><closer><salute rend="indent1"> God bless you</salute><signed rend="indent2"> RS.</signed></closer><postscript><p><date when="1805-01-08">Tuesday Jan<hi rend="sup">y</hi> 8. 1805.</date></p></postscript></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">1014. Robert Southey to Charles Watkin Williams Wynn, 8
+               January 1805</title>
+            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title>
+            <author role="primary" from="1774" to="1843"><persName
+                  ana="http://viaf.org/viaf/61576896"
+                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
+            <editor>Lynda Pratt</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Averill Buchanan</name>
+            </respStmt>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="3">Part Three <date>2026-07-20</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <availability status="free">
+               <p>This document is made available via a Creative Commons Zero License, as described
+                  under "Conditions of Use" at
+                  http://romantic-circles.org/about/submission-guidelines and here:</p>
+               <p>As of July 2027, all material published on Romantic Circles is licensed uder
+                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
+               <p>Unless otherwise noted, users are not permitted to download texts and images
+                  published before December 2023 in order to mount them on their own servers.</p>
+            </availability>
+            <idno type="edition">southey.3.1014</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>National Library of Wales, MS 4812D. ALS; 4p.. Previously published: Frances Williams
+               Wynn, Diaries of a Lady of Quality from 1797–1844, ed. A. Hayward (1864), pp. 10–13;
+               Kenneth Curry (ed.), New Letters of Robert Southey, 2 vols (London and New York,
+               1965), I, pp. 373–375.</p>
+            <p>These letters were edited by Lynda Pratt</p>
+            <p>For permission to publish the text of MSS in their possession, the editor wishes to
+               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey's spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy targetDatcat="https://viaf.org/">
+               <bibl>VIAF</bibl>
+               <category xml:id="viaf_61576896">
+                  <catDesc>Southey, Robert, 1774-1843</catDesc>
+               </category>
+               <category xml:id="viaf_118520952">
+                  <catDesc>Pratt, Lynda, 1964-</catDesc>
+               </category>
+               <category xml:id="viaf_116328125">
+                  <catDesc>Packer, Ian, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_18359329">
+                  <catDesc>Fulford, Tim, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_42171645">
+                  <catDesc>Bolton, Carol</catDesc>
+               </category>
+               <category xml:id="viaf_250654121">
+                  <catDesc>Buchanan, Averill</catDesc>
+               </category>
+               <category xml:id="viaf_41749340">
+                  <catDesc>Mandell, Laura, 1958-</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+               <bibl>Wikidata</bibl>
+               <category xml:id="Q37068">
+                  <catDesc>Romanticism</catDesc>
+               </category>
+               <category xml:id="Q1277575">
+                  <catDesc>correspondence</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+               <bibl>Southey Letters: Biographies</bibl>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+               <bibl>Southey Letters: Places</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#Q1277575" scheme="Wikidata"/>
+            <catRef target="#viaf_61576896" scheme="VIAF"/>
+            <catRef target="#viaf_118520952" scheme="VIAF"/>
+            <catRef target="#viaf_250654121" scheme="VIAF"/>
+            <catRef target="#viaf_41749340" scheme="VIAF"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Created new header for new edition edition XML from old edition XML dated
+                  2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
+               </item>
+            </list></change>
+         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list>
+               <item>Update of TEI headers to conform to new template</item>
+            </list></change>
+         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms after final proofing Southey Part 4</item>
+            </list></change>
+         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms after proofing Southey Part 4</item>
+            </list></change>
+         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms for proofing Southey Part 4</item>
+            </list></change>
+         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms for proof copies of Southey Part 4</item>
+            </list></change>
+         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list>
+               <item>Transforms for Southey Part 4</item>
+            </list></change>
+         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list>
+               <item>corrections from proofing</item>
+            </list></change>
+         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list>
+               <item>XSLT Transforming</item>
+            </list></change>
+         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
+               >Averill Buchanan</name><list>
+               <item>TEI Encoding</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1014" type="letter">
+            <head>1014. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles
+                  Watkin Williams Wynn</ref>, <date when="1805-01-08">8 January 1805</date><note
+                  type="headnote" place="foot" resp="editors">Address: C W Williams Wynn Esq<hi
+                     rend="sup">r</hi>/ Wynnstay/ Wrexham<lb/>Stamped: KESWICK/ 298<lb/>Postmark:
+                  [partial] 2QR<lb/>MS: National Library of Wales, MS 4812D. ALS; 4p.<lb/>Previously
+                  published: Frances Williams Wynn, <title>Diaries of a Lady of Quality from
+                     1797–1844</title>, ed. A. Hayward (1864), pp. 10–13; Kenneth Curry (ed.),
+                     <title>New Letters of Robert Southey</title>, 2 vols (London and New York,
+                  1965), I, pp. 373–375.</note></head>
+            <p rend="indent1"> Jane Power<note n="1" place="foot" resp="editors"> Southey first told
+                  this story to <ref type="m" target="people.html#MayJohn">John May</ref>; see
+                  Southey to John May, 4 July [1802], <title>The Collected Letters of Robert
+                     Southey. Part Two</title>, Letter 689. While this anti-Catholic anecdote refers
+                  to many real people and places, the story cannot be verified.</note> was placed in
+               the Irish Nunnery at Belem near Lisbon<note n="2" place="foot" resp="editors"> The
+                  Dominican convent of Our Lady of Bom Sucesso, Belem in Portugal (founded in
+                  1639).</note> when <del>xxxx</del> but a child. she grew up there &amp; took the
+               vows. Shortly after there came over a &lt;young&gt; Irish woman by name Louisa
+                  Bourke,<note n="3" place="foot" resp="editors"> Untraced.</note> who went thro her
+               year of probation resolutely &amp; professed. She had left her own country &amp; thus
+               abandoned the world in a fit of jealousy. Her lover at length traced her, followed
+               her &amp; spoke with her at the grate. They corresponded upon the means of getting
+               her out by way of dispensation – the scheme was discovered – &amp; it was said Louise
+               died <del>xxx</del> soon after. Jane Power was ill at this time. After her recovery
+               being in a remote part of the Convent which was not <del>xx</del> in use, she heard
+               Louisa’s voice as within the wall, thought it was her spirit &amp; asked if she
+               should order any services for her soul. Louisa directed her how to find an entrance
+               to her place of confinement, which was on a higher story, matted round &amp; so
+               entirely remote from all hearing that she had even her instrument there. She had that
+               day got down by finding some means of slipping back a lock or bolt &amp; by the same
+               means Jane was enabled to visit her which she did regularly every night for some
+               months. Once she staid later than usual, because her friend appeared more depressed
+               than she had ever seen her; in consequence of this delay her lamp being exhausted
+               went out in the cloisters, she was afraid that she might mistake her cell &amp; thus
+               be discovered, &amp; therefore sat herself down to wait for day break. When the dawn
+               came she thought she would first go back &amp; tell Louisa how she had past the
+               night. She knocked &amp; received no answer. She pusht the door &amp; found something
+               against it. – <del>xx</del> on opening it saw Louisa lying on the ground with her
+               throat cut from ear to ear. Jane Power immediately fainted – &amp; in that state was
+               found by the Nuns who came with food for their prisoner. They made her take a solemn
+               vow never to reveal what she had seen.</p>
+            <p rend="indent1"> She continued several years longer in the nunnery – her sister’s
+               husband had a <del>xxx</del> civil appointment in our army there: – (his name is
+               Heatley or Headley) &amp; latterly the frequent visits of her sister &amp; her
+               English friends made her life more chearful than that of a nun usually can be. When
+               the troops were removing she complained bitterly to her sister &amp; Heatley
+               determined to carry her off. he conveyed boy’s cloaths to her, &amp; gave her his
+               watch to know the hour, &amp; that all might be well made the male part of the
+               establishment drunk. <del>xxx</del> Jane in her disguise came to the door the key
+               creaked – she had resolution to go back to the dormitory &amp; dip it in the lamp.
+               The hour was too soon – for never having &lt;had&gt; a watch before she had not wound
+               it up, &amp; she flung the watch over the wall for a signal instead of a stone.
+               However she effected her escape.</p>
+            <p rend="indent1"> Still there remained a difficulty. The Captain of the Packet who had
+               promised to carry her repented &amp; refused after she was out of the convent. She
+               was got on board by the management of Colonel Trents wife<note n="4" place="foot"
+                  resp="editors"> Possibly the wife of Colonel Trent (dates unknown) who commanded a
+                  force of Portuguese infantry in the Peninsular War.</note> who went in the same
+               packet &amp; the Captain of a Frigate who was acquainted with the story convoyed the
+               vessel out, declaring that if Todd<note n="5" place="foot" resp="editors"> Captain
+                  Fortescue Todd (dates unknown), succeeding his father Lovell Todd (dates unknown),
+                  had command of the Falmouth-Lisbon packet boat in the 1790s.</note> would not take
+               her, he would run all risques &amp; carry her to England himself rather than she
+               should be carried back. There came on rough weather &amp; poor Jane whispered that
+               perhaps it was sent because of her. However she reached Falmouth safely. – &amp; the
+               last I heard was that her friend was endeavouring to procure a dispensation for her
+               from the Pope.</p>
+            <p rend="indent1"> I give you the story as Mrs Trent gave it to me. Mrs T. is a very
+               extraordinary woman. Her husband was among the persons stopt in France. She went
+               over, obtained his liberty, &amp; smuggled home the son of Hopner the painter.<note
+                  n="6" place="foot" resp="editors"> It has not been possible to identify which of
+                  the sons of John Hoppner (1758–1810; <title>DNB</title>) is referred to here,
+                  whether Catherine Hampden Hoppner (1784–1828), a magistrate in the service of the
+                  East India Company, Richard Belgrave Hoppner (1786–1872; <title>DNB</title>), the
+                  British Consul general at Venice, Wilson (sometimes known as William) Lascelles
+                  Hoppner (1788–?), an artist and lunatic, or Henry Parkyns Hoppner (1795–1833), a
+                  naval officer and Arctic explorer.</note></p>
+            <p rend="indent1"> When Jane Power saw the mail coach she cried out that the King was
+               coming. &amp; the first thing she asked for when she was housed after her escape was
+               a looking glass – for since she was five years old she had never seen her own
+               face.</p>
+            <p rend="center">––––––––</p>
+            <p rend="indent1"> Here is a prompt reply to your letter. I am engaged out this evening
+               &amp; can add no more at present. Were I with you you should have the story of Doctor
+               Daniel Dove of Doncaster, &amp; his horse Nobbs – a tale which like the mysteries of
+               the Druids must never be committed to writing.<note n="7" place="foot" resp="editors"
+                  > Southey did eventually commit this tale to writing in his novel <title>The
+                     Doctor</title> (1834–1847). On the tale and its origin, and <ref type="m"
+                     target="people.html#ColeridgeSamuelTaylor">Coleridge’s</ref> role in
+                  disseminating it, see David Chandler, ‘“As Long-Winded as Possible”: Southey,
+                  Coleridge, and <title>The Doctor &amp;c</title>.’, <title>Review of English
+                     Studies</title>, 60 (2009), 605–619.</note></p>
+            <p rend="indent1"> Pococke<note n="8" place="foot" resp="editors"> Nicholas Pocock
+                  (1740–1821; <title>DNB</title>): marine painter, formerly a merchant seaman.
+                  Pocock exhibited regularly at the Royal Academy from 1782–1815 and was a founder
+                  member of the Old Watercolour Society in 1804. Southey felt that Pocock spoilt the
+                  image of Madoc’s ship that he had been commissioned to make for the 1805 edition
+                  of the poem, by drawing an anachronistic vessel.</note> would give the ship as you
+               see it suo periculo<note n="9" place="foot" resp="editors"> Meaning ‘at his own
+                  risk’.</note> – being supplied with one from Williams’ tapestry.<note n="10"
+                  place="foot" resp="editors"> The Bayeux tapestry, commissioned by Bishop Odo (d.
+                  1097), the half-brother of William I, the Conqueror (1027/8–1087; reigned
+                  1066–1087; <title>DNB</title>), completed c. 1077.</note> I am certain sure he is
+               wrong.</p>
+            <p rend="indent1"> My next shall be a sample of Ballad-seed.<note n="11" place="foot"
+                  resp="editors"> See Southey to Charles Watkin Williams Wynn, 10 January [1805],
+                  Letter 1016.</note></p>
+            <closer><salute rend="indent1"> God bless you</salute><signed rend="indent2">
+                  RS.</signed></closer>
+            <postscript>
+               <p><date when="1805-01-08">Tuesday Jan<hi rend="sup">y</hi> 8. 1805.</date></p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
