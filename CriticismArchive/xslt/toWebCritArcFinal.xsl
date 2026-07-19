@@ -161,8 +161,8 @@
 								<!-- ebb: NOTE: How to do a key lookup: 
 									1) reference your xsl:key name in the first argument as a quoted text string
 									2) indicate the value you need to look up
-									3) IF NEEDED: indicate the file wwhere to do the lookup if the values you're using for keys
-									are stored in an external file (as in this case). 
+									3) indicate the file wwhere to do the lookup (whether an external file 
+									or the current document you're processing.
 								-->
 									</xsl:attribute>
 								</meta>
