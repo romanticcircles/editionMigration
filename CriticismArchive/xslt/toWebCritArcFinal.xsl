@@ -16,7 +16,7 @@
 	07-changes for static search 4/3/2026
 	08-more changes for static search, improve results 6/17/2026-->
 	
- 	<!-- 2026-07-18 Elisa Beshero-Bondar: 
+ 	<!-- 2026-07-18 Elisa Beshero-Bondar (ebb): 
  		refactoring the processing of the profileDesc and people_names key lookups. -->
 
 	<!-- Here is the document declaration necessary for an HTML5 (web) page -->
@@ -150,35 +150,32 @@
 					<meta name="Date of publication" class="staticSearch_date" content="{$pubDate}"/>
 					<xsl:for-each select="$uniqueIDs">
 						<xsl:variable name="currentID" select="current()"/>
-						<xsl:choose><xsl:when test="$currentID = $authorID"/><xsl:otherwise>
-						<meta name="People mentioned" class="staticSearch_feat">
-							<xsl:attribute name="content">
-								<xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/>
-							</xsl:attribute>
-						</meta></xsl:otherwise></xsl:choose>
-						<!--<xsl:for-each select="$peopleNames">
-							<xsl:choose>
-								<xsl:when test="$currentID = current()/@xml:id"/>
-								<xsl:otherwise>
-									<meta name="People mentioned" class="staticSearch_feat">
-										<xsl:attribute name="content">
-											<xsl:value-of select="current()/text()"/>
-										</xsl:attribute>
-									</meta>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:for-each>-->
+						<xsl:choose>
+							<xsl:when test="$currentID = $authorID"/>
+							<xsl:otherwise>
+								<meta name="People mentioned" class="staticSearch_feat">
+									<xsl:attribute name="content">
+										<xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/>
+								<!-- ebb: NOTE: How to do a key lookup: 
+									1) reference your xsl:key name in the first argument as a quoted text string
+									2) indicate the value you need to look up
+									3) indicate the file wwhere to do the lookup if the values you're using for keys
+									are stored in an external file (as in this case). 
+								-->
+									</xsl:attribute>
+								</meta>
+							</xsl:otherwise>
+						</xsl:choose>
 					</xsl:for-each>
 					<xsl:if test="//term">
 						<xsl:for-each select="text/body/div/list/item/term">
-							<xsl:variable name="currentPerson" select="./@xml:id"/>
-							<xsl:for-each select="document('people_names.xml')">
+							<xsl:variable name="currentPerson" select="@xml:id"/>
 								<meta name="People mentioned" class="staticSearch_feat">
 									<xsl:attribute name="content">
-										<xsl:value-of select="key('personLookup', $currentPerson)"/>
+										<xsl:value-of select="key('personLookup', $currentPerson, $peopleNamesDoc)"/>
+								<!-- ebb: amended the line above to use the keys as defined in the external people_names.xml document. -->
 									</xsl:attribute>
 								</meta>
-							</xsl:for-each>
 						</xsl:for-each>
 					</xsl:if>
 					<meta name="docSortKey" class="staticSearch_docSortKey" content="{$mainTitle}"/>
