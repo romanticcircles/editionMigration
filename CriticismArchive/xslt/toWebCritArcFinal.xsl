@@ -26,7 +26,10 @@
 	<xsl:param name="nbrPoetryLines"/>
 	<xsl:param name="stylesheet">../css/critarchive.css</xsl:param>
 	<xsl:param name="baseURL">https://cha.artsci.tamu.edu/CriticismArchive</xsl:param>
-	<xsl:key name="personLookup" match="person" use="@xml:id"/>
+	<!-- 2026-07-18 ebb: This isn't working b/c we need to point it to the people_names.xml file, and it's 
+		currently looking for <person> elements in the TEI file you're processing.
+		I'm commenting it out for now.
+		<xsl:key name="personLookup" match="person" use="@xml:id"/>-->
 
 	<xsl:template match="/">
 		<xsl:apply-templates/>
@@ -147,14 +150,18 @@
 					</meta>
 					<meta name="Date of publication" class="staticSearch_date" content="{$pubDate}"/>
 					<xsl:for-each select="$uniqueIDs">
-						<xsl:variable name="currentID" select="."/>
-						<xsl:for-each select="document('people_names.xml')">
+						<xsl:variable name="currentID" select="current()"/>
+						<xsl:variable name="peopleNames" as="element()+" select="document('people_names.xml')//*[local-name() = 'person']"/>
+					<!--	<xsl:comment>ebb: PEOPLE NAMES TESTER 
+							<xsl:sequence select="$peopleNames"/></xsl:comment>-->
+						<xsl:for-each select="$peopleNames">
+							
 							<xsl:choose>
-								<xsl:when test="$currentID = $authorID"/>
+								<xsl:when test="$currentID = current()/@xml:id"/>
 								<xsl:otherwise>
 									<meta name="People mentioned" class="staticSearch_feat">
 										<xsl:attribute name="content">
-											<xsl:value-of select="key('personLookup', $currentID)"/>
+											<xsl:value-of select="current()/text()"/>
 										</xsl:attribute>
 									</meta>
 								</xsl:otherwise>
