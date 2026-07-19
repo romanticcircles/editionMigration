@@ -27,8 +27,10 @@
 	<xsl:param name="nbrPoetryLines"/>
 	<xsl:param name="stylesheet">../css/critarchive.css</xsl:param>
 	<xsl:param name="baseURL">https://cha.artsci.tamu.edu/CriticismArchive</xsl:param>
+	<xsl:variable name="sourceDoc" select="/" as="document-node()"/>
 	<xsl:variable name="peopleNamesDoc" as="document-node()" select="doc('people_names.xml')"/>
 	<xsl:key name="personLookup" match="*[local-name() = 'person']" use="@xml:id"/>
+	<xsl:key name="taxonomyLookup" match="taxonomy/category" use="@xml:id"/>
 
 	<xsl:template match="/">
 		<xsl:apply-templates/>
@@ -159,7 +161,7 @@
 								<!-- ebb: NOTE: How to do a key lookup: 
 									1) reference your xsl:key name in the first argument as a quoted text string
 									2) indicate the value you need to look up
-									3) indicate the file wwhere to do the lookup if the values you're using for keys
+									3) IF NEEDED: indicate the file wwhere to do the lookup if the values you're using for keys
 									are stored in an external file (as in this case). 
 								-->
 									</xsl:attribute>
@@ -225,200 +227,12 @@
 					</nav>
 					<main>
 					<p class="docInfo">
-						<xsl:for-each select="tokenize(teiHeader/profileDesc/textClass/catRef[@scheme='#g']/@target, ' ')">
-							<xsl:if test=". = '#g1'">
-								<xsl:text>biography</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g2'">
-								<xsl:text>poetry</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g3'">
-								<xsl:text>story</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g4'">
-								<xsl:text>drama</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g5'">
-								<xsl:text>novel</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g6'">
-								<xsl:text>satire</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g7'">
-								<xsl:text>allegory</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g8'">
-								<xsl:text>advertisement</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g9'">
-								<xsl:text>preface</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g10'">
-								<xsl:text>foreword</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g11'">
-								<xsl:text>introduction</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g12'">
-								<xsl:text>acknowledgments</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g13'">
-								<xsl:text>essay</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g14'">
-								<xsl:text>review</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g15'">
-								<xsl:text>letter</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g16'">
-								<xsl:text>literary criticism</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g17'">
-								<xsl:text>electronic resource</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g18'">
-								<xsl:text>bibliography</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g19'">
-								<xsl:text>music</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g20'">
-								<xsl:text>political statement</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g21'">
-								<xsl:text>history</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g22'">
-								<xsl:text>education</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g23'">
-								<xsl:text>sermon</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g24'">
-								<xsl:text>religion</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g25'">
-								<xsl:text>philosophical statement</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g26'">
-								<xsl:text>translation</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g27'">
-								<xsl:text>dictionary</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g28'">
-								<xsl:text>encyclopedia</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g29'">
-								<xsl:text>travel</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g30'">
-								<xsl:text>illustration</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g31'">
-								<xsl:text>map</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g32'">
-								<xsl:text>floorplans</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g33'">
-								<xsl:text>photograph</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g34'">
-								<xsl:text>cartoon</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g35'">
-								<xsl:text>literary annual</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g36'">
-								<xsl:text>miscellany</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g37'">
-								<xsl:text>anthology</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g38'">
-								<xsl:text>beauties</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#g39'">
-								<xsl:text>juvenile</xsl:text>
-							</xsl:if>
-							<xsl:text> / </xsl:text>
-						</xsl:for-each>
-						<xsl:for-each select="tokenize(teiHeader/profileDesc/textClass/catRef[@scheme='#f']/@target, ' ')">
-							<xsl:if test=". = '#f1'">
-								<xsl:text>pageimage</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f2'">
-								<xsl:text>book part</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f3'">
-								<xsl:text>book</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f4'">
-								<xsl:text>periodical part</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f5'">
-								<xsl:text>periodical</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f6'">
-								<xsl:text>fragment</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f7'">
-								<xsl:text>frontispiece</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f8'">
-								<xsl:text>title page</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f9'">
-								<xsl:text>inscription page</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f10'">
-								<xsl:text>dedication</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f11'">
-								<xsl:text>table of contents</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f12'">
-								<xsl:text>table of illustrations</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f13'">
-								<xsl:text>list of subscribers</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f14'">
-								<xsl:text>index</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f15'">
-								<xsl:text>notes</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f16'">
-								<xsl:text>book boards</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f17'">
-								<xsl:text>slipcase</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f18'">
-								<xsl:text>printers mark</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f19'">
-								<xsl:text>engraving</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f20'">
-								<xsl:text>pamphlet</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f21'">
-								<xsl:text>manuscript</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f22'">
-								<xsl:text>collection</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f23'">
-								<xsl:text>nonceCollection</xsl:text>
-							</xsl:if>
-							<xsl:if test=". = '#f24'">
-								<xsl:text>sammelband</xsl:text>
-							</xsl:if>
-							<xsl:text> / </xsl:text>
+						<xsl:variable name="genreMarkers" as="xs:string+" select="tokenize(//teiHeader/profileDesc/textClass/catRef[@scheme='#g']/@target, '\s+')"/>
+						<xsl:variable name="formMarkers" as="xs:string+" select="tokenize(//teiHeader/profileDesc/textClass/catRef[@scheme='#f']/@target, '\s+')"/>
+						<xsl:for-each select="($genreMarkers, $formMarkers)">
+							<xsl:variable name="currentMarker" select="current() ! substring-after(., '#')"/>
+							<xsl:value-of select="key('taxonomyLookup', $currentMarker, $sourceDoc)/catDesc"/>
+							<xsl:if test="not(position() = last())"><xsl:text> / </xsl:text></xsl:if>
 						</xsl:for-each>
 						<br />
 						Orig. pub. <xsl:value-of select="substring($pubDate, 1, 4)"/>
