@@ -16,7 +16,8 @@
 	07-changes for static search 4/3/2026
 	08-more changes for static search, improve results 6/17/2026-->
 	
-	<!-- 2026-07-18 ebb: refactoring the processing of the profileDesc -->
+ 	<!-- 2026-07-18 Elisa Beshero-Bondar: 
+ 		refactoring the processing of the profileDesc and people_names key lookups. -->
 
 	<!-- Here is the document declaration necessary for an HTML5 (web) page -->
 
@@ -149,11 +150,12 @@
 					<meta name="Date of publication" class="staticSearch_date" content="{$pubDate}"/>
 					<xsl:for-each select="$uniqueIDs">
 						<xsl:variable name="currentID" select="current()"/>
+						<xsl:choose><xsl:when test="$currentID = $authorID"/><xsl:otherwise>
 						<meta name="People mentioned" class="staticSearch_feat">
 							<xsl:attribute name="content">
 								<xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/>
 							</xsl:attribute>
-						</meta>
+						</meta></xsl:otherwise></xsl:choose>
 						<!--<xsl:for-each select="$peopleNames">
 							<xsl:choose>
 								<xsl:when test="$currentID = current()/@xml:id"/>
