@@ -16,7 +16,7 @@
 	07-changes for static search 4/3/2026
 	08-more changes for static search, improve results 6/17/2026-->
 	
- 	<!-- Changelog of 2026-07-18 by Elisa Beshero-Bondar (ebb): 
+ 	<!-- Changelog of 2026-07-18 by Elisa Beshero-Bondar (ebb)
  		00-converted this XSLT stylesheet from version 2.0 to 3.0
  		01-set xpath-default-namespace to the TEI namespace and removed tei:prefixes throughout
  		02-repaired xsl:key and key() functions for processing people mentioned in the people_names.xml
@@ -162,9 +162,9 @@
 									<xsl:attribute name="content">
 										<xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/>
 								<!-- ebb: NOTE: How to do a key lookup: 
-									1) reference your xsl:key name in the first argument as a quoted text string
-									2) indicate the value you need to look up
-									3) indicate the file wwhere to do the lookup (whether an external file 
+									1) Reference your xsl:key name in the first argument as a quoted text string
+									2) Indicate the value you need to look up
+									3) Indicate the file wwhere to do the lookup (whether an external file 
 									or the current document you're processing.
 								-->
 									</xsl:attribute>
