@@ -16,11 +16,11 @@
 	07-changes for static search 4/3/2026
 	08-more changes for static search, improve results 6/17/2026-->
 	
- 	<!-- 2026-07-18 Elisa Beshero-Bondar (ebb): 
+ 	<!-- Changelog of 2026-07-18 by Elisa Beshero-Bondar (ebb): 
  		00-converted this XSLT stylesheet from version 2.0 to 3.0
  		01-set xpath-default-namespace to the TEI namespace and removed tei:prefixes throughout
  		02-repaired xsl:key and key() functions for processing people mentioned from the people_names.xml
- 		03-created xsl:key for taxonomies (for genres and forms), and applied key lookups
+ 		03-created xsl:key for taxonomies (for genres and forms), and applied key lookups.
  		 -->
 
 	<!-- Here is the document declaration necessary for an HTML5 (web) page -->
