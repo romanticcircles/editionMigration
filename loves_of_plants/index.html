@@ -27,13 +27,9 @@
     <link rel="stylesheet" href="css/splashPara.css" />
     <link rel="icon" type="image/svg" href="images/favicon.ico" />
     <style>
-
             div.siteTitle {
-                margin-top: 5rem;
-                margin-left: 18%;
-                height: 16rem;
-                width: 30rem;
-                display: block;
+                margin-top:5em;
+                padding: 2em;
                 background-color: #FFFFFF;
                 border: 1px solid navy;
             }
@@ -45,16 +41,17 @@
                 font-size: 90%;
                 padding: 0;
             }
-            img.rcLogo {width: 160px;}
-            img.logo {width: 160px; }
-            
+            img.rcLogo {width: 80px;}
+            img.siteLogo {display:inline; width:80%; max-width:100px; min-width:60px;}
             section.editionBanner {
               display:flex;
               justify-content:space-around;
+              width:100%;
+              background-color:#407780;
             }
-            figure.homePgImg{flex:2;}
+            figure.homePgImg{flex:1;}
+            figure.homePgImg > figcaption {color:white;}
             img.homePgImg {
-             
                 width: 100%;;
                 max-width:400px;
                 
@@ -72,15 +69,13 @@
             hr {
                 border-top: 3px solid navy;
             }
-            main {margin-top:4em; width:100%;}
+            main {margin-top:4em; width:80%;}
+            
     
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <!--<img src="images/flora-cupid-frontis-cyantrnsp.png"
-      width="500" alt="detail of flora from frontispiece"
-      class="banner"/>-->
     <nav>
       <ul class="navBar">
         <li><a href="https://romantic-circles.org" target="_blank"><img class="rcLogo" src="images/RClogo.png" alt="Romantic Circles logo"/></a></li>
@@ -88,7 +83,7 @@
           <a class="active" href="index.html">Home</a>
         </li>
         <li>
-          <a href="introduction.html">Editor’s Introduction</a>
+          <a href="introduction.html">Introduction</a>
         </li>
         <li>
           <a href="edition.html">Edition</a>
@@ -97,165 +92,40 @@
           <a href="appendices.html">Plants, People, Places</a>
         </li>
         <li>
-          <a href="appendices.html">Appendices + Bibliography</a>
-        </li>
-        <li>
-          <a href="pageImages/index.html">Page Images</a>
+          <a href="appendices.html">Backmatter</a>
         </li>
         <li>
           <a href="about.html">About</a>
         </li>
-       
+        <li> <img class="siteLogo" alt="illustration of Holloway's sculpture of Cupid at the end of Darwin's introduction to The Loves of Plants" src="images/cupid-sculpt-holloway-trnsp.png"/></li>
       </ul>
+     
     </nav>
     
   <main> <section class="editionBanner"> 
-     <div class="wrapper"> 
-       <div class="siteTitle">
-        <h2 style="text-align: center;">Erasmus Darwin’s The Loves of the Plants</h2>
-        <h3 style="text-align: center;">Edited by <strong><a
-            href="https://romantic-circles.org/person/tristanne-connolly"
-            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-            data-once="ajax">Tristanne Connolly</a></strong>
-          <br /> Technical Editor, <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%65%65%62%34%40%70%73%75%2E%65%64%75">Elisa Beshero-Bondar</a></strong></h3>
-      </div></div>
-     <figure class="homePgImg"> 
-       <img class="homePgImg" src="images/flora-cupid-frontis-cyantrnsp.png"
-        alt="detail of flora from frontispiece of The Botantic Garden Volume 2, 1790" />
-       <figcaption><q>FLORA at play with CUPID</q>, frontispiece of <i>The Botanic Garden</i> Volume 2, 1790.</figcaption>
-     </figure>
-   </section></main>
-  
-  
-      <hr />
-      <div class="infoBot">
-        <img class="ccLicense" src="images/cc-zero.png" height="30" width="80"
-          alt="Creative Commons Zero License" />
-        <p style="float: left; margin-top: -0.25rem;"><strong><a href="https://romantic-circles.org/" target="_blank"
-              >Romantic Circles</a></strong>: <em>Romantic Circles is a refereed scholarly website
-                devoted to the study of Romantic-period literature and culture.</em></p>
-        <p style="margin-top: -1rem; float: left;">Contact <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#114;&#97;&#46;&#98;&#114;&#121;&#108;&#111;&#119;&#101;&#64;&#99;&#111;&#108;&#111;&#114;&#97;&#100;&#111;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;">Thora Brylow</a></strong>, University of
-          Colorado; <strong><a
-              href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#110;&#100;&#101;&#108;&#108;&#64;&#116;&#97;&#109;&#117;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;"
-              >Laura Mandell</a></strong>, Texas A&amp;M University.</p>
+        <div class="wrapper"> 
+            <div class="siteTitle">
+              <h2 style="text-align: center;">The Loves of the Plants</h2>
+              <h3 style="text-align: center;">Originally Written by <a href="https://romantic-circles.org/person/erasmus-darwin" >Erasmus Darwin</a></h3>
+              <h4 style="text-align: center;">Edited by <strong><a
+              href="https://romantic-circles.org/person/tristanne-connolly">Tristanne Connolly</a></strong>,  <a
+                href="https://romantic-circles.org/person/elizabeth-bernath"
+                >Elizabeth Bernath</a>, and <a
+                  href="https://romantic-circles.org/person/elizabeth-bernath">Elizabeth Bernath</a>
+          <br /> Technical Editor, <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%65%65%62%34%40%70%73%75%2E%65%64%75">Elisa Beshero-Bondar</a></strong></h4>
       </div>
+     </div>
+      <figure class="homePgImg"> 
+        <img class="homePgImg" src="images/flora-cupid-frontis-cyantrnsp.png"
+          alt="detail of flora from frontispiece of The Botantic Garden Volume 2, 1790" />
+        <figcaption><q>FLORA at play with CUPID</q>, frontispiece of <i>The Botanic Garden</i> Volume 2, 1790.</figcaption>
+      </figure>
+   </section>
 
+  
 
-
-      <div class="wrap-containers">
-
-
-
-
-
-            <section
-              class="views-element-container block block-views block-views-blockduplicate-of-global-display-primary-author-block-3 clearfix"
-              id="block-views-block-duplicate-of-global-display-primary-author-block-3">
-
-
-
-              <div data-block="page_title">
-                <div
-                  class="view view-duplicate-of-global-display-primary-author view-id-duplicate_of_global_display_primary_author view-display-id-block_3 js-view-dom-id-9835b829cce6a9010d6443cce8e37b53f5c9c78633fdc56c1c4ba3fe06f89277">
-
-
-
-                  <div class="view-content">
-                    <div class="inline-row squish row views-row">
-                      <div class="views-field views-field-nothing">
-                        <span class="field-content"> Originally Written by <a
-                            href="https://romantic-circles.org/person/erasmus-darwin" hreflang="en"
-                            class="use-ajax" data-dialog-type="colorbox"
-                            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                            data-once="ajax">Erasmus Darwin</a></span>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-
-            </section>
-            <section
-              class="views-element-container block block-views block-views-blockglobal-display-authors-block-6 clearfix"
-              id="block-views-block-global-display-authors-block-6">
-
-
-
-              <div data-block="page_title">
-                <div
-                  class="view view-global-display-authors view-id-global_display_authors view-display-id-block_6 js-view-dom-id-1e6566e6b9fe65f91b37020ec002812590f13264f4cb89e978d087f6de91176d">
-
-
-
-                  <div class="view-content">
-                    <div class="inline-row squish-row views-row">
-                      <div class="views-field views-field-nothing">
-                        <span class="field-content"> 
-                        </span>
-                      </div>
-                    </div>
-                    <div class="inline-row squish-row views-row">
-                      <div class="views-field views-field-nothing">
-                        <span class="field-content"> , <a
-                            href="https://romantic-circles.org/person/elizabeth-bernath"
-                            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                            data-once="ajax">Elizabeth Bernath</a>
-                        </span>
-                      </div>
-                    </div>
-                    <div class="inline-row squish-row views-row">
-                      <div class="views-field views-field-nothing">
-                        <span class="field-content"> , <a
-                            href="https://romantic-circles.org/person/alana-rigby" hreflang="en"
-                            class="use-ajax" data-dialog-type="colorbox"
-                            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                            data-once="ajax">Alana Rigby</a>
-                        </span>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-
-            </section>
-
-
-
-
-
-
-          </header>
-        </div>
-
-
-        <div role="main" class="main-container container js-quickedit-main-content clearfix">
-          <div class="row">
-
-
-            <section class="col-sm-12">
-
-
-
-
-              <a id="main-content"></a>
-              <div class="region region-content">
-                <div data-drupal-messages-fallback="" class="hidden"></div>
-                <article data-history-node-id="34166"
-                  class="editions-publication is-promoted full clearfix node">
-
-               
                         <section
                           class="volumeDesc">
-
-
-
-
                           <div
                             class="clearfix text-formatted field field--name-field-description field--type-text-long field--label-hidden field__item">
                             <p>Erasmus Darwin wrote <em>The Loves of the Plants</em> (1789) to
@@ -280,82 +150,68 @@
                           </div>
 
                         </section>
-                        <section
-                          class="manual-toc block block-layout-builder block-inline-blockbasic clearfix">
-
-                          <div
-                            class="field field--name-field-technical-editor field--type-entity-reference field--label-inline clearfix">
-                            <div class="field__label">Technical Editor</div>
-                            <div class="field__items">
-                              <div class="field__item">
-                                <a href="https://newtfire.org">Elisa Beshero-Bondar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </section>
-                        <section
-                          class="block block-layout-builder block-field-blocknodeeditions-publicationfield-tags clearfix">
-
-
-
-
-                          <div
-                            class="field field--name-field-tags field--type-entity-reference field--label-inline clearfix">
-                            <div class="field__label">Tags</div>
-                            <div class="field__items">
-                              <div class="field__item">
-                                <a href="https://romantic-circles.org/taxonomy/term/4791"
-                                  hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                                  data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                                  data-once="ajax">botany</a>
-                              </div>
-                              <div class="field__item">
-                                <a href="https://romantic-circles.org/taxonomy/term/486"
-                                  hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                                  data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                                  data-once="ajax">sexuality</a>
-                              </div>
-                              <div class="field__item">
-                                <a href="https://romantic-circles.org/taxonomy/term/561"
-                                  hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                                  data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                                  data-once="ajax">hybridity</a>
-                              </div>
-                              <div class="field__item">
-                                <a href="https://romantic-circles.org/taxonomy/term/1401"
-                                  hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                                  data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                                  data-once="ajax">science</a>
-                              </div>
-                              <div class="field__item">
-                                <a href="https://romantic-circles.org/taxonomy/term/971"
-                                  hreflang="en" class="use-ajax" data-dialog-type="colorbox"
-                                  data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
-                                  data-once="ajax">interdisciplinary</a>
-                              </div>
-                            </div>
-                          </div>
-
-                        </section>
-                        <section class="block block-layout-builder block-inline-blockbasic clearfix">
-
-
-
-
-                          <div
-                            class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                            <p><a href="https://www.romantic-circles.org/editions/loves-plants">The
-                                Loves of the Plants </a><span>© 2025 </span>by <span>Erasmus Darwin
-                                and edited by Tristanne Connolly is licensed under</span>
-                              <a
-                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
-                                >CC BY-NC-ND 4.0</a></p>
-                          </div>
-
-                        </section>
-
-
-
-
+    <div
+      class="field field--name-field-tags field--type-entity-reference field--label-inline clearfix">
+      <div class="field__label">Tags</div>
+      <div class="field__items">
+        <div class="field__item">
+          <a href="https://romantic-circles.org/taxonomy/term/4791"
+            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
+            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
+            data-once="ajax">botany</a>
+        </div>
+        <div class="field__item">
+          <a href="https://romantic-circles.org/taxonomy/term/486"
+            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
+            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
+            data-once="ajax">sexuality</a>
+        </div>
+        <div class="field__item">
+          <a href="https://romantic-circles.org/taxonomy/term/561"
+            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
+            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
+            data-once="ajax">hybridity</a>
+        </div>
+        <div class="field__item">
+          <a href="https://romantic-circles.org/taxonomy/term/1401"
+            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
+            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
+            data-once="ajax">science</a>
+        </div>
+        <div class="field__item">
+          <a href="https://romantic-circles.org/taxonomy/term/971"
+            hreflang="en" class="use-ajax" data-dialog-type="colorbox"
+            data-dialog-options="{&quot;width&quot;:5,&quot;dialogClass&quot;:&quot;foo&quot;}"
+            data-once="ajax">interdisciplinary</a>
+        </div>
+      </div>
+    </div>
+      
+      <div
+        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+        <p><a href="https://www.romantic-circles.org/editions/loves-plants">The
+            Loves of the Plants </a><span>© 2025 </span>by <span>Erasmus Darwin
+              and edited by Tristanne Connolly is licensed under</span>
+          <a
+            href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
+            >CC BY-NC-ND 4.0</a></p>
+      </div>
+  </main>
+      
+      
+      <hr />
+      <div class="infoBot">
+      <!--  <img class="ccLicense" src="images/cc-zero.png" height="30" width="80"
+          alt="Creative Commons Zero License" />-->
+        <p style="float: left; margin-top: -0.25rem;"><strong><a href="https://romantic-circles.org/" target="_blank"
+              >Romantic Circles</a></strong>: <em>Romantic Circles is a refereed scholarly website
+                devoted to the study of Romantic-period literature and culture.</em></p>
+        <p style="margin-top: -1rem; float: left;">Contact <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#114;&#97;&#46;&#98;&#114;&#121;&#108;&#111;&#119;&#101;&#64;&#99;&#111;&#108;&#111;&#114;&#97;&#100;&#111;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;">Thora Brylow</a></strong>, University of
+          Colorado; <strong><a
+              href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#110;&#100;&#101;&#108;&#108;&#64;&#116;&#97;&#109;&#117;&#46;&#101;&#100;&#117;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#118;&#105;&#115;&#105;&#116;&#105;&#110;&#103;&#37;&#50;&#48;&#76;&#121;&#114;&#105;&#99;&#97;&#108;&#37;&#50;&#48;&#66;&#97;&#108;&#108;&#97;&#100;&#115;"
+              >Laura Mandell</a></strong>, Texas A&amp;M University.</p>
+      </div>
+      
+=
   </body>
 </html>
