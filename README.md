@@ -1,6 +1,5 @@
 # editionMigration
 
-Style guide resources:
- <https://zenodo.org/communities/romantic-circles/records>
+Style guide resources:  <https://zenodo.org/communities/romantic-circles/records>
 
 
