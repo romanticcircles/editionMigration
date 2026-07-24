@@ -10,6 +10,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>XML/paratext/places.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>makeNamesListXML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>XML/paratext/people.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>makeNamesListXML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>XML/Part_One/runListPt.1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -215,46 +255,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>toWebSouthey</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>XML/paratext/people.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>people</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>XML/paratext/places.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>makeNamesListXML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -685,7 +685,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslt/makePpl_Nms.xsl</String>
+                                    <String>${pdu}/xslt/makePlace_Nms.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
