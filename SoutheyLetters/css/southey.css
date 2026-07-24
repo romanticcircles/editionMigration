@@ -21,6 +21,7 @@ body {
     background-color: #faf0d2; 
     padding: 6px 20px; 
     float: left;
+    width: 35%;
 }
 .homePlink {
     margin-left: 96%;
@@ -60,20 +61,6 @@ li.nav {
     padding-right: 20px;
 }
 li.nav:hover {background-color: #f0e3bb;}
-a {
-    font-weight: bold;
-    text-decoration: none;
-	color: #00347d;
-}
-a:hover {
-    color: #356FC0;
-}
-a:visited {
-    color: #36619e;
-    }
-a:visited:hover {
-    color: #356FC0;
-}
 .drop {
     text-decoration: none;
     color: #00347d;
@@ -113,10 +100,12 @@ li.nav:hover > ul {
   display: block;
 }
 /* end nav */
+
 main {
-    margin-left: 5%;
+    margin-left: 3%;
+    margin-top: 0;
     background-color: #faf0d2;
-    padding: 20px;
+    padding: 35px 10px;
 }
 div.letList, div.appMain {
     margin-left: 3%;
@@ -124,16 +113,58 @@ div.letList, div.appMain {
     background-color: white;
     padding: 2% 8%;
 }
-
-
-
+div.letter {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
+}
+div.introduction {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
+}
+div.paratext {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
+}
+div.notes {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
+}
+p {
+    display: block;
+    width: 100%;
+}
+p.noteSpace {
+    height: 30rem;
+}
 ul {
     list-style-type: none;
 }
+p.opener {
+    margin: 3%;
+}
+.dateline {
+    display: block;
+}
+.salute {
+    display: block;
+    text-indent: 30px;
+}
+p.closer {}
+p.postscript {}
 
-/* for xslt, make div=paratext / table xml:id "chrono" and remove attributes, then
- * first cell containing width="130" gets rend colDate and second cell width="610" gets rend colEvent. 
- * There is an empty row-cell-cell-closeRow between each entry*/
+/* tables */
+
+table {
+    
+}
 
 #chrono {
     width: 740px;
@@ -155,7 +186,211 @@ tr.rowSpace {
     
 }
 
+dl {
 
-.title {
-    font-style: italic;
+}
+dt {
+    font-size: 110%;
+    font-weight: 600;
+}
+/* links */
+a {
+    font-weight: bold;
+    text-decoration: none;
+	color: #00347d;
+}
+a:hover {
+    color: #356FC0;
+}
+a:visited {
+    color: #36619e;
+    }
+a:visited:hover {
+    color: #356FC0;
+}
+
+/* poetry */
+
+.stanza {
+    margin-right: 0;
+    display: block;
+    width: 100%;
+}
+.stanzaSpace {}
+
+.l {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-indent: 0px;
+    gap: 20px;
+}
+.ltext {
+    display: block;
+    flex-grow: 2;
+    flex-basis: 10rem;
+}
+.lno {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+/* indentation (can be used in poems, divs, paragraphs, etc.) */
+.indent {
+    text-indent: 10px;
+    display: block;
+}
+.indent1 {
+    text-indent: 20px;
+    display: block;
+}
+.indent2 {
+    text-indent: 30px;
+    display: block;
+}
+.indent3 {
+    text-indent: 40px;
+    display: block;
+}
+.indent4 {
+    text-indent: 50px;
+    display: block;
+}
+.indent5 {
+    text-indent: 60px;
+    display: block;
+}
+.indent6 {
+    text-indent: 70px;
+    display: block;
+}
+.indent7 {
+    text-indent: 80px;
+    display: block;
+}
+.indent8 {
+    text-indent: 90px;
+    display: block;
+}
+.indent9 {
+    text-indent: 100px;
+    display: block;
+}
+.indent10 {
+    text-indent: 110px;
+    display: block;
+}
+.indent11 {
+    text-indent: 120px;
+    display: block;
+}
+.indent12 {
+    text-indent: 130px;
+    display: block;
+}
+.indent13 {
+    text-indent: 140px;
+    display: block;
+}
+.indent14 {
+    text-indent: 150px;
+    display: block;
+}
+.indent15 {
+    text-indent: 160px;
+    display: block;
+}
+.indent20 {
+    text-indent: 210px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    display: block;
+}
+.indent25 {
+    text-indent: 260px;
+    display: block;
+}
+.indent30 {
+    text-indent: 310px;
+    display: block;
+}
+
+/* Fonts and sizes */
+
+h1 {font-size: 24px;}
+h2 {font-size: 22px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 14px;}
+h6 {font-size: 10px;}
+
+.title {font-style: italic;}
+.ital {font-style: italic}
+
+/* alphabet list from gemini pro, 7/19/26 */
+.alphabet-container {
+    margin-left: -5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.alpha-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px; /* Changed from width to min-width so "Clear" fits beautifully */
+  height: 44px;
+  padding: 0 12px; /* Adds space inside the buttons */
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 1.1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer; /* Makes the clear button show a hand pointer like the links */
+  transition: all 0.2s ease;
+}
+
+/* Specific styling for the clear button so it stands out subtly */
+.clear-btn {
+  background-color: #f3f4f6;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* Hover effects */
+.alpha-btn:hover, 
+.alpha-btn:focus {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-color: #3b82f6;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Red styling for when you hover over the clear button */
+.clear-btn:hover {
+  background-color: green !important;
+  border-color: green !important;
+  box-shadow: 0 6px 12px rgba(239, 68, 68, 0.3) !important;
+}
+
+/* The style applied to the letter that is currently selected */
+.alpha-btn.active {
+  background-color: #2563eb; /* Slightly darker blue so it looks "pushed in" */
+  color: #ffffff;
+  border-color: #2563eb;
+  transform: translateY(0);  /* Drops back down flat */
+  box-shadow: none;
 }

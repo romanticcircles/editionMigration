@@ -2,6 +2,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Note: the original header did vary over the years: errors were introduced (at some point, the sourceDesc refer-
+   red to the publication rather than its source), and, for Part 7, the headers were changed by the tech team at the
+   Univ. of Colorado. None of the TEI files in the Romantic Circles rc-tei folder were used because they were out
+   of synch with the published HTML: corrections were made in the HTML in Drupal rather than the TEI. After AB
+   remade those corrections in the TEI held by the Southey team, Lynda Pratt sent new Part Seven TEI, February 2026,
+   and we used them for this second edition; they had no original header so insertHeader070726.xsl was used along 
+   with some manual corrections noted in that file -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
          <fileDesc>
