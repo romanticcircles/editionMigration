@@ -1,52 +1,216 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Introduction to Part
-                            Four</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title><author>Ian Packer</author><author>Lynda Pratt</author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="4">Part Four <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
-									License, as described under "Conditions of Use" at
-									http://romantic-circles.org/about/submission-guidelines and
-									here:</p><p>As of July 2027, all material published on Romantic Circles is
-									licensed under Creative Commons Zero (CC 0), unless otherwise
-									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
-									and images published before December 2023 in order to mount them
-									on their own servers.</p></availability><idno type="edition">southey.partFourIntro</idno></publicationStmt><sourceDesc><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>For permission to publish the text of MSS in their possession, the
-								editor wishes to thank the Beinecke Rare Books and Manuscript
-								Library, Yale University; Berg Collection of English and American
-								Literature, The New York Public Library, Astor, Lenox and Tilden
-								Foundations; the Bodleian Library Oxford University; the British
-								Library; Boston Public Library; the Syndics of Cambridge University
-								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
-								College, Connecticut; the Historical Society of Pennsylvania; the
-								Hornby Library, Liverpool Libraries and Information Services; the
-								Houghton Library, Harvard University; the John Rylands Library,
-								Manchester; the Kenneth Spencer Research Library, University of
-								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
-								Historical Society; McGill University Library; the National Library
-								of Scotland; the Newberry Library, Chicago; the New York Public
-								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
-								York; the Public Record Offices of Bedford, Suffolk (Bury St
-								Edmunds) and Northumberland, the Master and Fellows of Trinity
-								College, Cambridge; the Society of Antiquaries of Newcastle upon
-								Tyne; the Trustees of the William Salt Library, Stafford, the
-								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated 2013-08-15. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div head
-                        must contain document information, not html styling information)</item><item>If incorrect current document publication information in sourceDesc/biblstruct,
-                        I corrected this prior to moving that information elsewhere (it shouldn't be
-                        "source").</item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-                    Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-                    Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-                    Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-                    Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-                    Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-                    Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">Introduction to Part Four</title>, <title level="m">The
-                        Collected Letters of Robert Southey</title>, by <author>Ian Packer</author> and <author>Lynda
-                    Pratt</author></bibl></head><p><title>Part Four</title> collects together in one place for the first time the
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Introduction to Part Four</title>
+                <title type="sub" level="m">The Collected Letters of Robert Southey, Part
+                    Four</title>
+                <author>Ian Packer</author>
+                <author>Lynda Pratt</author>
+                <editor>Ian Packer</editor>
+                <editor>Lynda Pratt</editor>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <name>Averill Buchanan</name>
+                </respStmt>
+                <sponsor>Romantic Circles</sponsor>
+                <respStmt>
+                    <resp>Director</resp>
+                    <name>Thora Brylowe</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical Editor</resp>
+                    <name>Laura Mandell</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="4">Part Four <date>2026-09-15</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    and Texas A&amp;M University</publisher>
+                <pubPlace>College Station, TX</pubPlace>
+                <availability status="free">
+                    <p>This document is made available via a Creative Commons Zero License, as
+                        described under "Conditions of Use" at
+                        http://romantic-circles.org/about/submission-guidelines and here:</p>
+                    <p>As of July 2027, all material published on Romantic Circles is licensed under
+                        Creative Commons Zero (CC 0), unless otherwise noted.</p>
+                    <p>Unless otherwise noted, users are not permitted to download texts and images
+                        published before December 2023 in order to mount them on their own
+                        servers.</p>
+                </availability>
+                <idno type="edition">southey.partFourIntro</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Every effort has been made to contact copyright holders for their permission to
+                    reprint material in this edition. The editors would be grateful to hear from any
+                    copyright holder who is not here acknowledged and undertake to rectify any omissions
+                    or errors in future updates of this edition.</p>
+                <p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+                    Collection of English and American Literature, The New York Public Library, Astor,
+                    Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+                    Library; Boston Public Library; the Syndics of Cambridge University Library; the
+                    Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+                    Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+                    Information Services; the Houghton Library, Harvard University; the John Rylands
+                    Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+                    Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+                    University Library; the National Library of Scotland; the Newberry Library, Chicago;
+                    the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+                    New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+                    Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+                    Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+                    Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+                <p>A research grant from the British Academy made much of the archival work possible, as
+                    did support from the English Department of Nottingham Trent University.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+                        ‘, and ' for ’.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                        keyboard.</p>
+                    <p>Dashes have been rendered as a variable number of hyphens to give a more
+                        exact rendering of their length.</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Southey's spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>£ has been used for £, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy targetDatcat="https://viaf.org/">
+                    <bibl>VIAF</bibl>
+                    <category xml:id="viaf_61576896">
+                        <catDesc>Southey, Robert, 1774-1843</catDesc>
+                    </category>
+                    <category xml:id="viaf_118520952">
+                        <catDesc>Pratt, Lynda, 1964-</catDesc>
+                    </category>
+                    <category xml:id="viaf_116328125">
+                        <catDesc>Packer, Ian, 1962-</catDesc>
+                    </category>
+                    <category xml:id="viaf_18359329">
+                        <catDesc>Fulford, Tim, 1962-</catDesc>
+                    </category>
+                    <category xml:id="viaf_42171645">
+                        <catDesc>Bolton, Carol</catDesc>
+                    </category>
+                    <category xml:id="viaf_250654121">
+                        <catDesc>Buchanan, Averill</catDesc>
+                    </category>
+                    <category xml:id="viaf_41749340">
+                        <catDesc>Mandell, Laura, 1958-</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+                    <bibl>Wikidata</bibl>
+                    <category xml:id="Q216838">
+                        <catDesc>Robert Southey</catDesc>
+                    </category>
+                    <category xml:id="Q5977111">
+                        <catDesc>Romantic literature</catDesc>
+                    </category>
+                    <category xml:id="Q36279">
+                        <catDesc>biography</catDesc>
+                    </category>
+                    <category xml:id="Q1277575">
+                        <catDesc>correspondence</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+                    <bibl>Southey Letters: Biographies</bibl>
+                </taxonomy>
+                <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+                    <bibl>Southey Letters: Places</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="#Q216838" scheme="Wikidata"/>
+                <catRef target="#Q5977111" scheme="Wikidata"/>
+                <catRef target="#Q1277575" scheme="Wikidata"/>
+                <catRef target="#viaf_61576896" scheme="VIAF"/>
+                <catRef target="#viaf_118520952" scheme="VIAF"/>
+                <catRef target="#viaf_116328125" scheme="VIAF"/>
+                <catRef target="#viaf_250654121" scheme="VIAF"/>
+                <catRef target="#viaf_41749340" scheme="VIAF"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+                    <item>Created new header for new edition edition XML from old edition XML dated
+                        2013-08-15. For the old header, see
+                        SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
+                </list></change>
+            <change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+                    <item>Corrected tei encoding (div type cannot be a specific document's id; div
+                        head must contain document information, not html styling information)</item>
+                    <item>If incorrect current document publication information in
+                        sourceDesc/biblstruct, I corrected this prior to moving that information
+                        elsewhere (it shouldn't be "source").</item>
+                </list></change>
+            <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR"
+                    >David Rettenmaier</name><list>
+                    <item>Update of TEI headers to conform to new template</item>
+                </list></change>
+            <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list>
+                    <item>Ran Transforms after final proofing Southey Part 4</item>
+                </list></change>
+            <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list>
+                    <item>Ran Transforms after proofing Southey Part 4</item>
+                </list></change>
+            <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+                    Mandell</name><list>
+                    <item>Ran Transforms for proofing Southey Part 4</item>
+                </list></change>
+            <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+                    Mandell</name><list>
+                    <item>Ran Transforms for proof copies of Southey Part 4</item>
+                </list></change>
+            <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+                    Rettenmaier</name><list>
+                    <item>Transforms for Southey Part 4</item>
+                </list></change>
+            <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+                    Buchanan</name><list>
+                    <item>corrections from proofing</item>
+                </list></change>
+            <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM"
+                    >Laura Mandell</name><list>
+                    <item>XSLT Transforming</item>
+                </list></change>
+            <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
+                    >Averill Buchanan</name><list>
+                    <item>TEI Encoding</item>
+                </list></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="introduction">
+                <head><bibl><title level="a">Introduction to Part Four</title>, <title level="m">The
+                            Collected Letters of Robert Southey</title>, by <author>Ian
+                            Packer</author> and <author>Lynda Pratt</author></bibl></head>
+                <p><title>Part Four</title> collects together in one place for the first time the
                     surviving letters written by Southey between 1810 and 1815. The letters we
                     publish here commence in January 1810 with Southey returning proofing
                     corrections for the <title>Edinburgh Annual Register</title> (Letter 1729). They
@@ -59,7 +223,8 @@
                     correspondence scattered between archives in the United Kingdom, Europe,
                     Australasia and North and South America. It comprises newly transcribed, fully
                     annotated texts of 969 letters. Of these, 585 are published for the first time,
-                    with a further 94 published here in full for the first time.</p><p rend="indent1"> Southey’s correspondence was characterised by its extent and its
+                    with a further 94 published here in full for the first time.</p>
+                <p rend="indent1"> Southey’s correspondence was characterised by its extent and its
                     diversity. The letters in <title>Part Four</title> were written to nearly ninety
                     individuals from a wide spectrum of society and engage with regional, national
                     and international affairs. They range from bibliographical information sent to
@@ -78,7 +243,8 @@
                     have is part, but not all, of a much larger output. Southey’s letters to, for
                     example, Manuel Abella, Coleridge, Peter Elmsley, Charles Lamb, and Sharon
                     Turner exist only in part; whilst some correspondences have been lost entirely
-                    and can now only be glimpsed in letters sent to other people.</p><p rend="indent1">In January 1810 Southey was thirty-five years old. He had been
+                    and can now only be glimpsed in letters sent to other people.</p>
+                <p rend="indent1">In January 1810 Southey was thirty-five years old. He had been
                     married for fifteen years and had fathered five children, three of whom were
                     still living. Two more daughters – Kate and Isabel – were born in 1811 and 1812.
                     The rootlessness and displacement of his early life, when he had moved
@@ -101,7 +267,8 @@
                     staying in Keswick, visited Greta Hall. Southey, who recounted the younger man’s
                     history at length to friends, was struck by their strange kinship. Shelley, he
                     told Grosvenor Bedford, ‘acts upon me as my own Ghost would do’ and was ‘just
-                    what I was in 1794’ (Letter 2012).</p><p rend="indent1">Personal contact was one thing, but, as his letters show, Southey
+                    what I was in 1794’ (Letter 2012).</p>
+                <p rend="indent1">Personal contact was one thing, but, as his letters show, Southey
                     also maintained touch with the wider world via newspapers and by reading and
                     reviewing recently published books, the latter often lent to him by friends,
                     acquaintances and the metropolitan-based publisher John Murray. Southey remained
@@ -138,7 +305,8 @@
                     composition of intellectual networks in the early nineteenth century. Southey’s
                     letters show Romantic period international exchange in action and bear witness
                     to the transmission of knowledge and information between individuals of
-                    different cultural, political and religious backgrounds and sympathies. </p><p rend="indent1">Southey was, then, far from alone during the long days and nights
+                    different cultural, political and religious backgrounds and sympathies. </p>
+                <p rend="indent1">Southey was, then, far from alone during the long days and nights
                     he spent working in his Lakeland library. His letters, sent to correspondents in
                     the United Kingdom, Spain, Portugal, France, Holland, Brussels, North America
                     and Brazil, are testimony to his inveterate and adept use of correspondence
@@ -160,7 +328,8 @@
                     nations better than he has done mine’ (Letter 1914). <title>Part Four</title>
                     thus demonstrates the crucial roles played by the postal service and the
                     exchange of letters, books and manuscripts in promoting and sustaining Romantic
-                    intellectual networks. </p><p rend="indent1"><title>Part Four</title> covers 1810–1815, a key period in
+                    intellectual networks. </p>
+                <p rend="indent1"><title>Part Four</title> covers 1810–1815, a key period in
                     Southey’s career. It is, however, one that has yet to be fully documented or
                     fully understood. His output over these six years was, even by his own
                     standards, prodigious and diverse and the letters published here provide new
@@ -182,7 +351,8 @@
                     than he had originally intended, precipitated increasingly querulous exchanges
                     with John Ballantyne, the ‘Shuffler’ who published the <title>Register</title>,
                     and led to an unwise investment which cost Southey £209, money he could ill
-                    afford to lose (Letters 2212, 2284). </p><p rend="indent1">Often one hated but essential literary task generated another –
+                    afford to lose (Letters 2212, 2284). </p>
+                <p rend="indent1">Often one hated but essential literary task generated another –
                     sometimes more pleasurable – one or led to a new direction in Southey’s writing.
                     For example, his work for the <title>Register</title> obliged him to engage
                     directly with contemporary events in the United Kingdom, mainland Europe, and
@@ -194,8 +364,10 @@
                         <title>History of the Peninsular War</title> (published in 1823–1832), which
                     relied heavily on Southey’s <title>Register</title> accounts, a <title>Book of
                         the Church</title> (published in 1824) and two planned, but unexecuted,
-                    histories ‘of the World’ and ‘of the age of George III’ (Letter 2238).</p><p rend="indent1">Yet prose was not Southey’s only outlet. He remained, in Byron’s
-                    ambiguous phrase, an ‘entire man of letters’. <note n="1" place="foot" resp="editors"> Quoted in Lionel Madden (ed.), <title>Robert Southey: The
+                    histories ‘of the World’ and ‘of the age of George III’ (Letter 2238).</p>
+                <p rend="indent1">Yet prose was not Southey’s only outlet. He remained, in Byron’s
+                    ambiguous phrase, an ‘entire man of letters’. <note n="1" place="foot"
+                        resp="editors"> Quoted in Lionel Madden (ed.), <title>Robert Southey: The
                             Critical Heritage</title> (London, 1972), p. 105.</note> Indeed, these
                     years saw him return to poetry with renewed vigour and enthusiasm. Between
                     1810–1815 Southey published two new long poems: <title>The Curse of
@@ -222,7 +394,8 @@
                     revised to celebrate her union with Leopold of Saxe Coburg; and <title>The
                         Poet’s Pilgrimage to Waterloo</title>, which combined an account of
                     Southey’s visit to the battlefield with a dream-vision exhorting his countrymen
-                    to ‘pursue the course of righteousness’. <note n="2" place="foot" resp="editors">‘The Poet’s Pilgrimage to Waterloo’, Part II, line 336; Robert Southey,
+                    to ‘pursue the course of righteousness’. <note n="2" place="foot" resp="editors"
+                        >‘The Poet’s Pilgrimage to Waterloo’, Part II, line 336; Robert Southey,
                             <title>Later Poetical Works</title>, gen. eds Tim Fulford and Lynda
                         Pratt, 4 vols (London, 2012), III, p. 373.</note> In addition, another
                     major, though never-completed, poetic project of the period was ‘a series of
@@ -234,7 +407,8 @@
                     contemporary politics in his longer poems, including <title>Kehama</title> and
                         <title>Roderick</title>, and in his earlier shorter works. Whilst the shift
                     echoed that occurring in Southey’s history writing, it was also motivated by a
-                    very specific cause – his appointment as Poet Laureate in autumn 1813.</p><p rend="indent1">Southey’s acceptance of the Poet Laureateship in autumn 1813 and
+                    very specific cause – his appointment as Poet Laureate in autumn 1813.</p>
+                <p rend="indent1">Southey’s acceptance of the Poet Laureateship in autumn 1813 and
                     the consequences and repercussions of that action loom large in <title>Part
                         Four</title>. <note n="3" place="foot" resp="editors"> For a full account of
                         events see Lynda Pratt’s introduction to <title>Later Poetical
@@ -243,10 +417,19 @@
                     ‘uncertain if … [Southey] would like it’ (Letter 2299). Southey himself was
                     unsure if he would like it, but he took it anyway. He assumed the Laureateship
                     at a low point in its history. The status of the office and its previous holder
-                    Henry James Pye were neatly encapsulated in ‘A Pun’, published in late 1813:</p><lg type="stanza"><l rend="indent2">Our Poet Laureat lived so long,</l><l rend="indent3">He dream’d at last he should not die;</l><l rend="indent2">Till, deaf to all his powers of song,</l><l rend="indent3"><hi rend="ital">Death</hi> put a <hi rend="ital">finger</hi>
-                        in the <hi rend="ital">Pie</hi>. <note n="4" place="foot" resp="editors"><title>Mirror of Fashion</title> (13 September 1813).</note></l></lg><p>Southey would not have dissented from this, sharing his contemporaries’ view that
+                    Henry James Pye were neatly encapsulated in ‘A Pun’, published in late 1813:</p>
+                <lg type="stanza">
+                    <l rend="indent2">Our Poet Laureat lived so long,</l>
+                    <l rend="indent3">He dream’d at last he should not die;</l>
+                    <l rend="indent2">Till, deaf to all his powers of song,</l>
+                    <l rend="indent3"><hi rend="ital">Death</hi> put a <hi rend="ital">finger</hi>
+                        in the <hi rend="ital">Pie</hi>. <note n="4" place="foot" resp="editors"
+                                ><title>Mirror of Fashion</title> (13 September 1813).</note></l>
+                </lg>
+                <p>Southey would not have dissented from this, sharing his contemporaries’ view that
                     the Laureateship had long ‘ranked proverbially high’ in the list of
-                    ‘departments, in which a sleepy torpor seemed established by precedent’. <note n="5" place="foot" resp="editors"><title>British Review</title>, 6 (November
+                    ‘departments, in which a sleepy torpor seemed established by precedent’. <note
+                        n="5" place="foot" resp="editors"><title>British Review</title>, 6 (November
                         1815), 287–8.</note> Indeed, when he was offered the post he said he would
                     accept it only if its terms and conditions could be changed. Moreover, he did so
                     in language that would have disqualified him from many twenty-first century
@@ -264,7 +447,8 @@
                     to ‘make’ it ‘an honour’, ‘for such it will be to him who shall be thought
                     worthy to wear it after me’. He was also aware that he was taking it at a time
                     of ‘great events’, at a particularly crucial moment in national and
-                    international history (Letter 2307). </p><p rend="indent1">Assuming the Laureateship marked a decisive moment in Southey’s
+                    international history (Letter 2307). </p>
+                <p rend="indent1">Assuming the Laureateship marked a decisive moment in Southey’s
                     career. It generated a series of official and semi-official poems on current
                     affairs, including his first Laureate ode <title>Carmen Triumphale</title>,
                     published in book form by Longman in January 1814. However, it proved to be more
@@ -272,22 +456,47 @@
                     former radical into a government hireling attracted the censure, and satire, of
                     contemporaries. His political opponents saw Southey as an odd choice and took a
                     gleeful, and discomforting, pleasure in the disjunction between the old radical
-                    poet and the new Laureate. Hazlitt, for example, cautioned that ‘To <hi rend="ital">have been</hi> the poet of the people, may not render Mr.
+                    poet and the new Laureate. Hazlitt, for example, cautioned that ‘To <hi
+                        rend="ital">have been</hi> the poet of the people, may not render Mr.
                     Southey less a court favourite; and one of his old Sonnets to Liberty must give
-                    a peculiar zest to his new Birth-day Odes’. <note n="6" place="foot" resp="editors"><title>Morning Chronicle</title> (18 September 1813).</note>
+                    a peculiar zest to his new Birth-day Odes’. <note n="6" place="foot"
+                        resp="editors"><title>Morning Chronicle</title> (18 September 1813).</note>
                     He also drew attention to the ‘inconsistency between some of Mr. Southey’s
-                    former writings, and his becoming the hired panegyrist of the court’. <note n="7" place="foot" resp="editors"><title>Morning Chronicle</title> (20
+                    former writings, and his becoming the hired panegyrist of the court’. <note
+                        n="7" place="foot" resp="editors"><title>Morning Chronicle</title> (20
                         September 1813).</note> Others expressed their concerns in verse. In the
                     anonymously published ‘Robert Southey, the Poet Laureat. A Rhapsody in Four
                     Parts’, the new Laureate was condemned by characters of his own invention: Joan
-                    of Arc, Thalaba, Madoc and Kehama:</p><lg type="stanza"><l rend="indent3">‘Southey is the Laureat now,’</l><l rend="indent3">Exclaims the Maid of Arc …</l><l rend="indent3">Her cheek’s carnation fled,</l><l rend="indent2">To see the laureated crown</l><l rend="indent3">Upon her Poet’s head,</l><l rend="indent2">Which CIBBER and which PYE adorn’d,</l><l rend="indent2">Which noble GRAY contemn’d and scorn’d;</l><l rend="indent2">And, which, who wear, must never more</l><l rend="indent2">On wings of Freedom proudly soar,</l><l rend="indent2">But creep, confin’d in chains below,</l><l rend="indent2">Like captive whelm’d beneath his foe;</l><l rend="indent2">And – such, ill-fated Slavery’s lot –</l><l rend="indent2">Whether they like it, or like not,</l><l rend="indent2">Must adulation breathe alone,</l><l rend="indent3">In strains by Flattery bestow’d,</l><l rend="indent3">Thro’ Birth-day or thro’ New Year’s Ode,</l><l rend="indent2">E’en tho’ a NERO fill the throne. <note n="8" place="foot" resp="editors"><title>Morning Chronicle</title> (28 September
-                            1813).</note></l></lg><p rend="indent1">Southey expected to be attacked by his political opponents, what
+                    of Arc, Thalaba, Madoc and Kehama:</p>
+                <lg type="stanza">
+                    <l rend="indent3">‘Southey is the Laureat now,’</l>
+                    <l rend="indent3">Exclaims the Maid of Arc …</l>
+                    <l rend="indent3">Her cheek’s carnation fled,</l>
+                    <l rend="indent2">To see the laureated crown</l>
+                    <l rend="indent3">Upon her Poet’s head,</l>
+                    <l rend="indent2">Which CIBBER and which PYE adorn’d,</l>
+                    <l rend="indent2">Which noble GRAY contemn’d and scorn’d;</l>
+                    <l rend="indent2">And, which, who wear, must never more</l>
+                    <l rend="indent2">On wings of Freedom proudly soar,</l>
+                    <l rend="indent2">But creep, confin’d in chains below,</l>
+                    <l rend="indent2">Like captive whelm’d beneath his foe;</l>
+                    <l rend="indent2">And – such, ill-fated Slavery’s lot –</l>
+                    <l rend="indent2">Whether they like it, or like not,</l>
+                    <l rend="indent2">Must adulation breathe alone,</l>
+                    <l rend="indent3">In strains by Flattery bestow’d,</l>
+                    <l rend="indent3">Thro’ Birth-day or thro’ New Year’s Ode,</l>
+                    <l rend="indent2">E’en tho’ a NERO fill the throne. <note n="8" place="foot"
+                            resp="editors"><title>Morning Chronicle</title> (28 September
+                            1813).</note></l>
+                </lg>
+                <p rend="indent1">Southey expected to be attacked by his political opponents, what
                     he did not anticipate was the official reaction to his productions. When in 1814
                     he described the process of writing the annual odes demanded of the Laureate as
                     an ‘od<hi rend="ital">e</hi>ous job’, he was not joking (Letter 2521). The
                     actual composition of his Laureate poems proved to be an extremely fraught
                     process, one that revealed the difficulties, ambiguities and limitations of his
-                    position. </p><p rend="indent1">At the time he accepted the Laureateship Southey believed he had
+                    position. </p>
+                <p rend="indent1">At the time he accepted the Laureateship Southey believed he had
                     brokered an unprecedented, though unwritten, agreement that he would be allowed
                     ‘to write upon great events, or … be silent, according as the spirit moved’
                     (Letter 2298). It soon emerged that no such agreement had been reached and that
@@ -310,7 +519,8 @@
                     was not a unique occurrence. One year later Southey was told he must cut out
                     complimentary references to George Washington from his New Year’s ode for 1815
                     as these were seen as highly inappropriate and unpatriotic at a time when
-                    Britain was at war with America (Letter 2531). <note n="9" place="foot" resp="editors"> For full accounts of the compositional histories of
+                    Britain was at war with America (Letter 2531). <note n="9" place="foot"
+                        resp="editors"> For full accounts of the compositional histories of
                             <title>Carmen Triumphale</title> and the New Year’s ode for 1815 see Ian
                         Packer and Lynda Pratt’s introductions to both poems, <title>Later Poetical
                             Works</title>, III, pp. 1–14, 77–82.</note> This edition makes it
@@ -323,4 +533,8 @@
                     were ignited, and how Southey responded to them. In so doing they show how his
                     high hopes of the Laureateship foundered on the rocks of reality and thus
                     provide new insight into the relationship between Romantic writers and the
-                    public sphere. </p></div></body></text></TEI>
+                    public sphere. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

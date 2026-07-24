@@ -40,10 +40,12 @@
             <idno type="edition">southey.partFiveIntro</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>These letters were edited by Tim Fulford, Ian Packer and Lynda
-               Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+            <p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
                Library; Boston Public Library; the Syndics of Cambridge University Library; the
@@ -114,8 +116,14 @@
             </taxonomy>
             <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
                <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
+               </category>
+               <category xml:id="Q36279">
+                  <catDesc>biography</catDesc>
                </category>
                <category xml:id="Q1277575">
                   <catDesc>correspondence</catDesc>
@@ -131,6 +139,8 @@
       </encodingDesc>
       <profileDesc>
          <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
             <catRef target="#Q1277575" scheme="Wikidata"/>
             <catRef target="#viaf_61576896" scheme="VIAF"/>
             <catRef target="#viaf_118520952" scheme="VIAF"/>

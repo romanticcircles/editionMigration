@@ -53,9 +53,13 @@
 					Bowles]’. Although many of these inherited MSS are now in the British Library,
 					these papers are not included. </p>
 				<p>These letters were edited by Lynda Pratt</p>
-				<p>For permission to publish the text of MSS in their possession, the editor wishes
-					to thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-					Collection of English and American Literature, The New York Public Library,
+				<p>Every effort has been made to contact copyright holders for their permission to
+					reprint material in this edition. The editors would be grateful to hear from any
+					copyright holder who is not here acknowledged and undertake to rectify any
+					omissions or errors in future updates of this edition.</p>
+				<p>The editors thank the following for giving us access to manuscripts in their
+					collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+					Berg Collection of English and American Literature, The New York Public Library,
 					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
 					British Library; Boston Public Library; the Syndics of Cambridge University
 					Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
@@ -127,6 +131,9 @@
 				</taxonomy>
 				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
 					<bibl>Wikidata</bibl>
+					<category xml:id="Q216838">
+						<catDesc>Robert Southey</catDesc>
+					</category>
 					<category xml:id="Q5977111">
 						<catDesc>Romantic Literature</catDesc>
 					</category>
@@ -144,6 +151,7 @@
 		</encodingDesc>
 		<profileDesc>
 			<textClass>
+				<catRef target="#Q216838" scheme="Wikidata"/>
 				<catRef target="#Q5977111" scheme="Wikidata"/>
 				<catRef target="#Q1277575" scheme="Wikidata"/>
 				<catRef target="#viaf_61576896" scheme="VIAF"/>
@@ -206,12 +214,9 @@
 						amongst the MSS. of the late Mrs. Southey [i.e. Caroline Bowles]’. Although
 						many of these inherited MSS are now in the British Library, these papers are
 						not included. </note></head>
-				<opener>
-					<dateline rend="indent11">
-						<address>
+				<opener><dateline rend="indent11"><address>
 							<placeName><ref target="places.html#DukeStBath">Bath</ref></placeName>
-						</address>, 
-						<date when="1790">1790</date>.<note n="1" place="foot"
+						</address>, <date when="1790">1790</date>.<note n="1" place="foot"
 							resp="editors">Warter dates 1790, but this is unlikely given that in a
 							letter to his daughter Edith May Warter, 5 June 1838, Southey recalled
 							only two holidays at Rye, both at Whitsun, in 1791 and 1792. The
@@ -219,9 +224,7 @@
 							that sent to Grosvenor Charles Bedford on 11 June 1792 (see Letter 13).
 							This letter to Lamb was therefore probably written after Southey’s visit
 							to Rye at Whitsun 1791, and should be dated c. June
-						1791.</note>
-					</dateline>
-					<salute>Dear Sir,</salute></opener>
+						1791.</note></dateline><salute>Dear Sir,</salute></opener>
 				<lg>
 					<l rend="indent4">We arrived very safely in Town,</l>
 					<l rend="indent2">Without once overturning, or once breaking down.</l>

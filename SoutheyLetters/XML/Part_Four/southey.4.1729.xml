@@ -9,7 +9,8 @@
             <author role="primary" from="1774" to="1843"><persName
                   ana="http://viaf.org/viaf/61576896"
                      ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Ian Packer</editor><editor>Lynda Pratt</editor>
+            <editor>Ian Packer</editor>
+            <editor>Lynda Pratt</editor>
             <respStmt>
                <resp>TEI Encoding</resp>
                <name>Averill Buchanan</name>
@@ -46,8 +47,12 @@
             <p>Beinecke Library, GEN MSS 298, Series I, Box 1, folder 1. ALS; 4p.. Not previously
                published.</p>
             <p>These letters were edited by Ian Packer and Lynda Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+            <p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
                Library; Boston Public Library; the Syndics of Cambridge University Library; the
@@ -123,8 +128,11 @@
             </taxonomy>
             <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
                <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
                </category>
                <category xml:id="Q1277575">
                   <catDesc>correspondence</catDesc>
@@ -140,23 +148,20 @@
       </encodingDesc>
       <profileDesc>
          <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
             <catRef target="#Q1277575" scheme="Wikidata"/>
             <catRef target="#viaf_61576896" scheme="VIAF"/>
             <catRef target="#viaf_118520952" scheme="VIAF"/>
             <catRef target="#viaf_116328125" scheme="VIAF"/>
             <catRef target="#viaf_250654121" scheme="VIAF"/>
             <catRef target="#viaf_41749340" scheme="VIAF"/>
-            <catRef target="#viaf_116328125" scheme="VIAF"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2027-07-14" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
+         <change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
                <item>made tables TEI compliant</item>
-            </list>
-         </change>
+            </list></change>
          <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
                <item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
@@ -234,8 +239,8 @@
                </row>
                <row>
                   <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">4. This also is altered, – &amp; I thank you for having called
-                     me to reconsider it.</cell>
+                  <cell rendition="#cell2">4. This also is altered, – &amp; I thank you for having
+                     called me to reconsider it.</cell>
                </row>
                <row>
                   <cell rendition="#cell1"/>
@@ -262,16 +267,17 @@
                </row>
                <row>
                   <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">6. The royal family. I perceive you have understood the latter
-                     part of the sentence as relating to the Abolition,<note n="4" resp="editors"
-                        place="foot">i.e. the abolition of the slave-trade in 1807, rather than
-                        William Windham’s (1750–1810; <title>DNB</title>), Army Act of 1806, which
-                        suspended the ballot used to recruit the militia.</note> whereas it refers
-                     to the Army Bill. This however does not lesson the force of the charge. I have
-                     altered it thus – “inasmuch as they had to contend for both against the
-                     greatest &amp; most formidable influence.”<note n="5" resp="editors"
-                        place="foot">The alternative was approved; see <title>Edinburgh Annual
-                           Register, for 1808</title>, 1.1 (1810), 6.</note></cell>
+                  <cell rendition="#cell2">6. The royal family. I perceive you have understood the
+                     latter part of the sentence as relating to the Abolition,<note n="4"
+                        resp="editors" place="foot">i.e. the abolition of the slave-trade in 1807,
+                        rather than William Windham’s (1750–1810; <title>DNB</title>), Army Act of
+                        1806, which suspended the ballot used to recruit the militia.</note> whereas
+                     it refers to the Army Bill. This however does not lesson the force of the
+                     charge. I have altered it thus – “inasmuch as they had to contend for both
+                     against the greatest &amp; most formidable influence.”<note n="5"
+                        resp="editors" place="foot">The alternative was approved; see
+                           <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810),
+                     6.</note></cell>
                </row>
                <row>
                   <cell rendition="#cell1"/>
@@ -305,17 +311,17 @@
                </row>
                <row>
                   <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">p. 3. There is a blank concerning the number of hundred men
-                     which I cannot fill up.<note n="9" resp="editors" place="foot">The ‘several
+                  <cell rendition="#cell2">p. 3. There is a blank concerning the number of hundred
+                     men which I cannot fill up.<note n="9" resp="editors" place="foot">The ‘several
                         hundred brave men’ who perished in 1807 during the failed British attempt to
                         conquer the Rio de la Plata; see <title>Edinburgh Annual Register, for
                            1808</title>, 1.1 (1810), 3.</note></cell>
                </row>
                <row>
                   <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">p. 7. “after the manner in which the subject of Cath. Em. had
-                     previously been <hi rend="ital">received</hi>. – Received is not the word, –
-                     &amp; very provokingly I can neither call to mind what the word was, nor
+                  <cell rendition="#cell2">p. 7. “after the manner in which the subject of Cath. Em.
+                     had previously been <hi rend="ital">received</hi>. – Received is not the word,
+                     – &amp; very provokingly I can neither call to mind what the word was, nor
                      substitute one so appropriate. – By referring to the MS. it may probably be
                      made out. – Is it <hi rend="ital">waived</hi>? I think so.<note n="10"
                         resp="editors" place="foot">It was, and ‘waived’ was used in the published

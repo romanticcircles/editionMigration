@@ -11,31 +11,26 @@
     
     <xsl:template match="list">
         <xsl:for-each select="item">
-            <xsl:apply-templates select="document(@code)/tei:TEI">
-                <xsl:with-param name="fileName" select="@code"/>
-            </xsl:apply-templates>
+            <xsl:result-document href="new/{@code}">
+            <xsl:apply-templates select="document(@code)/tei:TEI"/>
+            </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
 
     <xsl:template match="@* | node()">
-        <xsl:param name="fileName"/>
-        <xsl:result-document href="new/{$fileName}">
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
-        </xsl:result-document>
     </xsl:template>
 
-    <xsl:template match="tei:sourceDesc/tei:p">
-        <xsl:choose>
-            <xsl:when test="starts-with(., 'For permission to publish')">
+    <xsl:template match="tei:sourceDesc/tei:p[starts-with(., 'For permission to publish')]">
                 <p xmlns="http://www.tei-c.org/ns/1.0">Every effort has been made to contact
                     copyright holders for their permission to reprint material in this edition. The
                     editors would be grateful to hear from any copyright holder who is not here
                     acknowledged and undertake to rectify any omissions or errors in future updates
                     of this
-                    edition.<xsl:text disable-output-escaping="yes">&lt;/p&gt;&lt;p&gt;</xsl:text>The
-                    editors thank the following for giving us access to manuscripts in their
+                    edition.</p>
+                <p  xmlns="http://www.tei-c.org/ns/1.0">The editors thank the following for giving us access to manuscripts in their
                     collections: the Beinecke Rare Books and Manuscript Library, Yale University;
                     Berg Collection of English and American Literature, The New York Public Library,
                     Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
@@ -52,12 +47,21 @@
                     Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
                     Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
                     Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:copy-of select="."/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
-
-
+    
+    <xsl:template match="tei:category[@xml:id='Q37068']">
+        <category xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q216838">
+            <catDesc>Robert Southey</catDesc>
+        </category>
+        <category xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q5977111">
+            <catDesc>Romantic literature</catDesc>
+        </category>
+    </xsl:template>
+    
+    <xsl:template match="tei:catRef[@target='#Q1277575']">
+        <catRef xmlns="http://www.tei-c.org/ns/1.0" target="#Q216838" scheme="Wikidata"/>
+        <catRef xmlns="http://www.tei-c.org/ns/1.0" target="#Q5977111" scheme="Wikidata"/>
+        <catRef xmlns="http://www.tei-c.org/ns/1.0" target="#Q1277575" scheme="Wikidata"/>
+    </xsl:template>
+    
 </xsl:stylesheet>

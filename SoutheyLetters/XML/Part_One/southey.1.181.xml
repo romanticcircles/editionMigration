@@ -1,310 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">181. Robert Southey to Charles Watkin Williams Wynn,
-					[10 October 1796]</title>
-				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
-					One</title>
-				<author role="primary" from="1774" to="1843"><persName
-						ana="http://viaf.org/viaf/61576896"
-							><forename>Robert</forename><surname>Southey</surname></persName></author>
-				<editor>Lynda Pratt</editor>
-				<respStmt>
-					<resp>TEI Encoding</resp>
-					<name>Averill Buchanan</name>
-				</respStmt>
-				<sponsor>Romantic Circles</sponsor>
-				<respStmt>
-					<resp>Director</resp>
-					<name>Thora Brylowe</name>
-				</respStmt>
-				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="1">Part One <date>2026-09-15</date></edition>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-					and Texas A&amp;M University</publisher>
-				<pubPlace>College Station, TX</pubPlace>
-				<availability status="free">
-					<p>This document is made available via a Creative Commons Zero License, as
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">181. Robert Southey to Charles Watkin Williams Wynn,
+					[10 October 1796]</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part
+					One</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="1">Part One <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero License, as
 						described under "Conditions of Use" at
-						http://romantic-circles.org/about/submission-guidelines and here:</p>
-					<p>As of July 2027, all material published on Romantic Circles is licensed under
-						Creative Commons Zero (CC 0), unless otherwise noted.</p>
-					<p>Unless otherwise noted, users are not permitted to download texts and images
+						http://romantic-circles.org/about/submission-guidelines and here:</p><p>As of July 2027, all material published on Romantic Circles is licensed under
+						Creative Commons Zero (CC 0), unless otherwise noted.</p><p>Unless otherwise noted, users are not permitted to download texts and images
 						published before December 2023 in order to mount them on their own
-						servers.</p>
-				</availability>
-				<idno type="edition">southey.1.181</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<p>. Previously published: Kenneth Curry (ed.), New Letters of Robert Southey, 2
+						servers.</p></availability><idno type="edition">southey.1.181</idno></publicationStmt><sourceDesc><p>. Previously published: Kenneth Curry (ed.), New Letters of Robert Southey, 2
 					vols (London and New York, 1965), I, pp. 115–116 [in part; ‘To a College Cat’
-					not reproduced]. </p>
-				<p>These letters were edited by Lynda Pratt</p>
-				<p>For permission to publish the text of MSS in their possession, the editor wishes
-					to thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-					Collection of English and American Literature, The New York Public Library,
-					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-					British Library; Boston Public Library; the Syndics of Cambridge University
-					Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-					Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-					Liverpool Libraries and Information Services; the Houghton Library, Harvard
-					University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-					Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-					Massachusetts Historical Society; McGill University Library; the National
-					Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-					(Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-					Wisbech and Fenland Museum; the University of Virginia Library.</p>
-				<p>A research grant from the British Academy made much of the archival work
+					not reproduced]. </p><p>These letters were edited by Lynda Pratt</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
 					possible, as did support from the English Department of Nottingham Trent
-					University.</p>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard.</p>
-					<p>Dashes have been rendered as a variable number of hyphens to give a more
-						exact rendering of their length.</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Southey's spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy targetDatcat="https://viaf.org/">
-					<bibl>VIAF</bibl>
-					<category xml:id="viaf_61576896">
-						<catDesc>Southey, Robert, 1774-1843</catDesc>
-					</category>
-					<category xml:id="viaf_118520952">
-						<catDesc>Pratt, Lynda, 1964-</catDesc>
-					</category>
-					<category xml:id="viaf_116328125">
-						<catDesc>Packer, Ian, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_18359329">
-						<catDesc>Fulford, Tim, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_42171645">
-						<catDesc>Bolton, Carol</catDesc>
-					</category>
-					<category xml:id="viaf_250654121">
-						<catDesc>Buchanan, Averill</catDesc>
-					</category>
-					<category xml:id="viaf_41749340">
-						<catDesc>Mandell, Laura, 1958-</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-					<bibl>Wikidata</bibl>
-					<category xml:id="Q37068">
-						<catDesc>Romanticism</catDesc>
-					</category>
-					<category xml:id="Q1277575">
-						<catDesc>correspondence</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-					<bibl>Southey Letters: Biographies</bibl>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-					<bibl>Southey Letters: Places</bibl>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<catRef target="#Q1277575" scheme="Wikidata"/>
-				<catRef target="#viaf_61576896" scheme="VIAF"/>
-				<catRef target="#viaf_118520952" scheme="VIAF"/>
-				<catRef target="#viaf_250654121" scheme="VIAF"/>
-				<catRef target="#viaf_41749340" scheme="VIAF"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-					<item>Created new header for new edition edition XML from old edition XML dated
+					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
 						2009-03-15. For the old header, see
-						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
-				</list></change>
-			<change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR"
-					>David Rettenmaier</name><list>
-					<item>Update of TEI headers to conform to new template</item>
-				</list></change>
-			<change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
-					Mandell</name><list>
-					<item>XSLT Transforming</item>
-				</list></change>
-			<change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
-					Buchanan</name><list>
-					<item>corrections from proofing</item>
-				</list></change>
-			<change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM"
-					>Laura Mandell</name><list>
-					<item>XSLT Transforming</item>
-				</list></change>
-			<change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB"
-					>Averill Buchanan</name><list>
-					<item>TEI Encoding</item>
-				</list></change>
-			<change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
-					Rettenmaier</name><list>
-					<item>Ran transforms for proofing Southey Part 6</item>
-				</list></change>
-			<change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
-					Rettenmaier</name><list>
-					<item>Incorporated new header info per Averill Buchanan and other minor
-						fixes.</item>
-				</list></change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div n="181" type="letter">
-				<head>181. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW"
-						>Charles Watkin Williams Wynn</ref>, <date when="1796-10-10">[10 October
+						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
+					Mandell</name><list><item>XSLT Transforming</item></list></change><change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
+					Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
+					Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
+					Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor
+						fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="181" type="letter"><head>181. Robert Southey to <ref type="a" target="people.html#WynnCharlesWW">Charles Watkin Williams Wynn</ref>, <date when="1796-10-10">[10 October
 						1796]</date><note place="foot" resp="editors" type="headnote">Address: To/ C
 						W Williams Wynn Esq<hi rend="sup">r</hi>/ N<hi rend="sup">o</hi> 5 Stone
 						Buildings/ Lincolns Inn/ London<lb/> Stamped: BRISTOL<lb/> Postmark: A.O.C./
 						11/ 96<lb/>Endorsement: Oct. 11/ 1796<lb/>MS: National Library of Wales, MS
-						4811D. ALS; 4p.<lb/>Previously published: Kenneth Curry (ed.), <title
-							level="m">New Letters of Robert Southey</title>, 2 vols (London and New
+						4811D. ALS; 4p.<lb/>Previously published: Kenneth Curry (ed.), <title level="m">New Letters of Robert Southey</title>, 2 vols (London and New
 						York, 1965), I, pp. 115–116 [in part; ‘To a College Cat’ not reproduced].
-					</note></head>
-				<p rend="indent1"> The Duke of Northumberland<note n="1" place="foot" resp="editors"
-						>Hugh Percy, 2nd Duke of Northumberland (1742–1817; <title level="m"
-							>DNB</title>), a soldier and politician.</note> is a man of remarkable
+					</note></head><p rend="indent1"> The Duke of Northumberland<note n="1" place="foot" resp="editors">Hugh Percy, 2nd Duke of Northumberland (1742–1817; <title level="m">DNB</title>), a soldier and politician.</note> is a man of remarkable
 					arrogance. &amp; his pride &amp; his folly are equally manifest by what you
 					mentiond of his placing his pedigree among the tombs of his ancestors. he found
 					himself very awkwardly situated at Lisbon thro this aristocratic spirit. the
 					English merchants there associate with the first nobles of the country. but the
 					Duke thought fit to draw a line of distinction between them, &amp; always invite
 					the tiers etat by themselves. they were of course offended &amp; he found
-					himself without society.</p>
-				<p rend="indent1"> as for the MSS at <ref target="places.html#Wynnstay"
-						>Wynnstay</ref> you are my authority. I think you mentioned it in a letter
+					himself without society.</p><p rend="indent1"> as for the MSS at <ref target="places.html#Wynnstay">Wynnstay</ref> you are my authority. I think you mentioned it in a letter
 					from Elton. if I have only dreamt this the dream must have made a strange
 					impression, for it is a circumstance which I have frequently mentioned, &amp;
-					laid some stress upon. at any rate Geoffrey of M.<note n="2" place="foot"
-						resp="editors">The historian, and Bishop of St Asaph, Geoffrey of Monmouth
-						(d. 1154/1155; <title level="m">DNB</title>), whose works included <title
-							level="m">The Historia Regum Britanniae</title>; see Southey to the
+					laid some stress upon. at any rate Geoffrey of M.<note n="2" place="foot" resp="editors">The historian, and Bishop of St Asaph, Geoffrey of Monmouth
+						(d. 1154/1155; <title level="m">DNB</title>), whose works included <title level="m">The Historia Regum Britanniae</title>; see Southey to the
 						Editor of the <title level="m">Monthly Magazine</title>, 6 September 1796
 						(Letter 175).</note><del rend="strikethrough">xx xxxx</del> wrote in Latin
 					&amp; <ref type="m" target="people.html#PugheWilliamOwen">Meirion</ref> there is
 					wrong &amp; I corrected his error<del rend="strikethrough">s</del>. the
 					similarity of the Hebrew &amp; Welsh is indeed very striking. the only tolerable
 					thing of mine in the last magazine, is a short but compleat refutation of the
-					fashionable philosophy of Helvetius.<note n="3" place="foot" resp="editors"
-						>Claude Adrien Helvétius (1715–1771), French materialist philosopher and
+					fashionable philosophy of Helvetius.<note n="3" place="foot" resp="editors">Claude Adrien Helvétius (1715–1771), French materialist philosopher and
 						encyclopaedist; see Southey to the Editor of the <title level="m">Monthly
 							Magazine</title>, 2 September 1796 (Letter 172).</note> a parcel of
 					blockheads there have been talking nonsense pro &amp; con, &amp; in my opinion
-					what I have advanced fully decides the question.</p>
-				<p rend="indent1"> the verdant copy puzzled you. know then that for the
-					accommodation of such of my friends as are curious or <del rend="strikethrough"
-						>are</del> troubled with weak eyes, I &lt;can&gt; get the books died to any
+					what I have advanced fully decides the question.</p><p rend="indent1"> the verdant copy puzzled you. know then that for the
+					accommodation of such of my friends as are curious or <del rend="strikethrough">are</del> troubled with weak eyes, I &lt;can&gt; get the books died to any
 					shade of green: to me infinitely more agreable than the dazzling reflection from
-					white paper. my little volume of poems<note n="4" place="foot" resp="editors"
-						>Southey’s <title level="m">Poems</title> (1797).</note> are just begun
+					white paper. my little volume of poems<note n="4" place="foot" resp="editors">Southey’s <title level="m">Poems</title> (1797).</note> are just begun
 					&amp; you shall have them in six weeks. the Triumph of Woman the B Bay Eclogues
 					&amp; a Hymn to the Penates form the chief features. I must send you a little
 					piece which is not to be inserted, tho among the happiest that I have written.
-					you will like to see it inserted here &amp; omitted in the Volume.</p>
-				<p rend="indent5">To a College Cat.<note n="5" place="foot" resp="editors">Published
-						in Southey’s <title level="m">Annual Anthology</title> (1799).</note></p>
-				<p rend="indent6"> ———</p>
-				<lg type="stanza">
-					<l rend="indent2">Toll on — toll on — old Bell! I’ll neither pray</l>
-					<l rend="indent2">Nor sleep away the hour. the fire burns bright,</l>
-					<l rend="indent2">And — bless the maker of this great-armd chair!</l>
-					<l rend="indent2">This is the throne of comfort! I will sit</l>
-					<l rend="indent2">And study most devoutly: — not my Euclid<note n="6"
-							place="foot" resp="editors">Euclid of Alexandria (dates uncertain;
-							between 325 and 250 BC), mathematician, whose work includes the <title
-								level="m">Elements</title>.</note> —</l>
-					<l rend="indent2">For God forbid that I should discompose</l>
-					<l rend="indent2">That spider’s excellent geometry!</l>
-					<l rend="indent2">I’ll study thee Puss: — not to make a picture — </l>
-					<l rend="indent2">I hate your canvass cats &amp; dogs &amp; fools</l>
-					<l rend="indent2">Themes that pollute the pencil! let me see</l>
-					<l rend="indent2">The patriots actions start again to life</l>
-					<l rend="indent2">And I will bless the artist who awakes</l>
-					<l rend="indent2">The throb of emulation. thou shalt give</l>
-					<l rend="indent2">A better lesson Puss. come — look at me!</l>
-					<l rend="indent2">Lift up thine emerald eyes! aye — purr away!</l>
-					<l rend="indent2">For I am praising thee I tell thee Puss,</l>
-					<l rend="indent2">And Cats as well as Kings love flattery.</l>
-					<l rend="indent2">For three whole days I heard an old fur gown</l>
-					<l rend="indent2">Bepraisd, that made a Duke a Chancellor:<note n="7"
-							place="foot" resp="editors">William Cavendish-Bentinck, 3rd Duke of
-							Portland (1738–1809; Prime Minister 1783 and 1807–1809; <title level="m"
-								>DNB</title>) was installed as Chancellor of the University of
-							Oxford on 1 July 1793.</note></l>
-					<l rend="indent2">Trust me, tho I can sing most pleasantly</l>
-					<l rend="indent2">Upon thy well streakd coat, to that said Fur</l>
-					<l rend="indent2">I was not guilty of a single rhyme.</l>
-					<l rend="indent2">Twas an old turn-coat fur, that would sit easy</l>
-					<l rend="indent2">And wrap round any man — so it were tied</l>
-					<l rend="indent2">With a blue ribband.</l>
-					<l rend="indent7"> what a magic lies</l>
-					<l rend="indent2">In beauty! thou on this forbidden ground</l>
-					<l rend="indent2">Mayest range &amp; when the Fellow looks at thee</l>
-					<l rend="indent2">Straight he forgets the statute. swell thy tail —</l>
-					<l rend="indent2">And stretch thy claws most democratic beast!</l>
-					<l rend="indent2">I like thine independance. treat thee well —</l>
-					<l rend="indent2">Thou art as playful as young Innocence!</l>
-					<l rend="indent2">But use thee roughly God has given thee claws</l>
-					<l rend="indent2">And thou hast sense to use them. oh that Man</l>
-					<l rend="indent2">Would copy this thy widsom — spaniel fool.</l>
-					<l rend="indent2">He crouches down &amp; licks his tyrants hand</l>
-					<l rend="indent2">And courts oppression. wiser animal</l>
-					<l rend="indent2">I gaze on thee — familiar not enslaved —</l>
-					<l rend="indent2">And thinking how Affections gentle hand</l>
-					<l rend="indent2">Leads by a hair the large limbd elephant,</l>
-					<l rend="indent2">With mingled pity &amp; contempt behold</l>
-					<l rend="indent2">His drivers goad the patient biped beast.</l>
-				</lg>
-				<p rend="indent6"> ———</p>
-				<p rend="indent1"> In return for your story I will send you a very good one. A
+					you will like to see it inserted here &amp; omitted in the Volume.</p><p rend="indent5">To a College Cat.<note n="5" place="foot" resp="editors">Published
+						in Southey’s <title level="m">Annual Anthology</title> (1799).</note></p><p rend="indent6"> ———</p><lg type="stanza"><l rend="indent2">Toll on — toll on — old Bell! I’ll neither pray</l><l rend="indent2">Nor sleep away the hour. the fire burns bright,</l><l rend="indent2">And — bless the maker of this great-armd chair!</l><l rend="indent2">This is the throne of comfort! I will sit</l><l rend="indent2">And study most devoutly: — not my Euclid<note n="6" place="foot" resp="editors">Euclid of Alexandria (dates uncertain;
+							between 325 and 250 BC), mathematician, whose work includes the <title level="m">Elements</title>.</note> —</l><l rend="indent2">For God forbid that I should discompose</l><l rend="indent2">That spider’s excellent geometry!</l><l rend="indent2">I’ll study thee Puss: — not to make a picture — </l><l rend="indent2">I hate your canvass cats &amp; dogs &amp; fools</l><l rend="indent2">Themes that pollute the pencil! let me see</l><l rend="indent2">The patriots actions start again to life</l><l rend="indent2">And I will bless the artist who awakes</l><l rend="indent2">The throb of emulation. thou shalt give</l><l rend="indent2">A better lesson Puss. come — look at me!</l><l rend="indent2">Lift up thine emerald eyes! aye — purr away!</l><l rend="indent2">For I am praising thee I tell thee Puss,</l><l rend="indent2">And Cats as well as Kings love flattery.</l><l rend="indent2">For three whole days I heard an old fur gown</l><l rend="indent2">Bepraisd, that made a Duke a Chancellor:<note n="7" place="foot" resp="editors">William Cavendish-Bentinck, 3rd Duke of
+							Portland (1738–1809; Prime Minister 1783 and 1807–1809; <title level="m">DNB</title>) was installed as Chancellor of the University of
+							Oxford on 1 July 1793.</note></l><l rend="indent2">Trust me, tho I can sing most pleasantly</l><l rend="indent2">Upon thy well streakd coat, to that said Fur</l><l rend="indent2">I was not guilty of a single rhyme.</l><l rend="indent2">Twas an old turn-coat fur, that would sit easy</l><l rend="indent2">And wrap round any man — so it were tied</l><l rend="indent2">With a blue ribband.</l><l rend="indent7"> what a magic lies</l><l rend="indent2">In beauty! thou on this forbidden ground</l><l rend="indent2">Mayest range &amp; when the Fellow looks at thee</l><l rend="indent2">Straight he forgets the statute. swell thy tail —</l><l rend="indent2">And stretch thy claws most democratic beast!</l><l rend="indent2">I like thine independance. treat thee well —</l><l rend="indent2">Thou art as playful as young Innocence!</l><l rend="indent2">But use thee roughly God has given thee claws</l><l rend="indent2">And thou hast sense to use them. oh that Man</l><l rend="indent2">Would copy this thy widsom — spaniel fool.</l><l rend="indent2">He crouches down &amp; licks his tyrants hand</l><l rend="indent2">And courts oppression. wiser animal</l><l rend="indent2">I gaze on thee — familiar not enslaved —</l><l rend="indent2">And thinking how Affections gentle hand</l><l rend="indent2">Leads by a hair the large limbd elephant,</l><l rend="indent2">With mingled pity &amp; contempt behold</l><l rend="indent2">His drivers goad the patient biped beast.</l></lg><p rend="indent6"> ———</p><p rend="indent1"> In return for your story I will send you a very good one. A
 					Sportsman &amp; a Poet were walking together when they heard a pack of hounds in
 					full cry. hark — cried the Sportsman — what delightful music! — I cant hear it,
 					replied his companion for those damned dogs. — farewell. I will bring the
 					Guerras Civils &amp;c<note n="8" place="foot" resp="editors">Gines Perez de Hita
 						(1544?–1619?), <title level="m">Guerras Civiles de Granada</title>
-						(1595–1604).</note> to town with me.</p>
-				<closer><salute rend="indent4"> yrs sincerely</salute><signed rend="indent5"
-						>RS.</signed></closer>
-				<postscript>
-					<p><date when="1796-10-10">Monday.</date></p>
-				</postscript>
-			</div>
-		</body>
-	</text>
-</TEI>
+						(1595–1604).</note> to town with me.</p><closer><salute rend="indent4"> yrs sincerely</salute><signed rend="indent5">RS.</signed></closer><postscript><p><date when="1796-10-10">Monday.</date></p></postscript></div></body></text></TEI>

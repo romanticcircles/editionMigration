@@ -1,52 +1,188 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Introduction</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><editor>Ian Packer</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="7">Part Seven <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
-									License, as described under "Conditions of Use" at
-									http://romantic-circles.org/about/submission-guidelines and
-									here:</p><p>As of July 2027, all material published on Romantic Circles is
-									licensed under Creative Commons Zero (CC 0), unless otherwise
-									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
-									and images published before December 2023 in order to mount them
-									on their own servers.</p></availability><idno type="edition">southey.partSevenIntro</idno></publicationStmt><sourceDesc><p>For permission to publish the text of MSS in their possession, the
-								editor wishes to thank the Beinecke Rare Books and Manuscript
-								Library, Yale University; Berg Collection of English and American
-								Literature, The New York Public Library, Astor, Lenox and Tilden
-								Foundations; the Bodleian Library Oxford University; the British
-								Library; Boston Public Library; the Syndics of Cambridge University
-								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
-								College, Connecticut; the Historical Society of Pennsylvania; the
-								Hornby Library, Liverpool Libraries and Information Services; the
-								Houghton Library, Harvard University; the John Rylands Library,
-								Manchester; the Kenneth Spencer Research Library, University of
-								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
-								Historical Society; McGill University Library; the National Library
-								of Scotland; the Newberry Library, Chicago; the New York Public
-								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
-								York; the Public Record Offices of Bedford, Suffolk (Bury St
-								Edmunds) and Northumberland, the Master and Fellows of Trinity
-								College, Cambridge; the Society of Antiquaries of Newcastle upon
-								Tyne; the Trustees of the William Salt Library, Stafford, the
-								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated November 2024. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div
-                  head must contain document information, not html styling information)</item><item>If incorrect current document publication information in
-                  sourceDesc/biblstruct, I corrected this prior to moving that information
-                  elsewhere (it shouldn't be "source").</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">Introduction to Part Seven</title>, <title level="m">The
-                     Collected Letters of Robert Southey</title>, by <author>Ian Packer</author> and <author>Lynda
-                     Pratt</author><note n="1" place="foot" resp="editors"><title>The Collected
-                        Letters of Robert Southey: Part Seven</title> is dedicated to the memory of
-                     Bill Speck, historian, scholar, Southeyan and friend.</note></bibl></head><p><title>Part Seven</title> collects together, in one place, for the first time, the
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Introduction</title>
+            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title>
+            <author role="primary" from="1774" to="1843"><persName
+                  ana="http://viaf.org/viaf/61576896"
+                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
+            <editor>Lynda Pratt</editor>
+            <editor>Ian Packer</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Averill Buchanan</name>
+            </respStmt>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="7">Part Seven <date>2026-09-15</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <availability status="free">
+               <p>This document is made available via a Creative Commons Zero License, as described
+                  under "Conditions of Use" at
+                  http://romantic-circles.org/about/submission-guidelines and here:</p>
+               <p>As of July 2027, all material published on Romantic Circles is licensed under
+                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
+               <p>Unless otherwise noted, users are not permitted to download texts and images
+                  published before December 2023 in order to mount them on their own servers.</p>
+            </availability>
+            <idno type="edition">southey.partSevenIntro</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey's spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy targetDatcat="https://viaf.org/">
+               <bibl>VIAF</bibl>
+               <category xml:id="viaf_61576896">
+                  <catDesc>Southey, Robert, 1774-1843</catDesc>
+               </category>
+               <category xml:id="viaf_118520952">
+                  <catDesc>Pratt, Lynda, 1964-</catDesc>
+               </category>
+               <category xml:id="viaf_116328125">
+                  <catDesc>Packer, Ian, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_18359329">
+                  <catDesc>Fulford, Tim, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_42171645">
+                  <catDesc>Bolton, Carol</catDesc>
+               </category>
+               <category xml:id="viaf_250654121">
+                  <catDesc>Buchanan, Averill</catDesc>
+               </category>
+               <category xml:id="viaf_41749340">
+                  <catDesc>Mandell, Laura, 1958-</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+               <bibl>Wikidata</bibl>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
+               </category>
+               <category xml:id="Q36279">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="Q1277575">
+                  <catDesc>correspondence</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+               <bibl>Southey Letters: Biographies</bibl>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+               <bibl>Southey Letters: Places</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
+            <catRef target="#Q1277575" scheme="Wikidata"/>
+            <catRef target="#viaf_61576896" scheme="VIAF"/>
+            <catRef target="#viaf_118520952" scheme="VIAF"/>
+            <catRef target="#viaf_116328125" scheme="VIAF"/>
+            <catRef target="#viaf_250654121" scheme="VIAF"/>
+            <catRef target="#viaf_41749340" scheme="VIAF"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Created new header for new edition edition XML from old edition XML dated
+                  November 2024. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
+               </item>
+            </list></change>
+         <change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected tei encoding (div type cannot be a specific document's id; div head
+                  must contain document information, not html styling information)</item>
+               <item>If incorrect current document publication information in sourceDesc/biblstruct,
+                  I corrected this prior to moving that information elsewhere (it shouldn't be
+                  "source").</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="introduction">
+            <head><bibl><title level="a">Introduction to Part Seven</title>, <title level="m">The
+                     Collected Letters of Robert Southey</title>, by <author>Ian Packer</author> and
+                     <author>Lynda Pratt</author><note n="1" place="foot" resp="editors"><title>The
+                        Collected Letters of Robert Southey: Part Seven</title> is dedicated to the
+                     memory of Bill Speck, historian, scholar, Southeyan and
+               friend.</note></bibl></head>
+            <p><title>Part Seven</title> collects together, in one place, for the first time, the
                surviving letters written by Robert Southey between 1822 and 1824. It follows the
                editorial conventions described in About this Edition and presents newly transcribed,
                fully annotated texts of 537 letters written by Southey in this three-year period;
                308 letters are published here for the first time and an additional 56 are published
-               here in full for the first time.</p><p rend="indent1"><title>Part Seven</title> opens with a letter to the artist William
+               here in full for the first time.</p>
+            <p rend="indent1"><title>Part Seven</title> opens with a letter to the artist William
                Westall that deals mainly with professional and public matters (Letter 3774). It
                closes with a ‘domestic chronicle’ of life at Greta Hall addressed to Southey’s
                eldest daughter Edith May (Letter 4310). Both letters survive only in undated
@@ -75,7 +211,8 @@
                series of playful letters to his children. These include a memoir of the family’s
                cats (Letter 4202) and an account of the scarecrows in the garden at Greta Hall
                (Letter 4224). Another letter, to his sister-in-law Sara Coleridge, provides evidence
-               of the latter’s ‘lingo-grande’ (Letter 3935).</p><p rend="indent1">The 537 letters published here are testimony of the immense commitment
+               of the latter’s ‘lingo-grande’ (Letter 3935).</p>
+            <p rend="indent1">The 537 letters published here are testimony of the immense commitment
                and effort, often at the end of a long working day, that enabled Southey to sustain
                an extensive and varied correspondence. The number of letters Southey wrote continued
                to expand as he reached middle age, evidence of his growing networks of public and
@@ -89,7 +226,8 @@
                sought by ambitious new writers, such as Ebenezer Elliot, John Abraham Heraud and
                Bernard Barton. It also witnesses the start of his correspondence with the civil
                servant and writer Henry Taylor, who was in due course to become Southey’s closest
-               friend amongst the younger generation and his chosen literary executor.</p><p rend="indent1">Southey’s letters provide much new information about his daily life
+               friend amongst the younger generation and his chosen literary executor.</p>
+            <p rend="indent1">Southey’s letters provide much new information about his daily life
                both in the Lake District and in the places he visited. They also reveal that in
                1822–1824, the middle-aged writer was increasingly beset by a realisation of the
                transient and precarious nature of existence. For example, in 1824 Southey’s
@@ -108,13 +246,15 @@
                shaped by a concern that his ‘constitution’ was not ‘disposed’ for ‘longevity’
                (Letter 4261). Letters written around his fiftieth birthday on 12 August 1824 compare
                his lifespan to that of his parents, neither of whom had ‘compleated their fiftieth
-               year’ and express unease about his own future well-being:</p><quote>This is the third year in which my annual catarrh has ended in a cough, &amp;
+               year’ and express unease about his own future well-being:</p>
+            <quote>This is the third year in which my annual catarrh has ended in a cough, &amp;
                this year the cough came on early, lay deep, &amp; keeps still a lingering hold, – as
                if laying claim to its inheritance tho not perhaps taking livery &amp; seizin of it
                as yet. The relaxation which this summer visitation always brings on brought with it
                this year a most unpleasant symptom, – that of a hæmorrhage from the rectum upon
                walking even a mile, – &amp; once indeed in merely walking the room. (Letter
-               4239)</quote><p>Southey’s ‘annual catarrh’ was hay fever. However, its worsening symptoms awoke fears
+               4239)</quote>
+            <p>Southey’s ‘annual catarrh’ was hay fever. However, its worsening symptoms awoke fears
                of a genetic ‘inheritance’, which Southey believed to be a disposition in his family
                to tuberculosis, the disease that had previously killed his mother and a female
                cousin. To combat this, he took regular exercise, explaining this was essential for
@@ -123,19 +263,23 @@
                rivers and lakes in the belief that this was of ‘great service’ to his health (Letter
                4252). His exercise regime continued into the autumn and winter months. In 1822, for
                example, he aimed to walk ‘about six miles every day when the weather is not
-               absolutely too bad’ (Letter 3915).</p><p rend="indent1">Southey kept a close eye on the well-being of Greta Hall’s other
+               absolutely too bad’ (Letter 3915).</p>
+            <p rend="indent1">Southey kept a close eye on the well-being of Greta Hall’s other
                residents and, in 1822, sent his eldest daughter Edith May to the spa town of
                Harrogate ‘for her health’ (Letter 3840). He also sought advice on family ailments
                from two London-based physicians – his brother Henry Herbert Southey and his friend
                Robert Gooch. The latter was sent the following account of Southey’s youngest
-               daughter:</p><quote>Kate never complains of headache, nor of any pain in her eyes, – but there is a
+               daughter:</p>
+            <quote>Kate never complains of headache, nor of any pain in her eyes, – but there is a
                dizziness of sight when the drooping of the lids comes on, – then only. She has no
                ailment of the stomach, her tongue is clear, &amp; her general health has always been
                good. Indeed we have looked upon her as the healthiest of our children, tho the least
                in growth. Upon enquiry from her I find that there is a tendency to constipation, –
                but the appearance of the stool is natural. She has always been remarkably subject to
-               chilblains. (Letter 3796)</quote><p>Even the family’s cats did not escape his scrutiny: ‘Rumpelstilzchen has been poorly,
-               but is now in better health’ (Letter 4051).</p><p rend="indent1">Southey’s preoccupation with physical well-being reached beyond the
+               chilblains. (Letter 3796)</quote>
+            <p>Even the family’s cats did not escape his scrutiny: ‘Rumpelstilzchen has been poorly,
+               but is now in better health’ (Letter 4051).</p>
+            <p rend="indent1">Southey’s preoccupation with physical well-being reached beyond the
                inmates of Greta Hall. He detailed the dreadful injuries sustained by Charles Edward
                Henry, stepson of Colonel Peachy, who had tried to fire an overloaded cannon: ‘it had
                burst &amp; fractured his skull … &amp; the brain itself injured in both lobes’
@@ -153,12 +297,15 @@
                health’, ‘there is nothing irksome in them, – no anxiety connected with them. – they
                leave me master<del>s</del> of my time &amp; of myself’ (Letter 4261). The catalogue
                of his own ailments found in Southey’s letters suggests that these claims were
-               suspect.</p><p rend="indent1">Indeed, Southey’s surviving letters from 1822–1824 evidence a creeping
+               suspect.</p>
+            <p rend="indent1">Indeed, Southey’s surviving letters from 1822–1824 evidence a creeping
                anxiety and marked diminution of the optimism on which he had long (perhaps
-               fallaciously) prided himself. Although he could still claim that </p><quote>Time has not abated the natural chearfulness of my disposition, – but it has
+               fallaciously) prided himself. Although he could still claim that </p>
+            <quote>Time has not abated the natural chearfulness of my disposition, – but it has
                taken from me much of that hopefulness, that unhesitating, &amp; almost unreflecting
                confidence which I used to possess; &amp; the future will sometimes trouble the
-               present, which it never did in the earlier part of my life. (Letter 3980)</quote><p>For Southey, the ‘worst symptom of advancing age’ was ‘a certain anxiety concerning
+               present, which it never did in the earlier part of my life. (Letter 3980)</quote>
+            <p>For Southey, the ‘worst symptom of advancing age’ was ‘a certain anxiety concerning
                ways &amp; means’ (Letter 4030). He had begun planning for the future in 1813 when he
                took out a life assurance policy.<note n="2" place="foot" resp="editors">Michael
                   Gamer, ‘Laureate Policy’, <title>The Wordsworth Circle</title>, 42 (2011),
@@ -170,7 +317,8 @@
                fixation on their circumstances (a sign, perhaps, of her declining mental health) and
                to a growing distrust in ‘my own powers of exertion’ and in the ability to keep
                working that was key for guaranteeing Southey’s ‘ways and means’ and the security of
-               his family (Letter 4034).</p><p rend="indent1">As his surviving letters show, in 1822–1824 these concerns had some
+               his family (Letter 4034).</p>
+            <p rend="indent1">As his surviving letters show, in 1822–1824 these concerns had some
                foundation. There continued to be many drains on Southey’s purse. He supported his
                wife and five surviving children – including two daughters, Edith May and Bertha,
                whose expenses were increasing as they neared adulthood. His household also contained
@@ -180,7 +328,8 @@
                brother, Tom, whose farm in nearby Borrodale was failing. Southey had provided
                financial assistance to Tom, his wife and their eight children for several years. The
                situation was concerning enough for Southey to have once entertained the hope that
-               Tom and his family might ‘leave the kingdom, &amp; remove … to the Cape’.<note n="3" place="foot" resp="editors">Southey to Edith Southey, 25 June 1820, <title>The
+               Tom and his family might ‘leave the kingdom, &amp; remove … to the Cape’.<note n="3"
+                  place="foot" resp="editors">Southey to Edith Southey, 25 June 1820, <title>The
                      Collected Letters of Robert Southey. Part Six</title>, Letter 3498.</note> In
                early 1823 things seemed to take a turn for the better when Tom expressed interest in
                emigrating to Canada, where he could take advantage of a land grant scheme. Tom
@@ -191,7 +340,8 @@
                purpose when he gets upon the spot’, was soon realised (Letter 4017). Tom and his son
                returned to Britain in July. His mind was now made up not to emigrate. As Southey
                explained, the money and hard work he had put into supporting Tom’s Canadian visit
-               had all been wasted:</p><quote>He [Tom] fled thro the country, learnt that it was better to purchase an estate,
+               had all been wasted:</p>
+            <quote>He [Tom] fled thro the country, learnt that it was better to purchase an estate,
                than to clear one &amp; build upon it; never looked at the part of the country where
                he might have had a grant; thought the climate unhealthy for children &amp;
                insupportable for himself, &amp; came back as fast as he could with an opinion that
@@ -202,12 +352,14 @@
                both of them: but what they think, - or dream of doing, or what they can do, is more
                than I can tell. The journey certainly has not discovered to him any one impediment,
                or difficulty of which he was not perfectly aware before he set out. – This would
-               fret me, if I allowed myself to think about it. (Letter 4048)</quote><p>His brother continued to be a problem for Southey to ‘think about’. In 1824, Tom,
+               fret me, if I allowed myself to think about it. (Letter 4048)</quote>
+            <p>His brother continued to be a problem for Southey to ‘think about’. In 1824, Tom,
                whose family had now grown to nine children, sought to join the Preventive Waterguard
                established in 1809 to combat smuggling. Southey, scarred by past experience, was
                sceptical: ‘To me the advantage appears questionable, – only that he cannot well be
                worse off than he is’ (Letter 4234). On this occasion Tom persevered, and in 1825 he
-               left the Lake District to take up a post in Cromer, Norfolk.</p><p rend="indent1">Not all Southey’s relationships were as fraught or expensive as that
+               left the Lake District to take up a post in Cromer, Norfolk.</p>
+            <p rend="indent1">Not all Southey’s relationships were as fraught or expensive as that
                with Tom; some drew on his skills in using his influence to benefit others. This
                might involve an exchange of favours. In 1824 Southey tried to advance the career of
                George Grenville Malet, a cadet in the East India Company’s Army (Letter 4118).
@@ -221,9 +373,11 @@
                ensuring that the first volume of the notoriously confrontational Walter Savage
                Landor’s <title>Imaginary Conversations</title> made it into print without libelling
                anyone or triggering a feud with Landor’s Italian neighbours. As Southey
-               explained:</p><quote>Such of the sheets as frightened the publisher [John Taylor] were sent to me,
+               explained:</p>
+            <quote>Such of the sheets as frightened the publisher [John Taylor] were sent to me,
                &amp; I struck out what would either have given most offence here, or endangered his
-               [Landor’s] personal safety where he is. (Letter 4226)</quote><p>Southey was a long-standing supporter of Landor, his direct contemporary. His letters
+               [Landor’s] personal safety where he is. (Letter 4226)</quote>
+            <p>Southey was a long-standing supporter of Landor, his direct contemporary. His letters
                also evidence the time and trouble he took with younger writers. In 1822–1824,
                Caroline Bowles was alone in being earmarked as a poetic collaborator, but Southey
                did comment on manuscripts and ideas for literary compositions sent to him, even if
@@ -233,15 +387,18 @@
                using its pages to draw attention to poets he approved of. For example, his review of
                Henri Grégoire’s <title>Histoire des Sectes Religieuse</title> (1814), included a
                lengthy recommendation of Bernard Barton’s poetry for its ‘pure and religious spirit’
-               and quoted the latter’s poem ‘The Pool of Bethesda’ in its entirety.<note n="4" place="foot" resp="editors"><title>Quarterly Review</title>, 28 (October 1822),
+               and quoted the latter’s poem ‘The Pool of Bethesda’ in its entirety.<note n="4"
+                  place="foot" resp="editors"><title>Quarterly Review</title>, 28 (October 1822),
                   1–46 (4–5), published 15 February 1823. Barton’s poem had appeared in
                      <title>Napoleon, and Other Poems</title> (London, 1822), pp. [182]–185.</note>
                His work for the <title>Quarterly</title> also helped Southey to promote the
                prose-writing career of his niece Sara Coleridge. In 1822 he favourably reviewed her
-               translation of Martin Dobrizhofer, a project Southey had himself initiated.<note n="5" place="foot" resp="editors">Sara Coleridge, <title>An Account of the
+               translation of Martin Dobrizhofer, a project Southey had himself initiated.<note
+                  n="5" place="foot" resp="editors">Sara Coleridge, <title>An Account of the
                      Abipones, an Equestrian People of Paraguay</title> (1822), reviewed
                   (anonymously) by Southey in <title>Quarterly Review</title>, 26 (January 1822),
-                  277–323.</note></p><p rend="indent1">In 1822–1824, however, the living author with whom Southey was most
+                  277–323.</note></p>
+            <p rend="indent1">In 1822–1824, however, the living author with whom Southey was most
                publicly and controversially associated was Lord Byron. <title>Part Seven</title>
                provides fresh information on Southey’s responses to, and role in, their quarrel. The
                two men had clashed publicly before 1822. Byron had ridiculed Southey in the
@@ -263,7 +420,8 @@
                letters touching Lord B.’ he had received after its publication was evidence that it
                had worked ‘well with the public’ (Letter 3784). He was also confident that it had
                bolstered his position; should Byron ‘return to the charge’ he would ‘feel that mine
-               is the stronger hand’ (Letter 3785).</p><p rend="indent1">Byron’s ‘return to the charge’ was delayed but devastating. In the
+               is the stronger hand’ (Letter 3785).</p>
+            <p rend="indent1">Byron’s ‘return to the charge’ was delayed but devastating. In the
                final paragraph of his <title>Courier</title> letter Southey had admonished Byron:
                ‘When he attacks me again, let it be in rhyme’ (Letter 3776). Unknown to Southey,
                Byron had, by January 1822, already written a scathing parody of the Poet Laureate’s
@@ -280,8 +438,20 @@
                immorality of Byron’s writing. To evidence ‘the meanness of Lord Byron’s malignity’
                the newspaper printed stanzas 94–100 from the ‘Vision’. These were aimed at the
                poem’s ‘principle object of abuse’ – Southey. They included Byron’s ferocious attack
-               on Southey’s political and poetical tergiversation, for example:</p><lg><l rend="indent3">He had written praises of a regicide;</l><l rend="indent3">He had written praises of all kings whatever;</l><l rend="indent3">He had written for republics far and wide,</l><l rend="indent4">And then against them bitterer than ever;</l><l rend="indent3">For pantisocracy he once had cried</l><l rend="indent4">Aloud, a scheme less moral than ’twas clever;</l><l rend="indent3">Then grew a hearty antijacobin –</l><l rend="indent3">Had turn’d his coat – and would have turn’d his skin.<note n="9" place="foot" resp="editors">Byron, ‘The Vision of Judgment’, stanza 97.
-                  </note></l></lg><p>Southey’s surviving letters suggest that his response to Byron’s ‘Vision’ was
+               on Southey’s political and poetical tergiversation, for example:</p>
+            <lg>
+               <l rend="indent3">He had written praises of a regicide;</l>
+               <l rend="indent3">He had written praises of all kings whatever;</l>
+               <l rend="indent3">He had written for republics far and wide,</l>
+               <l rend="indent4">And then against them bitterer than ever;</l>
+               <l rend="indent3">For pantisocracy he once had cried</l>
+               <l rend="indent4">Aloud, a scheme less moral than ’twas clever;</l>
+               <l rend="indent3">Then grew a hearty antijacobin –</l>
+               <l rend="indent3">Had turn’d his coat – and would have turn’d his skin.<note n="9"
+                     place="foot" resp="editors">Byron, ‘The Vision of Judgment’, stanza 97.
+                  </note></l>
+            </lg>
+            <p>Southey’s surviving letters suggest that his response to Byron’s ‘Vision’ was
                remarkably – and unusually – low-key. There was, he claimed, ‘no necessity for
                striking a blow against someone who has so completely damned himself’ (Letter 3910).
                Otherwise, he scarcely mentioned the subject. In public, Southey’s only rebuttal was
@@ -296,13 +466,15 @@
                Byron’s death in 1824. Southey’s response was once more muted. He said little beyond
                noting that Byron’s death, while aiding the cause of Greek independence, ‘comes in
                aid of a pernicious reputation’ and was to be regretted on those grounds (Letter
-               4190).</p><p rend="indent1">However, Byron’s demise did not prove quite the end of the matter. In
+               4190).</p>
+            <p rend="indent1">However, Byron’s demise did not prove quite the end of the matter. In
                1824 Southey learned from newspaper reports of Thomas Medwin’s <title>Journal of the
                   Conversations of Lord Byron</title>. Although this detailed Byron’s abusive
                comments on Southey, the latter did not think of publicly responding until Caroline
                Bowles sent him extracts from Medwin’s book (Letter 4273). These included the claim
                that Southey had told Shelley that he had indeed authored a notorious review of Leigh
-               Hunt’s <title>Foliage</title> (Letter 4285).<note n="10" place="foot" resp="editors">James Henry Leigh Hunt, <title>Foliage; or, Poems Original and Translated</title>
+               Hunt’s <title>Foliage</title> (Letter 4285).<note n="10" place="foot" resp="editors"
+                  >James Henry Leigh Hunt, <title>Foliage; or, Poems Original and Translated</title>
                   (1818), reviewed anonymously in <title>Quarterly Review</title>, 18 (January
                   1818), 324–355.</note> (The review’s author was, in fact, John Taylor Coleridge.)
                Reading this prompted Southey to write to the <title>Courier</title> to deny the
@@ -321,7 +493,8 @@
                advice about prosecuting the newspaper and only decided not to after opinions from
                two of his friends who were lawyers, Sharon Turner and John Taylor Coleridge, made
                clear the trouble and expense that would lie ahead of him if he took this course
-               (Letter 4308).</p><p rend="indent1">Southey’s interest in, and relationship with, his writing
+               (Letter 4308).</p>
+            <p rend="indent1">Southey’s interest in, and relationship with, his writing
                contemporaries was just one part of his professional life in the years 1822–1824. As
                he advanced through middle age, he continued his own career as both a poet and a
                prose writer. Although in late 1822 he claimed that he was ‘so much devoted to
@@ -343,7 +516,8 @@
                wounded at the Battle of Corunna in 1809 (Letter 4184). Burrard was a cousin of
                Caroline Bowles and the poem provides evidence of her and Southey’s developing
                friendship. Indeed, Bowles played a key part in rekindling his enthusiasm for an even
-               earlier project – a poem on the legendary outlaw Robin Hood.<note n="12" place="foot" resp="editors">For the poem’s history, see <title>Later Poetical Works</title>,
+               earlier project – a poem on the legendary outlaw Robin Hood.<note n="12" place="foot"
+                  resp="editors">For the poem’s history, see <title>Later Poetical Works</title>,
                   IV, pp. xxxix–xliv.</note> After she visited Keswick in September 1823, Southey
                suggested to Bowles that they form an ‘intellectual union’ and co-author the poem
                (Letter 4083). His offer was surprising. Southey had not engaged in a poetic
@@ -361,9 +535,11 @@
                      of Robert Southey with Caroline Bowles</title> (Dublin and London, 1881), p.
                   57.</note> Southey’s attempt to provide further metrical instruction and
                reassurance via correspondence (see Letter 4175) had little, if any, effect and the
-               project soon fell into abeyance, though it was not formally abandoned.</p><p rend="indent1">In addition, Southey continued to ‘wear the bays’ (Letter 3922). He
+               project soon fell into abeyance, though it was not formally abandoned.</p>
+            <p rend="indent1">In addition, Southey continued to ‘wear the bays’ (Letter 3922). He
                fulfilled his obligations as Poet Laureate and wrote New Year’s Odes: ‘Ireland’ (for
-               January 1822) and ‘Scotland’ (for January 1823) (Letter 3932).<note n="14" place="foot" resp="editors">For ‘Ireland’ see Southey to William Shield, [18
+               January 1822) and ‘Scotland’ (for January 1823) (Letter 3932).<note n="14"
+                  place="foot" resp="editors">For ‘Ireland’ see Southey to William Shield, [18
                   December 1821], <title>The Collected Letters of Robert Southey. Part Six</title>,
                   Letter 3766.</note> Neither poem was published at the time. However, 1823 saw a
                sea change in his Laureateship. For a reason or reasons not explained in either his
@@ -373,20 +549,23 @@
                silence nor called upon him to write anything. Indeed, Southey continued to draw his
                annual salary and thus was paid for doing nothing for the last two decades of his
                tenure. In 1813 he had accepted the Laureateship with a determination to reform it
-               and ‘to write upon great events, or … be silent, according as the spirit moved’.<note n="15" place="foot" resp="editors">Southey to John Wilson Croker, [4 September
+               and ‘to write upon great events, or … be silent, according as the spirit moved’.<note
+                  n="15" place="foot" resp="editors">Southey to John Wilson Croker, [4 September
                   1813], <title>The Collected Letters of Robert Southey. Part Four</title>, Letter
                   2298.</note> In practice, he had much less autonomy than he had imagined and had
                to toe the government’s line, altering his poems accordingly. In whatever way it came
                about and whether it was formal, informal, verbal or written, the agreement of 1823
                meant that Southey obtained, after a decade as Laureate and in an extremely
                roundabout way, the terms and conditions he had sought when he first took up the
-               post.</p><p rend="indent1">The wish to ‘write upon great events’ also shaped Southey’s prose.
+               post.</p>
+            <p rend="indent1">The wish to ‘write upon great events’ also shaped Southey’s prose.
                During 1822–1824 most of his time was devoted to two major prose works – both of
                which proved to be intensely controversial. At the beginning of 1822, he was engaged
                in completing the first volume of his three-volume <title>History of the Peninsular
                   War</title> (1823–1832). This had been contracted to John Murray as long ago as
                1813 and drew heavily on Southey’s writings for the <title>Edinburgh Annual Register,
-                  for 1808 to 1811</title> (1810–1813).<note n="16" place="foot" resp="editors">Southey to Herbert Hill, 18 July 1813, <title>The Collected Letters of Robert
+                  for 1808 to 1811</title> (1810–1813).<note n="16" place="foot" resp="editors"
+                  >Southey to Herbert Hill, 18 July 1813, <title>The Collected Letters of Robert
                      Southey. Part Four</title>, Letter 2283; and Southey to John Murray, 23 July
                   1813, <title>The Collected Letters of Robert Southey. Part Four</title>, Letter
                   2285.</note> The newsworthiness and commercial appeal of the subject in 1813 were
@@ -416,8 +595,10 @@
                the Spaniards’ struggle against the French invaders (Letter 3947). Southey was well
                aware of the furore his comments would cause (Letter 3884). Indeed he had delighted
                in publishing attacks on the Whigs over this issue before – in the notes to his first
-               Laureate ode, <title>Carmen Triumphale</title> (1814).<note n="19" place="foot" resp="editors">For these, see Robert Southey, <title>Later Poetical Works</title>,
-                  III, pp. 607–618.</note></p><p rend="indent1">The <title>History of the Peninsular War</title>, therefore, confirmed
+               Laureate ode, <title>Carmen Triumphale</title> (1814).<note n="19" place="foot"
+                  resp="editors">For these, see Robert Southey, <title>Later Poetical Works</title>,
+                  III, pp. 607–618.</note></p>
+            <p rend="indent1">The <title>History of the Peninsular War</title>, therefore, confirmed
                Southey’s reputation as a partisan supporter of the British government. His views on
                Europe also appalled some Whigs, notably Henry Crabb Robinson who taxed Southey with
                not taking the opportunity to condemn European absolutist regimes more forcefully in
@@ -438,7 +619,8 @@
                he despaired of either side being able to do this, or, indeed, to come up with a
                plausible alternative himself, beyond speculating on the virtues of restoring the
                early modern Spanish constitution or looking to a reforming, but dictatorial, prime
-               minister (Letter 3906, Letter 4031 and Letter 4013).</p><p rend="indent1">Southey’s views on Spain were, as ever, linked to his assessment of
+               minister (Letter 3906, Letter 4031 and Letter 4013).</p>
+            <p rend="indent1">Southey’s views on Spain were, as ever, linked to his assessment of
                the situation in the United Kingdom, where he felt that the political stability so
                absent from Spain was yielding dividends. By 1822 his fears of an imminent revolution
                had receded and instead he was becoming increasingly optimistic about signs of
@@ -482,4 +664,8 @@
                Church of England – and brought him the personal thanks of two Bishops (Letter 4148
                and Letter 4151). By so doing – and as the letters published here make it possible to
                trace – it prepared the way for Southey’s prominence throughout the 1820s as one of
-               the staunchest public opponents of Catholic Emancipation.</p></div></body></text></TEI>
+               the staunchest public opponents of Catholic Emancipation.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

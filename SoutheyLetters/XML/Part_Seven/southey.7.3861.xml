@@ -1,174 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">3861. Robert Southey to Joseph Blanco White, 28 June
-               1822</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor><editor>Ian Packer</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="7">Part Seven <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3861. Robert Southey to Joseph Blanco White, 28 June
+               1822</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><editor>Ian Packer</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="7">Part Seven <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero License, as described
                   under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed under
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.7.3861</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Address: [in another hand] London July one 1822/ The Revd. J Blanco White/ Little
+                  http://romantic-circles.org/about/submission-guidelines and here:</p><p>As of July 2027, all material published on Romantic Circles is licensed under
+                  Creative Commons Zero (CC 0), unless otherwise noted.</p><p>Unless otherwise noted, users are not permitted to download texts and images
+                  published before December 2023 in order to mount them on their own servers.</p></availability><idno type="edition">southey.7.3861</idno></publicationStmt><sourceDesc><p>Address: [in another hand] London July one 1822/ The Revd. J Blanco White/ Little
                Gaddesden/ Herts/ CW Williams Wynn MS: University of Liverpool Library, R.P.V.4.46.
                ALS; 4p. Previously published: John Hamilton Thom (ed.), The Life of the Reverend
-               Joseph Blanco White, 3 vols (London, 1845), I, pp. 380–381 [in part].</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-               Collection of English and American Literature, The New York Public Library, Astor,
-               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
-               Library; Boston Public Library; the Syndics of Cambridge University Library; the
-               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
-               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
-               Information Services; the Houghton Library, Harvard University; the John Rylands
-               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
-               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
-               University Library; the National Library of Scotland; the Newberry Library, Chicago;
-               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
-               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
-               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
-               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Joseph Blanco White, 3 vols (London, 1845), I, pp. 380–381 [in part].</p><p>These letters were edited by Lynda Pratt and Ian Packer.</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   November 2024. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="3861" type="letter">
-            <head>3861. Robert Southey to <ref type="a" target="people.html#WhiteJosephBlanco"
-                  >Joseph Blanco White</ref>, <date when="1822-06-28">28 June 1822</date><note
-                  type="headnote" place="foot" resp="editors">Address: [in another hand] London July
+               </item></list></change></revisionDesc></teiHeader><text><body><div n="3861" type="letter"><head>3861. Robert Southey to <ref type="a" target="people.html#WhiteJosephBlanco">Joseph Blanco White</ref>, <date when="1822-06-28">28 June 1822</date><note type="headnote" place="foot" resp="editors">Address: [in another hand] London July
                   one 1822/ The Rev<hi rend="sup">d</hi>. J Blanco White/ Little Gaddesden/ Herts/
                   CW Williams Wynn<lb/> MS: University of Liverpool Library, R.P.V.4.46. ALS;
                   4p.<lb/> Previously published: John Hamilton Thom (ed.), <title>The Life of the
                      Reverend Joseph Blanco White</title>, 3 vols (London, 1845), I, pp. 380–381 [in
-                  part].</note></head>
-            <opener><dateline><address>
-                     <placeName><ref type="m" target="places.html#Keswick"
-                        >Keswick</ref>.</placeName>
-                  </address><date when="1822-06-28">28 June. 1822</date></dateline><salute> My dear
-                  Blanco</salute></opener>
-            <p rend="indent1"> It gave me great pleasure to receive a letter from you.<note n="1"
-                  place="foot" resp="editors">For Blanco White’s letter, 15 June 1822, see Vicente
+                  part].</note></head><opener><dateline><address><placeName><ref type="m" target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1822-06-28">28 June. 1822</date></dateline><salute> My dear
+                  Blanco</salute></opener><p rend="indent1"> It gave me great pleasure to receive a letter from you.<note n="1" place="foot" resp="editors">For Blanco White’s letter, 15 June 1822, see Vicente
                   Llorens, ‘Blanco White and Robert Southey: Fragments of a Correspondence’,
                      <title>Studies in Romanticism</title>, 11 (1972), 150–151.</note> I intended to
                have ordered Leucadio Doblado’s letters, because the name had led me to fix upon the
@@ -180,8 +54,7 @@
                only fault is that there should be only one volume. I will take it as a text in the Q
                Review, &amp; use it to introduce some speculations upon the state of Spain &amp;
                   Portugal.<note n="3" place="foot" resp="editors">Southey did not review this in
-                  the <title>Quarterly Review</title>.</note></p>
-            <p rend="indent1">My feelings respecting those countries differ not a shade from yours.
+                  the <title>Quarterly Review</title>.</note></p><p rend="indent1">My feelings respecting those countries differ not a shade from yours.
                Both nations appear now to be <del>suffer</del> experiencing the dreadful
                consequences of that abominable church-tyranny which has so long been dominant there,
                &amp; which <del>no where</del> in no other part of the world has ever been exercised
@@ -200,8 +73,7 @@
                   Deputies for Estramadura in the Portuguese Cortes elected in 1821.</note> &amp;
                perfectly understand that the constitution of that body is just like that of the
                neighbouring assembly, that it contains the same mixture of atheism &amp; bigotry,
-               ignorance &amp; presumption, good intentions &amp; deplorable opinions.</p>
-            <p rend="indent1"> The more I know of history, &amp; the more I know of what is going on
+               ignorance &amp; presumption, good intentions &amp; deplorable opinions.</p><p rend="indent1"> The more I know of history, &amp; the more I know of what is going on
                in this disturbed age of the world, the less am I able to expect good from popular
                assemblies. Like most persons in this country, I hoped every thing from a Cortes in
                   Spain.<note n="6" place="foot" resp="editors">The Cortes elected in 1812 under the
@@ -217,16 +89,13 @@
                – if Ferdinand<note n="7" place="foot" resp="editors">Ferdinand VII (1784–1833; King
                   of Spain 1808, 1813–1833). He had restored royal absolutism in 1814, before being
                   forced to re-establish the Constitution of 1812 in 1820.</note> had had a minister
-               with the strength of character that Ximenes<note n="8" place="foot" resp="editors"
-                  >Francisco Jimenez de Cisneros (1436–1517), Archbishop of Toledo 1495–1517 and
+               with the strength of character that Ximenes<note n="8" place="foot" resp="editors">Francisco Jimenez de Cisneros (1436–1517), Archbishop of Toledo 1495–1517 and
                   leading statesman in Castile and Aragon.</note> possessed, as well adapted to the
                spirit of this age, as that Franciscan was to the spirit of his own, such a minister
                might have reformed both the church &amp; state, &amp; have prepared the people for
-               liberty, by a wise use of despotism. Pombal<note n="9" place="foot" resp="editors"
-                  >Sebastiao Jose de Carvalho e Melo, 1st Marquis of Pombal (1699–1782), Prime
+               liberty, by a wise use of despotism. Pombal<note n="9" place="foot" resp="editors">Sebastiao Jose de Carvalho e Melo, 1st Marquis of Pombal (1699–1782), Prime
                   Minister of Portugal 1750–1777.</note> would have done this in Portugal, had he
-               lived half a century later.</p>
-            <p rend="indent1"> I am glad to hear that you are employed upon a Spanish historical
+               lived half a century later.</p><p rend="indent1"> I am glad to hear that you are employed upon a Spanish historical
                   subject.<note n="10" place="foot" resp="editors">Blanco White was writing memoirs
                   of either the reign of John II (1405–1454; King of Castile 1406–1454) or John II
                   (1398–1479; King of Aragon 1458–1479). Blanco White does not seem to have
@@ -243,16 +112,12 @@
                   much debated.</note> The origin of that disease is a subject which has been so
                much investigated, that I cannot conceive how this decisive testimony should have
                been overlooked. I wish you could obtain access to the Portugueze Cancioncero, as
-               well as to the Spanish, but I doubt whether there is a copy in England.<note n="12"
-                  place="foot" resp="editors">The <title>Cancionero General</title> (1511) was an
+               well as to the Spanish, but I doubt whether there is a copy in England.<note n="12" place="foot" resp="editors">The <title>Cancionero General</title> (1511) was an
                   anthology of Spanish lyric poetry, originally created by Hernando del Castillo
                   (dates unknown). The <title>Cancioneiro Geral</title> (1516), compiled by Garcia
                   de Resende (1470–1536) contains nearly 1,000 lyrics in Portuguese and
-                  Castilian.</note> I have only some extracts which I made at Lisbon. Poor <ref
-                  type="m" target="people.html#AbellaManuel">Abella</ref> intended to edite the
-               Spanish one, which he was well qualified to have done.</p>
-            <p rend="indent1"> The Nun of Arouca is not mine.<note n="13" place="foot"
-                  resp="editors">John Russell, 1st Earl Russell (1792–1878; <title>DNB</title>), was
+                  Castilian.</note> I have only some extracts which I made at Lisbon. Poor <ref type="m" target="people.html#AbellaManuel">Abella</ref> intended to edite the
+               Spanish one, which he was well qualified to have done.</p><p rend="indent1"> The Nun of Arouca is not mine.<note n="13" place="foot" resp="editors">John Russell, 1st Earl Russell (1792–1878; <title>DNB</title>), was
                   the author of <title>The Nun of Arrouca, A Tale</title> (1822).</note> I have not
                seen it, &amp; know not whose it is. I have long been almost wholly engaged in prose.
                It will not be long before I shall send you an epitome of our religious history,
@@ -260,27 +125,16 @@
                they owe to the Church of England.<note n="14" place="foot" resp="editors">Southey’s
                      <title>The Book of the Church</title> (1824).</note> I hope &amp; trust that it
                will not be without effect: &amp; I am sure you will approve the spirit in which it
-               is composed.</p>
-            <p rend="indent1">The first volume of the Hist. of the Peninsular War is nearly
-               compleated &amp; waits only for the printer.<note n="15" place="foot" resp="editors"
-                  >Southey’s <title>History of the Peninsular War</title> (1823–1832). The printer
+               is composed.</p><p rend="indent1">The first volume of the Hist. of the Peninsular War is nearly
+               compleated &amp; waits only for the printer.<note n="15" place="foot" resp="editors">Southey’s <title>History of the Peninsular War</title> (1823–1832). The printer
                   was Thomas Davison (1766–1831).</note> I am also preparing a series of dialogues
-               upon the progress &amp; prospects of society,<note n="16" place="foot" resp="editors"
-                     ><title>Sir Thomas More: or, Colloquies on the Progress and Prospects of
-                     Society</title> (1829).</note> taking for my text three words of S<hi
-                  rend="sup">t</hi> Bernard, – <hi rend="ital">Respice, aspice, prospice</hi>.<note
-                  n="17" place="foot" resp="editors">‘Look to the past, the present, the future’,
+               upon the progress &amp; prospects of society,<note n="16" place="foot" resp="editors"><title>Sir Thomas More: or, Colloquies on the Progress and Prospects of
+                     Society</title> (1829).</note> taking for my text three words of S<hi rend="sup">t</hi> Bernard, – <hi rend="ital">Respice, aspice, prospice</hi>.<note n="17" place="foot" resp="editors">‘Look to the past, the present, the future’,
                   words attributed to St Bernard of Clairvaux (1090–1153). These words did appear on
                   the title page [unpaginated] of vol. 1 of <title>Sir Thomas More: or, Colloquies
                      on the Progress and Prospects of Society</title>, 2 vols (London, 1829).</note>
                – It is a comfort to know that the world will never be worse for any works which I
                shall leave in it. My endeavours are to strengthen the moral &amp; religious
                feelings, &amp; to uphold those institutions upon which the welfare of society
-               depends.</p>
-            <closer><salute rend="indent1">God bless you my dear Blanco</salute><salute
-                  rend="indent2"> Yrs most truly</salute><signed rend="indent3">Robert
-                  Southey.</signed></closer>
-         </div>
-      </body>
-   </text>
-</TEI>
+               depends.</p><closer><salute rend="indent1">God bless you my dear Blanco</salute><salute rend="indent2"> Yrs most truly</salute><signed rend="indent3">Robert
+                  Southey.</signed></closer></div></body></text></TEI>

@@ -1,228 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">211. Robert Southey to John Prior Estlin, 9 April
-               1797</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part One</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="1">Part One <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">211. Robert Southey to John Prior Estlin, 9 April
+               1797</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part One</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="1">Part One <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero License, as described
                   under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed under
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.1.211</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Bristol Reference Library, B20871. ALS; 4p.. Previously published: Kenneth Curry
+                  http://romantic-circles.org/about/submission-guidelines and here:</p><p>As of July 2027, all material published on Romantic Circles is licensed under
+                  Creative Commons Zero (CC 0), unless otherwise noted.</p><p>Unless otherwise noted, users are not permitted to download texts and images
+                  published before December 2023 in order to mount them on their own servers.</p></availability><idno type="edition">southey.1.211</idno></publicationStmt><sourceDesc><p>Bristol Reference Library, B20871. ALS; 4p.. Previously published: Kenneth Curry
                (ed.), New Letters of Robert Southey, 2 vols (London and New York, 1965), I, pp.
-               123–124.</p>
-            <p>These letters were edited by Lynda Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-               Collection of English and American Literature, The New York Public Library, Astor,
-               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
-               Library; Boston Public Library; the Syndics of Cambridge University Library; the
-               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
-               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
-               Information Services; the Houghton Library, Harvard University; the John Rylands
-               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
-               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
-               University Library; the National Library of Scotland; the Newberry Library, Chicago;
-               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
-               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
-               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
-               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="tbl211" scheme="css">width: 740px; border: none;</rendition>
-            <rendition xml:id="cell1" scheme="css">width: 330px;</rendition>
-            <rendition xml:id="cell2" scheme="css">width: 410px;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2027-07-14" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
-               <item>made tables TEI compliant</item>
-            </list>
-         </change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               123–124.</p><p>These letters were edited by Lynda Pratt</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl211" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 330px;</rendition><rendition xml:id="cell2" scheme="css">width: 410px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2009-03-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-         <change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Ran transforms for proofing Southey Part 6</item>
-            </list></change>
-         <change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Incorporated new header info per Averill Buchanan and other minor fixes.</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="211" type="letter">
-            <head>211. Robert Southey to <ref type="a" target="people.html#EstlinJohnPrior">John
-                  Prior Estlin</ref>, <date when="1797-04-09">9 April 1797</date><note place="foot"
-                  resp="editors" type="headnote">Address: For/ The Reverend J P Estlin/ S<hi
-                     rend="sup">t</hi> Michaels Hill/ Bristol<lb/>Stamped: BRIDGE S<hi rend="sup"
-                     >t</hi>/ Westminster<lb/>Postmark: DAP/ 10/ 97<lb/>MS: Bristol Reference
-                  Library, B20871. ALS; 4p.<lb/>Previously published: Kenneth Curry (ed.), <title
-                     level="m">New Letters of Robert Southey</title>, 2 vols (London and New York,
-                  1965), I, pp. 123–124.</note></head>
-            <epigraph>
-               <table rendition="#tbl211">
-                  <row>
-                     <cell rendition="#cell1"><date when="1797-04-09">Sunday April 9<hi rend="sup">th</hi>—
-                           1797</date>.</cell>
-                     <cell rendition="#cell2"><address>
-                           <placeName>{ <ref target="places.html#ProspectPlaceLondon">Prospect
-                                 Place. Newington Butts</ref></placeName>
-                        </address></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"><address>
-                           <placeName>{ No 20.</placeName>
-                        </address></cell>
-                  </row>
-               </table>
-            </epigraph>
-            <opener><salute>Dear Sir</salute></opener>
-            <p rend="indent2"> I take the earliest opportunity of thanking you for your work,<note
-                  n="1" place="foot" resp="editors">John Prior Estlin, <title>The Nature and Causes
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="211" type="letter"><head>211. Robert Southey to <ref type="a" target="people.html#EstlinJohnPrior">John
+                  Prior Estlin</ref>, <date when="1797-04-09">9 April 1797</date><note place="foot" resp="editors" type="headnote">Address: For/ The Reverend J P Estlin/ S<hi rend="sup">t</hi> Michaels Hill/ Bristol<lb/>Stamped: BRIDGE S<hi rend="sup">t</hi>/ Westminster<lb/>Postmark: DAP/ 10/ 97<lb/>MS: Bristol Reference
+                  Library, B20871. ALS; 4p.<lb/>Previously published: Kenneth Curry (ed.), <title level="m">New Letters of Robert Southey</title>, 2 vols (London and New York,
+                  1965), I, pp. 123–124.</note></head><epigraph><table rendition="#tbl211"><row><cell rendition="#cell1"><date when="1797-04-09">Sunday April 9<hi rend="sup">th</hi>—
+                           1797</date>.</cell><cell rendition="#cell2"><address><placeName>{ <ref target="places.html#ProspectPlaceLondon">Prospect
+                                 Place. Newington Butts</ref></placeName></address></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"><address><placeName>{ No 20.</placeName></address></cell></row></table></epigraph><opener><salute>Dear Sir</salute></opener><p rend="indent2"> I take the earliest opportunity of thanking you for your work,<note n="1" place="foot" resp="editors">John Prior Estlin, <title>The Nature and Causes
                      of Atheism, Pointed out in a Discourse, Delivered at the Chapel in
                      Lewin’s-Mead, Bristol. To Which are Added, Remarks on a Work, Entitled Origine
                      de Tous Les Cultes, ou Religion Universelle. Par Dupuis, Citoyen
@@ -230,16 +54,14 @@
                   Johnson’s.<note n="2" place="foot" resp="editors">Joseph Johnson (1738–1809;
                      <title level="m">DNB</title>), publisher and bookseller. His shop was at 72 St
                   Paul’s Churchyard, London.</note> I have read it with much pleasure &amp; much
-               attention. it is a subject often present to my mind, for I see <del
-                  rend="strikethrough">xxxx of</del> &lt;many&gt; Atheists &amp; Sceptics, &amp; as
+               attention. it is a subject often present to my mind, for I see <del rend="strikethrough">xxxx of</del> &lt;many&gt; Atheists &amp; Sceptics, &amp; as
                I never decline controversy, seldom see<del rend="strikethrough">xx</del> them
                without an argument. your discourse does not touch upon what appears to me the
                principal cause of Atheism, the existence of physical &amp; moral evil, &amp; the
                difficulty of reconciling its existence with that of a God powerful &amp; benevolent.
                The system of Optimism, to which I assent &amp; which I therefore profess, is not
                without difficulties, great &amp; many. but every other system appears to me to have
-               more &amp; greater, &amp; therefore I assent to this; to have used the word <hi
-                  rend="ital">believe</hi> would have been perhaps expressing myself too strongly.
+               more &amp; greater, &amp; therefore I assent to this; to have used the word <hi rend="ital">believe</hi> would have been perhaps expressing myself too strongly.
                Many of my friends &amp; acquaintance believe these difficulties insuperable; I find
                them atheists or sceptics not because they are vain &amp; conceited, not because the
                texture of their minds is coarse, but because there is evil in the world. the
@@ -252,45 +74,32 @@
                of the present over the future; &amp; when I would direct the attention from
                individuals to the whole, I am told that an individual is every thing to himself. my
                mind is not adapted for methodical reasoning, &amp; like Rousseau the answer to a
-               question always recurs to me too late.</p>
-            <p rend="indent1"> The eternal series is the common basis of Atheism. I always attempt
+               question always recurs to me too late.</p><p rend="indent1"> The eternal series is the common basis of Atheism. I always attempt
                to prove the necessity of an intelligent first cause, &amp; deduce his attributes
                from his existence. this fort I find impregnable. the arguments from the evil in the
                world then become weaker when the present is merged in futurity. but the existence of
                a future state depends upon the benevolence of God &amp; those arguments attack that
-               basis.</p>
-            <p rend="indent1"> Your work will not in all probability be read by those who are
+               basis.</p><p rend="indent1"> Your work will not in all probability be read by those who are
                decidedly Atheistical. they are in general self-satisfied, &amp; no man likes to have
                his settled opinions shaken. but it will fall into the hands of many whose scepticism
                inclines that way, &amp; there I think &amp; hope it will be useful. I will not wish
                you to examine the arguments upon the origin of evil in a second edition, because the
                subject deserves a seperate discussion, &amp; I should gladly see another work from
-                  <ref type="m" target="people.html#EstlinJohnPrior">Mr Estlin</ref>.</p>
-            <p rend="indent1"> Your observations upon Dupuis<note n="3" place="foot" resp="editors"
-                  >Charles Frances Dupuis (1742–1809), French mathematician, astronomer,
+                  <ref type="m" target="people.html#EstlinJohnPrior">Mr Estlin</ref>.</p><p rend="indent1"> Your observations upon Dupuis<note n="3" place="foot" resp="editors">Charles Frances Dupuis (1742–1809), French mathematician, astronomer,
                   revolutionary and author of <hi rend="ital">Origine de Tous Les Cultes, ou
                      Religion Universelle</hi> (1795).</note> may do great good by showing the
-               astonishing credulity of an Atheist. have you not perhaps praised Watsons book<note
-                  n="4" place="foot" resp="editors">Richard Watson, Bishop of Llandaff (1737–1816;
+               astonishing credulity of an Atheist. have you not perhaps praised Watsons book<note n="4" place="foot" resp="editors">Richard Watson, Bishop of Llandaff (1737–1816;
                      <title level="m">DNB</title>), <title level="m">An Apology for Christianity in
                      a Series of Letters Addressed to Edward Gibbon Esq., Author of The Decline and
                      Fall of the Roman Empire</title> (1776). Watson was also the author of an
                      <title level="m">Apology for the Bible, in a Series of Letters, Addressed to
                      Tom Paine</title> (1796).</note> too highly? the ablest man of my acquaintance
                rose from its perusal with the full conviction that Watson was himself a
-               disbeliever.</p>
-            <p rend="indent1"> The Christian world will probably ere long be divided into two
+               disbeliever.</p><p rend="indent1"> The Christian world will probably ere long be divided into two
                classes — the Roman Catholics, &amp; the Socinians or Low Arians — those who allow
                every thing — or nothing to authority. I have heard from one who lives much with the
                more able Catholics that they despise the reformed sects heartily — but are very much
-               afraid of the Socinians. this is a curious fact.</p>
-            <p rend="indent1"> You will I hope excuse the liberty I have taken. gratified &amp;
+               afraid of the Socinians. this is a curious fact.</p><p rend="indent1"> You will I hope excuse the liberty I have taken. gratified &amp;
                instructed by both your publications, forgive me if I suggest a subject that deserves
-               a third.</p>
-            <p rend="indent1"> our remembrances to <ref type="m" target="people.html#EstlinMrs">Mrs
-                  Estlin</ref>.</p>
-            <closer><signed rend="indent8"> Robert Southey.</signed></closer>
-         </div>
-      </body>
-   </text>
-</TEI>
+               a third.</p><p rend="indent1"> our remembrances to <ref type="m" target="people.html#EstlinMrs">Mrs
+                  Estlin</ref>.</p><closer><signed rend="indent8"> Robert Southey.</signed></closer></div></body></text></TEI>
