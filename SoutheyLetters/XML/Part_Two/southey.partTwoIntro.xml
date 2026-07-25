@@ -1,54 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Introduction to Part Two</title>
-                <title type="sub" level="m">The Collected Letters of Robert Southey, Part
-                    Two</title>
-                <author>Ian Packer</author>
-                <author>Lynda Pratt</author>
-                <editor>Ian Packer</editor>
-                <editor>Lynda Pratt</editor>
-                <respStmt>
-                    <resp>TEI Encoding</resp>
-                    <name>Averill Buchanan</name>
-                </respStmt>
-                <sponsor>Romantic Circles</sponsor>
-                <respStmt>
-                    <resp>Director</resp>
-                    <name>Thora Brylowe</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Technical Editor</resp>
-                    <name>Laura Mandell</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition n="2">Part Two <date>2026-09-15</date></edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-                    and Texas A&amp;M University</publisher>
-                <pubPlace>College Station, TX</pubPlace>
-                <availability status="free">
-                    <p>This document is made available via a Creative Commons Zero License, as
-                        described under "Conditions of Use" at
-                        http://romantic-circles.org/about/submission-guidelines and here:</p>
-                    <p>As of July 2027, all material published on Romantic Circles is licensed under
-                        Creative Commons Zero (CC 0), unless otherwise noted.</p>
-                    <p>Unless otherwise noted, users are not permitted to download texts and images
-                        published before December 2023 in order to mount them on their own
-                        servers.</p>
-                </availability>
-                <idno type="edition">southey.partTwoIntro</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Introduction to Part Two</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part
+                    Two</title><author>Ian Packer</author><author>Lynda Pratt</author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="2">Part Two <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+                    and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.partTwoIntro</idno></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
                     reprint material in this edition. The editors would be grateful to hear from any
                     copyright holder who is not here acknowledged and undertake to rectify any
-                    omissions or errors in future updates of this edition.</p>
-                <p>The editors thank the following for giving us access to manuscripts in their
+                    omissions or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                     collections: the Beinecke Rare Books and Manuscript Library, Yale University;
                     Berg Collection of English and American Literature, The New York Public Library,
                     Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
@@ -64,153 +19,28 @@
                     Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
                     Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
                     Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-                    Wisbech and Fenland Museum; the University of Virginia Library.</p>
-                <p>A research grant from the British Academy made much of the archival work
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
                     possible, as did support from the English Department of Nottingham Trent
-                    University.</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-                        ‘, and ' for ’.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
-                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard.</p>
-                    <p>Dashes have been rendered as a variable number of hyphens to give a more
-                        exact rendering of their length.</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Southey's spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>£ has been used for £, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy targetDatcat="https://viaf.org/">
-                    <bibl>VIAF</bibl>
-                    <category xml:id="viaf_61576896">
-                        <catDesc>Southey, Robert, 1774-1843</catDesc>
-                    </category>
-                    <category xml:id="viaf_118520952">
-                        <catDesc>Pratt, Lynda, 1964-</catDesc>
-                    </category>
-                    <category xml:id="viaf_116328125">
-                        <catDesc>Packer, Ian, 1962-</catDesc>
-                    </category>
-                    <category xml:id="viaf_18359329">
-                        <catDesc>Fulford, Tim, 1962-</catDesc>
-                    </category>
-                    <category xml:id="viaf_42171645">
-                        <catDesc>Bolton, Carol</catDesc>
-                    </category>
-                    <category xml:id="viaf_250654121">
-                        <catDesc>Buchanan, Averill</catDesc>
-                    </category>
-                    <category xml:id="viaf_41749340">
-                        <catDesc>Mandell, Laura, 1958-</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-                    <bibl>Wikidata</bibl>
-                    <category xml:id="Q216838">
-                        <catDesc>Robert Southey</catDesc>
-                    </category>
-                    <category xml:id="Q5977111">
-                        <catDesc>Romantic literature</catDesc>
-                    </category>
-                    <category xml:id="Q36279">
-                        <catDesc>biography</catDesc>
-                    </category>
-                    <category xml:id="Q1277575">
-                        <catDesc>correspondence</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-                    <bibl>Southey Letters: Biographies</bibl>
-                </taxonomy>
-                <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-                    <bibl>Southey Letters: Places</bibl>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef target="#Q216838" scheme="Wikidata"/>
-                <catRef target="#Q5977111" scheme="Wikidata"/>
-                <catRef target="#Q1277575" scheme="Wikidata"/>
-                <catRef target="#viaf_61576896" scheme="VIAF"/>
-                <catRef target="#viaf_118520952" scheme="VIAF"/>
-                <catRef target="#viaf_116328125" scheme="VIAF"/>
-                <catRef target="#viaf_250654121" scheme="VIAF"/>
-                <catRef target="#viaf_41749340" scheme="VIAF"/>
-                <catRef target="#viaf_116328125" scheme="VIAF"/>
-                <catRef target="#viaf_18359329" scheme="VIAF"/>
-                <catRef target="#viaf_42171645" scheme="VIAF"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-                    <item>Created new header for new edition edition XML from old edition XML dated
+                    University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+                        ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                        keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
+                        exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                         2011-08-15. For the old header, see
-                        SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
-                </list></change>
-            <change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-                    <item>Corrected tei encoding (div type cannot be a specific document's id; div
-                        head must contain document information, not html styling information)</item>
-                    <item>If incorrect current document publication information in
+                        SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div
+                        head must contain document information, not html styling information)</item><item>If incorrect current document publication information in
                         sourceDesc/biblstruct, I corrected this prior to moving that information
-                        elsewhere (it shouldn't be "source").</item>
-                </list></change>
-            <change n="7" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
-                    Mandell</name><list>
-                    <item>XSLT Transforming after latest corrections</item>
-                </list></change>
-            <change n="6" when="2011-07-06" who="#LM"><label>Changed by</label><name>Laura
-                    Mandell</name><list>
-                    <item>XSLT Transforming</item>
-                </list></change>
-            <change n="5" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
-                    Buchanan</name><list>
-                    <item>corrections from proofing</item>
-                </list></change>
-            <change n="4" when="2011-02-21" who="#AB"><label>Changed by</label><name>Averill
-                    Buchanan</name><list>
-                    <item>corrections from proofing</item>
-                </list></change>
-            <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-                    Buchanan</name><list>
-                    <item>corrections from proofing</item>
-                </list></change>
-            <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM"
-                    >Laura Mandell</name><list>
-                    <item>XSLT Transforming</item>
-                </list></change>
-            <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-                    >Averill Buchanan</name><list>
-                    <item>TEI Encoding</item>
-                </list></change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="introduction">
-                <head><bibl><title level="a">Introduction to Part Two</title>, <title level="m">The
+                        elsewhere (it shouldn't be "source").</item></list></change><change n="7" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>XSLT Transforming after latest corrections</item></list></change><change n="6" when="2011-07-06" who="#LM"><label>Changed by</label><name>Laura
+                    Mandell</name><list><item>XSLT Transforming</item></list></change><change n="5" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
+                    Buchanan</name><list><item>corrections from proofing</item></list></change><change n="4" when="2011-02-21" who="#AB"><label>Changed by</label><name>Averill
+                    Buchanan</name><list><item>corrections from proofing</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+                    Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">Introduction to Part Two</title>, <title level="m">The
                             Collected Letters of Robert Southey</title>, by <author>Ian
-                            Packer</author> and <author>Lynda Pratt</author><note n="1" place="foot"
-                            resp="editors"><title>Part Two</title> is dedicated to our parents, May
+                            Packer</author> and <author>Lynda Pratt</author><note n="1" place="foot" resp="editors"><title>Part Two</title> is dedicated to our parents, May
                             and John Packer, June Osborn and Colin Pratt, in loving
-                        memory.</note></bibl></head>
-                <p rend="indent1"><title>Part Two</title> is the first-ever collected edition of the
+                        memory.</note></bibl></head><p rend="indent1"><title>Part Two</title> is the first-ever collected edition of the
                     surviving letters written by Southey between 1798 and 1803. The letters
                     published here begin with Southey writing to the <title>Monthly Magazine</title>
                     in January 1798 about Spanish and Portuguese poetry, a subject of lifelong
@@ -222,8 +52,7 @@
                     America and the United Kingdom. It comprises 596 letters, of which 199 are
                     published for the first time, and 107 are published in full for the first time.
                     In addition, 5 letters that appeared pseudonymously in the <title>Monthly
-                        Magazine</title> are here newly attributed to Southey.</p>
-                <p rend="indent1">The letters in <title>Part Two</title> were sent to some 40 very
+                        Magazine</title> are here newly attributed to Southey.</p><p rend="indent1">The letters in <title>Part Two</title> were sent to some 40 very
                     diverse individuals: including friends from childhood and school (Charles
                     Danvers, Grosvenor Bedford and Charles Wynn), from university (Nicholas
                     Lightfoot), from radical youth (Samuel Taylor Coleridge and George Dyer) and
@@ -242,8 +71,7 @@
                     letters to ones now lost remind us of the fragile, selective nature of what has
                     come down to us. It is clear from this edition, that some important
                     correspondences now exist only in part, notably with Coleridge, George Dyer,
-                    Stuart and Cottle.</p>
-                <p rend="indent1">The six years covered by <title>Part Two</title> were a turbulent
+                    Stuart and Cottle.</p><p rend="indent1">The six years covered by <title>Part Two</title> were a turbulent
                     and crucial time for Southey. They are also a period of his career that has been
                     relatively neglected, when he was neither the incendiary radical of his youth or
                     the combustible Tory of his middle and old age. In 1798 Southey was a restless
@@ -254,8 +82,7 @@
                     opted decisively for a literary career and in September of that year taken up
                     residence at Greta Hall, Keswick. His relocation, reluctant and temporary at
                     first, proved permanent and additionally set him on the road to being a ‘Lake’
-                    poet, a label Southey loathed. </p>
-                <p rend="indent1">The letters published here allow for a more accurate, detailed,
+                    poet, a label Southey loathed. </p><p rend="indent1">The letters published here allow for a more accurate, detailed,
                     and nuanced mapping of Southey’s life, works and interactions with and impact
                     upon his contemporaries during these years than has previously been possible.
                     The events they encompass include his reconciliation with Coleridge in 1799; his
@@ -290,12 +117,7 @@
                     ballads, revisionist ‘English Eclogues’ and numerous other shorter poems. In so
                     doing <title>Part Two</title> supplies fresh evidence for how Southey the
                     ‘entire man of letters’ and one of the most prolific authors of his age came
-                    into being.</p>
-                <p rend="indent1">We hope that by making annotated, scholarly texts of the letters
+                    into being.</p><p rend="indent1">We hope that by making annotated, scholarly texts of the letters
                     from 1798-1803 available for the first time, this edition will contribute to a
                     richer, more complex, understanding of this crucial period for Southey and for
-                    British Romanticism as a whole.</p>
-            </div>
-        </body>
-    </text>
-</TEI>
+                    British Romanticism as a whole.</p></div></body></text></TEI>

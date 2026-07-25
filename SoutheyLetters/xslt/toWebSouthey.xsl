@@ -40,6 +40,7 @@
 	</xsl:variable>
 	<xsl:variable name="ptPath">
 		<xsl:choose>
+			<xsl:when test="$getPath = ''">paratext</xsl:when>
 			<xsl:when test="$getPath = '1'">Part_One</xsl:when>
 			<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
 			<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
@@ -198,13 +199,13 @@
 			</xsl:for-each>
 			<xsl:for-each select="$mentionedIDs">
 				<xsl:variable name="currentID" select="."/>
-				<!--<xsl:for-each select="document('people_names.xml')"> -->
+				<xsl:for-each select="document('people_names.xml')">
 					<meta name="People mentioned" class="staticSearch_feat">
 						<xsl:attribute name="content">
-							<xsl:value-of select="key('personLookup', $currentID, doc('people_names.xml'))"/>
+							<xsl:value-of select="key('personLookup', $currentID)"/>
 						</xsl:attribute>
 					</meta>
-				<!--</xsl:for-each>-->
+				</xsl:for-each>
 			</xsl:for-each>
 			<xsl:for-each select="$placeIDs">
 				<xsl:variable name="currentID" select="."/>
@@ -221,7 +222,7 @@
 			<xsl:for-each select="tei:profileDesc/tei:textClass/tei:catRef[@scheme = 'VIAF']">
 				<meta name="viaf">
 					<xsl:attribute name="content">
-					<xsl:value-of select="concat('http://viaf.org/viaf/', substring-after(@target, '#viaf_'))"/>
+					<xsl:value-of select="concat('http://viaf.org/viaf/',substring-after(@target, '#'))"/>
 					</xsl:attribute>
 				</meta>
 			</xsl:for-each>

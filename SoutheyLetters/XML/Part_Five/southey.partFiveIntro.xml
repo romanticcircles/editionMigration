@@ -1,50 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">Introduction to Part Five</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Five</title>
-            <author>Lynda Pratt</author>
-            <editor>Tim Fulford</editor><editor>Ian Packer</editor><editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="5">Part Five <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
-                  under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed under
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.partFiveIntro</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Introduction to Part Five</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Five</title><author>Lynda Pratt</author><editor>Tim Fulford</editor><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="5">Part Five <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.partFiveIntro</idno></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -59,129 +17,26 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q36279">
-                  <catDesc>biography</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-            <catRef target="#viaf_116328125" scheme="VIAF"/>
-            <catRef target="#viaf_18359329" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2016-06-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected tei encoding (div type cannot be a specific document's id; div head
-                  must contain document information, not html styling information)</item>
-               <item>If incorrect current document publication information in sourceDesc/biblstruct,
+               </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div head
+                  must contain document information, not html styling information)</item><item>If incorrect current document publication information in sourceDesc/biblstruct,
                   I corrected this prior to moving that information elsewhere (it shouldn't be
-                  "source").</item>
-            </list></change>
-         <change n="1" when="2015-12-17" who="#LM"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Ran transforms for proofing Southey Part 5</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="introduction">
-            <head><bibl><title level="a">Introduction to Part Five</title>, <title level="m">The
+                  "source").</item></list></change><change n="1" when="2015-12-17" who="#LM"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 5</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">Introduction to Part Five</title>, <title level="m">The
                      Collected Letters of Robert Southey</title>, by <author>Lynda
-                  Pratt</author></bibl></head>
-            <p><title>Part Five</title> collects, in one place for the first time, the surviving
+                  Pratt</author></bibl></head><p><title>Part Five</title> collects, in one place for the first time, the surviving
                letters written by Robert Southey between 1816 and 1818. It follows the editorial
                conventions described in About this Edition and contains newly transcribed, fully
                annotated texts of 537 letters drawn from archives in the United Kingdom, Europe and
                North America. Of these, 341 are published for the first time, with a further 51
-               published here in full for the first time. </p>
-            <p rend="indent1">The letters brought together in this edition begin on 2 January 1816
+               published here in full for the first time. </p><p rend="indent1">The letters brought together in this edition begin on 2 January 1816
                with an account of Southey’s latest task as Poet Laureate (the composition of a New
                Year’s Ode) and his progress on a topical new poem, <title>The Poet’s Pilgrimage to
                   Waterloo</title> (Letter 2690). They conclude on New Year’s Eve 1818 with a letter
@@ -214,8 +69,7 @@
                Advocates, which Southey refused (Letter 3148); the chaotic relationship between
                William Wilberforce and his servants (Letter 3204); and the increasing rarity of
                bitterns in the Lake District, a scarcity not helped by the actions of a visiting
-               Cambridge undergraduate, who shot, killed and ate one (Letter 3033). </p>
-            <p rend="indent1">The 537 letters published here are proof that Southey remained a
+               Cambridge undergraduate, who shot, killed and ate one (Letter 3033). </p><p rend="indent1">The 537 letters published here are proof that Southey remained a
                vigorous and indefatigable correspondent in mid life, even though the demands on his
                time were increasing apace. <title>Part Five</title> sees the continuation of
                established correspondences with friends and colleagues, including Mary Barker,
@@ -233,8 +87,7 @@
                the contingencies of literary history. What we have here are the remains of a much
                larger output. Southey’s letters to Coleridge, Peter Elmsley, Charles Lamb, Sharon
                Turner and William Wordsworth exist only in part, while other correspondences have
-               been lost entirely and can now only be glimpsed in letters sent to others. </p>
-            <p rend="indent1">In January 1816 Southey was forty-one years old and an established,
+               been lost entirely and can now only be glimpsed in letters sent to others. </p><p rend="indent1">In January 1816 Southey was forty-one years old and an established,
                though controversial, writer. He had been married since 1795 and fathered seven
                children, five of whom were still living – Edith May, Herbert, Bertha, Kate and
                Isabel. He had been resident at Greta Hall, on the outskirts of the market town of
@@ -255,8 +108,7 @@
                the child’s presence: the ‘wound will never close while I remain’ in ‘this country’
                (Letter 2757). Although he eventually decided to stay put, the bankruptcy of his
                landlord in 1817 and uncertainty over the future ownership of the property threatened
-               Southey’s continued tenancy of his home (Letter 2961). </p>
-            <p rend="indent1">In 1816–1818 Southey was concerned – as he had been earlier in his
+               Southey’s continued tenancy of his home (Letter 2961). </p><p rend="indent1">In 1816–1818 Southey was concerned – as he had been earlier in his
                career – with the local, national and international. His travels, documented in long
                letters to family and friends and in a journal, opened up new places, led to meetings
                with, amongst others, the writer and expert on Latin America Alexander Humboldt, and
@@ -294,13 +146,10 @@
                2859, 2908, 3191). Southey’s letters do more than just describe these occasions and
                individuals. Many of the links he forged with his visitors had been initiated, and
                were to be sustained in the future, via letter writing. His letters are thus evidence
-               of the central role played by correspondence in Romantic period social networking. </p>
-            <p rend="indent1">Southey often expressed relief when the ‘succession of company’ was
-               over, when he could settle, as he explained in November 1817: </p>
-            <quote>… to my winters work, with the probability of as few interruptions from without,
+               of the central role played by correspondence in Romantic period social networking. </p><p rend="indent1">Southey often expressed relief when the ‘succession of company’ was
+               over, when he could settle, as he explained in November 1817: </p><quote>… to my winters work, with the probability of as few interruptions from without,
                as Bruin has when he rolls himself up in his cave, &amp; trusts to his paws till the
-               spring. (Letter 3034)</quote>
-            <p>As his letters reveal, Southey was as busy as ever in 1816–1818. His literary output
+               spring. (Letter 3034)</quote><p>As his letters reveal, Southey was as busy as ever in 1816–1818. His literary output
                continued to be prolific and diverse, covering domestic and international subjects,
                current affairs and the recent and the distant past. He contributed regularly to the
                   <title>Quarterly Review</title> and laboured on the <title>History of
@@ -315,12 +164,9 @@
                including, in 1818, an epitaph for Ralph Broome, the nephew of his old friend James
                Burney and the novelist Fanny Burney (Letter 3070). He refused, however, numerous
                uninvited solicitations for verses. These included one of 1817 from an individual
-               identified only as ‘N.T.P.’, who had importuned Southey to </p>
-            <quote>… compose an acrostic for the writer to express his passion for Rebecca, a rival
+               identified only as ‘N.T.P.’, who had importuned Southey to </p><quote>… compose an acrostic for the writer to express his passion for Rebecca, a rival
                having lately got a head of him in consequence of having addressed some verses to the
-               object of their affections … (Letter 3016)</quote>
-            <p>‘N.T.P.’s request was accompanied by 20 shillings, which Southey gave to charity. </p>
-            <p rend="indent1">A high profile figure since the mid 1790s, Southey retained his
+               object of their affections … (Letter 3016)</quote><p>‘N.T.P.’s request was accompanied by 20 shillings, which Southey gave to charity. </p><p rend="indent1">A high profile figure since the mid 1790s, Southey retained his
                appetite for controversy and, in his writings, engaged with acutely topical and
                contentious issues, including the need for effective censorship of the radical press,
                which attracted the opprobrium and ridicule of contemporaries such as Leigh Hunt and
@@ -331,8 +177,7 @@
                Southey’s reaction to being confronted, publicly, with the ghost of his radical
                youth. It has long been assumed that in spring 1817 Southey responded to the
                   <title>Wat Tyler</title> affair by publishing a letter in the
-                  <title>Courier</title> on 17 March 1817.<note n="2" place="foot" resp="editors"
-                  >This belief almost certainly arose because of Cuthbert Southey’s handling of the
+                  <title>Courier</title> on 17 March 1817.<note n="2" place="foot" resp="editors">This belief almost certainly arose because of Cuthbert Southey’s handling of the
                   letter to the Editor of the <title>Courier</title>, which he misdated 17 March
                   1817 (see Letter 2946 of our edition). Cuthbert published this in the main run of
                   letters dealing with the furore over <title>Wat Tyler</title> and while he did not
@@ -371,8 +216,7 @@
                light on these and other controversies, the letters we publish here demonstrate that
                although the years 1816–1818 were important ones in Southey’s career and impacted on
                his longer-term reputation, they are yet to be fully documented or completely
-               understood. </p>
-            <p rend="indent1">While writing to the moment – be it to a government minister, to
+               understood. </p><p rend="indent1">While writing to the moment – be it to a government minister, to
                newspapers or in the pages of the <title>Quarterly Review</title> – remained
                important to Southey, he also had an eye ever on posterity. In an unpublished draft
                of <title>A Letter to William Smith</title>, he described himself in the third person
@@ -393,8 +237,7 @@
                took a wrong turn. Other projects planned in this period – notably a ‘desultory poem
                in blank verse’ occasioned by the death of his son – were never finished (Letter
                2969). The letters published here provide fresh evidence on how these and other
-               writings did or did not come about and the reasons for this. </p>
-            <p rend="indent1">Key to Southey’s career in 1816–1818 was the importance that he placed
+               writings did or did not come about and the reasons for this. </p><p rend="indent1">Key to Southey’s career in 1816–1818 was the importance that he placed
                upon his role as a writer and on the capacity of his poetry and prose to influence
                public life for the better, as he thought, both in the present and the future. This
                belief had been given fresh impetus by his appointment in 1813 as Poet Laureate and
@@ -409,8 +252,7 @@
                prose, too, was galvanised and shaped by a similar preoccupation. He was, he
                explained, in writing on issues of current public concern for the <title>Quarterly
                   Review</title>, ‘giving my whole time and thought to these great subjects’ in
-               order to ‘take the lead in preparing &amp; informing the public’ (Letter 3066). </p>
-            <p rend="indent1">However, Southey did not have things his own way and contemporaries
+               order to ‘take the lead in preparing &amp; informing the public’ (Letter 3066). </p><p rend="indent1">However, Southey did not have things his own way and contemporaries
                did not always agree with the information he wished to put before them. His ambitions
                for the Poet Laureateship were consistently thwarted by attacks from all sides and by
                the compromises forced on him. These included being obliged to continue producing
@@ -422,15 +264,13 @@
                published works. In 1815–1816 he wanted to use ‘Belle-Alliance’, ‘anything but
                Waterloo’, in the title of his new, battlefield-visit poem in an attempt to expose
                the self-serving actions of the Duke of Wellington, who had given ‘the name of
-               Waterloo … to the battle … in a spirit of the lowest &amp; vilest jealousy’. <note
-                  n="3" place="foot" resp="editors">See Southey to Thomas Southey, 17 December 1815,
+               Waterloo … to the battle … in a spirit of the lowest &amp; vilest jealousy’. <note n="3" place="foot" resp="editors">See Southey to Thomas Southey, 17 December 1815,
                      <title>The Collected Letters of Robert Southey. Part Four</title>, Letter
                   2684.</note> Politically well-connected friends and acquaintances cautioned
                against this, concerned that using the Prussian name for the battle would offend
                Wellington and lead to trouble. Southey eventually, not without considerable protest,
                caved in and the volume duly appeared in 1816 as <title>The Poet’s Pilgrimage to
-                  Waterloo</title>. </p>
-            <p rend="indent1">Southey made a great deal of noise in his correspondence about wishing
+                  Waterloo</title>. </p><p rend="indent1">Southey made a great deal of noise in his correspondence about wishing
                to publicly expose and humiliate individuals, such as William Smith, Henry Brougham,
                Leigh Hunt, Francis Jeffrey and the Duke of Wellington, whom he detested. Yet, in
                practice, his polemics were often moderated. William Gifford, for example, censored
@@ -439,11 +279,9 @@
                whose advice Southey often asked, accepted and acted on, also impacted on his
                writing, though Southey tended to take their interventions with a grace not reserved
                for Gifford and his ilk. ‘I would’, he informed one of his oldest friends, Charles
-               Wynn</p>
-            <quote>… take reproof from you as a dog does blows from his master; – which same dog if
+               Wynn</p><quote>… take reproof from you as a dog does blows from his master; – which same dog if
                he were struck by a stranger would make his teeth meet in the calf of his leg.
-               (Letter 2976)</quote>
-            <p>It was friends who, in 1817, urged him to remove any reference to duelling from
+               (Letter 2976)</quote><p>It was friends who, in 1817, urged him to remove any reference to duelling from
                   <title>A Letter to William Smith</title>, on the grounds that Smith might be
                provoked to challenge the Poet Laureate (e.g. Letter 2976). Southey acted on their
                advice. The following year he began work on a public letter, a ‘Tender epistle’,
@@ -452,22 +290,16 @@
                my neighbours’ and to expose him ‘as he deserves to be exposed’ (Letter 3167).
                Friends again dissuaded him. The ‘epistle’ was abandoned and remained unpublished
                until 1821 when sections – with Brougham’s name removed – appeared in the second
-               edition of the Laureate ode <title>Carmen Triumphale</title>.<note n="4" place="foot"
-                  resp="editors">See Southey, <title>Carmen Triumphale, For the Commencement of the
+               edition of the Laureate ode <title>Carmen Triumphale</title>.<note n="4" place="foot" resp="editors">See Southey, <title>Carmen Triumphale, For the Commencement of the
                      Year 1814</title>, 2nd edn (London, 1821), pp. 45–53.</note> Southey’s letters
                thus reveal a significant difference between what he proclaimed he would do and what
                he actually ended up publishing. In so doing, they show how even the most combative
                of writers had to negotiate the transition of their writings into a hostile,
-               potentially fatal, public sphere. </p>
-            <p rend="indent1">The letters we publish here make available important new information
+               potentially fatal, public sphere. </p><p rend="indent1">The letters we publish here make available important new information
                about Southey’s writing life and his intersections with contemporaries drawn from
                many different walks of life, including literature, politics and religion. They show
                his career in progress, reveal that it was more complex than has previously been
                thought, and provide compelling evidence about how his works were shaped and reshaped
                by external pressures that he could not always control or defeat. They thus refine
                our understanding both of Southey and of the ways in which individual writers came to
-               terms with the complex and contentious culture of the late 1810s.</p>
-         </div>
-      </body>
-   </text>
-</TEI>
+               terms with the complex and contentious culture of the late 1810s.</p></div></body></text></TEI>

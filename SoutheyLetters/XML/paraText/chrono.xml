@@ -28,42 +28,31 @@
             <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
                Texas A&amp;M University</publisher>
             <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
-                  under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed under
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
             <idno type="edition">chrono</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
-               copyright holder who is not here acknowledged and undertake to rectify any
-               omissions or errors in future updates of this edition.</p>
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
             <p>The editors thank the following for giving us access to manuscripts in their
-               collections: the Beinecke Rare Books and Manuscript Library, Yale University;
-               Berg Collection of English and American Literature, The New York Public Library,
-               Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-               British Library; Boston Public Library; the Syndics of Cambridge University
-               Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-               Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-               Liverpool Libraries and Information Services; the Houghton Library, Harvard
-               University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-               Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-               Massachusetts Historical Society; McGill University Library; the National
-               Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-               (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-               Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-               Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-               Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-               Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work
-               possible, as did support from the English Department of Nottingham Trent
-               University.</p>
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -151,13 +140,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2026-07-13" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
-            <item>Revised table according to TEI guidelines.</item>
-            </list>
-         </change>
+         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML files</item>
+            </list></change>
+         <change when="2026-07-13" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Revised table according to TEI guidelines.</item>
+            </list></change>
          <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
                <item>Created new header for new edition edition XML from old edition XML dated
                   2013-05-30. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
@@ -217,8 +205,8 @@
             <table xml:id="chrono">
                <row>
                   <cell rend="colDate"> 1774 </cell>
-                  <cell rend="colEvent">12 August: Born in Bristol, eldest surviving child of Robert and
-                     Margaret Hill Southey.</cell>
+                  <cell rend="colEvent">12 August: Born in Bristol, eldest surviving child of Robert
+                     and Margaret Hill Southey.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -242,9 +230,9 @@
                </row>
                <row>
                   <cell rend="colDate">1781–1787</cell>
-                  <cell rend="colEvent">Educated at various schools in and around Bristol and Bath. As a
-                     child, he develops the ambition to be a poet and produces a vast quantity of
-                     juvenile verse.</cell>
+                  <cell rend="colEvent">Educated at various schools in and around Bristol and Bath.
+                     As a child, he develops the ambition to be a poet and produces a vast quantity
+                     of juvenile verse.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -292,9 +280,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August–October: Writes twelve book version of <title level="m"
-                        >Joan of Arc</title> whilst staying in Brixton with Grosvenor Charles
-                     Bedford and family.</cell>
+                  <cell rend="colEvent">August–October: Writes twelve book version of <title
+                        level="m">Joan of Arc</title> whilst staying in Brixton with Grosvenor
+                     Charles Bedford and family.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -306,13 +294,14 @@
                </row>
                <row>
                   <cell rend="colDate"> 1794 </cell>
-                  <cell rend="colEvent">April: Plans at least one jointly-authored volume of poetry with
-                     Robert Lovell.</cell>
+                  <cell rend="colEvent">April: Plans at least one jointly-authored volume of poetry
+                     with Robert Lovell.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
                   <!--widths changed by #LM for automatic processing -->
-                  <cell rend="colEvent">May: Southey probably becomes engaged to Edith Fricker.</cell>
+                  <cell rend="colEvent">May: Southey probably becomes engaged to Edith
+                     Fricker.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -321,22 +310,22 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">July: Southey leaves Oxford and decides not to return. Southey
-                     and Lovell visit Cruttwell, a Bath publisher, who agrees to publish <title
-                        level="m">Poems</title> (1795) and <title level="m">Joan</title> by
+                  <cell rend="colEvent">July: Southey leaves Oxford and decides not to return.
+                     Southey and Lovell visit Cruttwell, a Bath publisher, who agrees to publish
+                        <title level="m">Poems</title> (1795) and <title level="m">Joan</title> by
                      subscription.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Summer/autumn: Southey begins work on a new, blank verse version
-                     of <title>Madoc</title> and writes a play, <title level="m">Wat
-                     Tyler</title>.</cell>
+                  <cell rend="colEvent">Summer/autumn: Southey begins work on a new, blank verse
+                     version of <title>Madoc</title> and writes a play, <title level="m">Wat
+                        Tyler</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: Southey, Coleridge and Lovell write a three act play,
-                        <title level="m">The Fall of Robespierre</title> (Lovell’s contribution is
-                     later rejected). Coleridge takes a copy to London and Cambridge.</cell>
+                  <cell rend="colEvent">August: Southey, Coleridge and Lovell write a three act
+                     play, <title level="m">The Fall of Robespierre</title> (Lovell’s contribution
+                     is later rejected). Coleridge takes a copy to London and Cambridge.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -346,15 +335,15 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October: Southey’s aunt, Elizabeth Tyler, throws him out of her
-                     house when she learns of his relationship with Edith Fricker and plans for a
-                     Pantisocracy.</cell>
+                  <cell rend="colEvent">October: Southey’s aunt, Elizabeth Tyler, throws him out of
+                     her house when she learns of his relationship with Edith Fricker and plans for
+                     a Pantisocracy.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: Joseph Cottle, who is introduced to Southey by Lovell,
-                     offers to publish <title level="m">Joan</title>, negotiations continue until
-                     early 1795.</cell>
+                  <cell rend="colEvent">November: Joseph Cottle, who is introduced to Southey by
+                     Lovell, offers to publish <title level="m">Joan</title>, negotiations continue
+                     until early 1795.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -372,13 +361,13 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">March–April: Southey gives a series of ‘Historical Lectures’ at
-                     Bristol.</cell>
+                  <cell rend="colEvent">March–April: Southey gives a series of ‘Historical Lectures’
+                     at Bristol.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May: Southey begins to revise <title level="m">Joan</title> for
-                     publication and works on <title level="m">Madoc</title>.</cell>
+                  <cell rend="colEvent">May: Southey begins to revise <title level="m">Joan</title>
+                     for publication and works on <title level="m">Madoc</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -387,8 +376,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: Southey decides to study law. Breach with Coleridge and
-                     final end of Pantisocracy scheme.</cell>
+                  <cell rend="colEvent">August: Southey decides to study law. Breach with Coleridge
+                     and final end of Pantisocracy scheme.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -430,15 +419,15 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">February: Begins to study law at Grays Inn, London; meets Joseph
-                     Johnson’s circle, including Mary Wollstonecraft and William Godwin. Also begins
-                     work on a new version of <title level="m">Madoc</title> (revising 1794–5
+                  <cell rend="colEvent">February: Begins to study law at Grays Inn, London; meets
+                     Joseph Johnson’s circle, including Mary Wollstonecraft and William Godwin. Also
+                     begins work on a new version of <title level="m">Madoc</title> (revising 1794–5
                      version).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May: Begins to revise <title level="m">Joan</title> after Cottle
-                     calls for a second edition; also makes changes to <title level="m"
+                  <cell rend="colEvent">May: Begins to revise <title level="m">Joan</title> after
+                     Cottle calls for a second edition; also makes changes to <title level="m"
                         >Poems</title> for a second edition which appears later in the year.</cell>
                </row>
                <row>
@@ -466,8 +455,8 @@
                </row>
                <row>
                   <cell rend="colDate"> 1798 </cell>
-                  <cell rend="colEvent">16 January: Southey’s first poem published in the <title>Morning
-                        Post</title>.</cell>
+                  <cell rend="colEvent">16 January: Southey’s first poem published in the
+                        <title>Morning Post</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -484,8 +473,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May-June: Visits George Burnett in Yarmouth and William Taylor
-                     in Norwich.</cell>
+                  <cell rend="colEvent">May-June: Visits George Burnett in Yarmouth and William
+                     Taylor in Norwich.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -498,8 +487,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August-September: Southey’s visit to Herefordshire. Begins to
-                     plan <title>Thalaba the Destroyer</title> (1801).</cell>
+                  <cell rend="colEvent">August-September: Southey’s visit to Herefordshire. Begins
+                     to plan <title>Thalaba the Destroyer</title> (1801).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -518,8 +507,8 @@
                </row>
                <row>
                   <cell rend="colDate"> 1799 </cell>
-                  <cell rend="colEvent">January: Second edition of <title>Letters Written During a Short
-                        Residence in Spain and Portugal</title> published.</cell>
+                  <cell rend="colEvent">January: Second edition of <title>Letters Written During a
+                        Short Residence in Spain and Portugal</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -547,7 +536,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Late July-early October: Southey and Edith visit Devon.</cell>
+                  <cell rend="colEvent">Late July-early October: Southey and Edith visit
+                     Devon.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -562,8 +552,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October-December: Southey and Edith live at Burton in Hampshire,
-                     where they had stayed in 1797.</cell>
+                  <cell rend="colEvent">October-December: Southey and Edith live at Burton in
+                     Hampshire, where they had stayed in 1797.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -588,8 +578,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">February: Southey writes to his uncle, Herbert Hill, asking to
-                     visit him in Portugal. Begins to plan ‘History of Portugal’.</cell>
+                  <cell rend="colEvent">February: Southey writes to his uncle, Herbert Hill, asking
+                     to visit him in Portugal. Begins to plan ‘History of Portugal’.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -609,9 +599,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">19 July: Southey finishes the first draft of <title>Thalaba the
-                        Destroyer</title> (1801); begins sketching out ideas for <title>The Curse of
-                        Kehama</title> (1810).</cell>
+                  <cell rend="colEvent">19 July: Southey finishes the first draft of <title>Thalaba
+                        the Destroyer</title> (1801); begins sketching out ideas for <title>The
+                        Curse of Kehama</title> (1810).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -631,18 +621,18 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May: Southey begins work on <title>The Curse of Kehama</title>
-                     (1810) and continues intermittently until May 1803.</cell>
+                  <cell rend="colEvent">May: Southey begins work on <title>The Curse of
+                        Kehama</title> (1810) and continues intermittently until May 1803.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: Southey and Edith leave Portugal and return to Bristol by
-                     early July.</cell>
+                  <cell rend="colEvent">June: Southey and Edith leave Portugal and return to Bristol
+                     by early July.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">July: Southey abandons his attempts to study law. He begins to
-                     review again for the <title>Critical Review</title>.</cell>
+                  <cell rend="colEvent">July: Southey abandons his attempts to study law. He begins
+                     to review again for the <title>Critical Review</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -655,8 +645,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Rickman arranges for Southey to be appointed secretary to Isaac
-                     Corry.</cell>
+                  <cell rend="colEvent">Rickman arranges for Southey to be appointed secretary to
+                     Isaac Corry.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -673,7 +663,8 @@
                </row>
                <row>
                   <cell rend="colDate"> 1802 </cell>
-                  <cell rend="colEvent">5 January: Death of Southey’s mother, Margaret Southey.</cell>
+                  <cell rend="colEvent">5 January: Death of Southey’s mother, Margaret
+                     Southey.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -687,8 +678,8 @@
                </row>
                <row>
                   <cell/>
-                  <cell rend="colEvent">Southey ceases to be employed by Isaac Corry; Southey and Edith
-                     move back to Bristol.</cell>
+                  <cell rend="colEvent">Southey ceases to be employed by Isaac Corry; Southey and
+                     Edith move back to Bristol.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -696,9 +687,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">September: Southey visits South Wales with his brother, Tom, and
-                     plans to lease a house at Neath, near Swansea. This falls through, possibly due
-                     to Southey’s reputation as a radical, and he and Edith remain resident in
+                  <cell rend="colEvent">September: Southey visits South Wales with his brother, Tom,
+                     and plans to lease a house at Neath, near Swansea. This falls through, possibly
+                     due to Southey’s reputation as a radical, and he and Edith remain resident in
                      Bristol.</cell>
                </row>
                <row>
@@ -715,9 +706,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: Southey declines William Taylor’s offer to edit the
-                     new <title>Iris</title> newspaper he is launching in Norwich; Southey, however,
-                     contributed a handful of poems between 1803-1804.</cell>
+                  <cell rend="colEvent">December: Southey declines William Taylor’s offer to edit
+                     the new <title>Iris</title> newspaper he is launching in Norwich; Southey,
+                     however, contributed a handful of poems between 1803-1804.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -730,9 +721,9 @@
                </row>
                <row>
                   <cell rend="colDate"> 1803 </cell>
-                  <cell rend="colEvent">January-July: Southey and Edith remain in Bristol; he engages in
-                     writing poetry, reviewing and translating, but spends most of his time on the
-                     ‘History of Portugal’.</cell>
+                  <cell rend="colEvent">January-July: Southey and Edith remain in Bristol; he
+                     engages in writing poetry, reviewing and translating, but spends most of his
+                     time on the ‘History of Portugal’.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -740,8 +731,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">July-August: Southey engaged on Longman’s plan (soon abandoned)
-                     for a ‘Bibliotheca Britannica’.</cell>
+                  <cell rend="colEvent">July-August: Southey engaged on Longman’s plan (soon
+                     abandoned) for a ‘Bibliotheca Britannica’.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -749,15 +740,15 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">late August-early September: Southey and Edith leave Bristol and
-                     travel to Keswick, where they intend to stay on a temporary basis. They move
-                     into Greta Hall, shared with Coleridge and his family, the house’s owner (Mr
-                     Jackson) and his housekeeper (Mrs Wilson).</cell>
+                  <cell rend="colEvent">late August-early September: Southey and Edith leave Bristol
+                     and travel to Keswick, where they intend to stay on a temporary basis. They
+                     move into Greta Hall, shared with Coleridge and his family, the house’s owner
+                     (Mr Jackson) and his housekeeper (Mrs Wilson).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">12 November: ‘A Lamentation’, Southey’s poem on Robert Emmet,
-                     published by William Taylor in <title>The Iris</title>.</cell>
+                  <cell rend="colEvent">12 November: ‘A Lamentation’, Southey’s poem on Robert
+                     Emmet, published by William Taylor in <title>The Iris</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -784,17 +775,17 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Summer: Visits to Keswick are made by Wordsworth, Humphry Davy,
-                     Henry Southey, Richard Duppa, Charles Watkin Williams Wynn; Southey meets John
-                     Thelwall in Kendal.</cell>
+                  <cell rend="colEvent">Summer: Visits to Keswick are made by Wordsworth, Humphry
+                     Davy, Henry Southey, Richard Duppa, Charles Watkin Williams Wynn; Southey meets
+                     John Thelwall in Kendal.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Autumn: Southey reviewing for the <title>Annual Review</title>,
-                     drafting <title>Madoc</title>. He begins <title>Letters from England by Don
-                        Manuel Alvarez Espriella</title>. He seeks preferment to a post in Portugal,
-                     should Britain send an expedition there. He plans his <title>History of
-                        Portugal</title>.</cell>
+                  <cell rend="colEvent">Autumn: Southey reviewing for the <title>Annual
+                        Review</title>, drafting <title>Madoc</title>. He begins <title>Letters from
+                        England by Don Manuel Alvarez Espriella</title>. He seeks preferment to a
+                     post in Portugal, should Britain send an expedition there. He plans his
+                        <title>History of Portugal</title>.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -819,14 +810,14 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Summer: Visits to Greta Hall are made by Danvers; George Koster,
-                     Mary Barker. Southey makes visits in the Lake District to Charles Lloyd, Thomas
-                     Clarkson, Wordsworth; fellwalking.</cell>
+                  <cell rend="colEvent">Summer: Visits to Greta Hall are made by Danvers; George
+                     Koster, Mary Barker. Southey makes visits in the Lake District to Charles
+                     Lloyd, Thomas Clarkson, Wordsworth; fellwalking.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October: Southey visits Edinburgh and meets Francis Jeffrey and
-                     Walter Scott. He ponders moving to Lisbon with his family.</cell>
+                  <cell rend="colEvent">October: Southey visits Edinburgh and meets Francis Jeffrey
+                     and Walter Scott. He ponders moving to Lisbon with his family.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -842,8 +833,8 @@
                </row>
                <row>
                   <cell rend="colDate"> 1806 </cell>
-                  <cell rend="colEvent">Spring: Third edition of <title>Joan of Arc</title> (1796) is
-                     published.</cell>
+                  <cell rend="colEvent">Spring: Third edition of <title>Joan of Arc</title> (1796)
+                     is published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -859,8 +850,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Summer: Southey meets the Bishop of Llandaff at his house near
-                     Windermere. His brothers Henry Herbert Southey and Thomas Southey visit
+                  <cell rend="colEvent">Summer: Southey meets the Bishop of Llandaff at his house
+                     near Windermere. His brothers Henry Herbert Southey and Thomas Southey visit
                      Keswick.</cell>
                </row>
                <row>
@@ -874,14 +865,16 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">30 October: Coleridge returns to Greta Hall, addicted to opium
-                     and alcohol; he announces his intention of separating from his wife.</cell>
+                  <cell rend="colEvent">30 October: Coleridge returns to Greta Hall, addicted to
+                     opium and alcohol; he announces his intention of separating from his
+                     wife.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Winter: Southey reviewing for the <title>Annual Review</title>,
-                     writing articles for the <title>Athenaeum</title>, editing the remains of Henry
-                     Kirke White, beginning his <title>History of Brazil</title>.</cell>
+                  <cell rend="colEvent">Winter: Southey reviewing for the <title>Annual
+                        Review</title>, writing articles for the <title>Athenaeum</title>, editing
+                     the remains of Henry Kirke White, beginning his <title>History of
+                        Brazil</title>.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -889,27 +882,28 @@
                </row>
                <row>
                   <cell rend="colDate"> 1807 </cell>
-                  <cell rend="colEvent">February: Coleridge having left Greta Hall, Southey decides to
-                     reside permanently there and begins gathering his scattered books from storage
-                     with friends.</cell>
+                  <cell rend="colEvent">February: Coleridge having left Greta Hall, Southey decides
+                     to reside permanently there and begins gathering his scattered books from
+                     storage with friends.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">March: Southey’s and Bedford’s jointly-edited <title>Specimens
-                        of the Later English Poets</title> published.</cell>
+                  <cell rend="colEvent">March: Southey’s and Bedford’s jointly-edited
+                        <title>Specimens of the Later English Poets</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Spring: The government’s aim of introducing a bill relaxing the
-                     restrictions placed upon Catholics alarms Southey and causes him to become an
-                     opponent of Catholic Emancipation.</cell>
+                  <cell rend="colEvent">Spring: The government’s aim of introducing a bill relaxing
+                     the restrictions placed upon Catholics alarms Southey and causes him to become
+                     an opponent of Catholic Emancipation.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">March–April: Wynn, on leaving government, arranges that Southey
-                     should receive a pension of £200 per year from the state, replacing the annuity
-                     he had formerly paid Southey from his own funds. The pension is paid tardily;
-                     Southey, short of money, has to borrow from his friend John May.</cell>
+                  <cell rend="colEvent">March–April: Wynn, on leaving government, arranges that
+                     Southey should receive a pension of £200 per year from the state, replacing the
+                     annuity he had formerly paid Southey from his own funds. The pension is paid
+                     tardily; Southey, short of money, has to borrow from his friend John
+                     May.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -938,22 +932,22 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent"> Walter Scott uses his influence to cause Southey to be invited
-                     to write for the <title>Edinburgh Review</title>. He refuses, being opposed to
-                     the journal’s advocacy of Catholic Emancipation and peace with Napoleon, and to
-                     Jeffrey’s reviewing style.</cell>
+                  <cell rend="colEvent"> Walter Scott uses his influence to cause Southey to be
+                     invited to write for the <title>Edinburgh Review</title>. He refuses, being
+                     opposed to the journal’s advocacy of Catholic Emancipation and peace with
+                     Napoleon, and to Jeffrey’s reviewing style.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent"> France invades Portugal. Southey’s uncle Herbert Hill, chaplain
-                     to the British factory in Lisbon, is forced to return to England. Southey’s
-                     friend and benefactor John May, a Lisbon merchant, loses his business and a
-                     substantial part of his fortune.</cell>
+                  <cell rend="colEvent"> France invades Portugal. Southey’s uncle Herbert Hill,
+                     chaplain to the British factory in Lisbon, is forced to return to England.
+                     Southey’s friend and benefactor John May, a Lisbon merchant, loses his business
+                     and a substantial part of his fortune.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Winter: Southey, short of money, reviewing for the <title>Annual
-                        Review</title>.</cell>
+                  <cell rend="colEvent">Winter: Southey, short of money, reviewing for the
+                        <title>Annual Review</title>.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -982,9 +976,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May: Southey is encouraged by the uprising of the Spanish people
-                     against rule by France; he argues that Britain should commit its army to war
-                     against Napoleon in Iberia.</cell>
+                  <cell rend="colEvent">May: Southey is encouraged by the uprising of the Spanish
+                     people against rule by France; he argues that Britain should commit its army to
+                     war against Napoleon in Iberia.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1005,27 +999,27 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Autumn: Southey drafting <title>The Curse of Kehama</title> and
-                     the <title>History of Brazil</title>. He accepts, with some misgivings about
-                     its political ties to government, an invitation arranged by Walter Scott to
-                     become a reviewer for a new journal, the <title>Quarterly Review</title>. It is
-                     edited by his former opponent, the anti-jacobin satirist William Gifford.
+                  <cell rend="colEvent">Autumn: Southey drafting <title>The Curse of Kehama</title>
+                     and the <title>History of Brazil</title>. He accepts, with some misgivings
+                     about its political ties to government, an invitation arranged by Walter Scott
+                     to become a reviewer for a new journal, the <title>Quarterly Review</title>. It
+                     is edited by his former opponent, the anti-jacobin satirist William Gifford.
                   </cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent"> Revised third edition of <title>Letters Written During a Short
-                        Residence in Spain and Portugal</title> published.</cell>
+                  <cell rend="colEvent"> Revised third edition of <title>Letters Written During a
+                        Short Residence in Spain and Portugal</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October: Southey and family visit his new friend Sir Humphrey
-                     Senhouse at Netherhall, Cumbria.</cell>
+                  <cell rend="colEvent">October: Southey and family visit his new friend Sir
+                     Humphrey Senhouse at Netherhall, Cumbria.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November–December: Southey sends off his last reviews for the
-                        <title>Annual Review</title>. Drafting his <title>History of Brazil</title>
+                  <cell rend="colEvent">November–December: Southey sends off his last reviews for
+                     the <title>Annual Review</title>. Drafting his <title>History of Brazil</title>
                      and <title>The Curse of Kehama</title>.</cell>
                </row>
                <row rend="rowSpace">
@@ -1053,8 +1047,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">May: Illness at Greta Hall; Southey fears for his son’s life.
-                     Southey’s supporter Anna Seward dies.</cell>
+                  <cell rend="colEvent">May: Illness at Greta Hall; Southey fears for his son’s
+                     life. Southey’s supporter Anna Seward dies.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1079,18 +1073,20 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Summer: Visits made to Keswick by Thomas Clarkson and Matilda
-                     Betham. Betham paints miniature pictures of Southey and his family.</cell>
+                  <cell rend="colEvent">Summer: Visits made to Keswick by Thomas Clarkson and
+                     Matilda Betham. Betham paints miniature pictures of Southey and his
+                     family.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: Southey agrees to write the ‘History of Europe’ section
-                     for the <title>Edinburgh Annual Register</title>, he contributes to the
+                  <cell rend="colEvent">August: Southey agrees to write the ‘History of Europe’
+                     section for the <title>Edinburgh Annual Register</title>, he contributes to the
                         <title>Register</title> until 1813.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">September: Southey takes a 21-year lease on Greta Hall.</cell>
+                  <cell rend="colEvent">September: Southey takes a 21-year lease on Greta
+                     Hall.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1104,14 +1100,14 @@
                </row>
                <row>
                   <cell rend="colDate"> 1810 </cell>
-                  <cell rend="colEvent"> February: Finishes a review of biographies of Nelson for the
-                        <title>Quarterly Review</title>. This was later expanded at Murray’s request
-                     into a full-length <title>Life of Nelson</title> (1813).</cell>
+                  <cell rend="colEvent"> February: Finishes a review of biographies of Nelson for
+                     the <title>Quarterly Review</title>. This was later expanded at Murray’s
+                     request into a full-length <title>Life of Nelson</title> (1813).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">April: First volume of <title>The History of Brazil</title>, 3
-                     vols (1810-19) published.</cell>
+                  <cell rend="colEvent">April: First volume of <title>The History of Brazil</title>,
+                     3 vols (1810-19) published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1119,7 +1115,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: <title>The Curse of Kehama</title> published.</cell>
+                  <cell rend="colEvent">December: <title>The Curse of Kehama</title>
+                     published.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1136,8 +1133,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November 1811–February 1812: Percy Shelley visits Keswick and
-                     meets Southey.</cell>
+                  <cell rend="colEvent">November 1811–February 1812: Percy Shelley visits Keswick
+                     and meets Southey.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1150,8 +1147,8 @@
                </row>
                <row>
                   <cell rend="colDate">1812</cell>
-                  <cell rend="colEvent">April: Publishes <title>The Origin, Nature and Object of the New
-                        System of Education</title>, a defence of the Madras system of Andrew
+                  <cell rend="colEvent">April: Publishes <title>The Origin, Nature and Object of the
+                        New System of Education</title>, a defence of the Madras system of Andrew
                      Bell.</cell>
                </row>
                <row>
@@ -1165,8 +1162,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: <title>Omniana, or Horae Otiosores</title>, published,
-                     with some contributions by Coleridge.</cell>
+                  <cell rend="colEvent">November: <title>Omniana, or Horae Otiosores</title>,
+                     published, with some contributions by Coleridge.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1179,8 +1176,8 @@
                </row>
                <row>
                   <cell rend="colDate">1813</cell>
-                  <cell rend="colEvent">May: <title>The Life of Nelson</title> published. Begins to plan
-                     the <title>History of the Peninsular War</title> (1823-32).</cell>
+                  <cell rend="colEvent">May: <title>The Life of Nelson</title> published. Begins to
+                     plan the <title>History of the Peninsular War</title> (1823-32).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1194,10 +1191,10 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">September–November: Prolonged visit to London to stay with his
-                     uncle, Herbert Hill, and to write the anonymous pamphlet, <title>An Exposure of
-                        the Misrepresentations and Calumnies in Mr Marsh’s Review of Sir George
-                        Barlow’s Administration at Madras</title>.</cell>
+                  <cell rend="colEvent">September–November: Prolonged visit to London to stay with
+                     his uncle, Herbert Hill, and to write the anonymous pamphlet, <title>An
+                        Exposure of the Misrepresentations and Calumnies in Mr Marsh’s Review of Sir
+                        George Barlow’s Administration at Madras</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1212,10 +1209,10 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: Writes first New Year’s Ode as Laureate, <title>Carmen
-                        Triumphale</title>. After objections from Rickman and Croker, some stanzas
-                     are cut out and published later in a second Ode (‘Who counsels peace at this
-                     momentous hour’).</cell>
+                  <cell rend="colEvent">December: Writes first New Year’s Ode as Laureate,
+                        <title>Carmen Triumphale</title>. After objections from Rickman and Croker,
+                     some stanzas are cut out and published later in a second Ode (‘Who counsels
+                     peace at this momentous hour’).</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1227,13 +1224,13 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">3 February: Ode (‘Who counsels peace at this momentous hour’)
-                     published in the <title>Courier</title>.</cell>
+                  <cell rend="colEvent">3 February: Ode (‘Who counsels peace at this momentous
+                     hour’) published in the <title>Courier</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">March: begins a poem to celebrate the forthcoming marriage of
-                     Princess Charlotte, but abandons this in June 1814, when her engagement is
+                  <cell rend="colEvent">March: begins a poem to celebrate the forthcoming marriage
+                     of Princess Charlotte, but abandons this in June 1814, when her engagement is
                      called off. The poem was eventually reworked and published in 1816 as
                         <title>The Lay of the Laureate. Carmen Nuptiale</title>.</cell>
                </row>
@@ -1249,7 +1246,7 @@
                <row>
                   <cell rend="colDate"/>
                   <cell rend="colEvent">14 July: finishes <title>Roderick, the Last of the
-                     Goths</title>.</cell>
+                        Goths</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1287,12 +1284,12 @@
                <row>
                   <cell rend="colDate">1815</cell>
                   <cell rend="colEvent">February: Finishes first book of <title>Oliver
-                     Newman</title>.</cell>
+                        Newman</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: Collects and reorganizes a selection of his shorter poems
-                     and publishes them in three volumes as <title>Minor Poems</title>.</cell>
+                  <cell rend="colEvent">June: Collects and reorganizes a selection of his shorter
+                     poems and publishes them in three volumes as <title>Minor Poems</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1302,14 +1299,14 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: Dispute with Murray and Gifford over Southey’s review
-                     of books on the Battle of Waterloo for the <title>Quarterly Review</title>
-                     (July 1815).</cell>
+                  <cell rend="colEvent">November: Dispute with Murray and Gifford over Southey’s
+                     review of books on the Battle of Waterloo for the <title>Quarterly
+                        Review</title> (July 1815).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Second and third editions of <title>Roderick, the Last of the
-                        Goths</title> published.</cell>
+                  <cell rend="colEvent">Second and third editions of <title>Roderick, the Last of
+                        the Goths</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1324,8 +1321,8 @@
                </row>
                <row>
                   <cell rend="colDate"> 1816 </cell>
-                  <cell rend="colEvent">8 March: proposes to Longman an edition of the poems of James
-                     Dusautoy - this project was not proceeded with.</cell>
+                  <cell rend="colEvent">8 March: proposes to Longman an edition of the poems of
+                     James Dusautoy - this project was not proceeded with.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1349,19 +1346,19 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">24 August: Southey is visited by Robert Owen. They discuss the
-                     latter’s plans for social reform.</cell>
+                  <cell rend="colEvent">24 August: Southey is visited by Robert Owen. They discuss
+                     the latter’s plans for social reform.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">10 September: Southey declines an offer from the government to
-                     edit a new conservative journal.</cell>
+                  <cell rend="colEvent">10 September: Southey declines an offer from the government
+                     to edit a new conservative journal.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: writes ‘Ode on the Battle of Algiers’ his New Year’s
-                     Ode as Poet Laureate. It was published in <title>The Plain Englishman</title>,
-                     3 (1823).</cell>
+                  <cell rend="colEvent">December: writes ‘Ode on the Battle of Algiers’ his New
+                     Year’s Ode as Poet Laureate. It was published in <title>The Plain
+                        Englishman</title>, 3 (1823).</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1369,9 +1366,9 @@
                </row>
                <row>
                   <cell rend="colDate"> 1817 </cell>
-                  <cell rend="colEvent">January: Southey publishes ‘On the Life of John Wesley’ in the
-                        <title>Correspondent</title>, 1 (1817), the starting point of his <title>The
-                        Life of Wesley</title> (1820).</cell>
+                  <cell rend="colEvent">January: Southey publishes ‘On the Life of John Wesley’ in
+                     the <title>Correspondent</title>, 1 (1817), the starting point of his
+                        <title>The Life of Wesley</title> (1820).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1401,8 +1398,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">25 April: publication of Southey’s <title>A Letter to William
-                        Smith, Esq., M.P.</title> (1817)</cell>
+                  <cell rend="colEvent">25 April: publication of Southey’s <title>A Letter to
+                        William Smith, Esq., M.P.</title> (1817)</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1422,14 +1419,14 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: publication of <title>The Byrth, Lyf, and Actes of Kyng
-                        Arthur</title> (1817), Southey’s edition of <title>Le Morte d’Arthur</title>
-                     (1485).</cell>
+                  <cell rend="colEvent">August: publication of <title>The Byrth, Lyf, and Actes of
+                        Kyng Arthur</title> (1817), Southey’s edition of <title>Le Morte
+                        d’Arthur</title> (1485).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October: publication of second volume of the <title>History of
-                        Brazil</title> (1810-1819).</cell>
+                  <cell rend="colEvent">October: publication of second volume of the <title>History
+                        of Brazil</title> (1810-1819).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1438,8 +1435,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: writes ‘Funeral Song for the Princess Charlotte’, his
-                     New Year’s Ode as Poet Laureate, published in <title>Friendship’s
+                  <cell rend="colEvent">December: writes ‘Funeral Song for the Princess Charlotte’,
+                     his New Year’s Ode as Poet Laureate, published in <title>Friendship’s
                         Offering</title> (1828). Begins to plan <title>Sir Thomas More: or,
                         Colloquies on the Progress and Prospects of Society</title> (1829).</cell>
                </row>
@@ -1449,13 +1446,13 @@
                </row>
                <row>
                   <cell rend="colDate"> 1818 </cell>
-                  <cell rend="colEvent">28 May: writes first letter to Caroline Bowles, who had sent him
-                     the manuscript of her poem, ‘Ellen Fitzarthur’.</cell>
+                  <cell rend="colEvent">28 May: writes first letter to Caroline Bowles, who had sent
+                     him the manuscript of her poem, ‘Ellen Fitzarthur’.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: declines the offer of the post of Librarian to the Faculty
-                     of Advocates’ Library, Edinburgh.</cell>
+                  <cell rend="colEvent">June: declines the offer of the post of Librarian to the
+                     Faculty of Advocates’ Library, Edinburgh.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1474,9 +1471,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">September: fourth editions of <title>The Curse of Kehama</title>
-                     (1810) and <title>Roderick, the Last of the Goths</title> (1814) go to
-                     press.</cell>
+                  <cell rend="colEvent">September: fourth editions of <title>The Curse of
+                        Kehama</title> (1810) and <title>Roderick, the Last of the Goths</title>
+                     (1814) go to press.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1485,9 +1482,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: writes ‘Ode on the Death of Queen Charlotte’, his New
-                     Year’s Ode as Poet Laureate, published in <title>Friendship’s Offering</title>
-                     (1829).</cell>
+                  <cell rend="colEvent">December: writes ‘Ode on the Death of Queen Charlotte’, his
+                     New Year’s Ode as Poet Laureate, published in <title>Friendship’s
+                        Offering</title> (1829).</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1499,9 +1496,9 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">July 1819: First two Cantos of Byron’s <title>Don Juan</title>
-                     published; Southey learns of Byron’s criticisms of him in the suppressed
-                     ‘Dedication’.</cell>
+                  <cell rend="colEvent">July 1819: First two Cantos of Byron’s <title>Don
+                        Juan</title> published; Southey learns of Byron’s criticisms of him in the
+                     suppressed ‘Dedication’.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1524,8 +1521,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent"> December: Writes ‘The Warning Voice. Ode I’ as the New Year’s
-                     Ode for 1820.</cell>
+                  <cell rend="colEvent"> December: Writes ‘The Warning Voice. Ode I’ as the New
+                     Year’s Ode for 1820.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1533,15 +1530,15 @@
                </row>
                <row>
                   <cell rend="colDate">1820</cell>
-                  <cell rend="colEvent">January: Southey is offered the opportunity to edit the writings
-                     of Elton Hamond, who had killed himself on 1 January, but ultimately
+                  <cell rend="colEvent">January: Southey is offered the opportunity to edit the
+                     writings of Elton Hamond, who had killed himself on 1 January, but ultimately
                      declines.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">April: Publication of <title>The Life of Wesley; and the Rise
-                        and Progress of Methodism </title>(1820); Southey writes an (unpublished)
-                     ‘Ode’ for George IV’s official birthday.</cell>
+                  <cell rend="colEvent">April: Publication of <title>The Life of Wesley; and the
+                        Rise and Progress of Methodism </title>(1820); Southey writes an
+                     (unpublished) ‘Ode’ for George IV’s official birthday.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1555,22 +1552,22 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: Southey is offered the opportunity to write a biography of
-                     Warren Hastings (1732–1818; <title>DNB</title>), but ultimately
+                  <cell rend="colEvent">June: Southey is offered the opportunity to write a
+                     biography of Warren Hastings (1732–1818; <title>DNB</title>), but ultimately
                      declines.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">July: Writes an Introduction for William Westall’s <title>Views
-                        of the Lake and the Vale of Keswick</title> (1820); begins to plan an
-                     (unrealised) biography of George Fox (1624–1691; <title>DNB</title>); responds
-                     to Shelley’s letter, accusing him of writing a critical review of Shelley’s
-                     poetry in the <title>Quarterly Review</title>.</cell>
+                  <cell rend="colEvent">July: Writes an Introduction for William Westall’s
+                        <title>Views of the Lake and the Vale of Keswick</title> (1820); begins to
+                     plan an (unrealised) biography of George Fox (1624–1691; <title>DNB</title>);
+                     responds to Shelley’s letter, accusing him of writing a critical review of
+                     Shelley’s poetry in the <title>Quarterly Review</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">26 July: Begins the first of seventeen autobiographical letters
-                     sent to John May 1820–1826.</cell>
+                  <cell rend="colEvent">26 July: Begins the first of seventeen autobiographical
+                     letters sent to John May 1820–1826.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1579,8 +1576,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">December: Writes ‘The Warning Voice. Ode II’ as the New Year’s
-                     Ode for 1821.</cell>
+                  <cell rend="colEvent">December: Writes ‘The Warning Voice. Ode II’ as the New
+                     Year’s Ode for 1821.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1600,8 +1597,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: Publication of <title>The Expedition of Orsua</title>
-                     (1821).</cell>
+                  <cell rend="colEvent">August: Publication of <title>The Expedition of
+                        Orsua</title> (1821).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1619,8 +1616,8 @@
                </row>
                <row>
                   <cell rend="colDate">1822</cell>
-                  <cell rend="colEvent">11 January: Southey’s letter responding to Byron’s criticisms of
-                     him appears in the <title>Courier</title>.</cell>
+                  <cell rend="colEvent">11 January: Southey’s letter responding to Byron’s
+                     criticisms of him appears in the <title>Courier</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1634,13 +1631,13 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">October: Byron’s <title>Vision of Judgment</title> published in
-                     the <title>Liberal</title>.</cell>
+                  <cell rend="colEvent">October: Byron’s <title>Vision of Judgment</title> published
+                     in the <title>Liberal</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: First volume of the <title>History of the Peninsular
-                        War</title> published.</cell>
+                  <cell rend="colEvent">November: First volume of the <title>History of the
+                        Peninsular War</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1653,8 +1650,8 @@
                </row>
                <row>
                   <cell rend="colDate">1823</cell>
-                  <cell rend="colEvent">April–July: Southey finances his brother Thomas Southey to visit
-                     Canada to explore emigrating there; Thomas Southey decides against this
+                  <cell rend="colEvent">April–July: Southey finances his brother Thomas Southey to
+                     visit Canada to explore emigrating there; Thomas Southey decides against this
                      option.</cell>
                </row>
                <row>
@@ -1669,8 +1666,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: Southey proposes to Caroline Bowles that they jointly
-                     write a poem on Robin Hood. They work on this intermittently in
+                  <cell rend="colEvent">November: Southey proposes to Caroline Bowles that they
+                     jointly write a poem on Robin Hood. They work on this intermittently in
                      1824–1826.</cell>
                </row>
                <row>
@@ -1689,8 +1686,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">17–20 January: Southey’s first visit to Caroline Bowles at her
-                     home in Buckland.</cell>
+                  <cell rend="colEvent">17–20 January: Southey’s first visit to Caroline Bowles at
+                     her home in Buckland.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1704,8 +1701,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">April: Bertha Southey leaves Keswick to stay with John Rickman
-                     in London, returning in May 1825.</cell>
+                  <cell rend="colEvent">April: Bertha Southey leaves Keswick to stay with John
+                     Rickman in London, returning in May 1825.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1746,9 +1743,9 @@
                </row>
                <row>
                   <cell rend="colDate">1826</cell>
-                  <cell rend="colEvent">February: <title>Vindicæ Ecclesiæ Anglicanæ. Letters to Charles
-                        Butler, Esq. comprising Essays on the Romish Religion and Vindicating The
-                        Book of the Church</title> published.</cell>
+                  <cell rend="colEvent">February: <title>Vindicæ Ecclesiæ Anglicanæ. Letters to
+                        Charles Butler, Esq. comprising Essays on the Romish Religion and
+                        Vindicating The Book of the Church</title> published.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1762,8 +1759,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: Journey to the Low Countries with Henry Taylor and John
-                     Rickman.</cell>
+                  <cell rend="colEvent">June: Journey to the Low Countries with Henry Taylor and
+                     John Rickman.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
@@ -1790,8 +1787,8 @@
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">Southey starts to add to ‘The Devil’s Walk’, originally composed
-                     in 1799.</cell>
+                  <cell rend="colEvent">Southey starts to add to ‘The Devil’s Walk’, originally
+                     composed in 1799.</cell>
                </row>
                <row rend="rowSpace">
                   <cell/>
@@ -1799,38 +1796,38 @@
                </row>
                <row>
                   <cell rend="colDate">1827</cell>
-                  <cell rend="colEvent">Jan–Aug: Quarrel with the <title>Quarterly Review</title> over
-                     the non-appearance of an article Southey had written. Southey writes for the
-                        <title>Foreign Quarterly Review</title> and <title>Foreign
+                  <cell rend="colEvent">Jan–Aug: Quarrel with the <title>Quarterly Review</title>
+                     over the non-appearance of an article Southey had written. Southey writes for
+                     the <title>Foreign Quarterly Review</title> and <title>Foreign
                      Review</title>.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">April: Thomas Southey’s <title>Chronological History of the West
-                        Indies</title> published, with much assistance from Southey.</cell>
+                  <cell rend="colEvent">April: Thomas Southey’s <title>Chronological History of the
+                        West Indies</title> published, with much assistance from Southey.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">4 April: Southey awarded a Gold Medal by the Royal Society of
-                     Literature.</cell>
+                  <cell rend="colEvent">4 April: Southey awarded a Gold Medal by the Royal Society
+                     of Literature.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">June: The Southey family visit Harrogate. John Jones writes to
-                     Southey, who agrees to arrange the publication of his poetry by
+                  <cell rend="colEvent">June: The Southey family visit Harrogate. John Jones writes
+                     to Southey, who agrees to arrange the publication of his poetry by
                      subscription.</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">August: Southey agrees to edit the letters of James Wolfe for
-                     Murray, though this project was not proceeded with; and to produce a selection
-                     of his <title>Quarterly Review</title> articles as <title>Essays, Moral and
-                        Political</title> (1832).</cell>
+                  <cell rend="colEvent">August: Southey agrees to edit the letters of James Wolfe
+                     for Murray, though this project was not proceeded with; and to produce a
+                     selection of his <title>Quarterly Review</title> articles as <title>Essays,
+                        Moral and Political</title> (1832).</cell>
                </row>
                <row>
                   <cell rend="colDate"/>
-                  <cell rend="colEvent">November: Family visits to Tallantire Hall and to Netherhall in
-                     Cumberland.</cell>
+                  <cell rend="colEvent">November: Family visits to Tallantire Hall and to Netherhall
+                     in Cumberland.</cell>
                </row>
             </table>
          </div>
