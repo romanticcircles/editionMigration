@@ -1,61 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">6. Robert Southey to Charles Collins, [c. 16 April
-					1792]</title>
-				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
-					One</title>
-				<author role="primary" from="1774" to="1843"><persName
-						ana="http://viaf.org/viaf/61576896"
-							><forename>Robert</forename><surname>Southey</surname></persName></author>
-				<editor>Lynda Pratt</editor>
-				<respStmt>
-					<resp>TEI Encoding</resp>
-					<name>Averill Buchanan</name>
-				</respStmt>
-				<sponsor>Romantic Circles</sponsor>
-				<respStmt>
-					<resp>Director</resp>
-					<name>Thora Brylowe</name>
-				</respStmt>
-				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="1">Part One <date>2026-07-20</date></edition>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-					and Texas A&amp;M University</publisher>
-				<pubPlace>College Station, TX</pubPlace>
-				<availability status="free">
-					<p>This document is made available via a Creative Commons Zero License, as
-						described under "Conditions of Use" at
-						http://romantic-circles.org/about/submission-guidelines and here:</p>
-					<p>As of July 2027, all material published on Romantic Circles is licensed uder
-						Creative Commons Zero (CC 0), unless otherwise noted.</p>
-					<p>Unless otherwise noted, users are not permitted to download texts and images
-						published before December 2023 in order to mount them on their own
-						servers.</p>
-				</availability>
-				<idno type="edition">southey.1.6</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Huntington Library, HM 44797. ALS; 4p. . Previously published: Roland Baughman,
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">6. Robert Southey to Charles Collins, [c. 16 April
+					1792]</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part
+					One</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="1">Part One <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.1.6</idno></publicationStmt><sourceDesc><p>Huntington Library, HM 44797. ALS; 4p. . Previously published: Roland Baughman,
 					‘Southey the Schoolboy’, Huntington Library Quarterly, 7 (1944), 258–260. Dating
 					note: The subject of ‘To Ignorance’ confirms a date around the time of Southey’s
 					expulsion from Westminster School in April 1792. Another version of the poem is
 					in the Houghton Library, MS Eng 265.2; and a copy, in an unknown hand, dated
 					‘Apr. 16, 1792’ and sent to Charles Collins, is in the Morgan Library, MA
-					1471.</p>
-				<p>These letters were edited by Lynda Pratt</p>
-				<p>For permission to publish the text of MSS in their possession, the editor wishes
-					to thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-					Collection of English and American Literature, The New York Public Library,
+					1471.</p><p>These letters were edited by Lynda Pratt</p><p>Every effort has been made to contact copyright holders for their permission to
+					reprint material in this edition. The editors would be grateful to hear from any
+					copyright holder who is not here acknowledged and undertake to rectify any
+					omissions or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+					collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+					Berg Collection of English and American Literature, The New York Public Library,
 					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
 					British Library; Boston Public Library; the Syndics of Cambridge University
 					Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
@@ -69,302 +26,46 @@
 					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
 					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
 					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-					Wisbech and Fenland Museum; the University of Virginia Library.</p>
-				<p>A research grant from the British Academy made much of the archival work
+					Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
 					possible, as did support from the English Department of Nottingham Trent
-					University.</p>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard.</p>
-					<p>Dashes have been rendered as a variable number of hyphens to give a more
-						exact rendering of their length.</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Southey's spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy targetDatcat="https://viaf.org/">
-					<bibl>VIAF</bibl>
-					<category xml:id="viaf_61576896">
-						<catDesc>Southey, Robert, 1774-1843</catDesc>
-					</category>
-					<category xml:id="viaf_118520952">
-						<catDesc>Pratt, Lynda, 1964-</catDesc>
-					</category>
-					<category xml:id="viaf_116328125">
-						<catDesc>Packer, Ian, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_18359329">
-						<catDesc>Fulford, Tim, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_42171645">
-						<catDesc>Bolton, Carol</catDesc>
-					</category>
-					<category xml:id="viaf_250654121">
-						<catDesc>Buchanan, Averill</catDesc>
-					</category>
-					<category xml:id="viaf_41749340">
-						<catDesc>Mandell, Laura, 1958-</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-					<bibl>Wikidata</bibl>
-					<category xml:id="Q37068">
-						<catDesc>Romanticism</catDesc>
-					</category>
-					<category xml:id="Q1277575">
-						<catDesc>correspondence</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-					<bibl>Southey Letters: Biographies</bibl>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-					<bibl>Southey Letters: Places</bibl>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<catRef target="#Q1277575" scheme="Wikidata"/>
-				<catRef target="#viaf_61576896" scheme="VIAF"/>
-				<catRef target="#viaf_118520952" scheme="VIAF"/>
-				<catRef target="#viaf_250654121" scheme="VIAF"/>
-				<catRef target="#viaf_41749340" scheme="VIAF"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-					<item>Created new header for new edition edition XML from old edition XML dated
+					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
 						2009-03-15. For the old header, see
-						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
-				</list></change>
-			<change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR"
-					>David Rettenmaier</name><list>
-					<item>Update of TEI headers to conform to new template</item>
-				</list></change>
-			<change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
-					Mandell</name><list>
-					<item>XSLT Transforming</item>
-				</list></change>
-			<change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
-					Buchanan</name><list>
-					<item>corrections from proofing</item>
-				</list></change>
-			<change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM"
-					>Laura Mandell</name><list>
-					<item>XSLT Transforming</item>
-				</list></change>
-			<change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB"
-					>Averill Buchanan</name><list>
-					<item>TEI Encoding</item>
-				</list></change>
-			<change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
-					Rettenmaier</name><list>
-					<item>Ran transforms for proofing Southey Part 6</item>
-				</list></change>
-			<change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
-					Rettenmaier</name><list>
-					<item>Incorporated new header info per Averill Buchanan and other minor
-						fixes.</item>
-				</list></change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div n="6" type="letter">
-				<head>6. Robert Southey to <ref type="a" target="people.html#CollinsCharles">Charles
-						Collins</ref>, <date when="1792-04-16">[c. 16 April 1792]</date><note
-						place="foot" resp="editors" type="headnote">Address: M<hi rend="sup">r</hi>
+						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
+					Mandell</name><list><item>XSLT Transforming</item></list></change><change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
+					Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
+					Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
+					Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor
+						fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="6" type="letter"><head>6. Robert Southey to <ref type="a" target="people.html#CollinsCharles">Charles
+						Collins</ref>, <date when="1792-04-16">[c. 16 April 1792]</date><note place="foot" resp="editors" type="headnote">Address: M<hi rend="sup">r</hi>
 						C Collins/ opposite the lying in hospital/ Lambeth/ near Westminster
 						bridge<lb/>Stamped: WALTHAM CROSS<lb/> Postmark: [partial, obscured] CA/ 16/
 						92<lb/> Endorsements: [4 illegible lines in another hand heavily scored
 						through] <lb/>MS: Huntington Library, HM 44797. ALS; 4p.<lb/> Previously
-						published: Roland Baughman, ‘Southey the Schoolboy’, <title level="j"
-							>Huntington Library Quarterly</title>, 7 (1944), 258–260. <lb/>Dating
+						published: Roland Baughman, ‘Southey the Schoolboy’, <title level="j">Huntington Library Quarterly</title>, 7 (1944), 258–260. <lb/>Dating
 						note: The subject of ‘To Ignorance’ confirms a date around the time of
 						Southey’s expulsion from Westminster School in April 1792. Another version
 						of the poem is in the Houghton Library, MS Eng 265.2; and a copy, in an
 						unknown hand, dated ‘Apr. 16, 1792’ and sent to Charles Collins, is in the
-						Morgan Library, MA 1471.</note></head>
-				<lb/>
-				<p rend="indent4"> To Ignorance</p>
-				<p rend="indent4">___________</p>
-				<lg type="stanza">
-					<l rend="indent3"> Parent of happiness — thou well-wig’d god</l>
-					<l rend="indent4"> With staring eye &amp; solemn stedfast gait — </l>
-					<l rend="indent3"> Come with thy book — thy beads &amp; sceptre rod</l>
-					<l rend="indent4"> Come in despotic, dull scholastic state</l>
-					<l rend="indent2">Dispel the ray of science from my breast</l>
-					<l rend="indent2">Bid me o Ignorance be dull — be blest —</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Genius avaunt — torment my soul no more.</l>
-					<l rend="indent4"> Extinguish Ignorance Ambitions flame —</l>
-					<l rend="indent3"> Teach me thyself. blot out the learned lore</l>
-					<l rend="indent4"> That whilome mark’d me candidate for fame —</l>
-					<l rend="indent2">Let me o drowsy God be all thy own</l>
-					<l rend="indent2">And I may one day mount the mitred throne.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Ah Sensibility thou wilt not hence</l>
-					<l rend="indent4"> Still still wilt thou command the soft’ning tear!</l>
-					<l rend="indent3"> Why Nature didst thou curse my birth with sense?</l>
-					<l rend="indent4"> Why teach me nought but Ignorance to fear?</l>
-					<l rend="indent2">Too soon alas has Nisus<note n="1" place="foot" resp="editors"
-							>In Virgil’s (70–19 BC) <title level="m">Aeneid</title>, a follower of
+						Morgan Library, MA 1471.</note></head><lb/><p rend="indent4"> To Ignorance</p><p rend="indent4">___________</p><lg type="stanza"><l rend="indent3"> Parent of happiness — thou well-wig’d god</l><l rend="indent4"> With staring eye &amp; solemn stedfast gait — </l><l rend="indent3"> Come with thy book — thy beads &amp; sceptre rod</l><l rend="indent4"> Come in despotic, dull scholastic state</l><l rend="indent2">Dispel the ray of science from my breast</l><l rend="indent2">Bid me o Ignorance be dull — be blest —</l></lg><lb/><lg type="stanza"><l rend="indent3"> Genius avaunt — torment my soul no more.</l><l rend="indent4"> Extinguish Ignorance Ambitions flame —</l><l rend="indent3"> Teach me thyself. blot out the learned lore</l><l rend="indent4"> That whilome mark’d me candidate for fame —</l><l rend="indent2">Let me o drowsy God be all thy own</l><l rend="indent2">And I may one day mount the mitred throne.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Ah Sensibility thou wilt not hence</l><l rend="indent4"> Still still wilt thou command the soft’ning tear!</l><l rend="indent3"> Why Nature didst thou curse my birth with sense?</l><l rend="indent4"> Why teach me nought but Ignorance to fear?</l><l rend="indent2">Too soon alas has Nisus<note n="1" place="foot" resp="editors">In Virgil’s (70–19 BC) <title level="m">Aeneid</title>, a follower of
 							Aeneas, famous for his friendship with Euryalus.</note> learnt to
-						know</l>
-					<l rend="indent2">Increase of knowledge, but increase of woe.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Had I been ignorant I had been blest</l>
-					<l rend="indent4"> Unmarkd by Vice by Calumny &amp; <ref type="m"
-							target="people.html#DoddJamesWilliam">Dodd</ref> —</l>
-					<l rend="indent3"> The fire of Freedom had not warmd my breast</l>
-					<l rend="indent4"> And I had bowd submiss beneath the rod —</l>
-					<l rend="indent2">Yes I had pass’d with credit thro’ the school</l>
-					<l rend="indent2">An ignorant, contented, favor’d fool.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Tho’ Genius on my birth diffus’d a ray</l>
-					<l rend="indent4"> That kindled Emulations glowing flame —</l>
-					<l rend="indent3"> Tho’ Science led &amp; pointed out the way</l>
-					<l rend="indent4"> And proud Ambition climb’d the path of Fame.</l>
-					<l rend="indent2">Stupidity disguisd in sacred gown</l>
-					<l rend="indent2">And Pedantry await to thrust me down.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Lo where the Wigs assemble in debate —</l>
-					<l rend="indent4"> Where Canterbury<note n="2" place="foot" resp="editors">John
+						know</l><l rend="indent2">Increase of knowledge, but increase of woe.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Had I been ignorant I had been blest</l><l rend="indent4"> Unmarkd by Vice by Calumny &amp; <ref type="m" target="people.html#DoddJamesWilliam">Dodd</ref> —</l><l rend="indent3"> The fire of Freedom had not warmd my breast</l><l rend="indent4"> And I had bowd submiss beneath the rod —</l><l rend="indent2">Yes I had pass’d with credit thro’ the school</l><l rend="indent2">An ignorant, contented, favor’d fool.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Tho’ Genius on my birth diffus’d a ray</l><l rend="indent4"> That kindled Emulations glowing flame —</l><l rend="indent3"> Tho’ Science led &amp; pointed out the way</l><l rend="indent4"> And proud Ambition climb’d the path of Fame.</l><l rend="indent2">Stupidity disguisd in sacred gown</l><l rend="indent2">And Pedantry await to thrust me down.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Lo where the Wigs assemble in debate —</l><l rend="indent4"> Where Canterbury<note n="2" place="foot" resp="editors">John
 							Moore (c. 1730–1805; <title level="m">DNB</title>), Archbishop of
-							Canterbury, 1783–1805.</note> whets the butcher knife —</l>
-					<l rend="indent3"> Where Markham<note n="3" place="foot" resp="editors">William
+							Canterbury, 1783–1805.</note> whets the butcher knife —</l><l rend="indent3"> Where Markham<note n="3" place="foot" resp="editors">William
 							Markham (c. 1719–1807; <title level="m">DNB</title>), Archbishop of
 							York, 1777–1807. Earlier in his career he had been Head Master of
 							Westminster School and Dean of Christ Church, Oxford.</note> reassumes
-						his birchen state —</l>
-					<l rend="indent4"> And <ref type="m" target="people.html#WingfieldJohn"
-							>Wingfield</ref> reembarks in legal strife —</l>
-					<l rend="indent2">Revenge &amp; Infamy &amp; Hell &amp; <ref type="m"
-							target="people.html#DoddJamesWilliam">Dodd</ref></l>
-					<l rend="indent2">With ghastly smile await the <ref type="m"
-							target="people.html#VincentWilliam">Doctor’s</ref> nod.<note n="4"
-							place="foot" resp="editors">A list of those Southey believed were
+						his birchen state —</l><l rend="indent4"> And <ref type="m" target="people.html#WingfieldJohn">Wingfield</ref> reembarks in legal strife —</l><l rend="indent2">Revenge &amp; Infamy &amp; Hell &amp; <ref type="m" target="people.html#DoddJamesWilliam">Dodd</ref></l><l rend="indent2">With ghastly smile await the <ref type="m" target="people.html#VincentWilliam">Doctor’s</ref> nod.<note n="4" place="foot" resp="editors">A list of those Southey believed were
 							responsible for the decision to expel him from Westminster School in
-							1792.</note></l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Yes I will pour my vengeance on his head</l>
-					<l rend="indent4"> (With grin tremendous thus the Doctor cries)</l>
-					<l rend="indent3"> Yes all my anger shall on him be shed</l>
-					<l rend="indent4"> Who dares in spite of Westminster be wise —</l>
-					<l rend="indent2">Ruin at him be hurld from Lambeths throne<note n="5"
-							place="foot" resp="editors">The Archbishop of Canterbury, whose London
-							residence was Lambeth Palace.</note></l>
-					<l rend="indent2">And Law shall mark the victim for her own.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Yes Law shall seize him (<ref type="m"
-							target="people.html#WingfieldJohn">Wingfield</ref> thus replied)</l>
-					<l rend="indent4"> Shall seize the stripling &amp; thus make him famous —</l>
-					<l rend="indent3"> Tho’ Reason once could check scholastic pride</l>
-					<l rend="indent4"> And tho’ the Jury markd me Ignoramus —</l>
-					<l rend="indent2">Tho’ when I plac’d the turtle in the pool </l>
-					<l rend="indent2">The surly hostler laughd &amp; calld me fool,</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Tho’ Justice &amp; tho’ Equity oppose</l>
-					<l rend="indent4"> Yet what are these when once compard with Law?</l>
-					<l rend="indent3"> The Church shall mark them as her deadly foes</l>
-					<l rend="indent4"> And strike their rebel souls with sacred awe —</l>
-					<l rend="indent2">The Church shall mark them thus the synod cry</l>
-					<l rend="indent2">Whilst Persecution beams &lt;glares<note n="6" place="foot"
-							resp="editors">glares: Inserted in another hand.</note>&gt; from every
-						eye.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Let Persecution threat me — haughty More<note n="7"
-							place="foot" resp="editors">John Moore, Archbishop of
-						Canterbury.</note></l>
-					<l rend="indent4"> I will not tamely to the slaughter go.</l>
-					<l rend="indent3"> In Satires quiver many a shaft in store</l>
-					<l rend="indent4"> Shall fence with Innocence from every foe.</l>
-					<l rend="indent2">I dare your utmost rage — nor Church nor Law</l>
-					<l rend="indent2">Nor both combin’d can strike my soul with awe</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Tho’ no huge wig can shelter oer my brow</l>
-					<l rend="indent4"> Tho’ no black gown protect for every sin —</l>
-					<l rend="indent3"> I will not to the Inquisition bow</l>
-					<l rend="indent4"> Nor meanly cringe security to win —</l>
-					<l rend="indent2">Still Innocence opprest can find a friend</l>
-					<l rend="indent2">And whom the Church accuses Reed<note n="8" place="foot"
-							resp="editors">Isaac Reed (1742–1807; <title level="m">DNB</title>),
+							1792.</note></l></lg><lb/><lg type="stanza"><l rend="indent3"> Yes I will pour my vengeance on his head</l><l rend="indent4"> (With grin tremendous thus the Doctor cries)</l><l rend="indent3"> Yes all my anger shall on him be shed</l><l rend="indent4"> Who dares in spite of Westminster be wise —</l><l rend="indent2">Ruin at him be hurld from Lambeths throne<note n="5" place="foot" resp="editors">The Archbishop of Canterbury, whose London
+							residence was Lambeth Palace.</note></l><l rend="indent2">And Law shall mark the victim for her own.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Yes Law shall seize him (<ref type="m" target="people.html#WingfieldJohn">Wingfield</ref> thus replied)</l><l rend="indent4"> Shall seize the stripling &amp; thus make him famous —</l><l rend="indent3"> Tho’ Reason once could check scholastic pride</l><l rend="indent4"> And tho’ the Jury markd me Ignoramus —</l><l rend="indent2">Tho’ when I plac’d the turtle in the pool </l><l rend="indent2">The surly hostler laughd &amp; calld me fool,</l></lg><lb/><lg type="stanza"><l rend="indent3"> Tho’ Justice &amp; tho’ Equity oppose</l><l rend="indent4"> Yet what are these when once compard with Law?</l><l rend="indent3"> The Church shall mark them as her deadly foes</l><l rend="indent4"> And strike their rebel souls with sacred awe —</l><l rend="indent2">The Church shall mark them thus the synod cry</l><l rend="indent2">Whilst Persecution beams &lt;glares<note n="6" place="foot" resp="editors">glares: Inserted in another hand.</note>&gt; from every
+						eye.</l></lg><lb/><lg type="stanza"><l rend="indent3"> Let Persecution threat me — haughty More<note n="7" place="foot" resp="editors">John Moore, Archbishop of
+						Canterbury.</note></l><l rend="indent4"> I will not tamely to the slaughter go.</l><l rend="indent3"> In Satires quiver many a shaft in store</l><l rend="indent4"> Shall fence with Innocence from every foe.</l><l rend="indent2">I dare your utmost rage — nor Church nor Law</l><l rend="indent2">Nor both combin’d can strike my soul with awe</l></lg><lb/><lg type="stanza"><l rend="indent3"> Tho’ no huge wig can shelter oer my brow</l><l rend="indent4"> Tho’ no black gown protect for every sin —</l><l rend="indent3"> I will not to the Inquisition bow</l><l rend="indent4"> Nor meanly cringe security to win —</l><l rend="indent2">Still Innocence opprest can find a friend</l><l rend="indent2">And whom the Church accuses Reed<note n="8" place="foot" resp="editors">Isaac Reed (1742–1807; <title level="m">DNB</title>),
 							literary scholar and editor of Shakespeare, tried — and failed — to
 							prevent Egerton, the printer of <title level="j">The Flagellant</title>,
 							from revealing Southey’s name to the Westminster School
-							authorities.</note> defend.</l>
-				</lg>
-				<p rend="indent4"> ————————— </p>
-				<lg type="stanza">
-					<l rend="indent2"><ref type="m" target="people.html#CollinsCharles"
-							>Collins</ref> farewell — no more with thee the day</l>
-					<l rend="indent3"> Shall glide in social converse swift along —</l>
-					<l rend="indent2">No more the hours unheeded pass away</l>
-					<l rend="indent3"> No more with thee shall flow the tide of song —</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent2">See Persecution lifts her hated rod</l>
-					<l rend="indent3"> Resentment deepens in the Doctors frown</l>
-					<l rend="indent2">Revenge with ghastly pleasure smiles on <ref type="m"
-							target="people.html#DoddJamesWilliam">Dodd</ref></l>
-					<l rend="indent3"> And Malice lurks beneath the sacred gown —</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent2">Ruin awaits each chearless future hour</l>
-					<l rend="indent3"> Nor Genius Worth or Innocence can save —</l>
-					<l rend="indent2">Where can I shield me from the arm of power?</l>
-					<l rend="indent3"> Where can I seek for shelter but the grave?</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent2">Let Friendship sometimes drop the pitying tear</l>
-					<l rend="indent2">Nor chill Misfortune make the friend less dear.</l>
-				</lg>
-				<p rend="indent4"> —————————</p>
-				<closer><signed rend="indent10">RS.</signed></closer>
-			</div>
-		</body>
-	</text>
-</TEI>
+							authorities.</note> defend.</l></lg><p rend="indent4"> ————————— </p><lg type="stanza"><l rend="indent2"><ref type="m" target="people.html#CollinsCharles">Collins</ref> farewell — no more with thee the day</l><l rend="indent3"> Shall glide in social converse swift along —</l><l rend="indent2">No more the hours unheeded pass away</l><l rend="indent3"> No more with thee shall flow the tide of song —</l></lg><lb/><lg type="stanza"><l rend="indent2">See Persecution lifts her hated rod</l><l rend="indent3"> Resentment deepens in the Doctors frown</l><l rend="indent2">Revenge with ghastly pleasure smiles on <ref type="m" target="people.html#DoddJamesWilliam">Dodd</ref></l><l rend="indent3"> And Malice lurks beneath the sacred gown —</l></lg><lb/><lg type="stanza"><l rend="indent2">Ruin awaits each chearless future hour</l><l rend="indent3"> Nor Genius Worth or Innocence can save —</l><l rend="indent2">Where can I shield me from the arm of power?</l><l rend="indent3"> Where can I seek for shelter but the grave?</l></lg><lb/><lg type="stanza"><l rend="indent2">Let Friendship sometimes drop the pitying tear</l><l rend="indent2">Nor chill Misfortune make the friend less dear.</l></lg><p rend="indent4"> —————————</p><closer><signed rend="indent10">RS.</signed></closer></div></body></text></TEI>

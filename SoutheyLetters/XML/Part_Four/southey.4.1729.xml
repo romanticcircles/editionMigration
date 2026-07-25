@@ -1,53 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">1729. Robert Southey to [? James] Ballantyne,
-               [1810]</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="4">Part Four <date>2026-07-20</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
-                  under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed uder
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.4.1729</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Beinecke Library, GEN MSS 298, Series I, Box 1, folder 1. ALS; 4p.. Not previously
-               published.</p>
-            <p>These letters were edited with the assistance of Ian Packer and Lynda Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">1729. Robert Southey to [? James] Ballantyne,
+               [1810]</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="4">Part Four <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.4.1729</idno></publicationStmt><sourceDesc><p>Beinecke Library, GEN MSS 298, Series I, Box 1, folder 1. ALS; 4p.. Not previously
+               published.</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
                Library; Boston Public Library; the Syndics of Cambridge University Library; the
@@ -61,184 +19,37 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="tbl1729" scheme="css">width: 740px; border: none;</rendition>
-            <rendition xml:id="cell1" scheme="css">width: 40px;</rendition>
-            <rendition xml:id="cell2" scheme="css">width: 700px;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-            <catRef target="#viaf_116328125" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2027-07-14" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
-               <item>made tables TEI compliant</item>
-            </list>
-         </change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl1729" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 40px;</rendition><rendition xml:id="cell2" scheme="css">width: 700px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="1729" type="letter">
-            <head>1729. Robert Southey to <ref type="a" target="people.html#BallantyneJames">[?
-                  James] Ballantyne</ref>, <date when="1810-01-01">[1810]</date><note resp="editors"
-                  place="foot" type="headnote">Address: To/M<hi rend="sup">r</hi> Ballantyne<lb/>MS:
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="1729" type="letter"><head>1729. Robert Southey to <ref type="a" target="people.html#BallantyneJames">[?
+                  James] Ballantyne</ref>, <date when="1810-01-01">[1810]</date><note resp="editors" place="foot" type="headnote">Address: To/M<hi rend="sup">r</hi> Ballantyne<lb/>MS:
                   Beinecke Library, GEN MSS 298, Series I, Box 1, folder 1. ALS;
                   4p.<lb/>Unpublished.<lb/>Dating note: The letter deals with proofing corrections
                   for the <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810) and
-                  therefore probably dates to very early 1810.</note></head>
-            <opener><salute>Dear Sir</salute></opener>
-            <p rend="indent1"> Having found me so bold &amp; blunt a writer, you will not be
-               displeased at finding I am not an obstinate one also.<note n="1" resp="editors"
-                  place="foot">The letter begins with a set of proofing corrections for the
+                  therefore probably dates to very early 1810.</note></head><opener><salute>Dear Sir</salute></opener><p rend="indent1"> Having found me so bold &amp; blunt a writer, you will not be
+               displeased at finding I am not an obstinate one also.<note n="1" resp="editors" place="foot">The letter begins with a set of proofing corrections for the
                      <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810).</note> Wherever
                my language can be qualified without <del>xx</del> sacrificing my opinions, it shall
-               be readily done.</p>
-            <table rendition="#tbl1729">
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">p. 2. the Note is cancelled.</cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">D<hi rend="sup">o</hi> – the expression concerning M<hi
-                        rend="sup">r</hi> Pitt corrected to your desire.<note n="2" resp="editors"
-                        place="foot">The ‘expression’ which had been corrected could have been
+               be readily done.</p><table rendition="#tbl1729"><row><cell rendition="#cell1"/><cell rendition="#cell2">p. 2. the Note is cancelled.</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">D<hi rend="sup">o</hi> – the expression concerning M<hi rend="sup">r</hi> Pitt corrected to your desire.<note n="2" resp="editors" place="foot">The ‘expression’ which had been corrected could have been
                         concerned with William Pitt’s (1759–1806; <title>DNB</title>) abandonment in
                         1804 of his pro-Catholic emancipation policy in order to become Prime
                         Minister. For the published version, <title>Edinburgh Annual Register, for
-                           1808</title>, 1.1 (1810), 2.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">4. This also is altered, – &amp; I thank you for having called
-                     me to reconsider it.</cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell>5. M<hi rend="sup">r</hi> Wyndhams bill certainly abolished the ballot. – I
+                           1808</title>, 1.1 (1810), 2.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">4. This also is altered, – &amp; I thank you for having
+                     called me to reconsider it.</cell></row><row><cell rendition="#cell1"/><cell>5. M<hi rend="sup">r</hi> Wyndhams bill certainly abolished the ballot. – I
                      have no documents to refer to, but can rely upon my memory for the accuracy of
                      the statement. Lord Castlereagh brought it back again last year, – for which it
                      will be my duty to give him his deserts, – &amp; it <del>is probably</del>
@@ -257,40 +68,27 @@
                         were allowed; see <title>Edinburgh Annual Register, for 1808</title>, 1.1
                         (1810), 5, 83–92. Southey commented on Castlereagh’s initiative in
                            <title>Edinburgh Annual Register, for 1809</title>, 2.1 (1811),
-                        308–310.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">6. The royal family. I perceive you have understood the latter
-                     part of the sentence as relating to the Abolition,<note n="4" resp="editors"
-                        place="foot">i.e. the abolition of the slave-trade in 1807, rather than
-                        William Windham’s (1750–1810; <title>DNB</title>), Army Act of 1806, which
-                        suspended the ballot used to recruit the militia.</note> whereas it refers
-                     to the Army Bill. This however does not lesson the force of the charge. I have
-                     altered it thus – “inasmuch as they had to contend for both against the
-                     greatest &amp; most formidable influence.”<note n="5" resp="editors"
-                        place="foot">The alternative was approved; see <title>Edinburgh Annual
-                           Register, for 1808</title>, 1.1 (1810), 6.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">13. The passage concerning <ref type="m"
-                        target="people.html#WilberforceWilliam">Wilberforce</ref> will be more
+                        308–310.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">6. The royal family. I perceive you have understood the
+                     latter part of the sentence as relating to the Abolition,<note n="4" resp="editors" place="foot">i.e. the abolition of the slave-trade in 1807,
+                        rather than William Windham’s (1750–1810; <title>DNB</title>), Army Act of
+                        1806, which suspended the ballot used to recruit the militia.</note> whereas
+                     it refers to the Army Bill. This however does not lesson the force of the
+                     charge. I have altered it thus – “inasmuch as they had to contend for both
+                     against the greatest &amp; most formidable influence.”<note n="5" resp="editors" place="foot">The alternative was approved; see
+                           <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810),
+                     6.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">13. The passage concerning <ref type="m" target="people.html#WilberforceWilliam">Wilberforce</ref> will be more
                      difficult to alter, if it must needs be altered. I meant no stigma upon our
                      national faith nor is &lt;their&gt; any <del>implied</del> &lt;either&gt;
                      expressed or implied in the sentence. Our Church (that is the English Church)
-                     whatever may be the complection of its articles,<note n="6" resp="editors"
-                        place="foot">The Thirty Nine Articles (1563) outline the doctrine of the
+                     whatever may be the complection of its articles,<note n="6" resp="editors" place="foot">The Thirty Nine Articles (1563) outline the doctrine of the
                         Church of England. They can be interpreted as much more in line with the
                         teachings of the French theologian, Jean Calvin (1509–1564), than his Dutch
                         critic, Jacobus Arminius (1560–1609), especially on the issue of
-                        predestination and free will.</note> has long been Arminian, – <ref type="m"
-                        target="people.html#WilberforceWilliam">Mr Wilberforce</ref> is a Calvinist.
+                        predestination and free will.</note> has long been Arminian, – <ref type="m" target="people.html#WilberforceWilliam">Mr Wilberforce</ref> is a Calvinist.
                      Will this do, – “but he derived also <del>considerable</del> &lt;great&gt;
                      influence from being considered as the head of the Calvinistic churchmen, &amp;
                      from the reverence with which he was regarded by the Orthodox Dissenters.” –
-                     This may be substituted if you think proper.<note n="7" resp="editors"
-                        place="foot">Southey’s correction was approved; see <title>Edinburgh Annual
+                     This may be substituted if you think proper.<note n="7" resp="editors" place="foot">Southey’s correction was approved; see <title>Edinburgh Annual
                            Register, for 1808</title>, 1.1 (1810), 12.</note> Do not have any
                      apprehension that any thing which proceeds from me, whether upon subjects of
                      general policy, morals, fine literature, or religion, will ever be classed upon
@@ -300,29 +98,17 @@
                      them I shall be in more danger of the charge of fanaticism than of irreligion,
                      – referring as I needs must do to the righteous &amp; unerring distributions of
                      providence; &amp; having the moral order of the Universe, for the pole star by
-                     which I steer.</cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">p. 3. There is a blank concerning the number of hundred men
-                     which I cannot fill up.<note n="9" resp="editors" place="foot">The ‘several
+                     which I steer.</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">p. 3. There is a blank concerning the number of hundred
+                     men which I cannot fill up.<note n="9" resp="editors" place="foot">The ‘several
                         hundred brave men’ who perished in 1807 during the failed British attempt to
                         conquer the Rio de la Plata; see <title>Edinburgh Annual Register, for
-                           1808</title>, 1.1 (1810), 3.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">p. 7. “after the manner in which the subject of Cath. Em. had
-                     previously been <hi rend="ital">received</hi>. – Received is not the word, –
-                     &amp; very provokingly I can neither call to mind what the word was, nor
+                           1808</title>, 1.1 (1810), 3.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">p. 7. “after the manner in which the subject of Cath. Em.
+                     had previously been <hi rend="ital">received</hi>. – Received is not the word,
+                     – &amp; very provokingly I can neither call to mind what the word was, nor
                      substitute one so appropriate. – By referring to the MS. it may probably be
-                     made out. – Is it <hi rend="ital">waived</hi>? I think so.<note n="10"
-                        resp="editors" place="foot">It was, and ‘waived’ was used in the published
+                     made out. – Is it <hi rend="ital">waived</hi>? I think so.<note n="10" resp="editors" place="foot">It was, and ‘waived’ was used in the published
                         version; see <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810),
-                        7.</note></cell>
-               </row>
-            </table>
-            <p rend="indent1"> Thus far I have endeavoured to correct every thing to your wish.
+                        7.</note></cell></row></table><p rend="indent1"> Thus far I have endeavoured to correct every thing to your wish.
                Suffer me on my part to request that the word <hi rend="ital">wanton</hi> at p. 13.
                may stand.<note n="11" resp="editors" place="foot">It did stet, see <title>Edinburgh
                      Annual Register, for 1808</title>, 1.1 (1810), 13: ‘the ruinous consequences of
@@ -331,26 +117,21 @@
                unfortunate &amp; not unjust; but as I never can think of its &lt;commencement&gt;
                without indignation as well as grief, so can I never allude to it without expressing
                a deep conviction of its folly &amp; injustice. – I wish also the personal pronoun
-                  <hi rend="ital">I</hi> to stand p. 15.<note n="12" resp="editors" place="foot"
-                  >Ballantyne did not allow it to stand.</note><hi rend="ital">we are</hi> but one,
+                  <hi rend="ital">I</hi> to stand p. 15.<note n="12" resp="editors" place="foot">Ballantyne did not allow it to stand.</note><hi rend="ital">we are</hi> but one,
                &amp; it is more dignified as well as more honest to use language, which appropriates
-               the opinion delivered to the individual delivering it.</p>
-            <p rend="indent1"> I had thought as you do, respecting a general view of the state of
+               the opinion delivered to the individual delivering it.</p><p rend="indent1"> I had thought as you do, respecting a general view of the state of
                Europe. But upon arranging my plan &amp; giving it as much consideration as I was
                capable of bestowing, it appeared to me that the first paragraph stated all which was
                necessary to be premised, in a way the more impressive from its brevity, &amp; that
                the detail will come in more conveniently hereafter, &amp; some of it indeed serve to
-               lighten the weight of the Parliamentary Chapters.<note n="13" resp="editors"
-                  place="foot">Chapters 3–9 in the <title>Edinburgh Annual Register, for
+               lighten the weight of the Parliamentary Chapters.<note n="13" resp="editors" place="foot">Chapters 3–9 in the <title>Edinburgh Annual Register, for
                      1808</title>, 1.1 (1810), 29–185.</note> Do what I will with these they must be
                heavy; – &amp; if there were to be a motto to them, it ought to be the old proverb
-               ‘There is no making a silk purse of a sows ear.’</p>
-            <p rend="indent1"> The arrangement of the subsequent Chapters is this – after the
+               ‘There is no making a silk purse of a sows ear.’</p><p rend="indent1"> The arrangement of the subsequent Chapters is this – after the
                Copenhagen Debates, Ch. 4 – Those which grew out of that question concerning the
                Dardanelles, &amp; the Mediation of Russia, – Ch. 5. The Orders in Council. Ch. 6.
                miscellaneous Debates upon important subjects – omitting the unimportant ones
-               altogether. 7 – The Swedish war – as far as it can be collected.<note n="14"
-                  resp="editors" place="foot">This plan was not followed in <title>Edinburgh Annual
+               altogether. 7 – The Swedish war – as far as it can be collected.<note n="14" resp="editors" place="foot">This plan was not followed in <title>Edinburgh Annual
                      Register, for 1808</title>, 1.1 (1810): Chapter 4 dealt with both debates about
                   the bombardment of Copenhagen in 1807 and Russia’s offer of mediation between
                   Britain and France; the Orders in Council of 1807 on trade with the Continent were
@@ -359,38 +140,30 @@
                done with E Indian affairs?<note n="15" resp="editors" place="foot">An account of the
                   affairs of the East India Company appeared in <title>Edinburgh Annual Register,
                      for 1808</title>, 1.1 (1810), 133–147.</note> Your title properly excludes
-               them, – &amp; I could wish them left to the Asiatic Ann. Register,<note n="16"
-                  resp="editors" place="foot">The <title>Asiatic Annual Register</title>
+               them, – &amp; I could wish them left to the Asiatic Ann. Register,<note n="16" resp="editors" place="foot">The <title>Asiatic Annual Register</title>
                   (1799–1811), published by Cadell and Davies.</note> because I am quite incompetent
                to the subject, never having paid the slightest attention to it. Indeed I come to
                this whole <del>task</del> &lt;work&gt; under many disadvantages, &amp; had it not
                been for the interest which Spanish affairs excite in me, &amp; my earnest feeling
                respecting the general question of war, &amp; the lamentable mismanagement of it, I
                should have declined undertaking what in its dull parts is a very laborious, &amp; in
-               its better ones a very invidious task.</p>
-            <p rend="indent1"> In the parts which are yet to write I will so contrive as that all
+               its better ones a very invidious task.</p><p rend="indent1"> In the parts which are yet to write I will so contrive as that all
                the intermediate leaves which remain blank may be cut out, &amp; not go to the ounce
-               of postage.</p>
-            <p rend="indent1"> I am as anxious as you can be to get on with the work, – &amp; am
+               of postage.</p><p rend="indent1"> I am as anxious as you can be to get on with the work, – &amp; am
                using &amp; will use as much expedition as is compatible with doing it well. A little
                time might be gained by paging the appendix of state papers seperately, &amp;
                printing them as you went on, – this also would enable us to refer from the History
-               to the page where the Document is to be found.<note n="17" resp="editors"
-                  place="foot">This plan was adopted and in <title>Edinburgh Annual Register, for
+               to the page where the Document is to be found.<note n="17" resp="editors" place="foot">This plan was adopted and in <title>Edinburgh Annual Register, for
                      1808</title>, 1.1 (1810) the 42 state papers were paginated
-               xix–ciii.</note></p>
-            <p rend="indent1"> It would be an interesting &amp; useful thing if you were to give in
+               xix–ciii.</note></p><p rend="indent1"> It would be an interesting &amp; useful thing if you were to give in
                your second volume a complete list of all the Newspapers, Magazines, Reviews, &amp;
                periodical Journals whatsoever, published at this present time in Great Britain, –
-               &amp; also a list of all the books published within the year.<note n="18"
-                  resp="editors" place="foot"><title>Edinburgh Annual Register, for 1808</title>,
+               &amp; also a list of all the books published within the year.<note n="18" resp="editors" place="foot"><title>Edinburgh Annual Register, for 1808</title>,
                   1.2 (1810), i–xxxii contained a list of publications for 1808. But there was no
-                  list of newspapers.</note> You have in your Prospectus<note n="19" resp="editors"
-                  place="foot">The ‘Prospectus’ to the <title>Edinburgh Annual Register, for
+                  list of newspapers.</note> You have in your Prospectus<note n="19" resp="editors" place="foot">The ‘Prospectus’ to the <title>Edinburgh Annual Register, for
                      1808</title>, 1.1 (1810), [v]–xii. There was no separate section on debates in
                   the final volume.</note> allotted a Division for the Debates in Parliament, – so
-               much of this must be in the History that I think there should be no more of it.</p>
-            <p rend="indent1"> I shall be very sorry if you are startled by the opinion which I have
+               much of this must be in the History that I think there should be no more of it.</p><p rend="indent1"> I shall be very sorry if you are startled by the opinion which I have
                expressed upon Tyrannicide.<note n="20" resp="editors" place="foot">i.e. Southey’s
                   justification of tyrannicide and condemnation of those who thought otherwise:
                   ‘Shame on the age we live in, that the high and holy principles of tyrannicide
@@ -401,23 +174,15 @@
                abuse, as probably it may, I will chearfully vindicate it in your second volume in an
                express essay upon the subject,<note n="21" resp="editors" place="foot">Ballantyne
                   did not take up Southey’s offer.</note> &amp; put to scorn the despicable cant of
-                  M<hi rend="sup">r</hi> Whitbread &amp; such like reasoners.<note n="22"
-                  resp="editors" place="foot">The radical MP Samuel Whitbread (1764–1815;
+                  M<hi rend="sup">r</hi> Whitbread &amp; such like reasoners.<note n="22" resp="editors" place="foot">The radical MP Samuel Whitbread (1764–1815;
                      <title>DNB</title>). For an example of Southey’s views on his politics: ‘Mr
                   Whitbread rose, as usual, to play the part of advocate for Buonaparte, and to
                   revile the allies of England’, <title>Edinburgh Annual Register, for 1809</title>,
                   2.1 (1811), 303.</note><del>xxxx</del> To confound tyrannicide with assassination
-               is precisely the same abuse of words that it is to call a soldier a murderer.</p>
-            <p rend="indent1"> And now Sir I have only to express my pleasure that the general
+               is precisely the same abuse of words that it is to call a soldier a murderer.</p><p rend="indent1"> And now Sir I have only to express my pleasure that the general
                spirit &amp; manner of this chapter has satisfied you, &amp; to repeat that in all
                cases where it can be done without compromising opinions to the explicit avowal of
                which I attach a conscientious importance, – I will qualify &amp; soften down such
-               passages as you think stand in need of it.</p>
-            <p rend="indent1"> A portion of MS. goes by the same post as this, &amp; more will be
-               sent off in the course of the week.</p>
-            <closer><salute rend="indent4"> Yrs respectfully</salute><signed rend="indent6"> R
-                  Southey</signed></closer>
-         </div>
-      </body>
-   </text>
-</TEI>
+               passages as you think stand in need of it.</p><p rend="indent1"> A portion of MS. goes by the same post as this, &amp; more will be
+               sent off in the course of the week.</p><closer><salute rend="indent4"> Yrs respectfully</salute><signed rend="indent6"> R
+                  Southey</signed></closer></div></body></text></TEI>

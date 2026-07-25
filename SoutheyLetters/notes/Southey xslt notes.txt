@@ -1,0 +1,25 @@
+Suothey xslt notes:
+
+tei:date
+
+I didn't do anything to the date in the div head except apply-templates to this:
+
+<date>
+	<choice>
+		<corr>
+			<date resp="editors" when="1791-06-01">[c. June
+								1791?]
+			</date>
+		</corr>
+		<orig><date when="1790"/></orig>
+	</choice>
+</date>
+
+which produces the right look in the <h1> and title.
+I DID account for it in getting dates for the meta tags in the HTML head.
+
+
+tei:note
+I automatically numbered them so that the headnotes become note 1: would Lynda rather that I make the headnote precede the notes and then use the note numbers?
+
+

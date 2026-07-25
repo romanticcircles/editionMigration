@@ -1,213 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">1624. Robert Southey to Herbert Hill, 2 May 1809</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="3">Part Three <date>2026-07-20</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
-                  under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed uder
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.3.1624</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Keswick Museum and Art Gallery. ALS; 4p.. Not previously published.</p>
-            <p>These letters were edited by Lynda Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-               Collection of English and American Literature, The New York Public Library, Astor,
-               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
-               Library; Boston Public Library; the Syndics of Cambridge University Library; the
-               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
-               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
-               Information Services; the Houghton Library, Harvard University; the John Rylands
-               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
-               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
-               University Library; the National Library of Scotland; the Newberry Library, Chicago;
-               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
-               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
-               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
-               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="tbl1624" scheme="css">width: 740px; border: none;</rendition>
-            <rendition xml:id="cell1" scheme="css">width: 30px;</rendition>
-            <rendition xml:id="cell2" scheme="css">width: 30px;</rendition>
-            <rendition xml:id="cell3" scheme="css">width: 680px;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2027-07-14" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
-               <item>made tables TEI compliant</item>
-            </list>
-         </change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">1624. Robert Southey to Herbert Hill, 2 May 1809</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Carol Bolton</editor><editor>Tim Fulford</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="3">Part Three <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.3.1624</idno></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery. ALS; 4p.. Not previously published.</p><p>These letters were edited by Carol Bolton and Tim Fulford</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl1624" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 30px;</rendition><rendition xml:id="cell2" scheme="css">width: 30px;</rendition><rendition xml:id="cell3" scheme="css">width: 680px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="1624" type="letter">
-            <head>1624. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle"
-                  >Herbert Hill</ref>, <date when="1809-05-02">2 May 1809</date><note
-                  type="headnote" place="foot" resp="editors">Address: To/ The Reverend Herbert
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="1624" type="letter"><head>1624. Robert Southey to <ref type="a" target="people.html#HillHerbertUncle">Herbert Hill</ref>, <date when="1809-05-02">2 May 1809</date><note type="headnote" place="foot" resp="editors">Address: To/ The Reverend Herbert
                   Hill/ Staunton upon Wye/ Hereford <lb/>Stamped: KESWICK/ 298<lb/>MS: Keswick
-                  Museum and Art Gallery. ALS; 4p.<lb/>Unpublished. </note></head>
-            <p rend="indent1"> Whether Orsua’s expedition should or should not be written occasioned
-               me a great deal of perplexity &amp; indecision,<note n="1" place="foot"
-                  resp="editors"> Southey took from Antonio de Herrera y Tordesillas (1559–1625),
+                  Museum and Art Gallery. ALS; 4p.<lb/>Unpublished. </note></head><p rend="indent1"> Whether Orsua’s expedition should or should not be written occasioned
+               me a great deal of perplexity &amp; indecision,<note n="1" place="foot" resp="editors"> Southey took from Antonio de Herrera y Tordesillas (1559–1625),
                      <title>Historia General del Mundo del Tiempo del Rey Felipe II, desde 1559
                      haste su Muerte</title> (1601–1612) the story of the ill-fated Amazon
                   expedition of exploration conducted by Pedro de Ursúa (1526–1561) and Lope de
@@ -223,18 +55,13 @@
                   expedition, on which only 44 of 300 men survived, navigating the Amazon.</note>
                gave rise. The next chapter as they are finished off shall be sent you by post thro
                   <ref type="m" target="people.html#RickmanJohn">Rickman</ref> &amp; the Grand
-               Parleur, as a Frenchman once called <ref type="m" target="people.html#AbbotCharles"
-                  >Mr Abbot</ref>. This will save time.</p>
-            <p rend="indent1"> I have has a good deal of anxiety of late. <ref type="m"
-                  target="people.html#SoutheyHerbert">Herbert</ref> was seized last week with the
+               Parleur, as a Frenchman once called <ref type="m" target="people.html#AbbotCharles">Mr Abbot</ref>. This will save time.</p><p rend="indent1"> I have has a good deal of anxiety of late. <ref type="m" target="people.html#SoutheyHerbert">Herbert</ref> was seized last week with the
                croop. he was bled in the jugular vein &amp; blistered on the neck, &amp; this God be
-               thanked, has saved him. At present he is suffering from the remedy.</p>
-            <p rend="indent1"> In the list on the other leaf I have marked those books which I most
+               thanked, has saved him. At present he is suffering from the remedy.</p><p rend="indent1"> In the list on the other leaf I have marked those books which I most
                wish for. The Verdadeiro Methado<note n="3" place="foot" resp="editors"> Luis Antonio
                   Verney (1713–1792), <title>Verdadeiro Metodo de Estudar, para ser Util á
                      Republica, e á Igreja: Proporcionado ao Estilo e Necesidade de Portugal</title>
-                  (1746).</note> is a work whose importance I have learnt from Fr. Gerundio,<note
-                  n="4" place="foot" resp="editors"> José Francisco de Isla (1703–1781),
+                  (1746).</note> is a work whose importance I have learnt from Fr. Gerundio,<note n="4" place="foot" resp="editors"> José Francisco de Isla (1703–1781),
                      <title>Historia del Famoso Predicador Fray Gerundio de Campazas, alias
                      Zotes</title> (1758).</note> – you probably knew its history better than I do.
                   Lozano<note n="5" place="foot" resp="editors"> Pedro Lozano (1697–1752),
@@ -253,73 +80,56 @@
                   clergy jealous of their power, is described in the second volume of Southey’s
                      <title>History of Brazil</title> (1817).</note> With the civil affairs of
                Paraguay I need have nothing more to do now that the discovery of the country is
-               completed, – except so far as they are connected with the P. colonies.<note n="8"
-                  place="foot" resp="editors"> The Portuguese colonies.</note> This chapter
+               completed, – except so far as they are connected with the P. colonies.<note n="8" place="foot" resp="editors"> The Portuguese colonies.</note> This chapter
                   <del>x</del> is transcribed &amp; would have been sent off to night, if I had not
                some letters to finish which will go in the same inclosure. Make any alteration you
                deem necessary, – I shall perceive it, &amp; <del>if I</del> can restore the passage
                if there existed any just reason for it which you did not discover. When you have
                done return it under cover to <ref type="m" target="people.html#RickmanJohn">John
-                  Rickman</ref>, – &amp; inclose the whole in a second cover to the <ref type="m"
-                  target="people.html#AbbotCharles">Rt. Honble the Speaker</ref> &amp;c –
-                  <del>xxx</del>. There is no conveyance so safe &amp; so speedy as the Post.</p>
-            <p rend="indent1"> Was there ever so wretched a Book as Pinkertons!<note n="9"
-                  place="foot" resp="editors"> John Pinkerton (1758–1826; <title>DNB</title>),
+                  Rickman</ref>, – &amp; inclose the whole in a second cover to the <ref type="m" target="people.html#AbbotCharles">Rt. Honble the Speaker</ref> &amp;c –
+                  <del>xxx</del>. There is no conveyance so safe &amp; so speedy as the Post.</p><p rend="indent1"> Was there ever so wretched a Book as Pinkertons!<note n="9" place="foot" resp="editors"> John Pinkerton (1758–1826; <title>DNB</title>),
                   editor of <title>A General Collection of the Best and Most Interesting Voyages and
                      Travels in all Parts of the World</title> (1808–1814).</note> By following
                political instead of natural arrangement his first edition became obsolete before his
                second appeared, &amp; now the second is as obsolete as the first, – &amp; such a
                style no man ever wrote but himself. And But Yet While are all synonyms with him in
-               having no meaning at all.</p>
-            <p rend="indent1"> I <del>have</del> should have had some of your MSS which are in my
+               having no meaning at all.</p><p rend="indent1"> I <del>have</del> should have had some of your MSS which are in my
                possession bound, if we had a binder on the spot. Ribeiros Voyage to the Settlement
                on the R Negro<note n="10" place="foot" resp="editors"> Southey had borrowed from
                   Hill a manuscript work by Francisco Xavier Ribeiro Sampaio (1741–1812?),
                      <title>Diário da uma Viagem que em Visita e Correciçáo das Povoaçóes da
                      Capitania de São José do Rio Negro fez o Ouvidor</title> (1775).</note> has
-               been of great use to me in filling up Acunas account.<note n="11" place="foot"
-                  resp="editors"> Cristóbal de Acuña (1597–1676?), <title>Nuevo Descubrimiento del
+               been of great use to me in filling up Acunas account.<note n="11" place="foot" resp="editors"> Cristóbal de Acuña (1597–1676?), <title>Nuevo Descubrimiento del
                      Gran Río de las Amazonas</title> (1641).</note> When the Dutch war is over my
-               printed materials lie in a very narrow compass, – only Vieyra,<note n="12"
-                  place="foot" resp="editors"> Antonio Viera (1608–1697), the Brazilian-born Jesuit
+               printed materials lie in a very narrow compass, – only Vieyra,<note n="12" place="foot" resp="editors"> Antonio Viera (1608–1697), the Brazilian-born Jesuit
                   renowned for his preaching and as the architect of the Jesuit missions
                   (Reductions) there. In his <title>History of Brazil</title>, Southey cites both
                   Viera’s <title>Sermões</title> (1679–1748) and André de Barros (1675–1754),
                      <title>Vida do Apostolico Padre Antonio Vieyra da Companhia de Jesus, Chamado
-                     por Grande</title> (1746).</note> Berredo<note n="13" place="foot"
-                  resp="editors"> Bernardo Pereira de Berredo e Castro (d. 1748), governor of
+                     por Grande</title> (1746).</note> Berredo<note n="13" place="foot" resp="editors"> Bernardo Pereira de Berredo e Castro (d. 1748), governor of
                   Maranhão 1718–1722, author of <title>Annaes Historicos do Estado do Maranhaō de
                      sey Descivrunebtim, atè 1718</title> (1749).</note> &amp; the wretched R
                   Pitta.<note n="14" place="foot" resp="editors"> Sebastião da Rocha Pita
                   (1660–1738), <title>Historia da America Portugeza, desde o anno 1500 ate o de
                      1724</title> (1730).</note> I shall not be long in transcribing the remainder
-               of the volume, &amp; the omission of this long chapter about Aguirre<note n="15"
-                  place="foot" resp="editors"> See note 1.</note> will give me room to insert a
+               of the volume, &amp; the omission of this long chapter about Aguirre<note n="15" place="foot" resp="editors"> See note 1.</note> will give me room to insert a
                critical account of my authorities, – which ought to accompany every historical
-               work.</p>
-            <p rend="indent1"> As soon as <ref type="m" target="people.html#PopleWilliam"
-                  >Pople</ref> has finished the 9<hi rend="sup">th</hi> Chapter he shall send you
+               work.</p><p rend="indent1"> As soon as <ref type="m" target="people.html#PopleWilliam">Pople</ref> has finished the 9<hi rend="sup">th</hi> Chapter he shall send you
                the sheets that you may examine them at leisure – &amp; tell me what explanations are
                necessary in the additional notes (which will extend from 50 to 100 pages) &amp; what
                amendments should be noticed in a list of errors. I am glad to find that the
                narration proves more interesting than I had expected – It is so much less so than
                the history of the mother country – &amp; than part of the Asiatic history, that I
                sometimes feared it would be found heavy, – but this does not appear to be the
-               case.</p>
-            <p rend="indent1"> It is not very likely that Falkner<note n="16" place="foot"
-                  resp="editors"> Thomas Falkner (1707–1784), an English Jesuit whose papers were
+               case.</p><p rend="indent1"> It is not very likely that Falkner<note n="16" place="foot" resp="editors"> Thomas Falkner (1707–1784), an English Jesuit whose papers were
                   published as <title>A Description of Patagonia and the Adjoining Parts of South
                      America</title> (1774).</note> left any papers behind him, – if he had they
                might perhaps be traced. The last book which appeared about Paraguay I suspect to be
-               a fabrication, &amp; have made enquiries which will speedily ascertain the truth.</p>
-            <p rend="indent1"> My fragment of Pombals Life<note n="17" place="foot" resp="editors">
+               a fabrication, &amp; have made enquiries which will speedily ascertain the truth.</p><p rend="indent1"> My fragment of Pombals Life<note n="17" place="foot" resp="editors">
                   Sebastião José de Carvalho e Melo, 1st Count of Oeiras, 1st Marquess of Pombal
                   (1699–1782), Minister of the Kingdom of Portugal from 1750 to 1777. Southey
                   narrates his period of government in the third volume of the <title>History of
-                     Brazil</title>.</note> goes in the Frank-royal tomorrow.</p>
-            <p rend="indent1"> My political news is that <ref type="m"
-                  target="people.html#GrenvilleLord">Lds Grenville</ref> &amp; Grey<note n="18"
-                  place="foot" resp="editors">Charles Grey, 2nd Earl Grey (1764–1845;
+                     Brazil</title>.</note> goes in the Frank-royal tomorrow.</p><p rend="indent1"> My political news is that <ref type="m" target="people.html#GrenvilleLord">Lds Grenville</ref> &amp; Grey<note n="18" place="foot" resp="editors">Charles Grey, 2nd Earl Grey (1764–1845;
                      <title>DNB</title>), Prime Minister 1830–1834 and leading Whig.</note> are
                trying to get into power by reestablishing the D of York in defiance of common
                decency &amp; of the people,<note n="19" place="foot" resp="editors"> Prince
@@ -332,390 +142,87 @@
                   held for the rest of his life.</note> – &amp; that for this purpose a second
                   <del>xx xxxx</del> Coalition of All the Talents is in agitation. The rascality
                &amp; the folly of such a design does not make it a whit the less likely, considering
-               the persons in question, but I do not believe it, because <ref type="m"
-                  target="people.html#WynnCharlesWW">Wynn</ref> has taken so conspicuous a part in
-               the whole proceedings. I wish <ref type="m" target="people.html#FoxHenryRichard"
-                  >Ld</ref> or rather <ref type="m" target="people.html#FoxElizabethVassall">Lady
+               the persons in question, but I do not believe it, because <ref type="m" target="people.html#WynnCharlesWW">Wynn</ref> has taken so conspicuous a part in
+               the whole proceedings. I wish <ref type="m" target="people.html#FoxHenryRichard">Ld</ref> or rather <ref type="m" target="people.html#FoxElizabethVassall">Lady
                   H.</ref> were in power because I believe she would not forget you: – that
                   <del>done xx</del> justice done. I have no other <del>xx</del> wish about both
                parties, than that hemp enough may be found for the public service, – notwithstanding
-               our war with Russia–</p>
-            <p rend="indent1"> I have written to <ref type="m" target="people.html#LongmanThomas"
-                  >L.</ref> about your parcel<note n="20" place="foot" resp="editors"> Which
+               our war with Russia–</p><p rend="indent1"> I have written to <ref type="m" target="people.html#LongmanThomas">L.</ref> about your parcel<note n="20" place="foot" resp="editors"> Which
                   contained the proofs of the first volume of Southey’s <title>History of
                      Brazil</title> (1810). This letter has not survived. For further details, see
-                  Southey to John Rickman, [c. 1 May 1809], Letter 1623.</note></p>
-            <closer><salute rend="indent2"> May 2. 1809.</salute><signed rend="indent3">
-                  RS.</signed></closer>
-            <postscript>
-               <table rendition="#tbl1624">
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Fr. Paulo do Rosario. Relacam</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">da Victoria que honue a Capitan</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">mor de Paraiba. 1632.<note n="21" place="foot" resp="editors"
-                           > Father Paulo do Rosario (dates unknown), <title>Relacam Breve e
+                  Southey to John Rickman, [c. 1 May 1809], Letter 1623.</note></p><closer><salute rend="indent2"> May 2. 1809.</salute><signed rend="indent3">
+                  RS.</signed></closer><postscript><table rendition="#tbl1624"><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Fr. Paulo do Rosario. Relacam</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">da Victoria que honue a Capitan</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">mor de Paraiba. 1632.<note n="21" place="foot" resp="editors"> Father Paulo do Rosario (dates unknown), <title>Relacam Breve e
                               Verdadeira da Memoravel Victoria, que ouve o Capitao mor da Capitania
                               da Paraiua Antonio de Albuquerque, dos rebeldes de Olanda</title>
-                           (1632).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Pedro de Magalhaens. Hist. de</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Province de Santa Cruz.<note n="22" place="foot"
-                           resp="editors"> Pedro de Magalhaens de Gandavo (1550-d. late 16th
+                           (1632).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Pedro de Magalhaens. Hist. de</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Province de Santa Cruz.<note n="22" place="foot" resp="editors"> Pedro de Magalhaens de Gandavo (1550-d. late 16th
                            century), <title>Historia da Provincia de Santa Cruz do Brazil</title>
-                           (1579).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Fr. Pedro Monteiro. Hist. da</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">S Inquisicam do Reyno de Portugal.<note n="23" place="foot"
-                           resp="editors"> Father Pedro Monteiro (dates unknown), <title>Historia da
+                           (1579).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Fr. Pedro Monteiro. Hist. da</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">S Inquisicam do Reyno de Portugal.<note n="23" place="foot" resp="editors"> Father Pedro Monteiro (dates unknown), <title>Historia da
                               Santa Inquisição do Reyno de Portugal, e suas Conquistas</title>
-                           (1749–1750).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Ruy da Pina. Compendio das</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">cousas que ha outré Douro</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">e Minho<note n="24" place="foot" resp="editors"> José Martins
+                           (1749–1750).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Ruy da Pina. Compendio das</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">cousas que ha outré Douro</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">e Minho<note n="24" place="foot" resp="editors"> José Martins
                            Ferreira (dates unknown), <title>Compendio e Summario das grandezas e
                               cousas notáveis que ha entre Douro e Minho</title> (1608), with a
-                           frontispiece by Rui de Pina (1440–1521).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Vida do P. Joam de Almeida</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">por Vasconcellos<note n="25" place="foot" resp="editors">
+                           frontispiece by Rui de Pina (1440–1521).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Vida do P. Joam de Almeida</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">por Vasconcellos<note n="25" place="foot" resp="editors">
                            Simão de Vasconcellos (1596–1671), <title>Vida do Padre Joam d’Almeida
                               da Companhia de Jesu, na Provincia do Brazil</title>
-                        (1658).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Verdadeir<del>x</del> Methodo de esti-</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">-dar – proporcion ado ao estylo</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">e necessidade da Portugal<note n="26" place="foot"
-                           resp="editors"> Luis Antonio Verney (1713–1792), <title>Verdadeiro Metodo
+                        (1658).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Verdadeir<del>x</del> Methodo de esti-</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">-dar – proporcion ado ao estylo</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">e necessidade da Portugal<note n="26" place="foot" resp="editors"> Luis Antonio Verney (1713–1792), <title>Verdadeiro Metodo
                               de Estudar, para ser Util á Republica, e á Igreja: Proporcionado ao
-                              Estilo e Necesidade de Portugal</title> (1746).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Jeronymo Lopez. Cronica do</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Infante Santo D Henrique<note n="27" place="foot"
-                           resp="editors"> Jerónimo López (16th century), <title>Crónica do infante
-                              Santo Don Henrique</title> (1529).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Montoya. Conquista Espe</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">-ritual de Paraguay<note n="28" place="foot" resp="editors">
+                              Estilo e Necesidade de Portugal</title> (1746).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Jeronymo Lopez. Cronica do</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Infante Santo D Henrique<note n="27" place="foot" resp="editors"> Jerónimo López (16th century), <title>Crónica do infante
+                              Santo Don Henrique</title> (1529).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Montoya. Conquista Espe</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">-ritual de Paraguay<note n="28" place="foot" resp="editors">
                            Antonio Ruiz de Montoya (1585–1652), <title>Conquista Espiritual Hecha
                               por los Religiosos de la Compañia de Jesus, en las Provincias del
-                              Paraguay, Parana, Uruguay, y Tape</title> (1639).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Lozano. Hist. de Paraguay.<note n="29" place="foot"
-                           resp="editors"> Pedro Lozano (1697–1752), <title>Historia de la Compañia
+                              Paraguay, Parana, Uruguay, y Tape</title> (1639).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Lozano. Hist. de Paraguay.<note n="29" place="foot" resp="editors"> Pedro Lozano (1697–1752), <title>Historia de la Compañia
                               de Jesus en la Provincia del Paraguay</title>
-                        (1754–1755).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">x</cell>
-                     <cell rendition="#cell3">Piedrahita Hist. del Nuevo</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Reyno de Granada<note n="30" place="foot" resp="editors"> D.
+                        (1754–1755).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">x</cell><cell rendition="#cell3">Piedrahita Hist. del Nuevo</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Reyno de Granada<note n="30" place="foot" resp="editors"> D.
                            Lucas Fernández Piedrahita (1624–1688), <title>Historia General de las
-                              Conquistas del Nuevo Reyno de Granada</title> (1688).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Duarte de Alboquerque Coelho</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Memorias Diarias de la Guerra</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">del Brazil<note n="31" place="foot" resp="editors"> Duarte de
+                              Conquistas del Nuevo Reyno de Granada</title> (1688).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Duarte de Alboquerque Coelho</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Memorias Diarias de la Guerra</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">del Brazil<note n="31" place="foot" resp="editors"> Duarte de
                            Albuquerque Coelho (1591–1658), <title>Memorias Diarias de la Guerra del
-                              Brazil</title> (1654).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Santuario Mariano<note n="32" place="foot" resp="editors">
+                              Brazil</title> (1654).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Santuario Mariano<note n="32" place="foot" resp="editors">
                            Agostinho de Santa Maria (1642–1728), <title>Santuário Mariano</title>
-                           (1707–1723).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Fr. Antonio das Chagas. Cartas</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Esperituaes. Escola de Penitencia.</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Obras Espirit. a Sermoeus.<note n="33" place="foot"
-                           resp="editors"> Antonio da Fonseca Soares (1631–1682), a soldier who
+                           (1707–1723).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Fr. Antonio das Chagas. Cartas</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Esperituaes. Escola de Penitencia.</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Obras Espirit. a Sermoeus.<note n="33" place="foot" resp="editors"> Antonio da Fonseca Soares (1631–1682), a soldier who
                            became a Franciscan friar under the name Antonio das Chagas. Southey
                            later acquired a seven volume edition of his <title>Obras</title> (or
                            works) of 1763, no. 3257 in the sale catalogue of Southey’s
-                           library.</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Braz Luiz D’ Abreu. Portugal</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Medico ou Monarchio Medico-</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Lusitana.<note n="34" place="foot" resp="editors"> Bras Luis
+                           library.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Braz Luiz D’ Abreu. Portugal</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Medico ou Monarchio Medico-</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Lusitana.<note n="34" place="foot" resp="editors"> Bras Luis
                            de Abreu (1692–1756), <title>Portugal Medico ou Monarchia
                               Medico-Lusitana, Historica, Practica, Symbolica, Ethica</title>
-                           (1726).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">X</cell>
-                     <cell rendition="#cell3">Comentarios de Ruy Freire</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">de Andrade<note n="35" place="foot" resp="editors"> Paulo
+                           (1726).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">X</cell><cell rendition="#cell3">Comentarios de Ruy Freire</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">de Andrade<note n="35" place="foot" resp="editors"> Paulo
                            Craesbeeck (c. 1552–1632), <title>Comentários do Grande Capitão Rui
-                              Freire de Andrada</title> (1647).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell>Foral de Abrantes</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Foral do Porto<note n="36" place="foot" resp="editors">
+                              Freire de Andrada</title> (1647).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell>Foral de Abrantes</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Foral do Porto<note n="36" place="foot" resp="editors">
                            Charters of the towns, Abrantes, published in 1732, and Porto, published
                            as <title>Foral da Cidade do Porto, de 20 de Junho de 1517</title> in
-                           1788.</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Franc. de Almeida Jordaō</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Releçam da Serra de Cintra<note n="37" place="foot"
-                           resp="editors"> Francisco de Almeida Jordão (dates unknown),
+                           1788.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Franc. de Almeida Jordaō</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Releçam da Serra de Cintra<note n="37" place="foot" resp="editors"> Francisco de Almeida Jordão (dates unknown),
                               <title>Relação do Castello, e Serra de Cintra</title>
-                        (1748).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Anno Historico.<note n="38" place="foot" resp="editors">
+                        (1748).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Anno Historico.<note n="38" place="foot" resp="editors">
                            Francisco de Santa Maria (dates unknown), <title>Anno Historico. Diario
                               Portuguez. Noticia abbreviada de pessoas grandes, e cousas notaveis de
-                              Portugal</title> (1714–1744).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">X</cell>
-                     <cell rendition="#cell3">Obras de Gil Vincente<note n="39" place="foot" resp="editors"
-                           > Gil Vicente (c.1465 – c. 1536), the chief dramatist and lyric poet of
+                              Portugal</title> (1714–1744).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">X</cell><cell rendition="#cell3">Obras de Gil Vincente<note n="39" place="foot" resp="editors"> Gil Vicente (c.1465 – c. 1536), the chief dramatist and lyric poet of
                            Portugal. His <title>Works</title> were published first in
-                           1561–1562.</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Ditos de Freira.<note n="40" place="foot" resp="editors">
+                           1561–1562.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Ditos de Freira.<note n="40" place="foot" resp="editors">
                            Joana da Gama (c. 1520–1585), <title>Ditos da Freira</title>
-                           (1555).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Joam Ferreira Roza. Tratado</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Unico da Constituaçam</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">pestilencial de Pernambuco.<note n="41" place="foot"
-                           resp="editors"> João Ferreira da Rosa (dates unknown), <title>Tratado
+                           (1555).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Joam Ferreira Roza. Tratado</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Unico da Constituaçam</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">pestilencial de Pernambuco.<note n="41" place="foot" resp="editors"> João Ferreira da Rosa (dates unknown), <title>Tratado
                               Único da Constituição Pestilencial de Pernambuco</title>
-                           (1694).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Ethiopia Oriental<note n="42" place="foot" resp="editors">
+                           (1694).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Ethiopia Oriental<note n="42" place="foot" resp="editors">
                            Jacinto da Encarnaçam (dates unknown), <title>Summaria Relaçao do que
                               obrarao os Religiosos da Ordem dos Prégadore, na Conversao das almas,
                               e pregaçao do Santo Evangelho em todo o estado da India, e mais terras
                               descubertas pelos Portuguezes na Afia, e Ethiopia Oriental, e das
                               Missões em que actualmente se exercitaõ com todos os Conventos, e
                               Casas, e numero de Religiosos, que de presente tem esta sua
-                              Congregaçao</title> (1679).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Agiologio Lusitano<note n="43" place="foot" resp="editors">
+                              Congregaçao</title> (1679).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Agiologio Lusitano<note n="43" place="foot" resp="editors">
                            Jorge Cardoso (1606–1669) and D. António Caetano de Sousa (1652 -1744),
                               <title>Agiologio Lusitano dos Sanctos, e Varoens illustres em Virtude
                               do reino de Portugal e suas Conquistas</title>
-                        (1652–1774).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Lopo de Sousa Coutinho</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Cerco de Dio.<note n="44" place="foot" resp="editors"> Lopo
+                        (1652–1774).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Lopo de Sousa Coutinho</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Cerco de Dio.<note n="44" place="foot" resp="editors"> Lopo
                            de Sousa Coutinho (1515–1577), <title>Cerco de Dio</title>
-                           (1556–1574).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Luiz Felix da Cruz. Mani-</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">-festo das hostilidades reste Reino</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">de Angola<note n="45" place="foot" resp="editors"> Luiz Felix
+                           (1556–1574).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Luiz Felix da Cruz. Mani-</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">-festo das hostilidades reste Reino</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">de Angola<note n="45" place="foot" resp="editors"> Luiz Felix
                            da Cruz (dates unknown), <title>Manifesto das Hostilidades que a Gente
                               que Serve a Companhia Occidental de Hollanda obrou Contra os Vassallos
                               d’ El R ei de Portugal no Reino de Angola</title>
-                        (1651).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2">X</cell>
-                     <cell rendition="#cell3">O Valeroso Lucideno<note n="46" place="foot" resp="editors">
+                        (1651).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">X</cell><cell rendition="#cell3">O Valeroso Lucideno<note n="46" place="foot" resp="editors">
                            A work celebrating the Portuguese liberation from the Dutch of its
                            colonies in Brazil by Frei Manuel Calado do Salvador (1584–1654),
                               <title>O Valeroso Lucideno e Triunfo da Liberdade na Restauração de
-                              Pernambuco</title> (1648).</note></cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Miguel de Castanhoso. Hist.</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">das Cousas que D Christovam da</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Gama fez nor Reynos do Presto</cell>
-                  </row>
-                  <row>
-                     <cell rendition="#cell1"/>
-                     <cell rendition="#cell2"/>
-                     <cell rendition="#cell3">Joam.<note n="47" place="foot" resp="editors"> Miguel de
+                              Pernambuco</title> (1648).</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Miguel de Castanhoso. Hist.</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">das Cousas que D Christovam da</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Gama fez nor Reynos do Presto</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2"/><cell rendition="#cell3">Joam.<note n="47" place="foot" resp="editors"> Miguel de
                            Castanhoso (d. c. 1565), <title>História das Cousas que o mui Esforçado
                               Capitão dom Cristóvão da Gama fêz nos Reinos do Preste João</title>
-                           (1564).</note></cell>
-                  </row>
-               </table>
-            </postscript>
-         </div>
-      </body>
-   </text>
-</TEI>
+                           (1564).</note></cell></row></table></postscript></div></body></text></TEI>

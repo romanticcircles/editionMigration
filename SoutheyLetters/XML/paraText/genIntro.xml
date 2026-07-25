@@ -1,43 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">General Introduction</title><title type="sub" level="m">The Collected Letters of Robert Southey</title><author>Lynda Pratt</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-07-20</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><availability status="free"><p>This document is made available via a Creative Commons Zero
-									License, as described under "Conditions of Use" at
-									http://romantic-circles.org/about/submission-guidelines and
-									here:</p><p>As of July 2027, all material published on Romantic Circles is
-									licensed uder Creative Commons Zero (CC 0), unless otherwise
-									noted.</p><p>Unless otherwise noted, users are not permitted to download texts
-									and images published before December 2023 in order to mount them
-									on their own servers.</p></availability><idno type="edition">genIntro</idno></publicationStmt><sourceDesc><p>For permission to publish the text of MSS in their possession, the
-								editor wishes to thank the Beinecke Rare Books and Manuscript
-								Library, Yale University; Berg Collection of English and American
-								Literature, The New York Public Library, Astor, Lenox and Tilden
-								Foundations; the Bodleian Library Oxford University; the British
-								Library; Boston Public Library; the Syndics of Cambridge University
-								Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford
-								College, Connecticut; the Historical Society of Pennsylvania; the
-								Hornby Library, Liverpool Libraries and Information Services; the
-								Houghton Library, Harvard University; the John Rylands Library,
-								Manchester; the Kenneth Spencer Research Library, University of
-								Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
-								Historical Society; McGill University Library; the National Library
-								of Scotland; the Newberry Library, Chicago; the New York Public
-								Library (Pforzheimer Collections); the Pierpont Morgan Library, New
-								York; the Public Record Offices of Bedford, Suffolk (Bury St
-								Edmunds) and Northumberland, the Master and Fellows of Trinity
-								College, Cambridge; the Society of Antiquaries of Newcastle upon
-								Tyne; the Trustees of the William Salt Library, Stafford, the
-								Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q37068"><catDesc>Romanticism</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated 2009-03-15. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div head
-						must contain document information, not html styling information)</item><item>If incorrect current document publication information in sourceDesc/biblstruct,
-						I corrected this prior to moving that information elsewhere (it shouldn't be
-						"source").</item></list></change><change n="2" when="2009-03-10" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-03-10" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">General Introduction</title>, <title level="m">The
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">General Introduction</title><title type="sub" level="m">The Collected Letters of Robert Southey</title><author>Lynda Pratt</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">genIntro</idno></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
+					reprint material in this edition. The editors would be grateful to hear from any
+					copyright holder who is not here acknowledged and undertake to rectify any
+					omissions or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+					collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+					Berg Collection of English and American Literature, The New York Public Library,
+					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+					British Library; Boston Public Library; the Syndics of Cambridge University
+					Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+					Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+					Liverpool Libraries and Information Services; the Houghton Library, Harvard
+					University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+					Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+					Massachusetts Historical Society; McGill University Library; the National
+					Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+					(Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+					Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
+					possible, as did support from the English Department of Nottingham Trent
+					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
+						2009-03-15. For the old header, see
+						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-11" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected tei encoding (div type cannot be a specific document's id; div
+						head must contain document information, not html styling information)</item><item>If incorrect current document publication information in
+						sourceDesc/biblstruct, I corrected this prior to moving that information
+						elsewhere (it shouldn't be "source").</item></list></change><change n="2" when="2009-03-10" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-03-10" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="introduction"><head><bibl><title level="a">General Introduction</title>, <title level="m">The
 							Collected Letters of Robert Southey</title>, by <author>Lynda
 							Pratt</author></bibl></head><p>Robert Southey was born in Bristol in 1774 and died at his home on the outskirts
 					of Keswick in 1843. The son of a bankrupt linen-draper, he was educated at
@@ -65,7 +58,8 @@
 					for the first time complete, annotated, fully-searchable texts of all of the
 					surviving correspondence of this complex individual. In so doing, it allows us
 					to look anew at the writer described by Byron as ‘the only existing entire man
-					of letters’.<note n="2" place="foot" resp="editors">Byron, <title level="j">Journal</title>, 22 November 1813; reprinted in Madden, p. 157.</note></p><lb/><p><hi rend="bold">Southey’s Letters</hi></p><p>Writing letters was an important part of Southey’s life. It was an activity that
+					of letters’.<note n="2" place="foot" resp="editors">Byron, <title level="j">Journal</title>, 22 November 1813; reprinted in Madden, p.
+					157.</note></p><lb/><p><hi rend="bold">Southey’s Letters</hi></p><p>Writing letters was an important part of Southey’s life. It was an activity that
 					linked the youthful radical leader of the ‘New School’ with the older
 					conservative Poet Laureate. Between 1791 and 1839 he corresponded with leading
 					figures in cultural, political, and religious life in Britain, Europe and North
@@ -267,14 +261,14 @@
 						compare Robert Southey to Joseph Cottle, [February-March 1796?], Part 1,
 						Letter 148, with Robert Southey, <title level="m">Letters Written During a
 							Short Residence in Spain and Portugal</title> (Bristol, 1797), pp. 317,
-						368-370.</note><title level="m">Letters Written During a Short Residence</title> went into two
-					revised editions, in 1799 and 1808, though Southey’s plan to write a sequel
-					based on his second visit to Portugal in 1800-1801 came to nothing. In 1807 he
-					returned to the epistolary travel book in a slightly different guise, publishing
-						<title level="m">Letters from England</title> under the pseudonym of Don
-					Manuel Alvarez Espriella. <title level="m">Letters from England</title>, which
-					tapped into literary fashion, and into a culture keen to consume correspondence,
-					was one of Southey’s best-selling publications.</p><p rend="indent1"> As he grew older, Southey’s sense of his own letters, including
+						368-370.</note><title level="m">Letters Written During a Short
+						Residence</title> went into two revised editions, in 1799 and 1808, though
+					Southey’s plan to write a sequel based on his second visit to Portugal in
+					1800-1801 came to nothing. In 1807 he returned to the epistolary travel book in
+					a slightly different guise, publishing <title level="m">Letters from
+						England</title> under the pseudonym of Don Manuel Alvarez Espriella. <title level="m">Letters from England</title>, which tapped into literary fashion,
+					and into a culture keen to consume correspondence, was one of Southey’s
+					best-selling publications.</p><p rend="indent1"> As he grew older, Southey’s sense of his own letters, including
 					those intended only for private consumption, as potentially public documents and
 					as an integral part of his legacy to posterity increased. It was a complex
 					realisation. It could provide him with the – somewhat self-righteous – solace
@@ -334,7 +328,8 @@
 					possible that they should not see it. And tho I have said nothing but what was
 					perfectly true, they will be very much wounded, and I am as much annoyed as I
 					can allow myself to be by any thing in which I do not feel myself to blame.<note n="19" place="foot" resp="editors">Robert Southey to Henry Crabb Robinson,
-						17 June 1838, <title level="m">New Letters</title>, II, pp. 475-476.</note></quote><p>As his reaction to the Wilberforces’ book reveals, by the late 1830s, Southey was
+						17 June 1838, <title level="m">New Letters</title>, II, pp.
+					475-476.</note></quote><p>As his reaction to the Wilberforces’ book reveals, by the late 1830s, Southey was
 					aware that it was impossible to control the public’s appetite for consuming his
 					life and letters. He resolved to manage his own posterity. In the case of his
 					poems, Southey took charge , ‘setting ... [his literary] house in order’ and
@@ -487,30 +482,33 @@
 					leading Southey scholar of the mid-twentieth century, also stated the case for
 					the centrality of the correspondence for an understanding of the man and his
 					writing, arguing ‘it is there that [one] will find the whole range of Southey’s
-					life and career’.<note n="29" place="foot" resp="editors"><title level="m">New Letters</title>, I, p. [xi].</note> Another new edition
-					followed in 1976, when Charles Ramos edited a group of 170 letters sent by
-					Southey to his friend John May. Both Curry and Ramos’s editions added to
-					knowledge of Southey, but they were also both highly selective. Ramos used only
-					the collection of letters from Southey to May held in the University of Texas,
-					Austin, and not the parts of their correspondence scattered in other archives
-					throughout the world. Curry, meanwhile, admitted that at least 2000 Southey
-					letters still remained unpublished and that several hundreds more were available
-					only in unreliable texts. <note n="30" place="foot" resp="editors">Kenneth
-						Curry, ‘The Published Letters of Robert Southey: A Checklist’, <title level="j">Bulletin of the New York Public Library</title>, 71.1 (1967),
-						pp. 158-164.</note> This selectivity was undoubtedly dictated by Southey’s
-					non-canonical status and it continued for the remainder of the twentieth
-					century. In the three decades since the publication of Ramos, further letters
-					have appeared in isolated journal articles, including essays by Lynda Pratt,
-					Elisa Beshero-Bondar, and Martine Braekman.<note n="31" place="foot" resp="editors">See for example, Elisa Beshero-Bondar, ‘Nine New Letters of
-						Robert Southey’, <title level="j">The Wordsworth Circle</title>, 30.1
-						(1999), 47-55; Lynda Pratt, ‘The Pantisocratic Origins of Robert Southey’s
-							<title level="m">Madoc</title>: An Unpublished Letter’, <title level="j">Notes and Queries</title>, 46.1 (1999), 34-39; Martine Braekman, ‘An
-						Unpublished Philanthropic letter by Robert Southey’, <title level="j">Notes
-							and Queries</title>, 51.2 (2004), 144-146.</note> The extent and
-					importance of surviving, unpublished letters by Southey has also been
-					highlighted in the biographies by Mark Storey and W. A. Speck. <note n="32" place="foot" resp="editors">Mark Storey, <title level="m">Robert Southey: A
-							Life</title> (1997); and W. A. Speck, <title level="m">Robert Southey:
-							Entire Man of Letters</title> (2006).</note></p><p> In the past decade Southey’s reputation has been revolutionised. His centrality
+					life and career’.<note n="29" place="foot" resp="editors"><title level="m">New
+							Letters</title>, I, p. [xi].</note> Another new edition followed in
+					1976, when Charles Ramos edited a group of 170 letters sent by Southey to his
+					friend John May. Both Curry and Ramos’s editions added to knowledge of Southey,
+					but they were also both highly selective. Ramos used only the collection of
+					letters from Southey to May held in the University of Texas, Austin, and not the
+					parts of their correspondence scattered in other archives throughout the world.
+					Curry, meanwhile, admitted that at least 2000 Southey letters still remained
+					unpublished and that several hundreds more were available only in unreliable
+					texts. <note n="30" place="foot" resp="editors">Kenneth Curry, ‘The Published
+						Letters of Robert Southey: A Checklist’, <title level="j">Bulletin of the
+							New York Public Library</title>, 71.1 (1967), pp. 158-164.</note> This
+					selectivity was undoubtedly dictated by Southey’s non-canonical status and it
+					continued for the remainder of the twentieth century. In the three decades since
+					the publication of Ramos, further letters have appeared in isolated journal
+					articles, including essays by Lynda Pratt, Elisa Beshero-Bondar, and Martine
+						Braekman.<note n="31" place="foot" resp="editors">See for example, Elisa
+						Beshero-Bondar, ‘Nine New Letters of Robert Southey’, <title level="j">The
+							Wordsworth Circle</title>, 30.1 (1999), 47-55; Lynda Pratt, ‘The
+						Pantisocratic Origins of Robert Southey’s <title level="m">Madoc</title>: An
+						Unpublished Letter’, <title level="j">Notes and Queries</title>, 46.1
+						(1999), 34-39; Martine Braekman, ‘An Unpublished Philanthropic letter by
+						Robert Southey’, <title level="j">Notes and Queries</title>, 51.2 (2004),
+						144-146.</note> The extent and importance of surviving, unpublished letters
+					by Southey has also been highlighted in the biographies by Mark Storey and W. A.
+					Speck. <note n="32" place="foot" resp="editors">Mark Storey, <title level="m">Robert Southey: A Life</title> (1997); and W. A. Speck, <title level="m">Robert Southey: Entire Man of Letters</title>
+					(2006).</note></p><p> In the past decade Southey’s reputation has been revolutionised. His centrality
 					to a complex, international Romantic period culture has been recognised by
 					critics including Marilyn Butler, Nigel Leask, Nicholas Roe, David Simpson, Dan
 					White, Tim Fulford, Carol Bolton and Lynda Pratt.<note n="33" place="foot" resp="editors">Marilyn Butler, ‘Repossessing the Past: The Case for an Open
@@ -532,10 +530,10 @@
 					scholarly editions of Southey’s poetry, prose and correspondence. Those editions
 					are now being produced and it is becoming once more possible to read him. The
 					nine-volume <title level="m">Poetical Works</title> is helping to revolutionise
-					understanding of Southey the poet.<note n="34" place="foot" resp="editors"><title level="m">Robert Southey: Poetical Works, 1793-1810</title>, gen. ed.
-						Lynda Pratt, 5 vols (London, 2004); and Robert Southey <title level="m">Later Poetical Works, 1811-1838</title>, gen. eds Tim Fulford and Lynda
-						Pratt, 4 vols (London, 2012).</note> We hope that the <title level="m">Collected Letters</title> will do the same for the correspondence. The
-					letters published here restore wholeness to this most fragmented of Romantic
+					understanding of Southey the poet.<note n="34" place="foot" resp="editors"><title level="m">Robert Southey: Poetical Works, 1793-1810</title>,
+						gen. ed. Lynda Pratt, 5 vols (London, 2004); and Robert Southey <title level="m">Later Poetical Works, 1811-1838</title>, gen. eds Tim Fulford
+						and Lynda Pratt, 4 vols (London, 2012).</note> We hope that the <title level="m">Collected Letters</title> will do the same for the correspondence.
+					The letters published here restore wholeness to this most fragmented of Romantic
 					period writers, providing accurate texts of letters that were previously
 					unpublished or available only in censored versions. Taken individually and as a
 					whole, the letters reveal a more complete picture of Southey’s life, literary

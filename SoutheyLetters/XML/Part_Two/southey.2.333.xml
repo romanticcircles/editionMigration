@@ -1,319 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">333. Robert Southey to Henry Herbert Southey, 14 July
-					1798</title>
-				<title type="sub" level="m">The Collected Letters of Robert Southey, Part
-					Two</title>
-				<author role="primary" from="1774" to="1843"><persName
-						ana="http://viaf.org/viaf/61576896"
-							><forename>Robert</forename><surname>Southey</surname></persName></author>
-				<editor>Lynda Pratt</editor>
-				<respStmt>
-					<resp>TEI Encoding</resp>
-					<name>Averill Buchanan</name>
-				</respStmt>
-				<sponsor>Romantic Circles</sponsor>
-				<respStmt>
-					<resp>Director</resp>
-					<name>Thora Brylowe</name>
-				</respStmt>
-				<respStmt>
-					<resp>Technical Editor</resp>
-					<name>Laura Mandell</name>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="2">Part Two <date>2026-07-20</date></edition>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-					and Texas A&amp;M University</publisher>
-				<pubPlace>College Station, TX</pubPlace>
-				<availability status="free">
-					<p>This document is made available via a Creative Commons Zero License, as
-						described under "Conditions of Use" at
-						http://romantic-circles.org/about/submission-guidelines and here:</p>
-					<p>As of July 2027, all material published on Romantic Circles is licensed uder
-						Creative Commons Zero (CC 0), unless otherwise noted.</p>
-					<p>Unless otherwise noted, users are not permitted to download texts and images
-						published before December 2023 in order to mount them on their own
-						servers.</p>
-				</availability>
-				<idno type="edition">southey.2.333</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Bodleian Library, MS Don.D3. ALS; 4p.. Previously published: Charles Cuthbert
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">333. Robert Southey to Henry Herbert Southey, 14 July
+					1798</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part
+					Two</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="2">Part Two <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.2.333</idno></publicationStmt><sourceDesc><p>Bodleian Library, MS Don.D3. ALS; 4p.. Previously published: Charles Cuthbert
 					Southey (ed.), Life and Correspondence of Robert Southey, 6 vols (London,
-					1849-1850), I, pp. 341–343 [in part].</p>
-				<p>These letters were edited by Lynda Pratt</p>
-				<p>For permission to publish the text of MSS in their possession, the editor wishes
-					to thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-					Collection of English and American Literature, The New York Public Library,
-					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-					British Library; Boston Public Library; the Syndics of Cambridge University
-					Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-					Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-					Liverpool Libraries and Information Services; the Houghton Library, Harvard
-					University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-					Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-					Massachusetts Historical Society; McGill University Library; the National
-					Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-					(Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-					Wisbech and Fenland Museum; the University of Virginia Library.</p>
-				<p>A research grant from the British Academy made much of the archival work
+					1849-1850), I, pp. 341–343 [in part].</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
 					possible, as did support from the English Department of Nottingham Trent
-					University.</p>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard.</p>
-					<p>Dashes have been rendered as a variable number of hyphens to give a more
-						exact rendering of their length.</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Southey's spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<tagsDecl>
-				<rendition xml:id="tbl333a" scheme="css">width: 740px; border: none;</rendition>
-				<rendition xml:id="cell1" scheme="css">width: 120px;</rendition>
-				<rendition xml:id="cell2" scheme="css">width: 390px;</rendition>
-				<rendition xml:id="cell3" scheme="css">width: 230px;</rendition>
-				<rendition xml:id="tbl333b" scheme="css">width: 740px; border: none;</rendition>
-				<rendition xml:id="cell4" scheme="css">width: 150px;</rendition>
-				<rendition xml:id="cell5" scheme="css">width: 360px;</rendition>
-				<rendition xml:id="cell6" scheme="css">width: 230px;</rendition>
-			</tagsDecl>
-			<classDecl>
-				<taxonomy targetDatcat="https://viaf.org/">
-					<bibl>VIAF</bibl>
-					<category xml:id="viaf_61576896">
-						<catDesc>Southey, Robert, 1774-1843</catDesc>
-					</category>
-					<category xml:id="viaf_118520952">
-						<catDesc>Pratt, Lynda, 1964-</catDesc>
-					</category>
-					<category xml:id="viaf_116328125">
-						<catDesc>Packer, Ian, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_18359329">
-						<catDesc>Fulford, Tim, 1962-</catDesc>
-					</category>
-					<category xml:id="viaf_42171645">
-						<catDesc>Bolton, Carol</catDesc>
-					</category>
-					<category xml:id="viaf_250654121">
-						<catDesc>Buchanan, Averill</catDesc>
-					</category>
-					<category xml:id="viaf_41749340">
-						<catDesc>Mandell, Laura, 1958-</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-					<bibl>Wikidata</bibl>
-					<category xml:id="Q37068">
-						<catDesc>Romanticism</catDesc>
-					</category>
-					<category xml:id="Q1277575">
-						<catDesc>correspondence</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-					<bibl>Southey Letters: Biographies</bibl>
-				</taxonomy>
-				<taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-					<bibl>Southey Letters: Places</bibl>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<catRef target="#Q1277575" scheme="Wikidata"/>
-				<catRef target="#viaf_61576896" scheme="VIAF"/>
-				<catRef target="#viaf_118520952" scheme="VIAF"/>
-				<catRef target="#viaf_250654121" scheme="VIAF"/>
-				<catRef target="#viaf_41749340" scheme="VIAF"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change when="2027-07-14" who="#LM">
-				<label>Changed by</label>
-				<name>Laura Mandell</name>
-				<list>
-					<item>made tables TEI compliant</item>
-				</list>
-			</change>
-			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-					<item>Created new header for new edition edition XML from old edition XML dated
+					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl333a" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 120px;</rendition><rendition xml:id="cell2" scheme="css">width: 390px;</rendition><rendition xml:id="cell3" scheme="css">width: 230px;</rendition><rendition xml:id="tbl333b" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell4" scheme="css">width: 150px;</rendition><rendition xml:id="cell5" scheme="css">width: 360px;</rendition><rendition xml:id="cell6" scheme="css">width: 230px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
 						2011-08-15. For the old header, see
-						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item>
-				</list></change>
-			<change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR"
-					>David Rettenmaier</name><list>
-					<item>Update of TEI headers to conform to new template</item>
-				</list></change>
-			<change n="4" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
-					Mandell</name><list>
-					<item>XSLT Transforming after latest corrections</item>
-				</list></change>
-			<change n="3" when="2011-07-06" who="#LM"><label>Changed by</label><name xml:id="LM"
-					>Laura Mandell</name><list>
-					<item>XSLT Transforming</item>
-				</list></change>
-			<change n="2" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
-					Buchanan</name><list>
-					<item>corrections from proofing</item>
-				</list></change>
-			<change n="1" when="2011-02-21" who="#AB"><label>Changed by</label><name xml:id="AB"
-					>Averill Buchanan</name><list>
-					<item>Part II added</item>
-				</list></change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div n="333" type="letter">
-				<head>333. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert"
-						>Henry Herbert Southey</ref>, <date when="1798-07-14">14 July
+						SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="4" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
+					Mandell</name><list><item>XSLT Transforming after latest corrections</item></list></change><change n="3" when="2011-07-06" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="2" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
+					Buchanan</name><list><item>corrections from proofing</item></list></change><change n="1" when="2011-02-21" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>Part II added</item></list></change></revisionDesc></teiHeader><text><body><div n="333" type="letter"><head>333. Robert Southey to <ref type="a" target="people.html#SoutheyHenryHerbert">Henry Herbert Southey</ref>, <date when="1798-07-14">14 July
 						1798</date><note place="foot" resp="editors" type="headnote">Address: To/
-						Henry Herbert Southey/ with the Reverend George Burnett/ at M<hi rend="sup"
-							>rs</hi> Whitesides/ Quay/ Yarmouth/ Single<lb/>Stamped: [twice] BRISTOL
+						Henry Herbert Southey/ with the Reverend George Burnett/ at M<hi rend="sup">rs</hi> Whitesides/ Quay/ Yarmouth/ Single<lb/>Stamped: [twice] BRISTOL
 						<lb/>Postmark: B/ JY/ 17/ 98<lb/>MS: Bodleian Library, MS Don.D3. ALS;
 						4p.<lb/>Previously published: Charles Cuthbert Southey (ed.), <title>Life
 							and Correspondence of Robert Southey</title>, 6 vols (London,
-						1849-1850), I, pp. 341–343 [in part].</note></head>
-				<opener><dateline rend="right"><address>
-							<placeName><ref target="places.html#MartinHall"
-								>Martin-Hall</ref>.</placeName>
-						</address><date when="1798-07-14"> July 14<hi rend="sup">th</hi>
-						98.</date></dateline><salute>My dear Harry</salute></opener>
-				<p rend="indent1"> I thank you for your ode of Anacreon.<note n="1" place="foot"
-						resp="editors">Anacreon (570–488 BC), Greek poet.</note> the Greek metre in
+						1849-1850), I, pp. 341–343 [in part].</note></head><opener><dateline rend="right"><address><placeName><ref target="places.html#MartinHall">Martin-Hall</ref>.</placeName></address><date when="1798-07-14"> July 14<hi rend="sup">th</hi>
+						98.</date></dateline><salute>My dear Harry</salute></opener><p rend="indent1"> I thank you for your ode of Anacreon.<note n="1" place="foot" resp="editors">Anacreon (570–488 BC), Greek poet.</note> the Greek metre in
 					which you have translated it is certainly the best that could be chosen but
 					perhaps the most difficult; as the accent should flow so easily that a bad
-					reader may not be able to spoil them. this is the case with your 4<hi rend="sup"
-						>th</hi> &amp; 5<hi rend="sup">th</hi> lines. an old woman cannot read them
+					reader may not be able to spoil them. this is the case with your 4<hi rend="sup">th</hi> &amp; 5<hi rend="sup">th</hi> lines. an old woman cannot read them
 					out of the proper cadence. indeed this is correct enough in the whole ode except
-					in the word changed which is too commonly made two syllables to <del
-						rend="strikethrough">be</del> stand <del rend="strikethrough">at the</del>
-					in an Anacreontic as one.</p>
-				<p rend="indent1"> I think this metre much improved to an English ear by sometimes
+					in the word changed which is too commonly made two syllables to <del rend="strikethrough">be</del> stand <del rend="strikethrough">at the</del>
+					in an Anacreontic as one.</p><p rend="indent1"> I think this metre much improved to an English ear by sometimes
 					ending a line with a long syllable instead of a trochee. this you will see
-					regularly done in the following translation from the Spanish of Villegas.<note
-						n="2" place="foot" resp="editors">Esteban Manuel de Villegas (1585–1669),
+					regularly done in the following translation from the Spanish of Villegas.<note n="2" place="foot" resp="editors">Esteban Manuel de Villegas (1585–1669),
 						‘De Si Mismo’, in Vincente de los Rios (1736–1779), <title>Las Eroticas, y
 							Traduccion De Boecio</title>, 2 vols (Madrid, 1774), I, pp.
-						192–193.</note> the original metre is that of Θελω λεγείν Ατρειδην,<note
-						n="3" place="foot" resp="editors">The Greek translates as ‘I want to say
+						192–193.</note> the original metre is that of Θελω λεγείν Ατρειδην,<note n="3" place="foot" resp="editors">The Greek translates as ‘I want to say
 						Agamemnon’.</note> &amp; the verses flow as harmoniously as those of
-					Anacreon.</p>
-				<lg type="stanza">
-					<l rend="indent3"> The Maidens thus address me,</l>
-					<l rend="indent3"> How is it Don Esteban,</l>
-					<l rend="indent3"> That you of Love sing always</l>
-					<l rend="indent4"> And never sing of war?</l>
-				</lg>
-				<lb/>
-				<table rendition="#tbl333">
-					<row>
-						<cell rendition="#cell1"/>
-						<cell rendition="#cell2">I answer thus the question,</cell>
-						<cell rendition="#cell3"/>
-					</row>
-					<row>
-						<cell rendition="#cell1"/>
-						<cell rendition="#cell2">Ye batchelor young damsels</cell>
-						<cell rendition="#cell3"> {this is literal. the original is</cell>
-					</row>
-					<row>
-						<cell rendition="#cell1"/>
-						<cell rendition="#cell2">It is that men are ugly,</cell>
-						<cell rendition="#cell3"> muchachas bachilleras –</cell>
-					</row>
-				</table>
-				<table rendition="#tbl333b">
-					<row>
-						<cell rendition="#cell4"/>
-						<cell rendition="#cell5">It is that you are fair.</cell>
-						<cell rendition="#cell6"> batchelor girls.</cell>
-					</row>
-				</table>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> For what would it avail me</l>
-					<l rend="indent3"> To sing to drums &amp; trumpets</l>
-					<l rend="indent3"> Whilst marching sorely onwards</l>
-					<l rend="indent4"> Encumberd by my shield?</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Think you the tree of Glory</l>
-					<l rend="indent3"> Delights the common soldier?</l>
-					<l rend="indent3"> That tree so full of blossoms,</l>
-					<l rend="indent4"> That <del rend="strikethrough">xx</del> never bears a
-						fruit?</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> Let him who gains in battle</l>
-					<l rend="indent3"> His glorious wounds enjoy them,</l>
-					<l rend="indent3"> Let him praise war, who knows not</l>
-					<l rend="indent4"> The happiness of peace.</l>
-				</lg>
-				<lb/>
-				<lg type="stanza">
-					<l rend="indent3"> I will not sing of soldiers,</l>
-					<l rend="indent3"> I will not sing of combats,</l>
-					<l rend="indent3"> But only of the Damsels</l>
-					<l rend="indent4"> My combats are with them.<note n="4" place="foot"
-							resp="editors">Published anonymously as ‘Anacreontic. From Villegas’ in
-							the <title>Morning Post</title>, 20 July 1798.</note></l>
-				</lg>
-				<p rend="indent5"> ____ </p>
-				<p><ref type="m" target="people.html#DanversCharles">Danvers</ref> is about to send
+					Anacreon.</p><lg type="stanza"><l rend="indent3"> The Maidens thus address me,</l><l rend="indent3"> How is it Don Esteban,</l><l rend="indent3"> That you of Love sing always</l><l rend="indent4"> And never sing of war?</l></lg><lb/><table rendition="#tbl333"><row><cell rendition="#cell1"/><cell rendition="#cell2">I answer thus the question,</cell><cell rendition="#cell3"/></row><row><cell rendition="#cell1"/><cell rendition="#cell2">Ye batchelor young damsels</cell><cell rendition="#cell3"> {this is literal. the original is</cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">It is that men are ugly,</cell><cell rendition="#cell3"> muchachas bachilleras –</cell></row></table><table rendition="#tbl333b"><row><cell rendition="#cell4"/><cell rendition="#cell5">It is that you are fair.</cell><cell rendition="#cell6"> batchelor girls.</cell></row></table><lb/><lg type="stanza"><l rend="indent3"> For what would it avail me</l><l rend="indent3"> To sing to drums &amp; trumpets</l><l rend="indent3"> Whilst marching sorely onwards</l><l rend="indent4"> Encumberd by my shield?</l></lg><lb/><lg type="stanza"><l rend="indent3"> Think you the tree of Glory</l><l rend="indent3"> Delights the common soldier?</l><l rend="indent3"> That tree so full of blossoms,</l><l rend="indent4"> That <del rend="strikethrough">xx</del> never bears a
+						fruit?</l></lg><lb/><lg type="stanza"><l rend="indent3"> Let him who gains in battle</l><l rend="indent3"> His glorious wounds enjoy them,</l><l rend="indent3"> Let him praise war, who knows not</l><l rend="indent4"> The happiness of peace.</l></lg><lb/><lg type="stanza"><l rend="indent3"> I will not sing of soldiers,</l><l rend="indent3"> I will not sing of combats,</l><l rend="indent3"> But only of the Damsels</l><l rend="indent4"> My combats are with them.<note n="4" place="foot" resp="editors">Published anonymously as ‘Anacreontic. From Villegas’ in
+							the <title>Morning Post</title>, 20 July 1798.</note></l></lg><p rend="indent5"> ____ </p><p><ref type="m" target="people.html#DanversCharles">Danvers</ref> is about to send
 					a parcel to <ref type="m" target="people.html#BurnettGeorge">Burnett</ref> in
-					which you will find a letter from your <ref type="m"
-						target="people.html#SoutheyMargaret">Mother</ref> &amp; a guinea &amp; half
+					which you will find a letter from your <ref type="m" target="people.html#SoutheyMargaret">Mother</ref> &amp; a guinea &amp; half
 					– enough to buy a hat &amp; some stockings. the stockings you had better buy at
-					Nottingham. I have written to <ref type="m" target="people.html#BurnettGeorge"
-						>Burnett</ref> by the same conveyance.</p>
-				<p rend="indent1"> We are now tolerably settled at <ref
-						target="places.html#MartinHall">Martin-hall</ref>. I have laboured much in
+					Nottingham. I have written to <ref type="m" target="people.html#BurnettGeorge">Burnett</ref> by the same conveyance.</p><p rend="indent1"> We are now tolerably settled at <ref target="places.html#MartinHall">Martin-hall</ref>. I have laboured much in
 					making it comfortable, &amp; comfortable it now is. our sitting room is large,
 					with three windows, &amp; two recesses once windows, but now converted into
-					book-cases, with green baize hanging half way down the books as in the <ref
-						target="places.html#CollegeGreenBristol">College Green</ref>. the room is
+					book-cases, with green baize hanging half way down the books as in the <ref target="places.html#CollegeGreenBristol">College Green</ref>. the room is
 					papered with cartridge paper bordered with yellow vandykes edged with black. I
 					have a good many books tho not all that I want, as many of my most valuable ones
 					are lying in London. I shall be very glad to get settled in a house at London,
 					where I may collect all my chattels together &amp; move on contentedly for some
-					dozen years in my profession.</p>
-				<p rend="indent1"> You will find little difficulty either in Anacreon or in Homer,
+					dozen years in my profession.</p><p rend="indent1"> You will find little difficulty either in Anacreon or in Homer,
 					the language will soon become familiar to you, &amp; you will I hope apply
-					yourself to it with assiduity. I remember <ref type="m"
-						target="people.html#TaylorWilliam">William Taylor</ref> promised to give you
+					yourself to it with assiduity. I remember <ref type="m" target="people.html#TaylorWilliam">William Taylor</ref> promised to give you
 					some instruction in German when you were well enough acquainted with the ancient
 					languages to begin the modern ones. I need not tell you how valuable such
 					instruction would be, or how gladly I should avail myself of such an opportunity
@@ -323,37 +81,23 @@
 					considered, in case of necessity he has additional means of supporting himself.
 					the languages <ref type="m" target="people.html#SoutheyHenryHerbert">Harry</ref>
 					which I learnt almost as an amusement have considerably contributed, &amp; still
-					in some degree do contribute to my support.</p>
-				<p rend="indent1"> You will send me your other translations from Anacreon &amp; in
+					in some degree do contribute to my support.</p><p rend="indent1"> You will send me your other translations from Anacreon &amp; in
 					return I will always send you some piece which you had not before seen. I wish
 					you would sometimes on a fine evening walk out, &amp; write as exact a
 					description of the sunset – &amp; the appearances of every thing around as you
 					can. you would find it a pleasant employment, &amp; I can assure you it would be
 					a very useful one. I should like you to send me some of these sketches – not of
-					sunset only, but of any natural scene. if you have Ossian<note n="5"
-						place="foot" resp="editors">Ossian, the supposed author of a cycle of Celtic
+					sunset only, but of any natural scene. if you have Ossian<note n="5" place="foot" resp="editors">Ossian, the supposed author of a cycle of Celtic
 						heroic poems, probably composed by James Macpherson (1736–1796;
 							<title>DNB</title>).</note> at hand you may see what I mean in the
 					descriptions of night by five Scotch Bards. your neighbourhood to the sea gives
 					you opportunities of seeing the finest effects of sun rise, fine weather or
 					storms. &amp; you may contrast it with inland views – &amp; forest scenery of
-					which I believe you will see much in Nottinghamshire.</p>
-				<closer><salute rend="indent1"> Let me hear from you soon – &amp; often &amp;
-						regularly. our love to <ref type="s" target="people.html#BurnettGeorge"
-							>Burnett</ref>.</salute><salute rend="indent2"> God bless
-						you.</salute><salute rend="indent3"> yr affectionate brother</salute><signed
-						rend="indent4"> Robert Southey.</signed></closer>
-				<postscript>
-					<p>I should have sent you a copy of Joan of Arc<note n="6" place="foot"
-							resp="editors">The epic with which Southey had made his name in 1796. A
+					which I believe you will see much in Nottinghamshire.</p><closer><salute rend="indent1"> Let me hear from you soon – &amp; often &amp;
+						regularly. our love to <ref type="s" target="people.html#BurnettGeorge">Burnett</ref>.</salute><salute rend="indent2"> God bless
+						you.</salute><salute rend="indent3"> yr affectionate brother</salute><signed rend="indent4"> Robert Southey.</signed></closer><postscript><p>I should have sent you a copy of Joan of Arc<note n="6" place="foot" resp="editors">The epic with which Southey had made his name in 1796. A
 							second, revised edition appeared in 1798.</note> to give your friend –
 						but <ref type="m" target="people.html#CottleJoseph">Mr Cottle</ref> has
-						disposed of the whole edition to a <ref type="m"
-							target="people.html#LongmanThomas">London bookseller</ref> &amp; I
+						disposed of the whole edition to a <ref type="m" target="people.html#LongmanThomas">London bookseller</ref> &amp; I
 						cannot therefore get them with the same ease, nor under the booksellers
-						price.</p>
-				</postscript>
-			</div>
-		</body>
-	</text>
-</TEI>
+						price.</p></postscript></div></body></text></TEI>

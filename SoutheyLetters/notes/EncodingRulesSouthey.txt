@@ -1,0 +1,89 @@
+For SOUTHEY MANUAL:
+
+Tables:
+
+Except for Chrono, use rendtion, and list the widths using "px" in <tagsDecl> under <encodingDesc>:
+
+
+<table rendition=#tbl[letter number without part number]>
+	<row>
+		<cell rendition="#cell1"></cell>
+		<cell rendition="#cell2"></cell>
+	</row>
+	<row>
+		<cell rendition="#cell1"></cell>
+		<cell rendition="#cell2"></cell>
+</table>
+
+<encodingDesc>
+	<editorialDecl></editorialDecl>
+	<tagsDecl>
+		<rendition xml:id="tbl[letter number without part number]" scheme="css">width: 740px; border: none;</rendition>
+		<rendition xml:id="cell1" scheme="css">width: 370px;</rendition>
+		<rendition xml:id="cell2" scheme="css">width: 370px;</rendition>
+
+
+EXAMPLES: southey.6.3699.xml, southey.1.134.xml, southey.3.1721.xml (see docsWtables folder for a list of all of them so far)
+
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+
+People List:
+
+addName type = akaS (additional surname)
+		type = nickname
+		type = akaF (additional forename)
+		type = pseud
+		type = aka (fullname)
+
+forename none or type = grp
+
+surname none
+		type = birth
+		type = married (if more than one marriage, addName type="akaS")
+		type = dynasty
+		type = grp
+
+<!-- Model new items after this: -->
+		<person xml:id="AbellaManuel">
+            <persName>
+               <roleName>[title if there is one]</roleName>
+               <forename>Manuel</forename>
+               			There are most often multiple forenames inside the one tag; legal forenames that the person didn't use are in parentheses before or after the used name in the one forename tag.
+               <surname>Abella</surname>
+            </persName>
+            <birth when="1753"/>
+            <death when="1825"/>
+               			Can have birth, death, floruit, or none; can contain any symbols (b. d. ? etc.) but NO PARENTHESIS since these
+               			are added by the xslt. If no dates, xslt will leave blank; if "(dates unknown)" put it at the end of the bio note.)
+            <bibl><title ref="#dnb">DNB</title>, <title ref="#hp">Hist P</title></bibl>
+            <note type="bio" target="#AbellaManuel">
+               Aragonese lawyer and antiquarian. He served as secretary to the Cortes (1809) and then worked as
+               secretary at the Spanish embassy in London. Whilst there he met Blanco White and Southey. On his return to Spain, he supplied
+               Southey with material for the <title>Edinburgh Annual Register</title> and his <title>History of the Peninsular War</title>
+               (1823–1832). Southey feared that he might have been imprisoned after the restoration of the Spanish monarchy in 1813–14, but
+               Abella remained in favour until about 1819, when he was exiled. Until this date he was Southey’s main source of news and
+               documents from Spain.
+            </note>
+        </person> 
+
+			Other notes: when someone is known as multiple names, use additional surnames with types ("married", "birth", "grp", "dynasty"
+				
+			<addName>
+				And/or use <addName type="akaF (another forename), "akaS (another surname), or "nickname" (enter a value without quotation marks) or "pseud"
+				These go inside the persName tag. If someone didn't go by their first name, it appears in the <forename> in parentheses-->
+				
+			
+			for Royalty,
+			<persName xml:id="WalesCharlottePrincess">
+				<roleName>Princess of Wales</roleName>
+				<forename>Charlotte Augusta</forename>
+				<surname type="dynasty">Hanover</surname>
+			</persName>
+
+
+			for families,  The Bedford Family = <forename type="grp">Family</forename><surname>Bedford</surname>; no dates
+			cross refs: The main entry has to be with the married name because <surname type="birth">Pemberton</surname> -- xslt makes it "(née Pemberton)" -- will not lead the entry and it will look out of alphabetical order. In the short entry for crossreferencing, give forename surname birth death then the bionote with the link to the main entry, as usual.
+
+			The next person number to be used: 527.

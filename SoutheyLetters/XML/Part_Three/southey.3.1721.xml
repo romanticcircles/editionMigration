@@ -1,289 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">1721. Robert Southey to Charles Danvers, 14 December
-               1809</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="3">Part Three <date>2026-07-20</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <availability status="free">
-               <p>This document is made available via a Creative Commons Zero License, as described
-                  under "Conditions of Use" at
-                  http://romantic-circles.org/about/submission-guidelines and here:</p>
-               <p>As of July 2027, all material published on Romantic Circles is licensed uder
-                  Creative Commons Zero (CC 0), unless otherwise noted.</p>
-               <p>Unless otherwise noted, users are not permitted to download texts and images
-                  published before December 2023 in order to mount them on their own servers.</p>
-            </availability>
-            <idno type="edition">southey.3.1721</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>British Library, Add MS 30928. ALS; 4p.. Not previously published.</p>
-            <p>These letters were edited by Lynda Pratt</p>
-            <p>For permission to publish the text of MSS in their possession, the editor wishes to
-               thank the Beinecke Rare Books and Manuscript Library, Yale University; Berg
-               Collection of English and American Literature, The New York Public Library, Astor,
-               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
-               Library; Boston Public Library; the Syndics of Cambridge University Library; the
-               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
-               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
-               Information Services; the Houghton Library, Harvard University; the John Rylands
-               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
-               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
-               University Library; the National Library of Scotland; the Newberry Library, Chicago;
-               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
-               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
-               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
-               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="tbl1721" scheme="css">width: 740px; border: none;</rendition>
-            <rendition xml:id="cell1" scheme="css">width: 40px;</rendition>
-            <rendition xml:id="cell2" scheme="css">width: 700px;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q37068">
-                  <catDesc>Romanticism</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2027-07-14" who="#LM">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list>
-               <item>made tables TEI compliant</item>
-            </list>
-         </change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">1721. Robert Southey to Charles Danvers, 14 December
+               1809</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Carol Bolton</editor><editor>Tim Fulford</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="3">Part Three <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.3.1721</idno></publicationStmt><sourceDesc><p>British Library, Add MS 30928. ALS; 4p.. Not previously published.</p><p>These letters were edited by Carol Bolton and Tim Fulford</p><p>Every effort has been made to contact
+                    copyright holders for their permission to reprint material in this edition. The
+                    editors would be grateful to hear from any copyright holder who is not here
+                    acknowledged and undertake to rectify any omissions or errors in future updates
+                    of this
+                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
+                    Berg Collection of English and American Literature, The New York Public Library,
+                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
+                    British Library; Boston Public Library; the Syndics of Cambridge University
+                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
+                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
+                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
+                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
+                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
+                    Massachusetts Historical Society; McGill University Library; the National
+                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
+                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
+                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
+                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
+                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
+                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl1721" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 40px;</rendition><rendition xml:id="cell2" scheme="css">width: 700px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="1721" type="letter">
-            <head>1721. Robert Southey to <ref type="a" target="people.html#DanversCharles">Charles
-                  Danvers</ref>, <date when="1809-12-14">14 December 1809</date><note
-                  type="headnote" place="foot" resp="editors">Address: To/ Charles Danvers Esq<hi
-                     rend="sup">r</hi>/ Bristol./ Single <lb/>Endorsements: 180 1809/ Dec<hi
-                     rend="sup">r</hi> 14 –<lb/>MS: British Library, Add MS 30928. ALS;
-                  4p.<lb/>Unpublished.</note></head>
-            <opener><salute>My dear Danvers</salute></opener>
-            <p rend="indent1"> The Box arrived this evening, – the Dolls safe, &amp; nothing the
-               worse for keeping, except I fear the seeds, which are very damp. <ref type="m"
-                  target="people.html#FrickerMartha">Mrs Lovell</ref> seems however to think them
-               chiefly old acquaintance of no great rarity, so that her regret is the less.</p>
-            <p rend="indent1"> There are some books in <ref type="m" target="people.html#Gutch"
-                  >Gutchs</ref> Catalogue of which I shall be glad, if they are not sold.<note n="1"
-                  place="foot" resp="editors"> Items 2062, 2476, 2594 and 2598 have ticks against
-                  them in the lefthand margin.</note></p>
-            <table rendition="#tbl1721">
-               <row>
-                  <cell rendition="#cell1">464.</cell>
-                  <cell rendition="#cell2">Anglorum Prælia,<note n="2" place="foot" resp="editors">
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="1721" type="letter"><head>1721. Robert Southey to <ref type="a" target="people.html#DanversCharles">Charles
+                  Danvers</ref>, <date when="1809-12-14">14 December 1809</date><note type="headnote" place="foot" resp="editors">Address: To/ Charles Danvers Esq<hi rend="sup">r</hi>/ Bristol./ Single <lb/>Endorsements: 180 1809/ Dec<hi rend="sup">r</hi> 14 –<lb/>MS: British Library, Add MS 30928. ALS;
+                  4p.<lb/>Unpublished.</note></head><opener><salute>My dear Danvers</salute></opener><p rend="indent1"> The Box arrived this evening, – the Dolls safe, &amp; nothing the
+               worse for keeping, except I fear the seeds, which are very damp. <ref type="m" target="people.html#FrickerMartha">Mrs Lovell</ref> seems however to think them
+               chiefly old acquaintance of no great rarity, so that her regret is the less.</p><p rend="indent1"> There are some books in <ref type="m" target="people.html#Gutch">Gutchs</ref> Catalogue of which I shall be glad, if they are not sold.<note n="1" place="foot" resp="editors"> Items 2062, 2476, 2594 and 2598 have ticks against
+                  them in the lefthand margin.</note></p><table rendition="#tbl1721"><row><cell rendition="#cell1">464.</cell><cell rendition="#cell2">Anglorum Prælia,<note n="2" place="foot" resp="editors">
                         Christopher Ocland (d. c. 1590; <title>DNB</title>), <title>Anglorum
                            Praelia</title> (1582); no. 2051 in the sale catalogue of Southey’s
-                        library.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">2062.</cell>
-                  <cell rendition="#cell2">Estes Journey.<note n="3" place="foot" resp="editors"> Charles
+                        library.</note></cell></row><row><cell rendition="#cell1">2062.</cell><cell rendition="#cell2">Estes Journey.<note n="3" place="foot" resp="editors"> Charles
                         Este (1753–1829), <title>A Journey in the Year 1793: Through Flanders,
                            Brabant, and Germany</title> (1795); no. 1010 in the sale catalogue of
-                        Southey’s library.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">2476.</cell>
-                  <cell rendition="#cell2">Catel. Hist. des Comtes de Toulouse,<note n="4" place="foot"
-                        resp="editors"> Guillaume Catel (1590–1626), <title>Histoire des Comtes de
+                        Southey’s library.</note></cell></row><row><cell rendition="#cell1">2476.</cell><cell rendition="#cell2">Catel. Hist. des Comtes de Toulouse,<note n="4" place="foot" resp="editors"> Guillaume Catel (1590–1626), <title>Histoire des Comtes de
                            Tolose</title> (1623), no. 683 in the sale catalogue of Southey’s
                         Library.</note> (the very book I suspect concerning which Emery &amp;
                         Lansdowne<note n="5" place="foot" resp="editors"> Emery (first name and
                         dates unknown) and Lansdowne (first name and dates unknown), a Bristol
                         bookselling and printing business.</note> played me so dirty a trick at the
-                     Deans sale.)</cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">2594.</cell>
-                  <cell rendition="#cell2">Hist. de Charles VI.<note n="6" place="foot" resp="editors"> P.
+                     Deans sale.)</cell></row><row><cell rendition="#cell1">2594.</cell><cell rendition="#cell2">Hist. de Charles VI.<note n="6" place="foot" resp="editors"> P.
                         A. La Lande (dates unknown), <title>Histoire de l’Empereur Charles
                            VI</title> (1743); no. 1591 in the sale catalogue of Southey’s
-                        library.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">2598.</cell>
-                  <cell rendition="#cell2">Hist. de Jeanne ‘d Arc.<note n="7" place="foot" resp="editors">
+                        library.</note></cell></row><row><cell rendition="#cell1">2598.</cell><cell rendition="#cell2">Hist. de Jeanne ‘d Arc.<note n="7" place="foot" resp="editors">
                         Probably Nicolas Lenglet Du Fresnoy (1674–1755), <title>Histoire de Jeanne
                            d’Arc</title> (1775); Southey’s copy was no. 868 in the sale catalogue of
-                        his library.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">2602. </cell>
-                  <cell rendition="#cell2">Hist. de la derniere Revolution.<note n="8" place="foot"
-                        resp="editors"> Francois Bernier (1620–1688), <title>Histoire de la Derniere
-                           Revolution des Etats du Grand Mogol</title> (1670–1671).</note></cell>
-               </row>
-            </table>
-            <p rend="indent1">When you have purchased these let me know the sum total of my debt to
+                        his library.</note></cell></row><row><cell rendition="#cell1">2602. </cell><cell rendition="#cell2">Hist. de la derniere Revolution.<note n="8" place="foot" resp="editors"> Francois Bernier (1620–1688), <title>Histoire de la Derniere
+                           Revolution des Etats du Grand Mogol</title> (1670–1671).</note></cell></row></table><p rend="indent1">When you have purchased these let me know the sum total of my debt to
                you &amp; I will send you a draft to the amount. The books may wait awhile, for the
                convenience of the memories down stairs, – they probably may recollect some
                commissions for <ref type="m" target="people.html#FrickerMartha">Martha</ref> in the
                course of a few days, – but it is <del>x</del> advisable to lose no time in securing
-               them.</p>
-            <p rend="indent1"> Give my <ref type="m" target="people.html#SoutheyEdithMay"
-                  >daughters</ref> thanks to Hort, &amp; mine also. I will write to him very
-               shortly. </p>
-            <p rend="indent1"> I am <hi rend="ital">very very very</hi> busy. My first volume will
+               them.</p><p rend="indent1"> Give my <ref type="m" target="people.html#SoutheyEdithMay">daughters</ref> thanks to Hort, &amp; mine also. I will write to him very
+               shortly. </p><p rend="indent1"> I am <hi rend="ital">very very very</hi> busy. My first volume will
                be out in about two months.<note n="9" place="foot" resp="editors"> The first volume
                   of Southey’s <title>History of Brazil</title> was published in 1810.</note> I am
                not more than half thro the Register work.<note n="10" place="foot" resp="editors">
                   Southey was contributing the ‘History of Europe’ for 1808–1810 in James
                   Ballantyne’s <title>Edinburgh Annual Register</title>, which was published from
-                  1810–1812.</note> Kehama is going to press,<note n="11" place="foot"
-                  resp="editors"> Southey’s poem, <title>The Curse of Kehama</title> (1810).</note>
-               – &amp; yesterday I received a letter from <ref type="m"
-                  target="people.html#GiffordWilliam">Gifford</ref> requesting me to review the
+                  1810–1812.</note> Kehama is going to press,<note n="11" place="foot" resp="editors"> Southey’s poem, <title>The Curse of Kehama</title> (1810).</note>
+               – &amp; yesterday I received a letter from <ref type="m" target="people.html#GiffordWilliam">Gifford</ref> requesting me to review the
                great Life of Nelson, <del>xxx</del> &amp; offering me 20 guineas a sheet to do it,
-               &amp; hoping I would make if fill three sheets.<note n="12" place="foot"
-                  resp="editors"> Southey’s review of John Charnock (1756–1806; <title>DNB</title>),
+               &amp; hoping I would make if fill three sheets.<note n="12" place="foot" resp="editors"> Southey’s review of John Charnock (1756–1806; <title>DNB</title>),
                      <title>Biographical Memoirs of Lord Viscount Nelson, &amp;c., &amp;c., &amp;c.;
                      with Observations, Critical and Explanatory</title> (1806); James Harrison (d.
                   1847), <title>The Life of Lord Nelson</title> (1806); T. O. Churchill (fl.
@@ -298,27 +91,20 @@
                thought myself well paid at the usual price of ten guineas a sheet, &amp; this
                Gifford knows very well, – but it answers better to the Proprietor to give me as much
                again for the sake of saying that they pay so much, – it being the fashion &amp; the
-               folly of the English people to estimate things according to their <hi rend="ital"
-                  >price</hi> &amp; not their intrinsic value, I am <del>cert</del> quite willing to
-               accommodate them by being paid as highly as they please.</p>
-            <p rend="indent1"><ref type="m" target="people.html#HillHerbertUncle">My Uncle</ref>
+               folly of the English people to estimate things according to their <hi rend="ital">price</hi> &amp; not their intrinsic value, I am <del>cert</del> quite willing to
+               accommodate them by being paid as highly as they please.</p><p rend="indent1"><ref type="m" target="people.html#HillHerbertUncle">My Uncle</ref>
                takes <ref target="places.html#Streatham">Streatham</ref>, &amp; resigns his
                Herefordshire preferment, persuaded to this by the advice of his friends, in
                opposition to his own judgement. Streatham is valued at 1000£ a year. It will suit me
                in many respects to have him near London. He expects to remove there in the
-               summer.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SoutheyTom">Tom</ref> has got the
-               American Madoc for me, &amp; it is on its way.<note n="13" place="foot"
-                  resp="editors"><title>Madoc: A Poem</title> was published in Boston,
+               summer.</p><p rend="indent1"><ref type="m" target="people.html#SoutheyTom">Tom</ref> has got the
+               American Madoc for me, &amp; it is on its way.<note n="13" place="foot" resp="editors"><title>Madoc: A Poem</title> was published in Boston,
                   Massachusetts, in 1806.</note> You will I think like my reviewal of the American
-               Annals in the 4<hi rend="sup">th</hi> Quarterly.<note n="14" place="foot"
-                  resp="editors"> Southey reviewed Abiel Holmes (1763–1837), <title>American Annals;
+               Annals in the 4<hi rend="sup">th</hi> Quarterly.<note n="14" place="foot" resp="editors"> Southey reviewed Abiel Holmes (1763–1837), <title>American Annals;
                      or, a Chronological History of America, from its Discovery in 1492 to
                      1806</title> in the<title> Quarterly Review</title>, 2 (November 1809),
                   319–337.</note> There should be about half a guineas worth in it taken out of a
-               two penny duck which I purchased seven years ago upon Christmas Street steps.<note
-                  n="15" place="foot" resp="editors"> A street north of <ref
-                     target="places.html#CollegeGreenBristol">College Green</ref> in Bristol.</note>
+               two penny duck which I purchased seven years ago upon Christmas Street steps.<note n="15" place="foot" resp="editors"> A street north of <ref target="places.html#CollegeGreenBristol">College Green</ref> in Bristol.</note>
                You will probably recollect it, – John the Servant of the Lamb who used to query the
                Pope as he called it.<note n="16" place="foot" resp="editors"> Southey tells the
                   story of John Perrot (d. 1665), ‘the follower of the Lamb’, who in 1658 when a
@@ -328,9 +114,7 @@
                      against Rome, or the battle of John, the Follower of the Lamb, fought with the
                      Pope and his Priests, whilst he was a Prisoner in the Inquisition Prison of
                      Rome: also a certain Remonstrance of Righteous Reason, written in Rome’s Prison
-                     of Madmen, unto all Rome’s Rulers</title> (1661).</note></p>
-            <p rend="indent1"> The Life of Nelson is by Stanier Clarke,<note n="17" place="foot"
-                  resp="editors"> See note 12.</note> whose presumption in laying unhallowed hands
+                     of Madmen, unto all Rome’s Rulers</title> (1661).</note></p><p rend="indent1"> The Life of Nelson is by Stanier Clarke,<note n="17" place="foot" resp="editors"> See note 12.</note> whose presumption in laying unhallowed hands
                   <del>xxx</del> &lt;upon&gt; such a subject I am desired <del>x</del> not to spare.
                You may remember my reviewal of the Arch Quacks Hist. of Maritime Discovery in the 2d
                   Annual.<note n="18" place="foot" resp="editors"> Southey reviewed Clarke’s
@@ -342,21 +126,11 @@
                   actually John Ferriar (1761–1815; <title>DNB</title>) who reviewed
                      <title>Madoc</title> (1805) in the <title>Monthly Review</title>, 48 (October
                   1805), 113–122.</note> &amp; upon that sort of evidence which leaves me no doubt
-               concerning it, he is now delivered over to be tormented.</p>
-            <p rend="indent1"> God bless you. I have written with a sick head-ache, which has
+               concerning it, he is now delivered over to be tormented.</p><p rend="indent1"> God bless you. I have written with a sick head-ache, which has
                prevented me from going out to spend the evening, – &amp; now I shall amuse myself
                with warm <del>&amp;</del> water &amp; a feather. What a pity that a Gentleman with
                so sweet a temper, – should have so sour a stomach belonging to it! but my bouts (as
                you call them) are not like yours. I suffer comparatively nothing, – &amp; when I
                   <del>am not</del> can bring forth an occasional pun, – when I am not bringing up
-               any thing else. </p>
-            <closer><salute rend="indent1"> Remember me to <ref type="s"
-                     target="people.html#KingJohn">Rex</ref> –</salute><salute rend="indent2"> yrs
-                  as ever</salute><signed rend="indent3"> R Southey</signed></closer>
-            <postscript>
-               <p><date when="1809-12-14">Dec. 14. 1809</date></p>
-            </postscript>
-         </div>
-      </body>
-   </text>
-</TEI>
+               any thing else. </p><closer><salute rend="indent1"> Remember me to <ref type="s" target="people.html#KingJohn">Rex</ref> –</salute><salute rend="indent2"> yrs
+                  as ever</salute><signed rend="indent3"> R Southey</signed></closer><postscript><p><date when="1809-12-14">Dec. 14. 1809</date></p></postscript></div></body></text></TEI>
