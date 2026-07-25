@@ -162,30 +162,16 @@ p.postscript {}
 
 /* tables */
 
-table {
-    
-}
-
-#chrono {
-    width: 740px;
-    border: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-td.colDate {
-    width: 130px;
-}
-
-td.colEvent {
-    width: 610px;
-}
-
 tr.rowSpace {
-    
+    height: 2rem;
 }
 
+td {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 0.5rem;
+}
+/* lists */
 dl {
 
 }

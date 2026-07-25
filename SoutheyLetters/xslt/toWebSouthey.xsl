@@ -243,7 +243,7 @@
 			<xsl:if test="tei:encodingDesc/tei:tagsDecl">
 				<style>
 					<xsl:for-each select="tei:encodingDesc/tei:tagsDecl/tei:rendition">
-						<xsl:value-of select="concat('.', '.', @xml:id, ' {')"/>
+						<xsl:value-of select="concat('.', @xml:id, ' {')"/>
 						<xsl:value-of select="."/>
 						<xsl:text>}</xsl:text>
 					</xsl:for-each>
@@ -388,6 +388,9 @@
 
 	<xsl:template match="tei:row">
 		<tr>
+			<xsl:if test="@rendition">
+				<xsl:attribute name="class" select="substring-after(@rendition, '#')"/>
+			</xsl:if>
 			<xsl:apply-templates/>
 		</tr>
 	</xsl:template>
@@ -395,7 +398,7 @@
 	<xsl:template match="tei:cell">
 		<td>
 			<xsl:if test="@rendition">
-				<xsl:attribute name="class" select="substring-before(@rendition, '#')"/>
+				<xsl:attribute name="class" select="substring-after(@rendition, '#')"/>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</td>

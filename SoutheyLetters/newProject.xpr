@@ -14,7 +14,47 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
+                                        <String>test</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>XML/Part_One/southey.1.134.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
                                         <String>toWebSouthey</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>XML/paratext/places.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>makeNamesListXML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -231,26 +271,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>XML/paratext/people.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>makeNamesListXML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>XML/paratext/places.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -1057,7 +1077,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslt/toWebSouthey.xsl</String>
+                                    <String>${pdu}/xslt/identity.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -1072,13 +1092,13 @@
                                     <String>XSL</String>
                                 </field>
                                 <field name="saveAs">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${pd}/XML/text.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
