@@ -90,6 +90,7 @@
             <meta property="dc.source" content="https://cha.artsci.tamu.edu/SoutheyLetters"/>
             <meta property="dc.type" content="Text"/>
             <meta property="dc.format" content="text/html"/>
+            <meta property="dc.identifier" content="https://cha.artsci.tamu.edu/SoutheyLetters/HTML/paratext/people.html" />
             <meta name="docTitle" class="staticSearch_docTitle" content="Biorgraphies" />
             <meta name="docAuthor" class="staticSearch_docAuthor" content="Lynda Pratt" />
             <meta name="Date Written" class="staticSearch_date" content="2009" />
@@ -394,9 +395,20 @@
     </xsl:template>
 
     <xsl:template match="tei:ref">
-        <a href="{@target}">
-            <xsl:apply-templates/>
-        </a>
+        <xsl:variable name="refNo">
+            <xsl:number select="." level="any"/>
+            <!--This is for staticSearch -->
+        </xsl:variable>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@target"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="concat('refPeople.', $refNo)"/>
+                        <!--This is for staticSearch -->
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </a>
     </xsl:template>
     
     <xsl:template match="tei:hi">

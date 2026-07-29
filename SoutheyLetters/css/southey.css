@@ -137,6 +137,10 @@ div.notes {
     background-color: white;
     padding: 2% 8%;
 }
+.note { /* can be a div (containing p tags) or a p */
+    display: block;
+    width: 100%;
+}
 p {
     display: block;
     width: 100%;
@@ -159,6 +163,12 @@ p.opener {
 }
 p.closer {}
 p.postscript {}
+
+.blockquote {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 /* tables */
 
@@ -224,6 +234,10 @@ a:visited:hover {
 }
 
 /* indentation (can be used in poems, divs, paragraphs, etc.) */
+
+.indent0 {
+    text-indent: 0;
+}
 .indent {
     text-indent: 10px;
     display: block;
@@ -313,8 +327,20 @@ h4 {font-size: 18px;}
 h5 {font-size: 14px;}
 h6 {font-size: 10px;}
 
+.label {font-size: 20px; font-weight: bold;}
+
 .title {font-style: italic;}
 .ital {font-style: italic}
+
+.addUP {
+    vertical-align: 10px;
+}
+.del {
+    text-decoration: line-through;
+}
+.sup {
+    vertical-align: text-bottom;
+}
 
 /* alphabet list from gemini pro, 7/19/26 */
 .alphabet-container {

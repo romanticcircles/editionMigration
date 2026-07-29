@@ -23,35 +23,6 @@
 
 	<xsl:param name="nbrPoetryLines">no</xsl:param>
 	<xsl:param name="css">../../css/southey.css</xsl:param>
-	<xsl:variable name="letDate">
-		<xsl:choose>
-			<xsl:when test="tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice">
-				<xsl:value-of
-					select="tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
-				/>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/@when"/>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:variable>
-	<xsl:variable name="getPath">
-		<xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
-	</xsl:variable>
-	<xsl:variable name="ptPath">
-		<xsl:choose>
-			<xsl:when test="$getPath = ''">paratext</xsl:when>
-			<xsl:when test="$getPath = '1'">Part_One</xsl:when>
-			<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
-			<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
-			<xsl:when test="$getPath = '4'">Part_Four</xsl:when>
-			<xsl:when test="$getPath = '5'">Part_Five</xsl:when>
-			<xsl:when test="$getPath = '6'">Part_Six</xsl:when>
-			<xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
-		</xsl:choose>
-	</xsl:variable>
-	<xsl:variable name="docID"
-		select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
 	<xsl:key name="personLookup" match="person" use="@xml:id"/>
 	<xsl:key name="placeLookup" match="place" use="@xml:id"/>
 
@@ -70,6 +41,35 @@
 		document structure -->
 
 	<xsl:template match="tei:TEI">
+		<xsl:variable name="docID"
+			select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
+		<xsl:variable name="letDate">
+			<xsl:choose>
+				<xsl:when test="tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice">
+					<xsl:value-of
+						select="tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
+					/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="tei:text/tei:body/tei:div/tei:head/tei:date/@when"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="getPath">
+			<xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
+		</xsl:variable>
+		<xsl:variable name="ptPath">
+			<xsl:choose>
+				<xsl:when test="$getPath = ''">paratext</xsl:when>
+				<xsl:when test="$getPath = '1'">Part_One</xsl:when>
+				<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+				<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+				<xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+				<xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+				<xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+				<xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
 		<xsl:result-document href="../../HTML/{$ptPath}/{$docID}.html">
 			<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
 			<html xml:lang="en" lang="en" id="idno"
@@ -81,6 +81,35 @@
 	</xsl:template>
 
 	<xsl:template match="tei:teiHeader">
+		<xsl:variable name="docID"
+			select="tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
+		<xsl:variable name="letDate">
+			<xsl:choose>
+				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice">
+					<xsl:value-of
+						select="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
+					/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/@when"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="getPath">
+			<xsl:value-of select="tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
+		</xsl:variable>
+		<xsl:variable name="ptPath">
+			<xsl:choose>
+				<xsl:when test="$getPath = ''">paratext</xsl:when>
+				<xsl:when test="$getPath = '1'">Part_One</xsl:when>
+				<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+				<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+				<xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+				<xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+				<xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+				<xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
 		<xsl:variable name="headTitle">
 			<xsl:value-of
 				select="normalize-space(concat(tei:fileDesc/tei:titleStmt/tei:title[@level = 'a'], ' ', tei:fileDesc/tei:titleStmt/tei:title[@level = 'm']))"
@@ -132,7 +161,7 @@
 			<meta property="og:title" content="{$headTitle}"/>
 			<meta property="og:type" content="website"/>
 			<meta property="og:url"
-				content="https://cha.artsci.tamu.edu/SoutheyLetters/{$ptPath}/{$docID}.html"/>
+				content="https://cha.artsci.tamu.edu/SoutheyLetters/HTML/{$ptPath}/{$docID}.html"/>
 			<!--add path -->
 			<meta property="og:image"
 				content="https://cha.artsci.tamu.edu/SoutheyLetters/images/RClogo.png"/>
@@ -147,6 +176,8 @@
 			<meta property="dc.source" content="https://cha.artsci.tamu.edu/SoutheyLetters"/>
 			<meta property="dc.type" content="Text"/>
 			<meta property="dc.format" content="text/html"/>
+			<meta property="dc.identifier"
+				content="https://cha.artsci.tamu.edu/SoutheyLetters/HTML/{$ptPath}/{$docID}.html"/>
 			<meta name="docTitle" class="staticSearch_docTitle">
 				<xsl:attribute name="content"
 					select="normalize-space(tei:fileDesc/tei:titleStmt/tei:title[@level = 'a'])"/>
@@ -169,7 +200,9 @@
 						<xsl:when test="tei:fileDesc/tei:titleStmt/tei:author/tei:persName">
 							<meta name="docAuthor" class="staticSearch_docAuthor">
 								<xsl:attribute name="content">
-									<xsl:value-of select="concat(tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:forename, ' ', tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:surname)"/>
+									<xsl:value-of
+										select="concat(tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:forename, ' ', tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:surname)"
+									/>
 								</xsl:attribute>
 							</meta>
 						</xsl:when>
@@ -222,16 +255,20 @@
 			<xsl:for-each select="tei:profileDesc/tei:textClass/tei:catRef[@scheme = 'VIAF']">
 				<meta name="viaf">
 					<xsl:attribute name="content">
-					<xsl:value-of select="concat('http://viaf.org/viaf/',substring-after(@target, '#'))"/>
+						<xsl:value-of
+							select="concat('http://viaf.org/viaf/', substring-after(@target, '#'))"
+						/>
 					</xsl:attribute>
 				</meta>
 			</xsl:for-each>
-			<xsl:for-each select="tei:profileDesc/tei:textClass/tei:catRef[@scheme='Wikidata']">
-			<meta name="Wikidata">
-				<xsl:attribute name="content">
-					<xsl:value-of select="concat('https://www.wikidata.org/entity/', substring-after(@target, '#'))"/>
-				</xsl:attribute>
-			</meta>
+			<xsl:for-each select="tei:profileDesc/tei:textClass/tei:catRef[@scheme = 'Wikidata']">
+				<meta name="Wikidata">
+					<xsl:attribute name="content">
+						<xsl:value-of
+							select="concat('https://www.wikidata.org/entity/', substring-after(@target, '#'))"
+						/>
+					</xsl:attribute>
+				</meta>
 			</xsl:for-each>
 			<link rel="stylesheet" type="text/css" href="{$css}"/>
 			<link rel="icon" type="image/svg" href="../../images/favicon.ico"/>
@@ -255,49 +292,102 @@
 	<xsl:template match="tei:text">
 		<body>
 			<nav id="top">
-				<p class="navTitle"><a href="../../index.html">The Collected Letters of Robert Southey</a><br/>Gen. Ed. Lynda Pratt</p>
+				<p class="navTitle"><a href="../../index.html">The Collected Letters of Robert
+						Southey</a><br/>Gen. Ed. Lynda Pratt</p>
 				<p class="homePlink">
-					<a href="index.html"><img src="../../images/GretaHall3.png" alt="Greta Hall home button" class="homeButton"/></a></p>
+					<a href="index.html">
+						<img src="../../images/GretaHall3.png" alt="Greta Hall home button"
+							class="homeButton"/>
+					</a>
+				</p>
 				<ul class="nav">
 					<li class="nav">
 						<span class="drop">Parts</span>
 						<ul class="dropdown">
-							<li><a href="../../index.html">All</a></li>
-							<li><a href="../Part_One/index.html">One (1791-1797)</a></li>
-							<li><a href="../Part_Two/index.html">Two (1798-1803)</a></li>
-							<li><a href="../Part_Three/index.html">Three (1804-1809)</a></li>
-							<li><a href="../Part_Four/index.html">Four (1810-1815)</a></li>
-							<li><a href="../Part_Five/index.html">Five (1816-1818)</a></li>
-							<li><a href="../Part_Six/index.html">Six (1819-1821)</a></li>
-							<li><a href="../Part_Seven/index.html">Seven (1822-1824)</a></li>
-							<li><a href="../Part_Eight/index.html">Eight (1825-1827)</a></li>
-							<li><a href="../Part_Nine/index.html">Nine (1828-1830)</a></li>
-							<li><a href="../Part_Ten/index.html">Ten (1831-1833)</a></li>
-							<li><a href="../Part_Eleven/index.html">Eleven (1834-1836)</a></li>
-							<li><a href="../Part_Twelve/index.html">Twelve (1837-1839)</a></li>
+							<li>
+								<a href="../../index.html">All</a>
+							</li>
+							<li>
+								<a href="../Part_One/index.html">One (1791-1797)</a>
+							</li>
+							<li>
+								<a href="../Part_Two/index.html">Two (1798-1803)</a>
+							</li>
+							<li>
+								<a href="../Part_Three/index.html">Three (1804-1809)</a>
+							</li>
+							<li>
+								<a href="../Part_Four/index.html">Four (1810-1815)</a>
+							</li>
+							<li>
+								<a href="../Part_Five/index.html">Five (1816-1818)</a>
+							</li>
+							<li>
+								<a href="../Part_Six/index.html">Six (1819-1821)</a>
+							</li>
+							<li>
+								<a href="../Part_Seven/index.html">Seven (1822-1824)</a>
+							</li>
+							<li>
+								<a href="../Part_Eight/index.html">Eight (1825-1827)</a>
+							</li>
+							<li>
+								<a href="../Part_Nine/index.html">Nine (1828-1830)</a>
+							</li>
+							<li>
+								<a href="../Part_Ten/index.html">Ten (1831-1833)</a>
+							</li>
+							<li>
+								<a href="../Part_Eleven/index.html">Eleven (1834-1836)</a>
+							</li>
+							<li>
+								<a href="../Part_Twelve/index.html">Twelve (1837-1839)</a>
+							</li>
 						</ul>
 					</li>
 					<li class="nav">
 						<span class="drop">People</span>
 						<ul class="dropdown">
-							<li><a href="../paratext/people.html">All</a></li>
-							<li><a href="../paratext/corresp.html">Correspondents</a></li>
-							<li><a href="../paratext/mentioned.html">People mentioned</a></li>
+							<li>
+								<a href="../paratext/people.html">All</a>
+							</li>
+							<li>
+								<a href="../paratext/corresp.html">Correspondents</a>
+							</li>
+							<li>
+								<a href="../paratext/mentioned.html">People mentioned</a>
+							</li>
 						</ul>
 					</li>
-					<li class="nav"><a href="../paratext/places.html">Places</a></li>
-					<li class="nav"><a href="../paratext/chrono.html">Chronology</a></li>
+					<li class="nav">
+						<a href="../paratext/places.html">Places</a>
+					</li>
+					<li class="nav">
+						<a href="../paratext/chrono.html">Chronology</a>
+					</li>
 					<li class="nav">
 						<span class="drop">Appendices</span>
 						<ul class="dropdown">
-							<li><a href="../paratext/appendices.html">All</a></li>
-							<li><a href="../paratext/appendix1.html">Appendix 1</a></li>
-							<li><a href="../paratext/appendix2.html">Appendix 2</a></li>
-							<li><a href="../paratext/appendix3.html">Appendix 3</a></li>
-							<li><a href="../paratext/appendix4.html">Appendix 4</a></li>
+							<li>
+								<a href="../paratext/appendices.html">All</a>
+							</li>
+							<li>
+								<a href="../paratext/appendix1.html">Appendix 1</a>
+							</li>
+							<li>
+								<a href="../paratext/appendix2.html">Appendix 2</a>
+							</li>
+							<li>
+								<a href="../paratext/appendix3.html">Appendix 3</a>
+							</li>
+							<li>
+								<a href="../paratext/appendix4.html">Appendix 4</a>
+							</li>
 						</ul>
 					</li>
-					<li class="nav"><a href="../search.html">Search</a></li>
+					<li class="nav">
+						<a href="../search.html">Search</a>
+					</li>
 				</ul>
 			</nav>
 			<main>
@@ -321,9 +411,11 @@
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
-	
+
 	<xsl:template match="tei:div/tei:head">
-		<h1><xsl:apply-templates/></h1>
+		<h1>
+			<xsl:apply-templates/>
+		</h1>
 	</xsl:template>
 
 	<xsl:template match="tei:p">
@@ -353,7 +445,7 @@
 
 	<xsl:template match="tei:l">
 		<xsl:variable name="lineNo">
-			<xsl:number from="tei:div" level="any"/>
+			<xsl:number level="any"/>
 		</xsl:variable>
 		<span class="l" id="line{$lineNo}">
 			<!-- id above for static search -->
@@ -454,25 +546,64 @@
 		</dd>
 	</xsl:template>
 
+	<xsl:template match="tei:label">
+		<span class="label">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 	<!-- links -->
 
 	<xsl:template match="tei:ref">
+		<xsl:variable name="docID"
+			select="ancestor-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
 		<xsl:variable name="refNo">
 			<xsl:number select="." level="any"/>
 			<!--This is for staticSearch -->
 		</xsl:variable>
 		<xsl:variable name="letNBR">
 			<xsl:value-of select="substring-after($docID, 'southey.')"/>
-		</xsl:variable>
-		<a href="{@target}">
 			<!--This is for staticSearch -->
-			<xsl:attribute name="id">
-				<xsl:value-of select="concat('ref', $letNBR, '.', $refNo)"/>
-			</xsl:attribute>
-			<xsl:apply-templates/>
-		</a>
+		</xsl:variable>
+		<xsl:variable name="urlLocal" select="@target"/>
+		<xsl:choose>
+			<xsl:when test="contains($urlLocal, 'people')">
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="concat('../paratext/', @target)"/>
+					</xsl:attribute>
+					<xsl:attribute name="id">
+						<xsl:value-of select="concat('ref', $letNBR, '.', $refNo)"/>
+						<!--This is for staticSearch -->
+					</xsl:attribute>
+					<xsl:apply-templates/>
+				</a>
+			</xsl:when>
+			<xsl:when test="contains($urlLocal, 'places')">
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="concat('../paratext/', @target)"/>
+					</xsl:attribute>
+					<xsl:attribute name="id">
+						<xsl:value-of select="concat('ref', $letNBR, '.', $refNo)"/>
+						<!--This is for staticSearch -->
+					</xsl:attribute>
+					<xsl:apply-templates/>
+				</a>
+			</xsl:when>
+			<xsl:otherwise>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="@target"/>
+					</xsl:attribute>
+					<xsl:attribute name="id">
+						<xsl:value-of select="concat('ref', $letNBR, '.', $refNo)"/>
+						<!--This is for staticSearch -->
+					</xsl:attribute>
+					<xsl:apply-templates/>
+				</a>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
-
 
 
 	<!-- =======================================================
@@ -492,6 +623,18 @@
 			<xsl:value-of select="."/>
 		</em>
 	</xsl:template>
+
+	<xsl:template match="tei:title">
+		<span class="title">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<tei:template match="tei:text//*/tei:label">
+		<span class="label">
+			<xsl:apply-templates/>
+		</span>
+	</tei:template>
 
 
 	<!-- =======================================================
@@ -557,16 +700,79 @@
 					<xsl:apply-templates/>
 				</span>
 			</xsl:when>
-			<xsl:when test="parent::tei:cit">
-				<xsl:apply-templates/>
-			</xsl:when>
+			<xsl:otherwise>
+				<p class="blockquote">
+					<xsl:apply-templates/>
+				</p>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
+
+	<xsl:template match="tei:epigraph">
+		<xsl:choose>
+			<xsl:when test="tei:p or tei:lg">
+				<div class="blockquote">
+					<xsl:apply-templates/>
+				</div>
+			</xsl:when>
+			<xsl:when test="parent::tei:div">
+				<div class="blockquote">
+					<xsl:apply-templates/>
+				</div>
+			</xsl:when>
+			<xsl:when test="tei:l">
+				<p class="blockquote stanza">
+					<xsl:apply-templates/>
+				</p>
+			</xsl:when>
+			<xsl:when test="parent::tei:p">
+				<span class="blockquote">
+					<xsl:apply-templates/>
+				</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<p class="blockquote">
+					<xsl:apply-templates/>
+				</p>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<!--  =======================================================
+		corrections and deletions -->
+
+	<xsl:template match="tei:add">
+		<xsl:choose>
+			<xsl:when test="contains(., 'x') or contains(., 'X')">
+				<xsl:apply-templates/>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="addUP">
+					<xsl:apply-templates/>
+				</span>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template match="tei:del">
+		<xsl:choose>
+			<xsl:when test="contains(., 'x') or contains(., 'X')">
+				<xsl:apply-templates/>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="del">
+					<xsl:apply-templates/>
+				</span>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<xsl:template match="tei:unclear"> [unclear:][<xsl:apply-templates/>] </xsl:template>
 
 
 	<!-- =======================================================
 	   letters -->
-	
+
 	<xsl:template match="tei:date">
 		<span class="date">
 			<xsl:apply-templates/>
@@ -589,7 +795,7 @@
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<xsl:template match="tei:closer">
 		<p>
 			<xsl:choose>
@@ -606,12 +812,13 @@
 		</p>
 	</xsl:template>
 
-	<xsl:template match="tei:dateline | tei:address | tei:addrLine | tei:placeName | tei:salute | tei:signed">
+	<xsl:template
+		match="tei:dateline | tei:address | tei:addrLine | tei:placeName | tei:salute | tei:signed | tei:time">
 		<span>
 			<xsl:choose>
 				<xsl:when test="@rend">
 					<xsl:attribute name="class">
-					<xsl:value-of select="concat(local-name(), ' ', @rend)"/>
+						<xsl:value-of select="concat(local-name(), ' ', @rend)"/>
 					</xsl:attribute>
 				</xsl:when>
 				<xsl:otherwise>
@@ -649,19 +856,38 @@
 		<xsl:variable name="noteNumber">
 			<xsl:number select="." level="any"/>
 		</xsl:variable>
-		<p class="note" id="{$noteNumber}">
-			<xsl:value-of select="$noteNumber"/>
-			<xsl:text>.&#160;&#160;</xsl:text>
-			<xsl:apply-templates/>
-			<xsl:text> </xsl:text>
-			<a>
-				<xsl:attribute name="href">
-					<xsl:text>#back</xsl:text>
+		<xsl:choose>
+			<xsl:when test="tei:p or tei:lg">
+				<div class="note" id="{$noteNumber}">
 					<xsl:value-of select="$noteNumber"/>
-				</xsl:attribute>
-				<xsl:text>Back</xsl:text>
-			</a>
-		</p>
+					<xsl:text>.&#160;&#160;</xsl:text>
+					<xsl:apply-templates/>
+					<xsl:text> </xsl:text>
+					<a>
+						<xsl:attribute name="href">
+							<xsl:text>#back</xsl:text>
+							<xsl:value-of select="$noteNumber"/>
+						</xsl:attribute>
+						<xsl:text>Back</xsl:text>
+					</a>
+				</div>
+			</xsl:when>
+			<xsl:otherwise>
+				<p class="note" id="{$noteNumber}">
+					<xsl:value-of select="$noteNumber"/>
+					<xsl:text>.&#160;&#160;</xsl:text>
+					<xsl:apply-templates/>
+					<xsl:text> </xsl:text>
+					<a>
+						<xsl:attribute name="href">
+							<xsl:text>#back</xsl:text>
+							<xsl:value-of select="$noteNumber"/>
+						</xsl:attribute>
+						<xsl:text>Back</xsl:text>
+					</a>
+				</p>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="tei:back">
