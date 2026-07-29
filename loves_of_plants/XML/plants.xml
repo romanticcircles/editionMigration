@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Plant List</title>
+                <author>Erasmus Darwin</author>
+                <editor>Tristanne Conolly</editor>
+                <editor>Elizabeth Bernath</editor>
+                <editor>Alana Rigby</editor>
+                <editor role="technical">Elisa Beshero-Bondar</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>plants</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>All hyphens have been typed on the U.S. keyboard.</p>
+                    <p>em-dashes have been recorded originally using the —</p>
+                </hyphenation>
+                <normalization method="silent">
+                    <p>Long "s" (ſ) has been silently modernized.</p>
+                    <p>Page numbers appear at the beginning of each page, no matter where originally
+                        placed.</p>
+                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+                    <p>Spelling has not been regularized.</p>
+                </normalization>
+                <normalization method="markup">
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been typed on the U.S. keyboard.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#lcna">
+                    <list type="simple">
+                        <item>English literature</item>
+                        <item>Romantic Era</item>
+                        <item>Poetry</item>
+                    </list>
+                </keywords>
+                <catRef target="#ft2" scheme="#ft"/>
+                <catRef target="#ps2" scheme="#ps"/>
+                <catRef target="#f14" scheme="#f"/>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#ebb" when="2026-07-28">
+                <label>Changed by</label>
+                <name>Elisa Beshero-Bondar</name>
+                <list type="simple">
+                    <item>Converted PDF of the plant index to TEI XML.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Some text here.</p>
+            <div>
+                <head>INDEX OF THE NAMES OF THE PLANTS.</head>
+
+
+                <list sortKey="plants">
+                    <item xml:id="adonis"><name>ADÓNIS</name><ref type="page">182</ref></item>
+                    <item xml:id="aegragropila"><name>Aegragrópila</name><ref type="page"
+                        >175</ref></item>
+                    <item xml:id="alcea"><name>Álcea</name><ref type="page">8</ref></item>
+                    <item xml:id="amaryllis"><name>Amarýllis</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">17</ref></item>
+                    <item xml:id="anemone"><name>Anemóne</name><ref type="page">33</ref></item>
+                    <item xml:id="anthoxanthum"><name>Anthoxánthum</name><ref type="page"
+                        >10</ref></item>
+                    <item xml:id="arum"><name>Arum</name><ref type="page">166</ref></item>
+                    <item xml:id="avena"><name>Avéna</name><ref type="page">151</ref></item>
+                    <item xml:id="barometz"><name>Bárometz</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">30</ref></item>
+                    <item xml:id="bellis"><name>Béllis</name><ref type="page">156</ref></item>
+                    <item xml:id="byssus"><name>Byssus</name><ref type="page">180</ref></item>
+                    <item xml:id="cactus"><name>Cáctus</name><ref type="page">146</ref></item>
+                    <item xml:id="calendula"><name>Caléndula</name><ref type="page">70</ref></item>
+                    <item xml:id="callitriche"><name>Callítriche</name><ref type="page"
+                        >4</ref></item>
+                    <item xml:id="canna"><name>Cánna</name><ref type="page">3</ref></item>
+                    <item xml:id="cannabis"><name>Cánnabis</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">153</ref></item>
+                    <item xml:id="caprificus"><name>Cápri-fícus</name><ref type="page"
+                        >178</ref></item>
+                    <item xml:id="carlina"><name>Carlína</name><ref type="page">60</ref></item>
+                    <item xml:id="caryophyllus"><name>Caryophýllus</name><ref type="page"
+                        >168</ref></item>
+                    <item xml:id="cassia"><name>Cássia</name><ref type="page">128</ref></item>
+                    <item xml:id="cereus"><name>Céreus</name><ref type="page">146</ref></item>
+                    <item xml:id="chondrilla"><name>Chondrílla</name><ref type="page"
+                        >12</ref></item>
+                    <item xml:id="chunda"><name>Chunda</name><ref type="page">172</ref></item>
+                    <item xml:id="cinchona"><name>Cinchóna</name><ref type="page">83</ref></item>
+                    <item xml:id="circaea"><name>Circæa</name><ref type="page">98</ref></item>
+                    <item xml:id="cistus"><name>Cistus</name><ref type="page">79</ref></item>
+                    <item xml:id="cocculus"><name>Cócculus</name><ref type="page">75</ref></item>
+                    <item xml:id="colchicum"><name>Cólchicum</name><ref type="page">23</ref></item>
+                    <item xml:id="collinsonia"><name>Collinsónia</name><ref type="page"
+                        >4</ref></item>
+                    <item xml:id="conferva"><name>Conférva</name><ref type="page">175,
+                        181</ref></item>
+                    <item xml:id="cupressus"><name>Cupréssus</name><ref type="page">9</ref></item>
+                    <item xml:id="curcuma"><name>Curcúma</name><ref type="page">7</ref></item>
+                    <item xml:id="cuscuta"><name>Cuscúta</name><ref type="page">121</ref></item>
+                    <item xml:id="cyclamen"><name>Cýclamen</name><ref type="page">126</ref></item>
+                    <item xml:id="cyperus"><name>Cypérus</name><ref type="page">66</ref></item>
+                    <item xml:id="dianthus"><name>Diánthus</name><ref type="page">168</ref></item>
+                    <item xml:id="dictamnus"><name>Dictámnus</name><ref type="page">110</ref></item>
+                    <item xml:id="digitalis"><name>Digitális</name><ref type="page">87</ref></item>
+                    <item xml:id="dodecatheon"><name>Dodecátheon</name><ref type="page"
+                        >6</ref></item>
+                    <item xml:id="draba"><name>Drába</name><ref type="page">27</ref></item>
+                    <item xml:id="drosera"><name>Drósera</name><ref type="page">25</ref></item>
+                    <item xml:id="dypsacus"><name>Dýpsacus</name><ref type="page">37</ref></item>
+                    <item xml:id="epidendrum"><name source="#ed-1799">Epidendrum</name><note
+                            resp="rc-editors">Inserted 1799</note></item>
+                    <item xml:id="ficus"><name>Fícus</name><ref type="page">103</ref></item>
+                    <item xml:id="fucus"><name>Fúcus</name><ref type="page">160</ref></item>
+                    <item xml:id="fraxinella"><name>Fraxinélla</name><ref type="page"
+                        >110</ref></item>
+                    <item xml:id="galanthus"><name>Galánthus</name><ref type="page">155</ref></item>
+                    <item xml:id="genista"><name>Genísta</name><ref type="page">5</ref></item>
+                    <item xml:id="gloriosa"><name>Gloriósa</name><ref type="page">14</ref></item>
+                    <item xml:id="gossypium"><name>Gossýpium</name><note resp="rc-editors">1789:
+                            “Gossypia”</note><ref type="page">65</ref></item>
+                    <item xml:id="hedysarum"><name>Hedýsarum</name><ref type="page"
+                        >172</ref></item>
+                    <item xml:id="helianthus"><name>Heliánthus</name><ref type="page"
+                        >24</ref></item>
+                    <item xml:id="helleborus"><name>Helléborus</name><ref type="page"
+                        >73</ref></item>
+                    <item xml:id="hippomane"><name>Hippómane</name><ref type="page">111</ref></item>
+                    <item xml:id="ilex"><name>Ilex</name><ref type="page">18</ref></item>
+                    <item xml:id="impatiens"><name>Impátiens</name><ref type="page">106</ref></item>
+                    <item xml:id="iris"><name>Iris</name><ref type="page">8</ref></item>
+                    <item xml:id="kleinhovia"><name>Kleinhóvia</name><ref type="page"
+                        >20</ref></item>
+                    <item xml:id="lapsana"><name>Lápsana</name><ref type="page">70</ref></item>
+                    <item xml:id="laurocerasus"><name>Láuro-cérasus</name><ref type="page"
+                        >100</ref></item>
+                    <item xml:id="lichen"><name>Líchen</name><ref type="page">36</ref></item>
+                    <item xml:id="linum"><name>Línum</name><ref type="page">63</ref></item>
+                    <item xml:id="lobelia"><name>Lobélia</name><ref type="page">112</ref></item>
+                    <item xml:id="lonicera"><name>Lonicéra</name><ref type="page">26</ref></item>
+                    <item xml:id="lychnis"><name>Lychnis</name><ref type="page">13</ref></item>
+                    <item xml:id="lycoperdon"><name>Lycopérdon</name><ref type="page"
+                        >176</ref></item>
+                    <item xml:id="mancinella"><name>Mancinélla</name><ref type="page"
+                        >111</ref></item>
+                    <item xml:id="meadia"><name>Méadia</name><ref type="page">6</ref></item>
+                    <item xml:id="melissa"><name>Melíssa</name><ref type="page">6</ref></item>
+                    <item xml:id="menispermum"><name>Menispérmum</name><ref type="page"
+                        >75</ref></item>
+                    <item xml:id="mimosa"><name>Mimósa</name><ref type="page">32</ref></item>
+                    <item xml:id="muschus"><name>Múschus</name><ref type="page">174</ref></item>
+                    <item xml:id="nymphaea"><name>Nymphæa</name><ref type="page">70</ref></item>
+                    <item xml:id="nelumbo"><name source="#ed-1794 #ed-1799">Nelumbo</name><note
+                            resp="rc-editors">Inserted 1794 and 1799 (in this position even though
+                            it is not alphabetical order)</note></item>
+                    <item xml:id="ocymum"><name>Ócymum</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">162</ref></item>
+                    <item xml:id="orchis"><name>Orchis</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">116</ref></item>
+                    <item xml:id="osmunda"><name>Osmúnda</name><ref type="page">11</ref></item>
+                    <item xml:id="osyris"><name>Osýris</name><ref type="page">9</ref></item>
+                    <item xml:id="papaver"><name>Papáver</name><ref type="page">77</ref></item>
+                    <item xml:id="papyrus"><name>Papýrus</name><ref type="page">66</ref></item>
+                    <item xml:id="plantago"><name>Plantágo</name><ref type="page">10</ref></item>
+                    <item xml:id="polymorpha"><name>Polymórpha</name><ref type="page"
+                        >181</ref></item>
+                    <item xml:id="polypodium"><name>Polypódium</name><note resp="rc-editors">Not in
+                            1789</note><ref type="page">30</ref></item>
+                    <item xml:id="prunus"><name>Prúnus</name><ref type="page">100</ref></item>
+                    <item xml:id="rubia"><name>Rúbia</name><ref type="page">38</ref></item>
+                    <item xml:id="silene"><name>Siléne</name><ref type="page">15</ref></item>
+                    <item xml:id="trapa"><name>Trápa</name><ref type="page">161</ref></item>
+                    <item xml:id="tremella"><name>Tremélla</name><ref type="page">43</ref></item>
+                    <item xml:id="tropaeolum"><name>Tropaéolum</name><ref type="page"
+                        >148</ref></item>
+                    <item xml:id="truffelia"><name>Truffélia</name><ref type="page">176</ref></item>
+                    <item xml:id="tulipa"><name>Túlipa</name><ref type="page">22</ref></item>
+                    <item xml:id="ulva"><name>Ulva</name><ref type="page">41</ref></item>
+                    <item xml:id="upas"><name>Upas</name><ref type="page">115</ref></item>
+                    <item xml:id="urtica"><name>Urtíca</name><ref type="page">111</ref></item>
+                    <item xml:id="vallisneria"><name>Vallisnéria</name><ref type="page"
+                        >40</ref></item>
+                    <item xml:id="viscum"><name>Víscum</name><ref type="page">28</ref></item>
+                    <item xml:id="vitis"><name>Vítis</name><ref type="page">125</ref></item>
+                    <item xml:id="zostera"><name>Zostéra</name><ref type="page">28</ref></item>
+                </list>
+
+                <trailer>FINIS·</trailer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>
