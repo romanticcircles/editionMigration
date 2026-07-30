@@ -85,7 +85,11 @@
             <meta property="dc.contributor" content="Lynda Pratt"/>
             <meta property="dc.contributor" content="Laura Mandell"/>
             <meta property="dc:date" content="2009 to present"/>
-            <meta property="dcterms.available" content="2026-07-20"/>
+            <meta property="dcterms.available">
+                <xsl:attribute name="content">
+                    <xsl:value-of select="tei:fileDesc/tei:editionStmt/tei:edition/tei:date"/>
+                </xsl:attribute>
+            </meta>
             <meta property="dc.publisher" content="Romantic Circles"/>
             <meta property="dc.source" content="https://cha.artsci.tamu.edu/SoutheyLetters"/>
             <meta property="dc.type" content="Text"/>
@@ -119,7 +123,7 @@
                 <p class="navTitle"><a href="../../index.html">The Collected Letters of Robert
                         Southey</a><br/>Gen. Ed. Lynda Pratt</p>
                 <p class="homePlink">
-                    <a href="index.html">
+                    <a href="../../index.html">
                         <img src="../../images/GretaHall3.png" alt="Greta Hall home button"
                             class="homeButton"/>
                     </a>

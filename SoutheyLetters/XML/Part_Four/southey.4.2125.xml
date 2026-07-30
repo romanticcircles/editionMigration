@@ -1,48 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">2125. Robert Southey to Edith Southey, 23 July 1812</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Ian Packer</editor>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="4">Part Four <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <idno type="edition">southey.4.2125</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>British Library, Add MS 47888. ALS; 4p.. Previously published: Charles Cuthbert
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">2125. Robert Southey to Edith Southey, 23 July 1812</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="4">Part Four <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.4.2125</idno><availability><p>Originally published by Romantic Circles <date when="2013-08-15">August 15, 2013</date>.</p></availability></publicationStmt><sourceDesc><p>British Library, Add MS 47888. ALS; 4p.. Previously published: Charles Cuthbert
                Southey (ed.), Life and Correspondence of Robert Southey, 6 vols (London, 1849–1850),
-               III, pp. 344–348 [in part].</p>
-            <p>These letters were edited by Ian Packer and Lynda Pratt</p>
-            <p>Every effort has been made to contact copyright holders for their permission to
+               III, pp. 344–348 [in part].</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -57,166 +19,38 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_116328125" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML files</item>
-            </list></change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="2125" type="letter">
-            <head>2125. Robert Southey to <ref type="a" target="people.html#FrickerEdith">Edith
-                  Southey</ref>, <date when="1812-07-23">23 July 1812</date><note type="headnote"
-                  place="foot" resp="editors">Address: To Mrs Southey/ Keswick.<lb/>Endorsement:
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="2125" type="letter"><head>2125. Robert Southey to <ref type="a" target="people.html#FrickerEdith">Edith
+                  Southey</ref>, <date when="1812-07-23">23 July 1812</date><note type="headnote" place="foot" resp="editors">Address: To Mrs Southey/ Keswick.<lb/>Endorsement:
                   July 23 1812/ M<hi rend="sup">r</hi> Southey to M<hi rend="sup">rs</hi>
                   Southey<lb/>MS: British Library, Add MS 47888. ALS; 4p.<lb/>Previously published:
                   Charles Cuthbert Southey (ed.), <title>Life and Correspondence of Robert
                      Southey</title>, 6 vols (London, 1849–1850), III, pp. 344–348 [in
-               part].</note></head>
-            <opener><dateline><address>
-                     <placeName>Settle.</placeName>
-                  </address><date when="1812-07-23"> July 23. 1812.</date> Thursday
-                  evening</dateline><salute>My Dear Edith</salute></opener>
-            <p rend="indent1"> We left S<hi rend="sup">t</hi> Helens after an early breakfast on
+               part].</note></head><opener><dateline><address><placeName>Settle.</placeName></address><date when="1812-07-23"> July 23. 1812.</date> Thursday
+                  evening</dateline><salute>My Dear Edith</salute></opener><p rend="indent1"> We left S<hi rend="sup">t</hi> Helens after an early breakfast on
                Tuesday, with <ref type="m" target="people.html#SoutheyTom">Tom</ref> in company,
                looked at Raby &amp; Barnard Castle, &amp; made our way to the porters lodge at
                Rokeby, near that fine bridge over which we past in the rain. A sturdy old woman,
                faithful to her orders, refused us admittance, saying that if we were going to the
                Hall we might go in, but if not we must not enter the grounds, nor would she let us
                in till we had promised to call at the Hall. Accordingly, against the grain in
-               observance of this promise to the house I went, having first enquired if <ref
-                  type="m" target="people.html#ScottWalter">W. Scott</ref> was there, requested
-               permission to see the grounds. M<hi rend="sup">r</hi> M.<note n="1" place="foot"
-                  resp="editors"> John Bacon Sawrey Morritt (1771–1843; <title>DNB</title>),
+               observance of this promise to the house I went, having first enquired if <ref type="m" target="people.html#ScottWalter">W. Scott</ref> was there, requested
+               permission to see the grounds. M<hi rend="sup">r</hi> M.<note n="1" place="foot" resp="editors"> John Bacon Sawrey Morritt (1771–1843; <title>DNB</title>),
                   traveller, classical scholar and member of the Society of Dilettanti. He had
                   gained the nickname ‘Troy’ for his endeavours to prove that the city had been a
                   real place, not an invention of Homer. He owned the Rokeby estate, where he
@@ -225,8 +59,7 @@
                in ten minutes after the footman came running to say we might see the House also –
                &amp; we might fish if we pleased. I excused myself from seeing the House saying we
                were going on, &amp; returning a due number of thanks &amp;c. But presently we met
-                  M<hi rend="sup">r</hi> &amp; M<hi rend="sup">rs</hi> M.<note n="2" place="foot"
-                  resp="editors"> Katherine Stanley (d. 1815), she had married Morritt on 19
+                  M<hi rend="sup">r</hi> &amp; M<hi rend="sup">rs</hi> M.<note n="2" place="foot" resp="editors"> Katherine Stanley (d. 1815), she had married Morritt on 19
                   November 1803.</note> in the walks by the river side; &amp; were as you may
                suppose obliged to dine &amp; sleep there, – this hospitality being so prest upon us
                that I could not continue to refuse it without rudeness. Behold the Lion there in a
@@ -234,8 +67,7 @@
                grounds are the finest things of the kind I have ever seen. A little in the manner of
                   Downton<note n="3" place="foot" resp="editors"> Downton Castle, near Ludlow, the
                   gothic revival house built in c. 1774–1778 by Richard Payne Knight (1751–1824;
-                     <title>DNB</title>).</note><del>a little</del> more resembling Lowther,<note
-                  n="4" place="foot" resp="editors"> Lowther castle, ancestral home of the Earls of
+                     <title>DNB</title>).</note><del>a little</del> more resembling Lowther,<note n="4" place="foot" resp="editors"> Lowther castle, ancestral home of the Earls of
                   Lonsdale.</note> but the Greta at Rokeby affords <del>xxxx</del> finer scenery
                than either. There is a summer house overlooking it, the inside of which was
                ornamented by Mason<note n="5" place="foot" resp="editors"> William Mason (1725–1797;
@@ -249,8 +81,7 @@
                rubbish which it had swept before it. <del>xxx the water</del> At length down comes a
                stone of such a size that it knocked down Greta Bridge by the way, knocked away the
                whole mass of trees, carried off the second bridge, &amp; lodged some little way
-               beyond it upon the bank, breaking into three or four pieces. Playfair<note n="6"
-                  place="foot" resp="editors"> The mathematician and geologist John Playfair
+               beyond it upon the bank, breaking into three or four pieces. Playfair<note n="6" place="foot" resp="editors"> The mathematician and geologist John Playfair
                   (1748–1819; <title>DNB</title>).</note> the other day estimated the weight of the
                stone at about 78 tons, – the most wonderful instance he says he had ever heard of,
                of the power of water. Before this stone came down, one of the trees had blocked out
@@ -258,22 +89,14 @@
                broke their windows, &amp; a great bough barred the door. meantime the water, usually
                some 40 feet below, was on a level with <del>them</del> it. The people of the house
                came to their relief &amp; sawed the boughs off to let them out, &amp; the windows
-               remain as they were left – a memorial of this most extraordinary flood.</p>
-            <p rend="indent1"> M<hi rend="sup">r</hi> Morritts father<note n="7" place="foot"
-                  resp="editors"> John Sawrey Morritt (1738–1791).</note> bought the house of Sir
+               remain as they were left – a memorial of this most extraordinary flood.</p><p rend="indent1"> M<hi rend="sup">r</hi> Morritts father<note n="7" place="foot" resp="editors"> John Sawrey Morritt (1738–1791).</note> bought the house of Sir
                Thomas Robinson, well known in his day by the names of Long Robinson, &amp; Long Sir
                   Thomas.<note n="8" place="foot" resp="editors"> Sir Thomas Robinson 1st Baronet
                   (1702/3–1777; <title>DNB</title>), collector and amateur architect. A proponent of
                   neo-Palladianism, in the late 1720s he rebuilt the house at Rokeby (to his own
                   design). However, financial problems led him to sell the Rokeby estate in 1769.
                   Robinson was extremely tall, hence the nicknames.</note> You may recollect a good
-               epitaph upon this man.</p>
-            <lg type="stanza">
-               <l rend="indent3"> Unlike the Robinson shall be my song,</l>
-               <l rend="indent3"> It shall be witty, – &amp; it sha’nt be long.</l>
-            </lg>
-            <p rend="indent1">Long Sir Thomas found a portrait of Richardson<note n="9" place="foot"
-                  resp="editors"> The novelist and printer Samuel Richardson (bap. 1689, d. 1761;
+               epitaph upon this man.</p><lg type="stanza"><l rend="indent3"> Unlike the Robinson shall be my song,</l><l rend="indent3"> It shall be witty, – &amp; it sha’nt be long.</l></lg><p rend="indent1">Long Sir Thomas found a portrait of Richardson<note n="9" place="foot" resp="editors"> The novelist and printer Samuel Richardson (bap. 1689, d. 1761;
                      <title>DNB</title>).</note> in the house, – thinking M<hi rend="sup">r</hi>
                Richardson a very unfit personage to be suspended in effigy among Lords Ladies &amp;
                Baronets, he ordered <del>xx</del> &lt;a&gt; painter to put him on the
@@ -293,16 +116,12 @@
                pictures is a Madonna by Guido,<note n="12" place="foot" resp="editors"> Guido Reni
                   (1575–1642), Italian Baroque painter.</note> he mentioned this to a Master of a
                College at Cambridge, whose name I am sorry &lt;that&gt; I have forgotten, for the
-               gentleman in reply pointed a picture above representing an Aunt of M<hi rend="sup"
-                  >r</hi> Morritts (I believe) dressd in the very pink of the mode, &amp; askd if
-               that Lady was the Madonna.</p>
-            <p rend="indent1"> I am sorry too that I forgot to ask if this was the Lady whose needle
+               gentleman in reply pointed a picture above representing an Aunt of M<hi rend="sup">r</hi> Morritts (I believe) dressd in the very pink of the mode, &amp; askd if
+               that Lady was the Madonna.</p><p rend="indent1"> I am sorry too that I forgot to ask if this was the Lady whose needle
                work is in the house.<note n="13" place="foot" resp="editors"> Anna Eliza Morritt
                   (1726–1797). She created large needlework ‘paintings’, still on display at
-                  Rokeby.</note> M<hi rend="sup">r</hi> M. had an Aunt who taught Miss Linwood.<note
-                  n="14" place="foot" resp="editors"> Mary Linwood (1755–1845; <title>DNB</title>),
-                  artist in needlework.</note><ref type="m" target="people.html#WordsworthWilliam"
-                  >Wordsworth</ref> thought her pictures quite as good. In one respect they may
+                  Rokeby.</note> M<hi rend="sup">r</hi> M. had an Aunt who taught Miss Linwood.<note n="14" place="foot" resp="editors"> Mary Linwood (1755–1845; <title>DNB</title>),
+                  artist in needlework.</note><ref type="m" target="people.html#WordsworthWilliam">Wordsworth</ref> thought her pictures quite as good. In one respect they may
                possibly be <del>xxxx</del> better, – for she made her stitches athwart &amp; across,
                exactly as the strokes of the original pictures. Miss L. (M<hi rend="sup">r</hi> M
                says) makes her stitches all in one way. This Lady had great difficulty about her
@@ -313,16 +132,14 @@
                age. It brought on a dead palsy <del>xx</del> occasioned by holding her hands so
                continually in an elevated position working at the canvas. <del>xx xxx</del>. Her
                last picture is hardly finished, the needle M<hi rend="sup">r</hi> M. says literally
-               dropt from her hands, – death had been creeping on her for twelve years.</p>
-            <p rend="indent1"> Next morning we took chaise for two <del>xxx</del> stages – to
+               dropt from her hands, – death had been creeping on her for twelve years.</p><p rend="indent1"> Next morning we took chaise for two <del>xxx</del> stages – to
                Richmond &amp; Leyburn. The former is in situation like Durham, with a little to
                remind me of Ludlow, &amp; a little, in its air of antiquity, of Glastonbury: –
                certainly one of the fine things of England. Easeby Abbey is near, on the banks of
                the river, – a very fine ruin. To Leyburn over a large tract of newly inclosed
                country, then we entered upon Wensley dale, one of the loveliest tracts I ever saw.
                We walked up the dale 18 miles to Hawes, leaving Bolton Castle on our right &amp;
-               seeing the falls of the Ure at Aysgarth (which <ref type="m"
-                  target="people.html#ErskineHenry">Mr Erskine</ref> recommended us to see) &amp;
+               seeing the falls of the Ure at Aysgarth (which <ref type="m" target="people.html#ErskineHenry">Mr Erskine</ref> recommended us to see) &amp;
                leaving the little town of Askrigg on our right. At the higher end of the valley,
                almost every field has an out house in it, for housing the hay &amp; the cattle, –
                this gives a most singular appearance to the country. Walked from Hawes a mile &amp;
@@ -338,11 +155,6 @@
                as fortunate. I have finishd this since supper, having supt nobly. It was time,
                yesterday the only animal food which I took was three quarters of a fish at supper,
                out of a pie &amp; I had none today till supper: but eggs &amp; milk, &amp; tea &amp;
-               toast are little things to walk upon. God bless you. RS.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SoutheyTom">Tom</ref> will only stay
+               toast are little things to walk upon. God bless you. RS.</p><p rend="indent1"><ref type="m" target="people.html#SoutheyTom">Tom</ref> will only stay
                three days I believe.<note n="15" place="foot" resp="editors"> over ... I believe:
-                  written at top of fol. 1r.</note></p>
-         </div>
-      </body>
-   </text>
-</TEI>
+                  written at top of fol. 1r.</note></p></div></body></text></TEI>

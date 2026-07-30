@@ -1,48 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">134. Robert Southey to Grosvenor Charles Bedford, [started
-               before and continued on] 1 September [1795]</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part One</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="1">Part One <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <idno type="edition">southey.1.134</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Bodleian Library, MS Eng. Lett. c. 22. AL; 4p.. Previously published: Kenneth Curry
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">134. Robert Southey to Grosvenor Charles Bedford, [started
+               before and continued on] 1 September [1795]</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part One</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="1">Part One <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.1.134</idno><availability><p>Originally published by Romantic Circles <date when="2009-03-15">March 15, 2009</date>.</p></availability></publicationStmt><sourceDesc><p>Bodleian Library, MS Eng. Lett. c. 22. AL; 4p.. Previously published: Kenneth Curry
                (ed.), New Letters of Robert Southey, 2 vols (London and New York, 1965), I, pp.
-               98–100.</p>
-            <p>These letters were edited by Lynda Pratt</p>
-            <p>Every effort has been made to contact copyright holders for their permission to
+               98–100.</p><p>These letters were edited by Lynda Pratt</p><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -57,326 +20,86 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="tbl134" scheme="css">width: 740px; border: none;</rendition>
-            <rendition xml:id="cell1" scheme="css">width: 200px;</rendition>
-            <rendition xml:id="cell2" scheme="css">width: 200px;</rendition>
-            <rendition xml:id="cell3" scheme="css">width: 340px;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML files</item>
-            </list></change>
-         <change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>made tables TEI compliant</item>
-            </list></change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="tbl134" scheme="css">width: 740px; border: none;</rendition><rendition xml:id="cell1" scheme="css">width: 200px;</rendition><rendition xml:id="cell2" scheme="css">width: 200px;</rendition><rendition xml:id="cell3" scheme="css">width: 340px;</rendition></tagsDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2027-07-14" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>made tables TEI compliant</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2009-03-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-         <change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Ran transforms for proofing Southey Part 6</item>
-            </list></change>
-         <change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Incorporated new header info per Averill Buchanan and other minor fixes.</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="134" type="letter">
-            <head>134. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles"
-                  >Grosvenor Charles Bedford</ref>, <date when="1795-09-01">[started before and
-                  continued on] 1 September [1795]</date><note place="foot" resp="editors"
-                  type="headnote">Address: Grosvenor Charles Bedford Esq<hi rend="sup">r</hi>/ New
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="134" type="letter"><head>134. Robert Southey to <ref type="a" target="people.html#BedfordGrosvenorCharles">Grosvenor Charles Bedford</ref>, <date when="1795-09-01">[started before and
+                  continued on] 1 September [1795]</date><note place="foot" resp="editors" type="headnote">Address: Grosvenor Charles Bedford Esq<hi rend="sup">r</hi>/ New
                   Palace Yard/ Westminster./ Single<lb/>Stamped: BATH<lb/>Postmark: BSE/ 7/
-                  95<lb/>Watermarks: Figure of Britannia; G R<lb/>Endorsements: Rec<hi rend="sup"
-                     >d</hi>. Sept<hi rend="sup">r</hi>. 5./ 1795; Ans<hi rend="sup">d</hi>. Sep<hi
-                     rend="sup">t</hi>. 16. 1795; 5 Sept<hi rend="sup">r</hi> 1795<lb/>MS: Bodleian
+                  95<lb/>Watermarks: Figure of Britannia; G R<lb/>Endorsements: Rec<hi rend="sup">d</hi>. Sept<hi rend="sup">r</hi>. 5./ 1795; Ans<hi rend="sup">d</hi>. Sep<hi rend="sup">t</hi>. 16. 1795; 5 Sept<hi rend="sup">r</hi> 1795<lb/>MS: Bodleian
                   Library, MS Eng. Lett. c. 22. AL; 4p.<lb/>Previously published: Kenneth Curry
                   (ed.), <title level="m">New Letters of Robert Southey</title>, 2 vols (London and
-                  New York, 1965), I, pp. 98–100.</note></head>
-            <p rend="indent1"> Hope deferred maketh the heart sick.<note n="1" place="foot"
-                  resp="editors"><title level="m">Proverbs</title> 13: 12.</note> said Solomon.
-               Statius says </p>
-            <p rend="indent3"> quâ non gravior mortalibus addita cura</p>
-            <p rend="indent2">Spes ubi longa venit<note n="2" place="foot" resp="editors">Publius
+                  New York, 1965), I, pp. 98–100.</note></head><p rend="indent1"> Hope deferred maketh the heart sick.<note n="1" place="foot" resp="editors"><title level="m">Proverbs</title> 13: 12.</note> said Solomon.
+               Statius says </p><p rend="indent3"> quâ non gravior mortalibus addita cura</p><p rend="indent2">Spes ubi longa venit<note n="2" place="foot" resp="editors">Publius
                   Papinius Statius (c. AD 45–96), <title level="m">Thebaid</title>, Book 2, lines
                   320–321. The Latin translates as: ‘hope, than which the heart can bear no heavier
-                  burden, when ’tis long deferred’.</note></p>
-            <p><ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> when you
+                  burden, when ’tis long deferred’.</note></p><p><ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> when you
                have lived upon that cameleon fare so long as I have done — you will acknowledge the
-               wisdom of Solomon &amp; feel the poetry of Statius.</p>
-            <p rend="indent1"> I expect <ref type="m" target="people.html#HillHerbertUncle">my
+               wisdom of Solomon &amp; feel the poetry of Statius.</p><p rend="indent1"> I expect <ref type="m" target="people.html#HillHerbertUncle">my
                   Uncle</ref> daily. his determination is of such consequence to my immediate
                happiness or even comfort — that I feel heavings of heart strangely uncomfortable.
                yet have I little to fear. that he will enable me to study either law or physic is
-               more than probable. <ref type="m" target="people.html#BedfordGrosvenorCharles"
-                  >Grosvenor</ref> I shall be happy. there is not one feeling in my heart that
-               militates against happiness.</p>
-            <p rend="indent1"> before Xmas. or a long long vagabond life. by the Lord I will
+               more than probable. <ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> I shall be happy. there is not one feeling in my heart that
+               militates against happiness.</p><p rend="indent1"> before Xmas. or a long long vagabond life. by the Lord I will
                disguise myself &amp; turn butler or footman. if I am not settled &amp; married
                before Xmas. this I will do. clean shoes — light fires &amp; wait at table by day —
-               by night — rise — or sink into Robert Southey.</p>
-            <p rend="indent1"> If my Joan of Arc succeeds (— &amp; my calm &amp; sober judgement
+               by night — rise — or sink into Robert Southey.</p><p rend="indent1"> If my Joan of Arc succeeds (— &amp; my calm &amp; sober judgement
                approves the poem—) whatever I write afterward will find a ready sale. the poems are
                delayed till January for <ref type="m" target="people.html#CottleJoseph">my
-                  booksellers</ref> convenience. a most worthy little fellow <ref type="m"
-                  target="people.html#BedfordGrosvenorCharles">Bedford</ref> — whom you must know
+                  booksellers</ref> convenience. a most worthy little fellow <ref type="m" target="people.html#BedfordGrosvenorCharles">Bedford</ref> — whom you must know
                &amp; love. a poet himself<note n="3" place="foot" resp="editors">Joseph Cottle,
                      <title level="m">Poems, Containing John the Baptist. Sir Malcolm and Alla, A
                      Tale, ... War a Fragment. With a Monody to John Henderson</title>
-                  (1795).</note> — public too on Tuesday next hot pressd &amp; fine paper — <hi
-                  rend="ital">to be had at Robinsons</hi><note n="4" place="foot" resp="editors"
-                  >Joseph Cottle’s <title level="m">Poems</title> (1795) were published by Cottle
+                  (1795).</note> — public too on Tuesday next hot pressd &amp; fine paper — <hi rend="ital">to be had at Robinsons</hi><note n="4" place="foot" resp="editors">Joseph Cottle’s <title level="m">Poems</title> (1795) were published by Cottle
                   and G. G. and J. Robinson of Paternoster Row in London. The Robinsons were a
                   dynasty of booksellers, printers and publishers, at this time headed by George
                   Robinson II (d. 1801; <title level="m">DNB</title>), George Robinson III (d. 1811;
-                     <title level="m">DNB</title>) and John Robinson (1753–1813; <title level="m"
-                     >DNB</title>).</note> containing John the Baptist Monody on John Henderson
+                     <title level="m">DNB</title>) and John Robinson (1753–1813; <title level="m">DNB</title>).</note> containing John the Baptist Monody on John Henderson
                &amp;c — &amp; if you buy the volume for the sake of the author — you will find an
                elegant volume quoad typography — &amp; in the Monody at least some very beautiful
                lines, <ref type="m" target="people.html#CottleJoseph">Cottle</ref> wrote them in the
-               inspiration of friendship to the memory of one he loved<note n="5" place="foot"
-                  resp="editors">John Henderson (1757–1788; <title level="m">DNB</title>), student
+               inspiration of friendship to the memory of one he loved<note n="5" place="foot" resp="editors">John Henderson (1757–1788; <title level="m">DNB</title>), student
                   and eccentric, had known Cottle when the latter was a pupil at the school run by
                   Henderson’s father, at Hanham, near Bristol.</note> — they are of such merit that
                I should not believe them written by the same person who wrote all the rest did I not
-               positively know it. <ref type="m" target="people.html#ColeridgeSamuelTaylor"
-                  >Coleridge</ref> has used the pruning knife with me over them — nil ultra.<note
-                  n="6" place="foot" resp="editors">The Latin translates as ‘nothing
-               beyond’.</note></p>
-            <p rend="center">———</p>
-            <p><date when="1795-09-01">September 1<hi rend="sup">st</hi>. Tuesday.</date></p>
-            <p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles"
-                  >Grosvenor</ref> I have quitted Bristol after lodging there seven months. I had
-               determined on leaving it last night. <ref type="m" target="people.html#FrickerEdith"
-                  >Edith</ref> dined with me &amp; my departure was fixed for five o clock. <ref
-                  type="m" target="people.html#SawierMrs">Mrs Sawier</ref> sent to desire our
-               company to tea. I mentioned my intention of setting off — but <hi rend="ital"
-                  >her</hi> cheek was flushd with hope &amp; she turned her head away to hide tears
+               positively know it. <ref type="m" target="people.html#ColeridgeSamuelTaylor">Coleridge</ref> has used the pruning knife with me over them — nil ultra.<note n="6" place="foot" resp="editors">The Latin translates as ‘nothing
+               beyond’.</note></p><p rend="center">———</p><p><date when="1795-09-01">September 1<hi rend="sup">st</hi>. Tuesday.</date></p><p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> I have quitted Bristol after lodging there seven months. I had
+               determined on leaving it last night. <ref type="m" target="people.html#FrickerEdith">Edith</ref> dined with me &amp; my departure was fixed for five o clock. <ref type="m" target="people.html#SawierMrs">Mrs Sawier</ref> sent to desire our
+               company to tea. I mentioned my intention of setting off — but <hi rend="ital">her</hi> cheek was flushd with hope &amp; she turned her head away to hide tears
                from me — I slept there last night. I do not think any circumstance ever affected me
                like those tears. it was not a painful sensation — but God preserve me from its
                repetition! — in the words of <del rend="strikethrough">the</del> Snorro Sturleson
                “do you or do you not understand this”?<note n="7" place="foot" resp="editors">The
                   Icelandic historian and antiquarian Snorri Sturluson (1178–1241), author of the
                   prose <title level="m">Edda</title>. Southey is quoting from an account of the
-                     <title level="m">Edda</title> in Thomas Percy’s (1729–1811; <title level="m"
-                     >DNB</title>) translation of Paul Henri Mallet (1730–1807), <title level="m"
-                     >Northern Antiquities: or, a Description of the Manners, Customs, Religion and
+                     <title level="m">Edda</title> in Thomas Percy’s (1729–1811; <title level="m">DNB</title>) translation of Paul Henri Mallet (1730–1807), <title level="m">Northern Antiquities: or, a Description of the Manners, Customs, Religion and
                      Laws of the Ancient Danes, and Other Northern Nations</title>, 2 vols (London,
-                  1770), II, p. 50.</note></p>
-            <p rend="indent1"> oh for one of the Nourjahads naps!<note n="8" place="foot"
-                  resp="editors">In Frances Sheridan (1724–1766: <title level="m">DNB</title>),
+                  1770), II, p. 50.</note></p><p rend="indent1"> oh for one of the Nourjahads naps!<note n="8" place="foot" resp="editors">In Frances Sheridan (1724–1766: <title level="m">DNB</title>),
                      <title level="m">The History of Nourjahad</title> (1767), the central character
                   is gifted with a long life, but one interspersed with prolonged periods of
-                  sleep.</note></p>
-            <p rend="center">———</p>
-            <p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles"
-                  >Grosvenor</ref> I have a curiosity for you. two sonnets by <ref type="m"
-                  target="people.html#JenningsJames">James Jennings</ref> — seriously intended. upon
+                  sleep.</note></p><p rend="center">———</p><p rend="indent1"><ref type="m" target="people.html#BedfordGrosvenorCharles">Grosvenor</ref> I have a curiosity for you. two sonnets by <ref type="m" target="people.html#JenningsJames">James Jennings</ref> — seriously intended. upon
                Metaphor &amp; Personification.<note n="9" place="foot" resp="editors">The sonnets
-                  appeared under the signature ‘J.J.’ in the first number of Southey’s <title
-                     level="j">Annual Anthology</title> (Bristol, 1799), pp. 148–149.</note> he had
+                  appeared under the signature ‘J.J.’ in the first number of Southey’s <title level="j">Annual Anthology</title> (Bristol, 1799), pp. 148–149.</note> he had
                personified a Catastrophe once &amp; upon my noticing it as <hi rend="ital">bold</hi>
-               introduced it here.</p>
-            <p rend="indent5"> Metaphor.</p>
-            <p rend="indent5"> ————</p>
-            <lg type="stanza">
-               <l rend="indent2">When Earth was young &amp; Nature Mans delight,</l>
-               <l rend="indent3"> The Protean friend of Poesy arose.</l>
-               <l rend="indent3"> His eyes around in wonder wild he throws</l>
-               <l rend="indent2">And soars a Mountain. high in æther bright</l>
-               <l rend="indent2">His summit nods. then as electric fire</l>
-               <l rend="indent3"> With swift mutation, from the earth he rangd</l>
-               <l rend="indent3"> To Heaven a massive pillar; soon he changd</l>
-               <l rend="indent2">To lion-fronted pard, growld &amp; retird</l>
-               <l rend="indent2">An Ocean. nor remaind he Ocean long,</l>
-               <l rend="indent3"> For loud in thunder roard his awful voice</l>
-               <l rend="indent3"> With lightning instantaneous. as her choice</l>
-               <l rend="indent2">Sweet Poesy directs in numbers strong</l>
-               <l rend="indent2">Or soft or fluent, so he drives her car</l>
-               <l rend="indent2">And later Minstrels call him Metaphor.</l>
-            </lg>
-            <lb/>
-            <p rend="indent5"> Personification.</p>
-            <lg type="stanza">
-               <l rend="indent2">Nor did sweet Poesy long time defer</l>
-               <l rend="indent3"> To ask the aid of him who hand in hand</l>
-               <l rend="indent3"> With Metaphor arose. at his command</l>
-               <l rend="indent3"> Rocks mountains vallies living souls appeard:</l>
-               <l rend="indent3"> Catastrophe his saddening front upreard.</l>
-               <l rend="indent3"> And Virtue stood erect &amp; Patience smild</l>
-               <l rend="indent3"> And Joy Love Hope &amp; Fear Amazement wild</l>
-               <l rend="indent3"> And Heaven assumd a virile form, whilst stood</l>
-               <l rend="indent3"> Ocean contracted to a man. the brood</l>
-               <l rend="indent3"> Of Vice in black-browd frown, Revenge &amp; Hate</l>
-               <l rend="indent3"> Discord &amp; Death &amp; stern defying Fate</l>
-               <l rend="indent2">Walkd oer the earth destroying — such is Per</l>
-               <l rend="indent3"> Sonification. he whom she employs</l>
-               <l rend="indent3"> To deck her labors &amp; increase her joys</l>
-            </lg>
-            <p>poor <ref type="m" target="people.html#JenningsJames">Trauma</ref> is famous for
-               Abbreviating words &amp; actually wrote</p>
-            <p rend="indent2">Oh how my bosom glows with <hi rend="ital">pathic</hi> fire</p>
-            <p>as a happy alternative for <hi rend="ital">pathetic</hi>!</p>
-            <p>after these specimens — you will difficultly believe (what is really the case — that
+               introduced it here.</p><p rend="indent5"> Metaphor.</p><p rend="indent5"> ————</p><lg type="stanza"><l rend="indent2">When Earth was young &amp; Nature Mans delight,</l><l rend="indent3"> The Protean friend of Poesy arose.</l><l rend="indent3"> His eyes around in wonder wild he throws</l><l rend="indent2">And soars a Mountain. high in æther bright</l><l rend="indent2">His summit nods. then as electric fire</l><l rend="indent3"> With swift mutation, from the earth he rangd</l><l rend="indent3"> To Heaven a massive pillar; soon he changd</l><l rend="indent2">To lion-fronted pard, growld &amp; retird</l><l rend="indent2">An Ocean. nor remaind he Ocean long,</l><l rend="indent3"> For loud in thunder roard his awful voice</l><l rend="indent3"> With lightning instantaneous. as her choice</l><l rend="indent2">Sweet Poesy directs in numbers strong</l><l rend="indent2">Or soft or fluent, so he drives her car</l><l rend="indent2">And later Minstrels call him Metaphor.</l></lg><lb/><p rend="indent5"> Personification.</p><lg type="stanza"><l rend="indent2">Nor did sweet Poesy long time defer</l><l rend="indent3"> To ask the aid of him who hand in hand</l><l rend="indent3"> With Metaphor arose. at his command</l><l rend="indent3"> Rocks mountains vallies living souls appeard:</l><l rend="indent3"> Catastrophe his saddening front upreard.</l><l rend="indent3"> And Virtue stood erect &amp; Patience smild</l><l rend="indent3"> And Joy Love Hope &amp; Fear Amazement wild</l><l rend="indent3"> And Heaven assumd a virile form, whilst stood</l><l rend="indent3"> Ocean contracted to a man. the brood</l><l rend="indent3"> Of Vice in black-browd frown, Revenge &amp; Hate</l><l rend="indent3"> Discord &amp; Death &amp; stern defying Fate</l><l rend="indent2">Walkd oer the earth destroying — such is Per</l><l rend="indent3"> Sonification. he whom she employs</l><l rend="indent3"> To deck her labors &amp; increase her joys</l></lg><p>poor <ref type="m" target="people.html#JenningsJames">Trauma</ref> is famous for
+               Abbreviating words &amp; actually wrote</p><p rend="indent2">Oh how my bosom glows with <hi rend="ital">pathic</hi> fire</p><p>as a happy alternative for <hi rend="ital">pathetic</hi>!</p><p>after these specimens — you will difficultly believe (what is really the case — that
                Jennings taken from poetry possesses more than common abilities. that he has without
                assistance acquired considerable information — learns Latin &amp; a little Greek,
                &amp; that I have always been pleased with his company &amp; frequently instructed.
                he is foreman to a Chemist. about 23. — What is most valuable in him is the purity of
-               his moral character.</p>
-            <p rend="indent1"> direct to me <ref target="places.html#WestgateBath">Westgate
-                  Buildings</ref>.</p>
-            <p rend="indent2"><hi rend="ital">my opinion of French politics.</hi></p>
-            <table rendition="#tbl134">
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">Deputy Ruhl</cell>
-                  <cell rendition="#cell3">} — he shot himself. <note n="10" place="foot"
-                        resp="editors">Jacques-Philippe Ruhl (1737–1795), a deputy for Bas-Rhin to
-                        the National Convention, had recently committed suicide.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">Was a very great fool</cell>
-                  <cell rendition="#cell3">} </cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">NB.</cell>
-                  <cell rendition="#cell2">Delegate Rumps</cell>
-                  <cell rendition="#cell3">} in prison<note n="11" place="foot" resp="editors"
-                        >Pierre-Charles Ruamps (1751–1807), a Jacobin member of the Convention, was
-                        imprisoned on 21 May 1795.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1">not <hi rend="ital">Delicate</hi> Rumps.</cell>
-                  <cell rendition="#cell2">Must be in the dumps</cell>
-                  <cell rendition="#cell3">} </cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">And Jacobine Bo</cell>
-                  <cell rendition="#cell3">} he is denounced<note n="12" place="foot" resp="editors"
-                        >Jean-Baptiste-Jerome Bo (1743–1814), a Jacobin member of the Convention,
-                        was denounced on 9 August 1795.</note></cell>
-               </row>
-               <row>
-                  <cell rendition="#cell1"/>
-                  <cell rendition="#cell2">Will very soon go.</cell>
-                  <cell rendition="#cell3">} </cell>
-               </row>
-            </table>
-         </div>
-      </body>
-   </text>
-</TEI>
+               his moral character.</p><p rend="indent1"> direct to me <ref target="places.html#WestgateBuildings">Westgate
+                  Buildings</ref>.</p><p rend="indent2"><hi rend="ital">my opinion of French politics.</hi></p><table rendition="#tbl134"><row><cell rendition="#cell1"/><cell rendition="#cell2">Deputy Ruhl</cell><cell rendition="#cell3">} — he shot himself. <note n="10" place="foot" resp="editors">Jacques-Philippe Ruhl (1737–1795), a deputy for Bas-Rhin to
+                        the National Convention, had recently committed suicide.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">Was a very great fool</cell><cell rendition="#cell3">} </cell></row><row><cell rendition="#cell1">NB.</cell><cell rendition="#cell2">Delegate Rumps</cell><cell rendition="#cell3">} in prison<note n="11" place="foot" resp="editors">Pierre-Charles Ruamps (1751–1807), a Jacobin member of the Convention, was
+                        imprisoned on 21 May 1795.</note></cell></row><row><cell rendition="#cell1">not <hi rend="ital">Delicate</hi> Rumps.</cell><cell rendition="#cell2">Must be in the dumps</cell><cell rendition="#cell3">} </cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">And Jacobine Bo</cell><cell rendition="#cell3">} he is denounced<note n="12" place="foot" resp="editors">Jean-Baptiste-Jerome Bo (1743–1814), a Jacobin member of the Convention,
+                        was denounced on 9 August 1795.</note></cell></row><row><cell rendition="#cell1"/><cell rendition="#cell2">Will very soon go.</cell><cell rendition="#cell3">} </cell></row></table></div></body></text></TEI>

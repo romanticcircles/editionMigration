@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     font-family: "Baskervville", serif;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 24px;
     letter-spacing: 0.5px;
 }
 
@@ -31,6 +31,12 @@ body {
 img.homeButton {
     height: 50px;
     width: 55px;
+}
+img.teiLogo {
+    float: right;
+    margin-right: 0;
+    height: 75px;
+    width: 75px;
 }
 nav {
     width: 100%;
@@ -131,6 +137,12 @@ div.paratext {
     background-color: white;
     padding: 2% 8%;
 }
+div.appendix {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 2% 8%;
+}
 div.notes {
     margin-left: 3%;
     margin-right: 3%;
@@ -141,6 +153,13 @@ div.notes {
     display: block;
     width: 100%;
 }
+
+div > p:first-child {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 p {
     display: block;
     width: 100%;
@@ -154,8 +173,12 @@ ul {
 p.opener {
     margin: 3%;
 }
+
 .dateline {
     display: block;
+}
+.dateline > .date {
+    padding-left: 5px;
 }
 .salute {
     display: block;
@@ -320,12 +343,18 @@ a:visited:hover {
 
 /* Fonts and sizes */
 
-h1 {font-size: 24px;}
-h2 {font-size: 22px;}
-h3 {font-size: 20px;}
-h4 {font-size: 18px;}
-h5 {font-size: 14px;}
-h6 {font-size: 10px;}
+h1 {font-size: 24px;
+    line-height: 32px;}
+h2 {font-size: 22px;
+    line-height: 30px;}
+h3 {font-size: 20px;
+    line-height: 28px;}
+h4 {font-size: 18px;
+    line-height: 26px;}
+h5 {font-size: 14px;
+    line-height: 22px;}
+h6 {font-size: 10px;
+    line-height: 18px;}
 
 .label {font-size: 20px; font-weight: bold;}
 
@@ -338,8 +367,15 @@ h6 {font-size: 10px;}
 .del {
     text-decoration: line-through;
 }
-.sup {
-    vertical-align: text-bottom;
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4rem;
+  font-size: 0.95rem;
+  line-height: 0;
+}
+.emphasis {
+    text-decoration: underline;
 }
 
 /* alphabet list from gemini pro, 7/19/26 */

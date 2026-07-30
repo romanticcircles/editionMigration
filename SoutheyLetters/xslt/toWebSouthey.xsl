@@ -43,18 +43,6 @@
 	<xsl:template match="tei:TEI">
 		<xsl:variable name="docID"
 			select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
-		<xsl:variable name="letDate">
-			<xsl:choose>
-				<xsl:when test="tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice">
-					<xsl:value-of
-						select="tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
-					/>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:value-of select="tei:text/tei:body/tei:div/tei:head/tei:date/@when"/>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
 		<xsl:variable name="getPath">
 			<xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
 		</xsl:variable>
@@ -85,13 +73,32 @@
 			select="tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
 		<xsl:variable name="letDate">
 			<xsl:choose>
-				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice">
-					<xsl:value-of
-						select="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
-					/>
+				<xsl:when test="//tei:div[@type = 'letter']">
+					<xsl:choose>
+						<xsl:when test="//tei:div[@type = 'letter'][1]/tei:head/tei:date/tei:choice">
+							<xsl:value-of
+								select="//tei:div[@type = 'letter'][1]/tei:head/tei:date/tei:choice/tei:corr/tei:date/@when"
+							/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of
+								select="//tei:div[@type = 'letter'][1]/tei:head/tei:date/@when"/>
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/tei:head/tei:date/@when"/>
+					<xsl:choose>
+						<xsl:when
+							test="tei:fileDesc/tei:publicationStmt/tei:availability/tei:p/tei:date">
+							<xsl:value-of
+								select="tei:fileDesc/tei:publicationStmt/tei:availability/tei:p/tei:date/@when"
+							/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="tei:fileDesc/tei:editionStmt/tei:edition/tei:date"
+							/>
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
@@ -127,34 +134,25 @@
 				<xsl:value-of select="$headTitle"/>
 			</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
-			<xsl:choose>
-				<xsl:when test="tei:fileDesc/tei:titleStmt/tei:author[position() != 2]">
-					<meta name="author">
-						<xsl:attribute name="content">
-							<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[1]"/>
-						</xsl:attribute>
-					</meta>
-				</xsl:when>
-				<xsl:when test="tei:fileDesc/tei:titleStmt/tei:author[2]">
-					<meta name="author">
-						<xsl:attribute name="content">
-							<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[1]"/>
-						</xsl:attribute>
-					</meta>
-					<meta name="author">
-						<xsl:attribute name="content">
-							<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[2]"/>
-						</xsl:attribute>
-					</meta>
-				</xsl:when>
-				<xsl:otherwise>
-					<meta name="author">
-						<xsl:attribute name="content">
-							<xsl:text>Robert Southey</xsl:text>
-						</xsl:attribute>
-					</meta>
-				</xsl:otherwise>
-			</xsl:choose>
+					<xsl:for-each select="tei:fileDesc/tei:titleStmt/tei:author">
+						<xsl:choose>
+							<xsl:when test="tei:persName">
+								<meta name="author">
+									<xsl:attribute name="content">
+								<xsl:value-of select="concat(tei:persName/tei:forename, ' ', tei:persName/tei:surname)"/>
+									</xsl:attribute>
+								</meta>
+							</xsl:when>
+							<xsl:otherwise>
+								<meta name="author">
+									<xsl:attribute name="content">
+								<xsl:value-of
+									select="normalize-space(.)"/>
+									</xsl:attribute>
+								</meta>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:for-each>
 			<meta name="DC.Title" content="{$headTitle}"/>
 			<meta name="DC.Type" content="Text"/>
 			<meta name="DC.Format" content="text/html"/>
@@ -171,7 +169,11 @@
 			<meta property="dc.contributor" content="Lynda Pratt"/>
 			<meta property="dc.contributor" content="Laura Mandell"/>
 			<meta property="dc:date" content="{$letDate}"/>
-			<meta property="dcterms.available" content="2026-07-20"/>
+			<meta property="dcterms.available">
+				<xsl:attribute name="content">
+					<xsl:value-of select="tei:fileDesc/tei:editionStmt/tei:edition/tei:date"/>
+				</xsl:attribute>
+			</meta>
 			<meta property="dc.publisher" content="Romantic Circles"/>
 			<meta property="dc.source" content="https://cha.artsci.tamu.edu/SoutheyLetters"/>
 			<meta property="dc.type" content="Text"/>
@@ -182,41 +184,25 @@
 				<xsl:attribute name="content"
 					select="normalize-space(tei:fileDesc/tei:titleStmt/tei:title[@level = 'a'])"/>
 			</meta>
-			<xsl:choose>
-				<xsl:when test="tei:fileDesc/tei:titleStmt/tei:author[2]">
-					<meta name="docAuthor" class="staticSearch_docAuthor">
-						<xsl:attribute name="content">
-							<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[1]"/>
-						</xsl:attribute>
-					</meta>
-					<meta name="docAuthor" class="staticSearch_docAuthor">
-						<xsl:attribute name="content">
-							<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[2]"/>
-						</xsl:attribute>
-					</meta>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:choose>
-						<xsl:when test="tei:fileDesc/tei:titleStmt/tei:author/tei:persName">
-							<meta name="docAuthor" class="staticSearch_docAuthor">
-								<xsl:attribute name="content">
-									<xsl:value-of
-										select="concat(tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:forename, ' ', tei:fileDesc/tei:titleStmt/tei:author/tei:persName/tei:surname)"
-									/>
-								</xsl:attribute>
-							</meta>
-						</xsl:when>
-						<xsl:otherwise>
-							<meta name="docAuthor" class="staticSearch_docAuthor">
-								<xsl:attribute name="content">
-									<xsl:value-of select="tei:fileDesc/tei:titleStmt/tei:author[1]"
-									/>
-								</xsl:attribute>
-							</meta>
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:otherwise>
-			</xsl:choose>
+					<xsl:for-each select="tei:fileDesc/tei:titleStmt/tei:author">
+						<xsl:choose>
+							<xsl:when test="tei:persName">
+								<meta name="docAuthor" class="staticSearch_docAuthor">
+									<xsl:attribute name="content">
+										<xsl:value-of select="concat(tei:persName/tei:forename, ' ', tei:persName/tei:surname)"/>
+									</xsl:attribute>
+								</meta>
+							</xsl:when>
+							<xsl:otherwise>
+								<meta name="docAuthor" class="staticSearch_docAuthor">
+									<xsl:attribute name="content">
+										<xsl:value-of
+											select="normalize-space(.)"/>
+									</xsl:attribute>
+								</meta>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:for-each>
 			<meta name="Date Written" class="staticSearch_date">
 				<xsl:attribute name="content" select="$letDate"/>
 			</meta>
@@ -295,7 +281,7 @@
 				<p class="navTitle"><a href="../../index.html">The Collected Letters of Robert
 						Southey</a><br/>Gen. Ed. Lynda Pratt</p>
 				<p class="homePlink">
-					<a href="index.html">
+					<a href="../../index.html">
 						<img src="../../images/GretaHall3.png" alt="Greta Hall home button"
 							class="homeButton"/>
 					</a>
@@ -392,10 +378,12 @@
 			</nav>
 			<main>
 				<xsl:apply-templates select="tei:body"/>
-				<div class="notes">
-					<h1>Notes</h1>
-					<xsl:apply-templates select="//tei:note" mode="end"/>
-				</div>
+				<xsl:if test="//tei:note">
+					<div class="notes">
+						<h1>Notes</h1>
+						<xsl:apply-templates select="//tei:note" mode="end"/>
+					</div>
+				</xsl:if>
 			</main>
 			<p class="noteSpace">&#160;</p>
 		</body>
@@ -406,8 +394,32 @@
 			structural elements in all documents-->
 
 	<xsl:template match="tei:div">
+		<xsl:variable name="docID"
+			select="ancestor-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type = 'edition']"/>
+		<xsl:variable name="getPath">
+			<xsl:value-of
+				select="ancestor-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/@n"
+			/>
+		</xsl:variable>
+		<xsl:variable name="ptPath">
+			<xsl:choose>
+				<xsl:when test="$getPath = ''">paratext</xsl:when>
+				<xsl:when test="$getPath = '1'">Part_One</xsl:when>
+				<xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+				<xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+				<xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+				<xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+				<xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+				<xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
 		<div>
 			<xsl:attribute name="class" select="@type"/>
+			<xsl:if test="not(parent::tei:div)">
+				<a href="../../XML/{$ptPath}/{$docID}.xml">
+					<img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo"/>
+				</a>
+			</xsl:if>
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -619,9 +631,9 @@
 	</xsl:template>
 
 	<xsl:template match="tei:emph">
-		<em>
+		<span class="emphasis">
 			<xsl:value-of select="."/>
-		</em>
+		</span>
 	</xsl:template>
 
 	<xsl:template match="tei:title">
@@ -629,7 +641,7 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
-	
+
 	<tei:template match="tei:text//*/tei:label">
 		<span class="label">
 			<xsl:apply-templates/>
@@ -766,7 +778,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
+
 	<xsl:template match="tei:unclear"> [unclear:][<xsl:apply-templates/>] </xsl:template>
 
 
@@ -774,6 +786,7 @@
 	   letters -->
 
 	<xsl:template match="tei:date">
+		<xsl:text> </xsl:text>
 		<span class="date">
 			<xsl:apply-templates/>
 		</span>
@@ -836,27 +849,54 @@
 	   notes and backmatter -->
 
 	<xsl:template match="tei:note">
-		<xsl:variable name="noteNumber">
+		<xsl:variable name="rawNoteNbr">
 			<xsl:number select="." level="any"/>
 		</xsl:variable>
-		<a>
-			<xsl:attribute name="href">
-				<xsl:text>#</xsl:text>
-				<xsl:value-of select="$noteNumber"/>
-			</xsl:attribute>
-			<xsl:attribute name="id" select="concat('back', $noteNumber)"/>
-			<sup>
-				<xsl:value-of select="$noteNumber"/>
-			</sup>
-		</a>
-		<xsl:text> </xsl:text>
+		<xsl:variable name="noteNumber">
+			<xsl:value-of select="number($rawNoteNbr) - 1"/>
+		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="@type = 'headnote'">
+				<a href="#headnote" id="Bheadnote">
+					<sup>
+						<xsl:text>*</xsl:text>
+					</sup>
+					<xsl:text> </xsl:text>
+				</a>
+			</xsl:when>
+			<xsl:otherwise>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:text>#</xsl:text>
+						<xsl:value-of select="@n"/>
+					</xsl:attribute>
+					<xsl:attribute name="id" select="concat('back', $noteNumber)"/>
+					<sup>
+						<xsl:value-of select="@n"/>
+					</sup>
+				</a>
+				<xsl:text> </xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="tei:note" mode="end">
-		<xsl:variable name="noteNumber">
+		<xsl:variable name="rawNoteNbr">
 			<xsl:number select="." level="any"/>
 		</xsl:variable>
+		<xsl:variable name="noteNumber">
+			<xsl:value-of select="number($rawNoteNbr) - 1"/>
+		</xsl:variable>
 		<xsl:choose>
+			<xsl:when test="@type = 'headnote'">
+				<p id="headnote">
+					<xsl:apply-templates/>
+					<xsl:text> </xsl:text>
+					<a href="#Bheadnote">
+						<xsl:text>Back</xsl:text>
+					</a>
+				</p>
+			</xsl:when>
 			<xsl:when test="tei:p or tei:lg">
 				<div class="note" id="{$noteNumber}">
 					<xsl:value-of select="$noteNumber"/>
@@ -888,12 +928,6 @@
 				</p>
 			</xsl:otherwise>
 		</xsl:choose>
-	</xsl:template>
-
-	<xsl:template match="tei:back">
-		<div class="back">
-			<xsl:apply-templates/>
-		</div>
 	</xsl:template>
 
 </xsl:stylesheet>

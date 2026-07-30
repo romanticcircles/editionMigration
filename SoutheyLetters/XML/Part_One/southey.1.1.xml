@@ -33,6 +33,10 @@
 					and Texas A&amp;M University</publisher>
 				<pubPlace>College Station, TX</pubPlace>
 				<idno type="edition">southey.1.1</idno>
+				<availability>
+					<p>Originally published by Romantic Circles <date when="2009-03-15">March 15,
+							2009</date>.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<p>MS untraced; text is taken from Warter . Previously published: John Wood Warter,
@@ -151,6 +155,11 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+					<item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+					<item>Added dates of original publication by Romantic Circles</item>
+				</list></change>
 			<change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Corrected XML files</item>
 				</list></change>

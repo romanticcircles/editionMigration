@@ -29,6 +29,10 @@
 					and Texas A&amp;M University</publisher>
 				<pubPlace>College Station, TX</pubPlace>
 				<idno type="edition">appendix3</idno>
+				<availability>
+					<p>Originally published by Romantic Circles <date when="2023-03">March
+							2023</date>.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<p>Every effort has been made to contact copyright holders for their permission to
@@ -142,6 +146,11 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+					<item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+					<item>Added dates of original publication by Romantic Circles</item>
+				</list></change>
 			<change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
 					<item>Corrected XML files</item>
 				</list></change>
@@ -159,7 +168,7 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div type="paratext">
+			<div type="appendix">
 				<head rend="bold">Appendix 3 </head>
 				<p rend="bold">Southey’s manuscript drafts of his letter to the
 						<title>Courier</title> 1822</p>

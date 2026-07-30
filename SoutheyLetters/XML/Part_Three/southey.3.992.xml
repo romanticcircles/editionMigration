@@ -1,49 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">992. Robert Southey to William Taylor, 23 November
-               1804</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Carol Bolton</editor>
-            <editor>Tim Fulford</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="3">Part Three <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <idno type="edition">southey.3.992</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Huntington Library, HM 4848. ALS; 4p.. Previously published: J. W. Robberds (ed.), A
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">992. Robert Southey to William Taylor, 23 November
+               1804</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Carol Bolton</editor><editor>Tim Fulford</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="3">Part Three <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.3.992</idno><availability><p>Originally published by Romantic Circles <date when="2013-08-15">August 15, 2013</date>.</p></availability></publicationStmt><sourceDesc><p>Huntington Library, HM 4848. ALS; 4p.. Previously published: J. W. Robberds (ed.), A
                Memoir of the Life and Writings of the Late William Taylor of Norwich, 2 vols
-               (London, 1843), I, pp. 520–523.</p>
-            <p>These letters were edited by Carol Bolton and Tim Fulford</p>
-            <p>Every effort has been made to contact copyright holders for their permission to
+               (London, 1843), I, pp. 520–523.</p><p>These letters were edited by Carol Bolton and Tim Fulford</p><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -58,159 +20,30 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_18359329" scheme="VIAF"/>
-            <catRef target="#viaf_42171645" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML files</item>
-            </list></change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="992" type="letter">
-            <head>992. Robert Southey to <ref type="a" target="people.html#TaylorWilliam">William
-                  Taylor</ref>, <date when="1804-11-23">23 November 1804</date><note type="headnote"
-                  place="foot" resp="editors">Address: To/ M<hi rend="sup">r</hi> W<hi rend="sup"
-                     >m</hi> Taylor Jun<hi rend="sup">r</hi>./ Surry Street/ Norwich/
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="992" type="letter"><head>992. Robert Southey to <ref type="a" target="people.html#TaylorWilliam">William
+                  Taylor</ref>, <date when="1804-11-23">23 November 1804</date><note type="headnote" place="foot" resp="editors">Address: To/ M<hi rend="sup">r</hi> W<hi rend="sup">m</hi> Taylor Jun<hi rend="sup">r</hi>./ Surry Street/ Norwich/
                   Single<lb/>Stamped: KENDAL/ 261<lb/>Endorsement: Ans<hi rend="sup">d</hi> 3
                   Jan<lb/>MS: Huntington Library, HM 4848. ALS; 4p.<lb/>Previously published: J. W.
                   Robberds (ed.), <title>A Memoir of the Life and Writings of the Late William
-                     Taylor of Norwich</title>, 2 vols (London, 1843), I, pp. 520–523.</note></head>
-            <opener><salute>My dear friend</salute></opener>
-            <p rend="indent1"> A half written letter, begun immediately on the receipt of your last,
-               is lying in my desk at home, (– for I am now visiting <ref type="m"
-                  target="people.html#LloydCharles">Charles Lloyd</ref> at <ref
-                  target="places.html#Ambleside">Ambleside</ref>) – it is better to begin anew than
-               to protract a delay which has already been too long continued. – <ref type="m"
-                  target="people.html#SoutheyHenryHerbert">Harry</ref> is gone back to Edinburgh. he
+                     Taylor of Norwich</title>, 2 vols (London, 1843), I, pp. 520–523.</note></head><opener><salute>My dear friend</salute></opener><p rend="indent1"> A half written letter, begun immediately on the receipt of your last,
+               is lying in my desk at home, (– for I am now visiting <ref type="m" target="people.html#LloydCharles">Charles Lloyd</ref> at <ref target="places.html#Ambleside">Ambleside</ref>) – it is better to begin anew than
+               to protract a delay which has already been too long continued. – <ref type="m" target="people.html#SoutheyHenryHerbert">Harry</ref> is gone back to Edinburgh. he
                has past a chearful summer, &amp; if not a very profitable one in the way of study I
                readily excuse him, remembering what my own habits were when something younger. As
                you may suppose he left behind him a very favourable impression with every body; with
@@ -220,8 +53,7 @@
                thought right, &amp; to have told him when I thought he was wrong would only have
                provoked him to a defence. Our time passed easily, &amp; should we remain here next
                summer I shall be glad when the time for his return arrives, &amp; he will not be
-               sorry. </p>
-            <p rend="indent1"> My letters, like Gibbons<note n="1" place="foot" resp="editors">
+               sorry. </p><p rend="indent1"> My letters, like Gibbons<note n="1" place="foot" resp="editors">
                   Edward Gibbon (1737–1794; <title>DNB</title>): the author of <title>The History of
                      the Decline and Fall of the Roman Empire</title> (1776–1788).</note> sentences,
                all go to one tune &amp; would furnish as pretty specimens of egotism as the Memoirs
@@ -239,17 +71,14 @@
                &amp; has good reason to think himself so: our great I is in character. – The news of
                my microcosm is not very important just at present. the best is that the last sheet
                of Madoc is on the table – that is of the poem. the notes will take up another month
-               – &amp; then without much delay it shall be delivered into your hands.<note n="4"
-                  place="foot" resp="editors"> Southey was correcting proofs of <title>Madoc</title>
+               – &amp; then without much delay it shall be delivered into your hands.<note n="4" place="foot" resp="editors"> Southey was correcting proofs of <title>Madoc</title>
                   (1805) even while still revising the sections of the manuscript not yet sent to
                   the printer.</note> I had prefaced it with a story of its birth &amp; progress,
                thereby accounting for sundry faults, but on consultation &amp; farther thought I was
                convinced that nobody likes <del>his</del> egotism in his neighbours – that the least
                said is the soonest mended. So my preface contains nothing more than what is
                necessary to state the historical foundation of the poem, said as briefly as possible
-               in some twenty lines.</p>
-            <p rend="indent1"> I have commenced my campaign against the Authors,<note n="5"
-                  place="foot" resp="editors"> That is, his reviewing work for the <title>Annual
+               in some twenty lines.</p><p rend="indent1"> I have commenced my campaign against the Authors,<note n="5" place="foot" resp="editors"> That is, his reviewing work for the <title>Annual
                      Review</title>.</note> with a resolution to censure for the future as gently as
                possible. in fact your remark has risen in my conscience, &amp; I fairly confess that
                the pride of saying a good thing is but a bad motive for saying an ill natured one.
@@ -272,8 +101,7 @@
                      <title>Vindication of the Antient Kingdom of Ireland</title> (1786) and the
                      <title>Antient History of Ireland proved from the Sanscrit Books</title>
                   (1797).</note> – &amp; moreover a very good for nothing &amp; unprincipled
-               fellow.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SayersFrank">Dr Sayers</ref> Essay
+               fellow.</p><p rend="indent1"><ref type="m" target="people.html#SayersFrank">Dr Sayers</ref> Essay
                will interest me. we have however a school of poetry of our own, – &amp; of the
                present race of poets &amp; poetasters very many discover no traces of German
                   taste.<note n="8" place="foot" resp="editors"> Frank Sayers traced the
@@ -282,36 +110,28 @@
                   in his <title>Miscellanies, Antiquarian and Historical</title> (Norwich, 1805),
                   pp. 45–58.</note><ref type="m" target="people.html#WordsworthChristopher">the
                   Wordsworth</ref> who chuses to add one article more to the nine &amp; thirty is
-               brother to <ref type="m" target="people.html#WordsworthWilliam">William W</ref>.<note
-                  n="9" place="foot" resp="editors"> Christopher Wordsworth had, in 1802, defended
+               brother to <ref type="m" target="people.html#WordsworthWilliam">William W</ref>.<note n="9" place="foot" resp="editors"> Christopher Wordsworth had, in 1802, defended
                   the argument of Granville Sharp (1735–1813; <title>DNB</title>) against Unitarians
                   that the use of the definite article in the New Testament demonstrated Christ’s
-                  deity.</note> has lately married <ref type="m" target="people.html#LloydCharles"
-                  >Lloyds</ref> sister,<note n="10" place="foot" resp="editors"> Christopher
+                  deity.</note> has lately married <ref type="m" target="people.html#LloydCharles">Lloyds</ref> sister,<note n="10" place="foot" resp="editors"> Christopher
                   Wordsworth married Priscilla Lloyd (d. 1815) in 1804.</note> &amp; is settled on
                his living between Yarmouth &amp; Norwich. I do not know him, but know that he is a
                good man, very studious, very sincere, thoroughly bigotted, &amp; holding <del>as
                   thorough a</del> in thorough contempt all persons who differ from his own orthodox
                standard. <ref type="m" target="people.html#WordsworthWilliam">William
                   Wordsworth</ref> is very desirous of seeing you. pray pray come up to us, if (as
-               we have reason to hope) we should remain here next summer.</p>
-            <p rend="indent1"> My plans are sadly unsettled by the great evils in the world. this
+               we have reason to hope) we should remain here next summer.</p><p rend="indent1"> My plans are sadly unsettled by the great evils in the world. this
                piratical war with Spain may very probably occasion our expulsion from Lisbon – &amp;
-               that city is also perilously near this dreadful pestilence.<note n="11" place="foot"
-                  resp="editors"> Yellow fever was epidemic in Iberia in 1804, and killed an
-                  estimated 60% of Gibraltar’s population.</note><ref type="m"
-                  target="people.html#HillHerbertUncle">my Uncle</ref>, who would willingly end his
+               that city is also perilously near this dreadful pestilence.<note n="11" place="foot" resp="editors"> Yellow fever was epidemic in Iberia in 1804, and killed an
+                  estimated 60% of Gibraltar’s population.</note><ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref>, who would willingly end his
                days there, feels himself very insecure, &amp; thinks he may soon be driven here; –
                else I should certainly migrate in the next winter, &amp; remain abroad as long as
                   <ref type="m" target="people.html#FrickerEdith">Edith</ref> would be contented to
                forego her own country. I must wait &amp; see how things turn out. meantime life is
                running on – I have been married nine years – &amp; it is time that I should have a
-               settled resting place.</p>
-            <p rend="indent1"> We are very uneasy about <ref type="m"
-                  target="people.html#SoutheyTom">Tom</ref>. <hi rend="ital">if</hi> there was a
+               settled resting place.</p><p rend="indent1"> We are very uneasy about <ref type="m" target="people.html#SoutheyTom">Tom</ref>. <hi rend="ital">if</hi> there was a
                frigate lost in the hurricane at Dominica, it was the Galatea. &amp; besides that
-               ship has suffered dreadfully in attempting to cut out a sloop.<note n="12"
-                  place="foot" resp="editors"> HMS <hi rend="ital">Galatea</hi> was not sunk in the
+               ship has suffered dreadfully in attempting to cut out a sloop.<note n="12" place="foot" resp="editors"> HMS <hi rend="ital">Galatea</hi> was not sunk in the
                   hurricane. On 14 August 1804, the <hi rend="ital">Galatea</hi>’s boats made an
                   unsuccessful attempt to cut out the French privateer <hi rend="ital">General
                      Ernouf</hi> (formerly the British sloop of war <hi rend="ital">Lilly</hi>)
@@ -321,18 +141,9 @@
                   <ref type="m" target="people.html#SoutheyTom">Toms</ref> name – what most alarms
                me is that he has not written himself. I fear the fever worst of all these chances.
                   <ref type="m" target="people.html#SoutheyEdward">My younger brother</ref> is
-               turned vagabond again &amp; must be left to his fate. few candidates for Tyburn<note
-                  n="13" place="foot" resp="editors"> The place where criminals were executed in
+               turned vagabond again &amp; must be left to his fate. few candidates for Tyburn<note n="13" place="foot" resp="editors"> The place where criminals were executed in
                   west London.</note> have started with a better chance. my best hope for him is
                that he may turn strolling player – if not, if he only attains to transportation his
                destiny will be better than his deserts. happily he has no mother, &amp; I know how
-               to <del>take</del> &lt;give&gt; these evils no more their proper weight.</p>
-            <closer><salute rend="indent1"> God bless you.</salute><signed rend="indent2">
-                  RS.</signed></closer>
-            <postscript>
-               <p><date when="1804-11-23">Nov. 23. 1804.</date></p>
-            </postscript>
-         </div>
-      </body>
-   </text>
-</TEI>
+               to <del>take</del> &lt;give&gt; these evils no more their proper weight.</p><closer><salute rend="indent1"> God bless you.</salute><signed rend="indent2">
+                  RS.</signed></closer><postscript><p><date when="1804-11-23">Nov. 23. 1804.</date></p></postscript></div></body></text></TEI>

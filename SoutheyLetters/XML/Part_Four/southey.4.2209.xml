@@ -1,48 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">2209. Robert Southey to William Peachy, 22 January
-               1813</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Ian Packer</editor>
-            <editor>Lynda Pratt</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="4">Part Four <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <idno type="edition">southey.4.2209</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <p>British Library, Add MS 28603. ALS; 4p.. Previously published: Kenneth Curry (ed.),
-               New Letters of Robert Southey, 2 vols (London and New York, 1965), II, pp. 44–46.</p>
-            <p>These letters were edited by Ian Packer and Lynda Pratt</p>
-            <p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">2209. Robert Southey to William Peachy, 22 January
+               1813</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="4">Part Four <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.4.2209</idno><availability><p>Originally published by Romantic Circles <date when="2013-08-15">August 15, 2013</date>.</p></availability></publicationStmt><sourceDesc><p>British Library, Add MS 28603. ALS; 4p.. Previously published: Kenneth Curry (ed.),
+               New Letters of Robert Southey, 2 vols (London and New York, 1965), II, pp. 44–46.</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -57,170 +19,39 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_116328125" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML files</item>
-            </list></change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="2209" type="letter">
-            <head>2209. Robert Southey to <ref type="a" target="people.html#PeachyWilliam">William
-                  Peachy</ref>, <date when="1813-01-22">22 January 1813</date><note type="headnote"
-                  place="foot" resp="editors">Address: To / Colonel Peachy/ Bath.<lb/>Stamped:
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="2209" type="letter"><head>2209. Robert Southey to <ref type="a" target="people.html#PeachyWilliam">William
+                  Peachy</ref>, <date when="1813-01-22">22 January 1813</date><note type="headnote" place="foot" resp="editors">Address: To / Colonel Peachy/ Bath.<lb/>Stamped:
                   KESWICK/ 298<lb/>MS: British Library, Add MS 28603. ALS; 4p.<lb/>Previously
                   published: Kenneth Curry (ed.), <title>New Letters of Robert Southey</title>, 2
-                  vols (London and New York, 1965), II, pp. 44–46.</note></head>
-            <opener><dateline><address>
-                     <placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName>
-                  </address><date when="1813-01-22">Jan<hi rend="sup">y</hi>. 22.
-                  1813.</date></dateline><salute>My dear Sir</salute></opener>
-            <p rend="indent1"> I have been very desirous of thanking you &amp; <ref type="m"
-                  target="people.html#PeachyMrs">Mrs Peachy</ref> for some excellent brawn, &amp;
+                  vols (London and New York, 1965), II, pp. 44–46.</note></head><opener><dateline><address><placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1813-01-22">Jan<hi rend="sup">y</hi>. 22.
+                  1813.</date></dateline><salute>My dear Sir</salute></opener><p rend="indent1"> I have been very desirous of thanking you &amp; <ref type="m" target="people.html#PeachyMrs">Mrs Peachy</ref> for some excellent brawn, &amp;
                for want of any certain direction was about to address my letter <del>x</del> to
                Bury, with a sort of roving-commission upon the cover, by virtue of which it might
                have hunted you out; – when luckily the desired information has reached me thro a
-               very unexpected channel. On Monday I met <ref type="m"
-                  target="people.html#CalvertWilliam">Calvert</ref> at <ref type="m"
-                  target="people.html#SunderlinLord">Lord Sunderlin’s</ref>, &amp; he had heard of
+               very unexpected channel. On Monday I met <ref type="m" target="people.html#CalvertWilliam">Calvert</ref> at <ref type="m" target="people.html#SunderlinLord">Lord Sunderlin’s</ref>, &amp; he had heard of
                you from M<hi rend="sup">r</hi> Spence.<note n="1" place="foot" resp="editors"> Henry
                   Spence (dates unknown), the builder of ‘Pigmy Hall’ near Keswick.</note> I should
                have written the next day, but delayed it till this evening that I might give you
                some account of our <ref target="places.html#Keswick">Keswick</ref> gaieties in the
                preter perfect tense, rather than in the future, – for yesterday we had a grand
-               entertainment at Derwent Bank.</p>
-            <p rend="indent1"><ref type="m" target="people.html#SunderlinLord">Lord Sunderlin</ref>
-               to lighten a few of the weary hours which his poor sister<note n="2" place="foot"
-                  resp="editors"> Henrietta Malone (c. 1745–1824).</note> passes, caught hold of the
+               entertainment at Derwent Bank.</p><p rend="indent1"><ref type="m" target="people.html#SunderlinLord">Lord Sunderlin</ref>
+               to lighten a few of the weary hours which his poor sister<note n="2" place="foot" resp="editors"> Henrietta Malone (c. 1745–1824).</note> passes, caught hold of the
                players on his return from Ireland, just as they were packing off from a most
                unsuccessful campaign in this little town. The drawing room which had luckily in the
                Pocklington fashion<note n="3" place="foot" resp="editors"> i.e. in the fashion of
@@ -229,21 +60,17 @@
                   houses, including one on Derwent (Vicar’s) Island, on Derwentwater, near
                   Keswick.</note> a door at either end, – &amp; more luckily still a back-stairs
                communication, made a better theatre, than any of the alehouses or barns in the
-               country could have supplied. They had respectable scenery, &amp; <ref type="m"
-                  target="people.html#BarkerMary">Miss Barker</ref> ornamented the room with
+               country could have supplied. They had respectable scenery, &amp; <ref type="m" target="people.html#BarkerMary">Miss Barker</ref> ornamented the room with
                festoons of evergreens &amp; artificial flowers, which had a very <del>beautiful
                   effect</del> pleasing effect. Ours you know <del>xx</del> is but a scanty
-               neighbourhood at all times, – the good-natured <ref type="m"
-                  target="people.html#SunderlinLord">old Lord</ref> however invited every person
+               neighbourhood at all times, – the good-natured <ref type="m" target="people.html#SunderlinLord">old Lord</ref> however invited every person
                with whom he had any <del>xxxx</del> intercourse, – &amp; we mustered about fifty
                persons besides some dozen or score of children to see Romeo &amp; Juliet &amp; No
                Song No Supper.<note n="4" place="foot" resp="editors"> A light opera first performed
                   in 1790: music by Stephen Storace (1762–1796; <title>DNB</title>), libretto by
-                  Prince Hoare (1755–1834; <title>DNB</title>).</note> Romeo was the <hi rend="ital"
-                  >best bad</hi> actor I ever saw, – that is he was the very worst, &amp; in these
+                  Prince Hoare (1755–1834; <title>DNB</title>).</note> Romeo was the <hi rend="ital">best bad</hi> actor I ever saw, – that is he was the very worst, &amp; in these
                cases you know the worse the better. To add to his other accomplishments, <del>the
-                  compa</del> he had indulged a little too freely in <ref type="m"
-                  target="people.html#SunderlinLord">my Lords</ref> kitchen, &amp; was in liquor as
+                  compa</del> he had indulged a little too freely in <ref type="m" target="people.html#SunderlinLord">my Lords</ref> kitchen, &amp; was in liquor as
                well as in love. The company were in good humour &amp; the players, never perhaps
                before having been either so well paid or so well fed were in high spirits. – The
                upstairs entertainment concluded with God save the King in full chorus. We then went
@@ -254,12 +81,10 @@
                There were two long tables in the dining room, – the children had their feast in the
                room within (<ref type="m" target="people.html#SunderlinLord">Lord S’s</ref>
                bed-chamber) – &amp; the players &amp; servants made merry the while in the kitchen.
-               We broke up about one o clock.</p>
-            <p rend="indent1"> This has been a great event in our little circle. The few other
+               We broke up about one o clock.</p><p rend="indent1"> This has been a great event in our little circle. The few other
                events which have taken place in <ref target="places.html#Keswick">Keswick</ref>
                since your departure are of a different character. First – as what concerns me most
-               nearly, – our chickens were all stolen one night “at one fell swoop”.<note n="5"
-                  place="foot" resp="editors"><title>Macbeth</title>, Act 4, scene 3, lines 218–219,
+               nearly, – our chickens were all stolen one night “at one fell swoop”.<note n="5" place="foot" resp="editors"><title>Macbeth</title>, Act 4, scene 3, lines 218–219,
                   ‘What, all my pretty chickens, and their dam,/At one fell swoop?’</note> – The
                Whitehaven mail has been robbed, – the Maryport post-boy shot at; – a <del>xxxxx
                   xxxx</del> &lt;house&gt; has been broken open in the town, &amp; two others at
@@ -279,15 +104,13 @@
                proper spirit, such indeed <del>that if he had half a dozen</del> as in case of
                necessity would do wonders. At present all is quiet, &amp; has been so for some
                weeks. The examples at York,<note n="8" place="foot" resp="editors"> Fourteen
-                  Luddites were hanged at York on 16 January 1813.</note> the proclamation,<note
-                  n="9" place="foot" resp="editors"> A Proclamation on 19 January 1813 offered a
+                  Luddites were hanged at York on 16 January 1813.</note> the proclamation,<note n="9" place="foot" resp="editors"> A Proclamation on 19 January 1813 offered a
                   pardon to all Luddites who surrendered to local magistrates before 1 March 1813,
                   confessed their activities and took the Oath of Allegiance.</note> &amp; above
                all, the prospect of deliverance which has opened upon Europe, &amp; the effects of
                which must be instantly felt in our manufactories, – will it is to be hop[MS torn]
                keep peace at home. And soon I trust we shall set thoroughly to [MS torn] about a
-               radical reform – of the lower classes.</p>
-            <p rend="indent1"> You will see a paper of mine in the next Quarterly upon this subject.
+               radical reform – of the lower classes.</p><p rend="indent1"> You will see a paper of mine in the next Quarterly upon this subject.
                It enters into the moral &amp; political state of the populace, &amp; draws a
                faithful picture, which I shall be very sorry if any misjudging timidity should
                weaken or suppress.<note n="10" place="foot" resp="editors"> In the first of a series
@@ -299,13 +122,11 @@
                Calamities of Authors.<note n="11" place="foot" resp="editors"> Isaac D’Israeli,
                      <title>Calamities of Authors; Including some Inquiries Respecting their Moral
                      and Literary Characters</title> (1812), reviewed by Southey in <title>Quarterly
-                     Review</title>, 8 (September 1812), 93–114.</note></p>
-            <p rend="indent1"> Have you seen Rokeby yet?<note n="12" place="foot" resp="editors">
+                     Review</title>, 8 (September 1812), 93–114.</note></p><p rend="indent1"> Have you seen Rokeby yet?<note n="12" place="foot" resp="editors">
                   Scott’s <title>Rokeby: A Poem</title> (1813), set during the civil war of the
                   seventeenth century. Southey had visited Yorkshire, where a good deal of the poem
                   is set in the summer of 1812.</note> I enjoyed it the more from having so recently
-               trod over the ground.</p>
-            <p rend="indent1"> I have letters from Cadiz to day, which tell me that Ballasteros
+               trod over the ground.</p><p rend="indent1"> I have letters from Cadiz to day, which tell me that Ballasteros
                acted not so much from his own erroneous judgement, as at the instigation of evil
                   counsellors;<note n="13" place="foot" resp="editors"> Francisco Ballasteros
                   (1770–1832) had led a mutiny in the Spanish army on 12 October 1812, in protest at
@@ -320,33 +141,20 @@
                experiment at Constitution-making,<note n="15" place="foot" resp="editors"> The Cadiz
                   Cortes had adopted the liberal Constitution of 1812.</note> whereas the simple
                adoption of two of our blessings would have conferred more benefit upon the people
-               than any thing that all the Constitution-makers from Locke<note n="16" place="foot"
-                  resp="editors"> John Locke (1632–1704; <title>DNB</title>), <title>Two Treatises of
+               than any thing that all the Constitution-makers from Locke<note n="16" place="foot" resp="editors"> John Locke (1632–1704; <title>DNB</title>), <title>Two Treatises of
                      Government</title> (1689).</note> to these Diputados could have devised among
-               them; – Trial by Jury, &amp; the Habeus Corpus,<note n="17" place="foot"
-                  resp="editors"> The legal principle that nobody should be imprisoned without being
+               them; – Trial by Jury, &amp; the Habeus Corpus,<note n="17" place="foot" resp="editors"> The legal principle that nobody should be imprisoned without being
                   charged and brought to trial.</note> – one to secure the freedom of the press, the
                other the freedom of the subject. Salvation however seems to be coming from the
                North, &amp; Spain may ere long be left to ferment &amp; purify itself at leisure. Of
                her establishing her independence I should have no doubt, even if Buonaparte were now
                what he was in July last; but of her internal settlement I think with heavier
                feelings: Popery has destroyed the morals of the people, &amp; it is in vain to form
-               fine governments for those who are corrupted.</p>
-            <p rend="indent1"> What a change have the last few months produced!<note n="18"
-                  place="foot" resp="editors"> i.e. the defeat of the French army in Russia in
+               fine governments for those who are corrupted.</p><p rend="indent1"> What a change have the last few months produced!<note n="18" place="foot" resp="editors"> i.e. the defeat of the French army in Russia in
                   1812.</note> Surely we have seen the fourth act of the Tragedy of Buonaparte. I
                look to see the whole North of Germany throw off the yoke; – &amp; expect a
                catastrophe as sudden as the elevation of this monster, &amp; as aweful as his
-               guilt.</p>
-            <p rend="indent1">Our Ladies<note n="19" place="foot" resp="editors"><ref type="m"
-                     target="people.html#FrickerEdith">Edith Southey</ref>, <ref type="m"
-                     target="people.html#FrickerSarah">Sara Coleridge</ref> and <ref type="m"
-                     target="people.html#FrickerMary">Mary Lovell</ref>.</note> join me in kind
+               guilt.</p><p rend="indent1">Our Ladies<note n="19" place="foot" resp="editors"><ref type="m" target="people.html#FrickerEdith">Edith Southey</ref>, <ref type="m" target="people.html#FrickerSarah">Sara Coleridge</ref> and <ref type="m" target="people.html#FrickerMary">Mary Lovell</ref>.</note> join me in kind
                remembrances to yourself &amp; <ref type="m" target="people.html#PeachyMrs">Mrs
-                  Peachy</ref>.</p>
-            <closer><salute rend="indent3"> believe me my dear Sir</salute><salute rend="indent4">
-                  yrs very truly,</salute><signed rend="indent6"> Robert Southey.</signed></closer>
-         </div>
-      </body>
-   </text>
-</TEI>
+                  Peachy</ref>.</p><closer><salute rend="indent3"> believe me my dear Sir</salute><salute rend="indent4">
+                  yrs very truly,</salute><signed rend="indent6"> Robert Southey.</signed></closer></div></body></text></TEI>
