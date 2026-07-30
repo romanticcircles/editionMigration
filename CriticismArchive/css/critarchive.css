@@ -738,8 +738,10 @@ figure {
 .smcaps {
     font-variant: small-caps;
 }
-.sup {
-    vertical-align: super;
-    font-size: 12pt;
-    line-height: 30%;
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4rem;
+  font-size: 0.95rem;
+  line-height: 0;
 }
