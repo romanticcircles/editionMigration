@@ -281,7 +281,7 @@
 				<p class="navTitle"><a href="../../index.html">The Collected Letters of Robert
 						Southey</a><br/>Gen. Ed. Lynda Pratt</p>
 				<p class="homePlink">
-					<a href="../../index.html">
+					<a href="index.html">
 						<img src="../../images/GretaHall3.png" alt="Greta Hall home button"
 							class="homeButton"/>
 					</a>
