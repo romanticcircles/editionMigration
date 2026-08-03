@@ -11,9 +11,7 @@
     
     <xsl:template match="list">
         <xsl:for-each select="item">
-            <xsl:result-document href="new/{@code}">
                 <xsl:apply-templates select="document(@code)/tei:TEI"/>
-            </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
 

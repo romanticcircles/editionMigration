@@ -1,0 +1,22 @@
+Getting LetterLinks by Person
+
+---- FOR EACH PART ---
+
+for Addressees (lettersTo.xml):
+(now all xslts in TOlists)
+
+1.	runList (w/intro and list commented out) + getAddresees = addresees.xml (save in working) -- TOget
+2.	addresees.xml + sortByCorresp.xml = alphaAdd.xml (save in working) -- TOsort
+3.	alphaAdd.xml + mergeCorresp.xsl = lettersTo.xml -- TOmerge
+4.	lettersTo.xml + checkCorrspList.xsl = checkCorrespList.xml -- for later, for Lynda -- TOcheck
+
+
+for people mentioned (lettersIn.xml):
+(now all xslts in INlists)
+
+1.	runList (w/intro and list commented out) + getMentions.xsl = mentioned.xml (save in working) -- INget
+2.	mentioned.xml + mergeMentions.xsl = mentMerged.xml (save in working) -- INsort (it is sorting and mergining)
+3. 	mentMerged.xml + fixDupMentions.xsl = lettersIn.xml -- INmerge (merging duplicates and generating the number of mentions)
+
+
+unknown correspondent: added id = "unknown" for [Unknown Correspondent] manually to 6.3486.1 -- ask Lynda if any more with unknown addressees.

@@ -18,7 +18,7 @@
     <!-- =======================================================
 		running documents -->
 
-    <xsl:output method="xhtml" omit-xml-declaration="yes" indent="yes" encoding="UTF-8"/>
+    <xsl:output method="xhtml" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/">
