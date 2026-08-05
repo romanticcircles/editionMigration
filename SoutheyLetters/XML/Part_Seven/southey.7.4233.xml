@@ -1,50 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">4233. Robert Southey to [William Knox], 19 August 1824</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><editor>Ian Packer</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="7">Part Seven <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.7.4233</idno><availability><p>Originally published by Romantic Circles <date when="2023-03">March 2023</date>.</p></availability></publicationStmt><sourceDesc><p>MS: MS untraced; text is taken from William Knox, The Lonely Hearth, The Songs
-                     of Israel, Harp of Zion, and Other Poems (London, 1847) Previously published: William Knox, The Lonely
-                     Hearth, The Songs of Israel, Harp of Zion, and Other Poems (London, 1847), p. xii.</p><p>These letters were edited by Lynda Pratt and Ian Packer.</p><p>Every effort has been made to contact
-                    copyright holders for their permission to reprint material in this edition. The
-                    editors would be grateful to hear from any copyright holder who is not here
-                    acknowledged and undertake to rectify any omissions or errors in future updates
-                    of this
-                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
-                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
-                    Berg Collection of English and American Literature, The New York Public Library,
-                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-                    British Library; Boston Public Library; the Syndics of Cambridge University
-                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
-                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-                    Massachusetts Historical Society; McGill University Library; the National
-                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated November 2024. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change></revisionDesc></teiHeader><text><body><div n="4233" type="letter"><head>4233. Robert Southey to [<ref type="a" target="people.html#KnoxWilliam">William Knox</ref>], <date when="1824-08-19">19 August
-                  1824</date><note type="headnote" place="foot" resp="editors">MS: MS untraced; text is taken from William Knox, <title>The Lonely Hearth, The Songs
-                     of Israel, Harp of Zion, and Other Poems</title> (London, 1847)<lb/> Previously published: William Knox, <title>The Lonely
-                     Hearth, The Songs of Israel, Harp of Zion, and Other Poems</title> (London, 1847), p. xii.</note></head><opener><dateline><address><placeName><ref target="places.html#Keswick">Keswick</ref>,</placeName></address><date when="1824-08-19">19<hi rend="ital">th August</hi> 1824</date>.</dateline></opener><p rend="indent1">Dear Sir, – Your little volume has been safely delivered to me by your friend Mr G. Macdonald, and I thank you for it.
-                  <note n="1" place="foot" resp="editors">Knox’s <title>Songs of Israel; Consisting of Lyrics, Founded upon the History and Poetry of
-                     the Hebrew Scriptures</title> (1824). Presentation copies of this and other works by Knox were no. 1496 in the sale catalogue of
-                  Southey’s library. Macdonald is unidentified.</note> It has given me great pleasure. To paraphrase sacred poetry is the most
-               difficult of all tasks, and it appears to me that you have been more successful in the attempt than any of your predecessors. You may
-               probably have heard that <ref type="m" target="people.html#HeberReginald">the Bishop of Calcutta</ref> (before he was appointed to that
-               see) was engaged in forming a collection of hymns and sacred pieces, with the hope of having them introduced into our English churches.
-                  <note n="2" place="foot" resp="editors">Heber’s collection of ninety-nine hymns, including twenty-seven written by himself, was
-                  published posthumously as <title>Hymns Written and Adapted to the Weekly Church Service of the Year</title> (1827). This did not
-                  include anything by Knox.</note> Some of yours are so well adapted to that object that I will send out a copy of your book to
-               him.</p><p rend="indent1">Deprivations such as you speak of are our portion here. I hope what have fallen to my lot have had their natural and
-               proper effect in loosening the ties that bind us to this world. That effect affliction has produced upon you also; and I cannot but
-               wish that talents and feelings such as yours were employed in the ministry of the gospel, where you would find your happiness in the
-               performance of your duty – you are young enough to think of this.</p><closer><salute rend="indent1">Farewell, dear sir, and believe me yours with sincere respect,</salute><signed rend="indent2">ROBERT SOUTHEY.</signed></closer></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">4233. Robert Southey to [William Knox], 19 August
+               1824</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Seven</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Lynda Pratt</editor><editor>Ian Packer</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="7">Part Seven <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.7.4233</idno><availability><p>Originally published by Romantic Circles <date when="2023-03">March
+                  2023</date>.</p></availability></publicationStmt><sourceDesc><p>MS: MS untraced; text is taken from William Knox, The Lonely Hearth, The Songs of
+               Israel, Harp of Zion, and Other Poems (London, 1847) Previously published: William
+               Knox, The Lonely Hearth, The Songs of Israel, Harp of Zion, and Other Poems (London,
+               1847), p. xii.</p><p>These letters were edited by Lynda Pratt and Ian Packer.</p><p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
+                  November 2024. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
+               </item></list></change></revisionDesc></teiHeader><text><body><div n="4233" type="letter"><head>4233. Robert Southey to [<ref type="a" target="people.html#KnoxWilliam">William
+                  Knox</ref>], <date when="1824-08-19">19 August 1824</date><note type="headnote" place="foot" resp="editors">MS: MS untraced; text is taken from William Knox,
+                     <title>The Lonely Hearth, The Songs of Israel, Harp of Zion, and Other
+                     Poems</title> (London, 1847)<lb/> Previously published: William Knox,
+                     <title>The Lonely Hearth, The Songs of Israel, Harp of Zion, and Other
+                     Poems</title> (London, 1847), p. xii.</note></head><opener><dateline><address><placeName><ref target="places.html#Keswick">Keswick</ref>,</placeName></address><date when="1824-08-19">19<hi rend="ital">th August</hi>
+                  1824</date>.</dateline></opener><p rend="indent1">Dear Sir, – Your little volume has been safely delivered to me by your
+               friend Mr G. Macdonald, and I thank you for it. <note n="1" place="foot" resp="editors">Knox’s <title>Songs of Israel; Consisting of Lyrics, Founded upon
+                     the History and Poetry of the Hebrew Scriptures</title> (1824). Presentation
+                  copies of this and other works by Knox were no. 1496 in the sale catalogue of
+                  Southey’s library. Macdonald is unidentified.</note> It has given me great
+               pleasure. To paraphrase sacred poetry is the most difficult of all tasks, and it
+               appears to me that you have been more successful in the attempt than any of your
+               predecessors. You may probably have heard that <ref type="m" target="people.html#HeberReginald">the Bishop of Calcutta</ref> (before he was
+               appointed to that see) was engaged in forming a collection of hymns and sacred
+               pieces, with the hope of having them introduced into our English churches. <note n="2" place="foot" resp="editors">Heber’s collection of ninety-nine hymns,
+                  including twenty-seven written by himself, was published posthumously as
+                     <title>Hymns Written and Adapted to the Weekly Church Service of the
+                     Year</title> (1827). This did not include anything by Knox.</note> Some of
+               yours are so well adapted to that object that I will send out a copy of your book to
+               him.</p><p rend="indent1">Deprivations such as you speak of are our portion here. I hope what
+               have fallen to my lot have had their natural and proper effect in loosening the ties
+               that bind us to this world. That effect affliction has produced upon you also; and I
+               cannot but wish that talents and feelings such as yours were employed in the ministry
+               of the gospel, where you would find your happiness in the performance of your duty –
+               you are young enough to think of this.</p><closer><salute rend="indent1">Farewell, dear sir, and believe me yours with sincere
+                  respect,</salute><signed rend="indent2">ROBERT SOUTHEY.</signed></closer></div></body></text></TEI>

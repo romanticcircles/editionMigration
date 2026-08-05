@@ -106,20 +106,31 @@ img.homeButton {
 img.teiLogo {
     float: right;
     height: 60px;
-    width: 44px;
+    width: 60px;
     margin: 0;
     padding: 0;
 }
 figure.downloadCSV {
     float: right;
-    margin: 0;
+    margin: 0 1rem -2rem 0;
     padding: 0;
 }
+div.listTitle > figure.downloadCSV {
+    margin-top: -1rem;
+}
+figure.downloadCSV > figcaption {
+    font-size: small;
+    line-height: 14px;
+}
 img.csvIcon {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+img.csvIconB {
     height: 60px;
     width: 60px;
     padding: 5px;
-    margin-top: -1rem;
 }
 /* =========== structures ============ */
 main {
@@ -158,9 +169,14 @@ div.appendix {
     background-color: white;
     padding: 2% 8%;
 }
+div.listTitle {
+    margin: 0 3%;
+    background-color: white;
+    padding: 2% 8%;
+    
+}
 div.entry {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin:1% 3%;
     background-color: white;
     }
 div.lists {
@@ -392,13 +408,29 @@ h1 {
     font-size: 24px;
     line-height: 32px;
 }
+.listTitle > h1 {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 h2 {
     font-size: 22px;
     line-height: 30px;
 }
+.listTitle > h2 {
+    margin: 0;
+    text-align: center;
+}
 h3 {
     font-size: 20px;
     line-height: 28px;
+}
+.listTitle > h3 {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 .listName {
     float: left;
@@ -409,13 +441,32 @@ h4 {
     font-size: 18px;
     line-height: 26px;
 }
-.menHdr {
-    padding-left: 2rem;
-    margin-bottom: 0;
-}
+.menHdr,
 .toHdr {
     padding-left: 2rem;
-    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+.menHdr::before,
+.toHdr::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0.75rem;
+    display: inline-block;
+    transition: transform 0.15s ease;
+}
+.menHdr.expanded::before,
+.toHdr.expanded::before {
+    transform: rotate(90deg);
+}
+.menList ul.letList,
+.toList ul.letList {
+    display: none;
+}
+.menList ul.letList.expanded,
+.toList ul.letList.expanded {
+    display: block;
 }
 h5 {
     font-size: 14px;

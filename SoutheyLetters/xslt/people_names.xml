@@ -40,7 +40,7 @@
 	<person xml:id="BellJohnNewcastle">Bell, John</person>
 	<person xml:id="BensonChristopher">Benson, Christopher</person>
 	<person xml:id="BethamMatilda">Betham, Mary Matilda</person>
-	<person xml:id="BicknellJohnLauren">Bicknell, John Laurens</person>
+	<person xml:id="BicknellJohnLaurens">Bicknell, John Laurens</person> <!-- I added an 's' to the id and have not yet reurun mentions/tos; it involves re-running part 7 only -->
 	<person xml:id="BiddlecombeCharles">Biddlecombe, Charles</person>
 	<person xml:id="BiggsNathaniel">Biggs, Nathaniel</person>
 	<person xml:id="BilderdijkWillem">Bilderdijk, Willem</person>
@@ -249,7 +249,8 @@
 	<person xml:id="HuntLeigh">Hunt, James Henry Leigh</person>
 	<person xml:id="HusseyArthur">Hussey, Arthur</person>
 	<person xml:id="HutchinsonSara">Hutchinson, Sara</person>
-	<person xml:id="InglisHarry">Inglis, Robert Harry</person>
+	<!-- <person xml:id="HutchinsonJoanna">Hutchinson, Joanna</person> not in people list, id'd in note so I removed the tag 7.3833 -->
+	<person xml:id="InglisHarry">Inglis, Robert Harry</person> <!-- in Part 7, the id 'InglisSirRobert' was used; changed to 'InglisHarr' to match people id and part 5 tags -->
 	<person xml:id="JacksonThomas">Jackson, Thomas</person>
 	<person xml:id="JacksonWilliam">Jackson, William</person>
 	<person xml:id="JamesHarry">James, Harry</person>
@@ -417,6 +418,11 @@
 	<person xml:id="ShieldWilliam">Shield, William</person>
 	<person xml:id="SimpsonSamuel">Simpson, Samuel</person>
 	<person xml:id="ShelleyHarriet">Shelley, Harriet Westbrook</person>
+	<!-- Mary Shelley appeared in 7.3925 with a tag 'ShelleyMary' around her name in 
+		the letter text which says "Godwins [sic] dauhter", but
+		not in the note which offers info about her; she is not in people, so I removed the tag. 
+		This means that she will NOT appear in "people mentioned."
+	-->
 	<person xml:id="ShelleyPercyBysshe">Shelley, Percy Bysshe</person>
 	<person xml:id="SmithElizabeth">Smith, Elizabeth</person>
 	<person xml:id="SmithGrace">Smith, Grace Weatherall</person>

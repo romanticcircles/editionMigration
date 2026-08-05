@@ -182,26 +182,36 @@
                     </ul>
                 </nav>
                 <main>
-                    <div class="paratext">
+                    <div class="listTitle">
+                        <figure class="downloadCSV">
+                            <a href="../personCSV/all.csv">
+                                <img src="../../images/CSVIconBlack.png" alt="icon for CSV download" class="csvIconB"/>
+                            </a>
+                            <figcaption><em>Click the icon above to</em><br/>
+                                <em>download the full list</em><br/>
+                            <em>or select a person's list</em><br/>
+                            <em>via the blue icons below</em></figcaption>
+                        </figure>
                         <h1>People Mentioned in</h1>
                         <h2>The Collected Letters of Robert Southey</h2>
-                        <h3>(and letters addressed to them)</h3>
+                        <h3>(with letters addressed to them)</h3>
                     </div>
                     <xsl:for-each select="person">
                         <div class="entry">
-                            <hr/><hr/>
                             <h4 class="listName">
                                 <a href="people.html#{name/@id}">
                                     <xsl:apply-templates select="name"/>
                                 </a>
                             </h4>
-                            <figure class="downloadCSV"><a href="../personsCSV/{name/@id}.csv">
+                            <figure class="downloadCSV">
+                                <a href="../personsCSV/{name/@id}.csv">
                                     <img src="../../images/CSVIcon.png" alt="icon for CSV download" class="csvIcon"/>
-                            </a></figure>
+                                </a>
+                            </figure>
                             <div class="lists">
                                 <div class="menList">
                                     <h5 class="menHdr">Mentioned In:</h5>
-                                    <ul>
+                                    <ul class="letList">
                                         <xsl:apply-templates select="letter"/>
                                     </ul>
                                 </div>
@@ -217,6 +227,20 @@
                         </div>
                     </xsl:for-each>
                 </main>
+                <script>
+                    <xsl:text disable-output-escaping="yes">
+                    // Toggle the Mentioned In / Letters To lists open and closed when their heading is clicked
+                    document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
+                    hdr.addEventListener('click', function () {
+                    hdr.classList.toggle('expanded');
+                    var list = hdr.nextElementSibling;
+                    if (list) {
+                    list.classList.toggle('expanded');
+                    }
+                    });
+                    });
+                    </xsl:text>
+                </script>
             </body>
         </html>
     </xsl:template>

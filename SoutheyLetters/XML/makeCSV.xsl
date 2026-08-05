@@ -8,9 +8,16 @@
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="mentions">
+        <xsl:result-document href="../HTML/personsCSV/all.csv">
+            <xsl:text>People Mentioned in the Collected Letters of Robert Southey&#13;</xsl:text>
+        <xsl:for-each select="person">
+            <xsl:value-of select="concat('&quot;', name, '&quot;')"/>
+            <xsl:text>&#13;</xsl:text>
+        </xsl:for-each>
+        </xsl:result-document>
         <xsl:for-each select="person">
             <xsl:result-document href="../HTML/personsCSV/{name/@id}.csv">
-                <xsl:apply-templates select="translate(name, ',', ' ')"/>
+                <xsl:value-of select="concat('&quot;', name, '&quot;')"/>
         <xsl:text>&#13;&#13;Mentioned In, URL&#13;</xsl:text>
             <xsl:apply-templates select="letter"/>
                 <xsl:text>&#13;Letters To, URL&#13;</xsl:text>

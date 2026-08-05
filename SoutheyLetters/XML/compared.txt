@@ -1,0 +1,226 @@
+1. First list: CHECKall.xml is the file that grabbed all the correspondents from the letters themselves.
+You may want to add them to the correspondents list?
+
+2. Second list: corresp.xml is the file you created; the list shows names on the list that I didn't pull from
+the letters themselves via programming.
+
+(We caught some coding errors!)
+
+
+==================================================
+NAMES ONLY IN CHECKall.xml (Missing from corresp.xml)
+==================================================
+
+
+BarringtonCJ - Barrington, Charles James
+(unknown whether letter to Barrington or Harris? I have it as both: Letter 4.2236)
+
+BeaumontLadyMargaret - Beaumont, Margaret Willes (lots) -- 
+I think this is a coding error in corresp.xml, and so I just fixed it, changing the link to Lady Margaret Beaumont in the corresp.xml list
+from people.html#BeaumontLadyMary (no people entry) to people.html#BeaumontLadyMargaret
+
+BellJohnNewcastle - Bell, John (one letter 4.2427)
+
+ClarksonThomas - Clarkson, Thomas (2 letters, Letter 7.3848, 
+Letter 7.4123)
+
+EverettJames - Everett, James (one letter 6.3626)
+
+FelthamJohn - Feltham, John (one letter 2.306.1)
+
+FreelingFrancis - Freeling, Francis (makes sense -- unknown but possibly Francis, 2.306.1)
+
+Frickerfamily - Fricker Family (in Letter 7.4125, the letter is addressed to Edith, but Edith's name is not linked to Edith; it is linked to "Fricker Family": do you want that link changed?)
+
+HarrisJ - Harris, John (see Barrington above -- same letter)
+
+
+Hatherton - Hatherton, Lord: Edward John Littleton
+(one letter, 7.3956)
+
+
+JamesPaulMoon - James, Paul Moon
+(one Letter 4.1854.1)
+
+
+KnoxWilliam - Knox, William
+(one letter 7.4233)
+
+LambCharles - Lamb, Charles
+(one Letter 7.4088)
+
+MorganMary - Morgan, Mary
+(one Letter 6.3565.1)
+
+SoutheyEdward - Southey, Edward
+MAY BE A MISTAKE: Letter 3.1112 says "to Edith Southey" but the person link goes to Edward Southey)
+
+unknown - [Unknown Correspondent]
+CHECK THE LAST entry in the People Mentioned page: are these the same unknowns? How do you want to deal with unknowns?
+
+
+==================================================
+NAMES ONLY IN corresp.xml (Missing from CHECKall.xml)
+==================================================
+
+Lynda- I am wondering if these are not mostly correspondents in letters in Parts 8-12?
+
+BairdGeorge - Baird, George 
+(0 letters addressed to him)
+
+BeaumontLadyMary - Beaumont, Margaret,
+						Lady
+(bad link in corresp.xml which is now fixed)
+
+BellJohn - Bell, John
+(he is mentioned in a lot of letters, but so far none addressed to him?)
+
+BicknellJohnLaurens - Bicknell, John
+						Laurens
+(In people.xml, the id differed from everywhere else: <persName xml:id="BicknellJohnLauren"> -- no "s" on "Lauren" -- 
+In letters (addressed 7.4049 and mentioned 7.4169) and the corresp.xml, Laurens has an "s" on the end: 
+<ref type="a" target="people.html#BicknellJohnLaurens">) -- I changed the people id.)
+
+
+BilderdijkWillem - Bilderdijk, Willem
+(lots of mentions; no letters to yet.)
+
+
+BrockettJohnTrotter - Brockett, John
+						Trotter
+(no letters or mentions yet)
+
+
+BrooksMariaGowen - Brooks, Maria
+						Gowen
+(no letters or mentions yet)
+
+
+BruceWilliam - Bruce, William
+(no letters or mentions yet)
+
+CattermoleRichard - Cattermole,
+						Richard
+(no letters or mentions yet)
+
+ClarkeAdam - Clarke, Adam
+(mentioned; no letters to him yet)
+
+
+FrickerEliza - Fricker, Eliza
+(mentioned; no letters to her yet)
+
+
+GilliesRobertPearse - Gillies, Robert
+						Pearse
+(no letters or mentions yet)
+
+
+HallSamuelCarter - Hall, Samuel
+						Carter
+(no letters or mentions yet)
+
+
+HareJulius - Hare, Julius Charles
+(no letters or mentions yet)
+
+
+HodsonMargaret - Hodson, Margaret
+						Holford
+(no letters or mentions yet)
+
+HusseyArthur - Hussey, Arthur
+(no letters or mentions yet)
+
+
+LiverpoolLord - Jenkinson, Robert Banks, 2nd Earl
+							of Liverpool
+(a ton of mentions; no letters to him yet)
+
+
+KellyThomasW - Kelly, Thomas W.
+(no letters or mentions yet)
+
+start here:
+
+LaToucheThomasDigges - La Touche, Thomas
+							Digges
+(none)
+
+LeydenJohn - Leyden, John
+(none)
+
+MackintoshSirJames - Mackintosh, Sir
+						James
+(none)
+
+MannersSuttonCharles - Manners-Sutton,
+							Charles
+(none)
+
+MarshallJohn - Marshall, John
+(none)
+
+MorrisRobert - Morris, Robert
+(none)
+
+MorrisWilliamRichard - Morris, William
+							Richard
+(none)
+
+PalfreyJohnGorham - Palfrey, John
+						Gorham
+(none)
+
+
+PalgraveFrancis - Palgrave, Francis
+
+(mentions; no letters addressed to)
+
+PettetAlfred - Pettet, Alfred
+(mentions; no letters addressed to)
+
+PhilipRobert - Philip, Robert
+(none)
+
+ProsserGeorgeWalter - Prosser, George
+						Walter
+(none)
+
+RelfeLupton - Relfe, Lupton
+(none)
+
+RossWilliam - Ross, William
+(none)
+
+RouseRobert - Rouse, Robert
+(none)
+
+RudgeJamesHorace - Rudge, James
+						Horace
+(none)
+
+SaundersandOtley - Saunders and Otley, Messrs
+							[Saunders, Simon and Otley, John Edward]
+(none)
+
+
+SimpsonSamuel - Simpson, Samuel
+(none)
+
+SmithMariaWoodruffe - Smith, Maria
+						Woodruffe
+(none)
+
+TreuttelandWurtz - Treuttel and Wurtz, Messrs
+							[Treuttel, John-Georges and Wurtz, John-Godefroy]
+(none)
+
+WaringElijah - Waring, Elijah
+(none)
+
+WhiteRichard - White, Richard
+(none)
+
+WilkinSimon - Wilkin, Simon
+(mentions; no letters addressed to)
