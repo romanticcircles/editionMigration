@@ -152,13 +152,13 @@
                         <span class="drop">People</span>
                         <ul class="dropdown">
                             <li>
-                                <a href="../paratext/people.html">All</a>
+                                <a href="people.html">All</a>
                             </li>
                             <li>
-                                <a href="../paratext/corresp.html">Correspondents</a>
+                                <a href="corresp.html">Correspondents</a>
                             </li>
                             <li>
-                                <a href="../paratext/mentioned.html">People mentioned</a>
+                                <a href="mentioned.html">People mentioned</a>
                             </li>
                         </ul>
                     </li>
@@ -166,25 +166,25 @@
                         <span class="here">Places</span>
                     </li>
                     <li class="nav">
-                        <a href="../paratext/chrono.html">Chronology</a>
+                        <a href="chrono.html">Chronology</a>
                     </li>
                     <li class="nav">
                         <span class="drop">Appendices</span>
                         <ul class="dropdown">
                             <li>
-                                <a href="../paratext/appendices.html">All</a>
+                                <a href="appendices.html">All</a>
                             </li>
                             <li>
-                                <a href="../paratext/appendix1.html">Appendix 1</a>
+                                <a href="appendix1.html">Appendix 1</a>
                             </li>
                             <li>
-                                <a href="../paratext/appendix2.html">Appendix 2</a>
+                                <a href="appendix2.html">Appendix 2</a>
                             </li>
                             <li>
-                                <a href="../paratext/appendix3.html">Appendix 3</a>
+                                <a href="appendix3.html">Appendix 3</a>
                             </li>
                             <li>
-                                <a href="../paratext/appendix4.html">Appendix 4</a>
+                                <a href="appendix4.html">Appendix 4</a>
                             </li>
                         </ul>
                     </li>

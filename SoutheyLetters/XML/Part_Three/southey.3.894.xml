@@ -1,52 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">894. Robert Southey to John Rickman, 8 February
-               1804</title>
-            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title>
-            <author role="primary" from="1774" to="1843"><persName
-                  ana="http://viaf.org/viaf/61576896"
-                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
-            <editor>Carol Bolton</editor>
-            <editor>Tim Fulford</editor>
-            <respStmt>
-               <resp>TEI Encoding</resp>
-               <name>Averill Buchanan</name>
-            </respStmt>
-            <sponsor>Romantic Circles</sponsor>
-            <respStmt>
-               <resp>Director</resp>
-               <name>Thora Brylowe</name>
-            </respStmt>
-            <respStmt>
-               <resp>Technical Editor</resp>
-               <name>Laura Mandell</name>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="3">Part Three <date>2026-09-15</date></edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher>
-            <pubPlace>College Station, TX</pubPlace>
-            <idno type="edition">southey.3.894</idno>
-            <availability>
-               <p>Originally published by Romantic Circles <date when="2013-08-15">August 15,
-                     2013</date>.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Huntington Library, RS 51. ALS; 4p.. Previously published: Kenneth Curry (ed.), New
-               Letters of Robert Southey, 2 vols (London and New York, 1965), I, pp. 350–352.</p>
-            <p>These letters were edited by Carol Bolton and Tim Fulford</p>
-            <p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">894. Robert Southey to John Rickman, 8 February
+               1804</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Three</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Carol Bolton</editor><editor>Tim Fulford</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="3">Part Three <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.3.894</idno><availability><p>Originally published by Romantic Circles <date when="2013-08-15">August 15,
+                     2013</date>.</p></availability></publicationStmt><sourceDesc><p>Huntington Library, RS 51. ALS; 4p.. Previously published: Kenneth Curry (ed.), New
+               Letters of Robert Southey, 2 vols (London and New York, 1965), I, pp. 350–352.</p><p>These letters were edited by Carol Bolton and Tim Fulford</p><p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p>
-            <p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -61,163 +20,28 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
-            <p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p>
-               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p>
-            </hyphenation>
-            <normalization method="markup">
-               <p>Southey's spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-            <normalization>
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-            </normalization>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy targetDatcat="https://viaf.org/">
-               <bibl>VIAF</bibl>
-               <category xml:id="viaf_61576896">
-                  <catDesc>Southey, Robert, 1774-1843</catDesc>
-               </category>
-               <category xml:id="viaf_118520952">
-                  <catDesc>Pratt, Lynda, 1964-</catDesc>
-               </category>
-               <category xml:id="viaf_116328125">
-                  <catDesc>Packer, Ian, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_18359329">
-                  <catDesc>Fulford, Tim, 1962-</catDesc>
-               </category>
-               <category xml:id="viaf_42171645">
-                  <catDesc>Bolton, Carol</catDesc>
-               </category>
-               <category xml:id="viaf_250654121">
-                  <catDesc>Buchanan, Averill</catDesc>
-               </category>
-               <category xml:id="viaf_41749340">
-                  <catDesc>Mandell, Laura, 1958-</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-               <bibl>Wikidata</bibl>
-               <category xml:id="Q216838">
-                  <catDesc>Robert Southey</catDesc>
-               </category>
-               <category xml:id="Q5977111">
-                  <catDesc>Romantic literature</catDesc>
-               </category>
-               <category xml:id="Q1277575">
-                  <catDesc>correspondence</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
-               <bibl>Southey Letters: Biographies</bibl>
-            </taxonomy>
-            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
-               <bibl>Southey Letters: Places</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <catRef target="#Q216838" scheme="Wikidata"/>
-            <catRef target="#Q5977111" scheme="Wikidata"/>
-            <catRef target="#Q1277575" scheme="Wikidata"/>
-            <catRef target="#viaf_61576896" scheme="VIAF"/>
-            <catRef target="#viaf_118520952" scheme="VIAF"/>
-            <catRef target="#viaf_18359329" scheme="VIAF"/>
-            <catRef target="#viaf_42171645" scheme="VIAF"/>
-            <catRef target="#viaf_250654121" scheme="VIAF"/>
-            <catRef target="#viaf_41749340" scheme="VIAF"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
-               <item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
-               <item>Added dates of original publication by Romantic Circles</item>
-            </list></change>
-         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Corrected XML files</item>
-            </list></change>
-         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
-               <item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_18359329" scheme="VIAF"/><catRef target="#viaf_42171645" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
                   2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item>
-            </list></change>
-         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
-               Rettenmaier</name><list>
-               <item>Update of TEI headers to conform to new template</item>
-            </list></change>
-         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after final proofing Southey Part 4</item>
-            </list></change>
-         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms after proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proofing Southey Part 4</item>
-            </list></change>
-         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
-               Mandell</name><list>
-               <item>Ran Transforms for proof copies of Southey Part 4</item>
-            </list></change>
-         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
-               Rettenmaier</name><list>
-               <item>Transforms for Southey Part 4</item>
-            </list></change>
-         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list>
-               <item>corrections from proofing</item>
-            </list></change>
-         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list>
-               <item>XSLT Transforming</item>
-            </list></change>
-         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
-               >Averill Buchanan</name><list>
-               <item>TEI Encoding</item>
-            </list></change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div n="894" type="letter">
-            <head>894. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John
-                  Rickman</ref>, <date when="1804-02-08">8 February 1804</date><note type="headnote"
-                  place="foot" resp="editors">Address: To/ John Rickman Esq<hi rend="sup"
-                  >r</hi><lb/>Endorsement: RS/ Feb<hi rend="sup">y</hi> 8: 1804<lb/>MS: Huntington
+               </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="894" type="letter"><head>894. Robert Southey to <ref type="a" target="people.html#RickmanJohn">John
+                  Rickman</ref>, <date when="1804-02-08">8 February 1804</date><note type="headnote" place="foot" resp="editors">Address: To/ John Rickman Esq<hi rend="sup">r</hi><lb/>Endorsement: RS/ Feb<hi rend="sup">y</hi> 8: 1804<lb/>MS: Huntington
                   Library, RS 51. ALS; 4p.<lb/>Previously published: Kenneth Curry (ed.), <title>New
                      Letters of Robert Southey</title>, 2 vols (London and New York, 1965), I, pp.
-                  350–352.</note></head>
-            <opener><address>
-                  <placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName>
-               </address><date when="1804-02-08">Wednesday. Feb<hi rend="sup">y</hi> 8.
-               1804.</date></opener>
-            <p rend="indent1"> Our friend the <ref type="m" target="people.html#BurneyJames"
-                  >Captain</ref> is in high luck. if we could but make <ref type="m"
-                  target="people.html#TaylorWilliam">Wm Taylor</ref> pilot him thro the
+                  350–352.</note></head><opener><address><placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1804-02-08">Wednesday. Feb<hi rend="sup">y</hi> 8.
+               1804.</date></opener><p rend="indent1"> Our friend the <ref type="m" target="people.html#BurneyJames">Captain</ref> is in high luck. if we could but make <ref type="m" target="people.html#TaylorWilliam">Wm Taylor</ref> pilot him thro the
                   Critical<note n="1" place="foot" resp="editors"> The <title>Critical
                      Review</title> published a review of James Burney’s <title>A Chronological
                      History of the Discoveries in the South Sea or Pacific Ocean ... Illustrated
@@ -228,9 +52,7 @@
                      Population, as it affects the future improvement of Society; with Remarks on
                      the Speculations of W. Godwin, M. Condorcet and Other Writers</title> (1803),
                   in the <title>Annual Review for 1803</title>, 2 (1804), 292–30.</note> – &amp; I
-               regret it much. I wanted <ref type="m" target="people.html#ColeridgeSamuelTaylor"
-                  >Coleridge</ref> to have written the whole reviewal, for it was more his <hi
-                  rend="ital">call</hi> than mine – but in vain. he delayed me week after week,
+               regret it much. I wanted <ref type="m" target="people.html#ColeridgeSamuelTaylor">Coleridge</ref> to have written the whole reviewal, for it was more his <hi rend="ital">call</hi> than mine – but in vain. he delayed me week after week,
                &amp; at last sent me only a few notes which I have inserted, &amp; which you may
                distinguish by a difference of texture. his language is more technically
                argumentative, &amp; his sentences are rounded, whereas mine are pointed – &amp;
@@ -253,29 +75,22 @@
                slaves &amp; regulate population by the knife of the sow-gelder. If he replies to any
                effect I will gibbet him in a pamphlet, &amp; draw &amp; quarter him, for I have
                something of the same sense of strength in me in reference to this dog that Milton
-               must have had when he made minced meat of Salmasius.<note n="4" place="foot"
-                  resp="editors"> John Milton (1608–1674; <title>DNB</title>) attacked Claudius
+               must have had when he made minced meat of Salmasius.<note n="4" place="foot" resp="editors"> John Milton (1608–1674; <title>DNB</title>) attacked Claudius
                   Salmasius [Claude Saumaise] (1588–1653) for his <title>Defensio Regia pro Carolo
                      I</title> (1649), a defence of the monarchy provoked by the execution of
                   Charles I (1600–1649; King of Great Britain, 1625–1649), in his <title>Pro Populo
-                     Anglicano Defensio</title> (1651).</note></p>
-            <p rend="indent1"> What you say of <ref type="m" target="people.html#TaylorWilliam">Wm
+                     Anglicano Defensio</title> (1651).</note></p><p rend="indent1"> What you say of <ref type="m" target="people.html#TaylorWilliam">Wm
                   Taylor</ref> gives me much pleasure. he is one of the three great men of my
                acquaintance, &amp; the more I know him &amp; the longer I know him, the more do I
                admire his knowledge &amp; love his moral character. To see him speculating by
-               authority upon the taxes &amp; <ref type="m" target="people.html#PooleThomas"
-                  >Poole</ref> upon the Poor laws would give me hopes for the well doing of the
-               country. but you purveying for <ref type="m"
-                  target="people.html#BedfordHoraceWalpole">the Doctor</ref> – makes me think the
-               old fable is reversed &amp; that the Lion waits upon the Jackal.<note n="5"
-                  place="foot" resp="editors"> In Aesop’s fable ‘The Lion’s Share’ the fox and
+               authority upon the taxes &amp; <ref type="m" target="people.html#PooleThomas">Poole</ref> upon the Poor laws would give me hopes for the well doing of the
+               country. but you purveying for <ref type="m" target="people.html#BedfordHoraceWalpole">the Doctor</ref> – makes me think the
+               old fable is reversed &amp; that the Lion waits upon the Jackal.<note n="5" place="foot" resp="editors"> In Aesop’s fable ‘The Lion’s Share’ the fox and
                   jackal are forced to wait while the lion apportions the game they have divided
-                  into portions at his request. The Lion then allots them all to himself.</note></p>
-            <p rend="indent1"> I have discovered (at least it is a discovery to me) a very
+                  into portions at his request. The Lion then allots them all to himself.</note></p><p rend="indent1"> I have discovered (at least it is a discovery to me) a very
                extraordinary fact in ecclesiastical history – nothing less than a design in the
                Mendicant Orders to ape the Mohammedans – to set Jesus Christ on the shelf &amp; set
-               up S<hi rend="sup">ts</hi> Francisco &amp; Domingo<note n="6" place="foot"
-                  resp="editors">Credited with establishing Catholic mendicant orders, Saint Francis
+               up S<hi rend="sup">ts</hi> Francisco &amp; Domingo<note n="6" place="foot" resp="editors">Credited with establishing Catholic mendicant orders, Saint Francis
                   of Assisi (Giovanni Francesco di Bernardone; 1181/2–1226) was the founder of the
                   Franciscan order, and Saint Dominic (Domingo Félix de Guzmán; 1170–1221) the
                   founder of the Dominican order.</note> in his stead. The facts on which this
@@ -285,8 +100,7 @@
                &amp; should like to show you) it is certain that he set himself up avowedly as the
                living parallel &amp; pattern of the Redeeming God. I have Franciscan authority that
                the Friars dropt the year of Christ at one time &amp; dated from the infliction of
-               the five wounds on their founder. Add to this the Evangelium Aternum<note n="7"
-                  place="foot" resp="editors"> The <title>Introductorium in Evangelium
+               the five wounds on their founder. Add to this the Evangelium Aternum<note n="7" place="foot" resp="editors"> The <title>Introductorium in Evangelium
                      Aeternum</title> (c. 1250) was written by Fra Gherardo of Borgo San Donnino
                   (dates unknown), a Franciscan follower of the mystic Joachim di Fiore. The
                   Franciscan Joachists wished to spiritualise their order: they argued that
@@ -296,19 +110,16 @@
                   ebbed from the Old and New Testaments. The existing priesthood and Bible would be
                   superseded and a kingdom of love would begin.</note> which they brought forward to
                supersede the Gospels, &amp; I think my assertion is made very probable. This Evang.
-               At. I must if possible hunt out. &amp; also the prophecies of the Abbot Joachim.<note
-                  n="8" place="foot" resp="editors"> Joachim di Fiore (1132–1202): Cistercian abbot,
+               At. I must if possible hunt out. &amp; also the prophecies of the Abbot Joachim.<note n="8" place="foot" resp="editors"> Joachim di Fiore (1132–1202): Cistercian abbot,
                   mystic and interpreter of Biblical prophecy who argued that the world was
                   approaching a third epoch (superseding the Old and New Testament epochs) – the
                   epoch of the Eternal Gospel, the Kingdom of the Holy Spirit, when all would live
                   in love, no longer needing law.</note> these have both been prohibited &amp; will
                therefore be difficultly attainable especially the former which was never printed,
-               but the MSS. in refutation of it exists in the Museum.<note n="9" place="foot"
-                  resp="editors"> The British Library holds a manuscript containing the ‘Protocol of
+               but the MSS. in refutation of it exists in the Museum.<note n="9" place="foot" resp="editors"> The British Library holds a manuscript containing the ‘Protocol of
                   the commission of three cardinals held at Anagni, 8 July, 1255, resulting in the
                   condemnation for heresy of the ‘Introductorius in Evangelium Aeternum’’ (shelfmark
-                  Royal 8 F XVI).</note> The Revelations of S<hi rend="sup">t</hi> Brigida<note
-                  n="10" place="foot" resp="editors"> Birgitta Birgersdotter (1303–1373): Swedish
+                  Royal 8 F XVI).</note> The Revelations of S<hi rend="sup">t</hi> Brigida<note n="10" place="foot" resp="editors"> Birgitta Birgersdotter (1303–1373): Swedish
                   saint whose visions of Jesus and a blonde Virgin Mary were influenced by the
                   Franciscans and published as <title>Revelationes Coelestes</title>.</note> (of
                Sweden not the Irish Saint who used to hang her clothes upon sunbeams to dry
@@ -322,55 +133,42 @@
                their scheme must have been to have established such a system of priest government as
                the Jesuits effected in Paraguay.<note n="13" place="foot" resp="editors"> Southey’s
                   interest in the Jesuit Reductions (the village colonies in which the Jesuits
-                  governed the Indians) culminated in <ref type="m"
-                     target="people.html#ColeridgeSaraSTCdaughter">Sara Coleridge</ref> translating
+                  governed the Indians) culminated in <ref type="m" target="people.html#ColeridgeSaraSTCdaughter">Sara Coleridge</ref> translating
                      <title>An Account of the Abipones, an Equestrian People of Paraguay. Translated
                      from the Latin of Martin Dobrizhoffer, Eighteen Years a Missionary in that
                      Country</title> (1821). Dobrizhoffer was a source for Southey’s poem <title>A
                      Tale of Paraguay</title> (1825).</note> the unlucky vow of chastity prevented
                them from creating themselves into a cast, or else we might perhaps have had our
-               Bramins in Europe. – </p>
-            <p rend="indent1"> The parcel arrived to day uninjured, tho others which have come by
+               Bramins in Europe. – </p><p rend="indent1"> The parcel arrived to day uninjured, tho others which have come by
                the same conveyance with six fold the circumference of brown paper have suffered
                sorely. It was fortunate that the reviewal was delayed, as I am now enabled to prove
                what I could else have only hinted cautiously that his Lordship has fathered his own
                verses upon Camoens.<note n="14" place="foot" resp="editors"> Southey reviewed Percy
                   Clinton Sydney, 6th Viscount Strangford (1780–1855; <title>DNB</title>),
                      <title>Poems from the Portuguese of Luis de Camoens</title> (1803) in the
-                     <title>Annual Review for 1803</title>, 2 (1804), 569–577.</note></p>
-            <p rend="indent1"> I am living in total seclusion, never seeing any person out of the
+                     <title>Annual Review for 1803</title>, 2 (1804), 569–577.</note></p><p rend="indent1"> I am living in total seclusion, never seeing any person out of the
                family except the old carpenter.<note n="15" place="foot" resp="editors"> James
                   Lawson (dates unknown).</note> this might not do for ever, but indeed at present
                it seems to have sharpened my wits, perhaps from the uninterrupted exercise which
                they take – for except at meal times, &amp; an after dinner nap I am always at my
                book or my pen, exercise of body being impossible in these incessant rains. The last
                week has been given to Madoc,<hi rend="ital"> &amp;</hi> I have made a good weeks
-               run. it is now settled that <ref type="m" target="people.html#LongmanThomas"
-                  >Longman</ref> is to print it (with prints for the love of an outlandish costume)
-               at his cost, &amp; I share the eventual profits.<note n="16" place="foot"
-                  resp="editors"> The poem <title>Madoc</title>, which Southey had written in
+               run. it is now settled that <ref type="m" target="people.html#LongmanThomas">Longman</ref> is to print it (with prints for the love of an outlandish costume)
+               at his cost, &amp; I share the eventual profits.<note n="16" place="foot" resp="editors"> The poem <title>Madoc</title>, which Southey had written in
                   1797–1799 and was revising for publication. It was published in 1805.</note> The
                poem will go to press early in the summer, &amp; then &lt;shall&gt; I have performed
-               my opus magnum, for such do I consider it, tho perhaps the History<note n="17"
-                  place="foot" resp="editors"> Southey’s ‘History of Portugal’, which was never
+               my opus magnum, for such do I consider it, tho perhaps the History<note n="17" place="foot" resp="editors"> Southey’s ‘History of Portugal’, which was never
                   completed.</note> will be in your eyes the opus majus. When both are done I shall
                have a right to be lazy all the rest of my life – if so inclined. but in all
                probability the first curse will be upon me<note n="18" place="foot" resp="editors">
                   ‘In the sweat of thy face shalt thou eat bread, till thou return unto the ground;
                   for out of it wast thou taken: for dust thou [art], and unto dust shalt thou
                   return’, Genesis 3: 19.</note> – if that can be called a curse which by the
-               necessity of labour produces the enjoyment of its fruits.</p>
-            <p rend="indent1"> Poor <ref type="m" target="people.html#SoutheyTom">Tom</ref> has wild
-               weather for his convoy! what are your speculations upon S Domingo?<note n="19"
-                  place="foot" resp="editors"> Having defeated French forces in November 1803, the
+               necessity of labour produces the enjoyment of its fruits.</p><p rend="indent1"> Poor <ref type="m" target="people.html#SoutheyTom">Tom</ref> has wild
+               weather for his convoy! what are your speculations upon S Domingo?<note n="19" place="foot" resp="editors"> Having defeated French forces in November 1803, the
                   black general and former slave Jean Jacques Dessalines (1758–1806) declared
                   independence for the French colony of Saint-Domingue on 1 January 1804, renaming
                   it Haiti.</note> As for me I rejoice heartily at what <hi rend="ital">is</hi>,
                &amp; have good hopes of what will be. planters throats go for nothing in my
-               calculation of humanity, especially if they be Creoles or Scotchmen. </p>
-            <closer><salute rend="indent1"> God bless you.</salute><signed rend="indent2">
-                  RS.</signed></closer>
-         </div>
-      </body>
-   </text>
-</TEI>
+               calculation of humanity, especially if they be Creoles or Scotchmen. </p><closer><salute rend="indent1"> God bless you.</salute><signed rend="indent2">
+                  RS.</signed></closer></div></body></text></TEI>

@@ -40,7 +40,7 @@
 	<person xml:id="BellJohnNewcastle">Bell, John</person>
 	<person xml:id="BensonChristopher">Benson, Christopher</person>
 	<person xml:id="BethamMatilda">Betham, Mary Matilda</person>
-	<person xml:id="BicknellJohnLaurens">Bicknell, John Laurens</person> <!-- I added an 's' to the id and have not yet reurun mentions/tos; it involves re-running part 7 only -->
+	<person xml:id="BicknellJohnLaurens">Bicknell, John Laurens</person>
 	<person xml:id="BiddlecombeCharles">Biddlecombe, Charles</person>
 	<person xml:id="BiggsNathaniel">Biggs, Nathaniel</person>
 	<person xml:id="BilderdijkWillem">Bilderdijk, Willem</person>
@@ -119,7 +119,7 @@
 	<person xml:id="CraufurdCharlesGeneral">Craufurd, Charles Gregan</person>
 	<person xml:id="CroftHerbert">Croft, Herbert</person>
 	<person xml:id="CrokerJohnWilson">Croker, John Wilson</person>
-	<person xml:id="CrothersMrs">Crothers, </person>
+	<person xml:id="CrothersMrs">Crothers, Mrs</person>
 	<person xml:id="CunninghamAllan">Cunningham, Allan</person>
 	<person xml:id="DallasAlexRC">Dallas, Alexander Robert Charles</person>
 	<person xml:id="DalrympleHew">Dalrymple, Hew Whitefoord</person>
@@ -142,7 +142,7 @@
 	<person xml:id="DoyleCharlesWilliam">Doyle, Sir Charles William</person>
 	<person xml:id="DoyleyThomas">D’Oyley, Thomas</person>
 	<person xml:id="DoylyGeorge">D’Oyly, George</person>
-	<person xml:id="LovellMissMrsDruitt">Druitt, </person>
+	<person xml:id="LovellMissMrsDruitt">Druitt, Mrs</person>
 	<person xml:id="DuppaRichard">Duppa, Richard</person>
 	<person xml:id="DusautoyJames">Dusautoy, James</person>
 	<person xml:id="DyerGeorge">Dyer, George</person>
@@ -156,7 +156,7 @@
 	<person xml:id="ErskineHenry">Erskine, Henry</person>
 	<person xml:id="EstlinJohnPrior">Estlin, John Prior</person>
 	<person xml:id="EstlinMrs">Estlin, Susanna Bishop</person>
-	<person xml:id="EvansGreeton">Evans, </person>
+	<person xml:id="EvansGreeton">Evans, Greeton</person>
 	<person xml:id="EverettEdward">Everett, Edward</person>
 	<person xml:id="EverettJames">Everett, James</person>
 	<person xml:id="FavellRobert">Favell, Samuel</person>
@@ -225,15 +225,16 @@
 	<person xml:id="HillGeorgiana">Hill, Georgiana</person>
 	<person xml:id="HillHerbertUncle">Hill, Herbert</person>
 	<person xml:id="HillHerbertJnr">Hill, Herbert</person>
-	<person xml:id="HillMargaret">Hill, Margaret (known as ‘Peggy’ and</person>
+	<person xml:id="HillMargaret">Hill, Margaret (known as ‘Peggy’ and, occasionally,
+		‘Margery’)</person>
 	<person xml:id="HillRobertSouthey">Hill, Robert Southey</person>
 	<person xml:id="HillThomas">Hill, Thomas</person>
 	<person xml:id="HodsonMargaret">Hodson, Margaret Holford</person>
 	<person xml:id="HodsonSeptimus">Hodson, Septimus</person>
 	<person xml:id="HoggEdward">Hogg, Edward</person>
 	<person xml:id="HoggJamesEttrick">Hogg, James</person>
-	<person xml:id="HollandLord">Holland, </person>
-	<person xml:id="HollandLady">Holland, </person>
+	<person xml:id="HollandLord">Holland, Lord</person>
+	<person xml:id="HollandLady">Holland, Lady</person>
 	<person xml:id="HolroydJohnBaker">Holroyd, John Baker</person>
 	<person xml:id="HolworthySamuel">Holworthy, Samuel</person>
 	<person xml:id="HoneWilliam">Hone, William</person>
@@ -249,8 +250,7 @@
 	<person xml:id="HuntLeigh">Hunt, James Henry Leigh</person>
 	<person xml:id="HusseyArthur">Hussey, Arthur</person>
 	<person xml:id="HutchinsonSara">Hutchinson, Sara</person>
-	<!-- <person xml:id="HutchinsonJoanna">Hutchinson, Joanna</person> not in people list, id'd in note so I removed the tag 7.3833 -->
-	<person xml:id="InglisHarry">Inglis, Robert Harry</person> <!-- in Part 7, the id 'InglisSirRobert' was used; changed to 'InglisHarr' to match people id and part 5 tags -->
+	<person xml:id="InglisHarry">Inglis, Robert Harry</person>
 	<person xml:id="JacksonThomas">Jackson, Thomas</person>
 	<person xml:id="JacksonWilliam">Jackson, William</person>
 	<person xml:id="JamesHarry">James, Harry</person>
@@ -355,7 +355,7 @@
 	<person xml:id="OpieAmelia">Opie, Amelia</person>
 	<person xml:id="PalfreyJohnGorham">Palfrey, John Gorham</person>
 	<person xml:id="PalgraveFrancis">Palgrave, Francis</person>
-	<person xml:id="PalmerMiss">Palmer, </person>
+	<person xml:id="PalmerMiss">Palmer, Miss</person>
 	<person xml:id="ParryCalebHillier">Parry, Caleb Hillier</person>
 	<person xml:id="ParsonsJohn">Parsons, John</person>
 	<person xml:id="ParsonsWilliam">Parsons, William</person>
@@ -418,11 +418,6 @@
 	<person xml:id="ShieldWilliam">Shield, William</person>
 	<person xml:id="SimpsonSamuel">Simpson, Samuel</person>
 	<person xml:id="ShelleyHarriet">Shelley, Harriet Westbrook</person>
-	<!-- Mary Shelley appeared in 7.3925 with a tag 'ShelleyMary' around her name in 
-		the letter text which says "Godwins [sic] dauhter", but
-		not in the note which offers info about her; she is not in people, so I removed the tag. 
-		This means that she will NOT appear in "people mentioned."
-	-->
 	<person xml:id="ShelleyPercyBysshe">Shelley, Percy Bysshe</person>
 	<person xml:id="SmithElizabeth">Smith, Elizabeth</person>
 	<person xml:id="SmithGrace">Smith, Grace Weatherall</person>
@@ -475,7 +470,7 @@
 	<person xml:id="TaylorWilliam">Taylor, William</person>
 	<person xml:id="TelfordThomas">Telford, Thomas</person>
 	<person xml:id="ThelwallJohn">Thelwall, John</person>
-	<person xml:id="ThomasDr">Thomas, </person>
+	<person xml:id="ThomasDr">Thomas, Dr</person>
 	<person xml:id="ThomasWilliamBowyer">Thomas, William Bowyer</person>
 	<person xml:id="ThompsonThomas">Thompson, Thomas</person>
 	<person xml:id="ThorpMr">Thorp, William</person>

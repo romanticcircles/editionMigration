@@ -602,6 +602,18 @@
 					<xsl:apply-templates/>
 				</a>
 			</xsl:when>
+			<xsl:when test="contains($urlLocal, 'corresp')">
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="concat('../paratext/', @target)"/>
+					</xsl:attribute>
+					<xsl:attribute name="id">
+						<xsl:value-of select="concat('ref', $letNBR, '.', $refNo)"/>
+						<!--This is for staticSearch -->
+					</xsl:attribute>
+					<xsl:apply-templates/>
+				</a>
+			</xsl:when>
 			<xsl:otherwise>
 				<a>
 					<xsl:attribute name="href">
@@ -858,10 +870,7 @@
 		<xsl:choose>
 			<xsl:when test="@type = 'headnote'">
 				<a href="#headnote" id="Bheadnote">
-					<sup>
 						<xsl:text>*</xsl:text>
-					</sup>
-					<xsl:text> </xsl:text>
 				</a>
 			</xsl:when>
 			<xsl:otherwise>

@@ -3,6 +3,12 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs tei" version="3.0">
     
+    <!-- this xslt is run on runLists for each section, with intro and letter list commented out (letters only).
+        If it generates and empty <to> tags, either something is wrong with the coding of that letter's addressee
+        (i.e., the name isn't in people_names.xml) and troubleshooting begins, or it is an unknown addressee.
+        In the case of an unknown addressee, manually add to the output addressees.xml id="unknown" and the name 
+        [Unknown Correspondent] (copy from here) -->
+    
     <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="no" indent="yes"/>
     <xsl:strip-space elements="*"/>
     
@@ -52,12 +58,11 @@
                </xsl:otherwise>
            </xsl:choose>
        </xsl:variable>
-       <xsl:variable name="correspIDs"
-           select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
+       <xsl:variable name="correspIDs" select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
        <to>
        <xsl:for-each select="$correspIDs">
            <xsl:variable name="currentID" select="current()"/>
-               <name id="{$currentID}"><xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/></name>
+           <name id="{$currentID}"><xsl:value-of select="key('personLookup', $currentID, $peopleNamesDoc)"/></name>
                <letter id="{$docID}"><xsl:value-of select="concat('Letter ', substring-after($docID, 'southey.'), ', ', normalize-space($letDateLabel))"/>                 
                </letter>
        </xsl:for-each>

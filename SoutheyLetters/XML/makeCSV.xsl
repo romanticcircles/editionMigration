@@ -7,6 +7,8 @@
     <xsl:output method="text" encoding="UTF-8" byte-order-mark="yes" omit-xml-declaration="yes" indent="no"/>
     <xsl:strip-space elements="*"/>
     
+    <!-- run this xslt on INall.xml -->
+    
     <xsl:template match="mentions">
         <xsl:result-document href="../HTML/personsCSV/all.csv">
             <xsl:text>People Mentioned in the Collected Letters of Robert Southey&#13;</xsl:text>

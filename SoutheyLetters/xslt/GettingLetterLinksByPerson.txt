@@ -19,15 +19,13 @@ for people mentioned (lettersIn.xml):
 3. 	mentMerged.xml + fixDupMentions.xsl = lettersIn.xml -- INmerge (merging duplicates and generating the number of mentions)
 
 
-unknown correspondent: added id = "unknown" for [Unknown Correspondent] manually to 6.3486.1 -- ask Lynda if any more with unknown addressees.
+for [Unknown Correspondents], which should be tagged in the letters themselves with <ref type="a" target="corresp.html#unknown">
+getAddresses leaves the <to> blank because it looks for a stubstring after people.html, so you have to manually add
+id="unknown" and [Unknown Correspondent] into the empty <to>.
 
-   <mentioned>
-      <name id="HutchinsonJoanna"/>
-      <letter id="southey.7.3833">Letter 7.3833, 7 May 1822</letter>
-      <letter id="southey.7.3907">Letter 7.3907, 14 October 1822 (2 mentions)</letter>
-      <letter id="southey.7.3925">Letter 7.3925, 26 November 1822</letter>
-      <letter id="southey.7.4094">Letter 7.4094, 26 November 1823</letter>
-      <letter id="southey.7.4097">Letter 7.4097, 30 November 1823</letter>
-      <letter id="southey.7.4103">Letter 7.4103, 22 December 1823</letter>
-      <letter id="southey.7.4183">Letter 7.4183, 6 May 1824</letter>
-   </mentioned>
+Next:
+
+1. open combineListsTO and run combineListsTO scenario which uses combineListsTO.xsl and saves as TOall.xml
+2. open combineListsIN and run combineListsIN scenario which uses combineListsIN.xsl and saves as INall.xml
+3. open INall.xml and run makeList scenario which use toWebMentioned.xsl and saves as paratext/mentioned.html
+

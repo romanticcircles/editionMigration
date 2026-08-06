@@ -56,7 +56,14 @@
                             <xsl:text>, </xsl:text>
                         </xsl:otherwise>
                     </xsl:choose>
-                    <xsl:value-of select="tei:forename"/>
+                    <xsl:choose>
+                        <xsl:when test="tei:forename">
+                            <xsl:value-of select="tei:forename"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:roleName"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:otherwise>
             </xsl:choose>
         </person>
