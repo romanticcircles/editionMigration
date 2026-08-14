@@ -7,10 +7,10 @@
     <xsl:output method="text" encoding="UTF-8" byte-order-mark="yes" omit-xml-declaration="yes" indent="no"/>
     <xsl:strip-space elements="*"/>
     
-    <!-- run this xslt on INall.xml -->
+    <!-- run this xslt on INall.xml to generate the allMen.csv file of mentions (currently, no such aggregate for corresps) -->
     
     <xsl:template match="mentions">
-        <xsl:result-document href="../HTML/personsCSV/all.csv">
+        <xsl:result-document href="../HTML/personsCSV/allMen.csv">
             <xsl:text>People Mentioned in the Collected Letters of Robert Southey&#13;</xsl:text>
         <xsl:for-each select="person">
             <xsl:value-of select="concat('&quot;', name, '&quot;')"/>

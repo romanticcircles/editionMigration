@@ -58,7 +58,16 @@
                </xsl:otherwise>
            </xsl:choose>
        </xsl:variable>
-       <xsl:variable name="correspIDs" select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
+       <xsl:variable name="correspIDs"><!-- I don't know whether this choose works yet; I know it works on people.html without the choose -->
+           <xsl:choose>
+               <xsl:when test="contains(//tei:ref[@type = 'a'], 'people.html')">
+                   <xsl:value-of select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
+               </xsl:when>
+               <xsl:when test="contains(//tei:ref[@type = 'a'], 'corresp.html')">
+                   <xsl:value-of select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'corresp.html#'))"/>
+               </xsl:when>
+           </xsl:choose>
+       </xsl:variable>
        <to>
        <xsl:for-each select="$correspIDs">
            <xsl:variable name="currentID" select="current()"/>

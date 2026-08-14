@@ -44,7 +44,7 @@
       <nav id="top">
          <p class="navTitle"><a href="../../index.html">The Collected Letters of Robert
                						Southey</a><br />Gen. Ed. Lynda Pratt</p>
-         <p class="homePlink"><a href="../../index.html"><img src="../../images/GretaHall3.png" alt="Greta Hall home button" class="homeButton" /></a></p>
+         <p class="homePlink"><a href="index.html"><img src="../../images/GretaHall3.png" alt="Greta Hall home button" class="homeButton" /></a></p>
          <ul class="nav">
             <li class="nav"><span class="drop">Parts</span><ul class="dropdown">
                   <li><a href="../../index.html">All</a></li>
@@ -82,8 +82,15 @@
          </ul>
       </nav>
       <main>
-         <div class="paratext"><a href="../../XML/paratext/about.xml"><img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo" /></a><h1>About this Edition</h1>
-            <p><span class="bold">Editorial Methodology</span></p>
+         <div class="paratext" id="about"><a href="../../XML/paratext/about.xml"><img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo" /></a><h1>About this Edition</h1>
+            <ul>
+               <li><a href="#editMeth" id="ref.1">Editorial Methodology</a></li>
+               <li><a href="#ppl" id="ref.2">People</a></li>
+               <li><a href="#ack" id="ref.3">Acknowledgements</a></li>
+               <li><a href="#techInfo" id="ref.4">Technical Introduction</a></li>
+               <li><a href="#citInfo" id="ref.5">Citation Information</a></li>
+            </ul>
+            <p id="editMeth"><span class="bold">Editorial Methodology</span></p>
             <p><span class="title">The Collected Letters of Robert Southey</span> is divided into
                eight Parts: I: 1791-1797, II:1798-1803, III:1804-09, IV:1810-15, V:1816-21,
                VI:1822-27, VII:1828-33, VIII:1833-39. </p>
@@ -108,34 +115,31 @@
             <p>We have followed the editors of the letters of Mark Twain and adopted a ‘plain text’
                methodology in order to produce a text that is more quickly intelligible to the
                reader but that also represents, as closely as our digitised transcriptions can, the
-               original holograph letters.<a href="#1" id="back0"><sup>1</sup></a>  Our aim is to allow the reader to get as close as
-               possible to what Southey wrote and thus to provide an insight into the creative
-               processes that underpinned his letter writing. This is particularly important now,
-               when the older idea of Southey as someone who wrote with ease and never blotted a
-               line or deleted a word is being challenged by new textual and critical scholarship.
-               All letters are transcribed in full and editorial intervention in the text has been
-               kept to a minimum. Southey’s original spelling, and mis-spelling, grammar,
-               punctuation and any slips of his pen have been retained. Deletions are indicated by
-               striking through the cancelled word or phrase, but without any attempt to indicate
-               the heaviness of the deletion: e.g. ‘<span class="del">he said</span>’. In those cases where
-               Southey changed his mind and wrote over his original thought, we have put his final
-               version in the text of the letter and indicated the original words or characters in
-               an endnote. Throughout the text, ‘x’ is used to indicate an illegible character: e.g.
-               ‘he xxid’. Underlining is indicated by italics: e.g. ‘<span class="ital">he</span> said’.
-               The exception to this rule is where Southey used underlining not for emphasis but
-               to
-               indicate an abbreviation written in superscript: eg. ‘D<span class="sup">r</span>’ rather
-               than ‘Doctor’ or ‘Dr’. This was something Southey did occasionally and irregularly,
-               particularly on address leaves. It is not possible to code a character or set of
-               characters in both underline or italic and superscript, so in these cases we have
-               silently regularised his practice and presented all his superscript abbreviations,
-               both underlined or not, in superscript: e.g. ‘M<span class="sup">rs</span> Smith said’.
-               Editorial [...] within the text of an individual letter are used to indicate issues
-               relating to the manuscript: a tear, cut, missing section or area obscured by a seal
-               mark or blot, or a substantial section of a letter in the hand of a co-correspondent.
-               See, for example, Letter 56, co-written with Grosvenor Charles Bedford. Editorial
-               {...} are used to indicate an authorial insertion of text above or below the line.
-               </p>
+               original holograph letters.<a href="#1" id="back1"><sup>1</sup></a>  Our aim is to allow the reader
+               to get as close as possible to what Southey wrote and thus to provide an insight into
+               the creative processes that underpinned his letter writing. This is particularly
+               important now, when the older idea of Southey as someone who wrote with ease and
+               never blotted a line or deleted a word is being challenged by new textual and
+               critical scholarship. All letters are transcribed in full and editorial intervention
+               in the text has been kept to a minimum. Southey’s original spelling, and
+               mis-spelling, grammar, punctuation and any slips of his pen have been retained.
+               Deletions are indicated by striking through the cancelled word or phrase, but without
+               any attempt to indicate the heaviness of the deletion: e.g. ‘<span class="del">he said</span>’. In
+               those cases where Southey changed his mind and wrote over his original thought, we
+               have put his final version in the text of the letter and indicated the original words
+               or characters in an endnote. Throughout the text, ‘x’ is used to indicate an
+               illegible character: e.g. ‘he xxid’. Underlining is indicated by italics: e.g. ‘<span class="ital">he</span> said’. The exception to this rule is where Southey used
+               underlining not for emphasis but to indicate an abbreviation written in superscript:
+               eg. ‘D<span class="sup">r</span>’ rather than ‘Doctor’ or ‘Dr’. This was something Southey
+               did occasionally and irregularly, particularly on address leaves. It is not possible
+               to code a character or set of characters in both underline or italic and superscript,
+               so in these cases we have silently regularised his practice and presented all his
+               superscript abbreviations, both underlined or not, in superscript: e.g. ‘M<span class="sup">rs</span> Smith said’. Editorial [...] within the text of an individual
+               letter are used to indicate issues relating to the manuscript: a tear, cut, missing
+               section or area obscured by a seal mark or blot, or a substantial section of a letter
+               in the hand of a co-correspondent. See, for example, Letter 56, co-written with
+               Grosvenor Charles Bedford. Editorial {...} are used to indicate an authorial
+               insertion of text above or below the line. </p>
             <p>We have retained Southey’s paragraphing but have not otherwise replicated the lineage
                of prose, the pagination, the hand, or any other physical features of his letters
                that it is clear Southey did not invest with any meaning. Throughout the edition,
@@ -152,16 +156,16 @@
             <p>Each letter has an editorial headnote. This records the location of the manuscript,
                if it has survived, and describes its physical characteristics, using the following
                abbreviations:</p>
-            <p>ALS: autograph letter signed</p>
-            <p>AL: autograph letter, without signature</p>
-            <p>(A)LS: more than 50% of the manuscript in a hand other than Southey’s</p>
-            <p>TR = survives as a transcript in another hand</p>
-            <p>TS = survives as a typescript</p>
-            <p>p. = numbers of pages of the letter containing script, including the address leaf,
-               when this has survived</p>
-            <p>(c) = letter transcribed and checked from a digital scan, photograph or photocopy
-               of
-               the manuscript</p>
+            <p><span class="bold">ALS</span>: autograph letter signed</p>
+            <p><span class="bold">AL</span>: autograph letter, without signature</p>
+            <p><span class="bold">(A)LS</span>: more than 50% of the manuscript in a hand other than
+               Southey’s</p>
+            <p><span class="bold">TR</span> = survives as a transcript in another hand</p>
+            <p><span class="bold">TS</span> = survives as a typescript</p>
+            <p><span class="bold">p.</span> = numbers of pages of the letter containing script, including
+               the address leaf, when this has survived</p>
+            <p><span class="bold">(c)</span> = letter transcribed and checked from a digital scan,
+               photograph or photocopy of the manuscript</p>
             <p>The headnote also notes any previous instances of publication and deals with other
                relevant issues, such as endorsements, watermarks, postmarks, franks, stamps and
                dating. This edition provides important new information about when many of Southey’s
@@ -205,7 +209,7 @@
                available. After publication, any corrections or comments should be directed to Lynda
                Pratt from whom a copy of the current version of the correction file is also
                available on request.</p>
-            <p><span class="bold">People</span></p>
+            <p id="ppl"><span class="bold">People</span></p>
             <p>Lynda Pratt is Professor of Modern Literature and Director of the Centre for Regional
                Literature and Culture at the University of Nottingham. She has published widely on
                Southey and his circle. She was general editor of <span class="title">Robert Southey:
@@ -253,8 +257,8 @@
                also include James Montgomery.</p>
             <p><span class="bold">Contact</span></p>
             <p>The editors welcome comments and corrections. Please contact:</p>
-            <p>Lynda Pratt: <a href="mailto:lynda.pratt@nottingham.ac.uk" id="ref.2">Lynda.Pratt@nottingham.ac.uk</a></p>
-            <p><span class="bold">Acknowledgements</span></p>
+            <p>Lynda Pratt: <a href="mailto:lynda.pratt@nottingham.ac.uk" id="ref.8">Lynda.Pratt@nottingham.ac.uk</a></p>
+            <p id="ack"><span class="bold">Acknowledgements</span></p>
             <p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
@@ -369,22 +373,27 @@
                Centre, University of Nottingham; the Humanities and Social Sciences Strategic
                Research Fund, University of Nottingham; the English Department, Nottingham Trent
                University; the University of Lincoln; and Loughborough University.</p>
-            <p><span class="bold">Design and Markup and Conditions of Use</span></p>
-            <p>This edition was TEI-encoded by Averill Buchanan. Laura Mandell and Dave Rettemaier
-               developed the modified versions of the transforms provided by the TEI that were used
-               to convert the TEI files into HTML. TEI renders text archival quality for better
-               preservation and future access.</p>
-            <p><span class="title">The Collected Letters of Robert Southey</span> by Lynda Pratt, Tim
-               Fulford, Carol Bolton, Romantic Circles and the University of Colorado is licensed
-               under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" id="ref.3">CC BY-NC-ND 4.0</a>.</p>
+            <p id="techInfo"><span class="bold">Technical Information</span></p>
+            <p>The product of many years of work by both the editors and the technical experts at
+               Romantic Circles including Dave Rettenmaier and Jessica Tebo, this edition was
+               encoded by Averill Buchanan using the XML tagset developed by the <a href="https://tei-c.org/" id="ref.9">Text Encoding Initiative Consortium</a> to ensure
+               archival preservation. <a href="https://lauracmandell.org" id="ref.10">Laura Mandell</a>
+               created the digital edition website, writing programs to transform the TEI files into
+               HTML (including
+               css and JavaScript), csv files for downloading information about <a href="../paratext/corresp.html" id="ref.11">correspondents</a>, <a href="mentioned.html" id="ref.12">people
+                  mentioned</a>, and network analysis (forthcoming). Dr. Mandell also generated the Search Engine.s</p>
+            <p id="citInfo"><span class="bold">Citation Information</span></p>
+            <p><span class="title">The Collected Letters of Robert Southey</span>, Gen. Ed. Lynda
+               Pratt (College Station, TX: Romantic Circles, 2026).</p>
          </div>
          <div class="notes">
             <h1>Notes</h1>
-            <p class="note" id="0">0.  For a full
-               explication of ‘plain text’ see ‘Guide to Editorial Practice, (MTDP 00005).’ In
-               Mark Twain Project Online. Berkeley, Los Angeles, London: University of California
-               Press. 2007. <a href="http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;style=letterletter;brand=mtp" id="ref.1">&lt;http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;style=letterletter;brand=mtp&gt;</a>,
-               accessed 2014-12-19. <a href="#back0">Back</a></p>
+            <p class="note" id="1">1.  For a full
+               explication of ‘plain text,’ see ‘Guide to Editorial Practice, (MTDP 00005),’ Mark
+               Twain Project Online (Berkeley, Los Angeles, London: University of California
+               Press, 2007), accessed 2014-12-19 (on <a href="https://legacy.mtpo2.org/" id="ref.6">the
+                  legacy site</a> or more recently, here: <a href="https://www.marktwainproject.org/editing.html" id="ref.7">Textual Editing at the
+                  Mark Twain Project</a>, "Plain Text." <a href="#back1">Back</a></p>
          </div>
       </main>
       <p class="noteSpace"> </p>

@@ -184,17 +184,17 @@
                 <main>
                     <div class="listTitle">
                         <figure class="downloadCSV">
-                            <a href="../personCSV/all.csv">
+                            <a href="../personsCSV/allMen.csv">
                                 <img src="../../images/CSVIconBlack.png" alt="icon for CSV download" class="csvIconB"/>
                             </a>
                             <figcaption><em>Click the icon above to</em><br/>
-                                <em>download the full list</em><br/>
-                            <em>or select a person's list</em><br/>
-                            <em>via the blue icons below</em></figcaption>
+                                <em>download a list of names;</em><br/>
+                            <em>Click the blue icons below</em><br/>
+                            <em>for the person's letters.</em></figcaption>
                         </figure>
                         <h1>People Mentioned in</h1>
                         <h2>The Collected Letters of Robert Southey</h2>
-                        <h3>(with letters addressed to them)</h3>
+                        <h3>(with letters addressed to them; see also the list of <a href="corresp.html">Correspondents</a>)</h3>
                     </div>
                     <xsl:for-each select="person">
                         <div class="entry">

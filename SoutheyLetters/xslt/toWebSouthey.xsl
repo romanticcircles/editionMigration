@@ -415,6 +415,16 @@
 		</xsl:variable>
 		<div>
 			<xsl:attribute name="class" select="@type"/>
+			<xsl:attribute name="id">
+				<xsl:choose>
+					<xsl:when test="@xml:id">
+						<xsl:value-of select="@xml:id"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="$docID"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
 			<xsl:if test="not(parent::tei:div)">
 				<a href="../../XML/{$ptPath}/{$docID}.xml">
 					<img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo"/>
@@ -865,7 +875,14 @@
 			<xsl:number select="." level="any"/>
 		</xsl:variable>
 		<xsl:variable name="noteNumber">
-			<xsl:value-of select="number($rawNoteNbr) - 1"/>
+			<xsl:choose>
+				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div[@type='letter']">
+					<xsl:value-of select="number($rawNoteNbr) - 1"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$rawNoteNbr"/>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="@type = 'headnote'">
@@ -894,7 +911,14 @@
 			<xsl:number select="." level="any"/>
 		</xsl:variable>
 		<xsl:variable name="noteNumber">
-			<xsl:value-of select="number($rawNoteNbr) - 1"/>
+			<xsl:choose>
+				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div[@type='letter']">
+					<xsl:value-of select="number($rawNoteNbr) - 1"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$rawNoteNbr"/>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="@type = 'headnote'">

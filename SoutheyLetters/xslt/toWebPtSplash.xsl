@@ -345,8 +345,11 @@
     </xsl:template>
 
     <xsl:template match="tei:item">
+        <xsl:variable name="ptNBR">
+            <xsl:value-of select="ancestor-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/@n"/>
+        </xsl:variable>
         <li>
-            <xsl:attribute name="id" select="@n"/>
+            <xsl:attribute name="id" select="concat($ptNBR, '.', @n)"/>
             <xsl:apply-templates/>
         </li>
     </xsl:template>
@@ -358,6 +361,7 @@
         </xsl:attribute>
         <xsl:apply-templates/>
     </a>
+    <xsl:text> </xsl:text>
 </xsl:template>
 
 </xsl:stylesheet>

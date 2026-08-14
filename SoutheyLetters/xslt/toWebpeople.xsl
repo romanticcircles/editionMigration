@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="3.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:my="http://example.com/functions"
+    exclude-result-prefixes="xs tei my" version="3.0">
 
     <!--  =======================================================
 		revision history
@@ -20,6 +21,29 @@
 
     <xsl:output method="xhtml"  encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
+    
+    <!-- Helper function to extract the sort string for a given person -->
+    <xsl:function name="my:get-sort-name" as="xs:string">
+        <xsl:param name="person" as="element(tei:person)"/>
+        <xsl:variable name="pName" select="$person/tei:persName"/>
+        <xsl:choose>
+            <xsl:when test="$pName/tei:surname[@type = 'married']">
+                <xsl:value-of select="$pName/tei:surname[@type = 'married']"/>
+            </xsl:when>
+            <xsl:when test="$pName/tei:surname[@type = 'grp']">
+                <xsl:value-of select="$pName/tei:surname[@type = 'grp']"/>
+            </xsl:when>
+            <xsl:when test="$pName/tei:surname[@type = 'dynasty']">
+                <xsl:value-of select="$pName/tei:forename"/>
+            </xsl:when>
+            <xsl:when test="$pName/tei:surname[not(@type)]">
+                <xsl:value-of select="$pName/tei:surname[not(@type)]"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$pName/tei:surname[1]"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     
     <xsl:variable name="lastName">
         <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div/tei:listPerson/tei:person/tei:persName/tei:surname">
@@ -307,22 +331,27 @@
             <xsl:apply-templates select="tei:listPerson"/>
         </div>
     </xsl:template>
-
+    
     <xsl:template match="tei:listPerson">
-        <xsl:for-each-group select="tei:person" group-by="substring(tei:persName/@xml:id, 1, 1)">
+        <xsl:for-each-group select="tei:person" 
+            group-by="upper-case(substring(my:get-sort-name(.), 1, 1))">
+            
             <xsl:sort select="current-grouping-key()" order="ascending"/>
-            <xsl:if test="current-grouping-key() != 'A'">
-                <p><em><a href="#top">Back to top</a></em></p>
-            </xsl:if>
-            <h2>
-                <xsl:attribute name="id" select="lower-case(current-grouping-key())"></xsl:attribute>
-                <xsl:value-of select="current-grouping-key()"/>
+            
+            <h2 id="{lower-case(current-grouping-key())}">
+                <xsl:value-of select="upper-case(current-grouping-key())"/>
             </h2>
-        <dl>
-            <xsl:apply-templates select="current-group()"/>
-        </dl>
+            
+            <dl>
+                <!-- Sort people within the group alphabetically by full sort name -->
+                <xsl:apply-templates select="current-group()">
+                    <xsl:sort select="my:get-sort-name(.)" order="ascending"/>
+                </xsl:apply-templates>
+            </dl>
+            
+            <p><em><a href="#top">Back to top</a></em></p>
+            
         </xsl:for-each-group>
-        <p><em><a href="#top">Back to top</a></em></p>
     </xsl:template>
 
     <xsl:template match="tei:person">
@@ -339,19 +368,33 @@
                 <xsl:value-of select="tei:surname[@type='married']"/>
                 <xsl:text> (née </xsl:text>
                 <xsl:value-of select="tei:surname[@type='birth']"/>
-                <xsl:text>) </xsl:text>
+                <xsl:text>)</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="tei:roleName or tei:forename">
+                        <xsl:text>, </xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text> </xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="tei:surname[@type='dynasty']"/>
             <xsl:otherwise>
                 <xsl:value-of select="tei:surname"/>
+                <xsl:if test="tei:forename or tei:roleName">
                 <xsl:text>, </xsl:text>
+                </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="tei:forename">
-            <xsl:apply-templates select="tei:forename"/>
-        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="tei:forename">
+                <xsl:apply-templates select="tei:forename"/>
+                <xsl:if test="tei:roleName">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
         <xsl:if test="tei:roleName">
-            <xsl:text>, </xsl:text>
             <xsl:apply-templates select="tei:roleName"/>
         </xsl:if>
         <xsl:if test="tei:addName">
@@ -359,11 +402,11 @@
             <xsl:apply-templates select="tei:addName"/>
             <xsl:text>]</xsl:text>
         </xsl:if>
-        <xsl:if test="parent::tei:person/tei:birth or parent::tei:person/tei:death">
+        <xsl:if test="parent::tei:person/tei:birth or parent::tei:person/tei:death or parent::tei:person/tei:floruit">
         <xsl:text> (</xsl:text>
         <xsl:choose>
             <xsl:when test="parent::tei:person/tei:floruit">
-                <xsl:apply-templates/>
+                <xsl:value-of select="parent::tei:person/tei:floruit"/>
             </xsl:when>
             <xsl:when test="parent::tei:person/tei:death">
                 <xsl:value-of
@@ -375,7 +418,12 @@
         </xsl:choose>
                 <xsl:if test="parent::tei:person/tei:birth and parent::tei:person/tei:death">&#8211;</xsl:if>
             <xsl:value-of select="parent::tei:person/tei:death"/>
-        <xsl:text>)&#x0A;</xsl:text>
+            <xsl:text>)&#x0A;</xsl:text>
+        </xsl:if>
+        <xsl:if test="parent::tei:person/tei:note[@type='idInfo']">
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="parent::tei:person/tei:note[@type='idInfo']"/>
+            <xsl:text>&#x0A;</xsl:text>
         </xsl:if>
     </dt>
 </xsl:template>
@@ -388,14 +436,19 @@
     </xsl:template>
     
     <xsl:template match="tei:note">
-            <dd>
-                <p><xsl:apply-templates/>
-                <xsl:if test="parent::tei:person/tei:bibl">
-                    <xsl:text>&#160;&#160;See also </xsl:text>
-                    <xsl:apply-templates select="parent::tei:person/tei:bibl"></xsl:apply-templates>
-                </xsl:if>
-                </p>
-            </dd>
+        <xsl:choose>
+            <xsl:when test="@type='idInfo'"/>
+            <xsl:when test="@type='bio'">
+                <dd>
+                    <p><xsl:apply-templates/>
+                        <xsl:if test="parent::tei:person/tei:bibl">
+                            <xsl:text> See also </xsl:text>
+                            <xsl:apply-templates select="parent::tei:person/tei:bibl"></xsl:apply-templates>
+                        </xsl:if>
+                    </p>
+                </dd>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="tei:ref">

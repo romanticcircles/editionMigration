@@ -1,9 +1,36 @@
 Getting LetterLinks by Person
 
+NOT YET TRIED: I changed getAddresses from
+
+<xsl:variable name="correspIDs" select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
+
+to
+
+<xsl:variable name="correspIDs"><!-- I don't know whether this choose works yet; I know it works on people.html without the choose -->
+           <xsl:choose>
+               <xsl:when test="contains(//tei:ref[@type = 'a'], 'people.html')">
+                   <xsl:value-of select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'people.html#'))"/>
+               </xsl:when>
+               <xsl:when test="contains(//tei:ref[@type = 'a'], 'corresp.html')">
+                   <xsl:value-of select="distinct-values(//tei:ref[@type = 'a']/substring-after(@target, 'corresp.html#'))"/>
+               </xsl:when>
+           </xsl:choose>
+       </xsl:variable>
+
+
+and then, change toWebCorresp to auto generate unknowns. Leave current template to compare results.
+
+--------------
+
+!!!! IMPORTANT !!!!!
+For the transformation scenarios to work
+MOVE ALL THE DOCUMENTS OUT OF XML/xmlAnalysis and into the main XML folder for these to work.
+And note that it involves editing each scenario to adjust the output (manual save)
+
 ---- FOR EACH PART ---
 
 for Addressees (lettersTo.xml):
-(now all xslts in TOlists)
+(now all xslts in xslt/TOlists)
 
 1.	runList (w/intro and list commented out) + getAddresees = addresees.xml (save in working) -- TOget
 2.	addresees.xml + sortByCorresp.xml = alphaAdd.xml (save in working) -- TOsort
@@ -12,7 +39,7 @@ for Addressees (lettersTo.xml):
 
 
 for people mentioned (lettersIn.xml):
-(now all xslts in INlists)
+(now all xslts in xslt/INlists)
 
 1.	runList (w/intro and list commented out) + getMentions.xsl = mentioned.xml (save in working) -- INget
 2.	mentioned.xml + mergeMentions.xsl = mentMerged.xml (save in working) -- INsort (it is sorting and mergining)

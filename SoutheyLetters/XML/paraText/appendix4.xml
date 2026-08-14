@@ -1,8 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Appendix 4</title><title type="sub" level="m">The Collected Letters of Robert Southey</title><author>Lynda Pratt</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">appendix4</idno><availability><p>Originally published by Romantic Circles <date when="2023-03">March 2023</date>.</p></availability></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Appendix 4</title>
+				<title type="sub" level="m">The Collected Letters of Robert Southey</title>
+				<author>Lynda Pratt</author>
+				<editor>Lynda Pratt</editor>
+				<respStmt>
+					<resp>TEI Encoding</resp>
+					<name>Averill Buchanan</name>
+				</respStmt>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2026-09-15</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher>
+				<pubPlace>College Station, TX</pubPlace>
+				<idno type="edition">appendix4</idno>
+				<availability>
+					<p>Originally published by Romantic Circles <date when="2023-03">March
+							2023</date>.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Every effort has been made to contact copyright holders for their permission to
 					reprint material in this edition. The editors would be grateful to hear from any
 					copyright holder who is not here acknowledged and undertake to rectify any
-					omissions or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+					omissions or errors in future updates of this edition.</p>
+				<p>The editors thank the following for giving us access to manuscripts in their
 					collections: the Beinecke Rare Books and Manuscript Library, Yale University;
 					Berg Collection of English and American Literature, The New York Public Library,
 					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
@@ -18,26 +55,143 @@
 					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
 					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
 					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-					Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
+					Wisbech and Fenland Museum; the University of Virginia Library.</p>
+				<p>A research grant from the British Academy made much of the archival work
 					possible, as did support from the English Department of Nottingham Trent
-					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
-						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
+					University.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p>
+					<p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Southey's spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy targetDatcat="https://viaf.org/">
+					<bibl>VIAF</bibl>
+					<category xml:id="viaf_61576896">
+						<catDesc>Southey, Robert, 1774-1843</catDesc>
+					</category>
+					<category xml:id="viaf_118520952">
+						<catDesc>Pratt, Lynda, 1964-</catDesc>
+					</category>
+					<category xml:id="viaf_116328125">
+						<catDesc>Packer, Ian, 1962-</catDesc>
+					</category>
+					<category xml:id="viaf_18359329">
+						<catDesc>Fulford, Tim, 1962-</catDesc>
+					</category>
+					<category xml:id="viaf_42171645">
+						<catDesc>Bolton, Carol</catDesc>
+					</category>
+					<category xml:id="viaf_250654121">
+						<catDesc>Buchanan, Averill</catDesc>
+					</category>
+					<category xml:id="viaf_41749340">
+						<catDesc>Mandell, Laura, 1958-</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+					<bibl>Wikidata</bibl>
+					<category xml:id="Q216838">
+						<catDesc>Robert Southey</catDesc>
+					</category>
+					<category xml:id="Q5977111">
+						<catDesc>Romantic literature</catDesc>
+					</category>
+					<category xml:id="Q36279">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="Q1277575">
+						<catDesc>correspondence</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+					<bibl>Southey Letters: Biographies</bibl>
+				</taxonomy>
+				<taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+					<bibl>Southey Letters: Places</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef target="#Q216838" scheme="Wikidata"/>
+				<catRef target="#Q5977111" scheme="Wikidata"/>
+				<catRef target="#Q1277575" scheme="Wikidata"/>
+				<catRef target="#viaf_61576896" scheme="VIAF"/>
+				<catRef target="#viaf_118520952" scheme="VIAF"/>
+				<catRef target="#viaf_250654121" scheme="VIAF"/>
+				<catRef target="#viaf_41749340" scheme="VIAF"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+					<item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+					<item>Added dates of original publication by Romantic Circles</item>
+				</list></change>
+			<change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML files</item>
+				</list></change>
+			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Created new header for new edition edition XML from old edition XML dated
 						n.d. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-					</item></list></change><change who="#LM" when="2026-07-07"><label>Changed by</label><name>Laura
-					Mandell</name><list type="simple"><item>Added idno and sourceDesc into headers for automating new header changes;
-						see insertHeader070726.xsl</item></list></change></revisionDesc></teiHeader><text><body><div type="appendix"><head rend="bold">Appendix 4</head><p rend="bold">Southey’s manuscript drafts of his letter to the
-						<title>Courier</title> 1824</p><p>This Appendix makes available annotated transcripts of two manuscripts,
+					</item>
+				</list></change>
+			<change who="#LM" when="2026-07-07"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
+					<item>Added idno and sourceDesc into headers for automating new header changes;
+						see insertHeader070726.xsl</item>
+				</list></change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="appendix">
+				<head rend="bold">Appendix 4</head>
+				<p rend="bold">Southey’s manuscript drafts of his letter to the
+						<title>Courier</title> 1824</p>
+				<p>This Appendix makes available annotated transcripts of two manuscripts,
 					Huntington Library, HM 6656, relating to Southey’s letter to the Editor of the
 						<title>Courier</title> (see Letter 4289), published in the
 						<title>Courier</title> on 13 December 1824. Southey’s addition of his own
 					footnotes means that both drafts, especially 4.1, have complex layouts. We have
 					therefore used folio numbers, in square brackets, to show this and Southey’s
-					drafting process.</p><lb/><div type="letter" n="4.1"><head rend="bold">4.1 Robert Southey to the <ref type="a" target="people.html#MudfordWilliam">Editor of the
-							<title>Courier</title></ref>, [1824]</head><p>Watermark: Kingsford/ 1814</p><p>MS: Huntington Library, HM 6656. ALS; 7p.</p><lb/><p>[fol. 1r]</p><p rend="center">To the Editor of the Courier.</p><p rend="center">—————</p><p>Sir</p><p rend="indent1">On two former occasions you have allowed me thro the channel
+					drafting process.</p>
+				<lb/>
+				<div type="letter" n="4.1">
+					<head rend="bold">4.1 Robert Southey to the <ref type="a"
+							target="people.html#MudfordWilliam">Editor of the
+							<title>Courier</title></ref>, [1824]</head>
+					<p>Watermark: Kingsford/ 1814</p>
+					<p>MS: Huntington Library, HM 6656. ALS; 7p.</p>
+					<lb/>
+					<p>[fol. 1r]</p>
+					<p rend="center">To the Editor of the Courier.</p>
+					<p rend="center">—————</p>
+					<p>Sir</p>
+					<p rend="indent1">On two former occasions you have allowed me thro the channel
 						of your Journal to contradict a calumnious accusation as publicly as it had
 						been preferred;<note n="1" place="foot" resp="editors">See Southey to the
 							Editor of the <title>Courier</title>, 16 June 1815, <title>The Collected
@@ -45,17 +199,22 @@
 							Southey to the Editor of the <title>Courier</title>, 5 January 1822,
 							Letter 3776.</note> &amp; tho in these days of slander, such things
 						hardly deserve refutation, there are reasons which induce me once more to
-						request a similar favour. </p><p rend="indent1">Some <del>An</del> extracts from Cap<hi rend="sup">t</hi>
-						Medwins recent publication of Lord Byrons Conversations<note n="2" place="foot" resp="editors">Thomas Medwin (1788–1869;
+						request a similar favour. </p>
+					<p rend="indent1">Some <del>An</del> extracts from Cap<hi rend="sup">t</hi>
+						Medwins recent publication of Lord Byrons Conversations<note n="2"
+							place="foot" resp="editors">Thomas Medwin (1788–1869;
 							<title>DNB</title>), <title>Journal of the Conversations of Lord Byron:
 								Noted During a Residence with his Lordship at Pisa, in the Years
-								1821 and 1822</title> (1824).</note> has been transmitted me by <ref type="m" target="people.html#BowlesCaroline">a friend</ref>, who
+								1821 and 1822</title> (1824).</note> has been transmitted me by <ref
+							type="m" target="people.html#BowlesCaroline">a friend</ref>, who
 						happening to know what the facts are which are there falsified, is of
 						opinion that it would not misbecome me to state them at this time.
 							<del>The</del> &lt;following&gt; <del>words which are given in that
 							volume as</del> &lt;<del>having proceeded from his Ldsp</del>&gt;
 							<del>Lord Byrons are as follows</del> &lt;Now then to the point. The
-						following speech is reported by C<hi rend="sup">pt</hi> Medwin as <ref type="m" target="people.html#Byron">Lord Byrons</ref>&gt;: </p><p rend="indent1">“I am glad M<hi rend="sup">r</hi> Southey owns that article on
+						following speech is reported by C<hi rend="sup">pt</hi> Medwin as <ref
+							type="m" target="people.html#Byron">Lord Byrons</ref>&gt;: </p>
+					<p rend="indent1">“I am glad M<hi rend="sup">r</hi> Southey owns that article on
 						“Foliage*”, which excited my choler so much. But who else could have been
 						the author? Who but Southey would have had the baseness, under pretext of
 						reviewing the work of one man, insidiously to make it a nest-egg for
@@ -63,20 +222,29 @@
 						itself on Foliage; – but what was the object of that article? I repeat, to
 						vilify &amp; scatter his dark &amp; devilish insinuations against me &amp;
 						others. – Shame on the man who could wound an already bleeding heart; – be
-						barbarous enough to revive the memory of an event that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> was perfectly
-						innocent of, &amp; found scandal on falsehood! <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> taxed him with
+						barbarous enough to revive the memory of an event that <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> was perfectly
+						innocent of, &amp; found scandal on falsehood! <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> taxed him with
 						writing that article some years ago; &amp; he had the audacity to admit that
-						he had treasured up some opinions of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelleys</ref> ten years before
+						he had treasured up some opinions of <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelleys</ref> ten years before
 						when he was on a visit at Keswick, &amp; had made a note of them at the
 							time.<note n="3" place="foot" resp="editors">Thomas Medwin (1788–1869;
 								<title>DNB</title>), <title>Journal of the Conversations of Lord
 								Byron: Noted During a Residence with his Lordship at Pisa, in the
-								Years 1821 and 1822</title> (London, 1824), pp. 149–150.</note></p><p rend="center">——————</p><p>* A volume of poems by <ref type="m" target="people.html#HuntLeigh">M<hi rend="sup">r</hi> Leigh Hunt</ref>. The reader who may be desirous
+								Years 1821 and 1822</title> (London, 1824), pp. 149–150.</note></p>
+					<p rend="center">——————</p>
+					<p>* A volume of poems by <ref type="m" target="people.html#HuntLeigh">M<hi
+								rend="sup">r</hi> Leigh Hunt</ref>. The reader who may be desirous
 						of referring to the [MS torn] will find it in the 18<hi rend="sup">th</hi>
 						vol. of the Quarterly Review. p. 324 [Editors’ note: A review of James Henry
 						Leigh Hunt, <title>Foliage; or, Poems Original and Translated</title>
 						(1818), <title>Quarterly Review</title>, 18 (January 1818), 324–355,
-						published 9 June 1818. The reviewer was John Taylor Coleridge.] </p><lb/><p>[fol. 1v]:</p><p rend="indent1">I wish it to be distinctly understood that in
+						published 9 June 1818. The reviewer was John Taylor Coleridge.] </p>
+					<lb/>
+					<p>[fol. 1v]:</p>
+					<p rend="indent1">I wish it to be distinctly understood that in
 							<del>noticing</del> &lt;replying to&gt; these impudent falsehoods, I am
 						not influenced by any desire of vindicating myself; – this would be wholly
 						unnecessary considering from what quarter they come. I notice them for the
@@ -86,7 +254,8 @@
 							Southey denounced ‘the Satanic School’ of modern poetry without naming
 							any one poet. However, this was clearly a riposte to Byron’s <title>Don
 								Juan</title> (1819), whose suppressed ‘Dedication’, mocking Southey,
-							had circulated widely.</note> &amp; shewing what credit is due to <ref type="m" target="people.html#Byron">Lord Byrons</ref> assertions. For
+							had circulated widely.</note> &amp; shewing what credit is due to <ref
+							type="m" target="people.html#Byron">Lord Byrons</ref> assertions. For
 						that his Lordship <del>said what is here ascribed to him</del> &lt;spoke to
 						this effect &amp; in this temper&gt;, I have no doubt. Capt Medwin has, I
 						dare say, <del>accurately reported what he heard</del> to the best of his
@@ -95,7 +264,8 @@
 						&amp; malignity which were <del>uttered</del> &lt;vented&gt; in his
 						presence. <ref type="m" target="people.html#Byron">Lord Byron</ref><del>,
 							like Lord Bolingbroke, left a blunderbuss &amp; the blunderbuss has only
-							let out what it was charged with</del>.<note n="5" place="foot" resp="editors">Lord ... with: deleted in pencil. Speaking of David
+							let out what it was charged with</del>.<note n="5" place="foot"
+							resp="editors">Lord ... with: deleted in pencil. Speaking of David
 							Mallet’s (c. 1705–1765; <title>DNB</title>) edition of the
 								<title>Works</title> (1754) of Henry St John, 1st Viscount
 							Bolingbroke (1678–1751; <title>DNB</title>), Samuel Johnson (1709–1784;
@@ -105,12 +275,16 @@
 							fire it off himself, but left half a crown to a beggarly Scotchman, to
 							draw the trigger after his death!’ (James Boswell (1740–1795;
 								<title>DNB</title>), <title>Life of Samuel Johnson</title>, 3rd edn
-							(London, 1799), p. 312).</note></p><p rend="indent1">The reviewal in question <title><hi rend="ital">I did not
+							(London, 1799), p. 312).</note></p>
+					<p rend="indent1">The reviewal in question <title><hi rend="ital">I did not
 								write</hi></title>. <ref type="m" target="people.html#Byron">Lord
-							Byron</ref> might have known this if he had enquired of <ref type="m" target="people.html#MurrayJohn">M<hi rend="sup">r</hi> Murray</ref>, who
+							Byron</ref> might have known this if he had enquired of <ref type="m"
+							target="people.html#MurrayJohn">M<hi rend="sup">r</hi> Murray</ref>, who
 						would readily have assured him that I was not the author: &amp; he might
 						have known it from the reviewal itself, where the writer declares in plain
-						words that he was a contemporary of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley’s</ref>, at Eton.<note n="6" place="foot" resp="editors"><title>Quarterly Review</title>, 18
+						words that he was a contemporary of <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley’s</ref>, at Eton.<note
+							n="6" place="foot" resp="editors"><title>Quarterly Review</title>, 18
 							(January 1818), 324–355 (327): ‘At Eton we remember him notorious for
 							setting fire to old trees with burning glasses, no unmeet emblem for a
 							man who perverts his ingenuity and knowledge to the attacking of all
@@ -118,7 +292,8 @@
 							institutions.’</note> I had no concern in it directly or indirectly. But
 						let it not be inferred that in thus disclaiming that paper, any disapproval
 						of it is intended. Papers in the Quarterly Review have been ascribed to me
-						(those on Keats’s poems for example)<note n="7" place="foot" resp="editors">The review of John Keats (1795–1821; <title>DNB</title>),
+						(those on Keats’s poems for example)<note n="7" place="foot" resp="editors"
+							>The review of John Keats (1795–1821; <title>DNB</title>),
 								<title>Endymion</title> (1818), <title>Quarterly Review</title>, 19
 							(April 1818), 204–208, published 26 September 1818, was by John Wilson
 							Croker.</note> which I have heartily condemned both for their spirit
@@ -129,12 +304,15 @@
 							his own person.</del><note n="8" place="foot" resp="editors">in …
 							person: deleted in pencil.</note><del>Most assuredly it</del> contains
 						nothing that I would not have avowed if I had written it, or subscribed as
-						entirely assenting to &amp; approving it. </p><p rend="indent1">It is not true that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> ever enquired of
+						entirely assenting to &amp; approving it. </p>
+					<p rend="indent1">It is not true that <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> ever enquired of
 						me whether I were the author of that paper, which purporting as it did to be
 						written by an Etonian of his own standing, he very well knew I was not. But
 						in this part of <ref type="m" target="people.html#Byron">Lord Byrons</ref>
 						statement there may be some mistake mingled with a great deal of malignant
-						falsehood. <ref type="m" target="people.html#ShelleyPercyBysshe">M<hi rend="sup">r</hi> Shelley</ref> addressed a letter to me from Pisa
+						falsehood. <ref type="m" target="people.html#ShelleyPercyBysshe">M<hi
+								rend="sup">r</hi> Shelley</ref> addressed a letter to me from Pisa
 						asking if I were the author of a criticism in the Quarterly Review upon his
 						Revolt of Islam,<note n="9" place="foot" resp="editors">In a letter of 26
 							June 1820, Shelley had accused Southey of writing a hostile review of
@@ -145,33 +323,45 @@
 							(Dublin and London, 1881), pp. 358–359. This review had appeared in the
 								<title>Quarterly Review</title>, 21 (April 1819), 460–471, published
 							10 September 1819, and its author was, once again, John Taylor
-							Coleridge.</note> – not exactly in <ref type="m" target="people.html#Byron">Lord Byrons</ref> phrase <title><hi rend="ital">taxing</hi></title> me with it, for he declared his own
-						belief that I [MS torn] </p><lb/><p>[fol. 2 r]:</p><p>but added that he was induced to ask the question by the positive declaration
+							Coleridge.</note> – not exactly in <ref type="m"
+							target="people.html#Byron">Lord Byrons</ref> phrase <title><hi
+								rend="ital">taxing</hi></title> me with it, for he declared his own
+						belief that I [MS torn] </p>
+					<lb/>
+					<p>[fol. 2 r]:</p>
+					<p>but added that he was induced to ask the question by the positive declaration
 						of some friends in England that the article was mine. <del>Disclaiming</del>
 						&lt;Denying&gt; in my reply<note n="10" place="foot" resp="editors">Southey
 							to Percy Bysshe Shelley, [c. 29 July 1820], <title>The Collected Letters
 								of Robert Southey. Part Six</title>, Letter 3517.</note> that either
 						he or any other person was entitled to propose such a question upon such
 						grounds, I nevertheless assured him that I had not written the paper, &amp;
-						that I had never in any of my writings alluded to him in any way. </p><p rend="indent1">Now for the assertion that I had the audacity to admit having
-						treasured up some of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley’s</ref> opinions when he resided at Keswick, &amp; having made
+						that I had never in any of my writings alluded to him in any way. </p>
+					<p rend="indent1">Now for the assertion that I had the audacity to admit having
+						treasured up some of <ref type="m" target="people.html#ShelleyPercyBysshe"
+							>Shelley’s</ref> opinions when he resided at Keswick, &amp; having made
 						notes of them at the time. What truth is mixed up with the slander of this
 						statement I shall immediately explain: premising only that as the
 							<del>remark</del> &lt;opinion thus implied&gt; concerning the practise
 						of noting down familiar conversation is not applicable to me. I transfer it
-						to Capt Medwin for his own especial use. </p><p rend="indent1"><ref type="m" target="people.html#ShelleyPercyBysshe">M<hi rend="sup">r</hi> Shelley</ref> having in the letter alluded to
+						to Capt Medwin for his own especial use. </p>
+					<p rend="indent1"><ref type="m" target="people.html#ShelleyPercyBysshe">M<hi
+								rend="sup">r</hi> Shelley</ref> having in the letter alluded to
 						thought proper to make some remarks upon my opinions, I took occasion in
 						reply to comment upon his; &amp; to ask him (as the tree is known by its
 							fruits)<note n="11" place="foot" resp="editors"><title>Luke </title>6:
 							44 and <title>Matthew</title> 7: 16.</note> whether he had found them
 						conducive to his own happiness, &amp; the happiness of those with whom he
-						had been most nearly connected. This produced a second letter from him,<note n="12" place="foot" resp="editors">Shelley to Southey, 17 August 1820,
+						had been most nearly connected. This produced a second letter from him,<note
+							n="12" place="foot" resp="editors">Shelley to Southey, 17 August 1820,
 							Edward Dowden (ed.), <title>The Correspondence of Robert Southey with
 								Caroline Bowles</title> (Dublin and London, 1881), pp.
 							361–363.</note> written in a tone partly of justification, partly of
-						attack. I replied to this also;<note n="13" place="foot" resp="editors">Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected
+						attack. I replied to this also;<note n="13" place="foot" resp="editors"
+							>Southey to Percy Bysshe Shelley, 12 October 1820, <title>The Collected
 								Letters of Robert Southey. Part Six</title>, Letter 3538.</note> not
-						by any such &lt;absurd&gt; admission as <ref type="m" target="people.html#Byron">Lord Byron</ref> has stated (<del>which would
+						by any such &lt;absurd&gt; admission as <ref type="m"
+							target="people.html#Byron">Lord Byron</ref> has stated (<del>which would
 							have been both absurd &amp; false</del>) but by recapitulating to him,
 						as a practical illustration of his principles, the leading circumstances of
 						his own life, from the commencement of his career at University
@@ -183,52 +373,75 @@
 						public notoriety. – There the correspondence ended. On his part it had
 						&lt;been&gt; conducted with the courtesy which was natural to him; on mine,
 						in the spirit of one who was earnestly admonishing a fellow creature.
-							<del>(&amp; a most guilty one!) of death &amp; judgement</del>.</p><p rend="indent1">This is the correspondence <del>to</del> &lt;upon&gt; which
+							<del>(&amp; a most guilty one!) of death &amp; judgement</del>.</p>
+					<p rend="indent1">This is the correspondence <del>to</del> &lt;upon&gt; which
 							<ref type="m" target="people.html#Byron">Lord Byron</ref><del>has
 							alluded</del> &lt;misrepresentation has been constructed&gt;: it is all
-						that ever past between us, except a note from <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> – some years
+						that ever past between us, except a note from <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> – some years
 						before – accompanying a copy of his Alastor, &amp; one of mine in
-						acknowledgement of it.<note n="15" place="foot" resp="editors"><title>Alastor; or the Spirit of Solitude</title> (1816), no. 2547
+						acknowledgement of it.<note n="15" place="foot" resp="editors"
+								><title>Alastor; or the Spirit of Solitude</title> (1816), no. 2547
 							in the sale catalogue of Southey’s library. Shelley had sent Southey a
 							copy on 7 March 1816; see Edward Dowden (ed.), <title>The Correspondence
 								of Robert Southey with Caroline Bowles</title> (Dublin and London,
 							1881), pp. [357]. Southey’s reply does not survive.</note> I have
 						preserved his letters, together with copies of my own: &amp; if I had as
-						little consideration for the feelings of [MS torn] as Cap<hi rend="sup">t</hi>. Medwin has displayed, it is not any tenderness toward the *
-						dead that</p><p rend="center">————</p><p>[MS torn] the Preface to his Monody on Keats, <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref>, as I have been
-						informed, asserts that I was the<note n="16" place="foot" resp="editors">Southey’s footnote continues at the bottom of fol. 2v: ‘author of …
-							communication to himself’.</note></p><lb/><p>[fol. 2v]:</p><p>would withhold me &lt;now&gt; from <del>ever</del> publishing them. </p><p rend="indent1">It is not likely that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> should have
-						communicated my part of this correspondence to <ref type="m" target="people.html#Byron">Lord Byron</ref>, even if he did his own.
+						little consideration for the feelings of [MS torn] as Cap<hi rend="sup"
+							>t</hi>. Medwin has displayed, it is not any tenderness toward the *
+						dead that</p>
+					<p rend="center">————</p>
+					<p>[MS torn] the Preface to his Monody on Keats, <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref>, as I have been
+						informed, asserts that I was the<note n="16" place="foot" resp="editors"
+							>Southey’s footnote continues at the bottom of fol. 2v: ‘author of …
+							communication to himself’.</note></p>
+					<lb/>
+					<p>[fol. 2v]:</p>
+					<p>would withhold me &lt;now&gt; from <del>ever</del> publishing them. </p>
+					<p rend="indent1">It is not likely that <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> should have
+						communicated my part of this correspondence to <ref type="m"
+							target="people.html#Byron">Lord Byron</ref>, even if he did his own.
 						Bearing testimony as his heart did to the truth of <del>the</del> &lt;my&gt;
 						statement in every point, &amp; impossible as it was to escape from the
 						conclusion which was there brought home, I do not think he would have dared
-						produce it. How much or how little of the truth was known to his <ref type="m" target="people.html#Byron">Lordship</ref>, or with which of the
+						produce it. How much or how little of the truth was known to his <ref
+							type="m" target="people.html#Byron">Lordship</ref>, or with which of the
 						party at Pisa the insolent &amp; calumnious <del>falsehood</del>
-						&lt;misrepresentation&gt; conveyed in <ref type="m" target="people.html#Byron">his Lordship’s</ref> words originated, is of
+						&lt;misrepresentation&gt; conveyed in <ref type="m"
+							target="people.html#Byron">his Lordship’s</ref> words originated, is of
 						little consequence. <del>I shall not parody the extract &amp; ask who but
 							Lord Byron; or who but Shelley could have had the baseness thus to found
 							a scandal on falsehood, because I believe any Professor of the Satanic
 							school is capable of it, any pupil of that school, &amp; any visitor who
 							has been admitted to the honours of a sitting there, &amp; received the
 							fraternal embrace</del>.<note n="17" place="foot" resp="editors">I shall
-							… embrace: deleted in pencil.</note></p><p rend="indent1">The charge of scattering dark &amp; devilish insinuations, is
+							… embrace: deleted in pencil.</note></p>
+					<p rend="indent1">The charge of scattering dark &amp; devilish insinuations, is
 						one which if <ref type="m" target="people.html#Byron">Lord Byron</ref> were
 						living I would throw back in his teeth. Me he had assailed without the
 						slightest provocation, &amp; with that unmanliness too which was peculiar to
 						himself; &amp; in this course he might have gone on without giving me the
 						slightest <del>pain</del> &lt;uneasiness&gt;, or calling forth one
-						animadversion in reply. When I came forward to attack <ref type="m" target="people.html#Byron">his Lordship</ref> it was upon</p><p>public, not upon private grounds.<hi rend="sup"/> It was because
+						animadversion in reply. When I came forward to attack <ref type="m"
+							target="people.html#Byron">his Lordship</ref> it was upon</p>
+					<p>public, not upon private grounds.<hi rend="sup"/> It was because
 							<del>hxx</del> &lt;<del>x</del>&gt; had brought a stigma upon English
 						literature that I accused him, because he had perverted great talents to the
 						worst purposes: because he had set up for Pander General to the youth of
 						Great Britain as long as his writings should endure: – because he had
 						committed a high crime &amp; misdemeanour against Society, by sending forth
 						a work<note n="18" place="foot" resp="editors">Byron’s <title>Don
-								Juan</title> (1819).</note> in which</p><p rend="center">——————</p><p>author of the criticism in the Quarterly Review upon that young mans poems,
+								Juan</title> (1819).</note> in which</p>
+					<p rend="center">——————</p>
+					<p>author of the criticism in the Quarterly Review upon that young mans poems,
 						&amp; that his death was occasioned by it. There was a degree of meanness in
 						this (especially considering the temper &amp; tenour of our correspondence)
-						which I was not then prepared to expect from Shelley, for that he <title><hi rend="ital">believed</hi></title> me to be author of that paper, I
-						certainly do not believe. </p><p rend="indent1">He was once for a short time my neighbour; I met him upon
+						which I was not then prepared to expect from Shelley, for that he <title><hi
+								rend="ital">believed</hi></title> me to be author of that paper, I
+						certainly do not believe. </p>
+					<p rend="indent1">He was once for a short time my neighbour; I met him upon
 						terms, not of friendship indeed, but certainly of mutual good will; I
 						admired his talents, thought that he would outgrow his errors (perilous as
 						they were) &amp; trusted that meantime a kind &amp; generous heart would
@@ -236,12 +449,16 @@
 						boyhood. Therein I was mistaken [MS torn] to regard him with hope, he became
 						to me an object for sorrow &amp; aweful commiseration, not of any injurious
 						or [MS torn] when I expressed myself with just severity concerning him, it
-						was in direct communication to himself.<note n="19" place="foot" resp="editors">Percy Shelley, ‘Preface’, <title>Adonais. An Elegy on the
+						was in direct communication to himself.<note n="19" place="foot"
+							resp="editors">Percy Shelley, ‘Preface’, <title>Adonais. An Elegy on the
 								Death of John Keats, Author of Endymion, Hyperion, Etc
 							</title>(London, 1821), p. 4, though Southey was not named as the author
 							of the notorious review of John Keats (1795–1821; <title>DNB</title>),
 								<title>Endymion</title> (1818) in <title>Quarterly Review</title>,
-							19 (April 1818), 204–208. </note></p><lb/><p>[fol. 3r]</p><p>mockery was mingled with horrors, filth with impiety, profligacy with
+							19 (April 1818), 204–208. </note></p>
+					<lb/>
+					<p>[fol. 3r]</p>
+					<p>mockery was mingled with horrors, filth with impiety, profligacy with
 						&lt;sedition &amp;&gt; slander. For these offences I came forward to arraign
 						him. The accusation was not made darkly, it was &lt;not&gt; insinuated; nor
 						even advanced <del>thro</del> &lt;under&gt; the <del>medium</del>
@@ -259,14 +476,17 @@
 							that Southey had subsequently spread rumours that Byron and Shelley
 							engaged in a ‘League of Incest’.</note> Contention with a generous &amp;
 						honourable opponent leads naturally to esteem, &amp; probably to friendship:
-						but next to such an antagonist, an enemy like <ref type="m" target="people.html#Byron">Lord Byron</ref> is to be desired, – one who
+						but next to such an antagonist, an enemy like <ref type="m"
+							target="people.html#Byron">Lord Byron</ref> is to be desired, – one who
 						&lt;by his conduct in the interest&gt; divests himself of every claim to
 						respect, – one whose baseness is such as to sanctify the vindictive feeling
 						that it provokes, &amp; upon whom the act of taking vengeance is that of
-						administering justice. I answered him as he deserved to be answered,<note n="21" place="foot" resp="editors">Southey to the Editor of the
+						administering justice. I answered him as he deserved to be answered,<note
+							n="21" place="foot" resp="editors">Southey to the Editor of the
 								<title>Courie</title>r, 5 January 1822, Letter 3776.</note> – &amp;
 						the effect which that answer produced upon him <del>Lordships feelings &amp;
-							countenance</del>, has been described by <ref type="m" target="people.html#Byron">his Lordships</ref> friendly chronicler, Capt
+							countenance</del>, has been described by <ref type="m"
+							target="people.html#Byron">his Lordships</ref> friendly chronicler, Capt
 							Medwin.<note n="22" place="foot" resp="editors">Thomas Medwin
 							(1788–1869; <title>DNB</title>), <title>Journal of the Conversations of
 								Lord Byron: Noted During a Residence with his Lordship at Pisa, in
@@ -274,10 +494,14 @@
 							described Byron’s rage at Southey’s January 1822 Letter to the
 								<title>Courier</title> and his discussion of whether to challenge
 							Southey to a duel.</note><del>He found the draught bitter in the mouth,
-							&amp; cold in the stomach, but it was of his own brewing</del>.</p><p rend="indent1">One piece of advice I gave <ref type="m" target="people.html#Byron">his Lordship</ref> on that occasion, which he
+							&amp; cold in the stomach, but it was of his own brewing</del>.</p>
+					<p rend="indent1">One piece of advice I gave <ref type="m"
+							target="people.html#Byron">his Lordship</ref> on that occasion, which he
 						was prudent enough to follow. I recommended him when he should attack me in
-						future always to do it in rhyme.<note n="23" place="foot" resp="editors">Southey to the Editor of the <title>Courier</title>, 5 January 1822,
-							Letter 3776.</note> This accordingly he did,<note n="24" place="foot" resp="editors">Byron’s <title>The Vision of Judgment</title> (1822), a
+						future always to do it in rhyme.<note n="23" place="foot" resp="editors"
+							>Southey to the Editor of the <title>Courier</title>, 5 January 1822,
+							Letter 3776.</note> This accordingly he did,<note n="24" place="foot"
+							resp="editors">Byron’s <title>The Vision of Judgment</title> (1822), a
 							parody of Southey’s <title>A Vision of Judgement </title>(1821), was
 							first published in the <title>Liberal</title>, 1 (October 1822),
 							3–39.</note> &amp; this he might have continued to do till his heart
@@ -286,38 +510,57 @@
 						But if what appeared as mere fiction (with whatever venom it was compounded)
 						in verse, had again assumed the plain prose form of calumny &amp; falsehood,
 							<ref type="m" target="people.html#Byron">Lord Byron</ref> would have
-						found me as ready in rejoinder the second time as the first. </p><p rend="indent1">This is the real history of what the purveyors <del>for
+						found me as ready in rejoinder the second time as the first. </p>
+					<p rend="indent1">This is the real history of what the purveyors <del>for
 							xx</del> of scandal for the Public are pleased sometimes to announce in
 						their advertisements as “Byrons Controversy with Southey.” What there was
-						“dark &amp; devilish” in it, belongs to his Lordship: &amp; </p><lb/><p>[fol. 3v]:</p><p>had I been compelled to resume it during his life, he who played the Monster
+						“dark &amp; devilish” in it, belongs to his Lordship: &amp; </p>
+					<lb/>
+					<p>[fol. 3v]:</p>
+					<p>had I been compelled to resume it during his life, he who played the Monster
 						in literature, &amp; aimed his blows at women, should have been treated
 							<del>like a Monster</del> accordingly <del>to his deserts. On my part
 							there was nothing covert, nothing insidious; I dealt neither in
 							insinuations nor calumnies. In assuming that the principles &amp;
 							feelings which actuated his private life were to be found in his
 							writings, I applied to him that test whereby I am willing to be tried
-							myself. There I saw that like Michael Draytons Mooncalf</del></p><lg><l rend="indent3"><del>He termeth virtue madness, or mere folly,</del></l><l rend="indent3"><del>He hates all high things &amp; profanes all
+							myself. There I saw that like Michael Draytons Mooncalf</del></p>
+					<lg>
+						<l rend="indent3"><del>He termeth virtue madness, or mere folly,</del></l>
+						<l rend="indent3"><del>He hates all high things &amp; profanes all
 									holy.<note n="25" place="foot" resp="editors">Michael Drayton
 									(1563–1631; <title>DNB</title>), ‘The Moon-Calf’ (1627), lines
-									323–324.</note></del></l></lg><p><del>There I found the portraiture of one who hated men, despised women, was
+									323–324.</note></del></l>
+					</lg>
+					<p><del>There I found the portraiture of one who hated men, despised women, was
 							sated with the vices of this world, &amp; seemed to have no views or
 							hopes beyond it. If any one be disposed to censure me for speaking thus
 							of the departed, let him remember that it is in answer to posthumous
 							slander. I have no pxxxxxs &lt;taste&gt; for morbid anatomy: my
 							pursuits, thank Heaven, are of a cleanlier &amp; healthier kind. Lord
-							Byron was living when “I fastened his name upon the gibbet”,</del><note n="26" place="foot" resp="editors">Southey to the Editor of the Courier,
+							Byron was living when “I fastened his name upon the gibbet”,</del><note
+							n="26" place="foot" resp="editors">Southey to the Editor of the Courier,
 							5 January 1822, Letter 3776.</note><del>– it is by his professed friends
-							that he is now exhibited there, pendant at full length.</del><note n="27" place="foot" resp="editors">On my ... length: deletion is in
-							pencil, two vertical lines.</note></p><p rend="indent1"><del>No man may hope to pass thro this world, such as the
+							that he is now exhibited there, pendant at full length.</del><note
+							n="27" place="foot" resp="editors">On my ... length: deletion is in
+							pencil, two vertical lines.</note></p>
+					<p rend="indent1"><del>No man may hope to pass thro this world, such as the
 							world now is, without enemies, tho his life should be as inoffensive as
 							mine, equally retired &amp; more obscure. But it is a comfort for me to
 							think, as it will be an honour to have it recorded, that living in
 							friendship with xxx many of the best &amp; wisest of my contemporaries,
 							I &lt;have&gt; had for enemies those who were most notorious in their
 							generation for their pernicious principles, &amp; their profligate
-							conduct</del>.</p><signed rend="indent5">Robert Southey.</signed><postscript><p rend="indent1">It might have been thought that <ref type="m" target="people.html#Byron">Ld B.</ref> had attaind the last degree
+							conduct</del>.</p>
+					<signed rend="indent5">Robert Southey.</signed>
+					<postscript>
+						<p rend="indent1">It might have been thought that <ref type="m"
+								target="people.html#Byron">Ld B.</ref> had attaind the last degree
 							of <del>infamy</del> &lt;disgrace&gt; when his head was set up for a
-							sign at one of those preparatory schools for the Brothel</p><lb/><p>[fol. 4r] </p><p>&amp; the gallows where obscenity sedition &amp; blasphemy are retailed
+							sign at one of those preparatory schools for the Brothel</p>
+						<lb/>
+						<p>[fol. 4r] </p>
+						<p>&amp; the gallows where obscenity sedition &amp; blasphemy are retailed
 							in drams for the vulgar.<note n="28" place="foot" resp="editors">William
 								Benbow (1787–1864; <title>DNB</title>), radical publisher and
 								pornographer, called his shop in Castle Street, Leicester Square,
@@ -336,10 +579,22 @@
 							of truth as he was <del>regardless of every other principle</del> –
 							incapable of sustaining those &lt;<del>better</del>&gt; feelings
 								<del>which sometimes</del> suited to his birth station &amp; high
-							endowment which sometimes came across his better mind –</p><p>[fol. 4v is blank] </p><lb/></postscript></div><div type="letter" n="4.2"><head rend="bold">4.2 Robert Southey to the <ref type="a" target="people.html#MudfordWilliam">Editor of the
-							<title>Courier</title></ref>, [1824]</head><p>Watermarks: top part of crest surmounted by a crown (fols 1 and 5); 1822
+							endowment which sometimes came across his better mind –</p>
+						<p>[fol. 4v is blank] </p>
+						<lb/>
+					</postscript>
+				</div>
+				<div type="letter" n="4.2">
+					<head rend="bold">4.2 Robert Southey to the <ref type="a"
+							target="people.html#MudfordWilliam">Editor of the
+							<title>Courier</title></ref>, [1824]</head>
+					<p>Watermarks: top part of crest surmounted by a crown (fols 1 and 5); 1822
 						(fols 2 and 4); Kingsford (fols 3 and 6); lower part of crest, displaying
-						rampant lion (fol. 7). </p><p>MS: Huntington Library, HM 6656. AL; 14p. </p><p rend="center">To the Editor of the Courier</p><p>Sir</p><p rend="indent1">On two former occasions you have allowed me thro the channel
+						rampant lion (fol. 7). </p>
+					<p>MS: Huntington Library, HM 6656. AL; 14p. </p>
+					<p rend="center">To the Editor of the Courier</p>
+					<p>Sir</p>
+					<p rend="indent1">On two former occasions you have allowed me thro the channel
 						of your journal to contradict a calmunious accusation as publicly as it had
 						been preferred:<note n="30" place="foot" resp="editors">Southey to the
 							Editor of the <title>Courier</title>, 16 June 1815, <title>The Collected
@@ -348,7 +603,8 @@
 							Letter 3776.</note> &amp; tho in these days of slander such charges
 							<del>xxx xxxx</del> hardly deserve refutation, there are reasons which
 						induce me once more to request <del>the same</del> &lt;<del>like</del>&gt;
-						&lt;a similar&gt; favour. </p><p rend="indent1"><del>The following</del> &lt;An&gt; extract<del>s</del> from
+						&lt;a similar&gt; favour. </p>
+					<p rend="indent1"><del>The following</del> &lt;An&gt; extract<del>s</del> from
 							Cap<hi rend="sup">t</hi>. Medwins recent publication of Lord Byrons
 							Conversations,<note n="31" place="foot" resp="editors">Thomas Medwin
 							(1788–1869; <title>DNB</title>), <title>Journal of the Conversations of
@@ -359,7 +615,8 @@
 						there <del>xxxxx</del> falsified&gt; is of opinion that it would &lt;not
 						mis&gt; become me to state them at this time. The words &lt;which&gt; are
 						given as <ref type="m" target="people.html#Byron">Lord Byrons</ref> &lt;in
-						that volume&gt; are as follows. </p><p rend="indent1">“I am glad M<hi rend="sup">r</hi> Southey owns that article on
+						that volume&gt; are as follows. </p>
+					<p rend="indent1">“I am glad M<hi rend="sup">r</hi> Southey owns that article on
 								“<title><hi rend="ital">Foliage</hi></title>” which excited my
 						choler so much. But who else could have been the Author? Who but Southey
 						would have had the baseness, under pretext of reviewing the work of one man,
@@ -368,15 +625,19 @@
 						the object of that article? I repeat, to vilify &amp; scatter his dark &amp;
 						devilish insinuations against me &amp; others. – Shame on the man who could
 						wound an already bleeding heart, – be barbarous enough to revive the memory
-						of an event that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> was perfectly innocent of, – &amp; found scandal on
-						falsehood! – <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> taxed him with writing that article some years ago; &amp;
-						he had the audacity to admit that he had treasured up some opinions of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley’s</ref> ten
+						of an event that <ref type="m" target="people.html#ShelleyPercyBysshe"
+							>Shelley</ref> was perfectly innocent of, – &amp; found scandal on
+						falsehood! – <ref type="m" target="people.html#ShelleyPercyBysshe"
+							>Shelley</ref> taxed him with writing that article some years ago; &amp;
+						he had the audacity to admit that he had treasured up some opinions of <ref
+							type="m" target="people.html#ShelleyPercyBysshe">Shelley’s</ref> ten
 						years before, when he was on a visit at Keswick, &amp; had made a note of
 						them at the time.”<note n="32" place="foot" resp="editors">Thomas Medwin
 							(1788–1869; <title>DNB</title>), <title>Journal of the Conversations of
 								Lord Byron: Noted During a Residence with his Lordship at Pisa, in
 								the Years 1821 and 1822</title> (London, 1824), pp.
-						149–150.</note></p><p rend="indent1">I wish it to be distinctly understood that in <del>giving the
+						149–150.</note></p>
+					<p rend="indent1">I wish it to be distinctly understood that in <del>giving the
 							broadest &amp; most unqualified contradiction to</del> &lt;noticing&gt;
 						these impudent falsehoods, I am not influenced by any desire of vindicating
 						myself – this would be wholly unnecessary <del>on my part</del> considering
@@ -395,7 +656,8 @@
 						no doubt. Cap<hi rend="sup">t</hi>. Medwin has I dare say accurately
 						reported what he heard to the best of his recollection, – &amp; faithfully
 						performed the honourable office of retailing all the effusions of spleen,
-						slander &amp; malignity which were uttered in his presence. – <ref type="m" target="people.html#Byron">Lord Byron</ref> like &lt;Lord&gt;
+						slander &amp; malignity which were uttered in his presence. – <ref type="m"
+							target="people.html#Byron">Lord Byron</ref> like &lt;Lord&gt;
 						Bolingbroke left a blunderbuss, &amp; the blunderbuss has only let out what
 						it was charged with.<note n="34" place="foot" resp="editors">Speaking of
 							David Mallet’s (c. 1705–1765; <title>DNB</title>) edition of the
@@ -407,27 +669,42 @@
 							fire it off himself, but left half a crown to a beggarly Scotchman, to
 							draw the trigger after his death!’ (James Boswell (1740–1795;
 								<title>DNB</title>), <title>Life of Samuel Johnson</title>, 3rd edn
-							(London, 1799), p. 312).</note></p><p rend="indent1">The reviewal in question <title><hi rend="ital">I did not
+							(London, 1799), p. 312).</note></p>
+					<p rend="indent1">The reviewal in question <title><hi rend="ital">I did not
 								write</hi></title>. <ref type="m" target="people.html#Byron">Lord
-							Byron</ref> might have known this if he had enquired of <ref type="m" target="people.html#MurrayJohn">M<hi rend="sup">r</hi> Murray</ref>, who
+							Byron</ref> might have known this if he had enquired of <ref type="m"
+							target="people.html#MurrayJohn">M<hi rend="sup">r</hi> Murray</ref>, who
 						would readily have assured him that I was not the author; – - &amp; he might
 						have known it also from the reviewal itself, where the writer declares in
-						plain words that he was a contemporary of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelleys</ref> at Eton.<note n="35" place="foot" resp="editors"><title>Quarterly Review</title>, 18
+						plain words that he was a contemporary of <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelleys</ref> at Eton.<note
+							n="35" place="foot" resp="editors"><title>Quarterly Review</title>, 18
 							(January 1818), 324–355 (327): ‘At Eton we remember him notorious for
 							setting fire to old trees with burning glasses, no unmeet emblem for a
 							man who perverts his ingenuity and knowledge to the attacking of all
 							that is ancient and venerable in our civil and religious
 							institutions.’</note> I had no concern in it, directly or indirectly.
 							<del>After this it would be superfluous to say that I never owned
-						</del>it. &lt;But&gt; Let</p><lb/><p>[fol. 2r]: </p><p>X It is not true that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> ever enquired of me whether I were the author of that
+						</del>it. &lt;But&gt; Let</p>
+					<lb/>
+					<p>[fol. 2r]: </p>
+					<p>X It is not true that <ref type="m" target="people.html#ShelleyPercyBysshe"
+							>Shelley</ref> ever enquired of me whether I were the author of that
 						paper, – which purporting as it did to be written by an
 							<del>schoolfellow</del> &lt;Etonian of his own standing&gt;, – he very
-						well knew I was not. But in this part of <ref type="m" target="people.html#Byron">Lord Byrons</ref> statement there
+						well knew I was not. But in this part of <ref type="m"
+							target="people.html#Byron">Lord Byrons</ref> statement there
 							<del>is</del> &lt;may be&gt; some <del>error</del> &lt;mistake&gt;
 						mingled with a great deal of malignant falsehood. M<hi rend="sup">r</hi> S
-						&amp;c –</p><lb/><p>[fol. 2v blank] </p><lb/><p>[fol. 3r]: </p><p>it not <del>however</del> be inferred that in thus disclaiming that paper,
+						&amp;c –</p>
+					<lb/>
+					<p>[fol. 2v blank] </p>
+					<lb/>
+					<p>[fol. 3r]: </p>
+					<p>it not <del>however</del> be inferred that in thus disclaiming that paper,
 						any disapproval of it is intended. Papers in the Quarterly Review have been
-						ascribed to me (those on Keats’s poems for example)<note n="36" place="foot" resp="editors">The review of John Keats (1795–1821; <title>DNB</title>),
+						ascribed to me (those on Keats’s poems for example)<note n="36" place="foot"
+							resp="editors">The review of John Keats (1795–1821; <title>DNB</title>),
 								<title>Endymion</title> (1818), <title>Quarterly Review</title>, 19
 							(April 1818), 204–208, published 26 September 1818, was by John Wilson
 							Croker.</note> which I have heartily condemned both for their spirit
@@ -439,7 +716,9 @@
 						his own <del>name</del> &lt;person.&gt; Most certainly it contains nothing
 						which I would not have <del>acknowledged</del> &lt;avowed&gt; had I written
 						it, or subscribed as entirely assenting to, <del>it</del> &amp; approving
-						it. </p><p rend="indent1">X <del>It is true that</del><ref type="m" target="people.html#ShelleyPercyBysshe">M<hi rend="sup">r</hi>
+						it. </p>
+					<p rend="indent1">X <del>It is true that</del><ref type="m"
+							target="people.html#ShelleyPercyBysshe">M<hi rend="sup">r</hi>
 							Shelley</ref> addressed a letter to me from Pisa asking if I were the
 						author of <del>that paper</del>, &lt;a criticism in the QR. upon his Revolt
 						of Islam,<note n="37" place="foot" resp="editors">In a letter of 26 June
@@ -451,12 +730,15 @@
 							(Dublin and London, 1881), pp. 358–359. This review had appeared in the
 								<title>Quarterly Review</title>, 21 (April 1819), 460–471, published
 							10 September 1819, and its author was, once again, John Taylor
-							Coleridge.</note> &gt;- not exactly <title><hi rend="ital">taxing</hi></title> &lt;in <ref type="m" target="people.html#Byron">Lord Bs</ref> phrase&gt; me with it, for he declared his own
+							Coleridge.</note> &gt;- not exactly <title><hi rend="ital"
+							>taxing</hi></title> &lt;in <ref type="m" target="people.html#Byron"
+							>Lord Bs</ref> phrase&gt; me with it, for he declared his own
 							<del>persuasion</del> &lt;belief&gt; that I was not, – <del>which
 							declaration I have at this time in his own handwriting</del>. &lt;but
 						added that he was induced to ask the question by <del>declaration</del> the
 						positive declaration of some friends in England that the article was
-						mine.&gt; Denying in my reply<note n="38" place="foot" resp="editors">Southey to Percy Bysshe Shelley, [c. 29 July 1820], <title>The
+						mine.&gt; Denying in my reply<note n="38" place="foot" resp="editors"
+							>Southey to Percy Bysshe Shelley, [c. 29 July 1820], <title>The
 								Collected Letters of Robert Southey. Part Six</title>, Letter
 							3517.</note> that either he or any other person was entitled to propose
 						such a question &lt;upon such grounds -&gt;, I nevertheless assured him that
@@ -464,32 +746,40 @@
 						writings alluded to him, in any way. <del>Lord Byron says I owned the paper:
 							whether that falsehood was originally his own, or Mr Shelleys, I neither
 							know, nor care, believing them to have been equally destitute of
-							veracity</del>.</p><p rend="indent1">Now for the <del>last part of the charge</del>
+							veracity</del>.</p>
+					<p rend="indent1">Now for the <del>last part of the charge</del>
 						&lt;assertion&gt;, that I had the audacity to admit <del>the</del> having
-						treasured up some of <ref type="m" target="people.html#ShelleyPercyBysshe">Shelleys</ref> opinions when he resided at Keswick, &amp;
+						treasured up some of <ref type="m" target="people.html#ShelleyPercyBysshe"
+							>Shelleys</ref> opinions when he resided at Keswick, &amp;
 							<del>making</del> &lt;having made&gt; notes of them at the time. What
 						truth is <del>disguised under</del> &lt;mixed up with the slander of&gt;
 						this statement I shall immediately explain, – premising only that <del>I
 							hand over</del> the remark concerning the practice of noting down
 						&lt;familiar&gt; conversation &lt;is not applicable to <del>myself</del> me
 						xxxxxxxxxxxxx transfer&gt; – to Capt Medwin, for his &lt;own&gt; especial
-						use.</p><p rend="indent1"><ref type="m" target="people.html#ShelleyPercyBysshe">M<hi rend="sup">r</hi> Shelley</ref> having in the letter alluded to
+						use.</p>
+					<p rend="indent1"><ref type="m" target="people.html#ShelleyPercyBysshe">M<hi
+								rend="sup">r</hi> Shelley</ref> having in the letter alluded to
 						thought proper to make some remarks upon my opinions, I took occasion in
 						reply to comment upon his, &amp; to ask him (as the tree is known by its
 							fruits)<note n="39" place="foot" resp="editors"><title>Luke </title>6:
 							44 and <title>Matthew</title> 7: 16.</note> whether he had found them
 						conducive to his own happiness &amp; the happiness of those with whom he had
-						been most nearly connected. This produced a second letter from him,<note n="40" place="foot" resp="editors">Shelley to Southey, 17 August 1820,
+						been most nearly connected. This produced a second letter from him,<note
+							n="40" place="foot" resp="editors">Shelley to Southey, 17 August 1820,
 							Edward Dowden (ed.), <title>The Correspondence of Robert Southey with
 								Caroline Bowles</title> (Dublin and London, 1881), pp.
 							361–363.</note> written in a tone partly of justification, partly of
-						attack. I replied to this <del>epistle</del> also:<note n="41" place="foot" resp="editors">Southey to Percy Bysshe Shelley, 12 October 1820,
+						attack. I replied to this <del>epistle</del> also:<note n="41" place="foot"
+							resp="editors">Southey to Percy Bysshe Shelley, 12 October 1820,
 								<title>The Collected Letters of Robert Southey. Part Six</title>,
-							Letter 3538.</note> – not by any such admission as <ref type="m" target="people.html#Byron">Lord Byron</ref> has stated (which would have
+							Letter 3538.</note> – not by any such admission as <ref type="m"
+							target="people.html#Byron">Lord Byron</ref> has stated (which would have
 						been both absurd &amp; false) but by recapitulating to him, as a practical
 						illustration of his principles, the <del>xxxxxx principal events</del>
 						&lt;leading circumstances&gt; of his own life from the commencement of his
-						career at University College:<note n="42" place="foot" resp="editors">Shelley matriculated at University College, Oxford, on 10 April 1810
+						career at University College:<note n="42" place="foot" resp="editors"
+							>Shelley matriculated at University College, Oxford, on 10 April 1810
 							but was sent down in November 1811 following a furore over his pamphlet,
 								<title>The Necessity of Atheism</title> (1811).</note> the earlier
 						facts were stated <del>to him</del> upon his own authority as I had heard
@@ -497,16 +787,28 @@
 							my own certain knowledge</del>. There the correspondence <del>xx</del>
 						ended. On his part it had been conducted with the courtesy which was natural
 						to him; – on mine, in the spirit of one who was earnestly admonishing a
-						fellow creature, (&amp; a most guilty one!) of death &amp; judgement.</p><p rend="indent1">This is the correspondence to which <ref type="m" target="people.html#Byron">Lord Byron</ref> has alluded It is all that
-						ever past between us, except a note from <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> &lt;some years
+						fellow creature, (&amp; a most guilty one!) of death &amp; judgement.</p>
+					<p rend="indent1">This is the correspondence to which <ref type="m"
+							target="people.html#Byron">Lord Byron</ref> has alluded It is all that
+						ever past between us, except a note from <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> &lt;some years
 						before,&gt; accompanying a copy of his Alastor, &amp; one of mine in
-						acknowledge-</p><lb/><p rend="indent1">How much or how little of the truth was known to <ref type="m" target="people.html#Byron">his Lordship</ref>, – or <del>to his</del>
+						acknowledge-</p>
+					<lb/>
+					<p rend="indent1">How much or how little of the truth was known to <ref type="m"
+							target="people.html#Byron">his Lordship</ref>, – or <del>to his</del>
 						will which of the <del>xx</del> party at Pisa the impudent &amp; calumnious
-							<del>falsehood</del> &lt;misrepresentation&gt; conveys in <ref type="m" target="people.html#Byron">his Lordship</ref><del>account of</del>
+							<del>falsehood</del> &lt;misrepresentation&gt; conveys in <ref type="m"
+							target="people.html#Byron">his Lordship</ref><del>account of</del>
 						words, originated, is of little consequence. I shall not parody the extract,
 						&amp; ask who but <ref type="m" target="people.html#Byron">Lord B</ref> – or
 						who but <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref>
-						–</p><lb/><p>[fol. 4v blank] </p><lb/><p>[fol. 5r]: </p><p>-ment of it.<note n="43" place="foot" resp="editors"><title>Alastor; or the
+						–</p>
+					<lb/>
+					<p>[fol. 4v blank] </p>
+					<lb/>
+					<p>[fol. 5r]: </p>
+					<p>-ment of it.<note n="43" place="foot" resp="editors"><title>Alastor; or the
 								Spirit of Solitude</title> (1816), no. 2547 in the sale catalogue of
 							Southey’s library. Shelley had sent Southey a copy on 7 March 1816; see
 							Edward Dowden (ed.), <title>The Correspondence of Robert Southey with
@@ -515,8 +817,11 @@
 						together with copies of my own; &amp; if I had as little consideration for
 						the feelings of the living as Capt Medwin has displayd, it is not any
 						tenderness toward the † dead that would withhold he from &lt;now&gt;
-						publishing them <del>at this time</del>.</p><p rend="indent1">It is not likely that <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref> should have
-						communicated my part of the correspondence to <ref type="m" target="people.html#Byron">Lord Byron</ref>. &lt;even if he did his
+						publishing them <del>at this time</del>.</p>
+					<p rend="indent1">It is not likely that <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref> should have
+						communicated my part of the correspondence to <ref type="m"
+							target="people.html#Byron">Lord Byron</ref>. &lt;even if he did his
 						own.&gt; Bearing testimony as his heart did to the truth of the
 							<del>whole</del> statement in every <del>part</del> &lt;point&gt;, &amp;
 						impossible as it was to escape from the <del>inference</del>
@@ -527,28 +832,41 @@
 						found scandal on falsehood, because I believe any Professor of the Satanic
 						school is capable of it, any pupil of that school, &amp; any visitor, who
 						has been admitted to the honour of a sitting &lt;there&gt; &amp; received
-						the fraternal embrace. </p><p rend="indent1">The charge of scattering dark &amp; devilish insinuations is
+						the fraternal embrace. </p>
+					<p rend="indent1">The charge of scattering dark &amp; devilish insinuations is
 						one which if <ref type="m" target="people.html#Byron">Lord Byron</ref> were
-						living, I would throw back in his teeth. </p><p rend="center">———————————————————</p><p>☨ In the Preface to his Monody on Keats,<ref type="m" target="people.html#ShelleyPercyBysshe"> Shelley </ref>as I have been
+						living, I would throw back in his teeth. </p>
+					<p rend="center">———————————————————</p>
+					<p>☨ In the Preface to his Monody on Keats,<ref type="m"
+							target="people.html#ShelleyPercyBysshe"> Shelley </ref>as I have been
 						informed, asserts that I was the author of the <del>critique</del> criticism
 						in the Quarterly Review upon that young mans poems, &amp; that his death was
 						occasioned by it. There was a degree of meanness in this (especially
 						considering the temper &amp; tenour of our correspondence) which I was not
-						then prepared to expect from <ref type="m" target="people.html#ShelleyPercyBysshe">Shelley</ref>; – for that he
+						then prepared to expect from <ref type="m"
+							target="people.html#ShelleyPercyBysshe">Shelley</ref>; – for that he
 								<title><hi rend="ital">believed</hi></title> me to be the author of
-						that paper, I certainly do not believe.<note n="44" place="foot" resp="editors">Percy Shelley, ‘Preface’, <title>Adonais. An Elegy on the
+						that paper, I certainly do not believe.<note n="44" place="foot"
+							resp="editors">Percy Shelley, ‘Preface’, <title>Adonais. An Elegy on the
 								Death of John Keats, Author of Endymion, Hyperion, Etc
 							</title>(London, 1821), p. 4, though Southey was not named as the author
 							of the notorious review of John Keats (1795–1821; <title>DNB</title>),
 								<title>Endymion</title> (1818) in <title>Quarterly Review</title>,
-							19 (April 1818), 204–208. </note></p><lb/><p>[fol. 5v]: </p><p>Me he had <del>repeatedly</del><note n="45" place="foot" resp="editors">repeatedly: deleted in pencil. </note> assaild without the slightest
-						provocation, – &amp; <del>sometimes</del><note n="46" place="foot" resp="editors">sometimes: deleted in pencil.</note> with that
+							19 (April 1818), 204–208. </note></p>
+					<lb/>
+					<p>[fol. 5v]: </p>
+					<p>Me he had <del>repeatedly</del><note n="45" place="foot" resp="editors"
+							>repeatedly: deleted in pencil. </note> assaild without the slightest
+						provocation, – &amp; <del>sometimes</del><note n="46" place="foot"
+							resp="editors">sometimes: deleted in pencil.</note> with that
 						unmanliness &lt;too&gt; which was peculiar to himself; &amp; in this course
 						he might have con<del>tinued</del> &lt;gone on&gt; without <del>exciting
 							in</del> &lt;giving&gt; me the slightest <del>feeling of</del> pain, or
-						calling forth one animadversion in reply. When <del>at last</del><note n="47" place="foot" resp="editors">at last: deleted in pencil.</note> I
+						calling forth one animadversion in reply. When <del>at last</del><note
+							n="47" place="foot" resp="editors">at last: deleted in pencil.</note> I
 						came forward to attack <ref type="m" target="people.html#Byron">his
-							Lordship</ref>, it was upon public not upon private grounds.<note n="48" place="foot" resp="editors"><title>A Vision of Judgement</title>
+							Lordship</ref>, it was upon public not upon private grounds.<note n="48"
+							place="foot" resp="editors"><title>A Vision of Judgement</title>
 							(London, 1821), ‘Preface’, pp. xvii–xxii, where Southey denounced ‘the
 							Satanic School’ of modern poetry without naming any one poet.</note> It
 						was because he had brought a stigma upon English <del>poetry</del>
@@ -565,7 +883,8 @@
 							<del>review</del> &lt;public journal&gt;; I attacked him openly, in my
 						own name, &amp; only not by his, because he had not then publicly avowd the
 						flagitious production by which he will be remembered for lasting infamy. He
-						replied in a manner altogether worthy of himself &amp; his cause.<note n="50" place="foot" resp="editors">In the ‘Appendix’ to ‘The Two
+						replied in a manner altogether worthy of himself &amp; his cause.<note
+							n="50" place="foot" resp="editors">In the ‘Appendix’ to ‘The Two
 							Foscari’, <title>Sardanapulus, A Tragedy. The Two Foscari, A Tragedy.
 								Cain, A Mystery</title> (London, 1821), p. 328, Byron had cautioned:
 							‘I am not ignorant of Mr. Southey’s calumnies on a different occasion,
@@ -577,7 +896,8 @@
 						with a&gt; generous &amp; honourable <del>enemy</del> &lt;<del>foe</del>
 						opponent <del>x xxxxxx</del>&gt;, <del>with whom any contention</del> leads
 						naturally to esteem &amp; probably to friendship, &lt;<del>but next to such
-							an enem</del>&gt; such an antagonist, &lt;an enemy like&gt; <ref type="m" target="people.html#Byron">Lord Byron</ref> is to be desired. –
+							an enem</del>&gt; such an antagonist, &lt;an enemy like&gt; <ref
+							type="m" target="people.html#Byron">Lord Byron</ref> is to be desired. –
 						one who divests himself of <del>all</del> &lt;every&gt; claim to respect, –
 						one whose baseness is such as to sanctify the vindictive feeling that it
 							<del>excites</del> &lt;provokes&gt;, &amp; upon whom the act of taking
@@ -587,16 +907,23 @@
 							3776.</note> &amp; the effect which that answer produced upon his
 							<del>Lordships</del> feelings &amp; countenance has been described by
 							<ref type="m" target="people.html#Byron">his &lt;Lordships</ref>&gt;
-						friendly chronicler Capt Medwin.<note n="52" place="foot" resp="editors">Thomas Medwin (1788–1869; <title>DNB</title>), <title>Journal of the
+						friendly chronicler Capt Medwin.<note n="52" place="foot" resp="editors"
+							>Thomas Medwin (1788–1869; <title>DNB</title>), <title>Journal of the
 								Conversations of Lord Byron: Noted During a Residence with his
 								Lordship at Pisa, in the Years 1821 and 1822</title> (London, 1824),
 							pp. 147–149, described Byron’s rage at Southey’s January 1822 Letter to
 							the <title>Courier</title> and his discussion of whether to challenge
 							Southey to a duel.</note> He found the draught bitter in the mouth &amp;
-						cold in the</p><lb/><p>[fol. 6r]: </p><p>stomach, – but it was of his own brewing</p><p rend="indent1">One piece of advice I gave <ref type="m" target="people.html#Byron">his Lordship</ref> on that <del>letter</del>
+						cold in the</p>
+					<lb/>
+					<p>[fol. 6r]: </p>
+					<p>stomach, – but it was of his own brewing</p>
+					<p rend="indent1">One piece of advice I gave <ref type="m"
+							target="people.html#Byron">his Lordship</ref> on that <del>letter</del>
 							&lt;<del>time</del> occasion&gt; which he was prudent enough to
 							<del>take</del> &lt;follow&gt;. I recommended him when he <del>xxx</del>
-						should attack me in future always to do it in rhyme.<note n="53" place="foot" resp="editors">Southey to the Editor of the
+						should attack me in future always to do it in rhyme.<note n="53"
+							place="foot" resp="editors">Southey to the Editor of the
 								<title>Courier</title>, 5 January 1822, Letter 3776.</note> This
 						accordingly he did,<note n="54" place="foot" resp="editors">Byron’s
 								<title>The Vision of Judgment</title> (1822), a parody of Southey’s
@@ -606,13 +933,15 @@
 							would have been otherwise if he had ventured again into the field of
 							prose</del>. To the Poets license of fiction he was entitled in its
 						fullest extent, <del>&amp; however much he might have abused the privilege
-							it would never have concerned me</del><note n="55" place="foot" resp="editors">&amp; however … concerned me: deleted in pencil.</note>
+							it would never have concerned me</del><note n="55" place="foot"
+							resp="editors">&amp; however … concerned me: deleted in pencil.</note>
 						&lt;nor did I care how much he might abuse the privilege&gt;. But if what
 						appeared as mere fiction, (with whatever venom it was compounded&gt; in
 						verse, had again assumed the plain prose form of calumny &amp; falsehood,
 							<ref type="m" target="people.html#Byron">Lord Byron</ref> would have
 						found me as ready in rejoinder the second time as the first. <del>I must
-							have been as poor a creature as his own Devil in the Alps</del><note n="56" place="foot" resp="editors">Lord Byron’s <title>Manfred: a
+							have been as poor a creature as his own Devil in the Alps</del><note
+							n="56" place="foot" resp="editors">Lord Byron’s <title>Manfred: a
 								Dramatic Poem</title> (1817), Act 2 scene 3, where Manfred resists a
 							pact with the Devil.</note><del> if I could have been intimidated or
 							silenced by him. Hate me he did, &amp; always would have done unless a
@@ -623,8 +952,10 @@
 							empty insults as unworthy notice, &lt;being&gt; disgraceful as they were
 							to no one but himself, it was not with contempt that I regarded Lord
 							Byron. When I set my heel upon a vipers head, it is not in contempt that
-							I tread upon the venomous &amp; writhing reptile</del>.<note n="57" place="foot" resp="editors">I must … reptile: deleted in
-						pencil.</note></p><p rend="indent1">This is the <del>whole</del> &lt;real&gt; history of what is
+							I tread upon the venomous &amp; writhing reptile</del>.<note n="57"
+							place="foot" resp="editors">I must … reptile: deleted in
+						pencil.</note></p>
+					<p rend="indent1">This is the <del>whole</del> &lt;real&gt; history of what is
 						called my controversy with <ref type="m" target="people.html#Byron">Lord
 							Byron</ref>, what there was “dark &amp; devilish” in it belongs to his
 						Lordship, &lt;And had I <del>xxxxxxx</del> it were xxxxxxxx the xxxxxxxx
@@ -632,26 +963,49 @@
 						blows at women <del>was to be</del> &lt;should have been&gt; treated like a
 						Monster &lt;<del>xx xxxxxxx</del> xxxxxxxx xx xxx xxxxx&gt;. On my part
 						there was nothing covert – nothing insidious. I dealt neither &lt;in&gt;
-						insi-</p><lb/><p>[fol. 6v blank] </p><lb/><p>[fol. 7r]: </p><p>- nuations nor calumny In assuming that the principles, <del>opinions</del>
+						insi-</p>
+					<lb/>
+					<p>[fol. 6v blank] </p>
+					<lb/>
+					<p>[fol. 7r]: </p>
+					<p>- nuations nor calumny In assuming that the principles, <del>opinions</del>
 						&amp; feelings which actuated his private life were to be found in his
 						writing, I applied to him that test whereby I am willing to be tried myself.
-						There I saw that like Michael Draytons Mooncalf</p><lg><l rend="indent3">He termeth virtue madness or mere folly,</l><l rend="indent3">He hates all high things &amp; profanes all holy.<note n="58" place="foot" resp="editors">Michael Drayton (1563–1631;
+						There I saw that like Michael Draytons Mooncalf</p>
+					<lg>
+						<l rend="indent3">He termeth virtue madness or mere folly,</l>
+						<l rend="indent3">He hates all high things &amp; profanes all holy.<note
+								n="58" place="foot" resp="editors">Michael Drayton (1563–1631;
 									<title>DNB</title>), ‘The Moon-Calf’ (1627), lines
-								323–324.</note></l></lg><p>there I found the portraiture of one who hated men, despised women, was sated
+								323–324.</note></l>
+					</lg>
+					<p>there I found the portraiture of one who hated men, despised women, was sated
 						with the vices of this world, &amp; seemed to have no views or hopes beyond
 						it. – If any one be disposed to censure me for speaking thus of the
 						departed, let him remember that it is an answer to posthumous
 							<del>calumny</del> &lt;slander&gt;. I have no passion for morbid anatomy
-						– my pursuits thank Heaven are of a cleanlier &amp; healthier kind. <ref type="m" target="people.html#Byron">Lord B.</ref> was living when I
-						fastened his name upon the gibbet:<note n="59" place="foot" resp="editors">Southey to the Editor of the <title>Courier</title>, 5 January 1822,
+						– my pursuits thank Heaven are of a cleanlier &amp; healthier kind. <ref
+							type="m" target="people.html#Byron">Lord B.</ref> was living when I
+						fastened his name upon the gibbet:<note n="59" place="foot" resp="editors"
+							>Southey to the Editor of the <title>Courier</title>, 5 January 1822,
 							Letter 3776,</note> it is by his professed friends that he <del>has
 							been</del> &lt;is now&gt; exhibited there – <del>after death</del>
-						&lt;pendant&gt; at full length. </p><p rend="indent1">No man may hope to pass thro this world, such as the world now
+						&lt;pendant&gt; at full length. </p>
+					<p rend="indent1">No man may hope to pass thro this world, such as the world now
 						is – without enemies, tho his life should be as inoffensive as mine, equally
 						retired, &amp; more obscure. But it is &lt;a comfort&gt; for me <del>a
 							satisfaction</del> to think, as it will be an honour to have it recorded
 						that living in friendship with many of the best &amp; wisest of my
 						contemporaries, I had for enemies those who were most notorious &lt;in this
 						generation&gt; for their pernicious principles &amp; their profligate
-						conduct</p><lb/><p>[fol. 7v]: </p><p>the Purveyors &lt;of scandal&gt; for public <del>scandal</del> are pleased
-						sometimes to announce in their advertisements as <del>my</del><ref type="m" target="people.html#Byron">Byrons</ref> controversy with Southey</p></div></div></body></text></TEI>
+						conduct</p>
+					<lb/>
+					<p>[fol. 7v]: </p>
+					<p>the Purveyors &lt;of scandal&gt; for public <del>scandal</del> are pleased
+						sometimes to announce in their advertisements as <del>my</del><ref type="m"
+							target="people.html#Byron">Byrons</ref> controversy with Southey</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

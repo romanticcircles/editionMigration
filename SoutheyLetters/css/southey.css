@@ -70,7 +70,7 @@ li.nav:hover {background-color: #f0e3bb;}
     display: none;
     position: absolute;
     top: 1.2rem;
-    left: 1rem;
+    left: 0.75rem;
     background-color: #faf0d2;
     padding: 0;
     margin: 0;
@@ -98,7 +98,23 @@ li.nav:hover > ul {
 }
 /* end nav */
 
-/* =========== images =========== */
+/* ======================= links =====================*/
+a {
+    font-weight: bold;
+    text-decoration: none;
+	color: #00347d;
+}
+a:hover {
+    color: #356FC0;
+}
+a:visited {
+    color: #36619e;
+    }
+a:visited:hover {
+    color: #356FC0;
+}
+
+/* ======================= images ================== */
 img.homeButton {
     height: 50px;
     width: 55px;
@@ -132,7 +148,7 @@ img.csvIconB {
     width: 60px;
     padding: 5px;
 }
-/* =========== structures ============ */
+/* =================== structures ==================== */
 main {
     margin-left: 3%;
     margin-top: 0;
@@ -240,7 +256,7 @@ p.postscript {}
     margin-right: 40px;
 }
 
-/* ============== tables ================ */
+/* =================== tables and lists =================== */
 
 tr.rowSpace {
     height: 2rem;
@@ -264,6 +280,16 @@ ul.letList:empty::before {
     display: list-item;
     list-style-position: inside;
     }
+ul.correspToList:empty::before {
+    content: "[Forthcoming]";
+    display: list-item;
+    list-style-position: inside;
+    }
+ul.correspMenList:empty::before {
+    content: "None";
+    display: list-item;
+    list-style-position: inside;
+    }
 dl {
 
 }
@@ -272,23 +298,89 @@ dt {
     font-weight: 600;
 }
 
-/* links */
-a {
-    font-weight: bold;
-    text-decoration: none;
-	color: #00347d;
+/* ====================== div headers ====================== */
+.listTitle > h1 {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-a:hover {
-    color: #356FC0;
+.listTitle > h2 {
+    margin: 0;
+    text-align: center;
 }
-a:visited {
-    color: #36619e;
-    }
-a:visited:hover {
-    color: #356FC0;
+.listTitle > h3 {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.listName {
+    float: left;
+    text-indent: 15px;
+    margin-bottom: -1rem;
+}
+/* for mentioned.html */
+.menHdr,
+.toHdr {
+    padding-left: 2rem;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+.menHdr::before,
+.toHdr::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0.75rem;
+    display: inline-block;
+    transition: transform 0.15s ease;
+}
+.menHdr.expanded::before,
+.toHdr.expanded::before {
+    transform: rotate(90deg);
+}
+.menList ul.letList,
+.toList ul.letList {
+    display: none;
+}
+.menList ul.letList.expanded,
+.toList ul.letList.expanded {
+    display: block;
+}
+/* for corrspondents */
+.toToggle,
+.menToggle {
+    padding-left: 2rem;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+.toToggle::before,
+.menToggle::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0.75rem;
+    display: inline-block;
+    transition: transform 0.15s ease;
+}
+.toToggle.expanded::before,
+.menToggle.expanded::before {
+    transform: rotate(90deg);
 }
 
-/*=============== poetry ===============*/
+/* Hide toggle lists by default */
+.correspToList,
+.correspMenList {
+    display: none;
+}
+
+/* Display toggle lists when sibling trigger is expanded */
+.toToggle.expanded + .correspToList,
+.menToggle.expanded + .correspMenList {
+    display: block;
+}
+/*========================= poetry ========================*/
 
 .stanza {
     margin-right: 0;
@@ -316,7 +408,7 @@ a:visited:hover {
     flex-shrink: 3;
 }
 
-/* =================== indentation ================= 
+/* ===================== indentation ==================== 
  * (can be used in poems, divs, paragraphs, etc.) */
 
 .indent0 {
@@ -408,65 +500,17 @@ h1 {
     font-size: 24px;
     line-height: 32px;
 }
-.listTitle > h1 {
-    font-size: 90%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 h2 {
     font-size: 22px;
     line-height: 30px;
-}
-.listTitle > h2 {
-    margin: 0;
-    text-align: center;
 }
 h3 {
     font-size: 20px;
     line-height: 28px;
 }
-.listTitle > h3 {
-    font-size: 90%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.listName {
-    float: left;
-    text-indent: 15px;
-    margin-bottom: -1rem;
-}
 h4 {
     font-size: 18px;
     line-height: 26px;
-}
-.menHdr,
-.toHdr {
-    padding-left: 2rem;
-    position: relative;
-    cursor: pointer;
-    user-select: none;
-}
-.menHdr::before,
-.toHdr::before {
-    content: "\25B8";
-    position: absolute;
-    left: 0.75rem;
-    display: inline-block;
-    transition: transform 0.15s ease;
-}
-.menHdr.expanded::before,
-.toHdr.expanded::before {
-    transform: rotate(90deg);
-}
-.menList ul.letList,
-.toList ul.letList {
-    display: none;
-}
-.menList ul.letList.expanded,
-.toList ul.letList.expanded {
-    display: block;
 }
 h5 {
     font-size: 14px;
@@ -476,11 +520,13 @@ h6 {
     font-size: 10px;
     line-height: 18px;
 }
-
-.label {font-size: 20px; font-weight: bold;}
-
-.title {font-style: italic;}
-.ital {font-style: italic}
+.label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.title {
+    font-style: italic;
+}
 
 .addUP {
     vertical-align: 10px;
@@ -497,6 +543,12 @@ sup {
 }
 .emphasis {
     text-decoration: underline;
+}
+.italics, .italic, .ital {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
 }
 
 /* ================== alphabet list ===================

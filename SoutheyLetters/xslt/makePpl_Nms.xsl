@@ -5,6 +5,9 @@
     <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="no"/>
     <xsl:strip-space elements="*"/>
 
+<!-- run people.xml to generate the people_names.xml file to be saved inside the xslt folder
+        that is used to as a key lookup to associate names with ids by other xslts -->
+
     <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
@@ -39,10 +42,21 @@
                     <xsl:choose>
                         <xsl:when test="tei:surname[@type = 'birth']">
                             <xsl:value-of select="tei:surname[@type = 'married']"/>
-                            <xsl:text>, </xsl:text>
-                            <xsl:value-of select="tei:forename"/>
-                            <xsl:text> </xsl:text>
+                            <xsl:text> (neé </xsl:text>
                             <xsl:value-of select="tei:surname[@type = 'birth']"/>
+                            <xsl:text>)</xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="tei:forename">
+                                    <xsl:text>, </xsl:text>
+                                    <xsl:value-of select="tei:forename"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:if test="tei:roleName">
+                                        <xsl:text>, </xsl:text>
+                                    <xsl:value-of select="tei:roleName"/>
+                                    </xsl:if>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                     </xsl:choose>
                 </xsl:when>
@@ -53,7 +67,9 @@
                             <xsl:text> </xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
+                            <xsl:if test="tei:forename or tei:roleName">
                             <xsl:text>, </xsl:text>
+                            </xsl:if>
                         </xsl:otherwise>
                     </xsl:choose>
                     <xsl:choose>

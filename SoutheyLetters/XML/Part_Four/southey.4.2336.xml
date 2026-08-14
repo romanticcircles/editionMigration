@@ -1,84 +1,330 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">2336. Robert Southey to John Murray, 27 November
-                  1813</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="4">Part Four <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.4.2336</idno><availability><p>Originally published by Romantic Circles <date when="2013-08-15">August 15, 2013</date>.</p></availability></publicationStmt><sourceDesc><p>National Library of Scotland,
-                  MS 42551.ALS; 4p..  Previously  published: Samuel Smiles, A Publisher and His Friends, 2 vols (London, 1891), I, pp.
-                  237-238 [in part].</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact
-                    copyright holders for their permission to reprint material in this edition. The
-                    editors would be grateful to hear from any copyright holder who is not here
-                    acknowledged and undertake to rectify any omissions or errors in future updates
-                    of this
-                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
-                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
-                    Berg Collection of English and American Literature, The New York Public Library,
-                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-                    British Library; Boston Public Library; the Syndics of Cambridge University
-                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
-                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-                    Massachusetts Historical Society; McGill University Library; the National
-                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated 2013-08-15. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David Rettenmaier</name><list><item>Update of TEI headers to conform to new template</item></list></change><change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms after proofing Southey Part 4</item></list></change><change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms for proofing Southey Part 4</item></list></change><change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura Mandell</name><list><item>Ran Transforms for proof copies of Southey Part 4</item></list></change><change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David Rettenmaier</name><list><item>Transforms for Southey Part 4</item></list></change><change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div n="2336" type="letter"><head>2336. Robert Southey to <ref type="a" target="people.html#MurrayJohn">John Murray</ref>, <date when="1813-11-27">27 November
-                  1813</date><note type="headnote" place="foot" resp="editors">Address: To/ John Murray Esq<hi rend="sup">r</hi>/ Albemarle Street/
-                  London<lb/>Stamped: KESWICK/ 298 <lb/>Postmark: E/ 30 NO 30/ 1813 <lb/>Seal: red wax ‘S’ and motto<lb/>Watermark: C WILMOTT/
-                  1807<lb/>Endorsement: Southey Ro. Esq<hi rend="sup">r</hi>/ 27 Nov<hi rend="sup">r</hi> 1813 <lb/>MS: National Library of Scotland,
-                  MS 42551.ALS; 4p.<lb/>Previously published: Samuel Smiles, <title>A Publisher and His Friends</title>, 2 vols (London, 1891), I, pp.
-                  237-238 [in part].</note></head><opener><dateline><address><placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1813-11-27">Nov 27. 1813.</date></dateline><salute>My dear Sir</salute></opener><p rend="indent1"> Here then I am once more at my desk, with my books &amp; papers about me, at my own fire side, right glad to &lt;return
-               to&gt; that rest in labour which I have taken for my motto, because in it I find my happiness. The winter is before me, I shall have no
-               interruptions from without, &amp; if it please God that I have none from within, my progress in this campaign will be to my hearts
-               content, &amp; as rapid as you could wish.</p><p rend="indent1"> First let me write concerning what may be called the Opus Magnum.<note n="1" place="foot" resp="editors"><title>The History of the Peninsular War</title> (1823–1832).</note> I want for it the books of James Moore, Sir K Porter, Neale
-               &amp; Ormsby, all relating to Sir J Moores campaign – these I consulted when writing the Register for 1808,<note n="2" place="foot" resp="editors"> James Moore (1762–1860; <title>DNB</title>), <title>A Narrative of the Campaign of the British Army in Spain</title>
-                  (1809); Sir Robert Ker Porter (1777–1842; <title>DNB</title>), <title>Letters from Portugal and Spain, Written during the March of
-                     the Troops under Sir John Moore</title> (1809); Adam Neale (1778?-1832; <title>DNB</title>), <title>Letters from Portugal and
-                     Spain</title> (1809); James Wilmot Ormsby (d. 1831), <title>An Account of the Operations of the British Army, and of the State
-                     and Sentiments of the People of Portugal and Spain, During the Campaigns of the Years 1808–1809</title> (1809). They were all
-                  used by Southey for his account of Sir John Moore (1761–1809; <title>DNB</title>) and the Battle of Corunna (1809) in
-                     <title>Edinburgh Annual Register, for 1808</title>, 1.1 (1810), 431–459.</note> – but they were returned to <ref type="m" target="people.html#BallantyneJohn">Ballantyne</ref>, &amp; ought to be reconsulted in recasting this part of the narrative. I want
-               also the enlarged edition of Elliot on the Defence of Portugal.<note n="3" place="foot" resp="editors"> William Granville Eliot
-                  (1767–1845), <title>A Treatise on the Defence of Portugal</title> (1810). Southey requested the expanded second edition of 1811; no.
-                  836 in the sale catalogue of his library.</note> The State of Portugal during the last 30 years (Lloyd. 1810)<note n="4" place="foot" resp="editors"><title>State of Portugal during the Last Thirty Years; from the Monthly Repertory</title> (1810).</note><del>xx</del> The great collection of Buonapartes papers which Lewis Goldsmith has published,<note n="5" place="foot" resp="editors">
-                  Lewis Goldsmith (1763/4–1846; <title>DNB</title>), <title>Recueil de Decrets, Ordonnances, Faites de Paix, &amp;c. de Napoleon
-                     Bonaparte et des Membres de Gouvernement Français</title> (1813–1815); no. 1118 in the sale catalogue of Southey’s library. This
-                  consisted of a series of extracts from the French newspaper <title>Moniteur</title>.</note> &amp; the Military Panorama.<note n="6" place="foot" resp="editors"><title>The Military Panorama</title> (1812–1817), nos 1847–1848 in the sale catalogue of Southey’s library.</note> (the Military
-                  Chronicle<note n="7" place="foot" resp="editors"><title>The Royal Military Chronicle, or, The British Officer’s Monthly Register, Chronicle, and Military Mentor</title>
-                     (1811–1817).</note> I already have.) One more work must be added to this long list, – <ref type="m" target="people.html#CoxeWilliam">Coxe’s</ref> Spanish Bourbons.<note n="8" place="foot" resp="editors"> William Coxe, <title>Memoirs of the Kings of Spain of the House of
-                     Bourbon</title> (1812); no. 671 in the sale catalogue of Southey’s library.</note></p><p rend="indent1"> I had the Times for 1810-11-12 &amp; down to the time when I gave up the Register,<note n="9" place="foot" resp="editors"><title>Edinburgh Annual Register, for 1811</title> (1813).</note> &amp; by a sort of accident got also the Morning Chronicle for
-               1810. The M Chronicle for 1808-9-11 &amp; 12 &amp; the Times for 1808-9 ought to be among my documents. So also should be Peltiers
-                  Ambigu.<note n="10" place="foot" resp="editors"> Jean-Gabriel Peltier (1760–1825), émigré and editor of <title>L’Ambigu</title> a
-                  French-language newspaper printed in London under Tory auspices.</note></p><p rend="indent1"> I find also among my desiderata the title of a Spanish Book which may perhaps be obtained in London, sooner than I
-               could procure it from Spain. Coleccion de papeles interesantes del ano de 1808.<note n="11" place="foot" resp="editors"><title>Coleccion de Papeles Interesantes del Ano de 1808</title> (1808); no. 3200 in the sale catalogue of Southey’s library.</note>
-               This is the only year for which I am deficient in Spanish documents. The deficiency will be in some degree be supplied when I receive
-               from the Junta of Aragon a collection of all their papers which they have sent me thro <ref type="m" target="people.html#AbellaManuel">my friend at Cadiz</ref>.</p><p rend="indent1"> Secondly concerning the Review I shall shortly have three short articles for you, – the Nicobar Islands,<note n="12" place="foot" resp="editors"> Johann Gottfried Haensel (1749–1814), <title>Letters on the Nicobar Islands</title> (1812), reviewed by
-                  Southey in <title>Quarterly Review</title>, 11 (April 1814), 57–72.</note> – the Copy-right question,<note n="13" place="foot" resp="editors"> This article was not completed.</note> – &amp; the World before the Flood,<note n="14" place="foot" resp="editors">
-                  For Southey’s review of Montgomery’s <title>The World Before the Flood</title> (1813), <title>Quarterly Review</title>, 11 (April
-                  1814), 79–87.</note> – <ref type="m" target="people.html#GoochDrRobert">Dr Gooch</ref> spoke to you about obtaining a reviewal of
-               the life of Schiller<note n="15" place="foot" resp="editors"> Friedrich Schiller’s (1759–1805) life was not reviewed in the
-                     <title>Quarterly</title> and Taylor did not become a contributor. See also Robert Southey to Henry Herbert Southey, 28 December
-                  1813, Letter 2357.</note> by <del>xx</del><ref type="m" target="people.html#TaylorWilliam">Wm Taylor</ref> of Norwich. <ref type="m" target="people.html#TaylorWilliam">Wm
-                  Taylor</ref> is an old &amp; highly valued friend of mine, singular in his style, singular in his opinions, &amp; in many of these
-               very erroneous, but of almost unparallelled ingenuity, &amp; one of the best of men. As a German scholar I believe <ref type="m" target="people.html#ColeridgeSamuelTaylor">Coleridge</ref> to be the only person who equals him. Of course he will advance no
-               opinions dissonant from those of your Review, &amp; &lt;he&gt; is too much accustomed to see his pecularities of diction altered by an
-               Editor to complain of the exertion of this necessary prerogative. For many years he was the best writer in the Monthly,<note n="16" place="foot" resp="editors"> Taylor was a salaried reviewer for the <title>Monthly Review</title> 1793–1799.</note> when the Monthly
-               stood unrivalled. You will find him a valuable assistant, bringing originality &amp; genius to whatever he undertakes. <ref type="m" target="people.html#GoochDrRobert">Gooch</ref> told me that he was expecting you would send him the book. Do not delay this, if it
-               be not already done. Whatever he does for you will attract notice &amp; gain credit, &amp; it will be wholesome for him to feel himself
-               in orthodox company.</p><p rend="indent1"> Was there ever such a succession of tidings of great joy! One thing only is wanting to crown the whole, – the death of
-               the Tyrant.<note n="17" place="foot" resp="editors"> i.e. Napoleon Bonaparte (1769–1821). French forces were in retreat in both Germany
-                  (after the Battle of Leipzig, 16–19 October 1813) and Spain (where British forces had crossed into France on 7 October 1813), and an
-                  allied victory was increasingly certain.</note><hi rend="ital">Pereat iste</hi><note n="18" place="foot" resp="editors"> ‘Let him die himself’.</note> is my prayer. – Yet if his destiny were in my hand I think I
-               should <del>xx</del> condemn him to end his days as a maniac in <del>xx</del> a hospital at Paris. It is in better hands, &amp; sooner
-               or later, vengeance will fall upon his head. – I think the Bourbons will be restored. Whether I wish for their restoration is a
-               question which I should find it difficult to answer.</p><closer><salute rend="indent1"> Believe me my dear Sir</salute><salute rend="indent2"> Yrs very truly</salute><signed rend="indent3"> Robert Southey.</signed></closer></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">2336. Robert Southey to John Murray, 27 November
+               1813</title>
+            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Four</title>
+            <author role="primary" from="1774" to="1843"><persName
+                  ana="http://viaf.org/viaf/61576896"
+                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
+            <editor>Ian Packer</editor>
+            <editor>Lynda Pratt</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Averill Buchanan</name>
+            </respStmt>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="4">Part Four <date>2026-09-15</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <idno type="edition">southey.4.2336</idno>
+            <availability>
+               <p>Originally published by Romantic Circles <date when="2013-08-15">August 15,
+                     2013</date>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>National Library of Scotland, MS 42551.ALS; 4p.. Previously published: Samuel Smiles,
+               A Publisher and His Friends, 2 vols (London, 1891), I, pp. 237-238 [in part].</p>
+            <p>These letters were edited by Ian Packer and Lynda Pratt</p>
+            <p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey's spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy targetDatcat="https://viaf.org/">
+               <bibl>VIAF</bibl>
+               <category xml:id="viaf_61576896">
+                  <catDesc>Southey, Robert, 1774-1843</catDesc>
+               </category>
+               <category xml:id="viaf_118520952">
+                  <catDesc>Pratt, Lynda, 1964-</catDesc>
+               </category>
+               <category xml:id="viaf_116328125">
+                  <catDesc>Packer, Ian, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_18359329">
+                  <catDesc>Fulford, Tim, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_42171645">
+                  <catDesc>Bolton, Carol</catDesc>
+               </category>
+               <category xml:id="viaf_250654121">
+                  <catDesc>Buchanan, Averill</catDesc>
+               </category>
+               <category xml:id="viaf_41749340">
+                  <catDesc>Mandell, Laura, 1958-</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+               <bibl>Wikidata</bibl>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
+               </category>
+               <category xml:id="Q1277575">
+                  <catDesc>correspondence</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+               <bibl>Southey Letters: Biographies</bibl>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+               <bibl>Southey Letters: Places</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
+            <catRef target="#Q1277575" scheme="Wikidata"/>
+            <catRef target="#viaf_61576896" scheme="VIAF"/>
+            <catRef target="#viaf_118520952" scheme="VIAF"/>
+            <catRef target="#viaf_116328125" scheme="VIAF"/>
+            <catRef target="#viaf_250654121" scheme="VIAF"/>
+            <catRef target="#viaf_41749340" scheme="VIAF"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+               <item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+               <item>Added dates of original publication by Romantic Circles</item>
+            </list></change>
+         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML files</item>
+            </list></change>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Created new header for new edition edition XML from old edition XML dated
+                  2013-08-15. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
+               </item>
+            </list></change>
+         <change n="1" when="2017-01-30" who="#DR"><label>Changed by</label><name xml:id="DR">David
+               Rettenmaier</name><list>
+               <item>Update of TEI headers to conform to new template</item>
+            </list></change>
+         <change n="8" when="2013-05-27" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms after final proofing Southey Part 4</item>
+            </list></change>
+         <change n="7" when="2013-04-22" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms after proofing Southey Part 4</item>
+            </list></change>
+         <change who="#LM" when="2013-02-01" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms for proofing Southey Part 4</item>
+            </list></change>
+         <change who="#LM" when="2012-01-15" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms for proof copies of Southey Part 4</item>
+            </list></change>
+         <change n="4" when="2011-12-02" who="#DR"><label>Changed by</label><name>David
+               Rettenmaier</name><list>
+               <item>Transforms for Southey Part 4</item>
+            </list></change>
+         <change n="3" when="2010-08-15" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list>
+               <item>corrections from proofing</item>
+            </list></change>
+         <change n="2" when="2010-07-22" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list>
+               <item>XSLT Transforming</item>
+            </list></change>
+         <change n="1" when="2010-06-27" who="#AB"><label>Changed by</label><name xml:id="AB"
+               >Averill Buchanan</name><list>
+               <item>TEI Encoding</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="2336" type="letter">
+            <head>2336. Robert Southey to <ref type="a" target="people.html#MurrayJohn">John
+                  Murray</ref>, <date when="1813-11-27">27 November 1813</date><note type="headnote"
+                  place="foot" resp="editors">Address: To/ John Murray Esq<hi rend="sup">r</hi>/
+                  Albemarle Street/ London<lb/>Stamped: KESWICK/ 298 <lb/>Postmark: E/ 30 NO 30/
+                  1813 <lb/>Seal: red wax ‘S’ and motto<lb/>Watermark: C WILMOTT/
+                  1807<lb/>Endorsement: Southey Ro. Esq<hi rend="sup">r</hi>/ 27 Nov<hi rend="sup"
+                     >r</hi> 1813 <lb/>MS: National Library of Scotland, MS 42551.ALS;
+                  4p.<lb/>Previously published: Samuel Smiles, <title>A Publisher and His
+                     Friends</title>, 2 vols (London, 1891), I, pp. 237-238 [in part].</note></head>
+            <opener><dateline><address>
+                     <placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName>
+                  </address><date when="1813-11-27">Nov 27. 1813.</date></dateline><salute>My dear
+                  Sir</salute></opener>
+            <p rend="indent1"> Here then I am once more at my desk, with my books &amp; papers about
+               me, at my own fire side, right glad to &lt;return to&gt; that rest in labour which I
+               have taken for my motto, because in it I find my happiness. The winter is before me,
+               I shall have no interruptions from without, &amp; if it please God that I have none
+               from within, my progress in this campaign will be to my hearts content, &amp; as
+               rapid as you could wish.</p>
+            <p rend="indent1"> First let me write concerning what may be called the Opus
+                  Magnum.<note n="1" place="foot" resp="editors"><title>The History of the
+                     Peninsular War</title> (1823–1832).</note> I want for it the books of James
+               Moore, Sir K Porter, Neale &amp; Ormsby, all relating to Sir J Moores campaign –
+               these I consulted when writing the Register for 1808,<note n="2" place="foot"
+                  resp="editors"> James Moore (1762–1860; <title>DNB</title>), <title>A Narrative of
+                     the Campaign of the British Army in Spain</title> (1809); Sir Robert Ker Porter
+                  (1777–1842; <title>DNB</title>), <title>Letters from Portugal and Spain, Written
+                     during the March of the Troops under Sir John Moore</title> (1809); Adam Neale
+                  (1778?-1832; <title>DNB</title>), <title>Letters from Portugal and Spain</title>
+                  (1809); James Wilmot Ormsby (d. 1831), <title>An Account of the Operations of the
+                     British Army, and of the State and Sentiments of the People of Portugal and
+                     Spain, During the Campaigns of the Years 1808–1809</title> (1809). They were
+                  all used by Southey for his account of Sir John Moore (1761–1809;
+                     <title>DNB</title>) and the Battle of Corunna (1809) in <title>Edinburgh Annual
+                     Register, for 1808</title>, 1.1 (1810), 431–459.</note> – but they were
+               returned to <ref type="m" target="people.html#BallantyneJohn">Ballantyne</ref>, &amp;
+               ought to be reconsulted in recasting this part of the narrative. I want also the
+               enlarged edition of Elliot on the Defence of Portugal.<note n="3" place="foot"
+                  resp="editors"> William Granville Eliot (1767–1845), <title>A Treatise on the
+                     Defence of Portugal</title> (1810). Southey requested the expanded second
+                  edition of 1811; no. 836 in the sale catalogue of his library.</note> The State of
+               Portugal during the last 30 years (Lloyd. 1810)<note n="4" place="foot"
+                  resp="editors"><title>State of Portugal during the Last Thirty Years; from the
+                     Monthly Repertory</title> (1810).</note><del>xx</del> The great collection of
+               Buonapartes papers which Lewis Goldsmith has published,<note n="5" place="foot"
+                  resp="editors"> Lewis Goldsmith (1763/4–1846; <title>DNB</title>), <title>Recueil
+                     de Decrets, Ordonnances, Faites de Paix, &amp;c. de Napoleon Bonaparte et des
+                     Membres de Gouvernement Français</title> (1813–1815); no. 1118 in the sale
+                  catalogue of Southey’s library. This consisted of a series of extracts from the
+                  French newspaper <title>Moniteur</title>.</note> &amp; the Military Panorama.<note
+                  n="6" place="foot" resp="editors"><title>The Military Panorama</title>
+                  (1812–1817), nos 1847–1848 in the sale catalogue of Southey’s library.</note> (the
+               Military Chronicle<note n="7" place="foot" resp="editors"><title>The Royal Military
+                     Chronicle, or, The British Officer’s Monthly Register, Chronicle, and Military
+                     Mentor</title> (1811–1817).</note> I already have.) One more work must be added
+               to this long list, – <ref type="m" target="people.html#CoxeWilliam">Coxe’s</ref>
+               Spanish Bourbons.<note n="8" place="foot" resp="editors"> William Coxe,
+                     <title>Memoirs of the Kings of Spain of the House of Bourbon</title> (1812);
+                  no. 671 in the sale catalogue of Southey’s library.</note></p>
+            <p rend="indent1"> I had the Times for 1810-11-12 &amp; down to the time when I gave up
+               the Register,<note n="9" place="foot" resp="editors"><title>Edinburgh Annual
+                     Register, for 1811</title> (1813).</note> &amp; by a sort of accident got also
+               the Morning Chronicle for 1810. The M Chronicle for 1808-9-11 &amp; 12 &amp; the
+               Times for 1808-9 ought to be among my documents. So also should be Peltiers
+                  Ambigu.<note n="10" place="foot" resp="editors"> Jean-Gabriel Peltier (1760–1825),
+                  émigré and editor of <title>L’Ambigu</title> a French-language newspaper printed
+                  in London under Tory auspices.</note></p>
+            <p rend="indent1"> I find also among my desiderata the title of a Spanish Book which may
+               perhaps be obtained in London, sooner than I could procure it from Spain. Coleccion
+               de papeles interesantes del ano de 1808.<note n="11" place="foot" resp="editors"
+                     ><title>Coleccion de Papeles Interesantes del Ano de 1808</title> (1808); no.
+                  3200 in the sale catalogue of Southey’s library.</note> This is the only year for
+               which I am deficient in Spanish documents. The deficiency will be in some degree be
+               supplied when I receive from the Junta of Aragon a collection of all their papers
+               which they have sent me thro <ref type="m" target="people.html#AbellaManuel">my
+                  friend at Cadiz</ref>.</p>
+            <p rend="indent1"> Secondly concerning the Review I shall shortly have three short
+               articles for you, – the Nicobar Islands,<note n="12" place="foot" resp="editors">
+                  Johann Gottfried Haensel (1749–1814), <title>Letters on the Nicobar
+                     Islands</title> (1812), reviewed by Southey in <title>Quarterly Review</title>,
+                  11 (April 1814), 57–72.</note> – the Copy-right question,<note n="13" place="foot"
+                  resp="editors"> This article was not completed.</note> – &amp; the World before
+               the Flood,<note n="14" place="foot" resp="editors"> For Southey’s review of
+                  Montgomery’s <title>The World Before the Flood</title> (1813), <title>Quarterly
+                     Review</title>, 11 (April 1814), 79–87.</note> – <ref type="m"
+                  target="people.html#GoochDrRobert">Dr Gooch</ref> spoke to you about obtaining a
+               reviewal of the life of Schiller<note n="15" place="foot" resp="editors"> Friedrich
+                  Schiller’s (1759–1805) life was not reviewed in the <title>Quarterly</title> and
+                  Taylor did not become a contributor. See also Robert Southey to Henry Herbert
+                  Southey, 28 December 1813, Letter 2357.</note> by <del>xx</del><ref type="m"
+                  target="people.html#TaylorWilliam">Wm Taylor</ref> of Norwich. <ref type="m"
+                  target="people.html#TaylorWilliam">Wm Taylor</ref> is an old &amp; highly valued
+               friend of mine, singular in his style, singular in his opinions, &amp; in many of
+               these very erroneous, but of almost unparallelled ingenuity, &amp; one of the best of
+               men. As a German scholar I believe <ref type="m"
+                  target="people.html#ColeridgeSamuelTaylor">Coleridge</ref> to be the only person
+               who equals him. Of course he will advance no opinions dissonant from those of your
+               Review, &amp; &lt;he&gt; is too much accustomed to see his pecularities of diction
+               altered by an Editor to complain of the exertion of this necessary prerogative. For
+               many years he was the best writer in the Monthly,<note n="16" place="foot"
+                  resp="editors"> Taylor was a salaried reviewer for the <title>Monthly
+                     Review</title> 1793–1799.</note> when the Monthly stood unrivalled. You will
+               find him a valuable assistant, bringing originality &amp; genius to whatever he
+               undertakes. <ref type="m" target="people.html#GoochDrRobert">Gooch</ref> told me that
+               he was expecting you would send him the book. Do not delay this, if it be not already
+               done. Whatever he does for you will attract notice &amp; gain credit, &amp; it will
+               be wholesome for him to feel himself in orthodox company.</p>
+            <p rend="indent1"> Was there ever such a succession of tidings of great joy! One thing
+               only is wanting to crown the whole, – the death of the Tyrant.<note n="17"
+                  place="foot" resp="editors"> i.e. Napoleon Bonaparte (1769–1821). French forces
+                  were in retreat in both Germany (after the Battle of Leipzig, 16–19 October 1813)
+                  and Spain (where British forces had crossed into France on 7 October 1813), and an
+                  allied victory was increasingly certain.</note><hi rend="ital">Pereat
+                  iste</hi><note n="18" place="foot" resp="editors"> ‘Let him die himself’.</note>
+               is my prayer. – Yet if his destiny were in my hand I think I should <del>xx</del>
+               condemn him to end his days as a maniac in <del>xx</del> a hospital at Paris. It is
+               in better hands, &amp; sooner or later, vengeance will fall upon his head. – I think
+               the Bourbons will be restored. Whether I wish for their restoration is a question
+               which I should find it difficult to answer.</p>
+            <closer><salute rend="indent1"> Believe me my dear Sir</salute><salute rend="indent2">
+                  Yrs very truly</salute><signed rend="indent3"> Robert Southey.</signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

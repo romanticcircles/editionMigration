@@ -1,8 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">About</title><title type="sub" level="m">The Collected Letters of Robert Southey </title><author>Lynda Pratt</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
-               Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">about</idno><availability><p>Originally published by Romantic Circles <date when="2013-05-30">May 30, 2013</date>.</p></availability></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">About</title>
+            <title type="sub" level="m">The Collected Letters of Robert Southey </title>
+            <author>Lynda Pratt</author>
+            <editor>Lynda Pratt</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Averill Buchanan</name>
+            </respStmt>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2026-09-15</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <idno type="edition">about</idno>
+            <availability>
+               <p>Originally published by Romantic Circles <date when="2013-05-30">May 30,
+                     2013</date>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
                collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
                Collection of English and American Literature, The New York Public Library, Astor,
                Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
@@ -17,27 +54,169 @@
                New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
                Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
                Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
-               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work possible, as
-               did support from the English Department of Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
-                  and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
-                  keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more exact
-                  rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey's spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy targetDatcat="https://viaf.org/">
+               <bibl>VIAF</bibl>
+               <category xml:id="viaf_61576896">
+                  <catDesc>Southey, Robert, 1774-1843</catDesc>
+               </category>
+               <category xml:id="viaf_118520952">
+                  <catDesc>Pratt, Lynda, 1964-</catDesc>
+               </category>
+               <category xml:id="viaf_116328125">
+                  <catDesc>Packer, Ian, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_18359329">
+                  <catDesc>Fulford, Tim, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_42171645">
+                  <catDesc>Bolton, Carol</catDesc>
+               </category>
+               <category xml:id="viaf_250654121">
+                  <catDesc>Buchanan, Averill</catDesc>
+               </category>
+               <category xml:id="viaf_41749340">
+                  <catDesc>Mandell, Laura, 1958-</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+               <bibl>Wikidata</bibl>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
+               </category>
+               <category xml:id="Q36279">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="Q1277575">
+                  <catDesc>correspondence</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+               <bibl>Southey Letters: Biographies</bibl>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+               <bibl>Southey Letters: Places</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
+            <catRef target="#Q1277575" scheme="Wikidata"/>
+            <catRef target="#viaf_61576896" scheme="VIAF"/>
+            <catRef target="#viaf_118520952" scheme="VIAF"/>
+            <catRef target="#viaf_250654121" scheme="VIAF"/>
+            <catRef target="#viaf_41749340" scheme="VIAF"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+               <item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+               <item>Added dates of original publication by Romantic Circles</item>
+            </list></change>
+         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML files</item>
+            </list></change>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Created new header for new edition edition XML from old edition XML dated
                   2013-05-30. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-               </item></list></change><change n="10" when="2013-05-30" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list><item>Ran Transforms after final proofing Southey Part 4</item></list></change><change n="9" when="2013-02-15" who="LM"><label>Changed by</label><name>Laura
-               Mandell</name><list><item>XSLT Transforming after additions up to Part 4</item></list></change><change n="8" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list><item>XSLT Transforming after latest corrections</item></list></change><change n="7" when="2011-07-06" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="6" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="5" when="2011-02-21" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list><item>Part II added</item></list></change><change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
-               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
-               Buchanan</name><list><item>corrections from proofing</item></list></change><change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
-               Mandell</name><list><item>XSLT Transforming</item></list></change><change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB">Averill Buchanan</name><list><item>TEI Encoding</item></list></change></revisionDesc></teiHeader><text><body><div type="paratext"><head>About this Edition</head><p><hi rend="bold">Editorial Methodology</hi></p><p><title level="m">The Collected Letters of Robert Southey</title> is divided into
+               </item>
+            </list></change>
+         <change n="10" when="2013-05-30" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>Ran Transforms after final proofing Southey Part 4</item>
+            </list></change>
+         <change n="9" when="2013-02-15" who="LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>XSLT Transforming after additions up to Part 4</item>
+            </list></change>
+         <change n="8" when="2011-08-15" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>XSLT Transforming after latest corrections</item>
+            </list></change>
+         <change n="7" when="2011-07-06" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>XSLT Transforming</item>
+            </list></change>
+         <change n="6" when="2011-03-20" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list>
+               <item>corrections from proofing</item>
+            </list></change>
+         <change n="5" when="2011-02-21" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list>
+               <item>Part II added</item>
+            </list></change>
+         <change n="4" when="2009-03-10" who="#LM"><label>Changed by</label><name>Laura
+               Mandell</name><list>
+               <item>XSLT Transforming</item>
+            </list></change>
+         <change n="3" when="2009-03-02" who="#AB"><label>Changed by</label><name>Averill
+               Buchanan</name><list>
+               <item>corrections from proofing</item>
+            </list></change>
+         <change n="2" when="2009-02-20" who="#LM"><label>Changed by</label><name xml:id="LM">Laura
+               Mandell</name><list>
+               <item>XSLT Transforming</item>
+            </list></change>
+         <change n="1" when="2009-02-20" who="#AB"><label>Changed by</label><name xml:id="AB"
+               >Averill Buchanan</name><list>
+               <item>TEI Encoding</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="paratext">
+            <head>About this Edition</head>
+            <list>
+               <item><ref target="#editMeth">Editorial Methodology</ref></item>
+               <item><ref target="#ppl">People</ref></item>
+               <item><ref target="#ack">Acknowledgements</ref></item>
+               <item><ref target="#techInfo">Technical Introduction</ref></item>
+               <item><ref target="#citInfo">Citation Information</ref></item>
+            </list>
+            <p xml:id="editMeth"><hi rend="bold">Editorial Methodology</hi></p>
+            <p><title level="m">The Collected Letters of Robert Southey</title> is divided into
                eight Parts: I: 1791-1797, II:1798-1803, III:1804-09, IV:1810-15, V:1816-21,
-               VI:1822-27, VII:1828-33, VIII:1833-39. </p><p>The General Introduction outlines the project’s research context. In addition, each
-               individual Part has a brief introductory essay. </p><p>Throughout the edition, letters are presented in chronological order, each letter
+               VI:1822-27, VII:1828-33, VIII:1833-39. </p>
+            <p>The General Introduction outlines the project’s research context. In addition, each
+               individual Part has a brief introductory essay. </p>
+            <p>Throughout the edition, letters are presented in chronological order, each letter
                being assigned its own number. Any letters that have been located after the first
                publication of an individual Part of the edition are inserted at their appropriate
                chronological point and given a suffix number (e.g. .1,.2): see, for example, Letter
@@ -52,39 +231,44 @@
                published version of a letter is fuller than the surviving manuscript. In these an
                edited, annotated transcript of the manuscript version has been placed within the
                main run of letters (see Letters 46 and 147), and the text of the longer, previously
-               published version in Appendix 1.</p><p>We have followed the editors of the letters of Mark Twain and adopted a ‘plain text’
+               published version in Appendix 1.</p>
+            <p>We have followed the editors of the letters of Mark Twain and adopted a ‘plain text’
                methodology in order to produce a text that is more quickly intelligible to the
                reader but that also represents, as closely as our digitised transcriptions can, the
                original holograph letters.<note n="1" place="foot" resp="editors">For a full
-                  explication of ‘plain text’ see ‘Guide to Editorial Practice, (MTDP 00005).’ In
-                  Mark Twain Project Online. Berkeley, Los Angeles, London: University of California
-                  Press. 2007. <ref target="http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;style=letterletter;brand=mtp">&lt;http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;style=letterletter;brand=mtp&gt;</ref>,
-                  accessed 2014-12-19.</note> Our aim is to allow the reader to get as close as
-               possible to what Southey wrote and thus to provide an insight into the creative
-               processes that underpinned his letter writing. This is particularly important now,
-               when the older idea of Southey as someone who wrote with ease and never blotted a
-               line or deleted a word is being challenged by new textual and critical scholarship.
-               All letters are transcribed in full and editorial intervention in the text has been
-               kept to a minimum. Southey’s original spelling, and mis-spelling, grammar,
-               punctuation and any slips of his pen have been retained. Deletions are indicated by
-               striking through the cancelled word or phrase, but without any attempt to indicate
-               the heaviness of the deletion: e.g. ‘<del>he said</del>’. In those cases where
-               Southey changed his mind and wrote over his original thought, we have put his final
-               version in the text of the letter and indicated the original words or characters in
-               an endnote. Throughout the text, ‘x’ is used to indicate an illegible character: e.g.
-               ‘he xxid’. Underlining is indicated by italics: e.g. ‘<hi rend="ital">he</hi> said’.
-               The exception to this rule is where Southey used underlining not for emphasis but to
-               indicate an abbreviation written in superscript: eg. ‘D<hi rend="sup">r</hi>’ rather
-               than ‘Doctor’ or ‘Dr’. This was something Southey did occasionally and irregularly,
-               particularly on address leaves. It is not possible to code a character or set of
-               characters in both underline or italic and superscript, so in these cases we have
-               silently regularised his practice and presented all his superscript abbreviations,
-               both underlined or not, in superscript: e.g. ‘M<hi rend="sup">rs</hi> Smith said’.
-               Editorial [...] within the text of an individual letter are used to indicate issues
-               relating to the manuscript: a tear, cut, missing section or area obscured by a seal
-               mark or blot, or a substantial section of a letter in the hand of a co-correspondent.
-               See, for example, Letter 56, co-written with Grosvenor Charles Bedford. Editorial
-               {...} are used to indicate an authorial insertion of text above or below the line. </p><p>We have retained Southey’s paragraphing but have not otherwise replicated the lineage
+                  explication of ‘plain text,’ see ‘Guide to Editorial Practice, (MTDP 00005),’ Mark
+                  Twain Project Online (Berkeley, Los Angeles, London: University of California
+                  Press, 2007), accessed 2014-12-19 (on <ref target="https://legacy.mtpo2.org/">the
+                     legacy site</ref> or more recently, here: <ref
+                     target="https://www.marktwainproject.org/editing.html">Textual Editing at the
+                     Mark Twain Project</ref>, "Plain Text."</note> Our aim is to allow the reader
+               to get as close as possible to what Southey wrote and thus to provide an insight into
+               the creative processes that underpinned his letter writing. This is particularly
+               important now, when the older idea of Southey as someone who wrote with ease and
+               never blotted a line or deleted a word is being challenged by new textual and
+               critical scholarship. All letters are transcribed in full and editorial intervention
+               in the text has been kept to a minimum. Southey’s original spelling, and
+               mis-spelling, grammar, punctuation and any slips of his pen have been retained.
+               Deletions are indicated by striking through the cancelled word or phrase, but without
+               any attempt to indicate the heaviness of the deletion: e.g. ‘<del>he said</del>’. In
+               those cases where Southey changed his mind and wrote over his original thought, we
+               have put his final version in the text of the letter and indicated the original words
+               or characters in an endnote. Throughout the text, ‘x’ is used to indicate an
+               illegible character: e.g. ‘he xxid’. Underlining is indicated by italics: e.g. ‘<hi
+                  rend="ital">he</hi> said’. The exception to this rule is where Southey used
+               underlining not for emphasis but to indicate an abbreviation written in superscript:
+               eg. ‘D<hi rend="sup">r</hi>’ rather than ‘Doctor’ or ‘Dr’. This was something Southey
+               did occasionally and irregularly, particularly on address leaves. It is not possible
+               to code a character or set of characters in both underline or italic and superscript,
+               so in these cases we have silently regularised his practice and presented all his
+               superscript abbreviations, both underlined or not, in superscript: e.g. ‘M<hi
+                  rend="sup">rs</hi> Smith said’. Editorial [...] within the text of an individual
+               letter are used to indicate issues relating to the manuscript: a tear, cut, missing
+               section or area obscured by a seal mark or blot, or a substantial section of a letter
+               in the hand of a co-correspondent. See, for example, Letter 56, co-written with
+               Grosvenor Charles Bedford. Editorial {...} are used to indicate an authorial
+               insertion of text above or below the line. </p>
+            <p>We have retained Southey’s paragraphing but have not otherwise replicated the lineage
                of prose, the pagination, the hand, or any other physical features of his letters
                that it is clear Southey did not invest with any meaning. Throughout the edition,
                words split in the text of an individual letter by the end of a line or a page have
@@ -95,11 +279,21 @@
                these cases, the run over word or line/s has been silently incorporated into the
                preceding part of the line or stanza as it is clear that the break had no meaning to
                Southey and was dictated purely by the spatial constraints of the manuscript
-               page.</p><p>Each letter has an editorial headnote. This records the location of the manuscript,
+               page.</p>
+            <p>Each letter has an editorial headnote. This records the location of the manuscript,
                if it has survived, and describes its physical characteristics, using the following
-               abbreviations:</p><p>ALS: autograph letter signed</p><p>AL: autograph letter, without signature</p><p>(A)LS: more than 50% of the manuscript in a hand other than Southey’s</p><p>TR = survives as a transcript in another hand</p><p>TS = survives as a typescript</p><p>p. = numbers of pages of the letter containing script, including the address leaf,
-               when this has survived</p><p>(c) = letter transcribed and checked from a digital scan, photograph or photocopy of
-               the manuscript</p><p>The headnote also notes any previous instances of publication and deals with other
+               abbreviations:</p>
+            <p><hi rend="bold">ALS</hi>: autograph letter signed</p>
+            <p><hi rend="bold">AL</hi>: autograph letter, without signature</p>
+            <p><hi rend="bold">(A)LS</hi>: more than 50% of the manuscript in a hand other than
+               Southey’s</p>
+            <p><hi rend="bold">TR</hi> = survives as a transcript in another hand</p>
+            <p><hi rend="bold">TS</hi> = survives as a typescript</p>
+            <p><hi rend="bold">p.</hi> = numbers of pages of the letter containing script, including
+               the address leaf, when this has survived</p>
+            <p><hi rend="bold">(c)</hi> = letter transcribed and checked from a digital scan,
+               photograph or photocopy of the manuscript</p>
+            <p>The headnote also notes any previous instances of publication and deals with other
                relevant issues, such as endorsements, watermarks, postmarks, franks, stamps and
                dating. This edition provides important new information about when many of Southey’s
                letters were actually written, and re-dates letters that have been misdated or
@@ -113,7 +307,8 @@
                an endorsement on the letter indicates its date of receipt; ‘after’ is used when a
                letter contains an authorial date, but there is evidence within the letter that it
                was continued after that time; ‘?’ is used to indicate a dating about which there
-               remains some uncertainty.</p><p>Detailed information about Southey’s correspondents, along with other important
+               remains some uncertainty.</p>
+            <p>Detailed information about Southey’s correspondents, along with other important
                figures in his letters, can be found in the ‘Biographies’ section. Each entry in this
                section also contains a list of letters to and list of letters about the person it
                deals with. People mentioned in the ‘Biographies’ section are hyperlinked from the
@@ -121,7 +316,8 @@
                their identity needs further clarification than that supplied by the letter text.
                Information about where Southey lived, locations he was associated with, and the
                homes of friends he visited is provided in the ‘Places’ section of this edition and
-               hyperlinked from the texts of individual letters. </p><p>Editorial notes to the text are used to clarify references to persons, books, places,
+               hyperlinked from the texts of individual letters. </p>
+            <p>Editorial notes to the text are used to clarify references to persons, books, places,
                and events within the main body of each individual letter. They also identify
                quotations and provide translations of foreign language material. A ‘Chronology’
                covers key events in Southey’s life. ‘Indices of People and Letters’ organise
@@ -130,55 +326,78 @@
                Navigation’ bar, on the left-hand side of the page, allow navigation across
                difference sections of the edition. The ‘Search’ facility allows the reader to
                perform dedicated word or phrase searches both across the entire edition (including
-               the editorial apparatus) or within a particular part of it.</p><p>All transcriptions and editorial materials are checked by the editor or editors of
+               the editorial apparatus) or within a particular part of it.</p>
+            <p>All transcriptions and editorial materials are checked by the editor or editors of
                that particular part of the edition and by at least one other member of the editorial
                team. After xml encoding and transformation, each Part of edition is proofed online
                by its editor or editors, who also check the index and search engine. The editor, or
                editors, also ensure any corrections are implemented before the text is made publicly
                available. After publication, any corrections or comments should be directed to Lynda
                Pratt from whom a copy of the current version of the correction file is also
-               available on request.</p><p><hi rend="bold">People</hi></p><p>Lynda Pratt is Professor of Modern Literature and Director of the Centre for Regional
+               available on request.</p>
+            <p xml:id="ppl"><hi rend="bold">People</hi></p>
+            <p>Lynda Pratt is Professor of Modern Literature and Director of the Centre for Regional
                Literature and Culture at the University of Nottingham. She has published widely on
                Southey and his circle. She was general editor of <title level="m">Robert Southey:
                   Poetical Works, 1793-1810</title>, 5 vols (2004) and is co-general editor, with
                Tim Fulford, of <title level="m">Robert Southey: Later Poetical Works,
                   1811-1838</title>, 4 vols (Pickering and Chatto, 2012). Her edited collection
                   <title level="m">Robert Southey and the Contexts of English Romanticism</title>
-               was published in 2006.</p><p>Tim Fulford is a Professor of English at De Montford University. He has published
+               was published in 2006.</p>
+            <p>Tim Fulford is a Professor of English at De Montford University. He has published
                several monographs in which Southey features, most recently <title level="m">Romantic
                   Indians</title> (2006). He edited <title level="m">Thalaba the Destroyer</title>,
                vol. 3 of <title level="m">Robert Southey: Poetical Works, 1793-1810</title> (2004)
                and is co-general editor, with Lynda Pratt, of <title level="m">Robert Southey: Later
-                  Poetical Works, 1811-1838</title>. Fulford and Pratt’s edition the <title level="m">Collected Letters of Robert Bloomfield and his Circle</title> is also
-               online at <title level="m">Romantic Circles</title></p><p>Ian Packer’s publications include <title level="m">The Letters of Arnold Stephenson
+                  Poetical Works, 1811-1838</title>. Fulford and Pratt’s edition the <title
+                  level="m">Collected Letters of Robert Bloomfield and his Circle</title> is also
+               online at <title level="m">Romantic Circles</title></p>
+            <p>Ian Packer’s publications include <title level="m">The Letters of Arnold Stephenson
                   Rowntree to Mary Katherine Rowntree</title> (Cambridge 2002). He has published
-               widely on political and religious history and was an editor on <title level="m">Robert Southey: Later Poetical Works, 1811-1838</title>. </p><p>Carol Bolton was Senior Lecturer in English at Loughborough University. Her monograph
+               widely on political and religious history and was an editor on <title level="m"
+                  >Robert Southey: Later Poetical Works, 1811-1838</title>. </p>
+            <p>Carol Bolton was Senior Lecturer in English at Loughborough University. Her monograph
                   <title level="m">Writing the Empire: Robert Southey and Romantic
-                  Colonialism</title> was published in 2007. Her edition of Southey’s <title level="m">Letters from England by Don Manuel Alvarez Espriella</title> appeared in
+                  Colonialism</title> was published in 2007. Her edition of Southey’s <title
+                  level="m">Letters from England by Don Manuel Alvarez Espriella</title> appeared in
                2016 and of <title level="m">Captain Beaver’s African Journal</title>, co-edited with
                Christopher Brown, in 2023. She has published widely on Romantic period writing and
                was an editor on <title level="m">Robert Southey: Later Poetical Works,
-                  1811–1838</title>. </p><p>W. A. Speck was Emeritus Professor of History at the University of Leeds and was a
+                  1811–1838</title>. </p>
+            <p>W. A. Speck was Emeritus Professor of History at the University of Leeds and was a
                Special Professor in the School of English Studies at the University of Nottingham.
                His <title level="m">Robert Southey: Entire Man of Letters</title> was published by
-               Yale University Press in 2006.</p><p>Averill Buchanan was an AHRC-funded research fellow on <title level="m">The Collected
+               Yale University Press in 2006.</p>
+            <p>Averill Buchanan was an AHRC-funded research fellow on <title level="m">The Collected
                   Letters of Robert Southey</title>, based at the University of Nottingham. She
                completed an AHRC-funded PhD at Queen’s University Belfast in 2004 on the Anglo-Irish
                writer Mary Tighe. Her monograph <title level="m">Mary Blachford Tighe: The Irish
-                  Psyche</title> was published by Cambridge Scholars Publishing in 2011.</p><p>Sara Slinn was a Modern Humanities Research Association Research Associate on <title level="m">Part 7</title> and <title level="m">Part 8 of the Collected Letters of
+                  Psyche</title> was published by Cambridge Scholars Publishing in 2011.</p>
+            <p>Sara Slinn was a Modern Humanities Research Association Research Associate on <title
+                  level="m">Part 7</title> and <title level="m">Part 8 of the Collected Letters of
                   Robert Southey</title>. Her publications include <title level="m">The Education of
                   the Anglican Clergy, 1780–1839</title> (Boydell and Brewer, 2017), articles in
                   <title>Historical Research</title> and <title>Studies in Church History</title>,
                and, as co-editor, <title level="m">The Love Letters and Poems of Anna Beddoes,
-                  Humphry Davy, and Davies Giddy, 1799–1809</title>.</p><p>Sam Ward was an AHRC-funded research fellow on <title level="m">The Collected Letters
+                  Humphry Davy, and Davies Giddy, 1799–1809</title>.</p>
+            <p>Sam Ward was an AHRC-funded research fellow on <title level="m">The Collected Letters
                   of Robert Southey</title>, based at the University of Nottingham. He completed an
                AHRC-funded PhD at Nottingham Trent University in 2006. He has published
                peer-reviewed essays on John Clare John and Robert Bloomfield. His research interests
-               also include James Montgomery.</p><p><hi rend="bold">Contact</hi></p><p>The editors welcome comments and corrections. Please contact:</p><p>Lynda Pratt: <ref target="mailto:lynda.pratt@nottingham.ac.uk">Lynda.Pratt@nottingham.ac.uk</ref></p><p><hi rend="bold">Acknowledgements</hi></p><p>Every effort has been made to contact copyright holders for their permission to
+               also include James Montgomery.</p>
+            <p><hi rend="bold">Contact</hi></p>
+            <p>The editors welcome comments and corrections. Please contact:</p>
+            <p>Lynda Pratt: <ref target="mailto:lynda.pratt@nottingham.ac.uk"
+                  >Lynda.Pratt@nottingham.ac.uk</ref></p>
+            <p xml:id="ack"><hi rend="bold">Acknowledgements</hi></p>
+            <p>Every effort has been made to contact copyright holders for their permission to
                reprint material in this edition. The editors would be grateful to hear from any
                copyright holder who is not here acknowledged and undertake to rectify any omissions
-               or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
-               collections: </p><p>North America</p><p>The Bancroft Library, University of California, Berkeley; Beinecke Library, Yale
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: </p>
+            <p>North America</p>
+            <p>The Bancroft Library, University of California, Berkeley; Beinecke Library, Yale
                University; The Henry W. and Albert A. Berg Collection of English and American
                Literature, The New York Public Library, Astor, Lenox and Tilden Foundations;
                Professor Paul F. Betz; the Private Collection of Fred Burwick; The Trustees of the
@@ -208,7 +427,9 @@
                Toronto; the Library, Washington University in St Louis; Wellesley College; Special
                Collections; the Wilson Library, The University of North Carolina at Chapel Hill;
                UCLA Library Special Collections, Charles E. Young Research Library, University of
-               California, Los Angeles.</p><p>United Kingdom </p><p>Department of Manuscripts and Special Collections, University of Birmingham; Bodleian
+               California, Los Angeles.</p>
+            <p>United Kingdom </p>
+            <p>Department of Manuscripts and Special Collections, University of Birmingham; Bodleian
                Libraries, University of Oxford; Bristol Archives; Bristol City Library, Bristol;
                British Library, London; Brotherton Library, Leeds University; The Principal and
                Fellows of Newnham College, Cambridge; the Master and Fellows of Trinity College,
@@ -231,14 +452,19 @@
                West Yorkshire Archive Service; the Governing Body of Westminster School; Cumbria
                Archive and Local Studies Centre, Whitehaven; Dr Williams’s Trust, London; Wisbech
                and Fenland Museum; The Wordsworth Trust, Dove Cottage, Grasmere; H.R. Woudhuysen,
-               Oxford; and the Borthwick Institute for Archives, University of York.</p><p>Material from the Methodist collection deposited at The John Rylands Research
+               Oxford; and the Borthwick Institute for Archives, University of York.</p>
+            <p>Material from the Methodist collection deposited at The John Rylands Research
                Institute and Library is used with the permission of The John Rylands University
                Librarian and Director of the University of Manchester Library and The Trustees for
-               Methodist Church Purposes (The Methodist Church in Britain).</p><p>Europe</p><p>Allard Pierson, University of Amsterdam; Biblioteca Pública de Évora; Bibliothèque de
-               Genève; and Universiteitsbibliotheek, Ghent.</p><p>The editors are extremely grateful to the family of the late Robert Galloway
+               Methodist Church Purposes (The Methodist Church in Britain).</p>
+            <p>Europe</p>
+            <p>Allard Pierson, University of Amsterdam; Biblioteca Pública de Évora; Bibliothèque de
+               Genève; and Universiteitsbibliotheek, Ghent.</p>
+            <p>The editors are extremely grateful to the family of the late Robert Galloway
                Kirkpatrick Jnr for granting us permission to quote from his unpublished doctoral
                thesis ‘The Letters of Robert Southey to Mary Barker From 1800 to 1826’ (Harvard,
-               1967).</p><p>The editors are indebted to the following individuals for their advice, support and
+               1967).</p>
+            <p>The editors are indebted to the following individuals for their advice, support and
                assistance: Joselyn Almeida-Beveridge, Kerri Andrews, Frances Banks, John Bolton,
                Sally Bowden, Anthony Bowen, Averill Buchanan, Thora Brylowe, Richard Butterwick–
                Pawlikowski, Julia S. Carlson, Maria Castanheira, Paul Cheshire, Pamela Clemit,
@@ -251,7 +477,8 @@
                Speitz, Jane Stabler, Sandra Stelts, Lucia Scigliano Suarez, Bill Speck, Jessica
                Tebo, Douglass H. Thomson, Sam Ward, Steve Wharton, Timothy D. Whelan, Amy
                Wilcockson, Susan J. Wolfson, David Worrall, Duncan Wu, Edward Yescombe and Nahem
-               Yousaf.</p><p>In addition to the unfailing assistance, courtesy and expertise of those already
+               Yousaf.</p>
+            <p>In addition to the unfailing assistance, courtesy and expertise of those already
                named above, <title level="m">The Collected Letters of Robert Southey</title> has
                also been made possible by funding from the following institutions and organisations.
                The general editors thank the Arts and Humanities Research Council for a Resource
@@ -268,13 +495,26 @@
                their financial support: the Aurelius Charitable Trust, the Charlotte Bonham Carter
                Charitable Trust, the John S. Cohen Foundation, the Gladys Krieble Delmas Foundation,
                the Gibbs Trust, Bristol, the Mercers Charitable Foundation, the Thriplow Charitable
-               Trust, and the Wyfold Trust.</p><p><title level="m">The Collected Letters of Robert Southey</title> has also benefited
+               Trust, and the Wyfold Trust.</p>
+            <p><title level="m">The Collected Letters of Robert Southey</title> has also benefited
                from grants from the School of English, University of Nottingham; Humanities Research
                Centre, University of Nottingham; the Humanities and Social Sciences Strategic
                Research Fund, University of Nottingham; the English Department, Nottingham Trent
-               University; the University of Lincoln; and Loughborough University.</p><p><hi rend="bold">Design and Markup and Conditions of Use</hi></p><p>This edition was TEI-encoded by Averill Buchanan. Laura Mandell and Dave Rettemaier
-               developed the modified versions of the transforms provided by the TEI that were used
-               to convert the TEI files into HTML. TEI renders text archival quality for better
-               preservation and future access.</p><p><title level="m">The Collected Letters of Robert Southey</title> by Lynda Pratt, Tim
-               Fulford, Carol Bolton, Romantic Circles and the University of Colorado is licensed
-               under <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1">CC BY-NC-ND 4.0</ref>.</p></div></body></text></TEI>
+               University; the University of Lincoln; and Loughborough University.</p>
+            <p xml:id="techInfo"><hi rend="bold">Technical Information</hi></p>
+            <p>The product of many years of work by both the editors and the technical experts at
+               Romantic Circles including Dave Rettenmaier and Jessica Tebo, this edition was
+               encoded by Averill Buchanan using the XML tagset developed by the <ref
+                  target="https://tei-c.org/">Text Encoding Initiative Consortium</ref> to ensure
+               archival preservation. <ref target="https://lauracmandell.org">Laura Mandell</ref>
+               created the digital edition website, writing programs to transform the TEI files into HTML (including
+               css and JavaScript), csv files for downloading information about <ref
+                  target="corresp.html">correspondents</ref>, <ref target="mentioned.html">people
+                  mentioned</ref>, and network analysis (forthcoming). Dr. Mandell also generated the Search Engine.s</p>
+            <p xml:id="citInfo"><hi rend="bold">Citation Information</hi></p>
+            <p><title level="m">The Collected Letters of Robert Southey</title>, Gen. Ed. Lynda
+               Pratt (College Station, TX: Romantic Circles, 2026).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

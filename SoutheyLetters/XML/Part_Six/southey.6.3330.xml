@@ -1,59 +1,249 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">3330. Robert Southey to John Kenyon, 17 July
-                  1819</title><title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title><author role="primary" from="1774" to="1843"><persName ana="http://viaf.org/viaf/61576896"><forename>Robert</forename><surname>Southey</surname></persName></author><editor>Ian Packer</editor><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition n="6">Part Six <date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of
-								Colorado and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">southey.6.3330</idno><availability><p>Originally published by Romantic Circles <date when="2017-01-20">January 20, 2017</date>.</p></availability></publicationStmt><sourceDesc><p>Keswick Museum and Art Gallery, KESMG 1996.5.233. ALS; 4p.
-                  .  Not previously published.</p><p>These letters were edited by Ian Packer and Lynda Pratt</p><p>Every effort has been made to contact
-                    copyright holders for their permission to reprint material in this edition. The
-                    editors would be grateful to hear from any copyright holder who is not here
-                    acknowledged and undertake to rectify any omissions or errors in future updates
-                    of this
-                    edition.</p><p>The editors thank the following for giving us access to manuscripts in their
-                    collections: the Beinecke Rare Books and Manuscript Library, Yale University;
-                    Berg Collection of English and American Literature, The New York Public Library,
-                    Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
-                    British Library; Boston Public Library; the Syndics of Cambridge University
-                    Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College,
-                    Connecticut; the Historical Society of Pennsylvania; the Hornby Library,
-                    Liverpool Libraries and Information Services; the Houghton Library, Harvard
-                    University; the John Rylands Library, Manchester; the Kenneth Spencer Research
-                    Library, University of Kansas; Luton Museum (Bedfordshire County Council);
-                    Massachusetts Historical Society; McGill University Library; the National
-                    Library of Scotland; the Newberry Library, Chicago; the New York Public Library
-                    (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public
-                    Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
-                    Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
-                    Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-                    Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival
-								work possible, as did support from the English Department of
-								Nottingham Trent University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “,"
-									for ”, ' for ‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed
-									on the U.S. keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give
-									a more exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been
-									indicated as such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces,
-									etc., have been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/><catRef target="#viaf_116328125" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old
-									edition XML dated 2017-01-20. For the old header, see
-									SoutheyLetters/XML/origHdr/origHdr.26.xml. </item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to "Part Six" (correct)</item></list></change><change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Ran transforms for proofing Southey Part 6</item></list></change><change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David Rettenmaier</name><list><item>Incorporated new header info per Averill Buchanan and other minor fixes.</item></list></change></revisionDesc></teiHeader><text><body><div n="3330" type="letter"><head>3330. Robert Southey to <ref type="a" target="people.html#KenyonJohn">John Kenyon</ref>, <date when="1819-07-17">17 July
-                  1819</date><note type="headnote" place="foot" resp="editors">Address: For/ John Kenyon Esq<hi rend="sup">re</hi>/ to the care of
-                     Mess<hi rend="sup">rs</hi> Denisons’/ Fenchurch Street/ London<lb/> Stamped: KESWICK/ 298<lb/> Postmark: F/ 20 JY 20/ 1819<lb/>
-                  Seal: red wax, design illegible<lb/> Endorsement: Southey.<lb/> MS: Keswick Museum and Art Gallery, KESMG 1996.5.233. ALS; 4p.<lb/>
-                  Unpublished</note></head><opener><dateline><address><placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName></address><date when="1819-07-17">17 July. 1819.</date></dateline><salute rend="indent0"> My dear Sir</salute></opener><p rend="indent1"> Your letter to <ref type="m" target="people.html#FrickerSarah">M<hi rend="sup">rs</hi> Coleridge</ref> gives us a hope
-               of seeing you in Cumberland. It would vex me if I were to be absent when you arrive. I have an engagement to be in Edinburgh on the
-                  10<hi rend="sup">th</hi> of August, &amp; there meet <ref type="m" target="people.html#RickmanJohn">a friend</ref> from London, to
-               proceed to the Highlands with him.<note n="1" place="foot" resp="editors">Southey’s tour of Scotland lasted from 17 August until 1
-                  October 1819. For his record of events, see <title>Journal of a Tour in Scotland in 1819</title>, ed. Charles Harold Herford
-                  (1929).</note> He is a busy man, &amp; I have no time to spare. – I calculate therefore on returning home within four weeks, – &amp;
-                  <del>will engage that</del> you <del>shall</del> will find me here the first week in September. – Our spare-bed is likely to be
-               occupied by my fellow traveller <ref type="m" target="people.html#NashEdward">Nash</ref>, – otherwise I should not be willing that you
-               should seek a lodging elsewhere. But the more of your in-door time that you can give us the better, &amp; I shall be at your service
-               for the Lake &amp; the Mountains, – almost as able of limb as I was fifteen years ago when we had our Pisgah view<note n="2" place="foot" resp="editors">A view of something that will not be visited, as in the view of the Promised Land given to Moses,
-                     <title>Deuteronomy</title> 34: 1–4. Kenyon had visited Southey in 1804; see Southey to Henry Herbert Southey, 21 November 1804,
-                     <title>The Collected Letters of Robert Southey. Part Three</title>, Letter 991.</note> of Was-dale at sunset, – tho
-                  <del>xxx</del> in &lt;some&gt; other respects a little the worse for the wear.</p><p rend="indent1"> I learned from the newspapers what had befallen you at Naples.<note n="3" place="foot" resp="editors">Kenyon’s first
-                  wife, Susan (d. 1818), had died at Naples during their continental tour.</note> On such occasions it is worse than idle to offer
-               either condolence or consolation, the former is impertinent, &amp; the latter is best found in ourselves. You have yet, I trust, many
-               years of happiness in store.</p><p rend="indent1"> This little town is almost doubled in size since you saw it, – the elder generation has passed to the church-yard, the
-               younger shot up into manhood, &amp; half the population has come into the world, during the intervening years. The <ref type="m" target="people.html#SoutheyEdithMay">little girl</ref> (then my only one) who you remember in arms, is now as tall as <ref type="m" target="people.html#FrickerEdith">her mother</ref>. I have three others,<note n="4" place="foot" resp="editors"><ref type="m" target="people.html#SoutheyBertha">Bertha</ref>, <ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note> – &amp; after an interval of seven years from the birth of the
-               last, <ref type="m" target="people.html#SoutheyCharlesCuthbert">a boy</ref> just five months old. – Whether I shall ever have heart to
-               attempt to educate him, – if we should both live till he requires tuition, is a question which I have not asked myself. But it is not
-               the vice of my nature to look forward with anxiety</p><p rend="indent1"> Farewell my dear Sir. Tell me of your arrival in England, – &amp; that we may expect to bid you welcome here –</p><closer><salute rend="indent1"> Yrs very truly</salute><signed rend="indent2"> Robert Southey</signed></closer><postscript><p rend="indent1">It would give <ref type="m" target="people.html#SoutheyHenryHerbert">my brother</ref> great pleasure to see you.
-                     <del>You &amp;</del> His name is on the door of <ref target="places.html#QueenAnneSt">N<hi rend="sup">o</hi> 15. Queen
-                     Anne Street, Cavendish Square</ref></p></postscript></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">3330. Robert Southey to John Kenyon, 17 July 1819</title>
+            <title type="sub" level="m">The Collected Letters of Robert Southey, Part Six</title>
+            <author role="primary" from="1774" to="1843"><persName
+                  ana="http://viaf.org/viaf/61576896"
+                     ><forename>Robert</forename><surname>Southey</surname></persName></author>
+            <editor>Ian Packer</editor>
+            <editor>Lynda Pratt</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Averill Buchanan</name>
+            </respStmt>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Thora Brylowe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="6">Part Six <date>2026-09-15</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Romantic Circles, https://romantic-circles.org, University of Colorado and
+               Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <idno type="edition">southey.6.3330</idno>
+            <availability>
+               <p>Originally published by Romantic Circles <date when="2017-01-20">January 20,
+                     2017</date>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Keswick Museum and Art Gallery, KESMG 1996.5.233. ALS; 4p. . Not previously
+               published.</p>
+            <p>These letters were edited by Ian Packer and Lynda Pratt</p>
+            <p>Every effort has been made to contact copyright holders for their permission to
+               reprint material in this edition. The editors would be grateful to hear from any
+               copyright holder who is not here acknowledged and undertake to rectify any omissions
+               or errors in future updates of this edition.</p>
+            <p>The editors thank the following for giving us access to manuscripts in their
+               collections: the Beinecke Rare Books and Manuscript Library, Yale University; Berg
+               Collection of English and American Literature, The New York Public Library, Astor,
+               Lenox and Tilden Foundations; the Bodleian Library Oxford University; the British
+               Library; Boston Public Library; the Syndics of Cambridge University Library; the
+               Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the
+               Historical Society of Pennsylvania; the Hornby Library, Liverpool Libraries and
+               Information Services; the Houghton Library, Harvard University; the John Rylands
+               Library, Manchester; the Kenneth Spencer Research Library, University of Kansas;
+               Luton Museum (Bedfordshire County Council); Massachusetts Historical Society; McGill
+               University Library; the National Library of Scotland; the Newberry Library, Chicago;
+               the New York Public Library (Pforzheimer Collections); the Pierpont Morgan Library,
+               New York; the Public Record Offices of Bedford, Suffolk (Bury St Edmunds) and
+               Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of
+               Antiquaries of Newcastle upon Tyne; the Trustees of the William Salt Library,
+               Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as
+               did support from the English Department of Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘,
+                  and ' for ’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                  keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact
+                  rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey's spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy targetDatcat="https://viaf.org/">
+               <bibl>VIAF</bibl>
+               <category xml:id="viaf_61576896">
+                  <catDesc>Southey, Robert, 1774-1843</catDesc>
+               </category>
+               <category xml:id="viaf_118520952">
+                  <catDesc>Pratt, Lynda, 1964-</catDesc>
+               </category>
+               <category xml:id="viaf_116328125">
+                  <catDesc>Packer, Ian, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_18359329">
+                  <catDesc>Fulford, Tim, 1962-</catDesc>
+               </category>
+               <category xml:id="viaf_42171645">
+                  <catDesc>Bolton, Carol</catDesc>
+               </category>
+               <category xml:id="viaf_250654121">
+                  <catDesc>Buchanan, Averill</catDesc>
+               </category>
+               <category xml:id="viaf_41749340">
+                  <catDesc>Mandell, Laura, 1958-</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+               <bibl>Wikidata</bibl>
+               <category xml:id="Q216838">
+                  <catDesc>Robert Southey</catDesc>
+               </category>
+               <category xml:id="Q5977111">
+                  <catDesc>Romantic literature</catDesc>
+               </category>
+               <category xml:id="Q1277575">
+                  <catDesc>correspondence</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+               <bibl>Southey Letters: Biographies</bibl>
+            </taxonomy>
+            <taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+               <bibl>Southey Letters: Places</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#Q216838" scheme="Wikidata"/>
+            <catRef target="#Q5977111" scheme="Wikidata"/>
+            <catRef target="#Q1277575" scheme="Wikidata"/>
+            <catRef target="#viaf_61576896" scheme="VIAF"/>
+            <catRef target="#viaf_118520952" scheme="VIAF"/>
+            <catRef target="#viaf_250654121" scheme="VIAF"/>
+            <catRef target="#viaf_41749340" scheme="VIAF"/>
+            <catRef target="#viaf_116328125" scheme="VIAF"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+               <item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+               <item>Added dates of original publication by Romantic Circles</item>
+            </list></change>
+         <change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Corrected XML files</item>
+            </list></change>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Created new header for new edition edition XML from old edition XML dated
+                  2017-01-20. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
+               </item>
+            </list></change>
+         <change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+               <item>Changed biblStruct/monogr/title[level='m'] from "Part Five" (erroneous) to
+                  "Part Six" (correct)</item>
+            </list></change>
+         <change who="#DR" when="2016-07-22" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list>
+               <item>Ran transforms for proofing Southey Part 6</item>
+            </list></change>
+         <change who="#DR" when="2016-12-23" n="1"><label>Changed by</label><name>David
+               Rettenmaier</name><list>
+               <item>Incorporated new header info per Averill Buchanan and other minor fixes.</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="3330" type="letter">
+            <head>3330. Robert Southey to <ref type="a" target="people.html#KenyonJohn">John
+                  Kenyon</ref>, <date when="1819-07-17">17 July 1819</date><note type="headnote"
+                  place="foot" resp="editors">Address: For/ John Kenyon Esq<hi rend="sup">re</hi>/
+                  to the care of Mess<hi rend="sup">rs</hi> Denisons’/ Fenchurch Street/ London<lb/>
+                  Stamped: KESWICK/ 298<lb/> Postmark: F/ 20 JY 20/ 1819<lb/> Seal: red wax, design
+                  illegible<lb/> Endorsement: Southey.<lb/> MS: Keswick Museum and Art Gallery,
+                  KESMG 1996.5.233. ALS; 4p.<lb/> Unpublished</note></head>
+            <opener><dateline><address>
+                     <placeName><ref target="places.html#Keswick">Keswick</ref>.</placeName>
+                  </address><date when="1819-07-17">17 July. 1819.</date></dateline><salute
+                  rend="indent0"> My dear Sir</salute></opener>
+            <p rend="indent1"> Your letter to <ref type="m" target="people.html#FrickerSarah">M<hi
+                     rend="sup">rs</hi> Coleridge</ref> gives us a hope of seeing you in Cumberland.
+               It would vex me if I were to be absent when you arrive. I have an engagement to be in
+               Edinburgh on the 10<hi rend="sup">th</hi> of August, &amp; there meet <ref type="m"
+                  target="people.html#RickmanJohn">a friend</ref> from London, to proceed to the
+               Highlands with him.<note n="1" place="foot" resp="editors">Southey’s tour of Scotland
+                  lasted from 17 August until 1 October 1819. For his record of events, see
+                     <title>Journal of a Tour in Scotland in 1819</title>, ed. Charles Harold
+                  Herford (1929).</note> He is a busy man, &amp; I have no time to spare. – I
+               calculate therefore on returning home within four weeks, – &amp; <del>will engage
+                  that</del> you <del>shall</del> will find me here the first week in September. –
+               Our spare-bed is likely to be occupied by my fellow traveller <ref type="m"
+                  target="people.html#NashEdward">Nash</ref>, – otherwise I should not be willing
+               that you should seek a lodging elsewhere. But the more of your in-door time that you
+               can give us the better, &amp; I shall be at your service for the Lake &amp; the
+               Mountains, – almost as able of limb as I was fifteen years ago when we had our Pisgah
+                  view<note n="2" place="foot" resp="editors">A view of something that will not be
+                  visited, as in the view of the Promised Land given to Moses,
+                     <title>Deuteronomy</title> 34: 1–4. Kenyon had visited Southey in 1804; see
+                  Southey to Henry Herbert Southey, 21 November 1804, <title>The Collected Letters
+                     of Robert Southey. Part Three</title>, Letter 991.</note> of Was-dale at
+               sunset, – tho <del>xxx</del> in &lt;some&gt; other respects a little the worse for
+               the wear.</p>
+            <p rend="indent1"> I learned from the newspapers what had befallen you at Naples.<note
+                  n="3" place="foot" resp="editors">Kenyon’s first wife, Susan (d. 1818), had died
+                  at Naples during their continental tour.</note> On such occasions it is worse than
+               idle to offer either condolence or consolation, the former is impertinent, &amp; the
+               latter is best found in ourselves. You have yet, I trust, many years of happiness in
+               store.</p>
+            <p rend="indent1"> This little town is almost doubled in size since you saw it, – the
+               elder generation has passed to the church-yard, the younger shot up into manhood,
+               &amp; half the population has come into the world, during the intervening years. The
+                  <ref type="m" target="people.html#SoutheyEdithMay">little girl</ref> (then my only
+               one) who you remember in arms, is now as tall as <ref type="m"
+                  target="people.html#FrickerEdith">her mother</ref>. I have three others,<note
+                  n="4" place="foot" resp="editors"><ref type="m" target="people.html#SoutheyBertha"
+                     >Bertha</ref>, <ref type="m" target="people.html#SoutheyKate">Kate</ref> and
+                     <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note> –
+               &amp; after an interval of seven years from the birth of the last, <ref type="m"
+                  target="people.html#SoutheyCharlesCuthbert">a boy</ref> just five months old. –
+               Whether I shall ever have heart to attempt to educate him, – if we should both live
+               till he requires tuition, is a question which I have not asked myself. But it is not
+               the vice of my nature to look forward with anxiety</p>
+            <p rend="indent1"> Farewell my dear Sir. Tell me of your arrival in England, – &amp;
+               that we may expect to bid you welcome here –</p>
+            <closer><salute rend="indent1"> Yrs very truly</salute><signed rend="indent2"> Robert
+                  Southey</signed></closer>
+            <postscript>
+               <p rend="indent1">It would give <ref type="m"
+                     target="people.html#SoutheyHenryHerbert">my brother</ref> great pleasure to see
+                  you. <del>You &amp;</del> His name is on the door of <ref
+                     target="places.html#QueenAnneSt">N<hi rend="sup">o</hi> 15. Queen Anne Street,
+                     Cavendish Square</ref></p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

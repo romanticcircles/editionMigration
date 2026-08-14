@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -30,7 +33,8 @@
 				<pubPlace>College Station, TX</pubPlace>
 				<idno type="edition">people</idno>
 				<availability>
-					<p>Originally published by Romantic Circles <date when="2009-03-15">March 15, 2009</date>.</p>
+					<p>Originally published by Romantic Circles <date when="2009-03-15">March 15,
+							2009</date>.</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -977,6 +981,7 @@
 					<person n="30">
 						<persName xml:id="BiddlecombeCharles"
 								><forename>Charles</forename><surname>Biddlecombe</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#BiddlecombeCharles"> Neighbour and friend.
 							Biddlecombe met Southey in summer 1797 when the latter moved to the
 							village of Burton in Hampshire. Southey described him as ‘rich enough to
@@ -989,7 +994,7 @@
 							for a number of years. During his 1817 visit to France, Southey ran into
 							Biddlecombe, whom he had not seen for several years, and his invalid
 							daughter, describing the latter as ‘short and plethoric, with a
-							countenance of prepossessing good nature’. (dates unknown)</note>
+							countenance of prepossessing good nature’.</note>
 					</person>
 					<person n="31">
 						<persName xml:id="BiggsNathaniel"
@@ -1347,14 +1352,17 @@
 							MP from 1810 onwards and served as Lord Chancellor 1830–1834.</note>
 					</person>
 					<person n="39">
-						<persName xml:id="BrowneMrs"
-								><forename>Elizabeth</forename><surname>Browne</surname></persName>
+						<persName xml:id="BrowneMrs"><forename>Elizabeth</forename><surname
+								type="birth">Jones</surname><surname type="married"
+							>Browne</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#BrowneMrs">The second wife of Wade Browne, by whom
 							she had one daughter, Mary (1810–1892).</note>
 					</person>
 					<person n="364">
 						<persName xml:id="BrowneElizabethdau"
 								><forename>Elizabeth</forename><surname>Browne</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#BrowneElizabethdau">Unmarried daughter of Wade
 							Browne by his first wife. Southey visited the family home in Ludlow when
 							she was a young woman and later corresponded with her.</note>
@@ -1385,6 +1393,7 @@
 					<person n="465">
 						<persName xml:id="BruceWilliam"
 								><forename>William</forename><surname>Bruce</surname></persName>
+						<floruit>fl. 1800s-1820s</floruit>
 						<note type="bio" target="#BruceWilliam">Captain in the Bombay Marine service
 							of the East India Company and British Resident at Bushire in Iran
 							1803–1807, 1808–1822. He met Southey at Buckland, the home of Caroline
@@ -1864,7 +1873,7 @@
 					<person n="469">
 						<persName xml:id="CharterLouisa"
 								><forename>Louisa</forename><surname>Charter</surname></persName>
-						<birth>1776</birth>
+						<birth>b. 1776</birth>
 						<note type="bio" target="#CharterLouisa">Sister of Emma Peachy and Elizabeth
 							Charter (1782–1860), the friend and correspondent of George Crabbe
 							(1754–1832; <title ref="#dnb">DNB</title>). The three sisters were the
@@ -2474,6 +2483,7 @@
 					<person n="79">
 						<persName xml:id="CrothersMrs"
 								><roleName>Mrs</roleName><surname>Crothers</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#CrothersMrs">A Keswick neighbour of the Southeys.
 							She lived opposite the Vicarage of Crosthwaite Church and was a regular
 							visitor to the Southey household in the 1810s and 1820s.</note>
@@ -2582,9 +2592,10 @@
 							(1953), 212–214.</note>
 					</person>
 					<person n="81">
-						<persName xml:id="DanversMrs"
-								><forename>Mrs.</forename><surname>Danvers</surname></persName>
-						<death when="1803">d. 1803</death>
+						<persName xml:id="DanversMrs"><forename>Mary</forename><surname type="birth"
+								>King</surname><surname type="married">Danvers</surname></persName>
+						<birth>1729</birth>
+						<death>1803</death>
 						<note type="bio" target="#DanversMrs"> Mother of Charles Danvers. She lived
 							at Kingsdown in Bristol and became very close to Southey when he was
 							resident in the city in the late 1790s and 1802–1803. After her death in
@@ -2594,13 +2605,14 @@
 					<person n="378">
 						<persName xml:id="DaunceyLouisa"
 								><forename>Louisa</forename><surname>Dauncey</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#DaunceyLouisa"> Eldest daughter of Philip Dauncey
 							K.C. (1759–1819) and his wife Marie (Mary) (1769–1804), daughter of
 							Elizabeth Dolignon, who had acted in loco parentis during Southey’s time
 							at Westminster School. Louisa married Robert Bill, an admirer of
 							Southey’s poetry, in 1820. As Southey had known both her parents, in
 							1819 he wrote to her, commiserating on the death of her father, which he
-							had read about in the newspapers. (dates unknown)</note>
+							had read about in the newspapers.</note>
 					</person>
 					<person n="82">
 						<persName xml:id="DaveyJohn"
@@ -2658,6 +2670,7 @@
 					<person n="86">
 						<persName xml:id="DeaconKate"
 								><forename>Kate</forename><surname>Deacon</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#DeaconKate"> A friend of Grosvenor Charles Bedford
 							and his family. Daughter of Mr and Mrs Deacon.</note>
 					</person>
@@ -2824,8 +2837,10 @@
 							corresponded with Southey in the 1820s.</note>
 					</person>
 					<person n="381">
-						<persName xml:id="LovellMissMrsDruitt"
-								><roleName>Mrs</roleName><surname>Druitt</surname></persName>
+						<persName xml:id="LovellMissMrsDruitt"><roleName>Mrs</roleName><surname
+								type="birth">Lovell</surname><surname type="married"
+								>Druitt</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#LovellMissMrsDruitt">A sister of Southey’s
 							brother-in-law, Robert Lovell; probably either Deborah (1773–1859),
 							Sarah (dates unknown), Lydia (1777–1830) or Rachael Lovell (dates
@@ -2955,6 +2970,7 @@
 						<persName xml:id="EgertonThomasJohn"
 								><forename>Thomas</forename><surname>Egerton</surname></persName>
 						<floruit>fl. 1750–1830</floruit>
+						<note type="idInfo">and John (d. 1795)</note>
 						<note type="bio" target="#EgertonThomasJohn"> London publishers and
 							booksellers. Southey and his collaborators Bedford and Wynn, employed
 							the Egertons as printers for the first five numbers of the schoolboy
@@ -3069,7 +3085,7 @@
 					</person>
 					<person n="104">
 						<persName xml:id="EvansGreeton"
-							><forename>Greeton</forename><surname>Evans</surname></persName>
+								><forename>Greeton</forename><surname>Evans</surname></persName>
 						<note type="bio" target="#EvansGreeton">In 1814 Southey received a letter
 							from ‘Greeton Evans’, who claimed to be a labouring class poet from
 							rural North Wales seeking the Poet Laureate’s advice. Southey was
@@ -3136,7 +3152,7 @@
 						<persName xml:id="FelthamJohn"
 								><forename>John</forename><surname>Feltham</surname></persName>
 						<birth>c. 1770</birth>
-						<death> c. 1813</death>
+						<death>c. 1813</death>
 						<note type="bio" target="#FelthamJohn"> Miscellaneous writer from Salisbury.
 							He lived in London from 1799 and wrote a number of guide books and
 							descriptions of his travels. Feltham corresponded briefly with Southey
@@ -3157,6 +3173,7 @@
 					<person n="387">
 						<persName xml:id="FletcherSarah"
 								><forename>Sarah</forename><surname>Fletcher</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#FletcherSarah"> She ran a school for girls in
 							Ambleside and was well known to William Wordsworth and his family.
 							Wordsworth described her, in a letter to Henry Crabb Robinson, 3 March
@@ -3280,6 +3297,7 @@
 					<person n="113">
 						<persName xml:id="FrickerEliza"
 								><forename>Eliza</forename><surname>Fricker</surname></persName>
+						<birth>b. 1778</birth>
 						<note type="bio" target="#FrickerEliza">Southey’s sister-in-law. She never
 							married and spent her final years on the Isle of Man, with her sister
 							Martha.</note>
@@ -3382,8 +3400,8 @@
 							introduction to Sharon Turner.</note>
 					</person>
 					<person n="119">
-						<persName xml:id="GeorgePrinceRegent"><roleName>Prince Regent;
-								King</roleName><forename>George</forename><surname type="dynasty"
+						<persName xml:id="GeorgePrinceRegent"><roleName>Prince Regent; King George
+								IV</roleName><forename>George</forename><surname type="dynasty"
 								>Hanover</surname></persName>
 						<birth>1762</birth>
 						<death>1830</death>
@@ -3503,7 +3521,9 @@
 					</person>
 					<person n="123">
 						<persName xml:id="GonneMrs"
-								><roleName>Mrs</roleName><forename>Mary</forename><surname>Gonne</surname></persName>
+								><forename>Mary</forename><surname>Gonne</surname></persName>
+						<birth>1768</birth>
+						<death>1825</death>
 						<note type="bio" target="#GonneMrs">Daughter of Robert and Mary Harding, of
 							Broxbourne, Hertfordshire and wife of William Gonne, whom she married in
 							1790. She was the godmother of Edith May Southey and the mother of Henry
@@ -3537,8 +3557,9 @@
 							contributor.</note>
 					</person>
 					<person n="126">
-						<persName xml:id="GoochMrs"
-								><roleName>Mrs</roleName><forename>Sarah</forename><surname>Gooch</surname></persName>
+						<persName xml:id="GoochMrs"><forename>Sarah</forename><surname type="birth"
+								>Travers</surname><surname type="married">Gooch</surname></persName>
+						<birth>b. 1788</birth>
 						<note type="bio" target="#GoochMrs">Second wife of Robert Gooch, whom she
 							married in January 1814. She was the sister of the surgeon Benjamin
 							Travers (1783–1858).</note>
@@ -3847,7 +3868,7 @@
 							(1752–1770; <title ref="#dnb">DNB</title>).</note>
 					</person>
 					<person n="135">
-						<persName xml:id="Hatherton"><forename>Lord: Edward John
+						<persName xml:id="Hatherton"><roleName>Lord</roleName><forename>Edward John
 								Littleton</forename><surname>Hatherton</surname></persName>
 						<birth>formerly Walhouse; 1791</birth>
 						<death>1863</death>
@@ -4032,6 +4053,7 @@
 					<person n="142">
 						<persName xml:id="HillAlfred"
 								><forename>Alfred</forename><surname>Hill</surname></persName>
+						<birth>b. 1815</birth>
 						<note type="bio" target="#HillAlfred">Fourth son of Herbert and Catherine
 							Hill. He became a lawyer.</note>
 					</person>
@@ -4136,9 +4158,9 @@
 							1845.</note>
 					</person>
 					<person n="148">
-						<persName xml:id="HillMargaret"><forename>Margaret (known as ‘Peggy’
-								and, occasionally, ‘Margery’)</forename><surname>Hill</surname></persName>
-						<death when="1801">1801</death>
+						<persName xml:id="HillMargaret"
+								><forename>Margaret</forename><surname>Hill</surname></persName>
+						<death>d. 1801</death>
 						<note type="bio" target="#HillMargaret"> Southey’s cousin, probably the
 							daughter of his mother’s brother Joseph Hill.</note>
 					</person>
@@ -4531,6 +4553,7 @@
 					<person n="163">
 						<persName xml:id="JamesHarry"
 								><forename>Harry</forename><surname>James</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#JamesHarry">He wrote to Southey in 1803–1804,
 							claiming that he had submitted a poem for inclusion in the <title>Annual
 								Anthology</title>. Nothing further is known of him.</note>
@@ -4564,6 +4587,7 @@
 					<person n="167">
 						<persName xml:id="JardineMrs"
 								><forename>Ann</forename><surname>Jardine</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#JardineMrs"> Widow of David Jardine (1766–1797),
 							Minister of the Trim Street Unitarian Chapel, Bath. She was the daughter
 							of George Webster of Hampstead. The Jardines owned a small estate at
@@ -4656,6 +4680,7 @@
 					<person n="405">
 						<persName xml:id="JensortHS"><forename>H.
 								S.</forename><surname>Jensort</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#JensortHS"> He was based in or near Liverpool, but
 							little is known of his background or occupation. In 1821, in response to
 							Southey’s <title>The Life of Wesley </title>(1820), he wrote to Southey
@@ -4674,12 +4699,23 @@
 					<person n="171">
 						<persName xml:id="KellyMontague"><forename>Montague
 								Henry</forename><surname>Kelly</surname></persName>
-						<note type="bio" target="#KellyMontague"> Educated at Westminster School
-							(adm. 1786). A friend of Southey’s during his schooldays.</note>
+						<birth>1773</birth>
+						<death>1838</death>
+						<note type="bio" target="#KellyMontague"> Son of Captain Redmond Kelly (d.
+							1798), an Irish soldier who lived in Dean’s Yard, Westminster in later
+							life and sent his three sons to Westminster School. Montague Henry Kelly
+							attended Westminster School from 1786 to 1791, where he was a friend of
+							Southey’s. Kelly pursued a Naval career from 1791 onwards, reaching the
+							rank of Commander in 1830, but was often in debt – he spent the years
+							1806-1809 in the Fleet prison. In 1801 he eloped with the
+							sixteen-year-old Eliza Smith (1785-1857), daughter of the painter, John
+							Raphael Smith (1751-1812; DNB). The marriage was very troubled and ended
+							in a (probably invalid) divorce in Germany.</note>
 					</person>
 					<person n="487">
 						<persName xml:id="KellyThomasW"><forename>Thomas
 								W.</forename><surname>Kelly</surname></persName>
+						<birth>b. c. 1800</birth>
 						<note type="bio" target="#KellyThomasW">Poet, born in London of Irish
 							parentage. His works included <title>Myrtle Leaves; A Collection of
 								Poems, Chiefly Amatory</title> (1824). He briefly corresponded with
@@ -4702,8 +4738,8 @@
 							Noel.</note>
 					</person>
 					<person n="421">
-						<persName xml:id="KenyonLord"><roleName>2nd Lord Kenyon, Baron of
-								Gredington</roleName><forename>George</forename><surname>Kenyon</surname></persName>
+						<persName xml:id="KenyonLord"><roleName>2nd Baron Kenyon of
+								Gredlington</roleName><forename>George</forename><surname>Kenyon</surname></persName>
 						<birth>1776</birth>
 						<death>1855</death>
 						<bibl><title ref="#dnb">DNB</title></bibl>
@@ -5132,6 +5168,8 @@
 					<person n="422">
 						<persName xml:id="LawrenceThomas"
 								><forename>Thomas</forename><surname>Lawrence</surname></persName>
+						<birth>1769</birth>
+						<death>1830</death>
 						<bibl><title ref="#dnb">DNB</title></bibl>
 						<note type="bio" target="#LawrenceThomas">Portrait painter. The son of a
 							Bristol innkeeper, he was self–taught and displayed his brilliant
@@ -5290,8 +5328,7 @@
 							Old Brathay, near Ambleside, in 1800. They had nine children and a
 							notably happy family life, despite Charles Lloyd’s bouts of mental
 							instability. Thomas De Quincey claimed that ‘as a wife and mother’
-							Sophia was ‘unsurpassed’. Cross-reference: <ref
-								target="#PembertonSophia">Pemberton, Sophia (d. 1830)</ref></note>
+							Sophia was ‘unsurpassed’.</note>
 					</person>
 					<person n="198">
 						<persName xml:id="LockerEdwardHawke"><forename>Edward
@@ -5632,20 +5669,20 @@
 							very intermittently with Southey on antiquarian matters.</note>
 					</person>
 					<person n="493">
-						<persName xml:id="MarshallJohn"
-								><forename>John</forename><surname>Marshall</surname></persName>
-						<birth>1765</birth>
-						<death>1845</death>
+						<persName xml:id="MarshallThomas"
+								><forename>Thomas</forename><surname>Marshall</surname></persName>
+						<birth>c. 1789</birth>
+						<death>1874</death>
 						<bibl><title ref="#dnb">DNB</title>; <title ref="#hp">Hist P</title></bibl>
-						<note type="bio" target="#MarshallJohn">Wealthy businessman, who developed
-							factory-based flax-spinning in Leeds. He was a close friend of William
-							Wordsworth through his wife Jane Pollard (1770–1847), who had been at
-							school in Halifax with Dorothy Wordsworth. He visited the Lake District
-							regularly following his marriage in 1795, built a country home at
-							Hallsteads on the shores of Ullswater in 1815 and was Sheriff of
-							Cumberland in 1821. Later, in 1832, he bought the Derwentwater Estates.
-							Southey wrote to him in 1827 to inform him that Derwentwater was covered
-							in flies.</note>
+						<note type="bio" target="#MarshallThomas">Landed proprietor and
+							entomologist. He spent much of the year 1827 in Keswick, studying the
+							insect population in the surrounding area, and made the acquaintance of
+							the Southey family. He later lived in Birmingham and then Leicester.
+							When Leicester Museum opened in 1849, Marshall donated his collection of
+							over one thousand insects to the Museum. He married Elizabeth Jane
+							Ansell (1789-1855) in 1814 and their son, Thomas Ansell Marshall
+							(1827-1903), became a schoolmaster and clergyman and a well-known
+							entomologist.</note>
 					</person>
 					<person n="414">
 						<persName xml:id="MasonHJMonck"><forename>Henry Joseph
@@ -5677,6 +5714,7 @@
 					<person n="415">
 						<persName xml:id="MaynardMiss"
 								><forename>Miss</forename><surname>Maynard</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#MaynardMiss"> A friend of Felicia Hemans, Miss
 							Maynard lived in Clifton, Bristol. Southey had met her in his home city,
 							where they had acquaintances in common. In 1816 she sent Southey some
@@ -5941,7 +5979,7 @@
 					<person n="221">
 						<persName xml:id="MorganJohnJames"><forename>John
 								James</forename><surname>Morgan</surname></persName>
-						<death when="1820">d. 1820</death>
+						<death>d. 1820</death>
 						<note type="bio" target="#MorganJohnJames"> Businessman. His friendship with
 							Southey dated from their time as pupils at Williams’ School, Bristol.
 							From 1810–1816, Morgan and his wife took in Samuel Taylor Coleridge and
@@ -5951,7 +5989,8 @@
 					</person>
 					<person n="222">
 						<persName xml:id="MorganMary"
-								><forename>Mary</forename><surname>Morgan</surname></persName>
+							><forename>Mary</forename><surname type="birth">Brent</surname><surname type="married">Morgan</surname></persName>
+						<birth>b. 1782</birth>
 						<note type="bio" target="#MorganMary"> The wife of one of Southey’s oldest
 							friends, John James Morgan. She was the daughter of Moses Brent (d.
 							1817), a silversmith, and had married John James Morgan in 1800.</note>
@@ -5959,6 +5998,7 @@
 					<person n="494">
 						<persName xml:id="MorrisRobert"
 								><forename>Robert</forename><surname>Morris</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#MorrisRobert">Southey wrote to him in 1826 about
 							Hartley Coleridge’s annuity from William Jackson, which was secured on
 							the Greta Hall estate. It has otherwise not been possible to identify
@@ -5981,6 +6021,7 @@
 					<person n="222">
 						<persName xml:id="MorrisonJohn"
 								><forename>John</forename><surname>Morrison</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#MorrisonJohn"> An attorney in Whitehaven, who was
 							involved in administering the complex affairs of Greta Hall, the house
 							that Southey rented from 1803 onwards. He corresponded with Southey on
@@ -6181,7 +6222,8 @@
 					</person>
 					<person n="229">
 						<persName xml:id="PalmerMiss"
-							><roleName>Miss</roleName><surname>Palmer</surname></persName>
+								><roleName>Miss</roleName><surname>Palmer</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#PalmerMiss"> A close friend of Southey’s aunt,
 							Elizabeth Tyler. Her father was John Palmer (1702/3–1788), proprietor of
 							the Theatre Royal, Bath, and her only brother the theatre proprietor and
@@ -6231,7 +6273,8 @@
 					</person>
 					<person n="233">
 						<persName xml:id="PeachyEmma"><forename>Emma
-								Frances</forename><surname>Peachy</surname></persName>
+								Frances</forename><surname type="birth">Charter</surname><surname type="married">Peachy</surname></persName>
+						<death>d. 1809</death>
 						<note type="bio" target="#PeachyEmma">Wife of Colonel and later
 							Lieutenant-General William Peachy, from a family resident in Bishops
 							Lydeard, Somerset, where she continued to spend winters after her
@@ -6243,8 +6286,9 @@
 							family.</note>
 					</person>
 					<person n="234">
-						<persName xml:id="PeachyMrs"
-								><roleName>Mrs</roleName><forename>Susannah</forename><surname>Peachy</surname></persName>
+						<persName xml:id="PeachyMrs">
+							<forename>Susannah</forename><surname>Peachy</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#PeachyMrs">The second wife of William Peachy, whom
 							she married in 1812. She was the widow of James Henry of Jamaica.</note>
 					</person>
@@ -6265,8 +6309,8 @@
 							family, and Peachy’s second wife, a widow, Mrs James Henry.</note>
 					</person>
 					<person n="236">
-						<persName xml:id="Peacockunknown"
-								><forename>[unknown]</forename><surname>Peacock</surname></persName>
+						<persName xml:id="Peacockunknown"><surname>Peacock</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#Peacockunknown"> Southey lodged with Peacock and
 							his wife in Newington Butts in 1797. Peacock was involved in the book
 							trade, possibly as a travelling salesman. The Peacocks were unhappily
@@ -6532,6 +6576,7 @@
 					<person n="501">
 						<persName xml:id="ProsserGeorgeWalter"><forename>George
 								Walter</forename><surname>Prosser</surname></persName>
+						<birth>b. 1796</birth>
 						<note type="bio" target="#ProsserGeorgeWalter">Major in the infantry from
 							1826, and author of <title>Past and Present State of Fortifications in
 								Europe</title> (1839). He became Superintendent of Studies at the
@@ -6676,7 +6721,8 @@
 					</person>
 					<person n="255">
 						<persName xml:id="RickmanSusannah"
-								><forename>Susannah</forename><surname>Rickman</surname></persName>
+							><forename>Susannah</forename><surname type="birth">Postlethwaite</surname><surname type="married">Rickman</surname></persName>
+						<death>d. 1836</death>
 						<note type="bio" target="#RickmanSusannah">Married John Rickman in
 							1805.</note>
 					</person>
@@ -6816,6 +6862,7 @@
 					<person n="504">
 						<persName xml:id="RouseRobert"
 								><forename>Robert</forename><surname>Rouse</surname></persName>
+						<floruit>fl. 1820s</floruit>
 						<note type="bio" target="#RouseRobert">Clerk in the East India Company,
 							working in its ‘Private Trade Warehouse’ in Leadenhall Street. Southey
 							corresponded with him in 1826, when Rouse acted as an intermediary for
@@ -6874,7 +6921,7 @@
 							including <title>On Female Improvement</title> (1836).</note>
 					</person>
 					<person n="507">
-						<persName xml:id="SaundersandOtley"><surname type="grp">Saunders and
+						<persName xml:id="SaundersandOtley"><roleName>Messrs</roleName><surname type="grp">Saunders and
 								Otley</surname></persName>
 						<note type="bio" target="#">Simon Saunders (1783–1861) and John Edward Otley
 							(1798–1857) formed a partnership in 1824 as a London firm of publishers
@@ -6976,6 +7023,7 @@
 					<person n="270">
 						<persName xml:id="SetonBarbara"
 								><forename>Barbara</forename><surname>Seton</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#SetonBarbara"> The only child of George and
 							Barbara Seton and a cousin of Agnes (1764–1852; <title ref="#dnb"
 								>DNB</title>) and Mary (1763–1852; <title ref="#dnb">DNB</title>)
@@ -7546,6 +7594,7 @@
 						<persName xml:id="SoutheyLouisa"><forename>Louisa</forename><surname
 								type="birth">Gonne</surname><surname type="married"
 								>Southey</surname></persName>
+						<death>d. 1830</death>
 						<note type="bio" target="#SoutheyLouisa">Daughter of Southey’s old Lisbon
 							friends, the Gonnes, and second wife of Henry Herbert Southey. They
 							married on 21 August 1815. Louisa died giving birth to their tenth
@@ -7570,7 +7619,7 @@
 					<person n="295">
 						<persName xml:id="SoutheyMargaretdauTomandSarah"
 								><forename>Margaret</forename><surname>Southey</surname></persName>
-						<birth>1811</birth>
+						<birth>b. 1811</birth>
 						<note type="bio" target="#SoutheyMargaretdauTomandSarah">Eldest child of Tom
 							Southey and his wife Sarah. Born 7 March 1811.</note>
 					</person>
@@ -7602,7 +7651,7 @@
 					<person n="298">
 						<persName xml:id="SoutheyMaryHannah"><forename>Mary
 								Hannah</forename><surname>Southey</surname></persName>
-						<birth>1812</birth>
+						<birth>b. 1812</birth>
 						<note type="bio" target="#SoutheyMaryHannah">Tom Southey’s second child.
 							Born 12 November 1812.</note>
 					</person>
@@ -7979,6 +8028,7 @@
 					<person n="314">
 						<persName xml:id="ThomasDr"
 							><roleName>Dr</roleName><surname>Thomas</surname></persName>
+						<note type="idInfo">(first name and dates unknown)</note>
 						<note type="bio" target="#ThomasDr"> A native of Hereford, father of William
 							Bowyer Thomas. He was involved in the management of Herbert Hill’s
 							business affairs.</note>
@@ -8091,8 +8141,7 @@
 							death lived on Nevis, campaigning against cruelty to slaves.</note>
 					</person>
 					<person n="440">
-						<persName xml:id="TownshendChauncyHare"><addName type="akaF"
-								>Chauncey</addName><addName type="akaS"
+						<persName xml:id="TownshendChauncyHare"><addName type="akaS"
 								>Townsend</addName><forename>Chauncy
 								Hare</forename><surname>Townshend</surname></persName>
 						<birth>1798</birth>
@@ -8122,7 +8171,7 @@
 							education to some 400 children over the age of thirteen. </note>
 					</person>
 					<person n="514">
-						<persName xml:id="TreuttelandWurtz"><surname type="grp">Treuttel and
+						<persName xml:id="TreuttelandWurtz"><roleName>Messrs</roleName><surname type="grp">Treuttel and
 								Wurtz</surname></persName>
 						<note type="bio" target="#TreuttelandWurtz">French firm of publishers and
 							booksellers, founded by John-Georges Treuttel (1744–1826) and
@@ -8294,6 +8343,7 @@
 					<person n="325">
 						<persName xml:id="WalweindeTervliet"><forename>Joseph
 								Antoine</forename><surname>Walwein de Tervliet</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#WalweindeTervliet">Librarian of the Public Library
 							in Ghent, 1810–1818. Southey corresponded with him in 1815 as part of
 							his book-buying activities during his tour of Belgium.</note>
@@ -8418,14 +8468,13 @@
 					<person n="328">
 						<persName xml:id="WeeksShadrach"><addName type="akaS"
 								>Weekes</addName><forename>Shadrach</forename><surname>Weeks</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#WeeksShadrach"> Childhood friend of Southey. A
 							servant of Elizabeth Tyler, Southey’s aunt, and a recruit to
 							Pantisocracy.</note>
 					</person>
 					<person n="329">
-						<persName xml:id="WellesleyArthurWellington"><roleName>Duke of Wellington;
-								Prime
-								Minister</roleName><forename>Arthur</forename><surname>Wellesley</surname></persName>
+						<persName xml:id="WellesleyArthurWellington"><roleName>Duke of Wellington</roleName><forename>Arthur</forename><surname>Wellesley</surname></persName>
 						<birth>1769</birth>
 						<death>1852</death>
 						<bibl><title ref="#dnb">DNB</title>; <title ref="#hp">Hist P</title></bibl>
@@ -8864,6 +8913,7 @@
 					<person n="448">
 						<persName xml:id="WoodSara"
 							><forename>Sara</forename><surname>Wood</surname></persName>
+						<note type="idInfo">(dates unknown)</note>
 						<note type="bio" target="#WoodSara"> A resident of the Cumbrian port of
 							Maryport. She was possibly a member of the Wood family, who were leading
 							shipbuilders in the town. Miss Wood was the mortgagee of Greta Hall,
@@ -8903,6 +8953,21 @@
 								Ikon Basilike?</title> (1824). In 1804 he married Priscilla Lloyd
 							(d. 1815), sister of Charles Lloyd.</note>
 					</person>
+					<person n="452">
+						<persName xml:id="WordsworthDora"><addName type="nickname"
+								>Dora</addName><forename>Dorothy</forename><surname>Wordsworth</surname></persName>
+						<birth>1804</birth>
+						<death>1847</death>
+						<bibl><title ref="#dnb">DNB</title></bibl>
+						<note type="bio" target="#WordsworthDora">The eldest daughter of William and
+							Mary Wordsworth. Dora was named after her aunt, Dorothy Wordsworth, and
+							was exceptionally close to her father. She became the second wife of the
+							poet Edward Quillinan, a widowed family friend, in 1841. Dora was a
+							talented artist and also published a Journal of a Few Months Residence
+							in Portugal, and Glimpses of the South of Spain (1847). She was part of
+							Southey’s extended family circle, and was on good terms with his
+							daughters.</note>
+					</person>
 					<person n="343">
 						<persName xml:id="WordsworthDorothy"
 								><forename>Dorothy</forename><surname>Wordsworth</surname></persName>
@@ -8926,21 +8991,6 @@
 							travels. She also wrote poetry. Dorothy and Southey probably met in 1795
 							but their relationship only flourished after the latter and his family
 							moved to Keswick in 1803.</note>
-					</person>
-					<person n="452">
-						<persName xml:id="WordsworthDora"><addName type="nickname"
-								>Dora</addName><forename>Dorothy</forename><surname>Wordsworth</surname></persName>
-						<birth>1804</birth>
-						<death>1847</death>
-						<bibl><title ref="#dnb">DNB</title></bibl>
-						<note type="bio" target="#WordsworthDora">The eldest daughter of William and
-							Mary Wordsworth. Dora was named after her aunt, Dorothy Wordsworth, and
-							was exceptionally close to her father. She became the second wife of the
-							poet Edward Quillinan, a widowed family friend, in 1841. Dora was a
-							talented artist and also published a Journal of a Few Months Residence
-							in Portugal, and Glimpses of the South of Spain (1847). She was part of
-							Southey’s extended family circle, and was on good terms with his
-							daughters.</note>
 					</person>
 					<person n="521">
 						<persName xml:id="WordsworthJohn"
@@ -9078,6 +9128,7 @@
 					<person n="348">
 						<persName xml:id="WynnMary"><forename>Mary</forename><surname type="birth"
 								>Cunliffe</surname><surname type="married">Wynn</surname></persName>
+						<death>d. 1838</death>
 						<note type="bio" target="#WynnMary">Daughter of Foster Cunliffe, 3rd Baronet
 							(1755–1834) and wife of Charles Watkin Williams Wynn.</note>
 					</person>

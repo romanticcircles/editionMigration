@@ -21,4 +21,14 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="text()">
+        <xsl:variable name="Ttext" select="tokenize(., '[\r\n]+')"/>
+        <xsl:for-each select="$Ttext">
+            <xsl:value-of select="."/>
+            <xsl:if test="position() != last()">
+                <xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
 </xsl:stylesheet>

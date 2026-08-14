@@ -1,8 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Appendix 2</title><title type="sub" level="m">The Collected Letters of Robert Southey</title><author>Lynda Pratt</author><editor>Lynda Pratt</editor><respStmt><resp>TEI Encoding</resp><name>Averill Buchanan</name></respStmt><sponsor>Romantic Circles</sponsor><respStmt><resp>Director</resp><name>Thora Brylowe</name></respStmt><respStmt><resp>Technical Editor</resp><name>Laura Mandell</name></respStmt></titleStmt><editionStmt><edition><date>2026-09-15</date></edition></editionStmt><publicationStmt><publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
-					and Texas A&amp;M University</publisher><pubPlace>College Station, TX</pubPlace><idno type="edition">appendix2</idno><availability><p>Originally published by Romantic Circles <date when="2016-06-15">June 15, 2016</date>.</p></availability></publicationStmt><sourceDesc><p>Every effort has been made to contact copyright holders for their permission to
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Appendix 2</title>
+				<title type="sub" level="m">The Collected Letters of Robert Southey</title>
+				<author>Lynda Pratt</author>
+				<editor>Lynda Pratt</editor>
+				<respStmt>
+					<resp>TEI Encoding</resp>
+					<name>Averill Buchanan</name>
+				</respStmt>
+				<sponsor>Romantic Circles</sponsor>
+				<respStmt>
+					<resp>Director</resp>
+					<name>Thora Brylowe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Technical Editor</resp>
+					<name>Laura Mandell</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2026-09-15</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Romantic Circles, https://romantic-circles.org, University of Colorado
+					and Texas A&amp;M University</publisher>
+				<pubPlace>College Station, TX</pubPlace>
+				<idno type="edition">appendix2</idno>
+				<availability>
+					<p>Originally published by Romantic Circles <date when="2016-06-15">June 15,
+							2016</date>.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Every effort has been made to contact copyright holders for their permission to
 					reprint material in this edition. The editors would be grateful to hear from any
 					copyright holder who is not here acknowledged and undertake to rectify any
-					omissions or errors in future updates of this edition.</p><p>The editors thank the following for giving us access to manuscripts in their
+					omissions or errors in future updates of this edition.</p>
+				<p>The editors thank the following for giving us access to manuscripts in their
 					collections: the Beinecke Rare Books and Manuscript Library, Yale University;
 					Berg Collection of English and American Literature, The New York Public Library,
 					Astor, Lenox and Tilden Foundations; the Bodleian Library Oxford University; the
@@ -18,49 +55,186 @@
 					Record Offices of Bedford, Suffolk (Bury St Edmunds) and Northumberland, the
 					Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of
 					Newcastle upon Tyne; the Trustees of the William Salt Library, Stafford, the
-					Wisbech and Fenland Museum; the University of Virginia Library.</p><p>A research grant from the British Academy made much of the archival work
+					Wisbech and Fenland Museum; the University of Virginia Library.</p>
+				<p>A research grant from the British Academy made much of the archival work
 					possible, as did support from the English Department of Nottingham Trent
-					University.</p></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
-						‘, and ' for ’.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard.</p><p>Dashes have been rendered as a variable number of hyphens to give a more
-						exact rendering of their length.</p></hyphenation><normalization method="markup"><p>Southey's spelling has not been regularized.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p></normalization><normalization><p>&amp; has been used for the ampersand sign.</p><p>£ has been used for £, the pound sign</p><p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p></normalization></editorialDecl><classDecl><taxonomy targetDatcat="https://viaf.org/"><bibl>VIAF</bibl><category xml:id="viaf_61576896"><catDesc>Southey, Robert, 1774-1843</catDesc></category><category xml:id="viaf_118520952"><catDesc>Pratt, Lynda, 1964-</catDesc></category><category xml:id="viaf_116328125"><catDesc>Packer, Ian, 1962-</catDesc></category><category xml:id="viaf_18359329"><catDesc>Fulford, Tim, 1962-</catDesc></category><category xml:id="viaf_42171645"><catDesc>Bolton, Carol</catDesc></category><category xml:id="viaf_250654121"><catDesc>Buchanan, Averill</catDesc></category><category xml:id="viaf_41749340"><catDesc>Mandell, Laura, 1958-</catDesc></category></taxonomy><taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page"><bibl>Wikidata</bibl><category xml:id="Q216838"><catDesc>Robert Southey</catDesc></category><category xml:id="Q5977111"><catDesc>Romantic literature</catDesc></category><category xml:id="Q36279"><catDesc>biography</catDesc></category><category xml:id="Q1277575"><catDesc>correspondence</catDesc></category></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/people.xml"><bibl>Southey Letters: Biographies</bibl></taxonomy><taxonomy corresp="SoutheyLetters/XML/paratext/places.xml"><bibl>Southey Letters: Places</bibl></taxonomy></classDecl></encodingDesc><profileDesc><textClass><catRef target="#Q216838" scheme="Wikidata"/><catRef target="#Q5977111" scheme="Wikidata"/><catRef target="#Q1277575" scheme="Wikidata"/><catRef target="#viaf_61576896" scheme="VIAF"/><catRef target="#viaf_118520952" scheme="VIAF"/><catRef target="#viaf_250654121" scheme="VIAF"/><catRef target="#viaf_41749340" scheme="VIAF"/></textClass></profileDesc><revisionDesc><change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item><item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item><item>Added dates of original publication by Romantic Circles</item></list></change><change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Corrected XML files</item></list></change><change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list><item>Created new header for new edition edition XML from old edition XML dated
+					University.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard.</p>
+					<p>Dashes have been rendered as a variable number of hyphens to give a more
+						exact rendering of their length.</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Southey's spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy targetDatcat="https://viaf.org/">
+					<bibl>VIAF</bibl>
+					<category xml:id="viaf_61576896">
+						<catDesc>Southey, Robert, 1774-1843</catDesc>
+					</category>
+					<category xml:id="viaf_118520952">
+						<catDesc>Pratt, Lynda, 1964-</catDesc>
+					</category>
+					<category xml:id="viaf_116328125">
+						<catDesc>Packer, Ian, 1962-</catDesc>
+					</category>
+					<category xml:id="viaf_18359329">
+						<catDesc>Fulford, Tim, 1962-</catDesc>
+					</category>
+					<category xml:id="viaf_42171645">
+						<catDesc>Bolton, Carol</catDesc>
+					</category>
+					<category xml:id="viaf_250654121">
+						<catDesc>Buchanan, Averill</catDesc>
+					</category>
+					<category xml:id="viaf_41749340">
+						<catDesc>Mandell, Laura, 1958-</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy targetDatcat="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+					<bibl>Wikidata</bibl>
+					<category xml:id="Q216838">
+						<catDesc>Robert Southey</catDesc>
+					</category>
+					<category xml:id="Q5977111">
+						<catDesc>Romantic literature</catDesc>
+					</category>
+					<category xml:id="Q36279">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="Q1277575">
+						<catDesc>correspondence</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="SoutheyLetters/XML/paratext/people.xml">
+					<bibl>Southey Letters: Biographies</bibl>
+				</taxonomy>
+				<taxonomy corresp="SoutheyLetters/XML/paratext/places.xml">
+					<bibl>Southey Letters: Places</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef target="#Q216838" scheme="Wikidata"/>
+				<catRef target="#Q5977111" scheme="Wikidata"/>
+				<catRef target="#Q1277575" scheme="Wikidata"/>
+				<catRef target="#viaf_61576896" scheme="VIAF"/>
+				<catRef target="#viaf_118520952" scheme="VIAF"/>
+				<catRef target="#viaf_250654121" scheme="VIAF"/>
+				<catRef target="#viaf_41749340" scheme="VIAF"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2026-07-30" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML anomalies by hand (see ClaudeTEI tags.csv)</item>
+					<item>Removed "type='m'" from place names and fixed id=WestgateBuildings</item>
+					<item>Added dates of original publication by Romantic Circles</item>
+				</list></change>
+			<change when="2026-07-25" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Corrected XML files</item>
+				</list></change>
+			<change when="2026-07-12" who="#LM"><label>Changed by</label><name>Laura Mandell</name><list>
+					<item>Created new header for new edition edition XML from old edition XML dated
 						n.d. For the old header, see SoutheyLetters/XML/origHdr/origHdr.26.xml.
-					</item></list></change><change who="#LM" when="2026-07-07"><label>Changed by</label><name>Laura
-					Mandell</name><list type="simple"><item>Added idno and sourceDesc into headers for automating new header changes;
-						see insertHeader070726.xsl</item></list></change></revisionDesc></teiHeader><text><body><div type="appendix"><head rend="bold">Appendix 2:</head><head rend="bold">Southey’s Challenge to Brougham</head><p>We here reproduce for the first time Southey’s light-hearted – but unsent – 1818
+					</item>
+				</list></change>
+			<change who="#LM" when="2026-07-07"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
+					<item>Added idno and sourceDesc into headers for automating new header changes;
+						see insertHeader070726.xsl</item>
+				</list></change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="appendix">
+				<head rend="bold">Appendix 2:</head>
+				<head rend="bold">Southey’s Challenge to Brougham</head>
+				<p>We here reproduce for the first time Southey’s light-hearted – but unsent – 1818
 					response to an anticipated challenge to a duel from Henry Brougham. Southey
 					suggests that such a challenge would be provoked by the appearance of his own
 					‘Tender Epistle’, which had been written in reaction to Brougham’s reported
 					criticism of Southey during the Westmorland election of 1818. In fact, the
 					‘Tender Epistle’ was not completed and only part of it was ever published as an
 					Appendix (without mentioning Brougham’s name) to the second edition of Southey’s
-						<title>Carmen Triumphale</title> (London, 1821), pp. 45–53. </p><lb/><div type="letter"><head rend="bold"> Robert Southey to <ref type="a" target="BroughamHenryPeter">Henry Peter Brougham, Baron Brougham and Vaux</ref>, <date when="1818-07">[c. July 1818]</date><note type="headnote" place="foot" resp="editors">Watermark: None, but a small embossed stamp in the upper
+						<title>Carmen Triumphale</title> (London, 1821), pp. 45–53. </p>
+				<lb/>
+				<div type="letter">
+					<head rend="bold"> Robert Southey to <ref type="a" target="BroughamHenryPeter"
+							>Henry Peter Brougham, Baron Brougham and Vaux</ref>, <date
+							when="1818-07">[c. July 1818]</date><note type="headnote" place="foot"
+							resp="editors">Watermark: None, but a small embossed stamp in the upper
 							right corner of 1r, positioned vertically. A crown in the centre.
 							SUPERFINE / BATH POST<lb/> MS: Department of Rare Books, Special
 							Collections and Preservation, River Campus Libraries, University of
 							Rochester, Robert Southey Papers A.S727. AMS; 2p.<lb/>
-							Unpublished.</note></head><p rend="center"> Answer to an expected Challenge.</p><p rend="indent0">Sir </p><p rend="indent1">I have the honour of acknowledging the receipt of your letter,
-						&amp; do myself the pleasure of replying to it without delay.</p><p rend="indent1">In affairs of this kind, the parties ought to meet upon equal
+							Unpublished.</note></head>
+					<p rend="center"> Answer to an expected Challenge.</p>
+					<p rend="indent0">Sir </p>
+					<p rend="indent1">I have the honour of acknowledging the receipt of your letter,
+						&amp; do myself the pleasure of replying to it without delay.</p>
+					<p rend="indent1">In affairs of this kind, the parties ought to meet upon equal
 						terms. But to establish such an equality between you &amp; me, there are
 						three things which must be previously done; &amp; then a fourth also becomes
-						necessary, before I can meet you in the field.</p><p rend="indent1">First, you must marry &amp; have four children. Please to be
-						particular in having them all girls.<note n="1" place="foot" resp="editors">Southey’s only children alive at this time were <ref type="m" target="people.html#SoutheyEdithMay">Edith May</ref>, <ref type="m" target="people.html#SoutheyBertha">Bertha</ref>, <ref type="m" target="people.html#SoutheyKate">Kate</ref> and <ref type="m" target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note></p><p rend="indent1">Secondly you <del>can</del> must prove that the greater part
+						necessary, before I can meet you in the field.</p>
+					<p rend="indent1">First, you must marry &amp; have four children. Please to be
+						particular in having them all girls.<note n="1" place="foot" resp="editors"
+							>Southey’s only children alive at this time were <ref type="m"
+								target="people.html#SoutheyEdithMay">Edith May</ref>, <ref type="m"
+								target="people.html#SoutheyBertha">Bertha</ref>, <ref type="m"
+								target="people.html#SoutheyKate">Kate</ref> and <ref type="m"
+								target="people.html#SoutheyIsabel">Isabel Southey</ref>.</note></p>
+					<p rend="indent1">Secondly you <del>can</del> must prove that the greater part
 						of the provision which you make for them depends upon your life: &amp; you
 						must be under a bond of 4000£ not to be hanged, not to commit suicide, &amp;
 						not to be killed in a duel, which are the conditions upon which I have
-						effected an insurance on my own life, for the benefit of <ref type="m" target="people.html#FrickerEdith">my wife</ref> &amp; children.<note n="2" place="foot" resp="editors">Southey’s life was insured for £4000 –
+						effected an insurance on my own life, for the benefit of <ref type="m"
+							target="people.html#FrickerEdith">my wife</ref> &amp; children.<note
+							n="2" place="foot" resp="editors">Southey’s life was insured for £4000 –
 							he had invested his salary as Poet Laureate in increasing the coverage
-							to this sum.</note></p><p rend="indent1">Thirdly, I must tell three direct falsehoods concerning you,
-						upon the hustings, or in some other not less public assembly.<note n="3" place="foot" resp="editors">A reference to the newspaper reports of what
+							to this sum.</note></p>
+					<p rend="indent1">Thirdly, I must tell three direct falsehoods concerning you,
+						upon the hustings, or in some other not less public assembly.<note n="3"
+							place="foot" resp="editors">A reference to the newspaper reports of what
 							Brougham and said about Southey from the hustings at Appleby on 30 June
 							1818.</note> And I shall never be able to do this, nor to meet you
 						afterwards in the manner you propose, unless you can perform the fourth
-						thing, which is, ––</p><p rend="indent1">That you must convert me from the Christian religion.</p><p rend="indent1">Till all this be accomplished, M<hi rend="sup">r</hi>
+						thing, which is, ––</p>
+					<p rend="indent1">That you must convert me from the Christian religion.</p>
+					<p rend="indent1">Till all this be accomplished, M<hi rend="sup">r</hi>
 						Brougham, our disputes must be carried on without the use of any more iron
 						than is necessary for blackening our ink &amp; mending our pens, – or of any
-						more lead than enters into the composition of the Edinburgh Review<note n="4" place="foot" resp="editors"><title>Edinburgh Review</title>
+						more lead than enters into the composition of the Edinburgh Review<note
+							n="4" place="foot" resp="editors"><title>Edinburgh Review</title>
 							(1802–1929), the main Whig quarterly journal, to which Brougham was a
-							contributor.</note></p><closer><salute rend="indent1">I have the honour to subscribe
-							myself</salute><salute rend="indent2">Sir,</salute><salute rend="indent1">Yours with all proper consideration</salute><signed rend="indent2">Robert Southey</signed></closer></div></div></body></text></TEI>
+							contributor.</note></p>
+					<closer><salute rend="indent1">I have the honour to subscribe
+							myself</salute><salute rend="indent2">Sir,</salute><salute
+							rend="indent1">Yours with all proper consideration</salute><signed
+							rend="indent2">Robert Southey</signed></closer>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
