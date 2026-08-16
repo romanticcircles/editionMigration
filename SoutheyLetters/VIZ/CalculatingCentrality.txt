@@ -1,0 +1,44 @@
+CalculatingCentrality.txt
+
+To find the key "bridges" or intermediaries in your correspondence data, you will want to calculate and visualize Betweenness Centrality.
+In historical correspondence networks like yours, a person with high betweenness centrality acts as a vital gatekeeper or broker between different social circles, even if they didn't send the highest total volume of letters.
+------------------------------
+## Step 1: Run the Network Statistics
+First, we need Gephi to calculate the mathematical metrics for each person in your dataset.
+
+   1. Locate the Statistics panel on the right-hand side of your screen (usually next to the Filters tab).
+   2. Find the row labeled Network Diameter and click the Run button next to it.
+   3. A settings window will pop up. Make sure Directed is selected, and click OK.
+   4. Close the summary report window that appears. Gephi has now calculated three new metrics for every person: Betweenness Centrality, Closeness Centrality, and Harmonic Centrality.
+
+------------------------------
+## Step 2: Size the Nodes Based on Centrality
+Now, let’s make the key "brokers" physically larger on your canvas so they stand out instantly.
+
+   1. Go to the Appearance panel in the upper-left section of your screen.
+   2. Select Nodes, and click the Size icon (it looks like a small circle expanding into a larger circle).
+   3. Click the Ranking tab.
+   4. From the dropdown menu, select Betweenness Centrality.
+   5. Set the sizing boundaries:
+   * Min size: 10
+      * Max size: 40 (or larger if you want more contrast)
+   6. Click Apply.
+
+The individuals who serve as the primary bridges connecting isolated groups will instantly swell in size, while peripheral figures will shrink.
+------------------------------
+## Step 3: Interpret Your Specific Data
+Because your dataset features highly centralized actors, you will notice a clear structural pattern:
+
+* High Betweenness Centrality: BedfordGrosvenorCharles will likely appear as a massive node. Why? He bridges the incoming connection from CollinsCharles to entirely new historical figures like VincentWilliam and BarnesFrederick who don't talk to anyone else. If you remove him, the network fractures into completely isolated halves.
+* Low Betweenness Centrality: Figures like VincentWilliam or WynnCharlesWW might have plenty of incoming letter edges (high weight and high In-Degree), but because they sit at the dead-ends of paths and don't pass connections forward, their node size will remain small.
+
+------------------------------
+## Step 4: Clean Up Text Clutter
+Now that your nodes are dynamically sized, the labels might overlap or look chaotic.
+
+   1. Go back to the Layout panel on the left.
+   2. Select Label Adjust from the dropdown menu.
+   3. Click Run for a split second, then click Stop. This will gently nudge the text labels away from each other so you can read every name perfectly next to its corresponding node.
+
+Would you like me to show you how to filter out low-weight accidental connections using Gephi's filter panel, so you only see the most significant, repeated relationships?
+

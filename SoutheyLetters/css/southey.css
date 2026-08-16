@@ -70,11 +70,11 @@ li.nav:hover {background-color: #f0e3bb;}
     display: none;
     position: absolute;
     top: 1.2rem;
-    left: 0.75rem;
+    left: 0;
     background-color: #faf0d2;
-    padding: 0;
+    padding-left: 10px;
     margin: 0;
-    text-align: center;
+    text-align: left;
     width: 10rem;
     list-style-type: none;
 }
@@ -128,7 +128,7 @@ img.teiLogo {
 }
 figure.downloadCSV {
     float: right;
-    margin: 0 1rem -2rem 0;
+    margin: 0 -5rem -2rem 0;
     padding: 0;
 }
 div.listTitle > figure.downloadCSV {
@@ -199,6 +199,7 @@ div.lists {
     clear: both;
     display: flex;
     justify-content: flex-end;
+    margin-top: -1rem;
 }
 div.toList {
     width: 25rem;
@@ -297,7 +298,10 @@ dt {
     font-size: 110%;
     font-weight: 600;
 }
-
+dd > p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 /* ====================== div headers ====================== */
 .listTitle > h1 {
     font-size: 90%;
@@ -615,4 +619,11 @@ sup {
   border-color: #2563eb;
   transform: translateY(0);  /* Drops back down flat */
   box-shadow: none;
+}
+
+/* Disabled button styling for letters without entries */
+.alpha-btn.disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    text-decoration: none;
 }

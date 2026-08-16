@@ -9,6 +9,9 @@
     
     <!-- run this xslt on INall.xml to generate the allMen.csv file of mentions (currently, no such aggregate for corresps) -->
     
+    <xsl:param name="baseURL" select="'https://cha.artsci.tamu.edu/SoutheyLetters/HTML/'"/>
+    <xsl:key name="toLookup" match="name" use="@id"/>
+    
     <xsl:template match="mentions">
         <xsl:result-document href="../HTML/personsCSV/allMen.csv">
             <xsl:text>People Mentioned in the Collected Letters of Robert Southey&#13;</xsl:text>
@@ -31,7 +34,6 @@
     </xsl:template>
     
     <xsl:template match="letter">
-        <xsl:variable name="baseURL" select="'https://cha.artsci.tamu.edu/SoutheyLetters/HTML/'"/>
         <xsl:variable name="getPath">
             <xsl:value-of select="substring-before(substring-after(@id, 'southey.'), '.')"/>
         </xsl:variable>
@@ -54,7 +56,6 @@
     
     <xsl:template name="getTo">
         <xsl:param name="idNbr"/>
-        <xsl:variable name="baseURL" select="'https://cha.artsci.tamu.edu/SoutheyLetters/HTML/'"/>
         <xsl:variable name="getPath">
             <xsl:value-of select="substring-before(substring-after(@id, 'southey.'), '.')"/>
         </xsl:variable>
@@ -69,7 +70,7 @@
                 <xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
             </xsl:choose>
         </xsl:variable>
-        <xsl:for-each select="document('TOall.xml')/corresp/to/name[@id = $idNbr]">
+        <xsl:for-each select="key('toLookup', $idNbr, doc(resolve-uri('TOall.xml', base-uri(/))))">
             <xsl:for-each select="following-sibling::letter">
                 <xsl:value-of select="normalize-space(translate(., ',', ' '))"/>
                 <xsl:text>,</xsl:text>

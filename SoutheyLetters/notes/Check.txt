@@ -4,10 +4,18 @@ People list has "Louisa" -- A at the end -- not "Louise" (your note was: Charter
 
 I changed not just the name on people and correspondents but the id as well from #MarshallJohn to #MarshallThomas (the old ID has not yet been used in any letters, I checked): do the DNB and Hist P still remain?
 
-Took out '(bookseller)' from John Bell because the other John Bell was eliminated
+Took out '(bookseller)' from John Bell because the other John Bell was eliminated from correspondents. The two John Bells had two different ids, 
+<person xml:id="BellJohn">Bell, John</person> (merchant)
+<person xml:id="BellJohnNewcastle">Bell, John</person> (bookseller)
+
+I left them both in the biographies page because the first id (for the merchant) is the code used anytime John Bell is mentioned in the letters. Is that right, or should John Bell the merchant disappear from biographies as well and the link to the mentions in the letters be re-coded "BellJohnNewcastle"?
 
 
-Is the following okay:
+
 People lists Dora Wordsworth as "Wordsworth, Dorothy [also Dora] (1804–1847)"
-Correspondents has "Wordsworth, Dora"
+Correspondents has "Wordsworth, Dora" because that's how users will know her and, in order to distinguish her from Wordsworth's sister, I have to manually change her name to "Dora" on the mentioned page:
+
+I would rather code it so that it reads "Wordsworth, Dora [also Dorothy] (1804-1847)" 
+
+or some modification of that in order to avoid manual changes which might not be made by someone other than me.
 

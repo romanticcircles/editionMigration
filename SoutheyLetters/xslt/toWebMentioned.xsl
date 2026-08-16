@@ -23,6 +23,8 @@
     <xsl:output method="xhtml" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
 
+    <xsl:key name="toLookup" match="name" use="@id"/>
+
     <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
@@ -182,64 +184,181 @@
                     </ul>
                 </nav>
                 <main>
-                    <div class="listTitle">
-                        <figure class="downloadCSV">
-                            <a href="../personsCSV/allMen.csv">
-                                <img src="../../images/CSVIconBlack.png" alt="icon for CSV download" class="csvIconB"/>
-                            </a>
-                            <figcaption><em>Click the icon above to</em><br/>
-                                <em>download a list of names;</em><br/>
-                            <em>Click the blue icons below</em><br/>
-                            <em>for the person's letters.</em></figcaption>
-                        </figure>
-                        <h1>People Mentioned in</h1>
-                        <h2>The Collected Letters of Robert Southey</h2>
-                        <h3>(with letters addressed to them; see also the list of <a href="corresp.html">Correspondents</a>)</h3>
-                    </div>
-                    <xsl:for-each select="person">
-                        <div class="entry">
-                            <h4 class="listName">
-                                <a href="people.html#{name/@id}">
-                                    <xsl:apply-templates select="name"/>
-                                </a>
-                            </h4>
+                    <div class="paratext">
+                        <div class="listTitle">
                             <figure class="downloadCSV">
-                                <a href="../personsCSV/{name/@id}.csv">
-                                    <img src="../../images/CSVIcon.png" alt="icon for CSV download" class="csvIcon"/>
+                                <a href="../personsCSV/allMen.csv">
+                                    <img src="../../images/CSVIconBlack.png"
+                                        alt="icon for CSV download" class="csvIconB"/>
                                 </a>
+                                <figcaption>
+                                    <em>Click the icon above to</em>
+                                    <br/>
+                                    <em>download a list of names;</em>
+                                    <br/>
+                                    <em>Click the blue icons below</em>
+                                    <br/>
+                                    <em>for the person's letters.</em>
+                                </figcaption>
                             </figure>
-                            <div class="lists">
-                                <div class="menList">
-                                    <h5 class="menHdr">Mentioned In:</h5>
-                                    <ul class="letList">
-                                        <xsl:apply-templates select="letter"/>
-                                    </ul>
-                                </div>
-                                <div class="toList">
-                                    <h5 class="toHdr">Letters To:</h5>
-                                    <ul class="letList">
-                                        <xsl:call-template name="getTo">
-                                            <xsl:with-param name="idNbr" select="name/@id"/>
-                                        </xsl:call-template>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h1>People Mentioned in</h1>
+                            <h2>The Collected Letters of Robert Southey</h2>
+                            <h3>(with letters addressed to them; see also the list of <a
+                                    href="corresp.html">Correspondents</a>)</h3>
                         </div>
-                    </xsl:for-each>
+                        <div class="alphabet-container">
+                            <a href="#a" class="alpha-btn">A</a>
+                            <a href="#b" class="alpha-btn">B</a>
+                            <a href="#c" class="alpha-btn">C</a>
+                            <a href="#d" class="alpha-btn">D</a>
+                            <a href="#e" class="alpha-btn">E</a>
+                            <a href="#f" class="alpha-btn">F</a>
+                            <a href="#g" class="alpha-btn">G</a>
+                            <a href="#h" class="alpha-btn">H</a>
+                            <a href="#i" class="alpha-btn">I</a>
+                            <a href="#j" class="alpha-btn">J</a>
+                            <a href="#k" class="alpha-btn">K</a>
+                            <a href="#l" class="alpha-btn">L</a>
+                            <a href="#m" class="alpha-btn">M</a>
+                            <a href="#n" class="alpha-btn">N</a>
+                            <a href="#o" class="alpha-btn">O</a>
+                            <a href="#p" class="alpha-btn">P</a>
+                            <a href="#q" class="alpha-btn">Q</a>
+                            <a href="#r" class="alpha-btn">R</a>
+                            <a href="#s" class="alpha-btn">S</a>
+                            <a href="#t" class="alpha-btn">T</a>
+                            <a href="#u" class="alpha-btn">U</a>
+                            <a href="#v" class="alpha-btn">V</a>
+                            <a href="#w" class="alpha-btn">W</a>
+                            <a href="#x" class="alpha-btn">X</a>
+                            <a href="#y" class="alpha-btn">Y</a>
+                            <a href="#z" class="alpha-btn">Z</a>
+                            <button class="alpha-btn clear-btn" onclick="clearAlphabetFilter()"
+                                >Clear</button>
+                        </div>
+                        <xsl:for-each-group select="person"
+                            group-by="lower-case(substring(name, 1, 1))">
+                            <!-- Sort groups alphabetically -->
+                            <xsl:sort select="current-grouping-key()" data-type="text"/>
+
+                            <!-- Dynamic section heading for each letter -->
+                            <h2 id="{current-grouping-key()}">
+                                <xsl:value-of select="upper-case(current-grouping-key())"/>
+                            </h2>
+
+                            <dl>
+                                <xsl:for-each select="current-group()">
+                                    <dt>
+                                        <a href="people.html#{name/@id}">
+                                            <xsl:apply-templates select="name"/>
+                                        </a>
+                                        <a href="../personsCSV/{name/@id}.csv">
+                                            <img src="../../images/CSVIcon.png"
+                                                alt="icon for CSV download" class="csvIcon"/>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <div class="lists">
+                                            <div class="menList">
+                                                <h5 class="menHdr">Mentioned In:</h5>
+                                                <ul class="letList">
+                                                  <xsl:apply-templates select="letter"/>
+                                                </ul>
+                                            </div>
+                                            <div class="toList">
+                                                <h5 class="toHdr">Letters To:</h5>
+                                                <ul class="letList">
+                                                  <xsl:call-template name="getTo">
+                                                  <xsl:with-param name="idNbr" select="name/@id"/>
+                                                  </xsl:call-template>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </xsl:for-each>
+                            </dl>
+                            <p>
+                                <em>
+                                    <a href="#top">Back to top</a>
+                                </em>
+                            </p>
+                        </xsl:for-each-group>
+                    </div>
                 </main>
                 <script>
                     <xsl:text disable-output-escaping="yes">
-                    // Toggle the Mentioned In / Letters To lists open and closed when their heading is clicked
-                    document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
-                    hdr.addEventListener('click', function () {
-                    hdr.classList.toggle('expanded');
-                    var list = hdr.nextElementSibling;
-                    if (list) {
+    // Check which letters exist in the DOM and mark empty ones as disabled
+    function checkLetterAvailability() {
+        const letterLinks = document.querySelectorAll('.alphabet-container .alpha-btn[href^="#"]');
+
+        letterLinks.forEach(link => {
+            const targetId = link.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (!targetElement) {
+                link.setAttribute('title', 'None');
+                link.classList.add('disabled');
+            } else {
+                link.removeAttribute('title');
+                link.classList.remove('disabled');
+            }
+        });
+    }
+
+    // Function to check the URL hash and highlight the active letter
+    function highlightActiveLetter() {
+        const currentHash = window.location.hash;
+
+        // Remove active class from all buttons
+        document.querySelectorAll('.alpha-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        // Add active class to matching hash link
+        if (currentHash) {
+            const activeLink = document.querySelector(`.alpha-btn[href="${currentHash}"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        }
+    }
+
+    // Function for the Clear button to remove hash and reset view
+    function clearAlphabetFilter() {
+        history.replaceState(null, null, ' ');
+        highlightActiveLetter();
+        document.querySelector('.alphabet-container').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Prevent click navigation on disabled links
+    document.querySelectorAll('.alpha-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            if (btn.classList.contains('disabled')) {
+                e.preventDefault();
+            }
+        });
+    });
+
+    // Listen for hash changes
+    window.addEventListener('hashchange', highlightActiveLetter);
+
+    // Run setup tasks on initial DOM load
+    window.addEventListener('DOMContentLoaded', () => {
+        checkLetterAvailability();
+        highlightActiveLetter();
+
+        // Toggle the Mentioned In / Letters To lists open and closed when heading is clicked
+        document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
+            hdr.addEventListener('click', function () {
+                hdr.classList.toggle('expanded');
+                var list = hdr.nextElementSibling;
+                if (list) {
                     list.classList.toggle('expanded');
-                    }
-                    });
-                    });
-                    </xsl:text>
+                }
+            });
+        });
+    });
+                </xsl:text>
                 </script>
             </body>
         </html>
@@ -271,7 +390,7 @@
 
     <xsl:template name="getTo">
         <xsl:param name="idNbr"/>
-        <xsl:for-each select="document('TOall.xml')/corresp/to/name[@id = $idNbr]">
+        <xsl:for-each select="key('toLookup', $idNbr, doc(resolve-uri('TOall.xml', base-uri(/))))">
             <xsl:for-each select="following-sibling::letter">
                 <xsl:variable name="getPath">
                     <xsl:value-of select="substring-before(substring-after(@id, 'southey.'), '.')"/>

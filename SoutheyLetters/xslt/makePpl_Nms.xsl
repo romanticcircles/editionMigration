@@ -6,7 +6,10 @@
     <xsl:strip-space elements="*"/>
 
 <!-- run people.xml to generate the people_names.xml file to be saved inside the xslt folder
-        that is used to as a key lookup to associate names with ids by other xslts -->
+        that is used to as a key lookup to associate names with ids by other xslts.
+    Unfortunately, at least for the moment, I have to manually change one of the Dorothy Wordsworth's 
+    to Dora (id = "WordsworthDora") after running this because Dora was her <addName type="nickname">, nicknames are not
+    used, and users won't know her except by "Dora." -->
 
     <xsl:template match="/">
         <xsl:apply-templates/>

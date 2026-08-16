@@ -21,6 +21,8 @@
 
     <xsl:output method="xhtml"  encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
+    <xsl:key name="toLookup" match="name" use="@id"/>
+    <xsl:key name="menLookup" match="name" use="@id"/>
     
     <!-- Helper function to extract the sort string for a given person -->
     <xsl:function name="my:get-sort-name" as="xs:string">
@@ -246,6 +248,7 @@
                 <xsl:apply-templates select="tei:body/tei:div"/>
             </main>
             <script>
+                <xsl:text disable-output-escaping="yes">
                 // Function to check the URL hash and highlight the active letter
                 function highlightActiveLetter() {
                 const currentHash = window.location.hash;
@@ -279,6 +282,18 @@
                 
                 // Run on page load in case someone visits the link with a hash already there
                 window.addEventListener('DOMContentLoaded', highlightActiveLetter);
+                
+               // Toggle the Mentioned In / Letters To lists open and closed when their heading is clicked
+                    document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
+                    hdr.addEventListener('click', function () {
+                    hdr.classList.toggle('expanded');
+                    var list = hdr.nextElementSibling;
+                    if (list) {
+                    list.classList.toggle('expanded');
+                    }
+                    });
+                    });
+                </xsl:text>
             </script>
         </body>
     </xsl:template>
@@ -425,6 +440,12 @@
             <xsl:value-of select="parent::tei:person/tei:note[@type='idInfo']"/>
             <xsl:text>&#x0A;</xsl:text>
         </xsl:if>
+            <a>
+                <xsl:attribute name="href">
+                    <xsl:value-of select="concat('../personsCSV/', @xml:id, '.csv')"/>
+                </xsl:attribute>
+                <img src="../../images/CSVIcon.png" alt="icon for CSV download" class="csvIcon" />
+            </a>
     </dt>
 </xsl:template>
     
@@ -436,6 +457,7 @@
     </xsl:template>
     
     <xsl:template match="tei:note">
+        <xsl:variable name="persID" select="substring-after(@target, '#')"/>
         <xsl:choose>
             <xsl:when test="@type='idInfo'"/>
             <xsl:when test="@type='bio'">
@@ -446,6 +468,24 @@
                             <xsl:apply-templates select="parent::tei:person/tei:bibl"></xsl:apply-templates>
                         </xsl:if>
                     </p>
+                    <div class="lists">
+                        <div class="toList">
+                            <h5 class="toHdr">Letters To:</h5>
+                            <ul class="letList">
+                                <xsl:call-template name="getToList">
+                                    <xsl:with-param name="idNbr" select="$persID"/>
+                                </xsl:call-template>
+                            </ul>
+                        </div>
+                        <div class="menList">
+                            <h5 class="menHdr">Mentioned In:</h5>
+                            <ul class="letList">
+                                <xsl:call-template name="getMenList">
+                                    <xsl:with-param name="idNbr" select="$persID"/>
+                                </xsl:call-template>
+                            </ul>
+                        </div>
+                    </div>
                 </dd>
             </xsl:when>
         </xsl:choose>
@@ -492,6 +532,64 @@
                 <em><xsl:value-of select="."/></em>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="getToList">
+        <xsl:param name="idNbr"/>
+        <xsl:for-each select="key('toLookup', $idNbr, doc(resolve-uri('../TOall.xml', base-uri(/))))">
+            <xsl:for-each select="following-sibling::letter">
+                <xsl:variable name="getPath">
+                    <xsl:value-of select="substring-before(substring-after(@id, 'southey.'), '.')"/>
+                </xsl:variable>
+                <xsl:variable name="ptPath">
+                    <xsl:choose>
+                        <xsl:when test="$getPath = '1'">Part_One</xsl:when>
+                        <xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+                        <xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+                        <xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+                        <xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+                        <xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+                        <xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                <li>
+                    <a href="../{$ptPath}/{@id}.html">
+                        <xsl:value-of select="substring-before(., ',')"/>
+                    </a>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="substring-after(., ', ')"/>
+                </li>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template name="getMenList">
+        <xsl:param name="idNbr"/>
+        <xsl:for-each select="key('menLookup', $idNbr, doc(resolve-uri('../INall.xml', base-uri(/))))">
+            <xsl:for-each select="following-sibling::letter">
+                <xsl:variable name="getPath">
+                    <xsl:value-of select="substring-before(substring-after(@id, 'southey.'), '.')"/>
+                </xsl:variable>
+                <xsl:variable name="ptPath">
+                    <xsl:choose>
+                        <xsl:when test="$getPath = '1'">Part_One</xsl:when>
+                        <xsl:when test="$getPath = '2'">Part_Two</xsl:when>
+                        <xsl:when test="$getPath = '3'">Part_Three</xsl:when>
+                        <xsl:when test="$getPath = '4'">Part_Four</xsl:when>
+                        <xsl:when test="$getPath = '5'">Part_Five</xsl:when>
+                        <xsl:when test="$getPath = '6'">Part_Six</xsl:when>
+                        <xsl:when test="$getPath = '7'">Part_Seven</xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                <li>
+                    <a href="../{$ptPath}/{@id}.html">
+                        <xsl:value-of select="substring-before(., ',')"/>
+                    </a>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="substring-after(., ', ')"/>
+                </li>
+            </xsl:for-each>
+        </xsl:for-each>
     </xsl:template>
 
 </xsl:stylesheet>

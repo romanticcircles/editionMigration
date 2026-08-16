@@ -1,0 +1,40 @@
+running force atlas in gephi.txt
+
+Here is a step-by-step tutorial to transform your raw imported CSV text data into a clear, visually striking network visualization inside Gephi.
+## Step 1: Adjust Edge Thickness Scaling
+Before running your layout, make the weight values visually obvious on your screen.
+
+   1. Look at the bottom toolbar directly underneath your main graph workspace canvas.
+   2. Locate the Edge Thickness Slider (a slider next to a small diagonal line icon).
+   3. Drag it slightly to the right. You will instantly notice the lines between BedfordGrosvenorCharles → VincentWilliam (Weight 4) become significantly thicker than the baseline single-interaction lines.
+   4. Click the T icon in that same bottom toolbar to turn on node labels so you can see who is who.
+
+## Step 2: Run the ForceAtlas2 Layout
+Since your dataset is small, ForceAtlas2 is the best layout algorithm to isolate tightly connected clusters and push unrelated entities away.
+
+   1. Go to the Layout panel on the left side of your screen.
+   2. Click the dropdown menu and select ForceAtlas2.
+   3. Change these specific settings in the properties list below the dropdown:
+   * Check the box for Scaling and increase its value to 15.0 or 20.0 (this spreads the nodes out further so labels do not overlap).
+      * Check the box for Prevent Overlap (this keeps nodes from stacking directly on top of each other).
+      * Check the box for Edge Weight Influence and set it to 1.5 (this pulls heavily weighted nodes closer together).
+   4. Click the Run button. Watch the graph self-organize for a few seconds, then click Stop.
+
+## Step 3: Color Nodes by Connection Density (Optional but Recommended)
+To make your main network actors pop out even more, color them based on how many connections they have:
+
+   1. Go to the Appearance panel in the upper-left section of your screen.
+   2. Select Nodes, then click the Ranking tab (represented by a tiny artist's palette icon).
+   3. Choose In-Degree (number of incoming lines) or Out-Degree (number of outgoing lines) from the dropdown menu.
+   4. Choose a color gradient (e.g., light blue to dark blue) and click Apply.
+
+## Step 4: Finalizing for Export
+To get a crisp, presentation-ready image of your network:
+
+   1. Switch from the Overview tab to the Preview tab at the very top of your screen.
+   2. On the left side, click Refresh to render the vector graphics version of your graph.
+   3. In the preview settings panel, check the box next to Show Labels and re-click Refresh to ensure text displays.
+   4. Click Export SVG/PDF/PNG at the bottom left of the preview panel to save your final network map.
+
+Would you like me to explain how to calculate centrality metrics (like Betweenness Centrality) in Gephi to find the key "bridges" or intermediaries in your correspondence data?
+
