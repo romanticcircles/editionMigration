@@ -32,3 +32,9 @@ First, move combineLists xml docs from generateLists folder to main XML folder.
 4. open INall.xml and run makeCSV scenario which uses INlists/makeMenCSV.xsl to make the csv files for people mentioned
 5. run corresp.xml using toWebCorresp.xsl to make the corresp.html page and the csv files for correspondents (if there is a person who is mentioned who is also someone Southey writes to, the mentioned csv files will be overwritten, but don't worry because they contain letters mentioned in as well as to.)
 
+for Checking:
+
+	1.	Open CombineCHECK in the main XML folder and run using combineCHECK.xsl to generate CHECKall.xml-- combineCHECK scenario 
+	2.	Put compare.xsl in the XML foler.
+	3.	Open CHECKall.xml and run compare.xsl  to generate  compared.txt -- compare
+	4.	move them all (back) into generateLists

@@ -140,6 +140,7 @@
             <link
                 href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;family=Pinyon+Script&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
                 rel="stylesheet"/>
+            <script src="../../js/alphaAndToggle.js" defer="defer"></script>
         </head>
     </xsl:template>
 
@@ -247,54 +248,6 @@
             <main>
                 <xsl:apply-templates select="tei:body/tei:div"/>
             </main>
-            <script>
-                <xsl:text disable-output-escaping="yes">
-                // Function to check the URL hash and highlight the active letter
-                function highlightActiveLetter() {
-                const currentHash = window.location.hash;
-                
-                // First, remove the active class from all buttons
-                document.querySelectorAll('.alpha-btn').forEach(btn => {
-                btn.classList.remove('active');
-                });
-                
-                // If there is a hash (e.g., "#a"), find the matching link and add the active class
-                if (currentHash) {
-                const activeLink = document.querySelector(`.alpha-btn[href="${currentHash}"]`);
-                if (activeLink) {
-                activeLink.classList.add('active');
-                }
-                }
-                }
-                
-                // Function for the Clear button to remove the hash and reset the visual state
-                function clearAlphabetFilter() {
-                // Removes the #letter from the URL without reloading the page
-                history.replaceState(null, null, ' ');
-                // Run the highlighter function to clear the active visual state
-                highlightActiveLetter();
-                // Smoothly scroll back to the top of the alphabet container
-                document.querySelector('.alphabet-container').scrollIntoView({ behavior: 'smooth' });
-                }
-                
-                // Listen for whenever the user clicks a letter (hash changes)
-                window.addEventListener('hashchange', highlightActiveLetter);
-                
-                // Run on page load in case someone visits the link with a hash already there
-                window.addEventListener('DOMContentLoaded', highlightActiveLetter);
-                
-               // Toggle the Mentioned In / Letters To lists open and closed when their heading is clicked
-                    document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
-                    hdr.addEventListener('click', function () {
-                    hdr.classList.toggle('expanded');
-                    var list = hdr.nextElementSibling;
-                    if (list) {
-                    list.classList.toggle('expanded');
-                    }
-                    });
-                    });
-                </xsl:text>
-            </script>
         </body>
     </xsl:template>
 

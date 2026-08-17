@@ -2,10 +2,10 @@
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="3.0">
-    
+
     <!-- run corresp.xml to generate corresp.html -->
 
-    <xsl:output method="xhtml" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
+    <xsl:output method="xhtml" encoding="UTF-8" byte-order-mark="yes" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
 
     <xsl:key name="personLookup" match="person" use="@xml:id"/>
@@ -237,15 +237,14 @@
             <link
                 href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;family=Pinyon+Script&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
                 rel="stylesheet"/>
-            <xsl:if test="tei:encodingDesc/tei:tagsDecl">
                 <style>
-					<xsl:for-each select="tei:encodingDesc/tei:tagsDecl/tei:rendition">
-						<xsl:value-of select="concat('.', @xml:id, ' {')"/>
-						<xsl:value-of select="."/>
-						<xsl:text>}</xsl:text>
-					</xsl:for-each>
+                    ul.letList:empty::before {
+                    content: "[Forthcoming]" !important;
+                    display: list-item;
+                    list-style-position: inside;
+                    }
 				</style>
-            </xsl:if>
+            <script src="../../js/alphaAndToggle.js" defer="defer"></script>
         </head>
     </xsl:template>
 
@@ -360,18 +359,6 @@
                 </xsl:if>
             </main>
             <p class="noteSpace">&#160;</p>
-            <script>
-                <xsl:text disable-output-escaping="yes">
-                document.addEventListener('DOMContentLoaded', () => {
-                document.body.addEventListener('click', (event) => {
-                const toggle = event.target.closest('.toToggle, .menToggle');
-                if (toggle) {
-                toggle.classList.toggle('expanded');
-                }
-                });
-                });
-                </xsl:text>
-            </script>
         </body>
     </xsl:template>
 
@@ -381,7 +368,8 @@
 
     <xsl:template match="tei:div">
         <a href="../../XML/paratext/corresp.xml">
-            <img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo" style="margin-right: 2rem;"/>
+            <img src="../../images/TEI_Logo.png" alt="TEI logo" class="teiLogo"
+                style="margin-right: 2rem;"/>
         </a>
         <div class="paratext">
             <xsl:apply-templates/>
@@ -398,7 +386,8 @@
             <span class="dir">
                 <a href="#appLetters">Correspondents in the Appendices | </a>
             </span>
-            <span class="dir">(See also <a href="mentioned.html">people mentioned</a> in the letters.)</span>
+            <span class="dir">(See also <a href="mentioned.html">people mentioned</a> in the
+                letters.)</span>
         </p>
     </xsl:template>
 
@@ -409,19 +398,48 @@
                     <xsl:attribute name="id" select="@xml:id"/>
                     <xsl:apply-templates/>
                     <a href="../../HTML/personsCSV/allTO.csv">
-                        <img src="../../images/CSVIcon.png" class="csvIcon" alt="link to download csv file"
-                        />
+                        <img src="../../images/CSVIcon.png" class="csvIcon"
+                            alt="link to download csv file"/>
                     </a>
                 </h2>
+                <div class="alphabet-container">
+                    <a href="#a" class="alpha-btn">A</a>
+                    <a href="#b" class="alpha-btn">B</a>
+                    <a href="#c" class="alpha-btn">C</a>
+                    <a href="#d" class="alpha-btn">D</a>
+                    <a href="#e" class="alpha-btn">E</a>
+                    <a href="#f" class="alpha-btn">F</a>
+                    <a href="#g" class="alpha-btn">G</a>
+                    <a href="#h" class="alpha-btn">H</a>
+                    <a href="#i" class="alpha-btn">I</a>
+                    <a href="#j" class="alpha-btn">J</a>
+                    <a href="#k" class="alpha-btn">K</a>
+                    <a href="#l" class="alpha-btn">L</a>
+                    <a href="#m" class="alpha-btn">M</a>
+                    <a href="#n" class="alpha-btn">N</a>
+                    <a href="#o" class="alpha-btn">O</a>
+                    <a href="#p" class="alpha-btn">P</a>
+                    <a href="#q" class="alpha-btn">Q</a>
+                    <a href="#r" class="alpha-btn">R</a>
+                    <a href="#s" class="alpha-btn">S</a>
+                    <a href="#t" class="alpha-btn">T</a>
+                    <a href="#u" class="alpha-btn">U</a>
+                    <a href="#v" class="alpha-btn">V</a>
+                    <a href="#w" class="alpha-btn">W</a>
+                    <a href="#x" class="alpha-btn">X</a>
+                    <a href="#y" class="alpha-btn">Y</a>
+                    <a href="#z" class="alpha-btn">Z</a>
+                    <button class="alpha-btn clear-btn" onclick="clearAlphabetFilter()">Clear</button>
+                </div>
             </xsl:when>
             <xsl:when test="@xml:id = 'unknown'">
                 <h2>
-                <xsl:attribute name="id" select="@xml:id"/>
-                <xsl:apply-templates/>
-                <a href="../../HTML/personsCSV/unknown.csv">
-                    <img src="../../images/CSVIcon.png" class="csvIcon" alt="link to download csv file"
-                    />
-                </a>
+                    <xsl:attribute name="id" select="@xml:id"/>
+                    <xsl:apply-templates/>
+                    <a href="../../HTML/personsCSV/unknown.csv">
+                        <img src="../../images/CSVIcon.png" class="csvIcon"
+                            alt="link to download csv file"/>
+                    </a>
                 </h2>
             </xsl:when>
             <xsl:when test="@xml:id = 'appLetters'">
@@ -441,20 +459,35 @@
     <xsl:template match="tei:list">
         <xsl:choose>
             <xsl:when test="@type = 'corresp'">
-                
+
                 <!-- the following generates the allTo.csv file -->
                 <xsl:result-document href="../../HTML/personsCSV/allTO.csv">
                     <xsl:text disable-output-escaping="yes">Robert Southey's Correspondents&#13;</xsl:text>
                     <xsl:for-each select="tei:item">
-                            <xsl:value-of select="concat('&quot;', normalize-space(.), '&quot;')"/>
-                            <xsl:text disable-output-escaping="yes">&#13;</xsl:text>
+                        <xsl:value-of select="concat('&quot;', normalize-space(.), '&quot;')"/>
+                        <xsl:text disable-output-escaping="yes">&#13;</xsl:text>
                     </xsl:for-each>
                 </xsl:result-document>
-                
+
                 <!--the rest of this template is for corresp.html -->
-                <ul class="corresp">
-                    <xsl:apply-templates/>
-                </ul>
+                <xsl:for-each-group select="tei:item"
+                    group-by="lower-case(substring(tei:ref, 1, 1))">
+                    <!-- Sort groups alphabetically -->
+                    <xsl:sort select="current-grouping-key()" data-type="text"/>
+
+                    <!-- Dynamic section heading for each letter -->
+                    <h2 id="{current-grouping-key()}">
+                        <xsl:value-of select="upper-case(current-grouping-key())"/>
+                    </h2>
+                    <ul class="corresp">
+                        <xsl:apply-templates select="current-group()"/>
+                    </ul>
+                    <p>
+                        <a href="#top">
+                            <em>Back to Top</em>
+                        </a>
+                    </p>
+                </xsl:for-each-group>
             </xsl:when>
             <xsl:when test="@type = 'ukList'">
                 <ul class="{@type}">
@@ -467,9 +500,8 @@
                 </ul>
             </xsl:when>
         </xsl:choose>
-        <p><a href="#top"><em>Back to Top</em></a></p>
     </xsl:template>
-    
+
     <xsl:template match="tei:item" mode="unknown">
         <xsl:call-template name="getToList">
             <xsl:with-param name="toPers" select="'unknown'"/>
@@ -487,7 +519,7 @@
             <xsl:value-of select="substring-after(tei:ref/@target, 'people.html#')"/>
         </xsl:variable>
         <xsl:variable name="nameOnly" select="tei:ref/text()"/>
-        
+
         <!-- the following generates the individual csv files -->
         <xsl:choose>
             <xsl:when test="parent::tei:list[@type = 'uk']"/>
@@ -570,7 +602,7 @@
                 </xsl:result-document>
             </xsl:otherwise>
         </xsl:choose>
-        
+
         <!-- the following generates the <li> in corresp.html -->
         <li>
             <xsl:if test="@xml:id">
@@ -584,24 +616,29 @@
             <xsl:choose>
                 <xsl:when test="parent::tei:list[@type = 'appLet']"/>
                 <xsl:otherwise>
-                    <br/>
-                    <span class="toToggle">Letters To:</span>
-                    <ul class="correspToList">
-                        <xsl:call-template name="getToList">
-                            <xsl:with-param name="toPers" select="$persID"/>
-                        </xsl:call-template>
-                    </ul>
-                    <xsl:choose>
-                        <xsl:when test="$persID = 'unknown'"/>
-                        <xsl:otherwise>
-                                <span class="menToggle">Mentioned:</span>
-                                <ul class="correspMenList">
-                                    <xsl:call-template name="getMenList">
-                                        <xsl:with-param name="menPers" select="$persID"/>
-                                    </xsl:call-template>
-                                </ul>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <div class="lists">
+                        <div class="toList">
+                            <h5 class="toHdr">Letters To:</h5>
+                            <ul class="letList">
+                                <xsl:call-template name="getToList">
+                                    <xsl:with-param name="toPers" select="$persID"/>
+                                </xsl:call-template>
+                            </ul>
+                        </div>
+                        <xsl:choose>
+                            <xsl:when test="$persID = 'unknown'"/>
+                            <xsl:otherwise>
+                                <div class="menList">
+                                    <h5 class="menHdr">Mentioned In:</h5>
+                                    <ul class="letList">
+                                        <xsl:call-template name="getMenList">
+                                            <xsl:with-param name="menPers" select="$persID"/>
+                                        </xsl:call-template>
+                                    </ul>
+                                </div>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </div>
                 </xsl:otherwise>
             </xsl:choose>
         </li>

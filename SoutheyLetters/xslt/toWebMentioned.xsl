@@ -82,6 +82,7 @@
                 <link
                     href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&amp;family=Pinyon+Script&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
                     rel="stylesheet"/>
+                <script src="../../js/alphaAndToggle.js" defer="defer"></script>
             </head>
             <body>
                 <nav id="top">
@@ -285,81 +286,6 @@
                         </xsl:for-each-group>
                     </div>
                 </main>
-                <script>
-                    <xsl:text disable-output-escaping="yes">
-    // Check which letters exist in the DOM and mark empty ones as disabled
-    function checkLetterAvailability() {
-        const letterLinks = document.querySelectorAll('.alphabet-container .alpha-btn[href^="#"]');
-
-        letterLinks.forEach(link => {
-            const targetId = link.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-
-            if (!targetElement) {
-                link.setAttribute('title', 'None');
-                link.classList.add('disabled');
-            } else {
-                link.removeAttribute('title');
-                link.classList.remove('disabled');
-            }
-        });
-    }
-
-    // Function to check the URL hash and highlight the active letter
-    function highlightActiveLetter() {
-        const currentHash = window.location.hash;
-
-        // Remove active class from all buttons
-        document.querySelectorAll('.alpha-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
-
-        // Add active class to matching hash link
-        if (currentHash) {
-            const activeLink = document.querySelector(`.alpha-btn[href="${currentHash}"]`);
-            if (activeLink) {
-                activeLink.classList.add('active');
-            }
-        }
-    }
-
-    // Function for the Clear button to remove hash and reset view
-    function clearAlphabetFilter() {
-        history.replaceState(null, null, ' ');
-        highlightActiveLetter();
-        document.querySelector('.alphabet-container').scrollIntoView({ behavior: 'smooth' });
-    }
-
-    // Prevent click navigation on disabled links
-    document.querySelectorAll('.alpha-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            if (btn.classList.contains('disabled')) {
-                e.preventDefault();
-            }
-        });
-    });
-
-    // Listen for hash changes
-    window.addEventListener('hashchange', highlightActiveLetter);
-
-    // Run setup tasks on initial DOM load
-    window.addEventListener('DOMContentLoaded', () => {
-        checkLetterAvailability();
-        highlightActiveLetter();
-
-        // Toggle the Mentioned In / Letters To lists open and closed when heading is clicked
-        document.querySelectorAll('.menList > h5.menHdr, .toList > h5.toHdr').forEach(function (hdr) {
-            hdr.addEventListener('click', function () {
-                hdr.classList.toggle('expanded');
-                var list = hdr.nextElementSibling;
-                if (list) {
-                    list.classList.toggle('expanded');
-                }
-            });
-        });
-    });
-                </xsl:text>
-                </script>
             </body>
         </html>
     </xsl:template>

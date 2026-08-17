@@ -876,7 +876,7 @@
 		</xsl:variable>
 		<xsl:variable name="noteNumber">
 			<xsl:choose>
-				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div[@type='letter']">
+				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/@type = 'letter'">
 					<xsl:value-of select="number($rawNoteNbr) - 1"/>
 				</xsl:when>
 				<xsl:otherwise>
@@ -912,7 +912,7 @@
 		</xsl:variable>
 		<xsl:variable name="noteNumber">
 			<xsl:choose>
-				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div[@type='letter']">
+				<xsl:when test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div/@type = 'letter'">
 					<xsl:value-of select="number($rawNoteNbr) - 1"/>
 				</xsl:when>
 				<xsl:otherwise>
