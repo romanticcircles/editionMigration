@@ -789,16 +789,9 @@
 	</xsl:template>
 
 	<xsl:template match="tei:del">
-		<xsl:choose>
-			<xsl:when test="contains(., 'x') or contains(., 'X')">
-				<xsl:apply-templates/>
-			</xsl:when>
-			<xsl:otherwise>
 				<span class="del">
 					<xsl:apply-templates/>
 				</span>
-			</xsl:otherwise>
-		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="tei:unclear"> [unclear:][<xsl:apply-templates/>] </xsl:template>
