@@ -1,0 +1,40 @@
+
+  { "stem" : "3202",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3202",
+            "weight" : "1",
+            "pos" : 3737,
+            "context" : "Letter <mark>3202<\/mark>. 10 October 1818: John Rickman",
+            "fid" : "5.3202" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3202.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3202",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3202<\/mark>. Robert Southey to John Rickman, 10 October 1818...",
+            "fid" : "southey.5.3202",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3202",
+            "weight" : "1",
+            "pos" : 3717,
+            "context" : "Letter <mark>3202<\/mark>.  10 October 1818: John Rickman",
+            "fid" : "refletterlistPart5.513",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

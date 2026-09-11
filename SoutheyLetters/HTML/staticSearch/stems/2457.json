@@ -1,0 +1,53 @@
+
+  { "stem" : "2457",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2457",
+            "weight" : "1",
+            "pos" : 5341,
+            "context" : "Letter <mark>2457<\/mark>. 8 July 1814: John Rickman",
+            "fid" : "4.2457" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2457.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2457",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2457<\/mark>. Robert Southey to John Rickman, 8 July 1814...",
+            "fid" : "southey.4.2457",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2459.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2457",
+            "weight" : "1",
+            "pos" : 915,
+            "context" : "...Southey to John Rickman, 8 July 1814, Letter <mark>2457<\/mark>. Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2457",
+            "weight" : "1",
+            "pos" : 5314,
+            "context" : "Letter <mark>2457<\/mark>. 8 July 1814: John Rickman",
+            "fid" : "refletterlistPart4.737",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

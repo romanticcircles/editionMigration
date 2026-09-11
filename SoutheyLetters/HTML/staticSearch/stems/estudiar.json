@@ -1,0 +1,37 @@
+
+  { "stem" : "estudiar",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1439.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "estudiar",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : " De un letrado, qual es mejor espejo para <mark>estudiar<\/mark>, plano, concavo, o convexo?  Los que...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "estudiar",
+            "weight" : "1",
+            "pos" : 50,
+            "context" : "..., concavo, o convexo?  Los que acostumbran el <mark>estudiar<\/mark> y hallan el molde a la vista danoso, dan...",
+            "fid" : "line2",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1041.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "estudiar",
+            "weight" : "1",
+            "pos" : 23,
+            "context" : "...of the question – qual es xx mejor espejo para <mark>estudiar<\/mark>, plano, concavo, o convexa? – Espejo...",
+            "fid" : "southey.3.1041",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

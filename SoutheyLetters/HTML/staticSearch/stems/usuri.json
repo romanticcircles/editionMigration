@@ -1,0 +1,45 @@
+
+  { "stem" : "usuri",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3171.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Usury",
+            "weight" : "1",
+            "pos" : 16,
+            "context" : "...Salamanca plan,1 &amp; the Bankrupt-Insolvent &amp; <mark>Usury<\/mark> Report.2 The latter is a question which I...",
+            "fid" : "southey.5.3171",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Usury",
+            "weight" : "1",
+            "pos" : 255,
+            "context" : "...in 1817 and 1818. The Select Committee on the <mark>Usury<\/mark> Laws reported in 1818 (ordered to be printed 28...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Usury",
+            "weight" : "1",
+            "pos" : 271,
+            "context" : "...(1748–1832; DNB). His Defence of <mark>Usury<\/mark> (1787) condemned the existing laws restricting interest rates...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1309.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "usury",
+            "weight" : "1",
+            "pos" : 75,
+            "context" : "...hundred has always in all Christian states been thought damnable <mark>usury<\/mark>, &amp; to say that a man took ten in...",
+            "fid" : "southey.3.1309",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "marilyn",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Marilyn",
+            "weight" : "1",
+            "pos" : 2983,
+            "context" : "...international Romantic period culture has been recognised by critics including <mark>Marilyn<\/mark> Butler, Nigel Leask, Nicholas Roe, David Simpson...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Marilyn",
+            "weight" : "1",
+            "pos" : 3726,
+            "context" : "33.  <mark>Marilyn<\/mark> Butler, ‘Repossessing the Past: The Case for an...",
+            "fid" : "33",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Marilyn",
+            "weight" : "1",
+            "pos" : 1718,
+            "context" : "...Parvin Fatemi, Caroline Franklin, Michael J. Franklin, <mark>Marilyn<\/mark> Gaull, Lynne Hapgood, Elaine Hobby, Philippa Hoskin...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

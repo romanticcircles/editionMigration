@@ -1,0 +1,53 @@
+
+  { "stem" : "3255",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3255",
+            "weight" : "1",
+            "pos" : 211,
+            "context" : "Letter <mark>3255<\/mark>. 27 February 1819: Grosvenor Charles Bedford ",
+            "fid" : "6.3255" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3255.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3255",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3255<\/mark>. Robert Southey to Grosvenor Charles Bedford, 27 February...",
+            "fid" : "southey.6.3255",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3255",
+            "weight" : "1",
+            "pos" : 195,
+            "context" : "Letter <mark>3255<\/mark>. 27 February 1819: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.28",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3255",
+            "weight" : "1",
+            "pos" : 990,
+            "context" : "...and made it available to a wider audience (Letter <mark>3255<\/mark>). This was, moreover, evidence of a public appetite...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

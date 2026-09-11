@@ -1,0 +1,53 @@
+
+  { "stem" : "2818",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2818",
+            "weight" : "1",
+            "pos" : 950,
+            "context" : "Letter <mark>2818<\/mark>. 29 June 1816: John Murray",
+            "fid" : "5.2818" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2818.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2818",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2818<\/mark>. Robert Southey to John Murray, 29 June 1816...",
+            "fid" : "southey.5.2818",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2833.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2818",
+            "weight" : "1",
+            "pos" : 549,
+            "context" : "...see Southey to Murray, 29 June 1816, Letter <mark>2818<\/mark>. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2818",
+            "weight" : "1",
+            "pos" : 934,
+            "context" : "Letter <mark>2818<\/mark>. 29 June 1816: John Murray",
+            "fid" : "refletterlistPart5.129",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

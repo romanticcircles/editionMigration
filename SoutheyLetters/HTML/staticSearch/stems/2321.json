@@ -1,0 +1,53 @@
+
+  { "stem" : "2321",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2321",
+            "weight" : "1",
+            "pos" : 4316,
+            "context" : "Letter <mark>2321<\/mark>. [2 November 1813]: Grosvenor Charles Bedford",
+            "fid" : "4.2321" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2321.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2321",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2321<\/mark>. Robert Southey to Grosvenor Charles Bedford, [ 2...",
+            "fid" : "southey.4.2321",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2321",
+            "weight" : "1",
+            "pos" : 4291,
+            "context" : "Letter <mark>2321<\/mark>. [2 November 1813]: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.598",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1217.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2321",
+            "weight" : "1",
+            "pos" : 1024,
+            "context" : "...Louis XVI, 9 vols, (1801); no. <mark>2321<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

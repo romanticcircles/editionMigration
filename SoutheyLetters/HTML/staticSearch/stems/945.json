@@ -1,0 +1,40 @@
+
+  { "stem" : "945",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "945",
+            "weight" : "1",
+            "pos" : 507,
+            "context" : "Letter <mark>945<\/mark>. 29 May [1804]: Mary Barker",
+            "fid" : "3.945" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.945.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "945",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>945<\/mark>. Robert Southey to Mary Barker, 29 May [...",
+            "fid" : "southey.3.945",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "945",
+            "weight" : "1",
+            "pos" : 488,
+            "context" : "Letter <mark>945<\/mark>. 29 May [1804]: Mary Barker",
+            "fid" : "refletterlistPart3.69",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

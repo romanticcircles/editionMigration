@@ -1,0 +1,89 @@
+
+  { "stem" : "bolus",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2744.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bolus",
+            "weight" : "1",
+            "pos" : 771,
+            "context" : "...que le malade n’eut pas assez de liberté d’avaler des <mark>Bolus<\/mark>, en ce cas, on doit y sustituer une...",
+            "fid" : "southey.5.2744",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "bolus",
+            "weight" : "1",
+            "pos" : 1576,
+            "context" : "...assuming that the patient is not able to swallow a <mark>bolus<\/mark>, then we must substitute it with an infusion of...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3057.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bolus",
+            "weight" : "1",
+            "pos" : 735,
+            "context" : "...of a golden bullet, – (a dear kind of <mark>bolus<\/mark> Sir Doctor.) It staid in him so long,...",
+            "fid" : "southey.5.3057",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bolus",
+            "weight" : "1",
+            "pos" : 225,
+            "context" : "...but for every pill I swallow Vincent shall have a <mark>bolus<\/mark> — “thus by myself I swear”.2 the first...",
+            "fid" : "southey.1.4",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1702.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bolus",
+            "weight" : "1",
+            "pos" : 93,
+            "context" : "...may be ready with open mouth to swallow a tonic <mark>bolus<\/mark> – every now &amp; then before they are aware of...",
+            "fid" : "southey.3.1702",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1704.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bolus",
+            "weight" : "1",
+            "pos" : 429,
+            "context" : "....15 But you Mr Friend come with a tonic <mark>bolus<\/mark>,16 bitter in the mouth, &lt;difficult to...",
+            "fid" : "southey.3.1704",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.370.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "boluses",
+            "weight" : "1",
+            "pos" : 81,
+            "context" : "...rather the story parodied than the stanzas. the clysters <mark>boluses<\/mark> &amp;c are to preserve life − not the carcase....",
+            "fid" : "southey.2.370",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "2380",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2380",
+            "weight" : "1",
+            "pos" : 4769,
+            "context" : "Letter <mark>2380<\/mark>. 18 February 1814: William Gifford",
+            "fid" : "4.2380" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2380.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2380",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2380<\/mark>. Robert Southey to William Gifford, 18 February 1814...",
+            "fid" : "southey.4.2380",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2380",
+            "weight" : "1",
+            "pos" : 4742,
+            "context" : "Letter <mark>2380<\/mark>. 18 February 1814: William Gifford",
+            "fid" : "refletterlistPart4.660",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "whisker",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4202.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "whisker",
+            "weight" : "1",
+            "pos" : 1116,
+            "context" : "...Rumpel after a slow and wary approach, seated himself <mark>whisker<\/mark>-to-whisker with his rival, the mutual fear which...",
+            "fid" : "southey.7.4202",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "whisker",
+            "weight" : "1",
+            "pos" : 1117,
+            "context" : "...a slow and wary approach, seated himself whisker-to-<mark>whisker<\/mark> with his rival, the mutual fear which restrained not...",
+            "fid" : "southey.7.4202",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.144.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "whiskered",
+            "weight" : "1",
+            "pos" : 146,
+            "context" : "...such a moment. For me, I am as yet <mark>whiskered<\/mark>, for I would not venture to shave on board...",
+            "fid" : "southey.1.144",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

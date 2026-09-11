@@ -1,0 +1,37 @@
+
+  { "stem" : "filbert",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1189.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Filbert",
+            "weight" : "1",
+            "pos" : 571,
+            "context" : "...had drawn out for notice the Pig,24 the <mark>Filbert<\/mark>25 &amp; the Dancing Bear,26 because there is...",
+            "fid" : "southey.3.1189",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Filbert’",
+            "weight" : "1",
+            "pos" : 1440,
+            "context" : "25.   ‘The <mark>Filbert’<\/mark> was first published in the Morning Post, 28 February...",
+            "fid" : "25",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.440.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "filberts",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "...one wants a huge bason of broth &amp; plenty of <mark>filberts<\/mark>. his daughter6 is the a perfect Succubus –...",
+            "fid" : "southey.2.440",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

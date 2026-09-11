@@ -1,0 +1,53 @@
+
+  { "stem" : "1424",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1424",
+            "weight" : "1",
+            "pos" : 4127,
+            "context" : "Letter <mark>1424<\/mark>. [9 February 1808]: John Rickman",
+            "fid" : "3.1424" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1424.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1424",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1424<\/mark>. Robert Southey to John Rickman, [9 February 1808...",
+            "fid" : "southey.3.1424",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1424",
+            "weight" : "1",
+            "pos" : 4100,
+            "context" : "Letter <mark>1424<\/mark>. [9 February 1808]: John Rickman",
+            "fid" : "refletterlistPart3.555",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.344.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1424",
+            "weight" : "1",
+            "pos" : 301,
+            "context" : "...was fostered by Maud Montague, Countess of Salisbury (d. <mark>1424<\/mark>; DNB), who lived at Courtfield, near to...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

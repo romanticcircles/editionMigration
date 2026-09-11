@@ -1,0 +1,53 @@
+
+  { "stem" : "1082.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082.1",
+            "weight" : "1",
+            "pos" : 1556,
+            "context" : "Letter <mark>1082.1<\/mark>. [mid-July 1805]: Editor of the...",
+            "fid" : "3.1082.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1082.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1082.1",
+            "weight" : "2",
+            "pos" : 2,
+            "context" : "Letter <mark>1082.1<\/mark>. Robert Southey to the Editor of the Monthly Magazine...",
+            "fid" : "southey.3.1082.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1082.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082.1",
+            "weight" : "1",
+            "pos" : 191,
+            "context" : "..., 20.2 (September 1805), 100. See Letter <mark>1082.1<\/mark> of this edition. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082.1",
+            "weight" : "1",
+            "pos" : 1535,
+            "context" : "Letter <mark>1082.1<\/mark>. [mid-July 1805]: Editor of the...",
+            "fid" : "refletterlistPart3.207",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,42 @@
+
+  { "stem" : "minimum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "minimum",
+            "weight" : "1",
+            "pos" : 221,
+            "context" : "...editorial intervention in the text has been kept to a <mark>minimum<\/mark>. Southey’s original spelling, and mis-spelling,...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2564.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "minimum",
+            "weight" : "1",
+            "pos" : 65,
+            "context" : "...Squirearchy, – they have no right to fix a <mark>minimum<\/mark> unless they could consent to a maximum at the same...",
+            "fid" : "southey.4.2564",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2595.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "minimum",
+            "weight" : "1",
+            "pos" : 22,
+            "context" : "...respecting the Canadian emigrants, viz – what is the <mark>minimum<\/mark> sum which any person must have at command to be...",
+            "fid" : "southey.4.2595",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

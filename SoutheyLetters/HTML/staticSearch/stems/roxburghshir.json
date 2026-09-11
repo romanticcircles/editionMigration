@@ -1,0 +1,35 @@
+
+  { "stem" : "roxburghshir",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Roxburghshire",
+            "weight" : "1",
+            "pos" : 77636,
+            "context" : "Born in <mark>Roxburghshire<\/mark>, Knox was the son of a farmer. He...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Roxburghshire",
+            "weight" : "1",
+            "pos" : 81984,
+            "context" : "A farmer from the area around Hawick, <mark>Roxburghshire<\/mark>, and father of the linguist and poet, John...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2068.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Roxburghshire",
+            "weight" : "1",
+            "pos" : 220,
+            "context" : "...1821), of Springwood Park, Kelso, MP for <mark>Roxburghshire<\/mark> 1784–1790; or George Sholto Douglas (1789...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

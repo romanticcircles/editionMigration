@@ -1,0 +1,45 @@
+
+  { "stem" : "mejor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1439.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "mejor",
+            "weight" : "1",
+            "pos" : 39,
+            "context" : " De un letrado, qual es <mark>mejor<\/mark> espejo para estudiar, plano, concavo, o convexo...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "mejor",
+            "weight" : "1",
+            "pos" : 93,
+            "context" : "...concavo, o plano, o convexo, qual dellos <mark>mejor<\/mark> conserva la vista?",
+            "fid" : "line9",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "mejor",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "...los tales, por tanto el mas plano es mucho <mark>mejor<\/mark>.2 ",
+            "fid" : "line17",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1041.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mejor",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "...the prose title of the question – qual es xx <mark>mejor<\/mark> espejo para estudiar, plano, concavo, o convexa...",
+            "fid" : "southey.3.1041",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

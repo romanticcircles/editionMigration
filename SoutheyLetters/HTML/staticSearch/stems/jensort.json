@@ -1,0 +1,74 @@
+
+  { "stem" : "jensort",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3655.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Jensort",
+            "weight" : "2",
+            "pos" : 4,
+            "context" : "3655. Robert Southey to H. S. <mark>Jensort<\/mark>, 17 March 1821*",
+            "fid" : "ref6.3655.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Jensort",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "Address: To\/ H. S. <mark>Jensort<\/mark>\/ Post-Office\/ Liverpool Stamped: KESWICK\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jensort",
+            "weight" : "1",
+            "pos" : 46476,
+            "context" : "<mark>Jensort<\/mark>, H. S.             ",
+            "fid" : "ref.corresp.157",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jensort",
+            "weight" : "1",
+            "pos" : 75783,
+            "context" : "...1850)                                                                                                                                                                                   Jennings, James (1772–1833)                          <mark>Jensort<\/mark>, H. S. (dates unknown)                 Jervis, John...",
+            "fid" : "JensortHS",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jensort",
+            "weight" : "1",
+            "pos" : 3198,
+            "context" : "Letter 3655. 17 March 1821: H. S. <mark>Jensort<\/mark> ",
+            "fid" : "6.3655" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jensort",
+            "weight" : "1",
+            "pos" : 3178,
+            "context" : "Letter 3655. 17 March 1821: H. S. <mark>Jensort<\/mark> ",
+            "fid" : "southey.letterlistPart6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

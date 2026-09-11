@@ -1,0 +1,53 @@
+
+  { "stem" : "3238",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3238",
+            "weight" : "1",
+            "pos" : 90,
+            "context" : "Letter <mark>3238<\/mark>. 30 January 1819: Ebenezer Elliott ",
+            "fid" : "6.3238" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3238.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3238",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3238<\/mark>. Robert Southey to Ebenezer Elliott, 30 January 1819...",
+            "fid" : "southey.6.3238",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3262.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3238",
+            "weight" : "1",
+            "pos" : 551,
+            "context" : "...Southey to Ebenezer Elliott, 30 January 1819, Letter <mark>3238<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3238",
+            "weight" : "1",
+            "pos" : 74,
+            "context" : "Letter <mark>3238<\/mark>. 30 January 1819: Ebenezer Elliott ",
+            "fid" : "refletterlistPart6.11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

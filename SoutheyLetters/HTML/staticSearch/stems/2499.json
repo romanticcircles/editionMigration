@@ -1,0 +1,53 @@
+
+  { "stem" : "2499",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2499",
+            "weight" : "1",
+            "pos" : 5651,
+            "context" : "Letter <mark>2499<\/mark>. 11 November 1814: James White",
+            "fid" : "4.2499" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2499.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2499",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2499<\/mark>. Robert Southey to James White, 11 November 1814...",
+            "fid" : "southey.4.2499",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2500.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2499",
+            "weight" : "1",
+            "pos" : 385,
+            "context" : "...Southey to James White, 11 November 1814, Letter <mark>2499<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2499",
+            "weight" : "1",
+            "pos" : 5624,
+            "context" : "Letter <mark>2499<\/mark>. 11 November 1814: James White",
+            "fid" : "refletterlistPart4.780",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

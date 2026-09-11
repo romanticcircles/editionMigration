@@ -1,0 +1,40 @@
+
+  { "stem" : "3134",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3134",
+            "weight" : "1",
+            "pos" : 3259,
+            "context" : "Letter <mark>3134<\/mark>. 11 May 1818: John Wilson Croker",
+            "fid" : "5.3134" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3134.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3134",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3134<\/mark>. Robert Southey to John Wilson Croker, 11 May...",
+            "fid" : "southey.5.3134",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3134",
+            "weight" : "1",
+            "pos" : 3239,
+            "context" : "Letter <mark>3134<\/mark>.  11 May 1818: John Wilson Croker",
+            "fid" : "refletterlistPart5.445",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

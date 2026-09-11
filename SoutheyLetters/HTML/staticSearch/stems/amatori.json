@@ -1,0 +1,49 @@
+
+  { "stem" : "amatori",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.208.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Amatory",
+            "weight" : "1",
+            "pos" : 95,
+            "context" : "...They form the second book of his Eroticas, or <mark>Amatory<\/mark> Poems, which he published at Nagera, in 1618...",
+            "fid" : "southey.1.208",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Amatory",
+            "weight" : "1",
+            "pos" : 405,
+            "context" : "...unqualified. Of all poems, such as are entitled <mark>Amatory<\/mark>, are most devoid of feeling. Petrarch and Hammond...",
+            "fid" : "southey.1.208",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Amatory",
+            "weight" : "1",
+            "pos" : 75976,
+            "context" : "...included Myrtle Leaves; A Collection of Poems, Chiefly <mark>Amatory<\/mark> (1824). He briefly corresponded with Southey in 1827...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1389.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "amatory",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "..., &amp; you have little else than a collection of <mark>amatory<\/mark> pieces selected with little knowledge &amp; less taste. Whenever...",
+            "fid" : "southey.3.1389",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

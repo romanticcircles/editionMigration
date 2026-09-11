@@ -1,0 +1,53 @@
+
+  { "stem" : "3300",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3905.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3300",
+            "weight" : "1",
+            "pos" : 239,
+            "context" : "...Real Monasterio de Poblet (1753–1765), no. <mark>3300<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3300",
+            "weight" : "1",
+            "pos" : 538,
+            "context" : "Letter <mark>3300<\/mark>. 22 May 1819: John May ",
+            "fid" : "6.3300" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3300.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3300",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3300<\/mark>. Robert Southey to John May, 22 May 1819...",
+            "fid" : "southey.6.3300",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3300",
+            "weight" : "1",
+            "pos" : 522,
+            "context" : "Letter <mark>3300<\/mark>. 22 May 1819: John May ",
+            "fid" : "refletterlistPart6.73",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

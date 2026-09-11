@@ -1,0 +1,40 @@
+
+  { "stem" : "3230",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3230",
+            "weight" : "1",
+            "pos" : 34,
+            "context" : "Letter <mark>3230<\/mark>. 3 January 1819: Walter Savage Landor ",
+            "fid" : "6.3230" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3230.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3230",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3230<\/mark>. Robert Southey to Walter Savage Landor, 3 January...",
+            "fid" : "southey.6.3230",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3230",
+            "weight" : "1",
+            "pos" : 18,
+            "context" : "Letter <mark>3230<\/mark>. 3 January 1819: Walter Savage Landor ",
+            "fid" : "refletterlistPart6.3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

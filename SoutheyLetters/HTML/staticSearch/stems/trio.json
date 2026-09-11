@@ -1,0 +1,41 @@
+
+  { "stem" : "trio",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "trios",
+            "weight" : "1",
+            "pos" : 117182,
+            "context" : "...and wrote light operas and music for string quartets and <mark>trios<\/mark>. He was also a friend of Joseph Haydn (...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3954.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "trio",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "...It is better to deal with young blockheads (an illustrious <mark>trio<\/mark> for example) than with full grown knaves. And...",
+            "fid" : "southey.7.3954",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Trio",
+            "weight" : "1",
+            "pos" : 930,
+            "context" : "...women, should have been treated accordingly. “The Republican <mark>Trio<\/mark>,”29 says Lord Byron, “when they began to...",
+            "fid" : "southey.7.4289",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

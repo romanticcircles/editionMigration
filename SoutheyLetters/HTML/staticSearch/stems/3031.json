@@ -1,0 +1,53 @@
+
+  { "stem" : "3031",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3031",
+            "weight" : "1",
+            "pos" : 2510,
+            "context" : "Letter <mark>3031<\/mark>. 17 October 1817: Grosvenor Charles Bedford",
+            "fid" : "5.3031" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3031.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3031",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3031<\/mark>. Robert Southey to Grosvenor Charles Bedford, 17 October...",
+            "fid" : "southey.5.3031",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3031",
+            "weight" : "1",
+            "pos" : 2492,
+            "context" : "Letter <mark>3031<\/mark>.  17 October 1817: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart5.342",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3031",
+            "weight" : "1",
+            "pos" : 252,
+            "context" : "...including tea drinking (Letter 3030); cats (Letter <mark>3031<\/mark>); the impact of the 1815 eruption of Mount Tambora...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

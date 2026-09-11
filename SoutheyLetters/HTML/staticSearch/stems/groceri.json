@@ -1,0 +1,29 @@
+
+  { "stem" : "groceri",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3274.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grocery",
+            "weight" : "1",
+            "pos" : 48,
+            "context" : " A box which I suppose to be <mark>grocery<\/mark> has arrived, – &amp; a cargo of ironmongery,...",
+            "fid" : "southey.6.3274",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.720.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grocery",
+            "weight" : "1",
+            "pos" : 388,
+            "context" : "...half-a-crown! a fine conveyance for books – <mark>grocery<\/mark> – wine – &amp; porter – till we learn to...",
+            "fid" : "southey.2.720",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

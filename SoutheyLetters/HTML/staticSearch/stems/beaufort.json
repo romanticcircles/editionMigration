@@ -1,0 +1,61 @@
+
+  { "stem" : "beaufort",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.627.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Beaufort",
+            "weight" : "1",
+            "pos" : 345,
+            "context" : "...John Thelwall15 – &amp; in the assumed name of <mark>Beaufort<\/mark> you may trace the Lecturer in Beaufort Buildings.",
+            "fid" : "southey.2.627",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Beaufort",
+            "weight" : "1",
+            "pos" : 349,
+            "context" : "...assumed name of Beaufort you may trace the Lecturer in <mark>Beaufort<\/mark> Buildings.",
+            "fid" : "southey.2.627",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Beaufort’",
+            "weight" : "1",
+            "pos" : 844,
+            "context" : "...of Adoption (1801), published under the pseudonym ‘John <mark>Beaufort’<\/mark>. Beaufort Buildings in The Strand was where Thelwall had...",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Beaufort",
+            "weight" : "1",
+            "pos" : 845,
+            "context" : "...(1801), published under the pseudonym ‘John Beaufort’. <mark>Beaufort<\/mark> Buildings in The Strand was where Thelwall had delivered many...",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3055.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Beaufort",
+            "weight" : "1",
+            "pos" : 13,
+            "context" : " “In the tenth year of Henry 6 –” Henry <mark>Beaufort<\/mark>, Cardinal of Winchester was sailed again into England to...",
+            "fid" : "southey.5.3055",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Beaufort",
+            "weight" : "1",
+            "pos" : 220,
+            "context" : "...–1471; DNB), while his uncle, Henry <mark>Beaufort<\/mark> (c. 1377–1447; DNB), Bishop of Winchester...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

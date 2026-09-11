@@ -1,0 +1,37 @@
+
+  { "stem" : "sodor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2487.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sodor",
+            "weight" : "1",
+            "pos" : 333,
+            "context" : "...in Keswick on her way to visit the Bishop of <mark>Sodor<\/mark> &amp; Man.23 ",
+            "fid" : "southey.4.2487",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Sodor",
+            "weight" : "1",
+            "pos" : 773,
+            "context" : "...Murray (1784–1860; DNB), Bishop of <mark>Sodor<\/mark> and Man 1813–1827, Bishop of Rochester 1827...",
+            "fid" : "23",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3486.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Sodor",
+            "weight" : "1",
+            "pos" : 229,
+            "context" : "...Murray (1784–1860; DNB), Bishop of <mark>Sodor<\/mark> and Man 1813–1827, Bishop of Rochester 1827...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

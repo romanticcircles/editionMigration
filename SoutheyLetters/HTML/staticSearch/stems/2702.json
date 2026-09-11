@@ -1,0 +1,40 @@
+
+  { "stem" : "2702",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2702",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "Letter <mark>2702<\/mark>. 20 January 1816: John Murray",
+            "fid" : "5.2702" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2702.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2702",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2702<\/mark>. Robert Southey to John Murray, 20 January 1816...",
+            "fid" : "southey.5.2702",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2702",
+            "weight" : "1",
+            "pos" : 85,
+            "context" : "Letter <mark>2702<\/mark>. 20 January 1816: John Murray",
+            "fid" : "refletterlistPart5.13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

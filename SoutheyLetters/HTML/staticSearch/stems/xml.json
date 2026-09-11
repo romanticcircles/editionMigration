@@ -1,0 +1,24 @@
+
+  { "stem" : "xml",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "xml",
+            "weight" : "1",
+            "pos" : 728,
+            "context" : "...least one other member of the editorial team. After <mark>xml<\/mark> encoding and transformation, each Part of edition is proofed...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "XML",
+            "weight" : "1",
+            "pos" : 1984,
+            "context" : "..., this edition was encoded by Averill Buchanan using the <mark>XML<\/mark> tagset developed by the Text Encoding Initiative Consortium to ensure...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

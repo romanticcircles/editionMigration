@@ -1,0 +1,30 @@
+
+  { "stem" : "skunk",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "skunks",
+            "weight" : "1",
+            "pos" : 1827,
+            "context" : "...Cobbett, Honeet id genus omne,69 (the <mark>skunks<\/mark> &amp; polecats of the press) have done it, are...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3151.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "skunk",
+            "weight" : "1",
+            "pos" : 58,
+            "context" : "...as you or I should do in America for a <mark>skunk<\/mark> or an opossum. They are becoming marvellously abundant in...",
+            "fid" : "southey.5.3151",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

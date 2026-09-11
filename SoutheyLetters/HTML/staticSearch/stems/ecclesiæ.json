@@ -1,0 +1,35 @@
+
+  { "stem" : "ecclesiæ",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Ecclesiæ",
+            "weight" : "1",
+            "pos" : 29145,
+            "context" : "..., including in 1826 to congratulate him on his Vindicæ <mark>Ecclesiæ<\/mark> Anglicanæ. Letters to Charles Butler, Esq. comprising...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Ecclesiæ",
+            "weight" : "1",
+            "pos" : 54583,
+            "context" : "...Church, Garnett providing Southey with information for his Vindicæ <mark>Ecclesiæ<\/mark> Anglicanæ. Letters to Charles Butler, Esq. comprising...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/chrono.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ecclesiæ",
+            "weight" : "1",
+            "pos" : 3010,
+            "context" : "February: Vindicæ <mark>Ecclesiæ<\/mark> Anglicanæ. Letters to Charles Butler, Esq. comprising...",
+            "fid" : "chrono",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "1963",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1963",
+            "weight" : "1",
+            "pos" : 1720,
+            "context" : "Letter <mark>1963<\/mark>. 10 October 1811: John Murray",
+            "fid" : "4.1963" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1963.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1963",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1963<\/mark>. Robert Southey to John Murray, 10 October 1811...",
+            "fid" : "southey.4.1963",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1969.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1963",
+            "weight" : "1",
+            "pos" : 105,
+            "context" : "...Southey to John Murray, 10 October 1811, Letter <mark>1963<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1963",
+            "weight" : "1",
+            "pos" : 1699,
+            "context" : "Letter <mark>1963<\/mark>. 10 October 1811: John Murray",
+            "fid" : "refletterlistPart4.238",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

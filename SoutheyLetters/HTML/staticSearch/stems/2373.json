@@ -1,0 +1,53 @@
+
+  { "stem" : "2373",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2373",
+            "weight" : "1",
+            "pos" : 4713,
+            "context" : "Letter <mark>2373<\/mark>. 29 January 1814: Grosvenor Charles Bedford",
+            "fid" : "4.2373" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2373.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2373",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2373<\/mark>. Robert Southey to Grosvenor Charles Bedford, 29 January...",
+            "fid" : "southey.4.2373",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2382.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2373",
+            "weight" : "1",
+            "pos" : 671,
+            "context" : "...to Grosvenor Charles Bedford, 29 January 1814, Letter <mark>2373<\/mark>. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2373",
+            "weight" : "1",
+            "pos" : 4686,
+            "context" : "Letter <mark>2373<\/mark>. 29 January 1814: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.652",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

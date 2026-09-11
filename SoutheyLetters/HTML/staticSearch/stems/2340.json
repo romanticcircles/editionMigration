@@ -1,0 +1,40 @@
+
+  { "stem" : "2340",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2340",
+            "weight" : "1",
+            "pos" : 4450,
+            "context" : "Letter <mark>2340<\/mark>. 5 December [1813]: Grosvenor Charles Bedford",
+            "fid" : "4.2340" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2340.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2340",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2340<\/mark>. Robert Southey to Grosvenor Charles Bedford, 5 December...",
+            "fid" : "southey.4.2340",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2340",
+            "weight" : "1",
+            "pos" : 4425,
+            "context" : "Letter <mark>2340<\/mark>. 5 December [1813]: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.617",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

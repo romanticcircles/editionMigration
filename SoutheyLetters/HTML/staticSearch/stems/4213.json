@@ -1,0 +1,40 @@
+
+  { "stem" : "4213",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4213",
+            "weight" : "1",
+            "pos" : 3210,
+            "context" : "Letter <mark>4213<\/mark>. 10 July 1824: Sir George Beaumont",
+            "fid" : "7.4213" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4213.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4213",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4213<\/mark>. Robert Southey to Sir George Beaumont, 10 July...",
+            "fid" : "southey.7.4213",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4213",
+            "weight" : "1",
+            "pos" : 3190,
+            "context" : "Letter <mark>4213<\/mark>. 10 July 1824: Sir George Beaumont",
+            "fid" : "refletterlistPart7.440",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

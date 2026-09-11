@@ -1,0 +1,40 @@
+
+  { "stem" : "2080",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2080",
+            "weight" : "1",
+            "pos" : 2573,
+            "context" : "Letter <mark>2080<\/mark>. 17 April 1812: John May",
+            "fid" : "4.2080" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2080.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2080",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2080<\/mark>. Robert Southey to John May, 17 April 1812...",
+            "fid" : "southey.4.2080",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2080",
+            "weight" : "1",
+            "pos" : 2550,
+            "context" : "Letter <mark>2080<\/mark>. 17 April 1812: John May",
+            "fid" : "refletterlistPart4.357",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

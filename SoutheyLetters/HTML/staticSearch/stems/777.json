@@ -1,0 +1,53 @@
+
+  { "stem" : "777",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3389.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "777",
+            "weight" : "1",
+            "pos" : 842,
+            "context" : "...marginal references (for example pp. 552–553, <mark>777<\/mark>). Back",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "777",
+            "weight" : "1",
+            "pos" : 3807,
+            "context" : "Letter <mark>777<\/mark>. 1 May 1803: John May",
+            "fid" : "2.777" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.777.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "777",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>777<\/mark>. Robert Southey to John May, 1 May 1803...",
+            "fid" : "southey.2.777",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "777",
+            "weight" : "1",
+            "pos" : 3778,
+            "context" : "Letter <mark>777<\/mark>. 1 May 1803: John May",
+            "fid" : "refletterlistPart2.504",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "734",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "734",
+            "weight" : "1",
+            "pos" : 3475,
+            "context" : "Letter <mark>734<\/mark>. 21 November 1802: William Taylor",
+            "fid" : "2.734" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.734.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "734",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>734<\/mark>. Robert Southey to William Taylor, 21 November 1802...",
+            "fid" : "southey.2.734",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "734",
+            "weight" : "1",
+            "pos" : 3448,
+            "context" : "Letter <mark>734<\/mark>. 21 November 1802: William Taylor",
+            "fid" : "refletterlistPart2.460",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

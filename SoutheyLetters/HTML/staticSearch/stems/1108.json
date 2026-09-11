@@ -1,0 +1,53 @@
+
+  { "stem" : "1108",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1108",
+            "weight" : "1",
+            "pos" : 1746,
+            "context" : "Letter <mark>1108<\/mark>. 1 October 1805: Thomas Southey",
+            "fid" : "3.1108" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1108.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1108",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1108<\/mark>. Robert Southey to Thomas Southey, 1 October 1805...",
+            "fid" : "southey.3.1108",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1120.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1108",
+            "weight" : "1",
+            "pos" : 822,
+            "context" : "...Southey to Thomas Southey, 1 October 1805, Letter <mark>1108<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1108",
+            "weight" : "1",
+            "pos" : 1725,
+            "context" : "Letter <mark>1108<\/mark>. 1 October 1805: Thomas Southey",
+            "fid" : "refletterlistPart3.233",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

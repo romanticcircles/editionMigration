@@ -1,0 +1,37 @@
+
+  { "stem" : "intak",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4037.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "intake",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : "...observe it in the Reports;4 otherwise I think <mark>intake<\/mark> rather to be preferred, as more peculiar, &amp;...",
+            "fid" : "southey.7.4037",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘intake’",
+            "weight" : "1",
+            "pos" : 376,
+            "context" : "..., line 20. Southey later changed the word to <mark>‘intake’<\/mark>. He had seen the word ‘inlet’ in the Annual...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4039.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘intake’",
+            "weight" : "1",
+            "pos" : 138,
+            "context" : "...Augustus’, line 20. Southey changed the word to <mark>‘intake’<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "plantagenet",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2523.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Plantagenets",
+            "weight" : "1",
+            "pos" : 185,
+            "context" : "...thine arms Than in the days of yore Thine own <mark>Plantagenets<\/mark>3 achievd Or Marlborough4 skilld in council as in...",
+            "fid" : "line50",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Plantagenet",
+            "weight" : "1",
+            "pos" : 958,
+            "context" : "3.   i.e. the <mark>Plantagenet<\/mark> kings who had achieved victories in wars against France....",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.953.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Plantagenets",
+            "weight" : "1",
+            "pos" : 211,
+            "context" : "...of chivalry which so long survived the worth of the <mark>Plantagenets<\/mark>.",
+            "fid" : "southey.3.953",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

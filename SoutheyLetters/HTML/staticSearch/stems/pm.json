@@ -1,0 +1,50 @@
+
+  { "stem" : "pm",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3210.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "pm",
+            "weight" : "1",
+            "pos" : 729,
+            "context" : "...forward curfew in the school’s boarding-houses from 6<mark>pm<\/mark> to 5pm. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "pm",
+            "weight" : "1",
+            "pos" : 730,
+            "context" : "...the school’s boarding-houses from 6pm to 5<mark>pm<\/mark>. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3225.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pm",
+            "weight" : "1",
+            "pos" : 803,
+            "context" : "...in their boarding houses one hour earlier, at 5<mark>pm<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.940.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pm",
+            "weight" : "1",
+            "pos" : 273,
+            "context" : "...Liverpool and is catching the coach to London at 6<mark>pm<\/mark> on that day. That letter is also postmarked 11...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

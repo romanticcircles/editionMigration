@@ -1,0 +1,48 @@
+
+  { "stem" : "opium-eat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Opium-Eater",
+            "weight" : "1",
+            "pos" : 45292,
+            "context" : "...critic, best known for his Confessions of an English <mark>Opium-Eater<\/mark> (1821). De Quincey was the son of a...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Opium-Eater",
+            "weight" : "1",
+            "pos" : 45392,
+            "context" : "...periodicals, achieving huge success when Confessions of an English <mark>Opium-Eater<\/mark> appeared initially in the London Magazine. De Quincey soon...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Opium-Eater",
+            "weight" : "1",
+            "pos" : 3214,
+            "context" : "...Reminiscences, from 1807 to 1830. By the English <mark>Opium-Eater<\/mark>. No. IV. – William Wordsworth and Robert Southey’...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1885.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Opium-Eater’",
+            "weight" : "1",
+            "pos" : 247,
+            "context" : "...upon the result’, ‘Lake Reminiscences; by the English <mark>Opium-Eater’<\/mark>, Tait’s Edinburgh Magazine, 6.1 (January 1839),...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

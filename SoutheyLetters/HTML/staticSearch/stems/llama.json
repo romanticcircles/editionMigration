@@ -1,0 +1,37 @@
+
+  { "stem" : "llama",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.708.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "llama",
+            "weight" : "1",
+            "pos" : 329,
+            "context" : ".... El que la tiene cautiva Marques de Cadiz se <mark>llama<\/mark>; Cien doblas le doy por ella, (No me...",
+            "fid" : "line34",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "llama",
+            "weight" : "1",
+            "pos" : 369,
+            "context" : "...El nombe16 que ella tenia, Mora Fatima se <mark>llama<\/mark>.",
+            "fid" : "line42",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1476.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "llama",
+            "weight" : "1",
+            "pos" : 1660,
+            "context" : "..., which included a plate of what is either a <mark>llama<\/mark> or an alpaca. Back",
+            "fid" : "18",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

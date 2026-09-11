@@ -1,0 +1,37 @@
+
+  { "stem" : "wharf",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3050.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wharfe",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : "...7 Where the ruthless Clifford8 fell,And when <mark>Wharfe<\/mark> ran red with slaughter9 Gathering from those guilty plains...",
+            "fid" : "line47",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Wharfe",
+            "weight" : "1",
+            "pos" : 797,
+            "context" : "...Battle at Towton, many were killed crossing the River <mark>Wharfe<\/mark>. Back",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3687.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wharfs",
+            "weight" : "1",
+            "pos" : 324,
+            "context" : "...example, Appendix Y, ‘Plans and Dimensions of Harbours, <mark>Wharfs<\/mark>, and Ferry Piers made or improved under the direction...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,66 @@
+
+  { "stem" : "1269",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1269",
+            "weight" : "1",
+            "pos" : 2974,
+            "context" : "Letter <mark>1269<\/mark>. 30 January [1807]: John Rickman",
+            "fid" : "3.1269" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1269.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1269",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1269<\/mark>. Robert Southey to John Rickman, 30 January [...",
+            "fid" : "southey.3.1269",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1274.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1269",
+            "weight" : "1",
+            "pos" : 321,
+            "context" : "...to John Rickman, 30 January [1807], Letter <mark>1269<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1277.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1269",
+            "weight" : "1",
+            "pos" : 444,
+            "context" : "...John Rickman, 30 January [1807] (Letter <mark>1269<\/mark>) and 13 February 1807 (Letter 1274). Back...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1269",
+            "weight" : "1",
+            "pos" : 2949,
+            "context" : "Letter <mark>1269<\/mark>. 30 January [1807]: John Rickman",
+            "fid" : "refletterlistPart3.396",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

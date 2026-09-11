@@ -1,0 +1,53 @@
+
+  { "stem" : "864",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1603.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "864",
+            "weight" : "1",
+            "pos" : 428,
+            "context" : "✓ <mark>864<\/mark>.",
+            "fid" : "southey.3.1603",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "864",
+            "weight" : "1",
+            "pos" : 4445,
+            "context" : "Letter <mark>864<\/mark>. [9–]10 December [1803]: Thomas Southey",
+            "fid" : "2.864" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.864.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "864",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>864<\/mark>. Robert Southey to Thomas Southey, [9-]10 December...",
+            "fid" : "southey.2.864",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "864",
+            "weight" : "1",
+            "pos" : 4416,
+            "context" : "Letter <mark>864<\/mark>. [9–]10 December [1803]: Thomas Southey",
+            "fid" : "refletterlistPart2.591",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

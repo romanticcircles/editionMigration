@@ -1,0 +1,35 @@
+
+  { "stem" : "aberdeenshir",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Aberdeenshire",
+            "weight" : "1",
+            "pos" : 60822,
+            "context" : "Bookseller, originally from <mark>Aberdeenshire<\/mark> he moved to Edinburgh where he was a founder of...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Aberdeenshire",
+            "weight" : "1",
+            "pos" : 102895,
+            "context" : "Congregational Minister. He was born at Huntly, <mark>Aberdeenshire<\/mark>, and entered Hoxton Academy in 1811, becoming Minister...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.871.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Aberdeenshire",
+            "weight" : "1",
+            "pos" : 697,
+            "context" : "...of 2 Nicolson St, Edinburgh, a bookseller from <mark>Aberdeenshire<\/mark>. He was a founder of the firm Tait &amp;...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

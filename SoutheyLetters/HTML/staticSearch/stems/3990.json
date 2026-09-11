@@ -1,0 +1,40 @@
+
+  { "stem" : "3990",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3990",
+            "weight" : "1",
+            "pos" : 1591,
+            "context" : "Letter <mark>3990<\/mark>. 26 March [1823]: John Murray",
+            "fid" : "7.3990" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3990.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3990",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3990<\/mark>. Robert Southey to John Murray, 26 March [...",
+            "fid" : "southey.7.3990",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3990",
+            "weight" : "1",
+            "pos" : 1573,
+            "context" : "Letter <mark>3990<\/mark>. 26 March [1823]: John Murray",
+            "fid" : "refletterlistPart7.217",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

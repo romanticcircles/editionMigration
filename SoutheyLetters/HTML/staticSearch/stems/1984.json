@@ -1,0 +1,53 @@
+
+  { "stem" : "1984",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1984",
+            "weight" : "1",
+            "pos" : 1876,
+            "context" : "Letter <mark>1984<\/mark>. 16 November 1811: Neville White",
+            "fid" : "4.1984" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1958.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1984",
+            "weight" : "1",
+            "pos" : 369,
+            "context" : "...Southey to Neville White, 16 November 1811, Letter <mark>1984<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1984.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1984",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1984<\/mark>. Robert Southey to Neville White, 16 November 1811...",
+            "fid" : "southey.4.1984",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1984",
+            "weight" : "1",
+            "pos" : 1855,
+            "context" : "Letter <mark>1984<\/mark>. 16 November 1811: Neville White",
+            "fid" : "refletterlistPart4.259",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

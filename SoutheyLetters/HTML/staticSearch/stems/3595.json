@@ -1,0 +1,53 @@
+
+  { "stem" : "3595",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3595",
+            "weight" : "1",
+            "pos" : 2750,
+            "context" : "Letter <mark>3595<\/mark>. 29 December 1820: John May ",
+            "fid" : "6.3595" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3595.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3595",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3595<\/mark>. Robert Southey to John May, 29 December 1820...",
+            "fid" : "southey.6.3595",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3645.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3595",
+            "weight" : "1",
+            "pos" : 942,
+            "context" : "...Southey to John May, 29 December 1820, Letter <mark>3595<\/mark>. Back",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3595",
+            "weight" : "1",
+            "pos" : 2732,
+            "context" : "Letter <mark>3595<\/mark>. 29 December 1820: John May ",
+            "fid" : "refletterlistPart6.372",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

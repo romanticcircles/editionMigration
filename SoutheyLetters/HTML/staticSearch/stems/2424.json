@@ -1,0 +1,40 @@
+
+  { "stem" : "2424",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2424",
+            "weight" : "1",
+            "pos" : 5086,
+            "context" : "Letter <mark>2424<\/mark>. 15 May 1814: Charles Watkin Williams Wynn",
+            "fid" : "4.2424" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2424.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2424",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2424<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 15...",
+            "fid" : "southey.4.2424",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2424",
+            "weight" : "1",
+            "pos" : 5059,
+            "context" : "Letter <mark>2424<\/mark>. 15 May 1814: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart4.704",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

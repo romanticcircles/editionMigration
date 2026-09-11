@@ -1,0 +1,40 @@
+
+  { "stem" : "835",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "835",
+            "weight" : "1",
+            "pos" : 4234,
+            "context" : "Letter <mark>835<\/mark>. 8 September [1803]: Mary Barker",
+            "fid" : "2.835" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.835.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "835",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>835<\/mark>. Robert Southey to Mary Barker, 8 September [...",
+            "fid" : "southey.2.835",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "835",
+            "weight" : "1",
+            "pos" : 4205,
+            "context" : "Letter <mark>835<\/mark>. 8 September [1803]: Mary Barker",
+            "fid" : "refletterlistPart2.562",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,92 @@
+
+  { "stem" : "twain",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Twain",
+            "weight" : "1",
+            "pos" : 161,
+            "context" : "...We have followed the editors of the letters of Mark <mark>Twain<\/mark> and adopted a ‘plain text’ methodology in order to produce...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Twain",
+            "weight" : "1",
+            "pos" : 2065,
+            "context" : "...‘Guide to Editorial Practice, (MTDP 00005),’ Mark <mark>Twain<\/mark> Project Online (Berkeley, Los Angeles, London:...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Twain",
+            "weight" : "1",
+            "pos" : 2086,
+            "context" : "...or more recently, here: Textual Editing at the Mark <mark>Twain<\/mark> Project, \"Plain Text.\" Back",
+            "fid" : "ref.7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2731.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "twain",
+            "weight" : "1",
+            "pos" : 31,
+            "context" : "...about La Haye. &amp; you may have the younger <mark>twain<\/mark> instead of births for poor Berthas sake, – which...",
+            "fid" : "southey.5.2731",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘twain’",
+            "weight" : "1",
+            "pos" : 418,
+            "context" : "..., stanza 11, line 1, ‘births’ was changed to <mark>‘twain’<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2724.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘twain’",
+            "weight" : "1",
+            "pos" : 243,
+            "context" : "..., stanza 11, line 1, ‘births’ was changed to <mark>‘twain’<\/mark>; and ‘Bertha’ retained in stanza 10, line 2....",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1653.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "twain",
+            "weight" : "1",
+            "pos" : 945,
+            "context" : "...So easily had then those armed jawsSnapt him in <mark>twain<\/mark>, but for the mighty powerWhich had exempted him...",
+            "fid" : "line243",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.915.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "twain",
+            "weight" : "1",
+            "pos" : 853,
+            "context" : "...the two kings of Brentford, ‘united yet divided, <mark>twain<\/mark> at once \/ So sit two kings of Brentford on...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

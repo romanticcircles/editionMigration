@@ -1,0 +1,42 @@
+
+  { "stem" : "auctor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.240.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Auctore",
+            "weight" : "1",
+            "pos" : 400,
+            "context" : "...seu Laboriosae Baldvini Cantuariensis Archiepiscopi per Walliam Legationis Accurata Descripto <mark>Auctore<\/mark> Silv. Giraldo Cambrensis Southey made use of in Madoc...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1439.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Auctor",
+            "weight" : "1",
+            "pos" : 99,
+            "context" : "Respuesta elel <mark>Auctor<\/mark>.",
+            "fid" : "southey.3.1439",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.655.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Auctor",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : "...fuit, ut arbitror, rotunda, altitudo varia – <mark>Auctor<\/mark> enim Stylitarum Simeon primum columellam ascendit non nisi senûm cubitorum...",
+            "fid" : "southey.2.655",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

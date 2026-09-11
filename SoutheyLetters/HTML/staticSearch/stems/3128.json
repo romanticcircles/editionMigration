@@ -1,0 +1,40 @@
+
+  { "stem" : "3128",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3128",
+            "weight" : "1",
+            "pos" : 3219,
+            "context" : "Letter <mark>3128<\/mark>. 28 April 1818: Thomas Southey",
+            "fid" : "5.3128" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3128.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3128",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3128<\/mark>. Robert Southey to Thomas Southey, 28 April 1818...",
+            "fid" : "southey.5.3128",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3128",
+            "weight" : "1",
+            "pos" : 3199,
+            "context" : "Letter <mark>3128<\/mark>.  28 April 1818: Thomas Southey",
+            "fid" : "refletterlistPart5.439",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "voullair",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.671.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Voullaire",
+            "weight" : "1",
+            "pos" : 59,
+            "context" : "...drawing. I have this morning seen his friend M. <mark>Voullaire<\/mark>3 &amp; as far as half an hours conversation can...",
+            "fid" : "southey.2.671",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Voullaire",
+            "weight" : "1",
+            "pos" : 467,
+            "context" : "3.  He could be connected to the J.A. <mark>Voullaire<\/mark> (first name and dates unknown), whose French translation...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670b.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Voullaire",
+            "weight" : "1",
+            "pos" : 606,
+            "context" : "1.  He could be connected to the J.A. <mark>Voullaire<\/mark> (first name and dates unknown), whose French translation...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

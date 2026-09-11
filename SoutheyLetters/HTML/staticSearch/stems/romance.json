@@ -1,0 +1,37 @@
+
+  { "stem" : "romance",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.766.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "romancees",
+            "weight" : "1",
+            "pos" : 279,
+            "context" : "...at Gunville,13 let them buy the Engleish metrical <mark>romancees<\/mark> published by Ritson;14 it is, indeed, a...",
+            "fid" : "southey.2.766",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Romancees",
+            "weight" : "1",
+            "pos" : 667,
+            "context" : "...(1752-1803; DNB), Ancient Engleish Metrical <mark>Romancees<\/mark> (1802). Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.792.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Romancees",
+            "weight" : "1",
+            "pos" : 672,
+            "context" : "...(1752-1803; DNB), Ancient Engleish Metrical <mark>Romancees<\/mark> (1802). Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

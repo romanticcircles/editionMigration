@@ -1,0 +1,48 @@
+
+  { "stem" : "errat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "erratic",
+            "weight" : "1",
+            "pos" : 30343,
+            "context" : "...College, Oxford. He proved a brilliant, if <mark>erratic<\/mark> scholar, and though he gained a Fellowship at Oriel...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "erratic",
+            "weight" : "1",
+            "pos" : 45307,
+            "context" : "...A brilliant scholar as a child, his schooling was <mark>erratic<\/mark>, and though he entered Worcester College, Oxford in...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2201.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "erratically",
+            "weight" : "1",
+            "pos" : 209,
+            "context" : "...to publish this work quarterly, but it actually appeared <mark>erratically<\/mark> in 15 numbers. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3934.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "erratic",
+            "weight" : "1",
+            "pos" : 86,
+            "context" : "...what it should be, tho the course has been an <mark>erratic<\/mark> one. Strachey I think might have been as well...",
+            "fid" : "southey.7.3934",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

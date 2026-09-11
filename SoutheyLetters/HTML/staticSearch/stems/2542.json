@@ -1,0 +1,40 @@
+
+  { "stem" : "2542",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2542",
+            "weight" : "1",
+            "pos" : 5984,
+            "context" : "Letter <mark>2542<\/mark>. 14 January 1815: Herbert Hill",
+            "fid" : "4.2542" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2542.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2542",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2542<\/mark>. Robert Southey to Herbert Hill, 14 January 1815...",
+            "fid" : "southey.4.2542",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2542",
+            "weight" : "1",
+            "pos" : 5955,
+            "context" : "Letter <mark>2542<\/mark>. 14 January 1815: Herbert Hill",
+            "fid" : "refletterlistPart4.824",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

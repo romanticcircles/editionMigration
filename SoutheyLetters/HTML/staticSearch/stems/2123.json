@@ -1,0 +1,66 @@
+
+  { "stem" : "2123",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2123",
+            "weight" : "1",
+            "pos" : 2882,
+            "context" : "Letter <mark>2123<\/mark>. 8 July 1812: John James Morgan",
+            "fid" : "4.2123" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2119.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2123",
+            "weight" : "1",
+            "pos" : 244,
+            "context" : "...to John James Morgan, 8 July 1812 (Letter <mark>2123<\/mark>). Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2123.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2123",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2123<\/mark>. Robert Southey to John James Morgan, 8 July...",
+            "fid" : "southey.4.2123",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2123",
+            "weight" : "1",
+            "pos" : 2859,
+            "context" : "Letter <mark>2123<\/mark>. 8 July 1812: John James Morgan",
+            "fid" : "refletterlistPart4.400",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3509.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2123",
+            "weight" : "1",
+            "pos" : 443,
+            "context" : "...History of British India (1817). They were nos <mark>2123<\/mark>, 426 and 1875, respectively, in the sale...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

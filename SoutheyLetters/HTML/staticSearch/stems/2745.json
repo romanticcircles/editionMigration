@@ -1,0 +1,40 @@
+
+  { "stem" : "2745",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2745",
+            "weight" : "1",
+            "pos" : 415,
+            "context" : "Letter <mark>2745<\/mark>. 25 March 1816: Grosvenor Charles Bedford",
+            "fid" : "5.2745" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2745.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2745",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2745<\/mark>. Robert Southey to Grosvenor Charles Bedford, 25 March...",
+            "fid" : "southey.5.2745",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2745",
+            "weight" : "1",
+            "pos" : 399,
+            "context" : "Letter <mark>2745<\/mark>. 25 March 1816: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart5.56",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

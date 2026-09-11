@@ -1,0 +1,53 @@
+
+  { "stem" : "2711",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2711",
+            "weight" : "1",
+            "pos" : 163,
+            "context" : "Letter <mark>2711<\/mark>. 9 February 1816: John Rickman",
+            "fid" : "5.2711" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2711.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2711",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2711<\/mark>. Robert Southey to John Rickman, 9 February 1816...",
+            "fid" : "southey.5.2711",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2725.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2711",
+            "weight" : "1",
+            "pos" : 162,
+            "context" : "...Southey to John Rickman, 9 February 1816, Letter <mark>2711<\/mark>: Southey was contesting the extent of the battlefield of...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2711",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "Letter <mark>2711<\/mark>. 9 February 1816: John Rickman",
+            "fid" : "refletterlistPart5.22",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

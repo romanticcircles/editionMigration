@@ -1,0 +1,40 @@
+
+  { "stem" : "3643",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3643",
+            "weight" : "1",
+            "pos" : 3107,
+            "context" : "Letter <mark>3643<\/mark>. 1 March 1821: Sir George Beaumont ",
+            "fid" : "6.3643" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3643.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3643",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3643<\/mark>. Robert Southey to Sir George Beaumont, 1 March...",
+            "fid" : "southey.6.3643",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3643",
+            "weight" : "1",
+            "pos" : 3087,
+            "context" : "Letter <mark>3643<\/mark>. 1 March 1821: Sir George Beaumont ",
+            "fid" : "refletterlistPart6.420",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

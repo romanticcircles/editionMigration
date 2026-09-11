@@ -1,0 +1,37 @@
+
+  { "stem" : "bowen",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2358.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bowen",
+            "weight" : "1",
+            "pos" : 78,
+            "context" : " The effect of Orange <mark>Bowen<\/mark>4 is that – cheese has fallen 1d\/ in the...",
+            "fid" : "southey.4.2358",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bowen’",
+            "weight" : "1",
+            "pos" : 189,
+            "context" : "...as an effect of the traditional Dutch cry of ‘Orange <mark>Bowen’<\/mark> (literally ‘Orange First’). Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bowen",
+            "weight" : "1",
+            "pos" : 1684,
+            "context" : "...Frances Banks, John Bolton, Sally Bowden, Anthony <mark>Bowen<\/mark>, Averill Buchanan, Thora Brylowe, Richard Butterwick–...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

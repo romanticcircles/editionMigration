@@ -1,0 +1,40 @@
+
+  { "stem" : "1245.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1245.1",
+            "weight" : "1",
+            "pos" : 2790,
+            "context" : "Letter <mark>1245.1<\/mark>. [20 December 1806]: Charles Watkin Williams Wynn...",
+            "fid" : "3.1245.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1245.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1245.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1245.1<\/mark> Robert Southey to Charles Watkin Williams Wynn, [20...",
+            "fid" : "southey.3.1245.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1245.1",
+            "weight" : "1",
+            "pos" : 2767,
+            "context" : "Letter <mark>1245.1<\/mark>. [20 December 1806]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart3.372",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,55 @@
+
+  { "stem" : "belfast",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Belfast",
+            "weight" : "1",
+            "pos" : 989,
+            "context" : "...She completed an AHRC-funded PhD at Queen’s University <mark>Belfast<\/mark> in 2004 on the Anglo-Irish writer Mary Tighe...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.139.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Belfast",
+            "weight" : "1",
+            "pos" : 184,
+            "context" : "..., Chiefly in the Scottish Dialect, 2 vols (<mark>Belfast<\/mark>, 1793), II, p. 63, ‘On seeing...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.354.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Belfast",
+            "weight" : "1",
+            "pos" : 690,
+            "context" : "...names. was I to direct Dublin or Cork or <mark>Belfast<\/mark>? I could not guess.",
+            "fid" : "southey.2.354",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.614.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Belfast",
+            "weight" : "1",
+            "pos" : 790,
+            "context" : "...married Isabella Maria Brown, daughter of John Brown of <mark>Belfast<\/mark>. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

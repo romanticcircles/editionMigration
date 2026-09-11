@@ -1,0 +1,53 @@
+
+  { "stem" : "1205",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1205",
+            "weight" : "1",
+            "pos" : 2477,
+            "context" : "Letter <mark>1205<\/mark>. 1 August [1806]: Mary Barker",
+            "fid" : "3.1205" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1205.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1205",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1205<\/mark>. Robert Southey to Mary Barker, 1 August [...",
+            "fid" : "southey.3.1205",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.994.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1205",
+            "weight" : "1",
+            "pos" : 788,
+            "context" : "...recorded map specifically of Wales. It was produced circa <mark>1205<\/mark> and titled ‘Totius Kambriae Mappa’. This map is referred...",
+            "fid" : "18",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1205",
+            "weight" : "1",
+            "pos" : 2454,
+            "context" : "Letter <mark>1205<\/mark>. 1 August [1806]: Mary Barker",
+            "fid" : "refletterlistPart3.331",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

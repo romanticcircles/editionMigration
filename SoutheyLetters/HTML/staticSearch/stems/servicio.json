@@ -1,0 +1,63 @@
+
+  { "stem" : "servicio",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1845.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "servicio",
+            "weight" : "1",
+            "pos" : 62,
+            "context" : "...de la N. España. in otro destino del Real <mark>servicio<\/mark>. 17572 ",
+            "fid" : "southey.4.1845",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Servicio",
+            "weight" : "1",
+            "pos" : 217,
+            "context" : "...Reyno de la N. España In Otro Destino del Real <mark>Servicio<\/mark> (1757); no. 3603 in the sale catalogue of...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1834.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Servicio",
+            "weight" : "1",
+            "pos" : 193,
+            "context" : "...Reyno de la N. España In Otro Destino del Real <mark>Servicio<\/mark> (1757); no. 3603 in the sale catalogue of...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1846.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Servicio",
+            "weight" : "1",
+            "pos" : 550,
+            "context" : "...Reyno de la N. España In Otro Destino del Real <mark>Servicio<\/mark> (1757); no. 3603 in the sale catalogue of...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3273.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "servicios",
+            "weight" : "1",
+            "pos" : 213,
+            "context" : "...the America,10 with a detailed account of sus <mark>servicios<\/mark>11 at great length. – Montserrat12 he tells...",
+            "fid" : "southey.6.3273",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2789",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2789",
+            "weight" : "1",
+            "pos" : 740,
+            "context" : "Letter <mark>2789<\/mark>. 15 May 1816: Herbert Hill",
+            "fid" : "5.2789" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2789.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2789",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2789<\/mark>. Robert Southey to Herbert Hill, 15 May 1816...",
+            "fid" : "southey.5.2789",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2844.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2789",
+            "weight" : "1",
+            "pos" : 792,
+            "context" : "...Southey to Herbert Hill, 15 May 1816 (Letter <mark>2789<\/mark>), for his request for lists of Governors of Brazilian...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2789",
+            "weight" : "1",
+            "pos" : 724,
+            "context" : "Letter <mark>2789<\/mark>. 15 May 1816: Herbert Hill",
+            "fid" : "refletterlistPart5.100",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

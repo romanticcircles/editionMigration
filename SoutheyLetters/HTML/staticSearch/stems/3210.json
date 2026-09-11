@@ -1,0 +1,53 @@
+
+  { "stem" : "3210",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3210",
+            "weight" : "1",
+            "pos" : 3795,
+            "context" : "Letter <mark>3210<\/mark>. 16 November 1818: John May",
+            "fid" : "5.3210" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3210.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3210",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3210<\/mark>. Robert Southey to John May, 16 November 1818...",
+            "fid" : "southey.5.3210",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3210",
+            "weight" : "1",
+            "pos" : 3775,
+            "context" : "Letter <mark>3210<\/mark>.  16 November 1818: John May",
+            "fid" : "refletterlistPart5.521",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3306.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3210",
+            "weight" : "1",
+            "pos" : 155,
+            "context" : "...: Pforzheimer Collection, New York Public Library, Misc <mark>3210<\/mark>. ALS; 3p. Unpublished. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

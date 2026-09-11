@@ -1,0 +1,42 @@
+
+  { "stem" : "hospital",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1045.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hospitaller",
+            "weight" : "1",
+            "pos" : 617,
+            "context" : "7.   The Military and <mark>Hospitaller<\/mark> Order of St. Lazarus of Jerusalem established leper hospitals...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.913.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hospitallers",
+            "weight" : "1",
+            "pos" : 516,
+            "context" : "...1565 epic siege by the Ottomans of the Crusader Knights <mark>Hospitallers<\/mark> on Malta, who had been granted the island by...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.535.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hospitaller",
+            "weight" : "1",
+            "pos" : 798,
+            "context" : "..., assumed the title of Grand Master of the Knights <mark>Hospitaller<\/mark>, a Catholic order, in 1798. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

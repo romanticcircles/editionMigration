@@ -1,0 +1,40 @@
+
+  { "stem" : "2543",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2543",
+            "weight" : "1",
+            "pos" : 5991,
+            "context" : "Letter <mark>2543<\/mark>. 15 January 1815: John May",
+            "fid" : "4.2543" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2543.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2543",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2543<\/mark>. Robert Southey to John May, 15 January 1815...",
+            "fid" : "southey.4.2543",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2543",
+            "weight" : "1",
+            "pos" : 5962,
+            "context" : "Letter <mark>2543<\/mark>. 15 January 1815: John May",
+            "fid" : "refletterlistPart4.825",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

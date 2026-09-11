@@ -1,0 +1,35 @@
+
+  { "stem" : "plas",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Plas",
+            "weight" : "1",
+            "pos" : 25047,
+            "context" : "..., in 1780 set up house with Sarah Ponsonby at <mark>Plas<\/mark> Newydd, on the outskirts of Llangollen, North Wales...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Plas",
+            "weight" : "1",
+            "pos" : 103567,
+            "context" : "...in 1780 she set up home with Eleanor Butler at <mark>Plas<\/mark> Newydd on the outskirts of Llangollen, a major staging...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "plas",
+            "weight" : "1",
+            "pos" : 338,
+            "context" : ".... Demeurer dans une terre sauvage – parmi gens les <mark>plas<\/mark> bizarres &amp; barbares, sans un seul ami – xxxxx...",
+            "fid" : "southey.2.663a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

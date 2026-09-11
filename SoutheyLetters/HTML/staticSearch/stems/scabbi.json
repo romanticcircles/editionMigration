@@ -1,0 +1,41 @@
+
+  { "stem" : "scabbi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "scabby",
+            "weight" : "1",
+            "pos" : 138696,
+            "context" : "...was one of many acquaintances who treated Southey ‘like a <mark>scabby<\/mark> sheep’, dropping him. They were later only partially reconciled...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.partOneIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘scabby",
+            "weight" : "1",
+            "pos" : 1215,
+            "context" : "...friends as if, he later explained, he were a <mark>‘scabby<\/mark> sheep’.11 The extreme sense of emotional dislocation engendered...",
+            "fid" : "southey.partOneIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1057.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "scabby",
+            "weight" : "1",
+            "pos" : 75,
+            "context" : "...ought. I did not myself know how like a <mark>scabby<\/mark> sheep I had been considered before the touch of the...",
+            "fid" : "southey.3.1057",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

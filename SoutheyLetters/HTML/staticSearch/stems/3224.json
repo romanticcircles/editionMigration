@@ -1,0 +1,40 @@
+
+  { "stem" : "3224",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3224",
+            "weight" : "1",
+            "pos" : 3896,
+            "context" : "Letter <mark>3224<\/mark>. 24 December 1818: William Wilberforce",
+            "fid" : "5.3224" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3224.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3224",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3224<\/mark>. Robert Southey to William Wilberforce, 24 December 1818...",
+            "fid" : "southey.5.3224",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3224",
+            "weight" : "1",
+            "pos" : 3876,
+            "context" : "Letter <mark>3224<\/mark>.  24 December 1818: William Wilberforce",
+            "fid" : "refletterlistPart5.535",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

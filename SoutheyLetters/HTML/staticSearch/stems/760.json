@@ -1,0 +1,53 @@
+
+  { "stem" : "760",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1088.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "760",
+            "weight" : "1",
+            "pos" : 348,
+            "context" : "...Review for 1805, 4 (1806), 756–<mark>760<\/mark>, but it is not known who the author was....",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "760",
+            "weight" : "1",
+            "pos" : 3687,
+            "context" : "Letter <mark>760<\/mark>. 14 February 1803: William Taylor",
+            "fid" : "2.760" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.760.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "760",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>760<\/mark>. Robert Southey to William Taylor, 14 February 1803...",
+            "fid" : "southey.2.760",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "760",
+            "weight" : "1",
+            "pos" : 3658,
+            "context" : "Letter <mark>760<\/mark>. 14 February 1803: William Taylor",
+            "fid" : "refletterlistPart2.487",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

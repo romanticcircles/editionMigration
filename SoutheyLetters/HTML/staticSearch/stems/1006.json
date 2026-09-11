@@ -1,0 +1,66 @@
+
+  { "stem" : "1006",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1006",
+            "weight" : "1",
+            "pos" : 973,
+            "context" : "Letter <mark>1006<\/mark>. 18 December 1804: Charles Watkin Williams Wynn",
+            "fid" : "3.1006" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1006.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1006",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1006<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 18...",
+            "fid" : "southey.3.1006",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1008.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1006",
+            "weight" : "1",
+            "pos" : 903,
+            "context" : "...Charles Watkin Williams Wynn, 18 December 1804, Letter <mark>1006<\/mark>. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.989.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1006",
+            "weight" : "1",
+            "pos" : 190,
+            "context" : "...Charles Watkin Williams Wynn, 18 December 1804, Letter <mark>1006<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1006",
+            "weight" : "1",
+            "pos" : 954,
+            "context" : "Letter <mark>1006<\/mark>. 18 December 1804: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart3.130",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

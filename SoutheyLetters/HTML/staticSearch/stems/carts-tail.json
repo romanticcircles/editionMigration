@@ -1,0 +1,37 @@
+
+  { "stem" : "carts-tail",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1540.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "carts-tailing",
+            "weight" : "1",
+            "pos" : 19,
+            "context" : " I am not quite sure which deserves the severest <mark>carts-tailing<\/mark>, you or your Admiral,1 you for what...",
+            "fid" : "southey.3.1540",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "carts-tailable",
+            "weight" : "1",
+            "pos" : 84,
+            "context" : "...before I saw it. Your phrase of eking out is <mark>carts-tailable<\/mark> – without benefit of clergy. If you will please...",
+            "fid" : "southey.3.1540",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.950.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "carts-tailing",
+            "weight" : "1",
+            "pos" : 38,
+            "context" : "...Mrs Lovells – you would certainly be sentenced to vigorous <mark>carts-tailing<\/mark>2 perhaps to travel in that fashion to Keswick instead...",
+            "fid" : "southey.3.950",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

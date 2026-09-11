@@ -1,0 +1,52 @@
+
+  { "stem" : "3791",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3791",
+            "weight" : "1",
+            "pos" : 139,
+            "context" : "Letter <mark>3791<\/mark>. 31 January 1822: Sarah Browne",
+            "fid" : "7.3791" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3791.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3791",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3791<\/mark>. Robert Southey to Sarah Browne, 31 January 1822...",
+            "fid" : "southey.7.3791",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3791",
+            "weight" : "1",
+            "pos" : 123,
+            "context" : "Letter <mark>3791<\/mark>. 31 January 1822: Sarah Browne",
+            "fid" : "refletterlistPart7.18",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.partSevenIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3791",
+            "weight" : "1",
+            "pos" : 1621,
+            "context" : "...charge of slander’ had to be responded to (Letter <mark>3791<\/mark>). In January 1822 he wrote to the London newspaper...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,42 @@
+
+  { "stem" : "bot",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2800.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bot",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "...5 whose wife is the sister of Dr Smith the <mark>Bot<\/mark> Sir James (or Sir Edward) Smith6 the Botanist...",
+            "fid" : "southey.5.2800",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1778.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "BOTTING",
+            "weight" : "1",
+            "pos" : 408,
+            "context" : "...[partial] Watermark: shield\/ 1805\/ T <mark>BOTTING<\/mark> Endorsement: R. Southey\/ 11 May 1810 MS:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3856.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bot",
+            "weight" : "1",
+            "pos" : 594,
+            "context" : "...to learned men, quha thinks thame onelie wyis,\/<mark>Bot<\/mark> to the docile bairns of knowledge I direct thee.’...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

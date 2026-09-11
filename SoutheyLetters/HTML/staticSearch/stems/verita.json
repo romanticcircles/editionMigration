@@ -1,0 +1,37 @@
+
+  { "stem" : "verita",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2008.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "veritas",
+            "weight" : "1",
+            "pos" : 114,
+            "context" : "...Dublin has completely exposed him.6 This was in vino <mark>veritas<\/mark>7 – any thing rather than veritas.8 ",
+            "fid" : "southey.4.2008",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "veritas",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "...was in vino veritas7 – any thing rather than <mark>veritas<\/mark>.8 ",
+            "fid" : "southey.4.2008",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.902.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "veritas",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "...occasionally to remember it with the comfortable reflection ‘in vino <mark>veritas<\/mark>;’2 for, in plain truth, already it does...",
+            "fid" : "southey.3.902",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

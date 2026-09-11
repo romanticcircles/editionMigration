@@ -1,0 +1,53 @@
+
+  { "stem" : "3602",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3602",
+            "weight" : "1",
+            "pos" : 2804,
+            "context" : "Letter <mark>3602<\/mark>. 8 January 1821: Herbert Hill ",
+            "fid" : "6.3602" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3602.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3602",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3602<\/mark>. Robert Southey to Herbert Hill, 8 January 1821...",
+            "fid" : "southey.6.3602",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3629.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3602",
+            "weight" : "1",
+            "pos" : 870,
+            "context" : "...Southey to Herbert Hill, 8 January 1821, Letter <mark>3602<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3602",
+            "weight" : "1",
+            "pos" : 2784,
+            "context" : "Letter <mark>3602<\/mark>. 8 January 1821: Herbert Hill ",
+            "fid" : "refletterlistPart6.379",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

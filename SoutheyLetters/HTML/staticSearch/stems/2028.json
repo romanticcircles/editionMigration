@@ -1,0 +1,40 @@
+
+  { "stem" : "2028",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2028",
+            "weight" : "1",
+            "pos" : 2194,
+            "context" : "Letter <mark>2028<\/mark>. [1 February 1812]: John Rickman",
+            "fid" : "4.2028" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2028.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2028",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2028<\/mark>. Robert Southey to John Rickman, [ 1 February...",
+            "fid" : "southey.4.2028",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2028",
+            "weight" : "1",
+            "pos" : 2171,
+            "context" : "Letter <mark>2028<\/mark>. [1 February 1812]: John Rickman",
+            "fid" : "refletterlistPart4.304",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "3101",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3101",
+            "weight" : "1",
+            "pos" : 3025,
+            "context" : "Letter <mark>3101<\/mark>. Easter Eve [22 March] 1818: Thomas...",
+            "fid" : "5.3101" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3099.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3101",
+            "weight" : "1",
+            "pos" : 245,
+            "context" : "..., Easter Eve [22 March] 1818, Letter <mark>3101<\/mark>. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3101.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3101",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3101<\/mark>. Robert Southey to Thomas Southey, Easter Eve [...",
+            "fid" : "southey.5.3101",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3101",
+            "weight" : "1",
+            "pos" : 3005,
+            "context" : "Letter <mark>3101<\/mark>.  Easter Eve [22 March] 1818: Thomas...",
+            "fid" : "refletterlistPart5.412",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

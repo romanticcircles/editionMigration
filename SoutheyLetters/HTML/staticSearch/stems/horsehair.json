@@ -1,0 +1,30 @@
+
+  { "stem" : "horsehair",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "horsehair",
+            "weight" : "1",
+            "pos" : 1160,
+            "context" : "...amused me on the road by devouring one pair of <mark>horsehair<\/mark> socks, one tooth-brush, one comb,...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2286.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "horsehair",
+            "weight" : "1",
+            "pos" : 298,
+            "context" : "3.   The <mark>horsehair<\/mark> worm; see Abraham Rees (1743–1825;...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "724",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "724",
+            "weight" : "1",
+            "pos" : 3401,
+            "context" : "Letter <mark>724<\/mark>. 5 October 1802: George Dyer",
+            "fid" : "2.724" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.724.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "724",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>724<\/mark>. Robert Southey to George Dyer, 5 October 1802...",
+            "fid" : "southey.2.724",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "724",
+            "weight" : "1",
+            "pos" : 3374,
+            "context" : "Letter <mark>724<\/mark>. 5 October 1802: George Dyer",
+            "fid" : "refletterlistPart2.450",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

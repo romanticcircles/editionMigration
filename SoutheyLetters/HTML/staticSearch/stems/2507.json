@@ -1,0 +1,40 @@
+
+  { "stem" : "2507",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2507",
+            "weight" : "1",
+            "pos" : 5716,
+            "context" : "Letter <mark>2507<\/mark>. 30 November 1814: Robert Gooch",
+            "fid" : "4.2507" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2507.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2507",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2507<\/mark>. Robert Southey to Robert Gooch, 30 November 1814...",
+            "fid" : "southey.4.2507",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2507",
+            "weight" : "1",
+            "pos" : 5689,
+            "context" : "Letter <mark>2507<\/mark>. 30 November 1814: Robert Gooch",
+            "fid" : "refletterlistPart4.789",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

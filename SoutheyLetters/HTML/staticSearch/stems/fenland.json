@@ -1,0 +1,41 @@
+
+  { "stem" : "fenland",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fenland",
+            "weight" : "1",
+            "pos" : 1585,
+            "context" : "...Whitehaven; Dr Williams’s Trust, London; Wisbech and <mark>Fenland<\/mark> Museum; The Wordsworth Trust, Dove Cottage, Grasmere...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fenland",
+            "weight" : "1",
+            "pos" : 143668,
+            "context" : "...collections to the South Kensington Museum and the Wisbech and <mark>Fenland<\/mark> Museum, and his library to the latter. The...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3011.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fenland",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "...Postmark: BAP\/ 9\/ 1817 MS: Wisbech and <mark>Fenland<\/mark> Museum, Townshend Collection. ALS; 2p. Unpublished....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

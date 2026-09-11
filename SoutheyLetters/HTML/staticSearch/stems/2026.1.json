@@ -1,0 +1,40 @@
+
+  { "stem" : "2026.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026.1",
+            "weight" : "1",
+            "pos" : 2182,
+            "context" : "Letter <mark>2026.1<\/mark>. 1 February 1812: James Gooden",
+            "fid" : "4.2026.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2026.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2026.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2026.1<\/mark>. Robert Southey to James Gooden, 1 February 1812...",
+            "fid" : "southey.4.2026.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026.1",
+            "weight" : "1",
+            "pos" : 2159,
+            "context" : "Letter <mark>2026.1<\/mark>. 1 February 1812: James Gooden",
+            "fid" : "refletterlistPart4.302",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "3216",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3216",
+            "weight" : "1",
+            "pos" : 3837,
+            "context" : "Letter <mark>3216<\/mark>. 4 December 1818: John Murray",
+            "fid" : "5.3216" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3216.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3216",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3216<\/mark>. Robert Southey to John Murray, 4 December 1818...",
+            "fid" : "southey.5.3216",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3216",
+            "weight" : "1",
+            "pos" : 3817,
+            "context" : "Letter <mark>3216<\/mark>.  4 December 1818: John Murray",
+            "fid" : "refletterlistPart5.527",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

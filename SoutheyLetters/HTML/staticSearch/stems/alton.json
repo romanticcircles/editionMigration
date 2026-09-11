@@ -1,0 +1,48 @@
+
+  { "stem" : "alton",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Alton",
+            "weight" : "1",
+            "pos" : 18836,
+            "context" : "...the Manchester Infirmary who inherited the Farley estate, near <mark>Alton<\/mark>, Staffordshire. Robert Bill was educated at Macclesfield School...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Alton",
+            "weight" : "1",
+            "pos" : 146763,
+            "context" : "Writer. Born in <mark>Alton<\/mark>, Hampshire, he was the son of Jeremiah Waring...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3016.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Alton",
+            "weight" : "1",
+            "pos" : 643,
+            "context" : "...later Canon of Winchester 1828–1854 and Vicar of <mark>Alton<\/mark>, Hampshire 1832–1854. He was an old...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1928.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Alton",
+            "weight" : "1",
+            "pos" : 458,
+            "context" : "...\/ London.\/ at J Marsh’s Esqr\/ Droxford\/ <mark>Alton<\/mark>\/ Hants Postmark: [partial] E\/ JU\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

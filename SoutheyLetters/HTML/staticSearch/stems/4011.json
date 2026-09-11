@@ -1,0 +1,40 @@
+
+  { "stem" : "4011",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4011",
+            "weight" : "1",
+            "pos" : 1750,
+            "context" : "Letter <mark>4011<\/mark>. 3 May 1823: Caroline Bowles",
+            "fid" : "7.4011" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4011.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4011",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4011<\/mark>. Robert Southey to Caroline Bowles, 3 May 1823...",
+            "fid" : "southey.7.4011",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4011",
+            "weight" : "1",
+            "pos" : 1732,
+            "context" : "Letter <mark>4011<\/mark>. 3 May 1823: Caroline Bowles",
+            "fid" : "refletterlistPart7.238",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

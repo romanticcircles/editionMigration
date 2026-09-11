@@ -1,0 +1,40 @@
+
+  { "stem" : "jerboa",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3185.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Jerboa",
+            "weight" : "1",
+            "pos" : 75,
+            "context" : " Thank you for your note about the <mark>Jerboa<\/mark>. I had made the same guess, but suppressed...",
+            "fid" : "southey.5.3185",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Jerboa",
+            "weight" : "1",
+            "pos" : 81,
+            "context" : "...but suppressed because of the difficulty of explaining how the <mark>Jerboa<\/mark> should get there, – being neither known in Europe nor...",
+            "fid" : "southey.5.3185",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "jerboa",
+            "weight" : "1",
+            "pos" : 297,
+            "context" : "4.  The <mark>jerboa<\/mark> is a desert rodent from North Africa and Asia....",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "jerboas",
+            "weight" : "1",
+            "pos" : 330,
+            "context" : "...In a note he speculated that the rats were actually <mark>jerboas<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

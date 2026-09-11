@@ -1,0 +1,53 @@
+
+  { "stem" : "4223",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4223",
+            "weight" : "1",
+            "pos" : 3285,
+            "context" : "Letter <mark>4223<\/mark>. 24 July 1824: Edith May Southey",
+            "fid" : "7.4223" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4223.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4223",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4223<\/mark>. Robert Southey to Edith May Southey, 24 July...",
+            "fid" : "southey.7.4223",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4264.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4223",
+            "weight" : "1",
+            "pos" : 650,
+            "context" : "...to Edith May Southey, 24 July 1824, Letter <mark>4223<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4223",
+            "weight" : "1",
+            "pos" : 3265,
+            "context" : "Letter <mark>4223<\/mark>. 24 July 1824: Edith May Southey",
+            "fid" : "refletterlistPart7.450",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

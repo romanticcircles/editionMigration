@@ -1,0 +1,40 @@
+
+  { "stem" : "1928",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1928",
+            "weight" : "1",
+            "pos" : 1470,
+            "context" : "Letter <mark>1928<\/mark>. 31 May 1811: William Peachy",
+            "fid" : "4.1928" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1928.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1928",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1928<\/mark>. Robert Southey to William Peachy, 31 May 1811...",
+            "fid" : "southey.4.1928",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1928",
+            "weight" : "1",
+            "pos" : 1449,
+            "context" : "Letter <mark>1928<\/mark>. 31 May 1811: William Peachy",
+            "fid" : "refletterlistPart4.203",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

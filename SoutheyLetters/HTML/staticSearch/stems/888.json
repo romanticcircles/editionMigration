@@ -1,0 +1,40 @@
+
+  { "stem" : "888",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "888",
+            "weight" : "1",
+            "pos" : 98,
+            "context" : "Letter <mark>888<\/mark>. 23 January 1804: Henry Herbert Southey",
+            "fid" : "3.888" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.888.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "888",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>888<\/mark>. Robert Southey to Henry Herbert Southey, 23 January...",
+            "fid" : "southey.3.888",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "888",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "Letter <mark>888<\/mark>. 23 January 1804: Henry Herbert Southey",
+            "fid" : "refletterlistPart3.11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

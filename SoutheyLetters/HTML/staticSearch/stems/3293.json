@@ -1,0 +1,53 @@
+
+  { "stem" : "3293",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3126.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3293",
+            "weight" : "1",
+            "pos" : 336,
+            "context" : "...Sacramento (Lisbon, 1748), p. 105, no. <mark>3293<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3293",
+            "weight" : "1",
+            "pos" : 483,
+            "context" : "Letter <mark>3293<\/mark>. 10 May 1819: Herbert Hill ",
+            "fid" : "6.3293" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3293.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3293",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3293<\/mark>. Robert Southey to Herbert Hill, 10 May 1819...",
+            "fid" : "southey.6.3293",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3293",
+            "weight" : "1",
+            "pos" : 467,
+            "context" : "Letter <mark>3293<\/mark>. 10 May 1819: Herbert Hill ",
+            "fid" : "refletterlistPart6.66",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

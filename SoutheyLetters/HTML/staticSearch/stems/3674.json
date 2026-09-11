@@ -1,0 +1,53 @@
+
+  { "stem" : "3674",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3674",
+            "weight" : "1",
+            "pos" : 4265,
+            "context" : "...Collected Letters of Robert Southey. Part Six, Letter <mark>3674<\/mark>. Southey believed Hobhouse to be a confirmed partisan of...",
+            "fid" : "71",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3674",
+            "weight" : "1",
+            "pos" : 3338,
+            "context" : "Letter <mark>3674<\/mark>. 21 April 1821: John Murray",
+            "fid" : "6.3674" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3674.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3674",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3674<\/mark>. Robert Southey to John Murray [fragment], 21...",
+            "fid" : "southey.6.3674",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3674",
+            "weight" : "1",
+            "pos" : 3318,
+            "context" : "Letter <mark>3674<\/mark>. 21 April 1821: John Murray",
+            "fid" : "refletterlistPart6.452",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

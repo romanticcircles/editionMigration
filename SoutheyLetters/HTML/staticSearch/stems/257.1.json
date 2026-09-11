@@ -1,0 +1,40 @@
+
+  { "stem" : "257.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart1",
+        "docUri" : "Part_One\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "257.1",
+            "weight" : "1",
+            "pos" : 2071,
+            "context" : "Letter <mark>257.1<\/mark>. 17 September [1797]: Charles Biddlecombe",
+            "fid" : "1.257.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.257.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "257.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>257.1<\/mark> Robert Southey to Charles Biddlecombe, 17 September [1797...",
+            "fid" : "southey.1.257.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.letterlistPart1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "257.1",
+            "weight" : "1",
+            "pos" : 2039,
+            "context" : "Letter <mark>257.1<\/mark>. 17 September [1797]: Charles Biddlecombe",
+            "fid" : "refletterlistPart1.259",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

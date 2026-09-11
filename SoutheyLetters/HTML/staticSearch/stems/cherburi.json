@@ -1,0 +1,37 @@
+
+  { "stem" : "cherburi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.473.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Cherbury",
+            "weight" : "1",
+            "pos" : 225,
+            "context" : " Lord Herbert of <mark>Cherbury<\/mark>6 was a strange man – I should like to...",
+            "fid" : "southey.2.473",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Cherbury",
+            "weight" : "1",
+            "pos" : 501,
+            "context" : "6.  Edward Herbert, 1st Lord Herbert of <mark>Cherbury<\/mark> (1582–1648; DNB), whose De Veritate...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.45.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cherbury",
+            "weight" : "1",
+            "pos" : 1487,
+            "context" : "...may have been thinking of Edward, Lord Herbert of <mark>Cherbury<\/mark> (1582–1648; DNB), poet, philosopher...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

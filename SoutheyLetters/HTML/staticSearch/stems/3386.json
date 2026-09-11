@@ -1,0 +1,53 @@
+
+  { "stem" : "3386",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3386",
+            "weight" : "1",
+            "pos" : 1191,
+            "context" : "Letter <mark>3386<\/mark>. 10 November 1819: John Murray ",
+            "fid" : "6.3386" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3386.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3386",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3386<\/mark>. Robert Southey to John Murray, 10 November 1819...",
+            "fid" : "southey.6.3386",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3388.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3386",
+            "weight" : "1",
+            "pos" : 392,
+            "context" : "...Southey to John Murray, 10 November 1819, Letter <mark>3386<\/mark>. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3386",
+            "weight" : "1",
+            "pos" : 1175,
+            "context" : "Letter <mark>3386<\/mark>. 10 November 1819: John Murray ",
+            "fid" : "refletterlistPart6.160",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

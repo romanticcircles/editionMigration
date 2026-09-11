@@ -1,0 +1,50 @@
+
+  { "stem" : "casiri",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.756.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Casiri",
+            "weight" : "1",
+            "pos" : 244,
+            "context" : "...literary part for which I want documents – in particular <mark>Casiri<\/mark> Bibleot. Arab. Hispanica.13 ) it will...",
+            "fid" : "southey.2.756",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Casiri",
+            "weight" : "1",
+            "pos" : 645,
+            "context" : "13.  Miguel <mark>Casiri<\/mark> (1710-1791), Bibliotheca Arabico-Hispana Escurialensis...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1287.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Casiris",
+            "weight" : "1",
+            "pos" : 623,
+            "context" : "15.   Miguel <mark>Casiris<\/mark> (dates unknown), Bibliotheca Arabico-Hispana Escurialensis (...",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1351.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Casiri",
+            "weight" : "1",
+            "pos" : 474,
+            "context" : "5.   The catalogue Bibliotheca Arabica-Hispana Escurialensis de <mark>Casiri<\/mark> (1760–1770). Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

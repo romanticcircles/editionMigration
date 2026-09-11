@@ -1,0 +1,37 @@
+
+  { "stem" : "scylla",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1702.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Scylla",
+            "weight" : "1",
+            "pos" : 280,
+            "context" : "...history of that Maltese Regiment which behaved so ill at <mark>Scylla<\/mark> last year?8 I will tell any truths about...",
+            "fid" : "southey.3.1702",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Scylla",
+            "weight" : "1",
+            "pos" : 687,
+            "context" : ".... The Maltese regiment was not involved in fighting at <mark>Scylla<\/mark>, Calabria, in 1809, but in 1808 became...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Scylla",
+            "weight" : "1",
+            "pos" : 304,
+            "context" : "...epistles pe[MS damaged] while I am avoiding <mark>Scylla<\/mark> I fall upon Charybdis4 but no[MS damaged]...",
+            "fid" : "southey.1.4",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

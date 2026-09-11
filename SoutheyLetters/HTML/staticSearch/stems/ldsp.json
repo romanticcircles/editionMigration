@@ -1,0 +1,30 @@
+
+  { "stem" : "ldsp",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ldsp",
+            "weight" : "1",
+            "pos" : 118,
+            "context" : "...are given in that volume as &lt;having proceeded from his <mark>Ldsp<\/mark>&gt; Lord Byrons are as follows &lt;Now then to the...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3831.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ldsp",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "...I had been in town I would have fitted his <mark>Ldsp<\/mark> with a leading article in the next days Courier which...",
+            "fid" : "southey.7.3831",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

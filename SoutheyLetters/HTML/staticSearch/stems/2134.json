@@ -1,0 +1,53 @@
+
+  { "stem" : "2134",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2134",
+            "weight" : "1",
+            "pos" : 2960,
+            "context" : "Letter <mark>2134<\/mark>. 14 August 1812: John May",
+            "fid" : "4.2134" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2134.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2134",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2134<\/mark>. Robert Southey to John May, 14 August 1812...",
+            "fid" : "southey.4.2134",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2145.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2134",
+            "weight" : "1",
+            "pos" : 345,
+            "context" : "...Southey to John May, 14 August 1812 (Letter <mark>2134<\/mark>) and 28 August 1812 (Letter 2139). Back...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2134",
+            "weight" : "1",
+            "pos" : 2937,
+            "context" : "Letter <mark>2134<\/mark>. 14 August 1812: John May",
+            "fid" : "refletterlistPart4.411",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

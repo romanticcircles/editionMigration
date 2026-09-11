@@ -1,0 +1,53 @@
+
+  { "stem" : "3287",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2230.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3287",
+            "weight" : "1",
+            "pos" : 380,
+            "context" : "...th century), Historia de Cataluña (1616), no. <mark>3287<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3287",
+            "weight" : "1",
+            "pos" : 439,
+            "context" : "Letter <mark>3287<\/mark>. 26 April 1819: John Rickman ",
+            "fid" : "6.3287" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3287.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3287",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3287<\/mark>. Robert Southey to John Rickman, 26 April 1819...",
+            "fid" : "southey.6.3287",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3287",
+            "weight" : "1",
+            "pos" : 423,
+            "context" : "Letter <mark>3287<\/mark>. 26 April 1819: John Rickman ",
+            "fid" : "refletterlistPart6.60",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

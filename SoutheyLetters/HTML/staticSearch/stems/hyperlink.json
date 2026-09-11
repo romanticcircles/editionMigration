@@ -1,0 +1,32 @@
+
+  { "stem" : "hyperlink",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "hyperlinked",
+            "weight" : "1",
+            "pos" : 610,
+            "context" : "...it deals with. People mentioned in the ‘Biographies’ section are <mark>hyperlinked<\/mark> from the text of individual letters, but are only...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "hyperlinked",
+            "weight" : "1",
+            "pos" : 614,
+            "context" : "...from the text of individual letters, but are only <mark>hyperlinked<\/mark> from editorial endnotes when their identity needs further clarification than...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "hyperlinked",
+            "weight" : "1",
+            "pos" : 635,
+            "context" : "...is provided in the ‘Places’ section of this edition and <mark>hyperlinked<\/mark> from the texts of individual letters. ",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

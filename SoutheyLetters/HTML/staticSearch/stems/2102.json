@@ -1,0 +1,53 @@
+
+  { "stem" : "2102",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2102",
+            "weight" : "1",
+            "pos" : 2732,
+            "context" : "Letter <mark>2102<\/mark>. 28 May 1812: Mary Barker",
+            "fid" : "4.2102" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2102.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2102",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2102<\/mark>. Robert Southey to Mary Barker, 28 May 1812...",
+            "fid" : "southey.4.2102",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2116.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2102",
+            "weight" : "1",
+            "pos" : 863,
+            "context" : "...Southey to Mary Barker, 28 May 1812, Letter <mark>2102<\/mark>. Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2102",
+            "weight" : "1",
+            "pos" : 2709,
+            "context" : "Letter <mark>2102<\/mark>. 28 May 1812: Mary Barker",
+            "fid" : "refletterlistPart4.379",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

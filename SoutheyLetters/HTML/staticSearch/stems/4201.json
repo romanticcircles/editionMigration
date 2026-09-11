@@ -1,0 +1,40 @@
+
+  { "stem" : "4201",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4201",
+            "weight" : "1",
+            "pos" : 3123,
+            "context" : "Letter <mark>4201<\/mark>. 16 June 1824: Nicholas Lightfoot",
+            "fid" : "7.4201" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4201.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4201",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4201<\/mark>. Robert Southey to Nicholas Lightfoot, 16 June 1824...",
+            "fid" : "southey.7.4201",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4201",
+            "weight" : "1",
+            "pos" : 3103,
+            "context" : "Letter <mark>4201<\/mark>. 16 June 1824: Nicholas Lightfoot",
+            "fid" : "refletterlistPart7.428",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

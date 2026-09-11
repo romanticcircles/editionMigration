@@ -1,0 +1,36 @@
+
+  { "stem" : "download",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "downloading",
+            "weight" : "1",
+            "pos" : 2011,
+            "context" : "...HTML (including css and JavaScript), csv files for <mark>downloading<\/mark> information about correspondents, people mentioned, and network analysis...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "download",
+            "weight" : "1",
+            "pos" : 2031,
+            "context" : "...code for the entire Southey Letters Collection is available for <mark>download<\/mark> via the Romantic Circles Community at Zenodo.",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "download",
+            "weight" : "1",
+            "pos" : 3,
+            "context" : "  Click the icon above to <mark>download<\/mark> a list of names; Click the blue icons below...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

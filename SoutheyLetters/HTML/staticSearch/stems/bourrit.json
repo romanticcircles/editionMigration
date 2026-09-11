@@ -1,0 +1,37 @@
+
+  { "stem" : "bourrit",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670b.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bourrit",
+            "weight" : "1",
+            "pos" : 404,
+            "context" : "...Picturesque Journey – better than that of your friend M. <mark>Bourrit<\/mark>15 who has written about your country.",
+            "fid" : "southey.2.670b",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bourrit",
+            "weight" : "1",
+            "pos" : 819,
+            "context" : "15.  Marc Theodore <mark>Bourrit<\/mark> (1739-1819), Swiss travel writer, especially...",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bourrit",
+            "weight" : "1",
+            "pos" : 845,
+            "context" : "...Voyage Pittoresque – meilleur que cette de votre ami M. <mark>Bourrit<\/mark> qui a ecrit sur votre terre.",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

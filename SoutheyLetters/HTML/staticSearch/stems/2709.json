@@ -1,0 +1,53 @@
+
+  { "stem" : "2709",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2709",
+            "weight" : "1",
+            "pos" : 150,
+            "context" : "Letter <mark>2709<\/mark>. 7 February 1816: John Murray",
+            "fid" : "5.2709" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2709.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2709",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2709<\/mark>. Robert Southey to John Murray, 7 February 1816...",
+            "fid" : "southey.5.2709",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2822.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2709",
+            "weight" : "1",
+            "pos" : 396,
+            "context" : "...Southey to John Murray, 7 February 1816, Letter <mark>2709<\/mark>. In Joseph Pitts (1663–1735?; DNB...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2709",
+            "weight" : "1",
+            "pos" : 134,
+            "context" : "Letter <mark>2709<\/mark>. 7 February 1816: John Murray",
+            "fid" : "refletterlistPart5.20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

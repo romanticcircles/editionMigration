@@ -1,0 +1,26 @@
+
+  { "stem" : "anise",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "aniseed",
+            "weight" : "1",
+            "pos" : 1080,
+            "context" : "...and fry it up with oil, garlic, and <mark>aniseed<\/mark>. I have attempted sausages made of nothing but garlic...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "aniseed",
+            "weight" : "1",
+            "pos" : 1086,
+            "context" : "...I have attempted sausages made of nothing but garlic and <mark>aniseed<\/mark>; they cut off the rump of a bird always...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] } ] }

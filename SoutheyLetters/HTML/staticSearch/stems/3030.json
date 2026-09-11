@@ -1,0 +1,53 @@
+
+  { "stem" : "3030",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3030",
+            "weight" : "1",
+            "pos" : 2503,
+            "context" : "Letter <mark>3030<\/mark>. 13 October 1817: John May",
+            "fid" : "5.3030" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3030.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3030",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3030<\/mark>. Robert Southey to John May, 13 October 1817...",
+            "fid" : "southey.5.3030",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3030",
+            "weight" : "1",
+            "pos" : 2485,
+            "context" : "Letter <mark>3030<\/mark>.  13 October 1817: John May",
+            "fid" : "refletterlistPart5.341",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3030",
+            "weight" : "1",
+            "pos" : 249,
+            "context" : "...and concern to Southey, including tea drinking (Letter <mark>3030<\/mark>); cats (Letter 3031); the impact of the...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

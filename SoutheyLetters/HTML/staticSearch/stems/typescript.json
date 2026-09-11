@@ -1,0 +1,29 @@
+
+  { "stem" : "typescript",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "typescript",
+            "weight" : "1",
+            "pos" : 468,
+            "context" : "TS = survives as a <mark>typescript<\/mark>",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3774.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "typescript",
+            "weight" : "1",
+            "pos" : 361,
+            "context" : "...Letter text, including the address, survives as a <mark>typescript<\/mark> copy, kept with a transcript of ‘M.S. Sketch of...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

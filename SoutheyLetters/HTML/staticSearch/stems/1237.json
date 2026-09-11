@@ -1,0 +1,40 @@
+
+  { "stem" : "1237",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1237",
+            "weight" : "1",
+            "pos" : 2714,
+            "context" : "Letter <mark>1237<\/mark>. 11 November 1806: John Theodore Koster",
+            "fid" : "3.1237" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1237.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1237",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1237<\/mark>. Robert Southey to John Theodore Koster, 11 November...",
+            "fid" : "southey.3.1237",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1237",
+            "weight" : "1",
+            "pos" : 2691,
+            "context" : "Letter <mark>1237<\/mark>. 11 November 1806: John Theodore Koster",
+            "fid" : "refletterlistPart3.363",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

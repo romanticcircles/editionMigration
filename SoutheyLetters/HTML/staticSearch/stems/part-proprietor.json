@@ -1,0 +1,27 @@
+
+  { "stem" : "part-proprietor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "part-proprietor",
+            "weight" : "1",
+            "pos" : 70142,
+            "context" : " Book-collector and <mark>part-proprietor<\/mark> of the Monthly Mirror. Born in Lancaster in May...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/places.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "part-proprietor",
+            "weight" : "1",
+            "pos" : 784,
+            "context" : "Home of Thomas Hill, book-collector and <mark>part-proprietor<\/mark> of the Monthly Mirror. Southey, who admired Hill’s...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

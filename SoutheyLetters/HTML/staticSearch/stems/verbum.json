@@ -1,0 +1,37 @@
+
+  { "stem" : "verbum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.183.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "verbum",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "Nec <mark>verbum<\/mark> verbo curabis reddere, fidusInterpres —1 ",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "verbum",
+            "weight" : "1",
+            "pos" : 602,
+            "context" : "“Nec <mark>verbum<\/mark> verbo curabis reddere, fidus“ Interpres —8 ",
+            "fid" : "line3",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1701.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Verbum",
+            "weight" : "1",
+            "pos" : 344,
+            "context" : "...to be found at the inn at Alston.29 <mark>Verbum<\/mark> sit sat sapienti.30 ",
+            "fid" : "southey.3.1701",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

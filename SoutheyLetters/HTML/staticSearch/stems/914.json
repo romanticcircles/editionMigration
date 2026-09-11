@@ -1,0 +1,53 @@
+
+  { "stem" : "914",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "914",
+            "weight" : "1",
+            "pos" : 287,
+            "context" : "Letter <mark>914<\/mark>. [c. 18 March 1804]: John Rickman",
+            "fid" : "3.914" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.914.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "914",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>914<\/mark>. Robert Southey to John Rickman, [c. 18 March...",
+            "fid" : "southey.3.914",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.928.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "914",
+            "weight" : "1",
+            "pos" : 845,
+            "context" : "...to John Rickman, [c. 18 March 1804], Letter <mark>914<\/mark>. Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "914",
+            "weight" : "1",
+            "pos" : 268,
+            "context" : "Letter <mark>914<\/mark>. [c. 18 March 1804]: John Rickman",
+            "fid" : "refletterlistPart3.38",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

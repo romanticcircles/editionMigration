@@ -1,0 +1,37 @@
+
+  { "stem" : "océano",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1045.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Océano",
+            "weight" : "1",
+            "pos" : 500,
+            "context" : "...de las Indias, Islas y Tierra Firme del Mar <mark>Océano<\/mark>, of which the first part was published in 1535...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Océano",
+            "weight" : "1",
+            "pos" : 642,
+            "context" : "...de las Indias, Islas y Tierra Firme del Mar <mark>Océano<\/mark> was not published as a complete work until 1851–...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1131.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Océano",
+            "weight" : "1",
+            "pos" : 650,
+            "context" : "...de las Indias, Islas y Tierra Firme del Mar <mark>Océano<\/mark>, of which the first part was published in 1535...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

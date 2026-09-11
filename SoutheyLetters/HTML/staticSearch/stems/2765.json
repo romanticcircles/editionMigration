@@ -1,0 +1,53 @@
+
+  { "stem" : "2765",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2765",
+            "weight" : "1",
+            "pos" : 572,
+            "context" : "Letter <mark>2765<\/mark>. 22 April 1816: Grosvenor Charles Bedford",
+            "fid" : "5.2765" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2765.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2765",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2765<\/mark>. Robert Southey to Grosvenor Charles Bedford, 22 April...",
+            "fid" : "southey.5.2765",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2769.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2765",
+            "weight" : "1",
+            "pos" : 452,
+            "context" : "...of 20 and 22 April 1816 (Letters 2763 and <mark>2765<\/mark>), Southey had requested him to ask Gifford to make...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2765",
+            "weight" : "1",
+            "pos" : 556,
+            "context" : "Letter <mark>2765<\/mark>. 22 April 1816: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart5.76",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

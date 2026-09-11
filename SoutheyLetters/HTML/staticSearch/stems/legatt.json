@@ -1,0 +1,41 @@
+
+  { "stem" : "legatt",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Legatt",
+            "weight" : "1",
+            "pos" : 16679,
+            "context" : "Chantrey, Sir Francis <mark>Legatt<\/mark>                       ",
+            "fid" : "ref.corresp.60",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Legatt",
+            "weight" : "1",
+            "pos" : 21825,
+            "context" : "...Canning, George                                                                                                                                                                               Carlisle, Anthony                                                                                                                              Chantrey, Sir Francis <mark>Legatt<\/mark>                          Charter, Louisa                                        Clarke, Adam                Clarkson (neé Buck...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Legatt",
+            "weight" : "1",
+            "pos" : 28245,
+            "context" : "...Cawood, John (d. 1846)                 Chantrey, Sir Francis <mark>Legatt<\/mark> (1781–1841)                           Chapman, John (1732...",
+            "fid" : "ChantreyFrancis",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

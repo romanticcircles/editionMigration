@@ -1,0 +1,29 @@
+
+  { "stem" : "morristown",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Morristown",
+            "weight" : "1",
+            "pos" : 1303,
+            "context" : "...State University Libraries; Morgan Library, New York; <mark>Morristown<\/mark> National Historical Park; General Manuscript collection, The New...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2934.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Morristown",
+            "weight" : "1",
+            "pos" : 376,
+            "context" : "...: [partial] KESWICK MS: LWS Collection, <mark>Morristown<\/mark> National Historical Park. ALS; 4p. (c). Previously published...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

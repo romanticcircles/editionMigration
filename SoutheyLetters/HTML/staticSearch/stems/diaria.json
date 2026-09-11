@@ -1,0 +1,50 @@
+
+  { "stem" : "diaria",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1624.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Diarias",
+            "weight" : "1",
+            "pos" : 496,
+            "context" : "Memorias <mark>Diarias<\/mark> de la Guerra",
+            "fid" : "southey.3.1624",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Diarias",
+            "weight" : "1",
+            "pos" : 1340,
+            "context" : "...Duarte de Albuquerque Coelho (1591–1658), Memorias <mark>Diarias<\/mark> de la Guerra del Brazil (1654). Back",
+            "fid" : "31",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1249.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Diarias",
+            "weight" : "1",
+            "pos" : 314,
+            "context" : "...6.   Duarte de Alburquerque Coello (dates unknown), Memorias <mark>Diarias<\/mark> de la Guerra del Brasil desde el de año 1630...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.901.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Diarias",
+            "weight" : "1",
+            "pos" : 807,
+            "context" : "...Duarte de Albuquerque Coelho (1591–1658) Memorias <mark>Diarias<\/mark> de la Guerra del Brazil (1654). Back",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

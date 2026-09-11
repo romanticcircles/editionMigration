@@ -1,0 +1,40 @@
+
+  { "stem" : "3888",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3888",
+            "weight" : "1",
+            "pos" : 837,
+            "context" : "Letter <mark>3888<\/mark>. 28 August 1822: [Bartholomew Frere]",
+            "fid" : "7.3888" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3888.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3888",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3888<\/mark>. Robert Southey to [Bartholomew Frere], 28 August...",
+            "fid" : "southey.7.3888",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3888",
+            "weight" : "1",
+            "pos" : 821,
+            "context" : "Letter <mark>3888<\/mark>. 28 August 1822: [Bartholomew Frere]",
+            "fid" : "refletterlistPart7.115",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

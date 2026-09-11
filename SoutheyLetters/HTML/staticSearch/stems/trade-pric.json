@@ -1,0 +1,29 @@
+
+  { "stem" : "trade-pric",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2294.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Trade-price",
+            "weight" : "1",
+            "pos" : 139,
+            "context" : "...volume, &amp; the value at what is technically called <mark>Trade-price<\/mark>, with the deduction of 10 p cent for trouble...",
+            "fid" : "southey.4.2294",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1479.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "trade-price",
+            "weight" : "1",
+            "pos" : 310,
+            "context" : "...get a fair price for it, according to the ordinary <mark>trade-price<\/mark> of labour, well &amp; good. If not, the...",
+            "fid" : "southey.3.1479",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "2228",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2228",
+            "weight" : "1",
+            "pos" : 3631,
+            "context" : "Letter <mark>2228<\/mark>. 5 March 1813: John May",
+            "fid" : "4.2228" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2228.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2228",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2228<\/mark>. Robert Southey to John May, 5 March 1813...",
+            "fid" : "southey.4.2228",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2228",
+            "weight" : "1",
+            "pos" : 3606,
+            "context" : "Letter <mark>2228<\/mark>. 5 March 1813: John May",
+            "fid" : "refletterlistPart4.505",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

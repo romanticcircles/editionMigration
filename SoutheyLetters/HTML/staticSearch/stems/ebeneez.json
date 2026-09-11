@@ -1,0 +1,40 @@
+
+  { "stem" : "ebeneez",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ebeneezer",
+            "weight" : "1",
+            "pos" : 5225,
+            "context" : "Letter 1573. 3 February 1809: <mark>Ebeneezer<\/mark> Elliott",
+            "fid" : "3.1573" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1573.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Ebeneezer",
+            "weight" : "2",
+            "pos" : 4,
+            "context" : "1573. Robert Southey to <mark>Ebeneezer<\/mark> Elliott, 3 February 1809*",
+            "fid" : "ref3.1573.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ebeneezer",
+            "weight" : "1",
+            "pos" : 5196,
+            "context" : "Letter 1573. 3 February 1809: <mark>Ebeneezer<\/mark> Elliott",
+            "fid" : "southey.letterlistPart3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

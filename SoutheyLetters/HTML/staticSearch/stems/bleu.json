@@ -1,0 +1,63 @@
+
+  { "stem" : "bleu",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.241.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bleu",
+            "weight" : "1",
+            "pos" : 542,
+            "context" : "...the English novel (probably from Goldoni);3 Barbe <mark>Bleu<\/mark>,4 from the story of Blue Beard; and...",
+            "fid" : "southey.1.241",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bleu",
+            "weight" : "1",
+            "pos" : 672,
+            "context" : "...-Modeste Grétry (1741–1813), Raoul Barbe <mark>Bleu<\/mark> (1789). Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2407.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bleu",
+            "weight" : "1",
+            "pos" : 19,
+            "context" : "...If the King of France1 has any stray cordon <mark>bleu<\/mark> to dispose of here is Herbert has a fair claim...",
+            "fid" : "southey.4.2407",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3993.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bleu",
+            "weight" : "1",
+            "pos" : 407,
+            "context" : "11.  <mark>Bleu<\/mark> de France, a blue pigment used in painting....",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3997.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bleu",
+            "weight" : "1",
+            "pos" : 359,
+            "context" : "5.  <mark>Bleu<\/mark> de France, a blue pigment used in painting....",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "fireplac",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1281.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "fireplace",
+            "weight" : "1",
+            "pos" : 35,
+            "context" : "...there, – &amp; one upstairs in the bookcase beyond the <mark>fireplace<\/mark> – a folio, bound but not lettered – which...",
+            "fid" : "southey.3.1281",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "fireplace",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : "...they stand side by side in the bookcase beyond the <mark>fireplace<\/mark> – &amp; another Hist. of the same country by...",
+            "fid" : "southey.3.1281",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.873.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fireplace",
+            "weight" : "1",
+            "pos" : 110,
+            "context" : "...they were in the bookcase to the right of the <mark>fireplace<\/mark>. the volumes of that twenty-tomed Historia Genealogica...",
+            "fid" : "southey.2.873",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

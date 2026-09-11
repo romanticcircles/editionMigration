@@ -1,0 +1,37 @@
+
+  { "stem" : "ferrybridg",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3053.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Ferrybridge",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : " <mark>Ferrybridge<\/mark> I believe is over the Aire &amp; there it was...",
+            "fid" : "southey.5.3053",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Ferrybridge",
+            "weight" : "1",
+            "pos" : 352,
+            "context" : "...1461; DNB), was killed at the Battle of <mark>Ferrybridge<\/mark>, just before the Battle of Towton, on 29...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3050.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ferrybridge",
+            "weight" : "1",
+            "pos" : 775,
+            "context" : "...1435–1461) was killed at the Battle of <mark>Ferrybridge<\/mark>, just before the Battle of Towton. He was...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

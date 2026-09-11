@@ -1,0 +1,37 @@
+
+  { "stem" : "eg",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "eg",
+            "weight" : "1",
+            "pos" : 283,
+            "context" : "...emphasis but to indicate an abbreviation written in superscript: <mark>eg<\/mark>. ‘Dr’ rather than ‘Doctor’ or ‘Dr’. This was...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "eg",
+            "weight" : "1",
+            "pos" : 390,
+            "context" : "...have been silently emended to reflect Southey’s customary spelling: <mark>eg<\/mark>. ‘mis-\/ chief’ has been emended to ‘mischief’ in...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2088.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "eg",
+            "weight" : "1",
+            "pos" : 826,
+            "context" : "...-behaved pupils wear labels that described their offence, <mark>eg<\/mark>. ‘Idle’, ‘Suck finger Baby’. Lancaster assured his...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

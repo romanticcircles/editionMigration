@@ -1,0 +1,40 @@
+
+  { "stem" : "3914",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3914",
+            "weight" : "1",
+            "pos" : 1024,
+            "context" : "Letter <mark>3914<\/mark>. 3 November 1822: John Rickman",
+            "fid" : "7.3914" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3914.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3914",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3914<\/mark>. Robert Southey to John Rickman, 3 November 1822...",
+            "fid" : "southey.7.3914",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3914",
+            "weight" : "1",
+            "pos" : 1008,
+            "context" : "Letter <mark>3914<\/mark>. 3 November 1822: John Rickman",
+            "fid" : "refletterlistPart7.141",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

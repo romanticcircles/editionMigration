@@ -1,0 +1,53 @@
+
+  { "stem" : "4281",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4281",
+            "weight" : "1",
+            "pos" : 3708,
+            "context" : "Letter <mark>4281<\/mark>. 19 November 1824: William Nash",
+            "fid" : "7.4281" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4281.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4281",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4281<\/mark>. Robert Southey to William Nash, 19 November 1824...",
+            "fid" : "southey.7.4281",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4283.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4281",
+            "weight" : "1",
+            "pos" : 301,
+            "context" : "...Southey to William Nash, 19 November 1824, Letter <mark>4281<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4281",
+            "weight" : "1",
+            "pos" : 3688,
+            "context" : "Letter <mark>4281<\/mark>. 19 November 1824: William Nash",
+            "fid" : "refletterlistPart7.508",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

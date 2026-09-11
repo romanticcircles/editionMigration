@@ -1,0 +1,52 @@
+
+  { "stem" : "encomiast",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "encomiast",
+            "weight" : "1",
+            "pos" : 501,
+            "context" : "Lord Byron, like his <mark>encomiast<\/mark>, has not ventured to bring the matter of those...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "encomiast",
+            "weight" : "1",
+            "pos" : 1271,
+            "context" : "Lord Byron, like his <mark>encomiast<\/mark> the Edinburgh Reviewer, has not ventured to bring the...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3776.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "encomiast",
+            "weight" : "1",
+            "pos" : 434,
+            "context" : "Lord Byron, like his <mark>encomiast<\/mark>, has not ventured to bring the matter of those...",
+            "fid" : "southey.7.3776",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3533.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "encomiastic",
+            "weight" : "1",
+            "pos" : 254,
+            "context" : "...to finish the Vision of Judgement.17 As for <mark>encomiastic<\/mark> poems I am as unfit to figure in such compositions...",
+            "fid" : "southey.6.3533",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

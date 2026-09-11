@@ -1,0 +1,40 @@
+
+  { "stem" : "3150",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3150",
+            "weight" : "1",
+            "pos" : 3374,
+            "context" : "Letter <mark>3150<\/mark>. 12 June 1818: [William Wilberforce]",
+            "fid" : "5.3150" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3150.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3150",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3150<\/mark>. Robert Southey to [William Wilberforce], 12 June...",
+            "fid" : "southey.5.3150",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3150",
+            "weight" : "1",
+            "pos" : 3354,
+            "context" : "Letter <mark>3150<\/mark>.  12 June 1818: [William Wilberforce]",
+            "fid" : "refletterlistPart5.461",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

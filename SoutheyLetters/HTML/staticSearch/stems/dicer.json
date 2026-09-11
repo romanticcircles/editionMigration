@@ -1,0 +1,29 @@
+
+  { "stem" : "dicer",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1335a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dicere",
+            "weight" : "1",
+            "pos" : 291,
+            "context" : "...Ego mittam meum librum tibi – sed tu non es <mark>dicere<\/mark> quod liber est meus, quia id est esse secretum...",
+            "fid" : "southey.3.1335a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.759a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dicere",
+            "weight" : "1",
+            "pos" : 100,
+            "context" : " Sunt quædam <mark>dicere<\/mark> de translatione tua. valde vero iratus sum quod ullus...",
+            "fid" : "southey.2.759a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

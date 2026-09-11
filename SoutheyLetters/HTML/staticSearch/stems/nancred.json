@@ -1,0 +1,37 @@
+
+  { "stem" : "nancred",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.399.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Nancrede",
+            "weight" : "1",
+            "pos" : 255,
+            "context" : "...Joan of Arc. it was edited by one Joseph <mark>Nancrede<\/mark> of Boston, &amp; he was by no means parsimonious...",
+            "fid" : "southey.2.399",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Nancrede",
+            "weight" : "1",
+            "pos" : 410,
+            "context" : "...Arc, An Epic Poem had been published by Joseph <mark>Nancrede<\/mark> (1761–1841) in Boston, Massachusetts,...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1229.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Nancrede",
+            "weight" : "1",
+            "pos" : 692,
+            "context" : "...1798 by Manning &amp; Loring, for the bookseller J. <mark>Nancrede<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

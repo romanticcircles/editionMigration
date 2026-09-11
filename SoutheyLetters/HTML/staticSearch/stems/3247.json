@@ -1,0 +1,53 @@
+
+  { "stem" : "3247",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3247",
+            "weight" : "1",
+            "pos" : 151,
+            "context" : "Letter <mark>3247<\/mark>. 15 February 1819: John Rickman ",
+            "fid" : "6.3247" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3247.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3247",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3247<\/mark>. Robert Southey to John Rickman, 15 February 1819...",
+            "fid" : "southey.6.3247",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3271.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3247",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "...letter to John Rickman, 15 February 1819, Letter <mark>3247<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3247",
+            "weight" : "1",
+            "pos" : 135,
+            "context" : "Letter <mark>3247<\/mark>. 15 February 1819: John Rickman ",
+            "fid" : "refletterlistPart6.20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

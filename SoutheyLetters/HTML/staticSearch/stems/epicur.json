@@ -1,0 +1,37 @@
+
+  { "stem" : "epicur",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.222.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "epicurism",
+            "weight" : "1",
+            "pos" : 159,
+            "context" : "...good dinner; Darteneuf4 we might learn improvements in <mark>epicurism<\/mark> from him. one day he had procured two fine jacks...",
+            "fid" : "southey.1.222",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "epicure",
+            "weight" : "1",
+            "pos" : 526,
+            "context" : "4.  The celebrated <mark>epicure<\/mark> Charles Darteneuf (d. 1730). Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.681.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Epicure",
+            "weight" : "1",
+            "pos" : 337,
+            "context" : "...excellent in a hundred ways. The world wants some <mark>Epicure<\/mark> to turn Chemist − &amp; give us a scientific book...",
+            "fid" : "southey.2.681",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

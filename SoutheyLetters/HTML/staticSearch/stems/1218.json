@@ -1,0 +1,53 @@
+
+  { "stem" : "1218",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1218",
+            "weight" : "1",
+            "pos" : 2575,
+            "context" : "Letter <mark>1218<\/mark>. 22 September 1806: James Webbe Tobin",
+            "fid" : "3.1218" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1218.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1218",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1218<\/mark>. Robert Southey to James Webbe Tobin, 22 September...",
+            "fid" : "southey.3.1218",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1226.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1218",
+            "weight" : "1",
+            "pos" : 395,
+            "context" : "...Southey to John Tobin, 22 September 1806, Letter <mark>1218<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1218",
+            "weight" : "1",
+            "pos" : 2552,
+            "context" : "Letter <mark>1218<\/mark>. 22 September 1806: James Webbe Tobin",
+            "fid" : "refletterlistPart3.344",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

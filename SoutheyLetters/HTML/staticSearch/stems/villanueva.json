@@ -1,0 +1,37 @@
+
+  { "stem" : "villanueva",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2567.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Villanueva",
+            "weight" : "1",
+            "pos" : 37,
+            "context" : "...at the door of the church of S Pedro de <mark>Villanueva<\/mark>. This was &lt;is&gt; said to have been placed there...",
+            "fid" : "southey.4.2567",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Villanueva",
+            "weight" : "1",
+            "pos" : 245,
+            "context" : "...the 12th-century monastery at San Pedro de <mark>Villanueva<\/mark> can still be seen. The story was told in...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Villanueva",
+            "weight" : "1",
+            "pos" : 26,
+            "context" : "...of the order of Santiago, comendador and alcayde of <mark>Villanueva<\/mark> de Alcardete, governor and captain general of the Lower...",
+            "fid" : "southey.2.289",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

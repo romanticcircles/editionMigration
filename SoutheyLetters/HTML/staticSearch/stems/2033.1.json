@@ -1,0 +1,40 @@
+
+  { "stem" : "2033.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2033.1",
+            "weight" : "1",
+            "pos" : 2234,
+            "context" : "Letter <mark>2033.1<\/mark>. 9 February 1812: George Mitford",
+            "fid" : "4.2033.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2033.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2033.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2033.1<\/mark>. Robert Southey to Dr [George] Mitford,...",
+            "fid" : "southey.4.2033.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2033.1",
+            "weight" : "1",
+            "pos" : 2211,
+            "context" : "Letter <mark>2033.1<\/mark>. 9 February 1812: George Mitford",
+            "fid" : "refletterlistPart4.310",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

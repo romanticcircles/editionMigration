@@ -1,0 +1,37 @@
+
+  { "stem" : "syrup",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.38.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "syrup",
+            "weight" : "1",
+            "pos" : 143,
+            "context" : "...the great annoyance of Leakes patent pills &amp; Velno’s vegetable <mark>syrup<\/mark>2 I must still very much doubt that the monarchical...",
+            "fid" : "southey.1.38",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "syrup",
+            "weight" : "1",
+            "pos" : 805,
+            "context" : "...cure for syphilis, ‘The French Disease’. Velno’s vegetable <mark>syrup<\/mark> was a patent medicine supposed to cure venereal disease....",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.664.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "syrup",
+            "weight" : "1",
+            "pos" : 192,
+            "context" : "...from Castaly spring,9  But Joseph takes a xxx <mark>syrup<\/mark> of poppy.10 ",
+            "fid" : "line12",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,66 @@
+
+  { "stem" : "2345",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2345",
+            "weight" : "1",
+            "pos" : 4484,
+            "context" : "Letter <mark>2345<\/mark>. 12 December 1813: Neville White",
+            "fid" : "4.2345" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2345.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2345",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2345<\/mark>. Robert Southey to Neville White, 12 December 1813...",
+            "fid" : "southey.4.2345",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2345",
+            "weight" : "1",
+            "pos" : 4459,
+            "context" : "Letter <mark>2345<\/mark>. 12 December 1813: Neville White",
+            "fid" : "refletterlistPart4.622",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2345",
+            "weight" : "1",
+            "pos" : 1298,
+            "context" : "...for the more distinguished persons who have fallen’ (Letter <mark>2345<\/mark>). It is important to recognise that this direct poetic...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1526.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2345",
+            "weight" : "1",
+            "pos" : 280,
+            "context" : "...I am in the 13th section of Kehama – <mark>2345<\/mark> lines – probably about half the poem. K has...",
+            "fid" : "southey.3.1526",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

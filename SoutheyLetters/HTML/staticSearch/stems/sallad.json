@@ -1,0 +1,30 @@
+
+  { "stem" : "sallad",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sallad",
+            "weight" : "1",
+            "pos" : 500,
+            "context" : "...uninteresting. Some good cold beef, cold tongue, <mark>sallad<\/mark>, and a bottle of cider were productive of much...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3772.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sallads",
+            "weight" : "1",
+            "pos" : 361,
+            "context" : "...bread &amp; cheese for supper, &amp; used to raise <mark>sallads<\/mark> for this meal, in little portions of garden,...",
+            "fid" : "southey.6.3772",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

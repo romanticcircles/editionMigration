@@ -1,0 +1,35 @@
+
+  { "stem" : "entomologist",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "entomologist",
+            "weight" : "1",
+            "pos" : 90519,
+            "context" : "Landed proprietor and <mark>entomologist<\/mark>. He spent much of the year 1827 in Keswick...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "entomologist",
+            "weight" : "1",
+            "pos" : 90568,
+            "context" : "...became a schoolmaster and clergyman and a well-known <mark>entomologist<\/mark>.",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3949.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "entomologist",
+            "weight" : "1",
+            "pos" : 1012,
+            "context" : "...it is as black as jet&gt; A botanist or <mark>entomologist<\/mark> would have found me an apt pupil in those years...",
+            "fid" : "southey.7.3949",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

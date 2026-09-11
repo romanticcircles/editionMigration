@@ -1,0 +1,37 @@
+
+  { "stem" : "botanica",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2283.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Botanicas",
+            "weight" : "1",
+            "pos" : 339,
+            "context" : "Memorias <mark>Botanicas<\/mark> de Dr Ant: Joze das Neves Mello.13...",
+            "fid" : "southey.4.2283",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Botanicas",
+            "weight" : "1",
+            "pos" : 792,
+            "context" : "...the Museo Botanico, Coimbra. Probably the Varias Memorias <mark>Botanicas<\/mark> advertised in O Investigador Portuguez, 3 (1812)....",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3142.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "botanica",
+            "weight" : "1",
+            "pos" : 48,
+            "context" : "...montes, portos, cabos, mineralogia, animaes, <mark>botanica<\/mark>, producçoens de agricultura e industria; a epocha e...",
+            "fid" : "southey.5.3142",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "flyte",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3782.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Flyting",
+            "weight" : "1",
+            "pos" : 335,
+            "context" : "...when thanking you for Montgomerys Poems that the fashion of <mark>Flyting<\/mark> was imported from France,14 where it was carried...",
+            "fid" : "southey.7.3782",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘flyting’",
+            "weight" : "1",
+            "pos" : 810,
+            "context" : "...Southey had indeed expressed this opinion of the origin of <mark>‘flyting’<\/mark> in this letter. He was, however, quite wrong...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3720.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "“Flyting”",
+            "weight" : "1",
+            "pos" : 73,
+            "context" : " It strikes me that the fashion of <mark>“Flyting”<\/mark>5 – (flouting I suppose would be the English...",
+            "fid" : "southey.6.3720",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

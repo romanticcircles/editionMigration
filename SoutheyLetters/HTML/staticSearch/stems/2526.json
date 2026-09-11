@@ -1,0 +1,53 @@
+
+  { "stem" : "2526",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2526",
+            "weight" : "1",
+            "pos" : 5858,
+            "context" : "Letter <mark>2526<\/mark>. 23 December 1814: [John Murray]",
+            "fid" : "4.2526" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2526.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2526",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2526<\/mark>. Robert Southey to [John Murray], 23 December...",
+            "fid" : "southey.4.2526",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2527.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2526",
+            "weight" : "1",
+            "pos" : 400,
+            "context" : "...Southey to John Murray, 23 December 1814 (Letter <mark>2526<\/mark>), which suggested the Edinburgh Annual Register might be re...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2526",
+            "weight" : "1",
+            "pos" : 5831,
+            "context" : "Letter <mark>2526<\/mark>. 23 December 1814: [John Murray]",
+            "fid" : "refletterlistPart4.808",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

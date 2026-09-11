@@ -1,0 +1,40 @@
+
+  { "stem" : "678",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "678",
+            "weight" : "1",
+            "pos" : 3058,
+            "context" : "Letter <mark>678<\/mark>. [21 May 1802]: Thomas Hill",
+            "fid" : "2.678" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.678.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "678",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>678<\/mark>. Robert Southey to Thomas Hill, [21 May...",
+            "fid" : "southey.2.678",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "678",
+            "weight" : "1",
+            "pos" : 3031,
+            "context" : "Letter <mark>678<\/mark>. [21 May 1802]: Thomas Hill",
+            "fid" : "refletterlistPart2.403",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

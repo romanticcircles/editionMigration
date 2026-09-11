@@ -1,0 +1,41 @@
+
+  { "stem" : "diagnos",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "diagnosed",
+            "weight" : "1",
+            "pos" : 120394,
+            "context" : "...Quaker-run asylum in York, where she was <mark>diagnosed<\/mark> as of ‘unsound mind’ and treated with ‘purgatives, remedies...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3057.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "diagnosed",
+            "weight" : "1",
+            "pos" : 1290,
+            "context" : "...(1636–1681), did recover from an illness <mark>diagnosed<\/mark> as consumption and followed a diet based on milk;...",
+            "fid" : "22",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "diagnose",
+            "weight" : "1",
+            "pos" : 365,
+            "context" : "...of the assorted members of Southey’s household and asked to <mark>diagnose<\/mark> their ailments (for example, Letters 3324 and 3676)....",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

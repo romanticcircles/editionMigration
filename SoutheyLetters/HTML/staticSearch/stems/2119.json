@@ -1,0 +1,53 @@
+
+  { "stem" : "2119",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2119",
+            "weight" : "1",
+            "pos" : 2855,
+            "context" : "Letter <mark>2119<\/mark>. 1 July 1812: John James Morgan",
+            "fid" : "4.2119" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2119.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2119",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2119<\/mark>. Robert Southey to John James Morgan, 1 July...",
+            "fid" : "southey.4.2119",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2123.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2119",
+            "weight" : "1",
+            "pos" : 130,
+            "context" : "...to John James Morgan, 1 July 1812 (Letter <mark>2119<\/mark>) and Robert Southey to Grosvenor Charles Bedford, 8...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2119",
+            "weight" : "1",
+            "pos" : 2832,
+            "context" : "Letter <mark>2119<\/mark>. 1 July 1812: John James Morgan",
+            "fid" : "refletterlistPart4.396",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

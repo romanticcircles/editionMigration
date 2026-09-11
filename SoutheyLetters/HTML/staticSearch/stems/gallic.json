@@ -1,0 +1,37 @@
+
+  { "stem" : "gallic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1754.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Gallic",
+            "weight" : "1",
+            "pos" : 211,
+            "context" : "...Domine Doctor. What time in April does the General <mark>Gallic<\/mark> Engagement take place?5 I hope not early in...",
+            "fid" : "southey.4.1754",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Gallic",
+            "weight" : "1",
+            "pos" : 466,
+            "context" : "..., or first week of May. This was a <mark>‘Gallic<\/mark> Engagement’ as the cockerel was a symbol of France....",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1862.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Gallicism",
+            "weight" : "1",
+            "pos" : 47,
+            "context" : "...he was employed by Buonaparte to over-act Anti-<mark>Gallicism<\/mark>, &amp; serve him by uttering calumnies too outrageous to...",
+            "fid" : "southey.4.1862",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

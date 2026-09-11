@@ -1,0 +1,51 @@
+
+  { "stem" : "bewdley",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.45.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bewdley",
+            "weight" : "1",
+            "pos" : 621,
+            "context" : "...Butts but all the family were out. we returned by <mark>Bewdley<\/mark>. there is an old mansion once Ld Herberts14...",
+            "fid" : "southey.1.45",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bewdley",
+            "weight" : "1",
+            "pos" : 1499,
+            "context" : "...statesman. The mansion is certainly Ribbesford House, near <mark>Bewdley<\/mark>, Worcestershire, which had belonged to Herbert’s family....",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bewdley",
+            "weight" : "1",
+            "pos" : 768,
+            "context" : " I have since visited Abberley, <mark>Bewdley<\/mark>, Kidderminster, and Malvern, each well worth seeing...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.46.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bewdley",
+            "weight" : "1",
+            "pos" : 232,
+            "context" : " I have since visited Abberley <mark>Bewdley<\/mark> Kidderminster &amp; Malvern each well worth seeing but it is...",
+            "fid" : "southey.1.46",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

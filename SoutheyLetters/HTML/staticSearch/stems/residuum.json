@@ -1,0 +1,52 @@
+
+  { "stem" : "residuum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "residuum",
+            "weight" : "1",
+            "pos" : 99,
+            "context" : "...a strong acid in which it is suspended. The <mark>residuum<\/mark> then appears to xx &lt;be&gt; that “Mr Southey, on...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "residuum",
+            "weight" : "1",
+            "pos" : 814,
+            "context" : "...a strong acid in which it is suspended. The <mark>residuum<\/mark> then appears to be that “Mr Southey on his return...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2919.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "residuum",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "...wherewith to pay for the forks,4 – the <mark>residuum<\/mark> will be a supply for my immediate calls on my...",
+            "fid" : "southey.5.2919",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3776.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "residuum",
+            "weight" : "1",
+            "pos" : 34,
+            "context" : "...a strong acid in which it is suspended. The <mark>residuum<\/mark> then appears to be, that “Mr. Southey, on...",
+            "fid" : "southey.7.3776",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

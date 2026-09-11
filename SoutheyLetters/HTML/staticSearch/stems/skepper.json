@@ -1,0 +1,36 @@
+
+  { "stem" : "skepper",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1401.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Skepper",
+            "weight" : "1",
+            "pos" : 551,
+            "context" : "...writing, by her desire, to your friend Mrs <mark>Skepper<\/mark>,11 &amp; I am asked if the letter may...",
+            "fid" : "southey.3.1401",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Skepper",
+            "weight" : "1",
+            "pos" : 734,
+            "context" : "...Benson (1773–1856), the widow of Thomas <mark>Skepper<\/mark> (c. 1771–1805), a lawyer in York....",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Skepper",
+            "weight" : "1",
+            "pos" : 93950,
+            "context" : "...former friend of Robert Burns, the widow of Thomas <mark>Skepper<\/mark>, a lawyer in York, and daughter of Edward...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

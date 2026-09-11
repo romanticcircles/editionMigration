@@ -1,0 +1,53 @@
+
+  { "stem" : "3890",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3890",
+            "weight" : "1",
+            "pos" : 852,
+            "context" : "Letter <mark>3890<\/mark>. 31 August 1822: Herbert Hill",
+            "fid" : "7.3890" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3890.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3890",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3890<\/mark>. Robert Southey to Herbert Hill, 31 August 1822...",
+            "fid" : "southey.7.3890",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3890",
+            "weight" : "1",
+            "pos" : 836,
+            "context" : "Letter <mark>3890<\/mark>. 31 August 1822: Herbert Hill",
+            "fid" : "refletterlistPart7.117",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3262.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3890",
+            "weight" : "1",
+            "pos" : 376,
+            "context" : "...March 1819 MS: National Library of Scotland, MS <mark>3890<\/mark>. ALS; 4p. Previously published: Charles Cuthbert Southey...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

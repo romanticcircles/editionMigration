@@ -1,0 +1,40 @@
+
+  { "stem" : "3402",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3402",
+            "weight" : "1",
+            "pos" : 1305,
+            "context" : "Letter <mark>3402<\/mark>. 15 December 1819: [John Wilson Croker]...",
+            "fid" : "6.3402" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3402.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3402",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3402<\/mark>. Robert Southey to [John Wilson Croker], 15...",
+            "fid" : "southey.6.3402",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3402",
+            "weight" : "1",
+            "pos" : 1289,
+            "context" : "Letter <mark>3402<\/mark>. 15 December 1819: [John Wilson Croker]...",
+            "fid" : "refletterlistPart6.176",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

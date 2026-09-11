@@ -1,0 +1,40 @@
+
+  { "stem" : "1333",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1333",
+            "weight" : "1",
+            "pos" : 3448,
+            "context" : "Letter <mark>1333<\/mark>. [started before and continued on] 18 June 1807...",
+            "fid" : "3.1333" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1333.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1333",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1333<\/mark>. Robert Southey to Joseph Cottle [fragment], [...",
+            "fid" : "southey.3.1333",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1333",
+            "weight" : "1",
+            "pos" : 3423,
+            "context" : "Letter <mark>1333<\/mark>. [started before and continued on] 18 June 1807...",
+            "fid" : "refletterlistPart3.461",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

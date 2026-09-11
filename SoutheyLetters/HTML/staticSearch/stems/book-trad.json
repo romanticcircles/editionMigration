@@ -1,0 +1,29 @@
+
+  { "stem" : "book-trad",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3901.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-trade",
+            "weight" : "1",
+            "pos" : 45,
+            "context" : "...bookseller would undertake the risk of publishing it, – the <mark>book-trade<\/mark> more than any other having felt the effects of that...",
+            "fid" : "southey.7.3901",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.882.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-trade",
+            "weight" : "1",
+            "pos" : 121,
+            "context" : "...the twentieth century, were one of the most important <mark>book-trade<\/mark> dynasties in England. Francis Rivington (1745–1822...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

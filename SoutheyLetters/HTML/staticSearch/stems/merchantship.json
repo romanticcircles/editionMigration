@@ -1,0 +1,29 @@
+
+  { "stem" : "merchantship",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1342.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "merchantship",
+            "weight" : "1",
+            "pos" : 110,
+            "context" : "...well packed in a box, embarked on board a <mark>merchantship<\/mark>, with a bill of lading &amp; directed – Ao...",
+            "fid" : "southey.3.1342",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.867.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "merchantship",
+            "weight" : "1",
+            "pos" : 128,
+            "context" : "..., − &amp; if not to send him in some <mark>merchantship<\/mark> some long voyage – for if he do not take...",
+            "fid" : "southey.2.867",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

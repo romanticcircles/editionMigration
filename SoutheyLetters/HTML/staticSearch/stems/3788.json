@@ -1,0 +1,53 @@
+
+  { "stem" : "3788",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.274.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3788",
+            "weight" : "1",
+            "pos" : 162,
+            "context" : "...Endorsements: R. Southey\/ Nov 19 — 1797; <mark>3788<\/mark> MS: Cornell University Library. ALS; 3p. (c)....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3788",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "Letter <mark>3788<\/mark>. 27 January 1822: Henry Herbert Southey",
+            "fid" : "7.3788" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3788.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3788",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3788<\/mark>. Robert Southey to Henry Herbert Southey, 27 January...",
+            "fid" : "southey.7.3788",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3788",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "Letter <mark>3788<\/mark>. 27 January 1822: Henry Herbert Southey",
+            "fid" : "refletterlistPart7.15",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

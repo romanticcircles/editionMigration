@@ -1,0 +1,42 @@
+
+  { "stem" : "first-ev",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.partOneIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "first-ever",
+            "weight" : "1",
+            "pos" : 12,
+            "context" : "Part One is the <mark>first-ever<\/mark> collected edition of the letters written during the earliest period...",
+            "fid" : "southey.partOneIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.partThreeIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "first-ever",
+            "weight" : "1",
+            "pos" : 14,
+            "context" : "Part Three is the <mark>first-ever<\/mark> collected edition of the surviving letters written by Southey between...",
+            "fid" : "southey.partThreeIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.partTwoIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "first-ever",
+            "weight" : "1",
+            "pos" : 14,
+            "context" : "Part Two is the <mark>first-ever<\/mark> collected edition of the surviving letters written by Southey between...",
+            "fid" : "southey.partTwoIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

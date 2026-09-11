@@ -1,0 +1,45 @@
+
+  { "stem" : "lovest",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1009.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Lovest",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : " <mark>Lovest<\/mark> thou a joke. Mary Barker? Lovest thou a...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Lovest",
+            "weight" : "1",
+            "pos" : 15,
+            "context" : " Lovest thou a joke. Mary Barker? <mark>Lovest<\/mark> thou a joke like me? If thou lovest not a...",
+            "fid" : "line2",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "lovest",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "...Barker? Lovest thou a joke like me? If thou <mark>lovest<\/mark> not a joke By the Lord be it spoke Never...",
+            "fid" : "line3",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2092.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "lovest",
+            "weight" : "1",
+            "pos" : 310,
+            "context" : "...the thought, The penitent exclaimd, Oh if thou <mark>lovest<\/mark> The soul of Roderick, touch not on that deed...",
+            "fid" : "line73",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

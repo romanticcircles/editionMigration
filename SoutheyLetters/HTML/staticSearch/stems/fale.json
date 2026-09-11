@@ -1,0 +1,42 @@
+
+  { "stem" : "fale",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fales",
+            "weight" : "1",
+            "pos" : 1210,
+            "context" : "..., Cornell University Library; Duke University Library; The <mark>Fales<\/mark> Library, New York University; Special Collections, The...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3530.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fales",
+            "weight" : "1",
+            "pos" : 28,
+            "context" : "Address: To\/ The Honble Leland Noel MS: <mark>Fales<\/mark> Library, New York University. ALS; 2p. (c)....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1376.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Fales",
+            "weight" : "1",
+            "pos" : 74,
+            "context" : "...Messrs Longman, Hurst, Rees &amp; Orme MS: <mark>Fales<\/mark> Library, New York University. ALS; 2p. (c)....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

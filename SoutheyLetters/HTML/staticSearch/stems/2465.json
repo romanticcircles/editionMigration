@@ -1,0 +1,53 @@
+
+  { "stem" : "2465",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2465",
+            "weight" : "1",
+            "pos" : 5400,
+            "context" : "Letter <mark>2465<\/mark>. [started before and continued on] 2–3 August [...",
+            "fid" : "4.2465" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2465.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2465",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2465<\/mark>. Robert Southey to Thomas Southey, [ started before...",
+            "fid" : "southey.4.2465",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2466.1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2465",
+            "weight" : "1",
+            "pos" : 98,
+            "context" : "...before and continued on] 2–3 August [1814], Letter <mark>2465<\/mark>. This letter was written either on the same day...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2465",
+            "weight" : "1",
+            "pos" : 5373,
+            "context" : "Letter <mark>2465<\/mark>. [started before and continued on] 2–3 August [...",
+            "fid" : "refletterlistPart4.745",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

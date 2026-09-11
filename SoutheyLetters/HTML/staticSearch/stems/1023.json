@@ -1,0 +1,53 @@
+
+  { "stem" : "1023",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1023",
+            "weight" : "1",
+            "pos" : 1108,
+            "context" : "Letter <mark>1023<\/mark>. [20 January 1805]: John Rickman",
+            "fid" : "3.1023" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1023.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1023",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1023<\/mark>. Robert Southey to John Rickman, [20 January...",
+            "fid" : "southey.3.1023",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1464.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1023",
+            "weight" : "1",
+            "pos" : 670,
+            "context" : "4.   Ramon Berenguer I the Old (<mark>1023<\/mark>–1076) was Count of Barcelona in 1035–...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1023",
+            "weight" : "1",
+            "pos" : 1087,
+            "context" : "Letter <mark>1023<\/mark>. [20 January 1805]: John Rickman",
+            "fid" : "refletterlistPart3.147",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

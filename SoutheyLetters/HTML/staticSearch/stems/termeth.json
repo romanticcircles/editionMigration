@@ -1,0 +1,40 @@
+
+  { "stem" : "termeth",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "termeth",
+            "weight" : "1",
+            "pos" : 1078,
+            "context" : "He <mark>termeth<\/mark> virtue madness, or mere folly,He hates all...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "termeth",
+            "weight" : "1",
+            "pos" : 2357,
+            "context" : "He <mark>termeth<\/mark> virtue madness or mere folly,He hates all high...",
+            "fid" : "line3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "termeth",
+            "weight" : "1",
+            "pos" : 1757,
+            "context" : "He <mark>termeth<\/mark> virtue madness or mere folly,He hates all high...",
+            "fid" : "line11",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] } ] }

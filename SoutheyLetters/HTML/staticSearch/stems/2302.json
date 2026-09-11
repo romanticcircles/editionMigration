@@ -1,0 +1,40 @@
+
+  { "stem" : "2302",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2302",
+            "weight" : "1",
+            "pos" : 4171,
+            "context" : "Letter <mark>2302<\/mark>. 16 September 1813: Thomas Southey",
+            "fid" : "4.2302" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2302.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2302",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2302<\/mark>. Robert Southey to Thomas Southey, 16 September 1813...",
+            "fid" : "southey.4.2302",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2302",
+            "weight" : "1",
+            "pos" : 4146,
+            "context" : "Letter <mark>2302<\/mark>. 16 September 1813: Thomas Southey",
+            "fid" : "refletterlistPart4.579",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

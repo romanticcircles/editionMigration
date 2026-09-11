@@ -1,0 +1,40 @@
+
+  { "stem" : "2029",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2029",
+            "weight" : "1",
+            "pos" : 2200,
+            "context" : "Letter <mark>2029<\/mark>. 2 February 1812: Grosvenor Charles Bedford",
+            "fid" : "4.2029" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2029.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2029",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2029<\/mark>. Robert Southey to Grosvenor Charles Bedford, 2 February...",
+            "fid" : "southey.4.2029",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2029",
+            "weight" : "1",
+            "pos" : 2177,
+            "context" : "Letter <mark>2029<\/mark>. 2 February 1812: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.305",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

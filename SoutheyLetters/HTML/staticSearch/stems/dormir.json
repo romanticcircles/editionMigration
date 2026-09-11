@@ -1,0 +1,29 @@
+
+  { "stem" : "dormir",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.152.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dormir",
+            "weight" : "1",
+            "pos" : 142,
+            "context" : "De trop songer à ses amours, Ne peut <mark>dormir<\/mark>;Il vent tenir celle qu’il aime Toute la nuit...",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dormir",
+            "weight" : "1",
+            "pos" : 749,
+            "context" : "...une etude desirable quelque minuit que vous ne pouvez pas <mark>dormir<\/mark>, parcequ’elle est fort narcotique, &amp; il est plus...",
+            "fid" : "southey.2.663a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

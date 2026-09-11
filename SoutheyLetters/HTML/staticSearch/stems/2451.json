@@ -1,0 +1,40 @@
+
+  { "stem" : "2451",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2451",
+            "weight" : "1",
+            "pos" : 5300,
+            "context" : "Letter <mark>2451<\/mark>. 26 June 1814: [Thomas Norton Longman]...",
+            "fid" : "4.2451" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2451.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2451",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2451<\/mark>. Robert Southey to [Thomas Norton Longman], 26...",
+            "fid" : "southey.4.2451",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2451",
+            "weight" : "1",
+            "pos" : 5273,
+            "context" : "Letter <mark>2451<\/mark>. 26 June 1814: [Thomas Norton Longman]...",
+            "fid" : "refletterlistPart4.731",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

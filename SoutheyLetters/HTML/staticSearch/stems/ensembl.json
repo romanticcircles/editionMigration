@@ -1,0 +1,29 @@
+
+  { "stem" : "ensembl",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4178.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ensemble",
+            "weight" : "1",
+            "pos" : 647,
+            "context" : "..., le commerce, les finances de ces monarchies; <mark>ensemble<\/mark> la notice des Princes contemporains, &amp; un précis historique...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ensemble",
+            "weight" : "1",
+            "pos" : 823,
+            "context" : "...par sa politesse desormais. peutetre mon ami nous voyageons <mark>ensemble<\/mark> en Irlande – des montagnes, des rochers, des...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

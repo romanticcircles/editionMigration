@@ -1,0 +1,43 @@
+
+  { "stem" : "badajo",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Badajos",
+            "weight" : "1",
+            "pos" : 1441,
+            "context" : " The meeting of the two Courts22 at <mark>Badajos<\/mark> is supposed to have been political, and it was...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.147.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Badajos",
+            "weight" : "1",
+            "pos" : 126,
+            "context" : "...the [MS missing] of the two courts at <mark>Badajos<\/mark> is supposed to have been [MS missing] surmized...",
+            "fid" : "southey.1.147",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.530.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Badajos",
+            "weight" : "1",
+            "pos" : 483,
+            "context" : "...accompanies superstition. Garci Sanches,8 a Spaniard of <mark>Badajos<\/mark>, &amp; a man of notorious wit, was dying...",
+            "fid" : "southey.2.530",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "bakewel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4085.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bakewell",
+            "weight" : "1",
+            "pos" : 8,
+            "context" : "<mark>Bakewell<\/mark>. 9 Nov. 1823",
+            "fid" : "southey.7.4085",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "BAKEWELL",
+            "weight" : "1",
+            "pos" : 279,
+            "context" : "...E. Elliott Esqre\/ Burgess Street\/ Sheffield Stamped: <mark>BAKEWELL<\/mark>\/ 152 MS: Sheffield City Libraries and Archives,...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4077.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bakewell",
+            "weight" : "1",
+            "pos" : 150,
+            "context" : "...Johnsons Or&gt; at Mrs Taylors\/ Market-Place &lt;<mark>Bakewell<\/mark>&gt; \/ Retford &lt;Derbyshire&gt;’ Stamped: KESWICK\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

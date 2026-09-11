@@ -1,0 +1,106 @@
+
+  { "stem" : "outskirt",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 25049,
+            "context" : "...house with Sarah Ponsonby at Plas Newydd, on the <mark>outskirts<\/mark> of Llangollen, North Wales. Their relationship fascinated contemporaries...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 53823,
+            "context" : "...in the Southey grave in Crosthwaite churchyard, on the <mark>outskirts<\/mark> of Keswick.",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 103569,
+            "context" : "...up home with Eleanor Butler at Plas Newydd on the <mark>outskirts<\/mark> of Llangollen, a major staging post on the route...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 16,
+            "context" : "...Bristol in 1774 and died at his home on the <mark>outskirts<\/mark> of Keswick in 1843. The son of a bankrupt...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/places.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 428,
+            "context" : "House on the <mark>outskirts<\/mark> of Keswick. From 1800, the home of Samuel...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 490,
+            "context" : "...He had been resident at Greta Hall, on the <mark>outskirts<\/mark> of the market town of Keswick, since autumn 1803...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 282,
+            "context" : "...he had been living at Greta Hall, on the <mark>outskirts<\/mark> of the market town of Keswick, since autumn 1803...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.partOneIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 1251,
+            "context" : "..., reluctantly at first, to Greta Hall on the <mark>outskirts<\/mark> of Keswick in 1803. Southey’s lack of a settled...",
+            "fid" : "southey.partOneIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "outskirts",
+            "weight" : "1",
+            "pos" : 711,
+            "context" : "..., the Southeys had rented Greta Hall, on the <mark>outskirts<\/mark> of the Lake District market town of Keswick. The...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "pani",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3930.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Pani",
+            "weight" : "1",
+            "pos" : 54,
+            "context" : "...a book published at Rome in 1791, by P. <mark>Pani<\/mark>, a Dominican, &amp; an Inquisitor,2 containing...",
+            "fid" : "southey.7.3930",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Pani",
+            "weight" : "1",
+            "pos" : 245,
+            "context" : "2.  Tommaso Vincenzo <mark>Pani<\/mark> (c. 1730–1814), General Commissioner of the Holy...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Pani",
+            "weight" : "1",
+            "pos" : 267,
+            "context" : "...was an account, supposed to have been published by <mark>Pani<\/mark> in Rome in 1791, of the Societé des Illuminés...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Pani",
+            "weight" : "1",
+            "pos" : 330,
+            "context" : "...manuscript account of the indictment of Cappelli drawn up by <mark>Pani<\/mark>. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1279.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "panis",
+            "weight" : "1",
+            "pos" : 314,
+            "context" : "..., O Portugallia, bona regio; ibi est abundantia <mark>panis<\/mark>, vino et olei boni; et multi fructus arborum...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

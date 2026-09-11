@@ -1,0 +1,40 @@
+
+  { "stem" : "919",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "919",
+            "weight" : "1",
+            "pos" : 324,
+            "context" : "Letter <mark>919<\/mark>. 31 March 1804: Grosvenor Charles Bedford",
+            "fid" : "3.919" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.919.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "919",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>919<\/mark>. Robert Southey to Grosvenor Charles Bedford, 31 March...",
+            "fid" : "southey.3.919",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "919",
+            "weight" : "1",
+            "pos" : 305,
+            "context" : "Letter <mark>919<\/mark>. 31 March 1804: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart3.43",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

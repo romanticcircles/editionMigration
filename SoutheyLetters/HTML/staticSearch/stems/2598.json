@@ -1,0 +1,74 @@
+
+  { "stem" : "2598",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1721.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2598",
+            "weight" : "1",
+            "pos" : 69,
+            "context" : "<mark>2598<\/mark>.",
+            "fid" : "southey.3.1721",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "2598",
+            "weight" : "1",
+            "pos" : 368,
+            "context" : "1.   Items 2062, 2476, 2594 and <mark>2598<\/mark> have ticks against them in the lefthand margin. Back...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2598",
+            "weight" : "1",
+            "pos" : 6384,
+            "context" : "Letter <mark>2598<\/mark>. 16 May 1815: Henry Herbert Southey",
+            "fid" : "4.2598" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2598.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2598",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2598<\/mark>. Robert Southey to Henry Herbert Southey, 16 May...",
+            "fid" : "southey.4.2598",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2645.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2598",
+            "weight" : "1",
+            "pos" : 632,
+            "context" : "...to Henry Herbert Southey, 16 May 1815, Letter <mark>2598<\/mark>. Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2598",
+            "weight" : "1",
+            "pos" : 6355,
+            "context" : "Letter <mark>2598<\/mark>. 16 May 1815: Henry Herbert Southey",
+            "fid" : "refletterlistPart4.880",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

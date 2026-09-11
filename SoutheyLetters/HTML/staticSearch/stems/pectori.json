@@ -1,0 +1,48 @@
+
+  { "stem" : "pectori",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Pectoris",
+            "weight" : "1",
+            "pos" : 100419,
+            "context" : "...Symptoms and Causes of the Syncope Anginosa Commonly Called Angina <mark>Pectoris<\/mark> (1799) was the first monograph on the pathology...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "pectoris",
+            "weight" : "1",
+            "pos" : 100425,
+            "context" : "...) was the first monograph on the pathology of angina <mark>pectoris<\/mark>. Parry was a friend of Edward Jenner (1749...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1166.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pectoris",
+            "weight" : "1",
+            "pos" : 351,
+            "context" : " Poor Jackson has symptoms of angina <mark>pectoris<\/mark>, but they are accompanied with other symptoms not described...",
+            "fid" : "southey.3.1166",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1572.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pectoris",
+            "weight" : "1",
+            "pos" : 377,
+            "context" : "...going very fast – What we suspected to be angina <mark>pectoris<\/mark> proves to have proceeded from a diseased spleen, –...",
+            "fid" : "southey.3.1572",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

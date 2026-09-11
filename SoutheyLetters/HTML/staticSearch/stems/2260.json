@@ -1,0 +1,53 @@
+
+  { "stem" : "2260",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2260",
+            "weight" : "1",
+            "pos" : 3864,
+            "context" : "Letter <mark>2260<\/mark>. 21 May 1813: Grosvenor Charles Bedford",
+            "fid" : "4.2260" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2260.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2260",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2260<\/mark>. Robert Southey to Grosvenor Charles Bedford, 21 May...",
+            "fid" : "southey.4.2260",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2269.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2260",
+            "weight" : "1",
+            "pos" : 472,
+            "context" : "...(Letter 2196) and 21 May 1813 (Letter <mark>2260<\/mark>). Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2260",
+            "weight" : "1",
+            "pos" : 3839,
+            "context" : "Letter <mark>2260<\/mark>. 21 May 1813: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.537",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

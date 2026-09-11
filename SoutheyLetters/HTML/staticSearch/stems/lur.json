@@ -1,0 +1,37 @@
+
+  { "stem" : "lur",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1464.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "lurs",
+            "weight" : "1",
+            "pos" : 169,
+            "context" : "...que en les senyories e Baronies que ells havien sobre <mark>lurs<\/mark> vassalls eran axi com los Comtes.5 – I...",
+            "fid" : "southey.3.1464",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Lurs",
+            "weight" : "1",
+            "pos" : 705,
+            "context" : "...dels Excellentissims e Catholics Reys de Arago: e de <mark>Lurs<\/mark> Antecessors los Comtes de Barçelona (Barcelona, 1534),...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1483.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "lurs",
+            "weight" : "1",
+            "pos" : 494,
+            "context" : "...dels excellentissims e Catholics Reys de Arago: e de <mark>lurs<\/mark> antecessors los Comtes de Barçelona (Barcelona, 1534),...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

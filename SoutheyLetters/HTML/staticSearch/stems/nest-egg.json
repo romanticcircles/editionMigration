@@ -1,0 +1,39 @@
+
+  { "stem" : "nest-egg",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "nest-egg",
+            "weight" : "1",
+            "pos" : 152,
+            "context" : "...work of one man, insidiously to make it a <mark>nest-egg<\/mark> for hatching malicious calumnies against others? – I say...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "nest-egg",
+            "weight" : "1",
+            "pos" : 1358,
+            "context" : "...work of one man, insidiously to make it a <mark>nest-egg<\/mark> for hatching malicious calumnies against others? – I say...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "nest-egg",
+            "weight" : "1",
+            "pos" : 220,
+            "context" : "...work of one man, insidiously to make it a <mark>nest-egg<\/mark> for hatching malicious calumnies against others?7 I say...",
+            "fid" : "southey.7.4289",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

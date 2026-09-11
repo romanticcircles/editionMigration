@@ -1,0 +1,37 @@
+
+  { "stem" : "callendar",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3345.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Callendar",
+            "weight" : "1",
+            "pos" : 132,
+            "context" : "1.  Southey and his party left <mark>Callendar<\/mark> for Loch Katrine on 21 August and returned to Callendar...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Callendar",
+            "weight" : "1",
+            "pos" : 138,
+            "context" : "...Callendar for Loch Katrine on 21 August and returned to <mark>Callendar<\/mark> on the following day; see Journal of a Tour...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3352.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Callendar",
+            "weight" : "1",
+            "pos" : 31,
+            "context" : "...month. The course we took was to Stirling, <mark>Callendar<\/mark>, Loch Kattern, Loch Earn Head, Killin,...",
+            "fid" : "southey.6.3352",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

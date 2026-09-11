@@ -1,0 +1,53 @@
+
+  { "stem" : "3815",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3815",
+            "weight" : "1",
+            "pos" : 305,
+            "context" : "Letter <mark>3815<\/mark>. 23 March 1822: Grosvenor Charles Bedford",
+            "fid" : "7.3815" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3815.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3815",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3815<\/mark>. Robert Southey to Grosvenor Charles Bedford, 23 March...",
+            "fid" : "southey.7.3815",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3819.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3815",
+            "weight" : "1",
+            "pos" : 183,
+            "context" : "...see Southey to Bedford, 23 March 1822, Letter <mark>3815<\/mark>. It is not clear which ‘song’ he had sent...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3815",
+            "weight" : "1",
+            "pos" : 289,
+            "context" : "Letter <mark>3815<\/mark>. 23 March 1822: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart7.42",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

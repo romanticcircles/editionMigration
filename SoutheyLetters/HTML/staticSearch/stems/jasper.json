@@ -1,0 +1,50 @@
+
+  { "stem" : "jasper",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.316.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Jasper",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "...should not wish Lewis to print either Lord William or <mark>Jasper<\/mark>, because they have not appeared with my name,...",
+            "fid" : "southey.2.316",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Jasper’",
+            "weight" : "1",
+            "pos" : 326,
+            "context" : "...ballads to an anthology. Although both ‘Lord William’ and <mark>‘Jasper’<\/mark> had already appeared, unsigned, in the Morning Post...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.307.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Jasper’",
+            "weight" : "1",
+            "pos" : 714,
+            "context" : "1.  Published anonymously as <mark>‘Jasper’<\/mark>, Morning Post, 3 May 1798. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.462.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Jasper’",
+            "weight" : "1",
+            "pos" : 503,
+            "context" : "...in Annual Anthology (1800), although Robinson did contribute <mark>‘Jasper’<\/mark>, pp. 165–172 and ‘The Haunted Beach’...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

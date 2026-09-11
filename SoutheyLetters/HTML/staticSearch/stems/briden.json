@@ -1,0 +1,37 @@
+
+  { "stem" : "briden",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.726.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Briden",
+            "weight" : "1",
+            "pos" : 780,
+            "context" : " the print sellers name is <mark>Briden<\/mark>.8 should the horse kick &amp; lose his shoe...",
+            "fid" : "southey.2.726",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bridens",
+            "weight" : "1",
+            "pos" : 789,
+            "context" : "...lose his shoe, he would break one of Mr <mark>Bridens<\/mark> windows",
+            "fid" : "southey.2.726",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.706.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bridens",
+            "weight" : "1",
+            "pos" : 303,
+            "context" : "...\/ BRISTOL\/ AUG 1[illegible] 802 Endorsements: <mark>Bridens<\/mark>, Charing Cross –; Prittock. Lord Kings to Lymouth...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,61 @@
+
+  { "stem" : "1931",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.390.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1931",
+            "weight" : "1",
+            "pos" : 367,
+            "context" : "...is taken from Mac Coll, who notes that in <mark>1931<\/mark> the MS was in the possession of the daughter of...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "1931",
+            "weight" : "1",
+            "pos" : 392,
+            "context" : "..., ‘A Southey Letter’, Times Literary Supplement (9 July <mark>1931<\/mark>), 547. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1931",
+            "weight" : "1",
+            "pos" : 1490,
+            "context" : "Letter <mark>1931<\/mark>. 5 June 1811: Walter Savage Landor",
+            "fid" : "4.1931" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1931.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1931",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1931<\/mark>. Robert Southey to Walter Savage Landor, 5 June...",
+            "fid" : "southey.4.1931",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1931",
+            "weight" : "1",
+            "pos" : 1469,
+            "context" : "Letter <mark>1931<\/mark>. 5 June 1811: Walter Savage Landor",
+            "fid" : "refletterlistPart4.206",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "immigr",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3534.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "immigrants",
+            "weight" : "1",
+            "pos" : 336,
+            "context" : "5.  The Aliens Act (1793) required all foreign <mark>immigrants<\/mark> to register with local magistrates and empowered the government to...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663b.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Immigration",
+            "weight" : "1",
+            "pos" : 330,
+            "context" : "...to France, has this morning received intelligence from the <mark>Immigration<\/mark> Office that he will be able to go in a...",
+            "fid" : "southey.2.663b",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

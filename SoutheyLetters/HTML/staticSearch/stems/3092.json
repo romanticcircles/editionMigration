@@ -1,0 +1,40 @@
+
+  { "stem" : "3092",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3092",
+            "weight" : "1",
+            "pos" : 2956,
+            "context" : "Letter <mark>3092<\/mark>. 15 March 1818: Alexander Robert Charles Dallas",
+            "fid" : "5.3092" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3092.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3092",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3092<\/mark>. Robert Southey to Alexander Robert Charles Dallas, 15...",
+            "fid" : "southey.5.3092",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3092",
+            "weight" : "1",
+            "pos" : 2936,
+            "context" : "Letter <mark>3092<\/mark>.  15 March 1818: Alexander Robert Charles Dallas",
+            "fid" : "refletterlistPart5.403",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

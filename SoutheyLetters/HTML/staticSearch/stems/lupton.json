@@ -1,0 +1,36 @@
+
+  { "stem" : "lupton",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Lupton",
+            "weight" : "1",
+            "pos" : 105775,
+            "context" : "...Reid, Samuel (c. 1775–1821)                                               Relfe, <mark>Lupton<\/mark> (1798–1845)               Rickman, John (1771...",
+            "fid" : "RelfeLupton",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Lupton",
+            "weight" : "1",
+            "pos" : 105785,
+            "context" : "..., Cornhill, London, and son of the musician <mark>Lupton<\/mark> Relfe (d. 1805). Relfe started his firm in about...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Lupton",
+            "weight" : "1",
+            "pos" : 64601,
+            "context" : "Relfe, <mark>Lupton<\/mark>           ",
+            "fid" : "ref.corresp.238",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

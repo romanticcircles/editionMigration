@@ -1,0 +1,51 @@
+
+  { "stem" : "hase",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2940.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Hases",
+            "weight" : "1",
+            "pos" : 49,
+            "context" : "...to you to be translated at your convenience into Henry <mark>Hases<\/mark>,2 which I can receive in London. Here...",
+            "fid" : "southey.5.2940",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Hase",
+            "weight" : "1",
+            "pos" : 391,
+            "context" : "2.  Bank of England notes: Henry <mark>Hase<\/mark> (1764–1829), was Chief Cashier of the...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hase",
+            "weight" : "1",
+            "pos" : 1316,
+            "context" : ".... Medwins recent publication of Lord Byrons Conversations,31 <mark>hase<\/mark> been transmitted me by a friend, who happening to...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.239.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hase",
+            "weight" : "1",
+            "pos" : 417,
+            "context" : "...are &lt;he is&gt; fully sensible of their &lt;his&gt; error &amp; <mark>hase<\/mark> learnt to form the wish of wisdom. I wonder...",
+            "fid" : "southey.1.239",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

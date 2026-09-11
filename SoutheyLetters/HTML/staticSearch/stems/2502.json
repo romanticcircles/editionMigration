@@ -1,0 +1,53 @@
+
+  { "stem" : "2502",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2502",
+            "weight" : "1",
+            "pos" : 5672,
+            "context" : "Letter <mark>2502<\/mark>. [c. 17 November 1814]: John Rickman",
+            "fid" : "4.2502" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2502.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2502",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2502<\/mark>. Robert Southey to John Rickman, [ c. 17...",
+            "fid" : "southey.4.2502",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2514.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2502",
+            "weight" : "1",
+            "pos" : 688,
+            "context" : "...to John Rickman, [c. 17 November 1814], Letter <mark>2502<\/mark>. He was a Spaniard who had travelled extensively in...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2502",
+            "weight" : "1",
+            "pos" : 5645,
+            "context" : "Letter <mark>2502<\/mark>. [c. 17 November 1814]: John Rickman",
+            "fid" : "refletterlistPart4.783",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,43 @@
+
+  { "stem" : "tart",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tarts",
+            "weight" : "1",
+            "pos" : 746,
+            "context" : "...and cheese, cold pig’s face, tongue, and <mark>tarts<\/mark>, and cider, were most agreeable. It may...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.46.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tarts",
+            "weight" : "1",
+            "pos" : 210,
+            "context" : "...journey. the bread &amp; cheese cold pigs face tongue <mark>tarts<\/mark> &amp; cyder were most agreable — it may seem strange...",
+            "fid" : "southey.1.46",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.446.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tart",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "...ill at ease, In jolly &amp; custard &amp; codlin <mark>tart<\/mark> The Mare is up to her knees.",
+            "fid" : "line27",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

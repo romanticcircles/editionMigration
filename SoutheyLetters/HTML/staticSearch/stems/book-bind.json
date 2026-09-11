@@ -1,0 +1,29 @@
+
+  { "stem" : "book-bind",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2797.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Book-binder",
+            "weight" : "1",
+            "pos" : 59,
+            "context" : "...Thursday, &amp; the book will be ready for the <mark>Book-binder<\/mark> by the Monday following, so look you after the...",
+            "fid" : "southey.5.2797",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.595.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-binders",
+            "weight" : "1",
+            "pos" : 406,
+            "context" : "...are making – &amp; his Thalaba which is at the <mark>book-binders<\/mark> to be drest in my livery. it would be...",
+            "fid" : "southey.2.595",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

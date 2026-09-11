@@ -1,0 +1,29 @@
+
+  { "stem" : "clinic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.81.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "clinical",
+            "weight" : "1",
+            "pos" : 412,
+            "context" : "...Cruikshanks5 to perfect myself in anatomy — attend the <mark>clinical<\/mark> lectures &amp; then commence — Doctor Southey!!!",
+            "fid" : "southey.1.81",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.398.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "clinical",
+            "weight" : "1",
+            "pos" : 210,
+            "context" : "...of medicine he might profit more here than by any <mark>clinical<\/mark> lectures in Europe.",
+            "fid" : "southey.2.398",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

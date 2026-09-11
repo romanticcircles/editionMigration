@@ -1,0 +1,53 @@
+
+  { "stem" : "2781",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2781",
+            "weight" : "1",
+            "pos" : 685,
+            "context" : "Letter <mark>2781<\/mark>. 6 May [1816]: John Rickman",
+            "fid" : "5.2781" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2781.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2781",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2781<\/mark>. Robert Southey to John Rickman, 6 May [...",
+            "fid" : "southey.5.2781",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2782.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2781",
+            "weight" : "1",
+            "pos" : 70,
+            "context" : "...to John Rickman, 6 May [1816], Letter <mark>2781<\/mark>. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2781",
+            "weight" : "1",
+            "pos" : 669,
+            "context" : "Letter <mark>2781<\/mark>. 6 May [1816]: John Rickman",
+            "fid" : "refletterlistPart5.92",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

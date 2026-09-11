@@ -1,0 +1,37 @@
+
+  { "stem" : "grenfel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.726.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Grenfell",
+            "weight" : "1",
+            "pos" : 767,
+            "context" : "...they may be sent to his agents Messrs Peyton &amp; <mark>Grenfell<\/mark>7 [MS torn]d. Blackfriars – who will pay...",
+            "fid" : "southey.2.726",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Grenfell",
+            "weight" : "1",
+            "pos" : 881,
+            "context" : "7.  Peyton and <mark>Grenfell<\/mark>, a firm of Navy Agents. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4026.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Grenfell",
+            "weight" : "1",
+            "pos" : 705,
+            "context" : "...business was based at 72 Great Russell Street. William <mark>Grenfell<\/mark> Peyton (b. 1784) had gone bankrupt in 1822....",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "fraudster",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1807.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fraudster",
+            "weight" : "1",
+            "pos" : 941,
+            "context" : "...Witch (1809), an account of the thief, <mark>fraudster<\/mark> and poisoner Mary Bateman (1768–1809; DNB...",
+            "fid" : "19",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fraudster’s",
+            "weight" : "1",
+            "pos" : 3130,
+            "context" : "The <mark>fraudster’s<\/mark> attempt to cash in played on the idea that, as...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "965",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "965",
+            "weight" : "1",
+            "pos" : 650,
+            "context" : "Letter <mark>965<\/mark>. 16 July 1804: Charles Watkin Williams Wynn",
+            "fid" : "3.965" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.965.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "965",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>965<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 16...",
+            "fid" : "southey.3.965",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.972.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "965",
+            "weight" : "1",
+            "pos" : 383,
+            "context" : "...Charles Watkin Williams Wynn, 16 July 1804, Letter <mark>965<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "965",
+            "weight" : "1",
+            "pos" : 631,
+            "context" : "Letter <mark>965<\/mark>. 16 July 1804: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart3.89",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

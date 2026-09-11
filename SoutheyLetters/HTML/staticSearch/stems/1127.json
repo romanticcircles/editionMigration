@@ -1,0 +1,53 @@
+
+  { "stem" : "1127",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1127",
+            "weight" : "1",
+            "pos" : 1887,
+            "context" : "Letter <mark>1127<\/mark>. 28 November 1805: Charles Danvers",
+            "fid" : "3.1127" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1127.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1127",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1127<\/mark>. Robert Southey to Charles Danvers, 28 November 1805...",
+            "fid" : "southey.3.1127",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1135.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1127",
+            "weight" : "1",
+            "pos" : 197,
+            "context" : "...1048) and again on 28 November 1805 (Letter <mark>1127<\/mark>) he had written to Danvers requesting his copy of...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1127",
+            "weight" : "1",
+            "pos" : 1866,
+            "context" : "Letter <mark>1127<\/mark>. 28 November 1805: Charles Danvers",
+            "fid" : "refletterlistPart3.252",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

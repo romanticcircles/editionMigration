@@ -1,0 +1,37 @@
+
+  { "stem" : "opinionist",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1080.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Opinionists",
+            "weight" : "1",
+            "pos" : 300,
+            "context" : "...work was an Essay called Pro &amp; Con or the <mark>Opinionists<\/mark>, 1777.22 ",
+            "fid" : "southey.3.1080",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Opinionists",
+            "weight" : "1",
+            "pos" : 1113,
+            "context" : "...Craft (1763); Pro and Con, or, The <mark>Opinionists<\/mark> (1771). In fact Latter had published another burlesque...",
+            "fid" : "22",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2230.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "opinionists",
+            "weight" : "1",
+            "pos" : 122,
+            "context" : "..., &amp; your party in league with all varieties of <mark>opinionists<\/mark> from the Atheists of Edinburgh, to Ephraim Broadbrim,...",
+            "fid" : "southey.4.2230",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

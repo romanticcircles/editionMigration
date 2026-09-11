@@ -1,0 +1,40 @@
+
+  { "stem" : "2742",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2742",
+            "weight" : "1",
+            "pos" : 392,
+            "context" : "Letter <mark>2742<\/mark>. 20 March 1816: John James Morgan",
+            "fid" : "5.2742" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2742.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2742",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2742<\/mark>. Robert Southey to John James Morgan, 20 March...",
+            "fid" : "southey.5.2742",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2742",
+            "weight" : "1",
+            "pos" : 376,
+            "context" : "Letter <mark>2742<\/mark>. 20 March 1816: John James Morgan",
+            "fid" : "refletterlistPart5.53",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

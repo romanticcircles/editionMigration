@@ -1,0 +1,50 @@
+
+  { "stem" : "dot",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.56.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Dotted",
+            "weight" : "1",
+            "pos" : 455,
+            "context" : "...the sentence neat &amp; prettyPeriod round &amp; period witty<mark>Dotted<\/mark> note of admirationPut into it’s proper stationRhapsody &amp;...",
+            "fid" : "line122",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "dots",
+            "weight" : "1",
+            "pos" : 612,
+            "context" : "...on decorated stationery with a pink border patterned with blue <mark>dots<\/mark>; it also has a matching envelope.] Unpublished....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.992.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dotting",
+            "weight" : "1",
+            "pos" : 127,
+            "context" : "...the personal pronoun of its honest importance, dwarfing &amp; <mark>dotting<\/mark> it, as if I was not the most consequential word...",
+            "fid" : "southey.3.992",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.752.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "dot",
+            "weight" : "1",
+            "pos" : 236,
+            "context" : "...&amp; jump-work at reading it, skipping from the <mark>dot<\/mark> of an i to the cross of a t (if...",
+            "fid" : "southey.2.752",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

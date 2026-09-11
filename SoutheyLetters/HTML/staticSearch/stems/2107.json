@@ -1,0 +1,53 @@
+
+  { "stem" : "2107",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2107",
+            "weight" : "1",
+            "pos" : 2769,
+            "context" : "Letter <mark>2107<\/mark>. 30 May 1812: Walter Scott",
+            "fid" : "4.2107" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2107.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2107",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2107<\/mark>. Robert Southey to Walter Scott, 30 May 1812...",
+            "fid" : "southey.4.2107",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2114.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2107",
+            "weight" : "1",
+            "pos" : 401,
+            "context" : "...Southey to Walter Scott, 30 May 1812, Letter <mark>2107<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2107",
+            "weight" : "1",
+            "pos" : 2746,
+            "context" : "Letter <mark>2107<\/mark>. 30 May 1812: Walter Scott",
+            "fid" : "refletterlistPart4.384",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

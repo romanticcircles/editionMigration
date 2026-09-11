@@ -1,0 +1,43 @@
+
+  { "stem" : "veloc",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "velocity",
+            "weight" : "1",
+            "pos" : 1258,
+            "context" : "...: it is extremely hard, and the force and <mark>velocity<\/mark> of English mills reduce the husk as well as the...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3979.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "velocity",
+            "weight" : "1",
+            "pos" : 59,
+            "context" : "...the grey goose quill, – which has not the <mark>velocity<\/mark> that it possessed in younger years. I have six...",
+            "fid" : "southey.7.3979",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3360.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "velocity",
+            "weight" : "1",
+            "pos" : 395,
+            "context" : "...incumbent weight forces out the water with such scarcely conceivable <mark>velocity<\/mark> that the whole part of the canal between the stair...",
+            "fid" : "southey.6.3360",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

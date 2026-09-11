@@ -1,0 +1,40 @@
+
+  { "stem" : "892.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "892.1",
+            "weight" : "1",
+            "pos" : 133,
+            "context" : "Letter <mark>892.1<\/mark>. 1 February 1804: John May",
+            "fid" : "3.892.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.892.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "892.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>892.1<\/mark> Robert Southey to John May, 1 February 1804*...",
+            "fid" : "southey.3.892.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "892.1",
+            "weight" : "1",
+            "pos" : 114,
+            "context" : "Letter <mark>892.1<\/mark>. 1 February 1804: John May",
+            "fid" : "refletterlistPart3.16",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

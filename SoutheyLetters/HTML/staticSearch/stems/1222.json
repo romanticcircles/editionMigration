@@ -1,0 +1,40 @@
+
+  { "stem" : "1222",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1222",
+            "weight" : "1",
+            "pos" : 2607,
+            "context" : "Letter <mark>1222<\/mark>. [September 1806]: John Rickman",
+            "fid" : "3.1222" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1222.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1222",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1222<\/mark>. Robert Southey to John Rickman, [September 1806...",
+            "fid" : "southey.3.1222",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1222",
+            "weight" : "1",
+            "pos" : 2584,
+            "context" : "Letter <mark>1222<\/mark>. [September 1806]: John Rickman",
+            "fid" : "refletterlistPart3.348",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

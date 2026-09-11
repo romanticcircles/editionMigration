@@ -1,0 +1,40 @@
+
+  { "stem" : "3542",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3542",
+            "weight" : "1",
+            "pos" : 2341,
+            "context" : "Letter <mark>3542<\/mark>. 23 October 1820: Robert Bill ",
+            "fid" : "6.3542" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3542.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3542",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3542<\/mark>. Robert Southey to Robert Bill, 23 October 1820...",
+            "fid" : "southey.6.3542",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3542",
+            "weight" : "1",
+            "pos" : 2323,
+            "context" : "Letter <mark>3542<\/mark>. 23 October 1820: Robert Bill ",
+            "fid" : "refletterlistPart6.318",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

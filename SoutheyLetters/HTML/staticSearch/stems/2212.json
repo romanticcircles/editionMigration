@@ -1,0 +1,53 @@
+
+  { "stem" : "2212",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2212",
+            "weight" : "1",
+            "pos" : 3517,
+            "context" : "Letter <mark>2212<\/mark>. 27 January 1813: Grosvenor Charles Bedford",
+            "fid" : "4.2212" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2212.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2212",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2212<\/mark>. Robert Southey to Grosvenor Charles Bedford, 27 January...",
+            "fid" : "southey.4.2212",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2212",
+            "weight" : "1",
+            "pos" : 3492,
+            "context" : "Letter <mark>2212<\/mark>. 27 January 1813: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.489",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2212",
+            "weight" : "1",
+            "pos" : 992,
+            "context" : "..., money he could ill afford to lose (Letters <mark>2212<\/mark>, 2284). ",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

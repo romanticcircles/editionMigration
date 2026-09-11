@@ -1,0 +1,53 @@
+
+  { "stem" : "3763",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2786.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3763",
+            "weight" : "1",
+            "pos" : 275,
+            "context" : "...Collection, New York Public Library, Misc MS. <mark>3763<\/mark>. ALS; 3p. Previously published: S. T. Townshend...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3763",
+            "weight" : "1",
+            "pos" : 3995,
+            "context" : "Letter <mark>3763<\/mark>. 16 December 1821: Charles Watkin Williams Wynn ",
+            "fid" : "6.3763" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3763.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3763",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3763<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 16...",
+            "fid" : "southey.6.3763",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3763",
+            "weight" : "1",
+            "pos" : 3975,
+            "context" : "Letter <mark>3763<\/mark>. 16 December 1821: Charles Watkin Williams Wynn ",
+            "fid" : "refletterlistPart6.542",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2347",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2347",
+            "weight" : "1",
+            "pos" : 4498,
+            "context" : "Letter <mark>2347<\/mark>. 14 December 1813: John Murray",
+            "fid" : "4.2347" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2347.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2347",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2347<\/mark>. Robert Southey to John Murray, 14 December 1813...",
+            "fid" : "southey.4.2347",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2367.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2347",
+            "weight" : "1",
+            "pos" : 185,
+            "context" : "...Southey to John Murray, 14 December 1813, Letter <mark>2347<\/mark>. He did not write this article. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2347",
+            "weight" : "1",
+            "pos" : 4473,
+            "context" : "Letter <mark>2347<\/mark>. 14 December 1813: John Murray",
+            "fid" : "refletterlistPart4.624",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

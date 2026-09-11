@@ -1,0 +1,29 @@
+
+  { "stem" : "tea-deal",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3587.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tea-dealer",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : " Next, when you are near your <mark>tea-dealer<\/mark> (N.B. do not go out of your way to do...",
+            "fid" : "southey.6.3587",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.837.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tea-dealer",
+            "weight" : "1",
+            "pos" : 625,
+            "context" : "...10.  Joseph Hall (dates unknown), grocer and <mark>tea-dealer<\/mark> in Maryport St, Bristol. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

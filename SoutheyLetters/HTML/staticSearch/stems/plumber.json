@@ -1,0 +1,37 @@
+
+  { "stem" : "plumber",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.372.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Plumber",
+            "weight" : "1",
+            "pos" : 140,
+            "context" : "..., And see the coffin weightd I beg Lest the <mark>Plumber<\/mark> should be a cheat.",
+            "fid" : "line40",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Plumber",
+            "weight" : "1",
+            "pos" : 229,
+            "context" : "...so neat And they the leaden coffin weigh Lest the <mark>Plumber<\/mark> shd be a cheat",
+            "fid" : "line68",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.807.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Plumbers",
+            "weight" : "1",
+            "pos" : 179,
+            "context" : "...trumpet. there ought to be some punishment for the <mark>Plumbers<\/mark> when they occasion such fires. it is perpetually happening...",
+            "fid" : "southey.2.807",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

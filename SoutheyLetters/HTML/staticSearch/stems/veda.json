@@ -1,0 +1,37 @@
+
+  { "stem" : "veda",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.744.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Vedas",
+            "weight" : "1",
+            "pos" : 332,
+            "context" : " You know the <mark>Vedas<\/mark> are the Brahminical bibles. now one of these Vedas...",
+            "fid" : "southey.2.744",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Vedas",
+            "weight" : "1",
+            "pos" : 336,
+            "context" : "...Vedas are the Brahminical bibles. now one of these <mark>Vedas<\/mark> has been translated into French,5 &amp; if you...",
+            "fid" : "southey.2.744",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.538.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vedas",
+            "weight" : "1",
+            "pos" : 954,
+            "context" : "11.  The <mark>Vedas<\/mark>, the sacred texts of Hinduism. Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "ibbotson",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2784.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Ibbotsons",
+            "weight" : "1",
+            "pos" : 144,
+            "context" : "...The Calverts are in town, – near you, at <mark>Ibbotsons<\/mark> Hotel.5 If you call there it will be...",
+            "fid" : "southey.5.2784",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Ibbotson’s",
+            "weight" : "1",
+            "pos" : 383,
+            "context" : "5.  <mark>Ibbotson’s<\/mark> stood in Vere Street, Cavendish Square, London....",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1928.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ibbotson’s",
+            "weight" : "1",
+            "pos" : 448,
+            "context" : "...[readdressed in another hand] To\/ Colonel Peachy\/ <mark>Ibbotson’s<\/mark> Hotel\/ Vere Street\/ Oxford Street\/ London.\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

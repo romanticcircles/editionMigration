@@ -1,0 +1,66 @@
+
+  { "stem" : "3110",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3110",
+            "weight" : "1",
+            "pos" : 3091,
+            "context" : "Letter <mark>3110<\/mark>. 3 April 1818: John Murray",
+            "fid" : "5.3110" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3110.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3110",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3110<\/mark>. Robert Southey to John Murray [fragment], 3...",
+            "fid" : "southey.5.3110",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3112.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3110",
+            "weight" : "1",
+            "pos" : 362,
+            "context" : "...to John Murray, 3 April 1818, see Letter <mark>3110<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3117.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3110",
+            "weight" : "1",
+            "pos" : 370,
+            "context" : "...Southey’s letter to Murray of 3 April 1818, Letter <mark>3110<\/mark>. Murray had suggested placing less emphasis on explicitly political...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3110",
+            "weight" : "1",
+            "pos" : 3071,
+            "context" : "Letter <mark>3110<\/mark>.  3 April 1818: John Murray",
+            "fid" : "refletterlistPart5.421",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

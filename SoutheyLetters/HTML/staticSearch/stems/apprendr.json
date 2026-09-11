@@ -1,0 +1,37 @@
+
+  { "stem" : "apprendr",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670a.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "apprendre",
+            "weight" : "1",
+            "pos" : 122,
+            "context" : " Je vais <mark>apprendre<\/mark> le Welch. J’ai bien delibere si la connoissance vaut...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "apprendre",
+            "weight" : "1",
+            "pos" : 233,
+            "context" : "...Biscaie, &amp; peutètre la connaisance de la Welch m’ajouteroit <mark>apprendre<\/mark> entendre la Basque, qu’est la fondement, la racine...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4188.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Apprendre",
+            "weight" : "1",
+            "pos" : 1132,
+            "context" : "...–1690), a French painter. His Méthode Pour <mark>Apprendre<\/mark> à Dessiner les Passions (1698) described how paint...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

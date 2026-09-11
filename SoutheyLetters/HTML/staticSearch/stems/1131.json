@@ -1,0 +1,40 @@
+
+  { "stem" : "1131",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1131",
+            "weight" : "1",
+            "pos" : 1914,
+            "context" : "Letter <mark>1131<\/mark>. 10 December [1805]: Henry Herbert Southey",
+            "fid" : "3.1131" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1131.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1131",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1131<\/mark>. Robert Southey to Henry Herbert Southey, 10 December...",
+            "fid" : "southey.3.1131",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1131",
+            "weight" : "1",
+            "pos" : 1893,
+            "context" : "Letter <mark>1131<\/mark>. 10 December [1805]: Henry Herbert Southey",
+            "fid" : "refletterlistPart3.256",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

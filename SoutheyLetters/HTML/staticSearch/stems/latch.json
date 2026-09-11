@@ -1,0 +1,50 @@
+
+  { "stem" : "latch",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.391.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "latch",
+            "weight" : "1",
+            "pos" : 50,
+            "context" : "...I should be thro the door. lift up the <mark>latch<\/mark> And let me enter with civility.",
+            "fid" : "line15",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "latch",
+            "weight" : "1",
+            "pos" : 65,
+            "context" : "...have business, A case of conscience. lift the <mark>latch<\/mark> I say.",
+            "fid" : "line21",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1190.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "latch",
+            "weight" : "1",
+            "pos" : 148,
+            "context" : "...little wicket xxxxxxx hard by where they lift up the <mark>latch<\/mark> for themselves, which the old Porter winks with the right...",
+            "fid" : "southey.3.1190",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.523.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "latches",
+            "weight" : "1",
+            "pos" : 198,
+            "context" : "...to carry away what rain enters. The locks &amp; <mark>latches<\/mark> are coarse beyond your conception. under every window frame...",
+            "fid" : "southey.2.523",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

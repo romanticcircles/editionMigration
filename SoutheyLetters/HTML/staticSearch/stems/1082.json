@@ -1,0 +1,53 @@
+
+  { "stem" : "1082",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082",
+            "weight" : "1",
+            "pos" : 1548,
+            "context" : "Letter <mark>1082<\/mark>. [mid-July 1805]: John Rickman",
+            "fid" : "3.1082" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1082.1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082",
+            "weight" : "1",
+            "pos" : 285,
+            "context" : "...John Rickman, [mid-July 1805], Letter <mark>1082<\/mark>. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1082.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1082",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1082<\/mark>. Robert Southey to John Rickman, [mid-...",
+            "fid" : "southey.3.1082",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1082",
+            "weight" : "1",
+            "pos" : 1527,
+            "context" : "Letter <mark>1082<\/mark>. [mid-July 1805]: John Rickman",
+            "fid" : "refletterlistPart3.206",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

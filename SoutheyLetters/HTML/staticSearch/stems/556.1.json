@@ -1,0 +1,40 @@
+
+  { "stem" : "556.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "556.1",
+            "weight" : "1",
+            "pos" : 2102,
+            "context" : "Letter <mark>556.1<\/mark>. 2 November 1800: George Dyer ",
+            "fid" : "2.556.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.556.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "556.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>556.1<\/mark> Robert Southey to George Dyer [fragment], 2 November...",
+            "fid" : "southey.2.556.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "556.1",
+            "weight" : "1",
+            "pos" : 2079,
+            "context" : "Letter <mark>556.1<\/mark>. 2 November 1800: George Dyer ",
+            "fid" : "refletterlistPart2.278",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

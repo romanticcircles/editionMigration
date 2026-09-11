@@ -1,0 +1,66 @@
+
+  { "stem" : "675",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3482.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "675",
+            "weight" : "1",
+            "pos" : 578,
+            "context" : "...Collected Letters of Robert Southey. Part Two, Letter <mark>675<\/mark>. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "675",
+            "weight" : "1",
+            "pos" : 3037,
+            "context" : "Letter <mark>675<\/mark> . 10 May 1802: Charles Danvers",
+            "fid" : "2.675" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.675.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "675",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>675<\/mark>. Robert Southey to Charles Danvers, 10 May 1802...",
+            "fid" : "southey.2.675",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.676.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "675",
+            "weight" : "1",
+            "pos" : 89,
+            "context" : "...sent to him by 10 May 1802 (see Letter <mark>675<\/mark>), and the Chatterton edition was being printed by 17...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "675",
+            "weight" : "1",
+            "pos" : 3010,
+            "context" : "Letter <mark>675<\/mark>. 10 May 1802: Charles Danvers",
+            "fid" : "refletterlistPart2.400",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

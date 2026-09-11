@@ -1,0 +1,53 @@
+
+  { "stem" : "776",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.175.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "776",
+            "weight" : "1",
+            "pos" : 250,
+            "context" : "...–688 and Ibid, 2 (November 1796), <mark>776<\/mark>. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "776",
+            "weight" : "1",
+            "pos" : 3800,
+            "context" : "Letter <mark>776<\/mark>. [28 April 1803]: Barbara Seton ",
+            "fid" : "2.776" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.776.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "776",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>776<\/mark>. Robert Southey to Barbara Seton [fragment], [...",
+            "fid" : "southey.2.776",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "776",
+            "weight" : "1",
+            "pos" : 3771,
+            "context" : "Letter <mark>776<\/mark>. [28 April 1803]: Barbara Seton ",
+            "fid" : "refletterlistPart2.503",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

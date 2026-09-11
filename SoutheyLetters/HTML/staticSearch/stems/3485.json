@@ -1,0 +1,40 @@
+
+  { "stem" : "3485",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3485",
+            "weight" : "1",
+            "pos" : 1912,
+            "context" : "Letter <mark>3485<\/mark>. 21 May 1820: [Robert Gooch] ",
+            "fid" : "6.3485" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3485.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3485",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3485<\/mark>. Robert Southey to [Robert Gooch], 21 May...",
+            "fid" : "southey.6.3485",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3485",
+            "weight" : "1",
+            "pos" : 1894,
+            "context" : "Letter <mark>3485<\/mark>. 21 May 1820: [Robert Gooch] ",
+            "fid" : "refletterlistPart6.259",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

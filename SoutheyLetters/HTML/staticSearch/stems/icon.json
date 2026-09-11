@@ -1,0 +1,61 @@
+
+  { "stem" : "icon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "icon",
+            "weight" : "1",
+            "pos" : 2,
+            "context" : "  Click the <mark>icon<\/mark> above to download a list of names; Click the...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "icons",
+            "weight" : "1",
+            "pos" : 8,
+            "context" : "...to download a list of names; Click the blue <mark>icons<\/mark> below for the person's letters.     ",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.163.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Icones",
+            "weight" : "1",
+            "pos" : 80,
+            "context" : "...the right hand; and Hugh Holland, in his <mark>Icones<\/mark>, saith of him:",
+            "fid" : "southey.1.163",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3680.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Icon",
+            "weight" : "1",
+            "pos" : 30,
+            "context" : "...Behemoth (not his Leviathan)4 &amp; the Eikon Basilike <mark>Icon<\/mark> Basiliké.5 – It will make a very interesting...",
+            "fid" : "southey.6.3680",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.466.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "iconic",
+            "weight" : "1",
+            "pos" : 604,
+            "context" : "...huge quantities of pictures, sculptures and manuscripts, including <mark>iconic<\/mark> pieces like the Laocoon, Apollo Belvedere and the Medici...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

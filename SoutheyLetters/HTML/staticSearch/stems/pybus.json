@@ -1,0 +1,32 @@
+
+  { "stem" : "pybus",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.745.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Pybus",
+            "weight" : "1",
+            "pos" : 289,
+            "context" : "...by his name – or such a heinous offender as <mark>Pybus<\/mark>13 appears &amp; then my Inquisitorship instead of xxxxxx actually...",
+            "fid" : "southey.2.745",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Pybus",
+            "weight" : "1",
+            "pos" : 551,
+            "context" : "13.  Charles Small <mark>Pybus<\/mark> (1766-1810), MP for Dover 1790-...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Pybus",
+            "weight" : "1",
+            "pos" : 570,
+            "context" : "...(1800). There is no evidence that Southey reviewed <mark>Pybus<\/mark>. Back",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

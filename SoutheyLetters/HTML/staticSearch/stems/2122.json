@@ -1,0 +1,40 @@
+
+  { "stem" : "2122",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2122",
+            "weight" : "1",
+            "pos" : 2875,
+            "context" : "Letter <mark>2122<\/mark>. 8 July 1812: John Wilson Croker",
+            "fid" : "4.2122" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2122.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2122",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2122<\/mark>. Robert Southey to John Wilson Croker, 8 July...",
+            "fid" : "southey.4.2122",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2122",
+            "weight" : "1",
+            "pos" : 2852,
+            "context" : "Letter <mark>2122<\/mark>. 8 July 1812: John Wilson Croker",
+            "fid" : "refletterlistPart4.399",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "saml",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2187.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Saml",
+            "weight" : "1",
+            "pos" : 505,
+            "context" : "Address: Mr <mark>Saml<\/mark> Reid – Liverpool – MS: University of Newcastle Library...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1242.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Saml",
+            "weight" : "1",
+            "pos" : 234,
+            "context" : "...am exceedingly glad I made a point of seeing Sir <mark>Saml<\/mark>12 and am perfectly satisfied with the result – my...",
+            "fid" : "southey.3.1242",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

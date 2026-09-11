@@ -1,0 +1,53 @@
+
+  { "stem" : "html",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2988.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "HTML",
+            "weight" : "1",
+            "pos" : 104,
+            "context" : "...umd.edu\/editions\/bloomfield_letters\/<mark>HTML<\/mark>\/letterEEd.25.313.html&gt; Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "html",
+            "weight" : "1",
+            "pos" : 107,
+            "context" : "...bloomfield_letters\/HTML\/letterEEd.25.313.<mark>html<\/mark>&gt; Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "HTML",
+            "weight" : "1",
+            "pos" : 133,
+            "context" : "...umd.edu\/editions\/bloomfield_letters\/<mark>HTML<\/mark>\/letterEEd.25.312.html&gt; Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "html",
+            "weight" : "1",
+            "pos" : 136,
+            "context" : "...bloomfield_letters\/HTML\/letterEEd.25.312.<mark>html<\/mark>&gt; Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "HTML",
+            "weight" : "1",
+            "pos" : 2005,
+            "context" : "...website, writing programs to transform the TEI files into <mark>HTML<\/mark> (including css and JavaScript), csv files for downloading...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

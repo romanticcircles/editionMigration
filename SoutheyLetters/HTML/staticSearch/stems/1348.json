@@ -1,0 +1,40 @@
+
+  { "stem" : "1348",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1348",
+            "weight" : "1",
+            "pos" : 3565,
+            "context" : "Letter <mark>1348<\/mark>. July 1807: the Editor of the Athenaeum",
+            "fid" : "3.1348" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1348.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1348",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1348<\/mark>. Robert Southey to the Editor of the Athenaeum,...",
+            "fid" : "southey.3.1348",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1348",
+            "weight" : "1",
+            "pos" : 3540,
+            "context" : "Letter <mark>1348<\/mark>. July 1807: the Editor of the Athenaeum",
+            "fid" : "refletterlistPart3.477",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "1945",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1945",
+            "weight" : "1",
+            "pos" : 1595,
+            "context" : "Letter <mark>1945<\/mark>. 23 August 1811: John Theodor Koster",
+            "fid" : "4.1945" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1945.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1945",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1945<\/mark>. Robert Southey to John Theodor Koster, 23 August...",
+            "fid" : "southey.4.1945",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1945",
+            "weight" : "1",
+            "pos" : 1574,
+            "context" : "Letter <mark>1945<\/mark>. 23 August 1811: John Theodor Koster",
+            "fid" : "refletterlistPart4.220",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

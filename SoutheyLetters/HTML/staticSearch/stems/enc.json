@@ -1,0 +1,42 @@
+
+  { "stem" : "enc",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2952.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Enc",
+            "weight" : "1",
+            "pos" : 78,
+            "context" : "...MR\/ 1817 EV Endorsement: 23 March 1817 with <mark>Enc<\/mark> to the Courier – Histy of Wat Tyler MS:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1845.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "enc",
+            "weight" : "1",
+            "pos" : 124,
+            "context" : " The <mark>enc<\/mark>[remainder of MS missing]",
+            "fid" : "southey.4.1845",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.870.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ence",
+            "weight" : "1",
+            "pos" : 86,
+            "context" : "...his creditors have already cost me [MS obscured]<mark>ence<\/mark> in postage. ",
+            "fid" : "southey.2.870",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

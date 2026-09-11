@@ -1,0 +1,37 @@
+
+  { "stem" : "potwallop",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.614.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "potwalloping",
+            "weight" : "1",
+            "pos" : 572,
+            "context" : "...picture. it was famous of late years as a <mark>potwalloping<\/mark> borough,14 &amp; for rearing early ducks for the...",
+            "fid" : "southey.2.614",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "potwalloper",
+            "weight" : "1",
+            "pos" : 905,
+            "context" : "...was one of only ten Irish boroughs that had a <mark>potwalloper<\/mark> franchise, i.e. any householder with a hearth big enough...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.613.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "potwalloper",
+            "weight" : "1",
+            "pos" : 664,
+            "context" : "...was one of only ten Irish boroughs that had a <mark>potwalloper<\/mark> franchise, i.e. any householder with a hearth big enough...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

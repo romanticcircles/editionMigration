@@ -1,0 +1,50 @@
+
+  { "stem" : "maidenhead",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.304.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Maidenhead",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "...not look for any yesterday — but yours came from <mark>Maidenhead<\/mark> when a London one would not have come — &amp;...",
+            "fid" : "southey.2.304",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Maidenhead",
+            "weight" : "1",
+            "pos" : 98,
+            "context" : "...To\/ C W Williams Wynn Esqr\/ Dropmore Hill\/ <mark>Maidenhead<\/mark> Stamped: BRISTOL Endorsement: April 10 1798 MS:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.60.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Maidenhead",
+            "weight" : "1",
+            "pos" : 104,
+            "context" : "...to be fatigued against tomorrow so I first mounted the <mark>Maidenhead<\/mark> Stage &amp; then the Reading. as evening approachd got...",
+            "fid" : "southey.1.60",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.588.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Maidenhead",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "...Stone Buildings\/ Lincolns Inn\/ London &lt;Taplow\/ <mark>Maidenhead<\/mark>\/ Bucks.&gt; Stamped: FALMOUTH\/ 275 Postmark:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

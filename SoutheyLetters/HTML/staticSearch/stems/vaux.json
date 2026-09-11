@@ -1,0 +1,68 @@
+
+  { "stem" : "vaux",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix2.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Vaux",
+            "weight" : "2",
+            "pos" : 66,
+            "context" : "...Robert Southey to Henry Peter Brougham, Baron Brougham and <mark>Vaux<\/mark>, [c. July 1818]*",
+            "fid" : "ref.1",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vaux",
+            "weight" : "1",
+            "pos" : 106810,
+            "context" : "Brougham, Henry Peter, Baron Brougham and <mark>Vaux<\/mark>, Southey’s Challenge [c. July 1818], unsent",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vaux",
+            "weight" : "1",
+            "pos" : 20845,
+            "context" : "...Brougham, Henry Peter, 1st Baron Brougham and <mark>Vaux<\/mark> (1778–1868)                                                                                                                                                          Browne (née Jones),...",
+            "fid" : "BroughamHenryPeter",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3592.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Vaux",
+            "weight" : "1",
+            "pos" : 195,
+            "context" : "1.  Roberts <mark>Vaux<\/mark> (1786–1836), Memoirs of the Life of...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vaux",
+            "weight" : "1",
+            "pos" : 139,
+            "context" : "...en effet, pour faire bon oeuvre, bon ouvrier <mark>vaux<\/mark> mieux que bonne instrumentes.",
+            "fid" : "southey.2.663a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

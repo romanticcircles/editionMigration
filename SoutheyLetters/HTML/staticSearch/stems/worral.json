@@ -1,0 +1,37 @@
+
+  { "stem" : "worral",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1780.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Worralls",
+            "weight" : "1",
+            "pos" : 255,
+            "context" : "...poems by Wm I. Roberts, – once employed in <mark>Worralls<\/mark> bank3 who died of consumption at the age of...",
+            "fid" : "southey.4.1780",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Worrall",
+            "weight" : "1",
+            "pos" : 391,
+            "context" : "3.   Messrs <mark>Worrall<\/mark>, Blatchley &amp; Co., a Bristol bank. Back...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Worrall",
+            "weight" : "1",
+            "pos" : 1789,
+            "context" : "...Whelan, Amy Wilcockson, Susan J. Wolfson, David <mark>Worrall<\/mark>, Duncan Wu, Edward Yescombe and Nahem Yousaf....",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

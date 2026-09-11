@@ -1,0 +1,53 @@
+
+  { "stem" : "2690",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2690",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "Letter <mark>2690<\/mark>. 2 January 1816: Grosvenor Charles Bedford",
+            "fid" : "5.2690" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2690.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2690",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2690<\/mark>. Robert Southey to Grosvenor Charles Bedford, 2 January...",
+            "fid" : "southey.5.2690",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2690",
+            "weight" : "1",
+            "pos" : 5,
+            "context" : "Letter <mark>2690<\/mark>. 2 January 1816: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart5.1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2690",
+            "weight" : "1",
+            "pos" : 78,
+            "context" : "...new poem, The Poet’s Pilgrimage to Waterloo (Letter <mark>2690<\/mark>). They conclude on New Year’s Eve 1818 with a...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

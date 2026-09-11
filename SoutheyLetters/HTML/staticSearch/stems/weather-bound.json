@@ -1,0 +1,30 @@
+
+  { "stem" : "weather-bound",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weather-bound",
+            "weight" : "1",
+            "pos" : 789,
+            "context" : "...hope, from the aspect, that we shall be <mark>weather-bound<\/mark> till the last moment. Arthur Young’s12 remark is...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4050.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weather-bound",
+            "weight" : "1",
+            "pos" : 141,
+            "context" : "...I gave him a mornings boating, yesterday he was <mark>weather-bound<\/mark> &amp; this morning he set off with your guide William...",
+            "fid" : "southey.7.4050",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

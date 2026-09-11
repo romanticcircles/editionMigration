@@ -1,0 +1,40 @@
+
+  { "stem" : "2525",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2525",
+            "weight" : "1",
+            "pos" : 5850,
+            "context" : "Letter <mark>2525<\/mark>. 22 December 1814: [Mary Matilda Betham]...",
+            "fid" : "4.2525" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2525.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2525",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2525<\/mark>. Robert Southey to [Mary Matilda Betham], 22...",
+            "fid" : "southey.4.2525",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2525",
+            "weight" : "1",
+            "pos" : 5823,
+            "context" : "Letter <mark>2525<\/mark>. 22 December 1814: [Mary Matilda Betham]...",
+            "fid" : "refletterlistPart4.807",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

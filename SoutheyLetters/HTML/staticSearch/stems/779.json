@@ -1,0 +1,40 @@
+
+  { "stem" : "779",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "779",
+            "weight" : "1",
+            "pos" : 3819,
+            "context" : "Letter <mark>779<\/mark>. 5 May 1803: [Samuel Jackson Pratt]...",
+            "fid" : "2.779" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.779.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "779",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>779<\/mark>. Robert Southey to [Samuel Jackson Pratt], 5...",
+            "fid" : "southey.2.779",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "779",
+            "weight" : "1",
+            "pos" : 3790,
+            "context" : "Letter <mark>779<\/mark>. 5 May 1803: [Samuel Jackson Pratt]...",
+            "fid" : "refletterlistPart2.506",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

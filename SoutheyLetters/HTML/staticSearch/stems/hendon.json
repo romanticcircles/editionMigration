@@ -1,0 +1,41 @@
+
+  { "stem" : "hendon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hendon",
+            "weight" : "1",
+            "pos" : 71645,
+            "context" : "Doctor at <mark>Hendon<\/mark> and travel writer. With Paul Moon James he planned...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1819.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hendon",
+            "weight" : "1",
+            "pos" : 195,
+            "context" : "Address: To\/ Edward Hogg Esqr\/ <mark>Hendon<\/mark>\/ Middlesex Postmark: 10oCLOCK\/ OC25\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3726.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hendon",
+            "weight" : "1",
+            "pos" : 276,
+            "context" : "...Gee (c. 1772–1846), opened a school at <mark>Hendon<\/mark> after her husband’s death. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

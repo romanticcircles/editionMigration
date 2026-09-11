@@ -1,0 +1,37 @@
+
+  { "stem" : "confessio",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.923.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Confessio",
+            "weight" : "1",
+            "pos" : 111,
+            "context" : "...which by the table of Contents seems to resemble the <mark>Confessio<\/mark> Amantis.10 The Volume on which I have begun...",
+            "fid" : "southey.3.923",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Confessio",
+            "weight" : "1",
+            "pos" : 542,
+            "context" : "....   John Gower (1330–1408; DNB), <mark>Confessio<\/mark> Amantis (1390). Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.62.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Confessio",
+            "weight" : "1",
+            "pos" : 892,
+            "context" : "10.  John Gower (d. 1408; DNB), <mark>Confessio<\/mark> Amantis (1390), Book 5, lines 2031–2224...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

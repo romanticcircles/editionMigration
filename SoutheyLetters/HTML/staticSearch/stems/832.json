@@ -1,0 +1,53 @@
+
+  { "stem" : "832",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "832",
+            "weight" : "1",
+            "pos" : 935,
+            "context" : "...who have none but themselves to care for. (Letter <mark>832<\/mark>)",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "832",
+            "weight" : "1",
+            "pos" : 4210,
+            "context" : "Letter <mark>832<\/mark>. 29 August [1803]: Thomas Southey",
+            "fid" : "2.832" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.832.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "832",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>832<\/mark>. Robert Southey to Thomas Southey, 29 August [...",
+            "fid" : "southey.2.832",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "832",
+            "weight" : "1",
+            "pos" : 4181,
+            "context" : "Letter <mark>832<\/mark>. 29 August [1803]: Thomas Southey",
+            "fid" : "refletterlistPart2.559",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

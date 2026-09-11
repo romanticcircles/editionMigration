@@ -1,0 +1,53 @@
+
+  { "stem" : "3006",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3006",
+            "weight" : "1",
+            "pos" : 2332,
+            "context" : "Letter <mark>3006<\/mark>. 1 August 1817: Edith Southey",
+            "fid" : "5.3006" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3006.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3006",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3006<\/mark>. Robert Southey to Edith Southey, 1 August 1817...",
+            "fid" : "southey.5.3006",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3006",
+            "weight" : "1",
+            "pos" : 2314,
+            "context" : "Letter <mark>3006<\/mark>.  1 August 1817: Edith Southey",
+            "fid" : "refletterlistPart5.317",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3704.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3006",
+            "weight" : "1",
+            "pos" : 285,
+            "context" : "...Collected Letters of Robert Southey. Part Five, Letter <mark>3006<\/mark>. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

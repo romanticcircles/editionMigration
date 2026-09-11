@@ -1,0 +1,40 @@
+
+  { "stem" : "3601",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3601",
+            "weight" : "1",
+            "pos" : 2797,
+            "context" : "Letter <mark>3601<\/mark>. 5 January 1821: Grosvenor Charles Bedford ",
+            "fid" : "6.3601" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3601.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3601",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3601<\/mark>. Robert Southey to Grosvenor Charles Bedford, 5 January...",
+            "fid" : "southey.6.3601",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3601",
+            "weight" : "1",
+            "pos" : 2777,
+            "context" : "Letter <mark>3601<\/mark>. 5 January 1821: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.378",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

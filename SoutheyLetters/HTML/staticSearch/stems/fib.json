@@ -1,0 +1,29 @@
+
+  { "stem" : "fib",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1964.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fibbed",
+            "weight" : "1",
+            "pos" : 241,
+            "context" : "...as you will see in the Quarterly where I have <mark>fibbed<\/mark> the Edinburgh (as the Fancy say) most completely,...",
+            "fid" : "southey.4.1964",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3470.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fib",
+            "weight" : "1",
+            "pos" : 132,
+            "context" : "...They show a mammoths rib (was there ever such a <mark>fib<\/mark>!) as belonging to this Saint Melangle.2 It...",
+            "fid" : "southey.6.3470",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

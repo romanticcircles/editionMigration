@@ -1,0 +1,40 @@
+
+  { "stem" : "1482",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1482",
+            "weight" : "1",
+            "pos" : 4549,
+            "context" : "Letter <mark>1482<\/mark>. 19 July 1808: Henry Herbert Southey",
+            "fid" : "3.1482" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1482.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1482",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1482<\/mark>. Robert Southey to Henry Herbert Southey, 19 July...",
+            "fid" : "southey.3.1482",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1482",
+            "weight" : "1",
+            "pos" : 4522,
+            "context" : "Letter <mark>1482<\/mark>. 19 July 1808: Henry Herbert Southey",
+            "fid" : "refletterlistPart3.614",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

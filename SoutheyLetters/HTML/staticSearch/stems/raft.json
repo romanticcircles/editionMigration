@@ -1,0 +1,37 @@
+
+  { "stem" : "raft",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.286.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "rafts",
+            "weight" : "1",
+            "pos" : 265,
+            "context" : "...in speculating upon &lt;guns-&gt; gun-boats – <mark>rafts<\/mark>, &amp; all the curious inventions that keep London in...",
+            "fid" : "southey.2.286",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "raft",
+            "weight" : "1",
+            "pos" : 453,
+            "context" : "...was the rumour that the French had constructed a giant <mark>raft<\/mark> that could transport 60,000 troops across the Channel. Back...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1488.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "raft",
+            "weight" : "1",
+            "pos" : 990,
+            "context" : "...South America who, in 1543, completed a four month <mark>raft<\/mark> journey down the Amazon. He published a narrative of...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

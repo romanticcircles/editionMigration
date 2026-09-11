@@ -1,0 +1,53 @@
+
+  { "stem" : "3726",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.41.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3726",
+            "weight" : "1",
+            "pos" : 516,
+            "context" : "..., New York Public Library, Misc. Ms. <mark>3726<\/mark>. ALS; 4p. Tipped into front papers of Robert...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3726",
+            "weight" : "1",
+            "pos" : 3722,
+            "context" : "Letter <mark>3726<\/mark>. 5 September 1821: Humphrey Senhouse ",
+            "fid" : "6.3726" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3726.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3726",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3726<\/mark>. Robert Southey to Humphrey Senhouse, 5 September 1821...",
+            "fid" : "southey.6.3726",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3726",
+            "weight" : "1",
+            "pos" : 3702,
+            "context" : "Letter <mark>3726<\/mark>. 5 September 1821: Humphrey Senhouse ",
+            "fid" : "refletterlistPart6.505",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

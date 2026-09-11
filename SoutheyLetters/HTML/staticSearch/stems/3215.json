@@ -1,0 +1,53 @@
+
+  { "stem" : "3215",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3215",
+            "weight" : "1",
+            "pos" : 3831,
+            "context" : "Letter <mark>3215<\/mark>. 4 December 1818: [William Gifford] ",
+            "fid" : "5.3215" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3215.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3215",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3215<\/mark>. Robert Southey to [William Gifford], 4 December...",
+            "fid" : "southey.5.3215",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3215",
+            "weight" : "1",
+            "pos" : 3811,
+            "context" : "Letter <mark>3215<\/mark>.  4 December 1818: [William Gifford] ",
+            "fid" : "refletterlistPart5.526",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.753.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3215",
+            "weight" : "1",
+            "pos" : 622,
+            "context" : "...de Oracio Traduzidas en Verso Castellano (1591), no. <mark>3215<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

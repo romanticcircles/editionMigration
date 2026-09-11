@@ -1,0 +1,37 @@
+
+  { "stem" : "bulgin",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.125.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bulgin",
+            "weight" : "1",
+            "pos" : 103,
+            "context" : "...Cottle the Bookseller (who remembers you when he lived with <mark>Bulgin<\/mark>3 &amp; often enquires for you) is to buy the...",
+            "fid" : "southey.1.125",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bulgin",
+            "weight" : "1",
+            "pos" : 351,
+            "context" : "3.  Samuel <mark>Bulgin<\/mark> (dates unknown), a Bristol printer, bookseller and...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2549.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bulgin",
+            "weight" : "1",
+            "pos" : 476,
+            "context" : "...Portugal (1797) was printed in Bristol by William <mark>Bulgin<\/mark> (fl. 1790s-1830s) and Robert Rosser...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

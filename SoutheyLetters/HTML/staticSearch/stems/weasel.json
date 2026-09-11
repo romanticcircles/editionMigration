@@ -1,0 +1,50 @@
+
+  { "stem" : "weasel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.790.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Weasel",
+            "weight" : "1",
+            "pos" : 303,
+            "context" : "...concerns your coming, to Bristol do lay by your <mark>Weasel<\/mark>14 &amp; come, bring some of your small Tackle...",
+            "fid" : "southey.2.790",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Weasel",
+            "weight" : "1",
+            "pos" : 320,
+            "context" : "...our pictures, Southey says if he cannot get a <mark>Weasel<\/mark> here for you he has no doubt but he can...",
+            "fid" : "southey.2.790",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.56.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weasel",
+            "weight" : "1",
+            "pos" : 185,
+            "context" : "...[start of section in Bedford’s hand]And the <mark>weasel<\/mark> there shall stealAnd learn to squeak &amp; learn to...",
+            "fid" : "line50",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4132.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "weasel",
+            "weight" : "1",
+            "pos" : 189,
+            "context" : "...Blucher is such a good cat that he slew a <mark>weasel<\/mark> lately in single combat.",
+            "fid" : "southey.7.4132",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

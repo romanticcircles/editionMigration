@@ -1,0 +1,29 @@
+
+  { "stem" : "aurelius",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Aurelius",
+            "weight" : "1",
+            "pos" : 1904,
+            "context" : "...grateful to the following for their financial support: the <mark>Aurelius<\/mark> Charitable Trust, the Charlotte Bonham Carter Charitable Trust,...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.38.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Aurelius",
+            "weight" : "1",
+            "pos" : 1100,
+            "context" : "...–161; reigned 138–161) and Marcus <mark>Aurelius<\/mark> (121–180; reigned 161–180);...",
+            "fid" : "18",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

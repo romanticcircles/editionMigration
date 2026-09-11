@@ -1,0 +1,50 @@
+
+  { "stem" : "brecon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.352.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Brecon",
+            "weight" : "1",
+            "pos" : 45,
+            "context" : "...’s letter this day put in the post office at <mark>Brecon<\/mark>, you will have learnt how we travelled up a...",
+            "fid" : "southey.2.352",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Brecon",
+            "weight" : "1",
+            "pos" : 224,
+            "context" : "...finished a letter to Stuart. at two we reached <mark>Brecon<\/mark>, a distance of 18 miles. a little but...",
+            "fid" : "southey.2.352",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1980.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Brecon",
+            "weight" : "1",
+            "pos" : 495,
+            "context" : "...allusion to Sir Edward Williams (d. 1721), MP for <mark>Brecon<\/mark>. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3939.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Brecon",
+            "weight" : "1",
+            "pos" : 296,
+            "context" : "...likely, in compliance to a request made from the <mark>Brecon<\/mark> Branch, thro Wynn, manufacture an Ode for them...",
+            "fid" : "southey.7.3939",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

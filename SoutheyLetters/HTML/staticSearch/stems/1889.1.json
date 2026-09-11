@@ -1,0 +1,66 @@
+
+  { "stem" : "1889.1",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1889.1",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "...suffix number (e.g. .1,.2): see, for example, Letter <mark>1889.1<\/mark>. Previously unpublished letters have all been newly transcribed from...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1889.1",
+            "weight" : "1",
+            "pos" : 1181,
+            "context" : "Letter <mark>1889.1<\/mark>. 27 March 1811: John Spedding",
+            "fid" : "4.1889.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1889.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1889.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1889.1<\/mark>. Robert Southey to [John Spedding], 27 March...",
+            "fid" : "southey.4.1889.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1889.1",
+            "weight" : "1",
+            "pos" : 1160,
+            "context" : "Letter <mark>1889.1<\/mark>. 27 March 1811: John Spedding",
+            "fid" : "refletterlistPart4.163",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4310.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1889.1",
+            "weight" : "1",
+            "pos" : 1000,
+            "context" : "...Collected Letters of Robert Southey. Part Four, Letter <mark>1889.1<\/mark>, and Southey to Grosvenor Charles Bedford, 17 January...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

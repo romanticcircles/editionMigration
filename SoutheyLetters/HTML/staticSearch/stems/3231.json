@@ -1,0 +1,53 @@
+
+  { "stem" : "3231",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1815.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3231",
+            "weight" : "1",
+            "pos" : 758,
+            "context" : "...(1701–1713). Southey’s two copies were nos <mark>3231<\/mark> (from Herbert Hill) and 3311 in the sale catalogue...",
+            "fid" : "17",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3231",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "Letter <mark>3231<\/mark>. 6 January 1819: Herbert Hill ",
+            "fid" : "6.3231" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3231.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3231",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3231<\/mark>. Robert Southey to Herbert Hill, 6 January 1819...",
+            "fid" : "southey.6.3231",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3231",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : "Letter <mark>3231<\/mark>. 6 January 1819: Herbert Hill ",
+            "fid" : "refletterlistPart6.4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

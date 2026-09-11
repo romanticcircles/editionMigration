@@ -1,0 +1,37 @@
+
+  { "stem" : "stomachiqu",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2802.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Stomachique",
+            "weight" : "1",
+            "pos" : 83,
+            "context" : "...&amp; a third of what I think is called Elixir <mark>Stomachique<\/mark>, it hath saffron in it &amp; savoureth deliciously thereof...",
+            "fid" : "southey.5.2802",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Stomachique’",
+            "weight" : "1",
+            "pos" : 188,
+            "context" : "...tasting of almonds and made from apricot kernels; ‘Elixir <mark>Stomachique’<\/mark> was another variety of liqueur popular in the Low Countries...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2817.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Stomachique’",
+            "weight" : "1",
+            "pos" : 139,
+            "context" : "...him. Bedford had obliged and Southey was now enjoying ‘Elixir <mark>Stomachique’<\/mark>, containing saffron. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

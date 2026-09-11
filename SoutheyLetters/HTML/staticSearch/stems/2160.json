@@ -1,0 +1,53 @@
+
+  { "stem" : "2160",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2160",
+            "weight" : "1",
+            "pos" : 3144,
+            "context" : "Letter <mark>2160<\/mark>. 20 October 1812: Grosvenor Charles Bedford",
+            "fid" : "4.2160" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2160.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2160",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2160<\/mark>. Robert Southey to Grosvenor Charles Bedford, 20 October...",
+            "fid" : "southey.4.2160",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2160",
+            "weight" : "1",
+            "pos" : 3121,
+            "context" : "Letter <mark>2160<\/mark>. 20 October 1812: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.437",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4191.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2160",
+            "weight" : "1",
+            "pos" : 1971,
+            "context" : "...Collected Letters of Robert Southey. Part Four, Letter <mark>2160<\/mark>. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

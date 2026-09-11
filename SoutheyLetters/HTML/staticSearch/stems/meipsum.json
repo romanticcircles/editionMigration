@@ -1,0 +1,37 @@
+
+  { "stem" : "meipsum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3042.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Meipsum",
+            "weight" : "1",
+            "pos" : 233,
+            "context" : "...prose, &amp; in colloquy between Sir T More &amp; <mark>Meipsum<\/mark>:10 how he of all persons should xxx think...",
+            "fid" : "southey.5.3042",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Meipsum",
+            "weight" : "1",
+            "pos" : 239,
+            "context" : "...how he of all persons should xxx think of paying <mark>Meipsum<\/mark> a visit you must trust me to explain: but...",
+            "fid" : "southey.5.3042",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Meipsum’",
+            "weight" : "1",
+            "pos" : 1504,
+            "context" : "...and ‘prose … in colloquy between Sir T More &amp; <mark>Meipsum’<\/mark>, and which eventually became Sir Thomas More: or, Colloquies...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

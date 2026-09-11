@@ -1,0 +1,53 @@
+
+  { "stem" : "2774",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2774",
+            "weight" : "1",
+            "pos" : 638,
+            "context" : "Letter <mark>2774<\/mark>. 27 April [1816]: Thomas Southey",
+            "fid" : "5.2774" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2774.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2774",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2774<\/mark>. Robert Southey to Thomas Southey, 27 April [...",
+            "fid" : "southey.5.2774",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2799.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2774",
+            "weight" : "1",
+            "pos" : 194,
+            "context" : "...Southey to Thomas Southey, 27 April 1816, Letter <mark>2774<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2774",
+            "weight" : "1",
+            "pos" : 622,
+            "context" : "Letter <mark>2774<\/mark>. 27 April [1816]: Thomas Southey",
+            "fid" : "refletterlistPart5.85",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "3319",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3319",
+            "weight" : "1",
+            "pos" : 676,
+            "context" : "Letter <mark>3319<\/mark>. 16 June 1819: Henry Herbert Southey ",
+            "fid" : "6.3319" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3319.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3319",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3319<\/mark>. Robert Southey to Henry Herbert Southey, 16 June...",
+            "fid" : "southey.6.3319",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3319",
+            "weight" : "1",
+            "pos" : 660,
+            "context" : "Letter <mark>3319<\/mark>. 16 June 1819: Henry Herbert Southey ",
+            "fid" : "refletterlistPart6.92",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3319",
+            "weight" : "1",
+            "pos" : 2959,
+            "context" : "..., or so the latter felt (Letters 3498 and <mark>3319<\/mark>). Southey’s only hope was that Tom and his family...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

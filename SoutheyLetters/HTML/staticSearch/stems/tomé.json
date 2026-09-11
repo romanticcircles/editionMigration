@@ -1,0 +1,37 @@
+
+  { "stem" : "tomé",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1209.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tomé",
+            "weight" : "1",
+            "pos" : 61,
+            "context" : "...differ from you is in identifying Lope de Vega &amp; <mark>Tomé<\/mark> de Burguillos.4 Reading those poems after the preface...",
+            "fid" : "southey.3.1209",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Tomé",
+            "weight" : "1",
+            "pos" : 250,
+            "context" : "4.  Rimas Humanas y Divinas del Licenciado <mark>Tomé<\/mark> de Burguillos (1634), a pseudonymous collection of poems...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.188.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tomé",
+            "weight" : "1",
+            "pos" : 1232,
+            "context" : "...mock-heroic ‘Gatomachia’ (1534), under the pseudonym <mark>Tomé<\/mark> de Burguillos. Back",
+            "fid" : "18",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

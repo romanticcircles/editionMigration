@@ -1,0 +1,66 @@
+
+  { "stem" : "2379",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2379",
+            "weight" : "1",
+            "pos" : 4761,
+            "context" : "Letter <mark>2379<\/mark>. 18 February 1814: Grosvenor Charles Bedford",
+            "fid" : "4.2379" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2379.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2379",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2379<\/mark>. Robert Southey to Grosvenor Charles Bedford, 18 February...",
+            "fid" : "southey.4.2379",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2380.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2379",
+            "weight" : "1",
+            "pos" : 96,
+            "context" : "...to Charles Grosvenor Bedford, 18 February 1814, Letter <mark>2379<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2384.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2379",
+            "weight" : "1",
+            "pos" : 410,
+            "context" : "...to Grosvenor Charles Bedford, 18 February 1814, Letter <mark>2379<\/mark>. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2379",
+            "weight" : "1",
+            "pos" : 4734,
+            "context" : "Letter <mark>2379<\/mark>. 18 February 1814: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.659",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "3082",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3082",
+            "weight" : "1",
+            "pos" : 2886,
+            "context" : "Letter <mark>3082<\/mark>. 25 February 1818: John Rickman",
+            "fid" : "5.3082" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3082.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3082",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3082<\/mark>. Robert Southey to John Rickman, 25 February 1818...",
+            "fid" : "southey.5.3082",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3082",
+            "weight" : "1",
+            "pos" : 2866,
+            "context" : "Letter <mark>3082<\/mark>.  25 February 1818: John Rickman",
+            "fid" : "refletterlistPart5.393",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

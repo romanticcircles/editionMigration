@@ -1,0 +1,53 @@
+
+  { "stem" : "3281",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3281",
+            "weight" : "1",
+            "pos" : 396,
+            "context" : "Letter <mark>3281<\/mark>. [c. 9 April 1819]: John Rickman ",
+            "fid" : "6.3281" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3281.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3281",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3281<\/mark>. Robert Southey to John Rickman, [c. 9 April...",
+            "fid" : "southey.6.3281",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3281",
+            "weight" : "1",
+            "pos" : 380,
+            "context" : "Letter <mark>3281<\/mark>. [c. 9 April 1819]: John Rickman ",
+            "fid" : "refletterlistPart6.54",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3281",
+            "weight" : "1",
+            "pos" : 245,
+            "context" : "...turned the settlement name ‘Silves’ into ‘St Ives’ (Letter <mark>3281<\/mark>). The correspondence also includes accounts of dining on locally...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

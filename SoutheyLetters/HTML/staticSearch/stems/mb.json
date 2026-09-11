@@ -1,0 +1,42 @@
+
+  { "stem" : "mb",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "MB",
+            "weight" : "1",
+            "pos" : 1981,
+            "context" : "...College, Oxford (BA 1796, MA 1803, <mark>MB<\/mark> and MD 1803). He first met Southey, who...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "MB",
+            "weight" : "1",
+            "pos" : 7588,
+            "context" : "..., Oxford (matric. 1776, BA 1779, <mark>MB<\/mark> and MD 1786), and Edinburgh. Reader in Chemistry...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "MB",
+            "weight" : "1",
+            "pos" : 116310,
+            "context" : "...John (educated at St John’s College, Cambridge, <mark>MB<\/mark> 1795, and physician to the Worcester infirmary) in...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1491.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "MB’",
+            "weight" : "1",
+            "pos" : 270,
+            "context" : "1.   ‘Sir Jeremiah Homfray <mark>MB’<\/mark> written above in ink in Mary Barker’s hand. Sir...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

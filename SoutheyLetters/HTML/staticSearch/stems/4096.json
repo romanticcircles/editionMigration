@@ -1,0 +1,53 @@
+
+  { "stem" : "4096",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4096",
+            "weight" : "1",
+            "pos" : 2354,
+            "context" : "Letter <mark>4096<\/mark>. 28 November 1823: William Peachy",
+            "fid" : "7.4096" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4091.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4096",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "...Southey to William Peachy, 28 November 1823, Letter <mark>4096<\/mark>. This letter dates from the previous Saturday, 22...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4096.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4096",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4096<\/mark>. Robert Southey to William Peachy, 28 November 1823...",
+            "fid" : "southey.7.4096",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4096",
+            "weight" : "1",
+            "pos" : 2336,
+            "context" : "Letter <mark>4096<\/mark>. 28 November 1823: William Peachy",
+            "fid" : "refletterlistPart7.323",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

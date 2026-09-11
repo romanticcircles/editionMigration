@@ -1,0 +1,53 @@
+
+  { "stem" : "842",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "842",
+            "weight" : "1",
+            "pos" : 4285,
+            "context" : "Letter <mark>842<\/mark>. 28 September 1803: John King",
+            "fid" : "2.842" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.842.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "842",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>842<\/mark>. Robert Southey to John King, 28 September 1803...",
+            "fid" : "southey.2.842",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.844.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "842",
+            "weight" : "1",
+            "pos" : 585,
+            "context" : "...Southey to John King, 28 September 1803, Letter <mark>842<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "842",
+            "weight" : "1",
+            "pos" : 4256,
+            "context" : "Letter <mark>842<\/mark>. 28 September 1803: John King",
+            "fid" : "refletterlistPart2.569",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

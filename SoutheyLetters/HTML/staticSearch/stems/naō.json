@@ -1,0 +1,50 @@
+
+  { "stem" : "naō",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.517.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "naō",
+            "weight" : "1",
+            "pos" : 541,
+            "context" : "Quem <mark>naō<\/mark> ha visto Lisboa,Naō ha visto cousa boa....",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Naō",
+            "weight" : "1",
+            "pos" : 545,
+            "context" : "Quem naō ha visto Lisboa,<mark>Naō<\/mark> ha visto cousa boa.",
+            "fid" : "line2",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1476.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "naō",
+            "weight" : "1",
+            "pos" : 227,
+            "context" : "...a desculpa; &amp; quando acertaō por sy mesmos, <mark>naō<\/mark> ganhaō mayor premio. A este resperto, se chegaō...",
+            "fid" : "southey.3.1476",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.986.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "naō",
+            "weight" : "1",
+            "pos" : 253,
+            "context" : ".... but we have a saying in Portugal – donde <mark>naō<\/mark> hay remedio, entao paciencia,6 – the Portugeze...",
+            "fid" : "southey.3.986",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

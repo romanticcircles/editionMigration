@@ -1,0 +1,32 @@
+
+  { "stem" : "methodolog",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Methodology",
+            "weight" : "1",
+            "pos" : 3,
+            "context" : "Editorial <mark>Methodology<\/mark>",
+            "fid" : "ref.1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Methodology",
+            "weight" : "1",
+            "pos" : 11,
+            "context" : "Editorial <mark>Methodology<\/mark>",
+            "fid" : "editMeth",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "methodology",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "...the letters of Mark Twain and adopted a ‘plain text’ <mark>methodology<\/mark> in order to produce a text that is more quickly...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

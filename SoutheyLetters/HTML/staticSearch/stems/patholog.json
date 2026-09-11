@@ -1,0 +1,28 @@
+
+  { "stem" : "patholog",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pathology",
+            "weight" : "1",
+            "pos" : 100423,
+            "context" : "...Pectoris (1799) was the first monograph on the <mark>pathology<\/mark> of angina pectoris. Parry was a friend of Edward...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3750.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pathology",
+            "weight" : "1",
+            "pos" : 210,
+            "context" : "...the Economy of Man (1819), General Elements of <mark>Pathology<\/mark> (1820) and An Analysis of Christianity (1823...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

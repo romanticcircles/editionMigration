@@ -1,0 +1,53 @@
+
+  { "stem" : "2718",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2718",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : "Letter <mark>2718<\/mark>. 19 February 1816: Grosvenor Charles Bedford",
+            "fid" : "5.2718" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2718.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2718",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2718<\/mark>. Robert Southey to Grosvenor Charles Bedford, 19 February...",
+            "fid" : "southey.5.2718",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2719.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2718",
+            "weight" : "1",
+            "pos" : 123,
+            "context" : "...to Grosvenor Charles Bedford, 19 February 1816, Letter <mark>2718<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2718",
+            "weight" : "1",
+            "pos" : 199,
+            "context" : "Letter <mark>2718<\/mark>. 19 February 1816: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart5.29",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

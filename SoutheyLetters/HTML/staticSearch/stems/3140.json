@@ -1,0 +1,40 @@
+
+  { "stem" : "3140",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3140",
+            "weight" : "1",
+            "pos" : 3304,
+            "context" : "Letter <mark>3140<\/mark>. 28 May 1818: Caroline Bowles",
+            "fid" : "5.3140" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3140.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3140",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3140<\/mark>. Robert Southey to Caroline Bowles, 28 May 1818...",
+            "fid" : "southey.5.3140",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3140",
+            "weight" : "1",
+            "pos" : 3284,
+            "context" : "Letter <mark>3140<\/mark>.  28 May 1818: Caroline Bowles",
+            "fid" : "refletterlistPart5.451",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

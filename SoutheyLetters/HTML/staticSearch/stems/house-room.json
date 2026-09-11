@@ -1,0 +1,30 @@
+
+  { "stem" : "house-room",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-room",
+            "weight" : "1",
+            "pos" : 843,
+            "context" : "...to Oxford at the installation; 16 I promise him <mark>house-room<\/mark> and good living: or, if Mrs. L. will...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1195.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-room",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : " You will find no <mark>house-room<\/mark> at the Wordsworths, Mrs. W. being in the...",
+            "fid" : "southey.3.1195",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

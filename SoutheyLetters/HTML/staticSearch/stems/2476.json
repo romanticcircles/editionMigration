@@ -1,0 +1,61 @@
+
+  { "stem" : "2476",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1721.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2476",
+            "weight" : "1",
+            "pos" : 47,
+            "context" : "<mark>2476<\/mark>.",
+            "fid" : "southey.3.1721",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "2476",
+            "weight" : "1",
+            "pos" : 366,
+            "context" : "1.   Items 2062, <mark>2476<\/mark>, 2594 and 2598 have ticks against them in the...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2476",
+            "weight" : "1",
+            "pos" : 5487,
+            "context" : "Letter <mark>2476<\/mark>. [2 September 1814]: Grosvenor Charles Bedford",
+            "fid" : "4.2476" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2476.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2476",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2476<\/mark>. Robert Southey to Grosvenor Charles Bedford, [ 2...",
+            "fid" : "southey.4.2476",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2476",
+            "weight" : "1",
+            "pos" : 5460,
+            "context" : "Letter <mark>2476<\/mark>. [2 September 1814]: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.757",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

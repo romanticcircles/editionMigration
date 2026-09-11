@@ -1,0 +1,53 @@
+
+  { "stem" : "2203",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2203",
+            "weight" : "1",
+            "pos" : 3450,
+            "context" : "Letter <mark>2203<\/mark>. 13 January 1813: Walter Scott",
+            "fid" : "4.2203" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2203.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2203",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2203<\/mark>. Robert Southey to Walter Scott, 13 January 1813...",
+            "fid" : "southey.4.2203",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2538.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2203",
+            "weight" : "1",
+            "pos" : 685,
+            "context" : "...Southey to Walter Scott, 13 January 1813, Letter <mark>2203<\/mark>. He did, however, take a keen interest in...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2203",
+            "weight" : "1",
+            "pos" : 3425,
+            "context" : "Letter <mark>2203<\/mark>. 13 January 1813: Walter Scott",
+            "fid" : "refletterlistPart4.480",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

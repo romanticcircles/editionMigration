@@ -1,0 +1,36 @@
+
+  { "stem" : "whitbi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2609.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Whitby",
+            "weight" : "1",
+            "pos" : 294,
+            "context" : " A Mr Scoresby of <mark>Whitby<\/mark> proposes to travel over the ice to the North Pole...",
+            "fid" : "southey.4.2609",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Whitby",
+            "weight" : "1",
+            "pos" : 605,
+            "context" : "...and scientist, undertook several voyages to the Arctic on <mark>Whitby<\/mark> whalers captained by himself or his father. He wished...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Whitby’",
+            "weight" : "1",
+            "pos" : 28459,
+            "context" : "...was still headed by its founder, John Chapman ‘of <mark>Whitby’<\/mark> (1732–1822), though he had died on...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

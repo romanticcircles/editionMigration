@@ -1,0 +1,89 @@
+
+  { "stem" : "ital",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "italics",
+            "weight" : "1",
+            "pos" : 271,
+            "context" : "...character: e.g. ‘he xxid’. Underlining is indicated by <mark>italics<\/mark>: e.g. ‘he said’. The exception to this rule...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "italic",
+            "weight" : "1",
+            "pos" : 301,
+            "context" : "...a character or set of characters in both underline or <mark>italic<\/mark> and superscript, so in these cases we have silently...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2188.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Italic",
+            "weight" : "1",
+            "pos" : 356,
+            "context" : "...out the turn of the tail in xx a capital <mark>Italic<\/mark> R &amp; said “that’s sweet!” –",
+            "fid" : "southey.4.2188",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.217.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Italics",
+            "weight" : "1",
+            "pos" : 145,
+            "context" : " All the mottos should be in <mark>Italics<\/mark>.",
+            "fid" : "southey.1.217",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.241.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Italics",
+            "weight" : "1",
+            "pos" : 223,
+            "context" : "...wine, or either of the three articles mentioned in <mark>Italics<\/mark>. Between each of the buildings is a space of...",
+            "fid" : "southey.1.241",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1271.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "italics",
+            "weight" : "1",
+            "pos" : 133,
+            "context" : "...conjectural words of correction, which shall be printed in <mark>italics<\/mark>, and to which, therefore, there can be no...",
+            "fid" : "southey.3.1271",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.708.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "italics",
+            "weight" : "1",
+            "pos" : 574,
+            "context" : "4.  Southey’s underlining is reproduced here as <mark>italics<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

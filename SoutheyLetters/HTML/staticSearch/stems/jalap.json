@@ -1,0 +1,50 @@
+
+  { "stem" : "jalap",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2744.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Jalap",
+            "weight" : "1",
+            "pos" : 750,
+            "context" : "...purgatifs, comme la Rhubarbe, le Diagrede, le <mark>Jalap<\/mark>. L’Extrait d’Aloës m’a aussi réussi dans cette rencontre....",
+            "fid" : "southey.5.2744",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Jalap",
+            "weight" : "1",
+            "pos" : 1565,
+            "context" : "...mixing it with purgatives like rhubarb, powdered scammony and <mark>Jalap<\/mark>. Aloe extracts also worked for me in these kinds...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3843.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "jalap",
+            "weight" : "1",
+            "pos" : 275,
+            "context" : "4.  Calomel (mercury chloride), <mark>jalap<\/mark> (derived from the root of a Mexican plant)...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.599.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "jalap",
+            "weight" : "1",
+            "pos" : 387,
+            "context" : "...it went in – ran thro like water gruel after <mark>jalap<\/mark>9 – or the Sows Doctor Halfpenny Greens Sows julep...",
+            "fid" : "southey.2.599",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

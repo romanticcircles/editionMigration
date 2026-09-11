@@ -1,0 +1,93 @@
+
+  { "stem" : "tervliet",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 6869,
+            "context" : "...-Conservateur &amp; a Gand [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] [French]",
+            "fid" : "4.2663a" },
+          
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 6886,
+            "context" : "...-Conservateur &amp; a Gand [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] [English translation]",
+            "fid" : "4.2663b" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 6840,
+            "context" : "...-Conservateur &amp; a Gand [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] [French]",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 6857,
+            "context" : "...-Conservateur &amp; a Gand [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] [English translation]",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 97402,
+            "context" : "Walwein de <mark>Tervliet<\/mark>, Joseph Antoine              ",
+            "fid" : "ref.corresp.302",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "1",
+            "pos" : 146685,
+            "context" : "..., William Sidney (1795–1846)                 Walwein de <mark>Tervliet<\/mark>, Joseph Antoine (dates unknown)                  Ware, John...",
+            "fid" : "WalweindeTervliet",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663a.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "2",
+            "pos" : 14,
+            "context" : "...Conservateur &amp; a Gand, [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] 24 October 1815 [French]*",
+            "fid" : "southey.4.2663a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663b.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tervliet",
+            "weight" : "2",
+            "pos" : 14,
+            "context" : "...Conservateur &amp; a Gand, [Joseph Antoine Walwein de <mark>Tervliet<\/mark>] 24 October 1815 [English translation]*",
+            "fid" : "southey.4.2663b",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

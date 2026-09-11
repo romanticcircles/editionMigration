@@ -1,0 +1,53 @@
+
+  { "stem" : "3881",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1951.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3881",
+            "weight" : "1",
+            "pos" : 413,
+            "context" : "....r\/ 1811 MS: National Library of Scotland, MS <mark>3881<\/mark>. ALS; 4p. Previously published: Charles Cuthbert Southey...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3881",
+            "weight" : "1",
+            "pos" : 785,
+            "context" : "Letter <mark>3881<\/mark>. 8 August 1822: [Bernard Barton]",
+            "fid" : "7.3881" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3881.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3881",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3881<\/mark>. Robert Southey to [Bernard Barton], 8 August...",
+            "fid" : "southey.7.3881",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3881",
+            "weight" : "1",
+            "pos" : 769,
+            "context" : "Letter <mark>3881<\/mark>. 8 August 1822: [Bernard Barton]",
+            "fid" : "refletterlistPart7.108",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

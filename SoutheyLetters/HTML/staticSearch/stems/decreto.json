@@ -1,0 +1,42 @@
+
+  { "stem" : "decreto",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2386.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "decretos",
+            "weight" : "1",
+            "pos" : 1517,
+            "context" : "...Codigo Brasiliense, ou Collecao das leis, alvaras, <mark>decretos<\/mark>, cartas regias &amp;c. promulgados no Brasil desde a feliz...",
+            "fid" : "39",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3398.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Decreto",
+            "weight" : "1",
+            "pos" : 200,
+            "context" : "...que los Maistros que la continuen aun despues del presonte <mark>Decreto<\/mark> seran privados de su oficio y castigados como infractores,...",
+            "fid" : "southey.6.3398",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3532.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Decretos",
+            "weight" : "1",
+            "pos" : 331,
+            "context" : "1.  Collecçaõ de <mark>Decretos<\/mark>, Editaes, &amp;c. &amp;c. (Lisbon, 1808),...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

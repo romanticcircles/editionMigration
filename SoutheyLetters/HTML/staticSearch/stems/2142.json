@@ -1,0 +1,40 @@
+
+  { "stem" : "2142",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2142",
+            "weight" : "1",
+            "pos" : 3015,
+            "context" : "Letter <mark>2142<\/mark>. 6 September 1812: Charles Danvers",
+            "fid" : "4.2142" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2142.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2142",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2142<\/mark>. Robert Southey to Charles Danvers, 6 September 1812...",
+            "fid" : "southey.4.2142",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2142",
+            "weight" : "1",
+            "pos" : 2992,
+            "context" : "Letter <mark>2142<\/mark>. 6 September 1812: Charles Danvers",
+            "fid" : "refletterlistPart4.419",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

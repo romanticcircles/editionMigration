@@ -1,0 +1,40 @@
+
+  { "stem" : "2549",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2549",
+            "weight" : "1",
+            "pos" : 6034,
+            "context" : "Letter <mark>2549<\/mark>. 5 February 1815: Walter Savage Landor",
+            "fid" : "4.2549" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2549.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2549",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2549<\/mark>. Robert Southey to Walter Savage Landor, 5 February...",
+            "fid" : "southey.4.2549",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2549",
+            "weight" : "1",
+            "pos" : 6005,
+            "context" : "Letter <mark>2549<\/mark>. 5 February 1815: Walter Savage Landor",
+            "fid" : "refletterlistPart4.831",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

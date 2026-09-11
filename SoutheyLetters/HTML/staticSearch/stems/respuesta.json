@@ -1,0 +1,50 @@
+
+  { "stem" : "respuesta",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1439.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Respuesta",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "<mark>Respuesta<\/mark> elel Auctor.",
+            "fid" : "southey.3.1439",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Respuestas",
+            "weight" : "1",
+            "pos" : 378,
+            "context" : "...of this work: Luis d’Escobar, Las Quatro Cientas <mark>Respuestas<\/mark>, a Otras Tantas Preguntas, con Quinienfos Proverbios de...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3710.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Respuestas",
+            "weight" : "1",
+            "pos" : 545,
+            "context" : "...Escobar (c. 1475–1552\/1553), Las Quatrocientas <mark>Respuestas<\/mark> a Otras Tantas Preguntas (1550–1552), no....",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.708.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "respuesta",
+            "weight" : "1",
+            "pos" : 341,
+            "context" : "...ella, (No me las estima en nada) La <mark>respuesta<\/mark> que me han dadoEs que mi hija es Christians...",
+            "fid" : "line37",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

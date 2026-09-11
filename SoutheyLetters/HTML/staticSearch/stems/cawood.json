@@ -1,0 +1,74 @@
+
+  { "stem" : "cawood",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3306.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Cawood",
+            "weight" : "2",
+            "pos" : 5,
+            "context" : "3306. Robert Southey to John <mark>Cawood<\/mark>, 30 May 1819*",
+            "fid" : "ref6.3306.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Cawood",
+            "weight" : "1",
+            "pos" : 141,
+            "context" : "Address: To\/ John <mark>Cawood<\/mark> Esqre\/ Leeds. Stamped: KESWICK\/ 298 MS...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cawood",
+            "weight" : "1",
+            "pos" : 16667,
+            "context" : "<mark>Cawood<\/mark>, John             ",
+            "fid" : "ref.corresp.58",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cawood",
+            "weight" : "1",
+            "pos" : 28181,
+            "context" : "...1840)                                                                                                                               Cattermole, Richard (1795?–1858)               <mark>Cawood<\/mark>, John (d. 1846)                 Chantrey, Sir Francis Legatt...",
+            "fid" : "CawoodJohn",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cawood",
+            "weight" : "1",
+            "pos" : 586,
+            "context" : "Letter 3306. 30 May 1819: John <mark>Cawood<\/mark> ",
+            "fid" : "6.3306" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cawood",
+            "weight" : "1",
+            "pos" : 570,
+            "context" : "Letter 3306. 30 May 1819: John <mark>Cawood<\/mark> ",
+            "fid" : "southey.letterlistPart6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

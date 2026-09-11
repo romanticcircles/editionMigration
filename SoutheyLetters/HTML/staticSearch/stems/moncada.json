@@ -1,0 +1,58 @@
+
+  { "stem" : "moncada",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1464.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Moncada",
+            "weight" : "1",
+            "pos" : 55,
+            "context" : " Your note from <mark>Moncada<\/mark> is in good time.1 My preface, introduction...",
+            "fid" : "southey.3.1464",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Moncada",
+            "weight" : "1",
+            "pos" : 582,
+            "context" : "...of the people known as Almogavares, that Francisco de <mark>Moncada<\/mark> (d. 1635) ‘in his Expedition de los Catalanes y...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1476.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Moncada",
+            "weight" : "1",
+            "pos" : 401,
+            "context" : "...have added a supplementary note about them from him &amp; <mark>Moncada<\/mark>.10 The Partidas11 have supplied me with many...",
+            "fid" : "southey.3.1476",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Moncada",
+            "weight" : "1",
+            "pos" : 1251,
+            "context" : "...), of the people known as Almogavares that Francisco de <mark>Moncada<\/mark> (?-d. 1635) ‘in his Expedition de los Catalanes y...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3865.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Moncada",
+            "weight" : "1",
+            "pos" : 500,
+            "context" : "3.  Francisco de <mark>Moncada<\/mark> (1586–1635), Espedicion de los Catalanes y...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,52 @@
+
+  { "stem" : "opprobri",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "opprobrious",
+            "weight" : "1",
+            "pos" : 306,
+            "context" : "The many <mark>opprobrious<\/mark> appellations which Lord Byron has bestowed upon me, I leave...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "opprobrious",
+            "weight" : "1",
+            "pos" : 1019,
+            "context" : "The many <mark>opprobrious<\/mark> appellations which Lord Byron has bestowed upon me I leave...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3776.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "opprobrious",
+            "weight" : "1",
+            "pos" : 238,
+            "context" : " The many <mark>opprobrious<\/mark> appellations which Lord Byron has bestowed upon me, I leave...",
+            "fid" : "southey.7.3776",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3730.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "opprobriously",
+            "weight" : "1",
+            "pos" : 269,
+            "context" : "...– but not why my feet &amp; yours should be <mark>opprobriously<\/mark> termed hocksen &amp; hormangorgs. So too when I hear...",
+            "fid" : "southey.6.3730",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

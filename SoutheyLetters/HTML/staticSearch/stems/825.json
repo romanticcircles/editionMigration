@@ -1,0 +1,53 @@
+
+  { "stem" : "825",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4140.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "825",
+            "weight" : "1",
+            "pos" : 791,
+            "context" : "...en Hollande depuis 1663 jusque’en 1668 (1709), no. <mark>825<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "825",
+            "weight" : "1",
+            "pos" : 4159,
+            "context" : "Letter <mark>825<\/mark>. 19 August [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "2.825" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.825.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "825",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>825<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 19...",
+            "fid" : "southey.2.825",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "825",
+            "weight" : "1",
+            "pos" : 4130,
+            "context" : "Letter <mark>825<\/mark>. 19 August [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart2.552",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

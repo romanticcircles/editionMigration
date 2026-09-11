@@ -1,0 +1,61 @@
+
+  { "stem" : "3745",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3745",
+            "weight" : "1",
+            "pos" : 1497,
+            "context" : "...Portugal’ punctuate his letters (Letters 3305, 3560 and <mark>3745<\/mark>). The need to keep in good health, and...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "3745",
+            "weight" : "1",
+            "pos" : 2990,
+            "context" : "...could possibly complete (see, for example, Letter <mark>3745<\/mark>). It also made him tenacious in his attempts to...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3745",
+            "weight" : "1",
+            "pos" : 3867,
+            "context" : "Letter <mark>3745<\/mark>. 6 November 1821: John Murray ",
+            "fid" : "6.3745" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3745.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3745",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3745<\/mark>. Robert Southey to John Murray, 6 November 1821...",
+            "fid" : "southey.6.3745",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3745",
+            "weight" : "1",
+            "pos" : 3847,
+            "context" : "Letter <mark>3745<\/mark>. 6 November 1821: John Murray ",
+            "fid" : "refletterlistPart6.524",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2083",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2083",
+            "weight" : "1",
+            "pos" : 2595,
+            "context" : "Letter <mark>2083<\/mark>. 25 April 1812: [Mary Matilda Betham]...",
+            "fid" : "4.2083" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2083.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2083",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2083<\/mark>. Robert Southey to [Mary Matilda Betham], 25...",
+            "fid" : "southey.4.2083",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2085.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2083",
+            "weight" : "1",
+            "pos" : 337,
+            "context" : "...to Mary Matilda Betham, 25 April 1812, Letter <mark>2083<\/mark>, which deals with the same subject. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2083",
+            "weight" : "1",
+            "pos" : 2572,
+            "context" : "Letter <mark>2083<\/mark>. 25 April 1812: [Mary Matilda Betham]...",
+            "fid" : "refletterlistPart4.360",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

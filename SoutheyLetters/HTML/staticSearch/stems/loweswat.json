@@ -1,0 +1,37 @@
+
+  { "stem" : "loweswat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1195.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Loweswater",
+            "weight" : "1",
+            "pos" : 419,
+            "context" : "4.   <mark>Loweswater<\/mark> is fifteen miles west of Keswick; Ennerdale is five...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Loweswater",
+            "weight" : "1",
+            "pos" : 428,
+            "context" : "...west of Keswick; Ennerdale is five miles south of <mark>Loweswater<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1455.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Loweswater",
+            "weight" : "1",
+            "pos" : 517,
+            "context" : "...Priory, near Abergavenny, Wales, in 1808. <mark>Loweswater<\/mark> is a lake near Keswick. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

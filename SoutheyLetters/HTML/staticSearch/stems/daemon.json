@@ -1,0 +1,37 @@
+
+  { "stem" : "daemon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.29.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Daemons",
+            "weight" : "1",
+            "pos" : 141,
+            "context" : "...That hour when I got up behind —Some evil <mark>Daemons<\/mark> envious powerPresided at thy natal hourSome evil Daemon...",
+            "fid" : "line15",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Daemon",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "...Daemons envious powerPresided at thy natal hourSome evil <mark>Daemon<\/mark> sure thee spedTo pitch thy master on his head...",
+            "fid" : "line17",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1002.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "daemon",
+            "weight" : "1",
+            "pos" : 421,
+            "context" : "4.   The Greek translates as ‘What <mark>daemon<\/mark>?’ Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

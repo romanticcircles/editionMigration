@@ -1,0 +1,40 @@
+
+  { "stem" : "2025",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2025",
+            "weight" : "1",
+            "pos" : 2168,
+            "context" : "Letter <mark>2025<\/mark>. 31 January 1812: John Murray",
+            "fid" : "4.2025" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2025.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2025",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2025<\/mark>. Robert Southey to John Murray, 31 January 1812...",
+            "fid" : "southey.4.2025",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2025",
+            "weight" : "1",
+            "pos" : 2145,
+            "context" : "Letter <mark>2025<\/mark>. 31 January 1812: John Murray",
+            "fid" : "refletterlistPart4.300",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

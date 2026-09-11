@@ -1,0 +1,53 @@
+
+  { "stem" : "841",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "841",
+            "weight" : "1",
+            "pos" : 4278,
+            "context" : "Letter <mark>841<\/mark>. 22 September 1803: John May",
+            "fid" : "2.841" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.729.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "841",
+            "weight" : "1",
+            "pos" : 871,
+            "context" : "...Gentleman’s Magazine, 72 (September 1802), 833-<mark>841<\/mark> and (October 1802), 929-934, described...",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.841.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "841",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>841<\/mark>. Robert Southey to John May, 22 September 1803...",
+            "fid" : "southey.2.841",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "841",
+            "weight" : "1",
+            "pos" : 4249,
+            "context" : "Letter <mark>841<\/mark>. 22 September 1803: John May",
+            "fid" : "refletterlistPart2.568",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }
