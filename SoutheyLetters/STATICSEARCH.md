@@ -35,6 +35,31 @@ filter files, document titles, and the browser-side StaticSearch JavaScript. Do
 not edit those generated files by hand. Regenerate them whenever the HTML input
 changes.
 
+## Running the already-generated search
+
+Java, Ant, and StaticSearch are **not** required merely to view the site or use
+the search already committed to this repository. From the repository root,
+start a local server.
+
+On macOS:
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+On Windows:
+
+```powershell
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Leave that Terminal or PowerShell window open and visit:
+
+<http://127.0.0.1:8000/SoutheyLetters/HTML/search/>
+
+The remaining setup in this guide is needed only to **regenerate** the index
+after source HTML changes.
+
 ## One-time setup on Windows
 
 1. Download or clone the complete `editionMigration` repository. Keep the
@@ -61,6 +86,41 @@ changes.
    The required `ant-contrib` library is already included in this repository at
    `SoutheyLetters/tools/lib/ant-contrib-1.0b3.jar`.
 
+5. Install Python 3 if `python --version` does not work. Python is used for the
+   local test server.
+
+## One-time setup on macOS
+
+1. Download or clone the complete `editionMigration` repository. Keep the
+   `SoutheyLetters` directory and all of its contents together.
+
+2. Install Homebrew if it is not already installed. Follow the current
+   instructions at <https://brew.sh/>.
+
+3. In Terminal, install Java, Apache Ant, and Python 3:
+
+   ```bash
+   brew install openjdk ant python
+   ```
+
+4. Homebrew may print an additional command for adding Java to the system Java
+   installations or updating `PATH`. Run the command Homebrew displays. Then
+   close and reopen Terminal and verify all three commands:
+
+   ```bash
+   java -version
+   ant -version
+   python3 --version
+   ```
+
+5. Download Project Endings StaticSearch version 1.4.7 and extract it anywhere
+   convenient. Locate the extracted directory containing `build.xml`; that is
+   the path supplied to the Mac build command below.
+
+The Mac build uses the repository's
+`SoutheyLetters/tools/build_project_endings_static_search.sh` script and the
+same `config_staticSearch.xml` used on Windows.
+
 ## Preparing updated HTML
 
 Replace or update the source files inside `SoutheyLetters/HTML/`, but preserve
@@ -69,6 +129,7 @@ the project directory structure. Do not replace or delete these build files:
 ```text
 SoutheyLetters/config_staticSearch.xml
 SoutheyLetters/tools/build_project_endings_static_search.ps1
+SoutheyLetters/tools/build_project_endings_static_search.sh
 SoutheyLetters/tools/lib/ant-contrib-1.0b3.jar
 ```
 
@@ -100,7 +161,7 @@ They should also retain the StaticSearch metadata where it applies:
 If this markup is removed or renamed, the build may finish, but the corresponding
 search context or metadata filter will be incomplete.
 
-## Regenerating the index
+## Regenerating on Windows
 
 1. Open PowerShell.
 
@@ -138,9 +199,54 @@ The script performs the complete Project Endings build, generates the normal
 multi-file output, applies the Windows reserved-filename workaround, and
 creates the directory-style `HTML/search/index.html` page.
 
+## Regenerating on macOS
+
+1. Open Terminal.
+
+2. Change into the root of the downloaded repository. For example:
+
+   ```bash
+   cd ~/Documents/editionMigration
+   ```
+
+3. The first time only, make the Mac build script executable:
+
+   ```bash
+   chmod +x ./SoutheyLetters/tools/build_project_endings_static_search.sh
+   ```
+
+4. Run the script and give it the path to the extracted StaticSearch 1.4.7
+   directory—the directory containing `build.xml`:
+
+   ```bash
+   ./SoutheyLetters/tools/build_project_endings_static_search.sh "/path/to/staticSearch-1.4.7"
+   ```
+
+   For example, if it was extracted in Downloads:
+
+   ```bash
+   ./SoutheyLetters/tools/build_project_endings_static_search.sh "$HOME/Downloads/staticSearch-1.4.7"
+   ```
+
+5. Leave Terminal open until `BUILD SUCCESSFUL` and the generated stem/filter
+   counts appear. The full corpus can take significant time to process.
+
+The Mac script checks its requirements before starting, uses portable absolute
+paths for the StaticSearch dictionaries, runs the same complete Project Endings
+build, makes Windows-reserved output names safe for Git, and updates
+`HTML/search/index.html`.
+
 ## Testing the regenerated search locally
 
-From the repository root, start a simple local web server:
+From the repository root, start a simple local web server.
+
+On macOS:
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+On Windows:
 
 ```powershell
 python -m http.server 8000 --bind 127.0.0.1
@@ -170,7 +276,8 @@ Confirm the following before uploading:
    | `Aquilon` | Letters | No documents are found |
    | `Aquilon` | Paratext | The notes for letter 125 are found |
 
-Press `Ctrl+C` in PowerShell when local testing is finished.
+Press `Control+C` in Terminal or `Ctrl+C` in PowerShell when local testing is
+finished.
 
 ## Files to upload or copy into another working folder
 

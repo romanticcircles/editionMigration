@@ -78,6 +78,21 @@ function New-PatchedRunner {
     return $runner
 }
 
+function New-PortableConfig {
+    param(
+        [string]$SourceConfig,
+        [string]$SourceRoot
+    )
+    $target = Resolve-ProjectPath ".config_staticSearch.windows-$PID.xml"
+    $text = [System.IO.File]::ReadAllText($SourceConfig)
+    $stopwords = [System.Security.SecurityElement]::Escape((Convert-ToStaticSearchPath (Join-Path $SourceRoot "xsl\english_stopwords.txt")))
+    $dictionary = [System.Security.SecurityElement]::Escape((Convert-ToStaticSearchPath (Join-Path $SourceRoot "xsl\english_words.txt")))
+    $text = [regex]::Replace($text, '<stopwordsFile>.*?</stopwordsFile>', "<stopwordsFile>$stopwords</stopwordsFile>")
+    $text = [regex]::Replace($text, '<dictionaryFile>.*?</dictionaryFile>', "<dictionaryFile>$dictionary</dictionaryFile>")
+    [System.IO.File]::WriteAllText($target, $text, (New-Object System.Text.UTF8Encoding $false))
+    return $target
+}
+
 function Protect-WindowsReservedStaticSearchNames {
     $output = Resolve-ProjectPath "HTML\staticSearch"
     $reservedNames = @("con", "prn", "aux", "nul") +
@@ -122,9 +137,10 @@ $antClasspath = Get-AntClasspath
 
 Ensure-XhtmlNamespace
 $runner = New-PatchedRunner -SourceRoot $StaticSearchRoot
+$portableConfig = New-PortableConfig -SourceConfig $ConfigPath -SourceRoot $StaticSearchRoot
 try {
     Write-Host "Running Project Endings StaticSearch..."
-    & $java -Xmx4g -cp $antClasspath org.apache.tools.ant.Main -f (Join-Path $runner "build.xml") "-DssConfigFile=$(Convert-ToStaticSearchPath $ConfigPath)" allButValidate
+    & $java -Xmx4g -cp $antClasspath org.apache.tools.ant.Main -f (Join-Path $runner "build.xml") "-DssConfigFile=$(Convert-ToStaticSearchPath $portableConfig)" allButValidate
     if ($LASTEXITCODE -ne 0) { throw "StaticSearch build failed with exit code $LASTEXITCODE." }
     Protect-WindowsReservedStaticSearchNames
     Sync-SearchIndexPage
@@ -140,5 +156,9 @@ finally {
             Remove-Item -LiteralPath $resolvedRunner -Recurse -Force
             Write-Host "Removed temporary StaticSearch runner."
         }
+    }
+    if (Test-Path -LiteralPath $portableConfig) {
+        Remove-Item -LiteralPath $portableConfig -Force
+        Write-Host "Removed temporary portable StaticSearch configuration."
     }
 }
