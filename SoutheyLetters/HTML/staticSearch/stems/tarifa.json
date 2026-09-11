@@ -1,0 +1,37 @@
+
+  { "stem" : "tarifa",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2051.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tarifa",
+            "weight" : "1",
+            "pos" : 280,
+            "context" : "...always be reinforced by sea, &amp; the remembrance of <mark>Tarifa<\/mark>9 will not encourage the French to storm a breach...",
+            "fid" : "southey.4.2051",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Tarifa",
+            "weight" : "1",
+            "pos" : 684,
+            "context" : "9.   The port of <mark>Tarifa<\/mark> near Cadiz was besiged by the French in 1811–...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2033.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tarifa",
+            "weight" : "1",
+            "pos" : 343,
+            "context" : "...MS torn] at the same time was doing at <mark>Tarifa<\/mark>.19 – Zayas20 is a great loss to...",
+            "fid" : "southey.4.2033",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

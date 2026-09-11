@@ -1,0 +1,52 @@
+
+  { "stem" : "4006",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4006",
+            "weight" : "1",
+            "pos" : 1713,
+            "context" : "Letter <mark>4006<\/mark>. 23 April 1823: John Murray",
+            "fid" : "7.4006" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4006.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4006",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4006<\/mark>. Robert Southey to John Murray, 23 April 1823...",
+            "fid" : "southey.7.4006",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4006",
+            "weight" : "1",
+            "pos" : 1695,
+            "context" : "Letter <mark>4006<\/mark>. 23 April 1823: John Murray",
+            "fid" : "refletterlistPart7.233",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.partSevenIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4006",
+            "weight" : "1",
+            "pos" : 3067,
+            "context" : "...told Murray it would comprise two weighty volumes (Letter <mark>4006<\/mark>). These were not completed until January 1824 (Letter...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

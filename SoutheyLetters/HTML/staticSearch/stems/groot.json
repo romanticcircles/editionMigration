@@ -1,0 +1,50 @@
+
+  { "stem" : "groot",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.768.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Groot",
+            "weight" : "1",
+            "pos" : 29,
+            "context" : "...at Deventer the capital of Over-Yssel by Gerard de <mark>Groot<\/mark>,2 which you will easily see must be Dutch...",
+            "fid" : "southey.2.768",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Groote",
+            "weight" : "1",
+            "pos" : 288,
+            "context" : "2.  Geert <mark>Groote<\/mark> (1340-1384), founder of the Brethren of...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2789.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Groote",
+            "weight" : "1",
+            "pos" : 677,
+            "context" : "...14.  Arnold Houbraken (1660–1719), De <mark>Groote<\/mark> Schouburgh der Nederlantsche Konstschilders en Schilderessen (1718), no...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2669.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Groote",
+            "weight" : "1",
+            "pos" : 537,
+            "context" : "6.   Arnold Houbracken (1660–1719), De <mark>Groote<\/mark> schouburgh der Nederlands konstschilders en schilderessen (1718–1721...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

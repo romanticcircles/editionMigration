@@ -1,0 +1,42 @@
+
+  { "stem" : "pears",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pearse",
+            "weight" : "1",
+            "pos" : 39583,
+            "context" : "Gillies, Robert <mark>Pearse<\/mark>           ",
+            "fid" : "ref.corresp.117",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pearse",
+            "weight" : "1",
+            "pos" : 57822,
+            "context" : "..., William (1763–1824)                              Gillies, Robert <mark>Pearse<\/mark> (1788–1858)               Godwin, William (1756...",
+            "fid" : "GilliesRobertPearse",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2582.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pearse",
+            "weight" : "1",
+            "pos" : 705,
+            "context" : "...1814), 617–624; a review of Robert <mark>Pearse<\/mark> Gillies (1789–1858; DNB) Childe Alarique...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "1389",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.249.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1389",
+            "weight" : "1",
+            "pos" : 447,
+            "context" : "7.   John, Duke of Bedford (<mark>1389<\/mark>–1435; DNB). Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1389",
+            "weight" : "1",
+            "pos" : 3882,
+            "context" : "Letter <mark>1389<\/mark>. 5 December 1807: Grosvenor Charles Bedford",
+            "fid" : "3.1389" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1389.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1389",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1389<\/mark>. Robert Southey to Grosvenor Charles Bedford, 5 December...",
+            "fid" : "southey.3.1389",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1389",
+            "weight" : "1",
+            "pos" : 3857,
+            "context" : "Letter <mark>1389<\/mark>. 5 December 1807: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart3.520",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

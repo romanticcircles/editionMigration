@@ -1,0 +1,37 @@
+
+  { "stem" : "raynsford",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.144.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Raynsford",
+            "weight" : "1",
+            "pos" : 330,
+            "context" : "...recess, one just moved from the other corner. <mark>Raynsford<\/mark>9 packing his trunk; Maber shaving himself; tables and...",
+            "fid" : "southey.1.144",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Raynsford",
+            "weight" : "1",
+            "pos" : 568,
+            "context" : "9.  Mr <mark>Raynsford<\/mark> (first name and dates unknown), a companion of...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Raynsford",
+            "weight" : "1",
+            "pos" : 1900,
+            "context" : "17.  Mr <mark>Raynsford<\/mark> (first name and dates unknown), a companion of...",
+            "fid" : "17",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

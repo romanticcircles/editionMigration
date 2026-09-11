@@ -1,0 +1,40 @@
+
+  { "stem" : "3141",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3141",
+            "weight" : "1",
+            "pos" : 3311,
+            "context" : "Letter <mark>3141<\/mark>. 29 May 1818: [Charles Gregan Crauford]...",
+            "fid" : "5.3141" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3141.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3141",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3141<\/mark>. Robert Southey to [Charles Gregan Craufurd], 29...",
+            "fid" : "southey.5.3141",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3141",
+            "weight" : "1",
+            "pos" : 3291,
+            "context" : "Letter <mark>3141<\/mark>.  29 May 1818: [Charles Gregan Crauford]...",
+            "fid" : "refletterlistPart5.452",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

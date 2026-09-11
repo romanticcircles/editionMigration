@@ -1,0 +1,41 @@
+
+  { "stem" : "wilsi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Wilsy’",
+            "weight" : "1",
+            "pos" : 155712,
+            "context" : "...midwife. Beloved of the Southey and Coleridge families; <mark>‘Wilsy’<\/mark> left money in her will to the Southey and Coleridge...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1731.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wilsy’s",
+            "weight" : "1",
+            "pos" : 155,
+            "context" : "..., &amp; it was about Lord Nelson. – What <mark>Wilsy’s<\/mark> cat? said he – &amp; greatly astonished was he...",
+            "fid" : "ref4.1731.8",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1509.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wilsy",
+            "weight" : "1",
+            "pos" : 89,
+            "context" : "...Mrs Wilson we call her, – our children call her <mark>Wilsy<\/mark>, &amp; she spoils them more than they do her...",
+            "fid" : "southey.3.1509",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,50 @@
+
+  { "stem" : "pont",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.565.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Ponte",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : " The death of the Marquis <mark>Ponte<\/mark> de Lima7 is regarded as a fortunate event here....",
+            "fid" : "southey.2.565",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Ponte",
+            "weight" : "1",
+            "pos" : 1173,
+            "context" : "...Tomas Xavier de Lima Teles da Silva, Marquess of <mark>Ponte<\/mark> de Lima (1727-1800), had died on...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1787.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pont",
+            "weight" : "1",
+            "pos" : 872,
+            "context" : "20.   Sebastian Joseph du Cambout de <mark>Pont<\/mark>-Chateau (1634–1690) and Antoine Arnauld...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.564.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Ponte",
+            "weight" : "1",
+            "pos" : 1193,
+            "context" : "...Tomas Xavier de Lima Teles da Silva, Marquess of <mark>Ponte<\/mark> de Lima (1727-1800), had died on...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

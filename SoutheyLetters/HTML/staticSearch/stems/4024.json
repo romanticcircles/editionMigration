@@ -1,0 +1,52 @@
+
+  { "stem" : "4024",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4024",
+            "weight" : "1",
+            "pos" : 1841,
+            "context" : "Letter <mark>4024<\/mark>. 1 June 1823: John Abraham Heraud",
+            "fid" : "7.4024" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4024.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4024",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4024<\/mark>. Robert Southey to John Abraham Heraud, 1 June...",
+            "fid" : "southey.7.4024",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4024",
+            "weight" : "1",
+            "pos" : 1823,
+            "context" : "Letter <mark>4024<\/mark>. 1 June 1823: John Abraham Heraud",
+            "fid" : "refletterlistPart7.251",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.partSevenIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4024",
+            "weight" : "1",
+            "pos" : 1475,
+            "context" : "...to hear (for example, John Abraham Heraud, Letter <mark>4024<\/mark>). While he generally – and sensibly – refused to...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

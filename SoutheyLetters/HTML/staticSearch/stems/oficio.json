@@ -1,0 +1,37 @@
+
+  { "stem" : "oficio",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3398.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "oficio",
+            "weight" : "1",
+            "pos" : 161,
+            "context" : "...en adelante abolida y proscripta semajante costumbre, y pasese <mark>oficio<\/mark> al Cabildo de este Capital para quo lo haga executas...",
+            "fid" : "southey.6.3398",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "oficio",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "...continuen aun despues del presonte Decreto seran privados de su <mark>oficio<\/mark> y castigados como infractores, pudiendo en su lugar usar...",
+            "fid" : "southey.6.3398",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1506.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "oficio",
+            "weight" : "1",
+            "pos" : 340,
+            "context" : "...carracas las pecoras de Ingalaterra a Espana, principio este <mark>oficio<\/mark> en Inigo Lopez de Orozco, de quien vienen por...",
+            "fid" : "southey.3.1506",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "ping",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1539.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "ping",
+            "weight" : "1",
+            "pos" : 206,
+            "context" : "...are the same there as every where. – Shuey–<mark>ping<\/mark>–sin4 exemplifies that. I have not asserted that...",
+            "fid" : "southey.3.1539",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Ping",
+            "weight" : "1",
+            "pos" : 717,
+            "context" : "4.   <mark>Ping<\/mark>-hsin , the heroine of the seventeenth-century...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1158.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ping",
+            "weight" : "1",
+            "pos" : 212,
+            "context" : "...So you have been reading the history of Shuey-<mark>ping<\/mark>-sing &amp; Tieh-chung-u.3 It...",
+            "fid" : "southey.3.1158",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

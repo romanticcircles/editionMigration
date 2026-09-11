@@ -1,0 +1,37 @@
+
+  { "stem" : "etabli",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4029.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "etablie",
+            "weight" : "1",
+            "pos" : 29,
+            "context" : "...Buonaparte, par une Commission d’Officiers de toutes armes, <mark>etablie<\/mark> a Madrid, aupres de S. Ex. Le Ministre...",
+            "fid" : "southey.7.4029",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Etablie",
+            "weight" : "1",
+            "pos" : 173,
+            "context" : "...Napoléon Buonaparte. Par une Commission d’Officiers de Toutes Armes <mark>Etablie<\/mark> a Madrid, Auprès de S. Ex. le Ministre...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3787.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Etablie",
+            "weight" : "1",
+            "pos" : 660,
+            "context" : "...Napoleon Buonaparte, Par une Commission d’Officiers de Toutes Armes <mark>Etablie<\/mark> a Madrid, Aupres de S. Ex. Le Ministre...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

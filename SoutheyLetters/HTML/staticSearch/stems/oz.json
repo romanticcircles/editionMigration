@@ -1,0 +1,37 @@
+
+  { "stem" : "oz",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3198.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "oz",
+            "weight" : "1",
+            "pos" : 247,
+            "context" : "...latter adopted a restricted diet, initially comprised of 14<mark>oz<\/mark> of solid food and 17oz of wine, and...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "oz",
+            "weight" : "1",
+            "pos" : 251,
+            "context" : "...initially comprised of 14oz of solid food and 17<mark>oz<\/mark> of wine, and lived into advanced old age....",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "oz",
+            "weight" : "1",
+            "pos" : 419,
+            "context" : "...I would urge the medicine, taking a glass (2<mark>oz<\/mark>) every 4 5 or 6 minutes till I glowed...",
+            "fid" : "southey.2.838",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

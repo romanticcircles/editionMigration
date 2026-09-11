@@ -1,0 +1,53 @@
+
+  { "stem" : "3304",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2623.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3304",
+            "weight" : "1",
+            "pos" : 365,
+            "context" : "...de Etiopia a Alta ou Abassia (1660), no. <mark>3304<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3304",
+            "weight" : "1",
+            "pos" : 566,
+            "context" : "Letter <mark>3304<\/mark>. 28 May 1819: Grosvenor Charles Bedford ",
+            "fid" : "6.3304" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3304.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3304",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3304<\/mark>. Robert Southey to Grosvenor Charles Bedford, 28 May...",
+            "fid" : "southey.6.3304",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3304",
+            "weight" : "1",
+            "pos" : 550,
+            "context" : "Letter <mark>3304<\/mark>. 28 May 1819: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.77",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "visto",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.517.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "visto",
+            "weight" : "1",
+            "pos" : 543,
+            "context" : "Quem naō ha <mark>visto<\/mark> Lisboa,Naō ha visto cousa boa.",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "visto",
+            "weight" : "1",
+            "pos" : 547,
+            "context" : "Quem naō ha visto Lisboa,Naō ha <mark>visto<\/mark> cousa boa.",
+            "fid" : "line2",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1384.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vistos",
+            "weight" : "1",
+            "pos" : 350,
+            "context" : "...referred thus to this book: ‘Van anadidos muchos nunca <mark>vistos<\/mark>, compuestos por un Cavallero Cesario, cuyo nombre se...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

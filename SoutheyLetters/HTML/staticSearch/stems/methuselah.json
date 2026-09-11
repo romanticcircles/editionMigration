@@ -1,0 +1,37 @@
+
+  { "stem" : "methuselah",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.160.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Methuselah",
+            "weight" : "1",
+            "pos" : 512,
+            "context" : "...to accomplish all my literary plans even the age of <mark>Methuselah<\/mark>13 would be short. if your future plans allow...",
+            "fid" : "southey.1.160",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Methuselah",
+            "weight" : "1",
+            "pos" : 1066,
+            "context" : "13.  <mark>Methuselah<\/mark> lived to be 969 (Genesis 5: 27). Back...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.557.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Methuselah",
+            "weight" : "1",
+            "pos" : 761,
+            "context" : "...14.  According to Genesis 5: 21–27, <mark>Methuselah<\/mark> was a descendent of Adam and ancestor of Noah who...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

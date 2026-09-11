@@ -1,0 +1,40 @@
+
+  { "stem" : "1024",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1024",
+            "weight" : "1",
+            "pos" : 1115,
+            "context" : "Letter <mark>1024<\/mark>. 23 January [1805]: John Rickman",
+            "fid" : "3.1024" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1024.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1024",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1024<\/mark>. Robert Southey to John Rickman, 23 January [...",
+            "fid" : "southey.3.1024",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1024",
+            "weight" : "1",
+            "pos" : 1094,
+            "context" : "Letter <mark>1024<\/mark>. 23 January [1805]: John Rickman",
+            "fid" : "refletterlistPart3.148",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

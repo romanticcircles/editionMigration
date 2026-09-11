@@ -1,0 +1,53 @@
+
+  { "stem" : "996",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "996",
+            "weight" : "1",
+            "pos" : 898,
+            "context" : "Letter <mark>996<\/mark>. 4 December 1804: Grosvenor Charles Bedford",
+            "fid" : "3.996" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.996.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "996",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>996<\/mark>. Robert Southey to Grosvenor Charles Bedford, 4 December...",
+            "fid" : "southey.3.996",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.997.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "996",
+            "weight" : "1",
+            "pos" : 718,
+            "context" : "...to Grosvenor Charles Bedford, 4 December 1804, Letter <mark>996<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "996",
+            "weight" : "1",
+            "pos" : 879,
+            "context" : "Letter <mark>996<\/mark>. 4 December 1804: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart3.120",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

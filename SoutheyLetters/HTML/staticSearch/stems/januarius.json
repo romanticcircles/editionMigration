@@ -1,0 +1,50 @@
+
+  { "stem" : "januarius",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.474.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Januarius’s",
+            "weight" : "1",
+            "pos" : 368,
+            "context" : "...specimen of Christian miracles, and chooses out St. <mark>Januarius’s<\/mark> blood and the Chapel of Loretto!11 ",
+            "fid" : "southey.2.474",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Januarius",
+            "weight" : "1",
+            "pos" : 600,
+            "context" : "11.  The blood of St <mark>Januarius<\/mark>, patron saint of Naples, is kept in two...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.388.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Januarius",
+            "weight" : "1",
+            "pos" : 362,
+            "context" : "8.  The reference is obscure. St <mark>Januarius<\/mark> (d. c. 305?), Bishop of Benevento and martyr,...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.475.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Januarius",
+            "weight" : "1",
+            "pos" : 339,
+            "context" : "3.  The blood of St <mark>Januarius<\/mark>, patron saint of Naples, is kept in two...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "1322",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1322",
+            "weight" : "1",
+            "pos" : 3372,
+            "context" : "Letter <mark>1322<\/mark>. 13 May 1807: Neville White",
+            "fid" : "3.1322" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1284.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1322",
+            "weight" : "1",
+            "pos" : 283,
+            "context" : "...Southey to Neville White, 13 May 1807, Letter <mark>1322<\/mark>. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1322.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1322",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1322<\/mark>. Robert Southey to Neville White, 13 May 1807...",
+            "fid" : "southey.3.1322",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1322",
+            "weight" : "1",
+            "pos" : 3347,
+            "context" : "Letter <mark>1322<\/mark>. 13 May 1807: Neville White",
+            "fid" : "refletterlistPart3.450",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

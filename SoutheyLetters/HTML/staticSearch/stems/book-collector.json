@@ -1,0 +1,60 @@
+
+  { "stem" : "book-collector",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Book-collector",
+            "weight" : "1",
+            "pos" : 62774,
+            "context" : " <mark>Book-collector<\/mark>. Son of Reginald Heber, clergyman and landowner....",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Book-collector",
+            "weight" : "1",
+            "pos" : 70139,
+            "context" : " <mark>Book-collector<\/mark> and part-proprietor of the Monthly Mirror. Born...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/places.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-collector",
+            "weight" : "1",
+            "pos" : 781,
+            "context" : "Home of Thomas Hill, <mark>book-collector<\/mark> and part-proprietor of the Monthly Mirror. Southey...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1844.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-collector",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "...Since that I have met him occasionally at Hill’s the <mark>book-collector<\/mark> in Queen Hythe, for whom he edites the M....",
+            "fid" : "southey.4.1844",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1545.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-collector",
+            "weight" : "1",
+            "pos" : 662,
+            "context" : "...trained as an engraver, Park became a poet, <mark>book-collector<\/mark>, antiquary, bibliographer and editor. He lived in...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

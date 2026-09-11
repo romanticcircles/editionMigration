@@ -1,0 +1,52 @@
+
+  { "stem" : "3774",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3774",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "Letter <mark>3774<\/mark>. [early] January 1822: William Westall",
+            "fid" : "7.3774" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3774.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3774",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3774<\/mark>. Robert Southey to William Westall, [early]...",
+            "fid" : "southey.7.3774",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3774",
+            "weight" : "1",
+            "pos" : 5,
+            "context" : "Letter <mark>3774<\/mark>. [early] January 1822: William Westall",
+            "fid" : "refletterlistPart7.1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.partSevenIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3774",
+            "weight" : "1",
+            "pos" : 70,
+            "context" : "...that deals mainly with professional and public matters (Letter <mark>3774<\/mark>). It closes with a ‘domestic chronicle’ of life at...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

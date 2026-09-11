@@ -1,0 +1,50 @@
+
+  { "stem" : "dropmor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2585.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Dropmore",
+            "weight" : "1",
+            "pos" : 214,
+            "context" : "...letter from Wynn, which as it was written from <mark>Dropmore<\/mark>9 may certainly be understood as speaking the exact sentiments...",
+            "fid" : "southey.4.2585",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Dropmore",
+            "weight" : "1",
+            "pos" : 629,
+            "context" : "9.   <mark>Dropmore<\/mark> House in Buckinghamshire, the home of Lord Grenville....",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.965.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Dropmore",
+            "weight" : "1",
+            "pos" : 153,
+            "context" : "...C Wn Wms Wynn Esqr. M. P.\/ Lord Grenvilles <mark>Dropmore<\/mark>\/ Bucks – Stamped: KESWICK\/ 298 Postmarks:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.304.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Dropmore",
+            "weight" : "1",
+            "pos" : 96,
+            "context" : "Address: To\/ C W Williams Wynn Esqr\/ <mark>Dropmore<\/mark> Hill\/ Maidenhead Stamped: BRISTOL Endorsement: April 10...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

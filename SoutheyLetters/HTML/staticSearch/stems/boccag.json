@@ -1,0 +1,37 @@
+
+  { "stem" : "boccag",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.240.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Boccage",
+            "weight" : "1",
+            "pos" : 33,
+            "context" : "...the voyage of Columbus in ten books written by Madame <mark>Boccage<\/mark>:2 her works cannot be very scarce as she...",
+            "fid" : "southey.1.240",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Boccage",
+            "weight" : "1",
+            "pos" : 328,
+            "context" : "2.  Marie-Anne Fiquet, Madame du <mark>Boccage<\/mark> (1710–1802), La Columbiade, ou La...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.404.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Boccage",
+            "weight" : "1",
+            "pos" : 251,
+            "context" : "1.  Marie-Anne Du <mark>Boccage<\/mark> (1710–1802), La Colombiade, ou La...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

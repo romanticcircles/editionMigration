@@ -1,0 +1,37 @@
+
+  { "stem" : "breasil",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3539.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Breasile",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "...Ireland – in consequence of the frequent reports about O <mark>Breasile<\/mark> the Enchanted Island. I wished Henry to procure for...",
+            "fid" : "southey.6.3539",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Breasil",
+            "weight" : "1",
+            "pos" : 403,
+            "context" : "..., on the Irish legend of an island called O <mark>Breasil<\/mark>, which can be seen from the Isles of Arran...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3620.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Breasil",
+            "weight" : "1",
+            "pos" : 423,
+            "context" : "...told to search for the mythical Enchanted Island of O <mark>Breasil<\/mark>, information Southey wanted for the second edition of the...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

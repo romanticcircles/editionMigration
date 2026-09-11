@@ -1,0 +1,40 @@
+
+  { "stem" : "3315",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3315",
+            "weight" : "1",
+            "pos" : 646,
+            "context" : "Letter <mark>3315<\/mark>. 13 June 1819: Herbert Hill ",
+            "fid" : "6.3315" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3315.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3315",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3315<\/mark>. Robert Southey to Herbert Hill, 13 June 1819...",
+            "fid" : "southey.6.3315",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3315",
+            "weight" : "1",
+            "pos" : 630,
+            "context" : "Letter <mark>3315<\/mark>. 13 June 1819: Herbert Hill ",
+            "fid" : "refletterlistPart6.88",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2809",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2809",
+            "weight" : "1",
+            "pos" : 885,
+            "context" : "Letter <mark>2809<\/mark>. 9 June [1816]: John Rickman",
+            "fid" : "5.2809" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2809.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2809",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2809<\/mark>. Robert Southey to John Rickman, 9 June [...",
+            "fid" : "southey.5.2809",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2832.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2809",
+            "weight" : "1",
+            "pos" : 666,
+            "context" : "...Southey to Rickman, 9 June [1816], Letter <mark>2809<\/mark>. Southey had been studying a ‘Comparative View of the...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2809",
+            "weight" : "1",
+            "pos" : 869,
+            "context" : "Letter <mark>2809<\/mark>. 9 June [1816]: John Rickman",
+            "fid" : "refletterlistPart5.120",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

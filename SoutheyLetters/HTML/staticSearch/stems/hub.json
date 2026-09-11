@@ -1,0 +1,42 @@
+
+  { "stem" : "hub",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hub",
+            "weight" : "1",
+            "pos" : 1018,
+            "context" : "...his literary life, both as subject and as professional <mark>hub<\/mark> for his dealings with other writers, publishers, printers...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.partThreeIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hub",
+            "weight" : "1",
+            "pos" : 811,
+            "context" : "..., and his ambitious works of historiography. At the <mark>hub<\/mark> of his literary operations in Keswick, and through an...",
+            "fid" : "southey.partThreeIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.686.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hub",
+            "weight" : "1",
+            "pos" : 448,
+            "context" : "1.  The Exchange, Broad St, Bristol was a <mark>hub<\/mark> for mercantile and commercial activity, including business related to...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

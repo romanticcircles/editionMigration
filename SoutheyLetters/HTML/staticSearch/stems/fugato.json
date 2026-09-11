@@ -1,0 +1,50 @@
+
+  { "stem" : "fugato",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1648.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "fugato",
+            "weight" : "1",
+            "pos" : 71,
+            "context" : "...subject from my thoughts. Pelle timorem, spem que <mark>fugato<\/mark>, is a lesson which I learnt early in life...",
+            "fid" : "southey.3.1648",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "fugato",
+            "weight" : "1",
+            "pos" : 478,
+            "context" : "...Cernere rectum,\/ Gaudia pelle\/ Pelle timorem\/ Spemque <mark>fugato<\/mark>\/ nec dolor adsit’ and translates as ‘If you desire...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2499.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fugato",
+            "weight" : "1",
+            "pos" : 180,
+            "context" : " ‘Pelle timorem, Spemque <mark>fugato<\/mark>.’6 ",
+            "fid" : "line2",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.273.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "fugato",
+            "weight" : "1",
+            "pos" : 228,
+            "context" : "...Lumine claroCernere rectum,Gaudia pellePelle timoremSpemque <mark>fugato<\/mark>Nec dolor adsit.4 ",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

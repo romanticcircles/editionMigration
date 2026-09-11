@@ -1,0 +1,37 @@
+
+  { "stem" : "overleaf",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3949.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "overleaf’",
+            "weight" : "1",
+            "pos" : 1748,
+            "context" : "....  At this point Southey inserts a note, ‘A Merchant <mark>overleaf’<\/mark> on the right-hand side of the page to...",
+            "fid" : "21",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "overleaf",
+            "weight" : "1",
+            "pos" : 1757,
+            "context" : "...side of the page to indicate that the narrative continues <mark>overleaf<\/mark>. Back",
+            "fid" : "21",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1945.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "overleaf",
+            "weight" : "1",
+            "pos" : 93,
+            "context" : "<mark>overleaf<\/mark>",
+            "fid" : "southey.4.1945",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

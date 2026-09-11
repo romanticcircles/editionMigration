@@ -1,0 +1,53 @@
+
+  { "stem" : "2606",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2606",
+            "weight" : "1",
+            "pos" : 6444,
+            "context" : "Letter <mark>2606<\/mark>. 27 May 1815: John Murray",
+            "fid" : "4.2606" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2606.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2606",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2606<\/mark>. Robert Southey to John Murray, 27 May 1815...",
+            "fid" : "southey.4.2606",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2623.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2606",
+            "weight" : "1",
+            "pos" : 479,
+            "context" : "...Southey to John Murray, 27 May 1815, Letter <mark>2606<\/mark>. It was reviewed by John Barrow (1764–...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2606",
+            "weight" : "1",
+            "pos" : 6415,
+            "context" : "Letter <mark>2606<\/mark>. 27 May 1815: John Murray",
+            "fid" : "refletterlistPart4.888",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

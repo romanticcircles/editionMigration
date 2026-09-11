@@ -1,0 +1,37 @@
+
+  { "stem" : "babington",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4304.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Babington",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "...have the signatures of Sir Henry Halford2 &amp; Dr <mark>Babington<\/mark>?3 ",
+            "fid" : "southey.7.4304",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Babington",
+            "weight" : "1",
+            "pos" : 274,
+            "context" : "3.  William <mark>Babington<\/mark> (1756–1833, DNB), an Irish physician...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1334.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Babingtons",
+            "weight" : "1",
+            "pos" : 277,
+            "context" : "...Brough\/ Barnard Castle\/ Staindross – Raby Castle B <mark>Babingtons<\/mark>\/ Richmond – Duke of Leeds –\/ Beedle 11\/...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

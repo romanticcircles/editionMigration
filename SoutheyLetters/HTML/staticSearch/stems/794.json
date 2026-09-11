@@ -1,0 +1,40 @@
+
+  { "stem" : "794",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "794",
+            "weight" : "1",
+            "pos" : 3936,
+            "context" : "Letter <mark>794<\/mark>. 9 June 1803: Grosvenor Charles Bedford",
+            "fid" : "2.794" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.794.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "794",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>794<\/mark>. Robert Southey to Grosvenor Charles Bedford, 9 June...",
+            "fid" : "southey.2.794",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "794",
+            "weight" : "1",
+            "pos" : 3907,
+            "context" : "Letter <mark>794<\/mark>. 9 June 1803: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart2.521",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

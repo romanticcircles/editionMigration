@@ -1,0 +1,61 @@
+
+  { "stem" : "innkeep",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "innkeeper",
+            "weight" : "1",
+            "pos" : 81798,
+            "context" : "Portrait painter. The son of a Bristol <mark>innkeeper<\/mark>, he was self–taught and displayed his brilliant...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "innkeeper",
+            "weight" : "1",
+            "pos" : 152036,
+            "context" : "...Painter. Born in Pennsylvania, the son of an <mark>innkeeper<\/mark>, West travelled to Italy in 1760 and England in...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3156.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "innkeeper",
+            "weight" : "1",
+            "pos" : 949,
+            "context" : "19.  The <mark>innkeeper<\/mark> of the Royal Oak at Keswick at this time was...",
+            "fid" : "19",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2192.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "innkeepers",
+            "weight" : "1",
+            "pos" : 988,
+            "context" : "...gave disabled non-commissioned officers to establish themselves as <mark>innkeepers<\/mark>. Back",
+            "fid" : "18",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1649.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "innkeeper",
+            "weight" : "1",
+            "pos" : 651,
+            "context" : "5.   John I’Anson (dates unknown), <mark>innkeeper<\/mark> of the Royal Oak at Keswick. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

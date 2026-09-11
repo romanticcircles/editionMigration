@@ -1,0 +1,53 @@
+
+  { "stem" : "1439",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1439",
+            "weight" : "1",
+            "pos" : 4241,
+            "context" : "Letter <mark>1439<\/mark>. [March 1808]: the Editor of the Athenaeum...",
+            "fid" : "3.1439" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1439.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1439",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1439<\/mark>. Robert Southey to the Editor of the Athenæum,...",
+            "fid" : "southey.3.1439",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1439",
+            "weight" : "1",
+            "pos" : 4214,
+            "context" : "Letter <mark>1439<\/mark>. [March 1808]: the Editor of the Athenaeum...",
+            "fid" : "refletterlistPart3.571",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.583.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1439",
+            "weight" : "1",
+            "pos" : 815,
+            "context" : "...Church, held at Basel in Switzerland, 1431-<mark>1439<\/mark>. On 12 November 1435 violence broke out when the...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

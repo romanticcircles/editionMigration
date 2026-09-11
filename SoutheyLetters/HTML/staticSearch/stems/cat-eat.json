@@ -1,0 +1,37 @@
+
+  { "stem" : "cat-eat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.609.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "cat-eating",
+            "weight" : "1",
+            "pos" : 556,
+            "context" : "17.  There were a number of famous <mark>cat-eating<\/mark> exploits in 18th-century England. One of...",
+            "fid" : "17",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "‘Cat-eater",
+            "weight" : "1",
+            "pos" : 570,
+            "context" : "...the most notorious occurred in January 1790, when the <mark>‘Cat-eater<\/mark> of Windsor’ publicly ate a live, 9lb cat...",
+            "fid" : "17",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.147.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cat-eating",
+            "weight" : "1",
+            "pos" : 384,
+            "context" : "...Lisbon. Southey was somewhat perturbed by Mambrino’s accounts of <mark>cat-eating<\/mark>; see Letters Written During a Short Residence in Spain...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

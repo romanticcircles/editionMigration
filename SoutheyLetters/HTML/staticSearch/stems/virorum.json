@@ -1,0 +1,37 @@
+
+  { "stem" : "virorum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2020.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "virorum",
+            "weight" : "1",
+            "pos" : 219,
+            "context" : "...– Notitia Majorum, – Plurimas Lubecensium aliorum q clarorum <mark>virorum<\/mark>, de Ecclesia, Republica et Literis egregie meritorum vitas...",
+            "fid" : "southey.4.2020",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Virorum",
+            "weight" : "1",
+            "pos" : 697,
+            "context" : "..., Lübeck. Notitia Majorum, Plurimas Lubecensium aliorumque Clarorum <mark>Virorum<\/mark> de Ecclesia, Republica et Literis Egregie Meritorum Vitas,...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1270.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "virorum",
+            "weight" : "1",
+            "pos" : 470,
+            "context" : "2.   In Elogia doctorum <mark>virorum<\/mark> (1554) the historian Paolo Giovio (1483–...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

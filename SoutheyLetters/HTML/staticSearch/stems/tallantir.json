@@ -1,0 +1,37 @@
+
+  { "stem" : "tallantir",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2942.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tallantire",
+            "weight" : "1",
+            "pos" : 315,
+            "context" : "4.  <mark>Tallantire<\/mark> Hall near Cockermouth, located about ten miles inland,...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Tallantire",
+            "weight" : "1",
+            "pos" : 329,
+            "context" : "...Allonby. William Browne (1780–1861) of <mark>Tallantire<\/mark> Hall was High Sheriff of Cumberland 1816–1817 and...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/chrono.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tallantire",
+            "weight" : "1",
+            "pos" : 3171,
+            "context" : "November: Family visits to <mark>Tallantire<\/mark> Hall and to Netherhall in Cumberland.",
+            "fid" : "chrono",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

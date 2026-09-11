@@ -1,0 +1,53 @@
+
+  { "stem" : "3004",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3004",
+            "weight" : "1",
+            "pos" : 2320,
+            "context" : "Letter <mark>3004<\/mark>. 2 July 1817: Edith Southey",
+            "fid" : "5.3004" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3004.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3004",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3004<\/mark>. Robert Southey to Edith Southey, 2 July 1817...",
+            "fid" : "southey.5.3004",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3004",
+            "weight" : "1",
+            "pos" : 2302,
+            "context" : "Letter <mark>3004<\/mark>.  2 July 1817: Edith Southey",
+            "fid" : "refletterlistPart5.315",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3004",
+            "weight" : "1",
+            "pos" : 582,
+            "context" : "...inflamed his already antagonistic relationship with Percy Shelley (Letter <mark>3004<\/mark>). Moreover, family tragedy and economic changes were to...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

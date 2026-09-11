@@ -1,0 +1,40 @@
+
+  { "stem" : "2532",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2532",
+            "weight" : "1",
+            "pos" : 5903,
+            "context" : "Letter <mark>2532<\/mark>. 28 December 1814: John Rickman",
+            "fid" : "4.2532" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2532.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2532",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2532<\/mark>. Robert Southey to John Rickman, 28 December 1814...",
+            "fid" : "southey.4.2532",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2532",
+            "weight" : "1",
+            "pos" : 5876,
+            "context" : "Letter <mark>2532<\/mark>. 28 December 1814: John Rickman",
+            "fid" : "refletterlistPart4.814",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

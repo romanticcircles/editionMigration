@@ -1,0 +1,74 @@
+
+  { "stem" : "3003",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3003",
+            "weight" : "1",
+            "pos" : 690,
+            "context" : "...‘in history with Messalina and Joan of Naples’ (Letter <mark>3003<\/mark>). Foreign journeys also allowed Southey to indulge his book...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "3003",
+            "weight" : "1",
+            "pos" : 728,
+            "context" : "...ensure they were safely conveyed back to Britain (Letter <mark>3003<\/mark>). Moreover, even when he was at home in...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3003",
+            "weight" : "1",
+            "pos" : 2313,
+            "context" : "Letter <mark>3003<\/mark>. 30 June 1817: John Rickman",
+            "fid" : "5.3003" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3003.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3003",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3003<\/mark>. Robert Southey to John Rickman, 30 June 1817...",
+            "fid" : "southey.5.3003",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3003",
+            "weight" : "1",
+            "pos" : 2295,
+            "context" : "Letter <mark>3003<\/mark>.  30 June 1817: John Rickman",
+            "fid" : "refletterlistPart5.314",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1789.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3003",
+            "weight" : "1",
+            "pos" : 389,
+            "context" : ".... An edition of White’s works from 1802 was no. <mark>3003<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

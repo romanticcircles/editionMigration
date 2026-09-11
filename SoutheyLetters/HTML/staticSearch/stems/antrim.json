@@ -1,0 +1,41 @@
+
+  { "stem" : "antrim",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Antrim",
+            "weight" : "1",
+            "pos" : 37756,
+            "context" : "...MP Edward Corry. Educated at the Royal School, <mark>Antrim<\/mark> and BA, Trinity College, Dublin, 1773....",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.615.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Antrim",
+            "weight" : "1",
+            "pos" : 283,
+            "context" : ".... The Giant’s Causeway is further east, on the <mark>Antrim<\/mark> coast. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663b.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Antrim",
+            "weight" : "1",
+            "pos" : 535,
+            "context" : "4.  i.e. the Giants Causeway in County <mark>Antrim<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

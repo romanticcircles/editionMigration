@@ -1,0 +1,45 @@
+
+  { "stem" : "milverton",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3413.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Milverton",
+            "weight" : "1",
+            "pos" : 115,
+            "context" : " Preston farm in the parish of <mark>Milverton<\/mark>, near the town of Milverton. (not sold)...",
+            "fid" : "southey.6.3413",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Milverton",
+            "weight" : "1",
+            "pos" : 118,
+            "context" : "...in the parish of Milverton, near the town of <mark>Milverton<\/mark>. (not sold) this is the best of the...",
+            "fid" : "southey.6.3413",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Milverton",
+            "weight" : "1",
+            "pos" : 695,
+            "context" : "...bought the Somerville (formerly Cannon Southey) lands in <mark>Milverton<\/mark> and Wivelscombe, including Preston farm. These were the...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3414.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Milverton",
+            "weight" : "1",
+            "pos" : 318,
+            "context" : "...Pyleigh farm in Lydeard St Lawrence and Preston farm in <mark>Milverton<\/mark> (worth £300 p.a.). Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

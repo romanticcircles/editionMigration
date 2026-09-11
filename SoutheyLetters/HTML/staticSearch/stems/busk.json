@@ -1,0 +1,82 @@
+
+  { "stem" : "busk",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3298.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Busk",
+            "weight" : "2",
+            "pos" : 5,
+            "context" : "3298. Robert Southey to [Hans] <mark>Busk<\/mark>, 21 May 1819*",
+            "fid" : "ref6.3298.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Busk",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "Address: To\/ H <mark>Busk<\/mark> Esqr\/ 31. Nottingham Place\/ London Stamped:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Busk’s",
+            "weight" : "1",
+            "pos" : 64,
+            "context" : "1.  <mark>Busk’s<\/mark> The Dessert; a Poem, to which is added...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Busk",
+            "weight" : "1",
+            "pos" : 15425,
+            "context" : "<mark>Busk<\/mark>, Hans             ",
+            "fid" : "ref.corresp.51",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Busk",
+            "weight" : "1",
+            "pos" : 24876,
+            "context" : "...1811)                                                                                                                                                                                                        Burney, James (1750–1821)                                                                                              <mark>Busk<\/mark>, Hans (1772–1862)                 Butler, Charles...",
+            "fid" : "BuskHans",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Busk",
+            "weight" : "1",
+            "pos" : 529,
+            "context" : "...Letter 3298. 21 May 1819: [Hans] <mark>Busk<\/mark>",
+            "fid" : "6.3298" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Busk",
+            "weight" : "1",
+            "pos" : 513,
+            "context" : "...Letter 3298. 21 May 1819: [Hans] <mark>Busk<\/mark>",
+            "fid" : "southey.letterlistPart6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

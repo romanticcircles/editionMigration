@@ -1,0 +1,53 @@
+
+  { "stem" : "2125",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2125",
+            "weight" : "1",
+            "pos" : 2896,
+            "context" : "Letter <mark>2125<\/mark>. 23 July 1812: Edith Southey",
+            "fid" : "4.2125" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2125.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2125",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2125<\/mark>. Robert Southey to Edith Southey, 23 July 1812...",
+            "fid" : "southey.4.2125",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2203.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2125",
+            "weight" : "1",
+            "pos" : 755,
+            "context" : "...Southey to Edith Southey, 23 July 1812, Letter <mark>2125<\/mark>. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2125",
+            "weight" : "1",
+            "pos" : 2873,
+            "context" : "Letter <mark>2125<\/mark>. 23 July 1812: Edith Southey",
+            "fid" : "refletterlistPart4.402",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

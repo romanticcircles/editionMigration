@@ -1,0 +1,40 @@
+
+  { "stem" : "1949",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1949",
+            "weight" : "1",
+            "pos" : 1621,
+            "context" : "Letter <mark>1949<\/mark>. 5 September 1811: Henry Herbert Southey",
+            "fid" : "4.1949" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1949.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1949",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1949<\/mark>. Robert Southey to Henry Herbert Southey, 5 September...",
+            "fid" : "southey.4.1949",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1949",
+            "weight" : "1",
+            "pos" : 1600,
+            "context" : "Letter <mark>1949<\/mark>. 5 September 1811: Henry Herbert Southey",
+            "fid" : "refletterlistPart4.224",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

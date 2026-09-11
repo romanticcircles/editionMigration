@@ -1,0 +1,45 @@
+
+  { "stem" : "scribo",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1703.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Scribo",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "...mox. Sum valde pono manum cum Longo Homine. <mark>Scribo<\/mark> – scribo – scribo quid hunc? populus non emit...",
+            "fid" : "southey.3.1703",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "scribo",
+            "weight" : "1",
+            "pos" : 166,
+            "context" : "...Sum valde pono manum cum Longo Homine. Scribo – <mark>scribo<\/mark> – scribo quid hunc? populus non emit. Ego...",
+            "fid" : "southey.3.1703",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "scribo",
+            "weight" : "1",
+            "pos" : 167,
+            "context" : "...pono manum cum Longo Homine. Scribo – scribo – <mark>scribo<\/mark> quid hunc? populus non emit. Ego abstergam meum...",
+            "fid" : "southey.3.1703",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.759a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Scribo",
+            "weight" : "1",
+            "pos" : 218,
+            "context" : " <mark>Scribo<\/mark> rursus quam celerrime. Vale.",
+            "fid" : "southey.2.759a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

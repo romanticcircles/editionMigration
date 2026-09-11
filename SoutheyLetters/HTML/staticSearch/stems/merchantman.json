@@ -1,0 +1,29 @@
+
+  { "stem" : "merchantman",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.535.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Merchantman",
+            "weight" : "1",
+            "pos" : 243,
+            "context" : "...Jacobine, of more zeal than prudence. The solitary <mark>Merchantman<\/mark> at sea wishes for the wind that suits his course...",
+            "fid" : "southey.2.535",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.575.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "merchantman",
+            "weight" : "1",
+            "pos" : 590,
+            "context" : "...then have I nearly 200 miles by land. A <mark>merchantman<\/mark> for about 20 lands me at Bristol. I may...",
+            "fid" : "southey.2.575",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

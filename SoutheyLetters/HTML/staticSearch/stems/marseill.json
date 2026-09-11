@@ -1,0 +1,29 @@
+
+  { "stem" : "marseill",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3003.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Marseilles",
+            "weight" : "1",
+            "pos" : 300,
+            "context" : "...England: – grain is now coming by land from <mark>Marseilles<\/mark> to Switzerland. But in a very few weeks there...",
+            "fid" : "southey.5.3003",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2573.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Marseilles",
+            "weight" : "1",
+            "pos" : 552,
+            "context" : "...one of Napoleon’s Marshals. He retained his command at <mark>Marseilles<\/mark> under the Bourbons and was studiously neutral during the Hundred...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

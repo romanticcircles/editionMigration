@@ -1,0 +1,40 @@
+
+  { "stem" : "3511",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3511",
+            "weight" : "1",
+            "pos" : 2111,
+            "context" : "Letter <mark>3511<\/mark>. 16 July 1820: John Miller ",
+            "fid" : "6.3511" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3511.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3511",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3511<\/mark>. Robert Southey to John Miller, 16 July 1820...",
+            "fid" : "southey.6.3511",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3511",
+            "weight" : "1",
+            "pos" : 2093,
+            "context" : "Letter <mark>3511<\/mark>. 16 July 1820: John Miller ",
+            "fid" : "refletterlistPart6.287",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

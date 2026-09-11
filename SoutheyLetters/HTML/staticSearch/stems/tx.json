@@ -1,0 +1,55 @@
+
+  { "stem" : "tx",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "TX",
+            "weight" : "1",
+            "pos" : 2049,
+            "context" : "...Gen. Ed. Lynda Pratt (College Station, <mark>TX<\/mark>: Romantic Circles, 2026).",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.255.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tx",
+            "weight" : "1",
+            "pos" : 198,
+            "context" : ".... I should do it with more pleasure were it <mark>tx<\/mark> on your own account, for tho the wise man...",
+            "fid" : "southey.1.255",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4097.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tx",
+            "weight" : "1",
+            "pos" : 340,
+            "context" : "...great in his line as Kean or Kemble.9 <mark>Tx<\/mark> And this manner it is which has attracted so large...",
+            "fid" : "southey.7.4097",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4188.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tx",
+            "weight" : "1",
+            "pos" : 645,
+            "context" : "...proceeded, – but impatience xxx was now passing into <mark>tx<\/mark> curiosity – (an passion &lt;emotion&gt; nearly allied to...",
+            "fid" : "southey.7.4188",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

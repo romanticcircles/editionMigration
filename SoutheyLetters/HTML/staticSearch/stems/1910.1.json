@@ -1,0 +1,40 @@
+
+  { "stem" : "1910.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1910.1",
+            "weight" : "1",
+            "pos" : 1343,
+            "context" : "Letter <mark>1910.1<\/mark>. 23 April 1811: Richard Duppa ",
+            "fid" : "4.1910.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1910.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1910.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1910.1<\/mark>. Robert Southey to Richard Duppa [fragment], 23...",
+            "fid" : "southey.4.1910.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1910.1",
+            "weight" : "1",
+            "pos" : 1322,
+            "context" : "Letter <mark>1910.1<\/mark>. 23 April 1811: Richard Duppa ",
+            "fid" : "refletterlistPart4.185",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

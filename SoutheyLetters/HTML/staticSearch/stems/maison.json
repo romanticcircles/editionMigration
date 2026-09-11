@@ -1,0 +1,50 @@
+
+  { "stem" : "maison",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3000.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Maison",
+            "weight" : "1",
+            "pos" : 228,
+            "context" : "...the Savoy Alps at Aiguebelle &amp; slept at La Grande <mark>Maison<\/mark>, a sort of large Estalagem8 in the midst...",
+            "fid" : "southey.5.3000",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Maison",
+            "weight" : "1",
+            "pos" : 653,
+            "context" : "...one rascal woke me xx with his trumpet at La <mark>Maison<\/mark> Grande. Tomorrow night I xxxx shall be in bodily...",
+            "fid" : "southey.5.3000",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3834.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Maison",
+            "weight" : "1",
+            "pos" : 573,
+            "context" : "...(1733–1806), Histoire de l’Avenement de la <mark>Maison<\/mark> de Bourbon au Trone de l’Espagne, 6 vols (...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "maison",
+            "weight" : "1",
+            "pos" : 877,
+            "context" : "...quelque 100 £ vivre entre les gens civilisés. Sa <mark>maison<\/mark> est charmante – le jardin est sur le bord du...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

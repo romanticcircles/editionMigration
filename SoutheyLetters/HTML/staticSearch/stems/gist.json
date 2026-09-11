@@ -1,0 +1,61 @@
+
+  { "stem" : "gist",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.163.html",
+        "score" : 5,
+        "contexts" : 
+        [ 
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 144,
+            "context" : "Cy-<mark>gist<\/mark> la fille, cy-gist le père,Cy...",
+            "fid" : "line5",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "Cy-gist la fille, cy-<mark>gist<\/mark> le père,Cy-gist la soeur, cy...",
+            "fid" : "line5",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 154,
+            "context" : "...fille, cy-gist le père,Cy-<mark>gist<\/mark> la soeur, cy-gist le frère;Cy...",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 159,
+            "context" : "...père,Cy-gist la soeur, cy-<mark>gist<\/mark> le frère;Cy-gist la femme &amp; le...",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 164,
+            "context" : "...soeur, cy-gist le frère;Cy-<mark>gist<\/mark> la femme &amp; le mary,Et si n’y a...",
+            "fid" : "line7",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1643.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "gist",
+            "weight" : "1",
+            "pos" : 512,
+            "context" : "...Southey at the end of April 1795. For the <mark>gist<\/mark> of the panegyric, ‘O Paine! hireless Priest of...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

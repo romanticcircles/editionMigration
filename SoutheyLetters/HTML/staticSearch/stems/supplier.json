@@ -1,0 +1,55 @@
+
+  { "stem" : "supplier",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "suppliers",
+            "weight" : "1",
+            "pos" : 20217,
+            "context" : "...London where he was employed by Milford &amp; Co, <mark>suppliers<\/mark> to Wellington’s troops in the Iberian peninsula. Bowring travelled...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "supplier",
+            "weight" : "1",
+            "pos" : 28469,
+            "context" : "...1822. This Chapman was a Quaker and originally a <mark>supplier<\/mark> of canvas for sails, but his firm expanded under...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "supplier",
+            "weight" : "1",
+            "pos" : 146095,
+            "context" : "...was a partner in the Crowley works and an important <mark>supplier<\/mark> to the Royal Navy. Vardon met Southey on his...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2651.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "supplier",
+            "weight" : "1",
+            "pos" : 98,
+            "context" : " I look to you for my <mark>supplier<\/mark> for the journey. My bank like that of the...",
+            "fid" : "southey.4.2651",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3690.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "supplier",
+            "weight" : "1",
+            "pos" : 706,
+            "context" : "...time there, Adam had served as ‘hair-dresser’ and <mark>supplier<\/mark> of fruit, and his wife had been a laundress...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

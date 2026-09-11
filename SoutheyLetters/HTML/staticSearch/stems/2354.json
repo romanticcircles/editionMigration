@@ -1,0 +1,53 @@
+
+  { "stem" : "2354",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2354",
+            "weight" : "1",
+            "pos" : 4553,
+            "context" : "Letter <mark>2354<\/mark>. 23 December 1813: Joseph Cottle",
+            "fid" : "4.2354" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2354.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2354",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2354<\/mark>. Robert Southey to Joseph Cottle, 23 December 1813...",
+            "fid" : "southey.4.2354",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2354",
+            "weight" : "1",
+            "pos" : 4528,
+            "context" : "Letter <mark>2354<\/mark>. 23 December 1813: Joseph Cottle",
+            "fid" : "refletterlistPart4.631",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3550.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2354",
+            "weight" : "1",
+            "pos" : 465,
+            "context" : "...in London from its First Institution (1802), no. <mark>2354<\/mark> in the sale catalogue of Southey’s library; and John...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

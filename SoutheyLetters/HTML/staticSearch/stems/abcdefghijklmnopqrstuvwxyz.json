@@ -1,0 +1,39 @@
+
+  { "stem" : "abcdefghijklmnopqrstuvwxyz",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "weight" : "1",
+            "pos" : 19,
+            "context" : "<mark>ABCDEFGHIJKLMNOPQRSTUVWXYZ<\/mark>Clear",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "weight" : "1",
+            "pos" : 23,
+            "context" : "<mark>ABCDEFGHIJKLMNOPQRSTUVWXYZ<\/mark>Clear",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "weight" : "1",
+            "pos" : 39,
+            "context" : "<mark>ABCDEFGHIJKLMNOPQRSTUVWXYZ<\/mark>Clear",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

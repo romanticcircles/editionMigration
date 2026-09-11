@@ -1,0 +1,53 @@
+
+  { "stem" : "2643",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2643",
+            "weight" : "1",
+            "pos" : 6704,
+            "context" : "Letter <mark>2643<\/mark>. 14 August 1815: Grosvenor Charles Bedford",
+            "fid" : "4.2643" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2643.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2643",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2643<\/mark>. Robert Southey to Grosvenor Charles Bedford, 14 August...",
+            "fid" : "southey.4.2643",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2647.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2643",
+            "weight" : "1",
+            "pos" : 209,
+            "context" : "...August 1815 (Letter 2642), 14 August (Letter <mark>2643<\/mark>) and 22 August (Letter 2648). Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2643",
+            "weight" : "1",
+            "pos" : 6675,
+            "context" : "Letter <mark>2643<\/mark>. 14 August 1815: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.925",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

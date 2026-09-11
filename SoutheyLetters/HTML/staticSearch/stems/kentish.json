@@ -1,0 +1,36 @@
+
+  { "stem" : "kentish",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.652.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Kentish",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "...it was quite a Presbyterian dinner – a synod. <mark>Kentish<\/mark>7 – Joyce8 Jervis9 – Belsham.10...",
+            "fid" : "southey.2.652",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Kentish",
+            "weight" : "1",
+            "pos" : 663,
+            "context" : "7.  The Unitarian minister John <mark>Kentish<\/mark> (1768-1853; DNB). Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Kentish",
+            "weight" : "1",
+            "pos" : 95477,
+            "context" : "...the editor, and later the owner, of the <mark>Kentish<\/mark> Observer, before finishing his career as editor of the...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

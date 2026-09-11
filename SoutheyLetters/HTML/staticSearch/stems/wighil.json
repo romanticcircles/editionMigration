@@ -1,0 +1,49 @@
+
+  { "stem" : "wighil",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3789.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wighill",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "...have great pleasure in paying my respects to you at <mark>Wighill<\/mark> Park4 ",
+            "fid" : "southey.7.3789",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Wighill",
+            "weight" : "1",
+            "pos" : 94,
+            "context" : "Address: To\/ Richard York Esqre\/ <mark>Wighill<\/mark> Park\/ near\/ Tadcaster Stamped: KESWICK\/ 298...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wighill",
+            "weight" : "1",
+            "pos" : 164749,
+            "context" : "...Lieutenant-Colonel in the yeomanry. He lived at <mark>Wighill<\/mark> Park, Tadcaster, Yorkshire. York married Lady Mary...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4066.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wighill",
+            "weight" : "1",
+            "pos" : 50,
+            "context" : "...at Storrs,1 nor another from Mr York to <mark>Wighill<\/mark> Park to the Musical Festival2 could draw me from...",
+            "fid" : "southey.7.4066",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

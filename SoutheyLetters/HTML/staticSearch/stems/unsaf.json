@@ -1,0 +1,41 @@
+
+  { "stem" : "unsaf",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "unsafe",
+            "weight" : "1",
+            "pos" : 155364,
+            "context" : "...visited in 1790, or, during periods when it was <mark>unsafe<\/mark> for her to be there, in Switzerland. Her first...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2849.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "unsafe",
+            "weight" : "1",
+            "pos" : 466,
+            "context" : "...indignation falls upon you. Indeed I believe it would be <mark>unsafe<\/mark> for any person to mention the word Stool in her...",
+            "fid" : "southey.5.2849",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3273.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "unsafe",
+            "weight" : "1",
+            "pos" : 247,
+            "context" : "...new publications. – The south of Spain is dreadfully <mark>unsafe<\/mark>. In many parts there is no travelling without an...",
+            "fid" : "southey.6.3273",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

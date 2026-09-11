@@ -1,0 +1,48 @@
+
+  { "stem" : "wisbech",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wisbech",
+            "weight" : "1",
+            "pos" : 57909,
+            "context" : "...Philosopher, journalist and novelist. Godwin was born in <mark>Wisbech<\/mark> and grew up in a middle class and fiercely Nonconformist...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Wisbech",
+            "weight" : "1",
+            "pos" : 143667,
+            "context" : "...bequeathed his collections to the South Kensington Museum and the <mark>Wisbech<\/mark> and Fenland Museum, and his library to the latter...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wisbech",
+            "weight" : "1",
+            "pos" : 1584,
+            "context" : "...Centre, Whitehaven; Dr Williams’s Trust, London; <mark>Wisbech<\/mark> and Fenland Museum; The Wordsworth Trust, Dove Cottage...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3011.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wisbech",
+            "weight" : "1",
+            "pos" : 86,
+            "context" : "...\/ Surry Postmark: BAP\/ 9\/ 1817 MS: <mark>Wisbech<\/mark> and Fenland Museum, Townshend Collection. ALS; 2p....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

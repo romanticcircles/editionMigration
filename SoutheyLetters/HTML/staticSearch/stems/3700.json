@@ -1,0 +1,53 @@
+
+  { "stem" : "3700",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3700",
+            "weight" : "1",
+            "pos" : 3529,
+            "context" : "Letter <mark>3700<\/mark>. 6 July 1821: Grosvenor Charles Bedford ",
+            "fid" : "6.3700" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3700.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3700",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3700<\/mark>. Robert Southey to Grosvenor Charles Bedford, 6 July...",
+            "fid" : "southey.6.3700",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3700",
+            "weight" : "1",
+            "pos" : 3509,
+            "context" : "Letter <mark>3700<\/mark>. 6 July 1821: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.478",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.903.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3700",
+            "weight" : "1",
+            "pos" : 231,
+            "context" : "...some short of 100. the whole 18 containing about <mark>3700<\/mark>. from 8 to 9000 will be the content of...",
+            "fid" : "southey.3.903",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "uk",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "uk",
+            "weight" : "1",
+            "pos" : 1104,
+            "context" : "...Pratt: Lynda.Pratt@nottingham.ac.<mark>uk<\/mark>",
+            "fid" : "ref.8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.728.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "UK",
+            "weight" : "1",
+            "pos" : 916,
+            "context" : "...in the Irish Parliament 1788-1800, and the <mark>UK<\/mark> Parliament 1800-1806. He was so deaf he...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

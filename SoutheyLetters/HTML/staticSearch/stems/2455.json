@@ -1,0 +1,53 @@
+
+  { "stem" : "2455",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2455",
+            "weight" : "1",
+            "pos" : 5327,
+            "context" : "Letter <mark>2455<\/mark>. 4 July 1814: [Robert Eyres Landor]...",
+            "fid" : "4.2455" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1974.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2455",
+            "weight" : "1",
+            "pos" : 368,
+            "context" : "...[Robert Eyres Landor], 4 July 1814, Letter <mark>2455<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2455.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2455",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2455<\/mark>. Robert Southey to [Robert Eyres Landor], 4...",
+            "fid" : "southey.4.2455",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2455",
+            "weight" : "1",
+            "pos" : 5300,
+            "context" : "Letter <mark>2455<\/mark>. 4 July 1814: [Robert Eyres Landor]...",
+            "fid" : "refletterlistPart4.735",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

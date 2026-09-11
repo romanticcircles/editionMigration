@@ -1,0 +1,53 @@
+
+  { "stem" : "989",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "989",
+            "weight" : "1",
+            "pos" : 844,
+            "context" : "Letter <mark>989<\/mark>. 11 November 1804: Longmans and Rees",
+            "fid" : "3.989" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1006.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "989",
+            "weight" : "1",
+            "pos" : 1003,
+            "context" : "...to Longmans and Rees, 11 November 1804, Letter <mark>989<\/mark>. Back",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.989.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "989",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>989<\/mark>. Robert Southey to Longmans and Rees, 11 November...",
+            "fid" : "southey.3.989",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "989",
+            "weight" : "1",
+            "pos" : 825,
+            "context" : "Letter <mark>989<\/mark>. 11 November 1804: Longmans and Rees",
+            "fid" : "refletterlistPart3.113",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

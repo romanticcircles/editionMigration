@@ -1,0 +1,81 @@
+
+  { "stem" : "bruguièr",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3743.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Bruguière",
+            "weight" : "2",
+            "pos" : 6,
+            "context" : "3743. Robert Southey to Antoine André <mark>Bruguière<\/mark>, Baron de Sorsum, 30 October 1821*",
+            "fid" : "ref6.3743.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 160,
+            "context" : "...; text taken from Voir A. Chérel, ‘Autour de <mark>Bruguière<\/mark> de Sorsum’, Revue de Littérature Comparée, 7 (...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 174,
+            "context" : "...) Previously published: Voir A. Chérel, ‘Autour de <mark>Bruguière<\/mark> de Sorsum’, Revue de Littérature Comparée, 7 (...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 17497,
+            "context" : "...neé Jones), Elizabeth                                              Browne, Sarah                                     Browne, Wade                                                                    <mark>Bruguière<\/mark>, Antoine André                   Brydges, (Samuel) Egerton                        Bunbury...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 22329,
+            "context" : "...Bruce, William (fl. 1800s-1820s)               <mark>Bruguière<\/mark>, Antoine André, Baron de Sorsum (1773–...",
+            "fid" : "BruguiereAntoine",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 3854,
+            "context" : "Letter 3743. 30 October 1821: Antoine André <mark>Bruguière<\/mark>, Baron de Sorsum ",
+            "fid" : "6.3743" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bruguière",
+            "weight" : "1",
+            "pos" : 3834,
+            "context" : "Letter 3743. 30 October 1821: Antoine André <mark>Bruguière<\/mark>, Baron de Sorsum ",
+            "fid" : "southey.letterlistPart6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

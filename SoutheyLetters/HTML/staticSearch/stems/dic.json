@@ -1,0 +1,50 @@
+
+  { "stem" : "dic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1105.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Dic",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : " <mark>Dic<\/mark> peris agro at an da quarto finale. Puta ringat...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Dic",
+            "weight" : "1",
+            "pos" : 410,
+            "context" : "...by Southey, also features on page 56 thus: <mark>‘Dic<\/mark> peris agro at an da quarto finale\/ Fora ringat...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2474.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "DIC",
+            "weight" : "1",
+            "pos" : 292,
+            "context" : "...: KESWICK\/ 298 Watermark: [partial] J <mark>DIC<\/mark> Endorsement: 1815 Southey Robt\/ Aug – 22 MS...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1335a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Dic",
+            "weight" : "1",
+            "pos" : 178,
+            "context" : ".... Jackas boilatus est melior. Roastatus est siccus. <mark>Dic<\/mark> hoc Horatio, – Horatius amat pisces. Habui semel...",
+            "fid" : "southey.3.1335a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

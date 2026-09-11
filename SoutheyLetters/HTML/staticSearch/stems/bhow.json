@@ -1,0 +1,36 @@
+
+  { "stem" : "bhow",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3000.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bhow",
+            "weight" : "1",
+            "pos" : 756,
+            "context" : "...but that there are glorious places in Savoy for a <mark>Bhow<\/mark> leigh.15 God bless you.",
+            "fid" : "southey.5.3000",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bhow",
+            "weight" : "1",
+            "pos" : 1101,
+            "context" : "...joke about the house that Mary Barker, nicknamed the <mark>Bhow<\/mark> Begum, was building in a scenic part of Borrowdale...",
+            "fid" : "15",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Bhow",
+            "weight" : "1",
+            "pos" : 5277,
+            "context" : "...should illustrate Madoc (1805). She appears as the <mark>‘Bhow<\/mark> Begum’ in The Doctor (1834–1847). Mary...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

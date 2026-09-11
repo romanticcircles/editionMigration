@@ -1,0 +1,29 @@
+
+  { "stem" : "toaster",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3067.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "toasters",
+            "weight" : "1",
+            "pos" : 271,
+            "context" : "...your sage cheese which proves laudable &amp; good. The <mark>toasters<\/mark> have been of unequal merit, some pretty good,...",
+            "fid" : "southey.5.3067",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.23.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "toaster",
+            "weight" : "1",
+            "pos" : 407,
+            "context" : "...cheese was cut &amp; pard with care And in the <mark>toaster<\/mark> laidSays I, all toils &amp; perils pastSure I...",
+            "fid" : "line123",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

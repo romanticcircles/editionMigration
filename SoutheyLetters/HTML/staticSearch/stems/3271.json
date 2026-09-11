@@ -1,0 +1,61 @@
+
+  { "stem" : "3271",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3041.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3271",
+            "weight" : "1",
+            "pos" : 488,
+            "context" : "...de Portugal, Publicadas em 1603 (1786), no. <mark>3271<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "3271",
+            "weight" : "1",
+            "pos" : 551,
+            "context" : "...do Reino de Portugal, 1603 (1786), no. <mark>3271<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3271",
+            "weight" : "1",
+            "pos" : 324,
+            "context" : "Letter <mark>3271<\/mark>. 21 March 1819: John Rickman ",
+            "fid" : "6.3271" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3271.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3271",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3271<\/mark>. Robert Southey to John Rickman, 21 March 1819...",
+            "fid" : "southey.6.3271",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3271",
+            "weight" : "1",
+            "pos" : 308,
+            "context" : "Letter <mark>3271<\/mark>. 21 March 1819: John Rickman ",
+            "fid" : "refletterlistPart6.44",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

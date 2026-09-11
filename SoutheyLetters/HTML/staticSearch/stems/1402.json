@@ -1,0 +1,53 @@
+
+  { "stem" : "1402",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1402",
+            "weight" : "1",
+            "pos" : 3974,
+            "context" : "Letter <mark>1402<\/mark>. 21 December [1807]: John Rickman",
+            "fid" : "3.1402" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1402.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1402",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1402<\/mark>. Robert Southey to John Rickman, 21 December [...",
+            "fid" : "southey.3.1402",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1404.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1402",
+            "weight" : "1",
+            "pos" : 399,
+            "context" : "...to John Rickman, 21 December [1807], Letter <mark>1402<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1402",
+            "weight" : "1",
+            "pos" : 3949,
+            "context" : "Letter <mark>1402<\/mark>. 21 December [1807]: John Rickman",
+            "fid" : "refletterlistPart3.533",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

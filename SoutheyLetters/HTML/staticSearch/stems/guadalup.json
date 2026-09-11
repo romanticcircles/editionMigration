@@ -1,0 +1,32 @@
+
+  { "stem" : "guadalup",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.524.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Guadalupe",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "...Lady forgive me! with the history of our Lady of <mark>Guadalupe<\/mark>6 lying under my elbow. in any mood however...",
+            "fid" : "southey.2.524",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Guadalupe",
+            "weight" : "1",
+            "pos" : 507,
+            "context" : "6.  The monastery at <mark>Guadalupe<\/mark> in Spain contained a 12th-century statue of...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Guadalupe’",
+            "weight" : "1",
+            "pos" : 518,
+            "context" : "...-century statue of the Virgin Mary (‘our Lady of <mark>Guadalupe’<\/mark>), famous for its miracles and apparitions. Back",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

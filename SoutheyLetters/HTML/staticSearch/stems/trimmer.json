@@ -1,0 +1,45 @@
+
+  { "stem" : "trimmer",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1989.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Trimmer’s",
+            "weight" : "1",
+            "pos" : 78,
+            "context" : "...me the Bishop of London’s letter,6 nor Mrs <mark>Trimmer’s<\/mark> book, which I much wish to see, having...",
+            "fid" : "southey.4.1989",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Trimmer",
+            "weight" : "1",
+            "pos" : 363,
+            "context" : "7.   The educationalist and author Sarah <mark>Trimmer<\/mark> (1741–1810; DNB). Bell had praised...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Trimmer",
+            "weight" : "1",
+            "pos" : 371,
+            "context" : "...; DNB). Bell had praised ‘the good and pious’ <mark>Trimmer<\/mark> ‘to whose successful exertions in the cause of religion and...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.791.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "trimmers",
+            "weight" : "1",
+            "pos" : 13,
+            "context" : " The Taxers1 are indeed <mark>trimmers<\/mark>, &amp; for the most part well laid on but...",
+            "fid" : "southey.2.791",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

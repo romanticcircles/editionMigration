@@ -1,0 +1,37 @@
+
+  { "stem" : "papillon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3795.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "papillons",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "...the sunbeam (in the 8th book) are translated <mark>papillons<\/mark> de nuit.5 ",
+            "fid" : "southey.7.3795",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Papillons",
+            "weight" : "1",
+            "pos" : 427,
+            "context" : "5.  <mark>Papillons<\/mark> de nuit are moths: Roderick, le Dernier des...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3726.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "papillons",
+            "weight" : "1",
+            "pos" : 119,
+            "context" : "...from in the in the sunbeam for moths, – <mark>papillons<\/mark> de nuit.6 ",
+            "fid" : "southey.6.3726",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

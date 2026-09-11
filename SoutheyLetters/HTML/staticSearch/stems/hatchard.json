@@ -1,0 +1,37 @@
+
+  { "stem" : "hatchard",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4060.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Hatchards",
+            "weight" : "1",
+            "pos" : 124,
+            "context" : "...&amp; the story sad enough – When you pass by <mark>Hatchards<\/mark>,7 if you will give twenty shillings in my...",
+            "fid" : "southey.7.4060",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Hatchard",
+            "weight" : "1",
+            "pos" : 490,
+            "context" : "7.  The bookshop run by John <mark>Hatchard<\/mark> (1768–1849; DNB) at 187 Piccadilly...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3676.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hatchard",
+            "weight" : "1",
+            "pos" : 541,
+            "context" : "...but it was possibly from the shop run by John <mark>Hatchard<\/mark> (1768–1849; DNB) at 187 Piccadilly...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

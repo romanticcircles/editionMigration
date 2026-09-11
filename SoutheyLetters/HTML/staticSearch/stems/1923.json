@@ -1,0 +1,40 @@
+
+  { "stem" : "1923",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1923",
+            "weight" : "1",
+            "pos" : 1432,
+            "context" : "Letter <mark>1923<\/mark>. 15 May 1811: Henry Herbert Southey",
+            "fid" : "4.1923" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1923.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1923",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1923<\/mark>. Robert Southey to Henry Herbert Southey, 15 May...",
+            "fid" : "southey.4.1923",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1923",
+            "weight" : "1",
+            "pos" : 1411,
+            "context" : "Letter <mark>1923<\/mark>. 15 May 1811: Henry Herbert Southey",
+            "fid" : "refletterlistPart4.198",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

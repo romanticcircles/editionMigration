@@ -1,0 +1,40 @@
+
+  { "stem" : "702",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "702",
+            "weight" : "1",
+            "pos" : 3234,
+            "context" : "Letter <mark>702<\/mark>. 3 August 1802: Charles Biddlecombe",
+            "fid" : "2.702" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.702.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "702",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>702<\/mark>. Robert Southey to Charles Biddlecombe, 3 August 1802...",
+            "fid" : "southey.2.702",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "702",
+            "weight" : "1",
+            "pos" : 3207,
+            "context" : "Letter <mark>702<\/mark>. 3 August 1802: Charles Biddlecombe",
+            "fid" : "refletterlistPart2.427",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

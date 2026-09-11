@@ -1,0 +1,53 @@
+
+  { "stem" : "2571",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2571",
+            "weight" : "1",
+            "pos" : 6189,
+            "context" : "Letter <mark>2571<\/mark>. 14 March 1815: John Taylor Coleridge",
+            "fid" : "4.2571" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2571.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2571",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2571<\/mark>. Robert Southey to John Taylor Coleridge, 14 March...",
+            "fid" : "southey.4.2571",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2578.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2571",
+            "weight" : "1",
+            "pos" : 620,
+            "context" : "...to John Taylor Coleridge, 14 March 1815, Letter <mark>2571<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2571",
+            "weight" : "1",
+            "pos" : 6160,
+            "context" : "Letter <mark>2571<\/mark>. 14 March 1815: John Taylor Coleridge",
+            "fid" : "refletterlistPart4.853",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,52 @@
+
+  { "stem" : "contum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "contumelies",
+            "weight" : "1",
+            "pos" : 325,
+            "context" : "...From harsh &amp; sulphurous matter, that flies outIn <mark>contumelies<\/mark>, makes a noise, &amp; stinks!",
+            "fid" : "line3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "contumelies",
+            "weight" : "1",
+            "pos" : 1506,
+            "context" : "...From harsh &amp; sulphurous matter, that flies outIn <mark>contumelies<\/mark>, makes a noise, &amp; stinks.53 But...",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3776.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "contumelies",
+            "weight" : "1",
+            "pos" : 257,
+            "context" : "...From harsh and sulphurous matter, that flies outIn <mark>contumelies<\/mark>, makes a noise, and stinks!",
+            "fid" : "line3",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3626.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Contumely",
+            "weight" : "1",
+            "pos" : 431,
+            "context" : "..., &amp; no person can possibly regard it less. <mark>Contumely<\/mark> &amp; misrepresentation will never provoke an answer from me, much...",
+            "fid" : "southey.6.3626",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

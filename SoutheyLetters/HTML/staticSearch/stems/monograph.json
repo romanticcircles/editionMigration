@@ -1,0 +1,57 @@
+
+  { "stem" : "monograph",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "monographs",
+            "weight" : "1",
+            "pos" : 828,
+            "context" : "...English at De Montford University. He has published several <mark>monographs<\/mark> in which Southey features, most recently Romantic Indians (...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "monograph",
+            "weight" : "1",
+            "pos" : 904,
+            "context" : "...was Senior Lecturer in English at Loughborough University. Her <mark>monograph<\/mark> Writing the Empire: Robert Southey and Romantic Colonialism was...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "monograph",
+            "weight" : "1",
+            "pos" : 997,
+            "context" : "...on the Anglo-Irish writer Mary Tighe. Her <mark>monograph<\/mark> Mary Blachford Tighe: The Irish Psyche was published by...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "monograph",
+            "weight" : "1",
+            "pos" : 100422,
+            "context" : "...Commonly Called Angina Pectoris (1799) was the first <mark>monograph<\/mark> on the pathology of angina pectoris. Parry was a...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1474.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Monograph",
+            "weight" : "1",
+            "pos" : 292,
+            "context" : "...Louis Library, tipped into Daniel M. Tredwell, A <mark>Monograph<\/mark> on Privately Illustrated Books [fragment; only one sheet...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

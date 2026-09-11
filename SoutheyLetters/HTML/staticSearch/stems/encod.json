@@ -1,0 +1,32 @@
+
+  { "stem" : "encod",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "encoding",
+            "weight" : "1",
+            "pos" : 729,
+            "context" : "...one other member of the editorial team. After xml <mark>encoding<\/mark> and transformation, each Part of edition is proofed online...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "encoded",
+            "weight" : "1",
+            "pos" : 1980,
+            "context" : "...including Dave Rettenmaier and Jessica Tebo, this edition was <mark>encoded<\/mark> by Averill Buchanan using the XML tagset developed by the...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Encoding",
+            "weight" : "1",
+            "pos" : 1988,
+            "context" : "...Averill Buchanan using the XML tagset developed by the Text <mark>Encoding<\/mark> Initiative Consortium to ensure archival preservation. Laura Mandell created...",
+            "fid" : "ref.9",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

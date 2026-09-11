@@ -1,0 +1,53 @@
+
+  { "stem" : "1242",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1242",
+            "weight" : "1",
+            "pos" : 2753,
+            "context" : "Letter <mark>1242<\/mark>. [12 December 1806]: Charles Danvers [co...",
+            "fid" : "3.1242" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1242.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1242",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1242<\/mark>. Robert Southey and Thomas Southey to Charles Danvers,...",
+            "fid" : "southey.3.1242",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1258.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1242",
+            "weight" : "1",
+            "pos" : 665,
+            "context" : "...to Charles Danvers, [12 December 1806], Letter <mark>1242<\/mark>. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1242",
+            "weight" : "1",
+            "pos" : 2730,
+            "context" : "Letter <mark>1242<\/mark>. [12 December 1806]: Charles Danvers [co...",
+            "fid" : "refletterlistPart3.368",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

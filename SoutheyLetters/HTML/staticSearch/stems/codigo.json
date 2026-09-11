@@ -1,0 +1,50 @@
+
+  { "stem" : "codigo",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2386.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Codigo",
+            "weight" : "1",
+            "pos" : 644,
+            "context" : "<mark>Codigo<\/mark> Braziliense.39 ",
+            "fid" : "southey.4.2386",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Codigo",
+            "weight" : "1",
+            "pos" : 1510,
+            "context" : "39.  <mark>Codigo<\/mark> Brasiliense, ou Collecao das leis, alvaras, decretos...",
+            "fid" : "39",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2559.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Codigo",
+            "weight" : "1",
+            "pos" : 525,
+            "context" : "...de los reinos de Leon y Castilla especialmente sobre el <mark>Codigo<\/mark> de las Siete Partidas de D. Alonso el Sabio (...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.811.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Codigo",
+            "weight" : "1",
+            "pos" : 53,
+            "context" : "...them. it will be a good preliminary study to the <mark>Codigo<\/mark> Gothico3 which I have been so long expecting from...",
+            "fid" : "southey.2.811",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "tor",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.411.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tor",
+            "weight" : "1",
+            "pos" : 480,
+            "context" : "...are some fine spots in the neighbourhood, &amp; the <mark>Tor<\/mark>12 makes a fine object in the views. of...",
+            "fid" : "southey.2.411",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Tor",
+            "weight" : "1",
+            "pos" : 813,
+            "context" : "12.  Glastonbury <mark>Tor<\/mark>, a conical hill rising out of the Somerset levels...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.20.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tor",
+            "weight" : "1",
+            "pos" : 152,
+            "context" : "...buildings in England. the cavern &amp; Glastonbury Abbey &amp; <mark>Tor<\/mark> will please you but we saw Battle Abbey together &amp;...",
+            "fid" : "southey.1.20",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "lusitanorum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.674.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Lusitanorum",
+            "weight" : "1",
+            "pos" : 12,
+            "context" : " The Corpus Poetarum <mark>Lusitanorum<\/mark>1 is in all probability by this time arrived &amp;...",
+            "fid" : "southey.2.674",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Lusitanorum",
+            "weight" : "1",
+            "pos" : 179,
+            "context" : "...dos Reys (1690-1738), Corpus Illustrium Poetarum <mark>Lusitanorum<\/mark> (1745-1748), no. 3280 in the sale...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.548.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Lusitanorum",
+            "weight" : "1",
+            "pos" : 1255,
+            "context" : "20.  Antonio dos Reis, Corpus Illustrium Poetarum <mark>Lusitanorum<\/mark> qui Latine Scripserunt (1745). Back",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

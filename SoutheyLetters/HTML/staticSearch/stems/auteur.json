@@ -1,0 +1,37 @@
+
+  { "stem" : "auteur",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.670a.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "auteur",
+            "weight" : "1",
+            "pos" : 619,
+            "context" : "...Je n’ai jamais ni dit ni xx imaginé que cet <mark>auteur<\/mark> n’est pas homme de genie. seulement je dis que...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "auteur",
+            "weight" : "1",
+            "pos" : 744,
+            "context" : "...sorte de Thalaba est fort semblable a celle de son <mark>auteur<\/mark>, sa reputation est faite – mais pour sa fortune...",
+            "fid" : "southey.2.670a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2554.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "auteur",
+            "weight" : "1",
+            "pos" : 65,
+            "context" : "...A Monsieur Monsieur Robert Southey Esqre, Poete Laureat, <mark>auteur<\/mark> du Poeme intitulé Roderick the Last of the Goths,...",
+            "fid" : "southey.4.2554",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

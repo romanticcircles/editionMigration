@@ -1,0 +1,53 @@
+
+  { "stem" : "3400",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2143.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3400",
+            "weight" : "1",
+            "pos" : 684,
+            "context" : "...de Lisboa a corte de Vienna (1717), no. <mark>3400<\/mark> in the sale catalogue of Southey’s Library; and Simao...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3400",
+            "weight" : "1",
+            "pos" : 1288,
+            "context" : "Letter <mark>3400<\/mark>. 10 December 1819: Grosvenor Charles Bedford ",
+            "fid" : "6.3400" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3400.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3400",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3400<\/mark>. Robert Southey to Grosvenor Charles Bedford, 10 December...",
+            "fid" : "southey.6.3400",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3400",
+            "weight" : "1",
+            "pos" : 1272,
+            "context" : "Letter <mark>3400<\/mark>. 10 December 1819: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.174",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

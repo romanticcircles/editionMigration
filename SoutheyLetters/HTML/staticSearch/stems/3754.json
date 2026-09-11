@@ -1,0 +1,53 @@
+
+  { "stem" : "3754",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3754",
+            "weight" : "1",
+            "pos" : 3929,
+            "context" : "Letter <mark>3754<\/mark>. 7 December 1821: Grosvenor Charles Bedford ",
+            "fid" : "6.3754" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3754.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3754",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3754<\/mark>. Robert Southey to Grosvenor Charles Bedford, 7 December...",
+            "fid" : "southey.6.3754",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3754",
+            "weight" : "1",
+            "pos" : 3909,
+            "context" : "Letter <mark>3754<\/mark>. 7 December 1821: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.533",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3754",
+            "weight" : "1",
+            "pos" : 217,
+            "context" : "...the bicycle, and the rhinoceros (Letters 3260 and <mark>3754<\/mark>); lottery tickets bought with the aim of winning a...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

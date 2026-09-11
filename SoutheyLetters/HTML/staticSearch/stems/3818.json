@@ -1,0 +1,53 @@
+
+  { "stem" : "3818",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3818",
+            "weight" : "1",
+            "pos" : 327,
+            "context" : "Letter <mark>3818<\/mark>. 3 April 1822: [William Wilberforce]",
+            "fid" : "7.3818" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3818.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3818",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3818<\/mark>. Robert Southey to [William Wilberforce], 3 April...",
+            "fid" : "southey.7.3818",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3829.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3818",
+            "weight" : "1",
+            "pos" : 251,
+            "context" : "...Southey to William Wilberforce, 3 April 1822, Letter <mark>3818<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3818",
+            "weight" : "1",
+            "pos" : 311,
+            "context" : "Letter <mark>3818<\/mark>. 3 April 1822: [William Wilberforce]",
+            "fid" : "refletterlistPart7.45",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

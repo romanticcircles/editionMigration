@@ -1,0 +1,29 @@
+
+  { "stem" : "assistant-surgeon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4298.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Assistant-Surgeon",
+            "weight" : "1",
+            "pos" : 505,
+            "context" : "...an appointment in the Navy. He had previously been <mark>Assistant-Surgeon<\/mark> to the 62nd Regiment in the Army but had...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3431.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Assistant-Surgeon",
+            "weight" : "1",
+            "pos" : 399,
+            "context" : "8.  Andrew Cowan (1778–1808?), <mark>Assistant-Surgeon<\/mark> to the 83rd Regiment. In 1808 he led...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

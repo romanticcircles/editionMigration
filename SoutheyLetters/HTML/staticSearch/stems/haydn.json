@@ -1,0 +1,48 @@
+
+  { "stem" : "haydn",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Haydn",
+            "weight" : "1",
+            "pos" : 81653,
+            "context" : "...minister and composer – he was a friend of Joseph <mark>Haydn<\/mark> (1732–1809; DNB). Born into the...",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Haydn",
+            "weight" : "1",
+            "pos" : 117186,
+            "context" : "...and trios. He was also a friend of Joseph <mark>Haydn<\/mark> (1732–1809; DNB). Southey had met...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.883.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Haydn",
+            "weight" : "1",
+            "pos" : 499,
+            "context" : "...Pleyel (1757–1831), [Franz] Joseph <mark>Haydn<\/mark> (1732–1809; DNB) and Ludwig van...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.893.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Haydn",
+            "weight" : "1",
+            "pos" : 957,
+            "context" : "...Pleyel (1757–1831), (Franz) Joseph <mark>Haydn<\/mark> (1732–1809; DNB) and Ludwig van...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

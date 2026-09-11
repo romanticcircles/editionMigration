@@ -1,0 +1,62 @@
+
+  { "stem" : "pickwick",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.87.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Pickwick",
+            "weight" : "1",
+            "pos" : 143,
+            "context" : "...mail coach. my company a master of Trinity. <mark>Pickwick<\/mark>1 of St Johns &amp; Slade2 of Queens....",
+            "fid" : "southey.1.87",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Pickwick",
+            "weight" : "1",
+            "pos" : 475,
+            "context" : "1.  William <mark>Pickwick<\/mark> (dates unknown), a student at St John’s College...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pickwick",
+            "weight" : "1",
+            "pos" : 74361,
+            "context" : "...of Hampstead. The Jardines owned a small estate at <mark>Pickwick<\/mark>, near Bath.",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1501.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pickwick",
+            "weight" : "1",
+            "pos" : 577,
+            "context" : "...of Hampstead. The Jardines owned a small estate at <mark>Pickwick<\/mark>, near Bath. Danvers was now to become the...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.300.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pickwick",
+            "weight" : "1",
+            "pos" : 198,
+            "context" : "2.  The Jardines owned a small estate at <mark>Pickwick<\/mark>, near Bath, and Mrs Jardine was presumably considering...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

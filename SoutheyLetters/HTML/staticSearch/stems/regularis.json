@@ -1,0 +1,29 @@
+
+  { "stem" : "regularis",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "regularised",
+            "weight" : "1",
+            "pos" : 305,
+            "context" : "...and superscript, so in these cases we have silently <mark>regularised<\/mark> his practice and presented all his superscript abbreviations, both...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "regularised",
+            "weight" : "1",
+            "pos" : 1166,
+            "context" : "...to Keswick in 1803, letter writing became a more <mark>regularised<\/mark>, solitary occupation, pursued in Southey’s study at Greta...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

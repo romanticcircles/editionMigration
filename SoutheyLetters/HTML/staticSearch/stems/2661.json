@@ -1,0 +1,53 @@
+
+  { "stem" : "2661",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2661",
+            "weight" : "1",
+            "pos" : 6840,
+            "context" : "Letter <mark>2661<\/mark>. 20 October 1815: Grosvenor Charles Bedford",
+            "fid" : "4.2661" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2661.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2661",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2661<\/mark>. Robert Southey to Grosvenor Charles Bedford, 20 October...",
+            "fid" : "southey.4.2661",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2664.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2661",
+            "weight" : "1",
+            "pos" : 199,
+            "context" : "...to Grosvenor Charles Bedford, 20 October 1815 (Letter <mark>2661<\/mark>) and Southey to John May, 20 October 1815...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2661",
+            "weight" : "1",
+            "pos" : 6811,
+            "context" : "Letter <mark>2661<\/mark>. 20 October 1815: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.944",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

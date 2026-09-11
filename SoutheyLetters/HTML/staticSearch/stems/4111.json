@@ -1,0 +1,40 @@
+
+  { "stem" : "4111",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4111",
+            "weight" : "1",
+            "pos" : 2470,
+            "context" : "Letter <mark>4111<\/mark>. 29 December 1823: [John Abraham Heraud]...",
+            "fid" : "7.4111" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4111.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4111",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4111<\/mark>. Robert Southey to [John Abraham Heraud], 29...",
+            "fid" : "southey.7.4111",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4111",
+            "weight" : "1",
+            "pos" : 2452,
+            "context" : "Letter <mark>4111<\/mark>. 29 December 1823: [John Abraham Heraud]...",
+            "fid" : "refletterlistPart7.338",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "4194",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4194",
+            "weight" : "1",
+            "pos" : 3076,
+            "context" : "Letter <mark>4194<\/mark>. 28 May 1824: John May",
+            "fid" : "7.4194" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4194.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4194",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4194<\/mark>. Robert Southey to John May, 28 May 1824...",
+            "fid" : "southey.7.4194",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4194",
+            "weight" : "1",
+            "pos" : 3056,
+            "context" : "Letter <mark>4194<\/mark>. 28 May 1824: John May",
+            "fid" : "refletterlistPart7.421",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

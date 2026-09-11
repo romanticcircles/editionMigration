@@ -1,0 +1,37 @@
+
+  { "stem" : "bemerton",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1104.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bemerton",
+            "weight" : "1",
+            "pos" : 12,
+            "context" : " Norris of <mark>Bemerton<\/mark> is the man I mean.1 Did you not...",
+            "fid" : "southey.3.1104",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bemerton’",
+            "weight" : "1",
+            "pos" : 347,
+            "context" : "...edn 1803). He had asked Bedford about ‘Norris of <mark>Bemerton’<\/mark> in an earlier letter; see Southey to Grosvenor Charles...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1086.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bemerton",
+            "weight" : "1",
+            "pos" : 155,
+            "context" : " Have you overlooked the specimens of Norris of <mark>Bemerton<\/mark> or am I mistaken in supposing he died about 1712...",
+            "fid" : "southey.3.1086",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

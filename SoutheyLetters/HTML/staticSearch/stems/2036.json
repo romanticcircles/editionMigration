@@ -1,0 +1,53 @@
+
+  { "stem" : "2036",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2036",
+            "weight" : "1",
+            "pos" : 2256,
+            "context" : "Letter <mark>2036<\/mark>. 12 February [1812]: John Rickman",
+            "fid" : "4.2036" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2036.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2036",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2036<\/mark>. Robert Southey to John Rickman, 12 February [...",
+            "fid" : "southey.4.2036",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2064.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2036",
+            "weight" : "1",
+            "pos" : 729,
+            "context" : "...to John Rickman 12 February [1812] (Letter <mark>2036<\/mark>). Back",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2036",
+            "weight" : "1",
+            "pos" : 2233,
+            "context" : "Letter <mark>2036<\/mark>. 12 February [1812]: John Rickman",
+            "fid" : "refletterlistPart4.313",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

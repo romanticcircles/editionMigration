@@ -1,0 +1,40 @@
+
+  { "stem" : "3501",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3501",
+            "weight" : "1",
+            "pos" : 2043,
+            "context" : "Letter <mark>3501<\/mark>. 28 June 1820: [James Heywood] Markland...",
+            "fid" : "6.3501" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3501.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3501",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3501<\/mark>. Robert Southey to [James Heywood] Markland,...",
+            "fid" : "southey.6.3501",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3501",
+            "weight" : "1",
+            "pos" : 2025,
+            "context" : "Letter <mark>3501<\/mark>. 28 June 1820: [James Heywood] Markland...",
+            "fid" : "refletterlistPart6.277",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

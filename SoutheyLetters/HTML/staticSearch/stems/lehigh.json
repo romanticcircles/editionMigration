@@ -1,0 +1,29 @@
+
+  { "stem" : "lehigh",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Lehigh",
+            "weight" : "1",
+            "pos" : 1260,
+            "context" : "...Libraries, Iowa City, Iowa; the Library, <mark>Lehigh<\/mark> University; The Lilly Library, Indiana University; Special...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1948.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Lehigh",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "...Endorsement: Mr. Southey 5 Septr 1811 MS: <mark>Lehigh<\/mark> University, Special Collections. ALS; (c). Previously published...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

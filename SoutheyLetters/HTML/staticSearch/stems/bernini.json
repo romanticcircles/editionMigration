@@ -1,0 +1,37 @@
+
+  { "stem" : "bernini",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1160.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bernini",
+            "weight" : "1",
+            "pos" : 184,
+            "context" : "...&amp; reading as relaxation the Italian Hist of Heresies by <mark>Bernini<\/mark>10 which I bought in Edinburgh, a book highly...",
+            "fid" : "southey.3.1160",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bernini",
+            "weight" : "1",
+            "pos" : 625,
+            "context" : "10.   Domenico <mark>Bernini<\/mark> (1657–1723), Istoria, di Tutte l’Heresie...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1159.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bernini",
+            "weight" : "1",
+            "pos" : 536,
+            "context" : "5.   Domenico <mark>Bernini<\/mark> (1657–1723), Istoria, di Tutte l’Heresie...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

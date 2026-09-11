@@ -1,0 +1,50 @@
+
+  { "stem" : "erudita",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.696.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "eruditas",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "The Cartas <mark>eruditas<\/mark> e curiosas3 if I forgot x mistake not are...",
+            "fid" : "southey.2.696",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Eruditas",
+            "weight" : "1",
+            "pos" : 431,
+            "context" : "...3.  Benito Jerónimo Feijoo (1676-1764), Cartas <mark>Eruditas<\/mark> y Curiosas (1742-1760), no. 3297 in...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4308.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Eruditas",
+            "weight" : "1",
+            "pos" : 956,
+            "context" : "...6.  Benito Jerónimo Feijoo (1674–1764), Cartas <mark>Eruditas<\/mark>, y Curiosas, 5 vols (Madrid, 1781...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3302.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Eruditas",
+            "weight" : "1",
+            "pos" : 723,
+            "context" : "...Teatro Crítico Universal (1726–1739) and Cartas <mark>Eruditas<\/mark> y Curiosas (1742–1760), cover a range...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

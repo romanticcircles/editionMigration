@@ -1,0 +1,29 @@
+
+  { "stem" : "mountebank",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.530.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mountebank",
+            "weight" : "1",
+            "pos" : 303,
+            "context" : "...the great day is a time of rejoicing. his <mark>mountebank<\/mark>-stage was illuminated his flags floating across the street...",
+            "fid" : "southey.2.530",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.532.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mountebank",
+            "weight" : "1",
+            "pos" : 507,
+            "context" : "...was a festival at the Emperors headquarters.6 his <mark>mountebank<\/mark> stage was illuminated, &amp; pitch barrels blazing along the...",
+            "fid" : "southey.2.532",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

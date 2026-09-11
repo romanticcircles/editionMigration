@@ -1,0 +1,29 @@
+
+  { "stem" : "sd",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.132.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "SD",
+            "weight" : "1",
+            "pos" : 345,
+            "context" : "Address: R Duppa Endorsement: Southey <mark>SD<\/mark>\/ Ans MS: Morgan Library, MA 63....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.808.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Sd",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "...that was worth any thing more than the mere £<mark>Sd<\/mark>. &amp; price of labour – &amp; the choir full...",
+            "fid" : "southey.2.808",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

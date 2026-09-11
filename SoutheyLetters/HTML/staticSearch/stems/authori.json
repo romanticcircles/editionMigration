@@ -1,0 +1,84 @@
+
+  { "stem" : "authori",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 354,
+            "context" : "...Charles Bedford. Editorial {...} are used to indicate an <mark>authorial<\/mark> insertion of text above or below the line. ",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 558,
+            "context" : "...; ‘before’ is used either when a letter contains an <mark>authorial<\/mark> date, but there is evidence within the letter that...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 573,
+            "context" : "...receipt; ‘after’ is used when a letter contains an <mark>authorial<\/mark> date, but there is evidence within the letter that...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3827.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "...: The endorsements incorrectly date this to ‘1823’. Southey’s <mark>authorial<\/mark> dating and the letter’s content indicate it was written on...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3500.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 183,
+            "context" : "...and postmarked. Its hasty composition is reflected in numerous <mark>authorial<\/mark> mistakes in spelling and sense. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1325.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 37,
+            "context" : "...complimentary kind. I like to be complimented in my <mark>authorial<\/mark> character, &amp; best of all xx by booksellers,...",
+            "fid" : "southey.3.1325",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.712.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "authorial",
+            "weight" : "1",
+            "pos" : 179,
+            "context" : "...note: Incorrectly postmarked ‘AUG’, the letter has the <mark>authorial<\/mark> dating of 1 September 1802. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

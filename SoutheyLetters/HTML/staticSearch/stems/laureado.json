@@ -1,0 +1,37 @@
+
+  { "stem" : "laureado",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.188.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Laureado",
+            "weight" : "1",
+            "pos" : 1130,
+            "context" : "...Cortes do Parnaso De Diogo Camacho, Em Que Ficou <mark>Laureado<\/mark> Por Apollo (1794). Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Laureado",
+            "weight" : "1",
+            "pos" : 1169,
+            "context" : "...Cortes do Parnaso De Diogo Camacho, Em Que Ficou <mark>Laureado<\/mark> Por Apollo (Lisbon, 1794), p. 17....",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1487.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Laureado",
+            "weight" : "1",
+            "pos" : 465,
+            "context" : "...penname of Antonio de Silva, Nise Lastimosa and Nise <mark>Laureado<\/mark> (1577) on the subject of Inês de Castro...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

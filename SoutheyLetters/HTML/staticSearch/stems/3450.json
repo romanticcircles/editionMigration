@@ -1,0 +1,40 @@
+
+  { "stem" : "3450",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3450",
+            "weight" : "1",
+            "pos" : 1660,
+            "context" : "Letter <mark>3450<\/mark>. 4 March 1820: Grosvenor Charles Bedford ",
+            "fid" : "6.3450" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3450.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3450",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3450<\/mark>. Robert Southey to Grosvenor Charles Bedford, 4 March...",
+            "fid" : "southey.6.3450",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3450",
+            "weight" : "1",
+            "pos" : 1642,
+            "context" : "Letter <mark>3450<\/mark>. 4 March 1820: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.224",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "connel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.577.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Connell",
+            "weight" : "1",
+            "pos" : 488,
+            "context" : "...Faro, &amp; today remain here to rest. General <mark>Connell<\/mark>11 will hardly let us depart tomorrow – which however...",
+            "fid" : "southey.2.577",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Connell",
+            "weight" : "1",
+            "pos" : 986,
+            "context" : "11.  Brigadier-General Joao Schadwell <mark>Connell<\/mark> (dates unknown), Governor of Faro. Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Connell",
+            "weight" : "1",
+            "pos" : 1860,
+            "context" : "...the Huntington Library, San Marino, for a Michael <mark>Connell<\/mark> fellowship; the Friends of Princeton University library for a...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

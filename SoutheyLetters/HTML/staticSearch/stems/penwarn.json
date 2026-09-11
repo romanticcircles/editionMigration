@@ -1,0 +1,37 @@
+
+  { "stem" : "penwarn",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.534.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Penwarne",
+            "weight" : "1",
+            "pos" : 314,
+            "context" : "...their names stared me in the face; and the <mark>Penwarne<\/mark>, whom I knew, was under my feet,...",
+            "fid" : "southey.2.534",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Penwarne",
+            "weight" : "1",
+            "pos" : 945,
+            "context" : "12.  <mark>Penwarne<\/mark>: unidentified. Scott: unidentified. Back",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.392.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Penwarne",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : "My Uncle used to call <mark>Penwarne<\/mark>6 a stupid Devonshire man – &amp; then add that...",
+            "fid" : "southey.2.392",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

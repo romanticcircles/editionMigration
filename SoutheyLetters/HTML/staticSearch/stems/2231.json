@@ -1,0 +1,40 @@
+
+  { "stem" : "2231",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2231",
+            "weight" : "1",
+            "pos" : 3652,
+            "context" : "Letter <mark>2231<\/mark>. [mid-March 1813]: John Rickman",
+            "fid" : "4.2231" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2231.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2231",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2231<\/mark>. Robert Southey to John Rickman, [ mid-...",
+            "fid" : "southey.4.2231",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2231",
+            "weight" : "1",
+            "pos" : 3627,
+            "context" : "Letter <mark>2231<\/mark>. [mid-March 1813]: John Rickman",
+            "fid" : "refletterlistPart4.508",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "astrea",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Astrea",
+            "weight" : "1",
+            "pos" : 9,
+            "context" : " When <mark>Astrea<\/mark> disgusted with the injustice of mankind fled from the guilty...",
+            "fid" : "southey.1.4",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Astrea",
+            "weight" : "1",
+            "pos" : 369,
+            "context" : "1.  <mark>Astrea<\/mark>, in Greek mythology the goddess of justice, who...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3584.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Astrea’",
+            "weight" : "1",
+            "pos" : 255,
+            "context" : "...aim. It would be useless to send me your <mark>‘Astrea’<\/mark>4 – no bookseller would undertake the risk of publishing...",
+            "fid" : "southey.6.3584",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "rental",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2809.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "rental",
+            "weight" : "1",
+            "pos" : 74,
+            "context" : ".... Is there any roguery in the returns of the <mark>rental<\/mark> which may account for this?",
+            "fid" : "southey.5.2809",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.392.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "rentals",
+            "weight" : "1",
+            "pos" : 66,
+            "context" : "...estates for better times, that he has raisd the <mark>rentals<\/mark>, which will make &lt;them&gt; sell better if they must...",
+            "fid" : "southey.2.392",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

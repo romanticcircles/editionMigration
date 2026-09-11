@@ -1,0 +1,40 @@
+
+  { "stem" : "818",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "818",
+            "weight" : "1",
+            "pos" : 4111,
+            "context" : "Letter <mark>818<\/mark>. 7 August 1803: Mary Hays",
+            "fid" : "2.818" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.818.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "818",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>818<\/mark>. Robert Southey to Mary Hays, 7 August 1803...",
+            "fid" : "southey.2.818",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "818",
+            "weight" : "1",
+            "pos" : 4082,
+            "context" : "Letter <mark>818<\/mark>. 7 August 1803: Mary Hays",
+            "fid" : "refletterlistPart2.545",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

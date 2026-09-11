@@ -1,0 +1,37 @@
+
+  { "stem" : "vole",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1162.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "vole",
+            "weight" : "1",
+            "pos" : 307,
+            "context" : "...xxxxxx &lt;Bold&gt; Beaverum bōbus she plays for the <mark>vole<\/mark>!8 ",
+            "fid" : "southey.3.1162",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "vole",
+            "weight" : "1",
+            "pos" : 500,
+            "context" : "...or nickname for Sara Coleridge; to play for the <mark>vole<\/mark> means to win all the tricks in a card game...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4310.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "vole",
+            "weight" : "1",
+            "pos" : 600,
+            "context" : "...I deterred Mrs Coleridge from winning a sure sans prendre <mark>vole<\/mark> at Quadrille,13 by laying my finger upon one...",
+            "fid" : "southey.7.4310",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

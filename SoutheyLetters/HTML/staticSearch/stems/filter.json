@@ -1,0 +1,29 @@
+
+  { "stem" : "filter",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4191.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "filtered",
+            "weight" : "1",
+            "pos" : 1092,
+            "context" : "...&amp; Heaven knows how many pipes23 must have been <mark>filtered<\/mark> thro the &lt;Pullenian&gt; system, before that fine...",
+            "fid" : "southey.7.4191",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1210.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "filtering",
+            "weight" : "1",
+            "pos" : 67,
+            "context" : "...the sale will be something slower than distillation thro a <mark>filtering<\/mark> stone. We mean to print a small edition in...",
+            "fid" : "southey.3.1210",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

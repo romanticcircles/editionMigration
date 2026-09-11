@@ -1,0 +1,53 @@
+
+  { "stem" : "1915",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1915",
+            "weight" : "1",
+            "pos" : 1377,
+            "context" : "Letter <mark>1915<\/mark>. 3 May 1811: Grosvenor Charles Bedford",
+            "fid" : "4.1915" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1915.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1915",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1915<\/mark>. Robert Southey to Grosvenor Charles Bedford, 3 May...",
+            "fid" : "southey.4.1915",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1920.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1915",
+            "weight" : "1",
+            "pos" : 702,
+            "context" : "...to Grosvenor Charles Bedford, 3 May 1811, Letter <mark>1915<\/mark>. Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1915",
+            "weight" : "1",
+            "pos" : 1356,
+            "context" : "Letter <mark>1915<\/mark>. 3 May 1811: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.190",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

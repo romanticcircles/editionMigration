@@ -1,0 +1,40 @@
+
+  { "stem" : "719",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "719",
+            "weight" : "1",
+            "pos" : 3363,
+            "context" : "Letter <mark>719<\/mark>. [19] September [1802]: Edith Southey...",
+            "fid" : "2.719" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.719.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "719",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>719<\/mark>. Robert Southey to Edith Southey, [19]...",
+            "fid" : "southey.2.719",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "719",
+            "weight" : "1",
+            "pos" : 3336,
+            "context" : "Letter <mark>719<\/mark>. [19] September [1802]: Edith Southey...",
+            "fid" : "refletterlistPart2.445",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

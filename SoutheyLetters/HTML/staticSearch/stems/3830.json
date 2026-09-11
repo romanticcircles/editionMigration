@@ -1,0 +1,40 @@
+
+  { "stem" : "3830",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3830",
+            "weight" : "1",
+            "pos" : 411,
+            "context" : "Letter <mark>3830<\/mark>. 22 April 1822: [John May]",
+            "fid" : "7.3830" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3830.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3830",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3830<\/mark>. Robert Southey to [John May], 22 April...",
+            "fid" : "southey.7.3830",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3830",
+            "weight" : "1",
+            "pos" : 395,
+            "context" : "Letter <mark>3830<\/mark>. 22 April 1822: [John May]",
+            "fid" : "refletterlistPart7.57",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

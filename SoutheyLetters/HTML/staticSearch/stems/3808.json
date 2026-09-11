@@ -1,0 +1,61 @@
+
+  { "stem" : "3808",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1081.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3808",
+            "weight" : "1",
+            "pos" : 480,
+            "context" : "...; text is taken from H.M. Poynter, Athenaeum, <mark>3808<\/mark> (20 October 1900) Previously published: H.M. Poynter...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "3808",
+            "weight" : "1",
+            "pos" : 488,
+            "context" : "...1900) Previously published: H.M. Poynter, Athenaeum, <mark>3808<\/mark> (20 October 1900), 512. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3808",
+            "weight" : "1",
+            "pos" : 254,
+            "context" : "Letter <mark>3808<\/mark>. 27 February 1822: Charles Watkin Williams Wynn",
+            "fid" : "7.3808" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3808.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3808",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3808<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 27...",
+            "fid" : "southey.7.3808",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3808",
+            "weight" : "1",
+            "pos" : 238,
+            "context" : "Letter <mark>3808<\/mark>. 27 February 1822: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart7.35",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

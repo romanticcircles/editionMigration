@@ -1,0 +1,57 @@
+
+  { "stem" : "bremhil",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3790.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Bremhill",
+            "weight" : "1",
+            "pos" : 17,
+            "context" : "I was glad to hear of you from <mark>Bremhill<\/mark>,1 &amp; to find that there is a fair...",
+            "fid" : "southey.7.3790",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bremhill",
+            "weight" : "1",
+            "pos" : 443,
+            "context" : "1.  The vicarage at <mark>Bremhill<\/mark> (now Bremhill Court) was the home of William Lisle...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Bremhill",
+            "weight" : "1",
+            "pos" : 444,
+            "context" : "1.  The vicarage at Bremhill (now <mark>Bremhill<\/mark> Court) was the home of William Lisle Bowles....",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bremhill",
+            "weight" : "1",
+            "pos" : 19971,
+            "context" : "...family’s tradition and was ordained. He became Vicar of <mark>Bremhill<\/mark>, Wiltshire in 1804, a chaplain to the Prince...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3385.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bremhill",
+            "weight" : "1",
+            "pos" : 1081,
+            "context" : "...was only about twelve miles from William Lisle Bowles’s at <mark>Bremhill<\/mark>. The two men had met in 1815 and Bowles...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

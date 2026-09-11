@@ -1,0 +1,43 @@
+
+  { "stem" : "ball-room",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ball-room",
+            "weight" : "1",
+            "pos" : 280,
+            "context" : "...blessing that nature bestowed,Not cut out for the <mark>ball-room<\/mark>, but made for the road,Not with delicate...",
+            "fid" : "line44",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4219.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ball-rooms",
+            "weight" : "1",
+            "pos" : 191,
+            "context" : "...will wear out more shoes upon the shore than in <mark>ball-rooms<\/mark>.",
+            "fid" : "southey.7.4219",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.505.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ball-rooms",
+            "weight" : "1",
+            "pos" : 315,
+            "context" : "...of illness will guarantee me from cards and company and <mark>ball-rooms<\/mark>! No! no! I do not wear my old cocked...",
+            "fid" : "southey.2.505",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

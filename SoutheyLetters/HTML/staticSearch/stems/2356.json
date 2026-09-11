@@ -1,0 +1,40 @@
+
+  { "stem" : "2356",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2356",
+            "weight" : "1",
+            "pos" : 4568,
+            "context" : "Letter <mark>2356<\/mark>. 28 December 1813: Herbert Hill",
+            "fid" : "4.2356" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2356.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2356",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2356<\/mark>. Robert Southey to Herbert Hill, 28 December 1813...",
+            "fid" : "southey.4.2356",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2356",
+            "weight" : "1",
+            "pos" : 4543,
+            "context" : "Letter <mark>2356<\/mark>. 28 December 1813: Herbert Hill",
+            "fid" : "refletterlistPart4.633",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

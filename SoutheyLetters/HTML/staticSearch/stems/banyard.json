@@ -1,0 +1,58 @@
+
+  { "stem" : "banyard",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.187.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Banyards",
+            "weight" : "1",
+            "pos" : 80,
+            "context" : " have you seen Bob <mark>Banyards<\/mark> Review of Joan of Arc?2 ",
+            "fid" : "southey.1.187",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Banyard’",
+            "weight" : "1",
+            "pos" : 499,
+            "context" : "2.  <mark>‘Banyard’<\/mark> is possibly a nickname for Robert Nares. An anonymous...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.251.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Banyard",
+            "weight" : "1",
+            "pos" : 19,
+            "context" : " I have amused myself with abusing the Reverend Robert <mark>Banyard<\/mark>,1 &amp; he has amused himself with abusing me...",
+            "fid" : "southey.1.251",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Banyard’",
+            "weight" : "1",
+            "pos" : 288,
+            "context" : "1.  <mark>‘Banyard’<\/mark> is possibly a nickname for Robert Nares. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.193.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Banyard",
+            "weight" : "1",
+            "pos" : 356,
+            "context" : "...but pack them off by the first coach. Bob <mark>Banyard<\/mark>5 has announced you often enough &amp; pompously enough....",
+            "fid" : "southey.1.193",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

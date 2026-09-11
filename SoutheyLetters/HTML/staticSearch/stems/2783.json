@@ -1,0 +1,53 @@
+
+  { "stem" : "2783",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2783",
+            "weight" : "1",
+            "pos" : 697,
+            "context" : "Letter <mark>2783<\/mark>. 7 May [1816]: John Rickman",
+            "fid" : "5.2783" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2783.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2783",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2783<\/mark>. Robert Southey to John Rickman, 7 May [...",
+            "fid" : "southey.5.2783",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2783",
+            "weight" : "1",
+            "pos" : 681,
+            "context" : "Letter <mark>2783<\/mark>. 7 May [1816]: John Rickman",
+            "fid" : "refletterlistPart5.94",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.472.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2783",
+            "weight" : "1",
+            "pos" : 701,
+            "context" : "...XXVIII Sermons Preached at Golden Grove (1654), no. <mark>2783<\/mark> in the sale catalogue of Southey’s library. Southey versified...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

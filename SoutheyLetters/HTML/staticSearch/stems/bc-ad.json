@@ -1,0 +1,50 @@
+
+  { "stem" : "bc-ad",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.773.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "BC-AD",
+            "weight" : "1",
+            "pos" : 571,
+            "context" : "4.  Gaius Julius Caesar Augustus (63 <mark>BC-AD<\/mark> 14; Emperor of Rome 30 BC-AD 14...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "BC-AD",
+            "weight" : "1",
+            "pos" : 578,
+            "context" : "...63 BC-AD 14; Emperor of Rome 30 <mark>BC-AD<\/mark> 14). Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3003.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "BC-AD",
+            "weight" : "1",
+            "pos" : 1143,
+            "context" : "...–48 AD), third wife of Claudius (10 <mark>BC-AD<\/mark> 54; Emperor of Rome 41–54 AD);...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.598.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "BC-AD",
+            "weight" : "1",
+            "pos" : 460,
+            "context" : "3.  Two figures from Publius Ovidius Naso (43 <mark>BC-AD<\/mark> 17\/18), Metamorphoses, Book 11. Ceyx...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

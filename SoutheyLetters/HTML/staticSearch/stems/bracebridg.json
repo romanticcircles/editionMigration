@@ -1,0 +1,50 @@
+
+  { "stem" : "bracebridg",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3864.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bracebridge",
+            "weight" : "1",
+            "pos" : 24,
+            "context" : "...Her sons book1 reached me only the day before. <mark>Bracebridge<\/mark> Hall2 came with it. I agree with you in...",
+            "fid" : "southey.7.3864",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bracebridge",
+            "weight" : "1",
+            "pos" : 127,
+            "context" : "2.  Washington Irving (1783–1859), <mark>Bracebridge<\/mark> Hall, or The Humorists. A Medley (1822...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3849.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bracebridge",
+            "weight" : "1",
+            "pos" : 196,
+            "context" : "...the book arrived in the same parcel as Washington Irving’s <mark>Bracebridge<\/mark> Hall, or The Humorists. A Medley (1822...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3863.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bracebridge",
+            "weight" : "1",
+            "pos" : 194,
+            "context" : "...a copy of Washington Irving (1783–1859), <mark>Bracebridge<\/mark> Hall, or The Humorists. A Medley (1822...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

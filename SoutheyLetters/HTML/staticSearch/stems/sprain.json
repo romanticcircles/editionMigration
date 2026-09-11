@@ -1,0 +1,50 @@
+
+  { "stem" : "sprain",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.47.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "sprained",
+            "weight" : "1",
+            "pos" : 558,
+            "context" : "...Seward &amp; I purpose walking there. on our return I <mark>sprained<\/mark> my ancle pretty severely which however did not prevent my...",
+            "fid" : "southey.1.47",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "sprain",
+            "weight" : "1",
+            "pos" : 654,
+            "context" : "...real cause of my confinement &amp; my neglect. the <mark>sprain<\/mark> happened fortunately for me I could have finished them [...",
+            "fid" : "southey.1.47",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2854.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sprained",
+            "weight" : "1",
+            "pos" : 382,
+            "context" : "...the rain drove us back &amp; in returning I xxxx <mark>sprained<\/mark> my ancle somewhat severely. This is the younger Westall...",
+            "fid" : "southey.5.2854",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2857.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sprained",
+            "weight" : "1",
+            "pos" : 418,
+            "context" : "...save only that I am kept within doors by a <mark>sprained<\/mark> ankle, – but a day or two more will...",
+            "fid" : "southey.5.2857",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

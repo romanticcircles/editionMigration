@@ -1,0 +1,40 @@
+
+  { "stem" : "3872",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3872",
+            "weight" : "1",
+            "pos" : 720,
+            "context" : "Letter <mark>3872<\/mark>. 17 July 1822: Samuel Tillbrook",
+            "fid" : "7.3872" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3872.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3872",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3872<\/mark>. Robert Southey to Samuel Tillbrook, 17 July 1822...",
+            "fid" : "southey.7.3872",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3872",
+            "weight" : "1",
+            "pos" : 704,
+            "context" : "Letter <mark>3872<\/mark>. 17 July 1822: Samuel Tillbrook",
+            "fid" : "refletterlistPart7.99",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

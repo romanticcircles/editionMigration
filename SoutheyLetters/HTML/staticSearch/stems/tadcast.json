@@ -1,0 +1,49 @@
+
+  { "stem" : "tadcast",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3789.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Tadcaster",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "...To\/ Richard York Esqre\/ Wighill Park\/ near\/ <mark>Tadcaster<\/mark> Stamped: KESWICK\/ 298 Seal: red wax;...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Tadcaster",
+            "weight" : "1",
+            "pos" : 217,
+            "context" : "4.  The home of the York family, near <mark>Tadcaster<\/mark>, Yorkshire. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tadcaster",
+            "weight" : "1",
+            "pos" : 164751,
+            "context" : "...in the yeomanry. He lived at Wighill Park, <mark>Tadcaster<\/mark>, Yorkshire. York married Lady Mary-Anne Lascelles...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1284.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tadcaster",
+            "weight" : "1",
+            "pos" : 398,
+            "context" : "...join him at Cambridge University. Maddock was vicar of <mark>Tadcaster<\/mark> from 1831–1871. Back",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

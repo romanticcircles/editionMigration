@@ -1,0 +1,53 @@
+
+  { "stem" : "836",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2336.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "836",
+            "weight" : "1",
+            "pos" : 486,
+            "context" : "...Southey requested the expanded second edition of 1811; no. <mark>836<\/mark> in the sale catalogue of his library. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "836",
+            "weight" : "1",
+            "pos" : 4240,
+            "context" : "Letter <mark>836<\/mark>. 8 September [1803]: Charles Danvers",
+            "fid" : "2.836" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.836.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "836",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>836<\/mark>. Robert Southey to Charles Danvers, 8 September [...",
+            "fid" : "southey.2.836",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "836",
+            "weight" : "1",
+            "pos" : 4211,
+            "context" : "Letter <mark>836<\/mark>. 8 September [1803]: Charles Danvers",
+            "fid" : "refletterlistPart2.563",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

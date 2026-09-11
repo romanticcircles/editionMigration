@@ -1,0 +1,40 @@
+
+  { "stem" : "2443",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2443",
+            "weight" : "1",
+            "pos" : 5235,
+            "context" : "Letter <mark>2443<\/mark>. 17 June 1814: Grosvenor Charles Bedford",
+            "fid" : "4.2443" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2443.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2443",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2443<\/mark>. Robert Southey to Grosvenor Charles Bedford, 17 June...",
+            "fid" : "southey.4.2443",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2443",
+            "weight" : "1",
+            "pos" : 5208,
+            "context" : "Letter <mark>2443<\/mark>. 17 June 1814: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.723",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

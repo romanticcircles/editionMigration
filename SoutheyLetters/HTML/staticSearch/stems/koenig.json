@@ -1,0 +1,41 @@
+
+  { "stem" : "koenig",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Koenig",
+            "weight" : "1",
+            "pos" : 1727,
+            "context" : "...Lynne Hapgood, Elaine Hobby, Philippa Hoskin, Jason <mark>Koenig<\/mark>, Laura Mandell, Joanna Martin, Tilar J. Mazzeo...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/mentioned.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Koenig",
+            "weight" : "1",
+            "pos" : 64826,
+            "context" : "...George                 Kidd, John                    King, John [Nicholas Johann <mark>Koenig<\/mark>]                                                                                                                                         King, Emmeline                       Knighton, William                                             Knowles, Herbert...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Koenig",
+            "weight" : "1",
+            "pos" : 76568,
+            "context" : "...1770–1847)                        King, John [Nicholas Johann <mark>Koenig<\/mark>] (1766–1846)                                                                                                                                          Knighton, William (...",
+            "fid" : "KingJohn",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

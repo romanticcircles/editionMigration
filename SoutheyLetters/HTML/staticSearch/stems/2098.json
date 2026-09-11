@@ -1,0 +1,53 @@
+
+  { "stem" : "2098",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2098",
+            "weight" : "1",
+            "pos" : 2702,
+            "context" : "Letter <mark>2098<\/mark>. 20 May 1812: Mary Barker",
+            "fid" : "4.2098" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2098.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2098",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2098<\/mark>. Robert Southey to Mary Barker, 20 May 1812...",
+            "fid" : "southey.4.2098",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2098",
+            "weight" : "1",
+            "pos" : 2679,
+            "context" : "Letter <mark>2098<\/mark>. 20 May 1812: Mary Barker",
+            "fid" : "refletterlistPart4.375",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3735.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2098",
+            "weight" : "1",
+            "pos" : 546,
+            "context" : "...Turkey (London, 1818), p. 248, no. <mark>2098<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

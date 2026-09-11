@@ -1,0 +1,37 @@
+
+  { "stem" : "belle-alli",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2677.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Belle-Alliance",
+            "weight" : "1",
+            "pos" : 108,
+            "context" : "...is planned much to my liking upon the battle of <mark>Belle-Alliance<\/mark>. You may be sure there will be no battle...",
+            "fid" : "southey.4.2677",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Belle-Alliance",
+            "weight" : "1",
+            "pos" : 116,
+            "context" : "...no battle in the poem. Why I call it <mark>Belle-Alliance<\/mark> &amp; not Waterloo you shall know when I have more...",
+            "fid" : "southey.4.2677",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘Belle-Alliance’",
+            "weight" : "1",
+            "pos" : 1718,
+            "context" : "...works. In 1815–1816 he wanted to use <mark>‘Belle-Alliance’<\/mark>, ‘anything but Waterloo’, in the title of his...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

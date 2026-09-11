@@ -1,0 +1,45 @@
+
+  { "stem" : "vism",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.533.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Visme",
+            "weight" : "1",
+            "pos" : 511,
+            "context" : "...I have sought for it in vain. Then De <mark>Visme<\/mark>5 undertook the affair; and the bust of Fielding...",
+            "fid" : "southey.2.533",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Visme",
+            "weight" : "1",
+            "pos" : 549,
+            "context" : " De <mark>Visme<\/mark> introduced the present fashion of painting rooms in stucco,...",
+            "fid" : "southey.2.533",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Visme",
+            "weight" : "1",
+            "pos" : 926,
+            "context" : "5.  Gerard De <mark>Visme<\/mark> (1726–1797), wealthy British merchant long resident...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4192.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Visme",
+            "weight" : "1",
+            "pos" : 509,
+            "context" : "...up to 1815. Goldsmid had married Louisa Boscawen de <mark>Visme<\/mark> (1782–1862) in 1809 and the couple...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

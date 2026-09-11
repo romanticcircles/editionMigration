@@ -1,0 +1,28 @@
+
+  { "stem" : "eastwood",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Eastwood",
+            "weight" : "1",
+            "pos" : 1705,
+            "context" : "...Clemit, Ashley Cross, Elizabeth C. Denlinger, David <mark>Eastwood<\/mark>, Michael Eberle-Sinatra, David Fairer, Parvin...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Eastwood",
+            "weight" : "1",
+            "pos" : 90730,
+            "context" : " Unitarian minister and schoolmaster. Born at <mark>Eastwood<\/mark>, Yorkshire, he was educated at Leeds Grammar,...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

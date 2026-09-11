@@ -1,0 +1,53 @@
+
+  { "stem" : "3642",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3642",
+            "weight" : "1",
+            "pos" : 3099,
+            "context" : "Letter <mark>3642<\/mark>. 27 February 1821: Henry Herbert Southey ",
+            "fid" : "6.3642" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3642.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3642",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3642<\/mark>. Robert Southey to Henry Herbert Southey, 27 February...",
+            "fid" : "southey.6.3642",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3684.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3642",
+            "weight" : "1",
+            "pos" : 481,
+            "context" : "...to Henry Herbert Southey, 27 February 1821, Letter <mark>3642<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3642",
+            "weight" : "1",
+            "pos" : 3079,
+            "context" : "Letter <mark>3642<\/mark>. 27 February 1821: Henry Herbert Southey ",
+            "fid" : "refletterlistPart6.419",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

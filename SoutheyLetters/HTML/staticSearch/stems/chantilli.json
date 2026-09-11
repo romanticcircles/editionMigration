@@ -1,0 +1,37 @@
+
+  { "stem" : "chantilli",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2997.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Chantilly",
+            "weight" : "1",
+            "pos" : 256,
+            "context" : "...far as Montrieul. Tuesday to Amiens. Wednesday to <mark>Chantilly<\/mark> to the hotel kept by Mr Nashs widow,10...",
+            "fid" : "southey.5.2997",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Chantilly",
+            "weight" : "1",
+            "pos" : 1278,
+            "context" : "....  A widow, who ran the Hotel Bourbon Conde in <mark>Chantilly<\/mark> and had proposed marriage to Nash in 1814. She...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3003.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Chantilly",
+            "weight" : "1",
+            "pos" : 105,
+            "context" : " From Calais by Amiens &amp; <mark>Chantilly<\/mark> to Paris – Picardy is interesting historical ground, –...",
+            "fid" : "southey.5.3003",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,54 @@
+
+  { "stem" : "mortgage",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mortgagee",
+            "weight" : "1",
+            "pos" : 156593,
+            "context" : "...leading shipbuilders in the town. Miss Wood was the <mark>mortgagee<\/mark> of Greta Hall, Southey’s home, from 1815,...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2969.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mortgagee",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "...pursue its course (which in all likelihood it will) the <mark>mortgagee<\/mark> will bring it to sale. I must make up...",
+            "fid" : "ref5.2969.2",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3030.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mortgagee",
+            "weight" : "1",
+            "pos" : 601,
+            "context" : "...consideration &amp; conciliation I have paid the former to the <mark>mortgagee<\/mark>, &amp; I have since been distrained upon for annuities...",
+            "fid" : "ref5.3030.5",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3230.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mortgagee",
+            "weight" : "1",
+            "pos" : 58,
+            "context" : "...Carlisle jail, &amp; I am paying rent to a <mark>mortgagee<\/mark>.3 Disturbed in possession of the house I cannot...",
+            "fid" : "ref6.3230.5",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

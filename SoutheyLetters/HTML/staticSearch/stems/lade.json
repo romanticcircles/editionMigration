@@ -1,0 +1,29 @@
+
+  { "stem" : "lade",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1342.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "lading",
+            "weight" : "1",
+            "pos" : 112,
+            "context" : "...embarked on board a merchantship, with a bill of <mark>lading<\/mark> &amp; directed – Ao Illmo Sñr Francisco Soares de Aranjo...",
+            "fid" : "southey.3.1342",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.580.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "lading",
+            "weight" : "1",
+            "pos" : 188,
+            "context" : "...boxes are consigned to you by the inclosed bill of <mark>lading<\/mark>. they are all English – that is English-...",
+            "fid" : "southey.2.580",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

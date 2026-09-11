@@ -1,0 +1,53 @@
+
+  { "stem" : "3241",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3241",
+            "weight" : "1",
+            "pos" : 109,
+            "context" : "Letter <mark>3241<\/mark>. 6 February 1819: John Murray ",
+            "fid" : "6.3241" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3241.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3241",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3241<\/mark>. Robert Southey to John Murray, 6 February 1819...",
+            "fid" : "southey.6.3241",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3268.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3241",
+            "weight" : "1",
+            "pos" : 274,
+            "context" : "...Southey to John Murray, 6 February 1819, Letter <mark>3241<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3241",
+            "weight" : "1",
+            "pos" : 93,
+            "context" : "Letter <mark>3241<\/mark>. 6 February 1819: John Murray ",
+            "fid" : "refletterlistPart6.14",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

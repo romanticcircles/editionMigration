@@ -1,0 +1,53 @@
+
+  { "stem" : "3235",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3235",
+            "weight" : "1",
+            "pos" : 1492,
+            "context" : "...of anyone who fears I may degraded myself’ (Letter <mark>3235<\/mark>); and ‘Your feelings respecting this appointment will very soon...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3235",
+            "weight" : "1",
+            "pos" : 67,
+            "context" : "Letter <mark>3235<\/mark>. [c. 25 January 1819]: John Rickman ",
+            "fid" : "6.3235" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3235.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3235",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3235<\/mark>. Robert Southey to John Rickman, [c. 25 January...",
+            "fid" : "southey.6.3235",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3235",
+            "weight" : "1",
+            "pos" : 51,
+            "context" : "Letter <mark>3235<\/mark>. [c. 25 January 1819]: John Rickman ",
+            "fid" : "refletterlistPart6.8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

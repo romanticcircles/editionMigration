@@ -1,0 +1,51 @@
+
+  { "stem" : "polecat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3961.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "polecat",
+            "weight" : "1",
+            "pos" : 132,
+            "context" : "We killed a <mark>polecat<\/mark> last week, – &amp; it is now matter of...",
+            "fid" : "southey.7.3961",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "polecats",
+            "weight" : "1",
+            "pos" : 153,
+            "context" : "...as rats, &amp; Hunt,12 Cobbett &amp;c as <mark>polecats<\/mark>, I am rather disposed to be pleased with what...",
+            "fid" : "southey.7.3961",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "polecats",
+            "weight" : "1",
+            "pos" : 1828,
+            "context" : "...Honeet id genus omne,69 (the skunks &amp; <mark>polecats<\/mark> of the press) have done it, are doing it,...",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3959.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "polecat",
+            "weight" : "1",
+            "pos" : 162,
+            "context" : "...you may perhaps know it better by the name of <mark>polecat<\/mark>. It was &lt;is&gt; the first I ever saw or...",
+            "fid" : "southey.7.3959",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

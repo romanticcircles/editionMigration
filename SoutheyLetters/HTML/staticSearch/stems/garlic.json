@@ -1,0 +1,52 @@
+
+  { "stem" : "garlic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "garlic",
+            "weight" : "1",
+            "pos" : 1079,
+            "context" : "...into rags, and fry it up with oil, <mark>garlic<\/mark>, and aniseed. I have attempted sausages made of...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "garlic",
+            "weight" : "1",
+            "pos" : 1085,
+            "context" : "...aniseed. I have attempted sausages made of nothing but <mark>garlic<\/mark> and aniseed; they cut off the rump of a...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2723.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "garlic",
+            "weight" : "1",
+            "pos" : 345,
+            "context" : "...people in places where the Simoom is frequent, eat <mark>garlic<\/mark>, &amp; rub their lips &amp; noses with it when...",
+            "fid" : "southey.5.2723",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.936.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "garlic",
+            "weight" : "1",
+            "pos" : 207,
+            "context" : "...much. And then Senhora you &amp; I will eat <mark>garlic<\/mark>, &amp; I will be sure &amp; lay in Jackass...",
+            "fid" : "southey.3.936",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

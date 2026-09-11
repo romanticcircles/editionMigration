@@ -1,0 +1,29 @@
+
+  { "stem" : "house-hunt",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.442.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-hunting",
+            "weight" : "1",
+            "pos" : 66,
+            "context" : "...have turned into lodgings &amp; my mother &amp; Edith are <mark>house-hunting<\/mark> while I write. there is no doubt of our...",
+            "fid" : "southey.2.442",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.754.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-hunting",
+            "weight" : "1",
+            "pos" : 402,
+            "context" : "...shillings have been paid to Burnett. we are still <mark>house-hunting<\/mark> – “foxes have holes &amp;c – you know the text...",
+            "fid" : "southey.2.754",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

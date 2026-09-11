@@ -1,0 +1,58 @@
+
+  { "stem" : "mattress",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.522.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "mattresses",
+            "weight" : "1",
+            "pos" : 90,
+            "context" : "...we more ready for action. I surrounded Edith with <mark>mattresses<\/mark> in the cabin by the Captains advice – she however...",
+            "fid" : "southey.2.522",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "mattresses",
+            "weight" : "1",
+            "pos" : 330,
+            "context" : "...said “not one of those people who sleep upon straw <mark>mattresses<\/mark>.”",
+            "fid" : "southey.2.522",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.617.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "mattress",
+            "weight" : "1",
+            "pos" : 163,
+            "context" : "...make a dozen – the curtains being compleatly double &amp; <mark>mattress<\/mark> piled upon mattress, so that tumbling out would be...",
+            "fid" : "southey.2.617",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "mattress",
+            "weight" : "1",
+            "pos" : 166,
+            "context" : "...– the curtains being compleatly double &amp; mattress piled upon <mark>mattress<\/mark>, so that tumbling out would be a dangerous fall...",
+            "fid" : "southey.2.617",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.518.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mattress”",
+            "weight" : "1",
+            "pos" : 156,
+            "context" : "...not “one of those people who sleep upon a straw <mark>mattress”<\/mark> – &amp; so she has a flock one. thus...",
+            "fid" : "southey.2.518",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

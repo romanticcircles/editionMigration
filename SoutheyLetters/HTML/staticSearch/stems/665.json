@@ -1,0 +1,40 @@
+
+  { "stem" : "665",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "665",
+            "weight" : "1",
+            "pos" : 2956,
+            "context" : "Letter <mark>665<\/mark>. [24 March 1802]: Barbara Seton",
+            "fid" : "2.665" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.665.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "665",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>665<\/mark>. Robert Southey to Barbara Seton [fragment], [...",
+            "fid" : "southey.2.665",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "665",
+            "weight" : "1",
+            "pos" : 2929,
+            "context" : "Letter <mark>665<\/mark>. [24 March 1802]: Barbara Seton",
+            "fid" : "refletterlistPart2.389",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

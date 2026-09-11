@@ -1,0 +1,37 @@
+
+  { "stem" : "melodrama",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1728.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "melodrama",
+            "weight" : "1",
+            "pos" : 374,
+            "context" : " They have made a <mark>melodrama<\/mark> of Mary the Maid of the Inn at one of...",
+            "fid" : "southey.3.1728",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "melodrama",
+            "weight" : "1",
+            "pos" : 482,
+            "context" : "...Dating note: internal evidence of the performance of the <mark>melodrama<\/mark> of Southey’s ‘Mary the Maid of the Inn’ from 27...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2423.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "melodrama",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : "...tale; better still, to manufacture one with a <mark>melodrama<\/mark> or grand spectacle for the stage. These are things...",
+            "fid" : "southey.4.2423",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "urbana",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Urbana",
+            "weight" : "1",
+            "pos" : 1249,
+            "context" : "...Rare Book &amp; Manuscript Library, University of Illinois at <mark>Urbana<\/mark>-Champaign; Special Collections, University of Iowa Libraries...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4281.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Urbana",
+            "weight" : "1",
+            "pos" : 104,
+            "context" : "...wax; design illegible MS: University of Illinois at <mark>Urbana<\/mark>-Champaign, Rare Book and Manuscript Library. ALS...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

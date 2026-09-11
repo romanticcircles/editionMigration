@@ -1,0 +1,37 @@
+
+  { "stem" : "cataluña",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2007.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Cataluña",
+            "weight" : "1",
+            "pos" : 298,
+            "context" : "...military sagacity. I have also an obrita11 entitled <mark>Cataluña<\/mark> invencible sin foralezas, e inconquistable con allas, Tarragona...",
+            "fid" : "southey.4.2007",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Cataluña",
+            "weight" : "1",
+            "pos" : 689,
+            "context" : "...11.   ‘A small work’; i.e. a pamphlet. <mark>Cataluña<\/mark> invencible sin fortalezas, e inconquistable con ellas (1811...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2230.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cataluña",
+            "weight" : "1",
+            "pos" : 378,
+            "context" : "...2.   Bernat Desclot (13th century), Historia de <mark>Cataluña<\/mark> (1616), no. 3287 in the sale catalogue of...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

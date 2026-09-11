@@ -1,0 +1,40 @@
+
+  { "stem" : "1323",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1323",
+            "weight" : "1",
+            "pos" : 3379,
+            "context" : "Letter <mark>1323<\/mark>. 17 May 1807: John May",
+            "fid" : "3.1323" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1323.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1323",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1323<\/mark>. Robert Southey to John May, 17 May 1807...",
+            "fid" : "southey.3.1323",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1323",
+            "weight" : "1",
+            "pos" : 3354,
+            "context" : "Letter <mark>1323<\/mark>. 17 May 1807: John May",
+            "fid" : "refletterlistPart3.451",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

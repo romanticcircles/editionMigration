@@ -1,0 +1,53 @@
+
+  { "stem" : "3540",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3540",
+            "weight" : "1",
+            "pos" : 2325,
+            "context" : "Letter <mark>3540<\/mark>. 16 October 1820: William Lisle Bowles",
+            "fid" : "6.3540" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3540.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3540",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3540<\/mark>. Robert Southey to William Lisle Bowles [fragment],...",
+            "fid" : "southey.6.3540",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3541.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3540",
+            "weight" : "1",
+            "pos" : 81,
+            "context" : "...sent to Bowles on 16 October 1820; see Letter <mark>3540<\/mark>. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3540",
+            "weight" : "1",
+            "pos" : 2307,
+            "context" : "Letter <mark>3540<\/mark>. 16 October 1820: William Lisle Bowles",
+            "fid" : "refletterlistPart6.316",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

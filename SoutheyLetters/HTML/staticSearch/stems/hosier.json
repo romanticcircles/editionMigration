@@ -1,0 +1,36 @@
+
+  { "stem" : "hosier",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.179.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Hosier’s",
+            "weight" : "1",
+            "pos" : 17,
+            "context" : "...Stowe, when he wrote his celebrated ballad of Admiral <mark>Hosier’s<\/mark> Ghost,1 perhaps, the most spirited of all...",
+            "fid" : "southey.1.179",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Hosier’s",
+            "weight" : "1",
+            "pos" : 134,
+            "context" : "...1712–1785; DNB) wrote the ballad ‘Admiral <mark>Hosier’s<\/mark> Ghost’ in 1740. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hosier",
+            "weight" : "1",
+            "pos" : 142703,
+            "context" : " Well-known <mark>hosier<\/mark> in Oxford, with a shop in Broad Street;...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

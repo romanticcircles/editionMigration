@@ -1,0 +1,50 @@
+
+  { "stem" : "materia",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1657.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Materia",
+            "weight" : "1",
+            "pos" : 361,
+            "context" : "...heartily wish to see here. I will send you Cullens <mark>Materia<\/mark> Medica,14 &amp; put a copy of Whites Remains...",
+            "fid" : "southey.3.1657",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Materia",
+            "weight" : "1",
+            "pos" : 669,
+            "context" : "...Scottish chemist and physician who published his Lectures on the <mark>Materia<\/mark> Medica (or properties of medicines) in 1773. Back...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2784.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Materia",
+            "weight" : "1",
+            "pos" : 416,
+            "context" : "...at Middlesex Hospital on the ‘Practice of Physic and the <mark>Materia<\/mark> Medica’, beginning in the first week of October 1816...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.651.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "materiae",
+            "weight" : "1",
+            "pos" : 404,
+            "context" : ".... corpus tamen resurgens habuisse praeputium formatum ex aliquâ parte <mark>materiae<\/mark> illius, quae aliquando fuerat in corpore Xti, &amp;...",
+            "fid" : "southey.2.651",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,50 @@
+
+  { "stem" : "where",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1221.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "where’s",
+            "weight" : "1",
+            "pos" : 411,
+            "context" : " My daughter often enquires for you – <mark>where’s<\/mark> Uncle Tom? where’s Uncle Doctor? I want’em....",
+            "fid" : "southey.3.1221",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "where’s",
+            "weight" : "1",
+            "pos" : 414,
+            "context" : "...daughter often enquires for you – where’s Uncle Tom? <mark>where’s<\/mark> Uncle Doctor? I want’em. – Why dont em...",
+            "fid" : "southey.3.1221",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.259.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "“wheres",
+            "weight" : "1",
+            "pos" : 393,
+            "context" : "...— the old womans face did not please me — <mark>“wheres<\/mark> Pat — take me to Pat — I don’t like...",
+            "fid" : "southey.1.259",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4188.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Whereness",
+            "weight" : "1",
+            "pos" : 143,
+            "context" : " Now for the <mark>Whereness<\/mark>. Ubi? Where was it?",
+            "fid" : "southey.7.4188",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

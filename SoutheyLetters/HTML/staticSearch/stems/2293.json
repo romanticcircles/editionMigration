@@ -1,0 +1,40 @@
+
+  { "stem" : "2293",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2293",
+            "weight" : "1",
+            "pos" : 4107,
+            "context" : "Letter <mark>2293<\/mark>. 29 August [1813]: John May",
+            "fid" : "4.2293" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2293.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2293",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2293<\/mark>. Robert Southey to John May, 29 August [...",
+            "fid" : "southey.4.2293",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2293",
+            "weight" : "1",
+            "pos" : 4082,
+            "context" : "Letter <mark>2293<\/mark>. 29 August [1813]: John May",
+            "fid" : "refletterlistPart4.570",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

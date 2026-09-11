@@ -1,0 +1,29 @@
+
+  { "stem" : "bryn",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bryn",
+            "weight" : "1",
+            "pos" : 1183,
+            "context" : "...Books; Brown University Library; Special Collections Department, <mark>Bryn<\/mark> Mawr College Library; The Rare Book and Manuscript Library...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.724.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bryn",
+            "weight" : "1",
+            "pos" : 109,
+            "context" : "...: Letters and Documents Collection, Special Collections Department, <mark>Bryn<\/mark> Mawr College Library. ALS; 2p. (c). Unpublished....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

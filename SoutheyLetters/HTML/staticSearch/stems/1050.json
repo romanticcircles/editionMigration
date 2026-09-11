@@ -1,0 +1,79 @@
+
+  { "stem" : "1050",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.55.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "1",
+            "pos" : 1331,
+            "context" : "....  Robert, Duke of Normandy (b. in or after <mark>1050<\/mark>, d. 1134; DNB), eldest son of William...",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "1",
+            "pos" : 1305,
+            "context" : "Letter <mark>1050<\/mark>. 24 March [1805]: Charles Watkin Williams Wynn...",
+            "fid" : "3.1050" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1050.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1050<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 24...",
+            "fid" : "southey.3.1050",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1057.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "1",
+            "pos" : 481,
+            "context" : "...Watkin Williams Wynn, 24 March [1805], Letter <mark>1050<\/mark>. Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1066.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "1",
+            "pos" : 649,
+            "context" : "...Watkin Williams Wynn, 24 March [1805], Letter <mark>1050<\/mark>. Back",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1050",
+            "weight" : "1",
+            "pos" : 1284,
+            "context" : "Letter <mark>1050<\/mark>. 24 March [1805]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart3.174",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

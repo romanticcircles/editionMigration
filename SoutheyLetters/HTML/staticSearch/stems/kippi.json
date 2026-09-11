@@ -1,0 +1,37 @@
+
+  { "stem" : "kippi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4204.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Kippis’s",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "...Mr Wilkins had better take Johnsons Life, to which <mark>Kippis’s<\/mark> Account (if it contain much additional information) may be...",
+            "fid" : "southey.7.4204",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Kippis",
+            "weight" : "1",
+            "pos" : 335,
+            "context" : "...Samuel Johnson (1709–1784; DNB). Andrew <mark>Kippis<\/mark> (1725–1795; DNB), Biographia Britannica,...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1388.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Kippis",
+            "weight" : "1",
+            "pos" : 596,
+            "context" : "...was left incomplete on the death of its compiler Andrew <mark>Kippis<\/mark> (1725–1795; DNB). On 8 February...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,42 @@
+
+  { "stem" : "book-sel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4204.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Book-sellers",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : "...Mr Wilkin, was likely to find from the London <mark>Book-sellers<\/mark>.1 This is a subject on which they are...",
+            "fid" : "southey.7.4204",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1299.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-selling",
+            "weight" : "1",
+            "pos" : 387,
+            "context" : "...its way, and its way ought to be, in <mark>book-selling<\/mark> phrase, a taking one.",
+            "fid" : "southey.3.1299",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1467.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "book-seller",
+            "weight" : "1",
+            "pos" : 325,
+            "context" : "...far, a bargain might be made to let the <mark>book-seller<\/mark> print as many as they please, &amp; give me...",
+            "fid" : "southey.3.1467",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

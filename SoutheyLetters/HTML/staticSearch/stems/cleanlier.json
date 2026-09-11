@@ -1,0 +1,39 @@
+
+  { "stem" : "cleanlier",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "cleanlier",
+            "weight" : "1",
+            "pos" : 1121,
+            "context" : "...: my pursuits, thank Heaven, are of a <mark>cleanlier<\/mark> &amp; healthier kind. Lord Byron was living when “I...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "cleanlier",
+            "weight" : "1",
+            "pos" : 2400,
+            "context" : "...morbid anatomy – my pursuits thank Heaven are of a <mark>cleanlier<\/mark> &amp; healthier kind. Lord B. was living when I...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2192.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cleanlier",
+            "weight" : "1",
+            "pos" : 351,
+            "context" : "...dung cart, when there are so many easier, <mark>cleanlier<\/mark> &amp; surer conveyances. ",
+            "fid" : "southey.4.2192",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

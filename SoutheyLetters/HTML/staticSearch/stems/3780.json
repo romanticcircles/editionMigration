@@ -1,0 +1,40 @@
+
+  { "stem" : "3780",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3780",
+            "weight" : "1",
+            "pos" : 60,
+            "context" : "Letter <mark>3780<\/mark>. 7 January 1822: [John Murray]",
+            "fid" : "7.3780" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3780.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3780",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3780<\/mark>. Robert Southey to [John Murray], 7 January...",
+            "fid" : "southey.7.3780",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3780",
+            "weight" : "1",
+            "pos" : 44,
+            "context" : "Letter <mark>3780<\/mark>. 7 January 1822: [John Murray]",
+            "fid" : "refletterlistPart7.7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

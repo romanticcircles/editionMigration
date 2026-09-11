@@ -1,0 +1,37 @@
+
+  { "stem" : "barco",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1860.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Barco",
+            "weight" : "1",
+            "pos" : 231,
+            "context" : "...raked out of the octavas of my friend D. Martin <mark>Barco<\/mark>.16 Something however I found there &amp; have inserted...",
+            "fid" : "southey.4.1860",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Barco",
+            "weight" : "1",
+            "pos" : 871,
+            "context" : "....   The Spanish cleric, writer and explorer Martín del <mark>Barco<\/mark> Centenera (1535–c.1602). He was chaplain to...",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1838.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Barco",
+            "weight" : "1",
+            "pos" : 691,
+            "context" : "...8.   The Spanish cleric, writer and explorer Martín del <mark>Barco<\/mark> Centenera (1535–c.1602), Argentina y Conquista del...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

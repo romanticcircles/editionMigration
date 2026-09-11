@@ -1,0 +1,40 @@
+
+  { "stem" : "3275",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3275",
+            "weight" : "1",
+            "pos" : 352,
+            "context" : "Letter <mark>3275<\/mark>. 24 March 1819: Henry Herbert Southey ",
+            "fid" : "6.3275" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3275.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3275",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3275<\/mark>. Robert Southey to Henry Herbert Southey, 24 March...",
+            "fid" : "southey.6.3275",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3275",
+            "weight" : "1",
+            "pos" : 336,
+            "context" : "Letter <mark>3275<\/mark>. 24 March 1819: Henry Herbert Southey ",
+            "fid" : "refletterlistPart6.48",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

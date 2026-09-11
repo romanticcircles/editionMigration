@@ -1,0 +1,45 @@
+
+  { "stem" : "berthier",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.265.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Berthier",
+            "weight" : "1",
+            "pos" : 156,
+            "context" : "...the Maid is in the Histoire de l’Eglise Gallican par <mark>Berthier<\/mark>,6 a book I have sought for in vain...",
+            "fid" : "southey.1.265",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Berthier",
+            "weight" : "1",
+            "pos" : 371,
+            "context" : "6.  Guillaume-François <mark>Berthier<\/mark> (1704–1782), Histoire de l’Eglise Gallican (...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.535.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Berthiers",
+            "weight" : "1",
+            "pos" : 644,
+            "context" : "...earlier than it reaches England by way of Madrid. <mark>Berthiers<\/mark>13 victory is felt very heavily here – so much...",
+            "fid" : "southey.2.535",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Berthier",
+            "weight" : "1",
+            "pos" : 1075,
+            "context" : "13.  Louis Alexandre <mark>Berthier<\/mark> (1753–1815), French commander in the victory...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

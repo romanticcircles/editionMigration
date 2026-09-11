@@ -1,0 +1,53 @@
+
+  { "stem" : "1306",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1306",
+            "weight" : "1",
+            "pos" : 3256,
+            "context" : "Letter <mark>1306<\/mark>. 10 April 1807: John Rickman",
+            "fid" : "3.1306" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1306.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1306",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1306<\/mark>. Robert Southey to John Rickman, 10 April 1807...",
+            "fid" : "southey.3.1306",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.998.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1306",
+            "weight" : "1",
+            "pos" : 492,
+            "context" : "...Robert I (1274–1329, King of Scotland <mark>1306<\/mark>–1329; DNB), are cited in Irving’s ‘Life...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1306",
+            "weight" : "1",
+            "pos" : 3231,
+            "context" : "Letter <mark>1306<\/mark>. 10 April 1807: John Rickman",
+            "fid" : "refletterlistPart3.434",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

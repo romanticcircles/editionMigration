@@ -1,0 +1,42 @@
+
+  { "stem" : "quota",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3104.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "quota",
+            "weight" : "1",
+            "pos" : 281,
+            "context" : "...Every agricultural parish might be called upon to find a <mark>quota<\/mark> of special constables, composed of farmers and proprietors,...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1887.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Quota",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "...(the present effective Return) to 49,000, the proper <mark>Quota<\/mark> as fixed in 1802. The xxx regular army will...",
+            "fid" : "southey.4.1887",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1163.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "quota",
+            "weight" : "1",
+            "pos" : 529,
+            "context" : "...have given up reviewing finally, having finished this years <mark>quota<\/mark> last week17 &amp; now my future plans as to...",
+            "fid" : "southey.3.1163",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

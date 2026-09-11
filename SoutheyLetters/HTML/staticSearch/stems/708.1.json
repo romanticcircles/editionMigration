@@ -1,0 +1,53 @@
+
+  { "stem" : "708.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "708.1",
+            "weight" : "1",
+            "pos" : 3287,
+            "context" : "Letter <mark>708.1<\/mark>. [c. 21 August 1802]: Joseph Cottle",
+            "fid" : "2.708.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.701.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "708.1",
+            "weight" : "1",
+            "pos" : 230,
+            "context" : "...Joseph Cottle of [c. 21 August 1802], see Letter <mark>708.1<\/mark>. (The MS of this is in the Lewis Walpole...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.708.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "708.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>708.1<\/mark> Robert Southey to Joseph Cottle, [c. 21 August 1802...",
+            "fid" : "southey.2.708.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "708.1",
+            "weight" : "1",
+            "pos" : 3260,
+            "context" : "Letter <mark>708.1<\/mark>. [c. 21 August 1802]: Joseph Cottle",
+            "fid" : "refletterlistPart2.434",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

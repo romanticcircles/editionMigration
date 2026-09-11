@@ -1,0 +1,40 @@
+
+  { "stem" : "3145",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3145",
+            "weight" : "1",
+            "pos" : 3340,
+            "context" : "Letter <mark>3145<\/mark>. 2 June 1818: Henry J. Monck Mason",
+            "fid" : "5.3145" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3145.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3145",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3145<\/mark>. Robert Southey to Henry J. Monck Mason, 2...",
+            "fid" : "southey.5.3145",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3145",
+            "weight" : "1",
+            "pos" : 3320,
+            "context" : "Letter <mark>3145<\/mark>.  2 June 1818: Henry J. Monck Mason",
+            "fid" : "refletterlistPart5.456",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

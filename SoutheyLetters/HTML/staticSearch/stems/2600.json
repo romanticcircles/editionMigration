@@ -1,0 +1,40 @@
+
+  { "stem" : "2600",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2600",
+            "weight" : "1",
+            "pos" : 6399,
+            "context" : "Letter <mark>2600<\/mark>. 20 May 1815: Henry Herbert Southey",
+            "fid" : "4.2600" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2600.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2600",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2600<\/mark>. Robert Southey to Henry Herbert Southey, 20 May...",
+            "fid" : "southey.4.2600",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2600",
+            "weight" : "1",
+            "pos" : 6370,
+            "context" : "Letter <mark>2600<\/mark>. 20 May 1815: Henry Herbert Southey",
+            "fid" : "refletterlistPart4.882",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

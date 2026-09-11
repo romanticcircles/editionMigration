@@ -1,0 +1,50 @@
+
+  { "stem" : "nw",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1260.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "NW",
+            "weight" : "1",
+            "pos" : 303,
+            "context" : "...square in this direction [sketch map shows street on <mark>NW<\/mark> corner of square and names Cranbourn Alley at NE corner...",
+            "fid" : "southey.3.1260",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "NW",
+            "weight" : "1",
+            "pos" : 320,
+            "context" : "...the house – [sketch showing a black mark on <mark>NW<\/mark> side of street, just north of Leicester Square]...",
+            "fid" : "southey.3.1260",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.745.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "NW",
+            "weight" : "1",
+            "pos" : 387,
+            "context" : "...\/  Lincolns Inn\/ Lond Wynnstay\/ Wrexham\/ <mark>NW<\/mark> Postmark: FREE\/ DEC 22\/ 1802 Endorsements:...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.761.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "NW",
+            "weight" : "1",
+            "pos" : 118,
+            "context" : "...– &amp; comes back &amp; says he has disproved the <mark>NW<\/mark> passage. Quomodo Diabolus6 do the whales bear him...",
+            "fid" : "southey.2.761",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

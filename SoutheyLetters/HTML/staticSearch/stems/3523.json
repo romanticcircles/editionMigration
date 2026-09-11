@@ -1,0 +1,53 @@
+
+  { "stem" : "3523",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3523",
+            "weight" : "1",
+            "pos" : 2197,
+            "context" : "Letter <mark>3523<\/mark>. 12 August [1820]: John Rickman ",
+            "fid" : "6.3523" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3523.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3523",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3523<\/mark>. Robert Southey to John Rickman, 12 August [...",
+            "fid" : "southey.6.3523",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3690.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3523",
+            "weight" : "1",
+            "pos" : 719,
+            "context" : "...to Walter Savage Landor, 14 August 1820, Letter <mark>3523<\/mark>. By the time of Southey’s visit in 1820 Adam...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3523",
+            "weight" : "1",
+            "pos" : 2179,
+            "context" : "Letter <mark>3523<\/mark>. 12 August [1820]: John Rickman ",
+            "fid" : "refletterlistPart6.299",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

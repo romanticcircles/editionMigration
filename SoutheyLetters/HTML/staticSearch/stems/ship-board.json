@@ -1,0 +1,29 @@
+
+  { "stem" : "ship-board",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1221.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ship-board",
+            "weight" : "1",
+            "pos" : 374,
+            "context" : "...will you wait for them till you are housed on <mark>ship-board<\/mark>.",
+            "fid" : "southey.3.1221",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.782.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "ship-board",
+            "weight" : "1",
+            "pos" : 413,
+            "context" : "3.  A bottle containing a letter that was thrown off <mark>ship-board<\/mark> by Tom Southey; see Southey to Thomas Southey,...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

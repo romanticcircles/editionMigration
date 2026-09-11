@@ -1,0 +1,53 @@
+
+  { "stem" : "2307",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2307",
+            "weight" : "1",
+            "pos" : 4210,
+            "context" : "Letter <mark>2307<\/mark>. 21 September 1813: Charles Danvers",
+            "fid" : "4.2307" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2307.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2307",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2307<\/mark>. Robert Southey to Charles Danvers, 21 September 1813...",
+            "fid" : "southey.4.2307",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2307",
+            "weight" : "1",
+            "pos" : 4185,
+            "context" : "Letter <mark>2307<\/mark>. 21 September 1813: Charles Danvers",
+            "fid" : "refletterlistPart4.584",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2307",
+            "weight" : "1",
+            "pos" : 1536,
+            "context" : "...particularly crucial moment in national and international history (Letter <mark>2307<\/mark>). ",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

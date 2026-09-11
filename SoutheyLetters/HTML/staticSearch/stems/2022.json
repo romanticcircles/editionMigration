@@ -1,0 +1,40 @@
+
+  { "stem" : "2022",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2022",
+            "weight" : "1",
+            "pos" : 2146,
+            "context" : "Letter <mark>2022<\/mark>. 28 January 1812: Mary Barker",
+            "fid" : "4.2022" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2022.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2022",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2022<\/mark>. Robert Southey to Mary Barker, 28 January 1812...",
+            "fid" : "southey.4.2022",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2022",
+            "weight" : "1",
+            "pos" : 2123,
+            "context" : "Letter <mark>2022<\/mark>. 28 January 1812: Mary Barker",
+            "fid" : "refletterlistPart4.297",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

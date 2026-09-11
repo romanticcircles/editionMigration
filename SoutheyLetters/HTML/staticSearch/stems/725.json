@@ -1,0 +1,40 @@
+
+  { "stem" : "725",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "725",
+            "weight" : "1",
+            "pos" : 3407,
+            "context" : "Letter <mark>725<\/mark>. 6 October 1802: Joseph Cottle",
+            "fid" : "2.725" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.725.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "725",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>725<\/mark>. Robert Southey to Joseph Cottle, 6 October 1802...",
+            "fid" : "southey.2.725",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "725",
+            "weight" : "1",
+            "pos" : 3380,
+            "context" : "Letter <mark>725<\/mark>. 6 October 1802: Joseph Cottle",
+            "fid" : "refletterlistPart2.451",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

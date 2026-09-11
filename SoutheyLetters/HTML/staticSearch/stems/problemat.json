@@ -1,0 +1,45 @@
+
+  { "stem" : "problemat",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "problematic",
+            "weight" : "1",
+            "pos" : 2145,
+            "context" : "...letters with a biographical commentary. It is a highly <mark>problematic<\/mark> edition. Cuthbert not only misdated many letters, but...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "problematic",
+            "weight" : "1",
+            "pos" : 2788,
+            "context" : "...unpublished, the remaining 41 were reprinted directly from the <mark>problematic<\/mark> editions of Cuthbert Southey and Warter. A more substantial...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "problematic",
+            "weight" : "1",
+            "pos" : 1458,
+            "context" : "...(Letter 2298). Southey’s sense of the post as <mark>problematic<\/mark> and potentially degrading did not abate. Shortly after accepting...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "problematic",
+            "weight" : "1",
+            "pos" : 1567,
+            "context" : "...January 1814. However, it proved to be more <mark>problematic<\/mark> and damaging than he had allowed for. The transformation of...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

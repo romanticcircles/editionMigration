@@ -1,0 +1,53 @@
+
+  { "stem" : "3070",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3070",
+            "weight" : "1",
+            "pos" : 2800,
+            "context" : "Letter <mark>3070<\/mark>. 28 January 1818: Charlotte Broome",
+            "fid" : "5.3070" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3070.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3070",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3070<\/mark>. Robert Southey to Charlotte Broome, 28 January 1818...",
+            "fid" : "southey.5.3070",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3070",
+            "weight" : "1",
+            "pos" : 2780,
+            "context" : "Letter <mark>3070<\/mark>.  28 January 1818: Charlotte Broome",
+            "fid" : "refletterlistPart5.381",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3070",
+            "weight" : "1",
+            "pos" : 1034,
+            "context" : "...friend James Burney and the novelist Fanny Burney (Letter <mark>3070<\/mark>). He refused, however, numerous uninvited solicitations for...",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

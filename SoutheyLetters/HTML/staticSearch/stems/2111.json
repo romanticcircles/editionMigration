@@ -1,0 +1,53 @@
+
+  { "stem" : "2111",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2111",
+            "weight" : "1",
+            "pos" : 2797,
+            "context" : "Letter <mark>2111<\/mark>. [after 8 June 1812]: John Rickman",
+            "fid" : "4.2111" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2111.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2111",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2111<\/mark>. Robert Southey to John Rickman, [ after 8...",
+            "fid" : "southey.4.2111",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2111",
+            "weight" : "1",
+            "pos" : 2774,
+            "context" : "Letter <mark>2111<\/mark>. [after 8 June 1812]: John Rickman",
+            "fid" : "refletterlistPart4.388",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4041.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2111",
+            "weight" : "1",
+            "pos" : 364,
+            "context" : "...Together with Some Memoirs Occasionally Inserted (1740), no. <mark>2111<\/mark> in the sale catalogue of Southey’s library. North’s book...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

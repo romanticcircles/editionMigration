@@ -1,0 +1,37 @@
+
+  { "stem" : "bermud",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2623.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bermudes",
+            "weight" : "1",
+            "pos" : 175,
+            "context" : "...Portugueze book of which you speak be the work of <mark>Bermudes<\/mark>7 I shall be very glad to see it. –...",
+            "fid" : "southey.4.2623",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bermudes",
+            "weight" : "1",
+            "pos" : 414,
+            "context" : "7.   Joao <mark>Bermudes<\/mark> (d. 1570), Breve Relacao da Embaixada que o Patriacha...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2628.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bermudes",
+            "weight" : "1",
+            "pos" : 646,
+            "context" : "12.   Joao <mark>Bermudes<\/mark> (d. 1570), Breve Relacao da Embaixada que o Patriacha...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

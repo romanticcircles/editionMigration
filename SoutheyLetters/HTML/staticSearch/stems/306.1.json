@@ -1,0 +1,40 @@
+
+  { "stem" : "306.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "306.1",
+            "weight" : "1",
+            "pos" : 219,
+            "context" : "Letter <mark>306.1<\/mark>. 14 April 1798: John Feltham",
+            "fid" : "2.306.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.306.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "306.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>306.1<\/mark> Robert Southey to John Feltham [fragment], 14 April...",
+            "fid" : "southey.2.306.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "306.1",
+            "weight" : "1",
+            "pos" : 200,
+            "context" : "Letter <mark>306.1<\/mark>. 14 April 1798: John Feltham",
+            "fid" : "refletterlistPart2.27",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

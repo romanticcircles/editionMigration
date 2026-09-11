@@ -1,0 +1,40 @@
+
+  { "stem" : "1909",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1909",
+            "weight" : "1",
+            "pos" : 1329,
+            "context" : "Letter <mark>1909<\/mark>. 22 April 1811: Mary Barker",
+            "fid" : "4.1909" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1909.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1909",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1909<\/mark>. Robert Southey to Mary Barker, 22 April 1811...",
+            "fid" : "southey.4.1909",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1909",
+            "weight" : "1",
+            "pos" : 1308,
+            "context" : "Letter <mark>1909<\/mark>. 22 April 1811: Mary Barker",
+            "fid" : "refletterlistPart4.183",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

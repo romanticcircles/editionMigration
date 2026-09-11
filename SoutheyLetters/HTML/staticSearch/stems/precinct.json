@@ -1,0 +1,50 @@
+
+  { "stem" : "precinct",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4202.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "precincts",
+            "weight" : "1",
+            "pos" : 86,
+            "context" : "...present I must confine myself within the limits of these <mark>precincts<\/mark>. ",
+            "fid" : "southey.7.4202",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "precincts",
+            "weight" : "1",
+            "pos" : 598,
+            "context" : "...with the children and with me; and having the same <mark>precincts<\/mark> to prowl in was hardly sensible of any other difference...",
+            "fid" : "southey.7.4202",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.28.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Precincts",
+            "weight" : "1",
+            "pos" : 780,
+            "context" : "...of the Several Parishes, and of the Castle-<mark>Precincts<\/mark>, in the City of Bristol, to the Report...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3268.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "precincts",
+            "weight" : "1",
+            "pos" : 179,
+            "context" : "...the Convents &amp; Castles within its xxx &lt;ancient&gt; <mark>precincts<\/mark>, – of Winchester, – of William the Conqueror...",
+            "fid" : "southey.6.3268",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

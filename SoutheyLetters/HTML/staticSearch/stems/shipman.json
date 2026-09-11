@@ -1,0 +1,32 @@
+
+  { "stem" : "shipman",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.994.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Shipman",
+            "weight" : "1",
+            "pos" : 12,
+            "context" : " Thomas <mark>Shipman<\/mark>1  You may skip man If you can’t find him...",
+            "fid" : "line1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Shipman",
+            "weight" : "1",
+            "pos" : 431,
+            "context" : "1.   Thomas <mark>Shipman<\/mark> (1632–1680; DNB): poet and author...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Shipman",
+            "weight" : "1",
+            "pos" : 453,
+            "context" : "..., Specimens of the Later English Poets (1807). <mark>Shipman<\/mark> was not included in this publication. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

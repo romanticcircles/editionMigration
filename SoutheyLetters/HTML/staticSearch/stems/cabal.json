@@ -1,0 +1,37 @@
+
+  { "stem" : "cabal",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.168.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Cabal",
+            "weight" : "1",
+            "pos" : 226,
+            "context" : " Have you read <mark>Cabal<\/mark> &amp; Love?9 in spite of a translation for...",
+            "fid" : "southey.1.168",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Cabal",
+            "weight" : "1",
+            "pos" : 898,
+            "context" : "...Johann Christoph Friedrich von Schiller (1759–1805), <mark>Cabal<\/mark> and Love (1784). Back",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.336.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cabal",
+            "weight" : "1",
+            "pos" : 82,
+            "context" : "...the best termination for both countries. Will not the <mark>cabal<\/mark> who have made the mischief oppose it?3 &amp; if...",
+            "fid" : "southey.2.336",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

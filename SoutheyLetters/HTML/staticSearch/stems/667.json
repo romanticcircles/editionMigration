@@ -1,0 +1,40 @@
+
+  { "stem" : "667",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "667",
+            "weight" : "1",
+            "pos" : 2970,
+            "context" : "Letter <mark>667<\/mark>. 30 March 1802: Grosvenor Charles Bedford",
+            "fid" : "2.667" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.667.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "667",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>667<\/mark>. Robert Southey to Grosvenor Charles Bedford, 30 March...",
+            "fid" : "southey.2.667",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "667",
+            "weight" : "1",
+            "pos" : 2943,
+            "context" : "Letter <mark>667<\/mark>. 30 March 1802: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart2.391",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

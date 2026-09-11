@@ -1,0 +1,50 @@
+
+  { "stem" : "camera",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.936.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "camera",
+            "weight" : "1",
+            "pos" : 156,
+            "context" : "...of old Bishop Latimer.2 – There is no <mark>camera<\/mark> here.3 I would have you send off your trunk...",
+            "fid" : "southey.3.936",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Camera",
+            "weight" : "1",
+            "pos" : 348,
+            "context" : "3.   <mark>Camera<\/mark> obscura, used by artists to establish perspective. Back...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.170.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "camera",
+            "weight" : "1",
+            "pos" : 359,
+            "context" : "...you &amp; I could see all his gambols in a <mark>camera<\/mark> obscura. not we would &lt;not&gt; mingle with the herd...",
+            "fid" : "southey.1.170",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.53.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "camera",
+            "weight" : "1",
+            "pos" : 522,
+            "context" : "...what would not that man deserve who should invent a <mark>camera<\/mark> obscura to retain every &lt;idea&gt; as it is...",
+            "fid" : "southey.1.53",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

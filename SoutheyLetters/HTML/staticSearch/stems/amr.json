@@ -1,0 +1,29 @@
+
+  { "stem" : "amr",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.149.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "AMR",
+            "weight" : "1",
+            "pos" : 1973,
+            "context" : "...New Palace Yard\/ Westminster Stamped: PORTSMOUTH Postmark: <mark>AMR<\/mark>\/ 17\/ 96 Watermarks: Figure of Britannia;...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.486.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Amr",
+            "weight" : "1",
+            "pos" : 896,
+            "context" : "...ibn al-Walid (592–642) and <mark>Amr<\/mark> ibn al-Ab (c. 583\/9–664) were...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

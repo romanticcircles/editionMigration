@@ -1,0 +1,40 @@
+
+  { "stem" : "3104",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3104",
+            "weight" : "1",
+            "pos" : 3049,
+            "context" : "Letter <mark>3104<\/mark>. 25 March 1818: Daniel Stuart",
+            "fid" : "5.3104" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3104.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3104",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3104<\/mark>. Robert Southey to Daniel Stuart, 25 March 1818...",
+            "fid" : "southey.5.3104",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3104",
+            "weight" : "1",
+            "pos" : 3029,
+            "context" : "Letter <mark>3104<\/mark>.  25 March 1818: Daniel Stuart",
+            "fid" : "refletterlistPart5.415",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2233",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2233",
+            "weight" : "1",
+            "pos" : 3667,
+            "context" : "Letter <mark>2233<\/mark>. [18 March 1813]: John Rickman",
+            "fid" : "4.2233" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2231.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2233",
+            "weight" : "1",
+            "pos" : 262,
+            "context" : "...to John Rickman, [18 March 1813], Letter <mark>2233<\/mark>. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2233.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2233",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2233<\/mark>. Robert Southey to John Rickman, [ 18 March...",
+            "fid" : "southey.4.2233",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2233",
+            "weight" : "1",
+            "pos" : 3642,
+            "context" : "Letter <mark>2233<\/mark>. [18 March 1813]: John Rickman",
+            "fid" : "refletterlistPart4.510",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

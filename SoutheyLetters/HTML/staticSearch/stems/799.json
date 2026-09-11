@@ -1,0 +1,40 @@
+
+  { "stem" : "799",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "799",
+            "weight" : "1",
+            "pos" : 3973,
+            "context" : "Letter <mark>799<\/mark>. [21 June 1803]: Thomas Southey",
+            "fid" : "2.799" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.799.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "799",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>799<\/mark>. Robert Southey to Thomas Southey, [21 June...",
+            "fid" : "southey.2.799",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "799",
+            "weight" : "1",
+            "pos" : 3944,
+            "context" : "Letter <mark>799<\/mark>. [21 June 1803]: Thomas Southey",
+            "fid" : "refletterlistPart2.526",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

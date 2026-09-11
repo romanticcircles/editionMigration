@@ -1,0 +1,65 @@
+
+  { "stem" : "falsifi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "falsified",
+            "weight" : "1",
+            "pos" : 107,
+            "context" : "...happening to know what the facts are which are there <mark>falsified<\/mark>, is of opinion that it would not misbecome me...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "falsified",
+            "weight" : "1",
+            "pos" : 1323,
+            "context" : "...to know what the facts are, &lt;which are there xxxxx <mark>falsified<\/mark>&gt; is of opinion that it would &lt;not mis&gt;...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.183.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "falsifies",
+            "weight" : "1",
+            "pos" : 860,
+            "context" : "...which now all sensible Protestants are themselves ashamed. He <mark>falsifies<\/mark> facts and makes ridiculous and absurd allusions, which prove...",
+            "fid" : "southey.1.183",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "falsified",
+            "weight" : "1",
+            "pos" : 45,
+            "context" : "...happening to know what the facts are which are there <mark>falsified<\/mark>, is of opinion that it would not misbecome me...",
+            "fid" : "southey.7.4289",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.373.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "falsify",
+            "weight" : "1",
+            "pos" : 34,
+            "context" : "...the colour of the horse was black. should I <mark>falsify<\/mark> the history &amp; make Apollyon a pedestrian? besides Grosvenor...",
+            "fid" : "southey.2.373",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

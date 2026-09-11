@@ -1,0 +1,40 @@
+
+  { "stem" : "3303",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3303",
+            "weight" : "1",
+            "pos" : 559,
+            "context" : "Letter <mark>3303<\/mark>. 27 May 1819: William Peachy ",
+            "fid" : "6.3303" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3303.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3303",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3303<\/mark>. Robert Southey to William Peachy, 27 May 1819...",
+            "fid" : "southey.6.3303",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3303",
+            "weight" : "1",
+            "pos" : 543,
+            "context" : "Letter <mark>3303<\/mark>. 27 May 1819: William Peachy ",
+            "fid" : "refletterlistPart6.76",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

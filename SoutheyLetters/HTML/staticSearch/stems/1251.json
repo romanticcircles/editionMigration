@@ -1,0 +1,53 @@
+
+  { "stem" : "1251",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1251",
+            "weight" : "1",
+            "pos" : 2834,
+            "context" : "Letter <mark>1251<\/mark>. 28 December [1806]: John Rickman",
+            "fid" : "3.1251" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1049.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1251",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "...of Alonso the Wise, which laws were begun AD <mark>1251<\/mark> &amp; finished in seven years,4 – &amp; it...",
+            "fid" : "southey.3.1049",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1251.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1251",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1251<\/mark>. Robert Southey to John Rickman, 28 December [...",
+            "fid" : "southey.3.1251",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1251",
+            "weight" : "1",
+            "pos" : 2811,
+            "context" : "Letter <mark>1251<\/mark>. 28 December [1806]: John Rickman",
+            "fid" : "refletterlistPart3.378",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

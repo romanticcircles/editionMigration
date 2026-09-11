@@ -1,0 +1,40 @@
+
+  { "stem" : "780",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "780",
+            "weight" : "1",
+            "pos" : 3826,
+            "context" : "Letter <mark>780<\/mark>. 5 May [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "2.780" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.780.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "780",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>780<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 5...",
+            "fid" : "southey.2.780",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "780",
+            "weight" : "1",
+            "pos" : 3797,
+            "context" : "Letter <mark>780<\/mark>. 5 May [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart2.507",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

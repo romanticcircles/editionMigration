@@ -1,0 +1,40 @@
+
+  { "stem" : "857",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "857",
+            "weight" : "1",
+            "pos" : 4402,
+            "context" : "Letter <mark>857<\/mark>. [27 November 1803]: Mary Barker",
+            "fid" : "2.857" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.857.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "857",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>857<\/mark>. Robert Southey to Mary Barker, [27 November...",
+            "fid" : "southey.2.857",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "857",
+            "weight" : "1",
+            "pos" : 4373,
+            "context" : "Letter <mark>857<\/mark>. [27 November 1803]: Mary Barker",
+            "fid" : "refletterlistPart2.584",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

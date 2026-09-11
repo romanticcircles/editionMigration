@@ -1,0 +1,53 @@
+
+  { "stem" : "3531",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1827.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3531",
+            "weight" : "1",
+            "pos" : 305,
+            "context" : "✓21 <mark>3531<\/mark>",
+            "fid" : "southey.4.1827",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3531",
+            "weight" : "1",
+            "pos" : 2258,
+            "context" : "Letter <mark>3531<\/mark>. 19 September 1820: John Rickman ",
+            "fid" : "6.3531" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3531.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3531",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3531<\/mark>. Robert Southey to John Rickman, 19 September 1820...",
+            "fid" : "southey.6.3531",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3531",
+            "weight" : "1",
+            "pos" : 2240,
+            "context" : "Letter <mark>3531<\/mark>. 19 September 1820: John Rickman ",
+            "fid" : "refletterlistPart6.307",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

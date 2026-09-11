@@ -1,0 +1,53 @@
+
+  { "stem" : "2336",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2336",
+            "weight" : "1",
+            "pos" : 4421,
+            "context" : "Letter <mark>2336<\/mark>. 27 November 1813: John Murray",
+            "fid" : "4.2336" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2336.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2336",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2336<\/mark>. Robert Southey to John Murray, 27 November 1813...",
+            "fid" : "southey.4.2336",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2357.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2336",
+            "weight" : "1",
+            "pos" : 367,
+            "context" : "...written to John Murray on 27 November 1813 (Letter <mark>2336<\/mark>), supporting Gooch’s request that William Taylor be permitted to...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2336",
+            "weight" : "1",
+            "pos" : 4396,
+            "context" : "Letter <mark>2336<\/mark>. 27 November 1813: John Murray",
+            "fid" : "refletterlistPart4.613",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

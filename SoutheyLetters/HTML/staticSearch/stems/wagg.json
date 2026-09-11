@@ -1,0 +1,42 @@
+
+  { "stem" : "wagg",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.247.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wagg",
+            "weight" : "1",
+            "pos" : 516,
+            "context" : "...Coleridge. Edward’s ‘first marriage to a widow [Mrs <mark>Wagg<\/mark>] some twenty years older than his mother, was...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.331.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "wagg",
+            "weight" : "1",
+            "pos" : 445,
+            "context" : ".... I am now going to Bristol to superintend the <mark>wagg<\/mark> shipping my goods – or rather waggoning them, as they...",
+            "fid" : "southey.2.331",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.598.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Wagg",
+            "weight" : "1",
+            "pos" : 483,
+            "context" : "5.  G. <mark>Wagg<\/mark> (d. 1801), a local landowner at Burton, Hampshire...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

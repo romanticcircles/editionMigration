@@ -1,0 +1,30 @@
+
+  { "stem" : "anax",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Anax",
+            "weight" : "1",
+            "pos" : 829,
+            "context" : " Poor <mark>Anax<\/mark>!15 he was quite scaly before his departure,...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.46.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Anax",
+            "weight" : "1",
+            "pos" : 290,
+            "context" : "...next year it will be of much use. poor <mark>Anax<\/mark>!4 he was quite scaly before his departure but...",
+            "fid" : "southey.1.46",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

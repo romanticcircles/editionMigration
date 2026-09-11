@@ -1,0 +1,53 @@
+
+  { "stem" : "1297",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1297",
+            "weight" : "1",
+            "pos" : 3180,
+            "context" : "Letter <mark>1297<\/mark>. 25 March 1807: Charles Biddlecombe",
+            "fid" : "3.1297" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1295.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1297",
+            "weight" : "1",
+            "pos" : 220,
+            "context" : "...Southey to Charles Biddlecombe, 25 March 1807, Letter <mark>1297<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1297.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1297",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1297<\/mark>. Robert Southey to Charles Biddlecombe, 25 March 1807...",
+            "fid" : "southey.3.1297",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1297",
+            "weight" : "1",
+            "pos" : 3155,
+            "context" : "Letter <mark>1297<\/mark>. 25 March 1807: Charles Biddlecombe",
+            "fid" : "refletterlistPart3.424",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

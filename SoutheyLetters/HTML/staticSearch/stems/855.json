@@ -1,0 +1,53 @@
+
+  { "stem" : "855",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.177.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "855",
+            "weight" : "1",
+            "pos" : 724,
+            "context" : "...Monthly Magazine, 2 (December 1796), 854–<mark>855<\/mark> [from where the text is taken] under pseudonym ‘DIOGENES’...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "855",
+            "weight" : "1",
+            "pos" : 4386,
+            "context" : "Letter <mark>855<\/mark>. 19 November 1803: John King",
+            "fid" : "2.855" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.855.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "855",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>855<\/mark>. Robert Southey to John King, 19 November 1803...",
+            "fid" : "southey.2.855",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "855",
+            "weight" : "1",
+            "pos" : 4357,
+            "context" : "Letter <mark>855<\/mark>. 19 November 1803: John King",
+            "fid" : "refletterlistPart2.582",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

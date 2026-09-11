@@ -1,0 +1,29 @@
+
+  { "stem" : "librum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1335a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "librum",
+            "weight" : "1",
+            "pos" : 285,
+            "context" : "...Meus liber est cito esse publicatus. Ego mittam meum <mark>librum<\/mark> tibi – sed tu non es dicere quod liber est...",
+            "fid" : "southey.3.1335a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.759a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "librum",
+            "weight" : "1",
+            "pos" : 96,
+            "context" : "...illa mora. credo hebdomade veniente, Deo volenti mittere <mark>librum<\/mark> tibi.",
+            "fid" : "southey.2.759a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

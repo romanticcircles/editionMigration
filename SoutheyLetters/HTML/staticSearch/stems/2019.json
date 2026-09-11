@@ -1,0 +1,53 @@
+
+  { "stem" : "2019",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2019",
+            "weight" : "1",
+            "pos" : 2125,
+            "context" : "Letter <mark>2019<\/mark>. 19 January 1812: [James Burney]",
+            "fid" : "4.2019" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2019.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2019",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2019<\/mark>. Robert Southey to [James Burney], 19 January...",
+            "fid" : "southey.4.2019",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2096.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2019",
+            "weight" : "1",
+            "pos" : 977,
+            "context" : "...Southey to James Burney, 19 January 1812, Letter <mark>2019<\/mark>. Burney wished to discuss Dutch colonial history. Back...",
+            "fid" : "17",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2019",
+            "weight" : "1",
+            "pos" : 2102,
+            "context" : "Letter <mark>2019<\/mark>. 19 January 1812: [James Burney]",
+            "fid" : "refletterlistPart4.294",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

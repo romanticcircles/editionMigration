@@ -1,0 +1,66 @@
+
+  { "stem" : "1025",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1025",
+            "weight" : "1",
+            "pos" : 1122,
+            "context" : "Letter <mark>1025<\/mark>. 24 January 1805: Henry Herbert Southey",
+            "fid" : "3.1025" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1013.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1025",
+            "weight" : "1",
+            "pos" : 312,
+            "context" : "...to Henry Herbert Southey, 24 January 1805, Letter <mark>1025<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1025.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1025",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1025<\/mark>. Robert Southey to Henry Herbert Southey, 24 January...",
+            "fid" : "southey.3.1025",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1029.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1025",
+            "weight" : "1",
+            "pos" : 226,
+            "context" : "...to Henry Herbert Southey, 24 January 1805, Letter <mark>1025<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1025",
+            "weight" : "1",
+            "pos" : 1101,
+            "context" : "Letter <mark>1025<\/mark>. 24 January 1805: Henry Herbert Southey",
+            "fid" : "refletterlistPart3.149",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

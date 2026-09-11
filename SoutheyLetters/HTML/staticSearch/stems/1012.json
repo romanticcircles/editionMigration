@@ -1,0 +1,66 @@
+
+  { "stem" : "1012",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1012",
+            "weight" : "1",
+            "pos" : 1024,
+            "context" : "Letter <mark>1012<\/mark>. 6 January 1805: William Taylor",
+            "fid" : "3.1012" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1012.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1012",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1012<\/mark>. Robert Southey to William Taylor, 6 January 1805...",
+            "fid" : "southey.3.1012",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1016.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1012",
+            "weight" : "1",
+            "pos" : 1067,
+            "context" : "...town of Colewiz in Saxony, where, in the year <mark>1012<\/mark>, the priest of the church of Magnus Martyr cursed...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1019.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1012",
+            "weight" : "1",
+            "pos" : 226,
+            "context" : "...town of Colewiz in Saxony, where, in the year <mark>1012<\/mark>, the priest of the church of Magnus Martyr cursed...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1012",
+            "weight" : "1",
+            "pos" : 1003,
+            "context" : "Letter <mark>1012<\/mark>. 6 January 1805: William Taylor",
+            "fid" : "refletterlistPart3.136",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

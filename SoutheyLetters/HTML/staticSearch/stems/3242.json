@@ -1,0 +1,40 @@
+
+  { "stem" : "3242",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3242",
+            "weight" : "1",
+            "pos" : 115,
+            "context" : "Letter <mark>3242<\/mark>. 8 February 1819: Sir George Beaumont",
+            "fid" : "6.3242" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3242.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3242",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3242<\/mark>. Robert Southey to Sir George Beaumont [fragment],...",
+            "fid" : "southey.6.3242",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3242",
+            "weight" : "1",
+            "pos" : 99,
+            "context" : "Letter <mark>3242<\/mark>. 8 February 1819: Sir George Beaumont",
+            "fid" : "refletterlistPart6.15",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

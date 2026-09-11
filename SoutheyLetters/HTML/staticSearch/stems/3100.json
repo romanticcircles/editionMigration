@@ -1,0 +1,53 @@
+
+  { "stem" : "3100",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3100",
+            "weight" : "1",
+            "pos" : 3016,
+            "context" : "Letter <mark>3100<\/mark>. 21 March 1818: Charles Watkin Williams Wynn",
+            "fid" : "5.3100" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3099.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3100",
+            "weight" : "1",
+            "pos" : 193,
+            "context" : "...Charles Watkin Williams Wynn, 21 March 1818 (Letter <mark>3100<\/mark>); and Southey to Grosvenor Bedford, 23 March 1818...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3100.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3100",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3100<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 21...",
+            "fid" : "southey.5.3100",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3100",
+            "weight" : "1",
+            "pos" : 2996,
+            "context" : "Letter <mark>3100<\/mark>.  21 March 1818: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart5.411",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,30 @@
+
+  { "stem" : "frying-pan",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "frying-pan",
+            "weight" : "1",
+            "pos" : 1059,
+            "context" : "...meat in a jug, and boil it in a <mark>frying-pan<\/mark>;) to know if it is done they crack the...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1008.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "frying-pan",
+            "weight" : "1",
+            "pos" : 63,
+            "context" : "...you – it is very well you were in the <mark>frying-pan<\/mark>. your rascally skipper might have got rid of you...",
+            "fid" : "southey.3.1008",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

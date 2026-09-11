@@ -1,0 +1,53 @@
+
+  { "stem" : "1111",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1111",
+            "weight" : "1",
+            "pos" : 1766,
+            "context" : "Letter <mark>1111<\/mark>. 13 October [1805]: Charles Watkin Williams Wynn...",
+            "fid" : "3.1111" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1111.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1111",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1111<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 13...",
+            "fid" : "southey.3.1111",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1111",
+            "weight" : "1",
+            "pos" : 1745,
+            "context" : "Letter <mark>1111<\/mark>. 13 October [1805]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart3.236",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.753.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1111",
+            "weight" : "1",
+            "pos" : 920,
+            "context" : "...daughter of Alfonso VII (1105-1157; reigned <mark>1111<\/mark>-1157), King of Galicia, Leon and Castille...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

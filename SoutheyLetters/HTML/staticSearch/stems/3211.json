@@ -1,0 +1,40 @@
+
+  { "stem" : "3211",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3211",
+            "weight" : "1",
+            "pos" : 3802,
+            "context" : "Letter <mark>3211<\/mark>. 23 November [1818]: William Wordsworth",
+            "fid" : "5.3211" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3211.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3211",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3211<\/mark>. Robert Southey to William Wordsworth, 23 November [...",
+            "fid" : "southey.5.3211",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3211",
+            "weight" : "1",
+            "pos" : 3782,
+            "context" : "Letter <mark>3211<\/mark>.  23 November [1818]: William Wordsworth",
+            "fid" : "refletterlistPart5.522",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "3240",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3240",
+            "weight" : "1",
+            "pos" : 103,
+            "context" : "Letter <mark>3240<\/mark>. 5 February 1819: Elton Hamond ",
+            "fid" : "6.3240" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3240.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3240",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3240<\/mark>. Robert Southey to Elton Hamond, 5 February 1819...",
+            "fid" : "southey.6.3240",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3421.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3240",
+            "weight" : "1",
+            "pos" : 366,
+            "context" : "...Southey to Elton Hamond, 5 February 1819, Letter <mark>3240<\/mark>; and Southey to Elton Hamond, 2 March 1819...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3240",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "Letter <mark>3240<\/mark>. 5 February 1819: Elton Hamond ",
+            "fid" : "refletterlistPart6.13",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

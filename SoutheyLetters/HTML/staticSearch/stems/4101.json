@@ -1,0 +1,40 @@
+
+  { "stem" : "4101",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4101",
+            "weight" : "1",
+            "pos" : 2391,
+            "context" : "Letter <mark>4101<\/mark>. [9 December 1823]: John Murray",
+            "fid" : "7.4101" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4101.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4101",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4101<\/mark>. Robert Southey to John Murray, [9 December 1823...",
+            "fid" : "southey.7.4101",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4101",
+            "weight" : "1",
+            "pos" : 2373,
+            "context" : "Letter <mark>4101<\/mark>. [9 December 1823]: John Murray",
+            "fid" : "refletterlistPart7.328",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

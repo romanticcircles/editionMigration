@@ -1,0 +1,29 @@
+
+  { "stem" : "humain",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1626.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Humaine",
+            "weight" : "1",
+            "pos" : 125,
+            "context" : "..., ou Mémoires Intéressants pour Servir à l’Histoire de l’Espèce <mark>Humaine<\/mark> (1771). Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.663a.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "humaines",
+            "weight" : "1",
+            "pos" : 493,
+            "context" : "...cet etre &lt;age&gt; a passe dans les habitans <mark>humaines<\/mark>. Si vous avez un de ces gens-la...",
+            "fid" : "southey.2.663a",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "sheepsteal",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.788.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sheepstealer",
+            "weight" : "1",
+            "pos" : 385,
+            "context" : ".... Cupid15 is my guest – oh that incorrigible <mark>Sheepstealer<\/mark>! do you know he like the name, &amp;...",
+            "fid" : "southey.2.788",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Sheepstealer",
+            "weight" : "1",
+            "pos" : 390,
+            "context" : "...he like the name, &amp; if you call him <mark>Sheepstealer<\/mark> wags his tail for pure joy in the recollection of...",
+            "fid" : "southey.2.788",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4310.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sheepstealing",
+            "weight" : "1",
+            "pos" : 342,
+            "context" : " Sad news arrived that Dapper had been hanged for <mark>sheepstealing<\/mark>9 ",
+            "fid" : "southey.7.4310",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

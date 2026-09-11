@@ -1,0 +1,40 @@
+
+  { "stem" : "2555",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2555",
+            "weight" : "1",
+            "pos" : 6076,
+            "context" : "Letter <mark>2555<\/mark>. 15 February 1815: John Murray",
+            "fid" : "4.2555" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2555.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2555",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2555<\/mark>. Robert Southey to John Murray, 15 February 1815...",
+            "fid" : "southey.4.2555",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2555",
+            "weight" : "1",
+            "pos" : 6047,
+            "context" : "Letter <mark>2555<\/mark>. 15 February 1815: John Murray",
+            "fid" : "refletterlistPart4.837",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

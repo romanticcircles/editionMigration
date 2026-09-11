@@ -1,0 +1,37 @@
+
+  { "stem" : "splice",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.581.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "splice",
+            "weight" : "1",
+            "pos" : 236,
+            "context" : "...lost in which you acknowledged the receipt of the last <mark>splice<\/mark> – as you probably said whether to your taste it...",
+            "fid" : "southey.2.581",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "spliced",
+            "weight" : "1",
+            "pos" : 241,
+            "context" : "...as you probably said whether to your taste it was <mark>spliced<\/mark> well or not.",
+            "fid" : "southey.2.581",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.421.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "spliced",
+            "weight" : "1",
+            "pos" : 137,
+            "context" : "...facts must be grounded &amp; woven into the work – <mark>spliced<\/mark> so neatly as not to betray the junction. these...",
+            "fid" : "southey.2.421",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

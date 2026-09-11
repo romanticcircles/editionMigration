@@ -1,0 +1,40 @@
+
+  { "stem" : "3001",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3001",
+            "weight" : "1",
+            "pos" : 2297,
+            "context" : "Letter <mark>3001<\/mark>. 14 June 1817: [Walter Savage Landor]...",
+            "fid" : "5.3001" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3001.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3001",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3001<\/mark>. Robert Southey to [Walter Savage Landor], 14...",
+            "fid" : "southey.5.3001",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3001",
+            "weight" : "1",
+            "pos" : 2279,
+            "context" : "Letter <mark>3001<\/mark>.  14 June 1817: [Walter Savage Landor]...",
+            "fid" : "refletterlistPart5.312",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "niceta",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1769.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Nicetas",
+            "weight" : "1",
+            "pos" : 108,
+            "context" : "...should have kept it, – it is the volume containing <mark>Nicetas<\/mark>,4 of which one of the covers is broken...",
+            "fid" : "southey.4.1769",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Nicetas",
+            "weight" : "1",
+            "pos" : 472,
+            "context" : "4.   Jerome Drexelius (1581–1638), <mark>Nicetas<\/mark>, or the Triumph Over Incontinence (1633); no....",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1701.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Nicetas",
+            "weight" : "1",
+            "pos" : 628,
+            "context" : "8.  <mark>Nicetas<\/mark>, or the Triumph Over Incontinence (1633) by...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

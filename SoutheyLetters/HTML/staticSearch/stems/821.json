@@ -1,0 +1,61 @@
+
+  { "stem" : "821",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3553.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "821",
+            "weight" : "1",
+            "pos" : 173,
+            "context" : "AD. <mark>821<\/mark>. – totam Angliam contereret hoc anno quidam morbus,...",
+            "fid" : "southey.6.3553",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "821",
+            "weight" : "1",
+            "pos" : 507,
+            "context" : "10.  ‘AD <mark>821<\/mark>: In this year a sickness wore down all England...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "821",
+            "weight" : "1",
+            "pos" : 4130,
+            "context" : "Letter <mark>821<\/mark>. 19 August [1803]: Mary Barker",
+            "fid" : "2.821" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.821.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "821",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>821<\/mark>. Robert Southey to Mary Barker, 19 August [...",
+            "fid" : "southey.2.821",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "821",
+            "weight" : "1",
+            "pos" : 4101,
+            "context" : "Letter <mark>821<\/mark>. 19 August [1803]: Mary Barker",
+            "fid" : "refletterlistPart2.548",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

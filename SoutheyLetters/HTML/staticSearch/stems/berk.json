@@ -1,0 +1,50 @@
+
+  { "stem" : "berk",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.351.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Berkely",
+            "weight" : "1",
+            "pos" : 43,
+            "context" : "...children &amp; fetch them with speed The old woman of <mark>Berkely<\/mark> said, The monk my son &amp; my daughter the...",
+            "fid" : "line6",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Berkely",
+            "weight" : "1",
+            "pos" : 58,
+            "context" : "...her son &amp; her daughter the nun Their way to <mark>Berkely<\/mark> bent, And they have brought with pious thought The...",
+            "fid" : "line10",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.355.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Berkely",
+            "weight" : "1",
+            "pos" : 622,
+            "context" : "...not say if you have received the Old Woman of <mark>Berkely<\/mark>.8 ",
+            "fid" : "southey.2.355",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.499.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Berkely",
+            "weight" : "1",
+            "pos" : 69,
+            "context" : "Wynn has been with me – we went to <mark>Berkely<\/mark> together &amp; met The Old Woman.3 she muttered...",
+            "fid" : "southey.2.499",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

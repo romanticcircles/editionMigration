@@ -1,0 +1,40 @@
+
+  { "stem" : "3130",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3130",
+            "weight" : "1",
+            "pos" : 3233,
+            "context" : "Letter <mark>3130<\/mark>. [late April 1818]: Mary Barker",
+            "fid" : "5.3130" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3130.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3130",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3130<\/mark>. Robert Southey to Mary Barker, [late April...",
+            "fid" : "southey.5.3130",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3130",
+            "weight" : "1",
+            "pos" : 3213,
+            "context" : "Letter <mark>3130<\/mark>.  [late April 1818]: Mary Barker",
+            "fid" : "refletterlistPart5.441",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

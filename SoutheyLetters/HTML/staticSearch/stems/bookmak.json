@@ -1,0 +1,29 @@
+
+  { "stem" : "bookmak",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1041.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bookmaking",
+            "weight" : "1",
+            "pos" : 348,
+            "context" : "...no Dr Aikens &amp; Mrs Barbaulds – In short no <mark>bookmaking<\/mark> goes on there. which is bad enough as a disease...",
+            "fid" : "southey.3.1041",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.partThreeIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘bookmaking’",
+            "weight" : "1",
+            "pos" : 335,
+            "context" : ".... Visits to friends in London and Bristol punctuated the <mark>‘bookmaking’<\/mark> routine biennially. Constantly short of money in these years...",
+            "fid" : "southey.partThreeIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

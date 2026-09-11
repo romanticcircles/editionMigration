@@ -1,0 +1,41 @@
+
+  { "stem" : "voltaic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Voltaic",
+            "weight" : "1",
+            "pos" : 44596,
+            "context" : "...1807 he made a series of experiments there, using the <mark>Voltaic<\/mark> pile to isolate previously unknown elements including potassium and sodium...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1579.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Voltaic",
+            "weight" : "1",
+            "pos" : 470,
+            "context" : "...3.   In 1807 Davy caused a sensation by using the <mark>Voltaic<\/mark> pile to separate an unknown metal, potassium, from...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.540.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "‘voltaic",
+            "weight" : "1",
+            "pos" : 775,
+            "context" : "...Alessandro Volta (1745–1827) had invented the <mark>‘voltaic<\/mark> pile’, an early form of electric battery, in...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

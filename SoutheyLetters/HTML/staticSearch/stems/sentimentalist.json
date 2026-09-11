@@ -1,0 +1,37 @@
+
+  { "stem" : "sentimentalist",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "sentimentalist",
+            "weight" : "1",
+            "pos" : 134,
+            "context" : "..., love, all make nothing at all.The rich <mark>sentimentalist<\/mark> dreams of a grove,Purling streams, sighing zephyrs...",
+            "fid" : "line25",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "sentimentalist",
+            "weight" : "1",
+            "pos" : 153,
+            "context" : "...flies to the famed Gretna Green.For the poor <mark>sentimentalist<\/mark>, wealth is but care;Let me marry and...",
+            "fid" : "line29",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1693.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sentimentalists",
+            "weight" : "1",
+            "pos" : 119,
+            "context" : "...professors of fine feeling, &amp; how I suspect all <mark>sentimentalists<\/mark>? xxxMary I dare say will write to you...",
+            "fid" : "southey.3.1693",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

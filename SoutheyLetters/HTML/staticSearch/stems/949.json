@@ -1,0 +1,53 @@
+
+  { "stem" : "949",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3624.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "949",
+            "weight" : "1",
+            "pos" : 386,
+            "context" : "...now at Houghton Library, Harvard University, MS Eng <mark>949<\/mark>. Back",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "949",
+            "weight" : "1",
+            "pos" : 534,
+            "context" : "Letter <mark>949<\/mark>. 7 June 1804: Grosvenor Charles Bedford",
+            "fid" : "3.949" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.949.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "949",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>949<\/mark>. Robert Southey to Grosvenor Charles Bedford, 7 June...",
+            "fid" : "southey.3.949",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "949",
+            "weight" : "1",
+            "pos" : 515,
+            "context" : "Letter <mark>949<\/mark>. 7 June 1804: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart3.73",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

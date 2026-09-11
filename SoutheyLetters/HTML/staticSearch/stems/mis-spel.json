@@ -1,0 +1,29 @@
+
+  { "stem" : "mis-spel",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mis-spelling",
+            "weight" : "1",
+            "pos" : 225,
+            "context" : "...kept to a minimum. Southey’s original spelling, and <mark>mis-spelling<\/mark>, grammar, punctuation and any slips of his pen...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.301.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mis-spelling",
+            "weight" : "1",
+            "pos" : 458,
+            "context" : "1.  A <mark>mis-spelling<\/mark> of ‘Selva Militar y Politica’ (1652), in Obras...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

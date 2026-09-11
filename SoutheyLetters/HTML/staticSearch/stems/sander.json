@@ -1,0 +1,37 @@
+
+  { "stem" : "sander",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1363.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Sanders",
+            "weight" : "1",
+            "pos" : 73,
+            "context" : "...is a little too bad to quote the authority of <mark>Sanders<\/mark>!5 – the Abbé Barruel6 of the English...",
+            "fid" : "southey.3.1363",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Sander",
+            "weight" : "1",
+            "pos" : 560,
+            "context" : "5.   Nicholas <mark>Sander<\/mark> (c.1530–1581; DNB), Roman Catholic controversialist...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3213.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Sander",
+            "weight" : "1",
+            "pos" : 612,
+            "context" : "...Letter 1820. The widowed Mrs Barcroft had married John <mark>Sander<\/mark> in 1813. Lady Day (25 March) was...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

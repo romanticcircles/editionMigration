@@ -1,0 +1,50 @@
+
+  { "stem" : "parlez",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.152.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "parlez",
+            "weight" : "1",
+            "pos" : 203,
+            "context" : "Marchez tout-doux, <mark>parlez<\/mark> tout-bas, Mon doux ami,Car si...",
+            "fid" : "line21",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "parlez",
+            "weight" : "1",
+            "pos" : 274,
+            "context" : "Marchez tout-doux, <mark>parlez<\/mark> tout-bas, Mon doux ami,Car si...",
+            "fid" : "line37",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2164.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "parlez",
+            "weight" : "1",
+            "pos" : 161,
+            "context" : "...&amp; it is of prodigious consequence that they do’nt understand <mark>parlez<\/mark>-vou-ing, &amp; it will take a...",
+            "fid" : "southey.4.2164",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2646.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Parlez",
+            "weight" : "1",
+            "pos" : 50,
+            "context" : " Who is to be the <mark>Parlez<\/mark>-vous of the party, – for my part...",
+            "fid" : "southey.4.2646",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

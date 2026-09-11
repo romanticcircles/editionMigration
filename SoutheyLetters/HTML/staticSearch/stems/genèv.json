@@ -1,0 +1,29 @@
+
+  { "stem" : "genèv",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Genève",
+            "weight" : "1",
+            "pos" : 1636,
+            "context" : "...of Amsterdam; Biblioteca Pública de Évora; Bibliothèque de <mark>Genève<\/mark>; and Universiteitsbibliotheek, Ghent.",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4179.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Genève",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "MS: <mark>Genève<\/mark>, Bibliothèque Publique et Universitaire, Ms. suppl....",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

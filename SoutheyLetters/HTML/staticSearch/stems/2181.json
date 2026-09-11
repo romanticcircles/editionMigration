@@ -1,0 +1,53 @@
+
+  { "stem" : "2181",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2181",
+            "weight" : "1",
+            "pos" : 3294,
+            "context" : "Letter <mark>2181<\/mark>. 21 November 1812: John Martyn Longmire",
+            "fid" : "4.2181" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2168.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2181",
+            "weight" : "1",
+            "pos" : 307,
+            "context" : "...to John Martyn Longmire, 21 November 1812, Letter <mark>2181<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2181.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2181",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2181<\/mark>. Robert Southey to John Martyn Longmire, 21 November...",
+            "fid" : "southey.4.2181",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2181",
+            "weight" : "1",
+            "pos" : 3271,
+            "context" : "Letter <mark>2181<\/mark>. 21 November 1812: John Martyn Longmire",
+            "fid" : "refletterlistPart4.458",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

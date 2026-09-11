@@ -1,0 +1,53 @@
+
+  { "stem" : "3016",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3016",
+            "weight" : "1",
+            "pos" : 2402,
+            "context" : "Letter <mark>3016<\/mark>. 24 August 1817: Thomas Southey",
+            "fid" : "5.3016" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3016.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3016",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3016<\/mark>. Robert Southey to Thomas Southey, 24 August 1817...",
+            "fid" : "southey.5.3016",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3016",
+            "weight" : "1",
+            "pos" : 2384,
+            "context" : "Letter <mark>3016<\/mark>.  24 August 1817: Thomas Southey",
+            "fid" : "refletterlistPart5.327",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.partFiveIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3016",
+            "weight" : "1",
+            "pos" : 1064,
+            "context" : "...verses to the object of their affections … (Letter <mark>3016<\/mark>)",
+            "fid" : "southey.partFiveIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

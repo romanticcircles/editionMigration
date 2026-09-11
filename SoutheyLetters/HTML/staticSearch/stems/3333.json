@@ -1,0 +1,61 @@
+
+  { "stem" : "3333",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3333",
+            "weight" : "1",
+            "pos" : 175,
+            "context" : "...supporters to improve the lives of distressed gentlewomen (Letter <mark>3333<\/mark>). They include Southey's controversial ideas for treating men who...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "3333",
+            "weight" : "1",
+            "pos" : 751,
+            "context" : "...season’, punctuated by ‘a series of interruptions’ (Letter <mark>3333<\/mark>). They saw a stream of friends and tourists beating...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3333",
+            "weight" : "1",
+            "pos" : 780,
+            "context" : "Letter <mark>3333<\/mark>. 20 July 1819: Herbert Hill ",
+            "fid" : "6.3333" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3333.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3333",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3333<\/mark>. Robert Southey to Herbert Hill, 20 July 1819...",
+            "fid" : "southey.6.3333",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3333",
+            "weight" : "1",
+            "pos" : 764,
+            "context" : "Letter <mark>3333<\/mark>. 20 July 1819: Herbert Hill ",
+            "fid" : "refletterlistPart6.106",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

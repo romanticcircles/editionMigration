@@ -1,0 +1,37 @@
+
+  { "stem" : "scion",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "scions",
+            "weight" : "1",
+            "pos" : 343,
+            "context" : "...him into contact with boys from radically different backgrounds, <mark>scions<\/mark> of rich, powerful families. The first letter in...",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "scion",
+            "weight" : "1",
+            "pos" : 446,
+            "context" : "...Watkin Williams Wynn, younger brother of a Baronet and <mark>scion<\/mark> of an Anglo-Welsh, Whig political dynasty....",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.444.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "scion",
+            "weight" : "1",
+            "pos" : 765,
+            "context" : "...friend of Richard Lane’s. Cosserat was a clergyman and <mark>scion<\/mark> of a prominent Exeter family of merchants and lawyers....",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

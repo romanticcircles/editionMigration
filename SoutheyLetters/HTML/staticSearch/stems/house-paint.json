@@ -1,0 +1,28 @@
+
+  { "stem" : "house-paint",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-painter",
+            "weight" : "1",
+            "pos" : 50814,
+            "context" : " Son of John Favell (dates unknown), a <mark>house-painter<\/mark> in Cambridge. Favell attended Christ’s Hospital School 1786–...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1585.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "house-painter",
+            "weight" : "1",
+            "pos" : 294,
+            "context" : "...word, – because it always reminds one of the <mark>house-painter<\/mark>.6 I set a black mark upon the line...",
+            "fid" : "southey.3.1585",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

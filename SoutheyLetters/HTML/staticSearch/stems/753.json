@@ -1,0 +1,40 @@
+
+  { "stem" : "753",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "753",
+            "weight" : "1",
+            "pos" : 3623,
+            "context" : "Letter <mark>753<\/mark>. 19 January 1803: John Rickman",
+            "fid" : "2.753" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.753.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "753",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>753<\/mark>. Robert Southey to John Rickman, 19 January 1803...",
+            "fid" : "southey.2.753",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "753",
+            "weight" : "1",
+            "pos" : 3594,
+            "context" : "Letter <mark>753<\/mark>. 19 January 1803: John Rickman",
+            "fid" : "refletterlistPart2.479",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "egmont",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1948.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Egmonts",
+            "weight" : "1",
+            "pos" : 89,
+            "context" : "...the clergyman Mr John Poole, under the Earl of <mark>Egmonts<\/mark> patronage, &amp; is under his immediate superintendence.3...",
+            "fid" : "southey.4.1948",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Egmont",
+            "weight" : "1",
+            "pos" : 276,
+            "context" : "...of Enmore and John Perceval, 3rd Earl of <mark>Egmont<\/mark> (1737\/8–1822). Poole was the author of...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.351.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Egmont",
+            "weight" : "1",
+            "pos" : 991,
+            "context" : "...John Cruikshank (dates unknown), land agent for Lord <mark>Egmont<\/mark> at Nether Stowey, Somerset. A dream of John’s...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

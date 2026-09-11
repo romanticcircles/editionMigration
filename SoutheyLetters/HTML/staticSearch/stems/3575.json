@@ -1,0 +1,53 @@
+
+  { "stem" : "3575",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1811.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3575",
+            "weight" : "1",
+            "pos" : 278,
+            "context" : "...: Pforzheimer Collection, New York Public Library, Misc <mark>3575<\/mark>. ALS; 4p. Unpublished. Back",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3575",
+            "weight" : "1",
+            "pos" : 2601,
+            "context" : "Letter <mark>3575<\/mark>. 4 December 1820: Grosvenor Charles Bedford ",
+            "fid" : "6.3575" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3575.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3575",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3575<\/mark>. Robert Southey to Grosvenor Charles Bedford, 4 December...",
+            "fid" : "southey.6.3575",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3575",
+            "weight" : "1",
+            "pos" : 2583,
+            "context" : "Letter <mark>3575<\/mark>. 4 December 1820: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.352",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

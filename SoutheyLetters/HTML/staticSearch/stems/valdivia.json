@@ -1,0 +1,37 @@
+
+  { "stem" : "valdivia",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2537.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Valdivia",
+            "weight" : "1",
+            "pos" : 396,
+            "context" : "...entered the S Sea &amp; landed in the port of <mark>Valdivia<\/mark>22 &amp; D Carlos Enriquez Clerck23 who was taken...",
+            "fid" : "southey.4.2537",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Valdivia",
+            "weight" : "1",
+            "pos" : 903,
+            "context" : "..., to establish trading links with South America. At <mark>Valdivia<\/mark> he was compelled to leave four of his crew behind...",
+            "fid" : "22",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3073.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Valdivia",
+            "weight" : "1",
+            "pos" : 499,
+            "context" : "...(d. 1713; DNB), who in 1711 suggested taking <mark>Valdivia<\/mark> in Chile and possibly also a port on the Atlantic...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

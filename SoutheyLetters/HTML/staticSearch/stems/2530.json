@@ -1,0 +1,40 @@
+
+  { "stem" : "2530",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2530",
+            "weight" : "1",
+            "pos" : 5888,
+            "context" : "Letter <mark>2530<\/mark>. 27 December 1814: William Taylor",
+            "fid" : "4.2530" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2530.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2530",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2530<\/mark>. Robert Southey to William Taylor, 27 December 1814...",
+            "fid" : "southey.4.2530",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2530",
+            "weight" : "1",
+            "pos" : 5861,
+            "context" : "Letter <mark>2530<\/mark>. 27 December 1814: William Taylor",
+            "fid" : "refletterlistPart4.812",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

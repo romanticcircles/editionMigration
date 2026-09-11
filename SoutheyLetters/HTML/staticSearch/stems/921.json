@@ -1,0 +1,40 @@
+
+  { "stem" : "921",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "921",
+            "weight" : "1",
+            "pos" : 338,
+            "context" : "Letter <mark>921<\/mark>. 8 April 1804: William Taylor",
+            "fid" : "3.921" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.921.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "921",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>921<\/mark>. Robert Southey to William Taylor, 8 April 1804...",
+            "fid" : "southey.3.921",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "921",
+            "weight" : "1",
+            "pos" : 319,
+            "context" : "Letter <mark>921<\/mark>. 8 April 1804: William Taylor",
+            "fid" : "refletterlistPart3.45",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

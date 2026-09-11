@@ -1,0 +1,79 @@
+
+  { "stem" : "medico",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1624.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Medico",
+            "weight" : "1",
+            "pos" : 523,
+            "context" : "<mark>Medico<\/mark> ou Monarchio Medico-",
+            "fid" : "southey.3.1624",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Medico",
+            "weight" : "1",
+            "pos" : 526,
+            "context" : "Medico ou Monarchio <mark>Medico<\/mark>-",
+            "fid" : "southey.3.1624",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Medico",
+            "weight" : "1",
+            "pos" : 1398,
+            "context" : "...Bras Luis de Abreu (1692–1756), Portugal <mark>Medico<\/mark> ou Monarchia Medico-Lusitana, Historica, Practica,...",
+            "fid" : "34",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Medico",
+            "weight" : "1",
+            "pos" : 1402,
+            "context" : "...Abreu (1692–1756), Portugal Medico ou Monarchia <mark>Medico<\/mark>-Lusitana, Historica, Practica, Symbolica, Ethica...",
+            "fid" : "34",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3804.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "medicos",
+            "weight" : "1",
+            "pos" : 305,
+            "context" : "...long misconduct, but in what this upstart dominion of <mark>medicos<\/mark> &amp; letrados16 is to end, I cannot see...",
+            "fid" : "southey.7.3804",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4224.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Medico",
+            "weight" : "1",
+            "pos" : 1883,
+            "context" : "...I, p. 92. His source was Paracelsus’s Opera Omnia <mark>Medico<\/mark>-Chemico-Chirurgica, 3 vols (Geneva,...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3275.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "medico",
+            "weight" : "1",
+            "pos" : 428,
+            "context" : "...Beato Gondisalvo Amarantho volo emisso, tamquam cœlesti et probatissimo <mark>medico<\/mark> curandam se commendaret. Paruit confestim dictis soceri sui afflicta...",
+            "fid" : "southey.6.3275",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

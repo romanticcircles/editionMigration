@@ -1,0 +1,36 @@
+
+  { "stem" : "queenhith",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1303.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Queenhithe",
+            "weight" : "1",
+            "pos" : 113,
+            "context" : "...Museum?3 if not they will be in the <mark>Queenhithe<\/mark> collection,4 –&amp; if you were at Queenhithe,...",
+            "fid" : "southey.3.1303",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Queenhithe",
+            "weight" : "1",
+            "pos" : 115,
+            "context" : "...the Queenhithe collection,4 –&amp; if you were at <mark>Queenhithe<\/mark>, half an hour would do the business, Zounds...",
+            "fid" : "ref3.1303.3",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Queenhithe",
+            "weight" : "1",
+            "pos" : 70161,
+            "context" : "...he carried on an extensive business as a drysalter at <mark>Queenhithe<\/mark>. He patronized Robert Bloomfield, whose The Farmer’s Boy...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

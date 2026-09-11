@@ -1,0 +1,40 @@
+
+  { "stem" : "3660",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3660",
+            "weight" : "1",
+            "pos" : 3237,
+            "context" : "Letter <mark>3660<\/mark>. 26 March 1821: Richard Tighe ",
+            "fid" : "6.3660" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3660.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3660",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3660<\/mark>. Robert Southey to Richard Tighe, 26 March 1821...",
+            "fid" : "southey.6.3660",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3660",
+            "weight" : "1",
+            "pos" : 3217,
+            "context" : "Letter <mark>3660<\/mark>. 26 March 1821: Richard Tighe ",
+            "fid" : "refletterlistPart6.438",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

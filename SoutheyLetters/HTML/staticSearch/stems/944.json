@@ -1,0 +1,40 @@
+
+  { "stem" : "944",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "944",
+            "weight" : "1",
+            "pos" : 500,
+            "context" : "Letter <mark>944<\/mark>. [late May] 1804: Edith Southey",
+            "fid" : "3.944" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.944.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "944",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>944<\/mark>. Robert Southey to Edith Southey, [late May...",
+            "fid" : "southey.3.944",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "944",
+            "weight" : "1",
+            "pos" : 481,
+            "context" : "Letter <mark>944<\/mark>. [late May] 1804: Edith Southey",
+            "fid" : "refletterlistPart3.68",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

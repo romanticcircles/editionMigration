@@ -1,0 +1,40 @@
+
+  { "stem" : "3251",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3251",
+            "weight" : "1",
+            "pos" : 180,
+            "context" : "Letter <mark>3251<\/mark>. 24 February 1819: Herbert Hill ",
+            "fid" : "6.3251" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3251.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3251",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3251<\/mark>. Robert Southey to Herbert Hill, 24 February 1819...",
+            "fid" : "southey.6.3251",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3251",
+            "weight" : "1",
+            "pos" : 164,
+            "context" : "Letter <mark>3251<\/mark>. 24 February 1819: Herbert Hill ",
+            "fid" : "refletterlistPart6.24",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

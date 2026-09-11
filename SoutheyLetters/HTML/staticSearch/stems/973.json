@@ -1,0 +1,53 @@
+
+  { "stem" : "973",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "973",
+            "weight" : "1",
+            "pos" : 710,
+            "context" : "Letter <mark>973<\/mark>. 5 August 1804: Mary Barker",
+            "fid" : "3.973" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.973.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "973",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>973<\/mark>. Robert Southey to Mary Barker, 5 August 1804...",
+            "fid" : "southey.3.973",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.984.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "973",
+            "weight" : "1",
+            "pos" : 190,
+            "context" : "...of Madoc from whom Wynn claimed descent, see letter <mark>973<\/mark> of this edition. ‘Regis’ means ‘of kings’. The...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "973",
+            "weight" : "1",
+            "pos" : 691,
+            "context" : "Letter <mark>973<\/mark>. 5 August 1804: Mary Barker",
+            "fid" : "refletterlistPart3.97",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

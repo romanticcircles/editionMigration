@@ -1,0 +1,65 @@
+
+  { "stem" : "grind",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "grind",
+            "weight" : "1",
+            "pos" : 1251,
+            "context" : "...of last year is not yet touched. They cannot <mark>grind<\/mark> the Barbary corn in England: it is extremely hard...",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "grinding",
+            "weight" : "1",
+            "pos" : 1280,
+            "context" : "...the subject, and proposed damping the corn previous to <mark>grinding<\/mark> it, so as to prevent the bran from pulverising....",
+            "fid" : "app.1.B",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.38.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grinds",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : "...been so openly attacked (may this fellow who now <mark>grinds<\/mark> god save the King on a hand organ to my...",
+            "fid" : "southey.1.38",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3436.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grind",
+            "weight" : "1",
+            "pos" : 114,
+            "context" : "...every man, woman, and child, who can <mark>grind<\/mark> a verse, is likely to be at work upon...",
+            "fid" : "southey.6.3436",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.897.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grinding",
+            "weight" : "1",
+            "pos" : 269,
+            "context" : "...thro their limbs Naked, or vainly fenced, the <mark>grinding<\/mark> steel Shall sheer its mortal way. But what are...",
+            "fid" : "line61",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

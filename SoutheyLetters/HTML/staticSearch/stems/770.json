@@ -1,0 +1,79 @@
+
+  { "stem" : "770",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/genIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "1",
+            "pos" : 910,
+            "context" : " M.S. for Margaret Snivel. (Letter <mark>770<\/mark>)",
+            "fid" : "genIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.216.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "1",
+            "pos" : 297,
+            "context" : "...to the Monthly Magazine, 8 (July 1799), <mark>770<\/mark>–772. His letter also touched on Croft’s conduct...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "1",
+            "pos" : 3756,
+            "context" : "Letter <mark>770<\/mark>. 3 April 1803: Grosvenor Charles Bedford",
+            "fid" : "2.770" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.439.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "1",
+            "pos" : 768,
+            "context" : "...published: Monthly Magazine, 8 (November 1799), <mark>770<\/mark>–772 [from where the text is taken]. Back...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.770.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>770<\/mark>. Robert Southey to Grosvenor Charles Bedford, 3 April...",
+            "fid" : "southey.2.770",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "770",
+            "weight" : "1",
+            "pos" : 3727,
+            "context" : "Letter <mark>770<\/mark>. 3 April 1803: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart2.497",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

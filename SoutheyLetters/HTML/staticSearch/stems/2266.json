@@ -1,0 +1,53 @@
+
+  { "stem" : "2266",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2266",
+            "weight" : "1",
+            "pos" : 3910,
+            "context" : "Letter <mark>2266<\/mark>. 5 June 1813: John Murray",
+            "fid" : "4.2266" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2266.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2266",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2266<\/mark>. Robert Southey to John Murray, 5 June 1813...",
+            "fid" : "southey.4.2266",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2285.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2266",
+            "weight" : "1",
+            "pos" : 315,
+            "context" : "...Southey to John Murray, 5 June 1813, Letter <mark>2266<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2266",
+            "weight" : "1",
+            "pos" : 3885,
+            "context" : "Letter <mark>2266<\/mark>. 5 June 1813: John Murray",
+            "fid" : "refletterlistPart4.543",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2097",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2097",
+            "weight" : "1",
+            "pos" : 2695,
+            "context" : "Letter <mark>2097<\/mark>. 19 May 1812: John Murray",
+            "fid" : "4.2097" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2046.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2097",
+            "weight" : "1",
+            "pos" : 655,
+            "context" : "...letter to John Murray, 19 May 1812, Letter <mark>2097<\/mark>. In the event, the review was either not...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2097.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2097",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2097<\/mark>. Robert Southey to John Murray, 19 May 1812...",
+            "fid" : "southey.4.2097",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2097",
+            "weight" : "1",
+            "pos" : 2672,
+            "context" : "Letter <mark>2097<\/mark>. 19 May 1812: John Murray",
+            "fid" : "refletterlistPart4.374",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

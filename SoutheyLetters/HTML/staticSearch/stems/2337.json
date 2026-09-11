@@ -1,0 +1,40 @@
+
+  { "stem" : "2337",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2337",
+            "weight" : "1",
+            "pos" : 4428,
+            "context" : "Letter <mark>2337<\/mark>. 28 November 1813: John May",
+            "fid" : "4.2337" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2337.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2337",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2337<\/mark>. Robert Southey to John May, 28 November 1813...",
+            "fid" : "southey.4.2337",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2337",
+            "weight" : "1",
+            "pos" : 4403,
+            "context" : "Letter <mark>2337<\/mark>. 28 November 1813: John May",
+            "fid" : "refletterlistPart4.614",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

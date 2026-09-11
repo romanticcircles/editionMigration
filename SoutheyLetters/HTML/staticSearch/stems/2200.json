@@ -1,0 +1,53 @@
+
+  { "stem" : "2200",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2200",
+            "weight" : "1",
+            "pos" : 3430,
+            "context" : "Letter <mark>2200<\/mark>. 8 January 1813: John Murray",
+            "fid" : "4.2200" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2200.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2200",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2200<\/mark>. Robert Southey to John Murray, 8 January 1813...",
+            "fid" : "southey.4.2200",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2201.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2200",
+            "weight" : "1",
+            "pos" : 267,
+            "context" : "...Southey to John Murray, 8 January 1813, Letter <mark>2200<\/mark>. Back",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2200",
+            "weight" : "1",
+            "pos" : 3405,
+            "context" : "Letter <mark>2200<\/mark>. 8 January 1813: John Murray",
+            "fid" : "refletterlistPart4.477",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

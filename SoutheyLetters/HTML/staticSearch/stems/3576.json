@@ -1,0 +1,53 @@
+
+  { "stem" : "3576",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2742.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3576",
+            "weight" : "1",
+            "pos" : 146,
+            "context" : "...Collection, New York Public Library, Misc MS. <mark>3576<\/mark>. ALS; 2p. Previously published: Kenneth Curry (...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3576",
+            "weight" : "1",
+            "pos" : 2608,
+            "context" : "Letter <mark>3576<\/mark>. 6 December 1820: Richard Heber ",
+            "fid" : "6.3576" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3576.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3576",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3576<\/mark>. Robert Southey to Richard Heber, 6 December 1820...",
+            "fid" : "southey.6.3576",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3576",
+            "weight" : "1",
+            "pos" : 2590,
+            "context" : "Letter <mark>3576<\/mark>. 6 December 1820: Richard Heber ",
+            "fid" : "refletterlistPart6.353",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

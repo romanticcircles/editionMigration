@@ -1,0 +1,53 @@
+
+  { "stem" : "2584",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2584",
+            "weight" : "1",
+            "pos" : 6286,
+            "context" : "Letter <mark>2584<\/mark>. 9 April 1815: Grosvenor Charles Bedford",
+            "fid" : "4.2584" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2584.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2584",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2584<\/mark>. Robert Southey to Grosvenor Charles Bedford, 9 April...",
+            "fid" : "southey.4.2584",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2597.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2584",
+            "weight" : "1",
+            "pos" : 444,
+            "context" : "..., Southey to Bedford, 9 April 1815, Letter <mark>2584<\/mark>. Bedford’s proposed change related to ‘For the Banks of...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2584",
+            "weight" : "1",
+            "pos" : 6257,
+            "context" : "Letter <mark>2584<\/mark>. 9 April 1815: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.866",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

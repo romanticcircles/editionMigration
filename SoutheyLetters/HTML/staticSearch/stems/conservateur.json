@@ -1,0 +1,67 @@
+
+  { "stem" : "conservateur",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Conservateur",
+            "weight" : "1",
+            "pos" : 6863,
+            "context" : "...2663a. 24 October 1815: Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand [Joseph Antoine Walwein de Tervliet]...",
+            "fid" : "4.2663a" },
+          
+          { "form" : "Conservateur",
+            "weight" : "1",
+            "pos" : 6880,
+            "context" : "...2663b. 24 October 1815: Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand [Joseph Antoine Walwein de Tervliet]...",
+            "fid" : "4.2663b" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Conservateur",
+            "weight" : "1",
+            "pos" : 6834,
+            "context" : "...2663a. 24 October 1815: Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand [Joseph Antoine Walwein de Tervliet]...",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Conservateur",
+            "weight" : "1",
+            "pos" : 6851,
+            "context" : "...2663b. 24 October 1815: Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand [Joseph Antoine Walwein de Tervliet]...",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663a.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Conservateur",
+            "weight" : "2",
+            "pos" : 8,
+            "context" : "2663a. Robert Southey to Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand, [Joseph Antoine Walwein de Tervliet...",
+            "fid" : "ref4.2663a.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663b.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Conservateur",
+            "weight" : "2",
+            "pos" : 8,
+            "context" : "2663b. Robert Southey to Monsieur le Bibliothecaire-<mark>Conservateur<\/mark> &amp; a Gand, [Joseph Antoine Walwein de Tervliet...",
+            "fid" : "ref4.2663b.1",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

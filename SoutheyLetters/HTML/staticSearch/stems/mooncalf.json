@@ -1,0 +1,53 @@
+
+  { "stem" : "mooncalf",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Mooncalf",
+            "weight" : "1",
+            "pos" : 1077,
+            "context" : "...be tried myself. There I saw that like Michael Draytons <mark>Mooncalf<\/mark>",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "Mooncalf",
+            "weight" : "1",
+            "pos" : 2356,
+            "context" : "...be tried myself. There I saw that like Michael Draytons <mark>Mooncalf<\/mark>",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Mooncalf",
+            "weight" : "1",
+            "pos" : 1756,
+            "context" : "...be tried myself. There I see that like Michael Draytons <mark>Mooncalf<\/mark>",
+            "fid" : "appendix3",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.936.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Mooncalf",
+            "weight" : "1",
+            "pos" : 11,
+            "context" : " You will have discovered ere this, Miss <mark>Mooncalf<\/mark>, that the theory of the tides has nothing to...",
+            "fid" : "southey.3.936",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

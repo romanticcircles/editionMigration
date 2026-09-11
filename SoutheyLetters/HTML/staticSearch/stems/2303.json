@@ -1,0 +1,66 @@
+
+  { "stem" : "2303",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2303",
+            "weight" : "1",
+            "pos" : 4178,
+            "context" : "Letter <mark>2303<\/mark>. 17 September 1813: John King",
+            "fid" : "4.2303" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2303.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2303",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2303<\/mark>. Robert Southey to John King, 17 September 1813...",
+            "fid" : "southey.4.2303",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2307.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2303",
+            "weight" : "1",
+            "pos" : 559,
+            "context" : "...Southey to John King, 17 September 1813, Letter <mark>2303<\/mark>. Allston and King got on well. The former...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2303",
+            "weight" : "1",
+            "pos" : 4153,
+            "context" : "Letter <mark>2303<\/mark>. 17 September 1813: John King",
+            "fid" : "refletterlistPart4.580",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2303",
+            "weight" : "1",
+            "pos" : 1478,
+            "context" : "...to congratulate, &amp; not condole with me’ (Letter <mark>2303<\/mark>). It was a sentiment repeated to others: ‘you...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

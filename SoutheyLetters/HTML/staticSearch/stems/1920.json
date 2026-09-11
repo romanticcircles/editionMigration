@@ -1,0 +1,53 @@
+
+  { "stem" : "1920",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1920",
+            "weight" : "1",
+            "pos" : 1409,
+            "context" : "Letter <mark>1920<\/mark>. 10 May 1811: Grosvenor Charles Bedford",
+            "fid" : "4.1920" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1920.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1920",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1920<\/mark>. Robert Southey to Grosvenor Charles Bedford, 10 May...",
+            "fid" : "southey.4.1920",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1920",
+            "weight" : "1",
+            "pos" : 1388,
+            "context" : "Letter <mark>1920<\/mark>. 10 May 1811: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.195",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3949.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1920",
+            "weight" : "1",
+            "pos" : 1613,
+            "context" : "...was mined at Bedminster from the 1740s until the <mark>1920<\/mark>s. Back",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,50 @@
+
+  { "stem" : "chilton",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.296.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Chilton",
+            "weight" : "1",
+            "pos" : 73,
+            "context" : " The old scoundrel <mark>Chilton<\/mark>5 is still off &amp; on with my Mother about...",
+            "fid" : "southey.2.296",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Chilton",
+            "weight" : "1",
+            "pos" : 260,
+            "context" : "5.  Mr <mark>Chilton<\/mark> (first name and dates unknown) was the owner...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.294.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Chilton",
+            "weight" : "1",
+            "pos" : 625,
+            "context" : "9.  A Mr <mark>Chilton<\/mark> (first name and dates unknown) was the owner...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.309.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Chilton",
+            "weight" : "1",
+            "pos" : 420,
+            "context" : "4.  Probably Mr <mark>Chilton<\/mark> (first name and dates unknown), owner of the...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

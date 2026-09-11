@@ -1,0 +1,40 @@
+
+  { "stem" : "816",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "816",
+            "weight" : "1",
+            "pos" : 4098,
+            "context" : "Letter <mark>816<\/mark>. 3 August 1803: Samuel Taylor Coleridge",
+            "fid" : "2.816" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.816.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "816",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>816<\/mark>. Robert Southey to Samuel Taylor Coleridge [fragment],...",
+            "fid" : "southey.2.816",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "816",
+            "weight" : "1",
+            "pos" : 4069,
+            "context" : "Letter <mark>816<\/mark>. 3 August 1803: Samuel Taylor Coleridge",
+            "fid" : "refletterlistPart2.543",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "856",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1603.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "856",
+            "weight" : "1",
+            "pos" : 424,
+            "context" : "<mark>856<\/mark>.",
+            "fid" : "southey.3.1603",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "856",
+            "weight" : "1",
+            "pos" : 4393,
+            "context" : "Letter <mark>856<\/mark>. 24 November [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "2.856" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.856.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "856",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>856<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 24...",
+            "fid" : "southey.2.856",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "856",
+            "weight" : "1",
+            "pos" : 4364,
+            "context" : "Letter <mark>856<\/mark>. 24 November [1803]: Charles Watkin Williams Wynn...",
+            "fid" : "refletterlistPart2.583",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,50 @@
+
+  { "stem" : "calabria",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.839.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Calabrias",
+            "weight" : "1",
+            "pos" : 313,
+            "context" : "...seen at Valencia among the wreck of the Duke of <mark>Calabrias<\/mark>11 effects about some there between 1580 &amp; 1600,...",
+            "fid" : "southey.2.839",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Calabria",
+            "weight" : "1",
+            "pos" : 571,
+            "context" : "10.  Ferdinand of Aragon, Duke of <mark>Calabria<\/mark> (1488-1550), Viceroy of Valencia 1537-...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1702.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Calabria",
+            "weight" : "1",
+            "pos" : 688,
+            "context" : "...Maltese regiment was not involved in fighting at Scylla, <mark>Calabria<\/mark>, in 1809, but in 1808 became notorious when...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.475.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Calabria",
+            "weight" : "1",
+            "pos" : 231,
+            "context" : "...as for banditti, as I should steer clear of <mark>Calabria<\/mark> &amp; the Tyrol there is not much to apprehend –...",
+            "fid" : "southey.2.475",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

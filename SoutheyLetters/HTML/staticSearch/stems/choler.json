@@ -1,0 +1,39 @@
+
+  { "stem" : "choler",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "choler",
+            "weight" : "1",
+            "pos" : 137,
+            "context" : "...Southey owns that article on “Foliage*”, which excited my <mark>choler<\/mark> so much. But who else could have been the...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] },
+          
+          { "form" : "choler",
+            "weight" : "1",
+            "pos" : 1343,
+            "context" : "...Mr Southey owns that article on “Foliage” which excited my <mark>choler<\/mark> so much. But who else could have been the...",
+            "fid" : "appendix4",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "choler",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "...that article*6 on ‘Foliage,’ which excited my <mark>choler<\/mark> so much. But who else could have been the...",
+            "fid" : "southey.7.4289",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

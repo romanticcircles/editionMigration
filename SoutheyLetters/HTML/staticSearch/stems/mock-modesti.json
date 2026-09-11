@@ -1,0 +1,29 @@
+
+  { "stem" : "mock-modesti",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1871.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mock-modesty",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "...my equals. You will not suspect me of any <mark>mock-modesty<\/mark> in this. On the whole I shall have done greater...",
+            "fid" : "southey.4.1871",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.697.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mock-modesty",
+            "weight" : "1",
+            "pos" : 296,
+            "context" : "...to my own microcosm – damn the impudence of that <mark>mock-modesty<\/mark> phrase – tis a megalocosm &amp; a megistocosm &amp; a...",
+            "fid" : "southey.2.697",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

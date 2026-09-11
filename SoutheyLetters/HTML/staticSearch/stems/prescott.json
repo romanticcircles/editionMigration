@@ -1,0 +1,53 @@
+
+  { "stem" : "prescott",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1212.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "Prescott",
+            "weight" : "1",
+            "pos" : 121,
+            "context" : "....7 There is a boy, by name Joseph <mark>Prescott<\/mark>, who has visions – I suspect this to be...",
+            "fid" : "southey.3.1212",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Prescott",
+            "weight" : "1",
+            "pos" : 639,
+            "context" : "8.   The visions of Joseph <mark>Prescott<\/mark> (dates unknown), of Bermondsey, London, from...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Prescott’s",
+            "weight" : "1",
+            "pos" : 661,
+            "context" : "...A Second Book of Visions. The Continuation of Joseph <mark>Prescott’s<\/mark> Visions (1803). Prescott was suspected of basing his...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Prescott",
+            "weight" : "1",
+            "pos" : 664,
+            "context" : ".... The Continuation of Joseph Prescott’s Visions (1803). <mark>Prescott<\/mark> was suspected of basing his visions on drawings taken from...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4155.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Prescott",
+            "weight" : "1",
+            "pos" : 312,
+            "context" : "...Collection, Special Collections, Manuscripts, and Archives, <mark>Prescott<\/mark> Memorial Library, Louisiana Tech University, Ruston, Louisiana...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

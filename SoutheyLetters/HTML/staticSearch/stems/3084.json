@@ -1,0 +1,40 @@
+
+  { "stem" : "3084",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3084",
+            "weight" : "1",
+            "pos" : 2900,
+            "context" : "Letter <mark>3084<\/mark>. 27 February 1818: Charlotte Broome",
+            "fid" : "5.3084" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3084.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3084",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3084<\/mark>. Robert Southey to Charlotte Broome, 27 February 1818...",
+            "fid" : "southey.5.3084",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3084",
+            "weight" : "1",
+            "pos" : 2880,
+            "context" : "Letter <mark>3084<\/mark>.  27 February 1818: Charlotte Broome",
+            "fid" : "refletterlistPart5.395",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,41 @@
+
+  { "stem" : "watercolourist",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Watercolourist",
+            "weight" : "1",
+            "pos" : 48568,
+            "context" : "<mark>Watercolourist<\/mark> who lived in Cavendish Square, London. Edridge sketched...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.132.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "watercolourist",
+            "weight" : "1",
+            "pos" : 410,
+            "context" : "...Thomas Richard Underwood (1772–1835; DNB), <mark>watercolourist<\/mark> and geologist, who in 1795, advised Southey on...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.797.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "watercolourist",
+            "weight" : "1",
+            "pos" : 471,
+            "context" : "...Thomas Richard Underwood (1772-1835; DNB), <mark>watercolourist<\/mark> and geologist. A proprietor of the Royal Institution,...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

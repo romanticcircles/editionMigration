@@ -1,0 +1,40 @@
+
+  { "stem" : "1233",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1233",
+            "weight" : "1",
+            "pos" : 2688,
+            "context" : "Letter <mark>1233<\/mark>. 3 November 1806: Mary Barker",
+            "fid" : "3.1233" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1233.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1233",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1233<\/mark>. Robert Southey to Mary Barker [fragment], 3...",
+            "fid" : "southey.3.1233",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1233",
+            "weight" : "1",
+            "pos" : 2665,
+            "context" : "Letter <mark>1233<\/mark>. 3 November 1806: Mary Barker",
+            "fid" : "refletterlistPart3.359",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

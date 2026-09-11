@@ -1,0 +1,37 @@
+
+  { "stem" : "magicienn",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.295.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Magicienne",
+            "weight" : "1",
+            "pos" : 182,
+            "context" : "...when I saw him had the temporary command of the <mark>Magicienne<\/mark>. the Fly sloop was his own vessel. has...",
+            "fid" : "southey.2.295",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Magicienne",
+            "weight" : "1",
+            "pos" : 341,
+            "context" : "...been temporarily in command of the captured French vessel the <mark>Magicienne<\/mark>. Soon afterwards he returned to command the sloop The...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.186.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Magicienne",
+            "weight" : "1",
+            "pos" : 228,
+            "context" : "...enough to leave it. he was then commander of the <mark>Magicienne<\/mark> Frigate.7 ",
+            "fid" : "southey.1.186",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

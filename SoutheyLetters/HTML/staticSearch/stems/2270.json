@@ -1,0 +1,53 @@
+
+  { "stem" : "2270",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2270",
+            "weight" : "1",
+            "pos" : 3937,
+            "context" : "Letter <mark>2270<\/mark>. 19 June 1813: [William Wilberforce]",
+            "fid" : "4.2270" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2270.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2270",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2270<\/mark>. Robert Southey to [William Wilberforce], 19 June...",
+            "fid" : "southey.4.2270",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2281.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2270",
+            "weight" : "1",
+            "pos" : 635,
+            "context" : "...Southey to William Wilberforce, 19 June 1813 (Letter <mark>2270<\/mark>) and 14 July 1813 (Letter 2280). Back...",
+            "fid" : "14",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2270",
+            "weight" : "1",
+            "pos" : 3912,
+            "context" : "Letter <mark>2270<\/mark>. 19 June 1813: [William Wilberforce]",
+            "fid" : "refletterlistPart4.547",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,50 @@
+
+  { "stem" : "feliz",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.753.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Feliz",
+            "weight" : "1",
+            "pos" : 131,
+            "context" : " O <mark>Feliz<\/mark> Independente.13 3 vol decently bound. a prose...",
+            "fid" : "southey.2.753",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Feliz",
+            "weight" : "1",
+            "pos" : 792,
+            "context" : "....  Teodoro de Almeida (1722-1804), O <mark>Feliz<\/mark> Independente do Mundo e da Fortuna ou Arte de Viver...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2386.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "feliz",
+            "weight" : "1",
+            "pos" : 1523,
+            "context" : "...decretos, cartas regias &amp;c. promulgados no Brasil desde a <mark>feliz<\/mark> chegada do principe regente N. S. a estes estados com...",
+            "fid" : "39",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2641.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Feliz",
+            "weight" : "1",
+            "pos" : 106,
+            "context" : "...useful in assisting me to decypher the manuscript of Manoel <mark>Feliz<\/mark> de Lima the first explorer of the River Madeira,...",
+            "fid" : "southey.4.2641",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

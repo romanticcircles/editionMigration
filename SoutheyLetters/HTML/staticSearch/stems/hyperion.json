@@ -1,0 +1,50 @@
+
+  { "stem" : "hyperion",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Hyperion",
+            "weight" : "1",
+            "pos" : 2879,
+            "context" : "...the Death of John Keats, Author of Endymion, <mark>Hyperion<\/mark>, Etc (London, 1821), p. 4, though...",
+            "fid" : "19",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Hyperion",
+            "weight" : "1",
+            "pos" : 3498,
+            "context" : "...the Death of John Keats, Author of Endymion, <mark>Hyperion<\/mark>, Etc (London, 1821), p. 4, though...",
+            "fid" : "44",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4289.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hyperion",
+            "weight" : "1",
+            "pos" : 1861,
+            "context" : "...the Death of John Keats, Author of Endymion, <mark>Hyperion<\/mark>, Etc (London, 1821), p. 4, though...",
+            "fid" : "19",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3421.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hyperion",
+            "weight" : "1",
+            "pos" : 190,
+            "context" : "...&amp; call mine a Satyr,7 &amp; your own <mark>Hyperion<\/mark>,8 you are welcome. A true light is...",
+            "fid" : "southey.6.3421",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "2042",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2042",
+            "weight" : "1",
+            "pos" : 2298,
+            "context" : "Letter <mark>2042<\/mark>. 18 February 1812: Walter Scott",
+            "fid" : "4.2042" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2042.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2042",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2042<\/mark>. Robert Southey to Walter Scott, 18 February 1812...",
+            "fid" : "southey.4.2042",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2042",
+            "weight" : "1",
+            "pos" : 2275,
+            "context" : "Letter <mark>2042<\/mark>. 18 February 1812: Walter Scott",
+            "fid" : "refletterlistPart4.319",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

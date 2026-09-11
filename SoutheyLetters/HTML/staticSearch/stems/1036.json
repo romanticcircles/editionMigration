@@ -1,0 +1,40 @@
+
+  { "stem" : "1036",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1036",
+            "weight" : "1",
+            "pos" : 1203,
+            "context" : "Letter <mark>1036<\/mark>. 15 February 1805: Richard Duppa",
+            "fid" : "3.1036" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1036.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1036",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1036<\/mark>. Robert Southey to Richard Duppa, 15 February 1805...",
+            "fid" : "southey.3.1036",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1036",
+            "weight" : "1",
+            "pos" : 1182,
+            "context" : "Letter <mark>1036<\/mark>. 15 February 1805: Richard Duppa",
+            "fid" : "refletterlistPart3.160",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

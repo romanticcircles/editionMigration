@@ -1,0 +1,53 @@
+
+  { "stem" : "2355",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2355",
+            "weight" : "1",
+            "pos" : 4560,
+            "context" : "Letter <mark>2355<\/mark>. 26 December 1813: Grosvenor Charles Bedford",
+            "fid" : "4.2355" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2355.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2355",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2355<\/mark>. Robert Southey to Grosvenor Charles Bedford, 26 December...",
+            "fid" : "southey.4.2355",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2355",
+            "weight" : "1",
+            "pos" : 4535,
+            "context" : "Letter <mark>2355<\/mark>. 26 December 1813: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.632",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.partFourIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2355",
+            "weight" : "1",
+            "pos" : 1872,
+            "context" : "...that he privately renamed it the ‘Carmen Castratum’ (Letter <mark>2355<\/mark>). Furious he may have been, but he still made...",
+            "fid" : "southey.partFourIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

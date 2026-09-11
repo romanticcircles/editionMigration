@@ -1,0 +1,37 @@
+
+  { "stem" : "boi",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.560.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bois",
+            "weight" : "1",
+            "pos" : 345,
+            "context" : "...as a man of literary acquirements. his name Du <mark>Bois<\/mark>16 – I have as yet seen him but little...",
+            "fid" : "southey.2.560",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bois",
+            "weight" : "1",
+            "pos" : 905,
+            "context" : "16.  Edward Du <mark>Bois<\/mark> (1774–1850; DNB), lawyer, author...",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2744.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "bois",
+            "weight" : "1",
+            "pos" : 490,
+            "context" : "...la tête, on le leve comme une piéce de <mark>bois<\/mark>. La roideur des membres n’est pas si continuellement soutenue...",
+            "fid" : "southey.5.2744",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

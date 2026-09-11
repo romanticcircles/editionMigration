@@ -1,0 +1,37 @@
+
+  { "stem" : "woolmer",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.437.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Woolmer",
+            "weight" : "1",
+            "pos" : 218,
+            "context" : "...years back was worth nothing. Dyer,8 not <mark>Woolmer<\/mark>9 whose catalogue you have shown me. Dyer himself is...",
+            "fid" : "southey.2.437",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Woolmer",
+            "weight" : "1",
+            "pos" : 493,
+            "context" : "9.  Shirley <mark>Woolmer<\/mark> (dates unknown), an Exeter bookseller, printer and...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.406.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Woolmer",
+            "weight" : "1",
+            "pos" : 512,
+            "context" : "...Dyer (1743–1820; DNB) or Shirley <mark>Woolmer<\/mark> (fl. 1781–1831); see Southey to...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

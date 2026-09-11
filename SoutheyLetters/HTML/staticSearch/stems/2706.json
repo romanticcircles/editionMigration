@@ -1,0 +1,53 @@
+
+  { "stem" : "2706",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2706",
+            "weight" : "1",
+            "pos" : 130,
+            "context" : "Letter <mark>2706<\/mark>. 31 January 1816: John Murray",
+            "fid" : "5.2706" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2706.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2706",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2706<\/mark>. Robert Southey to John Murray, 31 January 1816...",
+            "fid" : "southey.5.2706",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2709.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2706",
+            "weight" : "1",
+            "pos" : 319,
+            "context" : "...Southey to John Murray, 31 January 1816, Letter <mark>2706<\/mark>. Southey was unable to avoid the correspondence that he...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2706",
+            "weight" : "1",
+            "pos" : 114,
+            "context" : "Letter <mark>2706<\/mark>. 31 January 1816: John Murray",
+            "fid" : "refletterlistPart5.17",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

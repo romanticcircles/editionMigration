@@ -1,0 +1,40 @@
+
+  { "stem" : "3023",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3023",
+            "weight" : "1",
+            "pos" : 2451,
+            "context" : "Letter <mark>3023<\/mark>. [10 September 1817]: Herbert Hill",
+            "fid" : "5.3023" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3023.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3023",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3023<\/mark>. Robert Southey to Herbert Hill, [10 September...",
+            "fid" : "southey.5.3023",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3023",
+            "weight" : "1",
+            "pos" : 2433,
+            "context" : "Letter <mark>3023<\/mark>.  [10 September 1817]: Herbert Hill",
+            "fid" : "refletterlistPart5.334",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

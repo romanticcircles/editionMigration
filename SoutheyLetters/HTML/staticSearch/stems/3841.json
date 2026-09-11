@@ -1,0 +1,53 @@
+
+  { "stem" : "3841",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3841",
+            "weight" : "1",
+            "pos" : 491,
+            "context" : "Letter <mark>3841<\/mark>. 20 May 1822: [Francis Chantrey]",
+            "fid" : "7.3841" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3841.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3841",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3841<\/mark>. Robert Southey to [Francis Chantrey], 20 May...",
+            "fid" : "southey.7.3841",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3842.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3841",
+            "weight" : "1",
+            "pos" : 223,
+            "context" : "...to [Francis Chantrey], 20 May 1822, Letter <mark>3841<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3841",
+            "weight" : "1",
+            "pos" : 475,
+            "context" : "Letter <mark>3841<\/mark>. 20 May 1822: [Francis Chantrey]",
+            "fid" : "refletterlistPart7.68",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

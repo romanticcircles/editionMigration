@@ -1,0 +1,63 @@
+
+  { "stem" : "stanford",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.45.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Stanford",
+            "weight" : "1",
+            "pos" : 1393,
+            "context" : "...who in 1771 had presented him to the rectory of <mark>Stanford<\/mark> (misspelt ‘Stamford’ by Southey) and the vicarage of...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Stanford",
+            "weight" : "1",
+            "pos" : 1412,
+            "context" : "...the time Southey’s letter was written. He returned to <mark>Stanford<\/mark> in 1794. One of the circle of poets gathered...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Stanford",
+            "weight" : "1",
+            "pos" : 1365,
+            "context" : "..., University of Kansas; Department of Special Collections, <mark>Stanford<\/mark> University Libraries; Tulane University Library; Victoria University Library...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1186.1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Stanford",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "...KESWICK\/ 8 MS: Department of Special Collections, <mark>Stanford<\/mark> University Libraries. ALS; 2p. (c). Unpublished. Back...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.298.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Stanford",
+            "weight" : "1",
+            "pos" : 307,
+            "context" : "..., had incurred considerable expense building a new parsonage at <mark>Stanford<\/mark>, Worcestershire, where he was Rector. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

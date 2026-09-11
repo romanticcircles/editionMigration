@@ -1,0 +1,21 @@
+
+  { "params" : 
+    [ 
+      { "searchFile" : "HTML\/search.html",
+        "recurse" : "true",
+        "linkToFragmentId" : "true",
+        "scrollToTextFragment" : "false",
+        "phrasalSearch" : "true",
+        "wildcardSearch" : "true",
+        "createContexts" : "true",
+        "resultsPerPage" : 10,
+        "minWordLength" : 2,
+        "maxKwicsToHarvest" : 5,
+        "maxKwicsToShow" : 3,
+        "totalKwicLength" : 18,
+        "kwicTruncateString" : "...",
+        "verbose" : "false",
+        "stopwordsFile" : "..\/..\/staticseachDocs\/staticSearch-1.4.7\/staticSearch-1.4.7\/xsl\/english_stopwords.txt",
+        "dictionaryFile" : "..\/..\/staticseachDocs\/staticSearch-1.4.7\/staticSearch-1.4.7\/xsl\/english_words.txt",
+        "indentJSON" : "true",
+        "outputFolder" : "staticSearch" } ] }

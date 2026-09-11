@@ -1,0 +1,40 @@
+
+  { "stem" : "3109",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3109",
+            "weight" : "1",
+            "pos" : 3084,
+            "context" : "Letter <mark>3109<\/mark>. 3 April 1818: [Benjamin Robert Haydon]...",
+            "fid" : "5.3109" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3109.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3109",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3109<\/mark>. Robert Southey to [Benjamin Robert Haydon], 3...",
+            "fid" : "southey.5.3109",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3109",
+            "weight" : "1",
+            "pos" : 3064,
+            "context" : "Letter <mark>3109<\/mark>.  3 April 1818: [Benjamin Robert Haydon]...",
+            "fid" : "refletterlistPart5.420",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

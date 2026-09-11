@@ -1,0 +1,29 @@
+
+  { "stem" : "james",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.253.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jameses",
+            "weight" : "1",
+            "pos" : 353,
+            "context" : "Address: To\/ Mr C Danvers\/ 9. St <mark>Jameses<\/mark> Place\/ Kingsdown\/ Bristol.\/ Single Stamped: RINGWOOD...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.299.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Jameses",
+            "weight" : "1",
+            "pos" : 91,
+            "context" : "Address: To\/ James Losh Esqr\/ St <mark>Jameses<\/mark> Parade\/ Bath Stamped: BRISTOL Watermark: shield,...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,42 @@
+
+  { "stem" : "genapp",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2729.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Genappe",
+            "weight" : "1",
+            "pos" : 140,
+            "context" : "3.   A brief cavalry skirmish occurred at <mark>Genappe<\/mark> on 17 June 1815, the day before the Battle...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3006.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Genappe",
+            "weight" : "1",
+            "pos" : 338,
+            "context" : "...well remembered. Yesterday walked thro Ligny, breakfasted at <mark>Genappe<\/mark>, visited the raven whom Edith saw there, so to...",
+            "fid" : "southey.5.3006",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2657.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Genappe",
+            "weight" : "1",
+            "pos" : 591,
+            "context" : "...a day to the ground at Waterloo &amp; sleep at <mark>Genappe<\/mark>, &amp; on the following day survey the ground at...",
+            "fid" : "southey.4.2657",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

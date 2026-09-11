@@ -1,0 +1,29 @@
+
+  { "stem" : "observatori",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.48.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "observatory",
+            "weight" : "1",
+            "pos" : 1534,
+            "context" : "...is unknown. The grounds of Blenheim Palace contained an <mark>observatory<\/mark> and also an obelisk commemorating the victories of John Churchill...",
+            "fid" : "12",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.577.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "observatories",
+            "weight" : "1",
+            "pos" : 194,
+            "context" : "...so loosely that an astrologer would find them no bad <mark>observatories<\/mark>, &amp; by no possible means could we keep ourselves...",
+            "fid" : "southey.2.577",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

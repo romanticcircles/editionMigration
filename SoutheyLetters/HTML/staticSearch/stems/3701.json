@@ -1,0 +1,53 @@
+
+  { "stem" : "3701",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3701",
+            "weight" : "1",
+            "pos" : 3536,
+            "context" : "Letter <mark>3701<\/mark>. 7 July 1821: William Westall ",
+            "fid" : "6.3701" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3701.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3701",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3701<\/mark>. Robert Southey to William Westall, 7 July 1821...",
+            "fid" : "southey.6.3701",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3712.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3701",
+            "weight" : "1",
+            "pos" : 729,
+            "context" : "...Southey to William Westall, 7 July 1821, Letter <mark>3701<\/mark>. Back",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3701",
+            "weight" : "1",
+            "pos" : 3516,
+            "context" : "Letter <mark>3701<\/mark>. 7 July 1821: William Westall ",
+            "fid" : "refletterlistPart6.479",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

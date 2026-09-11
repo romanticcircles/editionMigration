@@ -1,0 +1,53 @@
+
+  { "stem" : "1092",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1092",
+            "weight" : "1",
+            "pos" : 1635,
+            "context" : "Letter <mark>1092<\/mark>. 10 August 1805: Charles Watkin Williams Wynn",
+            "fid" : "3.1092" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1092.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1092",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1092<\/mark>. Robert Southey to Charles Watkin Williams Wynn, 10...",
+            "fid" : "southey.3.1092",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.987.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1092",
+            "weight" : "1",
+            "pos" : 412,
+            "context" : "...Charles Watkin Williams Wynn, 10 August 1805, Letter <mark>1092<\/mark>. Back",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1092",
+            "weight" : "1",
+            "pos" : 1614,
+            "context" : "Letter <mark>1092<\/mark>. 10 August 1805: Charles Watkin Williams Wynn",
+            "fid" : "refletterlistPart3.217",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

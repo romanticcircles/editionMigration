@@ -1,0 +1,93 @@
+
+  { "stem" : "walwein",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 6867,
+            "context" : "...le Bibliothecaire-Conservateur &amp; a Gand [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] [French]",
+            "fid" : "4.2663a" },
+          
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 6884,
+            "context" : "...le Bibliothecaire-Conservateur &amp; a Gand [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] [English translation]",
+            "fid" : "4.2663b" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 6838,
+            "context" : "...le Bibliothecaire-Conservateur &amp; a Gand [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] [French]",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 6855,
+            "context" : "...le Bibliothecaire-Conservateur &amp; a Gand [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] [English translation]",
+            "fid" : "southey.letterlistPart4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 97400,
+            "context" : "<mark>Walwein<\/mark> de Tervliet, Joseph Antoine              ",
+            "fid" : "ref.corresp.302",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "1",
+            "pos" : 146683,
+            "context" : "...)                       Walker, William Sidney (1795–1846)                 <mark>Walwein<\/mark> de Tervliet, Joseph Antoine (dates unknown)                  Ware...",
+            "fid" : "WalweindeTervliet",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663a.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "2",
+            "pos" : 12,
+            "context" : "...Bibliothecaire-Conservateur &amp; a Gand, [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] 24 October 1815 [French]*...",
+            "fid" : "southey.4.2663a",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2663b.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Walwein",
+            "weight" : "2",
+            "pos" : 12,
+            "context" : "...Bibliothecaire-Conservateur &amp; a Gand, [Joseph Antoine <mark>Walwein<\/mark> de Tervliet] 24 October 1815 [English translation]...",
+            "fid" : "southey.4.2663b",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

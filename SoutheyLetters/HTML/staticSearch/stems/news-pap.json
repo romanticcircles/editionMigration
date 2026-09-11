@@ -1,0 +1,42 @@
+
+  { "stem" : "news-pap",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.234.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "news-paper",
+            "weight" : "1",
+            "pos" : 327,
+            "context" : "...one nuisance — the notorious old Lady Strathmore6 of <mark>news-paper<\/mark> &amp; Doctors Commons reputation — who persecutes us with invitations...",
+            "fid" : "southey.1.234",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.267.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "news-paper",
+            "weight" : "1",
+            "pos" : 164,
+            "context" : " I saw Bullers death3 in the <mark>news-paper<\/mark>. — it surprized me. we are accustomed to think...",
+            "fid" : "southey.1.267",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.506.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "news-paper",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "...&amp; I have for some months ceased writing for the <mark>news-paper<\/mark>,1 owing to inability from ill-health....",
+            "fid" : "southey.2.506",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

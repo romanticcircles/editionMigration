@@ -1,0 +1,53 @@
+
+  { "stem" : "3535",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3535",
+            "weight" : "1",
+            "pos" : 2286,
+            "context" : "Letter <mark>3535<\/mark>. 8 October [1820]: Grosvenor Charles Bedford ",
+            "fid" : "6.3535" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3535.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3535",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3535<\/mark>. Robert Southey to Grosvenor Charles Bedford, 8 October...",
+            "fid" : "southey.6.3535",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3537.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3535",
+            "weight" : "1",
+            "pos" : 284,
+            "context" : "...Grosvenor Charles Bedford, 8 October [1820], Letter <mark>3535<\/mark>. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3535",
+            "weight" : "1",
+            "pos" : 2268,
+            "context" : "Letter <mark>3535<\/mark>. 8 October [1820]: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.311",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

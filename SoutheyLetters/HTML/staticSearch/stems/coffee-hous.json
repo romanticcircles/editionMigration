@@ -1,0 +1,61 @@
+
+  { "stem" : "coffee-hous",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.229.1.html",
+        "score" : 5,
+        "contexts" : 
+        [ 
+          { "form" : "Coffee-house",
+            "weight" : "1",
+            "pos" : 16,
+            "context" : "...   .        I went to the Chapter <mark>Coffee-house<\/mark> Club. 1 A man read an essay upon the...",
+            "fid" : "southey.1.229.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Coffee-house",
+            "weight" : "1",
+            "pos" : 198,
+            "context" : "1.  Chapter <mark>Coffee-house<\/mark> in Paternoster Row, near St Paul’s Cathedral in London...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Coffee-house",
+            "weight" : "1",
+            "pos" : 214,
+            "context" : "...was the site of many publishers and booksellers, the <mark>Coffee-house<\/mark> became a meeting place for writers and all those involved...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Coffee-house",
+            "weight" : "1",
+            "pos" : 233,
+            "context" : "...the wide collection of books and newspapers held at the <mark>Coffee-house<\/mark> for a small subscription. A small Club was meeting...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Coffee-house",
+            "weight" : "1",
+            "pos" : 241,
+            "context" : "...small subscription. A small Club was meeting in the <mark>Coffee-house<\/mark> at this time to discuss literary and scientific topics....",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.75.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "coffee-houses",
+            "weight" : "1",
+            "pos" : 719,
+            "context" : "8.  Favourite haunts of Oxford students, probably the <mark>coffee-houses<\/mark> run by Mary Goodwin and Joyce and Hayes, and...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

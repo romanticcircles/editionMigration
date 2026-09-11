@@ -1,0 +1,34 @@
+
+  { "stem" : "digit",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "digital",
+            "weight" : "1",
+            "pos" : 481,
+            "context" : "(c) = letter transcribed and checked from a <mark>digital<\/mark> scan, photograph or photocopy of the manuscript",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "digital",
+            "weight" : "1",
+            "pos" : 1997,
+            "context" : "...Consortium to ensure archival preservation. Laura Mandell created the <mark>digital<\/mark> edition website, writing programs to transform the TEI files...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendices.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "digital",
+            "weight" : "1",
+            "pos" : 18,
+            "context" : "...that differ from the manuscript versions published here in this <mark>digital<\/mark> edition" } ] } ] }

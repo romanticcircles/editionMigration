@@ -1,0 +1,66 @@
+
+  { "stem" : "2026",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026",
+            "weight" : "1",
+            "pos" : 2052,
+            "context" : "...Pratt (College Station, TX: Romantic Circles, <mark>2026<\/mark>).",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026",
+            "weight" : "1",
+            "pos" : 2175,
+            "context" : "Letter <mark>2026<\/mark>. [January 1812]: Grosvenor Charles Bedford",
+            "fid" : "4.2026" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2026.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2026",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2026<\/mark>. Robert Southey to Grosvenor Charles Bedford, [ January...",
+            "fid" : "southey.4.2026",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2059.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026",
+            "weight" : "1",
+            "pos" : 403,
+            "context" : "...Letter 2018) and [January 1812] (Letter <mark>2026<\/mark>). Back",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2026",
+            "weight" : "1",
+            "pos" : 2152,
+            "context" : "Letter <mark>2026<\/mark>. [January 1812]: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.301",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

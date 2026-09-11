@@ -1,0 +1,53 @@
+
+  { "stem" : "3478",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3478",
+            "weight" : "1",
+            "pos" : 1863,
+            "context" : "Letter <mark>3478<\/mark>. [6 May 1820]: [probably William Wilberforce]...",
+            "fid" : "6.3478" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3478.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3478",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3478<\/mark>. Robert Southey to [probably William Wilberforce], [6...",
+            "fid" : "southey.6.3478",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3478",
+            "weight" : "1",
+            "pos" : 1845,
+            "context" : "Letter <mark>3478<\/mark>. [6 May 1820]: [probably William Wilberforce]...",
+            "fid" : "refletterlistPart6.252",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3478",
+            "weight" : "1",
+            "pos" : 1204,
+            "context" : "...‘such indeed as almost to make me dizzy’ (Letter <mark>3478<\/mark>). The frenetic pace was captured in a letter to...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

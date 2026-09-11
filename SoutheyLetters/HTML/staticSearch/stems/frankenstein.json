@@ -1,0 +1,44 @@
+
+  { "stem" : "frankenstein",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4224.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Frankenstein",
+            "weight" : "1",
+            "pos" : 376,
+            "context" : "...she required him &lt;actually&gt;to make a man like <mark>Frankenstein<\/mark>,11 – tho it must be admitted that such...",
+            "fid" : "southey.7.4224",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Frankenstein",
+            "weight" : "1",
+            "pos" : 382,
+            "context" : "...tho it must be admitted that such a man as <mark>Frankenstein<\/mark> made, would be the best of all scare crows...",
+            "fid" : "southey.7.4224",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Frankenstein",
+            "weight" : "1",
+            "pos" : 1848,
+            "context" : "...Mary Godwin Shelley (1797–1851; DNB), <mark>Frankenstein<\/mark>; or, The Modern Prometheus (1818). Back",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Frankenstein",
+            "weight" : "1",
+            "pos" : 57973,
+            "context" : "...; their only child was Mary Godwin, author of <mark>Frankenstein<\/mark> (1818). Godwin’s Memoirs (1798) of Mary...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

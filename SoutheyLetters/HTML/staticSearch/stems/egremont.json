@@ -1,0 +1,37 @@
+
+  { "stem" : "egremont",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2704.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Egremont",
+            "weight" : "1",
+            "pos" : 92,
+            "context" : "..., – which xxx he is likely to find near <mark>Egremont<\/mark>.6 ",
+            "fid" : "southey.5.2704",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Egremont",
+            "weight" : "1",
+            "pos" : 237,
+            "context" : "..., to the east of Keswick, rather than at <mark>Egremont<\/mark>, to the west. Back",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1419.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Egremont",
+            "weight" : "1",
+            "pos" : 130,
+            "context" : "...is no physician near Whitehaven except an old apothecary at <mark>Egremont<\/mark> or thereabouts who has taken a fancy to the name...",
+            "fid" : "southey.3.1419",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

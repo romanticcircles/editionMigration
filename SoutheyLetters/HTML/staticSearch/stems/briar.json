@@ -1,0 +1,50 @@
+
+  { "stem" : "briar",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.726.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Briarly",
+            "weight" : "1",
+            "pos" : 756,
+            "context" : "...the battle of Copenhagen,5 drawn by Alex. <mark>Briarly<\/mark>,6 Master of the Bellona, to which Tom...",
+            "fid" : "southey.2.726",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Briarly",
+            "weight" : "1",
+            "pos" : 862,
+            "context" : "6.  Alexander <mark>Briarly<\/mark> (dates unknown), Master on the Bellona. He...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.127.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "briar",
+            "weight" : "1",
+            "pos" : 302,
+            "context" : "...haven welcomes the drear sceneThe marshy plain, the <mark>briar<\/mark>-entangled woodAnd all the perils of a world...",
+            "fid" : "line56",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.788.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Briarly",
+            "weight" : "1",
+            "pos" : 614,
+            "context" : "...up by an ex-shipmate of Tom’s, Alexander <mark>Briarly<\/mark> (dates unknown). See Southey to Grosvenor Charles Bedford...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

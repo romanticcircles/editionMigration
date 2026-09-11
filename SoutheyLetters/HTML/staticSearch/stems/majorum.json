@@ -1,0 +1,37 @@
+
+  { "stem" : "majorum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2020.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Majorum",
+            "weight" : "1",
+            "pos" : 214,
+            "context" : "...which may be serviceable to you. It contains – Notitia <mark>Majorum<\/mark>, – Plurimas Lubecensium aliorum q clarorum virorum, de...",
+            "fid" : "southey.4.2020",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Majorum",
+            "weight" : "1",
+            "pos" : 692,
+            "context" : "...published widely on his native city, Lübeck. Notitia <mark>Majorum<\/mark>, Plurimas Lubecensium aliorumque Clarorum Virorum de Ecclesia, Republica...",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2512.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "majorum",
+            "weight" : "1",
+            "pos" : 38,
+            "context" : "...expected to bring forth a New Years Ode more nefasto <mark>majorum<\/mark>,1 or not, I am altogether ignorant. Last...",
+            "fid" : "southey.4.2512",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

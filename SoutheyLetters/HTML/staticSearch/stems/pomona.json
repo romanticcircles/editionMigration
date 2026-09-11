@@ -1,0 +1,37 @@
+
+  { "stem" : "pomona",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.186.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Pomona",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : " what is the name of the Lieutenant of the <mark>Pomona<\/mark> who has orderd Joan of Arc? 2 tis a...",
+            "fid" : "southey.1.186",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Pomona",
+            "weight" : "1",
+            "pos" : 347,
+            "context" : "2.  The <mark>Pomona<\/mark> was a frigate in the British navy. The name...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.50.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Pomona",
+            "weight" : "1",
+            "pos" : 81,
+            "context" : "Hail June. expectant of the gifts<mark>Pomona<\/mark>1 from her viney bowerBenign pours forth, a...",
+            "fid" : "line18",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

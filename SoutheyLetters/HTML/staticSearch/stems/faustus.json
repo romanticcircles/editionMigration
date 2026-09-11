@@ -1,0 +1,37 @@
+
+  { "stem" : "faustus",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.486.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Faustus",
+            "weight" : "1",
+            "pos" : 506,
+            "context" : " I should have been glad of your Dr <mark>Faustus<\/mark>.16 in general these Beelzebub stories require a mixture...",
+            "fid" : "southey.2.486",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Faustus",
+            "weight" : "1",
+            "pos" : 954,
+            "context" : "16.  William Taylor’s unfinished ballad on Dr <mark>Faustus<\/mark>, the legendary German who made a pact with the...",
+            "fid" : "16",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1566.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Faustus",
+            "weight" : "1",
+            "pos" : 1063,
+            "context" : "20.   Based on the teachings of <mark>Faustus<\/mark> Socinus (1539–1604) who rejected traditional Christian...",
+            "fid" : "20",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "bow-begum",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.284.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Bow-Begum",
+            "weight" : "1",
+            "pos" : 256,
+            "context" : "...of a ludicrous nature, like the notorious history of <mark>Bow-Begum<\/mark>.11 ere long I will send you a specimen...",
+            "fid" : "southey.2.284",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bow-Begum",
+            "weight" : "1",
+            "pos" : 588,
+            "context" : "11.  <mark>Bow-Begum<\/mark> was a dog owned by the Bedfords, whose story...",
+            "fid" : "11",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3868.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bow-Begum",
+            "weight" : "1",
+            "pos" : 379,
+            "context" : "1.  Snivel and the <mark>Bow-Begum<\/mark> were dogs owned by Bedford. The joint letter to...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

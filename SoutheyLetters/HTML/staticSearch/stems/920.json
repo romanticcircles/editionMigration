@@ -1,0 +1,52 @@
+
+  { "stem" : "920",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "920",
+            "weight" : "1",
+            "pos" : 141814,
+            "context" : "...the Highlands of Scotland, including the Caledonian Canal, <mark>920<\/mark> miles of new roads, over 1,000 new bridges and...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart3",
+        "docUri" : "Part_Three\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "920",
+            "weight" : "1",
+            "pos" : 332,
+            "context" : "Letter <mark>920<\/mark>. 3 April 1804: Mary Barker",
+            "fid" : "3.920" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.920.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "920",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>920<\/mark>. Robert Southey to Mary Barker, 3 April 1804...",
+            "fid" : "southey.3.920",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.letterlistPart3.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "920",
+            "weight" : "1",
+            "pos" : 313,
+            "context" : "Letter <mark>920<\/mark>. 3 April 1804: Mary Barker",
+            "fid" : "refletterlistPart3.44",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

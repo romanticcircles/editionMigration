@@ -1,0 +1,37 @@
+
+  { "stem" : "anacreont",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.333.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Anacreontic",
+            "weight" : "1",
+            "pos" : 62,
+            "context" : "...made two syllables to be stand at the in an <mark>Anacreontic<\/mark> as one.",
+            "fid" : "southey.2.333",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘Anacreontic",
+            "weight" : "1",
+            "pos" : 501,
+            "context" : "4.  Published anonymously as <mark>‘Anacreontic<\/mark>. From Villegas’ in the Morning Post, 20 July...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.208.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Anacreontic",
+            "weight" : "1",
+            "pos" : 162,
+            "context" : "...been translated.10 The following is attempted in the <mark>Anacreontic<\/mark> metre of the original, varying, however, the...",
+            "fid" : "southey.1.208",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

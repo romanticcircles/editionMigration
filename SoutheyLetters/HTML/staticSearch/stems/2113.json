@@ -1,0 +1,53 @@
+
+  { "stem" : "2113",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2113",
+            "weight" : "1",
+            "pos" : 2809,
+            "context" : "Letter <mark>2113<\/mark>. 10 June 1812: [John Wilson Croker]...",
+            "fid" : "4.2113" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2113.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2113",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2113<\/mark>. Robert Southey to [John Wilson Croker], 10...",
+            "fid" : "southey.4.2113",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2218.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2113",
+            "weight" : "1",
+            "pos" : 588,
+            "context" : "...to John Wilson Croker, 10 June 1812, Letter <mark>2113<\/mark>. Back",
+            "fid" : "7",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2113",
+            "weight" : "1",
+            "pos" : 2786,
+            "context" : "Letter <mark>2113<\/mark>. 10 June 1812: [John Wilson Croker]...",
+            "fid" : "refletterlistPart4.390",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

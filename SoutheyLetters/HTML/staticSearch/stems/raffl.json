@@ -1,0 +1,36 @@
+
+  { "stem" : "raffl",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2849.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Raffles",
+            "weight" : "1",
+            "pos" : 45,
+            "context" : "...Gooch some months ago to revise a great book by <mark>Raffles<\/mark> upon the island of Java before it goes to press...",
+            "fid" : "southey.5.2849",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Raffles",
+            "weight" : "1",
+            "pos" : 567,
+            "context" : "2.  Sir Thomas Stamford <mark>Raffles<\/mark> (1781–1826; DNB), founder of Singapore...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Raffles",
+            "weight" : "1",
+            "pos" : 61182,
+            "context" : "...London tea merchant, he was a cousin of Stamford <mark>Raffles<\/mark> (1781–1826; DNB), colonial administrator and...",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "608",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1731.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "608",
+            "weight" : "1",
+            "pos" : 413,
+            "context" : ".... The last proof of the History reached to page <mark>608<\/mark>. ",
+            "fid" : "southey.4.1731",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "608",
+            "weight" : "1",
+            "pos" : 2521,
+            "context" : "Letter <mark>608<\/mark>. 29 September 1801: Grosvenor Charles Bedford",
+            "fid" : "2.608" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.608.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "608",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>608<\/mark>. Robert Southey to Grosvenor Charles Bedford, 29 September...",
+            "fid" : "southey.2.608",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "608",
+            "weight" : "1",
+            "pos" : 2496,
+            "context" : "Letter <mark>608<\/mark>. 29 September 1801: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart2.331",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

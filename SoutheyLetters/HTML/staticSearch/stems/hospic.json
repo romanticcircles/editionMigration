@@ -1,0 +1,37 @@
+
+  { "stem" : "hospic",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3005.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "hospice",
+            "weight" : "1",
+            "pos" : 924,
+            "context" : "...building for travellers to take shelter, known as the <mark>hospice<\/mark>. It contained an album in which visitors could write...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "hospice",
+            "weight" : "1",
+            "pos" : 957,
+            "context" : ".... The recommended route included an overnight stay in the <mark>hospice<\/mark> on Montanvert before tackling the Glacier du Talèfre. John...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3134.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hospice",
+            "weight" : "1",
+            "pos" : 192,
+            "context" : "3.  The monks at the <mark>hospice<\/mark> of St Bernard, in the Alpine pass of that...",
+            "fid" : "3",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

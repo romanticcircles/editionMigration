@@ -1,0 +1,40 @@
+
+  { "stem" : "2343",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2343",
+            "weight" : "1",
+            "pos" : 4470,
+            "context" : "Letter <mark>2343<\/mark>. 9 December 1813: Charles Danvers",
+            "fid" : "4.2343" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2343.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2343",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2343<\/mark>. Robert Southey to Charles Danvers, 9 December 1813...",
+            "fid" : "southey.4.2343",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2343",
+            "weight" : "1",
+            "pos" : 4445,
+            "context" : "Letter <mark>2343<\/mark>. 9 December 1813: Charles Danvers",
+            "fid" : "refletterlistPart4.620",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "aruspini",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.520.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Aruspini",
+            "weight" : "1",
+            "pos" : 557,
+            "context" : ".... the Post Office cannot put this on. No. said <mark>Aruspini<\/mark>8 – but I do.",
+            "fid" : "southey.2.520",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Aruspini",
+            "weight" : "1",
+            "pos" : 877,
+            "context" : "8.  Don Raimundo <mark>Aruspini<\/mark> (dates unknown), Captain of the Spanish packet on...",
+            "fid" : "8",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.522.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Aruspini",
+            "weight" : "1",
+            "pos" : 938,
+            "context" : "10.  Don Raimundo <mark>Aruspini<\/mark> (dates unknown),Captain of the Spanish packet on...",
+            "fid" : "10",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,37 @@
+
+  { "stem" : "testoon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.519.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "testoon",
+            "weight" : "1",
+            "pos" : 296,
+            "context" : "...jargon Portugueze upon him – at the expence of a <mark>testoon<\/mark>5 for my lesson.",
+            "fid" : "southey.2.519",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "testoons",
+            "weight" : "1",
+            "pos" : 851,
+            "context" : "5.  A Portuguese coin; four <mark>testoons<\/mark> made a cruzado, the highest unit of currency....",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.577.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "testoons",
+            "weight" : "1",
+            "pos" : 716,
+            "context" : "...one else knowing how – except that they gave six <mark>testoons<\/mark> a bottle for all the Port wine in the place...",
+            "fid" : "southey.2.577",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

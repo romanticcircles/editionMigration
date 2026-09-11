@@ -1,0 +1,40 @@
+
+  { "stem" : "2741",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart5",
+        "docUri" : "Part_Five\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2741",
+            "weight" : "1",
+            "pos" : 384,
+            "context" : "Letter <mark>2741<\/mark>. 19 March 1816 Mary Matilda Betham",
+            "fid" : "5.2741" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.2741.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2741",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2741<\/mark>. Robert Southey to Mary Matilda Betham, 19 March...",
+            "fid" : "southey.5.2741",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.letterlistPart5.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2741",
+            "weight" : "1",
+            "pos" : 368,
+            "context" : "Letter <mark>2741<\/mark>. 19 March 1816 Mary Matilda Betham",
+            "fid" : "refletterlistPart5.52",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,53 @@
+
+  { "stem" : "2053",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2053",
+            "weight" : "1",
+            "pos" : 2382,
+            "context" : "Letter <mark>2053<\/mark>. 5 March 1812: Henry Herbert Southey",
+            "fid" : "4.2053" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2053.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2053",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2053<\/mark>. Robert Southey to Henry Herbert Southey, 5 March...",
+            "fid" : "southey.4.2053",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2057.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2053",
+            "weight" : "1",
+            "pos" : 467,
+            "context" : "...to Henry Herbert Southey, 5 March 1812, Letter <mark>2053<\/mark>. Back",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2053",
+            "weight" : "1",
+            "pos" : 2359,
+            "context" : "Letter <mark>2053<\/mark>. 5 March 1812: Henry Herbert Southey",
+            "fid" : "refletterlistPart4.330",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

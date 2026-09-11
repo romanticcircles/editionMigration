@@ -1,0 +1,105 @@
+
+  { "stem" : "feltham",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.306.1.html",
+        "score" : 6,
+        "contexts" : 
+        [ 
+          { "form" : "Feltham",
+            "weight" : "2",
+            "pos" : 5,
+            "context" : "306.1 Robert Southey to John <mark>Feltham<\/mark> [fragment], 14 April 1798*",
+            "fid" : "ref2.306.1.1",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "MS: Untraced; text is taken from John <mark>Feltham<\/mark>, A Tour Through the Island of Mann (1798...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 35,
+            "context" : "...Island of Mann (1798) Previously published: John <mark>Feltham<\/mark>, A Tour Through the Island of Mann, In...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 64,
+            "context" : "...sentence, extracted from a letter sent by Southey to <mark>Feltham<\/mark> and included in the latter’s Tour. Feltham’s publisher was...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Feltham’s",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "...Southey to Feltham and included in the latter’s Tour. <mark>Feltham’s<\/mark> publisher was Richard Cruttwell, who had also issued Southey...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/people.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 50991,
+            "context" : "...)                    Feldborg, Andreas Andersen (1782–1838)                                   <mark>Feltham<\/mark>, John (c. 1770–c. 1813)                 Fisher, Henry...",
+            "fid" : "FelthamJohn",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 51007,
+            "context" : "...number of guide books and descriptions of his travels. <mark>Feltham<\/mark> corresponded briefly with Southey about his A Tour Through the...",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/corresp.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 30336,
+            "context" : "<mark>Feltham<\/mark>, John             ",
+            "fid" : "ref.corresp.105",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "southey.letterlistPart2",
+        "docUri" : "Part_Two\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 224,
+            "context" : "Letter 306.1. 14 April 1798: John <mark>Feltham<\/mark>",
+            "fid" : "2.306.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.letterlistPart2.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Feltham",
+            "weight" : "1",
+            "pos" : 205,
+            "context" : "Letter 306.1. 14 April 1798: John <mark>Feltham<\/mark>",
+            "fid" : "southey.letterlistPart2",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

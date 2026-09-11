@@ -1,0 +1,53 @@
+
+  { "stem" : "3280",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3280",
+            "weight" : "1",
+            "pos" : 389,
+            "context" : "Letter <mark>3280<\/mark>. 9 April 1819: Grosvenor Charles Bedford ",
+            "fid" : "6.3280" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3280.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3280",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3280<\/mark>. Robert Southey to Grosvenor Charles Bedford, 9 April...",
+            "fid" : "southey.6.3280",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3280",
+            "weight" : "1",
+            "pos" : 373,
+            "context" : "Letter <mark>3280<\/mark>. 9 April 1819: Grosvenor Charles Bedford ",
+            "fid" : "refletterlistPart6.53",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.674.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3280",
+            "weight" : "1",
+            "pos" : 182,
+            "context" : "...Corpus Illustrium Poetarum Lusitanorum (1745-1748), no. <mark>3280<\/mark> in the sale catalogue of Southey’s library. Back",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

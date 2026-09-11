@@ -1,0 +1,42 @@
+
+  { "stem" : "tulan",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "paratext\/about.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tulane",
+            "weight" : "1",
+            "pos" : 1368,
+            "context" : "...; Department of Special Collections, Stanford University Libraries; <mark>Tulane<\/mark> University Library; Victoria University Library, Toronto; the...",
+            "fid" : "about",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.85.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tulane",
+            "weight" : "1",
+            "pos" : 1141,
+            "context" : "...R Southey to R Lovell MS: Special Collections, <mark>Tulane<\/mark> University Libraries, Manuscripts Collection M 1105. ALS;...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.430.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Tulane",
+            "weight" : "1",
+            "pos" : 275,
+            "context" : "Endorsement: (106) 51 MS: <mark>Tulane<\/mark> University Libraries, Manuscripts Collection M 1104. ALS;...",
+            "fid" : "headnote",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

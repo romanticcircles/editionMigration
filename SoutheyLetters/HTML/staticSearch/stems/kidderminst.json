@@ -1,0 +1,51 @@
+
+  { "stem" : "kidderminst",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.45.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Kidderminster",
+            "weight" : "1",
+            "pos" : 614,
+            "context" : "...staid three days — I rode with Mr Severne to <mark>Kidderminster<\/mark> with intent to breakfast at Mr Butts but all the...",
+            "fid" : "southey.1.45",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Kidderminster",
+            "weight" : "1",
+            "pos" : 1405,
+            "context" : "...Butt was presented by Lord Foley to the vicarage of <mark>Kidderminster<\/mark>, and was living there at the time Southey’s letter...",
+            "fid" : "9",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "paratext\/appendix1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Kidderminster",
+            "weight" : "1",
+            "pos" : 769,
+            "context" : " I have since visited Abberley, Bewdley, <mark>Kidderminster<\/mark>, and Malvern, each well worth seeing; but...",
+            "fid" : "app.1.A",
+            "in" : 
+            [ "ssCtx2",
+              "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.46.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Kidderminster",
+            "weight" : "1",
+            "pos" : 233,
+            "context" : " I have since visited Abberley Bewdley <mark>Kidderminster<\/mark> &amp; Malvern each well worth seeing but it is difficult...",
+            "fid" : "southey.1.46",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

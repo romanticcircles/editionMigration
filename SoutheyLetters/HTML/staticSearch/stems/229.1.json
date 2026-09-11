@@ -1,0 +1,53 @@
+
+  { "stem" : "229.1",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart1",
+        "docUri" : "Part_One\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "229.1",
+            "weight" : "1",
+            "pos" : 1852,
+            "context" : "Letter <mark>229.1<\/mark>. [late June 1797?]: Samuel Taylor Coleridge ",
+            "fid" : "1.229.1" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.229.1.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "229.1",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>229.1<\/mark> Robert Southey to Samuel Taylor Coleridge [fragment], [...",
+            "fid" : "southey.1.229.1",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.letterlistPart1.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "229.1",
+            "weight" : "1",
+            "pos" : 1820,
+            "context" : "Letter <mark>229.1<\/mark>. [late June 1797?]: Samuel Taylor Coleridge ",
+            "fid" : "refletterlistPart1.230",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.partOneIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "229.1",
+            "weight" : "1",
+            "pos" : 409,
+            "context" : "...in the fragmentary version published by Cuthbert Southey (Letter <mark>229.1<\/mark>). 4 The result is an imbalance of information....",
+            "fid" : "southey.partOneIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

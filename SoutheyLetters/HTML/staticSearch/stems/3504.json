@@ -1,0 +1,40 @@
+
+  { "stem" : "3504",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3504",
+            "weight" : "1",
+            "pos" : 2066,
+            "context" : "Letter <mark>3504<\/mark>. 3 July 1820: John May ",
+            "fid" : "6.3504" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3504.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3504",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3504<\/mark>. Robert Southey to John May, 3 July 1820...",
+            "fid" : "southey.6.3504",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3504",
+            "weight" : "1",
+            "pos" : 2048,
+            "context" : "Letter <mark>3504<\/mark>. 3 July 1820: John May ",
+            "fid" : "refletterlistPart6.280",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

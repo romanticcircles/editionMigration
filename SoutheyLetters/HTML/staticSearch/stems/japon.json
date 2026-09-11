@@ -1,0 +1,37 @@
+
+  { "stem" : "japon",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3907.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Japon",
+            "weight" : "1",
+            "pos" : 66,
+            "context" : "...Da S Francisco en las Islas Philipinas, China, <mark>Japon<\/mark> &amp;c2 – printed in their Convent at Manila from...",
+            "fid" : "southey.7.3907",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Japon",
+            "weight" : "1",
+            "pos" : 463,
+            "context" : "...P. S. Francisco en las Islas Philipinas, China, <mark>Japon<\/mark> &amp;c (1738–1744), no. 3569 in the...",
+            "fid" : "2",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.696.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Japon",
+            "weight" : "1",
+            "pos" : 471,
+            "context" : "...4.  Possibly Histoire de ce qui passé au Royaume du <mark>Japon<\/mark> en 1625-6-7 (1633), no 1337 in the...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,42 @@
+
+  { "stem" : "boiler",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Five\/southey.5.3067.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Boilers’",
+            "weight" : "1",
+            "pos" : 609,
+            "context" : "...succeeded in locating the wreck on a ‘shoal called The <mark>Boilers’<\/mark>, near Puerta de la Plata. Phips received a...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.596.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "boiler",
+            "weight" : "1",
+            "pos" : 127,
+            "context" : "...be sold most advantageously. for the kitchen grate &amp; <mark>boiler<\/mark> Mrs what is her name there – of whom they...",
+            "fid" : "southey.2.596",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.672.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "boiler",
+            "weight" : "1",
+            "pos" : 172,
+            "context" : "...kitchen grate which we bought of her, together with the <mark>boiler<\/mark>. there was a silver pepper box – but it...",
+            "fid" : "southey.2.672",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

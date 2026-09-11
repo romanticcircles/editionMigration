@@ -1,0 +1,40 @@
+
+  { "stem" : "2157",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2157",
+            "weight" : "1",
+            "pos" : 3122,
+            "context" : "Letter <mark>2157<\/mark>. [10 October 1812]: William Peachy",
+            "fid" : "4.2157" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2157.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2157",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2157<\/mark>. Robert Southey to William Peachy, [ 10 October...",
+            "fid" : "southey.4.2157",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2157",
+            "weight" : "1",
+            "pos" : 3099,
+            "context" : "Letter <mark>2157<\/mark>. [10 October 1812]: William Peachy",
+            "fid" : "refletterlistPart4.434",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "1935",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1935",
+            "weight" : "1",
+            "pos" : 1517,
+            "context" : "Letter <mark>1935<\/mark>. 11 June 1811: Grosvenor Charles Bedford",
+            "fid" : "4.1935" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.1935.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "1935",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>1935<\/mark>. Robert Southey to Grosvenor Charles Bedford, 11 June...",
+            "fid" : "southey.4.1935",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1935",
+            "weight" : "1",
+            "pos" : 1496,
+            "context" : "Letter <mark>1935<\/mark>. 11 June 1811: Grosvenor Charles Bedford",
+            "fid" : "refletterlistPart4.210",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

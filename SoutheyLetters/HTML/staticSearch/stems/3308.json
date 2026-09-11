@@ -1,0 +1,40 @@
+
+  { "stem" : "3308",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3308",
+            "weight" : "1",
+            "pos" : 597,
+            "context" : "Letter <mark>3308<\/mark>. 3 June 1819: [John Morrison] ",
+            "fid" : "6.3308" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3308.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3308",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3308<\/mark>. Robert Southey to [John Morrison], 3 June...",
+            "fid" : "southey.6.3308",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3308",
+            "weight" : "1",
+            "pos" : 581,
+            "context" : "Letter <mark>3308<\/mark>. 3 June 1819: [John Morrison] ",
+            "fid" : "refletterlistPart6.81",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

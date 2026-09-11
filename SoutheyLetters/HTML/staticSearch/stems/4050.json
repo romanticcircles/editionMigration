@@ -1,0 +1,40 @@
+
+  { "stem" : "4050",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart7",
+        "docUri" : "Part_Seven\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4050",
+            "weight" : "1",
+            "pos" : 2025,
+            "context" : "Letter <mark>4050<\/mark>. 2 August 1823: John May",
+            "fid" : "7.4050" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.4050.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "4050",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>4050<\/mark>. Robert Southey to John May, 2 August 1823...",
+            "fid" : "southey.7.4050",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.letterlistPart7.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "4050",
+            "weight" : "1",
+            "pos" : 2007,
+            "context" : "Letter <mark>4050<\/mark>. 2 August 1823: John May",
+            "fid" : "refletterlistPart7.277",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

@@ -1,0 +1,40 @@
+
+  { "stem" : "2038",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart4",
+        "docUri" : "Part_Four\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2038",
+            "weight" : "1",
+            "pos" : 2270,
+            "context" : "Letter <mark>2038<\/mark>. 13 February 1812: William Peachy",
+            "fid" : "4.2038" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2038.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "2038",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>2038<\/mark>. Robert Southey to William Peachy, 13 February 1812...",
+            "fid" : "southey.4.2038",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.letterlistPart4.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "2038",
+            "weight" : "1",
+            "pos" : 2247,
+            "context" : "Letter <mark>2038<\/mark>. 13 February 1812: William Peachy",
+            "fid" : "refletterlistPart4.315",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

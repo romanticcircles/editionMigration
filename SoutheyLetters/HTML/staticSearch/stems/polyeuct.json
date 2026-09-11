@@ -1,0 +1,37 @@
+
+  { "stem" : "polyeuct",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.374.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Polyeucte",
+            "weight" : "1",
+            "pos" : 275,
+            "context" : "...are mixed with much nonsense. the best is Corneilles <mark>Polyeucte<\/mark>.5 in English we have the bad ones from...",
+            "fid" : "southey.2.374",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Polyeucte",
+            "weight" : "1",
+            "pos" : 498,
+            "context" : "5.  Pierre Corneille (1606–1684), <mark>Polyeucte<\/mark> (1643), centred on the martyrdom of St Polyeuctus...",
+            "fid" : "5",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.548.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Polyeucte",
+            "weight" : "1",
+            "pos" : 1032,
+            "context" : "...), French playwright. His two ‘martyr-tragedies’ were <mark>Polyeucte<\/mark> (1643), about St Polyeuctus (d. 259); and...",
+            "fid" : "6",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

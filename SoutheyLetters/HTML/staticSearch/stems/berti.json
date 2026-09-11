@@ -1,0 +1,45 @@
+
+  { "stem" : "berti",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.788.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Bertie",
+            "weight" : "1",
+            "pos" : 307,
+            "context" : " Your old Skipper <mark>Bertie<\/mark>13 has got a ship then in spite of your...",
+            "fid" : "southey.2.788",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Bertie",
+            "weight" : "1",
+            "pos" : 774,
+            "context" : "13.  Sir Thomas <mark>Bertie<\/mark> (1758-1825; DNB). Tom Southey had...",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] },
+          
+          { "form" : "Bertie",
+            "weight" : "1",
+            "pos" : 781,
+            "context" : "...; DNB). Tom Southey had served under him when <mark>Bertie<\/mark> was Captain of HMS Bellona in 1801-1802....",
+            "fid" : "13",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.43.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bertie",
+            "weight" : "1",
+            "pos" : 1694,
+            "context" : "23.  Willoughby <mark>Bertie<\/mark>, 4th Earl of Abingdon (d. 1799). Back...",
+            "fid" : "23",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

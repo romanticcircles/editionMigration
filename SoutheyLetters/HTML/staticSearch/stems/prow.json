@@ -1,0 +1,37 @@
+
+  { "stem" : "prow",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.568.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "prow",
+            "weight" : "1",
+            "pos" : 18,
+            "context" : "...no delay in answering them. Book 11 – 439 – <mark>prow<\/mark> may be used for heel. – “Treasure-house...",
+            "fid" : "southey.2.568",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "‘prow’",
+            "weight" : "1",
+            "pos" : 425,
+            "context" : "...Destroyer (1801): Book 11, line 439, <mark>‘prow’<\/mark>; Book 12, line 484 ‘Treasure-house’....",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_One\/southey.1.242.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "prow",
+            "weight" : "1",
+            "pos" : 367,
+            "context" : "..., who leads them on, puts her breast against the <mark>prow<\/mark> of Gama’s ship, and thus thrusts it off. In...",
+            "fid" : "southey.1.242",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

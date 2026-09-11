@@ -1,0 +1,29 @@
+
+  { "stem" : "stockbrok",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2240.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "stockbroker",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : "...Gray’s Inn, London, probably a relative of the <mark>stockbroker<\/mark>. It is possible that both these men were relatives...",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Seven\/southey.7.3852.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "stockbroker",
+            "weight" : "1",
+            "pos" : 395,
+            "context" : "...Ricardo (1772–1823; DNB), the former <mark>stockbroker<\/mark>, classical economist and reformer, MP for Portarlington 1819...",
+            "fid" : "1",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

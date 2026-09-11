@@ -1,0 +1,53 @@
+
+  { "stem" : "3761",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3761",
+            "weight" : "1",
+            "pos" : 3979,
+            "context" : "Letter <mark>3761<\/mark>. 12 December 1821: Henry Herbert Southey ",
+            "fid" : "6.3761" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3761.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3761",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3761<\/mark>. Robert Southey to Henry Herbert Southey, 12 December...",
+            "fid" : "southey.6.3761",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3761",
+            "weight" : "1",
+            "pos" : 3959,
+            "context" : "Letter <mark>3761<\/mark>. 12 December 1821: Henry Herbert Southey ",
+            "fid" : "refletterlistPart6.540",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.partSixIntro.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3761",
+            "weight" : "1",
+            "pos" : 795,
+            "context" : "...plenty of ‘good books’ for Southey to devour (Letters <mark>3761<\/mark> and 3710). As winter set in, the front door...",
+            "fid" : "southey.partSixIntro",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }

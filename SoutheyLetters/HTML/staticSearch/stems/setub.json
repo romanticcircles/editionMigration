@@ -1,0 +1,50 @@
+
+  { "stem" : "setub",
+    "instances" : 
+    [ 
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.529.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Setubal",
+            "weight" : "1",
+            "pos" : 168,
+            "context" : "...gives as follows: Coimbra 12,000; Oporto 50,000; <mark>Setubal<\/mark> from 11 to 12,000; the district of Setubal including...",
+            "fid" : "southey.2.529",
+            "in" : 
+            [ "ssCtx1" ] },
+          
+          { "form" : "Setubal",
+            "weight" : "1",
+            "pos" : 172,
+            "context" : "...; Setubal from 11 to 12,000; the district of <mark>Setubal<\/mark> including the city, 20,000.",
+            "fid" : "southey.2.529",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Four\/southey.4.2426.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Setubal",
+            "weight" : "1",
+            "pos" : 274,
+            "context" : "...that it is not safe to go from Lisbon to <mark>Setubal<\/mark> without a guard. ",
+            "fid" : "southey.4.2426",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Two\/southey.2.577.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Setubal",
+            "weight" : "1",
+            "pos" : 59,
+            "context" : "...be found, &amp; these same beasts carried us to <mark>Setubal<\/mark>, which we did not reach till night. the...",
+            "fid" : "southey.2.577",
+            "in" : 
+            [ "ssCtx1" ] } ] } ] }

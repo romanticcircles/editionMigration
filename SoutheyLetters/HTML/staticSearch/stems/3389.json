@@ -1,0 +1,53 @@
+
+  { "stem" : "3389",
+    "instances" : 
+    [ 
+      { "docId" : "southey.letterlistPart6",
+        "docUri" : "Part_Six\/index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3389",
+            "weight" : "1",
+            "pos" : 1213,
+            "context" : "Letter <mark>3389<\/mark>. 16 November 1819: Henry Koster ",
+            "fid" : "6.3389" } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.6.3389.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "3389",
+            "weight" : "2",
+            "pos" : 1,
+            "context" : "<mark>3389<\/mark>. Robert Southey to Henry Koster, 16 November 1819...",
+            "fid" : "southey.6.3389",
+            "in" : 
+            [ "ssCtx1" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Six\/southey.letterlistPart6.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3389",
+            "weight" : "1",
+            "pos" : 1197,
+            "context" : "Letter <mark>3389<\/mark>. 16 November 1819: Henry Koster ",
+            "fid" : "refletterlistPart6.163",
+            "in" : 
+            [ "ssCtx2" ] } ] },
+      
+      { "docId" : "idno",
+        "docUri" : "Part_Three\/southey.3.1040.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "3389",
+            "weight" : "1",
+            "pos" : 221,
+            "context" : "...), both of which Southey owned. They were nos <mark>3389<\/mark> and 3390 in the sale catalogue of his library....",
+            "fid" : "4",
+            "in" : 
+            [ "ssCtx2" ] } ] } ] }
